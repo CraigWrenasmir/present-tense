@@ -1,6 +1,6 @@
 {
  "day": "2026-10-27",
- "attempts": 0,
+ "attempts": 1,
  "history": [
   {
    "at": "2026-10-27T04:39:25Z",
@@ -14,6 +14,21 @@
   {
    "at": "2026-10-27T04:45:00Z",
    "note": "attempt counter reset after the schema fault was fixed"
+  },
+  {
+   "at": "2026-10-27T04:44:58Z",
+   "note": "submitted",
+   "batchId": "msgbatch_01KiaBpCnTeENk2wFCw4q9WK"
+  },
+  {
+   "at": "2026-10-27T04:57:03Z",
+   "note": "ok",
+   "batchId": "msgbatch_01KiaBpCnTeENk2wFCw4q9WK",
+   "usage": {
+    "input": 52449,
+    "output": 53668,
+    "tier": "batch"
+   }
   }
  ]
 }
