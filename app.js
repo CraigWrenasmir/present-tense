@@ -21,7 +21,7 @@
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 
   const state = { z: 0.4, panX: 0, panY: 0, lang: 'en', reading: '', rung: '', frag: '', focusIds: null, ghosts: false, panel: '', drawer: false };
-  let news, readings, library, world, ledger, config;
+  let news, readings, library, world, ledger, config, held = [], fieldArticles = [];
   let beads = [], ghosts = [], labels = [];
   const byId = new Map(), beadById = new Map();
   let cameraDirty = true, lastFrame = 0, anim = null, dragged = false;
@@ -76,7 +76,9 @@
     try { ledger = await getJSON('data/ledger.json'); } catch { ledger = null; }
     news.articles = news.articles.filter(a => a && a.id && a.title && safeURL(a.url));
     news.articles.forEach(a => byId.set(a.id, a));
-    (readings.sourceArticles || []).forEach(a => { if (!byId.has(a.id)) byId.set(a.id, a); });
+    held = (readings.sourceArticles || []).filter(a => a && a.id && a.title && safeURL(a.url) && !byId.has(a.id)).map(a => Object.assign({}, a, { held: true }));
+    held.forEach(a => byId.set(a.id, a));
+    fieldArticles = news.articles.concat(held);
   }
 
   /* ---------- layout ----------
@@ -95,7 +97,7 @@
   function layout() {
     const anchors = {}; config.countries.forEach(c => { anchors[c.code] = toWorld(c.lon, c.lat); });
     const groups = new Map();
-    news.articles.forEach(a => { (groups.get(a.sourceCountryCode) || groups.set(a.sourceCountryCode, []).get(a.sourceCountryCode)).push(a); });
+    fieldArticles.forEach(a => { (groups.get(a.sourceCountryCode) || groups.set(a.sourceCountryCode, []).get(a.sourceCountryCode)).push(a); });
     blocks = [];
     for (const [code, list] of groups) {
       const [ax, ay] = anchors[code] || toWorld(list[0].sourceLon, list[0].sourceLat);
@@ -167,6 +169,7 @@
       p.el = beadEl(p.a, false); fillBead(p);
       p.x = p.cx; p.y = p.cy; p.ph = rand(p.i * 3 + 1) * Math.PI * 2; p.f1 = 0.00028 + rand(p.i) * 0.00022; p.f2 = 0.00021 + rand(p.i * 7) * 0.0002;
       if (ledger && ledger.previousAt && ledger.arrived.includes(p.a.id)) p.el.classList.add('arrived');
+      if (p.a.held) p.el.classList.add('held');
       frag.append(p.el); beads.push(p); beadById.set(p.a.id, p);
     });
     worldEl.append(frag);
@@ -178,7 +181,7 @@
       const count = {};
       const gf = document.createDocumentFragment();
       ledger.departed.forEach((a, j) => {
-        if (!safeURL(a.url)) return;
+        if (!safeURL(a.url) || beadById.has(a.id)) return;
         const b = byCode[a.sourceCountryCode], an = anchors[a.sourceCountryCode]; if (!b && !an) return;
         const i = (count[a.sourceCountryCode] = (count[a.sourceCountryCode] || 0) + 1);
         const ang = i * 2.39996 + 1.1;
@@ -642,7 +645,7 @@
     const h = create('p', 'h', headline(a)); h.dir = 'auto'; h.lang = state.lang === 'en' ? 'en' : (a.language || '');
     card.append(w, h);
     const o = alt(a); if (o) { const oe = create('p', 'o', o); oe.dir = 'auto'; oe.lang = state.lang === 'en' ? (a.language || '') : 'en'; card.append(oe); }
-    card.append(create('p', 't', `${a.dateBasis === 'published-or-first-seen' ? 'published or first seen' : 'published'} ${fmt(a.publishedAt || a.seenAt)}` + (ledger && ledger.departed.some(d => d.id === a.id) ? ' · no longer in this edition' : ledger && ledger.previousAt && ledger.arrived.includes(a.id) ? ' · new in this edition' : '')));
+    card.append(create('p', 't', `${a.dateBasis === 'published-or-first-seen' ? 'published or first seen' : 'published'} ${fmt(a.publishedAt || a.seenAt)}` + (a.held ? ' · held in the field for the readings; no longer in the collection' : ledger && ledger.departed.some(d => d.id === a.id) ? ' · no longer in this edition' : ledger && ledger.previousAt && ledger.arrived.includes(a.id) ? ' · new in this edition' : '')));
     const go = create('a', 'go', 'Read the story at ' + (a.publisherDomain || a.publisher) + ' ↗'); go.href = safeURL(a.url); go.target = '_blank'; go.rel = 'noopener noreferrer'; card.append(go);
     const cites = readings.readings.filter(r => r.articleIds.includes(a.id));
     if (cites.length) {
@@ -817,7 +820,7 @@
     setLang(state.lang);
     const countries = new Set(news.articles.map(a => a.sourceCountryCode)).size, langs = new Set(news.articles.map(a => a.language)).size;
     $('#edition').textContent = `${fmt(news.generatedAt)} · ${news.articles.length} headlines · ${countries} countries · ${langs} languages`;
-    if (readings.newsGeneratedAt && readings.newsGeneratedAt !== news.generatedAt) $('#edition').textContent += ' · readings are from an earlier collection';
+    if (readings.newsGeneratedAt && readings.newsGeneratedAt !== news.generatedAt) $('#edition').textContent += held.length ? ` · readings from ${fmt(readings.newsGeneratedAt)}, ${held.length} of their headlines held in the field` : ' · readings are from an earlier collection';
     sizeCanvas(); buildField(); bind();
     if (state.ghosts) toggleGhosts(true);
     const first = readings.readings.find(r => r.id === state.reading) ? state.reading : readings.readings[0].id;

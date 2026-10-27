@@ -50,11 +50,11 @@ Controls: drag to move, scroll, pinch or double-click to zoom (shift-double-clic
    - Optional variables: `ORACLE_MODEL` (default `claude-opus-5-5`), `ORACLE_EFFORT` (default `high`), `ORACLE_MAX_PER_DAY` (default `2`), `TRANSLATE_MODEL` (default `claude-haiku-5-5`).
 5. **Actions → Collect, read and publish → Run workflow.** The first run can publish the seed edition with refresh off.
 
-Headlines are collected at 04:17, 10:17, 16:17 and 22:17 UTC. The oracle writes new readings on the 04:17 and 16:17 runs; the other two refresh the field and the tide under the existing readings, which the page then marks as older than the collection. Scheduled runs on public repositories pause after sixty days without a commit; a manual run restarts them.
+Headlines are collected at 04:17, 10:17, 16:17 and 22:17 UTC. The oracle writes new readings once a day, on the 22:17 run (09:17 in Sydney during daylight saving). The other three runs refresh the field and the tide under the existing readings; the headlines those readings cite are held in the field, marked `held`, until the next readings replace them. Scheduled runs on public repositories pause after sixty days without a commit; a manual run restarts them.
 
 ## What one edition costs
 
-One oracle request sends every headline in the collection (around 30,000 input tokens for 720 headlines, plus the library) and returns five to eight readings with their horizons (around 25,000 to 35,000 output tokens, plus thinking). On Claude Opus 5.5 that is roughly US$1 to US$1.50 an edition, so US$2 to US$3 a day on the default schedule, with a hard cap of two attempts a day in `data/oracle-state.json`. Set `ORACLE_MODEL` to `claude-sonnet-5-5` for a cheaper oracle. Translation of a few hundred new headlines on Haiku costs a few cents. Set a spending limit on the key in the Anthropic console as well.
+One oracle request sends every headline in the collection (around 30,000 input tokens for 720 headlines, plus the library) and returns five to eight readings with their horizons (around 25,000 to 35,000 output tokens, plus thinking). On Claude Opus 5.5 that is roughly US$1 to US$1.50 an edition, so US$30 to US$45 a month on the once-a-day schedule, with a hard cap of two attempts a day in `data/oracle-state.json`. Set `ORACLE_MODEL` to `claude-sonnet-5-5` for a cheaper oracle. Translation of a few hundred new headlines on Haiku costs a few cents. Set a spending limit on the key in the Anthropic console as well.
 
 ## How many headlines
 

@@ -97,6 +97,7 @@ a { color: inherit; }
 .bead.ghost .t::before { content: "† "; font-style: normal; }
 .world.tide .bead.arrived .m::before { content: "+ "; color: var(--ink); }
 .bead.focus { z-index: 7; }
+.bead.held .m::before { content: "held · "; color: var(--ink-3); }
 
 /* zoom levels: atlas and region show dots; near and close show cards */
 .world.atlas .bead:not(.lit), .world.region .bead:not(.lit) { width: 14px; height: 14px; padding: 0; }
