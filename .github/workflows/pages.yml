@@ -70,7 +70,14 @@ jobs:
           python scripts/ledger.py --current data/news.json --output /dev/null --archive
           mv work/news-candidate.json data/news.json
           python scripts/ledger.py
-      - name: Ask the oracle
+      - name: Collect an edition the oracle was still writing
+        id: collect-oracle
+        if: hashFiles('data/oracle-pending.json') != '' && env.WANT_READINGS != 'true'
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/oracle.py --collect
+      - name: Ask the oracle (batch, same model at half price)
         id: oracle
         if: env.WANT_READINGS == 'true'
         continue-on-error: true
@@ -79,13 +86,13 @@ jobs:
           ORACLE_MODEL: ${{ vars.ORACLE_MODEL }}
           ORACLE_EFFORT: ${{ vars.ORACLE_EFFORT }}
           ORACLE_MAX_PER_DAY: ${{ vars.ORACLE_MAX_PER_DAY }}
+          ORACLE_WAIT_MINUTES: ${{ vars.ORACLE_WAIT_MINUTES }}
         run: python scripts/oracle.py
       - name: Freeze and validate
         run: |
           python scripts/freeze.py
           python scripts/validate.py
       - name: Commit the edition
-        if: env.REFRESH == 'true'
         run: |
           git config user.name "present-tense[bot]"
           git config user.email "present-tense@users.noreply.github.com"
@@ -111,7 +118,7 @@ jobs:
             echo
             echo "English headlines: ${{ steps.translate.outcome || 'skipped' }}"
             echo
-            echo "Oracle: ${{ steps.oracle.outcome || 'skipped' }}"
+            echo "Oracle: ${{ steps.oracle.outcome || steps.collect-oracle.outcome || 'skipped' }}"
             echo
             echo "A failed step keeps the previous edition. The page shows its own timestamps."
           } >> "$GITHUB_STEP_SUMMARY"

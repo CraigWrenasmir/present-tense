@@ -22,7 +22,7 @@ Black and white. No framework, no build step. A static site that refreshes itsel
 | `scripts/collect.py` | Bounded GDELT collection. Standard library only. |
 | `scripts/translate.py` | English headlines for new, non-English titles (Claude Haiku). |
 | `scripts/ledger.py` | Builds the tide and archives editions. |
-| `scripts/oracle.py` | Asks Claude for a new edition of readings against a strict schema. The brief is in the file. |
+| `scripts/oracle.py` | Asks Claude for a new edition of readings against a strict schema, through the Message Batches API (same model, half price). The brief is in the file. |
 | `scripts/freeze.py` | Attaches each reading's cited headlines so it keeps its evidence after the collection moves on. |
 | `scripts/validate.py` | Refuses an edition whose citations do not resolve or whose readings do not end with a case against. |
 | `scripts/build.py` | Copies the public files to `_site/`. |
@@ -47,14 +47,14 @@ Controls: drag to move, scroll, pinch or double-click to zoom (shift-double-clic
 4. **Settings → Secrets and variables → Actions:**
    - Secret `ANTHROPIC_API_KEY`: needed for English headlines and for new readings.
    - Variable `GENERATE_READINGS` = `true` to let the scheduled run ask the oracle. Manual runs ask for it in the dialog.
-   - Optional variables: `ORACLE_MODEL` (default `claude-opus-5-5`), `ORACLE_EFFORT` (default `high`), `ORACLE_MAX_PER_DAY` (default `2`), `TRANSLATE_MODEL` (default `claude-haiku-5-5`).
+   - Optional variables: `ORACLE_MODEL` (default `claude-opus-5-5`), `ORACLE_EFFORT` (default `high`), `ORACLE_MAX_PER_DAY` (default `2`), `ORACLE_WAIT_MINUTES` (default `25`), `TRANSLATE_MODEL` (default `claude-haiku-5-5`).
 5. **Actions → Collect, read and publish → Run workflow.** The first run can publish the seed edition with refresh off.
 
-Headlines are collected at 04:17, 10:17, 16:17 and 22:17 UTC. The oracle writes new readings once a day, on the 22:17 run (09:17 in Sydney during daylight saving). The other three runs refresh the field and the tide under the existing readings; the headlines those readings cite are held in the field, marked `held`, until the next readings replace them. Scheduled runs on public repositories pause after sixty days without a commit; a manual run restarts them.
+Headlines are collected at 04:17, 10:17, 16:17 and 22:17 UTC. The oracle writes new readings once a day, submitted on the 22:17 run (09:17 in Sydney during daylight saving) as a batch request. The run waits up to 25 minutes for it; if the batch takes longer, the next scheduled run collects it, frozen against the collection it was asked about. The other runs refresh the field and the tide under the existing readings; the headlines those readings cite are held in the field, marked `held`, until the next readings replace them. Scheduled runs on public repositories pause after sixty days without a commit; a manual run restarts them.
 
 ## What one edition costs
 
-One oracle request sends every headline in the collection (around 30,000 input tokens for 720 headlines, plus the library) and returns five to eight readings with their horizons (around 25,000 to 35,000 output tokens, plus thinking). On Claude Opus 5.5 that is roughly US$1 to US$1.50 an edition, so US$30 to US$45 a month on the once-a-day schedule, with a hard cap of two attempts a day in `data/oracle-state.json`. Set `ORACLE_MODEL` to `claude-sonnet-5-5` for a cheaper oracle. Translation of a few hundred new headlines on Haiku costs a few cents. Set a spending limit on the key in the Anthropic console as well.
+One oracle request sends every headline in the collection (around 30,000 input tokens for 720 headlines, plus the library) and returns five readings with their horizons (around 20,000 to 30,000 output tokens, plus thinking). It goes through the Message Batches API, which runs the same model at half the standard price. On Claude Opus 5.5 that is roughly US$0.50 to US$0.75 an edition, so US$15 to US$22 a month on the once-a-day schedule, with a hard cap of two submissions a day in `data/oracle-state.json`. The model and the thinking effort are deliberately not reduced; if you must cut further, cut days, not depth. `ORACLE_MODEL` and `ORACLE_EFFORT` exist as repository variables if you ever want to. Translation of a few hundred new headlines on Haiku costs a few cents. Set a spending limit on the key in the Anthropic console as well.
 
 ## How many headlines
 
@@ -65,7 +65,7 @@ The oracle request does not enable server-side refusal fallbacks; a refused or m
 ## How an edition is made
 
 ```
-collect.py  ->  translate.py  ->  ledger.py  ->  oracle.py  ->  freeze.py  ->  validate.py  ->  commit  ->  deploy
+collect.py  ->  translate.py  ->  ledger.py  ->  oracle.py (batch: submit, wait, or collect)  ->  freeze.py  ->  validate.py  ->  commit  ->  deploy
 ```
 
 Each step keeps the previous result if it fails. Readings that are older than the collection are marked as such on the page, and their cited headlines remain inspectable because `freeze.py` stores them with the edition.

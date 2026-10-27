@@ -4,17 +4,26 @@
 The oracle brief lives in this file. The output is validated against the
 collection before anything is written: every cited headline, book and
 trajectory must exist, every reading must end with a 'break' rung, and the
-edition must contain between five and eight readings. An invalid, refused or
+edition must contain five readings (four to six accepted). An invalid, refused or
 failed response leaves the previous readings in place.
 
+The request goes through the Message Batches API, which runs the same model at
+half the price. A run submits the batch, waits up to ORACLE_WAIT_MINUTES for it,
+and if it has not finished leaves it pending in data/oracle-pending.json for the
+next run to collect. The collection the batch was asked about is stored with it,
+so the readings are frozen against the headlines they actually read.
+
 Usage:
-  python3 scripts/oracle.py            # compose and write data/readings.json
+  python3 scripts/oracle.py            # collect a pending edition, or submit a new one and wait
+  python3 scripts/oracle.py --collect  # only collect a pending edition (no submission)
+  python3 scripts/oracle.py --submit   # only submit (no waiting)
   python3 scripts/oracle.py --dry-run  # build the request, make no API call
 Env:
-  ANTHROPIC_API_KEY   required
-  ORACLE_MODEL        default claude-opus-5-5
-  ORACLE_EFFORT       default high
-  ORACLE_MAX_PER_DAY  default 2 (recorded in data/oracle-state.json)
+  ANTHROPIC_API_KEY     required
+  ORACLE_MODEL          default claude-opus-5-5
+  ORACLE_EFFORT         default high
+  ORACLE_MAX_PER_DAY    default 2 submissions (recorded in data/oracle-state.json)
+  ORACLE_WAIT_MINUTES   default 25
 """
 from __future__ import annotations
 
@@ -23,12 +32,16 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 STATE = DATA / "oracle-state.json"
+PENDING = DATA / "oracle-pending.json"
+KEEP = ("id", "title", "titleEnglish", "url", "publisher", "publisherDomain", "publishedAt", "seenAt",
+        "dateBasis", "sourceCountry", "sourceCountryCode", "sourceRegion", "sourceLat", "sourceLon", "language")
 MAX_INPUT_CHARS = 140_000
 
 BRIEF = """You are the oracle of The Present Tense, a site that lays out one day's world headlines as a field and reads them into constellations. You are playing a Glass Bead Game with the news: you look at hundreds of headlines from dozens of countries and propose possible narratives of the present, joining a headline in Lagos to one in Taipei to one in Córdoba.
@@ -53,7 +66,7 @@ Rules of the game:
 - Write in plain British English. Use hyphens, never dashes. Capitalise proper nouns only.
 - Across the edition the horizons must not repeat each other: if two readings share a decade, they must read it through different lenses and different moments.
 
-Return JSON matching the schema. Compose between five and eight readings."""
+Return JSON matching the schema. Compose five readings: fewer, fuller and more surprising rather than more."""
 
 
 def now_iso():
@@ -153,8 +166,8 @@ def validate(edition, news, library):
     trajs = {t["id"] for t in library["trajectories"]}
     problems = []
     readings = edition.get("readings", [])
-    if not 5 <= len(readings) <= 8:
-        problems.append(f"{len(readings)} readings (need 5 to 8)")
+    if not 4 <= len(readings) <= 6:
+        problems.append(f"{len(readings)} readings (asked for five)")
     seen = set()
     for r in readings:
         if r["id"] in seen:
@@ -207,102 +220,195 @@ def validate(edition, news, library):
     return problems
 
 
-def allowed_today():
+def load_state():
     state = json.loads(STATE.read_text()) if STATE.exists() else {"day": None, "attempts": 0, "history": []}
     today = now_iso()[:10]
     if state.get("day") != today:
         state = {"day": today, "attempts": 0, "history": state.get("history", [])[-30:]}
+    return state
+
+
+def save_state(state):
+    STATE.write_text(json.dumps(state, indent=1) + "\n")
+
+
+def note(state, message, **extra):
+    entry = {"at": now_iso(), "note": message[:300]}
+    entry.update(extra)
+    state.setdefault("history", []).append(entry)
+    save_state(state)
+
+
+def request_params(model, effort, user):
+    return {
+        "model": model,
+        "max_tokens": 64000,
+        "system": BRIEF,
+        "thinking": {"type": "adaptive"},
+        "output_config": {"effort": effort, "format": {"type": "json_schema", "schema": SCHEMA}},
+        "messages": [{"role": "user", "content": user}],
+    }
+
+
+def submit(client, state, news, library, previous, model, effort):
     cap = int(os.environ.get("ORACLE_MAX_PER_DAY", "2"))
-    return state, state["attempts"] < cap
+    if state["attempts"] >= cap:
+        print(f"oracle already submitted {state['attempts']} time(s) today; nothing sent", file=sys.stderr)
+        return None
+    user = build_request(news, library, previous)
+    try:
+        batch = client.messages.batches.create(requests=[{"custom_id": "edition", "params": request_params(model, effort, user)}])
+    except anthropic.APIError as error:
+        state["attempts"] += 1
+        note(state, f"submission failed: {error}")
+        print(f"oracle: submission failed: {error}", file=sys.stderr)
+        return None
+    pending = {
+        "batchId": batch.id,
+        "submittedAt": now_iso(),
+        "model": model,
+        "effort": effort,
+        "newsGeneratedAt": news["generatedAt"],
+        "articles": [{k: a[k] for k in KEEP if k in a} for a in news["articles"]],
+    }
+    PENDING.write_text(json.dumps(pending, ensure_ascii=False) + "\n")
+    state["attempts"] += 1
+    note(state, "submitted", batchId=batch.id)
+    print(f"submitted batch {batch.id} for the collection of {news['generatedAt']} ({len(news['articles'])} headlines) to {model}")
+    return pending
+
+
+def collect(client, state, pending, library):
+    """Returns True when the pending batch is finished with (written or failed), False while it is still running."""
+    try:
+        batch = client.messages.batches.retrieve(pending["batchId"])
+    except anthropic.APIError as error:
+        print(f"oracle: could not retrieve batch {pending['batchId']}: {error}", file=sys.stderr)
+        return False
+    if batch.processing_status != "ended":
+        age_h = (datetime.now(timezone.utc) - datetime.fromisoformat(pending["submittedAt"].replace("Z", "+00:00"))).total_seconds() / 3600
+        if age_h > 26:
+            PENDING.unlink(missing_ok=True)
+            note(state, f"batch {pending['batchId']} abandoned after {age_h:.0f} hours")
+            print("oracle: pending batch abandoned after a day; readings unchanged", file=sys.stderr)
+            return True
+        print(f"batch {pending['batchId']} still {batch.processing_status} ({age_h * 60:.0f} minutes); readings unchanged for now")
+        return False
+    result = next((r for r in client.messages.batches.results(pending["batchId"]) if r.custom_id == "edition"), None)
+    PENDING.unlink(missing_ok=True)
+    if result is None or result.result.type != "succeeded":
+        kind = result.result.type if result else "missing"
+        detail = getattr(getattr(result.result, "error", None), "type", "") if result else ""
+        return fail(state, f"batch {kind} {detail}".strip())
+    message = result.result.message
+    if message.stop_reason == "refusal":
+        return fail(state, "the request was refused")
+    if message.stop_reason == "max_tokens":
+        return fail(state, "the response was cut off")
+    text = next((b.text for b in message.content if b.type == "text"), "")
+    try:
+        edition = json.loads(text)
+    except ValueError as error:
+        return fail(state, f"response was not JSON: {error}")
+    snapshot_news = {"generatedAt": pending["newsGeneratedAt"], "articles": pending["articles"]}
+    problems = validate(edition, snapshot_news, library)
+    if problems:
+        return fail(state, "edition rejected: " + "; ".join(problems[:8]))
+    by_id = {a["id"]: a for a in pending["articles"]}
+    cited = []
+    for r in edition["readings"]:
+        ids = []
+        for rung in r["rungs"]:
+            for f in rung["fragments"]:
+                for aid in f.get("articleIds", []):
+                    if aid not in ids:
+                        ids.append(aid)
+        r["articleIds"] = ids
+        cited.extend(i for i in ids if i not in cited)
+    usage = {"input": message.usage.input_tokens, "output": message.usage.output_tokens, "tier": "batch"}
+    out = {
+        "schemaVersion": 3,
+        "generatedAt": now_iso(),
+        "newsGeneratedAt": pending["newsGeneratedAt"],
+        "method": "claude-api-batch",
+        "model": message.model,
+        "promptVersion": "oracle-2",
+        "usage": usage,
+        "notes": [
+            "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+            "Each reading commits to a claim. The last rung of every reading argues against it. Read both.",
+            "Each reading ends with 'How we got here': four horizons, the past decade, the past fifty years, since September 2001 and since 1945, that place the day's pattern on longer trajectories. They are a trajectory, not a verdict.",
+            "Connections are the oracle's, not the publishers'. Follow any headline to the original report before repeating it.",
+            "Books and trajectories appear only where they change how a fragment or a horizon reads.",
+        ],
+        "sourceArticles": [by_id[i] for i in cited],
+        "readings": edition["readings"],
+    }
+    (DATA / "readings.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
+    note(state, "ok", batchId=pending["batchId"], usage=usage)
+    print(f"composed {len(out['readings'])} readings with {message.model} (batch); {usage['input']} in / {usage['output']} out tokens")
+    return True
+
+
+def fail(state, message):
+    note(state, message)
+    print(f"oracle: {message}; readings unchanged", file=sys.stderr)
+    return True
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--collect", action="store_true", help="Only collect a pending edition")
+    parser.add_argument("--submit", action="store_true", help="Only submit; do not wait")
     args = parser.parse_args()
     news = json.loads((DATA / "news.json").read_text())
     library = json.loads((DATA / "library.json").read_text())
     previous = json.loads((DATA / "readings.json").read_text()) if (DATA / "readings.json").exists() else None
     model = os.environ.get("ORACLE_MODEL", "claude-opus-5-5")
     effort = os.environ.get("ORACLE_EFFORT", "high")
-    user = build_request(news, library, previous)
+    wait = float(os.environ.get("ORACLE_WAIT_MINUTES", "25"))
     if args.dry_run:
-        print(f"dry run: {len(user):,} characters of input for {model}; no request made")
+        user = build_request(news, library, previous)
+        print(f"dry run: {len(user):,} characters of input for {model} via the batch API; no request made")
         return 0
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("ANTHROPIC_API_KEY is not set; readings unchanged", file=sys.stderr)
         return 1
-    state, ok = allowed_today()
-    if not ok:
-        print(f"oracle already ran {state['attempts']} time(s) today; readings unchanged", file=sys.stderr)
-        return 1
-    state["attempts"] += 1
-    state["history"].append({"at": now_iso(), "model": model, "outcome": "started"})
-    STATE.write_text(json.dumps(state, indent=1) + "\n")
     try:
+        global anthropic
         import anthropic
     except ImportError:
         print("anthropic SDK not installed; pip install anthropic", file=sys.stderr)
         return 1
     client = anthropic.Anthropic()
-    try:
-        with client.messages.stream(
-            model=model,
-            max_tokens=64000,
-            system=BRIEF,
-            thinking={"type": "adaptive"},
-            output_config={"effort": effort, "format": {"type": "json_schema", "schema": SCHEMA}},
-            messages=[{"role": "user", "content": user}],
-        ) as stream:
-            response = stream.get_final_message()
-    except anthropic.RateLimitError as error:
-        return fail(state, f"rate limited: {error}")
-    except anthropic.APIStatusError as error:
-        return fail(state, f"API error {error.status_code}: {error.message}")
-    except anthropic.APIConnectionError as error:
-        return fail(state, f"connection error: {error}")
-    if response.stop_reason == "refusal":
-        return fail(state, "the request was refused")
-    if response.stop_reason == "max_tokens":
-        return fail(state, "the response was cut off")
-    text = next((b.text for b in response.content if b.type == "text"), "")
-    try:
-        edition = json.loads(text)
-    except ValueError as error:
-        return fail(state, f"response was not JSON: {error}")
-    problems = validate(edition, news, library)
-    if problems:
-        return fail(state, "edition rejected: " + "; ".join(problems[:8]))
-    out = {
-        "schemaVersion": 3,
-        "generatedAt": now_iso(),
-        "newsGeneratedAt": news["generatedAt"],
-        "method": "claude-api",
-        "model": response.model,
-        "promptVersion": "oracle-2",
-        "usage": {"input": response.usage.input_tokens, "output": response.usage.output_tokens},
-        "notes": [
-            "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
-            "Each reading commits to a claim. The last rung of every reading argues against it. Read both.",
-            "Connections are the oracle's, not the publishers'. Follow any headline to the original report before repeating it.",
-            "Each reading ends with 'How we got here': four horizons, the past decade, the past fifty years, since September 2001 and since 1945, that place the day's pattern on longer trajectories. They are a trajectory, not a verdict.",
-            "Books and trajectories appear only where they change how a fragment or a horizon reads.",
-        ],
-        "readings": edition["readings"],
-    }
-    (DATA / "readings.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
-    state["history"][-1]["outcome"] = "ok"
-    state["history"][-1]["usage"] = out["usage"]
-    STATE.write_text(json.dumps(state, indent=1) + "\n")
-    print(f"composed {len(out['readings'])} readings with {model}; {out['usage']['input']} in / {out['usage']['output']} out tokens")
+    state = load_state()
+    pending = json.loads(PENDING.read_text()) if PENDING.exists() else None
+    if pending:
+        done = collect(client, state, pending, library)
+        if not done and not args.collect and not args.submit:
+            done = wait_for(client, state, pending, library, wait)
+        return 0
+    if args.collect:
+        print("no pending edition to collect")
+        return 0
+    pending = submit(client, state, news, library, previous, model, effort)
+    if not pending:
+        return 1
+    if args.submit:
+        return 0
+    wait_for(client, state, pending, library, wait)
     return 0
 
 
-def fail(state, message):
-    state["history"][-1]["outcome"] = message[:200]
-    STATE.write_text(json.dumps(state, indent=1) + "\n")
-    print(f"oracle: {message}; readings unchanged", file=sys.stderr)
-    return 1
+def wait_for(client, state, pending, library, minutes):
+    deadline = time.time() + minutes * 60
+    while time.time() < deadline:
+        time.sleep(45)
+        if collect(client, state, pending, library):
+            return True
+    print(f"batch {pending['batchId']} not finished after {minutes:.0f} minutes; the next run will collect it")
+    return False
 
 
 if __name__ == "__main__":
