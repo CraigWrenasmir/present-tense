@@ -298,7 +298,7 @@ def note(state, message, **extra):
 def request_params(model, effort, user):
     return {
         "model": model,
-        "max_tokens": 64000,
+        "max_tokens": 128000,  # the model's ceiling; an edition with its thinking ran past 64,000 on 27 Oct 2026
         "system": BRIEF,
         "thinking": {"type": "adaptive"},
         "output_config": {"effort": effort, "format": {"type": "json_schema", "schema": SCHEMA}},
