@@ -52,7 +52,7 @@ BRIEF = """You write the narratives of The Present Tense, a site that lays out o
 You will receive the collection: one line per headline with its id, publisher country, publisher, language, time and English headline. You will also receive a library of books and historical trajectories you may draw on, and the lines of the previous edition's narratives so you do not repeat them.
 
 Compose an edition of narratives. Each narrative has:
-- line: one plain sentence that says what is happening across these headlines. Descriptive and specific: who, what, where. A reader should know what the narrative is about from the line alone, before opening it. Under 130 characters. No metaphor, no aphorism, no wordplay, no paradox, no colon-headlines, no questions, no hedging. Write "Savers in Kenya, China and Indonesia are moving money out of reach of the tax office, and governments are offering amnesties to get some of it back", not "Money is slipping into dollars, gold and trusts, and the state is answering with discounts".
+- line: one plain sentence that says what is happening across these headlines. Descriptive and specific: who, what, where. A reader should know what the narrative is about from the line alone, before opening it. At most 110 characters, counted strictly; shorten by dropping a clause, not by compressing into an image. No metaphor, no aphorism, no wordplay, no paradox, no colon-headlines, no questions, no hedging. Write "Savers in Kenya, China and Indonesia are moving money out of reach of the tax office, and governments are offering amnesties", not "Money is slipping into dollars, gold and trusts, and the state is answering with discounts".
 - kicker: three plain words in capitals separated by " / " that name the subjects of the narrative, for example "TAX / SAVINGS / AMNESTY" or "DATA CENTRES / LAND / WATER". Subjects, not images.
 - claim: two to four sentences that say what connects the headlines and why it matters. Written for an intelligent general reader in plain descriptive prose. Commit to the interpretation. No disclaimers, and no closing flourish: do not end a paragraph on an epigram or a line designed to be quoted.
 - rungs: three to five rungs, in this order: one or two of kind "observation" (what the headlines say, across countries), one or two of kind "interpretation" (what might connect them: what the pattern might mean, what it resembles), and always, last, exactly one of kind "break" labelled "The case against" that makes the strongest honest case against the narrative: a sampling objection, a rival explanation, a reason the pattern is an artefact of the collection or of English, or a reason you have mistaken a normal thing for a new thing. The break rung must be substantive and specific, not a generic caveat. Observation and interpretation rungs have plain descriptive labels of two to six words saying what they cover ("Four workplace deaths", "Where the money is going"), not titles or images ("Two doors", "The counter goes quiet").
@@ -221,7 +221,7 @@ def validate(edition, news, library):
             for b in h.get("bookIds", []):
                 if b not in books:
                     problems.append(f"{r['id']}/{h.get('span')}: unknown book {b}")
-        if len(r.get("line", "")) > 150:
+        if len(r.get("line", "")) > 140:
             problems.append(f"{r['id']}: line too long")
     return problems
 

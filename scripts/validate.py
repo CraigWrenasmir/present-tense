@@ -49,6 +49,8 @@ def main():
         for key in ("line", "kicker", "claim", "rungs"):
             if not r.get(key):
                 errors.append(f"reading {rid} missing {key}")
+        if len(r.get("line", "")) > 140:
+            errors.append(f"reading {rid} line is longer than 140 characters")
         rungs = r.get("rungs", [])
         if not rungs or rungs[-1].get("kind") != "break":
             errors.append(f"reading {rid} must end with a 'break' rung")
