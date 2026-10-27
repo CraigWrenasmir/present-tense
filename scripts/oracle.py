@@ -251,7 +251,7 @@ def request_params(model, effort, user):
 
 
 def submit(client, state, news, library, previous, model, effort):
-    cap = int(os.environ.get("ORACLE_MAX_PER_DAY", "2"))
+    cap = int(os.environ.get("ORACLE_MAX_PER_DAY") or "2")
     if state["attempts"] >= cap:
         print(f"oracle already submitted {state['attempts']} time(s) today; nothing sent", file=sys.stderr)
         return None
@@ -365,9 +365,9 @@ def main():
     news = json.loads((DATA / "news.json").read_text())
     library = json.loads((DATA / "library.json").read_text())
     previous = json.loads((DATA / "readings.json").read_text()) if (DATA / "readings.json").exists() else None
-    model = os.environ.get("ORACLE_MODEL", "claude-opus-5-5")
-    effort = os.environ.get("ORACLE_EFFORT", "high")
-    wait = float(os.environ.get("ORACLE_WAIT_MINUTES", "25"))
+    model = os.environ.get("ORACLE_MODEL") or "claude-opus-5-5"
+    effort = os.environ.get("ORACLE_EFFORT") or "high"
+    wait = float(os.environ.get("ORACLE_WAIT_MINUTES") or "25")
     if args.dry_run:
         user = build_request(news, library, previous)
         print(f"dry run: {len(user):,} characters of input for {model} via the batch API; no request made")

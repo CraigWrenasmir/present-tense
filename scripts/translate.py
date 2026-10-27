@@ -89,7 +89,7 @@ def main():
     news = json.loads(args.input.read_text())
     cache = load_cache()
     entries = cache["entries"]
-    model = os.environ.get("TRANSLATE_MODEL", "claude-haiku-5-5")
+    model = os.environ.get("TRANSLATE_MODEL") or "claude-haiku-5-5"
     pending = []
     for a in news["articles"]:
         if a.get("language") == "en" or not a.get("language") or a.get("language") == "und" and a["title"].isascii():
