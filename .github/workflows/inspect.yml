@@ -1,0 +1,23 @@
+name: Inspect an oracle batch
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_id:
+        description: The batch id to inspect (msgbatch_...)
+        required: true
+        type: string
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet anthropic
+      - env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/oracle.py --inspect "${{ inputs.batch_id }}"

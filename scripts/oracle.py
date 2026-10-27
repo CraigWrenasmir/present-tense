@@ -298,8 +298,8 @@ def collect(client, state, pending, library):
     PENDING.unlink(missing_ok=True)
     if result is None or result.result.type != "succeeded":
         kind = result.result.type if result else "missing"
-        detail = getattr(getattr(result.result, "error", None), "type", "") if result else ""
-        return fail(state, f"batch {kind} {detail}".strip())
+        detail = describe_error(result.result) if result else ""
+        return fail(state, f"batch {kind}: {detail}".strip())
     message = result.result.message
     if message.stop_reason == "refusal":
         return fail(state, "the request was refused")
@@ -350,6 +350,31 @@ def collect(client, state, pending, library):
     return True
 
 
+def describe_error(res):
+    err = getattr(res, "error", None)
+    if err is None:
+        return ""
+    try:
+        return json.dumps(err.model_dump() if hasattr(err, "model_dump") else err, default=str)[:600]
+    except Exception:
+        return repr(err)[:600]
+
+
+def inspect_batch(client, batch_id):
+    batch = client.messages.batches.retrieve(batch_id)
+    print(f"batch {batch.id}: {batch.processing_status}; counts {batch.request_counts}")
+    if batch.processing_status != "ended":
+        return 0
+    for r in client.messages.batches.results(batch_id):
+        print(f"- {r.custom_id}: {r.result.type}")
+        if r.result.type == "succeeded":
+            m = r.result.message
+            print(f"  stop_reason={m.stop_reason} model={m.model} usage={m.usage}")
+        else:
+            print("  " + describe_error(r.result))
+    return 0
+
+
 def fail(state, message):
     note(state, message)
     print(f"oracle: {message}; readings unchanged", file=sys.stderr)
@@ -361,6 +386,7 @@ def main():
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--collect", action="store_true", help="Only collect a pending edition")
     parser.add_argument("--submit", action="store_true", help="Only submit; do not wait")
+    parser.add_argument("--inspect", metavar="BATCH_ID", help="Print the status and result of a batch, then exit")
     args = parser.parse_args()
     news = json.loads((DATA / "news.json").read_text())
     library = json.loads((DATA / "library.json").read_text())
@@ -382,6 +408,8 @@ def main():
         print("anthropic SDK not installed; pip install anthropic", file=sys.stderr)
         return 1
     client = anthropic.Anthropic()
+    if args.inspect:
+        return inspect_batch(client, args.inspect)
     state = load_state()
     pending = json.loads(PENDING.read_text()) if PENDING.exists() else None
     if pending:
