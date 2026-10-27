@@ -114,7 +114,6 @@ SCHEMA = {
                             "additionalProperties": False,
                         },
                     },
-                },
                 "horizons": {
                     "type": "array",
                     "items": {
@@ -130,6 +129,7 @@ SCHEMA = {
                         "required": ["span", "label", "lens", "text", "trajectoryIds", "bookIds"],
                         "additionalProperties": False,
                     },
+                },
                 },
                 "required": ["id", "line", "kicker", "claim", "rungs", "horizons"],
                 "additionalProperties": False,

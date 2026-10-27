@@ -1,6 +1,6 @@
 {
  "day": "2026-10-27",
- "attempts": 1,
+ "attempts": 0,
  "history": [
   {
    "at": "2026-10-27T04:39:25Z",
@@ -10,6 +10,10 @@
   {
    "at": "2026-10-27T04:40:11Z",
    "note": "batch errored error"
+  },
+  {
+   "at": "2026-10-27T04:45:00Z",
+   "note": "attempt counter reset after the schema fault was fixed"
   }
  ]
 }
