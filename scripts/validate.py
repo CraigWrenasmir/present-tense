@@ -77,6 +77,18 @@ def main():
                         errors.append(f"reading {rid} fragment {f.get('id')} cites unknown trajectory {tid}")
         if len(cited) < 4:
             errors.append(f"reading {rid} cites fewer than four headlines")
+        if "events" in r:
+            events = r["events"]
+            if len(events) < 3:
+                errors.append(f"reading {rid} joins fewer than three events")
+            sizes, union = [], set()
+            for e in events:
+                known = {x for x in e.get("articleIds", []) if x in article_ids or x in saved_ids}
+                if not e.get("label", "").strip() or not known:
+                    errors.append(f"reading {rid} has an event with no label or no known headline")
+                sizes.append(len(known)); union.update(known)
+            if union and sizes and max(sizes) * 2 > len(union):
+                errors.append(f"reading {rid}: one event holds more than half of its headlines")
         if readings.get("schemaVersion", 2) >= 3:
             spans = [h.get("span") for h in r.get("horizons", [])]
             if spans != ["decade", "half-century", "since-2001", "since-1945"]:

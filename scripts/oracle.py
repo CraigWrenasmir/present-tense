@@ -47,30 +47,45 @@ KEEP = ("id", "title", "titleEnglish", "url", "publisher", "publisherDomain", "p
         "dateBasis", "sourceCountry", "sourceCountryCode", "sourceRegion", "sourceLat", "sourceLon", "language")
 MAX_INPUT_CHARS = 140_000
 
-BRIEF = """You write the narratives of The Present Tense, a site that lays out one day's world headlines as a field and shows, along the bottom of the page, the narratives that run through them. You look at hundreds of headlines from dozens of countries and describe, in plain language, patterns that connect headlines across countries: a story in Lagos with one in Taipei with one in Córdoba.
+BRIEF = """You write the narratives of The Present Tense, a site that lays out one day's world headlines as a field and shows, along the bottom of the page, the narratives that run through them. A narrative is an idea that joins unlike events. You look at hundreds of headlines from dozens of countries, reporting many different things, and you find what several of those different things have in common: a shared cause, a shared mechanism, a shared actor, or the same shape. Then you say it plainly and show the headlines it rests on.
+
+The narrative is the idea. The headlines are its evidence. No single headline contains the idea; the connection is yours to make and to defend, and the structure gives you a place to doubt it.
+
+What a narrative is not. It is not one event as reported from many countries. "Forty outlets covered the Brazilian election" is a collation, not a narrative, however many countries the outlets are in. The events a narrative joins must be different events: a price in one place, a strike in a second, an election in a third, a court case in a fourth, that turn out to have something in common. At most one narrative in the edition may be built mainly on how different countries report the same event, and only when the differences in the reporting are the point.
+
+Kinds of join, to vary across the edition:
+- A shared cause: one upstream development with different downstream consequences, for example the same rise in bond yields appearing as a pension story in the Netherlands, a mortgage story in Britain and a budget story in Kenya.
+- A shared mechanism: the same thing happening for the same reason in unrelated places, for example savers in Kenya, China and Indonesia moving money out of reach of the tax office while each government offers an amnesty.
+- A shared actor: one company, state, court, church, fund or person appearing in stories that are otherwise about different things.
+- The same shape: different events in which the same question is being decided the same way, who pays, who decides, who is blamed, what is rationed. Name the shape in plain words.
+- A material or an object in several roles: water, copper, a chip, a vaccine, a stadium, a ship, appearing in unrelated stories.
+
+Worked example. Suppose the collection holds: Chennai eases building rules in its aquifer zone; an Arizona chip plant is delayed over its water supply; Ireland pauses new data centres on the Dublin grid and water network; Dutch farmers protest nitrogen and water rules. A collation would make four narratives, housing, chips, data centres, farming, or one narrative about "Chennai's water shortage as reported in India, Britain and Singapore". A narrative joins them: "Water, not land or money, is the limit on what gets built this week in Chennai, Arizona, Dublin and the Netherlands." That line is plain, specific and checkable against the headlines, and it can be wrong, which is what the case against is for.
 
 You will receive the collection: one line per headline with its id, publisher country, publisher, language, time and English headline. You will also receive a library of books and historical trajectories you may draw on, and the lines of the previous edition's narratives so you do not repeat them.
 
 Compose an edition of narratives. Each narrative has:
-- line: one plain sentence that says what is happening across these headlines. Descriptive and specific: who, what, where. A reader should know what the narrative is about from the line alone, before opening it. At most 110 characters, counted strictly; shorten by dropping a clause, not by compressing into an image. No metaphor, no aphorism, no wordplay, no paradox, no colon-headlines, no questions, no hedging. Write "Savers in Kenya, China and Indonesia are moving money out of reach of the tax office, and governments are offering amnesties", not "Money is slipping into dollars, gold and trusts, and the state is answering with discounts".
-- kicker: three plain words in capitals separated by " / " that name the subjects of the narrative, for example "TAX / SAVINGS / AMNESTY" or "DATA CENTRES / LAND / WATER". Subjects, not images.
-- claim: two to four sentences that say what connects the headlines and why it matters. Written for an intelligent general reader in plain descriptive prose. Commit to the interpretation. No disclaimers, and no closing flourish: do not end a paragraph on an epigram or a line designed to be quoted.
-- rungs: three to five rungs, in this order: one or two of kind "observation" (what the headlines say, across countries), one or two of kind "interpretation" (what might connect them: what the pattern might mean, what it resembles), and always, last, exactly one of kind "break" labelled "The case against" that makes the strongest honest case against the narrative: a sampling objection, a rival explanation, a reason the pattern is an artefact of the collection or of English, or a reason you have mistaken a normal thing for a new thing. The break rung must be substantive and specific, not a generic caveat. Observation and interpretation rungs have plain descriptive labels of two to six words saying what they cover ("Four workplace deaths", "Where the money is going"), not titles or images ("Two doors", "The counter goes quiet").
-- each rung has one to three fragments. A fragment has a short plain label, a text of two to five sentences, and the ids of the headlines it rests on (observation and interpretation fragments cite at least one; break fragments may cite none). The text names publishers and countries and quotes headlines in paraphrase; it does not invent facts that are not in a headline. It may notice what a headline withholds.
+- line: one plain sentence that states the idea and names the unlike events it joins. Descriptive and specific: who, what, where. A reader should know from the line alone what is being connected and what the connection is. At most 110 characters, counted strictly; shorten by dropping a clause, not by compressing into an image. No metaphor, no aphorism, no wordplay, no paradox, no colon-headlines, no questions, no hedging. Write "Water, not land or money, is the limit on building this week in Chennai, Arizona, Dublin and the Netherlands", not "The tap is the new planning office".
+- kicker: three plain words in capitals separated by " / " that name the subjects of the narrative, for example "WATER / CHIPS / FARMS" or "BONDS / PENSIONS / BUDGETS". Subjects, not images.
+- events: three to six entries, each a short plain label of two to eight words naming one distinct event or development the narrative joins, with the ids of the headlines about that event. The entries must be about different things, not the same event in different countries. Every headline the narrative cites should belong to one entry, and no entry may hold more than half of the narrative's headlines. This list is shown to the reader at the top of the narrative as what it joins.
+- claim: two to four sentences that state the idea, say which events it joins and why the join matters. Written for an intelligent general reader in plain descriptive prose. Commit to the interpretation. No disclaimers, and no closing flourish: do not end a paragraph on an epigram or a line designed to be quoted.
+- rungs: three to five rungs, in this order: one or two of kind "observation" (what the headlines say, event by event, across countries), one or two of kind "interpretation" (what joins them: the cause, mechanism, actor or shape, and what it might mean), and always, last, exactly one of kind "break" labelled "The case against" that makes the strongest honest case against the narrative: that the events are not in fact connected, a rival explanation, a sampling objection, a reason the pattern is an artefact of the collection or of English, or a reason you have mistaken a normal thing for a new thing. The break rung must be substantive and specific, not a generic caveat. Observation and interpretation rungs have plain descriptive labels of two to six words saying what they cover ("Four workplace deaths", "Where the money is going"), not titles or images ("Two doors", "The counter goes quiet").
+- each rung has one to three fragments. A fragment has a short plain label, a text of two to five sentences, and the ids of the headlines it rests on (observation and interpretation fragments cite at least one; break fragments may cite none). The text names publishers and countries and quotes headlines in paraphrase. Facts about events come only from the headlines; do not invent them. The connection between events is yours, so state it as an idea, not as a reported fact. A fragment may notice what a headline withholds.
 - bookIds and trajectoryIds: cite a book or a trajectory only when it changes how the fragment reads. Most fragments should cite none. Never more than two per fragment.
-- horizons: after the rungs, "How we got here". Exactly four, in this order, with span "decade" (the past ten years), "half-century" (the past fifty years), "since-2001" (since September 2001) and "since-1945" (since the end of the Second World War). Each has a lens of two or three capitalised words separated by " / " naming the kinds of history it draws on (for example "OIL / REVOLUTION / ALLIANCE", "DEMOGRAPHY / HOUSING / PROTEST", "CAPITAL / DISCLOSURE / WATER"), and a text of 130 to 200 words. A horizon places this day's pattern on a longer trajectory: sociological, economic, demographic, migratory, environmental, technological, legal or intellectual, whichever genuinely explain how the present arrived. Name dates, laws, prices, flows of people, institutions, books and the people who wrote them. Be concrete and specific to the narrative's countries and headlines; connect at least once in each horizon back to a specific headline in the narrative. Do not write a general history of the period. Do not claim authority: a horizon is a trajectory, not a verdict, and it may say where the trajectory is contested. Each horizon cites one to four trajectories and zero to two books from the library, chosen because they are the moments and arguments the text actually stands on; if the library lacks the moment you need, name it in the text and cite nothing. Use only facts you are confident of; where the decade's recent events are known to you only from the headlines, say "by these headlines".
+- horizons: after the rungs, "How we got here". Exactly four, in this order, with span "decade" (the past ten years), "half-century" (the past fifty years), "since-2001" (since September 2001) and "since-1945" (since the end of the Second World War). Each has a lens of two or three capitalised words separated by " / " naming the kinds of history it draws on (for example "OIL / REVOLUTION / ALLIANCE", "DEMOGRAPHY / HOUSING / PROTEST", "CAPITAL / DISCLOSURE / WATER"), and a text of 130 to 200 words. A horizon places the idea, the join itself, on a longer trajectory: sociological, economic, demographic, migratory, environmental, technological, legal or intellectual, whichever genuinely explain how these different things came to have this in common. Name dates, laws, prices, flows of people, institutions, books and the people who wrote them. Be concrete and specific to the narrative's countries and events; connect at least once in each horizon back to a specific headline in the narrative. Do not write a general history of the period. Do not claim authority: a horizon is a trajectory, not a verdict, and it may say where the trajectory is contested. Each horizon cites one to four trajectories and zero to two books from the library, chosen because they are the moments and arguments the text actually stands on; if the library lacks the moment you need, name it in the text and cite nothing. Use only facts you are confident of; where the decade's recent events are known to you only from the headlines, say "by these headlines".
 
 Language. This matters as much as the structure:
-- Plain spoken and descriptive throughout, in every field. Say what is reported, where, by whom, and how it connects. Prefer the concrete noun to the image and the ordinary word to the striking one. Short sentences are fine. Numbers, dates, names and institutions are the material.
+- Plain spoken and descriptive throughout, in every field. Say what is reported, where, by whom, and what joins it to the rest. Prefer the concrete noun to the image and the ordinary word to the striking one. Short sentences are fine. Numbers, dates, names and institutions are the material.
 - No metaphor and no personification: money does not "slip", clouds do not "come down", states do not "answer". No aphorisms, no paradoxes, no rhetorical questions, no lists of three for rhythm, no sentence built to be quoted. If a sentence would be admired for its style, rewrite it for its content.
-- The intelligence of the edition lives in the connections and the evidence, not in the phrasing. A good narrative is one a careful reader could restate in their own words without loss.
+- The intelligence of the edition lives in the joins and the evidence, not in the phrasing. A good narrative is one a careful reader could restate in their own words without loss, and could then test against the headlines.
+- A join must be a real, nameable thing (a cause, a mechanism, an actor, a shape), stated in plain words. "Everything is about power" or "a world in flux" is not a join. If you cannot say in one plain sentence what the events have in common, they are not a narrative.
 
 Rules of the game:
-- Prefer connections that cross countries, languages and registers: a market story with a church story, a sport story with a protest story, a material object that appears in several roles. Framing comparisons (how different countries report the same event) are one kind of narrative, not the only kind. Vary the kinds across the edition.
+- Each narrative joins at least three different events, reported from at least four countries, and cites between six and twenty-five headlines. Prefer joins that cross registers: a market story with a church story, a sport story with a protest story, a court case with a harvest.
+- Vary the kinds of join across the edition. Not five shared causes; not five shapes.
 - Commit. The structure already contains the doubt (the break rung). Do not write "this does not establish" or "may or may not" inside fragments.
 - Use only headline ids from the collection. Use only book and trajectory ids from the library.
-- Each narrative should cite between six and twenty-five headlines across at least four countries.
-- Do not repeat the previous edition's lines or claims. If a thread continues, say what has changed.
+- Do not repeat the previous edition's lines or claims. If a join continues from a previous edition, say what has changed.
 - Write in plain British English. Use hyphens, never dashes. Capitalise proper nouns only.
 - Across the edition the horizons must not repeat each other: if two narratives share a decade, they must read it through different lenses and different moments.
 
@@ -93,6 +108,18 @@ SCHEMA = {
                     "line": {"type": "string"},
                     "kicker": {"type": "string"},
                     "claim": {"type": "string"},
+                    "events": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "label": {"type": "string", "description": "two to eight plain words naming one distinct event"},
+                                "articleIds": {"type": "array", "items": {"type": "string"}},
+                            },
+                            "required": ["label", "articleIds"],
+                            "additionalProperties": False,
+                        },
+                    },
                     "rungs": {
                         "type": "array",
                         "items": {
@@ -139,7 +166,7 @@ SCHEMA = {
                     },
                 },
                 },
-                "required": ["id", "line", "kicker", "claim", "rungs", "horizons"],
+                "required": ["id", "line", "kicker", "claim", "events", "rungs", "horizons"],
                 "additionalProperties": False,
             },
         }
@@ -205,6 +232,7 @@ def validate(edition, news, library):
         countries = {by[x]["sourceCountryCode"] for x in cited}
         if len(cited) < 6 or len(countries) < 4:
             problems.append(f"{r['id']}: cites {len(cited)} headlines from {len(countries)} countries (need 6 and 4)")
+        problems.extend(f"{r['id']}: {p}" for p in check_events(r, ids))
         for key in ("line", "kicker", "claim"):
             if not r.get(key, "").strip():
                 problems.append(f"{r['id']}: empty {key}")
@@ -224,6 +252,28 @@ def validate(edition, news, library):
         if len(r.get("line", "")) > 140:
             problems.append(f"{r['id']}: line too long")
     return problems
+
+
+def check_events(reading, ids):
+    """A narrative joins different events: at least three, none holding more than half of its headlines."""
+    events = reading.get("events") or []
+    out = []
+    if len(events) < 3:
+        out.append(f"joins {len(events)} events (need at least 3)")
+    sizes = []
+    for e in events:
+        known = {x for x in e.get("articleIds", []) if x in ids}
+        if not e.get("label", "").strip():
+            out.append("an event has no label")
+        if not known:
+            out.append(f"event '{e.get('label', '?')}' cites no known headline")
+        sizes.append(len(known))
+    union = set()
+    for e in events:
+        union.update(x for x in e.get("articleIds", []) if x in ids)
+    if union and sizes and max(sizes) * 2 > len(union):
+        out.append(f"one event holds {max(sizes)} of {len(union)} headlines (more than half: a collation, not a join)")
+    return out
 
 
 def load_state():
@@ -338,11 +388,11 @@ def collect(client, state, pending, library):
         "newsGeneratedAt": pending["newsGeneratedAt"],
         "method": "claude-api-batch",
         "model": message.model,
-        "promptVersion": "narrative-3",
+        "promptVersion": "narrative-4",
         "usage": usage,
         "notes": [
             "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
-            "Each narrative commits to a claim. The last rung of every narrative is the case against it. Read both.",
+            "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
             "Each narrative ends with 'How we got here': four horizons, the past decade, the past fifty years, since September 2001 and since 1945, that place the day's pattern on longer trajectories. They are a trajectory, not a verdict.",
             "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
             "Books and trajectories appear only where they change how a fragment or a horizon reads.",

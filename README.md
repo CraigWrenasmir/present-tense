@@ -2,7 +2,7 @@
 
 The day's headlines, and the narratives that run through them.
 
-Hundreds of the day's headlines from publishers in dozens of countries, laid out as one continuous field. Zoomed out it is a map of the world with each country a swarm of its headlines; zoom in and a swarm unfolds into a page you can read. Along the bottom of the page sit the day's narratives: five plain descriptions, written once a day by a language model, of patterns that connect headlines across countries, a story in Lagos with one in Taipei with one in Córdoba. Every narrative commits to a claim, shows its evidence, sets out the case against itself, and then asks how we got here: four horizons, the past decade, the past fifty years, since September 2001 and since 1945, placing the day on longer trajectories.
+Hundreds of the day's headlines from publishers in dozens of countries, laid out as one continuous field. Zoomed out it is a map of the world with each country a swarm of its headlines; zoom in and a swarm unfolds into a page you can read. Along the bottom of the page sit the day's narratives, written once a day by a language model. A narrative is an idea that joins unlike events: a price in one country, a strike in a second, a court case in a third, that share a cause, a mechanism, an actor or a shape. The narrative is the idea and the headlines are its evidence; one event reported from many countries is a collation, not a narrative, and the brief allows at most one of those an edition. Every narrative lists what it joins, commits to a claim, shows its evidence, sets out the case against itself, and then asks how we got here: four horizons, the past decade, the past fifty years, since September 2001 and since 1945, placing the day on longer trajectories.
 
 Black and white. No framework, no build step. A static site that refreshes itself from GitHub Actions.
 
@@ -24,7 +24,7 @@ Black and white. No framework, no build step. A static site that refreshes itsel
 | `scripts/ledger.py` | Builds the tide and archives editions. |
 | `scripts/oracle.py` | Asks Claude for a new edition of narratives against a strict schema, through the Message Batches API (same model, half price). The writing brief is in the file. |
 | `scripts/freeze.py` | Attaches each narrative's cited headlines so it keeps its evidence after the collection moves on. |
-| `scripts/validate.py` | Refuses an edition whose citations do not resolve or whose narratives do not end with a case against. |
+| `scripts/validate.py` | Refuses an edition whose citations do not resolve, whose narratives do not end with a case against, or whose narratives are collations of one event rather than joins of several. |
 | `scripts/build.py` | Copies the public files to `_site/`. |
 | `.github/workflows/pages.yml` | Collect, translate, read, validate, commit, deploy. |
 
@@ -70,7 +70,7 @@ collect.py  ->  translate.py  ->  ledger.py  ->  oracle.py (batch: submit, wait,
 
 Each step keeps the previous result if it fails. Narratives that are older than the collection are marked as such on the page, and their cited headlines remain inspectable because `freeze.py` stores them with the edition.
 
-The writing brief in `scripts/oracle.py` asks for narratives that commit, that cross countries and registers, that cite books and trajectories only when they change the narrative, that always end with a rung called "The case against" containing a specific, honest objection, and that close with four horizons of 130 to 200 words each, concrete, dated, tied back to the headlines, and written as a trajectory rather than a verdict. The language mandate is plain spoken and descriptive throughout: no metaphor, no aphorism, nothing written to be quoted; the intelligence should be in the connections and the evidence. The validator enforces the structure. It cannot enforce the quality; read what comes back.
+The writing brief in `scripts/oracle.py` asks for narratives that are ideas joining at least three different events (the validator refuses a narrative in which one event holds more than half the headlines), that commit, that cross countries and registers, that cite books and trajectories only when they change the narrative, that always end with a rung called "The case against" containing a specific, honest objection, and that close with four horizons of 130 to 200 words each, concrete, dated, tied back to the headlines, and written as a trajectory rather than a verdict. The language mandate is plain spoken and descriptive throughout: no metaphor, no aphorism, nothing written to be quoted; the intelligence should be in the connections and the evidence. The validator enforces the structure. It cannot enforce the quality; read what comes back.
 
 ## Seed edition
 

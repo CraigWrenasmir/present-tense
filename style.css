@@ -190,6 +190,14 @@ body.drawer-open .narratives-hint { display: none; }
 .reading-kicker { font-family: var(--mono); font-size: 11px; color: var(--ink-3); letter-spacing: .08em; }
 .reading-line { font-size: 26px; line-height: 1.15; letter-spacing: -.015em; margin: 6px 0 12px; }
 .reading-claim { font-size: 15px; color: var(--ink-2); line-height: 1.45; margin: 0 0 18px; }
+.events { margin: 0 0 14px; }
+.events .sect { margin: 0 0 4px; }
+.events-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.event-btn { font-family: var(--mono); font-size: 11px; letter-spacing: .02em; color: var(--ink-2); background: none; border: 1px solid var(--line); border-radius: 2px; padding: 4px 8px; cursor: pointer; display: inline-flex; gap: 8px; align-items: baseline; text-align: left; }
+.event-btn .c { color: var(--ink-3); font-size: 10px; }
+.event-btn:hover, .event-btn[aria-pressed="true"] { border-color: var(--ink); color: var(--ink); }
+.event-btn[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.event-btn[aria-pressed="true"] .c { color: var(--paper); opacity: .7; }
 .rungs { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ink); }
 .rung { border-bottom: 1px solid var(--ink-5); }
 .rung-btn { display: grid; grid-template-columns: 22px 1fr auto; gap: 10px; width: 100%; text-align: left; padding: 12px 0; align-items: baseline; }

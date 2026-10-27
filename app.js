@@ -514,7 +514,7 @@
       list.forEach((x, i) => {
         const b = create('button', 'narrative'); b.type = 'button'; b.setAttribute('role', 'listitem'); b.dataset.id = x.id;
         const n = new Set(x.articleIds.map(id => (byId.get(id) || {}).sourceCountry).filter(Boolean)).size;
-        b.append(create('span', 'k', `${String(i + 1).padStart(2, '0')} · ${x.kicker}`), create('span', 'n', x.line), create('span', 'm', `${x.articleIds.length} headlines · ${n} countries`));
+        b.append(create('span', 'k', `${String(i + 1).padStart(2, '0')} · ${x.kicker}`), create('span', 'n', x.line), create('span', 'm', `${x.events && x.events.length ? x.events.length + ' events · ' : ''}${x.articleIds.length} headlines · ${n} countries`));
         b.addEventListener('click', () => selectReading(x.id, { open: true, fit: state.reading !== x.id }));
         strip.append(b);
       });
@@ -540,7 +540,9 @@
     const r = currentReading(), body = $('#drawer-body'); body.replaceChildren(); if (!r) return;
     const list = readings.readings, idx = list.findIndex(x => x.id === r.id);
     $('#drawer-eyebrow').textContent = `NARRATIVE ${String(idx + 1).padStart(2, '0')} / ${String(list.length).padStart(2, '0')} · ${readings.method === 'claude-authored-seed' ? 'SEED EDITION' : 'AI EDITION'} · ${fmt(readings.generatedAt).toUpperCase()}`;
-    body.append(create('p', 'reading-kicker', r.kicker), create('h2', 'reading-line', r.line), create('p', 'reading-claim', r.claim));
+    body.append(create('p', 'reading-kicker', r.kicker), create('h2', 'reading-line', r.line));
+    if (r.events && r.events.length) body.append(eventsEl(r));
+    body.append(create('p', 'reading-claim', r.claim));
     const ol = create('ol', 'rungs');
     r.rungs.forEach((rung, i) => {
       const li = create('li', 'rung ' + rung.kind + (state.rung === rung.id ? ' open' : ''));
@@ -568,13 +570,31 @@
     body.append(ol);
     if (r.horizons && r.horizons.length) body.append(horizonsEl(r));
     const foot = create('div', 'reading-foot');
-    const cites = create('span', 'cites', `${r.articleIds.length} headlines · ${new Set(r.articleIds.map(id => (byId.get(id) || {}).sourceCountry)).size} countries`);
+    const cites = create('span', 'cites', `${r.events && r.events.length ? r.events.length + ' events · ' : ''}${r.articleIds.length} headlines · ${new Set(r.articleIds.map(id => (byId.get(id) || {}).sourceCountry)).size} countries`);
     const nav = create('span', 'reading-nav');
     const prev = create('button', 'text', '← previous'), next = create('button', 'text', 'next narrative →');
     prev.addEventListener('click', () => stepReading(-1)); next.addEventListener('click', () => stepReading(1));
     nav.append(prev, next); foot.append(cites, nav); body.append(foot);
     body.scrollTop = 0;
     const openRung = $('.rung.open', body); if (openRung && state.frag) openRung.scrollIntoView({ block: 'start', behavior: 'instant' });
+  }
+  /* What it joins: the different events a narrative connects. Hover to light one event's headlines, click to hold and fit them. */
+  function eventsEl(r) {
+    const wrap = create('section', 'events');
+    wrap.append(create('p', 'sect', 'WHAT IT JOINS'));
+    const ul = create('ul', 'events-list');
+    r.events.forEach(e => {
+      const ids = (e.articleIds || []).filter(id => byId.has(id));
+      const li = create('li', 'event' + (state.frag === 'ev:' + e.label ? ' open' : ''));
+      const b = create('button', 'event-btn'); b.type = 'button'; b.setAttribute('aria-pressed', String(state.frag === 'ev:' + e.label));
+      b.append(create('span', 'l', e.label), create('span', 'c', `${ids.length}`));
+      b.addEventListener('click', () => { const open = state.frag === 'ev:' + e.label; state.frag = open ? '' : 'ev:' + e.label; setFocus(open ? null : ids); renderDrawer(); if (!open && ids.length) fitFocus(ids); });
+      b.addEventListener('mouseenter', () => { if (!state.frag) setFocus(ids); });
+      b.addEventListener('mouseleave', () => { if (!state.frag) setFocus(null); });
+      li.append(b); ul.append(li);
+    });
+    wrap.append(ul);
+    return wrap;
   }
   /* How we got here: the day's pattern placed on four longer trajectories, with a ruler of the moments it cites. */
   const SPAN_YEARS = { decade: 2016, 'half-century': 1976, 'since-2001': 2001, 'since-1945': 1945, 'long-run': 1800 };
