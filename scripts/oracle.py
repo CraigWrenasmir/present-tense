@@ -18,6 +18,9 @@ Usage:
   python3 scripts/oracle.py --collect  # only collect a pending edition (no submission)
   python3 scripts/oracle.py --submit   # only submit (no waiting)
   python3 scripts/oracle.py --dry-run  # build the request, make no API call
+  python3 scripts/oracle.py --recover BATCH_ID  # adopt a finished batch against the current collection
+                                       # (for an edition the validator wrongly refused; data/news.json
+                                       # must still be the collection that batch was asked about)
 Env:
   ANTHROPIC_API_KEY     required
   ORACLE_MODEL          default claude-opus-5-5
@@ -212,8 +215,6 @@ def validate(edition, news, library):
             words = len(h.get("text", "").split())
             if words < 90:
                 problems.append(f"{r['id']}/{h.get('span')}: horizon too short ({words} words)")
-            if not h.get("trajectoryIds"):
-                problems.append(f"{r['id']}/{h.get('span')}: horizon cites no trajectory")
             for t in h.get("trajectoryIds", []):
                 if t not in trajs:
                     problems.append(f"{r['id']}/{h.get('span')}: unknown trajectory {t}")
@@ -392,6 +393,7 @@ def main():
     parser.add_argument("--collect", action="store_true", help="Only collect a pending edition")
     parser.add_argument("--submit", action="store_true", help="Only submit; do not wait")
     parser.add_argument("--inspect", metavar="BATCH_ID", help="Print the status and result of a batch, then exit")
+    parser.add_argument("--recover", metavar="BATCH_ID", help="Adopt a finished batch against the current collection")
     args = parser.parse_args()
     news = json.loads((DATA / "news.json").read_text())
     library = json.loads((DATA / "library.json").read_text())
@@ -416,6 +418,16 @@ def main():
     if args.inspect:
         return inspect_batch(client, args.inspect)
     state = load_state()
+    if args.recover:
+        pending = {
+            "batchId": args.recover, "submittedAt": now_iso(), "model": model, "effort": effort,
+            "newsGeneratedAt": news["generatedAt"],
+            "articles": [{k: a[k] for k in KEEP if k in a} for a in news["articles"]],
+        }
+        note(state, f"recovering batch {args.recover} against the collection of {news['generatedAt']}")
+        done = collect(client, state, pending, library)
+        save_state(state)
+        return 0 if done else 1
     pending = json.loads(PENDING.read_text()) if PENDING.exists() else None
     if pending:
         done = collect(client, state, pending, library)

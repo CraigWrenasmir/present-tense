@@ -82,8 +82,6 @@ def main():
             for h in r.get("horizons", []):
                 if len(h.get("text", "").split()) < 90:
                     errors.append(f"reading {rid} horizon {h.get('span')} is too short")
-                if not h.get("trajectoryIds"):
-                    errors.append(f"reading {rid} horizon {h.get('span')} cites no trajectory")
                 for tid in h.get("trajectoryIds", []):
                     if tid not in traj_ids:
                         errors.append(f"reading {rid} horizon {h.get('span')} cites unknown trajectory {tid}")

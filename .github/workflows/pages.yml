@@ -10,9 +10,13 @@ on:
         type: boolean
         default: true
       readings:
-        description: Ask Claude for a new edition of readings (needs ANTHROPIC_API_KEY)
+        description: Ask Claude for a new edition of narratives (needs ANTHROPIC_API_KEY)
         type: boolean
         default: true
+      recover:
+        description: Adopt a finished batch by id instead (leave refresh and readings off)
+        type: string
+        default: ''
   schedule:
     - cron: '17 4,10,16,22 * * *'
 
@@ -70,16 +74,22 @@ jobs:
           python scripts/ledger.py --current data/news.json --output /dev/null --archive
           mv work/news-candidate.json data/news.json
           python scripts/ledger.py
-      - name: Collect an edition the oracle was still writing
+      - name: Collect an edition that was still being written
         id: collect-oracle
         if: hashFiles('data/oracle-pending.json') != '' && env.WANT_READINGS != 'true'
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/oracle.py --collect
-      - name: Ask the oracle (batch, same model at half price)
+      - name: Adopt a finished batch
+        if: github.event_name == 'workflow_dispatch' && inputs.recover != ''
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/oracle.py --recover "${{ inputs.recover }}"
+      - name: Ask for new narratives (batch, same model at half price)
         id: oracle
-        if: env.WANT_READINGS == 'true'
+        if: env.WANT_READINGS == 'true' && (github.event_name != 'workflow_dispatch' || inputs.recover == '')
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
