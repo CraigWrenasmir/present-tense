@@ -214,6 +214,28 @@ body.drawer-open .oracle { left: calc((100vw - var(--drawer-w)) / 2); }
 .ref .h:hover { text-decoration: underline; }
 .ref .q { display: block; font-size: 12.5px; color: var(--ink-2); line-height: 1.35; margin-top: 2px; }
 .sect { font-family: var(--mono); font-size: 9.5px; letter-spacing: .14em; color: var(--ink-3); margin: 12px 0 2px; }
+/* How we got here */
+.horizons { margin-top: 26px; }
+.horizons .sect { margin: 0 0 2px; }
+.horizons-intro { font-size: 13px; color: var(--ink-3); margin: 0 0 14px; font-style: italic; }
+.ruler { position: relative; height: 46px; margin: 4px 6px 18px; }
+.ruler-line { position: absolute; left: 0; right: 0; top: 22px; border-top: 1px solid var(--ink); }
+.ruler-tick { position: absolute; top: 28px; transform: translateX(-50%); font-family: var(--mono); font-size: 9px; letter-spacing: .08em; color: var(--ink-3); }
+.ruler-tick::before { content: ""; position: absolute; left: 50%; top: -7px; height: 5px; border-left: 1px solid var(--ink-3); }
+.ruler-mark { position: absolute; top: 2px; transform: translateX(-50%); font-family: var(--mono); font-size: 15px; line-height: 1; color: var(--ink); text-decoration: none; }
+.ruler-mark.stack { top: -9px; }
+.ruler-mark.before { color: var(--ink-3); }
+.ruler-mark:hover { transform: translateX(-50%) scale(1.5); }
+.horizon { border-top: 1px solid var(--ink-5); padding: 12px 0 6px; }
+.horizon-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.horizon-head .hl { font-size: 17px; }
+.horizon-head .hy { font-family: var(--mono); font-size: 10px; color: var(--ink-3); letter-spacing: .06em; white-space: nowrap; }
+.horizon-lens { font-family: var(--mono); font-size: 9.5px; letter-spacing: .14em; color: var(--ink-3); margin: 2px 0 8px; }
+.horizon-text { font-size: 14.5px; line-height: 1.5; margin: 0 0 8px; }
+.horizon-toggle { font-size: 10.5px; color: var(--ink-2); margin-bottom: 6px; }
+.horizon-refs { display: none; margin: 2px 0 8px; }
+.horizon-refs.open { display: block; }
+
 .reading-foot { display: flex; justify-content: space-between; margin-top: 22px; padding-top: 12px; border-top: 1px solid var(--ink); }
 .reading-foot .cites { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); }
 

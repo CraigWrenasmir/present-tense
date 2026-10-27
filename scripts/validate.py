@@ -75,6 +75,19 @@ def main():
                         errors.append(f"reading {rid} fragment {f.get('id')} cites unknown trajectory {tid}")
         if len(cited) < 4:
             errors.append(f"reading {rid} cites fewer than four headlines")
+        if readings.get("schemaVersion", 2) >= 3:
+            spans = [h.get("span") for h in r.get("horizons", [])]
+            if spans != ["decade", "half-century", "since-2001", "since-1945"]:
+                errors.append(f"reading {rid} horizons must be decade, half-century, since-2001, since-1945 in order")
+            for h in r.get("horizons", []):
+                if len(h.get("text", "").split()) < 90:
+                    errors.append(f"reading {rid} horizon {h.get('span')} is too short")
+                for tid in h.get("trajectoryIds", []):
+                    if tid not in traj_ids:
+                        errors.append(f"reading {rid} horizon {h.get('span')} cites unknown trajectory {tid}")
+                for bid in h.get("bookIds", []):
+                    if bid not in book_ids:
+                        errors.append(f"reading {rid} horizon {h.get('span')} cites unknown book {bid}")
         if "articleIds" in r and set(r["articleIds"]) != cited:
             errors.append(f"reading {rid} articleIds do not match its fragments (run freeze.py)")
 
@@ -88,7 +101,8 @@ def main():
         print(f"{len(errors)} problem(s)", file=sys.stderr)
         return 1
     n_frag = sum(len(f) for r in readings["readings"] for f in [sum([ru.get("fragments", []) for ru in r["rungs"]], [])])
-    print(f"✓ {len(news['articles'])} headlines, {len(readings['readings'])} readings, {n_frag} fragments, {len(book_ids)} books, {len(traj_ids)} trajectories")
+    n_h = sum(len(r.get("horizons", [])) for r in readings["readings"])
+    print(f"✓ {len(news['articles'])} headlines, {len(readings['readings'])} readings, {n_frag} fragments, {n_h} horizons, {len(book_ids)} books, {len(traj_ids)} trajectories")
     return 0
 
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "checkedAt": "2026-10-27",
-  "note": "Books are reading paths, not proofs. Each entry carries the question it is good at asking. Trajectories are past moments that rhyme with a present headline; a rhyme is not a cause.",
+  "note": "Books are reading paths, not proofs. Each entry carries the question it is good at asking. Trajectories are past moments that rhyme with a present headline; a rhyme is not a cause. Extended on 27 October 2026 with the trajectories the readings’ horizons draw on; every link checked.",
   "books": [
     {
       "id": "glass-bead-game",
@@ -191,6 +191,87 @@
       "url": "https://en.wikipedia.org/wiki/The_Invention_of_Tradition",
       "question": "How old is this ritual really, and who benefits from its seeming older?",
       "why": "Halloween in Taipei, Auckland and Houston on the same weekend is an invented tradition going global in real time."
+    },
+    {
+      "id": "third-wave",
+      "title": "The Third Wave: Democratization in the Late Twentieth Century",
+      "author": "Samuel P. Huntington",
+      "year": "1991",
+      "url": "https://en.wikipedia.org/wiki/The_Third_Wave:_Democratization_in_the_Late_Twentieth_Century",
+      "question": "Why did so many countries learn to vote in the same thirty years, and what happens when a wave recedes?",
+      "why": "Most of the countries reading each other’s results in 2026 democratised between 1974 and 1991. The book names the wave and warns about the undertow."
+    },
+    {
+      "id": "risk-society",
+      "title": "Risk Society: Towards a New Modernity",
+      "author": "Ulrich Beck",
+      "year": "1986",
+      "url": "https://en.wikipedia.org/wiki/Risk_Society",
+      "question": "What happens to a society that produces risks it cannot insure and then argues about who should bear them?",
+      "why": "Written in the year of Chernobyl. A prospectus that lists extinction and asks for money is Beck’s argument in its purest form."
+    },
+    {
+      "id": "the-prize",
+      "title": "The Prize: The Epic Quest for Oil, Money, and Power",
+      "author": "Daniel Yergin",
+      "year": "1991",
+      "url": "https://en.wikipedia.org/wiki/The_Prize:_The_Epic_Quest_for_Oil,_Money,_and_Power",
+      "question": "How did a fuel become the organising fact of the twentieth century’s wars and alliances?",
+      "why": "The Gulf’s two clocks run on the thing this book is about. Fifty years after 1973 the prize is still in the room."
+    },
+    {
+      "id": "shock-of-the-old",
+      "title": "The Shock of the Old: Technology and Global History since 1900",
+      "author": "David Edgerton",
+      "year": "2006",
+      "url": "https://en.wikipedia.org/wiki/The_Shock_of_the_Old",
+      "question": "Why do we tell the history of technology as a history of invention when most of what matters is use, maintenance and the old machines still running?",
+      "why": "The frigate, the submarine and the rifle in the same collection as the drone. Edgerton explains why the two arms races coexist."
+    },
+    {
+      "id": "eichmann-in-jerusalem",
+      "title": "Eichmann in Jerusalem: A Report on the Banality of Evil",
+      "author": "Hannah Arendt",
+      "year": "1963",
+      "url": "https://en.wikipedia.org/wiki/Eichmann_in_Jerusalem",
+      "question": "What does evil look like when it is done at a desk, by a functionary, at a distance from its effects?",
+      "why": "The question travels from a Jerusalem courtroom to a drone operator’s container and a militiaman’s tablet."
+    },
+    {
+      "id": "media-events",
+      "title": "Media Events: The Live Broadcasting of History",
+      "author": "Daniel Dayan and Elihu Katz",
+      "year": "1992",
+      "url": "https://en.wikipedia.org/wiki/Elihu_Katz",
+      "question": "What happens when a society stops to watch itself watching: a coronation, a moon landing, a final?",
+      "why": "The authors named the genre the Ballon d’Or belongs to. The link goes to the co-author’s page, which describes the book."
+    },
+    {
+      "id": "postwar",
+      "title": "Postwar: A History of Europe Since 1945",
+      "author": "Tony Judt",
+      "year": "2005",
+      "url": "https://en.wikipedia.org/wiki/Postwar:_A_History_of_Europe_Since_1945",
+      "question": "How was a continent rebuilt on an agreed forgetting, and what happened when the forgetting ended?",
+      "why": "Judt’s argument that postwar Europe was founded on amnesia is the background to every retrial, exhumation and removed statue since."
+    },
+    {
+      "id": "age-of-extremes",
+      "title": "The Age of Extremes: The Short Twentieth Century, 1914 to 1991",
+      "author": "Eric Hobsbawm",
+      "year": "1994",
+      "url": "https://en.wikipedia.org/wiki/The_Age_of_Extremes",
+      "question": "What did the century between Sarajevo and the Soviet collapse actually change, and what merely happened?",
+      "why": "Hobsbawm thought the cultural revolution of the 1960s outlasted every regime. The square, the camp and the dance in one week are its legacies."
+    },
+    {
+      "id": "crashed",
+      "title": "Crashed: How a Decade of Financial Crises Changed the World",
+      "author": "Adam Tooze",
+      "year": "2018",
+      "url": "https://en.wikipedia.org/wiki/Crashed:_How_a_Decade_of_Financial_Crises_Changed_the_World",
+      "question": "How did a crisis in American mortgages become a decade of politics everywhere?",
+      "why": "The years after 2008 broke the housing compact between generations and moved manufacturing to the cheapest fab. Both facts are in this collection."
     }
   ],
   "trajectories": [
@@ -284,6 +365,391 @@
       "title": "Nuremberg: a court tries a state for its war",
       "url": "https://en.wikipedia.org/wiki/Nuremberg_trials",
       "note": "The origin of the idea that attacking civilians' infrastructure can be a crime rather than a tactic. A UN finding about Ukraine's power grid stands on it."
+    },
+    {
+      "id": "v1-1944",
+      "when": "June 1944",
+      "title": "London: the V-1, a bomb that flies itself",
+      "url": "https://en.wikipedia.org/wiki/V-1_flying_bomb",
+      "note": "The first pilotless weapon aimed at a city, launched by a state that could no longer spare pilots. The drone begins as a way of not being there."
+    },
+    {
+      "id": "quincy-1945",
+      "when": "14 February 1945",
+      "title": "The Great Bitter Lake: Roosevelt meets Ibn Saud",
+      "url": "https://en.wikipedia.org/wiki/Quincy_Agreement",
+      "note": "On the way home from Yalta the president and the king trade protection for oil on a cruiser. The bargain was never written down and has outlasted every treaty signed since."
+    },
+    {
+      "id": "trinity-1945",
+      "when": "16 July 1945",
+      "title": "New Mexico: the first technology tested with an estimate that it might end the world",
+      "url": "https://en.wikipedia.org/wiki/Trinity_(nuclear_test)",
+      "note": "Before the test a physicist checked whether the bomb could ignite the atmosphere. It was a state project, secret and tax-funded. The risk assessment preceded the prospectus by eighty years."
+    },
+    {
+      "id": "geneva-1949",
+      "when": "12 August 1949",
+      "title": "Geneva: four conventions written in the shadow of the bombed city",
+      "url": "https://en.wikipedia.org/wiki/Geneva_Conventions",
+      "note": "The postwar laws of war were drafted by people who had watched what aircraft did to Dresden, Tokyo and Hiroshima. Every argument about a power station struck from the air starts here."
+    },
+    {
+      "id": "baghdad-pact-1955",
+      "when": "24 February 1955",
+      "title": "Baghdad: Iraq, Turkey, Iran, Pakistan and Britain sign a pact",
+      "url": "https://en.wikipedia.org/wiki/Baghdad_Pact",
+      "note": "An anti-Soviet alliance of almost exactly the capitals reported meeting about regional security in 2026. It was written for Washington and died with the Iraqi monarchy in 1958."
+    },
+    {
+      "id": "european-cup-1955",
+      "when": "1955 to 1956",
+      "title": "Paris: the first European Cup, a year before the Ballon d’Or and two before the Treaty of Rome",
+      "url": "https://en.wikipedia.org/wiki/1955%E2%80%9356_European_Cup",
+      "note": "Football’s Europe preceded the political one and was built for the same reason: to give people who had just fought each other something to meet about on a Wednesday night."
+    },
+    {
+      "id": "dartmouth-1956",
+      "when": "Summer 1956",
+      "title": "Dartmouth: a workshop names artificial intelligence",
+      "url": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
+      "note": "The field was named at a summer meeting funded by a foundation, in the decade when the state paid for everything that could change the world. Seventy years later the builder is a company."
+    },
+    {
+      "id": "suez-1956",
+      "when": "October 1956",
+      "title": "Suez: Britain’s role in the Middle East ends and America’s begins",
+      "url": "https://en.wikipedia.org/wiki/Suez_Crisis",
+      "note": "The moment the region learned that every settlement is underwritten by an outside power, and that the power can change."
+    },
+    {
+      "id": "sputnik-1957",
+      "when": "4 October 1957",
+      "title": "Sputnik: a satellite, a panic, and the founding of ARPA",
+      "url": "https://en.wikipedia.org/wiki/Sputnik_crisis",
+      "note": "The American answer to a Soviet satellite was a research agency that later built the internet. For forty years the technologies that could change everything were commissioned by governments."
+    },
+    {
+      "id": "frankfurt-1963",
+      "when": "1963 to 1965",
+      "title": "Frankfurt: West Germany tries its own citizens for Auschwitz",
+      "url": "https://en.wikipedia.org/wiki/Frankfurt_Auschwitz_trials",
+      "note": "Eighteen years after the war, a state put its own people in the dock for what its courts had agreed to forget. The retrial as a national habit begins here."
+    },
+    {
+      "id": "brazil-1964",
+      "when": "31 March 1964",
+      "title": "Brazil: the generals take power with Washington’s blessing",
+      "url": "https://en.wikipedia.org/wiki/1964_Brazilian_coup_d%27%C3%A9tat",
+      "note": "An election abroad was somebody else’s business long before Nairobi and Athens read Lula’s result. For twenty-one years it was Washington’s."
+    },
+    {
+      "id": "paris-1968",
+      "when": "May 1968",
+      "title": "Paris: students, then ten million strikers",
+      "url": "https://en.wikipedia.org/wiki/May_68",
+      "note": "The month that fixed the postwar script for the young in the square, and the state’s three replies: reform the university, clear the street, borrow the costume."
+    },
+    {
+      "id": "tlatelolco-1968",
+      "when": "2 October 1968",
+      "title": "Mexico City: the army fires on students ten days before the Olympics",
+      "url": "https://en.wikipedia.org/wiki/Tlatelolco_massacre",
+      "note": "The other 1968. Where Paris reformed, Mexico closed the square. Antioquia’s curfew on minors is the mild descendant of this choice."
+    },
+    {
+      "id": "santiago-1970",
+      "when": "4 September 1970",
+      "title": "Santiago: Allende wins and Washington sets out to make the economy scream",
+      "url": "https://en.wikipedia.org/wiki/1970_Chilean_presidential_election",
+      "note": "The clearest case of a foreign power treating another country’s election as its own emergency. The market’s second vote was organised from abroad."
+    },
+    {
+      "id": "lisbon-1974",
+      "when": "25 April 1974",
+      "title": "Lisbon: the Carnation Revolution opens the third wave",
+      "url": "https://en.wikipedia.org/wiki/Carnation_Revolution",
+      "note": "Spain, Greece, Latin America and then Eastern Europe followed. Most of the countries now reading each other’s results learned to vote in the same thirty years."
+    },
+    {
+      "id": "soweto-1976",
+      "when": "16 June 1976",
+      "title": "Soweto: schoolchildren march against Afrikaans and begin the end of apartheid",
+      "url": "https://en.wikipedia.org/wiki/Soweto_uprising",
+      "note": "Fifty years of students ending governments starts here, in a country where the median age was eighteen."
+    },
+    {
+      "id": "protocol-1977",
+      "when": "8 June 1977",
+      "title": "Geneva: Protocol I forbids attacking what civilians need to survive",
+      "url": "https://en.wikipedia.org/wiki/Protocol_I",
+      "note": "Article 54 names the things that may not be targeted: food, water, the works that supply them. A 1977 rule being applied in 2026 to drones over power stations."
+    },
+    {
+      "id": "tehran-1979",
+      "when": "February 1979",
+      "title": "Tehran: the Shah falls and the year that redrew the Gulf begins",
+      "url": "https://en.wikipedia.org/wiki/Iranian_revolution",
+      "note": "The alliances meeting in 2026 were drawn in 1979: a revolution in February, a seized mosque in November, a Soviet invasion in December, and an American doctrine in January."
+    },
+    {
+      "id": "mecca-1979",
+      "when": "20 November 1979",
+      "title": "Mecca: armed millenarians seize the Grand Mosque",
+      "url": "https://en.wikipedia.org/wiki/Grand_Mosque_seizure",
+      "note": "The Saudi state answered with thirty years of religious strictness, and later with a reversal. Any pact signed in Mecca is signed over this ground."
+    },
+    {
+      "id": "gwangju-1980",
+      "when": "May 1980",
+      "title": "Gwangju: the army kills hundreds of students and citizens",
+      "url": "https://en.wikipedia.org/wiki/Gwangju_Uprising",
+      "note": "Seven months after a KCIA chief shot the president, a general’s coup was answered by a city. Korea has been retrying 1979 and 1980 ever since."
+    },
+    {
+      "id": "bekaa-1982",
+      "when": "9 June 1982",
+      "title": "The Bekaa Valley: drones find and blind Syria’s air defences in an afternoon",
+      "url": "https://en.wikipedia.org/wiki/Operation_Mole_Cricket_19",
+      "note": "The first battle the object won. Israel’s decoys and cameras located the missiles and the air force did the rest. The export industry of 2026 descends from this day."
+    },
+    {
+      "id": "juntas-1985",
+      "when": "April to December 1985",
+      "title": "Buenos Aires: Argentina tries its own juntas",
+      "url": "https://en.wikipedia.org/wiki/Trial_of_the_Juntas",
+      "note": "The first time since Nuremberg a state tried its own former rulers in its own courts, two years after they left. The age of transitional justice begins here."
+    },
+    {
+      "id": "live-aid-1985",
+      "when": "13 July 1985",
+      "title": "London and Philadelphia: a concert built to be watched by a billion people at once",
+      "url": "https://en.wikipedia.org/wiki/Live_Aid",
+      "note": "The first event designed as a simultaneous global audience. A football ceremony in nine countries’ headlines is its grandchild."
+    },
+    {
+      "id": "seoul-1987",
+      "when": "June 1987",
+      "title": "Seoul: students and office workers win direct presidential elections",
+      "url": "https://en.wikipedia.org/wiki/June_Democratic_Struggle",
+      "note": "The square worked. The country it produced is now the oldest in the constellation, and its young are in the exam hall rather than the street."
+    },
+    {
+      "id": "tiananmen-1989",
+      "when": "April to June 1989",
+      "title": "Beijing: students fill the square and lose",
+      "url": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre",
+      "note": "The same spring that won in Prague lost in Beijing. The civil service queue of ninety-seven applicants a place is what followed."
+    },
+    {
+      "id": "premier-league-1992",
+      "when": "1992",
+      "title": "England: the Premier League sells football by the season",
+      "url": "https://en.wikipedia.org/wiki/Premier_League",
+      "note": "Satellite television turned a national league into a global product. A Lagos list of snubbed players is local news because of this."
+    },
+    {
+      "id": "bosman-1995",
+      "when": "15 December 1995",
+      "title": "Luxembourg: the Bosman ruling frees footballers to move",
+      "url": "https://en.wikipedia.org/wiki/Bosman_ruling",
+      "note": "A European court turned national leagues into a global labour market. The migration story inside the sport story."
+    },
+    {
+      "id": "trc-1996",
+      "when": "1996 to 1998",
+      "title": "Cape Town: the Truth and Reconciliation Commission trades amnesty for testimony",
+      "url": "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)",
+      "note": "A third way between the trial and the pardon. Every country that reopens its past since has had to choose among the three."
+    },
+    {
+      "id": "chun-1996",
+      "when": "August 1996",
+      "title": "Seoul: two former presidents sentenced for the 1979 coup and Gwangju",
+      "url": "https://en.wikipedia.org/wiki/Chun_Doo-hwan",
+      "note": "Korea’s first re-sentencing of its dictatorship. One death sentence, two pardons the next year, and unfinished business that reopens in 2026."
+    },
+    {
+      "id": "jakarta-1998",
+      "when": "May 1998",
+      "title": "Jakarta: students occupy parliament and Suharto resigns after thirty-one years",
+      "url": "https://en.wikipedia.org/wiki/Fall_of_Suharto",
+      "note": "A leaderless student movement ended one of the longest rules of the century. Serbia’s students have a precedent in Southeast Asia as well as in Belgrade."
+    },
+    {
+      "id": "pinochet-1998",
+      "when": "16 October 1998",
+      "title": "London: Pinochet is arrested on a Spanish warrant",
+      "url": "https://en.wikipedia.org/wiki/Indictment_and_arrest_of_Augusto_Pinochet",
+      "note": "The moment the past became prosecutable anywhere. A Chilean court reopening a 1996 case works in a legal world this arrest made."
+    },
+    {
+      "id": "dotcom-2000",
+      "when": "March 2000",
+      "title": "New York: the dot-com bubble bursts",
+      "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+      "note": "Five years of listings in which disclosure was no obstacle to belief, then a crash that produced the rules requiring a hundred pages of risk factors."
+    },
+    {
+      "id": "gps-2000",
+      "when": "1 May 2000",
+      "title": "Washington switches off the deliberate error in GPS",
+      "url": "https://en.wikipedia.org/wiki/Global_Positioning_System",
+      "note": "The sky opened to civilians. Within a decade a Shenzhen company had put a camera on a quadcopter anyone could buy, and the drone stopped being a state’s thing."
+    },
+    {
+      "id": "lula-2002",
+      "when": "October 2002",
+      "title": "Brazil: Lula wins at the fourth attempt after the market votes first",
+      "url": "https://en.wikipedia.org/wiki/2002_Brazilian_general_election",
+      "note": "The real lost a third of its value before a ballot was cast and the candidate published a letter promising to honour the debt. The currency has voted in every Brazilian election since."
+    },
+    {
+      "id": "icc-2002",
+      "when": "1 July 2002",
+      "title": "The Hague: the International Criminal Court opens",
+      "url": "https://en.wikipedia.org/wiki/International_Criminal_Court",
+      "note": "The high point of the belief that reopening the past could be institutionalised worldwide. What followed was reopening by other means: the archive stopped closing."
+    },
+    {
+      "id": "iraq-2003",
+      "when": "20 March 2003",
+      "title": "Baghdad: the invasion removes Iran’s main enemy",
+      "url": "https://en.wikipedia.org/wiki/2003_invasion_of_Iraq",
+      "note": "The export of elections became a security policy and discredited itself. Tehran gained a corridor to the Mediterranean, and Jordan a fault line it still lives on."
+    },
+    {
+      "id": "tbilisi-2003",
+      "when": "November 2003",
+      "title": "Tbilisi: the Rose Revolution borrows Belgrade’s manual",
+      "url": "https://en.wikipedia.org/wiki/Rose_Revolution",
+      "note": "The first of the colour revolutions to copy Otpor directly. Russia’s answer, a theory that every crowd is somebody’s project, followed within a decade."
+    },
+    {
+      "id": "lehman-2008",
+      "when": "15 September 2008",
+      "title": "New York: Lehman Brothers fails",
+      "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers",
+      "note": "The crisis that pushed manufacturing to the cheapest fab, broke the housing compact between generations, and made the cloud the safest place to put money."
+    },
+    {
+      "id": "tahrir-2011",
+      "when": "January to February 2011",
+      "title": "Cairo: eighteen days in Tahrir Square",
+      "url": "https://en.wikipedia.org/wiki/2011_Egyptian_revolution",
+      "note": "The square won and lost within two years. The lesson the young of 2026 drew is visible in Belgrade: no leader to arrest, no party to co-opt."
+    },
+    {
+      "id": "sol-2011",
+      "when": "15 May 2011",
+      "title": "Madrid: the indignados camp in Puerta del Sol",
+      "url": "https://en.wikipedia.org/wiki/Anti-austerity_movement_in_Spain",
+      "note": "The same square as the 2026 camp. Last time the movement became a party, the party entered government, and the rents went up."
+    },
+    {
+      "id": "jcpoa-2015",
+      "when": "14 July 2015",
+      "title": "Vienna: the Iran nuclear agreement",
+      "url": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action",
+      "note": "The pact clock. Its abandonment in 2018 restarted the other one, and the region has alternated between the two at increasing speed since."
+    },
+    {
+      "id": "metoo-2017",
+      "when": "October 2017",
+      "title": "#MeToo reopens cases prosecutors had closed",
+      "url": "https://en.wikipedia.org/wiki/MeToo_movement",
+      "note": "A decade in which old verdicts were reopened from below, by testimony rather than by courts, and courts then had to catch up."
+    },
+    {
+      "id": "abqaiq-2019",
+      "when": "14 September 2019",
+      "title": "Abqaiq: drones and missiles halve Saudi oil output for days",
+      "url": "https://en.wikipedia.org/wiki/Abqaiq%E2%80%93Khurais_attack",
+      "note": "The moment the cheap machine reached the most expensive target on earth. The airport headlines of 2026 are the same lesson applied to passengers."
+    },
+    {
+      "id": "colston-2020",
+      "when": "7 June 2020",
+      "title": "Bristol: a slave trader’s statue goes into the harbour",
+      "url": "https://en.wikipedia.org/wiki/Statue_of_Edward_Colston",
+      "note": "The decade’s memory wars in one act. Statues, films, retrials and library shelves were all ways of re-sentencing the past."
+    },
+    {
+      "id": "karabakh-2020",
+      "when": "September to November 2020",
+      "title": "Nagorno-Karabakh: Turkish and Israeli drones win a war in forty-four days",
+      "url": "https://en.wikipedia.org/wiki/Second_Nagorno-Karabakh_War",
+      "note": "Every defence ministry rewrote its shopping list. The trade-fair headlines of 2026 are those lists being filled."
+    },
+    {
+      "id": "algiers-2020",
+      "when": "1 November 2020",
+      "title": "Algiers: a referendum lets the army deploy abroad for the first time since 1973",
+      "url": "https://en.wikipedia.org/wiki/2020_Algerian_constitutional_referendum",
+      "note": "The constitutional change behind the 2026 headline about troops to Niger. The quiet redrawings happen in the Sahara."
+    },
+    {
+      "id": "super-league-2021",
+      "when": "18 to 20 April 2021",
+      "title": "Europe: twelve clubs announce a closed league and lose to their own supporters in forty-eight hours",
+      "url": "https://en.wikipedia.org/wiki/European_Super_League",
+      "note": "The one time in the decade a crowd beat capital at its own game. The ceremony belongs to the clubs; the game, briefly, did not."
+    },
+    {
+      "id": "qatar-2022",
+      "when": "November to December 2022",
+      "title": "Doha: a World Cup built by migrant workers",
+      "url": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup",
+      "note": "The shared ceremony and the labour that builds it, in one tournament. The migration story the sport story usually leaves out."
+    },
+    {
+      "id": "chatgpt-2022",
+      "when": "30 November 2022",
+      "title": "San Francisco: ChatGPT reaches a hundred million users in two months",
+      "url": "https://en.wikipedia.org/wiki/ChatGPT",
+      "note": "The demonstration became a market. The prospectus of 2026 is the market asking to be priced."
+    },
+    {
+      "id": "extinction-statement-2023",
+      "when": "30 May 2023",
+      "title": "A one-sentence statement: extinction from AI should be a global priority",
+      "url": "https://en.wikipedia.org/wiki/Statement_on_AI_Risk",
+      "note": "Signed by the heads of the laboratories building the thing. The risk factor in a 2026 prospectus is this sentence moved from an open letter into a legal filing."
+    },
+    {
+      "id": "dhaka-2024",
+      "when": "July to August 2024",
+      "title": "Dhaka: students over job quotas, then a prime minister on a helicopter",
+      "url": "https://en.wikipedia.org/wiki/July_Revolution_(Bangladesh)",
+      "note": "The decade’s clearest case of students toppling a government. Serbia’s students had a precedent two years old."
+    },
+    {
+      "id": "novi-sad-2024",
+      "when": "1 November 2024",
+      "title": "Novi Sad: a station canopy collapses and kills sixteen",
+      "url": "https://en.wikipedia.org/wiki/Novi_Sad_railway_station_canopy_collapse",
+      "note": "The beginning of the Serbian student movement that, by the headlines of October 2026, ended fourteen years of Vučić. It started with concrete, not ideology."
+    },
+    {
+      "id": "kathmandu-2025",
+      "when": "September 2025",
+      "title": "Kathmandu: Gen Z protests under a pirate flag force out a government",
+      "url": "https://en.wikipedia.org/wiki/2025_Nepalese_Gen_Z_protests",
+      "note": "The flag was from a Japanese comic. The shared toys and the shared squares of the decade turned out to be the same network."
+    },
+    {
+      "id": "fordow-2025",
+      "when": "22 June 2025",
+      "title": "Fordow: American bombers end a twelve-day Israel-Iran war",
+      "url": "https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites",
+      "note": "The strike clock struck. Sixteen months later the same capitals are reported preparing again while a pact is drafted in Mecca."
+    },
+    {
+      "id": "spiderweb-2025",
+      "when": "1 June 2025",
+      "title": "Russia: Ukrainian drones launched from parked lorries hit bombers thousands of kilometres from the front",
+      "url": "https://en.wikipedia.org/wiki/Operation_Spiderweb",
+      "note": "The cheapest machine against the most expensive. The arithmetic that makes Hezbollah plan a factory and Elbit sign a deal."
     }
   ]
 }

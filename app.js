@@ -547,6 +547,7 @@
       ol.append(li);
     });
     body.append(ol);
+    if (r.horizons && r.horizons.length) body.append(horizonsEl(r));
     const foot = create('div', 'reading-foot');
     const cites = create('span', 'cites', `${r.articleIds.length} headlines · ${new Set(r.articleIds.map(id => (byId.get(id) || {}).sourceCountry)).size} countries`);
     const nav = create('span', 'oracle-actions');
@@ -555,6 +556,53 @@
     nav.append(prev, next); foot.append(cites, nav); body.append(foot);
     body.scrollTop = 0;
     const openRung = $('.rung.open', body); if (openRung && state.frag) openRung.scrollIntoView({ block: 'start', behavior: 'instant' });
+  }
+  /* How we got here: the day's pattern placed on four longer trajectories, with a ruler of the moments it cites. */
+  const SPAN_YEARS = { decade: 2016, 'half-century': 1976, 'since-2001': 2001, 'since-1945': 1945, 'long-run': 1800 };
+  const yearOf = t => { const m = String(t.when || '').match(/\d{4}/); return m ? parseInt(m[0]) : null; };
+  function horizonsEl(r) {
+    const wrap = create('section', 'horizons');
+    wrap.append(create('p', 'sect', 'HOW WE GOT HERE'));
+    wrap.append(create('p', 'horizons-intro', 'The same pattern on four longer clocks. A trajectory, not a verdict.'));
+    const now = new Date(news.generatedAt || Date.now()).getUTCFullYear();
+    const cited = new Map();
+    const addT = (id, where) => { const t = library.trajectories.find(x => x.id === id); if (t) { const y = yearOf(t); if (y) cited.set(id, { t, y, where }); } };
+    r.rungs.forEach(ru => ru.fragments.forEach(f => (f.trajectoryIds || []).forEach(id => addT(id, 'rung'))));
+    r.horizons.forEach(h => (h.trajectoryIds || []).forEach(id => addT(id, h.span)));
+    // the ruler: 1945 to now, with earlier moments gathered at the left edge
+    const ruler = create('div', 'ruler'); const y0 = 1945, span = now - y0;
+    const line = create('div', 'ruler-line'); ruler.append(line);
+    [[1945, '1945'], [1973, '1973'], [2001, '2001'], [2016, '2016'], [now, String(now)]].forEach(([y, l]) => { const tk = create('span', 'ruler-tick', l); tk.style.left = ((y - y0) / span * 100) + '%'; ruler.append(tk); });
+    const marks = [...cited.values()].sort((a, b) => a.y - b.y); let lastX = -99;
+    marks.forEach(({ t, y }) => {
+      const x = clamp((y - y0) / span * 100, 0, 100);
+      const m = create('a', 'ruler-mark' + (y < y0 ? ' before' : ''), '*'); m.href = t.url; m.target = '_blank'; m.rel = 'noopener noreferrer';
+      m.style.left = x + '%'; m.title = `${t.when}: ${t.title}`; m.setAttribute('aria-label', `${t.when}: ${t.title}`);
+      if (x - lastX < 2.2) m.classList.add('stack'); lastX = x;
+      ruler.append(m);
+    });
+    wrap.append(ruler);
+    r.horizons.forEach(h => {
+      const d = create('div', 'horizon ' + h.span);
+      const head = create('div', 'horizon-head');
+      const from = SPAN_YEARS[h.span];
+      head.append(create('span', 'hl', h.label), create('span', 'hy', from ? `${from} to ${now}` : ''));
+      d.append(head);
+      if (h.lens) d.append(create('p', 'horizon-lens', h.lens));
+      d.append(create('p', 'horizon-text', h.text));
+      const books = (h.bookIds || []).map(id => library.books.find(b => b.id === id)).filter(Boolean);
+      const trajs = (h.trajectoryIds || []).map(id => library.trajectories.find(t => t.id === id)).filter(Boolean);
+      if (books.length || trajs.length) {
+        const refs = create('div', 'horizon-refs');
+        trajs.forEach(t => { const a = create('a', 'ref', ''); a.href = t.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.append(create('span', 'w', `LOOK BACK / ${t.when}`), create('span', 'h', t.title + ' ↗'), create('span', 'q', t.note)); refs.append(a); });
+        books.forEach(b => { const a = create('a', 'ref', ''); a.href = b.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.append(create('span', 'w', `READ / ${b.author}, ${b.year}`), create('span', 'h', b.title + ' ↗'), create('span', 'q', b.question)); refs.append(a); });
+        const tog = create('button', 'text horizon-toggle', `${trajs.length + books.length} ${trajs.length + books.length === 1 ? 'reference' : 'references'}`); tog.type = 'button'; tog.setAttribute('aria-expanded', 'false');
+        tog.addEventListener('click', () => { const open = refs.classList.toggle('open'); tog.setAttribute('aria-expanded', String(open)); });
+        d.append(tog, refs);
+      }
+      wrap.append(d);
+    });
+    return wrap;
   }
   function fitFocus(ids) {
     const list = ids.map(id => beadById.get(id)).filter(Boolean);

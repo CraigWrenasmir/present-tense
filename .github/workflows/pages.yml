@@ -14,7 +14,7 @@ on:
         type: boolean
         default: true
   schedule:
-    - cron: '17 4,16 * * *'
+    - cron: '17 4,10,16,22 * * *'
 
 concurrency:
   group: present-tense
@@ -38,6 +38,14 @@ jobs:
       WANT_READINGS: ${{ (github.event_name == 'schedule' && vars.GENERATE_READINGS == 'true') || (github.event_name == 'workflow_dispatch' && inputs.readings) }}
     steps:
       - uses: actions/checkout@v4
+      - name: Readings twice a day on the schedule (04 and 16 UTC), every time by hand
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            case "$(date -u +%H)" in
+              04|16) ;;
+              *) echo "WANT_READINGS=false" >> "$GITHUB_ENV" ;;
+            esac
+          fi
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
