@@ -8,8 +8,15 @@
   window.addEventListener('unhandledrejection', e => { errlog.textContent += `[rejection] ${e.reason}\n`; });
 
   const WORLD_W = 9000, WORLD_H = Math.round(9000 * 145 / 360);
-  const Z_MAX = 2.4;
-  const zMin = () => clamp((window.innerWidth - 40) / WORLD_W, 0.09, 0.42);
+  const Z_MAX = 2.6;
+  /* Semantic zoom. atlas: the whole world, each country a swarm of dots. region: a continent, swarms unfolding.
+     near: countries as blocks of readable headlines, laid out 1:1 at NEAR_Z. close: large type. */
+  const LEVEL_Z = { region: 0.3, near: 0.8, close: 1.5 };
+  const UNFOLD = [0.42, 0.8];
+  const NEAR_Z = 0.8;
+  const CARD_W = 220, CELL_W = (CARD_W + 36) / NEAR_Z, SWARM = 26;
+  const LEVEL_NAME = { atlas: 'WORLD', region: 'REGION', near: 'HEADLINES', close: 'CLOSE' };
+  const zMin = () => { const v = viewport(); return clamp(Math.min((v.w - 48) / WORLD_W, (v.h - 40) / WORLD_H), 0.03, 0.42); };
   const mobile = () => window.innerWidth <= 760;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 
@@ -47,7 +54,7 @@
     state.panel = ['tide', 'index', 'about'].includes(p.get('view')) ? p.get('view') : '';
     if (p.get('lang') === 'orig') state.lang = 'orig';
     state.ghosts = p.get('ghosts') === '1';
-    state.debugZ = parseFloat(p.get('z')) || 0;
+    state.debugZ = parseFloat(p.get('z')) || 0; state.debugLon = parseFloat(p.get('lon')); state.debugLat = parseFloat(p.get('lat'));
   }
   function writeHash() {
     const p = new URLSearchParams();
@@ -72,50 +79,69 @@
     (readings.sourceArticles || []).forEach(a => { if (!byId.has(a.id)) byId.set(a.id, a); });
   }
 
-  /* ---------- layout ---------- */
+  /* ---------- layout ----------
+     Every headline has two homes. Compact: a dot in its country's swarm, so the whole world reads as a map of who is
+     talking. Expanded: a card in its country's block, so a country reads as a page of its own headlines. The frame
+     interpolates between them with zoom, so swarms unfold into pages as you approach. */
   function estimate(a) {
     const len = headline(a).length;
-    const lines = clamp(Math.ceil(len / 27), 1, 6);
-    return { w: 220 + 28, h: lines * 18 + 12 + 16 + 12 };
+    const lines = clamp(Math.ceil(len / 26), 1, 6);
+    return { w: CARD_W, h: lines * 17 + 12 + 14 + 12 };
   }
+  const smooth = t => { t = clamp(t, 0, 1); return t * t * (3 - 2 * t); };
+  const unfold = z => smooth((z - UNFOLD[0]) / (UNFOLD[1] - UNFOLD[0]));
+  const posAt = (p, z) => { const t = unfold(z); return [p.cx + (p.ex - p.cx) * t, p.cy + (p.ey - p.cy) * t]; };
+  let blocks = [];
   function layout() {
     const anchors = {}; config.countries.forEach(c => { anchors[c.code] = toWorld(c.lon, c.lat); });
     const groups = new Map();
     news.articles.forEach(a => { (groups.get(a.sourceCountryCode) || groups.set(a.sourceCountryCode, []).get(a.sourceCountryCode)).push(a); });
-    const items = [];
+    blocks = [];
     for (const [code, list] of groups) {
       const [ax, ay] = anchors[code] || toWorld(list[0].sourceLon, list[0].sourceLat);
-      list.forEach((a, i) => {
-        const s = estimate(a), ang = i * 2.39996 + hashStr(code) % 7, r = 34 * Math.sqrt(i + 0.5);
-        items.push({ a, w: s.w, h: s.h, ax, ay, x: ax + r * Math.cos(ang) * 1.6, y: ay + r * Math.sin(ang) * 0.9, i: items.length });
+      list.sort((a, b) => (a.publisher + (a.publishedAt || '')).localeCompare(b.publisher + (b.publishedAt || '')));
+      const n = list.length, r = SWARM * Math.sqrt(n) + 14, turn = hashStr(code) % 7;
+      const cols = clamp(Math.round(Math.sqrt(n / 1.5)), 1, 4), colH = new Array(cols).fill(0);
+      const items = list.map((a, i) => {
+        const s = estimate(a), rr = SWARM * Math.sqrt(i + 0.6), ang = i * 2.39996 + turn;
+        const c = colH.indexOf(Math.min(...colH));
+        const it = { a, w: s.w, h: s.h, sx: rr * Math.cos(ang) * 1.25, sy: rr * Math.sin(ang), bx: c * CELL_W, by: colH[c] };
+        colH[c] += (s.h + 10) / NEAR_Z;
+        return it;
       });
+      blocks.push({ code, ax, ay, n, r, items, bw: cols * CELL_W, bh: Math.max(...colH), cx: ax, cy: ay, ex: ax, ey: ay });
     }
-    relax(items, 700, 12);
-    // keep inside the world
-    items.forEach(p => { p.x = clamp(p.x, 20, WORLD_W - p.w); p.y = clamp(p.y, 20, WORLD_H + 300); });
-    return items;
+    relaxRects(blocks.map(b => ({ b, x: b.cx, y: b.cy, w: b.r * 2 + 36, h: b.r * 2 + 36, ax: b.ax, ay: b.ay })), 400, 0.75);
+    blocks.forEach(b => { b.cx = b._x; b.cy = b._y; });
+    relaxRects(blocks.map(b => ({ b, x: b.ex, y: b.ey, w: b.bw + 170, h: b.bh + 230, ax: b.ax, ay: b.ay })), 700, 0.7);
+    blocks.forEach(b => { b.ex = b._x; b.ey = b._y; });
+    const out = [];
+    blocks.forEach(b => b.items.forEach(it => {
+      it.cx = b.cx + it.sx; it.cy = b.cy + it.sy;
+      it.ex = b.ex - b.bw / 2 + it.bx; it.ey = b.ey - b.bh / 2 + it.by;
+      it.block = b; it.i = out.length; out.push(it);
+    }));
+    return out;
   }
-  function relax(items, iters, M) {
-    const cell = 360;
+  /* Rigid rectangles (centre x, y) pushed apart, pulled gently to their anchors, kept inside the world. */
+  function relaxRects(items, iters, xBias) {
+    items.forEach((p, i) => { p.i = i; });
     for (let it = 0; it < iters; it++) {
-      const grid = new Map();
-      for (const p of items) { const k = ((p.x / cell) | 0) + ',' + ((p.y / cell) | 0); (grid.get(k) || grid.set(k, []).get(k)).push(p); }
-      const pull = it < 60 ? 0.01 : it < 300 ? 0.001 : 0, push = it < 300 ? 0.26 : 0.5;
+      const pull = it < iters * 0.4 ? 0.03 : 0.006;
       for (const p of items) {
-        const gx = (p.x / cell) | 0, gy = (p.y / cell) | 0;
-        for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) {
-          const b = grid.get((gx + dx) + ',' + (gy + dy)); if (!b) continue;
-          for (const q of b) {
-            if (q.i <= p.i) continue;
-            const ox = (p.w + q.w) / 2 + M - Math.abs(p.x - q.x); if (ox <= 0) continue;
-            const oy = (p.h + q.h) / 2 + M - Math.abs(p.y - q.y); if (oy <= 0) continue;
-            if (ox * 0.45 < oy) { const s = (p.x < q.x ? -1 : 1) * ox * push; p.x += s; q.x -= s; }
-            else { const s = (p.y < q.y ? -1 : 1) * oy * push; p.y += s; q.y -= s; }
-          }
+        for (const q of items) {
+          if (q.i <= p.i) continue;
+          const ox = (p.w + q.w) / 2 - Math.abs(p.x - q.x); if (ox <= 0) continue;
+          const oy = (p.h + q.h) / 2 - Math.abs(p.y - q.y); if (oy <= 0) continue;
+          const left = p.x === q.x ? p.i < q.i : p.x < q.x, above = p.y === q.y ? p.i < q.i : p.y < q.y;
+          if (ox * xBias < oy) { const s = (left ? -1 : 1) * ox * 0.5; p.x += s; q.x -= s; }
+          else { const s = (above ? -1 : 1) * oy * 0.5; p.y += s; q.y -= s; }
         }
         p.x += (p.ax - p.x) * pull; p.y += (p.ay - p.y) * pull;
+        p.x = clamp(p.x, p.w / 2, WORLD_W - p.w / 2); p.y = clamp(p.y, p.h / 2 + 10, WORLD_H + 200 - p.h / 2);
       }
     }
+    items.forEach(p => { p.b._x = p.x; p.b._y = p.y; });
   }
 
   /* ---------- beads ---------- */
@@ -139,39 +165,55 @@
     const frag = document.createDocumentFragment();
     items.forEach(p => {
       p.el = beadEl(p.a, false); fillBead(p);
-      p.hx = p.x; p.hy = p.y; p.ph = rand(p.i * 3 + 1) * Math.PI * 2; p.f1 = 0.00028 + rand(p.i) * 0.00022; p.f2 = 0.00021 + rand(p.i * 7) * 0.0002;
+      p.x = p.cx; p.y = p.cy; p.ph = rand(p.i * 3 + 1) * Math.PI * 2; p.f1 = 0.00028 + rand(p.i) * 0.00022; p.f2 = 0.00021 + rand(p.i * 7) * 0.0002;
       if (ledger && ledger.previousAt && ledger.arrived.includes(p.a.id)) p.el.classList.add('arrived');
       frag.append(p.el); beads.push(p); beadById.set(p.a.id, p);
     });
     worldEl.append(frag);
-    // ghosts: departed headlines, loosely around their country, not relaxed
+    // ghosts: departed headlines, in a ring around their country's swarm or block
     ghosts = [];
     if (ledger && ledger.departed && ledger.departed.length) {
+      const byCode = {}; blocks.forEach(b => { byCode[b.code] = b; });
       const anchors = {}; config.countries.forEach(c => { anchors[c.code] = toWorld(c.lon, c.lat); });
       const count = {};
       const gf = document.createDocumentFragment();
       ledger.departed.forEach((a, j) => {
         if (!safeURL(a.url)) return;
-        const an = anchors[a.sourceCountryCode]; if (!an) return;
+        const b = byCode[a.sourceCountryCode], an = anchors[a.sourceCountryCode]; if (!b && !an) return;
         const i = (count[a.sourceCountryCode] = (count[a.sourceCountryCode] || 0) + 1);
-        const ang = i * 2.39996 + 1.1, r = 60 + 30 * Math.sqrt(i);
-        const g = { a, x: an[0] + r * Math.cos(ang) * 1.7, y: an[1] + r * Math.sin(ang), el: beadEl(a, true), ph: rand(j) * 6, f1: 0.0002, f2: 0.00015, w: 200, h: 40 };
-        g.hx = g.x; g.hy = g.y; fillBead(g); g.el.hidden = !state.ghosts; gf.append(g.el); ghosts.push(g); byId.set(a.id, a);
+        const ang = i * 2.39996 + 1.1;
+        const g = { a, el: beadEl(a, true), ph: rand(j) * 6, f1: 0.0002, f2: 0.00015, w: 200, h: 40 };
+        if (b) {
+          const rc = b.r + 24 + 14 * Math.sqrt(i), re = Math.max(b.bw, b.bh) / 2 + 90 + 40 * Math.sqrt(i);
+          g.cx = b.cx + rc * Math.cos(ang) * 1.3; g.cy = b.cy + rc * Math.sin(ang);
+          g.ex = b.ex + re * Math.cos(ang) * 1.3; g.ey = b.ey + re * Math.sin(ang);
+        } else {
+          const rr = 40 + 22 * Math.sqrt(i);
+          g.cx = an[0] + rr * Math.cos(ang) * 1.3; g.cy = an[1] + rr * Math.sin(ang); g.ex = g.cx * 1 + rr * 2 * Math.cos(ang); g.ey = g.cy + rr * 2 * Math.sin(ang);
+        }
+        g.x = g.cx; g.y = g.cy;
+        fillBead(g); g.el.hidden = !state.ghosts; gf.append(g.el); ghosts.push(g); byId.set(a.id, a);
       });
       worldEl.append(gf);
     }
-    // labels: one per country with beads (at cluster centroid) plus silent countries at their anchor
+    // labels: one per country with headlines (above its swarm, then its block) plus silent countries at their anchor
     labels = [];
-    const groups = new Map(); beads.forEach(p => { (groups.get(p.a.sourceCountryCode) || groups.set(p.a.sourceCountryCode, []).get(p.a.sourceCountryCode)).push(p); });
+    const byCode = {}; blocks.forEach(b => { byCode[b.code] = b; });
     const states = {}; (ledger ? ledger.countries : []).forEach(c => { states[c.code] = c.state; });
     config.countries.forEach(c => {
-      const g = groups.get(c.code);
+      const b = byCode[c.code];
       const el = create('div', 'label');
-      let x, y;
-      if (g) { x = g.reduce((s, p) => s + p.x, 0) / g.length - 60; y = Math.min(...g.map(p => p.y)) - 26; el.append(document.createTextNode(c.name), create('b', '', String(g.length))); if (states[c.code] === 'new-voice') el.classList.add('new-voice'); }
-      else { [x, y] = toWorld(c.lon, c.lat); x -= 30; y -= 8; el.classList.add('silent'); el.append(document.createTextNode(c.name)); el.title = 'Configured publishers returned nothing in this collection'; }
-      labels.push({ el, x, y, silent: !g, code: c.code, count: g ? g.length : -1 });
-      labelsEl.append(el);
+      let l;
+      if (b) {
+        el.append(document.createTextNode(c.name), create('b', '', String(b.n)));
+        if (states[c.code] === 'new-voice') el.classList.add('new-voice');
+        l = { el, cx: b.cx - b.r * 0.8, cy: b.cy - b.r, ex: b.ex - b.bw / 2 + 8, ey: b.ey - b.bh / 2, dy: -26, silent: false, code: c.code, count: b.n, block: b };
+      } else {
+        const [x, y] = toWorld(c.lon, c.lat);
+        el.classList.add('silent'); el.append(document.createTextNode(c.name)); el.title = 'Configured publishers returned nothing in this collection';
+        l = { el, cx: x, cy: y, ex: x, ey: y, dx: 11, dy: -7, silent: true, code: c.code, count: -1, ax: x, ay: y };
+      }
+      labels.push(l); labelsEl.append(el);
     });
     cameraDirty = true;
   }
@@ -185,46 +227,103 @@
   }
   function bucket() {
     const z = state.z;
-    return z < 0.5 ? 'far' : z < 0.82 ? 'mid' : z < 1.5 ? 'near' : 'close';
+    return z < LEVEL_Z.region ? 'atlas' : z < LEVEL_Z.near ? 'region' : z < LEVEL_Z.close ? 'near' : 'close';
   }
-  function applyBucket() { const b = bucket(); if (!worldEl.classList.contains(b)) { worldEl.classList.remove('far', 'mid', 'near', 'close'); worldEl.classList.add(b); } }
-  function zoomAt(nz, sx, sy) {
+  function applyBucket() {
+    const b = bucket();
+    if (!worldEl.classList.contains(b)) {
+      worldEl.classList.remove('atlas', 'region', 'near', 'close'); worldEl.classList.add(b);
+      $('#zoom-level').textContent = LEVEL_NAME[b];
+      litKey = '';
+    }
+    $('#zoom-out').disabled = state.z <= zMin() * 1.001; $('#zoom-in').disabled = state.z >= Z_MAX * 0.999;
+  }
+  /* The country nearest the pointer is the anchor of a zoom: it stays under the pointer while the layout unfolds around it. */
+  function anchorAt(sx, sy) {
+    const wx = (sx - state.panX) / state.z, wy = (sy - state.panY) / state.z, t = unfold(state.z);
+    let b = null, bd = Infinity;
+    for (const k of blocks) { const bx = k.cx + (k.ex - k.cx) * t, by = k.cy + (k.ey - k.cy) * t, d = Math.hypot(bx - wx, by - wy); if (d < bd) { bd = d; b = k; } }
+    if (!b) return null;
+    const t0 = unfold(state.z);
+    return { b, ox: wx - (b.cx + (b.ex - b.cx) * t0), oy: wy - (b.cy + (b.ey - b.cy) * t0), sx, sy };
+  }
+  function panForAnchor(nz, sx, sy, a) {
+    const t = unfold(nz), bx = a.b.cx + (a.b.ex - a.b.cx) * t, by = a.b.cy + (a.b.ey - a.b.cy) * t;
+    return [sx - (bx + a.ox) * nz, sy - (by + a.oy) * nz];
+  }
+  function zoomAt(nz, sx, sy, anchor) {
     nz = clamp(nz, zMin(), Z_MAX);
-    const wx = (sx - state.panX) / state.z, wy = (sy - state.panY) / state.z;
-    state.z = nz; state.panX = sx - wx * nz; state.panY = sy - wy * nz; cameraDirty = true; applyBucket();
+    if (anchor) { [state.panX, state.panY] = panForAnchor(nz, sx, sy, anchor); }
+    else { const wx = (sx - state.panX) / state.z, wy = (sy - state.panY) / state.z; state.panX = sx - wx * nz; state.panY = sy - wy * nz; }
+    state.z = nz; cameraDirty = true; applyBucket();
   }
-  function fitPoints(pts, maxZ = 1.05, pad = 60) {
-    if (!pts.length) return;
+  /* Wheel zoom eases towards a target in log space, so a mouse wheel glides instead of stepping. */
+  let zoomTarget = null;
+  function easeZoom() {
+    if (!zoomTarget) return;
+    const k = reduced.matches ? 1 : 0.2;
+    const lz = Math.log(state.z), lt = Math.log(zoomTarget.z);
+    let nz = Math.exp(lz + (lt - lz) * k);
+    if (Math.abs(lt - Math.log(nz)) < 0.002) { nz = zoomTarget.z; zoomAt(nz, zoomTarget.sx, zoomTarget.sy, zoomTarget.anchor); zoomTarget = null; return; }
+    zoomAt(nz, zoomTarget.sx, zoomTarget.sy, zoomTarget.anchor);
+  }
+  function fitRect(minX, minY, maxX, maxY, maxZ, pad) {
     const v = viewport();
-    const xs = pts.map(p => p[0]), ys = pts.map(p => p[1]);
-    const minX = Math.min(...xs) - 120, maxX = Math.max(...xs) + 120, minY = Math.min(...ys) - 60, maxY = Math.max(...ys) + 60;
     const bw = Math.max(200, maxX - minX), bh = Math.max(120, maxY - minY);
     const z = clamp(Math.min((v.w - pad * 2) / bw, (v.h - pad * 2) / bh), zMin(), maxZ);
-    const cx = (minX + maxX) / 2, cy = (minY + maxY) / 2;
-    animateTo(z, v.w / 2 - cx * z, v.h / 2 + 20 - cy * z);
+    return { z, cx: (minX + maxX) / 2, cy: (minY + maxY) / 2, v };
   }
-  function animateTo(z, px, py) {
+  /* Fit a set of headlines. Their positions depend on the zoom they will be seen at, so solve for it. */
+  function fitBeads(list, maxZ = 1.05, pad = 60) {
+    if (!list.length) return fitWorld();
+    let z = clamp(state.z, zMin(), maxZ), f;
+    for (let k = 0; k < 4; k++) {
+      const t = unfold(z), ew = t * 230 / NEAR_Z, eh = t * 70 / NEAR_Z;
+      const pts = list.map(p => posAt(p, z));
+      const xs = pts.map(p => p[0]), ys = pts.map(p => p[1]);
+      f = fitRect(Math.min(...xs) - 80, Math.min(...ys) - 50, Math.max(...xs) + 80 + ew, Math.max(...ys) + 50 + eh, maxZ, pad);
+      if (Math.abs(f.z - z) < 0.002) break;
+      z = f.z;
+    }
+    animateTo(f.z, f.v.w / 2 - f.cx * f.z, f.v.h / 2 + 20 - f.cy * f.z);
+  }
+  function animateTo(z, px, py, dur = 700, anchor = null) {
+    zoomTarget = null;
+    if (anchor) [px, py] = panForAnchor(z, anchor.sx, anchor.sy, anchor);
     if (reduced.matches) { state.z = z; state.panX = px; state.panY = py; cameraDirty = true; applyBucket(); return; }
-    const from = { z: state.z, px: state.panX, py: state.panY }, t0 = performance.now(), dur = 700;
+    const from = { z: state.z, px: state.panX, py: state.panY }, t0 = performance.now();
     cancelAnimationFrame(anim);
     const step = now => {
       const t = clamp((now - t0) / dur, 0, 1), e = 1 - Math.pow(1 - t, 3);
-      state.z = from.z + (z - from.z) * e; state.panX = from.px + (px - from.px) * e; state.panY = from.py + (py - from.py) * e;
+      // zoom in log space so the motion feels even
+      state.z = Math.exp(Math.log(from.z) + (Math.log(z) - Math.log(from.z)) * e);
+      if (anchor) [state.panX, state.panY] = panForAnchor(state.z, anchor.sx, anchor.sy, anchor);
+      else { state.panX = from.px + (px - from.px) * e; state.panY = from.py + (py - from.py) * e; }
       cameraDirty = true; applyBucket();
       if (t < 1) anim = requestAnimationFrame(step);
     };
     anim = requestAnimationFrame(step);
   }
+  function zoomBy(factor, sx, sy, dur = 420) {
+    const v = viewport(); if (sx === undefined) { sx = v.w / 2; sy = v.h / 2; }
+    const nz = clamp((zoomTarget ? zoomTarget.z : state.z) * factor, zMin(), Z_MAX);
+    const wx = (sx - state.panX) / state.z, wy = (sy - state.panY) / state.z;
+    animateTo(nz, sx - wx * nz, sy - wy * nz, dur, anchorAt(sx, sy));
+  }
   function fitReading() {
     const r = currentReading();
-    const pts = r ? r.articleIds.map(id => beadById.get(id)).filter(Boolean).map(p => [p.x + 110, p.y + 30]) : [];
-    if (pts.length) fitPoints(pts, 1.0); else fitWorld();
+    const list = r ? r.articleIds.map(id => beadById.get(id)).filter(Boolean) : [];
+    if (list.length) fitBeads(list, 1.0); else fitWorld();
   }
-  function fitWorld() { fitPoints([[0, 0], [WORLD_W, WORLD_H]], 0.6, 20); }
+  function fitWorld() {
+    const f = fitRect(0, 0, WORLD_W, WORLD_H, 0.6, 16);
+    animateTo(f.z, f.v.w / 2 - f.cx * f.z, f.v.h / 2 + 10 - f.cy * f.z);
+  }
   function locate(id) {
     const p = beadById.get(id) || ghosts.find(g => g.a.id === id); if (!p) return false;
     const v = viewport(); const z = Math.max(state.z, 1.0);
-    animateTo(z, v.w / 2 - (p.x + 110) * z, v.h / 2 - (p.y + 30) * z);
+    const [x, y] = posAt(p, z);
+    animateTo(z, v.w / 2 - (x + 110) * z, v.h / 2 - (y + 30) * z);
     p.el.classList.add('focus'); setTimeout(() => p.el.classList.remove('focus'), 2600);
     return true;
   }
@@ -232,22 +331,26 @@
   /* ---------- frame ---------- */
   function frame(now) {
     requestAnimationFrame(frame);
+    easeZoom();
     const moving = !reduced.matches && !document.hidden;
     if (!moving && !cameraDirty) return;
-    const z = state.z, px = state.panX, py = state.panY, far = z < 0.5;
-    const amp = far ? 0.4 : 1;
+    const z = state.z, px = state.panX, py = state.panY, t = unfold(z);
+    const amp = z < LEVEL_Z.region ? 0.35 : z < LEVEL_Z.near ? 0.7 : 1;
     for (const p of beads) {
       const dx = amp * Math.sin(now * p.f1 + p.ph) * 9, dy = amp * Math.cos(now * p.f2 + p.ph) * 5;
-      p.x = p.hx + dx; p.y = p.hy + dy;
+      p.x = p.cx + (p.ex - p.cx) * t + dx; p.y = p.cy + (p.ey - p.cy) * t + dy;
       if (!p.lit) p.el.style.transform = `translate3d(${(p.x * z + px).toFixed(1)}px,${(p.y * z + py).toFixed(1)}px,0)`;
     }
     placeLit();
-    if (cameraDirty) thinLabels();
     if (state.ghosts) for (const g of ghosts) {
-      g.x = g.hx + amp * Math.sin(now * g.f1 + g.ph) * 6; g.y = g.hy + amp * Math.cos(now * g.f2 + g.ph) * 4;
+      g.x = g.cx + (g.ex - g.cx) * t + amp * Math.sin(now * g.f1 + g.ph) * 6; g.y = g.cy + (g.ey - g.cy) * t + amp * Math.cos(now * g.f2 + g.ph) * 4;
       g.el.style.transform = `translate3d(${(g.x * z + px).toFixed(1)}px,${(g.y * z + py).toFixed(1)}px,0)`;
     }
-    for (const l of labels) l.el.style.transform = `translate3d(${(l.x * z + px).toFixed(1)}px,${(l.y * z + py).toFixed(1)}px,0)`;
+    for (const l of labels) {
+      l.sx = (l.cx + (l.ex - l.cx) * t) * z + px + (l.dx || 0); l.sy = (l.cy + (l.ey - l.cy) * t) * z + py + (l.dy || 0);
+      l.el.style.transform = `translate3d(${l.sx.toFixed(1)}px,${l.sy.toFixed(1)}px,0)`;
+    }
+    if (cameraDirty) thinLabels();
     drawGround();
     cameraDirty = false;
   }
@@ -258,8 +361,21 @@
     const z = state.z, px = state.panX, py = state.panY;
     const v = viewport(); const W = v.w, H = v.h + (mobile() ? 0 : 30);
     const all = r.articleIds.map(id => beadById.get(id)).filter(p => p && p.lit);
-    const cap = (W * H) / (190 * 64) / 2.2;
-    const items = all.filter((p, i) => { const quiet = i >= cap && state.z < 0.7; p.el.classList.toggle('quiet', quiet); if (quiet) p.el.style.transform = `translate3d(${(p.x * z + px).toFixed(1)}px,${(p.y * z + py).toFixed(1)}px,0)`; return !quiet; });
+    const lvl = bucket();
+    if (lvl === 'near' || lvl === 'close') {
+      // cards stay in their country's block; no leaders, no displacement
+      for (const p of all) { p.el.classList.remove('quiet'); p.lx = p.ax = p.x * z + px; p.ly = p.ay = p.y * z + py; p.el.style.transform = `translate3d(${p.lx.toFixed(1)}px,${p.ly.toFixed(1)}px,0)`; }
+      return;
+    }
+    const onScreen = p => { const sx = p.x * z + px, sy = p.y * z + py; return sx > -30 && sx < W + 30 && sy > -30 && sy < H + 30; };
+    const cap = lvl === 'atlas' ? (mobile() ? 3 : 7) : (mobile() ? 5 : Math.min(9, Math.floor((W * H) / (200 * 70) / 5)));
+    // which lit headlines get a label when there is not room for all: one per country first, in citation order
+    let labelled = all.filter(onScreen);
+    if (labelled.length > cap) {
+      const seen = new Set(); const first = labelled.filter(p => !seen.has(p.a.sourceCountryCode) && seen.add(p.a.sourceCountryCode));
+      labelled = [...first, ...labelled.filter(p => !first.includes(p))].slice(0, cap);
+    }
+    const items = all.filter(p => { const quiet = !labelled.includes(p); p.el.classList.toggle('quiet', quiet); if (quiet) p.el.style.transform = `translate3d(${(p.x * z + px).toFixed(1)}px,${(p.y * z + py).toFixed(1)}px,0)`; return !quiet; });
     const key = `${z.toFixed(3)}|${px.toFixed(0)}|${py.toFixed(0)}|${items.length}|${state.drawer}`;
     const fresh = key !== litKey; litKey = key;
     const boxes = items.map(p => {
@@ -289,7 +405,7 @@
     const placed = [];
     const order = [...labels].sort((a, b) => (b.count || 0) - (a.count || 0));
     for (const l of order) {
-      const x = l.x * state.z + state.panX, y = l.y * state.z + state.panY, w = l.el.offsetWidth || 80, h = 14;
+      const x = l.sx || 0, y = l.sy || 0, w = l.el.offsetWidth || 80, h = 14;
       const hit = placed.some(q => x < q.x + q.w + 6 && x + w + 6 > q.x && y < q.y + q.h + 4 && y + h + 4 > q.y);
       l.el.style.visibility = hit ? 'hidden' : 'visible';
       if (!hit) placed.push({ x, y, w, h });
@@ -304,17 +420,29 @@
   function drawGround() {
     const w = ground.clientWidth, h = ground.clientHeight; ctx.clearRect(0, 0, w, h);
     const z = state.z, px = state.panX, py = state.panY;
-    // land
-    ctx.fillStyle = ink('--ink-4');
-    const s = z < 0.5 ? 1.3 : 1.8;
+    // land: one dot per degree of Natural Earth land, a stipple that reads as continents when small and as grain when near
+    ctx.fillStyle = ink(z < LEVEL_Z.region ? '--land-far' : '--land-near');
+    const s = clamp(z * 9, 1.4, 2.2);
+    const kx = WORLD_W / 360 * z, ky = WORLD_H / 145 * z, x0 = 180 * kx + px, y0 = 85 * ky + py;
     for (const [lon, lat] of world.points) {
-      const x = (lon + 180) / 360 * WORLD_W * z + px, y = (85 - lat) / 145 * WORLD_H * z + py;
+      const x = lon * kx + x0, y = y0 - lat * ky;
       if (x < -4 || y < -4 || x > w + 4 || y > h + 4) continue;
       ctx.fillRect(x, y, s, s);
     }
-    // silent countries: hollow rings
+    // country blocks: a rule above each page of headlines once the swarms have unfolded
+    const tu = unfold(z);
+    if (tu > 0.85) {
+      ctx.strokeStyle = ink('--ink'); ctx.lineWidth = 1; ctx.globalAlpha = (tu - 0.85) / 0.15;
+      for (const b of blocks) {
+        const x1 = (b.ex - b.bw / 2) * z + px, y1 = (b.ey - b.bh / 2) * z + py - 10, x2 = x1 + (b.bw - 36 / NEAR_Z) * z;
+        if (x2 < 0 || x1 > w || y1 < -10 || y1 > h + 10) continue;
+        ctx.beginPath(); ctx.moveTo(x1, y1 + 0.5); ctx.lineTo(x2, y1 + 0.5); ctx.stroke();
+      }
+      ctx.globalAlpha = 1;
+    }
+    // silent countries: hollow rings at the anchor
     ctx.strokeStyle = ink('--ink-3'); ctx.lineWidth = 1;
-    for (const l of labels) if (l.silent) { const [x, y] = toScreen(l.x + 30, l.y + 8); ctx.beginPath(); ctx.arc(x, y, 7, 0, Math.PI * 2); ctx.stroke(); }
+    for (const l of labels) if (l.silent) { const [x, y] = toScreen(l.ax, l.ay); ctx.beginPath(); ctx.arc(x, y, 6, 0, Math.PI * 2); ctx.stroke(); }
     // constellation
     const r = currentReading(); if (!r) return;
     const pts = r.articleIds.map(id => beadById.get(id)).filter(Boolean);
@@ -324,10 +452,12 @@
     const focus = state.focusIds ? new Set(state.focusIds) : null;
     // the constellation: dotted lines star to star, in the order the oracle cites them
     ctx.setLineDash([1.2, 5.5]); ctx.lineCap = 'round'; ctx.lineWidth = 1.3;
+    const nearLevel = z >= LEVEL_Z.near, inView = (x, y) => x > -w * 0.5 && x < w * 1.5 && y > -h * 0.5 && y < h * 1.5;
     for (let i = 0; i < pts.length - 1; i++) {
       const a = pts[i], b = pts[i + 1], [x1, y1] = star(a), [x2, y2] = star(b);
+      if (nearLevel && !inView(x1, y1) && !inView(x2, y2)) continue;
       const hot = focus && focus.has(a.a.id) && focus.has(b.a.id);
-      ctx.strokeStyle = hot ? ink('--ink') : (focus ? ink('--ink-4') : ink('--ink-2'));
+      ctx.strokeStyle = hot ? ink('--ink') : (focus || nearLevel ? ink('--ink-4') : ink('--ink-2'));
       ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
     }
     // leaders: each headline label back to its star, and the star itself
@@ -427,8 +557,8 @@
     const openRung = $('.rung.open', body); if (openRung && state.frag) openRung.scrollIntoView({ block: 'start', behavior: 'instant' });
   }
   function fitFocus(ids) {
-    const pts = ids.map(id => beadById.get(id)).filter(Boolean).map(p => [p.x + 110, p.y + 30]);
-    if (pts.length) fitPoints(pts, 1.1, 90);
+    const list = ids.map(id => beadById.get(id)).filter(Boolean);
+    if (list.length) fitBeads(list, 1.1, 90);
   }
   function fragBody(f) {
     const d = create('div', 'frag-body');
@@ -566,7 +696,7 @@
       if (e.button !== 0 && e.pointerType === 'mouse') return;
       pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
       if (pointers.size === 1) { start = { x: e.clientX, y: e.clientY, px: state.panX, py: state.panY }; dragged = false; fieldEl.setPointerCapture(e.pointerId); }
-      if (pointers.size === 2) { const [a, b] = [...pointers.values()]; pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), z: state.z, cx: (a.x + b.x) / 2, cy: (a.y + b.y) / 2 }; }
+      if (pointers.size === 2) { zoomTarget = null; cancelAnimationFrame(anim); const [a, b] = [...pointers.values()]; const rect = fieldEl.getBoundingClientRect(); pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), z: state.z, anchor: anchorAt((a.x + b.x) / 2 - rect.left, (a.y + b.y) / 2 - rect.top) }; }
     });
     fieldEl.addEventListener('pointermove', e => {
       if (!pointers.has(e.pointerId)) return;
@@ -574,11 +704,11 @@
       if (pointers.size === 2 && pinch) {
         const [a, b] = [...pointers.values()]; const d = Math.hypot(a.x - b.x, a.y - b.y);
         const rect = fieldEl.getBoundingClientRect();
-        zoomAt(pinch.z * d / pinch.d, (a.x + b.x) / 2 - rect.left, (a.y + b.y) / 2 - rect.top); dragged = true; return;
+        zoomAt(pinch.z * d / pinch.d, (a.x + b.x) / 2 - rect.left, (a.y + b.y) / 2 - rect.top, pinch.anchor); dragged = true; return;
       }
       if (start && pointers.size === 1) {
         const dx = e.clientX - start.x, dy = e.clientY - start.y;
-        if (!dragged && Math.hypot(dx, dy) > 4) { dragged = true; fieldEl.classList.add('dragging'); }
+        if (!dragged && Math.hypot(dx, dy) > 4) { dragged = true; fieldEl.classList.add('dragging'); cancelAnimationFrame(anim); }
         if (dragged) { state.panX = start.px + dx; state.panY = start.py + dy; cameraDirty = true; }
       }
     });
@@ -586,13 +716,24 @@
     fieldEl.addEventListener('pointerup', up); fieldEl.addEventListener('pointercancel', up);
     fieldEl.addEventListener('wheel', e => {
       e.preventDefault(); const rect = fieldEl.getBoundingClientRect();
-      const factor = Math.exp(-(e.deltaMode === 1 ? e.deltaY * 20 : e.deltaY) * (e.ctrlKey ? 0.01 : 0.0022));
-      zoomAt(state.z * factor, e.clientX - rect.left, e.clientY - rect.top);
+      const dy = e.deltaMode === 1 ? e.deltaY * 20 : e.deltaMode === 2 ? e.deltaY * 400 : e.deltaY;
+      const factor = Math.exp(-clamp(dy, -120, 120) * (e.ctrlKey ? 0.012 : 0.0028));
+      const base = zoomTarget ? zoomTarget.z : state.z, sx = e.clientX - rect.left, sy = e.clientY - rect.top;
+      cancelAnimationFrame(anim);
+      const anchor = zoomTarget && zoomTarget.anchor && Math.hypot(sx - zoomTarget.sx, sy - zoomTarget.sy) < 40 ? zoomTarget.anchor : anchorAt(sx, sy);
+      if (anchor && anchor !== (zoomTarget && zoomTarget.anchor)) { anchor.sx = sx; anchor.sy = sy; }
+      zoomTarget = { z: clamp(base * factor, zMin(), Z_MAX), sx: anchor ? anchor.sx : sx, sy: anchor ? anchor.sy : sy, anchor };
     }, { passive: false });
+    fieldEl.addEventListener('dblclick', e => {
+      if (e.target.closest('.bead')) return;
+      const rect = fieldEl.getBoundingClientRect();
+      zoomBy(e.shiftKey ? 1 / 2.2 : 2.2, e.clientX - rect.left, e.clientY - rect.top, 520);
+    });
     fieldEl.addEventListener('click', e => { if (!dragged && (e.target === fieldEl || e.target === ground || e.target === worldEl)) closeCard(); });
-    $('#zoom-in').addEventListener('click', () => { const v = viewport(); zoomAt(state.z * 1.5, v.w / 2, v.h / 2); });
-    $('#zoom-out').addEventListener('click', () => { const v = viewport(); zoomAt(state.z / 1.5, v.w / 2, v.h / 2); });
+    $('#zoom-in').addEventListener('click', () => zoomBy(1.7));
+    $('#zoom-out').addEventListener('click', () => zoomBy(1 / 1.7));
     $('#zoom-fit').addEventListener('click', () => currentReading() ? fitReading() : fitWorld());
+    $('#zoom-world').addEventListener('click', fitWorld);
   }
 
   /* ---------- events ---------- */
@@ -613,8 +754,9 @@
       if (e.key === 'Escape') { if (!$('#card').hidden) return closeCard(); if (state.panel) return openPanel(state.panel); if (state.drawer) { state.drawer = false; document.body.classList.remove('drawer-open'); $('#drawer').hidden = true; setFocus(null); writeHash(); } return; }
       if (e.target.matches('input, textarea')) return;
       if (e.key === 'ArrowRight' && e.altKey) stepReading(1); if (e.key === 'ArrowLeft' && e.altKey) stepReading(-1);
+      if (e.key === '+' || e.key === '=') zoomBy(1.7); if (e.key === '-' || e.key === '_') zoomBy(1 / 1.7); if (e.key === '0') fitWorld(); if (e.key === '1') fitReading();
     });
-    window.addEventListener('resize', () => { sizeCanvas(); cameraDirty = true; });
+    window.addEventListener('resize', () => { sizeCanvas(); if (state.z < zMin()) { const v = viewport(); zoomAt(zMin(), v.w / 2, v.h / 2); } cameraDirty = true; });
     document.addEventListener('visibilitychange', () => { cameraDirty = true; });
     matchMedia('(prefers-color-scheme: dark)');
   }
@@ -632,11 +774,11 @@
     if (state.ghosts) toggleGhosts(true);
     const first = readings.readings.find(r => r.id === state.reading) ? state.reading : readings.readings[0].id;
     if (!state.reading) state.reading = first;
-    // start wide, then settle onto the constellation
-    state.z = zMin(); const v = viewport(); state.panX = v.w / 2 - WORLD_W / 2 * state.z; state.panY = v.h / 2 - WORLD_H / 2 * state.z; applyBucket();
+    // start on the whole world, then settle onto the constellation
+    state.z = zMin(); const v = viewport(); state.panX = v.w / 2 - WORLD_W / 2 * state.z; state.panY = v.h / 2 + 10 - WORLD_H / 2 * state.z; applyBucket();
     requestAnimationFrame(frame);
     selectReading(first, { open: state.drawer, fit: !state.debugZ });
-    if (state.debugZ) { const v2 = viewport(); state.z = state.debugZ; const c = toWorld(parseFloat(new URLSearchParams(location.hash.slice(1)).get('lon')) || 10, parseFloat(new URLSearchParams(location.hash.slice(1)).get('lat')) || 48); state.panX = v2.w / 2 - c[0] * state.z; state.panY = v2.h / 2 - c[1] * state.z; applyBucket(); cameraDirty = true; }
+    if (state.debugZ) { const v2 = viewport(); state.z = state.debugZ; const c = toWorld(isNaN(state.debugLon) ? 10 : state.debugLon, isNaN(state.debugLat) ? 48 : state.debugLat); state.panX = v2.w / 2 - c[0] * state.z; state.panY = v2.h / 2 - c[1] * state.z; applyBucket(); cameraDirty = true; }
     if (state.panel) { const p = state.panel; state.panel = ''; openPanel(p); }
     $('#hint').hidden = mobile();
   }

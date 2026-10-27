@@ -30,14 +30,16 @@
 
 <main id="field" class="field" aria-label="The field of headlines">
   <canvas id="ground" aria-hidden="true"></canvas>
-  <div id="world" class="world far" aria-hidden="false"></div>
+  <div id="world" class="world atlas" aria-hidden="false"></div>
   <div id="labels" class="labels" aria-hidden="true"></div>
   <div class="zoom mono" aria-label="Zoom">
-    <button id="zoom-out" title="Zoom out to the atlas">−</button>
-    <button id="zoom-fit" title="Fit the constellation">◎</button>
-    <button id="zoom-in" title="Zoom in to read">+</button>
+    <span class="zoom-level" id="zoom-level" aria-live="polite">WORLD</span>
+    <button id="zoom-in" title="Zoom in (+)">+</button>
+    <button id="zoom-fit" title="Fit the constellation (1)">◎</button>
+    <button id="zoom-out" title="Zoom out (−)">−</button>
+    <button id="zoom-world" title="The whole world (0)">⊙</button>
   </div>
-  <p class="hint mono" id="hint">drag to move · scroll to zoom · click a headline to read it</p>
+  <p class="hint mono" id="hint">drag to move · scroll or double-click to zoom · zoom in until the countries open · click a headline to read it</p>
 </main>
 
 <section class="oracle" id="oracle" aria-label="The oracle">
