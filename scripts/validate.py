@@ -1,0 +1,96 @@
+#!/usr/bin/env python3
+"""Check that the public data files agree with each other.
+
+Every reading fragment must cite headlines that exist, books and trajectories
+that exist, and every reading must end with a 'break' rung. Exit 1 on failure.
+Standard library only.
+"""
+from __future__ import annotations
+
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+KINDS = {"observation", "interpretation", "break"}
+
+
+def load(name):
+    return json.loads((DATA / name).read_text())
+
+
+def main():
+    errors = []
+    news = load("news.json")
+    readings = load("readings.json")
+    library = load("library.json")
+    ledger = load("ledger.json") if (DATA / "ledger.json").exists() else None
+
+    article_ids = {a["id"] for a in news["articles"]}
+    saved_ids = {a["id"] for a in readings.get("sourceArticles", [])}
+    book_ids = {b["id"] for b in library["books"]}
+    traj_ids = {t["id"] for t in library["trajectories"]}
+
+    for a in news["articles"]:
+        if not a.get("url", "").startswith("https://"):
+            errors.append(f"article {a['id']} has a non-https url")
+        if not a.get("title", "").strip():
+            errors.append(f"article {a['id']} has an empty title")
+    if len(article_ids) != len(news["articles"]):
+        errors.append("duplicate article ids in news.json")
+
+    seen_reading_ids = set()
+    for r in readings["readings"]:
+        rid = r.get("id", "?")
+        if rid in seen_reading_ids:
+            errors.append(f"duplicate reading id {rid}")
+        seen_reading_ids.add(rid)
+        for key in ("line", "kicker", "claim", "rungs"):
+            if not r.get(key):
+                errors.append(f"reading {rid} missing {key}")
+        rungs = r.get("rungs", [])
+        if not rungs or rungs[-1].get("kind") != "break":
+            errors.append(f"reading {rid} must end with a 'break' rung")
+        if len(rungs) < 3:
+            errors.append(f"reading {rid} has fewer than three rungs")
+        cited = set()
+        for rung in rungs:
+            if rung.get("kind") not in KINDS:
+                errors.append(f"reading {rid} rung {rung.get('id')} has unknown kind {rung.get('kind')}")
+            if not rung.get("fragments"):
+                errors.append(f"reading {rid} rung {rung.get('id')} has no fragments")
+            for f in rung.get("fragments", []):
+                if not f.get("label") or not f.get("text"):
+                    errors.append(f"reading {rid} fragment {f.get('id')} missing label or text")
+                for aid in f.get("articleIds", []):
+                    if aid not in article_ids and aid not in saved_ids:
+                        errors.append(f"reading {rid} fragment {f.get('id')} cites unknown article {aid}")
+                    cited.add(aid)
+                for bid in f.get("bookIds", []):
+                    if bid not in book_ids:
+                        errors.append(f"reading {rid} fragment {f.get('id')} cites unknown book {bid}")
+                for tid in f.get("trajectoryIds", []):
+                    if tid not in traj_ids:
+                        errors.append(f"reading {rid} fragment {f.get('id')} cites unknown trajectory {tid}")
+        if len(cited) < 4:
+            errors.append(f"reading {rid} cites fewer than four headlines")
+        if "articleIds" in r and set(r["articleIds"]) != cited:
+            errors.append(f"reading {rid} articleIds do not match its fragments (run freeze.py)")
+
+    if ledger:
+        for key in ("editionAt", "arrived", "stayed", "departed"):
+            if key not in ledger:
+                errors.append(f"ledger.json missing {key}")
+
+    if errors:
+        print("\n".join("✗ " + e for e in errors), file=sys.stderr)
+        print(f"{len(errors)} problem(s)", file=sys.stderr)
+        return 1
+    n_frag = sum(len(f) for r in readings["readings"] for f in [sum([ru.get("fragments", []) for ru in r["rungs"]], [])])
+    print(f"✓ {len(news['articles'])} headlines, {len(readings['readings'])} readings, {n_frag} fragments, {len(book_ids)} books, {len(traj_ids)} trajectories")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "provider": "GDELT Article List (GAL)",
+  "metadataDocumentation": "https://blog.gdeltproject.org/announcing-the-gdelt-article-list-rss-feed/",
+  "terms": "https://www.gdeltproject.org/about.html#termsofuse",
+  "limits": {
+    "maxArticles": 480,
+    "maxPerCountry": 18,
+    "maxPerPublisher": 7,
+    "sampleOffsetsMinutes": [
+      0,
+      60,
+      180,
+      360,
+      510,
+      540,
+      690,
+      720,
+      900,
+      1080
+    ],
+    "requestTimeoutSeconds": 25,
+    "maxDownloadBytes": 10000000,
+    "minimumArticles": 80,
+    "minimumCountries": 10
+  },
+  "countryAttribution": "Curated publisher-domain mapping. Coordinates represent approximate country positions, not publisher offices or event locations. Cross-border editions and diasporic outlets may complicate national labels.",
+  "countries": [
+    {
+      "code": "CN",
+      "name": "China",
+      "region": "Asia",
+      "lat": 35,
+      "lon": 104,
+      "domains": [
+        "163.com",
+        "yicai.com",
+        "news.cn",
+        "china.com.cn",
+        "sina.com.cn",
+        "nbd.com.cn",
+        "bjd.com.cn",
+        "chinadaily.com.cn"
+      ]
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "region": "Asia",
+      "lat": 36,
+      "lon": 138,
+      "domains": [
+        "47news.jp",
+        "shikoku-np.co.jp",
+        "373news.com",
+        "nikkan-gendai.com",
+        "nhk.or.jp",
+        "asahi.com",
+        "japantimes.co.jp"
+      ]
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "region": "Latin America",
+      "lat": -14,
+      "lon": -52,
+      "domains": [
+        "globo.com",
+        "r7.com",
+        "em.com.br",
+        "jornaldebrasilia.com.br",
+        "gazetadigital.com.br",
+        "tribunadonorte.com.br",
+        "dgabc.com.br"
+      ]
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "region": "Africa",
+      "lat": 9,
+      "lon": 8,
+      "domains": [
+        "punchng.com",
+        "dailypost.ng",
+        "leadership.ng",
+        "nigerianobservernews.com"
+      ]
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "region": "Africa",
+      "lat": 0.1,
+      "lon": 38,
+      "domains": [
+        "capitalfm.africa",
+        "businessdailyafrica.com",
+        "kenya-today.com"
+      ]
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "region": "Africa",
+      "lat": -30,
+      "lon": 25,
+      "domains": [
+        "businessday.co.za",
+        "sundayworld.co.za",
+        "channelafrica.co.za",
+        "cajnewsafrica.com"
+      ]
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "region": "Africa",
+      "lat": 14,
+      "lon": -14,
+      "domains": [
+        "dakaractu.com",
+        "lesoleil.sn",
+        "au-senegal.com"
+      ]
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "region": "Africa",
+      "lat": 28,
+      "lon": 3,
+      "domains": []
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "region": "Africa",
+      "lat": 27,
+      "lon": 30,
+      "domains": [
+        "youm7.com",
+        "almasryalyoum.com",
+        "masrawy.com",
+        "egyptianstreets.com",
+        "elwatannews.com"
+      ]
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "region": "Africa",
+      "lat": -20.2,
+      "lon": 57.5,
+      "domains": [
+        "lemauricien.com"
+      ]
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "region": "Africa",
+      "lat": 8,
+      "lon": -2,
+      "domains": [
+        "ghanaweb.com",
+        "myjoyonline.com",
+        "citinewsroom.com"
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "region": "Asia",
+      "lat": 22,
+      "lon": 79,
+      "domains": [
+        "thehindu.com",
+        "thehindubusinessline.com",
+        "indiatimes.com",
+        "tribuneindia.com",
+        "punjabkesari.in",
+        "amarujala.com"
+      ]
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "region": "Asia",
+      "lat": 36,
+      "lon": 128,
+      "domains": [
+        "newspim.com",
+        "fnnews.com",
+        "hani.co.kr",
+        "ddaily.co.kr",
+        "heraldcorp.com"
+      ]
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "region": "Asia",
+      "lat": 23.7,
+      "lon": 121,
+      "domains": [
+        "udn.com",
+        "ettoday.net",
+        "tvbs.com.tw",
+        "storm.mg"
+      ]
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "region": "Asia",
+      "lat": 16,
+      "lon": 107,
+      "domains": [
+        "vov.vn",
+        "dantri.com.vn",
+        "anninhthudo.vn"
+      ]
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "region": "Asia",
+      "lat": -2,
+      "lon": 118,
+      "domains": [
+        "liputan6.com",
+        "republika.co.id",
+        "jawapos.com",
+        "merdeka.com",
+        "viva.co.id"
+      ]
+    },
+    {
+      "code": "PH",
+      "name": "Philippines",
+      "region": "Asia",
+      "lat": 12,
+      "lon": 122,
+      "domains": [
+        "manilatimes.net",
+        "inquirer.net",
+        "philstar.com"
+      ]
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "region": "Asia",
+      "lat": 24,
+      "lon": 90,
+      "domains": [
+        "dhakatoday.com",
+        "thedailystar.net",
+        "bdnews24.com"
+      ]
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "region": "Asia",
+      "lat": 30,
+      "lon": 69,
+      "domains": [
+        "samaa.tv",
+        "dawn.com",
+        "geo.tv"
+      ]
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "region": "Asia",
+      "lat": 1.35,
+      "lon": 103.8,
+      "domains": [
+        "channelnewsasia.com",
+        "straitstimes.com"
+      ]
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "region": "Asia",
+      "lat": 15,
+      "lon": 101,
+      "domains": [
+        "bangkokpost.com",
+        "nationthailand.com"
+      ]
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "region": "Asia",
+      "lat": 4,
+      "lon": 109,
+      "domains": [
+        "thestar.com.my",
+        "malaymail.com"
+      ]
+    },
+    {
+      "code": "MN",
+      "name": "Mongolia",
+      "region": "Asia",
+      "lat": 46,
+      "lon": 104,
+      "domains": [
+        "sonin.mn",
+        "montsame.mn"
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "region": "Europe",
+      "lat": 46,
+      "lon": 2,
+      "domains": [
+        "radiofrance.fr",
+        "lemonde.fr",
+        "estrepublicain.fr",
+        "sudouest.fr",
+        "ladepeche.fr",
+        "franceinfo.fr"
+      ]
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "region": "Europe",
+      "lat": 51,
+      "lon": 10,
+      "domains": [
+        "dw.com",
+        "ndr.de",
+        "welt.de",
+        "handelsblatt.com",
+        "taz.de"
+      ]
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "region": "Europe",
+      "lat": 42,
+      "lon": 12,
+      "domains": [
+        "ansa.it",
+        "corriere.it",
+        "ilmessaggero.it",
+        "tg24.sky.it"
+      ]
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "region": "Europe",
+      "lat": 54,
+      "lon": -2,
+      "domains": [
+        "bbc.com",
+        "bbc.co.uk",
+        "independent.co.uk",
+        "ibtimes.co.uk",
+        "thisisoxfordshire.co.uk",
+        "bournemouthecho.co.uk"
+      ]
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "region": "Europe",
+      "lat": 40,
+      "lon": -4,
+      "domains": [
+        "elmundo.es",
+        "elcomercio.es",
+        "marca.com",
+        "elpais.com"
+      ]
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "region": "Europe",
+      "lat": 39.5,
+      "lon": -8,
+      "domains": [
+        "sapo.pt",
+        "observador.pt"
+      ]
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "region": "Europe",
+      "lat": 52,
+      "lon": 5,
+      "domains": [
+        "nieuws.nl",
+        "nltimes.nl",
+        "nos.nl"
+      ]
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "region": "Europe",
+      "lat": 64,
+      "lon": 11,
+      "domains": [
+        "nrk.no"
+      ]
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "region": "Europe",
+      "lat": 64,
+      "lon": 26,
+      "domains": [
+        "tiedonantaja.fi",
+        "yle.fi",
+        "lansi-savo.fi"
+      ]
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "region": "Europe",
+      "lat": 52,
+      "lon": 20,
+      "domains": [
+        "bankier.pl",
+        "onet.pl",
+        "radiozet.pl"
+      ]
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "region": "Europe",
+      "lat": 39,
+      "lon": 23,
+      "domains": [
+        "enikos.gr",
+        "efsyn.gr",
+        "iefimerida.gr",
+        "thebest.gr"
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "region": "North America",
+      "lat": 56,
+      "lon": -106,
+      "domains": [
+        "nationalpost.com",
+        "cbc.ca",
+        "niagarafallsreview.ca",
+        "51.ca",
+        "timminspress.com"
+      ]
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "region": "North America",
+      "lat": 39,
+      "lon": -98,
+      "domains": [
+        "cnbc.com",
+        "npr.org",
+        "ideastream.org",
+        "minnpost.com",
+        "wsls.com",
+        "click2houston.com",
+        "fortune.com"
+      ]
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "region": "Latin America",
+      "lat": 23,
+      "lon": -102,
+      "domains": [
+        "vanguardia.com.mx",
+        "excelsior.com.mx",
+        "milenio.com",
+        "razon.com.mx"
+      ]
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "region": "Latin America",
+      "lat": -35,
+      "lon": -64,
+      "domains": [
+        "clarin.com",
+        "minutouno.com",
+        "cadena3.com",
+        "ellitoral.com",
+        "lv12.com.ar"
+      ]
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "region": "Latin America",
+      "lat": 4,
+      "lon": -73,
+      "domains": [
+        "elcolombiano.com",
+        "lapatria.com",
+        "eluniversal.com.co",
+        "pulzo.com"
+      ]
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "region": "Latin America",
+      "lat": -33,
+      "lon": -71,
+      "domains": [
+        "latercera.com",
+        "lanacion.cl",
+        "puranoticia.pnt.cl"
+      ]
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "region": "Latin America",
+      "lat": -10,
+      "lon": -76,
+      "domains": [
+        "elcomercio.pe",
+        "losandes.com.pe",
+        "deperu.com"
+      ]
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "region": "Oceania",
+      "lat": -25,
+      "lon": 134,
+      "domains": [
+        "smh.com.au",
+        "abc.net.au",
+        "irrigator.com.au",
+        "westernadvocate.com.au",
+        "katherinetimes.com.au"
+      ]
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "region": "Oceania",
+      "lat": -41,
+      "lon": 174,
+      "domains": [
+        "scoop.co.nz",
+        "nzherald.co.nz",
+        "rnz.co.nz"
+      ]
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "region": "Middle East",
+      "lat": 25.3,
+      "lon": 51.2,
+      "domains": [
+        "aljazeera.com",
+        "aljazeera.net"
+      ]
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "region": "Middle East",
+      "lat": 31,
+      "lon": 36,
+      "domains": [
+        "ammonnews.net",
+        "khaberni.com",
+        "alanbatnews.net"
+      ]
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "region": "Middle East",
+      "lat": 24,
+      "lon": 45,
+      "domains": [
+        "okaz.com.sa",
+        "arabnews.com"
+      ]
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "region": "Middle East",
+      "lat": 31.5,
+      "lon": 35,
+      "domains": [
+        "jpost.com",
+        "walla.co.il",
+        "globes.co.il"
+      ]
+    },
+    {
+      "code": "LB",
+      "name": "Lebanon",
+      "region": "Middle East",
+      "lat": 33.9,
+      "lon": 35.9,
+      "domains": [
+        "anbaaonline.com",
+        "lorientlejour.com"
+      ]
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "region": "Middle East",
+      "lat": 33,
+      "lon": 44,
+      "domains": [
+        "almadapaper.net"
+      ]
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "region": "Middle East",
+      "lat": 39,
+      "lon": 35,
+      "domains": [
+        "aa.com.tr",
+        "haberturk.com",
+        "hurriyet.com.tr"
+      ]
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "region": "Europe",
+      "lat": 61,
+      "lon": 100,
+      "domains": [
+        "kommersant.ru",
+        "iz.ru",
+        "lenta.ru"
+      ]
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "region": "Europe",
+      "lat": 49,
+      "lon": 32,
+      "domains": [
+        "unian.net",
+        "lb.ua"
+      ]
+    }
+  ],
+  "excludedDomains": [
+    "tnp.no",
+    "digbycourier.ca",
+    "bitmag.com.br",
+    "inewsgr.com",
+    "depechedekabylie.com"
+  ],
+  "exclusionReason": "Prototype quality review found stale rediscoveries, dated shopping guides or index/directory entries in these domain samples. This is a sample-quality exclusion, not an assessment of every article or publisher.",
+  "domainExclusionNotes": {
+    "depechedekabylie.com": "archival-date ambiguity; excluded pending reliable publication dates, not a judgement about the outlet"
+  }
+}

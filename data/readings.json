@@ -1,0 +1,3337 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T01:40:00Z",
+  "newsGeneratedAt": "2026-10-26T23:46:12Z",
+  "method": "claude-authored-seed",
+  "model": "claude-fable-5-1",
+  "promptVersion": "oracle-1",
+  "notes": [
+    "Seed edition composed by Claude from the 448 collected headlines, reading titles and metadata only.",
+    "Each reading commits to a claim. The last rung of every reading argues against it. Read both.",
+    "Connections are the oracle's, not the publishers'. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment reads."
+  ],
+  "readings": [
+    {
+      "id": "ballot-travels",
+      "line": "A ballot cast in Brazil is being counted in Buenos Aires, Madrid and Nairobi.",
+      "kicker": "ELECTION / CONTAGION / SCRIPT",
+      "claim": "Lula's re-election is the most reported event in this collection, and almost none of the reporting is about Brazil. Within a day the result has been made into an argument in Argentina, a warning in Chile, a model in Spain, a hope in Kenya and a fraud in Washington. An election no longer ends at a border. It is a script that other countries pick up and perform.",
+      "rungs": [
+        {
+          "id": "result-leaves-home",
+          "kind": "observation",
+          "label": "The result leaves Brazil within hours",
+          "fragments": [
+            {
+              "id": "neighbours-first",
+              "label": "The neighbours read it as their own future",
+              "text": "A Chilean editorial says Brazil has forced Chile and the United States to look at the region anew, and Chile's president congratulates Lula on their shared future. In Argentina, Axel Kicillof says the defeat of Bolsonaro is a rejection of Milei's chainsaw. Nobody is describing Brazil. Everybody is describing themselves.",
+              "articleIds": [
+                "n-8068979743d56e",
+                "n-cefecc993c2aef",
+                "n-6c7f47deb363b1"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "europe-takes-a-side",
+              "label": "Europe and Spain draft a partnership",
+              "text": "German reporting has European parliamentarians already envisaging a partnership with Lula's Brazil. An Asturian columnist writes that Sánchez follows in Lula's footsteps. The result is a day old and it is already a foreign policy and a domestic parable.",
+              "articleIds": [
+                "n-e9ff5dee9733b8",
+                "n-652d100df6a1ea",
+                "n-abc2098826c37b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "denial-with-passport",
+          "kind": "observation",
+          "label": "Denial has a passport now",
+          "fragments": [
+            {
+              "id": "rigged-from-abroad",
+              "label": "'Rigged' is said in Washington, printed in Athens",
+              "text": "Two Greek outlets lead with Trump calling Brazil's election rigged. Flávio Bolsonaro says he will seek the disqualification of Lula's ticket, then that the police took his passport, then that he will drop the annulment and pursue an abuse-of-power case instead. The sequence is familiar because it has been performed before, in Washington in 2021 and in Brasília in 2023.",
+              "articleIds": [
+                "n-b951a7bd0e3070",
+                "n-4809bba28128af",
+                "n-b1ea4aa5d8ea19",
+                "n-be1ac13bc02822"
+              ],
+              "bookIds": [
+                "how-democracies-die"
+              ],
+              "trajectoryIds": [
+                "washington-2021",
+                "brasilia-2023"
+              ]
+            },
+            {
+              "id": "knesset-rehearsal",
+              "label": "Jerusalem rehearses for a genre",
+              "text": "Israel's police are bracing for a 'January 6 scenario' at the Knesset after their own election. The date has become a noun. A country that has not yet voted is preparing for the thing that happens after a vote is refused.",
+              "articleIds": [
+                "n-5665f233efc5d0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "washington-2021"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "market-counts-too",
+          "kind": "interpretation",
+          "label": "The market casts the second vote",
+          "fragments": [
+            {
+              "id": "real-sinks",
+              "label": "The real falls on the news that the people chose",
+              "text": "Al Jazeera and Finland's Yle both lead with the currency: Brazil's real sinks and its shares plunge after the result. This is the double movement Polanyi described. Society votes one way and capital votes the other, within the same twenty-four hours, and both results are real.",
+              "articleIds": [
+                "n-2b7c72f5dc577a",
+                "n-acf785bd722d0f"
+              ],
+              "bookIds": [
+                "great-transformation"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "counting-live",
+              "label": "Only one outlet is still counting",
+              "text": "Of all the headlines about this election, the only one that is about the votes themselves is Brazilian: R7's live count. Everyone else moved on to what it means before the counting finished. The event is the smallest part of the story.",
+              "articleIds": [
+                "n-a80a97bdb09867"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "miracles-for-export",
+          "kind": "interpretation",
+          "label": "Elections are now a catalogue of models",
+          "fragments": [
+            {
+              "id": "nairobi-shops",
+              "label": "Kenya shops for a miracle",
+              "text": "In Nairobi, Edwin Sifuna banks on 'electoral miracles' in 2027 and cites Serbia and Brazil in one sentence. Serbia's students have just defeated Vučić after fourteen years; Italy and Spain are both asking who they are. The world has a shelf of recent results, and politicians in countries that have not voted yet are choosing one to imitate.",
+              "articleIds": [
+                "n-cdbd44d9b53f95",
+                "n-1b21e8f0db517b",
+                "n-7e33e4c9d21ae0"
+              ],
+              "bookIds": [
+                "light-that-failed"
+              ],
+              "trajectoryIds": [
+                "belgrade-2000"
+              ]
+            },
+            {
+              "id": "everyone-is-voting",
+              "label": "The same week, everyone is voting",
+              "text": "Bulgaria's president finishes first in a first round. Al Jazeera explains the US midterms. Ontario's premier says he can't wait for them. An election in one country is now a season in all of them, and the same vocabulary is used for each.",
+              "articleIds": [
+                "n-f458669ae70166",
+                "n-b52afd816cbaf3",
+                "n-52f977f0f085e6"
+              ],
+              "bookIds": [
+                "imagined-communities"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "break-ballot",
+          "kind": "break",
+          "label": "Break this reading",
+          "fragments": [
+            {
+              "id": "always-been-so",
+              "label": "Elections have always been read abroad",
+              "text": "Foreign newspapers wrote about Allende, Mitterrand and Mandela within a day. What looks like contagion may just be the ordinary interest of neighbours, made visible because this collection sorts headlines by country. The claim that something has changed needs a comparison this snapshot cannot supply.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "nobody-s-backyard",
+              "label": "Lula says the opposite",
+              "text": "The one Lula quote in the collection is 'Brazil is nobody's backyard'. The reading says the election belongs to everyone. The man who won it says it belongs to Brazil. If he is right, the foreign framing is noise, and the oracle has mistaken the echo for the event.",
+              "articleIds": [
+                "n-e11fe23e564d83"
+              ],
+              "bookIds": [
+                "seeing-like-a-state"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-8068979743d56e",
+        "n-cefecc993c2aef",
+        "n-6c7f47deb363b1",
+        "n-e9ff5dee9733b8",
+        "n-652d100df6a1ea",
+        "n-abc2098826c37b",
+        "n-b951a7bd0e3070",
+        "n-4809bba28128af",
+        "n-b1ea4aa5d8ea19",
+        "n-be1ac13bc02822",
+        "n-5665f233efc5d0",
+        "n-2b7c72f5dc577a",
+        "n-acf785bd722d0f",
+        "n-a80a97bdb09867",
+        "n-cdbd44d9b53f95",
+        "n-1b21e8f0db517b",
+        "n-7e33e4c9d21ae0",
+        "n-f458669ae70166",
+        "n-b52afd816cbaf3",
+        "n-52f977f0f085e6",
+        "n-e11fe23e564d83"
+      ]
+    },
+    {
+      "id": "machine-goes-public",
+      "line": "A company has written down the end of the world as a risk factor, and the market has bought it.",
+      "kicker": "AI / PROSPECTUS / PRICE",
+      "claim": "An AI company's listing documents devote a hundred pages to risk, including human extinction, and semiconductor stocks rise on the news. Three continents report it the same day. This is the strangest fact in the collection: total disclosure of the worst case has become a form of confidence. The future arrives as somebody else's maintenance, and the market pays for the arrival, not the maintenance.",
+      "rungs": [
+        {
+          "id": "confession-as-prospectus",
+          "kind": "observation",
+          "label": "The confession is the prospectus",
+          "fragments": [
+            {
+              "id": "hundred-pages",
+              "label": "A hundred pages of what could go wrong",
+              "text": "Fortune reads Anthropic's S-1 and finds human extinction, the Pentagon and the founder's reputation listed as risks. Taiwan's United Daily News counts nearly a hundred pages of them, from TSMC supply to AI threatening survival. The document that is supposed to sell the company spends most of its length describing how it could end everything.",
+              "articleIds": [
+                "n-ac98d4926ab5e8",
+                "n-e99018cccd7290"
+              ],
+              "bookIds": [
+                "surveillance-capitalism"
+              ],
+              "trajectoryIds": [
+                "netscape-1995"
+              ]
+            },
+            {
+              "id": "market-buys",
+              "label": "The index jumps on the warning",
+              "text": "The same Taiwanese outlet reports the US close: listing plans ignite AI buying, the semiconductor index jumps 2.8 percent, doubts remain. In Shanghai, Sina quotes Citadel saying the AI trade has reached a staggering scale with no room for error. The worst case was priced in and the price went up.",
+              "articleIds": [
+                "n-889c7d032ebdc7",
+                "n-47f12c7584c843"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "holmes-inverse",
+          "kind": "interpretation",
+          "label": "The opposite of Theranos is not honesty",
+          "fragments": [
+            {
+              "id": "one-tiny-word",
+              "label": "A deception expert and one word",
+              "text": "On the same day, Fortune reports Elizabeth Holmes insisting she never lied, and a deception expert says the whole case hinges on one tiny word. Theranos sold a future with no disclosure. The new prospectus sells a future with total disclosure. Both ask money to believe in something that has not happened yet. The amount of confession is not the same as the amount of truth.",
+              "articleIds": [
+                "n-93e241e637012d",
+                "n-ac98d4926ab5e8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "theranos-2015"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "somebody-else-maintains",
+          "kind": "interpretation",
+          "label": "The future arrives as somebody else's maintenance",
+          "fragments": [
+            {
+              "id": "composer-repairs",
+              "label": "A composer is asked to fix the machine's music",
+              "text": "An Australian headline: the Artful Dodger soundtrack composer is asked to fix AI music. A Korean one: semiconductor exports drive a full point of GDP growth. An American one asks why data centres use so much water. The generated thing is cheap. The repairing, the fabricating and the cooling are done by people and rivers who did not file an S-1.",
+              "articleIds": [
+                "n-c938bf65a07b39",
+                "n-9ad4bfcfa485ce",
+                "n-ccf0ac5d589dac"
+              ],
+              "bookIds": [
+                "slow-violence"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "sixty-thousand-doors",
+              "label": "Sixty thousand people are offered the door",
+              "text": "Microsoft offers voluntary departures to about sixty thousand employees, a quarter of its workforce, in Taiwanese reporting. SolarEdge lays off another nine hundred. The boom's labour market is exits, not hires. Hirschman's choice is being made at scale: leave quietly, because voice has nowhere to go.",
+              "articleIds": [
+                "n-1d1654478454b0",
+                "n-5c2741f9f85c0b"
+              ],
+              "bookIds": [
+                "exit-voice-loyalty"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "public-not-asked",
+          "kind": "observation",
+          "label": "The public was not asked, and says so",
+          "fragments": [
+            {
+              "id": "too-quickly",
+              "label": "Six in ten say too fast",
+              "text": "Six in ten Dutch people believe AI is becoming part of society too quickly. An Australian columnist says big tech is destroying democracy and political cowards are letting it. A Portuguese outlet reports US midterm candidates trying to manipulate chatbots into recommending them. The machine is being voted on, by people who were not given a ballot.",
+              "articleIds": [
+                "n-eaef88ff7a5007",
+                "n-3e07fa5031f868",
+                "n-617c9d2fc30969"
+              ],
+              "bookIds": [
+                "social-acceleration"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "twelve-models",
+              "label": "Twelve machines are asked about us",
+              "text": "A Ukrainian outlet reports that twelve AI models were asked a question about humans and almost all agreed on one uncomfortable truth. The headline does not say what it was. That is the most honest headline in the collection: the oracle is being consulted, and the answer is withheld for clicks.",
+              "articleIds": [
+                "n-df3978dd8dbbe7"
+              ],
+              "bookIds": [
+                "sense-of-an-ending"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "break-machine",
+          "kind": "break",
+          "label": "Break this reading",
+          "fragments": [
+            {
+              "id": "every-technology",
+              "label": "This is how every technology arrives",
+              "text": "Railways needed navvies, electricity needed linesmen, the car needed roads paid for by everyone. 'Somebody else's maintenance' describes all infrastructure, not AI in particular. To make the claim stick you would have to show that the gap between who profits and who repairs is wider now than it was for the telegraph. Nothing here measures that.",
+              "articleIds": [],
+              "bookIds": [
+                "great-transformation"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "disclosure-is-law",
+              "label": "The hundred pages are a legal form, not a confession",
+              "text": "Every US listing lists catastrophic risks because lawyers require it. Reading a boilerplate section as a philosophical statement is the oracle hearing meaning in a compliance document. The market rose because of expected revenue, and the extinction clause is a footnote the reporters chose for its headline value.",
+              "articleIds": [
+                "n-e99018cccd7290"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-ac98d4926ab5e8",
+        "n-e99018cccd7290",
+        "n-889c7d032ebdc7",
+        "n-47f12c7584c843",
+        "n-93e241e637012d",
+        "n-c938bf65a07b39",
+        "n-9ad4bfcfa485ce",
+        "n-ccf0ac5d589dac",
+        "n-1d1654478454b0",
+        "n-5c2741f9f85c0b",
+        "n-eaef88ff7a5007",
+        "n-3e07fa5031f868",
+        "n-617c9d2fc30969",
+        "n-df3978dd8dbbe7"
+      ]
+    },
+    {
+      "id": "two-clocks",
+      "line": "The Gulf is running two clocks: one for the talks, one for the strike.",
+      "kicker": "IRAN / PACT / PREPARATION",
+      "claim": "In the same collection, Iran, Saudi Arabia, Turkey and Pakistan agree to keep talking, Iran says it is ready to join the Mecca Pact, and an Iraqi paper reports that Washington has completed preparations for a large-scale strike on Iran. Both are true at once. The region is negotiating with itself in one room while the room next door is being armed, and the headlines from Cairo, Jakarta, Beijing, Tokyo and Doha each hear only one of the clocks.",
+      "rungs": [
+        {
+          "id": "the-talks-clock",
+          "kind": "observation",
+          "label": "The first clock: a pact being written",
+          "fragments": [
+            {
+              "id": "four-in-tehran",
+              "label": "Four countries in one room",
+              "text": "Egypt's Masrawy, Shanghai's Yicai and Japan's 47NEWS all report the same meeting: Iran, Saudi Arabia, Turkey and Pakistan agree to discuss regional peace and security. Iran's president says he is ready to deepen cooperation and resolve differences. Republika in Jakarta runs it as breaking news: Iran ready to join the Mecca Pact. The religiously and politically opposed powers of the region are drafting something together.",
+              "articleIds": [
+                "n-0593b3293f5740",
+                "n-ef752f02115112",
+                "n-f76b5a09a166a9",
+                "n-670e507b17cd14",
+                "n-129e6d4d35a7ed"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "trump-weighs",
+              "label": "Doha hears both clocks in one sentence",
+              "text": "Al Jazeera Arabic is the only outlet that puts the two clocks in one headline: the Mecca Pact countries and Tehran agree to continue talks as Trump weighs his options. The phrase 'weighs his options' is the second clock, ticking inside the first.",
+              "articleIds": [
+                "n-7258d67477f761"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "the-strike-clock",
+          "kind": "observation",
+          "label": "The second clock: a strike being prepared",
+          "fragments": [
+            {
+              "id": "preparations-complete",
+              "label": "Baghdad reports the preparations are complete",
+              "text": "Iraq's Al-Mada reports that Washington has completed preparations for a large-scale military strike on Iran. A Chinese financial outlet runs a breaking bundle: a multinational coalition launches air strikes, major news from the Strait of Hormuz, the US military ready for another round. Arab News carries Israel's defence minister denying a rift with his army chief over Iran. Three countries that are not Iran are reporting the countdown.",
+              "articleIds": [
+                "n-45e75c705fc4d2",
+                "n-0eb6b94c4fc316",
+                "n-d022bd2dfb3381"
+              ],
+              "bookIds": [
+                "new-and-old-wars"
+              ],
+              "trajectoryIds": [
+                "oil-embargo-1973"
+              ]
+            },
+            {
+              "id": "airports-already-closed",
+              "label": "The war has already reached the departure board",
+              "text": "Al-Mada: 86 percent of flights cancelled as Houthis disrupt Riyadh airport. South Africa's Business Day explains how Houthi attacks have grounded flights across Saudi Arabia. Xinhua reports the Saudi-led coalition intercepting drones and a ballistic missile. Whatever the strike clock says, the airport clock has already stopped.",
+              "articleIds": [
+                "n-b47ba217ad028a",
+                "n-cf72866569016c",
+                "n-282330d01489d9"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "churches-move-states",
+          "kind": "interpretation",
+          "label": "A church is the thing that makes a state move",
+          "fragments": [
+            {
+              "id": "jordan-strikes",
+              "label": "Jordan bombs Syria for a church",
+              "text": "Four outlets on three continents, Xinhua, Deutsche Welle, a Greek daily and Arab News, report Jordan's air strikes in southern Syria after a deadly attack on a church. Only the Greek paper names it as a Greek Orthodox church. The BBC reports sixty Orthodox Christians killed in Ethiopia the same day. In a region of pacts and strikes, the trigger that actually fired was an attack on worshippers.",
+              "articleIds": [
+                "n-ab9aa370f6660f",
+                "n-3812591acdd76f",
+                "n-948106e8265e49",
+                "n-1868aaa2d14c92",
+                "n-c243bf8a099fd1"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "amman-explains-itself",
+              "label": "Amman explains itself to itself",
+              "text": "Jordan's own press is doing something different from the foreign press. Ammon News asks why the security agencies avoided announcing the extent of the terrorists' links, and reports speakers in Aqaba calling Jordan a homeland of love that will withstand terrorism. The strike is the foreign headline. The domestic headline is reassurance.",
+              "articleIds": [
+                "n-0dd57c57ed3745",
+                "n-bfa9902420bd72"
+              ],
+              "bookIds": [
+                "imagined-communities"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "new-players-enter",
+          "kind": "interpretation",
+          "label": "While the clocks run, the map is being redrawn",
+          "fragments": [
+            {
+              "id": "algeria-abroad",
+              "label": "Algeria sends soldiers abroad for the first time in half a century",
+              "text": "Franceinfo calls it a first in more than fifty years: Algeria authorises sending troops abroad. Deutsche Welle reports the debate; Masrawy reports the destination, Niger. Qatar's emir flies to Moscow to meet Putin. Pakistan and the United States agree on energy. The Gulf's two clocks are the loudest, but the quiet redrawings happen in the Sahara and the Kremlin.",
+              "articleIds": [
+                "n-7744bb457b2013",
+                "n-50ba977203a058",
+                "n-8fec289497b875",
+                "n-f9c5e5bd81f31d",
+                "n-158de015514014"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "break-clocks",
+          "kind": "break",
+          "label": "Break this reading",
+          "fragments": [
+            {
+              "id": "one-clock-is-fake",
+              "label": "One of the clocks might be a prop",
+              "text": "The 'preparations complete' headline comes from a single Iraqi paper, and the coalition-strikes bundle is a Chinese financial feed summarising unnamed reports. Talks are reported by five outlets, the strike by three second-hand ones. A reading that gives both clocks equal weight has made a sourcing decision disguised as a philosophical one.",
+              "articleIds": [
+                "n-45e75c705fc4d2",
+                "n-0eb6b94c4fc316"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "this-is-normal",
+              "label": "Diplomacy under threat is the normal condition",
+              "text": "Every serious negotiation happens with force in the next room. That is what makes it serious. Calling it 'two clocks' makes a standard feature of statecraft sound like a paradox. The interesting question is not that both exist, but which one the parties in Tehran believe, and no headline here can tell you.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-0593b3293f5740",
+        "n-ef752f02115112",
+        "n-f76b5a09a166a9",
+        "n-670e507b17cd14",
+        "n-129e6d4d35a7ed",
+        "n-7258d67477f761",
+        "n-45e75c705fc4d2",
+        "n-0eb6b94c4fc316",
+        "n-d022bd2dfb3381",
+        "n-b47ba217ad028a",
+        "n-cf72866569016c",
+        "n-282330d01489d9",
+        "n-ab9aa370f6660f",
+        "n-3812591acdd76f",
+        "n-948106e8265e49",
+        "n-1868aaa2d14c92",
+        "n-c243bf8a099fd1",
+        "n-0dd57c57ed3745",
+        "n-bfa9902420bd72",
+        "n-7744bb457b2013",
+        "n-50ba977203a058",
+        "n-8fec289497b875",
+        "n-f9c5e5bd81f31d",
+        "n-158de015514014"
+      ]
+    },
+    {
+      "id": "one-machine",
+      "line": "One machine is cutting the power, guarding the lake, carrying the wounded, and selling itself.",
+      "kicker": "DRONE / OBJECT / VERBS",
+      "claim": "No single word appears in more headlines across more countries in this collection than 'drone'. It hits five power stations in Sudan, is intercepted over Saudi Arabia, watches the Great Lakes from the American side, rescues a Ukrainian soldier who waited two days, is promised by Hezbollah within three months, and is sold by Israeli and Turkish firms to buyers who are not named. It is not a weapon. It is the sentence structure of the decade.",
+      "rungs": [
+        {
+          "id": "four-verbs",
+          "kind": "observation",
+          "label": "Four verbs, one object",
+          "fragments": [
+            {
+              "id": "it-cuts",
+              "label": "It cuts the power in Khartoum",
+              "text": "The Hindu reports mass outages in Sudan after RSF drones hit five power stations. Al Jazeera reports the UN calling Russian attacks on Ukraine's energy grid a war crime. Kharkiv's missile strike and Kyiv's metro station are in the same collection. The target of choice is no longer the army. It is the switch that keeps the hospital lit.",
+              "articleIds": [
+                "n-665a97067fa313",
+                "n-8bb1eac90f2778",
+                "n-b945ca18cb1ee6",
+                "n-9ca9f259f6e62c"
+              ],
+              "bookIds": [
+                "new-and-old-wars"
+              ],
+              "trajectoryIds": [
+                "nuremberg-1945"
+              ]
+            },
+            {
+              "id": "it-watches",
+              "label": "It watches a lake between friends",
+              "text": "CBC: the United States has put surveillance drones in the Great Lakes, and a border-town mayor isn't happy. Mexico's Vanguardia reports air and ground surveillance reinforced on tracks and roads in Coahuila. The same object that cuts the power in a war also hovers over the calmest border on earth, and the mayor's objection is the only sign anyone finds that strange.",
+              "articleIds": [
+                "n-0614e15e4dc334",
+                "n-1184dd4ceb13ad"
+              ],
+              "bookIds": [
+                "theory-of-the-drone"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "it-carries",
+              "label": "It carries a wounded man out",
+              "text": "A Virginia station reports a wounded Ukrainian soldier who waited two days to be rescued, then a drone flew him to safety. The machine that cannot be hit back has become, in the same war, the machine that comes when no one else can. Chamayou's question stands: what happens to courage when the thing that saves you is also the thing that cannot be brave.",
+              "articleIds": [
+                "n-e5378d7dc03c66"
+              ],
+              "bookIds": [
+                "theory-of-the-drone"
+              ],
+              "trajectoryIds": [
+                "predator-2001"
+              ]
+            },
+            {
+              "id": "it-sells",
+              "label": "It sells itself at a trade fair",
+              "text": "Elbit wins a $200 million Asia-Pacific intelligence-gathering deal. ASELSAN's wing-assisted guidance kit completes its first firing test and the Turkish defence industry goes on show at AFRIDEX. Al-Mada reports Hezbollah preparing to produce drones within three months with Iranian funding. Everyone is building, buying or showing. No headline reports anyone declining.",
+              "articleIds": [
+                "n-ae8772d8b57091",
+                "n-f0a8a0117c41b6",
+                "n-5e9ae9e7261979",
+                "n-b6adaef4fd435d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "grammar-not-weapon",
+          "kind": "interpretation",
+          "label": "It is grammar, not a weapon",
+          "fragments": [
+            {
+              "id": "verb-swap",
+              "label": "The same object swaps verbs without changing shape",
+              "text": "A rifle only shoots. A drone cuts, watches, carries and sells, and it does all four in this one day's headlines without anyone remarking on the range. That is what it means for a technology to have become grammar: it no longer appears as a subject, only as the way other things are done. The last object to do this was the truck.",
+              "articleIds": [
+                "n-665a97067fa313",
+                "n-0614e15e4dc334",
+                "n-e5378d7dc03c66",
+                "n-ae8772d8b57091"
+              ],
+              "bookIds": [
+                "theory-of-the-drone"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "old-machines-persist",
+              "label": "The old machines are still being launched",
+              "text": "Russia launches the missile ship Grozny after five years of building. Australia reveals its first AUKUS nuclear submarine. Ukraine asks for ten percent of the West's air-defence missiles. The ship, the submarine and the missile are the nineteenth and twentieth centuries continuing, at enormous cost, alongside a machine that costs almost nothing. The two arms races do not know about each other yet.",
+              "articleIds": [
+                "n-c64ae604751d31",
+                "n-7ceea64fcf49f9",
+                "n-febdd97dfd563c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "break-machine-object",
+          "kind": "break",
+          "label": "Break this reading",
+          "fragments": [
+            {
+              "id": "word-not-thing",
+              "label": "'Drone' is a word doing the work of six things",
+              "text": "An RSF attack drone, a Great Lakes surveillance aircraft, a Ukrainian evacuation quadcopter and an Elbit intelligence contract share a headline word and almost nothing else. The reading's elegance comes from English using one noun. In the original languages some of these are different words. The oracle may be reading the translation, not the world.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "always-been-grammar",
+              "label": "Every tool becomes grammar",
+              "text": "Fire cooks, warms, signals and destroys. The claim that the drone is special because it has many verbs would apply to the horse. What would make the drone different is cost and distance: anyone can send one and nobody has to be there. That is Chamayou's point, and it is a different and sharper claim than the one the oracle made.",
+              "articleIds": [],
+              "bookIds": [
+                "theory-of-the-drone"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-665a97067fa313",
+        "n-8bb1eac90f2778",
+        "n-b945ca18cb1ee6",
+        "n-9ca9f259f6e62c",
+        "n-0614e15e4dc334",
+        "n-1184dd4ceb13ad",
+        "n-e5378d7dc03c66",
+        "n-ae8772d8b57091",
+        "n-f0a8a0117c41b6",
+        "n-5e9ae9e7261979",
+        "n-b6adaef4fd435d",
+        "n-c64ae604751d31",
+        "n-7ceea64fcf49f9",
+        "n-febdd97dfd563c"
+      ]
+    },
+    {
+      "id": "agreed-on-a-football",
+      "line": "For one night the whole world agreed about a football.",
+      "kicker": "RITUAL / ATTENTION / FATE",
+      "claim": "Harry Kane's Ballon d'Or appears in the headlines of Portugal, Colombia, Russia, Turkey, Senegal, Jordan, Greece, Spain and Nigeria within the same hours. No war, election or market event in this collection is reported by as many countries. A ceremony is the thing the world shares. The question is whether a shared ceremony is a kind of shared fate, or a substitute for one.",
+      "rungs": [
+        {
+          "id": "the-one-headline",
+          "kind": "observation",
+          "label": "The one headline every country ran",
+          "fragments": [
+            {
+              "id": "kane-everywhere",
+              "label": "Kane in nine countries",
+              "text": "SAPO in Lisbon, La Patria in Manizales, Lenta in Moscow, Habertürk in Istanbul, Dakaractu in Dakar, Ammon in Amman and the Daily Post in Lagos all lead sport, and sometimes the whole page, with the same man and the same trophy. Nothing else in the collection crosses that many borders unchanged.",
+              "articleIds": [
+                "n-e64ea54b7fe95d",
+                "n-75e835f0d7b65c",
+                "n-888a1b6eb61a53",
+                "n-4e6dbfabe8e8a5",
+                "n-09e663da5f6130",
+                "n-43bffff82a8b0b",
+                "n-d7572a4578ece6"
+              ],
+              "bookIds": [
+                "understanding-media"
+              ],
+              "trajectoryIds": [
+                "ballon-dor-1956"
+              ]
+            },
+            {
+              "id": "each-country-loses-someone",
+              "label": "Each country finds its own loser",
+              "text": "Russia's two outlets lead not with Kane but with Safonov missing out on the goalkeeper award. Nigeria lists five players shockingly omitted. Spain, Portugal and Colombia give Alexia Putellas her third. The world agreed on the ceremony and then each country read its own grievance or pride into the same list. That is what an imagined community does with a shared text.",
+              "articleIds": [
+                "n-70ae186952eb01",
+                "n-d7572a4578ece6",
+                "n-64be1c75ab25e2",
+                "n-b91741fab816e8",
+                "n-b7c99f88e8e356"
+              ],
+              "bookIds": [
+                "imagined-communities"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "other-shared-things",
+          "kind": "observation",
+          "label": "The other things the world is sharing this week",
+          "fragments": [
+            {
+              "id": "halloween-travels",
+              "label": "Halloween is argued about on three continents",
+              "text": "A Taipei fortune teller warns against dressing as one thing. A New Zealand broadcaster asks if Halloween is too scary for children. Houston explains how to elevate your wig. Texans pay two thousand dollars to have pumpkins arranged on the porch. An invented American tradition is now a global argument, held in the same week, in four languages.",
+              "articleIds": [
+                "n-890c5e91880eec",
+                "n-7ae1254ece3089",
+                "n-eb9919f9a94e29",
+                "n-3dd3f9909a71e5"
+              ],
+              "bookIds": [
+                "invention-of-tradition"
+              ],
+              "trajectoryIds": [
+                "samhain-to-suburbs"
+              ]
+            },
+            {
+              "id": "shared-dead",
+              "label": "The same obituary in Manila and Berlin",
+              "text": "Walter Koenig of Star Trek dies at ninety and the Manila Times and Die Welt both report it. The voice of Bugs Bunny dies at forty-six and Córdoba asks what happened. Fortnite and One Piece join forces and Mexico tells you when. The world's shared dead and shared toys are American and Japanese, and nobody finds that remarkable.",
+              "articleIds": [
+                "n-5c76eac5677327",
+                "n-b70618904a7f0b",
+                "n-1e03a5aa502f5a",
+                "n-77c61a7c38a1b8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "crowd-wants",
+          "kind": "interpretation",
+          "label": "What the crowd wants is to be one crowd",
+          "fragments": [
+            {
+              "id": "crowds-this-week",
+              "label": "Four hundred thousand hosts and a navy band",
+              "text": "Córdoba is preparing a papal Mass with 150 musicians, 2,000 communion ministers and 400,000 hosts. A navy band moves a crowd in Thessaloniki's main square. A Japanese editorial celebrates the prefecture's choirs. A French health centre runs a choir for mental health. Canetti said the crowd's deepest wish is to stop being many and become one. Every one of these headlines is that wish being granted for an hour.",
+              "articleIds": [
+                "n-e3e0fbe804c186",
+                "n-f633ca5ae00a71",
+                "n-607ab7f4776da4",
+                "n-a874435d658c63"
+              ],
+              "bookIds": [
+                "crowds-and-power"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "ceremony-or-fate",
+              "label": "A ceremony is cheaper than a fate",
+              "text": "Debord's point was never that spectacle is trivial. It is that spectacle is what a society shares when it cannot share anything else. The same collection in which nine countries agree about Kane contains no headline that nine countries share about Sudan, water or the price of bread. We have a shared stadium and separate weather.",
+              "articleIds": [
+                "n-e64ea54b7fe95d",
+                "n-665a97067fa313",
+                "n-19db6e078a87cc"
+              ],
+              "bookIds": [
+                "society-of-the-spectacle"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "break-football",
+          "kind": "break",
+          "label": "Break this reading",
+          "fragments": [
+            {
+              "id": "sampling-artefact",
+              "label": "The collector likes sport",
+              "text": "This collection caps each country at eighteen headlines and samples what GDELT saw in ten minutes of a given hour. Sport is published on a predictable schedule and the ceremony fell inside the window. The 'one headline every country ran' may be an artefact of when the net was cast, not of what the world cares about. Run the same reading on a Tuesday morning and see if it holds.",
+              "articleIds": [],
+              "bookIds": [
+                "seeing-like-a-state"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "shared-is-enough",
+              "label": "A shared ceremony is not a lesser thing",
+              "text": "The reading treats shared ritual as a consolation prize for shared fate. Weil would say the opposite: a people that can agree about a football, a choir and a Mass has roots, and roots are the condition for facing fate together, not the substitute. The oracle's disdain for the trophy might be the oracle's problem.",
+              "articleIds": [],
+              "bookIds": [
+                "need-for-roots"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-e64ea54b7fe95d",
+        "n-75e835f0d7b65c",
+        "n-888a1b6eb61a53",
+        "n-4e6dbfabe8e8a5",
+        "n-09e663da5f6130",
+        "n-43bffff82a8b0b",
+        "n-d7572a4578ece6",
+        "n-70ae186952eb01",
+        "n-64be1c75ab25e2",
+        "n-b91741fab816e8",
+        "n-b7c99f88e8e356",
+        "n-890c5e91880eec",
+        "n-7ae1254ece3089",
+        "n-eb9919f9a94e29",
+        "n-3dd3f9909a71e5",
+        "n-5c76eac5677327",
+        "n-b70618904a7f0b",
+        "n-1e03a5aa502f5a",
+        "n-77c61a7c38a1b8",
+        "n-e3e0fbe804c186",
+        "n-f633ca5ae00a71",
+        "n-607ab7f4776da4",
+        "n-a874435d658c63",
+        "n-665a97067fa313",
+        "n-19db6e078a87cc"
+      ]
+    },
+    {
+      "id": "past-re-sentenced",
+      "line": "Courts are re-sentencing 1979 and 1996, and a library is removing 2026.",
+      "kicker": "VERDICT / MEMORY / REVISION",
+      "claim": "Forty-seven years to the day after a KCIA chief shot South Korea's president, a court opens his posthumous retrial. Chile's Valparaíso court overturns a 1996 double-murder sentence. Milan rules on premeditation in a femicide. The same day, an Indian institute removes a living author's book from its library to avoid unrest. The past is being reopened everywhere, and the present is being shelved.",
+      "rungs": [
+        {
+          "id": "verdicts-reopened",
+          "kind": "observation",
+          "label": "Old verdicts are being reopened",
+          "fragments": [
+            {
+              "id": "seoul-1979-retrial",
+              "label": "Why did he shoot the president?",
+              "text": "Hankyoreh: he killed Korea's president 47 years ago, and a posthumous retrial may finally answer why. The collection was gathered on 26 October, the anniversary of the shooting. A country is asking a court to tell it whether the man who ended a dictatorship was a murderer or a liberator, and the man is not alive to hear the answer.",
+              "articleIds": [
+                "n-13dafbe01e7fe0"
+              ],
+              "bookIds": [
+                "memory-history-forgetting"
+              ],
+              "trajectoryIds": [
+                "seoul-1979"
+              ]
+            },
+            {
+              "id": "chile-and-milan",
+              "label": "Valparaíso and Milan rewrite two sentences",
+              "text": "A Chilean court dismisses the 'Drum Psychopath' double-murder case from 1996. Milan's ruling finds premeditation in Giulia Tramontano's killing, and the prosecutor-general calls it horrible. One court loosens the past, one tightens it. Both say the first telling was wrong.",
+              "articleIds": [
+                "n-eeda685e709d4c",
+                "n-f14f0c4dc9549c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "present-shelved",
+          "kind": "observation",
+          "label": "The present is being taken off the shelf",
+          "fragments": [
+            {
+              "id": "book-removed",
+              "label": "A library removes a book to keep the peace",
+              "text": "IISER Pune removes Umar Khalid's book from its library 'to avoid unrest'. Rahul Gandhi is acquitted in a defamation case the same day. One institution decides that a living writer's argument is too dangerous to lend, while a court decides that a politician's argument was legal. India is adjudicating speech in both directions at once.",
+              "articleIds": [
+                "n-da4c60eedfcec3",
+                "n-24684fd6e4aba4"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "nine-men-by-morning",
+              "label": "A colonel's promise, a century later",
+              "text": "Scoop: the colonel said they were safe as London, and nine men died by morning. In France, a Roman house and possible temple are found under a city. Kitakyushu concrete falls from a municipal wall onto a schoolboy. What was buried or guaranteed keeps surfacing, and it surfaces as a headline rather than a history.",
+              "articleIds": [
+                "n-8200a2fcd64254",
+                "n-abfe4707f965f3",
+                "n-02fbfe043f82ef"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "long-service",
+          "kind": "interpretation",
+          "label": "Against revision: the people who simply stayed",
+          "fragments": [
+            {
+              "id": "thirty-nine-years",
+              "label": "Thirty-nine years, six months and two weeks",
+              "text": "La Dépêche gives Alain Arnosti a send-off after thirty-nine years, six months and two weeks at one firm. A Virginia hospital volunteer marks fifty-five years. Rostock marks thirty years of support for the homeless. Edinburgh axes its Christmas ice rink after thirty. These are the headlines about time that no court can revise: the slow kind, where the verdict is just that someone kept turning up.",
+              "articleIds": [
+                "n-ab10318ed1a7d0",
+                "n-0dd4be36b204ac",
+                "n-72425aaaeaccdf",
+                "n-076b1ab7d0c7c6"
+              ],
+              "bookIds": [
+                "need-for-roots"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "slogan-revived",
+              "label": "A ski brand revives a slogan, a daycare takes a 120-year-old building",
+              "text": "Colmar revives its historic 'In case of snow' slogan for Austria's ski team. Vaasa turns a 120-year-old building into a daycare. Boym would call the first restorative nostalgia, rebuilding the old thing as it was, and the second reflective, letting the old thing hold something new. One is a marketing decision and one is a town's.",
+              "articleIds": [
+                "n-418ee3d9f0ae9c",
+                "n-b49a65433d9d3d"
+              ],
+              "bookIds": [
+                "future-of-nostalgia",
+                "retromania"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "break-past",
+          "kind": "break",
+          "label": "Break this reading",
+          "fragments": [
+            {
+              "id": "courts-always-reopen",
+              "label": "Courts reopen cases every day",
+              "text": "Appeals, retrials and acquittals are the ordinary business of justice, and a snapshot of 448 headlines will always contain some. The anniversary coincidence in Seoul is real, but the oracle has made a pattern out of a legal system functioning. The claim that 'the past is being reopened everywhere' would need a count across editions, and this is edition one.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "shelving-is-not-revision",
+              "label": "Removing a book is censorship, not revision",
+              "text": "Putting the Pune library beside the Seoul retrial makes them rhyme, and the rhyme flatters the reading. A retrial reopens the record. Removing a book closes it. They are opposite acts, and calling them both 're-sentencing' hides the one that matters more.",
+              "articleIds": [
+                "n-da4c60eedfcec3"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-13dafbe01e7fe0",
+        "n-eeda685e709d4c",
+        "n-f14f0c4dc9549c",
+        "n-da4c60eedfcec3",
+        "n-24684fd6e4aba4",
+        "n-8200a2fcd64254",
+        "n-abfe4707f965f3",
+        "n-02fbfe043f82ef",
+        "n-ab10318ed1a7d0",
+        "n-0dd4be36b204ac",
+        "n-72425aaaeaccdf",
+        "n-076b1ab7d0c7c6",
+        "n-418ee3d9f0ae9c",
+        "n-b49a65433d9d3d"
+      ]
+    },
+    {
+      "id": "young-in-the-square",
+      "line": "Students have toppled a government, and a president is doing a teenage dance.",
+      "kicker": "YOUTH / SQUARE / METRIC",
+      "claim": "In Serbia a leaderless movement of the young has ended fourteen years of Vučić. In France the government promises to reform university admissions after mass student protests. In Madrid a camp refuses to leave Sol. In Antioquia three towns decree that minors be kept indoors. And in Buenos Aires the 56-year-old president joins the 'Six Seven' teenage challenge. The generation in the square is being answered by reform, curfew and imitation, and the imitation is the most revealing of the three.",
+      "rungs": [
+        {
+          "id": "square-is-full",
+          "kind": "observation",
+          "label": "The square is full",
+          "fragments": [
+            {
+              "id": "belgrade-wins",
+              "label": "Belgrade: young, leaderless, without experience, and they won",
+              "text": "El País describes the movement that defeated Vučić's regime as young, leaderless and without political experience. Il Messaggero asks who they are and calls it a turning point after fourteen years. A quarter-century after the Otpor students, Serbia's students have done it again, and the foreign press cannot decide whether to be impressed or alarmed by the absence of a leader.",
+              "articleIds": [
+                "n-7e33e4c9d21ae0",
+                "n-1b21e8f0db517b"
+              ],
+              "bookIds": [
+                "crowds-and-power"
+              ],
+              "trajectoryIds": [
+                "belgrade-2000",
+                "springtime-1848"
+              ]
+            },
+            {
+              "id": "paris-madrid-lisbon",
+              "label": "Paris reforms, Madrid camps, Lisbon argues about the police",
+              "text": "France pledges to reform university admissions after mass student protests, reported from Córdoba. Madrid's Sol protesters shield their camp and say there is no retreat. In Lisbon the mayor stands with housing protesters but will not comment on the police, the communists reject 'subterfuges to limit' the right to protest, and Ventura demands that Seguro break his silence. Three capitals, three responses to the same crowd.",
+              "articleIds": [
+                "n-fce0e055659435",
+                "n-f81415babade1e",
+                "n-2d1e8cb95863d2",
+                "n-c2bec9894ff5c3",
+                "n-d15b3e759dc0ed"
+              ],
+              "bookIds": [
+                "exit-voice-loyalty"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "answered-by-curfew",
+          "kind": "observation",
+          "label": "Elsewhere the answer is a curfew and a metric",
+          "fragments": [
+            {
+              "id": "minors-indoors",
+              "label": "Antioquia keeps the young indoors",
+              "text": "El Colombiano: three towns decree that minors be kept indoors as a solution to violence. Brazilian students protest outside São Paulo's City Hall. Peru's teachers confirm a national strike. Where Belgrade's young filled the square, Antioquia's are told the square is the danger.",
+              "articleIds": [
+                "n-985fbcdceb7cbb",
+                "n-bfc4032311697a",
+                "n-50496e3decf34f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "ninety-seven-per-place",
+              "label": "Ninety-seven applicants per place",
+              "text": "China's civil service exam reaches 97 applicants per place. Sydney's selective schools are sending students to the psychologist under parental pressure. A Vietnamese editorial says do not let talent be constrained by metrics. A Colombian blog asks whose childhood is being published. The young who are not in the square are in a queue, and the queue is measured.",
+              "articleIds": [
+                "n-a2faafaf2043ac",
+                "n-7b9b19fb01279e",
+                "n-78c72d9fab3fe2",
+                "n-d81bf5b654920e"
+              ],
+              "bookIds": [
+                "social-acceleration"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "imitation-tells",
+          "kind": "interpretation",
+          "label": "The imitation is the tell",
+          "fragments": [
+            {
+              "id": "milei-six-seven",
+              "label": "A president does the dance",
+              "text": "Minuto Uno explains what 'Six Seven' means: the teenage challenge Javier Milei joined at 56. Power is not only reforming, policing or measuring the young. It is dressing as them. Krastev and Holmes wrote about nations imitating other nations. This is a government imitating its own children, which is the version that happens when the children have the numbers.",
+              "articleIds": [
+                "n-9c6482dad089f6"
+              ],
+              "bookIds": [
+                "light-that-failed"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "pope-and-the-young",
+              "label": "Four hundred thousand hosts and a generation that may not come",
+              "text": "Cadena 3 reports what Argentines expect from the pope's historic visit, and names the contrast with young people. Seven in ten Koreans aged 60 to 74 say they are not elderly and want more chances to take part. The old are declining to be old and the young are declining to be counted. The square and the Mass are competing for the same bodies.",
+              "articleIds": [
+                "n-825ea7028bd623",
+                "n-5c4d794a323fdf"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "break-young",
+          "kind": "break",
+          "label": "Break this reading",
+          "fragments": [
+            {
+              "id": "youth-is-not-a-group",
+              "label": "'The young' is not a political actor",
+              "text": "Serbian students, Colombian minors, Chinese exam candidates and a Buenos Aires meme have nothing in common except age, and age is not a programme. The reading assembles a generation out of headlines because generation is an easy story. Ask what each group wants and the constellation falls apart into housing, exams, violence and attention.",
+              "articleIds": [],
+              "bookIds": [
+                "seeing-like-a-state"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "1848-ended-badly",
+              "label": "The last springtime lasted a year",
+              "text": "Every wave of the young in the square is reported as a turning point, and 1848 is the reminder that most turning points turn back. Belgrade's 2000 victory produced the Vučić the students have just removed. The oracle's excitement is the same excitement the newspapers had then. The honest reading of this collection is that we are in the first week, and the first week always looks like this.",
+              "articleIds": [
+                "n-1b21e8f0db517b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "springtime-1848",
+                "belgrade-2000"
+              ]
+            }
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-7e33e4c9d21ae0",
+        "n-1b21e8f0db517b",
+        "n-fce0e055659435",
+        "n-f81415babade1e",
+        "n-2d1e8cb95863d2",
+        "n-c2bec9894ff5c3",
+        "n-d15b3e759dc0ed",
+        "n-985fbcdceb7cbb",
+        "n-bfc4032311697a",
+        "n-50496e3decf34f",
+        "n-a2faafaf2043ac",
+        "n-7b9b19fb01279e",
+        "n-78c72d9fab3fe2",
+        "n-d81bf5b654920e",
+        "n-9c6482dad089f6",
+        "n-825ea7028bd623",
+        "n-5c4d794a323fdf"
+      ]
+    }
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-8068979743d56e",
+      "title": "Editorial: Lula vuelve a ganar: Brasil obliga a Chile y a Estados Unidos a mirar de nuevo la región | Puranoticia.cl",
+      "titleEnglish": "Editorial: Lula wins again: Brazil forces Chile and the United States to look at the region anew | Puranoticia.cl",
+      "url": "https://puranoticia.pnt.cl/editorial/editorial-lula-vuelve-a-ganar-brasil-obliga-a-chile-y-a-estados-unidos-a",
+      "publisher": "puranoticia.pnt.cl",
+      "publisherDomain": "puranoticia.pnt.cl",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-cefecc993c2aef",
+      "title": "Presidente Kast felicitó a Lula por su reelección: \"Chile y Brasil tienen mucho futuro en común\" | Puranoticia.cl",
+      "titleEnglish": "President Kast congratulates Lula on his re-election: ‘Chile and Brazil have a great deal of future in common’ | Puranoticia.cl",
+      "url": "https://puranoticia.pnt.cl/internacional/presidente-kast-felicito-a-lula-por-su-reeleccion-chile-y-brasil-tienen",
+      "publisher": "puranoticia.pnt.cl",
+      "publisherDomain": "puranoticia.pnt.cl",
+      "publishedAt": "2026-10-26T11:32:00Z",
+      "seenAt": "2026-10-26T11:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-6c7f47deb363b1",
+      "title": "Axel Kicillof aseguró que la derrota de Bolsonaro ante Lula representa un rechazo al modelo de \"la motosierra de Milei\"",
+      "titleEnglish": "Axel Kicillof says Bolsonaro's defeat by Lula represents a rejection of 'Milei's chainsaw' model",
+      "url": "https://www.clarin.com/politica/axel-kicillof-aseguro-derrota-bolsonaro-lula-representa-rechazo-modelo-motosierra-milei_0_XyPvaYJjFj.html",
+      "publisher": "Clarín",
+      "publisherDomain": "clarin.com",
+      "publishedAt": "2026-10-26T13:27:39Z",
+      "seenAt": "2026-10-26T14:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-e9ff5dee9733b8",
+      "title": "Parlamentares europeus projetam parceria com Brasil de Lula",
+      "titleEnglish": "European parliamentarians envisage a partnership with Lula's Brazil",
+      "url": "https://www.dw.com/pt-br/p%C3%B3s-elei%C3%A7%C3%A3o-parlamentares-europeus-projetam-redobrar-parceria-com-brasil-de-lula/a-79769963",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "pt"
+    },
+    {
+      "id": "n-652d100df6a1ea",
+      "title": "Juan Neira: Sánchez, tras la huella de Lula | El Comercio: Diario de Asturias",
+      "titleEnglish": "Juan Neira: Sánchez follows in Lula's footsteps | El Comercio: Asturias Daily",
+      "url": "https://www.elcomercio.es/opinion/juan-neira-sanchez-tras-huella-lula-20261027235854-nt.html",
+      "publisher": "El Comercio: Diario de Asturias",
+      "publisherDomain": "elcomercio.es",
+      "publishedAt": "2026-10-27T00:00:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-abc2098826c37b",
+      "title": "Brasil: cómo ha conseguido Lula remontar a Bolsonaro",
+      "titleEnglish": "Brazil: how Lula managed to come from behind against Bolsonaro",
+      "url": "https://www.elmundo.es/podcasts/el-mundo-al-dia/2026/10/27/6adf9f6be4d4d8b0208b45b3.html",
+      "publisher": "El Mundo",
+      "publisherDomain": "elmundo.es",
+      "publishedAt": "2026-10-26T23:22:32Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-b951a7bd0e3070",
+      "title": "Τραμπ: «Στημένες» οι προεδρικές εκλογές στη Βραζιλία",
+      "titleEnglish": "Trump: Brazil's presidential election was 'rigged'",
+      "url": "https://www.efsyn.gr/kosmos/1497256/tramp-stimenes-oi-proedrikes-ekloges-sti-vrazilia/",
+      "publisher": "Η Εφημερίδα των Συντακτών",
+      "publisherDomain": "efsyn.gr",
+      "publishedAt": "2026-10-26T22:03:18Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-4809bba28128af",
+      "title": "Flávio diz que vai pedir cassação da chapa de Lula",
+      "titleEnglish": "Flávio says he will seek the disqualification of Lula's ticket",
+      "url": "https://www.dw.com/pt-br/fl%C3%A1vio-altera-rota-para-buscar-revers%C3%A3o-da-derrota/a-79770870",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "pt"
+    },
+    {
+      "id": "n-b1ea4aa5d8ea19",
+      "title": "Flavio Bolsonaro, 'la polizia mi ha tolto il passaporto' - Ultima ora - Ansa.it",
+      "titleEnglish": "Flávio Bolsonaro: ‘The police took my passport’ — Breaking news — ANSA",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/26/flavio-bolsonaro-la-polizia-mi-ha-tolto-il-passaporto_79d74835-a94c-4db4-afdc-d9eeb3b698a3.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-10-26T20:23:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-be1ac13bc02822",
+      "title": "Aseguran que Flávio Bolsonaro desistirá de pedir la anulación de la elección e irá por abuso de poder",
+      "titleEnglish": "Reports say Flávio Bolsonaro will abandon his bid to annul the election and pursue an abuse-of-power case instead",
+      "url": "https://www.minutouno.com/mundo/aseguran-que-flavio-bolsonaro-desistira-pedir-la-anulacion-la-eleccion-e-ira-abuso-poder-n6338156",
+      "publisher": "Minuto Uno",
+      "publisherDomain": "minutouno.com",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-5665f233efc5d0",
+      "title": "Israel Police brace for 'January 6' scenario at Knesset after election | The Jerusalem Post",
+      "titleEnglish": "Israel Police brace for 'January 6' scenario at Knesset after election | The Jerusalem Post",
+      "url": "https://www.jpost.com/israel-election-2026/article-912883",
+      "publisher": "The Jerusalem Post | JPost.com",
+      "publisherDomain": "jpost.com",
+      "publishedAt": "2026-10-26T11:32:00Z",
+      "seenAt": "2026-10-26T11:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-2b7c72f5dc577a",
+      "title": "Brazil’s real sinks after Lula’s re-election victory",
+      "titleEnglish": "Brazil’s real sinks after Lula’s re-election victory",
+      "url": "https://www.aljazeera.com/economy/2026/10/26/brazils-real-sinks-after-lulas-re-election-victory",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-acf785bd722d0f",
+      "title": "Brasilian valuutta ja osakekurssit romahtivat",
+      "titleEnglish": "Brazil's currency and share prices plunged",
+      "url": "https://yle.fi/a/74-20253424",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-10-26T14:18:10Z",
+      "seenAt": "2026-10-26T14:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-a80a97bdb09867",
+      "title": "Apuração de Votos em Tempo Real: Resultado das Eleições | R7",
+      "titleEnglish": "Real-time vote counting: election results | R7",
+      "url": "https://noticias.r7.com/eleicoes/2026/apuracao-completa/",
+      "publisher": "Noticias R7",
+      "publisherDomain": "noticias.r7.com",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-cdbd44d9b53f95",
+      "title": "Sifuna banks on 2027 ‘Electoral Miracles’ citing Serbia, Brazil political developments",
+      "titleEnglish": "Sifuna banks on 2027 ‘Electoral Miracles’ citing Serbia, Brazil political developments",
+      "url": "https://capitalfm.africa/sifuna-banks-on-2027-electoral-miracles-citing-serbia-brazil-political-developments/",
+      "publisher": "Capital FM",
+      "publisherDomain": "capitalfm.africa",
+      "publishedAt": "2026-10-26T11:52:00Z",
+      "seenAt": "2026-10-26T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Kenya",
+      "sourceCountryCode": "KE",
+      "sourceRegion": "Africa",
+      "sourceLat": 0.1,
+      "sourceLon": 38,
+      "language": "en"
+    },
+    {
+      "id": "n-1b21e8f0db517b",
+      "title": "Serbia, chi sono gli studenti che hanno sconfitto il nazionalista e filorusso Vucic: la svolta dopo 14 anni",
+      "titleEnglish": "Serbia: who are the students who defeated nationalist, pro-Russian Vucic? A turning point after 14 years",
+      "url": "https://www.ilmessaggero.it:443/mondo/serbia_chi_sono_movimento_studenti_vucic_battuto-9849370.html",
+      "publisher": "ilmessaggero.it",
+      "publisherDomain": "ilmessaggero.it",
+      "publishedAt": "2026-10-26T08:14:01Z",
+      "seenAt": "2026-10-26T08:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-7e33e4c9d21ae0",
+      "title": "El movimiento que ha vencido al régimen de Vucic en Serbia: jóvenes, sin líderes y sin experiencia política",
+      "titleEnglish": "The movement that defeated Vucic's regime in Serbia: young, leaderless and without political experience",
+      "url": "https://elpais.com/internacional/2026-10-26/el-movimiento-que-ha-vencido-al-regimen-de-vucic-en-serbia-jovenes-sin-lideres-y-sin-experiencia-politica.html",
+      "publisher": "El País",
+      "publisherDomain": "elpais.com",
+      "publishedAt": "2026-10-26T17:03:34Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-f458669ae70166",
+      "title": "Bulgaristan'da cumhurbaşkanı seçimlerinin ilk turunu mevcut Cumhurbaşkanı Yotova ilk sırada tamamladı",
+      "titleEnglish": "Incumbent President Yotova finishes first in the opening round of Bulgaria's presidential election",
+      "url": "https://www.aa.com.tr/tr/dunya/bulgaristanda-cumhurbaskani-secimlerinin-ilk-turunu-mevcut-cumhurbaskani-yotova-ilk-sirada-tamamladi/4101379",
+      "publisher": "Anadolu Ajansı",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-10-26T17:04:47Z",
+      "seenAt": "2026-10-26T14:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-b52afd816cbaf3",
+      "title": "All you need to know about US midterms 2026",
+      "titleEnglish": "All you need to know about US midterms 2026",
+      "url": "https://www.aljazeera.com/news/2026/10/26/us-midterm-elections-2026-in-maps-and-charts",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-52f977f0f085e6",
+      "title": "Ford says he 'can't wait' for U.S. midterms",
+      "titleEnglish": "Ford says he 'can't wait' for U.S. midterms",
+      "url": "https://www.cbc.ca/player/play/video/9.7396074",
+      "publisher": "CBC",
+      "publisherDomain": "cbc.ca",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
+    },
+    {
+      "id": "n-e11fe23e564d83",
+      "title": "Lula: \"Brasil no es el patio trasero de nadie\" - BBC News Mundo",
+      "titleEnglish": "Lula: 'Brazil is nobody's backyard' - BBC News Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmzxl3z3e74zo",
+      "publisher": "BBC News Mundo",
+      "publisherDomain": "bbc.com",
+      "publishedAt": "2026-10-26T04:31:25Z",
+      "seenAt": "2026-10-26T08:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "es"
+    },
+    {
+      "id": "n-ac98d4926ab5e8",
+      "title": "Anthropic’s S-1 risk factors include human extinction, the Pentagon, and Dario Amodei’s reputation | Fortune",
+      "titleEnglish": "Anthropic’s S-1 risk factors include human extinction, the Pentagon, and Dario Amodei’s reputation | Fortune",
+      "url": "https://fortune.com/2026/10/26/anthropic-s1-risk-factors-existential-risk-pentagon-dario-amodei/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-e99018cccd7290",
+      "title": "Anthropic上市文件近百頁談風險 從台積電供應到AI威脅人類生存 | 聯合新聞網",
+      "titleEnglish": "Anthropic's listing documents devote nearly 100 pages to risks, from TSMC supplies to AI threatening human survival | United Daily News",
+      "url": "https://udn.com/news/story/6811/9838726",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-10-26T23:10:11Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-889c7d032ebdc7",
+      "title": "美股收盤／Anthropic上市案點燃AI買氣 費半大漲2.8% AI疑慮仍在 | 聯合新聞網",
+      "titleEnglish": "US market close: Anthropic listing plans ignite AI buying, semiconductor index jumps 2.8%, but AI doubts remain | United Daily News",
+      "url": "https://udn.com/news/story/6811/9838717",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-10-26T22:52:43Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-47f12c7584c843",
+      "title": "人工智能交易规模惊人 城堡证券称到了“没有容错空间”的地步",
+      "titleEnglish": "The AI trade reaches a staggering scale; Citadel Securities says there is 'no room for error'",
+      "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-27/doc-iniwrkkx8839496.shtml",
+      "publisher": "finance.sina.com.cn",
+      "publisherDomain": "finance.sina.com.cn",
+      "publishedAt": "2026-10-26T23:26:51Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "und"
+    },
+    {
+      "id": "n-93e241e637012d",
+      "title": "Elizabeth Holmes insists she never lied. A deception expert says ‘You Can See Everything’ hinges on one tiny word | Fortune",
+      "titleEnglish": "Elizabeth Holmes insists she never lied. A deception expert says ‘You Can See Everything’ hinges on one tiny word | Fortune",
+      "url": "https://fortune.com/2026/10/26/elizabeth-holmes-you-can-see-everything-lying-expert-paltering-nathan-fielder/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-c938bf65a07b39",
+      "title": "Artful Dodger soundtrack composer asked to fix AI music",
+      "titleEnglish": "Artful Dodger soundtrack composer asked to fix AI music",
+      "url": "https://www.irrigator.com.au/story/9380423/artful-dodger-soundtrack-composer-asked-to-fix-ai-music/",
+      "publisher": "irrigator.com.au",
+      "publisherDomain": "irrigator.com.au",
+      "publishedAt": "2026-10-26T20:00:03Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-9ad4bfcfa485ce",
+      "title": "반도체 수출 호조에 3분기 GDP 1.0% 성장…GDI 49년 만에 최고",
+      "titleEnglish": "Strong semiconductor exports drive 1.0% GDP growth in the third quarter; GDI reaches a 49-year high",
+      "url": "https://www.newspim.com/news/view/20261027000018",
+      "publisher": "뉴스핌",
+      "publisherDomain": "newspim.com",
+      "publishedAt": "2026-10-26T23:00:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-ccf0ac5d589dac",
+      "title": "Why data centers use so much water",
+      "titleEnglish": "Why data centers use so much water",
+      "url": "https://www.wsls.com/news/local/2026/10/26/data-center-cooling-methods/",
+      "publisher": "WSLS",
+      "publisherDomain": "wsls.com",
+      "publishedAt": "2026-10-26T22:13:50Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-1d1654478454b0",
+      "title": "微軟推自願離職方案約6萬人符合資格 占員工總數1/4",
+      "titleEnglish": "Microsoft offers voluntary departures; about 60,000 employees are eligible, a quarter of its workforce",
+      "url": "https://news.tvbs.com.tw/world/4041712",
+      "publisher": "TVBS新聞網",
+      "publisherDomain": "news.tvbs.com.tw",
+      "publishedAt": "2026-10-26T20:14:47Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-5c2741f9f85c0b",
+      "title": "SolarEdge lays off another 900 employees",
+      "titleEnglish": "SolarEdge lays off another 900 employees",
+      "url": "https://en.globes.co.il/en/article-solaredge-lays-off-another-900-employees-1001560826",
+      "publisher": "en.globes.co.il",
+      "publisherDomain": "en.globes.co.il",
+      "publishedAt": "2026-10-26T13:36:00Z",
+      "seenAt": "2026-10-26T14:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-eaef88ff7a5007",
+      "title": "6 in 10 Dutch people believe AI is becoming part of society too quickly",
+      "titleEnglish": "6 in 10 Dutch people believe AI is becoming part of society too quickly",
+      "url": "https://nltimes.nl/2026/10/26/6-10-dutch-people-believe-ai-becoming-part-society-quickly",
+      "publisher": "NL Times",
+      "publisherDomain": "nltimes.nl",
+      "publishedAt": "2026-10-26T20:10:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "en"
+    },
+    {
+      "id": "n-3e07fa5031f868",
+      "title": "Big tech is destroying democracy and political cowards are letting it happen",
+      "titleEnglish": "Big tech is destroying democracy and political cowards are letting it happen",
+      "url": "https://www.westernadvocate.com.au/story/9379545/crispin-hull-tobacco-arguments-wont-work-with-social-media-control/",
+      "publisher": "westernadvocate.com.au",
+      "publisherDomain": "westernadvocate.com.au",
+      "publishedAt": "2026-10-26T18:30:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-617c9d2fc30969",
+      "title": "Intercalares. Candidatos nas eleições querem manipular os chatbots de IA para serem recomendados aos eleitores",
+      "titleEnglish": "Midterms: election candidates want to manipulate AI chatbots into recommending them to voters",
+      "url": "https://observador.pt/2026/10/26/intercalares-candidatos-nas-eleicoes-querem-manipular-os-chatbots-de-ia-para-serem-recomendados-aos-eleitores/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-df3978dd8dbbe7",
+      "title": "12 моделям ИИ задали вопрос о людях: почти все сошлись на одной неприятной правде",
+      "titleEnglish": "Twelve AI models were asked a question about humans: almost all agreed on one uncomfortable truth",
+      "url": "https://www.unian.net/techno/neiroseti/ii-raskryl-chto-dumaet-o-lyudyah-12-neyrosetey-soshlis-na-nepriyatnoy-pravde-13540650.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-0593b3293f5740",
+      "title": "طهران تختتم اجتماعًا أمنيًا رفيعًا بمشاركة إيران والسعودية وتركيا وباك | مصراوي",
+      "titleEnglish": "Tehran concludes a high-level security meeting with Iran, Saudi Arabia, Turkey and Pak… | Masrawy",
+      "url": "https://www.masrawy.com/news/news_publicaffairs/details/2026/10/26/3069053/%D8%A7%D9%86%D8%AA%D9%87%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D8%A7%D9%84%D8%A3%D9%85%D9%86%D9%8A-%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B9%D9%8A-%D9%81%D9%8A-%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D8%A8%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%88%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%88%D8%AA%D8%B1%D9%83%D9%8A%D8%A7",
+      "publisher": "مصراوي.كوم",
+      "publisherDomain": "masrawy.com",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-ef752f02115112",
+      "title": "伊沙土巴四国同意磋商加强地区和平与安全领域合作",
+      "titleEnglish": "Iran, Saudi Arabia, Turkey and Pakistan agree to discuss strengthening cooperation on regional peace and security",
+      "url": "https://www.yicai.com/news/103410366.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-f76b5a09a166a9",
+      "title": "رئيس إيران: مُستعدون لتعميق التعاون الإقليمي وتسوية الخلافات | مصراوي",
+      "titleEnglish": "Iran's president: We are ready to deepen regional cooperation and resolve differences | Masrawy",
+      "url": "https://www.masrawy.com/news/news_publicaffairs/details/2026/10/26/3069066/%D8%A8%D8%B2%D8%B4%D9%83%D9%8A%D8%A7%D9%86-%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%84%D8%AA%D8%B3%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D8%A7%D9%81%D8%A7%D8%AA-%D9%88%D8%AA%D8%B9%D9%85%D9%8A%D9%82-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%B9-%D8%AF%D9%88%D9%84-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-",
+      "publisher": "مصراوي.كوم",
+      "publisherDomain": "masrawy.com",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-670e507b17cd14",
+      "title": "BREAKING NEWS: Iran Siap Gabung Pakta Makkah",
+      "titleEnglish": "BREAKING NEWS: Iran ready to join the Mecca Pact",
+      "url": "https://news.republika.co.id/berita/tnje52393/breaking-news-iran-siap-gabung-pakta-makkah",
+      "publisher": "Republika Online",
+      "publisherDomain": "news.republika.co.id",
+      "publishedAt": "2026-10-26T22:51:02Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-129e6d4d35a7ed",
+      "title": "中東の緊張激化、回避模索 イラン、サウジ高官ら会談",
+      "titleEnglish": "Seeking to avert escalating tensions in the Middle East: senior Iranian and Saudi officials hold talks",
+      "url": "https://www.47news.jp/15142954.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-7258d67477f761",
+      "title": "إيران.. دول حلف مكة وطهران تتفق على مواصلة المحادثات وترمب يبحث خياراته",
+      "titleEnglish": "Iran: Mecca Pact countries and Tehran agree to continue talks as Trump weighs his options",
+      "url": "https://www.aljazeera.net/news/liveblog/2026/10/26/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%AA%D8%B1%D9%85%D8%A8-%D9%8A%D8%B3%D8%AA%D8%A8%D8%B9%D8%AF-%D9%85%D9%87%D8%A7%D8%AC%D9%85%D8%A9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86?update=9989152",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-45e75c705fc4d2",
+      "title": "واشنطن تُكمل استعداداتها لضربة عسكرية واسعة ضد إيران",
+      "titleEnglish": "Washington completes preparations for a large-scale military strike on Iran",
+      "url": "https://almadapaper.net/458465/",
+      "publisher": "جريدة المدى",
+      "publisherDomain": "almadapaper.net",
+      "publishedAt": "2026-10-26T15:59:54Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Iraq",
+      "sourceCountryCode": "IQ",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33,
+      "sourceLon": 44,
+      "language": "ar"
+    },
+    {
+      "id": "n-0eb6b94c4fc316",
+      "title": "突发，多国联军发动空袭；霍尔木兹海峡，大消息；美军已准备好再次大规模打击伊朗；美股收涨，特斯拉涨超5%，国际油价下挫丨每经早参",
+      "titleEnglish": "Breaking: multinational coalition launches air strikes; major news from the Strait of Hormuz; US military ready for another large-scale strike on Iran; US stocks close higher, Tesla gains over 5%, international oil prices fall | National Business Daily morning briefing",
+      "url": "https://www.nbd.com.cn/articles/2026-10-27/4619639.html",
+      "publisher": "nbd.com.cn",
+      "publisherDomain": "nbd.com.cn",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-d022bd2dfb3381",
+      "title": "Israel defense minister denies report of rift between PM, army chief on Iran",
+      "titleEnglish": "Israel defense minister denies report of rift between PM, army chief on Iran",
+      "url": "https://www.arabnews.com/middle-east/israel-defense-minister-denies-report-of-rift-between-pm-army-chief-on-iran-3008320",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-10-26T07:55:12Z",
+      "seenAt": "2026-10-26T08:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-b47ba217ad028a",
+      "title": "إلغاء \" 86% \"من الرحلات.. الحوثيون يُعطّلون الملاحة الجوية في مطار الرياض",
+      "titleEnglish": "'86%' of flights cancelled: Houthis disrupt air traffic at Riyadh Airport",
+      "url": "https://almadapaper.net/458475/",
+      "publisher": "جريدة المدى",
+      "publisherDomain": "almadapaper.net",
+      "publishedAt": "2026-10-26T17:29:05Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Iraq",
+      "sourceCountryCode": "IQ",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33,
+      "sourceLon": 44,
+      "language": "ar"
+    },
+    {
+      "id": "n-cf72866569016c",
+      "title": "How Houthi attacks have grounded flights across Saudi Arabia",
+      "titleEnglish": "How Houthi attacks have grounded flights across Saudi Arabia",
+      "url": "https://www.businessday.co.za/world/2026-10-26-how-houthi-attacks-have-grounded-flights-across-saudi-arabia/",
+      "publisher": "Business Day",
+      "publisherDomain": "businessday.co.za",
+      "publishedAt": "2026-10-26T12:02:00Z",
+      "seenAt": "2026-10-26T12:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Africa",
+      "sourceCountryCode": "ZA",
+      "sourceRegion": "Africa",
+      "sourceLat": -30,
+      "sourceLon": 25,
+      "language": "en"
+    },
+    {
+      "id": "n-282330d01489d9",
+      "title": "Saudi-led coalition says intercepted drones, ballistic missile",
+      "titleEnglish": "Saudi-led coalition says intercepted drones, ballistic missile",
+      "url": "https://english.news.cn/20261027/10821104ded541babf08aeaf7a019fbe/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-ab9aa370f6660f",
+      "title": "Jordan launches airstrikes on S. Syria, says hit militants behind deadly church attack",
+      "titleEnglish": "Jordan launches airstrikes on S. Syria, says hit militants behind deadly church attack",
+      "url": "https://english.news.cn/20261027/94d8e6a9763a4d3ca12ff45f26767129/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-3812591acdd76f",
+      "title": "Jordan says its military struck 'militant hideouts' in Syria after deadly church attack",
+      "titleEnglish": "Jordan says its military struck 'militant hideouts' in Syria after deadly church attack",
+      "url": "https://www.dw.com/en/jordan-says-its-military-struck-militant-hideouts-in-syria-after-deadly-church-attack/a-79760441",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "en"
+    },
+    {
+      "id": "n-948106e8265e49",
+      "title": "Η Ιορδανία εξαπέλυσε αεροπορικές επιθέσεις στη νότια Συρία - Αφορμή η επίθεση στην ελληνορθόδοξη εκκλησία",
+      "titleEnglish": "Jordan launches air strikes in southern Syria, prompted by the attack on a Greek Orthodox church",
+      "url": "https://www.efsyn.gr/kosmos/1497247/i-iordania-exapelyse-aeroporikes-epitheseis-sti-notia-syria-aformi-i-epithesi-stin-ellinorthodoxi-ekklisia/",
+      "publisher": "Η Εφημερίδα των Συντακτών",
+      "publisherDomain": "efsyn.gr",
+      "publishedAt": "2026-10-26T21:20:32Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-1868aaa2d14c92",
+      "title": "Jordan strikes ‘terrorist hideouts’ in southern Syria after deadly church attack",
+      "titleEnglish": "Jordan strikes ‘terrorist hideouts’ in southern Syria after deadly church attack",
+      "url": "https://www.arabnews.com/middle-east/jordan-strikes-terrorist-hideouts-in-southern-syria-after-deadly-church-attack-3008415",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-10-26T20:28:09Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-c243bf8a099fd1",
+      "title": "Ethiopia attacks: More than 60 Orthodox Christians killed in Oromia",
+      "titleEnglish": "Ethiopia attacks: More than 60 Orthodox Christians killed in Oromia",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g175dgdx2o",
+      "publisher": "BBC News",
+      "publisherDomain": "bbc.co.uk",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-0dd57c57ed3745",
+      "title": "صحيفة عمون : لماذا تجنبت الاجهزة الامنية الإعلان عن مدى ارتباط الإرهابيين بتنظيمات؟",
+      "titleEnglish": "Ammon News: Why did security agencies avoid announcing the extent of the terrorists' links to organisations?",
+      "url": "https://www.ammonnews.net/article/1039987",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-bfa9902420bd72",
+      "title": "صحيفة عمون : متحدثون في العقبة: الاردن وطن المحبة عصيٌ على الإرهاب",
+      "titleEnglish": "Ammon News: Speakers in Aqaba say Jordan is a homeland of love that will withstand terrorism",
+      "url": "https://www.ammonnews.net/article/1039982",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-7744bb457b2013",
+      "title": "Une première en plus d'un demi siècle : l'Algérie autorise l'envoi de troupes militaires à l'étranger",
+      "titleEnglish": "A first in more than half a century: Algeria authorises sending military troops abroad",
+      "url": "https://www.radiofrance.fr/franceinfo/podcasts/l-histoire-du-jour/l-histoire-du-jour-du-lundi-26-octobre-2026-4997141",
+      "publisher": "franceinfo",
+      "publisherDomain": "radiofrance.fr",
+      "publishedAt": "2026-10-26T05:35:30Z",
+      "seenAt": "2026-10-26T14:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-50ba977203a058",
+      "title": "Algérie - Niger : un premier déploiement militaire algérien à l'étranger suscite débats et interrogations",
+      "titleEnglish": "Algeria–Niger: Algeria's first military deployment abroad sparks debate and questions",
+      "url": "https://www.dw.com/fr/lalg%C3%A9rie-autorise-le-d%C3%A9ploiement-de-ses-troupes-au-niger/a-79770158",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "fr"
+    },
+    {
+      "id": "n-8fec289497b875",
+      "title": "الجزائر تُقرر إرسال وحدات من الجيش إلى النيجر | مصراوي",
+      "titleEnglish": "Algeria decides to send army units to Niger | Masrawy",
+      "url": "https://www.masrawy.com/news/news_publicaffairs/details/2026/10/26/3069082/%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D8%AA-%D9%82%D8%B1%D8%B1-%D8%A5%D8%B1%D8%B3%D8%A7%D9%84-%D9%88%D8%AD%D8%AF%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D9%84%D8%AD-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9",
+      "publisher": "مصراوي.كوم",
+      "publisherDomain": "masrawy.com",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-f9c5e5bd81f31d",
+      "title": "الكرملين: الرئيس بوتين يلتقي غدا أمير قطر في موسكو - اليوم السابع",
+      "titleEnglish": "Kremlin: President Putin will meet Qatar's emir in Moscow tomorrow - Youm7",
+      "url": "https://www.youm7.com/story/2026/10/26/%D8%A7%D9%84%D9%83%D8%B1%D9%85%D9%84%D9%8A%D9%86-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A8%D9%88%D8%AA%D9%8A%D9%86-%D9%8A%D9%84%D8%AA%D9%82%D9%8A-%D8%BA%D8%AF%D8%A7-%D8%A3%D9%85%D9%8A%D8%B1-%D9%82%D8%B7%D8%B1-%D9%81%D9%8A-%D9%85%D9%88%D8%B3%D9%83%D9%88/7594812",
+      "publisher": "اليوم السابع",
+      "publisherDomain": "youm7.com",
+      "publishedAt": "2026-10-26T23:00:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-158de015514014",
+      "title": "باكستان والولايات المتحدة تتفقان على تعزيز التعاون في قطاع الطاقة - اليوم السابع",
+      "titleEnglish": "Pakistan and the United States agree to strengthen cooperation in the energy sector — Youm7",
+      "url": "https://www.youm7.com/story/2026/10/26/%D8%A8%D8%A7%D9%83%D8%B3%D8%AA%D8%A7%D9%86-%D9%88%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%AA%D8%AA%D9%81%D9%82%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9/7594904",
+      "publisher": "اليوم السابع",
+      "publisherDomain": "youm7.com",
+      "publishedAt": "2026-10-26T23:00:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-665a97067fa313",
+      "title": "Mass outages in Sudan after RSF drones hit five power stations",
+      "titleEnglish": "Mass outages in Sudan after RSF drones hit five power stations",
+      "url": "https://www.thehindu.com/news/international/mass-outages-in-sudan-after-rsf-drones-hit-five-power-stations/article71628515.ece",
+      "publisher": "The Hindu",
+      "publisherDomain": "thehindu.com",
+      "publishedAt": "2026-10-26T17:15:45Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-8bb1eac90f2778",
+      "title": "Russian attacks on Ukraine’s energy infrastructure a war crime: UN",
+      "titleEnglish": "Russian attacks on Ukraine’s energy infrastructure a war crime: UN",
+      "url": "https://www.aljazeera.com/news/2026/10/26/russian-attacks-on-ukraines-energy-infrastructure-a-war-crime-un",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-b945ca18cb1ee6",
+      "title": "Армия РФ нанесла ракетный удар по Харькову: погибли два человека, есть раненые",
+      "titleEnglish": "Russian army launches a missile strike on Kharkiv: two people killed and others injured",
+      "url": "https://www.unian.net/war/harkov-rossiyane-atakovali-gorod-dva-cheloveka-pogiblo-est-postradavshie-novosti-harkova-13540743.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-9ca9f259f6e62c",
+      "title": "Kiev, missili russi vicino a stazione metro della capitale - Ultima ora - Ansa.it",
+      "titleEnglish": "Kyiv: Russian missiles near a metro station in the capital | Breaking news | ANSA",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/26/kiev-missili-russi-vicino-a-stazione-metro-della-capitale_e1710e4e-d516-4f68-b706-f3faa42ea197.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-10-26T20:22:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-0614e15e4dc334",
+      "title": "The U.S. put surveillance drones in the Great Lakes, and this border town mayor isn't happy | CBC Radio",
+      "titleEnglish": "The U.S. put surveillance drones in the Great Lakes, and this border town mayor isn't happy | CBC Radio",
+      "url": "https://www.cbc.ca/radio/asithappens/sarnia-mayor-great-lakes-drones-9.7396779",
+      "publisher": "CBC",
+      "publisherDomain": "cbc.ca",
+      "publishedAt": "2026-10-26T22:32:00Z",
+      "seenAt": "2026-10-26T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
+    },
+    {
+      "id": "n-1184dd4ceb13ad",
+      "title": "Por aire y tierra refuerzan vigilancia en brechas y carreteras de Coahuila",
+      "titleEnglish": "Air and ground surveillance reinforced on tracks and roads in Coahuila",
+      "url": "https://vanguardia.com.mx/coahuila/por-aire-y-tierra-refuerzan-vigilancia-en-brechas-y-carreteras-de-coahuila-AM24397142",
+      "publisher": "Vanguardia",
+      "publisherDomain": "vanguardia.com.mx",
+      "publishedAt": "2026-10-26T22:02:48Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Mexico",
+      "sourceCountryCode": "MX",
+      "sourceRegion": "Latin America",
+      "sourceLat": 23,
+      "sourceLon": -102,
+      "language": "es"
+    },
+    {
+      "id": "n-e5378d7dc03c66",
+      "title": "A wounded Ukrainian soldier waited 2 days to be rescued. Then a drone flew him to safety",
+      "titleEnglish": "A wounded Ukrainian soldier waited 2 days to be rescued. Then a drone flew him to safety",
+      "url": "https://www.wsls.com/tech/2026/10/26/a-wounded-ukrainian-soldier-waited-2-days-to-be-rescued-then-a-drone-flew-him-to-safety/",
+      "publisher": "WSLS",
+      "publisherDomain": "wsls.com",
+      "publishedAt": "2026-10-26T22:05:58Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-ae8772d8b57091",
+      "title": "Elbit wins $200m Asian-Pacific intelligence gathering deal",
+      "titleEnglish": "Elbit wins $200m Asian-Pacific intelligence gathering deal",
+      "url": "https://en.globes.co.il/en/article-elbit-wins-200m-asian-pacific-intelligence-gathering-deal-1001560812",
+      "publisher": "en.globes.co.il",
+      "publisherDomain": "en.globes.co.il",
+      "publishedAt": "2026-10-26T12:38:00Z",
+      "seenAt": "2026-10-26T14:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-f0a8a0117c41b6",
+      "title": "ASELSAN'ın KGK-84 Kanatlı Güdüm Kiti ilk atış testini başarıyla tamamladı",
+      "titleEnglish": "ASELSAN's KGK-84 wing-assisted guidance kit successfully completes its first firing test",
+      "url": "https://www.aa.com.tr/tr/savunma-sanayisi/aselsanin-kgk-84-kanatli-gudum-kiti-ilk-atis-testini-basariyla-tamamladi/4101364",
+      "publisher": "Anadolu Ajansı",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-10-26T17:04:22Z",
+      "seenAt": "2026-10-26T14:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-5e9ae9e7261979",
+      "title": "Türk savunma sanayisi, AFRIDEX 2026'da vitrine çıkıyor",
+      "titleEnglish": "Turkish defence industry goes on show at AFRIDEX 2026",
+      "url": "https://www.aa.com.tr/tr/bilim-teknoloji/turk-savunma-sanayisi-afridex-2026da-vitrine-cikiyor/4101372",
+      "publisher": "Anadolu Ajansı",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-10-26T16:57:52Z",
+      "seenAt": "2026-10-26T14:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-b6adaef4fd435d",
+      "title": "بتمويل إيراني ضخم.. حزب الله يستعد لاستئناف القتال وإنتاج المسيّرات خلال ثلاثة أشهر",
+      "titleEnglish": "With massive Iranian funding, Hezbollah prepares to resume fighting and produce drones within three months",
+      "url": "https://almadapaper.net/458471/",
+      "publisher": "جريدة المدى",
+      "publisherDomain": "almadapaper.net",
+      "publishedAt": "2026-10-26T17:00:27Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Iraq",
+      "sourceCountryCode": "IQ",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33,
+      "sourceLon": 44,
+      "language": "ar"
+    },
+    {
+      "id": "n-c64ae604751d31",
+      "title": "РФ спустила на воду ракетный корабль \"Грозный\", строительство которого длилось более пяти лет",
+      "titleEnglish": "Russia launches the missile ship Grozny, which took more than five years to build",
+      "url": "https://www.unian.net/weapons/korvet-groznyy-rossiya-spustila-na-vodu-korabl-kotoryy-stroila-bolee-pyati-let-13540683.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-7ceea64fcf49f9",
+      "title": "First AUKUS nuclear sub to come to Australia revealed",
+      "titleEnglish": "First AUKUS nuclear sub to come to Australia revealed",
+      "url": "https://www.westernadvocate.com.au/story/9380487/first-aukus-nuclear-sub-to-come-to-australia-revealed/",
+      "publisher": "westernadvocate.com.au",
+      "publisherDomain": "westernadvocate.com.au",
+      "publishedAt": "2026-10-26T22:33:20Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-febdd97dfd563c",
+      "title": "Минобороны Украины заявило о желании получить от Запада 10% запаса ракет для ПВО",
+      "titleEnglish": "Ukraine's defence ministry says it wants 10% of the West's stock of air-defence missiles",
+      "url": "https://iz.ru/2191093/2026-10-27/minoborony-ukrainy-zaiavilo-o-zhelanii-poluchit-ot-zapada-10-zapasa-raket-dlia-pvo",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-10-26T22:59:39Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-e64ea54b7fe95d",
+      "title": "Harry Kane vence a Bola de Ouro 2026",
+      "titleEnglish": "Harry Kane wins the 2026 Ballon d'Or",
+      "url": "https://sapo.pt/artigo/harry-kane-vence-a-bola-de-ouro-2026-6adfdb9f6c1c029df57f2be1",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-10-26T22:51:05Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-75e835f0d7b65c",
+      "title": "Harry Kane se corona con el Balón de Oro: el compañero de Luis Díaz domina el mundo del fútbol",
+      "titleEnglish": "Harry Kane crowned with the Ballon d'Or: Luis Díaz's teammate dominates world football",
+      "url": "https://www.lapatria.com/deportes/harry-kane-se-corona-con-el-balon-de-oro-el-companero-de-luis-diaz-domina-el-mundo-del",
+      "publisher": "La Patria",
+      "publisherDomain": "lapatria.com",
+      "publishedAt": "2026-10-26T22:52:14Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-888a1b6eb61a53",
+      "title": "«Золотой мяч» выиграл Кейн. Сафонов остался без премии лучшему вратарю",
+      "titleEnglish": "Kane wins the Ballon d'Or. Safonov misses out on the best goalkeeper award",
+      "url": "https://lenta.ru/news/2026/10/27/long-zolotoy-myach-vyigral-safonov-ostalsya-bez-premii-luchshemu-vrataryu/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-4e6dbfabe8e8a5",
+      "title": "Ballon dor kim kazandı 2026? Ballon d'Or ödülü kim aldı, Altın top kimin oldu?",
+      "titleEnglish": "Who won the 2026 Ballon d'Or? Who received the Ballon d'Or award, and who took the Golden Ball?",
+      "url": "https://www.haberturk.com/bilgi/foto/ballon-dor-kim-kazandi-2026-ballon-d-or-odulu-kim-aldi-altin-top-kimin-oldu-3922712",
+      "publisher": "Habertürk",
+      "publisherDomain": "haberturk.com",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-09e663da5f6130",
+      "title": "Suivez la cérémonie du Ballon d'Or 2026",
+      "titleEnglish": "Follow the 2026 Ballon d'Or ceremony",
+      "url": "https://www.dakaractu.com/Suivez-la-ceremonie-du-Ballon-d-Or-2026_a277487.html",
+      "publisher": "DAKARACTU.COM",
+      "publisherDomain": "dakaractu.com",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Senegal",
+      "sourceCountryCode": "SN",
+      "sourceRegion": "Africa",
+      "sourceLat": 14,
+      "sourceLon": -14,
+      "language": "fr"
+    },
+    {
+      "id": "n-43bffff82a8b0b",
+      "title": "صحيفة عمون : كيف يُحسم التعادل بين مرشحي الكرة الذهبية؟",
+      "titleEnglish": "Ammon News: How are ties between Ballon d'Or candidates decided?",
+      "url": "https://www.ammonnews.net/article/1039996",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-d7572a4578ece6",
+      "title": "Ballon d'Or 2026: Five players shockingly omitted from award list",
+      "titleEnglish": "Ballon d'Or 2026: Five players shockingly omitted from award list",
+      "url": "https://dailypost.ng/2026/10/26/ballon-dor-2026-five-players-shockingly-omitted-from-award-list/",
+      "publisher": "Daily Post Nigeria",
+      "publisherDomain": "dailypost.ng",
+      "publishedAt": "2026-10-26T16:49:28Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-70ae186952eb01",
+      "title": "Сафонов уступил Симону в борьбе за приз лучшему вратарю года",
+      "titleEnglish": "Safonov loses out to Simón in the contest for goalkeeper of the year",
+      "url": "https://iz.ru/2191100/2026-10-27/safonov-ustupil-simonu-v-borbe-za-priz-luchshemu-vratariu-goda",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-10-26T22:46:18Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-64be1c75ab25e2",
+      "title": "Alexia Putellas faz história com terceira Bola de Ouro",
+      "titleEnglish": "Alexia Putellas makes history with her third Ballon d'Or",
+      "url": "https://sapo.pt/artigo/alexia-putellas-faz-historia-com-terceira-bola-de-ouro-6adfd9a7b89f6b4d323e06fd",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-10-26T22:44:26Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-b91741fab816e8",
+      "title": "Alexia vuelve al trono del fútbol mundial | El Comercio: Diario de Asturias",
+      "titleEnglish": "Alexia returns to the throne of world football | El Comercio: Asturias Daily",
+      "url": "https://www.elcomercio.es/deportes/futbol/balon-oro-2026-alexia-vuelve-trono-futbol-20261026233814-ntrc.html",
+      "publisher": "El Comercio: Diario de Asturias",
+      "publisherDomain": "elcomercio.es",
+      "publishedAt": "2026-10-26T22:42:14Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-b7c99f88e8e356",
+      "title": "La reina del fútbol femenino: Alexia conquista su tercer Balón de Oro",
+      "titleEnglish": "The queen of women's football: Alexia wins her third Ballon d'Or",
+      "url": "https://www.lapatria.com/deportes/la-reina-del-futbol-femenino-alexia-conquista-su-tercer-balon-de-oro",
+      "publisher": "La Patria",
+      "publisherDomain": "lapatria.com",
+      "publishedAt": "2026-10-26T22:44:31Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-890c5e91880eec",
+      "title": "周六萬聖節…命理師罕見呼籲節制 示警「1物」不要扮 | 聯合新聞網",
+      "titleEnglish": "Halloween falls on Saturday… fortune teller makes a rare call for restraint, warning against dressing as 'one thing' | United Daily News",
+      "url": "https://udn.com/news/story/7268/9838702",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-10-26T23:00:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-7ae1254ece3089",
+      "title": "Is Halloween too scary for kids?",
+      "titleEnglish": "Is Halloween too scary for kids?",
+      "url": "https://www.rnz.co.nz/life/relationships/family/is-halloween-too-scary-for-kids",
+      "publisher": "RNZ",
+      "publisherDomain": "rnz.co.nz",
+      "publishedAt": "2026-10-26T22:32:00Z",
+      "seenAt": "2026-10-26T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-eb9919f9a94e29",
+      "title": "From basic to bloody and store-bought to snatched, how to elevate your Halloween makeup and wig",
+      "titleEnglish": "From basic to bloody and store-bought to snatched, how to elevate your Halloween makeup and wig",
+      "url": "https://www.click2houston.com/houston-life/2026/10/26/from-basic-to-bloody-and-store-bought-to-snatched-how-to-elevate-your-halloween-makeup-and-wig/",
+      "publisher": "KPRC",
+      "publisherDomain": "click2houston.com",
+      "publishedAt": "2026-10-26T21:09:57Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-3dd3f9909a71e5",
+      "title": "Americans are paying up to $2,000 to have pumpkins arranged on their porches—and one Texas side hustle turned it into a six-figure franchise | Fortune",
+      "titleEnglish": "Americans are paying up to $2,000 to have pumpkins arranged on their porches—and one Texas side hustle turned it into a six-figure franchise | Fortune",
+      "url": "https://fortune.com/2026/10/26/americans-are-paying-up-to-2000-to-have-pumpkins-arranged-on-their-porches/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-5c76eac5677327",
+      "title": "Walter Koenig of 'Star Trek' fame dies at 90",
+      "titleEnglish": "Walter Koenig of 'Star Trek' fame dies at 90",
+      "url": "https://www.manilatimes.net/2026/10/27/entertainment-lifestyle/show-times/walter-koenig-of-star-trek-fame-dies-at-90/2454424",
+      "publisher": "The Manila Times",
+      "publisherDomain": "manilatimes.net",
+      "publishedAt": "2026-10-26T20:20:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Philippines",
+      "sourceCountryCode": "PH",
+      "sourceRegion": "Asia",
+      "sourceLat": 12,
+      "sourceLon": 122,
+      "language": "en"
+    },
+    {
+      "id": "n-b70618904a7f0b",
+      "title": "Bekannt aus «Raumschiff Enterprise»: Walter Koenig gestorben - WELT",
+      "titleEnglish": "Known for Star Trek: Walter Koenig has died - WELT",
+      "url": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/boulevard_nt/article6adf8b727846c6ec50e7089b/bekannt-aus-raumschiff-enterprise-walter-koenig-gestorben.html",
+      "publisher": "DIE WELT",
+      "publisherDomain": "welt.de",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-1e03a5aa502f5a",
+      "title": "Murió Eric Bauza a los 46 años, la voz de Bugs Bunny y el Pato Lucas: qué le pasó",
+      "titleEnglish": "Eric Bauza, the voice of Bugs Bunny and Daffy Duck, dies at 46: what happened",
+      "url": "https://www.cadena3.com/noticia/espectaculos/murio-eric-bauza-a-los-46-anos-la-voz-de-bugs-bunny-y-el-pato-lucas-que-le-paso_607142",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-10-26T14:32:00Z",
+      "seenAt": "2026-10-26T14:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-77c61a7c38a1b8",
+      "title": "Fortnite y One Piece unen fuerzas: esta es la fecha en que llegará la colaboración",
+      "titleEnglish": "Fortnite and One Piece join forces: this is when the collaboration arrives",
+      "url": "https://vanguardia.com.mx/noticias/fortnite-y-one-piece-unen-fuerzas-esta-es-la-fecha-en-que-llegara-la-colaboracion-CM24399128",
+      "publisher": "Vanguardia",
+      "publisherDomain": "vanguardia.com.mx",
+      "publishedAt": "2026-10-26T23:22:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Mexico",
+      "sourceCountryCode": "MX",
+      "sourceRegion": "Latin America",
+      "sourceLat": 23,
+      "sourceLon": -102,
+      "language": "es"
+    },
+    {
+      "id": "n-e3e0fbe804c186",
+      "title": "Cómo será la misa del papa en Córdoba: 150 músicos, 2.000 ministros de comunión y 400.000 hostias",
+      "titleEnglish": "What the pope's Mass in Córdoba will involve: 150 musicians, 2,000 communion ministers and 400,000 hosts",
+      "url": "https://www.cadena3.com/noticia/visita-del-papa-leon-xiv-a-argentina/como-sera-la-misa-del-papa-en-cordoba-150-musicos-2000-ministros-de-comunion-y-400000-hostias_607324",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-10-26T22:32:00Z",
+      "seenAt": "2026-10-26T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-f633ca5ae00a71",
+      "title": "Θεσσαλονίκη: Η μπάντα του Πολεμικού Ναυτικού συγκίνησε με τραγούδια του Γιώργου Μαζωνάκη στην Πλατεία Αριστοτέλους - BINTEO",
+      "titleEnglish": "Thessaloniki: Navy band moves the crowd with Giorgos Mazonakis songs in Aristotelous Square — VIDEO",
+      "url": "https://www.enikos.gr/society/thessaloniki-i-banta-tou-polemikou-naftikou-sygkinise-me-tragoudia-tou-giorgou-mazonaki-stin-plateia-aristotelous-binteo/2666603/",
+      "publisher": "ENIKOS",
+      "publisherDomain": "enikos.gr",
+      "publishedAt": "2026-10-26T20:04:30Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-607ab7f4776da4",
+      "title": "【10月27日付社説】合唱で県勢活躍/「王国」の健在ぶり示す快挙",
+      "titleEnglish": "Editorial, 27 October: The prefecture's choirs excel—a feat showing the 'kingdom' is still going strong",
+      "url": "https://www.47news.jp/15143272.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-a874435d658c63",
+      "title": "Chorale \"De chœur à cœur\" : chanter ensemble pour booster la santé mentale à la Maison de santé Les Serènes",
+      "titleEnglish": "'From Choir to Heart' choir: singing together to boost mental health at Les Serènes Health Centre",
+      "url": "https://www.ladepeche.fr/2026/10/26/chorale-de-choeur-a-coeur-chanter-ensemble-pour-booster-la-sante-mentale-a-la-maison-de-sante-les-serenes-13621079.php",
+      "publisher": "ladepeche.fr",
+      "publisherDomain": "ladepeche.fr",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-19db6e078a87cc",
+      "title": "Embalses a contrarreloj: quedan menos de 40 días para almacenar agua y evitar déficit de energía en 2027",
+      "titleEnglish": "Reservoirs race against the clock: fewer than 40 days remain to store water and avoid an energy shortfall in 2027",
+      "url": "https://www.elcolombiano.com/negocios/el-nino-colombia-agua-embalses-riesgo-deficit-energia-xm-IH42764480",
+      "publisher": "El Colombiano",
+      "publisherDomain": "elcolombiano.com",
+      "publishedAt": "2026-10-26T23:34:06Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-13dafbe01e7fe0",
+      "title": "He killed Korea’s president 47 years ago. A posthumous retrial may finally answer why.",
+      "titleEnglish": "He killed Korea’s president 47 years ago. A posthumous retrial may finally answer why.",
+      "url": "https://www.hani.co.kr/arti/english_edition/e_national/1284201.html",
+      "publisher": "Hankyoreh",
+      "publisherDomain": "hani.co.kr",
+      "publishedAt": "2026-10-26T08:32:00Z",
+      "seenAt": "2026-10-26T08:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "en"
+    },
+    {
+      "id": "n-eeda685e709d4c",
+      "title": "«Psicópata del Tambor» fue sobreseído por doble homicidio en Villa Alemana: Corte de Valparaíso revocó pena por crímenes de 1996 | Puranoticia.cl",
+      "titleEnglish": "'Drum Psychopath' has double-murder case in Villa Alemana dismissed: Valparaíso Court overturns sentence for 1996 crimes | Puranoticia.cl",
+      "url": "https://puranoticia.pnt.cl/region-valparaiso/psicopata-del-tambor-fue-sobreseido-por-doble-homicidio-en-villa-alemana",
+      "publisher": "puranoticia.pnt.cl",
+      "publisherDomain": "puranoticia.pnt.cl",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-f14f0c4dc9549c",
+      "title": "Impagnatiello, nella sentenza di oggi riconosciuta la premeditazione per il femminicidio di Giulia Tramontano. La pg di Milano: «Individuo orribile e bugiardo»",
+      "titleEnglish": "Impagnatiello: today's ruling finds premeditation in Giulia Tramontano's femicide. Milan's prosecutor-general: 'A horrible individual and a liar'",
+      "url": "https://milano.corriere.it/notizie/cronaca/26_ottobre_26/omicidio-di-giulia-tramontano-la-pg-di-milano-impagnatiello-individuo-orribile-e-bugiardo-voleva-uccidere-da-tempo-7906dd19-81b3-451f-bad6-5ec3ab7bbxlk.shtml",
+      "publisher": "Corriere della sera",
+      "publisherDomain": "milano.corriere.it",
+      "publishedAt": "2026-10-26T10:02:30Z",
+      "seenAt": "2026-10-26T14:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-da4c60eedfcec3",
+      "title": "IISER Pune removes Umar Khalid's book from library ‘to avoid unrest’",
+      "titleEnglish": "IISER Pune removes Umar Khalid's book from library ‘to avoid unrest’",
+      "url": "https://timesofindia.indiatimes.com/city/pune/iiser-pune-removes-umar-khalids-book-from-library-to-avoid-unrest/articleshow/135219320.cms",
+      "publisher": "The Times of India",
+      "publisherDomain": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-24684fd6e4aba4",
+      "title": "Indian opposition leader Rahul Gandhi acquitted in defamation case, TV channels report",
+      "titleEnglish": "Indian opposition leader Rahul Gandhi acquitted in defamation case, TV channels report",
+      "url": "https://bdnews24.com/neighbours/bzi4zxn2lg",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-10-26T08:45:53Z",
+      "seenAt": "2026-10-26T11:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-8200a2fcd64254",
+      "title": "The Colonel Said They Were Safe As London; Nine Men Died By Morning",
+      "titleEnglish": "The Colonel Said They Were Safe As London; Nine Men Died By Morning",
+      "url": "https://www.scoop.co.nz/stories/BU2610/S00245/the-colonel-said-they-were-safe-as-london-nine-men-died-by-morning.htm",
+      "publisher": "scoop.co.nz",
+      "publisherDomain": "scoop.co.nz",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-abfe4707f965f3",
+      "title": "اكتشاف منزل رومانى ومعبد محتمل فى مدينة فرنسية - اليوم السابع",
+      "titleEnglish": "Roman house and possible temple discovered in a French city | Youm7",
+      "url": "https://www.youm7.com/story/2026/10/26/%D8%A7%D9%83%D8%AA%D8%B4%D8%A7%D9%81-%D9%85%D9%86%D8%B2%D9%84-%D8%B1%D9%88%D9%85%D8%A7%D9%86%D9%89-%D9%88%D9%85%D8%B9%D8%A8%D8%AF-%D9%85%D8%AD%D8%AA%D9%85%D9%84-%D9%81%D9%89-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9/7593675",
+      "publisher": "اليوم السابع",
+      "publisherDomain": "youm7.com",
+      "publishedAt": "2026-10-26T20:30:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-02fbfe043f82ef",
+      "title": "市営住宅で外壁のコンクリートが落下、中学生の頭部に接触 北九州市：朝日新聞",
+      "titleEnglish": "Concrete falls from municipal housing's exterior wall and strikes a junior high school student's head in Kitakyushu | Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVBV44VWVBVTIPE020M.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-10-26T12:50:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-ab10318ed1a7d0",
+      "title": "Alain Arnosti fêté avec émotion après 39 ans, 6 mois et 2 semaines chez Sogexfo",
+      "titleEnglish": "An emotional celebration for Alain Arnosti after 39 years, 6 months and 2 weeks at Sogexfo",
+      "url": "https://www.ladepeche.fr/2026/10/26/alain-arnosti-fete-avec-emotion-apres-39-ans-6-mois-et-2-semaines-chez-sogexfo-13621142.php",
+      "publisher": "ladepeche.fr",
+      "publisherDomain": "ladepeche.fr",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-0dd4be36b204ac",
+      "title": "LewisGale Hospital Montgomery volunteer celebrates 55 years of service",
+      "titleEnglish": "LewisGale Hospital Montgomery volunteer celebrates 55 years of service",
+      "url": "https://www.wsls.com/news/local/2026/10/26/hospital-worker-celebrates-55-years/",
+      "publisher": "WSLS",
+      "publisherDomain": "wsls.com",
+      "publishedAt": "2026-10-26T22:23:42Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-72425aaaeaccdf",
+      "title": "30 Jahre Obdachlosenhilfe in Rostock",
+      "titleEnglish": "30 years of support for homeless people in Rostock",
+      "url": "https://www.ndr.de/fernsehen/sendungen/nordmagazin/30-jahre-obdachlosenhilfe-in-rostock,nordmagazin-15372.html",
+      "publisher": "ndr.de",
+      "publisherDomain": "ndr.de",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-076b1ab7d0c7c6",
+      "title": "Edinburgh's Christmas ice rink axed after 30 years",
+      "titleEnglish": "Edinburgh's Christmas ice rink axed after 30 years",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxjrneqvyo",
+      "publisher": "BBC News",
+      "publisherDomain": "bbc.co.uk",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-418ee3d9f0ae9c",
+      "title": "«In caso di Schnee»: la monzese Colmar veste la nazionale austriaca di sci e rilancia il suo slogan storico",
+      "titleEnglish": "'In case of snow': Monza's Colmar outfits Austria's national ski team and revives its historic slogan",
+      "url": "https://milano.corriere.it/notizie/cronaca/26_ottobre_26/in-caso-di-schnee-la-monzese-colmar-veste-la-nazionale-austriaca-di-sci-e-rilancia-il-suo-slogan-storico-9d033ab1-984f-42b2-b8a0-8520c14f9xlk.shtml",
+      "publisher": "Corriere della sera",
+      "publisherDomain": "milano.corriere.it",
+      "publishedAt": "2026-10-26T11:18:39Z",
+      "seenAt": "2026-10-26T14:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-b49a65433d9d3d",
+      "title": "120 år gammal byggnad blev nytt daghem i Vasa – Brändö daghem har slagit upp sina dörrar",
+      "titleEnglish": "A 120-year-old building becomes a new daycare centre in Vaasa—Brändö daycare opens its doors",
+      "url": "https://yle.fi/a/7-10107564",
+      "publisher": "Svenska Yle",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-10-26T14:01:11Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "sv"
+    },
+    {
+      "id": "n-fce0e055659435",
+      "title": "Francia se compromete a reformar su sistema de admisión universitaria tras protestas estudiantiles masivas",
+      "titleEnglish": "France pledges to reform its university admissions system after mass student protests",
+      "url": "https://www.cadena3.com/noticia/mundo/francia-se-compromete-a-reformar-su-sistema-de-admision-universitaria-tras-protestas-estudiantiles-masivas_607291",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-f81415babade1e",
+      "title": "Los acampados de Sol se blindan ante las miradas de los curiosos y dicen que se quedarán: \"La acampada sigue, no hay retirada\"",
+      "titleEnglish": "Sol protesters shield their camp from onlookers and say they will stay: 'The camp continues; there is no retreat'",
+      "url": "https://www.elmundo.es/madrid/2026/10/27/6adf9d1c21efa0027e8b4592.html",
+      "publisher": "El Mundo",
+      "publisherDomain": "elmundo.es",
+      "publishedAt": "2026-10-26T23:04:58Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-2d1e8cb95863d2",
+      "title": "Moedas diz estar solidário com manifestantes, mas não comenta intervenção policial",
+      "titleEnglish": "Moedas says he stands with protesters but declines to comment on police intervention",
+      "url": "https://sapo.pt/artigo/moedas-diz-estar-solidario-com-manifestantes-mas-nao-comenta-intervencao-policial-6adfdc6573157f9866d6e507",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-10-26T23:02:47Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-c2bec9894ff5c3",
+      "title": "Habitação. PCP recusa \"subterfúgios para limitar\" o direito de manifestação",
+      "titleEnglish": "Housing: PCP rejects 'subterfuges to limit' the right to protest",
+      "url": "https://observador.pt/2026/10/26/habitacao-pcp-recusa-subterfugios-para-limitar-o-direito-de-manifestacao/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-d15b3e759dc0ed",
+      "title": "16h. Ventura apela a fim do silêncio de Seguro sobre intervenção da polícia",
+      "titleEnglish": "4 pm: Ventura calls on Seguro to break his silence over police intervention",
+      "url": "https://observador.pt/programas/noticiario/as-noticias-das-16h-2399/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-985fbcdceb7cbb",
+      "title": "Tres pueblos de Antioquia decretan “guardar” a los menores como solución a la violencia",
+      "titleEnglish": "Three towns in Antioquia decree that minors be 'kept indoors' as a solution to violence",
+      "url": "https://www.elcolombiano.com/antioquia/municipios-antioquia-toque-de-queda-menores-que-pasa-NG42777381",
+      "publisher": "El Colombiano",
+      "publisherDomain": "elcolombiano.com",
+      "publishedAt": "2026-10-26T23:34:06Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-bfc4032311697a",
+      "title": "Secretário de Mobilidade Salvador desembarca na capital; estudantes protestam em frente à Prefeitura",
+      "titleEnglish": "Mobility Secretary Salvador arrives in the capital; students protest outside City Hall",
+      "url": "https://noticias.r7.com/bahia/secretario-de-salvador-evita-imprensa-apos-polemica-em-eleicoes-26102026/",
+      "publisher": "Noticias R7",
+      "publisherDomain": "noticias.r7.com",
+      "publishedAt": "2026-10-26T22:29:44Z",
+      "seenAt": "2026-10-26T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-50496e3decf34f",
+      "title": "SUTEP ratifica paro nacional de 24 horas para este 29 de octubre - Diario los Andes",
+      "titleEnglish": "SUTEP confirms a 24-hour national strike for 29 October — Diario Los Andes",
+      "url": "https://losandes.com.pe/sutep-ratifica-paro-nacional-de-24-horas-para-este-29-de-octubre/",
+      "publisher": "Diario los Andes",
+      "publisherDomain": "losandes.com.pe",
+      "publishedAt": "2026-10-26T21:23:25Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Peru",
+      "sourceCountryCode": "PE",
+      "sourceRegion": "Latin America",
+      "sourceLat": -10,
+      "sourceLon": -76,
+      "language": "es"
+    },
+    {
+      "id": "n-a2faafaf2043ac",
+      "title": "2027年国考资格审查结束，平均竞争比97:1",
+      "titleEnglish": "Eligibility checks for China's 2027 national civil service exam end; average competition reaches 97 applicants per place",
+      "url": "https://news.bjd.com.cn/2026/10/26/12007906.shtml",
+      "publisher": "京报网",
+      "publisherDomain": "news.bjd.com.cn",
+      "publishedAt": "2026-10-26T14:20:18Z",
+      "seenAt": "2026-10-26T14:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-7b9b19fb01279e",
+      "title": "In selective schools, parental pressure is driving students to the psychologist’s office",
+      "titleEnglish": "In selective schools, parental pressure is driving students to the psychologist’s office",
+      "url": "https://www.smh.com.au/national/nsw/in-selective-schools-parental-pressure-is-driving-students-to-the-psychologist-s-office-20261026-p6187c.html",
+      "publisher": "The Sydney Morning Herald",
+      "publisherDomain": "smh.com.au",
+      "publishedAt": "2026-10-26T08:30:00Z",
+      "seenAt": "2026-10-26T08:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-78c72d9fab3fe2",
+      "title": "Đừng để nhân tài bị giới hạn bởi những thước đo",
+      "titleEnglish": "Do not let talent be constrained by metrics",
+      "url": "https://dantri.com.vn/tam-diem/dung-de-nhan-tai-bi-gioi-han-boi-nhung-thuoc-do-20261026182015609.htm",
+      "publisher": "Báo điện tử Dân trí",
+      "publisherDomain": "dantri.com.vn",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Vietnam",
+      "sourceCountryCode": "VN",
+      "sourceRegion": "Asia",
+      "sourceLat": 16,
+      "sourceLon": 107,
+      "language": "vi"
+    },
+    {
+      "id": "n-d81bf5b654920e",
+      "title": "¿De quién es la infancia que se publica?: Patria potestad, autonomía y exposición de los niños y niñas en redes sociales",
+      "titleEnglish": "Whose childhood is being published? Parental authority, autonomy and children's exposure on social media",
+      "url": "https://blogs.eluniversal.com.co/baluarte-juridico-espacio-de-reflexion-en-derechos-humanos/de-quien-es-la-infancia-que-se-publica",
+      "publisher": "blogs.eluniversal.com.co",
+      "publisherDomain": "blogs.eluniversal.com.co",
+      "publishedAt": "2026-10-26T17:32:00Z",
+      "seenAt": "2026-10-26T17:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-9c6482dad089f6",
+      "title": "Qué significa “Six Seven”, el challenge adolescente al que Javier Milei se sumó con 56 años",
+      "titleEnglish": "What does 'Six Seven' mean? The teenage challenge Javier Milei joined at 56",
+      "url": "https://www.minutouno.com/mundo/que-significa-six-seven-el-challenge-adolescente-al-que-javier-milei-se-sumo-56-anos-n6338122",
+      "publisher": "Minuto Uno",
+      "publisherDomain": "minutouno.com",
+      "publishedAt": "2026-10-26T23:32:00Z",
+      "seenAt": "2026-10-26T23:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-825ea7028bd623",
+      "title": "Qué esperan los argentinos de la histórica visita del papa al país: el contraste con los jóvenes",
+      "titleEnglish": "What Argentines expect from the pope's historic visit to the country: the contrast with young people",
+      "url": "https://www.cadena3.com/noticia/visita-del-papa-leon-xiv-a-argentina/que-esperan-los-argentinos-de-la-historica-visita-del-papa-al-pais-el-contraste-con-los-jovenes_607292",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-10-26T20:32:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-5c4d794a323fdf",
+      "title": "‘6074’ 열의 일곱은 “나는 노인 아냐” “사회 참여 기회 더 줘야”",
+      "titleEnglish": "Seven in ten people aged 60–74 say 'I'm not elderly' and 'We need more opportunities to participate in society'",
+      "url": "https://www.hani.co.kr/arti/society/society_general/1284293.html",
+      "publisher": "한겨레",
+      "publisherDomain": "hani.co.kr",
+      "publishedAt": "2026-10-26T20:00:00Z",
+      "seenAt": "2026-10-26T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    }
+  ]
+}

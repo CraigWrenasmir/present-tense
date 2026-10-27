@@ -1,0 +1,1843 @@
+{
+ "schemaVersion": 2,
+ "updatedAt": "2026-10-27T01:23:09Z",
+ "note": "Cache of English headlines keyed by sha256 of the original title. Seeded from the first collection; later entries come from scripts/translate.py.",
+ "entries": {
+  "3e8d54cf3a9b6c2a76dbebb93a5a8bba41f19be6833be7e7ba3b49133b410110": {
+   "en": "Ramón Avello: Our most universal anthem | El Comercio: Asturias Daily",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "406523176886bdaaa62341c1c8838f71223509120b6bb1c2e41a1a0b74b070dc": {
+   "en": "Juan Neira: Sánchez follows in Lula's footsteps | El Comercio: Asturias Daily",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "a81211d917c97bc6cf9616c53ad2bbc07f11a8a4cbefbc5349916228dc7e2ffc": {
+   "en": "Meet ‘Fifí’ Velásquez, Colombian BMX's new rising star",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "0098826ebcf0f5201e002894f70ebeddd4d3eafdf559afbd681e2c05635e9501": {
+   "en": "Morning heartburn: foods that worsen symptoms and signs that warrant a doctor's visit",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "164daf8137c0ef81922068b8f0c472d709606c24be2e57494a7cacab97b3204c": {
+   "en": "Occupation imposes a complete closure on the West Bank on Tuesday and prevents workers from travelling",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "72f75d8aeefe34403e2c9520c70d57f5fac15ae33d9712b8466148c893b874e5": {
+   "en": "Up to $60 million in cash and spending at brothels: how cards belonging to Coosalud, placed under government administration, were used under Petro's government",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "8dfd44908572e38efbc01246bd56b2b070f490f4d97ce058450ecaf83f3ae889": {
+   "en": "Real Madrid crush Barcelona on home turf and settle El Clásico",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "ab59b538969f0e384da5e06f7c60ff527d0acee565fa9d0b8cbb21cbb1cc82fb": {
+   "en": "Three towns in Antioquia decree that minors be 'kept indoors' as a solution to violence",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "4f2c2c5ad259e7bb26521210e2e7850081445049c66d3ae3e00f88a26fad16f7": {
+   "en": "Reservoirs race against the clock: fewer than 40 days remain to store water and avoid an energy shortfall in 2027",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "322dd6df187250dd9360e0dac8859859fd04841003caa452d27057bb69795b8a": {
+   "en": "What does 'Six Seven' mean? The teenage challenge Javier Milei joined at 56",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "691eb560496db86aa6c63a78e6f73f9570529d25bd23db7c81fa2c7cc8e23c6d": {
+   "en": "Editorial: Lula wins again: Brazil forces Chile and the United States to look at the region anew | Puranoticia.cl",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "0f076077ee0a0d8b8d0ff12fa8156894655cc06f650b3da6a3ed658ef617f9eb": {
+   "en": "Promoting the region with ‘Shima Haruka’ biscuits! Awashimaura Junior High students develop the idea, with help from the Food and Agriculture University in Niigata's Kita Ward and others",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ja"
+  },
+  "779e502180a553a0a2c41d2b2c71094b725144c645592550833a148f342fd84d": {
+   "en": "Santa Clara v Benfica: 'One of the best games of the championship'",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "149849e293bcde15aefe4008651443abfec3426baf37d3b2655c2855223b95f6": {
+   "en": "Federation Council speaks of everyday Russophobia in Europe",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "6aba44cbf4f895bbf6bc99746de4b8cc0010ce62e61dc3fdd4cb591f4d99d45a": {
+   "en": "AAAExpo 2026 in Rabat: ‘We intend to make this exhibition an international brand’ (Nairouz Light, Webloo)",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "509c5c6102ff47d0c4a2bd7b37e1227578e2228e2816698155a675c723c098cb": {
+   "en": "Investigation launched into Osman Korkut Kanadoğlu | Breaking news",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "tr"
+  },
+  "c2bd585cee628640b222924e2168bbf6ae8a7972981349dff7393ebbe9b09864": {
+   "en": "Taiwan stocks face immense pressure at today's opening! Kuo Che-jung remains bullish: a challenge to 50,000 points | ETtoday Finance | ETtoday News",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "802607ab427211a54c0aef0e52abe161d207b0316792f265da64d654dbae571d": {
+   "en": "A strange dark mark on a map and the story of the person who found a 120-metre-deep sinkhole in Vietnam",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "vi"
+  },
+  "d7d110f4fc704d249ff2f29a875412dabd82290c5325847841c6bc498ff07197": {
+   "en": "Palmeiras website hacked: intruders taunt the club over the world title | Ge",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "d0ad2ca768943637c7754b238603a75c0ee7e18385f73fca4fbe3004d905aff2": {
+   "en": "Iran, Saudi Arabia, Turkey and Pakistan agree to discuss strengthening cooperation on regional peace and security",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh"
+  },
+  "7d04ce5d1db2a56edc0c4ecf7c0ed8e1992430ad274cee6b498b717bc402e05c": {
+   "en": "Clarification: there was no shooting near Unicentro in Bogotá; video shows how two men were caught — Pulzo",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "b1663cb7c271c33319c10c1366509ad0291786329054cb14319f3ad75475d23f": {
+   "en": "VW subsidiary Audi plans to build a new plant in the US",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "de"
+  },
+  "af6d8687631ebffd73be975772a07e440c394b64b51bf8af385dd1c1b349e6e9": {
+   "en": "Sexual touching of a teenager in a Bordeaux cinema: two-year custodial sentence",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "088967ed250caf622add43be1529ace38a932c17afb3c0a26cc5225868ef0b8d": {
+   "en": "Mother with cancer has to mortgage her home and gives up her food for her child with kidney failure",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "vi"
+  },
+  "4b0397b3033468705e50975ee33a9d360eacc5748249e78b50af957f1f240001": {
+   "en": "Ivette Vergara's driving licence suspended for six months following reckless-driving case | Puranoticia.cl",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "d8bd95c1b56f2203e82231991457077fc0465858478c373c10020a3b76e64781": {
+   "en": "China's discipline inspection and supervisory bodies opened cases against 73 officials at provincial-ministerial level or above from January to September",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh"
+  },
+  "b01ee1c7ee89a1d1bbc5643404e867cc97569123c7fa5ba5bb9630c82c13944b": {
+   "en": "Midterms: election candidates want to manipulate AI chatbots into recommending them to voters",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "1e72817c7007d19316ad3fdc2e0d132bcfa7aedc7fcf623b52660d0cf51e0c9b": {
+   "en": "AAAExpo 2026: 'In the next ten years, Africa must have international-scale parks like...' (Lahcen Nourani, CEO of TLS Groupe)",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "4bf3cb02fd088e49dc57a5bfa9eb2430031dfc5f1497f7fcac19c30405c427c6": {
+   "en": "Do not let talent be constrained by metrics",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "vi"
+  },
+  "d56e895a982d242da64e7fdf69280908f3fbe53352e9a9a54ef6030d749b4e12": {
+   "en": "Index of confidence in the government rose slightly in October but remains stagnant",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "f863878173a35bdb5bb931cc2ea861b38897f22bbacc0528d78d3179feeefa68": {
+   "en": "Editorial, 27 October: The prefecture's choirs excel—a feat showing the 'kingdom' is still going strong",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ja"
+  },
+  "444897eaeb6299d418dfc6b5c0ef63a1af58725ed3f0eb8bb7db9c28d1b14f07": {
+   "en": "Kane wins the Ballon d'Or. Safonov misses out on the best goalkeeper award",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "58a24fb926fe6967f089eacc0b3e638fce7f40cc273eb85b57bccb1774bb44fc": {
+   "en": "Who won the 2026 Ballon d'Or? Who received the Ballon d'Or award, and who took the Golden Ball?",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "tr"
+  },
+  "52926c2a4ada630f4a52541a332945a6c3c24472e045ac6388507a0b463b896b": {
+   "en": "Even while abroad, a company owner keeps close tabs on things back home thanks to one tip",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "vi"
+  },
+  "a7d2053c1bca3e093d73e37b747c1c4563915c7fff1565d80a51fd836efd93f2": {
+   "en": "Rain causes flooding in San Carlos de Apoquindo and water to flow through ravines along the road to Farellones | Puranoticia.cl",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "77bc7c08cdd2530f53c544894d6e7f529753eec327e0b0efe89f7eb9568dcb6b": {
+   "en": "European parliamentarians envisage a partnership with Lula's Brazil",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "26d675fa70d6c4b10e1326ebdb4ede92184a5130e261fa8190107443c431c86e": {
+   "en": "GMO threatened with release of customer information at noon on the 27th, and further attacks",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ja"
+  },
+  "153525327a3f7e5b4c36c84772029f108635aad76d6669fd15d66ae003d323b6": {
+   "en": "Follow the 2026 Ballon d'Or ceremony",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "5449dfa335d406d4c85e1c86d276611c252aa8cc3c7362f18fb752a1ce1fa5a0": {
+   "en": "After leaving Hanoi to live in her hometown, a young woman receives a proposal from her boyfriend with a special tray of engagement gifts",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "vi"
+  },
+  "742f25ac913d132bda6989b266bb0501e79da18f4eda4f7ed83ff2e93186be84": {
+   "en": "Flamengo v Atlético-MG: what is the QR code on Galo's shirt? | Ge",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "0e61605fcb3b01fea5ed2ce34f032fbba655aaa5330ea125f68b3b24d7cef9ac": {
+   "en": "OPPO announces its new high-end phones: a look at the Find X10 and Find X10 Pro Max - Pulzo",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "0cd9956555ebfe45bd2dfd8c04437798abeab3b83ac9efe89b7363da7a757a71": {
+   "en": "30 years of support for homeless people in Rostock",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "de"
+  },
+  "e87cd506988552e1db270a05a1aa2b56a05800efc2a3cd26f081ffc4e8db7033": {
+   "en": "'Kingdom of Childhood': Papissa Diouf and Teresa Rodrigues celebrate cultural dialogue between Senegal and Portugal",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "f51db0140fe0ee1c7e689f9f73465e6f89115b2a29859b32a15b82a7e656fbee": {
+   "en": "A wrong-number call leads to a life-changing journey for a couple who left the city for the countryside",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "vi"
+  },
+  "aa83e06d8d79fac6edb76e616bc50c6e0ee9a18b1db14f0f7d0f8869c08aa168": {
+   "en": "Reports say Flávio Bolsonaro will abandon his bid to annul the election and pursue an abuse-of-power case instead",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "e2adee880c445f695909b20d87525ddde44e620e93f02418c245cf9434fbf632": {
+   "en": "'Drum Psychopath' has double-murder case in Villa Alemana dismissed: Valparaíso Court overturns sentence for 1996 crimes | Puranoticia.cl",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "ac45bb824fa644a124626bd69499969e358b41ffb101ce6adea2d2c688be10b5": {
+   "en": "Salles: three new doctors at the new Maison médicale des Pins medical centre",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "724d82e7bf099b3c0f4356ebaa1d8c40c100c184b0b0199c997f218e72c5de65": {
+   "en": "Seeking to avert escalating tensions in the Middle East: senior Iranian and Saudi officials hold talks",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ja"
+  },
+  "0b16aca5ad2a4fd4535c0cf9b08e0aa19de2dada97a04e2934155597e0f373d5": {
+   "en": "Spending on Ukraine reconstruction conference sparks outrage in Estonia",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "2d7d93120edfd0e47d82e9c808cfe1c2e420ee338cb481ce0a2a5b8dd63e34ba": {
+   "en": "Yunus Akgün: We achieved tremendous dominance",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "tr"
+  },
+  "fec271b4193b30ca57e9b97c2366b2278c7025d0c12a53acbf90b88d99fb9809": {
+   "en": "Zelensky orders stronger ring defences around Ukrainian cities",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh"
+  },
+  "ebfb4d6c7a6d7e15ccdfec4fa3c71d97ba708675060637fa12fd65fe3f868f5d": {
+   "en": "Extended voting hours had a very limited impact",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "4166d936c1d38d3a716fc5d8d14790d05ad7dd065495f23677371b8804a69078": {
+   "en": "794 cannabis plants, 136 cannabis branches, 3 kg of marijuana and 161,000 CFP francs seized by gendarmes - Outre-mer La 1ère",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "654be3ecc53c7b3374d996d25b0eeefd320c79c333806244757c520def54287c": {
+   "en": "Roxana Amed, the renowned Argentine singer who took her jazz to the world, has died",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "c84f84e615e8cb119be2d0701d0a7f08c2d498180b622e7d680ec32dddbe703b": {
+   "en": "Metabolic pathway may explain why moderately low temperatures extend lifespan",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh"
+  },
+  "1e23320d9dee1202355f71c0064831857b29e1f5bcc609538c89d0cc586b8891": {
+   "en": "Extra-high-voltage power line for Salzgitter AG begins operating",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "de"
+  },
+  "42a40fff2693ad1480408525de5d490554467099ecd9b51fa74ed9f822e94ddf": {
+   "en": "Manicurist punched and robbed of the motorcycle she uses for work in Ribeirão Preto | G1",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "faa5920bcda6368efa3a03f544dd0267ac9b22d7a9843919db5c8593d8a8d2df": {
+   "en": "Cali's Barrio Obrero opens an art route with sculptures and murals honouring salsa and local history | Pulzo",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "529ef8cdd984f8d583f08bae5f3bb82191b52338d2b2e2062c4d7710e506b05f": {
+   "en": "The first female professional shogi player: a 'move' opening up new possibilities",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ja"
+  },
+  "931f25058ef8e0d41f6891c2b8c1d3ecb37e7194976417b6bfd253b95b34ae4c": {
+   "en": "Calls in Ukraine to remove mobilisation exemptions for all workers",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "150319b55d1637ab40000a60a53940beb9959bd083c2fcbe42bec13cb02acdde": {
+   "en": "Ederson: We must keep working and believing",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "tr"
+  },
+  "4a8f68956d97869a583611048d48b504736cf31b8388a2e718846d482df930d4": {
+   "en": "What time does the surprise bus strike over unpaid wages and half the bonus end?",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "35fdfa7c1f9c5a731e8cd956d9a84b6ca90ed5d9a2206685d4746e7e2f697e8d": {
+   "en": "Flávio says he will seek the disqualification of Lula's ticket",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "7c2f4e10049506cd91bbd9552a571bdd09990f5f36b5e98216b26f6a51e64bbb": {
+   "en": "Firefighter criticised over far-right symbolism",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "de"
+  },
+  "a450578bdd264002e1a4f427e689541befe65ee3b8fce2fbb176a073b1f9c738": {
+   "en": "Kanagawa Governor Kuroiwa still gives no clear answer on his future six months before his fourth term ends; figures show his enthusiasm for the horticultural expo as prefectural assembly groups wait and see",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ja"
+  },
+  "a93073a5927474524d438c3e918228ab50b41962d409980017562fa3f88dd2af": {
+   "en": "Candela Arizaga's message to Facundo Moyano after the restraining order was lifted: ‘Love knows how to wait’",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "9980bee6a8ac0e5986cfed84cc1cb1439c51fa44396af4e1b66241c5bc9b4422": {
+   "en": "Tumara'a: elected representatives resign en masse, paving the way for new municipal elections on Raiatea | Overseas La 1ère",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "654b9f4aa5a5ff9ff16b5ecc0616599b38c45669a66a31d0d4a3784454ca6e95": {
+   "en": "Ballon d'Or winner named",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "85c08cd853fb4f927e93c964dd1cdc573f85c0b522dec561972f7f91924abe91": {
+   "en": "Galatasaray celebrates its derby victory with its supporters",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "tr"
+  },
+  "4d9ff044649a7cb18a7e700ef351a896fe6cb4ed5f97d04621e7f0d1736eb6be": {
+   "en": "A week of overseas central-bank rate decisions approaches, bringing key guidance for global assets",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh"
+  },
+  "96f870cee7ae5f88c8d15296b55b8e78e8f3e06fdaaf44f3e3ec6b13b17a98be": {
+   "en": "Scheduled power cuts will affect Bogotá neighbourhoods and Cundinamarca municipalities on 27 October 2026 for Enel Colombia maintenance - Pulzo",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "476066614d217106ac5aec025ee9131a932372500ebc8d7e882a6411c7ee44f5": {
+   "en": "Facundo Moyano casts further doubt on Candela Arizaga's alleged pregnancy: ‘Let her say it…’",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "43ec233f48f53fa28aacd2b565e1adcb629fb4927d9a0dae313f698b5822d708": {
+   "en": "Breaking: multinational coalition launches air strikes; major news from the Strait of Hormuz; US military ready for another large-scale strike on Iran; US stocks close higher, Tesla gains over 5%, international oil prices fall | National Business Daily morning briefing",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh"
+  },
+  "e7d23de4531e89d8d645b43a9ff8e61c79a4770a9e0f669a36116c40b38d08aa": {
+   "en": "Gastronation trade fair opens in Hamburg",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "de"
+  },
+  "33113728d7815d064d179bc21b33abd3c03e7a1dbe418cd7dca870f4b47702b6": {
+   "en": "PSG v Lyon: first half ends goalless in the French league — Youm7",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "5c0d059167296c18404a24d1938c8121aba6678ccb4fdba0c76fcfa0fbcdf008": {
+   "en": "'A chip implanted in the brain': successful measurement of dementia-drug response—KAIST develops a wireless neural chip",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ko"
+  },
+  "0dd7de3c8697256245fb60e95847e8fc49a9785194a9e473449bf3d6a46e8093": {
+   "en": "Even 'Blackie' uses one! Unblock TV box operator wanted after fleeing abroad, but sales keep growing | ETtoday Society | ETtoday News",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "e175c028285bf82bd532d1a0b6ed6eca26a8da9044f14a32c15fc912fef80b92": {
+   "en": "Shilla Hotels & Resorts receives the ‘highest rating’ at global hotel awards",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ko"
+  },
+  "3a88cd59c3d919accb5c8315ac355e9b9033d0ee4a3a3b271047882c5ed7b376": {
+   "en": "The AI trade reaches a staggering scale; Citadel Securities says there is 'no room for error'",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "und"
+  },
+  "05721301643472f061c5c2b35035a6dd90ad6e9fe6c0b3e00480319f6a67cbcd": {
+   "en": "Weather changes after work! Rain gets heavier as the night goes on and lasts until tomorrow morning; 14 cities and counties warned of force-8 winds",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "98096281ba1cf889946c76a3659073bc713afb4fe2d6a4255b96e67d915bfa22": {
+   "en": "E Fund Global Allocation Mixed Fund (QDII): returns exceed 60% since inception, with significant outperformance from a global focus on AI",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh"
+  },
+  "0c08e03042dce218359bf04b19b1f194b4a4576d74174ae24b37604a78c51897": {
+   "en": "Volkswagen reportedly considering bringing Chinese electric-vehicle software to Europe | ETtoday International News | ETtoday",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "2813fbe303873dea39a86f8200efdb75cfe179f7aeec08f7d60e263b3ddd916d": {
+   "en": "Shanghai Tunnel Engineering receives a project disposal permit from Xuhui's landscaping and city appearance bureau, helping a subsidised rental housing project proceed in compliance",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh"
+  },
+  "ad6f3d0590d0deab3f4cff94f55f02435b231be90c8f9c43481385308afd2fb2": {
+   "en": "Siheung runs a programme offering massages by visually impaired practitioners in its staff cafeteria",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ko"
+  },
+  "0c72edd0c481c9fa470469487a7f714a675bc4d857e0f421eb69a1a1d7ac7749": {
+   "en": "Brazil: how Lula managed to come from behind against Bolsonaro",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "fc125b79083e5a9868d7bffb929421bcc339c79bcf850f5884559b8218f34dc8": {
+   "en": "Fortnite and One Piece join forces: this is when the collaboration arrives",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "6fa52e97d7cee7d580fe47d93195ea9481a5b1c24f16d6adaed1db2d8ee0d19c": {
+   "en": "Mapo selected for ‘2027 Reading-Based Regional Revitalisation’ programme, aiming to become a leading reading city in South Korea",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ko"
+  },
+  "7208ecddf88d9143797eb12f7f607e230e2e349ad7decafafe7d3768cfa17a26": {
+   "en": "After strong Reedle Shot sales, a K-beauty company sets up a 79-billion base in Seongsu-dong",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ko"
+  },
+  "b87ea295027c5c5595b5adc4e61e18073711e6c09cfb376008d11b8dd0a775b9": {
+   "en": "Status of Al Ahly's injured players ahead of the league match against Modern Sport - Youm7",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "df1bc709bd31c753cb8c8d5648a661431a403ece9809714e62a2141b701eef60": {
+   "en": "How a Persib supporter was killed in a bladed-weapon attack after watching a match at a Bogor stadium",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "08727783a85b99cf8538df514841d350aa0210ba45623145de14969c688738db": {
+   "en": "Directors' and officers' liability insurance market could grow to 4.2 billion roubles",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "5653204c5edc952324df95354f1e25e1ea9fc4251639692cc2534ac4b640e9bf": {
+   "en": "Housing and utility facilities in small towns will be available to lease without tender",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "0029d7e2a6e4b9acf6fb64f4daee87cb83ca714ef51138546d2bc52c796779d7": {
+   "en": "Are institutional investors staying away? Another new share offering fails — why Hong Kong IPOs are collectively hitting the brakes",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh"
+  },
+  "96da0215715cf01d59c10eb8134a306bd2066a3c74f4f64f5f328f4a1bf21178": {
+   "en": "HSE University assesses Russia's research and development spending in 2025",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "56992671f4a7294c64b0859079c6643924a75601e134ae955985e422c3d47d57": {
+   "en": "Taiwanese woman killed while travelling on a budget in Japan 'brought only 2,000'; messages with a close friend record the time of death | ETtoday International | ETtoday News",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "4daf3cb03a9d1be2b23b1e047100b8b09a6c5d9640fd8baefa6ea234bacd3a55": {
+   "en": "Directors get expanded coverage",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "ab32fbbefdbc8812a00c5916522493dc79c709ec213b5d34e4ecac81fc33d108": {
+   "en": "Will the BOJ accelerate interest-rate rises? Forecasts of a 2.0% terminal rate surge",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ko"
+  },
+  "56a761cf6e634d6707b9541fb8da2611fb09c9f62041a807e309567d671a6328": {
+   "en": "Beni Suef University: artist Mohamed Tharwat's remark was inappropriate on campus - Youm7",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "0902a031a5ceb362c941fd73e37b1235da6154635d86a55a2aaa46d915915865": {
+   "en": "Anthropic's listing documents devote nearly 100 pages to risks, from TSMC supplies to AI threatening human survival | United Daily News",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "0fd584aab3b6885085558ece63bf101a8d210b98c050b461cd59df7c75d7f90a": {
+   "en": "Tracking poll: Carneiro is the preferred choice for prime minister",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "ee470b701295889466a3a672908824152e1b39ab020b4839114893783d714b58": {
+   "en": "Stocks in focus: Samsung Electronics and SK Hynix both rise in pre-market trading; SK Hynix up 3%",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ko"
+  },
+  "8b73691def21e8806ff953cc35ef7f1269c8549a1edea175e726eed3dc04c010": {
+   "en": "Mobile driving-licence service schedule for Tuesday, 27 October 2026, in Jakarta, Bogor, Bekasi and Bandung",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "dfde12334e8c5e6b1f2dfede5582f50403efe2ab75e34aa5399d6e824ff736c3": {
+   "en": "US stocks in focus: complaints of screen cracks mount just three days after launch of Apple's foldable 'iPhone Duo'",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ko"
+  },
+  "850e1a1384d6200f4727b7c78c2aadb4cc803bbc0aac00939bb1f989ace2d916": {
+   "en": "Goodbye to traditional cushions: the trend changing living-room decor",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "54df03e7a95fa044834a2fbba047868d71edf1beb162e832bc414cc47a0c714f": {
+   "en": "Beware of brake fade on long descents — here's how to prevent it",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "25020d515804f44aa043b03964ccfcd71f794772692b8ecd478b1885183f5bfc": {
+   "en": "How Kane went from a caricature to the world's best",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "3a99d876b395e128ecf721e795dcc51bba73ef28abb2ce1633a1752544c4701c": {
+   "en": "The nine Zara and Mango coats you should definitely keep an eye on this winter",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "832e89993cc1cafee37f4fa126481a5a78b060d01d939ee558dab2bd4d912552": {
+   "en": "Today's horoscope for Tuesday, 27 October 2026",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "a3c0d5f5d5d9a146be55d11dff54ebfb55a6d4a799a8972c4ebf5726ed7580d8": {
+   "en": "Sol protesters shield their camp from onlookers and say they will stay: 'The camp continues; there is no retreat'",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "60a1e5cdb6625c32a6fd3f4cf3745f29b09fb3c270cfcc4513e3350fbd48df51": {
+   "en": "Marine Le Pen promises to prevent France's 'Mexicanisation' as her campaign begins",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "002509de66968292a04a86bed78288d3cf452a4899614f250ec535c4fd25a19d": {
+   "en": "Moedas says he stands with protesters but declines to comment on police intervention",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "b76c07d7ef61506a119e34b8c1e5916bdc61348c7dbed08fd397186116ad5b86": {
+   "en": "Conagua forgives 106 million pesos in debt owed by Torreón municipality",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "f69e15234328330258b8751ca101e954a8052227c78318231a4c6bca7e6d6fc9": {
+   "en": "Eight-year-old goes missing while buying snacks, is found with a street musician",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "7cfcdc819f34bb62dfd82c6deda9bc10512f50f7d1e3cc723c5cabe6bbcaf19b": {
+   "en": "A warming, savoury homemade pho recipe, perfect for the rainy season",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "3f15d53d84f120f2b49bd3f6aae4d5739b70fa3df31eb965456d42207702f40b": {
+   "en": "Japanese baseball: SoftBank returns to Fukuoka on a winning streak; Hsu Jo-hsi's chance to play depends on these two situations | United Daily News",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "5a75ec77b3641ae2da46751d667b8b98682c30ba3afed28b3c8623a46f704ff8": {
+   "en": "Kremlin: President Putin will meet Qatar's emir in Moscow tomorrow - Youm7",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "578250ba86651ae249ca633092403d141f7e913f377a35b9e6dbb69384bb9f2a": {
+   "en": "Pakistan and the United States agree to strengthen cooperation in the energy sector — Youm7",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "9a88f53bb00e368846e68608338ea0d691bd20701f18bcdfc0f1d6831d2580f3": {
+   "en": "GAM: MSFT straight to $670 or a pullback? Part 1: attention turns to Azure's first separate revenue disclosure",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ko"
+  },
+  "aca2449ea112198d68d0775f8ffec34a1eaa5188e22b23c02b7d4172254b64ca": {
+   "en": "Halloween falls on Saturday… fortune teller makes a rare call for restraint, warning against dressing as 'one thing' | United Daily News",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "062733748fbcb9d18355e0d5252c52076318af81318a6d948539428af4cf7551": {
+   "en": "Strong semiconductor exports drive 1.0% GDP growth in the third quarter; GDI reaches a 49-year high",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ko"
+  },
+  "1df1365dbba2b03b5e3ac5f961dfc27b9ccd40be6c8f7f9b0b9864c6620e8b79": {
+   "en": "Leiria criticises the emergency fund's bureaucratic process",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "e0951b1fa89438a844989335e79a200ee134c08487cbc469cbc1108f6674afe7": {
+   "en": "Ukraine's defence ministry says it wants 10% of the West's stock of air-defence missiles",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "284e7f161485e44d3ff97384a5ede5d05f4edce04dba7d628247867531e6ccad": {
+   "en": "US military officer warns of the consequences for the West of a blockade of Kaliningrad",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "8dd8f29a888baae36ab0df58fb55a82e710e89c101bd076c74b487df6c9af419": {
+   "en": "US market close: Anthropic listing plans ignite AI buying, semiconductor index jumps 2.8%, but AI doubts remain | United Daily News",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "964a9bad9ee5991bdbfa1d83b6ad0dbb5cc819ab258554641417541ce3f38bf3": {
+   "en": "Harry Kane crowned with the Ballon d'Or: Luis Díaz's teammate dominates world football",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "3999c9433cde9c3743f25112d4a884d0634f00f69b5c12f1ac24f2b76084adba": {
+   "en": "Harry Kane wins the 2026 Ballon d'Or",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "92efea32e806f9e52a93d002277a42387934b2546b333a2ca4adc7db967c388b": {
+   "en": "BREAKING NEWS: Iran ready to join the Mecca Pact",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "b28e8ef80ca83d198e62d8eb7ac422d04bd0dce7095149348bf8fb8d4fb82848": {
+   "en": "Harry Kane wins the 2026 Ballon d'Or; Lamine Yamal is young talent of the year",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "6576853d11dd4c8afa6e91c27fed147aa2106ace3defdf0c07166f827852a8e1": {
+   "en": "Safonov loses out to Simón in the contest for goalkeeper of the year",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "3bc7ad98038784ad000220339a1391141a3e74c6595b97165c529ea97dc21019": {
+   "en": "In pictures: empty buildings and families displaced from their homes—another reality of the Manizales earthquake",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "0570c25005869ecae88b1e61d17e01d59d2e5876347e1a6e901de8742b88d977": {
+   "en": "The queen of women's football: Alexia wins her third Ballon d'Or",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "87ab9375160f5cb82539394cddaec9599a6313aed4f68b9a76018f55417366a1": {
+   "en": "Alexia Putellas makes history with her third Ballon d'Or",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "c611bc8687a1661c1956d145e75b62daeedcc1755c2f49d6ec4144cb2fbb2c11": {
+   "en": "Merz again comes last in Germany's politician popularity ranking",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "acb48818287a24ff50d1e6ae73a42473bac5fa938b8039c93862834996e8038c": {
+   "en": "Alexia returns to the throne of world football | El Comercio: Asturias Daily",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "f5d4e9681eafb5ea011e440d1e34b76a39459cecb7bbf720c5a382937af9a2c3": {
+   "en": "Worker escapes crane that fell onto a monorail in São Paulo #CidadeAlerta #Shorts",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "715f12166acf58f085e6909c705faf0ab936d609ce306c1f36d1135b8639d37e": {
+   "en": "US brings geopolitical crisis to the G20; Russia's presence draws attention",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "b75f79c9dd367ed42e5b59325122684eb7765d6d96a901c8ab0862ef37999ca3": {
+   "en": "EDITORIAL — Political will is the only key",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ceb"
+  },
+  "cad527165ab6fbca1ef0322e1a66f605025f3ca0e660f07beee2f1318dc742c7": {
+   "en": "White House accused of manipulating Catholic bishops for political gain",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "uk"
+  },
+  "f7243e0bc36a19b668639d812a754c630ffe21c6ae1983e4ab79a159f607b88d": {
+   "en": "What the pope's Mass in Córdoba will involve: 150 musicians, 2,000 communion ministers and 400,000 hosts",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "72aa8d9a2bcecf6877307d9dc846d0327740cf7ef4381b2b38b1da9d801ccff4": {
+   "en": "Five PDEA-7 informants receive rewards",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ceb"
+  },
+  "b48595a757a98490aca1aba125d2e279b148fb5fbd23bba104c5e637c75dba18": {
+   "en": "‘A box within a box is planned — everything will be soundproofed!’: Royan's La Cigale music bar is set to begin renovation work",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "c9278c09dd4b2b5f14bbf7427f641b3f07207bc7fb7a5599b6c8f9ac5ec228e9": {
+   "en": "Mobility Secretary Salvador arrives in the capital; students protest outside City Hall",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "4736ee7f3ed84cb226d09459fe1a7050afa6fc403e5e48625bf0c1de573625c1": {
+   "en": "Matecaña Airport puts lifts into service and expects to recover part of the second floor in November",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "062d25596659fd9216fbf661659d6c2c668bc4fe070973826692a6684326de26": {
+   "en": "Latest UN report reveals Israeli crimes in Gaza and the West Bank",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "21d8f27edae4dd253bd37eed31676ab2cc1333e6383c0883799da08c7d46031a": {
+   "en": "Routine intravenous infusions: from a therapeutic reflex to an avoidable risk of serious complications and sudden death | Le Soleil",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "9ba05bfd6a6d74c039c85ef50ee693989dcef334913040f3b05ac0ee50195665": {
+   "en": "Female employee reacts to attempted abuse; criminal dies after being wounded #CidadeAlerta #Shorts",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "a8211a3735d65c8c73525bde94fc72d62b5da190a69ee1d7161e7c975dcc2d39": {
+   "en": "Telecable celebrates the Super Cup surrounded by supporters: ‘We were those girls, and now it's our turn to be role models’ | El Comercio: Asturias Daily",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "98e3141a16d397d824b121282e024fd111965a031effd4d2304648118e26da1d": {
+   "en": "Trump: Brazil's presidential election was 'rigged'",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "el"
+  },
+  "52bc9853831ac39098c0ee79dd86b51f92607ffa8c4bb2b4597c480fcac5eac0": {
+   "en": "Air and ground surveillance reinforced on tracks and roads in Coahuila",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "fd65107e086238a2f830be040d29f92b167aa00a15318f44efbc827cd33ecf65": {
+   "en": "More than 60 public squares and 30 sports courts renovated in Ramos Arizpe",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "dcb3dc336ed04d64a114967ce178bbde3c986c005a899cd81ac64874da729e57": {
+   "en": "Always putting themselves last! Four zodiac signs are 'too considerate of others'; one is consumed by inner turmoil",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "fd7e526b19c8a62f72155b5d4873367331b119b030d038fbef6bf462aa427a0c": {
+   "en": "Trump calls Brazil's presidential election 'rigged' - iefimerida.gr",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "el"
+  },
+  "faf180a0cb81cb665b16dfb461898f8a642f01fcae2a1216760ad570c3730d54": {
+   "en": "International Congress on Nutrition and Body Composition returns to UANE with great success",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "6acd86a2d9d15c665b7e7d72ab8ec08c6534eb5b819ec803e7df5f6cb1c15af1": {
+   "en": "'I leave with peace of mind': Chamber of Deputies receives Guadalupe Taddei's resignation from the INE",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "5d0d5c0d4c77b4dd65a3c6eb3803c2e77b0a998e46858834b7053eec91a10b20": {
+   "en": "Tornado reported in Machalí and Requínoa",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "dc664ba3149fd695617e77c50eac62c40df9e35cf347e5b2591972c1de8cb5a9": {
+   "en": "Hellenic Basketball Federation: countdown to a new administration — the two dates being considered",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "el"
+  },
+  "f3711917f99245ad3c0d9e33d6decfd6b825e4a6f1d2da01d7162b6852d46126": {
+   "en": "Ballon d'Or: a third triumph for Yamal—he wins the year's best young player award again",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "el"
+  },
+  "40341541a925c5ba34836e2c937ab45a4458509acb5b036a1dd6c053c7d256fb": {
+   "en": "News website: 2027 budget is the largest in Iraq's history despite the economic crisis",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "6ab221e6167bc0b268a307e2998904ebef252487248b2d858af54ea64ca2e42a": {
+   "en": "SUTEP confirms a 24-hour national strike for 29 October — Diario Los Andes",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "21029559e7653b03121756df8fe77a63b67cc049332c40f7b4afe23bde5d08bc": {
+   "en": "Jordan launches air strikes in southern Syria, prompted by the attack on a Greek Orthodox church",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "el"
+  },
+  "78325a1714b54d22a7eadbd2bcfdf8cdf2ba0696bd6e54e55c5a6a82dbfef7af": {
+   "en": "Indonesia national team's November 2026 schedule: a friendly against Jordan?",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "a0ac8c18c221a81cfdf8ba8efb4530651cd38b15543f4844a93ad693dba2acbb": {
+   "en": "Operation Patuh Semeru 2026 in Sidoarjo targets eight types of traffic violation",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "c5a6d4b7fbfc8fc34b2a7c6a8c68e8025b4714b97c08d7f0dbed3dcc854bfa6f": {
+   "en": "Regent Egi inspects People's School access road at Kalianda toll exit, calls for modern BSD and Ciputra designs",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "fc0ad9b0f78befe66a202e79e6bffa02161e544138bc6f7f007566968b5de492": {
+   "en": "Submission of the 2027 budget to parliament postponed until 15 November",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "a9bb1fad29aa50a1a0af97ee1bbba6ccc2063499a3007798247e3c8a5259ff43": {
+   "en": "Opora Russia submits its own proposal for tax increases to the Finance Ministry and State Duma",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "65761939e2a826858b39c0440d88565f6b7d1871a85e1580adb2dca4d459b0f3": {
+   "en": "Male worker killed after being run over by a hydraulic excavator at a building-demolition site in Ginza, Tokyo | Asahi Shimbun",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ja"
+  },
+  "d51dcb6c1286d5cbc7f650211d525759c6f6a8db4316322e3f2fb14bd95d8d2b": {
+   "en": "EU tells Italy: 'We are assessing CAP aid to tackle high fuel costs' (2) - More news - ANSA",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "695e3b5cfe67b89087df95630399a04f21097002157b411a16a2d9789f056892": {
+   "en": "EU tells Italy: ‘We are considering CAP aid to address high fuel prices’ — More news — ANSA",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "f3e37414b351a63af718b3d94ceaee4d3e0a2a6a9a9fe040f173f3ad5a680601": {
+   "en": "Fast & Furious 6: the cast of the film on TV tonight",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "bcf7799f49a25716ce7dd272999f7043bc564433b444b259d435a14934cde791": {
+   "en": "Ammon News: Why did security agencies avoid announcing the extent of the terrorists' links to organisations?",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "f4dcfb7e2156c429ef4fe87e1650671f50197c5956a0519f5e640675b21b19c8": {
+   "en": "Lufthansa moved aircraft toilets into the baggage hold: what problem did this solve?",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "25a6e8b337f96a3ab4bb0984b42f2a065cb38282231f6d9b91787075e529d559": {
+   "en": "Questions arise over prosecutors' actions during the Sennychenko trial, expert says",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "89b9e5281715595a87b1df7e9b9e5beea443b50f77a27159dbe07f2dbc2cfd0b": {
+   "en": "Ammon News: Speakers in Aqaba say Jordan is a homeland of love that will withstand terrorism",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "7163c60e39b570b24ada8f377d64b3e6d7570a55d80be5d196ff5c96ebedac94": {
+   "en": "France pledges to reform its university admissions system after mass student protests",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "c35a3381b7df8250e673d453274096dcd5293354f77ad9f20d3cc79ec32d4235": {
+   "en": "Pedro Duarte considers repealing housing-for-financial-compensation arrangement in Porto",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "4ee720039730612d10506f98f2e98c91fdd68442bd090b0b5d1aa647fb22c18e": {
+   "en": "Ammon News: Russeifa district administration meets the industrial sector to strengthen partnership",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "b6bb7f8d946add9df79772546b1c4d48edd8b8b96f1d6c43745f41bea7e9c63e": {
+   "en": "Ammon News: How are ties between Ballon d'Or candidates decided?",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "c24fa3acc0995faf39b6d0e7551dc06827003af4e186db2a95448d0dd53ca2e0": {
+   "en": "Housing: PCP rejects 'subterfuges to limit' the right to protest",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "2636e336f23cf139b52fdca0a367d2505e36b586f452d6db9f986ed68d46b275": {
+   "en": "What Argentines expect from the pope's historic visit to the country: the contrast with young people",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "2ff2e8caf693fa0a9dc885710704dc51c35d722af5018c81c4dac3c5827e6e0d": {
+   "en": "Ammon News: The India–Middle East–Europe Economic Corridor — from location to economic value",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "f99cf3eef9144d44ec6111d2adb03399fb0ec283bf65d3e8bc095eee61111bb8": {
+   "en": "Ammon News: Jordanian Film and Television Producers' Union—towards an active role in confronting extremism and terrorism",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "09abd82d82b1094b00acf8143c7414b52090831fa0bdb8db26e5e727dcb57f86": {
+   "en": "Government will continue to monitor Galp's 'future partnerships', says environment and energy minister",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "6f1ac89dc8b8b04ca6be9f70323813e93cdef6ba9ebd8d27374f56433b6d6486": {
+   "en": "Ammon News: I show you only what I see…",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "9584dc551d88d899e9ba9633602bdfe0f90129345ed6293ca8bcced35dae7ff2": {
+   "en": "4 pm: Ventura calls on Seguro to break his silence over police intervention",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "54e4b7b820b996e76ccd8b99bd9926b133a1d5ce1d3d34527fab9ec627a782a5": {
+   "en": "Algeria–Niger: Algeria's first military deployment abroad sparks debate and questions",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "3db6a9d3de4e50fad1ab0aa44af3a8da5b398c3e7d02eb1cbb5859b9ae126a63": {
+   "en": "Real-time vote counting: election results | R7",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "84c8217b30670950ff7e4504a78f36139cd0967317fafafcb3c45a542ff32973": {
+   "en": "Roman house and possible temple discovered in a French city | Youm7",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "d775cc1ea76edeff6da827a8ea0041690e74056f2baaaf9f01899b753aca44fd": {
+   "en": "Elections without rights and crimes without accountability: international calls not to let elections distract from Israel's atrocities in the occupied territories and the Middle East; Amnesty International says candidates promised to escalate crimes, continue displacement and build settlements - Youm7",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "f7f2f465f4db51bb55eb5abcc2b890d171f9feea28256546d88c6dc38e49c496": {
+   "en": "Flávio Bolsonaro: ‘The police took my passport’ — Breaking news — ANSA",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "fce044336a0c7bea4dc1da806ce67e9362e1a6f35d4320bdc309ad561a432d33": {
+   "en": "Kyiv: Russian missiles near a metro station in the capital | Breaking news | ANSA",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "f1841cf050312ef85f3f5f1fed0abe2b44efbcf020caafc554df10115644781f": {
+   "en": "Smallholder agroecology: 23 African countries unite in Ziguinchor to change farming practices - Le Soleil",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "51a10fbf2879149bcf03fde12077d5fa25e8a7f25142791864fe7d721caa94ad": {
+   "en": "Microsoft offers voluntary departures; about 60,000 employees are eligible, a quarter of its workforce",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "d0da8f25a90251ee649cf9e859a06d4910a24fa048fb4a551bc6ffdec91c16ed": {
+   "en": "Quality of working life has deteriorated in female-dominated sectors",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fi"
+  },
+  "31178760cf40c4082596873c4f751bbc82cadabf603c108e496a7390988f4fcd": {
+   "en": "Intel buys Israel's Classiq for $2.2 billion",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "he"
+  },
+  "4e4c5142b9c08c399cb9639666e7da6df0ec23c7812b1aec82646a7582def18c": {
+   "en": "Thessaloniki: Navy band moves the crowd with Giorgos Mazonakis songs in Aristotelous Square — VIDEO",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "el"
+  },
+  "ca86f590c584b78798f122544c21e353720213ca3e2347e157137c04144c69af": {
+   "en": "Student stabbed in Milan: three minors granted a two-year probationary diversion programme | ANSA News",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "875e8366d340d08e8d1b5048d3fbfea6ee871347a946bb0186f90c56c7919d0f": {
+   "en": "ONCE daily lottery: check the draw for Monday 26 October",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "c968f4ec07fc0ee5bf819bc7f1c3e75f944a04b2d2fc27d8546093eed7b8b8ea": {
+   "en": "Bonoloto: check the results of the draw for Monday, 26 October",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "c6dc7d3294ff6a17427fff9c77f586c788b1f0307cec6a7ada58f8f1a3270ef1": {
+   "en": "Seven in ten people aged 60–74 say 'I'm not elderly' and 'We need more opportunities to participate in society'",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ko"
+  },
+  "562b196b42d92e56ba3eb3806e55df95dc3f3578cf4949a2076ddf62b7a2e8df": {
+   "en": "Norway releases €254 million for Hungary: a breakthrough after years of dispute",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pl"
+  },
+  "190aa597c60c3c03a0d0674c9c428a66c69006f64463810917d325ff551bd56d": {
+   "en": "Cinema, aesthetics and politics come together at a colloquium at Cine Santa Tereza",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "c08265cda3c0088ca9ca8c0806ffde49e1607521a06fd817a2934cf1001f89b2": {
+   "en": "Asseco South Eastern Europe's third-quarter 2026 results versus PAP consensus estimates (table)",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pl"
+  },
+  "8d29d0920550945d06792796cb16e794ab9cb61668dbbde65660b06d35677fb7": {
+   "en": "What to do in Valparaíso: check the activities and events to cele...",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "1ef7e7029253dd67deecbf5debfd95103a54ea3b6df5cf7beb83ecf51e6d9a95": {
+   "en": "Pedro Sánchez, Matteo Renzi and Édouard Philippe debate Europe's future at World In Progress",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "9794af61fc8de51d869de07af4dd7e7a7e6ff0e971f4aefecab384ecf9962492": {
+   "en": "Giannoula Karympali-Tsiptsiou, chair of the National Theatre of Northern Greece and Aristotle University law professor, dies—Lina Mendoni's message",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "el"
+  },
+  "61896f0c306ba660d6ab42a84928cd23280840f4364362b9204c4c46747c8e05": {
+   "en": "Takis Vamvakidis: 'I had fallen apart then, but my siblings supported me' — his moving confession about his father",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "el"
+  },
+  "052dd44ca0a74eb82247ab7cdee1be00d98707e9620adb7d236b2647ca28c53f": {
+   "en": "Received a phone call from Eisenkot and Gottlieb? Here's how the political spam industry works",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "he"
+  },
+  "d6eff70e26d23d7ed2c9b7a8061b21b44c450f4dfdfda978c5f209a38c081129": {
+   "en": "Chile's consulates in Caracas and Puerto Ordaz begin providing services...",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "10c57b2ec58869280b99154a87465938ad340f4d0552d0a2efd965cba39e4e3d": {
+   "en": "Minya governor orders a hearing aid to be provided to an elderly farmer in Kafr Khuzam | Masrawy",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "98e40a8a4397fb8f93a3e4f22d66eec7a60fee032b805c577832784877c86b38": {
+   "en": "Iran: Mecca Pact countries and Tehran agree to continue talks as Trump weighs his options",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "d22a6092da79986c399fca4ceada2f52ea409e95778b9369e79960df74eb67dc": {
+   "en": "Internal letter: 'Questions and incomprehension'—how Audi chief Döllner now justifies his appearance with Trump | WELT",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "de"
+  },
+  "53dcadaf790a23ddfc2cb39277d675bb35e2f2798434d565b1d54a5b870aa530": {
+   "en": "Whose childhood is being published? Parental authority, autonomy and children's exposure on social media",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "ec7a46c6709cb39b640c33d1ed590d97d5572f90813b5835c0d0f517d0f2be0e": {
+   "en": "Fire brought under control in a residential unit in Port Said's Al-Arab district | Masrawy",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "38b29e374eb7516d55c756f2952f004c2deafac2ff8fcc2d79ab7639b27a7f0b": {
+   "en": "An emotional celebration for Alain Arnosti after 39 years, 6 months and 2 weeks at Sogexfo",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "e3e4064b061ec1429a776ac0b67570227d7c4583c8d90fc12a713bf8304bedd4": {
+   "en": "Palestine: martyrs killed by occupation fire in Gaza, thousands displaced from Hebron",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "816ceaba84b0c905eb9d049235e772d22025e40fae3c06214d82198c74cdd64f": {
+   "en": "Twelve AI models were asked a question about humans: almost all agreed on one uncomfortable truth",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "20cacb016371c7eff1a12e3a931959527ff56eccbf4c73d714e97c403b94473d": {
+   "en": "Phone Wi-Fi not working? How to restore internet access without resetting all your data",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "845591b034e0145ab68e5ee4152d6f88ed21ba6a588c9c7e96e11ed9e903c67b": {
+   "en": "Tehran concludes a high-level security meeting with Iran, Saudi Arabia, Turkey and Pak… | Masrawy",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "67e45946aca8615a0437314b3b50b29d265e05b5629d017eb21e1772cc1e746e": {
+   "en": "A special message for everyone from Keita Machida! — Aera Style Magazine",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ja"
+  },
+  "8992b9a2e6e3e0b351b27e72926fa7689358b97b69317ccc53b2dfdf03788cab": {
+   "en": "Trading verbal punches: Trump and Obama open the midterm election battle",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "843d0d6b6810fa202c1c0f122b6af10649bf7fbf594fc0b9e6bfef809c754da3": {
+   "en": "Russia launches the missile ship Grozny, which took more than five years to build",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "1f56c0e0faf371c2c2f443aa31ef089141c0b38d141e21946fac6e17087ccc1a": {
+   "en": "82-year-old woman dies in accident involving a manoeuvring lorry — WELT",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "de"
+  },
+  "b3c5a675fb7c782eaa73d04ce052bd2d891a13d1fa34592f6391e12f1669b46f": {
+   "en": "Three EU countries do not want to fund a new loan to Ukraine, sparking outrage in Germany",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "82171d7d9f6a434fcf8d4ac91e254b37e205fdf1b23ff302b50b330d85d5afd3": {
+   "en": "Iran's president: We are ready to deepen regional cooperation and resolve differences | Masrawy",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "b3674a67ea58c6d855d5b9d07faa8d1c18e377ecd1ce41d153b737f14a496fa6": {
+   "en": "Russian army launches a missile strike on Kharkiv: two people killed and others injured",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ru"
+  },
+  "5d8436f35b8f58f9626adc006bf8907c4a1a229a2136698d753b3bfa17af5c76": {
+   "en": "'From Choir to Heart' choir: singing together to boost mental health at Les Serènes Health Centre",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "a12cfd8ce5f4cc0dbfe7ec0399e16e1d840376736aa32feec16d31b29627d730": {
+   "en": "Fatal crash on the A72 also leaves two seriously injured - WELT",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "de"
+  },
+  "67bd96c68c4430387d9d063726d958c97533558ed8cc6dc01ec0ad93fc052385": {
+   "en": "Urgent weather-service warning about conditions in the coming hours | Masrawy",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "48fdc774f384bf294148fffc818e6cdf2edcbf08c620dd0af7a682bca73fa66f": {
+   "en": "Algeria decides to send army units to Niger | Masrawy",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "20b81a7c412b778921ca1aeeb8206da584d402e097ae7bf59eb1e1df3ccafd7c": {
+   "en": "Known for Star Trek: Walter Koenig has died - WELT",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "de"
+  },
+  "e349033f7e612c1ec55f5a769cf15678e24881d080efa81985652f80b96080be": {
+   "en": "Three bears spotted on the banks of Sapporo's Atsubetsu River in Ryutsu Center, Shiroishi Ward",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ja"
+  },
+  "726350f8defd4c3e457ea9c8152b5e685fc5ea4d132037cac74d1c6de2851176": {
+   "en": "Bank attacked",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ceb"
+  },
+  "c1e646cf2aa286c6f59676a73d41fa1e73b60dacd03689f74c19602d76d7f838": {
+   "en": "Five injured as a Suzuki vehicle overturns outside a mall in Sheikh Zayed | Masrawy",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "e5d38b512642838061b45d0e7f9bc5fed104d7c660f2dd7b5ada5d5a65626258": {
+   "en": "Pro D2: bus or carpool, according to your preference — what options are available for travelling to support SU Agen away at Colomiers Rugby?",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "6c0eb6a5b92dd6a14eadf6807da8a408e43d4a0d1d14d75454c6b3d598c4dfce": {
+   "en": "Former prime minister Fukuda worked to strengthen Japan–China relations and chaired the Lake Toya summit",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ja"
+  },
+  "a7d0b45aa30dde1c579cd4ee2d820df9744a3ba6189c14db5ebaabb9ac9cdfdf": {
+   "en": "'86%' of flights cancelled: Houthis disrupt air traffic at Riyadh Airport",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "0f6daaf78f28070c137e5da41211296a77ecd2fef3406eeade8b6d33abf8ebad": {
+   "en": "Garudayaksa FC suffers a dramatic defeat; Ryo Matsumura urges the team to bounce back quickly",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "93837b896cb07f844d0cbe6b8dd1e451e4f468c8bd5474095b87b35049de9970": {
+   "en": "Woman argues with TransMilenio guards after being refused entry with a washing machine",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "d915a262744e0a37037036d0f4bafa5534327ea909565df614ec586f3c71e72d": {
+   "en": "Chicken gizzards: an economical, nutritious ingredient that surprises in the kitchen",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "fb2369fb4919657f4fca0a02d2df3035727a3bf0fdbd38ef18bbb664af56f72f": {
+   "en": "Rome: the ‘hospital porter’ pigeon at Policlinico Umberto I — it has wings, but no ID badge",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "6380f333111c1390276f0305e08b79b9056ee09e8cb386372c2d956d21811700": {
+   "en": "Memory lapses do not always have the cause you think: vitamin B12 deficiency may be involved, but one essential precaution is needed in the investigation",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pt"
+  },
+  "0a650062e88f6dc0cde09ed99f98c215b26be061e9064341d588aaa68819e251": {
+   "en": "Bolívar government delivers aid to families affected by flooding in Turbaco",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "9e1fa5be55c3994c332d82aa44e3ad560b74d7f5a9d9a62ea329414d85c8be77": {
+   "en": "EU to provide €4.5 billion in guarantees for clean-energy investment in the Mediterranean",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "tr"
+  },
+  "c40984fcc284bafeeb8a8d58b58e6d82dbf5b53dd4dd5faf40ee5be5a42a8fa7": {
+   "en": "Incumbent President Yotova finishes first in the opening round of Bulgaria's presidential election",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "tr"
+  },
+  "583c83cddd7d461af046c470e62cbec4c2666e03838ed694f90fbda53e146394": {
+   "en": "ASELSAN's KGK-84 wing-assisted guidance kit successfully completes its first firing test",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "tr"
+  },
+  "dd86366f8dc858f7bde77bc2f73c31b5130618dda8b48d4f4fa715cafcfa9e2f": {
+   "en": "Garudayaksa FC slumps; Milos Joksic leaves his fate in the hands of club management",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "48510ea6ec1dbc8fdc65eb43007fdc343569484aa61d9e5d7deef7c6eaa02a44": {
+   "en": "The movement that defeated Vucic's regime in Serbia: young, leaderless and without political experience",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "8a87fc46d4d34e5157e81cd60d3ef36115d00ce3c39e2162fccaf3da2ebaf4cb": {
+   "en": "Today in 60 seconds (26 October 2026)",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "tr"
+  },
+  "e363cb3ccf1bb67e11802498a38631a08f62b235d7ec69dc069d420c56d3f595": {
+   "en": "With massive Iranian funding, Hezbollah prepares to resume fighting and produce drones within three months",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "2acfec4d9b62134f9d87135babd1688c6ce83247103ad4e7536c0be71944954e": {
+   "en": "Gammelbacka library moves to new premises",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "sv"
+  },
+  "66e41cacecc8e2ad583d277f584a3b811c0c1c1ecb17ee515d888e53c83dd23a": {
+   "en": "Turkish defence industry goes on show at AFRIDEX 2026",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "tr"
+  },
+  "79c34eea520e88a2d0ed2b8ca0c6bbceb3b7fb9ff3314d5d985bcefb40727179": {
+   "en": "‘Early 2027’: foundation stone to be laid for the ‘Development Road’ and Al-Faw port to open",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "81a12da892e6473781adaddafdf7b579055f8083bdcab920f18adaafa57dca9d": {
+   "en": "Her son marries and she gives her daughter-in-law a million—but the tax office rejects the wedding-gift exemption. The key reason revealed | Wei Fucheng | Storm Lifestyle",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "f056237de5f4e3395fe524eb008eecdf9ee524ae60677fdf0befbcde9df88650": {
+   "en": "Big winners at the 61st Golden Bell Awards revealed! Chuang Kai-hsun wins best actor and Yang Kuei-mei wins best actress for the second time — see the full winners list | Central News Agency | News",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "ecfd0ab3772bd5d40ac90d988b680e1e39fa527726dee918eeee436a1fd3dabe": {
+   "en": "Esther Yu sixth, Tian Xiwei fourth! Top 10 mainland Chinese 'post-95' actresses with the most versatile screen chemistry — the winner makes a convincing couple with any co-star | Huang Ciyu | The Storm Media Lifestyle",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh-Hant"
+  },
+  "16a87c0c8e2abd2a3d7877f4698721281f9cd5c6ac360a0fcd1a2b5312ec7821": {
+   "en": "Washington completes preparations for a large-scale military strike on Iran",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "dc787ef2e23c0fb22f2c8abb44c2bd7a0169b8838167750302b53243e706e8e5": {
+   "en": "Orbán as UN leader? Leaks about Trump's candidates reveal the deadlock in choosing a secretary-general",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "79228e153c493b8c393153db1d9f4c6fa07dd1d4c18d026de44b4b53d1e4589f": {
+   "en": "Will election-day promotions boost October's sales turnover?",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "he"
+  },
+  "e9c9d6da1b93e3b8b114494d4679dd6123628fd2896053ef293b1cdd21e7fcdf": {
+   "en": "Gaming company Ence goes bankrupt",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "sv"
+  },
+  "21ff2c5f05a10a6c493d783b9e627a848b0ae75a270277dc5fde309e27c0248c": {
+   "en": "Vaasa Administrative Court rejects Prysmian's new environmental permit",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "sv"
+  },
+  "83332b965d6f51c2e39b264c3041066b808b1812e8ebd9b84923d990d590290d": {
+   "en": "Winner of the tender to operate public transport in Binyamin and Ma'ale Adumim | Exclusive",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "he"
+  },
+  "3e8c50626cfe1b967e4020ab351917ef3adf638f2051079a116e4b68a9bfeaac": {
+   "en": "BOXING | 2026 African Elite Championships (DR Congo): Cloe Gabriel assured of at least a medal",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "69e12673f577ea6713e299dfc7d873c11e44012f4f872300acdf8c5c8f2b29af": {
+   "en": "Windows — Who is setting the world on fire?",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "afa7a984d12b84651411a87d3c13305ed4dc0762317d83412c3f224a16b9b4cf": {
+   "en": "Israeli elections: security restrictions in the West Bank and exchanges of accusations between Netanyahu and his opponents",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "7527cd043d56067c3b87bd8c1cd699d2fa13fb0485e507a6a10676b99a5e4300": {
+   "en": "Eric Bauza, the voice of Bugs Bunny and Daffy Duck, dies at 46: what happened",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "bc0e7b784c1cde3a988263afe50702409d2932a8bc3dbbd276256fc4aa58e804": {
+   "en": "'Omoda X': an adventure vehicle with futuristic styling and night vision that detects hazards",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "b88a87aabd05dee6be09bf1df78a6e7d086580b5e2a1ad4e729539b822df6f57": {
+   "en": "Telefe stands out in Sunday's ratings, with MasterChef Celebrity as its star attraction",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "6bde1257b45604463d5996aa957bfb5ad81de670190dab6d9725d45dda50917e": {
+   "en": "Burnham confirms he wants Britain to rejoin the European Union",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "cb8a56316f51b8a61a049117e3bd310a9bed47f7d9d028cfdd7af34db3c82faf": {
+   "en": "Ottawa mayoral candidate: The Gaza war is a local issue, and I will fly the Palestinian flag",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "18b8b5eedec5831fc0707d5ba9090fa0635b083abdae3bb2790db9cb1dd5420e": {
+   "en": "El Komanche: the YouTuber and friend of El Rubius who was found dead in Monterrey",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "010149a415385e1c2c285d19edadc703e64b5a73549cbaa3b8a8cf163ecd39d4": {
+   "en": "Basra crude boosts India's supplies by 3 million barrels",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ar"
+  },
+  "a83d5b132ece7d81dc6074ad413f233166c8c8d880803de2002d22d500dca81c": {
+   "en": "Eligibility checks for China's 2027 national civil service exam end; average competition reaches 97 applicants per place",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh"
+  },
+  "012151741489dbfe4d4f32d9f584beeb0f009328eccda8ffdeea3badfad68d7d": {
+   "en": "Brazil's currency and share prices plunged",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fi"
+  },
+  "523ae486bf0b339ad35ec132ead675ff93f596fa65db7685122aa76d1cd5c8a8": {
+   "en": "Beşiktaş v Istanbul Başakşehir score prediction: the home side's form remains inconsistent",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "id"
+  },
+  "37f6c542ce2d77873158db8d55cf6b4811abf4210501b51beb011dbe26e700b1": {
+   "en": "She made a good decision to step down: Sheinbaum on Guadalupe Taddei's resignation from the INE",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "09d82ddc54110c8420d5ddad57dc8cea2263a8038a03246b6c3e011c982c4466": {
+   "en": "Quick commentary: escalating operations in the West Bank — the political calculations beyond Israeli election security",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "zh"
+  },
+  "b7f290c8596115fb75ba756375b8e15ae8e7b8c633d33e347ba7a8f74c6ea623": {
+   "en": "A 120-year-old building becomes a new daycare centre in Vaasa—Brändö daycare opens its doors",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "sv"
+  },
+  "a3b6fc8cede865dbab6cad5f60a00bcd454c1f4f9ec7623ea2e2a183b8b398b1": {
+   "en": "Milan, house fire in Vigentino: an elderly disabled woman dies, seven suffer smoke inhalation",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "5aa131940d52e97a022f42f59968e799289aa1a5e250f4ab96033be25e162f5f": {
+   "en": "Sheinbaum's morning press conference: 26 October 2026",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "e8b29d7082a6b8dc21250a46c0dfb1d308c05027d843bb44f31fd9631d4a499e": {
+   "en": "Axel Kicillof says Bolsonaro's defeat by Lula represents a rejection of 'Milei's chainsaw' model",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "f8d1db271bf2e1897df7fea41e8f183eb01b1e6ac7a47f0520e9c04c2ecfda7e": {
+   "en": "Journalists' observations in support of Chinese society",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fi"
+  },
+  "ca51d494613bb582f24d2d9901dbb5c4fb3eed59540358c73a500abf89932e5d": {
+   "en": "Youssef Siher: Milan prosecutor seeks jail for the creator of the ‘17 October Movement’ social-media channel — ‘He could develop a revolutionary strategy’",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "60a036d8f2857a6c8ff67fcb7039d78cc766fd79eb616af1e3914e5d401aa7ec": {
+   "en": "Concrete falls from municipal housing's exterior wall and strikes a junior high school student's head in Kitakyushu | Asahi Shimbun",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ja"
+  },
+  "338edd5394938ca353732ef2f9441b7bb943a12957689b47df404bc5f9ad996e": {
+   "en": "Cristina Kirchner trial, LIVE: new money-laundering hearing in the Hotesur and Los Sauces cases, and the latest news",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "32fa7ebc781dec1444cc8a3fd71c4b54741504021a9d57d268e51649f74243fb": {
+   "en": "The fierce public backlash and controversy with Westcol that El Komanche faced before his death",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "742a325958645a83e9267a6d409efb1b8dcf3b6ef0856d47f6d1114a110fd8e6": {
+   "en": "Who is FernandaVaal, the influencer who accused El Komanche of abuse? PHOTOS",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "31493ecb2d9188639bc0ca856aaf55d666d0d0c7f57f3443c9341d1070ab0be8": {
+   "en": "Humanitarian truce in Ukraine: Moscow does not rule out similar agreements",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pl"
+  },
+  "52179a6055c83d7b445d180805b52485d6ae66eed4a9f08dbee5417e7e001607": {
+   "en": "President Kast congratulates Lula on his re-election: ‘Chile and Brazil have a great deal of future in common’ | Puranoticia.cl",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "a8c95d7981f368b9baf9b4966474eded1605fbc28bd7f0a2f13e0e0df8d9467c": {
+   "en": "Douvikas officially renews with Como until 2031: 'I felt at home from the very first moment' | iefimerida.gr",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "el"
+  },
+  "7c527d78fb925735316eb72763ed96a38c574267ba3677bd65d6003e98b9315e": {
+   "en": "'In case of snow': Monza's Colmar outfits Austria's national ski team and revives its historic slogan",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "809caa8daa6672b441a746e09952c1df087ff75cbf61ea38974e0573e8680996": {
+   "en": "Industry: new head of Carl Zeiss Meditec to take up her post before the end of 2026",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "de"
+  },
+  "57a7927971cee362de6618a38fe92df4074e8bab5e4c12170b1db48b95aa6e31": {
+   "en": "Marinakis on Pizza Fan and 'Choriatiko': no one can enrich themselves at taxpayers' expense—the Directorate for Combating Organised Crime has dismantled 259 criminal organisations | iefimerida.gr",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "el"
+  },
+  "512aef1206aeb23ee4e0841e1249355009cd4c1f5974a29d0c29468aaa3158b7": {
+   "en": "European Commission wants to cut cod catches by as much as 88%; Poland protests",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pl"
+  },
+  "92067b41c40f59ae00af61e13a13188f56f8bb198941de5499faee5c23d09cc2": {
+   "en": "Częstochowa after the referendum: Czarnek appeals to the entire political right",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "pl"
+  },
+  "7b3db2bf26e782328aeb8479ccd106bfe041dafddb10c3cb17353f94c9dae421": {
+   "en": "Impagnatiello: today's ruling finds premeditation in Giulia Tramontano's femicide. Milan's prosecutor-general: 'A horrible individual and a liar'",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "b2ef5dfaf9d7bc2c8ad223c584ba96aa8c4a736b64ca6a744140db6b1ee4ad75": {
+   "en": "Banking News: Major irregularity in the banking system! ₹13.96 crore transferred from Central Bank of India — what happened?",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "hi"
+  },
+  "41073a6e652b2a500716750ce23375cd59666ae7e32b334364073d842d96fab0": {
+   "en": "Charlotte Casiraghi: ‘At 11, I wrote letters to my father, who was no longer there. How embarrassing it was not to be like everyone else’",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "108d0c3f3fee281624347d3cca081bfdd081b0356705879434c0d72aed41dffa": {
+   "en": "Serbia: who are the students who defeated nationalist, pro-Russian Vucic? A turning point after 14 years",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "3055fec87fb3f67b341946c6935d61aa163fedd62d138ce8fcd21b23e011417b": {
+   "en": "Film Festival fashion scores: Claudia Pandolfi as a femme fatale (9), Malika Ayane's beret (7), glamorous Beatrice Arnera (8), Stefania Sandrelli fails to impress (4)",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "it"
+  },
+  "a8229673aa5bdb25892b1e949a35fc4bbe48832620b1336579987707393a49fc": {
+   "en": "‘Women are unsuited to shogi’ is nonsense: a neuroscientist discusses the ‘threat’ of prejudice — The Asahi Shimbun",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "ja"
+  },
+  "45ae22edd5c75b34794fd634a1ebe90ec4136163215624897cf960dfd79d1217": {
+   "en": "Vehicles in Rahul Gandhi's convoy collide; special investigation team formed",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "hi"
+  },
+  "a55f02796bf83d1bc3b0aef821597981361d90070f68fa161e468a99aa4e4d18": {
+   "en": "Forget Mann Ki Baat, talk about inflation: Jairam Ramesh sharply attacks PM Modi",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "hi"
+  },
+  "54a75ae071740dec40e65acf39659745dab6823283a398a3b3de9cb8a721586a": {
+   "en": "FD rate hike: good news for fixed-deposit investors — this bank has increased its interest rate; see the new rates",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "hi"
+  },
+  "e7af82db261f6a868854a5f04353b182ce92415a4aa246a932c478a3726e940d": {
+   "en": "A first in more than half a century: Algeria authorises sending military troops abroad",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "fr"
+  },
+  "5c694c2c83af31f0fe273aec032edc3976c3a435442977f3f5b5c5349831582f": {
+   "en": "Lula: 'Brazil is nobody's backyard' - BBC News Mundo",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  },
+  "0e11b91b771658d94ed7e998ade04c7435433635e84fcfc1dd279891cdba54d9": {
+   "en": "Ernestina Godoy and Julio Menchaca open FGR social-assistance service units",
+   "model": "codex-session",
+   "at": "2026-10-27T00:08:05Z",
+   "lang": "es"
+  }
+ }
+}
