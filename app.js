@@ -1,4 +1,4 @@
-/* The Present Tense: one continuous field, an oracle, constellations, a tide. No build step. */
+/* The Present Tense: one continuous field, the day's narratives along the bottom, constellations, a tide. No build step. */
 (() => {
   'use strict';
   const $ = (s, r = document) => r.querySelector(s);
@@ -222,10 +222,11 @@
   }
 
   /* ---------- camera ---------- */
+  const stripH = () => { const s = $('#narratives'); return s ? s.offsetHeight : 0; };
   function viewport() {
     const w = window.innerWidth - (state.drawer && !mobile() ? parseInt(getComputedStyle(document.documentElement).getPropertyValue('--drawer-w')) : 0);
     const top = fieldEl.getBoundingClientRect().top;
-    const h = window.innerHeight - top - (mobile() ? (state.drawer ? 0 : 130) : 170);
+    const h = window.innerHeight - top - stripH();
     return { w, h, top };
   }
   function bucket() {
@@ -453,7 +454,7 @@
     const star = p => [p.x * z + px + 4, p.y * z + py + 4];
     ctx.save();
     const focus = state.focusIds ? new Set(state.focusIds) : null;
-    // the constellation: dotted lines star to star, in the order the oracle cites them
+    // the constellation: dotted lines star to star, in the order the narrative cites them
     ctx.setLineDash([1.2, 5.5]); ctx.lineCap = 'round'; ctx.lineWidth = 1.3;
     const nearLevel = z >= LEVEL_Z.near, inView = (x, y) => x > -w * 0.5 && x < w * 1.5 && y > -h * 0.5 && y < h * 1.5;
     for (let i = 0; i < pts.length - 1; i++) {
@@ -474,10 +475,11 @@
       }
       ctx.fillText('*', sx - 4, sy + 5);
     }
-    // the oracle speaks to its nearest star
-    const o = $('#oracle'); if (!o.offsetParent) { ctx.restore(); return; }
+    // a dotted thread from the selected narrative's card to its nearest star
+    const o = $('#narratives-strip .narrative[aria-pressed="true"]'); if (!o || !o.offsetParent) { ctx.restore(); return; }
     const orect = o.getBoundingClientRect(), frect = fieldEl.getBoundingClientRect();
-    const ox = orect.left + orect.width / 2 - frect.left, oy = orect.top - frect.top;
+    if (orect.right < 0 || orect.left > frect.width) { ctx.restore(); return; }
+    const ox = clamp(orect.left + orect.width / 2 - frect.left, 0, frect.width), oy = orect.top - frect.top;
     let best = null, bd = Infinity;
     for (const p of pts) { const [x, y] = star(p); const d = Math.hypot(x - ox, y - oy); if (d < bd) { bd = d; best = [x, y]; } }
     if (best) { ctx.strokeStyle = ink('--ink-3'); ctx.setLineDash([1, 7]); ctx.beginPath(); ctx.moveTo(ox, oy); ctx.lineTo(best[0], best[1]); ctx.stroke(); }
@@ -493,7 +495,7 @@
     beads.forEach(p => { p.lit = !!r && r.articleIds.includes(p.a.id); p.el.classList.toggle('lit', p.lit); p.el.tabIndex = p.lit ? 0 : -1; p.lx = undefined; });
     litKey = '';
     worldEl.classList.toggle('reading', !!r);
-    renderOracle();
+    renderStrip();
     state.drawer = !!r && open;
     document.body.classList.toggle('drawer-open', state.drawer);
     $('#drawer').hidden = !state.drawer;
@@ -501,13 +503,27 @@
     if (fit) fitReading();
     cameraDirty = true; writeHash();
   }
-  function renderOracle() {
-    const r = currentReading(), list = readings.readings, i = list.findIndex(x => x.id === state.reading);
-    $('#oracle-count').textContent = `THE ORACLE · ${list.length} READINGS OF ${fmt(readings.newsGeneratedAt).toUpperCase()}`;
-    $('#oracle-index').textContent = r ? `${i + 1} / ${list.length}` : `– / ${list.length}`;
-    $('#oracle-line').textContent = r ? r.line : 'The field is open. Choose a reading.';
-    $('#oracle-kicker').textContent = r ? r.kicker : '';
-    $('#oracle-open').hidden = !r; $('#oracle-clear').hidden = !r;
+  let stripBuilt = false;
+  function renderStrip() {
+    const r = currentReading(), list = readings.readings;
+    $('#narratives-count').textContent = `${list.length} NARRATIVES IN THE HEADLINES OF ${fmt(readings.newsGeneratedAt).toUpperCase()}`;
+    $('#narratives-clear').hidden = !r;
+    const strip = $('#narratives-strip');
+    if (!stripBuilt) {
+      strip.replaceChildren();
+      list.forEach((x, i) => {
+        const b = create('button', 'narrative'); b.type = 'button'; b.setAttribute('role', 'listitem'); b.dataset.id = x.id;
+        const n = new Set(x.articleIds.map(id => (byId.get(id) || {}).sourceCountry).filter(Boolean)).size;
+        b.append(create('span', 'k', `${String(i + 1).padStart(2, '0')} · ${x.kicker}`), create('span', 'n', x.line), create('span', 'm', `${x.articleIds.length} headlines · ${n} countries`));
+        b.addEventListener('click', () => selectReading(x.id, { open: true, fit: state.reading !== x.id }));
+        strip.append(b);
+      });
+      stripBuilt = true;
+    }
+    strip.querySelectorAll('.narrative').forEach(b => {
+      const on = !!r && b.dataset.id === r.id; b.setAttribute('aria-pressed', String(on));
+      if (on && typeof b.scrollIntoView === 'function') b.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+    });
   }
   function stepReading(d) {
     const list = readings.readings, i = list.findIndex(x => x.id === state.reading);
@@ -519,11 +535,11 @@
     beads.forEach(p => p.el.classList.toggle('focus', !!state.focusIds && state.focusIds.includes(p.a.id)));
     cameraDirty = true;
   }
-  const KIND = { observation: 'in the headlines', interpretation: 'the oracle’s move', break: 'the case against' };
+  const KIND = { observation: 'what the headlines say', interpretation: 'what might connect them', break: 'why this might be wrong' };
   function renderDrawer() {
     const r = currentReading(), body = $('#drawer-body'); body.replaceChildren(); if (!r) return;
     const list = readings.readings, idx = list.findIndex(x => x.id === r.id);
-    $('#drawer-eyebrow').textContent = `READING ${String(idx + 1).padStart(2, '0')} / ${String(list.length).padStart(2, '0')} · ${readings.method === 'claude-authored-seed' ? 'SEED EDITION' : 'AI EDITION'} · ${fmt(readings.generatedAt).toUpperCase()}`;
+    $('#drawer-eyebrow').textContent = `NARRATIVE ${String(idx + 1).padStart(2, '0')} / ${String(list.length).padStart(2, '0')} · ${readings.method === 'claude-authored-seed' ? 'SEED EDITION' : 'AI EDITION'} · ${fmt(readings.generatedAt).toUpperCase()}`;
     body.append(create('p', 'reading-kicker', r.kicker), create('h2', 'reading-line', r.line), create('p', 'reading-claim', r.claim));
     const ol = create('ol', 'rungs');
     r.rungs.forEach((rung, i) => {
@@ -553,8 +569,8 @@
     if (r.horizons && r.horizons.length) body.append(horizonsEl(r));
     const foot = create('div', 'reading-foot');
     const cites = create('span', 'cites', `${r.articleIds.length} headlines · ${new Set(r.articleIds.map(id => (byId.get(id) || {}).sourceCountry)).size} countries`);
-    const nav = create('span', 'oracle-actions');
-    const prev = create('button', 'text', '← previous'), next = create('button', 'text', 'next reading →');
+    const nav = create('span', 'reading-nav');
+    const prev = create('button', 'text', '← previous'), next = create('button', 'text', 'next narrative →');
     prev.addEventListener('click', () => stepReading(-1)); next.addEventListener('click', () => stepReading(1));
     nav.append(prev, next); foot.append(cites, nav); body.append(foot);
     body.scrollTop = 0;
@@ -649,7 +665,7 @@
     const go = create('a', 'go', 'Read the story at ' + (a.publisherDomain || a.publisher) + ' ↗'); go.href = safeURL(a.url); go.target = '_blank'; go.rel = 'noopener noreferrer'; card.append(go);
     const cites = readings.readings.filter(r => r.articleIds.includes(a.id));
     if (cites.length) {
-      const inn = create('div', 'in'); inn.append(create('div', 'w', 'IN THE ORACLE’S READINGS'));
+      const inn = create('div', 'in'); inn.append(create('div', 'w', 'IN THE NARRATIVES'));
       cites.forEach(r => { const b = create('button', '', r.line); b.type = 'button'; b.addEventListener('click', () => { closeCard(); selectReading(r.id, { open: true }); }); inn.append(b); });
       card.append(inn);
     }
@@ -790,11 +806,11 @@
   /* ---------- events ---------- */
   function bind() {
     bindField();
-    $('#oracle-line').addEventListener('click', () => { if (currentReading()) selectReading(state.reading, { open: true, fit: false }); else selectReading(readings.readings[0].id, { open: true }); });
-    $('#oracle-open').addEventListener('click', () => selectReading(state.reading, { open: true, fit: false }));
-    $('#oracle-clear').addEventListener('click', () => { selectReading('', { open: false, fit: false }); fitWorld(); });
-    $('#prev-reading').addEventListener('click', () => stepReading(-1));
-    $('#next-reading').addEventListener('click', () => stepReading(1));
+    $('#narratives-clear').addEventListener('click', () => { selectReading('', { open: false, fit: false }); fitWorld(); });
+    if ('ResizeObserver' in window) {
+      const setStrip = () => { document.documentElement.style.setProperty('--strip-h', stripH() + 'px'); sizeCanvas(); cameraDirty = true; };
+      new ResizeObserver(setStrip).observe($('#narratives')); setStrip();
+    }
     $$('[data-open]').forEach(b => b.addEventListener('click', e => { e.preventDefault(); openPanel(b.dataset.open); }));
     $$('[data-close]').forEach(b => b.addEventListener('click', () => { if (b.dataset.close === 'drawer') { state.drawer = false; document.body.classList.toggle('drawer-open', false); $('#drawer').hidden = true; setFocus(null); writeHash(); } else openPanel(b.dataset.close); }));
     $('[data-action="home"]').addEventListener('click', e => { e.preventDefault(); if (state.panel) openPanel(state.panel); selectReading(readings.readings[0].id, { open: false }); });

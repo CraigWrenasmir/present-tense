@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Present Tense</title>
-<meta name="description" content="A field of the world's headlines and an oracle that reads them into constellations. Possible narratives of the present, with sources, arguments and the case against each reading.">
+<meta name="description" content="A field of the world's headlines and the narratives that run through them, with sources, the connections spelled out, and the case against each one.">
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
@@ -42,29 +42,21 @@
   <p class="hint mono" id="hint">drag to move · scroll or double-click to zoom · zoom in until the countries open · click a headline to read it</p>
 </main>
 
-<section class="oracle" id="oracle" aria-label="The oracle">
-  <div class="oracle-head mono">
-    <span id="oracle-count">THE ORACLE</span>
-    <span class="oracle-nav">
-      <button id="prev-reading" aria-label="Previous reading">◁</button>
-      <span id="oracle-index">1 / 7</span>
-      <button id="next-reading" aria-label="Next reading">▷</button>
+<section class="narratives" id="narratives" aria-label="The narratives in today's headlines">
+  <div class="narratives-head mono">
+    <span id="narratives-count">NARRATIVES</span>
+    <span class="narratives-actions">
+      <span id="narratives-hint" class="narratives-hint">select one to see its headlines and the case for and against it</span>
+      <button class="text" id="narratives-clear" hidden>Clear</button>
     </span>
   </div>
-  <button class="oracle-line" id="oracle-line" aria-describedby="oracle-kicker">…</button>
-  <div class="oracle-foot">
-    <span class="mono" id="oracle-kicker"></span>
-    <span class="oracle-actions">
-      <button class="text" id="oracle-open">Open the reading →</button>
-      <button class="text" id="oracle-clear">Clear</button>
-    </span>
-  </div>
+  <div class="narratives-strip" id="narratives-strip" role="list"></div>
 </section>
 
-<aside class="drawer" id="drawer" hidden aria-label="Reading">
+<aside class="drawer" id="drawer" hidden aria-label="Narrative">
   <div class="drawer-top mono">
-    <span id="drawer-eyebrow">READING</span>
-    <button class="close" data-close="drawer" aria-label="Close the reading">×</button>
+    <span id="drawer-eyebrow">NARRATIVE</span>
+    <button class="close" data-close="drawer" aria-label="Close the narrative">×</button>
   </div>
   <div class="drawer-body" id="drawer-body"></div>
 </aside>
@@ -88,20 +80,20 @@
 <aside class="panel" id="about-panel" hidden aria-label="About this site">
   <div class="panel-top mono"><span>ABOUT</span><button class="close" data-close="about" aria-label="Close">×</button></div>
   <div class="panel-body prose" id="about-body">
-    <h2>A world in conversation, read by an oracle.</h2>
-    <p>The Present Tense gathers hundreds of headlines from publishers in dozens of countries and lays them out as a field: softly geographic, slowly drifting, every one of them a door to the original report. At the centre of the field is an oracle. It reads the collection and proposes constellations: possible narratives that join a headline in Lagos to one in Taipei to one in Córdoba.</p>
-      <p>This is a Glass Bead Game played with the news. The readings are interpretations, not findings. Each one commits to a claim, shows its evidence, and then argues against itself in a final rung called <em>Break this reading</em>. Read both halves. The point is the argument, not the verdict.</p>
+    <h2>The day's headlines, and the narratives that run through them.</h2>
+    <p>The Present Tense gathers hundreds of headlines from publishers in dozens of countries and lays them out as a field, roughly by geography, each one a link to the original report. Once a day a language model reads the whole collection and describes, in plain language, five narratives that connect headlines across countries: a story in Lagos with one in Taipei with one in Córdoba. They are shown along the bottom of the page.</p>
+      <p>The narratives are interpretations, not findings. Each one states a claim, shows which headlines it rests on, says what might connect them, and then sets out the strongest case against itself in a final section called <em>The case against</em>. Read both. The point is the argument, not the verdict.</p>
     <h3>What you are looking at</h3>
     <p>Headlines come from the GDELT Article List, which indexes world news metadata: titles, links, publishers, languages and timestamps. Nothing else is copied. Each headline links to its publisher. The map places a headline at its <em>publisher's</em> country, never at the event's location. Headlines appear in English by default; the original wording is always one tap away, and a country's press is not that country's people.</p>
     <p>Geography on this page is loose on purpose. Headlines are pushed apart so you can read them, so Europe swells and the oceans fill. Hollow rings mark countries we have publishers for but heard nothing from in this collection. That is a gap in our listening, not a silence in the country. Many countries have no publisher here at all. The field is partial and says so.</p>
     <h3>How we got here</h3>
-    <p>Every reading ends with four horizons: the past decade, the past fifty years, since September 2001 and since 1945. They place the day's pattern on longer trajectories, sociological, economic, demographic, migratory, environmental, technological and legal, and they point to the moments and books they stand on. A ruler above them marks those moments. They are written as a trajectory, not a verdict: how the present might have arrived, with the dates and institutions named so the reader can check and disagree.</p>
+    <p>Every narrative ends with four horizons: the past decade, the past fifty years, since September 2001 and since 1945. They place the day's pattern on longer trajectories, sociological, economic, demographic, migratory, environmental, technological and legal, and they point to the moments and books they stand on. A ruler above them marks those moments. They are written as a trajectory, not a verdict: how the present might have arrived, with the dates and institutions named so the reader can check and disagree.</p>
     <h3>The tide</h3>
     <p>Every edition is compared with the one before. Headlines that arrived, stayed or departed are marked, and departed headlines can be shown as ghosts. The present is only legible against the recent past.</p>
     <h3>How it stays live</h3>
-    <p id="about-live">A scheduled job collects a fresh bounded sample of headlines, translates new ones, and asks Claude to compose a new edition of readings against a strict schema: a claim, sourced fragments, a mandatory case against, and four historical horizons. Headlines are collected four times a day and read once, in a batch request that runs the same model at half the price; the headlines a reading cites stay in the field until the next reading. The site refuses an edition whose citations do not resolve. Collection without a key keeps the previous readings and marks them as older than the headlines.</p>
+    <p id="about-live">A scheduled job collects a fresh bounded sample of headlines, translates new ones, and asks Claude to write a new edition of narratives against a strict schema: a claim, sourced sections, a mandatory case against, and four historical horizons. Headlines are collected four times a day and read once, in a batch request that runs the same model at half the price; the headlines a narrative cites stay in the field until the next edition. The site refuses an edition whose citations do not resolve. Collection without a key keeps the previous narratives and marks them as older than the headlines.</p>
     <h3>Credits and limits</h3>
-    <p>Concept and direction: Craig Smith. First prototype, collector and map derivation: Codex. This version, seed readings and the oracle brief: Claude. Headline metadata: <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener">The GDELT Project</a>. Land: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. The line "the future arrives as somebody else's maintenance" is Codex's.</p>
+    <p>Concept and direction: Craig Smith. First prototype, collector and map derivation: Codex. This version, the seed edition and the writing brief: Claude. Headline metadata: <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener">The GDELT Project</a>. Land: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. The line "the future arrives as somebody else's maintenance" is Codex's.</p>
     <p class="mono small" id="about-edition"></p>
   </div>
 </aside>
