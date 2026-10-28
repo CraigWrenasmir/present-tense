@@ -125,7 +125,11 @@ jobs:
           git add -A -- data
           if ! git diff --cached --quiet; then
             git commit -m "Edition $(date -u +'%Y-%m-%d %H:%M') UTC"
-            git push
+            # commits made by hand while this run was working must not fail it: rebase onto them and retry
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "push attempt $attempt failed; retrying"; sleep 10
+            done
           fi
       - name: Build
         run: python scripts/build.py
