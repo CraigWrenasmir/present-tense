@@ -94,6 +94,7 @@
     <p id="about-live">A scheduled job collects a fresh bounded sample of headlines, translates new ones, and asks Claude to write a new edition of narratives against a strict schema: a claim, sourced sections, a mandatory case against, and four historical horizons. Headlines are collected four times a day and read once, in a batch request that runs the same model at half the price; the headlines a narrative cites stay in the field until the next edition. The site refuses an edition whose citations do not resolve. Collection without a key keeps the previous narratives and marks them as older than the headlines.</p>
     <h3>Credits and limits</h3>
     <p>Concept and direction: Craig Smith. First prototype, collector and map derivation: Codex. This version, the seed edition and the writing brief: Claude. Headline metadata: <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener">The GDELT Project</a>. Land: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. The line "the future arrives as somebody else's maintenance" is Codex's.</p>
+    <p>Visits are counted by <a href="https://www.goatcounter.com/" target="_blank" rel="noopener">GoatCounter</a>: page views only, no cookies, no identification of readers, and nothing about which narrative or headline you opened. The counts are <a href="https://presenttense.goatcounter.com/" target="_blank" rel="noopener">public</a>.</p>
     <p class="mono small" id="about-edition"></p>
   </div>
 </aside>
@@ -102,5 +103,7 @@
 <div class="scrim" id="scrim" hidden></div>
 <div class="toast mono" id="toast" hidden></div>
 <div id="errlog" hidden></div>
+<!-- Visits are counted by GoatCounter: page views only, no cookies, no fingerprinting, and the URL hash (which carries the view state) is never sent. -->
+<script data-goatcounter="https://presenttense.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
