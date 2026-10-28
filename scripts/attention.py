@@ -29,6 +29,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -179,12 +180,19 @@ def wikipedia(day):
     out = []
     for code, name in WIKIS:
         url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/top/{code}.wikipedia/all-access/{day:%Y/%m/%d}"
-        try:
-            items = get(url)["items"][0]["articles"]
-        except Exception as error:  # noqa: BLE001
-            print(f"attention: wikipedia {code} {day:%Y-%m-%d}: {error}", file=sys.stderr)
-            if "404" in str(error) and not out:
-                return []  # the day is not published yet; the caller tries the day before
+        items = None
+        for attempt in (1, 2):  # the API sometimes answers 404 for a list that exists; one retry catches most of those
+            try:
+                items = get(url)["items"][0]["articles"]
+                break
+            except Exception as error:  # noqa: BLE001
+                if attempt == 2:
+                    print(f"attention: wikipedia {code} {day:%Y-%m-%d}: {error}", file=sys.stderr)
+                    if "404" in str(error) and not out:
+                        return []  # the day is not published yet; the caller tries the day before
+                else:
+                    time.sleep(2)
+        if items is None:
             continue
         arts = []
         for a in items:
@@ -245,6 +253,16 @@ def main():
             if wiki:
                 break
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    # a day already kept is never made poorer: languages that failed this time keep their lists from the earlier run
+    kept = DATA / "attention" / f"{day:%Y-%m-%d}.json"
+    if kept.exists():
+        try:
+            old_langs = {l["language"]: l for l in json.loads(kept.read_text()).get("wikipedia", {}).get("languages", [])}
+            have = {l["language"] for l in wiki}
+            wiki.extend(l for code, l in old_langs.items() if code not in have)
+            wiki.sort(key=lambda l: [c for c, _ in WIKIS].index(l["language"]) if l["language"] in [c for c, _ in WIKIS] else 99)
+        except (OSError, ValueError):
+            pass
     cache = load_cache()
     for l in wiki:
         resolve_pages(l["language"], [a["title"].replace(" ", "_") for a in l["articles"]], cache, today)
