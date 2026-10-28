@@ -133,9 +133,8 @@
   function setEditionLine() {
     const countries = new Set(news.articles.map(a => a.sourceCountryCode)).size, langs = new Set(news.articles.map(a => a.language)).size;
     let t = `${fmt(news.generatedAt)} · ${news.articles.length} headlines · ${countries} countries · ${langs} languages`;
-    if (!isLive()) t += ` · narratives of ${fmt(readings.newsGeneratedAt)}, ${held.length} of their headlines held in the field`;
-    else if (readings.newsGeneratedAt && readings.newsGeneratedAt !== news.generatedAt) t += held.length ? ` · readings from ${fmt(readings.newsGeneratedAt)}, ${held.length} of their headlines held in the field` : ' · readings are from an earlier collection';
     $('#edition').textContent = t;
+    $('#edition').title = !isLive() ? `Narratives of ${fmt(readings.newsGeneratedAt)}; ${held.length} of their headlines are held in the field` : held.length ? `${held.length} headlines cited by the narratives are held in the field from an earlier collection` : '';
   }
 
   /* ---------- layout ----------
@@ -1052,7 +1051,7 @@
 
   /* ---------- language, night ---------- */
   function setLang(l) {
-    state.lang = l; $('#lang').setAttribute('aria-pressed', String(l === 'orig')); $('#lang').innerHTML = l === 'orig' ? '<span class="long">English</span><span class="short">EN</span>' : '<span class="long">Original</span><span class="short">文</span>';
+    state.lang = l; $('#lang').setAttribute('aria-pressed', String(l === 'orig')); $('#lang').textContent = l === 'orig' ? 'EN' : '文'; $('#lang').dataset.tip = l === 'orig' ? 'Back to English headlines.' : 'Each headline in the language it was published in.'; $('#lang').setAttribute('aria-label', l === 'orig' ? 'English' : 'Original language');
     beads.forEach(fillBead); ghosts.forEach(fillBead);
     if (state.drawer) renderDrawer(); if (state.panel === 'index') renderIndexList(); if (state.panel === 'tide') renderTide();
     try { localStorage.setItem('pt-lang', l); } catch {}
@@ -1110,6 +1109,19 @@
     $('#zoom-world').addEventListener('click', fitWorld);
   }
 
+  /* A plain sentence under a header item: on hover after a beat, on keyboard focus at once. */
+  function bindTips() {
+    const tip = $('#tip'); if (!tip) return; let timer = null;
+    const show = el => { const r = el.getBoundingClientRect(); tip.textContent = el.dataset.tip; tip.hidden = false; const w = tip.offsetWidth; let left = r.left + r.width / 2 - w / 2; left = Math.max(8, Math.min(left, window.innerWidth - w - 8)); tip.style.left = left + 'px'; tip.style.setProperty('--tip-x', (r.left + r.width / 2 - left - 5) + 'px'); };
+    const hide = () => { clearTimeout(timer); tip.hidden = true; };
+    $$('[data-tip]').forEach(el => {
+      el.addEventListener('mouseenter', () => { clearTimeout(timer); timer = setTimeout(() => show(el), 260); });
+      el.addEventListener('mouseleave', hide);
+      el.addEventListener('focus', () => show(el)); el.addEventListener('blur', hide);
+      el.addEventListener('click', hide);
+    });
+  }
+
   /* ---------- events ---------- */
   function bind() {
     bindField();
@@ -1129,6 +1141,10 @@
     $('#night').addEventListener('click', () => setNight(document.documentElement.dataset.theme !== 'night'));
     $('#more-lang').addEventListener('click', () => { setLang(state.lang === 'en' ? 'orig' : 'en'); syncTabs(); });
     $('#more-night').addEventListener('click', () => { setNight(document.documentElement.dataset.theme !== 'night'); syncTabs(); });
+    bindTips();
+    // the first visit: one line under the masthead, dismissed once and remembered
+    try { if (localStorage.getItem('pt-seen') !== '1') { $('#first').hidden = false; } } catch { $('#first').hidden = false; }
+    $('#first-close').addEventListener('click', () => { $('#first').hidden = true; try { localStorage.setItem('pt-seen', '1'); } catch {} });
     // the phone's furniture
     $('#field-cover').addEventListener('click', openField);
     $('#field-back').addEventListener('click', closeField);

@@ -24,13 +24,16 @@
   </a>
   <div class="edition mono" id="threads-edition">THREADS</div>
   <nav class="tools" aria-label="Views">
-    <a class="tool" href="./#view=editions">Editions</a>
-    <a class="tool" href="lineage.html">Lineage</a>
-    <a class="tool" href="./">← the field</a>
-    <button class="tool" id="night" aria-pressed="false" title="Night">◐</button>
+    <span class="group">
+      <a class="tool" href="./#view=editions" data-tip="Every day's narratives, kept. Step back to where we were.">Editions</a>
+      <a class="tool" href="lineage.html" data-tip="The books and arguments the idea comes from.">Lineage</a>
+      <a class="tool" href="./" data-tip="Back to today's headlines and narratives.">← the field</a>
+    </span>
+    <span class="group settings"><button class="tool glyph-tool" id="night" aria-pressed="false" aria-label="Night" data-tip="White on black.">◐</button></span>
   </nav>
 </header>
 
+<div class="tip mono" id="tip" hidden role="tooltip"></div>
 <main class="threads-page">
   <section class="loom-wrap" aria-label="The narratives across editions">
     <div class="loom-head mono">

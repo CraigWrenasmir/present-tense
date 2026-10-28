@@ -34,17 +34,31 @@
   </a>
   <div class="edition mono" id="edition">opening the collection…</div>
   <nav class="tools" aria-label="Views">
-    <button class="tool" data-open="editions" aria-pressed="false" title="Every edition of narratives: where we were"><span class="long">Editions</span><span class="short" aria-hidden="true">↶</span></button>
-    <a class="tool" href="threads.html" title="The narratives across days, and the Chronicle"><span class="long">Threads</span><span class="short" aria-hidden="true">≋</span></a>
-    <button class="tool" data-open="attention" aria-pressed="false" title="What people looked up and talked about"><span class="long">Looked up</span><span class="short" aria-hidden="true">⌕</span></button>
-    <button class="tool" data-open="tide" aria-pressed="false"><span class="long">Tide</span><span class="short" aria-hidden="true">≈</span></button>
-    <button class="tool" data-open="index" aria-pressed="false"><span class="long">Index</span><span class="short" aria-hidden="true">☰</span></button>
-    <button class="tool" data-open="about" aria-pressed="false"><span class="long">About</span><span class="short" aria-hidden="true">?</span></button>
-    <a class="tool" href="lineage.html" title="Where this comes from"><span class="long">Lineage</span><span class="short" aria-hidden="true">¶</span></a>
-    <button class="tool" id="lang" aria-pressed="false" title="Switch between English and original headlines">Original</button>
-    <button class="tool" id="night" aria-pressed="false" title="Night">◐</button>
+    <span class="group">
+      <button class="tool" data-open="editions" aria-pressed="false" data-tip="Every day's narratives, kept. Step back to where we were."><span class="long">Editions</span><span class="short" aria-hidden="true">↶</span></button>
+      <a class="tool" href="threads.html" data-tip="The narratives across days, drawn as threads, with the Chronicle beneath."><span class="long">Threads</span><span class="short" aria-hidden="true">≋</span></a>
+    </span>
+    <span class="group">
+      <button class="tool" data-open="attention" aria-pressed="false" data-tip="What people looked up on Wikipedia and talked about on Bluesky and Mastodon yesterday, beside what was printed."><span class="long">Looked up</span><span class="short" aria-hidden="true">⌕</span></button>
+      <button class="tool" data-open="tide" aria-pressed="false" data-tip="What arrived, stayed and departed since the previous collection of headlines."><span class="long">Tide</span><span class="short" aria-hidden="true">≈</span></button>
+      <button class="tool" data-open="index" aria-pressed="false" data-tip="Every headline in this edition as a plain, searchable list."><span class="long">Index</span><span class="short" aria-hidden="true">☰</span></button>
+    </span>
+    <span class="group">
+      <button class="tool" data-open="about" aria-pressed="false" data-tip="What this is, how it is made, what it costs, who made it."><span class="long">About</span><span class="short" aria-hidden="true">?</span></button>
+      <a class="tool" href="lineage.html" data-tip="The books and arguments the idea comes from."><span class="long">Lineage</span><span class="short" aria-hidden="true">¶</span></a>
+    </span>
+    <span class="group settings">
+      <button class="tool glyph-tool" id="lang" aria-pressed="false" aria-label="Original language" data-tip="Each headline in the language it was published in.">文</button>
+      <button class="tool glyph-tool" id="night" aria-pressed="false" aria-label="Night" data-tip="White on black.">◐</button>
+    </span>
   </nav>
 </header>
+
+<div class="first mono" id="first" hidden role="note">
+  <span class="first-text">Hundreds of today's headlines from dozens of countries, placed by their publisher. Along the bottom, five narratives written each day by a language model: each says what it joins, shows its evidence and makes the case against itself. Select one.</span>
+  <button class="first-close text" id="first-close" type="button">got it</button>
+</div>
+<div class="tip mono" id="tip" hidden role="tooltip"></div>
 
 <main id="field" class="field" aria-label="The field of headlines">
   <canvas id="ground" aria-hidden="true"></canvas>

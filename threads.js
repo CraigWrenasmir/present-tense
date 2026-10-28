@@ -239,7 +239,19 @@
 
   /* ---------- init ---------- */
   function setNight(on) { document.documentElement.dataset.theme = on ? 'night' : ''; $('#night').setAttribute('aria-pressed', String(on)); try { localStorage.setItem('pt-night', on ? '1' : '0'); } catch {} }
+  function bindTips() {
+    const tip = $('#tip'); if (!tip) return; let timer = null;
+    const show = el => { const r = el.getBoundingClientRect(); tip.textContent = el.dataset.tip; tip.hidden = false; const w = tip.offsetWidth; let left = r.left + r.width / 2 - w / 2; left = Math.max(8, Math.min(left, window.innerWidth - w - 8)); tip.style.left = left + 'px'; tip.style.setProperty('--tip-x', (r.left + r.width / 2 - left - 5) + 'px'); };
+    const hide = () => { clearTimeout(timer); tip.hidden = true; };
+    $$('[data-tip]').forEach(el => {
+      el.addEventListener('mouseenter', () => { clearTimeout(timer); timer = setTimeout(() => show(el), 260); });
+      el.addEventListener('mouseleave', hide);
+      el.addEventListener('focus', () => show(el)); el.addEventListener('blur', hide);
+      el.addEventListener('click', hide);
+    });
+  }
   async function init() {
+    bindTips();
     try { if (localStorage.getItem('pt-night') === '1') setNight(true); } catch {}
     $('#night').addEventListener('click', () => setNight(document.documentElement.dataset.theme !== 'night'));
     try { editions = (await getJSON('data/narratives/index.json')).editions.slice().reverse(); } catch (e) { $('#loom-count').textContent = 'THE EDITIONS COULD NOT BE LOADED'; return; }
