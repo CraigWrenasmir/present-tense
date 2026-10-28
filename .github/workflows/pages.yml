@@ -17,6 +17,10 @@ on:
         description: Adopt a finished batch by id instead (leave refresh and readings off)
         type: string
         default: ''
+      chronicle:
+        description: Revise the Chronicle for the current edition even if it has been chronicled
+        type: boolean
+        default: false
   schedule:
     - cron: '17 4,10,16,22 * * *'
 
@@ -103,6 +107,17 @@ jobs:
           python scripts/freeze.py
           python scripts/validate.py
           python scripts/archive.py
+      - name: What was looked up (Wikipedia, Bluesky, Mastodon)
+        continue-on-error: true
+        run: python scripts/attention.py
+      - name: Revise the Chronicle
+        id: chronicle
+        continue-on-error: true  # does nothing unless the current edition has not been chronicled yet
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CHRONICLE_MODEL: ${{ vars.CHRONICLE_MODEL }}
+          CHRONICLE_EFFORT: ${{ vars.CHRONICLE_EFFORT }}
+        run: python scripts/chronicle.py ${{ github.event_name == 'workflow_dispatch' && inputs.chronicle && '--force' || '' }}
       - name: Commit the edition
         run: |
           git config user.name "present-tense[bot]"
@@ -130,6 +145,8 @@ jobs:
             echo "English headlines: ${{ steps.translate.outcome || 'skipped' }}"
             echo
             echo "Oracle: ${{ steps.oracle.outcome || steps.collect-oracle.outcome || 'skipped' }}"
+            echo
+            echo "Chronicle: ${{ steps.chronicle.outcome || 'skipped' }}"
             echo
             echo "A failed step keeps the previous edition. The page shows its own timestamps."
           } >> "$GITHUB_STEP_SUMMARY"

@@ -62,7 +62,7 @@ Kinds of join, to vary across the edition:
 
 Worked example. Suppose the collection holds: Chennai eases building rules in its aquifer zone; an Arizona chip plant is delayed over its water supply; Ireland pauses new data centres on the Dublin grid and water network; Dutch farmers protest nitrogen and water rules. A collation would make four narratives, housing, chips, data centres, farming, or one narrative about "Chennai's water shortage as reported in India, Britain and Singapore". A narrative joins them: "Water, not land or money, is the limit on what gets built this week in Chennai, Arizona, Dublin and the Netherlands." That line is plain, specific and checkable against the headlines, and it can be wrong, which is what the case against is for.
 
-You will receive the collection: one line per headline with its id, publisher country, publisher, language, time and English headline. You will also receive a library of books and historical trajectories you may draw on, and the previous edition's narratives (id and line) so you do not repeat them and so you can say what each of yours continues.
+You will receive the collection: one line per headline with its id, publisher country, publisher, language, time and English headline. You may also receive a second register, what was looked up: yesterday's most-viewed Wikipedia articles by language edition, and trending topics on Bluesky and Mastodon. That register is context, not evidence: a fragment may mention it in its text, naming the language edition or the platform ("the Spanish and Portuguese Wikipedias' most-viewed pages were Lula and the Brazilian election"), but cannot cite it, and a narrative may not rest on it. You will also receive a library of books and historical trajectories you may draw on, and the previous edition's narratives (id and line) so you do not repeat them and so you can say what each of yours continues.
 
 Compose an edition of narratives. Each narrative has:
 - line: one plain sentence that states the idea and names the unlike events it joins. Descriptive and specific: who, what, where. A reader should know from the line alone what is being connected and what the connection is. At most 110 characters, counted strictly; shorten by dropping a clause, not by compressing into an image. No metaphor, no aphorism, no wordplay, no paradox, no colon-headlines, no questions, no hedging. Write "Water, not land or money, is the limit on building this week in Chennai, Arizona, Dublin and the Netherlands", not "The tap is the new planning office".
@@ -180,6 +180,31 @@ SCHEMA = {
 }
 
 
+def attention_block():
+    path = DATA / "attention.json"
+    if not path.exists():
+        return ""
+    try:
+        a = json.loads(path.read_text())
+    except ValueError:
+        return ""
+    out = []
+    w = a.get("wikipedia") or {}
+    for l in w.get("languages", []):
+        titles = ", ".join(x["title"] for x in l.get("articles", [])[:10])
+        if titles:
+            out.append(f"{l['languageName']} Wikipedia: {titles}")
+    bs = [t["topic"] for t in (a.get("bluesky") or {}).get("topics", [])[:15]]
+    if bs:
+        out.append("Bluesky trending: " + "; ".join(bs))
+    ms = [f"#{t['tag']} ({', '.join(t.get('languages', []))})" for t in (a.get("mastodon") or {}).get("tags", [])[:10]]
+    if ms:
+        out.append("Mastodon trending: " + "; ".join(ms))
+    if not out:
+        return ""
+    return f"WHAT WAS LOOKED UP (Wikipedia most-viewed on {w.get('date')} by language edition; context, not evidence):\n" + "\n".join(out) + "\n\n"
+
+
 def build_request(news, library, previous):
     lines = []
     for a in news["articles"]:
@@ -193,6 +218,7 @@ def build_request(news, library, previous):
     prev = "\n".join(f"- {r['id']} | {r['line']}" for r in (previous or {}).get("readings", [])) or "(none)"
     user = (
         f"THE COLLECTION, gathered {news['generatedAt']} ({len(news['articles'])} headlines):\n{collection}\n\n"
+        + attention_block() +
         f"THE LIBRARY, books:\n{books}\n\nTHE LIBRARY, trajectories:\n{trajs}\n\n"
         f"THE PREVIOUS EDITION'S NARRATIVES (id | line):\n{prev}\n\nCompose this edition."
     )

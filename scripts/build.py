@@ -7,8 +7,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "_site"
-FILES = ["index.html", "lineage.html", "style.css", "app.js", "favicon.svg"]
-DATA = ["news.json", "readings.json", "library.json", "world.json", "ledger.json", "source-config.json", "translations.json", "WORLD-SOURCE.md"]
+FILES = ["index.html", "lineage.html", "threads.html", "threads.js", "style.css", "app.js", "favicon.svg", "CNAME"]
+DATA = ["news.json", "readings.json", "library.json", "world.json", "ledger.json", "source-config.json", "translations.json", "WORLD-SOURCE.md", "attention.json", "chronicle.json"]
 
 
 def main():
@@ -16,8 +16,10 @@ def main():
         shutil.rmtree(OUT)
     (OUT / "data" / "editions").mkdir(parents=True)
     (OUT / "data" / "narratives").mkdir(parents=True)
+    (OUT / "data" / "chronicle").mkdir(parents=True)
     for name in FILES:
-        shutil.copy(ROOT / name, OUT / name)
+        if (ROOT / name).exists():
+            shutil.copy(ROOT / name, OUT / name)
     for name in DATA:
         src = ROOT / "data" / name
         if src.exists():
@@ -26,6 +28,8 @@ def main():
         shutil.copy(ed, OUT / "data" / "editions" / ed.name)
     for ed in (ROOT / "data" / "narratives").glob("*.json"):
         shutil.copy(ed, OUT / "data" / "narratives" / ed.name)
+    for ed in (ROOT / "data" / "chronicle").glob("*.json"):
+        shutil.copy(ed, OUT / "data" / "chronicle" / ed.name)
     (OUT / ".nojekyll").write_text("")
     print(f"built _site with {sum(1 for _ in OUT.rglob('*') if _.is_file())} files")
 

@@ -22,7 +22,7 @@
 
   const state = { z: 0.4, panX: 0, panY: 0, lang: 'en', reading: '', rung: '', frag: '', focusIds: null, ghosts: false, panel: '', drawer: false, edition: '' };
   let news, readings, library, world, ledger, config, held = [], fieldArticles = [];
-  let liveReadings, editions = [];  // every edition of narratives, newest first, from data/narratives/index.json
+  let liveReadings, editions = [], attention = null;  // every edition of narratives, newest first; what was looked up
   let beads = [], ghosts = [], labels = [];
   const byId = new Map(), beadById = new Map();
   let cameraDirty = true, lastFrame = 0, anim = null, dragged = false;
@@ -52,7 +52,7 @@
     state.reading = p.get('reading') || '';
     state.rung = p.get('rung') || ''; state.frag = p.get('frag') || '';
     state.drawer = p.get('open') === '1';
-    state.panel = ['tide', 'index', 'about', 'editions'].includes(p.get('view')) ? p.get('view') : '';
+    state.panel = ['tide', 'index', 'about', 'editions', 'attention'].includes(p.get('view')) ? p.get('view') : '';
     state.edition = p.get('edition') || '';
     if (p.get('lang') === 'orig') state.lang = 'orig';
     state.ghosts = p.get('ghosts') === '1';
@@ -78,6 +78,7 @@
     [news, readings, library, world, config] = await Promise.all(['data/news.json', 'data/readings.json', 'data/library.json', 'data/world.json', 'data/source-config.json'].map(getJSON));
     try { ledger = await getJSON('data/ledger.json'); } catch { ledger = null; }
     try { editions = (await getJSON('data/narratives/index.json')).editions || []; } catch { editions = []; }
+    try { attention = await getJSON('data/attention.json'); } catch { attention = null; }
     news.articles = news.articles.filter(a => a && a.id && a.title && safeURL(a.url));
     news.articles.forEach(a => byId.set(a.id, a));
     liveReadings = readings;
@@ -777,9 +778,39 @@
   /* ---------- panels ---------- */
   function openPanel(name) {
     state.panel = state.panel === name ? '' : name;
-    ['tide', 'index', 'about', 'editions'].forEach(n => { $(`#${n}-panel`).hidden = state.panel !== n; $$(`[data-open="${n}"]`).forEach(b => b.setAttribute('aria-pressed', String(state.panel === n))); });
-    if (state.panel === 'tide') renderTide(); if (state.panel === 'index') renderIndex(); if (state.panel === 'about') renderAbout(); if (state.panel === 'editions') renderEditions();
+    ['tide', 'index', 'about', 'editions', 'attention'].forEach(n => { $(`#${n}-panel`).hidden = state.panel !== n; $$(`[data-open="${n}"]`).forEach(b => b.setAttribute('aria-pressed', String(state.panel === n))); });
+    if (state.panel === 'tide') renderTide(); if (state.panel === 'index') renderIndex(); if (state.panel === 'about') renderAbout(); if (state.panel === 'editions') renderEditions(); if (state.panel === 'attention') renderAttention();
     writeHash();
+  }
+  /* Looked up: a second register. What people looked up (Wikipedia, by language) and talked about (Bluesky, Mastodon). Context, not evidence. */
+  function renderAttention() {
+    const b = $('#attention-body'); b.replaceChildren();
+    if (!attention) { b.append(create('p', 'small', 'Nothing collected yet.')); return; }
+    const link = (text, href) => { const a = create('a', '', text); a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer'; return a; };
+    b.append(create('p', 'attention-intro', 'What people looked up and talked about, set beside what publishers printed. A second register: context for the narratives, never evidence.'));
+    const w = attention.wikipedia || {};
+    if (w.languages && w.languages.length) {
+      b.append(create('p', 'sect', `WIKIPEDIA · MOST VIEWED ON ${fmtDate(w.date + 'T00:00:00Z').replace(', 00:00 UTC', '').toUpperCase()} · BY LANGUAGE EDITION`));
+      const grid = create('div', 'attention-grid');
+      w.languages.forEach(l => {
+        const sec = create('section', 'attention-lang'); sec.append(create('h4', 'mono', l.languageName.toUpperCase()));
+        const ol = create('ol', 'attention-list');
+        l.articles.slice(0, 10).forEach(a => { const li = create('li'); li.append(link(a.title, a.url), create('span', 'v mono', ` ${Math.round(a.views / 1000)}k`)); ol.append(li); });
+        sec.append(ol); grid.append(sec);
+      });
+      b.append(grid);
+    }
+    const bs = (attention.bluesky || {}).topics || [];
+    if (bs.length) {
+      b.append(create('p', 'sect', 'BLUESKY · TRENDING TOPICS · ONE PLATFORM\'S OWN RANKING, MOSTLY ENGLISH'));
+      const ul = create('ul', 'attention-topics'); bs.forEach(t => { const li = create('li'); li.append(t.url ? link(t.topic, t.url) : create('span', '', t.topic)); ul.append(li); }); b.append(ul);
+    }
+    const ms = (attention.mastodon || {}).tags || [];
+    if (ms.length) {
+      b.append(create('p', 'sect', 'MASTODON · TRENDING HASHTAGS ON A FEW SERVERS · TWO-DAY USES'));
+      const ul = create('ul', 'attention-topics'); ms.forEach(t => { const li = create('li'); li.append(link('#' + t.tag, t.url), create('span', 'v mono', ` ${t.uses} · ${(t.languages || []).join(', ')}`)); ul.append(li); }); b.append(ul);
+    }
+    b.append(create('p', 'small', `Collected ${fmtDate(attention.generatedAt)}. ${(attention.notes || []).join(' ')}`));
   }
   /* Editions: where we were. Every edition of narratives, newest first, each line a step into that day. */
   function renderEditions() {

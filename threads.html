@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Threads · The Present Tense</title>
+<meta name="description" content="The narratives of The Present Tense across days: which threads persist, which fell silent, and a running account of where things stand by these headlines, revised after each edition.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="mast" id="mast">
+  <a class="mark" href="./" aria-label="The Present Tense, home">
+    <span class="glyph" aria-hidden="true">[ * ]</span>
+    <span class="name">The Present Tense</span>
+  </a>
+  <div class="edition mono" id="threads-edition">THREADS</div>
+  <nav class="tools" aria-label="Views">
+    <a class="tool" href="./#view=editions">Editions</a>
+    <a class="tool" href="lineage.html">Lineage</a>
+    <a class="tool" href="./">← the field</a>
+    <button class="tool" id="night" aria-pressed="false" title="Night">◐</button>
+  </nav>
+</header>
+
+<main class="threads-page">
+  <section class="loom-wrap" aria-label="The narratives across editions">
+    <div class="loom-head mono">
+      <span id="loom-count">THE NARRATIVES ACROSS EDITIONS</span>
+      <span class="loom-scale" role="group" aria-label="Scale">
+        <button class="text" data-scale="day" aria-pressed="true">days</button>
+        <button class="text" data-scale="week" aria-pressed="false">weeks</button>
+        <button class="text" data-scale="month" aria-pressed="false">months</button>
+      </span>
+    </div>
+    <div class="loom-scroll" id="loom-scroll"><svg id="loom" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Threads of narratives across editions"></svg></div>
+    <p class="loom-hint mono">each column is an edition · each mark a narrative, sized by its headlines · a line joins a narrative to the one it continues · select a mark to open it in that edition</p>
+    <div class="loom-tip mono" id="loom-tip" hidden></div>
+  </section>
+
+  <section class="chronicle prose" id="chronicle" aria-label="The Chronicle">
+    <div class="chronicle-head">
+      <p class="sect">THE CHRONICLE</p>
+      <h1 id="chronicle-title">Where things stand, by these headlines</h1>
+      <p class="chronicle-meta mono" id="chronicle-meta"></p>
+    </div>
+    <div id="chronicle-body"></div>
+  </section>
+</main>
+<script src="threads.js"></script>
+</body>
+</html>

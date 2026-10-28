@@ -368,3 +368,74 @@ body.drawer-open .narratives-hint { display: none; }
   .card { left: 12px !important; right: 12px; top: auto !important; bottom: 12px; width: auto; }
   .bead { width: 180px; font-size: 14px; }
 }
+
+/* Looked up: the second register */
+.attention-intro { font-size: 14px; color: var(--ink-2); line-height: 1.45; margin: 0 0 14px; }
+.attention-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 22px; }
+.attention-lang h4 { font-weight: 400; font-size: 9.5px; letter-spacing: .14em; color: var(--ink-3); margin: 0 0 4px; }
+.attention-list { margin: 0; padding: 0 0 0 18px; }
+.attention-list li { font-size: 13px; line-height: 1.35; margin: 0 0 2px; }
+.attention-list a, .attention-topics a { color: var(--ink); text-decoration: none; }
+.attention-list a:hover, .attention-topics a:hover { text-decoration: underline; }
+.attention-list .v, .attention-topics .v { color: var(--ink-3); font-size: 9.5px; }
+.attention-topics { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 22px; }
+.attention-topics li { font-size: 13px; line-height: 1.35; margin: 0 0 4px; break-inside: avoid; }
+@media (max-width: 760px) { .attention-grid { grid-template-columns: 1fr; } .attention-topics { columns: 1; } }
+
+/* Threads: the narratives across editions, and the Chronicle */
+.threads-page { padding: calc(var(--mast-h) + 18px) 0 96px; }
+.loom-wrap { position: relative; border-bottom: 1px solid var(--ink); padding: 0 18px 10px; }
+.loom-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; color: var(--ink-2); margin-bottom: 6px; flex-wrap: wrap; }
+.loom-scale { display: inline-flex; gap: 10px; }
+.loom-scale .text { color: var(--ink-3); }
+.loom-scale .text[aria-pressed="true"] { color: var(--ink); }
+.loom-scroll { overflow-x: auto; overflow-y: hidden; }
+#loom { display: block; font-family: var(--mono); }
+#loom .col line { stroke: var(--ink-4); stroke-width: 1; }
+#loom .col.now line { stroke: var(--ink); }
+#loom .when { font-size: 10px; letter-spacing: .12em; fill: var(--ink-2); }
+#loom .col.now .when { fill: var(--ink); }
+#loom .meta { font-size: 8.5px; letter-spacing: .1em; fill: var(--ink-3); }
+#loom .link { fill: none; stroke: var(--ink); stroke-opacity: .55; }
+#loom .link.hot { stroke-opacity: 1; stroke-width: 3; }
+#loom .bead { cursor: pointer; }
+#loom .bead circle { fill: var(--ink); }
+#loom .bead .halo { fill: transparent; }
+#loom .bead:hover circle, #loom .bead:focus-visible circle, #loom .bead.hot circle { fill: var(--ink); }
+#loom .bead:hover .halo, #loom .bead:focus-visible .halo, #loom .bead.hot .halo { fill: none; stroke: var(--ink); stroke-width: 1; }
+#loom .tl { font-family: var(--mono); font-size: 9.5px; letter-spacing: .08em; fill: var(--ink-3); }
+#loom .tl.thread { fill: var(--ink-2); }
+#loom .tl.now { font-family: var(--serif); font-size: 13px; letter-spacing: 0; fill: var(--ink); }
+.loom-hint { color: var(--ink-3); margin: 8px 0 0; }
+.loom-tip { position: absolute; z-index: 5; max-width: 300px; background: var(--bg); border: 1px solid var(--ink); padding: 8px 10px; pointer-events: none; }
+.loom-tip .k { display: block; color: var(--ink-3); font-size: 9.5px; letter-spacing: .08em; margin-bottom: 3px; }
+.loom-tip .n { display: block; font-family: var(--serif); font-size: 14px; line-height: 1.3; color: var(--ink); letter-spacing: 0; }
+.loom-tip .m { display: block; color: var(--ink-3); font-size: 9.5px; margin-top: 4px; }
+.chronicle { max-width: 720px; margin: 0 auto; padding: 36px 18px 0; }
+.chronicle h1 { font-size: 30px; font-weight: 400; letter-spacing: -.015em; line-height: 1.1; margin: 0 0 6px; }
+.chronicle-meta { color: var(--ink-3); margin: 0 0 24px; }
+.chronicle .standing { font-size: 19px; line-height: 1.45; margin: 0 0 24px; }
+.chronicle .sect { margin: 26px 0 8px; }
+.chronicle-two { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.chronicle ul.plain { list-style: none; margin: 0; padding: 0; }
+.chronicle ul.plain li { font-size: 15px; line-height: 1.45; color: var(--ink-2); margin: 0 0 10px; padding-left: 14px; text-indent: -14px; }
+.chronicle ul.plain li::before { content: "· "; color: var(--ink); }
+.thread { padding: 12px 0 14px; border-top: 1px solid var(--ink-4); }
+.thread h2 { font-size: 20px; font-weight: 400; margin: 0 0 2px; }
+.thread.silent h2 { color: var(--ink-3); }
+.thread-meta { color: var(--ink-3); margin: 0 0 8px; }
+.thread-text { font-size: 15.5px; line-height: 1.5; margin: 0 0 8px; }
+.thread-direction { font-size: 14.5px; line-height: 1.45; color: var(--ink-2); margin: 0 0 8px; padding-left: 12px; border-left: 2px solid var(--ink); }
+.thread-refs { display: flex; flex-direction: column; gap: 3px; margin: 0; }
+.thread-refs .ref { color: var(--ink-2); text-decoration: none; font-size: 11px; }
+.thread-refs .ref:hover { color: var(--ink); text-decoration: underline; }
+.chronicle .case, .chronicle .revision { font-size: 15px; line-height: 1.5; color: var(--ink-2); margin: 0; }
+.chronicle .versions { display: flex; flex-wrap: wrap; gap: 12px; margin: 0; }
+.chronicle .versions .current { color: var(--ink-3); text-decoration: none; }
+.chronicle .note { font-size: 12px; color: var(--ink-3); line-height: 1.45; border-top: 1px solid var(--ink-4); padding-top: 12px; margin-top: 30px; }
+.chronicle-empty { font-size: 16px; color: var(--ink-2); }
+@media (max-width: 760px) {
+  .chronicle-two { grid-template-columns: 1fr; }
+  .chronicle h1 { font-size: 24px; }
+  .chronicle .standing { font-size: 17px; }
+}
