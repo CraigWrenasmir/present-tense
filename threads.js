@@ -56,7 +56,7 @@
   }
 
   /* ---------- the loom ---------- */
-  const LANE_H = 34, TOP = 44, LEFT = 24, RIGHT = 380;
+  const LANE_H = 34, TOP = 44, LEFT = 24, RIGHT = 460;
   const phone = () => window.innerWidth <= 760;
   /* On a phone time runs down the page: each edition is a row, newest at the top, lanes run across, and the newest row's
      narratives are numbered and listed beneath, since there is no room for lines of text beside the marks. */
@@ -156,9 +156,18 @@
         // the newest column carries full lines; earlier columns carry the kicker, clipped to the column, so labels never run into the next day
         const last = c[c.length - 1], atEnd = last.col === editions.length - 1;
         const label = atEnd && scale === 'day' ? last.line : last.kicker;
-        const room = atEnd ? 78 : Math.max(6, Math.floor((colW - 30) / 6.4));
         const t = svgEl('text', { x: x(last.col) + 12, y: y(last.lane) + 4, class: 'tl' + (c.length > 1 ? ' thread' : '') + (atEnd ? ' now' : '') });
-        t.textContent = label.length > room ? label.slice(0, room - 1) + '…' : label; svg.append(t);
+        if (atEnd && scale === 'day') {
+          // the newest column carries the whole line, wrapped onto two rows within the right margin
+          const perLine = Math.floor((RIGHT - 30) / 6.4), words = label.split(' '), lines = [''];
+          words.forEach(w => { const cur = lines[lines.length - 1]; if ((cur + ' ' + w).trim().length <= perLine) lines[lines.length - 1] = (cur + ' ' + w).trim(); else lines.push(w); });
+          if (lines.length > 2) { lines.length = 2; lines[1] = lines[1].slice(0, perLine - 1) + '…'; }
+          lines.forEach((ln, i) => { const ts = svgEl('tspan', { x: x(last.col) + 12, dy: i ? 15 : (lines.length > 1 ? -4 : 0) }); ts.textContent = ln; t.append(ts); });
+        } else {
+          const room = Math.max(6, Math.floor((colW - 30) / 6.4));
+          t.textContent = label.length > room ? label.slice(0, room - 1) + '…' : label;
+        }
+        svg.append(t);
       }
     });
     // beneath the narratives: what people reached for that day, the subjects viewed in most language editions
