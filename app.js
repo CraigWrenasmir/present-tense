@@ -210,7 +210,15 @@
     el.addEventListener('click', e => {
       if (dragged) return; e.stopPropagation();
       // on a phone a tap on a swarm opens that country's page of headlines; the card waits until the headlines are legible
-      if (mobile() && !ghost && (bucket() === 'atlas' || bucket() === 'region')) { const same = beads.filter(p => p.a.sourceCountryCode === a.sourceCountryCode); if (same.length) { fitBeads(same, 1.0, 16); return; } }
+      if (mobile() && !ghost && (bucket() === 'atlas' || bucket() === 'region')) {
+        const same = beads.filter(p => p.a.sourceCountryCode === a.sourceCountryCode);
+        if (same.length) {
+          // land at the HEADLINES level whatever the country's size: a page wider than the screen can be panned, a swarm cannot be read
+          const z = LEVEL_Z.near + 0.02, pts = same.map(p => posAt(p, z)), xs = pts.map(q => q[0]), ys = pts.map(q => q[1]);
+          const cx = Math.min(...xs) + Math.min((Math.max(...xs) - Math.min(...xs)) / 2, (viewport().w / 2 - 20) / z), cy = Math.min(...ys) + Math.min((Math.max(...ys) - Math.min(...ys)) / 2, (viewport().h / 2 - 40) / z);
+          const v = viewport(); animateTo(z, v.w / 2 - cx * z, v.h / 2 - cy * z, 600); return;
+        }
+      }
       openCard(a, el);
     });
     el.addEventListener('keydown', e => { if (e.key === 'Enter') openCard(a, el); });
