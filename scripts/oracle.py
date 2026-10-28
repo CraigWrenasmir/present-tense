@@ -190,8 +190,11 @@ def attention_block():
         return ""
     out = []
     w = a.get("wikipedia") or {}
+    subs = w.get("subjects") or []
+    if subs:
+        out.append("Wikipedia subjects reached for in more than one language edition (subject: editions): " + "; ".join(f"{g['title']} ({g['editions']}: {', '.join(x['language'] for x in g['languages'][:6])})" for g in subs if g.get("editions", 0) > 1)[:4000])
     for l in w.get("languages", []):
-        titles = ", ".join(x["title"] for x in l.get("articles", [])[:10])
+        titles = ", ".join(x["title"] for x in l.get("articles", [])[:8])
         if titles:
             out.append(f"{l['languageName']} Wikipedia: {titles}")
     bs = [t["topic"] for t in (a.get("bluesky") or {}).get("topics", [])[:15]]

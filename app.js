@@ -22,7 +22,7 @@
 
   const state = { z: 0.4, panX: 0, panY: 0, lang: 'en', reading: '', rung: '', frag: '', focusIds: null, ghosts: false, panel: '', drawer: false, edition: '' };
   let news, readings, library, world, ledger, config, held = [], fieldArticles = [];
-  let liveReadings, editions = [], attention = null;  // every edition of narratives, newest first; what was looked up
+  let liveReadings, editions = [], attention = null, attentionDays = [], attentionLive = null;  // every edition of narratives, newest first; what was looked up, and its days
   let beads = [], ghosts = [], labels = [];
   const byId = new Map(), beadById = new Map();
   let cameraDirty = true, lastFrame = 0, anim = null, dragged = false;
@@ -78,7 +78,8 @@
     [news, readings, library, world, config] = await Promise.all(['data/news.json', 'data/readings.json', 'data/library.json', 'data/world.json', 'data/source-config.json'].map(getJSON));
     try { ledger = await getJSON('data/ledger.json'); } catch { ledger = null; }
     try { editions = (await getJSON('data/narratives/index.json')).editions || []; } catch { editions = []; }
-    try { attention = await getJSON('data/attention.json'); } catch { attention = null; }
+    try { attention = await getJSON('data/attention.json'); attentionLive = attention; } catch { attention = null; }
+    try { attentionDays = (await getJSON('data/attention/index.json')).days || []; } catch { attentionDays = []; }
     news.articles = news.articles.filter(a => a && a.id && a.title && safeURL(a.url));
     news.articles.forEach(a => byId.set(a.id, a));
     liveReadings = readings;
@@ -591,6 +592,7 @@
     if (r.events && r.events.length) body.append(eventsEl(r));
     const since = sinceEl(r); if (since) body.append(since);
     body.append(create('p', 'reading-claim', r.claim));
+    const looked = lookedUpEl(r); if (looked) body.append(looked);
     const ol = create('ol', 'rungs');
     r.rungs.forEach((rung, i) => {
       const li = create('li', 'rung ' + rung.kind + (state.rung === rung.id ? ' open' : ''));
@@ -782,6 +784,47 @@
     if (state.panel === 'tide') renderTide(); if (state.panel === 'index') renderIndex(); if (state.panel === 'about') renderAbout(); if (state.panel === 'editions') renderEditions(); if (state.panel === 'attention') renderAttention();
     writeHash();
   }
+  /* Matching the register to the narratives: a subject (a Wikipedia article resolved across languages, with its English aliases)
+     is matched by plain text against a narrative's line, events, claim and the English text of its headlines. Deterministic, no model. */
+  const fold = s => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const subjectRegex = new Map();
+  function subjectMatcher(g) {
+    if (subjectRegex.has(g.key)) return subjectRegex.get(g.key);
+    const names = [g.title, ...(g.aliases || [])].map(fold).filter(n => n.length >= 4 && !/^\d+$/.test(n)).map(n => n.replace(/\s*\(.*?\)\s*/g, ' ').trim()).filter(Boolean);
+    const re = names.length ? new RegExp('(^|[^a-z0-9])(' + names.map(n => n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')(?![a-z0-9])', 'i') : null;
+    subjectRegex.set(g.key, re); return re;
+  }
+  const narrativeText = new Map();
+  function textOf(r) {
+    const k = `${state.edition}|${r.id}`;
+    if (narrativeText.has(k)) return narrativeText.get(k);
+    const parts = [r.line, r.claim, ...(r.events || []).map(e => e.label), ...r.articleIds.map(id => { const a = byId.get(id); return a ? (a.titleEnglish || a.title) : ''; })];
+    const t = fold(parts.join(' \n ')); narrativeText.set(k, t); return t;
+  }
+  function subjectsFor(r) {
+    const subs = attention && attention.wikipedia && attention.wikipedia.subjects || [];
+    const t = textOf(r);
+    return subs.filter(g => { const re = subjectMatcher(g); return re && re.test(t); }).sort((a, b) => b.editions - a.editions || b.views - a.views);
+  }
+  function narrativesFor(g) {
+    const re = subjectMatcher(g); if (!re) return [];
+    return readings.readings.filter(r => re.test(textOf(r)));
+  }
+  /* The drawer's Looked up section: which subjects of the day's most-viewed pages this narrative touches, and in how many language editions. */
+  function lookedUpEl(r) {
+    const subs = subjectsFor(r).slice(0, 8); if (!subs.length) return null;
+    const wrap = create('section', 'lookedup');
+    wrap.append(create('p', 'sect', `LOOKED UP · WIKIPEDIA'S MOST-VIEWED PAGES ON ${attention.wikipedia.date ? fmtDate(attention.wikipedia.date + 'T00:00:00Z').replace(', 00:00 UTC', '').toUpperCase() : ''}`));
+    const ul = create('ul', 'lookedup-list');
+    subs.forEach(g => {
+      const li = create('li'); const a = create('a', 'subj', g.title); a.href = g.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      li.append(a, create('span', 'c mono', ` ${g.editions} ${g.editions === 1 ? 'edition' : 'editions'} · ${g.languages.slice(0, 5).map(x => x.language).join(' ')}${g.languages.length > 5 ? ' …' : ''}`));
+      ul.append(li);
+    });
+    wrap.append(ul);
+    wrap.append(create('p', 'lookedup-note', 'What people reached for, set beside what was printed. Matched by name, not by the model; context, not evidence.'));
+    return wrap;
+  }
   /* Looked up: a second register. What people looked up (Wikipedia, by language) and talked about (Bluesky, Mastodon). Context, not evidence. */
   function renderAttention() {
     const b = $('#attention-body'); b.replaceChildren();
@@ -789,8 +832,36 @@
     const link = (text, href) => { const a = create('a', '', text); a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer'; return a; };
     b.append(create('p', 'attention-intro', 'What people looked up and talked about, set beside what publishers printed. A second register: context for the narratives, never evidence.'));
     const w = attention.wikipedia || {};
+    // the day stepper
+    if (attentionDays.length > 1) {
+      const i = attentionDays.findIndex(d => d.date === w.date);
+      const nav = create('p', 'attention-nav mono');
+      const mk = (label, j) => { const bt = create('button', 'text', label); bt.type = 'button'; bt.disabled = j < 0 || j >= attentionDays.length; bt.addEventListener('click', async () => { try { attention = await getJSON(attentionDays[j].file); subjectRegex.clear(); narrativeText.clear(); renderAttention(); } catch {} }); return bt; };
+      nav.append(mk('← earlier day', i + 1), document.createTextNode(` ${w.date || ''} `), mk('later day →', i - 1));
+      if (attention !== attentionLive) { const now = create('button', 'text', 'today'); now.type = 'button'; now.addEventListener('click', () => { attention = attentionLive; subjectRegex.clear(); narrativeText.clear(); renderAttention(); }); nav.append(document.createTextNode(' '), now); }
+      b.append(nav);
+    }
+    // subjects across language editions, each with the narratives it touches
+    const subs = (w.subjects || []).filter(g => g.editions > 1).slice(0, 40);
+    if (subs.length) {
+      b.append(create('p', 'sect', `SUBJECTS REACHED FOR IN MORE THAN ONE LANGUAGE EDITION ON ${fmtDate(w.date + 'T00:00:00Z').replace(', 00:00 UTC', '').toUpperCase()}`));
+      const ol = create('ol', 'subjects');
+      subs.forEach(g => {
+        const li = create('li', 'subject');
+        const a = create('a', 'subj', g.title); a.href = g.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+        li.append(a, create('span', 'd', g.description ? ` ${g.description}` : ''), create('span', 'c mono', ` ${g.editions} editions · ${g.languages.map(x => x.language).join(' ')}`));
+        const ns = narrativesFor(g);
+        if (ns.length) {
+          const row = create('span', 'in'); row.append(create('span', 'mono', 'in the narratives: '));
+          ns.forEach(r => { const bt = create('button', 'text', r.kicker.toLowerCase()); bt.type = 'button'; bt.addEventListener('click', () => { openPanel('attention'); selectReading(r.id, { open: true }); }); row.append(bt, document.createTextNode(' ')); });
+          li.append(row);
+        }
+        ol.append(li);
+      });
+      b.append(ol);
+    }
     if (w.languages && w.languages.length) {
-      b.append(create('p', 'sect', `WIKIPEDIA · MOST VIEWED ON ${fmtDate(w.date + 'T00:00:00Z').replace(', 00:00 UTC', '').toUpperCase()} · BY LANGUAGE EDITION`));
+      b.append(create('p', 'sect', `BY LANGUAGE EDITION · MOST VIEWED ON ${fmtDate(w.date + 'T00:00:00Z').replace(', 00:00 UTC', '').toUpperCase()}`));
       const grid = create('div', 'attention-grid');
       w.languages.forEach(l => {
         const sec = create('section', 'attention-lang'); sec.append(create('h4', 'mono', l.languageName.toUpperCase()));

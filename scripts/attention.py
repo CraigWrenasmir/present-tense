@@ -8,10 +8,19 @@ Collects, with the standard library only:
 - Mastodon: trending hashtags on a handful of servers in different languages
   (public endpoints), kept only when used enough to mean something.
 
-Writes data/attention.json. Each source is a separate register and is labelled as
-such on the page; none of it is evidence for a narrative, only context. Every
-source is fetched with a timeout and skipped on failure, so the file is always
-written and never blocks a run.
+Every Wikipedia page is resolved to one subject across languages through its
+Wikidata item (interlanguage links), with an English title, a one-line
+description and English aliases, so "Elecciones generales de Brasil de 2026"
+and "2026 Brazilian general election" count as one subject reached for in two
+editions. The aliases let the site match subjects to the narratives' headlines
+("Lula" for Luiz Inácio Lula da Silva). Lookups are cached in
+data/attention-cache.json.
+
+Writes data/attention.json (current), data/attention/<day>.json (one per
+Wikipedia day, kept) and data/attention/index.json. Each source is a separate
+register and is labelled as such on the page; none of it is evidence for a
+narrative, only context. Every source is fetched with a timeout and skipped on
+failure, so the file is always written and never blocks a run.
 
 Usage: python3 scripts/attention.py [--date YYYY-MM-DD]
 """
@@ -57,6 +66,113 @@ def get(url, timeout=20):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return json.loads(r.read().decode("utf-8"))
+
+
+CACHE = DATA / "attention-cache.json"
+WD_URL = "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|aliases|descriptions&languages=en&ids="
+STOP_ALIASES = {"the", "and", "list", "lists", "film", "song", "album", "series", "state", "states", "united", "republic", "president", "election", "elections"}
+
+
+def load_cache():
+    try:
+        return json.loads(CACHE.read_text())
+    except (OSError, ValueError):
+        return {}
+
+
+def save_cache(cache, today):
+    # keep entries used in the last 90 days
+    keep = {k: v for k, v in cache.items() if (v.get("used") or today) >= (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=90)).strftime("%Y-%m-%d")}
+    CACHE.write_text(json.dumps(keep, ensure_ascii=False, sort_keys=True) + "\n")
+
+
+def resolve_pages(code, titles, cache, today):
+    """Map each title in one language edition to its Wikidata item and English title, through the interlanguage links."""
+    todo = [t for t in titles if f"{code}:{t}" not in cache]
+    for i in range(0, len(todo), 50):
+        chunk = todo[i:i + 50]
+        url = (f"https://{code}.wikipedia.org/w/api.php?action=query&format=json&prop=langlinks|pageprops&lllang=en&lllimit=max"
+               f"&ppprop=wikibase_item&redirects=1&titles={urllib.parse.quote('|'.join(chunk))}")
+        try:
+            q = get(url).get("query", {})
+        except Exception as error:  # noqa: BLE001
+            print(f"attention: resolve {code}: {error}", file=sys.stderr)
+            continue
+        norm = {n["from"]: n["to"] for n in q.get("normalized", [])}
+        redir = {r["from"]: r["to"] for r in q.get("redirects", [])}
+        by_title = {p.get("title"): p for p in q.get("pages", {}).values()}
+        for t in chunk:
+            final = redir.get(norm.get(t, t), norm.get(t, t))
+            page = by_title.get(final) or by_title.get(final.replace("_", " ")) or by_title.get(t.replace("_", " "))
+            entry = {"used": today}
+            if page:
+                entry["qid"] = (page.get("pageprops") or {}).get("wikibase_item")
+                ll = page.get("langlinks") or []
+                entry["en"] = ll[0].get("*") if ll else (page.get("title") if code == "en" else None)
+            cache[f"{code}:{t}"] = entry
+    for t in titles:
+        cache.setdefault(f"{code}:{t}", {"used": today})["used"] = today
+
+
+def resolve_items(qids, cache, today):
+    """English label, description and aliases for Wikidata items, cached under wd:Q..."""
+    todo = [q for q in qids if q and f"wd:{q}" not in cache]
+    for i in range(0, len(todo), 50):
+        chunk = todo[i:i + 50]
+        try:
+            ents = get(WD_URL + "|".join(chunk)).get("entities", {})
+        except Exception as error:  # noqa: BLE001
+            print(f"attention: wikidata: {error}", file=sys.stderr)
+            continue
+        for q, e in ents.items():
+            label = ((e.get("labels") or {}).get("en") or {}).get("value")
+            desc = ((e.get("descriptions") or {}).get("en") or {}).get("value")
+            aliases = [a["value"] for a in ((e.get("aliases") or {}).get("en") or [])]
+            cache[f"wd:{q}"] = {"label": label, "description": desc, "aliases": aliases[:24], "used": today}
+    for q in qids:
+        if q and f"wd:{q}" in cache:
+            cache[f"wd:{q}"]["used"] = today
+
+
+def subjects_of(languages, cache):
+    """Group the per-language lists into subjects, one per Wikidata item, ordered by how many editions reached for them."""
+    groups = {}
+    for l in languages:
+        for a in l["articles"]:
+            c = cache.get(f"{l['language']}:{a['title'].replace(' ', '_')}") or {}
+            key = c.get("qid") or f"{l['language']}:{a['title']}"
+            g = groups.setdefault(key, {"key": key, "qid": c.get("qid"), "title": None, "description": None, "aliases": [], "languages": [], "views": 0})
+            g["languages"].append({"language": l["language"], "languageName": l["languageName"], "title": a["title"], "views": a["views"], "url": a["url"]})
+            g["views"] += a["views"]
+            if not g["title"] and c.get("en"):
+                g["title"] = c["en"]
+    for g in groups.values():
+        wd = cache.get(f"wd:{g['qid']}") if g.get("qid") else None
+        if wd:
+            g["title"] = g["title"] or wd.get("label")
+            g["description"] = wd.get("description")
+            seen = {(g["title"] or "").lower()}
+            # a nickname in quotes inside an alias ('Luiz Inácio "Lula" da Silva') is how headlines name the person
+            import re
+            quoted = [m for al in (wd.get("aliases") or []) for m in re.findall(r'"([^"]{3,30})"', al)]
+            for al in quoted + list(wd.get("aliases") or []):
+                k = al.lower().strip()
+                if len(k) >= 4 and k not in seen and k not in STOP_ALIASES and not k.isdigit():
+                    g["aliases"].append(al); seen.add(k)
+        if not g["title"]:
+            g["title"] = g["languages"][0]["title"]
+        # people are usually in headlines by surname: add it as an alias when the description says this is a person
+        desc = (g.get("description") or "").lower()
+        if any(w in desc for w in ("politician", "president", "footballer", "player", "singer", "actor", "actress", "minister", "journalist", "businessman", "businessperson", "writer", "rapper", "musician", "coach", "manager", "prime minister", "senator", "governor", "activist", "entrepreneur", "chief executive")):
+            parts = g["title"].replace("(", " ").split()
+            last = parts[-1] if parts else ""
+            if len(last) >= 4 and last.lower() not in STOP_ALIASES and last.lower() not in {a.lower() for a in g["aliases"]} and last.lower() != g["title"].lower():
+                g["aliases"].append(last)
+        g["editions"] = len({x["language"] for x in g["languages"]})
+        g["languages"].sort(key=lambda x: -x["views"])
+        g["url"] = f"https://en.wikipedia.org/wiki/{urllib.parse.quote(g['title'].replace(' ', '_'))}" if g.get("qid") and any(x["language"] == "en" for x in g["languages"]) or (g.get("qid") and g["title"] and g["title"] == (cache.get(f"wd:{g['qid']}") or {}).get("label")) else g["languages"][0]["url"]
+    out = sorted(groups.values(), key=lambda g: (-g["editions"], -g["views"]))
+    return out
 
 
 def wikipedia(day):
@@ -128,9 +244,16 @@ def main():
             wiki = wikipedia(day)
             if wiki:
                 break
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    cache = load_cache()
+    for l in wiki:
+        resolve_pages(l["language"], [a["title"].replace(" ", "_") for a in l["articles"]], cache, today)
+    resolve_items(sorted({(cache.get(f"{l['language']}:{a['title'].replace(' ', '_')}") or {}).get("qid") for l in wiki for a in l["articles"]} - {None}), cache, today)
+    subjects = subjects_of(wiki, cache)
+    save_cache(cache, today)
     out = {
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
-        "wikipedia": {"date": f"{day:%Y-%m-%d}", "source": "Wikimedia REST API, most-viewed articles per language edition, all access", "languages": wiki},
+        "wikipedia": {"date": f"{day:%Y-%m-%d}", "source": "Wikimedia REST API, most-viewed articles per language edition, all access; subjects resolved through Wikidata", "languages": wiki, "subjects": subjects},
         "bluesky": {"source": "Bluesky public trending topics", "topics": bluesky()},
         "mastodon": {"source": "Trending hashtags on a few servers, two-day uses", "tags": mastodon()},
         "notes": [
@@ -139,7 +262,21 @@ def main():
         ],
     }
     (DATA / "attention.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
-    print(f"attention: {sum(len(w['articles']) for w in wiki)} Wikipedia articles in {len(wiki)} languages, {len(out['bluesky']['topics'])} Bluesky topics, {len(out['mastodon']['tags'])} Mastodon tags")
+    # history: one file per Wikipedia day, and an index with each day's most cross-lingual subjects
+    hist = DATA / "attention"; hist.mkdir(exist_ok=True)
+    if wiki:
+        (hist / f"{day:%Y-%m-%d}.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
+    days = []
+    for p in sorted(hist.glob("*.json")):
+        if p.name == "index.json":
+            continue
+        d = json.loads(p.read_text())
+        subs = (d.get("wikipedia") or {}).get("subjects") or []
+        days.append({"date": p.stem, "file": f"data/attention/{p.name}", "languages": len((d.get("wikipedia") or {}).get("languages") or []),
+                     "top": [{"title": g["title"], "editions": g["editions"], "views": g["views"], "url": g["url"]} for g in subs[:8]]})
+    days.sort(key=lambda d: d["date"], reverse=True)
+    (hist / "index.json").write_text(json.dumps({"days": days}, ensure_ascii=False, indent=1) + "\n")
+    print(f"attention: {sum(len(w['articles']) for w in wiki)} Wikipedia articles in {len(wiki)} languages -> {len(subjects)} subjects ({sum(1 for g in subjects if g['editions'] > 1)} in more than one edition); {len(out['bluesky']['topics'])} Bluesky topics, {len(out['mastodon']['tags'])} Mastodon tags; {len(days)} days kept")
 
 
 if __name__ == "__main__":

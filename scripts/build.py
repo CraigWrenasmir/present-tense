@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "_site"
-FILES = ["index.html", "lineage.html", "threads.html", "threads.js", "style.css", "app.js", "favicon.svg"]
+FILES = ["index.html", "lineage.html", "threads.html", "threads.js", "style.css", "app.js", "favicon.svg", "CNAME"]
 DATA = ["news.json", "readings.json", "library.json", "world.json", "ledger.json", "source-config.json", "translations.json", "WORLD-SOURCE.md", "attention.json", "chronicle.json"]
 
 
@@ -17,6 +17,7 @@ def main():
     (OUT / "data" / "editions").mkdir(parents=True)
     (OUT / "data" / "narratives").mkdir(parents=True)
     (OUT / "data" / "chronicle").mkdir(parents=True)
+    (OUT / "data" / "attention").mkdir(parents=True)
     for name in FILES:
         if (ROOT / name).exists():
             shutil.copy(ROOT / name, OUT / name)
@@ -30,6 +31,8 @@ def main():
         shutil.copy(ed, OUT / "data" / "narratives" / ed.name)
     for ed in (ROOT / "data" / "chronicle").glob("*.json"):
         shutil.copy(ed, OUT / "data" / "chronicle" / ed.name)
+    for ed in (ROOT / "data" / "attention").glob("*.json"):
+        shutil.copy(ed, OUT / "data" / "attention" / ed.name)
     (OUT / ".nojekyll").write_text("")
     print(f"built _site with {sum(1 for _ in OUT.rglob('*') if _.is_file())} files")
 

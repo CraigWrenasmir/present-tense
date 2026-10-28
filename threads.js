@@ -7,7 +7,7 @@
   const stampDate = s => new Date(`${s.slice(0, 4)}-${s.slice(4, 6)}-${s.slice(6, 8)}T${s.slice(9, 11)}:${s.slice(11, 13)}:00Z`);
   const fmt = (s, withTime = true) => { const d = typeof s === 'string' && /^\d{8}T/.test(s) ? stampDate(s) : new Date(s); if (isNaN(d)) return String(s); return d.toLocaleString('en-GB', withTime ? { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' } : { day: 'numeric', month: 'short', timeZone: 'UTC' }) + (withTime ? ' UTC' : ''); };
   const SCALES = { day: { colW: 230, labelMin: 1 }, week: { colW: 80, labelMin: 2 }, month: { colW: 30, labelMin: 3 } };
-  let scale = 'day', editions = [], chronicle = null, versions = [], nodes = new Map(), chains = [];
+  let scale = 'day', editions = [], chronicle = null, versions = [], nodes = new Map(), chains = [], attentionDays = [];
 
   async function getJSON(path) { const r = await fetch(path, { cache: 'no-cache' }); if (!r.ok) throw Error(`${path}: HTTP ${r.status}`); return r.json(); }
 
@@ -56,11 +56,14 @@
   }
 
   /* ---------- the loom ---------- */
-  const LANE_H = 34, TOP = 44, LEFT = 24, RIGHT = 480;
+  const LANE_H = 34, TOP = 44, LEFT = 24, RIGHT = 380;
   function drawLoom() {
     const svg = $('#loom'); svg.replaceChildren();
     const laneCount = buildChains(), { colW, labelMin } = SCALES[scale];
-    const w = LEFT + Math.max(1, editions.length) * colW + RIGHT, h = TOP + Math.max(1, laneCount) * LANE_H + 24;
+    const dayOf = e => `${e.stamp.slice(0, 4)}-${e.stamp.slice(4, 6)}-${e.stamp.slice(6, 8)}`;
+    const looked = scale === 'day' ? editions.map(e => attentionDays.find(d => d.date === dayOf(e)) || null) : [];
+    const lookedRows = looked.some(Boolean) ? 6 : 0;
+    const w = LEFT + Math.max(1, editions.length) * colW + RIGHT, h = TOP + Math.max(1, laneCount) * LANE_H + 24 + (lookedRows ? 16 + lookedRows * 15 : 0);
     svg.setAttribute('viewBox', `0 0 ${w} ${h}`); svg.setAttribute('width', w); svg.setAttribute('height', h);
     const x = col => LEFT + col * colW + colW / 2, y = lane => TOP + lane * LANE_H + LANE_H / 2;
     // columns
@@ -95,13 +98,27 @@
         // the newest column carries full lines; earlier columns carry the kicker, clipped to the column, so labels never run into the next day
         const last = c[c.length - 1], atEnd = last.col === editions.length - 1;
         const label = atEnd && scale === 'day' ? last.line : last.kicker;
-        const room = atEnd ? 92 : Math.max(6, Math.floor((colW - 30) / 6.4));
+        const room = atEnd ? 78 : Math.max(6, Math.floor((colW - 30) / 6.4));
         const t = svgEl('text', { x: x(last.col) + 12, y: y(last.lane) + 4, class: 'tl' + (c.length > 1 ? ' thread' : '') + (atEnd ? ' now' : '') });
         t.textContent = label.length > room ? label.slice(0, room - 1) + '…' : label; svg.append(t);
       }
     });
+    // beneath the narratives: what people reached for that day, the subjects viewed in most language editions
+    if (lookedRows) {
+      const y0 = TOP + Math.max(1, laneCount) * LANE_H + 18;
+      const head = svgEl('text', { x: LEFT, y: y0, class: 'meta' }); head.textContent = 'LOOKED UP · WIKIPEDIA SUBJECTS VIEWED IN MOST LANGUAGE EDITIONS THAT DAY'; svg.append(head);
+      const shown = new Set();
+      looked.forEach((d, col) => {
+        if (!d || shown.has(d.date)) return; shown.add(d.date);
+        d.top.slice(0, 5).forEach((g, i) => {
+          const t = svgEl('text', { x: x(col) - colW / 2 + 10, y: y0 + 16 + i * 15, class: 'lu' }); const room = Math.floor((colW - 20) / 6.2);
+          t.textContent = `${g.editions} · ${g.title.length > room ? g.title.slice(0, room - 1) + '…' : g.title}`; const tt = svgEl('title'); tt.textContent = `${g.title}: viewed in ${g.editions} language editions on ${d.date}`; t.append(tt);
+          t.addEventListener('click', () => window.open(g.url, '_blank', 'noopener')); svg.append(t);
+        });
+      });
+    }
     $('#loom-count').textContent = `${editions.length} EDITIONS · ${nodes.size} NARRATIVES · ${chains.filter(c => c.length > 1).length} THREADS THAT RAN MORE THAN ONE EDITION`;
-    const sc = $('#loom-scroll'); sc.scrollLeft = sc.scrollWidth;
+    const sc = $('#loom-scroll'); if (sc.scrollWidth > sc.clientWidth) sc.scrollLeft = Math.max(0, x(editions.length - 1) + 300 - sc.clientWidth);
   }
   function showTip(n, e) {
     const tip = $('#loom-tip'); tip.replaceChildren(create('span', 'k', `${fmt(n.stamp)} · ${n.kicker}`), create('span', 'n', n.line), create('span', 'm', `${n.events ? n.events + ' events · ' : ''}${n.headlines} headlines${n.chain && n.chain.length > 1 ? ` · thread of ${n.chain.length} editions` : ''}`));
@@ -170,6 +187,7 @@
     try { editions = (await getJSON('data/narratives/index.json')).editions.slice().reverse(); } catch (e) { $('#loom-count').textContent = 'THE EDITIONS COULD NOT BE LOADED'; return; }
     try { chronicle = await getJSON('data/chronicle.json'); } catch { chronicle = null; }
     try { versions = (await getJSON('data/chronicle/index.json')).versions || []; } catch { versions = []; }
+    try { attentionDays = (await getJSON('data/attention/index.json')).days || []; } catch { attentionDays = []; }
     $('#threads-edition').textContent = `THREADS · ${editions.length} EDITIONS SINCE ${fmt(editions[0].stamp, false).toUpperCase()}`;
     $$('[data-scale]').forEach(b => b.addEventListener('click', () => { scale = b.dataset.scale; $$('[data-scale]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); drawLoom(); }));
     drawLoom(); renderChronicle(chronicle);

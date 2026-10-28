@@ -370,6 +370,25 @@ body.drawer-open .narratives-hint { display: none; }
 }
 
 /* Looked up: the second register */
+.lookedup { margin: 0 0 18px; }
+.lookedup .sect { margin: 0 0 4px; }
+.lookedup-list { list-style: none; margin: 0; padding: 0; }
+.lookedup-list li { font-size: 14px; line-height: 1.4; margin: 0 0 2px; }
+.lookedup-list .subj { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--ink-4); }
+.lookedup-list .subj:hover { border-bottom-color: var(--ink); }
+.lookedup-list .c { color: var(--ink-3); font-size: 9.5px; }
+.lookedup-note { font-size: 11px; color: var(--ink-3); margin: 6px 0 0; }
+.attention-nav { color: var(--ink-3); margin: 0 0 14px; }
+.subjects { list-style: none; margin: 0 0 8px; padding: 0; }
+.subject { font-size: 14px; line-height: 1.4; margin: 0 0 8px; padding-left: 10px; border-left: 1px solid var(--ink-4); }
+.subject .subj { color: var(--ink); text-decoration: none; }
+.subject .subj:hover { text-decoration: underline; }
+.subject .d { color: var(--ink-2); font-size: 13px; }
+.subject .c { display: block; color: var(--ink-3); font-size: 9.5px; }
+.subject .in { display: block; font-size: 11px; color: var(--ink-3); margin-top: 2px; }
+.subject .in .text { font-size: 11px; color: var(--ink-2); }
+#loom .lu { font-family: var(--mono); font-size: 9.5px; letter-spacing: .04em; fill: var(--ink-2); cursor: pointer; }
+#loom .lu:hover { fill: var(--ink); text-decoration: underline; }
 .attention-intro { font-size: 14px; color: var(--ink-2); line-height: 1.45; margin: 0 0 14px; }
 .attention-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 22px; }
 .attention-lang h4 { font-weight: 400; font-size: 9.5px; letter-spacing: .14em; color: var(--ink-3); margin: 0 0 4px; }
