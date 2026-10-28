@@ -383,6 +383,7 @@ body.drawer-open .narratives-hint { display: none; }
 @media (max-width: 760px) { .attention-grid { grid-template-columns: 1fr; } .attention-topics { columns: 1; } }
 
 /* Threads: the narratives across editions, and the Chronicle */
+body.scrolls { overflow: auto; }  /* the field page is fixed; the reading pages scroll */
 .threads-page { padding: calc(var(--mast-h) + 18px) 0 96px; }
 .loom-wrap { position: relative; border-bottom: 1px solid var(--ink); padding: 0 18px 10px; }
 .loom-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; color: var(--ink-2); margin-bottom: 6px; flex-wrap: wrap; }
