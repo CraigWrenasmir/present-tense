@@ -70,7 +70,9 @@ a { color: inherit; }
 .first { position: fixed; left: 0; right: 0; top: var(--mast-h); z-index: 29; display: flex; gap: 18px; align-items: baseline; justify-content: space-between; padding: 10px 18px; background: var(--bg); border-bottom: 1px solid var(--ink); color: var(--ink); font-size: 12px; line-height: 1.5; }
 .first-close { white-space: nowrap; }
 .tool { font-family: var(--mono); font-size: 11px; padding: 6px 9px; border-radius: 2px; color: var(--ink-2); }
-.tool .short { display: none; }
+.tool { display: inline-flex; align-items: center; }
+.tool .short { display: inline; order: -1; margin-right: 5px; color: var(--ink-3); font-size: 12px; letter-spacing: 0; }
+.tool:hover .short, .tool[aria-pressed="true"] .short { color: inherit; }
 .tool:hover { color: var(--ink); }
 .tool[aria-pressed="true"] { color: var(--bg); background: var(--ink); }
 
