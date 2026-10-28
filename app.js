@@ -20,8 +20,9 @@
   const mobile = () => window.innerWidth <= 760;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 
-  const state = { z: 0.4, panX: 0, panY: 0, lang: 'en', reading: '', rung: '', frag: '', focusIds: null, ghosts: false, panel: '', drawer: false };
+  const state = { z: 0.4, panX: 0, panY: 0, lang: 'en', reading: '', rung: '', frag: '', focusIds: null, ghosts: false, panel: '', drawer: false, edition: '' };
   let news, readings, library, world, ledger, config, held = [], fieldArticles = [];
+  let liveReadings, editions = [];  // every edition of narratives, newest first, from data/narratives/index.json
   let beads = [], ghosts = [], labels = [];
   const byId = new Map(), beadById = new Map();
   let cameraDirty = true, lastFrame = 0, anim = null, dragged = false;
@@ -51,7 +52,8 @@
     state.reading = p.get('reading') || '';
     state.rung = p.get('rung') || ''; state.frag = p.get('frag') || '';
     state.drawer = p.get('open') === '1';
-    state.panel = ['tide', 'index', 'about'].includes(p.get('view')) ? p.get('view') : '';
+    state.panel = ['tide', 'index', 'about', 'editions'].includes(p.get('view')) ? p.get('view') : '';
+    state.edition = p.get('edition') || '';
     if (p.get('lang') === 'orig') state.lang = 'orig';
     state.ghosts = p.get('ghosts') === '1';
     state.debugZ = parseFloat(p.get('z')) || 0; state.debugLon = parseFloat(p.get('lon')); state.debugLat = parseFloat(p.get('lat'));
@@ -65,6 +67,7 @@
     if (state.panel) p.set('view', state.panel);
     if (state.lang === 'orig') p.set('lang', 'orig');
     if (state.ghosts) p.set('ghosts', '1');
+    if (state.edition) p.set('edition', state.edition);
     const h = '#' + p.toString();
     if (location.hash !== h) history.replaceState(null, '', h.length > 1 ? h : location.pathname);
   }
@@ -74,11 +77,48 @@
   async function load() {
     [news, readings, library, world, config] = await Promise.all(['data/news.json', 'data/readings.json', 'data/library.json', 'data/world.json', 'data/source-config.json'].map(getJSON));
     try { ledger = await getJSON('data/ledger.json'); } catch { ledger = null; }
+    try { editions = (await getJSON('data/narratives/index.json')).editions || []; } catch { editions = []; }
     news.articles = news.articles.filter(a => a && a.id && a.title && safeURL(a.url));
     news.articles.forEach(a => byId.set(a.id, a));
-    held = (readings.sourceArticles || []).filter(a => a && a.id && a.title && safeURL(a.url) && !byId.has(a.id)).map(a => Object.assign({}, a, { held: true }));
+    liveReadings = readings;
+    adoptReadings(readings);
+  }
+  /* The field shows today's headlines plus whichever headlines the chosen edition cites that have since left the collection (held). */
+  const newsIds = () => new Set(news.articles.map(a => a.id));
+  function adoptReadings(ed) {
+    readings = ed;
+    const live = newsIds();
+    held = (ed.sourceArticles || []).filter(a => a && a.id && a.title && safeURL(a.url) && !live.has(a.id)).map(a => Object.assign({}, a, { held: true }));
     held.forEach(a => byId.set(a.id, a));
     fieldArticles = news.articles.concat(held);
+  }
+  const stampOf = ed => String(ed.newsGeneratedAt || ed.generatedAt || '').replace(/-|:/g, '').slice(0, 15);
+  const currentStamp = () => state.edition || stampOf(liveReadings);
+  const editionAt = stamp => editions.find(e => e.stamp === stamp) || null;
+  const isLive = () => !state.edition || state.edition === stampOf(liveReadings);
+  /* Step to another edition of narratives: '' or the live stamp for today, otherwise an archived file. */
+  async function showEdition(stamp, readingId, { open = true } = {}) {
+    const live = !stamp || stamp === stampOf(liveReadings);
+    let ed = liveReadings;
+    if (!live) {
+      const entry = editionAt(stamp); if (!entry) { toast('That edition is not in the archive.'); return; }
+      try { ed = await getJSON(entry.file); } catch { toast('That edition could not be loaded.'); return; }
+    }
+    state.edition = live ? '' : stamp;
+    adoptReadings(ed);
+    sizeCanvas(); buildField(); stripBuilt = false;
+    if (state.ghosts) toggleGhosts(true);
+    setEditionLine();
+    const id = readingId && readings.readings.some(r => r.id === readingId) ? readingId : readings.readings[0].id;
+    selectReading(id, { open, fit: true });
+    if (state.panel === 'editions') renderEditions();
+  }
+  function setEditionLine() {
+    const countries = new Set(news.articles.map(a => a.sourceCountryCode)).size, langs = new Set(news.articles.map(a => a.language)).size;
+    let t = `${fmt(news.generatedAt)} · ${news.articles.length} headlines · ${countries} countries · ${langs} languages`;
+    if (!isLive()) t += ` · narratives of ${fmt(readings.newsGeneratedAt)}, ${held.length} of their headlines held in the field`;
+    else if (readings.newsGeneratedAt && readings.newsGeneratedAt !== news.generatedAt) t += held.length ? ` · readings from ${fmt(readings.newsGeneratedAt)}, ${held.length} of their headlines held in the field` : ' · readings are from an earlier collection';
+    $('#edition').textContent = t;
   }
 
   /* ---------- layout ----------
@@ -506,8 +546,14 @@
   let stripBuilt = false;
   function renderStrip() {
     const r = currentReading(), list = readings.readings;
-    $('#narratives-count').textContent = `${list.length} NARRATIVES IN THE HEADLINES OF ${fmt(readings.newsGeneratedAt).toUpperCase()}`;
+    $('#narratives-count').textContent = `${list.length} NARRATIVES IN THE HEADLINES OF ${fmt(readings.newsGeneratedAt).toUpperCase()}` + (isLive() ? '' : ' · AN EARLIER EDITION');
+    $('#narratives').classList.toggle('past', !isLive());
     $('#narratives-clear').hidden = !r;
+    const i = editions.findIndex(e => e.stamp === currentStamp());
+    $('#edition-earlier').disabled = !(i >= 0 && i < editions.length - 1);
+    $('#edition-later').disabled = isLive() || i <= 0;
+    $('#edition-now').hidden = isLive();
+    $('#editions-nav').hidden = editions.length < 2;
     const strip = $('#narratives-strip');
     if (!stripBuilt) {
       strip.replaceChildren();
@@ -542,6 +588,7 @@
     $('#drawer-eyebrow').textContent = `NARRATIVE ${String(idx + 1).padStart(2, '0')} / ${String(list.length).padStart(2, '0')} · ${readings.method === 'claude-authored-seed' ? 'SEED EDITION' : 'AI EDITION'} · ${fmt(readings.generatedAt).toUpperCase()}`;
     body.append(create('p', 'reading-kicker', r.kicker), create('h2', 'reading-line', r.line));
     if (r.events && r.events.length) body.append(eventsEl(r));
+    const since = sinceEl(r); if (since) body.append(since);
     body.append(create('p', 'reading-claim', r.claim));
     const ol = create('ol', 'rungs');
     r.rungs.forEach((rung, i) => {
@@ -577,6 +624,31 @@
     nav.append(prev, next); foot.append(cites, nav); body.append(foot);
     body.scrollTop = 0;
     const openRung = $('.rung.open', body); if (openRung && state.frag) openRung.scrollIntoView({ block: 'start', behavior: 'instant' });
+  }
+  /* Since the previous edition: what this narrative continues and what has changed, with a step back to the narrative it continues
+     and, when a later edition carried it on, a step forward. */
+  function sinceEl(r) {
+    const i = editions.findIndex(e => e.stamp === currentStamp());
+    const prev = i >= 0 ? editions[i + 1] : null, prevN = prev && r.continues ? prev.narratives.find(n => n.id === r.continues) : null;
+    let next = null, nextN = null;
+    for (let j = i - 1; j >= 0 && !nextN; j--) { const n = editions[j].narratives.find(n => n.continues === r.id); if (n) { next = editions[j]; nextN = n; } }
+    if (!prevN && !nextN && !r.change) return null;
+    const wrap = create('section', 'since');
+    wrap.append(create('p', 'sect', 'SINCE THE PREVIOUS EDITION'));
+    if (r.change) wrap.append(create('p', 'since-text', r.change));
+    if (prevN) {
+      const b = create('button', 'text since-link'); b.type = 'button';
+      b.append(create('span', 'arrow', '← '), create('span', 'w', `continues, from ${fmt(prev.newsGeneratedAt)}: `), create('span', 'q', prevN.line));
+      b.addEventListener('click', () => showEdition(prev.stamp, prevN.id));
+      wrap.append(b);
+    }
+    if (nextN) {
+      const b = create('button', 'text since-link'); b.type = 'button';
+      b.append(create('span', 'w', `continued on ${fmt(next.newsGeneratedAt)}: `), create('span', 'q', nextN.line), create('span', 'arrow', ' →'));
+      b.addEventListener('click', () => showEdition(next.stamp, nextN.id));
+      wrap.append(b);
+    }
+    return wrap;
   }
   /* What it joins: the different events a narrative connects. Hover to light one event's headlines, click to hold and fit them. */
   function eventsEl(r) {
@@ -705,9 +777,33 @@
   /* ---------- panels ---------- */
   function openPanel(name) {
     state.panel = state.panel === name ? '' : name;
-    ['tide', 'index', 'about'].forEach(n => { $(`#${n}-panel`).hidden = state.panel !== n; $(`[data-open="${n}"]`).setAttribute('aria-pressed', String(state.panel === n)); });
-    if (state.panel === 'tide') renderTide(); if (state.panel === 'index') renderIndex(); if (state.panel === 'about') renderAbout();
+    ['tide', 'index', 'about', 'editions'].forEach(n => { $(`#${n}-panel`).hidden = state.panel !== n; $$(`[data-open="${n}"]`).forEach(b => b.setAttribute('aria-pressed', String(state.panel === n))); });
+    if (state.panel === 'tide') renderTide(); if (state.panel === 'index') renderIndex(); if (state.panel === 'about') renderAbout(); if (state.panel === 'editions') renderEditions();
     writeHash();
+  }
+  /* Editions: where we were. Every edition of narratives, newest first, each line a step into that day. */
+  function renderEditions() {
+    const b = $('#editions-body'); b.replaceChildren();
+    if (!editions.length) { b.append(create('p', 'small', 'No earlier editions yet.')); return; }
+    const total = editions.reduce((n, e) => n + e.narratives.length, 0), cont = editions.reduce((n, e) => n + e.narratives.filter(x => x.continues).length, 0);
+    const first = editions[editions.length - 1];
+    b.append(create('p', 'editions-intro', `${editions.length} editions since ${fmtDate(first.newsGeneratedAt)}, ${total} narratives, ${cont} of them continuing one from the edition before. Each edition is the narratives found in that day's headlines; step into one and the field shows the headlines it read.`));
+    editions.forEach(e => {
+      const g = create('section', 'edition-group' + (e.stamp === currentStamp() ? ' current' : ''));
+      const h = create('h4', 'mono');
+      h.append(create('span', 'when', fmt(e.newsGeneratedAt).toUpperCase()), create('span', 'what', ` · ${e.method === 'claude-authored-seed' ? 'SEED EDITION' : 'AI EDITION'}${e.model ? ' · ' + e.model.toUpperCase() : ''}${e.promptVersion ? ' · BRIEF ' + e.promptVersion.toUpperCase() : ''}`));
+      if (e.stamp === stampOf(liveReadings)) h.append(create('span', 'now', ' · NOW'));
+      g.append(h);
+      const ol = create('ol', 'edition-list');
+      e.narratives.forEach((n, i) => {
+        const li = create('li');
+        const btn = create('button', 'edition-narrative' + (e.stamp === currentStamp() && n.id === state.reading ? ' open' : '')); btn.type = 'button';
+        btn.append(create('span', 'k', `${String(i + 1).padStart(2, '0')} · ${n.kicker}${n.continues ? ' · CONTINUES' : ''}`), create('span', 'n', n.line));
+        btn.addEventListener('click', () => { openPanel('editions'); showEdition(e.stamp, n.id); });
+        li.append(btn); ol.append(li);
+      });
+      g.append(ol); b.append(g);
+    });
   }
   function renderAbout() {
     $('#about-edition').textContent = `Headlines collected ${fmtDate(news.generatedAt)} · ${news.articles.length} headlines, ${new Set(news.articles.map(a => a.sourceCountryCode)).size} countries, ${new Set(news.articles.map(a => a.language)).size} languages · Readings composed ${fmtDate(readings.generatedAt)} (${readings.method}${readings.model ? ', ' + readings.model : ''})` + (ledger && ledger.previousAt ? ` · Previous edition ${fmtDate(ledger.previousAt)}` : '');
@@ -827,13 +923,17 @@
   function bind() {
     bindField();
     $('#narratives-clear').addEventListener('click', () => { selectReading('', { open: false, fit: false }); fitWorld(); });
+    const step = d => { const i = editions.findIndex(e => e.stamp === currentStamp()); const e = editions[i + d]; if (e) showEdition(e.stamp, '', { open: state.drawer }); };
+    $('#edition-earlier').addEventListener('click', () => step(1));
+    $('#edition-later').addEventListener('click', () => step(-1));
+    $('#edition-now').addEventListener('click', () => showEdition('', '', { open: state.drawer }));
     if ('ResizeObserver' in window) {
       const setStrip = () => { document.documentElement.style.setProperty('--strip-h', stripH() + 'px'); sizeCanvas(); cameraDirty = true; };
       new ResizeObserver(setStrip).observe($('#narratives')); setStrip();
     }
     $$('[data-open]').forEach(b => b.addEventListener('click', e => { e.preventDefault(); openPanel(b.dataset.open); }));
     $$('[data-close]').forEach(b => b.addEventListener('click', () => { if (b.dataset.close === 'drawer') { state.drawer = false; document.body.classList.toggle('drawer-open', false); $('#drawer').hidden = true; setFocus(null); writeHash(); } else openPanel(b.dataset.close); }));
-    $('[data-action="home"]').addEventListener('click', e => { e.preventDefault(); if (state.panel) openPanel(state.panel); selectReading(readings.readings[0].id, { open: false }); });
+    $('[data-action="home"]').addEventListener('click', e => { e.preventDefault(); if (state.panel) openPanel(state.panel); if (!isLive()) showEdition('', '', { open: false }); else selectReading(readings.readings[0].id, { open: false }); });
     $('#lang').addEventListener('click', () => setLang(state.lang === 'en' ? 'orig' : 'en'));
     $('#night').addEventListener('click', () => setNight(document.documentElement.dataset.theme !== 'night'));
     $('#scrim').addEventListener('click', closeCard);
@@ -854,9 +954,11 @@
     try { if (!location.hash.includes('lang=') && localStorage.getItem('pt-lang') === 'orig') state.lang = 'orig'; if (localStorage.getItem('pt-night') === '1') setNight(true); } catch {}
     try { await load(); } catch (e) { $('#edition').textContent = 'The collection could not be loaded. Serve this folder over HTTP.'; errlog.textContent += String(e); return; }
     setLang(state.lang);
-    const countries = new Set(news.articles.map(a => a.sourceCountryCode)).size, langs = new Set(news.articles.map(a => a.language)).size;
-    $('#edition').textContent = `${fmt(news.generatedAt)} · ${news.articles.length} headlines · ${countries} countries · ${langs} languages`;
-    if (readings.newsGeneratedAt && readings.newsGeneratedAt !== news.generatedAt) $('#edition').textContent += held.length ? ` · readings from ${fmt(readings.newsGeneratedAt)}, ${held.length} of their headlines held in the field` : ' · readings are from an earlier collection';
+    if (state.edition && state.edition !== stampOf(liveReadings)) {
+      const entry = editionAt(state.edition);
+      try { if (entry) adoptReadings(await getJSON(entry.file)); else state.edition = ''; } catch { state.edition = ''; }
+    } else state.edition = '';
+    setEditionLine();
     sizeCanvas(); buildField(); bind();
     if (state.ghosts) toggleGhosts(true);
     const first = readings.readings.find(r => r.id === state.reading) ? state.reading : readings.readings[0].id;

@@ -16,6 +16,8 @@ Black and white. No framework, no build step. A static site that refreshes itsel
 | `data/library.json` | Thirty books and sixty-eight historical moments the narratives may cite, every link checked. |
 | `data/ledger.json` | The tide: what arrived, stayed and departed since the previous collection, and which countries were silent. |
 | `data/editions/` | Slim copies of the last 14 collections, for the ledger. |
+| `data/narratives/` | Every edition of narratives, one file per headline collection read, with `index.json` listing them newest first. The site's Editions panel reads it. |
+| `lineage.html` | Where the idea comes from: the books and arguments behind the site. |
 | `data/world.json` | Natural Earth land, sampled as dots. See `data/WORLD-SOURCE.md`. |
 | `data/source-config.json` | The publisher allowlist, country anchors and collection limits. |
 | `data/translations.json` | Cache of English headlines keyed by the original title. |
@@ -25,6 +27,7 @@ Black and white. No framework, no build step. A static site that refreshes itsel
 | `scripts/oracle.py` | Asks Claude for a new edition of narratives against a strict schema, through the Message Batches API (same model, half price). The writing brief is in the file. |
 | `scripts/freeze.py` | Attaches each narrative's cited headlines so it keeps its evidence after the collection moves on. |
 | `scripts/validate.py` | Refuses an edition whose citations do not resolve, whose narratives do not end with a case against, or whose narratives are collations of one event rather than joins of several. |
+| `scripts/archive.py` | Keeps every edition under `data/narratives/` and rebuilds its index; `--backfill` recovers earlier editions from git history. |
 | `scripts/build.py` | Copies the public files to `_site/`. |
 | `.github/workflows/pages.yml` | Collect, translate, read, validate, commit, deploy. |
 
@@ -37,7 +40,7 @@ python3 -m http.server 8770
 
 Open <http://127.0.0.1:8770/>. The site loads JSON, so it needs a server rather than a `file:` URL.
 
-Controls: drag to move, scroll, pinch or double-click to zoom (shift-double-click zooms out; `+`, `-`, `0` for the world, `1` for the constellation), click a headline for its card and link. There are four levels: WORLD (countries as swarms), REGION (swarms with names), HEADLINES (countries unfold into pages of their headlines) and CLOSE. The country under the pointer stays under the pointer while the others unfold around it. The strip along the bottom shows all of the day's narratives; select one and its headlines light up in the field and the drawer opens with the evidence, the connections and the case against. In the drawer, hover or open a fragment and its headlines light up in the field. "Original" switches headlines to their source language. "Tide" shows what changed since the previous collection and can show departed headlines as ghosts. "Index" is the plain, searchable list. The URL hash carries the state, so a view can be shared.
+Controls: drag to move, scroll, pinch or double-click to zoom (shift-double-click zooms out; `+`, `-`, `0` for the world, `1` for the constellation), click a headline for its card and link. There are four levels: WORLD (countries as swarms), REGION (swarms with names), HEADLINES (countries unfold into pages of their headlines) and CLOSE. The country under the pointer stays under the pointer while the others unfold around it. The strip along the bottom shows all of the day's narratives; select one and its headlines light up in the field and the drawer opens with the evidence, the connections and the case against. In the drawer, hover or open a fragment and its headlines light up in the field. "Original" switches headlines to their source language. "Tide" shows what changed since the previous collection and can show departed headlines as ghosts. "Index" is the plain, searchable list. "Editions" lists every edition of narratives, newest first; choose one and the strip, the drawer and the field step back to that day, with the headlines it cited held in the field. The strip's "earlier" and "later" step between editions. Where a narrative continues one from the edition before, the drawer says what has changed and links back to it, and forward to any later narrative that continued it. The URL hash carries the state, including `edition`, so a view can be shared.
 
 ## Put it on GitHub Pages
 
@@ -65,7 +68,7 @@ The request does not enable server-side refusal fallbacks; a refused or malforme
 ## How an edition is made
 
 ```
-collect.py  ->  translate.py  ->  ledger.py  ->  oracle.py (batch: submit, wait, or collect)  ->  freeze.py  ->  validate.py  ->  commit  ->  deploy
+collect.py  ->  translate.py  ->  ledger.py  ->  oracle.py (batch: submit, wait, or collect)  ->  freeze.py  ->  validate.py  ->  archive.py  ->  commit  ->  deploy
 ```
 
 Each step keeps the previous result if it fails. Narratives that are older than the collection are marked as such on the page, and their cited headlines remain inspectable because `freeze.py` stores them with the edition.

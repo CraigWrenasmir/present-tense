@@ -62,12 +62,14 @@ Kinds of join, to vary across the edition:
 
 Worked example. Suppose the collection holds: Chennai eases building rules in its aquifer zone; an Arizona chip plant is delayed over its water supply; Ireland pauses new data centres on the Dublin grid and water network; Dutch farmers protest nitrogen and water rules. A collation would make four narratives, housing, chips, data centres, farming, or one narrative about "Chennai's water shortage as reported in India, Britain and Singapore". A narrative joins them: "Water, not land or money, is the limit on what gets built this week in Chennai, Arizona, Dublin and the Netherlands." That line is plain, specific and checkable against the headlines, and it can be wrong, which is what the case against is for.
 
-You will receive the collection: one line per headline with its id, publisher country, publisher, language, time and English headline. You will also receive a library of books and historical trajectories you may draw on, and the lines of the previous edition's narratives so you do not repeat them.
+You will receive the collection: one line per headline with its id, publisher country, publisher, language, time and English headline. You will also receive a library of books and historical trajectories you may draw on, and the previous edition's narratives (id and line) so you do not repeat them and so you can say what each of yours continues.
 
 Compose an edition of narratives. Each narrative has:
 - line: one plain sentence that states the idea and names the unlike events it joins. Descriptive and specific: who, what, where. A reader should know from the line alone what is being connected and what the connection is. At most 110 characters, counted strictly; shorten by dropping a clause, not by compressing into an image. No metaphor, no aphorism, no wordplay, no paradox, no colon-headlines, no questions, no hedging. Write "Water, not land or money, is the limit on building this week in Chennai, Arizona, Dublin and the Netherlands", not "The tap is the new planning office".
 - kicker: three plain words in capitals separated by " / " that name the subjects of the narrative, for example "WATER / CHIPS / FARMS" or "BONDS / PENSIONS / BUDGETS". Subjects, not images.
 - events: three to six entries, each a short plain label of two to eight words naming one distinct event or development the narrative joins, with the ids of the headlines about that event. The entries must be about different things, not the same event in different countries. Every headline the narrative cites should belong to one entry, and no entry may hold more than half of the narrative's headlines. This list is shown to the reader at the top of the narrative as what it joins.
+- continues: the id of the narrative in the previous edition that this one carries forward, if any; otherwise an empty string. A narrative continues an earlier one when it follows the same join or the same events a day later, not merely the same topic.
+- change: if continues is set, one to three plain sentences saying what has changed since that narrative: what moved, what was confirmed, what fell away. If continues is empty, an empty string. This is shown to the reader as "Since the previous edition", so write it for them.
 - claim: two to four sentences that state the idea, say which events it joins and why the join matters. Written for an intelligent general reader in plain descriptive prose. Commit to the interpretation. No disclaimers, and no closing flourish: do not end a paragraph on an epigram or a line designed to be quoted.
 - rungs: three to five rungs, in this order: one or two of kind "observation" (what the headlines say, event by event, across countries), one or two of kind "interpretation" (what joins them: the cause, mechanism, actor or shape, and what it might mean), and always, last, exactly one of kind "break" labelled "The case against" that makes the strongest honest case against the narrative: that the events are not in fact connected, a rival explanation, a sampling objection, a reason the pattern is an artefact of the collection or of English, or a reason you have mistaken a normal thing for a new thing. The break rung must be substantive and specific, not a generic caveat. Observation and interpretation rungs have plain descriptive labels of two to six words saying what they cover ("Four workplace deaths", "Where the money is going"), not titles or images ("Two doors", "The counter goes quiet").
 - each rung has one to three fragments. A fragment has a short plain label, a text of two to five sentences, and the ids of the headlines it rests on (observation and interpretation fragments cite at least one; break fragments may cite none). The text names publishers and countries and quotes headlines in paraphrase. Facts about events come only from the headlines; do not invent them. The connection between events is yours, so state it as an idea, not as a reported fact. A fragment may notice what a headline withholds.
@@ -85,7 +87,7 @@ Rules of the game:
 - Vary the kinds of join across the edition. Not five shared causes; not five shapes.
 - Commit. The structure already contains the doubt (the break rung). Do not write "this does not establish" or "may or may not" inside fragments.
 - Use only headline ids from the collection. Use only book and trajectory ids from the library.
-- Do not repeat the previous edition's lines or claims. If a join continues from a previous edition, say what has changed.
+- Do not repeat the previous edition's lines or claims. If a join continues from a previous edition, set continues to that narrative's id and say in change what has changed. The site keeps every edition, and readers can step back to the one you continue, so the edition as a whole should read as where we are today against where we were yesterday: some narratives continue, some are new, and change says which is which.
 - Write in plain British English. Use hyphens, never dashes. Capitalise proper nouns only.
 - Across the edition the horizons must not repeat each other: if two narratives share a decade, they must read it through different lenses and different moments.
 
@@ -107,6 +109,8 @@ SCHEMA = {
                     "id": {"type": "string", "description": "kebab-case, unique"},
                     "line": {"type": "string"},
                     "kicker": {"type": "string"},
+                    "continues": {"type": "string", "description": "id of the previous edition's narrative this continues, or empty"},
+                    "change": {"type": "string", "description": "what has changed since that narrative, or empty"},
                     "claim": {"type": "string"},
                     "events": {
                         "type": "array",
@@ -166,7 +170,7 @@ SCHEMA = {
                     },
                 },
                 },
-                "required": ["id", "line", "kicker", "claim", "events", "rungs", "horizons"],
+                "required": ["id", "line", "kicker", "continues", "change", "claim", "events", "rungs", "horizons"],
                 "additionalProperties": False,
             },
         }
@@ -186,11 +190,11 @@ def build_request(news, library, previous):
         collection = collection[:MAX_INPUT_CHARS]
     books = "\n".join(f"{b['id']} | {b['author']}, {b['title']} ({b['year']}) | asks: {b['question']}" for b in library["books"])
     trajs = "\n".join(f"{t['id']} | {t['when']} | {t['title']} | {t['note']}" for t in sorted(library["trajectories"], key=lambda t: (re.search(r"\d{4}", t["when"]) or re.search(r"\d{4}", "0000")).group(0)))
-    prev = "\n".join(f"- {r['line']}" for r in (previous or {}).get("readings", [])) or "(none)"
+    prev = "\n".join(f"- {r['id']} | {r['line']}" for r in (previous or {}).get("readings", [])) or "(none)"
     user = (
         f"THE COLLECTION, gathered {news['generatedAt']} ({len(news['articles'])} headlines):\n{collection}\n\n"
         f"THE LIBRARY, books:\n{books}\n\nTHE LIBRARY, trajectories:\n{trajs}\n\n"
-        f"THE PREVIOUS EDITION'S LINES:\n{prev}\n\nCompose this edition."
+        f"THE PREVIOUS EDITION'S NARRATIVES (id | line):\n{prev}\n\nCompose this edition."
     )
     return user
 
@@ -371,8 +375,14 @@ def collect(client, state, pending, library):
     if problems:
         return fail(state, "edition rejected: " + "; ".join(problems[:8]))
     by_id = {a["id"]: a for a in pending["articles"]}
+    previous = json.loads((DATA / "readings.json").read_text()) if (DATA / "readings.json").exists() else {}
+    prev_ids = {r["id"] for r in previous.get("readings", [])}
     cited = []
     for r in edition["readings"]:
+        if r.get("continues") and r["continues"] not in prev_ids:
+            r["continues"] = ""
+        if not r.get("continues"):
+            r["change"] = ""
         ids = []
         for rung in r["rungs"]:
             for f in rung["fragments"]:
@@ -388,11 +398,13 @@ def collect(client, state, pending, library):
         "newsGeneratedAt": pending["newsGeneratedAt"],
         "method": "claude-api-batch",
         "model": message.model,
-        "promptVersion": "narrative-4",
+        "promptVersion": "narrative-5",
+        "previousNewsGeneratedAt": previous.get("newsGeneratedAt"),
         "usage": usage,
         "notes": [
             "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
             "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+            "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
             "Each narrative ends with 'How we got here': four horizons, the past decade, the past fifty years, since September 2001 and since 1945, that place the day's pattern on longer trajectories. They are a trajectory, not a verdict.",
             "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
             "Books and trajectories appear only where they change how a fragment or a horizon reads.",

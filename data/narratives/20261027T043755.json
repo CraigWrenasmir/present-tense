@@ -1,0 +1,2413 @@
+{
+  "schemaVersion": 3,
+  "generatedAt": "2026-10-27T04:57:03Z",
+  "newsGeneratedAt": "2026-10-27T04:37:55Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "oracle-2",
+  "usage": {
+    "input": 52449,
+    "output": 53668,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each reading commits to a claim. The last rung of every reading argues against it. Read both.",
+    "Each reading ends with 'How we got here': four horizons, the past decade, the past fifty years, since September 2001 and since 1945, that place the day's pattern on longer trajectories. They are a trajectory, not a verdict.",
+    "Connections are the oracle's, not the publishers'. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-c96d9eed7650ca",
+      "title": "Wealthy Kenyans stockpile Sh1.5trn in dollar accounts",
+      "titleEnglish": "Wealthy Kenyans stockpile Sh1.5trn in dollar accounts",
+      "url": "https://www.businessdailyafrica.com/bd/economy/wealthy-kenyans-stockpile-sh1-5trn-in-dollar-accounts-5646874",
+      "publisher": "Business Daily",
+      "publisherDomain": "businessdailyafrica.com",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Kenya",
+      "sourceCountryCode": "KE",
+      "sourceRegion": "Africa",
+      "sourceLat": 0.1,
+      "sourceLon": 38,
+      "language": "en"
+    },
+    {
+      "id": "n-3d1a59b10d7cbd",
+      "title": "Farmers ditch family loans for banks, sacco borrowing",
+      "titleEnglish": "Farmers ditch family loans for banks, sacco borrowing",
+      "url": "https://www.businessdailyafrica.com/bd/markets/currencies/farmers-ditch-family-loans-for-banks-sacco-borrowing-5646784",
+      "publisher": "Business Daily",
+      "publisherDomain": "businessdailyafrica.com",
+      "publishedAt": "2026-10-26T19:32:00Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Kenya",
+      "sourceCountryCode": "KE",
+      "sourceRegion": "Africa",
+      "sourceLat": 0.1,
+      "sourceLon": 38,
+      "language": "en"
+    },
+    {
+      "id": "n-78d22ef6a02757",
+      "title": "NSE investors hit 2.3 million on new listings, bull market",
+      "titleEnglish": "NSE investors hit 2.3 million on new listings, bull market",
+      "url": "https://www.businessdailyafrica.com/bd/markets/capital-markets/nse-investors-hit-2-3-million-on-new-listings-bull-market-5646790",
+      "publisher": "Business Daily",
+      "publisherDomain": "businessdailyafrica.com",
+      "publishedAt": "2026-10-26T19:32:00Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Kenya",
+      "sourceCountryCode": "KE",
+      "sourceRegion": "Africa",
+      "sourceLat": 0.1,
+      "sourceLon": 38,
+      "language": "en"
+    },
+    {
+      "id": "n-b053cf203fd96d",
+      "title": "Harga Emas Antam Naik Tipis Hari Ini, Ini Rinciannya",
+      "titleEnglish": "Antam Gold Price Rises Slightly Today, Here Are the Details",
+      "url": "https://ekonomi.republika.co.id/berita/tnjqrz370/harga-emas-antam-naik-tipis-hari-ini-ini-rinciannya",
+      "publisher": "Republika Online",
+      "publisherDomain": "ekonomi.republika.co.id",
+      "publishedAt": "2026-10-27T03:23:59Z",
+      "seenAt": "2026-10-27T03:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-30a6a4cacb95c2",
+      "title": "Bea Cukai Telusuri Dugaan Under Invoicing Ekspor Emas",
+      "titleEnglish": "Customs Investigates Alleged Under-Invoicing of Gold Exports",
+      "url": "https://www.liputan6.com/bisnis/read/8321727/bea-cukai-telusuri-dugaan-under-invoicing-ekspor-emas",
+      "publisher": "liputan6.com",
+      "publisherDomain": "liputan6.com",
+      "publishedAt": "2026-10-26T13:30:09Z",
+      "seenAt": "2026-10-26T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-646477f4689d2c",
+      "title": "事关离岸信托申报纳税，北京青岛多地已向20余人发通知",
+      "titleEnglish": "Regarding offshore trust tax reporting, multiple areas in Beijing and Qingdao have sent notices to more than 20 people",
+      "url": "https://www.yicai.com/news/103408223.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-10-26T17:02:00Z",
+      "seenAt": "2026-10-26T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-685d06d6d334fb",
+      "title": "ЛДПР предложила запретить выплату зарплаты иностранцам наличными",
+      "titleEnglish": "LDPR proposes banning cash salary payments to foreigners",
+      "url": "https://iz.ru/2191052/2026-10-27/ldpr-predlozhila-zapretit-vyplatu-zarplaty-inostrantcam-nalichnymi",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-10-26T22:00:00Z",
+      "seenAt": "2026-10-26T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-d3984c7e5d1b3e",
+      "title": "Taubaté lança programa de anistia com descontos de até 100% de juros e multas | G1",
+      "titleEnglish": "Taubaté launches amnesty programme with discounts of up to 100% on interest and fines | G1",
+      "url": "https://g1.globo.com/sp/vale-do-paraiba-regiao/especial-publicitario/prefeitura-de-taubate/nosso-caminho-e-o-progresso/noticia/2026/10/26/taubate-lanca-programa-de-anistia-com-descontos-de-ate-100percent-de-juros-e-multas.ghtml",
+      "publisher": "G1",
+      "publisherDomain": "g1.globo.com",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-5c492472833544",
+      "title": "Sefaz amplia regras para o Refis 2026 com descontos de até 99% - Tribuna do Norte",
+      "titleEnglish": "Sefaz expands rules for Refis 2026 with discounts of up to 99% - Tribuna do Norte",
+      "url": "https://tribunadonorte.com.br/economia/sefaz-amplia-regras-para-o-refis-2026-com-descontos-de-ate-99/",
+      "publisher": "Tribuna do Norte",
+      "publisherDomain": "tribunadonorte.com.br",
+      "publishedAt": "2026-10-26T18:21:40Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-a3ed99092e223e",
+      "title": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta - Tribuna do Norte",
+      "titleEnglish": "Deadline for companies to choose Simples model ends this Friday - Tribuna do Norte",
+      "url": "https://tribunadonorte.com.br/economia/prazo-para-empresas-escolherem-modelo-do-simples-acaba-nesta-sexta/",
+      "publisher": "Tribuna do Norte",
+      "publisherDomain": "tribunadonorte.com.br",
+      "publishedAt": "2026-10-26T18:48:02Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-3ad0a0f51d5899",
+      "title": "Brasile, la vittoria di Lula su Bolsonaro scuote i mercati: borsa giù fino al 17%, si svaluta il real sul dollaro",
+      "titleEnglish": "Brazil, Lula's victory over Bolsonaro shakes markets: stock exchange down as much as 17%, real devalues against the dollar",
+      "url": "https://www.ilmessaggero.it:443/economia/lula_brasile_crollo_borsa_dopo_vittoria_perche_cosa_succede-9850330.html",
+      "publisher": "ilmessaggero.it",
+      "publisherDomain": "ilmessaggero.it",
+      "publishedAt": "2026-10-26T23:26:30Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-74e1ad4461a329",
+      "title": "La Bolsa de Brasil se desploma más del 15% tras el triunfo de Lula",
+      "titleEnglish": "Brazil's stock exchange plunges more than 15% after Lula's victory",
+      "url": "https://www.lv12.com.ar/brasil/la-bolsa-brasil-se-desploma-mas-del-15-el-triunfo-lula-n205656",
+      "publisher": "www.lv12.com.ar",
+      "publisherDomain": "lv12.com.ar",
+      "publishedAt": "2026-10-26T19:32:00Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-adab6a11566a39",
+      "title": "\"Оюутолгойн ногдол ашгаа иргэн бүр дансандаа авья” жагсаал боллоо",
+      "titleEnglish": "\"Let everyone get their Oyu Tolgoi dividend in their account\" rally takes place",
+      "url": "https://www.sonin.mn/newsDetail/19441",
+      "publisher": "sonin.mn",
+      "publisherDomain": "sonin.mn",
+      "publishedAt": "2026-10-26T13:32:00Z",
+      "seenAt": "2026-10-26T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Mongolia",
+      "sourceCountryCode": "MN",
+      "sourceRegion": "Asia",
+      "sourceLat": 46,
+      "sourceLon": 104,
+      "language": "mn"
+    },
+    {
+      "id": "n-d368fd29850fae",
+      "title": "Brighton changes traditional blue paint for railings to save cash",
+      "titleEnglish": "Brighton changes traditional blue paint for railings to save cash",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2qgnl4qy5o",
+      "publisher": "BBC News",
+      "publisherDomain": "bbc.co.uk",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-52789cc8432ac6",
+      "title": "Gas will be 8 cents a litre cheaper as N.L. government axes gas tax for 4 months | CBC News",
+      "titleEnglish": "Gas will be 8 cents a litre cheaper as N.L. government axes gas tax for 4 months | CBC News",
+      "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/province-cuts-gas-tax-9.7396099",
+      "publisher": "CBC",
+      "publisherDomain": "cbc.ca",
+      "publishedAt": "2026-10-26T19:32:00Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
+    },
+    {
+      "id": "n-d8ebd98e7ff0ce",
+      "title": "신한카드, 두나무 블록체인으로 토큰 발행·결제 추진",
+      "titleEnglish": "Shinhan Card pursues token issuance and payments using Dunamu's blockchain",
+      "url": "https://biz.heraldcorp.com/article/10915866",
+      "publisher": "헤럴드경제",
+      "publisherDomain": "biz.heraldcorp.com",
+      "publishedAt": "2026-10-27T01:21:58Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-9e5553caa441a2",
+      "title": "Nederlandse bitcoinbroker Bitonic gehackt, 'kleine bedragen' van klanten gestolen",
+      "titleEnglish": "Dutch bitcoin broker Bitonic hacked, 'small amounts' stolen from customers",
+      "url": "https://nos.nl/artikel/2636798-nederlandse-bitcoinbroker-bitonic-gehackt-kleine-bedragen-van-klanten-gestolen",
+      "publisher": "nos.nl",
+      "publisherDomain": "nos.nl",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-ceb6895295323b",
+      "title": "مايكروسوفت تعرض المغادرة الطوعية على 60 ألف موظف لتمويل استثمارات الذكاء الاصطناعى - اليوم السابع",
+      "titleEnglish": "Microsoft offers voluntary departure to 60,000 employees to fund artificial intelligence investments - Al-Youm Al-Sabea",
+      "url": "https://www.youm7.com/story/2026/10/26/%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%88%D9%81%D8%AA-%D8%AA%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D9%85%D8%BA%D8%A7%D8%AF%D8%B1%D8%A9-%D8%A7%D9%84%D8%B7%D9%88%D8%B9%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-60-%D8%A3%D9%84%D9%81-%D9%85%D9%88%D8%B8%D9%81-%D9%84%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D8%A7%D8%AA/7594919",
+      "publisher": "اليوم السابع",
+      "publisherDomain": "youm7.com",
+      "publishedAt": "2026-10-26T22:57:49Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-3d4b995a143a63",
+      "title": "Microsoft propone salidas voluntarias a 60.000 empleados, el 27% de la plantilla",
+      "titleEnglish": "Microsoft offers voluntary exits to 60,000 employees, 27% of the workforce",
+      "url": "https://www.elmundo.es/economia/empresas/2026/10/26/6adf840ce4d4d84c428b4574.html",
+      "publisher": "El Mundo",
+      "publisherDomain": "elmundo.es",
+      "publishedAt": "2026-10-26T16:49:02Z",
+      "seenAt": "2026-10-26T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-30d199b0359051",
+      "title": "Microsoft to offer buyouts to 60,000 workers in latest cost cut",
+      "titleEnglish": "Microsoft to offer buyouts to 60,000 workers in latest cost cut",
+      "url": "https://www.straitstimes.com/business/microsoft-to-offer-buyouts-to-60000-workers-in-latest-cost-cut",
+      "publisher": "The Straits Times",
+      "publisherDomain": "straitstimes.com",
+      "publishedAt": "2026-10-26T16:44:34Z",
+      "seenAt": "2026-10-26T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-1b7c8de72a9455",
+      "title": "Unternehmen: Microsoft bietet Angestellten Abfindung an",
+      "titleEnglish": "Company: Microsoft offers employees severance pay",
+      "url": "https://www.handelsblatt.com/unternehmen/dienstleister/unternehmen-microsoft-bietet-angestellten-abfindung-an/100265086.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-10-26T19:06:10Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-62c11317b488c6",
+      "title": "CFO pay jumps 66% at major industrial spinoffs | Fortune",
+      "titleEnglish": "CFO pay jumps 66% at major industrial spinoffs | Fortune",
+      "url": "https://fortune.com/2026/10/26/cfo-pay-jumps-66-percent-major-industrial-spinoffs/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-10-26T16:32:00Z",
+      "seenAt": "2026-10-26T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-55c9f2c59379a2",
+      "title": "KTcs, 다이소 고객센터에 AI 상담 도입…“반복 문의 빠르게 안내”",
+      "titleEnglish": "KTcs introduces AI counselling at Daiso customer centre: \"quickly guides repeated inquiries\"",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026102709454352701",
+      "publisher": "디지털데일리",
+      "publisherDomain": "ddaily.co.kr",
+      "publishedAt": "2026-10-27T01:32:00Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-d47d7fa2a4421e",
+      "title": "في منتدى الدوحة.. ثورة وكلاء الذكاء الاصطناعي بين ريادة الأعمال وتهديد الوظائف",
+      "titleEnglish": "At Doha Forum: the AI agent revolution between entrepreneurship and job threats",
+      "url": "https://www.aljazeera.net/tech/2026/10/26/%D9%81%D9%8A-%D9%85%D9%86%D8%AA%D8%AF%D9%89-%D8%A7%D9%84%D8%AF%D9%88%D8%AD%D8%A9-%D8%AB%D9%88%D8%B1%D8%A9-%D9%88%D9%83%D9%84%D8%A7%D8%A1-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-7ec99fd3508866",
+      "title": "The next generation of CHROs may not come from HR at all | Fortune",
+      "titleEnglish": "The next generation of CHROs may not come from HR at all | Fortune",
+      "url": "https://fortune.com/2026/10/26/ceos-want-a-new-kind-of-chro-only-1-in-4-fit-the-bill/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-10-26T16:32:00Z",
+      "seenAt": "2026-10-26T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-e9cbedaec26439",
+      "title": "油圧ショベルにひかれて作業員の男性死亡 東京・銀座のビル解体現場：朝日新聞",
+      "titleEnglish": "Male worker killed after being run over by a hydraulic excavator at a building-demolition site in Ginza, Tokyo | Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVBV5CYRVBVUEFT00LM.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-10-26T21:00:00Z",
+      "seenAt": "2026-10-26T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-40cae65fc6180a",
+      "title": "Bayrampaşa'da kazı çalışması sırasında yolda oluşan göçüğe düşen işçi öldü",
+      "titleEnglish": "Worker dies after falling into a collapse on the road during excavation work in Bayrampaşa",
+      "url": "https://www.hurriyet.com.tr/gundem/bayrampasada-yol-coktu-mahsur-kalanlar-var-43355835",
+      "publisher": "Hürriyet",
+      "publisherDomain": "hurriyet.com.tr",
+      "publishedAt": "2026-10-26T16:32:00Z",
+      "seenAt": "2026-10-26T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-e5fa9542de1eff",
+      "title": "Agrigento, quattro morti in un incidente: andavano al lavoro nei campi",
+      "titleEnglish": "Agrigento, four dead in an accident: they were going to work in the fields",
+      "url": "https://tg24.sky.it/cronaca/2026/10/26/incidente-stradale-agrigento-morti",
+      "publisher": "tg24.sky.it",
+      "publisherDomain": "tg24.sky.it",
+      "publishedAt": "2026-10-26T10:32:00Z",
+      "seenAt": "2026-10-26T10:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-a7b76a6052b17e",
+      "title": "Delhi NCR News: जमींदोज मकान के मलबे में दूसरे दिन मिला ठेकेदार बाप और बेटे का शव",
+      "titleEnglish": "Delhi NCR News: Contractor father and son's body found on second day in rubble of collapsed house",
+      "url": "https://www.amarujala.com/delhi-ncr/bodies-of-contractor-father-and-son-found-on-the-second-day-in-the-debris-of-a-collapsed-house-delhi-ncr-news-c-503-1-del1005-2476-2026-10-26",
+      "publisher": "Amar Ujala",
+      "publisherDomain": "amarujala.com",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "hi"
+    },
+    {
+      "id": "n-59de3157a9220c",
+      "title": "Delhi NCR News: पिता-पुत्र के जिंदा होने की आस में रातभर घटनास्थल पर बैठा रहा परिवार, सुबह मिली दोनों की लाश",
+      "titleEnglish": "Delhi NCR News: Family sat at the scene all night hoping father and son were alive, bodies found in the morning",
+      "url": "https://www.amarujala.com/delhi-ncr/hoping-that-the-father-and-son-might-still-be-alive-the-family-remained-at-the-scene-throughout-the-night-by-morning-both-were-found-dead-delhi-ncr-news-c-503-1-del1005-2498-2026-10-26",
+      "publisher": "Amar Ujala",
+      "publisherDomain": "amarujala.com",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "bh"
+    },
+    {
+      "id": "n-ea73edccee8f15",
+      "title": "Cinco pessoas acusadas de explorar dois portugueses em Espanha durante 15 anos",
+      "titleEnglish": "Five people charged with exploiting two Portuguese men in Spain for 15 years",
+      "url": "https://observador.pt/2026/10/26/cinco-pessoas-acusadas-de-explorar-dois-portugueses-em-espanha-durante-15-anos/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-b5eb9c74615ed1",
+      "title": "Bloomberg: Россия расширяет вербовку в бедных странах Африки из-за нехватки людей для войны",
+      "titleEnglish": "Bloomberg: Russia expands recruitment in poor African countries due to a shortage of people for the war",
+      "url": "https://www.dw.com/ru/bloomberg-rossia-rassiraet-nabor-voennosluzasih-v-bednyh-stranah-afriki-pytaas-vospolnit-poteri-i-deficit-licnogo-sostava-na-vojne-v-ukraine/a-79769108",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "ru"
+    },
+    {
+      "id": "n-4c9796c1a81e74",
+      "title": "Tak Rosja szuka mięsa armatniego. Kampania się rozszerza",
+      "titleEnglish": "So Russia is looking for cannon fodder. The campaign is expanding",
+      "url": "https://wiadomosci.onet.pl/swiat/rosja-szuka-kolejnych-rak-do-walki-tak-oszukuje-mezczyzn-z-afryki/hkz9cl8",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-c28b0af2d4f3e6",
+      "title": "Mi­gran­t*in­nen-Streik in Halle: „Es ist doch nicht alles verloren in Sachsen-Anhalt“",
+      "titleEnglish": "Migrant strike in Halle: \"Not everything is lost in Saxony-Anhalt\"",
+      "url": "https://taz.de/Migrantinnen-Streik-in-Halle-Es-ist-doch-nicht-alles-verloren-in-Sachsen-Anhalt/!6222894/",
+      "publisher": "taz.de",
+      "publisherDomain": "taz.de",
+      "publishedAt": "2026-10-26T20:48:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-ad7e73e0d96ea1",
+      "title": "工厂聘机械操作员-51工作-加国无忧",
+      "titleEnglish": "Factory hiring machine operators - 51job - Canada Worry-Free",
+      "url": "https://www.51.ca/jobs/job-posts/1205635",
+      "publisher": "加国无忧",
+      "publisherDomain": "51.ca",
+      "publishedAt": "2026-10-27T01:32:00Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "zh"
+    },
+    {
+      "id": "n-046a31627c6bcf",
+      "title": "北约克橱柜厂招聘工厂帮手-51工作-加国无忧",
+      "titleEnglish": "North York cabinet factory recruiting factory helpers - 51 jobs - Canada worry-free",
+      "url": "https://www.51.ca/jobs/job-posts/1207165",
+      "publisher": "加国无忧",
+      "publisherDomain": "51.ca",
+      "publishedAt": "2026-10-26T17:02:00Z",
+      "seenAt": "2026-10-26T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "zh"
+    },
+    {
+      "id": "n-d44522ae782713",
+      "title": "七平台联合倡议推动新就业形态人员参保医保：责任明确化，骑手司机盼落地",
+      "titleEnglish": "Seven platforms jointly call for promoting social insurance and medical insurance coverage for new employment-form workers: responsibilities clarified, riders and drivers hope for implementation",
+      "url": "https://www.yicai.com/news/103407843.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-10-26T17:02:00Z",
+      "seenAt": "2026-10-26T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-e3e0fbe804c186",
+      "title": "Cómo será la misa del papa en Córdoba: 150 músicos, 2.000 ministros de comunión y 400.000 hostias",
+      "titleEnglish": "What the pope's Mass in Córdoba will involve: 150 musicians, 2,000 communion ministers and 400,000 hosts",
+      "url": "https://www.cadena3.com/noticia/visita-del-papa-leon-xiv-a-argentina/como-sera-la-misa-del-papa-en-cordoba-150-musicos-2000-ministros-de-comunion-y-400000-hostias_607324",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-10-26T22:32:00Z",
+      "seenAt": "2026-10-26T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-39711ac06b3f81",
+      "title": "Pope fit enough to make Latin America trip next month, Vatican says",
+      "titleEnglish": "Pope fit enough to make Latin America trip next month, Vatican says",
+      "url": "https://bdnews24.com/world/8id4isse05",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-10-26T21:48:47Z",
+      "seenAt": "2026-10-26T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-f4ece96e805325",
+      "title": "El papa León XIV confirmó su viaje a la Argentina",
+      "titleEnglish": "Pope Leo XIV confirmed his trip to Argentina",
+      "url": "https://www.lv12.com.ar/papa-leon-xiv/el-papa-leon-xiv-confirmo-su-viaje-la-argentina-n205651",
+      "publisher": "www.lv12.com.ar",
+      "publisherDomain": "lv12.com.ar",
+      "publishedAt": "2026-10-26T19:32:00Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-08e0011f1d405a",
+      "title": "El Papa ratificó su viaje a Argentina",
+      "titleEnglish": "The Pope confirmed his trip to Argentina",
+      "url": "https://www.cadena3.com/noticia/ahora-pais/el-papa-ratifico-su-viaje-a-argentina_607196",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-10-26T16:32:00Z",
+      "seenAt": "2026-10-26T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-5ce1ed18c41bfa",
+      "title": "El Vaticano confirma el viaje del Papa a Uruguay, Argentina y Perú tras su operación | El Comercio: Diario de Asturias",
+      "titleEnglish": "The Vatican confirms the Pope's trip to Uruguay, Argentina and Peru after his operation | El Comercio: Diario de Asturias",
+      "url": "https://www.elcomercio.es/sociedad/vaticano-confirma-viaje-papa-uruguay-argentina-peru-20261026171730-ntrc.html",
+      "publisher": "El Comercio: Diario de Asturias",
+      "publisherDomain": "elcomercio.es",
+      "publishedAt": "2026-10-26T16:17:30Z",
+      "seenAt": "2026-10-26T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-ba0989448143d8",
+      "title": "拜神明到底要拿幾支香？不是越多越好！命理師揭「2支、3支香」差別，很多人搞錯 | 魏甫丞 | 風生活",
+      "titleEnglish": "How many incense sticks should you offer to deities? More is not always better! Fortune teller reveals the difference between '2 or 3 sticks', many people get it wrong | Wei Fu-cheng | Feng Life",
+      "url": "https://www.storm.mg/lifestyle/11175809",
+      "publisher": "storm.mg",
+      "publisherDomain": "storm.mg",
+      "publishedAt": "2026-10-26T09:32:00Z",
+      "seenAt": "2026-10-26T10:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-a2f70a14e380e1",
+      "title": "למה מברכים את הילדים דווקא בליל שבת? - וואלה יהדות",
+      "titleEnglish": "Why do we bless children specifically on Shabbat evening? - Walla Judaism",
+      "url": "https://judaism.walla.co.il/item/3873824",
+      "publisher": "וואלה",
+      "publisherDomain": "judaism.walla.co.il",
+      "publishedAt": "2026-10-26T13:32:00Z",
+      "seenAt": "2026-10-26T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
+    },
+    {
+      "id": "n-02e798283d463b",
+      "title": "איך תיראה תחבורה ציבורית בשבת בישראל? - וואלה רכב",
+      "titleEnglish": "What will public transport look like on Shabbat in Israel? - Walla Cars",
+      "url": "https://cars.walla.co.il/item/3873830",
+      "publisher": "וואלה",
+      "publisherDomain": "cars.walla.co.il",
+      "publishedAt": "2026-10-27T01:32:00Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
+    },
+    {
+      "id": "n-6e042eebe17225",
+      "title": "Saltillo: piden cambiar los disfraces de Halloween por santos, ángeles y mártires",
+      "titleEnglish": "Saltillo: calls to replace Halloween costumes with saints, angels and martyrs",
+      "url": "https://vanguardia.com.mx/coahuila/saltillo-piden-cambiar-los-disfraces-de-halloween-por-santos-angeles-y-martires-CN24387858",
+      "publisher": "Vanguardia",
+      "publisherDomain": "vanguardia.com.mx",
+      "publishedAt": "2026-10-26T15:43:25Z",
+      "seenAt": "2026-10-26T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Mexico",
+      "sourceCountryCode": "MX",
+      "sourceRegion": "Latin America",
+      "sourceLat": 23,
+      "sourceLon": -102,
+      "language": "es"
+    },
+    {
+      "id": "n-f4b3d6aaf417e3",
+      "title": "Viralizan en Torreón a sacerdote que confronta a fotógrafos por no arrodillarse en boda",
+      "titleEnglish": "Priest in Torreón goes viral for confronting photographers over not kneeling at a wedding",
+      "url": "https://vanguardia.com.mx/coahuila/torreon/viralizan-en-torreon-a-sacerdote-que-confronta-a-fotografos-por-no-arrodillarse-en-boda-EN24388851",
+      "publisher": "Vanguardia",
+      "publisherDomain": "vanguardia.com.mx",
+      "publishedAt": "2026-10-26T16:25:20Z",
+      "seenAt": "2026-10-26T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Mexico",
+      "sourceCountryCode": "MX",
+      "sourceRegion": "Latin America",
+      "sourceLat": 23,
+      "sourceLon": -102,
+      "language": "es"
+    },
+    {
+      "id": "n-b517dcbcfdc39f",
+      "title": "Convoca la SEP a concurso nacional de calaveritas literarias sobre la historia de México",
+      "titleEnglish": "SEP calls national contest of literary calaveritas on the history of Mexico",
+      "url": "https://vanguardia.com.mx/coahuila/convoca-la-sep-a-concurso-nacional-de-calaveritas-literarias-sobre-la-historia-de-mexico-CM24392734",
+      "publisher": "Vanguardia",
+      "publisherDomain": "vanguardia.com.mx",
+      "publishedAt": "2026-10-26T19:20:01Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Mexico",
+      "sourceCountryCode": "MX",
+      "sourceRegion": "Latin America",
+      "sourceLat": 23,
+      "sourceLon": -102,
+      "language": "es"
+    },
+    {
+      "id": "n-d63592350c5ebb",
+      "title": "마포구, 헬러윈 앞두고 지역치안협의회서 안전대책 점검",
+      "titleEnglish": "Mapo-gu, ahead of Halloween, checks safety measures at local public safety council",
+      "url": "https://biz.heraldcorp.com/article/10915355",
+      "publisher": "헤럴드경제",
+      "publisherDomain": "biz.heraldcorp.com",
+      "publishedAt": "2026-10-26T10:19:10Z",
+      "seenAt": "2026-10-26T10:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-7ae1254ece3089",
+      "title": "Is Halloween too scary for kids?",
+      "titleEnglish": "Is Halloween too scary for kids?",
+      "url": "https://www.rnz.co.nz/life/relationships/family/is-halloween-too-scary-for-kids",
+      "publisher": "RNZ",
+      "publisherDomain": "rnz.co.nz",
+      "publishedAt": "2026-10-26T22:32:00Z",
+      "seenAt": "2026-10-26T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-a8514ab535338b",
+      "title": "\"Hoummous betterave et cocktails servis dans des poches de transfusion\" : la Prohibition et l'esprit de Halloween s'invitent à Agen au bar Le Balthazar",
+      "titleEnglish": "\"Beetroot hummus and cocktails served in blood transfusion bags\": Prohibition and the spirit of Halloween come to Agen at the Le Balthazar bar",
+      "url": "https://www.ladepeche.fr/2026/10/26/hoummous-betterave-et-cocktails-servis-dans-des-poches-de-transfusion-la-prohibition-et-lesprit-de-halloween-sinvitent-a-agen-au-bar-le-balthazar-13620917.php",
+      "publisher": "ladepeche.fr",
+      "publisherDomain": "ladepeche.fr",
+      "publishedAt": "2026-10-26T16:32:00Z",
+      "seenAt": "2026-10-26T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-968adf3ceacedc",
+      "title": "Abre las Puertas Misteriosas y gana premios espeluznantemente increíbles: 1xBet y su nueva promo de Halloween | Puranoticia.cl",
+      "titleEnglish": "Open the Mysterious Doors and win eerily incredible prizes: 1xBet and its new Halloween promo | Puranoticia.cl",
+      "url": "https://puranoticia.pnt.cl/tendencias/abre-las-puertas-misteriosas-y-gana-premios-espeluznantemente-increibles",
+      "publisher": "puranoticia.pnt.cl",
+      "publisherDomain": "puranoticia.pnt.cl",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-cf4b6fbacb00ba",
+      "title": "France Faces Halloween Protests as Yellow Vests Call for Fresh Rallies Amid 1,314 Arrests Nationwide",
+      "titleEnglish": "France Faces Halloween Protests as Yellow Vests Call for Fresh Rallies Amid 1,314 Arrests Nationwide",
+      "url": "https://www.ibtimes.co.uk/yellow-vest-halloween-protests-france-macron-1827812",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-10-26T10:27:52Z",
+      "seenAt": "2026-10-26T10:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-184df5dbfbef20",
+      "title": "Ana Rosa Quintana pide el desalojo de la acampada de Sol: \"Que se marchen ya para que nos pongan el árbol de Navidad\"",
+      "titleEnglish": "Ana Rosa Quintana calls for eviction of the Sol encampment: \"Let them leave now so they can put up the Christmas tree\"",
+      "url": "https://www.marca.com/tiramillas/television/2026/10/26/ana-rosa-quintana-pide-desalojo-acampada-sol-marchen-pongan-arbol-navidad.html",
+      "publisher": "MARCA",
+      "publisherDomain": "marca.com",
+      "publishedAt": "2026-10-26T19:06:39Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-0e924bd32fbce0",
+      "title": "В ОП предложили сделать день бабушек и дедушек официальным праздником",
+      "titleEnglish": "Proposal in State Duma to make Grandparents' Day an official holiday",
+      "url": "https://iz.ru/2191127/2026-10-27/v-op-predlozhili-sdelat-den-babushek-i-dedushek-ofitcialnym-prazdnikom",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-10-27T01:14:54Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-46d25da3100919",
+      "title": "Meta擬募資3兆元擴張AI 輝達、超微及博通有意投資 | ETtoday國際新聞 | ETtoday新聞雲",
+      "titleEnglish": "Meta reportedly seeks NT$3 trillion to expand AI; Nvidia, AMD and Broadcom interested in investing | ETtoday International | ETtoday News Cloud",
+      "url": "https://www.ettoday.net/news/20261027/3261321.htm",
+      "publisher": "ETtoday新聞雲",
+      "publisherDomain": "ettoday.net",
+      "publishedAt": "2026-10-27T00:52:00Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-c559c694215c15",
+      "title": "\"엔비디아 아성 깬다\"…브로드컴, 월가 손잡고 앤트로픽에 칩 리스",
+      "titleEnglish": "\"Breaking Nvidia's stronghold\"... Broadcom, with Wall Street, chip leasing to Anthropic",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026102708530155095",
+      "publisher": "디지털데일리",
+      "publisherDomain": "ddaily.co.kr",
+      "publishedAt": "2026-10-27T01:32:00Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-2b1a7b1bb1f1a8",
+      "title": "Southco Korea Advances Data Center Performance with Next-Generation Access Hardware",
+      "titleEnglish": "Southco Korea Advances Data Center Performance with Next-Generation Access Hardware",
+      "url": "https://www.manilatimes.net/2026/10/27/tmt-newswire/media-outreach-newswire/southco-korea-advances-data-center-performance-with-next-generation-access-hardware/2454548",
+      "publisher": "The Manila Times",
+      "publisherDomain": "manilatimes.net",
+      "publishedAt": "2026-10-27T01:18:23Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Philippines",
+      "sourceCountryCode": "PH",
+      "sourceRegion": "Asia",
+      "sourceLat": 12,
+      "sourceLon": 122,
+      "language": "en"
+    },
+    {
+      "id": "n-745fe4904206a4",
+      "title": "CoreWeave leads tech selloff after Musk's consolidation warning",
+      "titleEnglish": "CoreWeave leads tech selloff after Musk's consolidation warning",
+      "url": "https://www.businessday.co.za/world/international-companies/2026-10-26-coreweave-leads-tech-selloff-after-musks-consolidation-warning/",
+      "publisher": "Business Day",
+      "publisherDomain": "businessday.co.za",
+      "publishedAt": "2026-10-26T16:32:00Z",
+      "seenAt": "2026-10-26T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Africa",
+      "sourceCountryCode": "ZA",
+      "sourceRegion": "Africa",
+      "sourceLat": -30,
+      "sourceLon": 25,
+      "language": "en"
+    },
+    {
+      "id": "n-c2149c36fb393b",
+      "title": "China’s AI stock bubble bursts as tech shares plunge",
+      "titleEnglish": "China’s AI stock bubble bursts as tech shares plunge",
+      "url": "https://www.samaa.tv/2087359149-china-s-ai-stock-bubble-bursts-as-tech-shares-plunge",
+      "publisher": "SAMAA TV",
+      "publisherDomain": "samaa.tv",
+      "publishedAt": "2026-10-26T16:41:33Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Pakistan",
+      "sourceCountryCode": "PK",
+      "sourceRegion": "Asia",
+      "sourceLat": 30,
+      "sourceLon": 69,
+      "language": "en"
+    },
+    {
+      "id": "n-1fe77a8dd6a3c2",
+      "title": "In 2026, Arizona officials rejected a data-centre plan covering 3,000 acres near Eloy; the developer had already reduced the proposed campus to 11 buildings",
+      "titleEnglish": "In 2026, Arizona officials rejected a data-centre plan covering 3,000 acres near Eloy; the developer had already reduced the proposed campus to 11 buildings",
+      "url": "https://timesofindia.indiatimes.com/world/us/in-2026-arizona-officials-rejected-a-data-centre-plan-covering-3000-acres-near-eloy-the-developer-had-already-reduced-the-proposed-campus-to-11-buildings/articleshow/135208001.cms",
+      "publisher": "The Times of India",
+      "publisherDomain": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-10-27T01:32:00Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-5c6bcb54ee3bef",
+      "title": "[Editorial] Government negligence comes under scrutiny after Korean data center fire",
+      "titleEnglish": "[Editorial] Government negligence comes under scrutiny after Korean data center fire",
+      "url": "https://english.hani.co.kr/arti/english_edition/e_national/1221609.html",
+      "publisher": "Hankyoreh",
+      "publisherDomain": "english.hani.co.kr",
+      "publishedAt": "2026-10-26T19:32:00Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "en"
+    },
+    {
+      "id": "n-4c3f6745d93984",
+      "title": "Malaysia says extending life of coal plants remains an option if needed",
+      "titleEnglish": "Malaysia says extending life of coal plants remains an option if needed",
+      "url": "https://www.straitstimes.com/asia/se-asia/malaysia-says-extending-life-of-coal-plants-remains-an-option-if-needed",
+      "publisher": "The Straits Times",
+      "publisherDomain": "straitstimes.com",
+      "publishedAt": "2026-10-26T10:25:00Z",
+      "seenAt": "2026-10-26T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-6ff799d3b9dbeb",
+      "title": "Thailand launches US$1.5 billion household solar push",
+      "titleEnglish": "Thailand launches US$1.5 billion household solar push",
+      "url": "https://www.straitstimes.com/asia/se-asia/thailand-launches-us1-5-billion-household-solar-push",
+      "publisher": "The Straits Times",
+      "publisherDomain": "straitstimes.com",
+      "publishedAt": "2026-10-26T11:07:00Z",
+      "seenAt": "2026-10-26T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-88ffef8ccd1fef",
+      "title": "State targets extra 421MW to grid by 2030",
+      "titleEnglish": "State targets extra 421MW to grid by 2030",
+      "url": "https://www.businessdailyafrica.com/bd/corporate/industry/state-targets-extra-421mw-to-grid-by-2030-5646856",
+      "publisher": "Business Daily",
+      "publisherDomain": "businessdailyafrica.com",
+      "publishedAt": "2026-10-26T19:32:00Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Kenya",
+      "sourceCountryCode": "KE",
+      "sourceRegion": "Africa",
+      "sourceLat": 0.1,
+      "sourceLon": 38,
+      "language": "en"
+    },
+    {
+      "id": "n-5ef7214475b2f6",
+      "title": "Gas, nuovo picco a 97 euro. Prezzi su per scorte e freddo",
+      "titleEnglish": "Gas, new peak at 97 euros. Prices up on stocks and cold",
+      "url": "https://www.ilmessaggero.it:443/economia/news/gas_nuovo_picco_97_euro_prezzi_su_scorte_freddo-9850348.html",
+      "publisher": "ilmessaggero.it",
+      "publisherDomain": "ilmessaggero.it",
+      "publishedAt": "2026-10-26T23:50:51Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-b05b9bc99f5f84",
+      "title": "Insediata la nuova Commissione d'inchiesta sulla crisi idrica in Lombardia - Regione Lombardia - Ansa.it",
+      "titleEnglish": "New inquiry commission on the water crisis in Lombardy installed - Lombardy Region - Ansa.it",
+      "url": "https://www.ansa.it/lombardia/notizie/consiglio_lombardia/2026/10/26/insediata-la-nuova-commissione-dinchiesta-sulla-crisi-idrica-in-lombardia_3ebfb040-46d7-4ba4-bb3b-d7b13c3adb74.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-10-26T19:50:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-4afb17860d94af",
+      "title": "Sob críticas de moradores, Sabesp reafirma viabilidade ambiental na transposição - Diário do Grande ABC",
+      "titleEnglish": "Amid residents' criticism, Sabesp reaffirms environmental feasibility of the transposition - Diário do Grande ABC",
+      "url": "https://www.dgabc.com.br/Noticia/4365183/sob-criticas-de-moradores-sabesp-reafirma-viabilidade-ambiental-na-transposicao",
+      "publisher": "Jornal Diário do Grande ABC",
+      "publisherDomain": "dgabc.com.br",
+      "publishedAt": "2026-10-26T22:16:00Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-a8db49b1a188c0",
+      "title": "Energy efficient chip co Unconventional AI buys Israel’s NeuReality",
+      "titleEnglish": "Energy efficient chip co Unconventional AI buys Israel’s NeuReality",
+      "url": "https://en.globes.co.il/en/article-energy-efficient-chip-co-unconventional-ai-buys-israels-neureality-1001560850",
+      "publisher": "en.globes.co.il",
+      "publisherDomain": "en.globes.co.il",
+      "publishedAt": "2026-10-26T15:02:00Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-c77e8e6341b11a",
+      "title": "[PLAY IT] 기컴 IT13 MAX 써보니…작은 PC에 AI 연산 분담 구조",
+      "titleEnglish": "[PLAY IT] Trying the GI Computer IT13 MAX: small PC shares AI computation",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026101508321714036",
+      "publisher": "디지털데일리",
+      "publisherDomain": "ddaily.co.kr",
+      "publishedAt": "2026-10-27T01:32:00Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-0b19e6cad9832f",
+      "title": "Finlandia autoriza el primer cementerio nuclear del mundo: cómo es la megaobra a 400 metros de profundidad",
+      "titleEnglish": "Finland authorises the world's first nuclear cemetery: what the mega-project 400 metres deep is like",
+      "url": "https://www.clarin.com/mundo/finlandia-autoriza-primer-cementerio-nuclear-mundo-megaobra-400-metros-profundidad_0_jfQ7tWNo0w.html",
+      "publisher": "Clarín",
+      "publisherDomain": "clarin.com",
+      "publishedAt": "2026-10-26T19:30:10Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-e1bb0b8f0bd69d",
+      "title": "Asiantuntija: Asikkalan uraanipelletti on tuotu Suomeen luvatta tai luvan kanssa",
+      "titleEnglish": "Expert: Uranium pellets from Asikkala were imported into Finland with or without permission",
+      "url": "https://yle.fi/uutiset/lyhyesti/74-20253419",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-10-26T15:16:40Z",
+      "seenAt": "2026-10-26T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-2483b86ce27e27",
+      "title": "Ba Lan sẵn sàng tiếp nhận vũ khí hạt nhân của Mỹ, Pháp",
+      "titleEnglish": "Poland ready to accept US and French nuclear weapons",
+      "url": "https://anninhthudo.vn/ba-lan-san-sang-tiep-nhan-vu-khi-hat-nhan-cua-my-phap-post673222.antd",
+      "publisher": "Báo Điện tử An ninh Thủ đô",
+      "publisherDomain": "anninhthudo.vn",
+      "publishedAt": "2026-10-27T01:02:20Z",
+      "seenAt": "2026-10-27T03:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Vietnam",
+      "sourceCountryCode": "VN",
+      "sourceRegion": "Asia",
+      "sourceLat": 16,
+      "sourceLon": 107,
+      "language": "vi"
+    },
+    {
+      "id": "n-17c8c812d89c24",
+      "title": "«الردع المتقدم».. فرنسا توسّع المظلة النووية لمواجهة روسيا",
+      "titleEnglish": "\"Advanced deterrence\": France expands its nuclear umbrella to confront Russia",
+      "url": "https://www.okaz.com.sa/politics/na/2272491",
+      "publisher": "عكاظ",
+      "publisherDomain": "okaz.com.sa",
+      "publishedAt": "2026-10-26T11:54:28Z",
+      "seenAt": "2026-10-26T10:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "ar"
+    },
+    {
+      "id": "n-d60ed6c1cd977e",
+      "title": "USA naciskają na rozmowy z Putinem. Jednoznaczna odpowiedź Europy",
+      "titleEnglish": "USA presses for talks with Putin. Europe's clear answer",
+      "url": "https://wiadomosci.onet.pl/swiat/usa-naciskaja-na-rozmowy-z-putinem-jednoznaczna-odpowiedz-europy/e9grdxy",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-10-27T01:32:00Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-64edbf9ba4e5b9",
+      "title": "“현금에 생수·통조림까지 쟁여라”…영국 정부가 ‘72시간 생존’ 권고한 이유는",
+      "titleEnglish": "\"Stock up on cash, bottled water and canned food\"... Why the UK government recommends '72-hour survival'",
+      "url": "https://biz.heraldcorp.com/article/10915263",
+      "publisher": "헤럴드경제",
+      "publisherDomain": "biz.heraldcorp.com",
+      "publishedAt": "2026-10-26T13:30:00Z",
+      "seenAt": "2026-10-26T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-ead7b404b8693b",
+      "title": "Wahlfach Feuerwehr: Land schießt Förderung nach - WELT",
+      "titleEnglish": "Elective subject fire service: state increases funding - WELT",
+      "url": "https://www.welt.de/regionales/berlin/article6adf82c644ab625f2110c84e/wahlfach-feuerwehr-land-schiesst-foerderung-nach.html",
+      "publisher": "DIE WELT",
+      "publisherDomain": "welt.de",
+      "publishedAt": "2026-10-26T17:02:00Z",
+      "seenAt": "2026-10-26T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-2e31b5052a758d",
+      "title": "Finanzexperte über Ernährungssicherheit: „Schocks werden weiterhin auftreten“",
+      "titleEnglish": "Finance expert on food security: \"Shocks will continue to occur\"",
+      "url": "https://taz.de/Finanzexperte-ueber-Ernaehrungssicherheit/!6221381/",
+      "publisher": "taz.de",
+      "publisherDomain": "taz.de",
+      "publishedAt": "2026-10-26T20:50:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-efc1fd7283a1c0",
+      "title": "Укренерго: Завтра в Україні діятимуть графіки погодинних відключень світла",
+      "titleEnglish": "Ukrenergo: Hourly power outage schedules will be in effect in Ukraine tomorrow",
+      "url": "https://lb.ua/economics/2026/10/26/776320_ukrenergo_zavtra_ukrayini.html",
+      "publisher": "LB.ua",
+      "publisherDomain": "lb.ua",
+      "publishedAt": "2026-10-26T19:32:00Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "uk"
+    },
+    {
+      "id": "n-04bb921e84f086",
+      "title": "Представники понад 20 країн ознайомилися з підготовкою військових у навчальному центрі Сил ТрО",
+      "titleEnglish": "Representatives of more than 20 countries review military training at the Territorial Defence Forces training centre",
+      "url": "https://lb.ua/society/2026/10/26/776316_predstavniki_ponad_20_krayin.html",
+      "publisher": "LB.ua",
+      "publisherDomain": "lb.ua",
+      "publishedAt": "2026-10-26T19:32:00Z",
+      "seenAt": "2026-10-26T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "uk"
+    },
+    {
+      "id": "n-4b59676c03fc1c",
+      "title": "Минцифры предупредило о возможных ограничениях мобильного интернета в центре Москвы",
+      "titleEnglish": "Ministry of Digital Development warns of possible mobile internet restrictions in central Moscow",
+      "url": "https://lenta.ru/news/2026/10/26/mintsifry-predupredilo-o-vozmozhnyh-ogranicheniyah-mobilnogo-interneta-v-tsentre-moskvy/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-27fc0a07d4404b",
+      "title": "Storm Boelo fells trees and leaves home without power",
+      "titleEnglish": "Storm Boelo fells trees and leaves home without power",
+      "url": "https://www.bbc.co.uk/news/articles/cqrmy8zrn9ego",
+      "publisher": "BBC News",
+      "publisherDomain": "bbc.co.uk",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-615d1146c65578",
+      "title": "الجيش الأمريكي يتدرب على حفر القبور",
+      "titleEnglish": "US Army trains on digging graves",
+      "url": "https://www.khaberni.com/news/861317-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A7%D9%85%D8%B1%D9%8A%D9%83%D9%8A-%D9%8A%D8%AA%D8%AF%D8%B1%D8%A8-%D8%B9%D9%84%D9%89-%D8%AD%D9%81%D8%B1-%D8%A7%D9%84%D9%82%D8%A8%D9%88%D8%B1",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-10-27T01:32:00Z",
+      "seenAt": "2026-10-27T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-888c15541cca2d",
+      "title": "В МИД заявили о «бесхребетном поведении» МАГАТЭ",
+      "titleEnglish": "Russian foreign ministry says IAEA shows \"spineless behaviour\"",
+      "url": "https://lenta.ru/news/2026/10/27/v-mid-zayavili-o-beshrebetnom-povedenii-magate/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-10-26T20:02:00Z",
+      "seenAt": "2026-10-26T20:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    }
+  ],
+  "readings": [
+    {
+      "id": "money-hides-state-discounts",
+      "line": "Money is slipping into dollars, gold and trusts, and the state is answering with discounts.",
+      "kicker": "EXIT / AMNESTY / GOLD",
+      "claim": "On one day, private money is reported moving beyond the state's reach in four forms: Kenyan dollar accounts, Chinese offshore trusts, Indonesian gold understated at the border and Russian cash wages. The states' answers are bargains rather than seizures: amnesties forgiving up to all the interest, notices to a couple of dozen people, a ban proposed in parliament. When governments discount what they are owed just to collect it, taxation has become negotiation. The people who never had anything to hide are the ones still paying full price.",
+      "rungs": [
+        {
+          "id": "a-obs-1",
+          "kind": "observation",
+          "label": "Where the money goes",
+          "fragments": [
+            {
+              "id": "a-o1-f1",
+              "label": "Nairobi's dollars",
+              "text": "Business Daily in Kenya reports that wealthy Kenyans hold Sh1.5 trillion in dollar accounts. The same paper reports farmers leaving family loans for banks and saccos, and stock market investors reaching 2.3 million on new listings. The headline is precise about who is stockpiling: the wealthy, not the farmers.",
+              "articleIds": [
+                "n-c96d9eed7650ca",
+                "n-3d1a59b10d7cbd",
+                "n-78d22ef6a02757"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-o1-f2",
+              "label": "Gold at the border",
+              "text": "Republika reports that Antam's gold price has risen slightly, the kind of daily price note Indonesian savers watch. On the same day Liputan6 reports that customs is investigating alleged under-invoicing of gold exports. The metal is valued carefully at home and understated on its way out.",
+              "articleIds": [
+                "n-b053cf203fd96d",
+                "n-30a6a4cacb95c2"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-o1-f3",
+              "label": "Trusts and cash",
+              "text": "Yicai reports that tax offices in Beijing and Qingdao have sent notices about offshore trust reporting to more than 20 people. In Moscow, Izvestia reports that the LDPR wants to ban paying foreigners their wages in cash. Two very different states are chasing the same thing: income arranged so that no ledger sees it.",
+              "articleIds": [
+                "n-646477f4689d2c",
+                "n-685d06d6d334fb"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-obs-2",
+          "kind": "observation",
+          "label": "What the state offers instead",
+          "fragments": [
+            {
+              "id": "a-o2-f1",
+              "label": "Ninety-nine per cent off",
+              "text": "G1 reports that Taubaté has launched an amnesty with discounts of up to 100 per cent on interest and fines. Tribuna do Norte reports that the state finance office has widened Refis 2026 to discounts of up to 99 per cent, while firms face a Friday deadline to choose the Simples tax regime. These are prices offered by the creditor to the debtor.",
+              "articleIds": [
+                "n-d3984c7e5d1b3e",
+                "n-5c492472833544",
+                "n-a3ed99092e223e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-o2-f2",
+              "label": "The currency votes again",
+              "text": "Il Messaggero reports that São Paulo's exchange fell as much as 17 per cent and the real weakened after Lula's victory, and LV12 in Argentina puts the fall at more than 15 per cent. The election thread from the last edition continues, but what has changed is the reading: the market's verdict is the large-scale version of the same exit the Kenyan and Chinese headlines describe in private.",
+              "articleIds": [
+                "n-3ad0a0f51d5899",
+                "n-74e1ad4461a329"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "lula-2002"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a-int-1",
+          "kind": "interpretation",
+          "label": "Exit is priced, voice is not",
+          "fragments": [
+            {
+              "id": "a-i1-f1",
+              "label": "Two doors",
+              "text": "The wealthy in Nairobi, Beijing and the gold trade are using exit: they move the money rather than argue about the tax. In Ulaanbaatar, sonin.mn reports a rally demanding that everyone's Oyu Tolgoi dividend be paid into their account, which is voice: citizens asking for money to come in, not go out. The same day shows both doors, and only one is open to everybody.",
+              "articleIds": [
+                "n-adab6a11566a39",
+                "n-c96d9eed7650ca",
+                "n-646477f4689d2c"
+              ],
+              "bookIds": [
+                "exit-voice-loyalty"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-i1-f2",
+              "label": "The state economises on itself",
+              "text": "While Brazilian treasuries forgive debtors, the BBC reports that Brighton is changing its traditional blue railing paint to save cash, and CBC reports that Newfoundland and Labrador is dropping its gas tax for four months. A state that cannot collect from those who leave trims its own paint and its own revenue. The discount runs in both directions, and the public realm absorbs it.",
+              "articleIds": [
+                "n-d368fd29850fae",
+                "n-52789cc8432ac6",
+                "n-5c492472833544"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-break",
+          "kind": "break",
+          "label": "Break this reading",
+          "fragments": [
+            {
+              "id": "a-b-f1",
+              "label": "Ordinary plumbing, business-press sample",
+              "text": "Refis programmes recur in Brazil almost every year and Taubaté is a provincial city, so an amnesty there is routine administration, not a sign of state weakness. Kenyan dollar deposits also reflect remittances and normal hedging, and China's trust notices are the reporting system working, which is the state winning, not losing. The pattern may come from the collection's heavy diet of business pages such as Business Daily, Yicai and Tribuna do Norte. Shinhan Card's token plans and the Bitonic hack show money changing form for reasons that have nothing to do with evasion.",
+              "articleIds": [
+                "n-d8ebd98e7ff0ce",
+                "n-9e5553caa441a2"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "decade",
+          "label": "From frozen reserves to noticed trusts",
+          "lens": "SANCTION / DISCLOSURE / BULLION",
+          "text": "The decade began with states seeing more of private money than ever before. The OECD's Common Reporting Standard, agreed in 2014, had tax authorities swapping account data from 2017, and China joined the exchanges in September 2018. The Beijing and Qingdao notices on offshore trusts are that machinery reaching people who believed a trust sat outside it. Then states showed savers what sovereign money could do: in February 2022 Western governments froze roughly 300 billion dollars of Russia's central bank reserves, and central banks bought more gold that year than in any year since 1967. After the twelve-day war between Israel and Iran ended with American bombers over Fordow in June 2025, gold passed 4,000 dollars an ounce that October. Kenya's shilling slid to around 160 to the dollar in early 2024 before a Eurobond buyback steadied it, a lesson Nairobi's wealthy have not unlearned: by these headlines they now hold Sh1.5 trillion in dollars. The Indonesian inquiry into under-invoiced gold is the same metal leaving by a side door.",
+          "trajectoryIds": [
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "half-century",
+          "label": "Since the gold window closed",
+          "lens": "PETRODOLLAR / DEBT / INDEXATION",
+          "text": "On 15 August 1971 Richard Nixon closed the gold window, and the dollar became a promise with no metal behind it. Two years later the Arab oil embargo quadrupled the oil price, and the producers' surplus was recycled through London and New York banks into loans to Brazil, Mexico and Argentina. When Paul Volcker raised American rates, Mexico defaulted in August 1982 and Latin America lost a decade. Brazil survived by indexing prices and wages and changed its currency five times between 1986 and the Plano Real of 1994. Its first national Refis tax-arrears scheme followed in 2000 and has returned in some form nearly every year since, which is why a finance office in Rio Grande do Norte can offer 99 per cent off in October 2026 without anyone calling it an emergency. Kenya repealed its exchange controls in the mid-1990s under donor pressure, making the dollar account ordinary furniture. Over fifty years, exit was built into the design, and amnesty became the state's way of living with it.",
+          "trajectoryIds": [
+            "oil-embargo-1973"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2001",
+          "label": "The currency's second vote",
+          "lens": "ELECTION / AMNESTY / CAPITAL FLIGHT",
+          "text": "In 2002 the real lost about a third of its value before Lula won, and he answered with a public letter promising to honour the debt. By these headlines the São Paulo exchange fell as much as 17 per cent after his 2026 victory, so the market's vote on Brazilian elections is a twenty-four-year habit. In between, Adam Tooze's Crashed shows how the 2008 crisis exposed dollar funding as the hidden plumbing of the world, and how Federal Reserve swap lines decided which countries could breathe. Emerging states learned to court the money that runs. China spent about a trillion dollars of reserves defending the yuan in 2015 and 2016, then tightened the exits. Indonesia's 2016 amnesty under Joko Widodo drew declarations worth around 4,800 trillion rupiah, setting the bargain Jakarta's customs officers now police on gold. Mongolia signed the Oyu Tolgoi investment agreement in 2009 and promised citizens a share of the mine; the rally demanding dividends in everyone's account is that promise presented for payment.",
+          "trajectoryIds": [
+            "lula-2002"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "label": "Who the dollar answers to",
+          "lens": "BRETTON WOODS / OIL / OFFSHORE",
+          "text": "The postwar money order was built in two rooms. At Bretton Woods in July 1944 the allies tied their currencies to a dollar tied to gold, and capital controls were taken for granted; Karl Polanyi published The Great Transformation the same year, arguing that markets pulled loose from society provoke society into pulling them back. Seven months later Roosevelt met Ibn Saud on the Great Bitter Lake, and the protection-for-oil bargain gave the dollar a commodity to rest on once gold was gone. By the late 1950s London banks were dealing in Eurodollars beyond any national regulator, and Switzerland's banking secrecy law of 1934 had become a business model. Albert Hirschman's Exit, Voice, and Loyalty, published in 1970, named the choice the period kept offering: leave or complain. Seen from 1945, Taubaté's discounts and the Kenyan dollar hoard are not new. What is new is that the exits are cheap enough for a provincial merchant, and the controls that might close them were dismantled long ago.",
+          "trajectoryIds": [
+            "quincy-1945"
+          ],
+          "bookIds": [
+            "great-transformation",
+            "exit-voice-loyalty"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-c96d9eed7650ca",
+        "n-3d1a59b10d7cbd",
+        "n-78d22ef6a02757",
+        "n-b053cf203fd96d",
+        "n-30a6a4cacb95c2",
+        "n-646477f4689d2c",
+        "n-685d06d6d334fb",
+        "n-d3984c7e5d1b3e",
+        "n-5c492472833544",
+        "n-a3ed99092e223e",
+        "n-3ad0a0f51d5899",
+        "n-74e1ad4461a329",
+        "n-adab6a11566a39",
+        "n-d368fd29850fae",
+        "n-52789cc8432ac6",
+        "n-d8ebd98e7ff0ce",
+        "n-9e5553caa441a2"
+      ]
+    },
+    {
+      "id": "clerks-paid-labourers-buried",
+      "line": "AI is paying the clerk to leave, and the ditch, the field and the rubble still take the labourer.",
+      "kicker": "BUYOUT / BODY / SITE",
+      "claim": "The day's labour news splits in two. Reported from four countries, 60,000 Microsoft staff are offered money to leave so the company can buy machines, while in Ginza, Bayrampaşa, Agrigento and Delhi workers die under an excavator, in a trench, on the way to the fields and in a collapsed house. Automation is told as the end of work, but the work that kills has not been automated. The people who do it are increasingly recruited across borders on the worst terms, including, by these headlines, into Russia's army.",
+      "rungs": [
+        {
+          "id": "b-obs-1",
+          "kind": "observation",
+          "label": "The buyout and the desk",
+          "fragments": [
+            {
+              "id": "b-o1-f1",
+              "label": "Sixty thousand cheques",
+              "text": "Al-Youm Al-Sabea, El Mundo, the Straits Times and Handelsblatt all report that Microsoft is offering voluntary departure to 60,000 employees. El Mundo puts it at 27 per cent of the workforce, and the Egyptian paper says it is to fund artificial intelligence. Fortune, the same day, reports that CFO pay at major industrial spinoffs has jumped 66 per cent.",
+              "articleIds": [
+                "n-ceb6895295323b",
+                "n-3d4b995a143a63",
+                "n-30d199b0359051",
+                "n-1b7c8de72a9455",
+                "n-62c11317b488c6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-o1-f2",
+              "label": "The counter goes quiet",
+              "text": "Digital Daily reports that KTcs has put AI counselling into the Daiso customer centre to handle repeated questions. Al Jazeera's Doha Forum piece frames the AI agent revolution as a choice between entrepreneurship and threatened jobs. Fortune adds that the next heads of human resources may not come from HR at all.",
+              "articleIds": [
+                "n-55c9f2c59379a2",
+                "n-d47d7fa2a4421e",
+                "n-7ec99fd3508866"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-obs-2",
+          "kind": "observation",
+          "label": "The sites and the recruiters",
+          "fragments": [
+            {
+              "id": "b-o2-f1",
+              "label": "Four deaths at work",
+              "text": "Asahi reports that a worker was run over and killed by a hydraulic excavator at a demolition site in Ginza. Hürriyet reports that a worker died after falling into a collapse during road excavation in Bayrampaşa, Sky TG24 that four people died near Agrigento on their way to work in the fields, and Amar Ujala that a contractor father and son were found in the rubble of a collapsed house. None of the four headlines gives the dead a name.",
+              "articleIds": [
+                "n-e9cbedaec26439",
+                "n-40cae65fc6180a",
+                "n-e5fa9542de1eff",
+                "n-a7b76a6052b17e",
+                "n-59de3157a9220c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-o2-f2",
+              "label": "Bodies across borders",
+              "text": "Observador reports that five people have been charged with exploiting two Portuguese men in Spain for fifteen years. DW's Russian service, citing Bloomberg, reports that Russia is widening recruitment in poor African countries because it is short of men for the war, and Onet calls it a hunt for cannon fodder. In Germany, taz reports a migrant strike in Halle.",
+              "articleIds": [
+                "n-ea73edccee8f15",
+                "n-b5eb9c74615ed1",
+                "n-4c9796c1a81e74",
+                "n-c28b0af2d4f3e6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-int-1",
+          "kind": "interpretation",
+          "label": "Two automations, one of them imaginary",
+          "fragments": [
+            {
+              "id": "b-i1-f1",
+              "label": "What the money buys",
+              "text": "Microsoft's buyout does not remove work from the world. It moves a budget line from salaries to chips, and the chips are built, cooled and housed by people on sites like the ones in Ginza and Bayrampaşa. The Chinese-language Canadian job boards still advertise for machine operators and factory helpers in North York, and Yicai's seven platforms promising social insurance for riders are admitting the bodies on their apps.",
+              "articleIds": [
+                "n-ceb6895295323b",
+                "n-ad7e73e0d96ea1",
+                "n-046a31627c6bcf",
+                "n-d44522ae782713"
+              ],
+              "bookIds": [
+                "shock-of-the-old"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-i1-f2",
+              "label": "Risk moves down the ladder",
+              "text": "The office worker is offered severance; in these headlines the excavation worker is offered nothing, not even a name. The recruiter, whether in a Spanish field or an African town courted by Russia, finds whoever has least choice. The day's real division of labour is between those who are paid to stop working and those who are hired to stand where the danger is.",
+              "articleIds": [
+                "n-e9cbedaec26439",
+                "n-40cae65fc6180a",
+                "n-b5eb9c74615ed1",
+                "n-ea73edccee8f15"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-break",
+          "kind": "break",
+          "label": "Break this reading",
+          "fragments": [
+            {
+              "id": "b-b-f1",
+              "label": "A background rate against one event",
+              "text": "Workplace deaths are a constant of local news, and the collection's district feeds, Amar Ujala's Delhi pages, Hürriyet's local desk and Sky TG24's regional items, would carry them on any day of any year. The Microsoft buyout is one corporate event syndicated across four countries, so pairing it with a background death rate manufactures a contrast. The Agrigento deaths were a road accident and the Delhi collapse may have been a home rather than a workplace, which weakens the claim that the work itself is what kills.",
+              "articleIds": [
+                "n-e5fa9542de1eff",
+                "n-a7b76a6052b17e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "decade",
+          "label": "Stadiums, apps and severance",
+          "lens": "STADIUM / PLATFORM / SEVERANCE",
+          "text": "The decade's starkest ledger of deaths at work was kept in Doha, where the Guardian reported in 2021 that more than 6,500 South Asian migrant workers had died in Qatar since it was awarded the World Cup in 2010; the figure counted all causes and was disputed, and the tournament went ahead in December 2022. The same years made the delivery rider the emblem of new work. Chinese regulators issued guidance on riders' pay and insurance in July 2021, and the promise by seven platforms in Yicai's headline is its slow arrival. Italy passed its law against caporalato, illegal gang-mastering, in 2016 after the farm labourer Paola Clemente died in the vineyards of Apulia in 2015; the four dead near Agrigento were on that road to the fields. In the offices, Microsoft cut 10,000 jobs in January 2023 while deepening its bet on OpenAI. The 60,000 buyouts of 2026 extend a decade in which white-collar exits came with cheques and blue-collar ones with funerals.",
+          "trajectoryIds": [
+            "qatar-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "half-century",
+          "label": "When labour learned to move",
+          "lens": "MIGRATION / HUKOU / FREE MOVEMENT",
+          "text": "Two events six years apart opened the labour markets this reading draws on. After the crushing of the 1989 protests in Beijing, Deng Xiaoping's southern tour of 1992 restarted the coastal factory boom, and hundreds of millions of rural migrants moved under a household registration system that kept them second-class in the cities they built. The riders now being promised social insurance are their children. In Europe the Bosman ruling of December 1995 let footballers move freely at the end of their contracts, a court applying to sport the free movement already guaranteed to workers. Portuguese men crossed to Spanish building sites and farms through Spain's construction boom from the late 1990s, and the fifteen-year exploitation case in Observador sits inside that flow rather than outside it. Japan's construction and demolition trades aged as the bubble burst in the early 1990s, and the Ginza excavator death happened in an industry long short of young hands. Mobility was sold as freedom; for many it was also a longer chain of subcontractors.",
+          "trajectoryIds": [
+            "tiananmen-1989",
+            "bosman-1995"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2001",
+          "label": "The recruiter goes global",
+          "lens": "CONTRACTOR / RECRUITER / WAR",
+          "text": "The invasion of Iraq in 2003 built a modern market in recruited bodies. Private contractors hired guards, drivers and cooks from Nepal, Uganda, Colombia and the Philippines, and in August 2004 twelve Nepali workers taken hostage on their way to a base were killed. Mary Kaldor's New and Old Wars had already described wars fought by networks rather than nations; the contractor turned the soldier into a line item. Russia took the model further from 2014 with the Wagner group, whose men spread through Libya, the Central African Republic and Mali, and from 2022 Moscow recruited prisoners and foreigners for Ukraine. By these headlines, as DW reports via Bloomberg, recruitment now reaches into poor African countries because Russia is short of men. The Halle migrant strike in taz shows the other side of the same quarter-century: migrant workers organising in a German region where labour is scarce and politics is hostile. The common thread is a worker sourced from wherever the price is lowest, for whatever job is most dangerous.",
+          "trajectoryIds": [
+            "iraq-2003"
+          ],
+          "bookIds": [
+            "new-and-old-wars"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "label": "Automation was always the clerk's word",
+          "lens": "AUTOMATION / UNION / SAFETY LAW",
+          "text": "In August 1949 the mathematician Norbert Wiener wrote to Walter Reuther of the United Auto Workers, warning that automatic machinery could bring unemployment on the scale of the Depression. In the summer of 1956 a workshop at Dartmouth named artificial intelligence, and through that decade automation was the word of union halls and congressional hearings. What followed is the subject of David Edgerton's The Shock of the Old: most of the world's work went on using old machines, from the bulldozer to the bicycle, and the most dangerous jobs were changed by law rather than invention. Japan passed its Industrial Safety and Health Act in 1972 and Britain its Health and Safety at Work Act in 1974, and deaths fell. The Ginza worker crushed by a hydraulic excavator died under a machine type that spread in the 1950s and 1960s, protected by a law of the 1970s, on the same day a software company paid its staff to leave for a technology named in 1956.",
+          "trajectoryIds": [
+            "dartmouth-1956"
+          ],
+          "bookIds": [
+            "shock-of-the-old"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-ceb6895295323b",
+        "n-3d4b995a143a63",
+        "n-30d199b0359051",
+        "n-1b7c8de72a9455",
+        "n-62c11317b488c6",
+        "n-55c9f2c59379a2",
+        "n-d47d7fa2a4421e",
+        "n-7ec99fd3508866",
+        "n-e9cbedaec26439",
+        "n-40cae65fc6180a",
+        "n-e5fa9542de1eff",
+        "n-a7b76a6052b17e",
+        "n-59de3157a9220c",
+        "n-ea73edccee8f15",
+        "n-b5eb9c74615ed1",
+        "n-4c9796c1a81e74",
+        "n-c28b0af2d4f3e6",
+        "n-ad7e73e0d96ea1",
+        "n-046a31627c6bcf",
+        "n-d44522ae782713"
+      ]
+    },
+    {
+      "id": "rites-measured-before-dead",
+      "line": "Before the dead come back, every rite is being measured: hosts, incense sticks, costumes and knees.",
+      "kicker": "RITE / MEASURE / CALENDAR",
+      "claim": "In the last week of October, the headlines from Córdoba, Taipei, Saltillo, Seoul and Madrid are less about belief than about dosage: how many hosts, how many sticks of incense, which costume, who kneels, whose camp makes way for whose tree. The hinge between Halloween, All Saints and the Day of the Dead has become a contest over format between churches, councils, bars and betting firms. What is being decided is who runs the shared calendar, and increasingly it is whoever can count.",
+      "rungs": [
+        {
+          "id": "c-obs-1",
+          "kind": "observation",
+          "label": "The counted rite",
+          "fragments": [
+            {
+              "id": "c-o1-f1",
+              "label": "Four hundred thousand hosts",
+              "text": "Cadena 3 sets out what the pope's Mass in Córdoba will involve: 150 musicians, 2,000 communion ministers and 400,000 hosts. bdnews24 reports the Vatican saying the pope is fit to travel, LV12 and Cadena 3 that Leo XIV has confirmed Argentina, and El Comercio that the trip to Uruguay, Argentina and Peru stands after his operation. The liturgy arrives as an inventory.",
+              "articleIds": [
+                "n-e3e0fbe804c186",
+                "n-39711ac06b3f81",
+                "n-f4ece96e805325",
+                "n-08e0011f1d405a",
+                "n-5ce1ed18c41bfa"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-o1-f2",
+              "label": "Two or three sticks",
+              "text": "Storm Media runs a fortune teller explaining that more incense is not always better and that many people get the difference between two and three sticks wrong. Walla explains why children are blessed on Shabbat evening, and its motoring section asks what public transport on Shabbat will look like. In three traditions the question is not whether, but how many and when.",
+              "articleIds": [
+                "n-ba0989448143d8",
+                "n-a2f70a14e380e1",
+                "n-02e798283d463b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c-obs-2",
+          "kind": "observation",
+          "label": "The policed costume",
+          "fragments": [
+            {
+              "id": "c-o2-f1",
+              "label": "Saints in Saltillo",
+              "text": "Vanguardia reports calls in Saltillo to replace Halloween costumes with saints, angels and martyrs, and a priest in Torreón going viral for confronting photographers who did not kneel at a wedding. The same paper reports the education ministry calling a national contest of literary calaveritas on the history of Mexico. Church and state are each offering their own version of the dead.",
+              "articleIds": [
+                "n-6e042eebe17225",
+                "n-f4b3d6aaf417e3",
+                "n-b517dcbcfdc39f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-o2-f2",
+              "label": "Safety, scares and promotions",
+              "text": "Herald Economy reports Mapo-gu checking safety measures before Halloween, and RNZ asks whether Halloween is too scary for children. La Dépêche describes an Agen bar serving cocktails in blood transfusion bags, Puranoticia carries a betting firm's Halloween promotion, and IBTimes UK reports yellow vests calling for Halloween rallies in France. The same night is a hazard, a worry, a menu, a sales offer and a protest date.",
+              "articleIds": [
+                "n-d63592350c5ebb",
+                "n-7ae1254ece3089",
+                "n-a8514ab535338b",
+                "n-968adf3ceacedc",
+                "n-cf4b6fbacb00ba"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c-int-1",
+          "kind": "interpretation",
+          "label": "Whoever counts keeps the calendar",
+          "fragments": [
+            {
+              "id": "c-i1-f1",
+              "label": "The tree and the camp",
+              "text": "MARCA reports the presenter Ana Rosa Quintana demanding that the encampment in Madrid's Puerta del Sol be cleared so the Christmas tree can go up. Ritual time is being used as an argument against political time, as in France where protesters claim Halloween for their rallies. The calendar is no longer a backdrop to the square; it is a claim on it.",
+              "articleIds": [
+                "n-184df5dbfbef20",
+                "n-cf4b6fbacb00ba"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-i1-f2",
+              "label": "Format, not faith",
+              "text": "None of these headlines argues about God. They argue about quantities and forms: hosts, sticks, costumes, kneeling, timetables. Izvestia reports a Duma proposal to make Grandparents' Day an official holiday, the state adding a date to the year, while Mexico's ministry sets schoolchildren to write verses about the dead. The institutions that can measure and schedule a rite are the ones that end up owning it.",
+              "articleIds": [
+                "n-0e924bd32fbce0",
+                "n-b517dcbcfdc39f",
+                "n-6e042eebe17225",
+                "n-e3e0fbe804c186"
+              ],
+              "bookIds": [
+                "invention-of-tradition"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c-break",
+          "kind": "break",
+          "label": "Break this reading",
+          "fragments": [
+            {
+              "id": "c-b-f1",
+              "label": "October does this every year",
+              "text": "Every late October produces Halloween safety checks, costume rows and themed bar menus; the season, not the moment, generates these headlines. The Córdoba piece is standard service journalism before a papal visit, and the Taiwanese incense item is an evergreen feng shui column that could run any week. Measurement may simply be the form explainer journalism takes in every language, and the pope's trip falling in November is a scheduling coincidence rather than a contest over the calendar.",
+              "articleIds": [
+                "n-ba0989448143d8",
+                "n-e3e0fbe804c186"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "decade",
+          "label": "A crush, a conclave and a costume",
+          "lens": "CROWD / CONCLAVE / COSTUME",
+          "text": "On the night of 29 October 2022 a Halloween crowd was crushed in a sloping alley in Itaewon, Seoul, and 159 people died. No one organiser was responsible because no one had organised it. Every October since, Seoul's district offices have held the kind of safety meeting Mapo-gu reports, treating an imported festival as a matter of public order. Costume became a political vocabulary too: in September 2025 young protesters in Kathmandu marched under the pirate flag of a Japanese comic, and the Saltillo appeal to swap ghouls for saints is a church answering a global wardrobe with an older one. In April 2025 Pope Francis died, having never returned to Argentina in twelve years as pope. On 8 May 2025 the cardinals elected Robert Prevost, an American who had served as a bishop in Peru, as Leo XIV. His November trip to Uruguay, Argentina and Peru, with 400,000 hosts counted for Córdoba, closes a gap his predecessor left open.",
+          "trajectoryIds": [
+            "kathmandu-2025"
+          ],
+          "bookIds": [
+            "crowds-and-power"
+          ]
+        },
+        {
+          "span": "half-century",
+          "label": "The year religion came back to the square",
+          "lens": "REVIVAL / PILGRIMAGE / BROADCAST",
+          "text": "1979 was the year the secular forecast failed. In January John Paul II flew to Mexico, a country that then had no diplomatic relations with the Holy See and whose laws barred priests from wearing clerical dress in public, and millions lined the roads. In February the Shah fell to a revolution led by a cleric. In November armed millenarians seized the Grand Mosque in Mecca, and the Saudi state answered with decades of enforced strictness. Daniel Dayan and Elihu Katz's Media Events reads the papal journeys that followed as ceremonies a society stages in order to watch itself. The Córdoba Mass, planned down to 150 musicians and 2,000 communion ministers, is that form inherited and managed as logistics. Mexico restored relations with the Vatican in 1992 after Carlos Salinas amended the constitution, so the Torreón priest demanding that photographers kneel works in a church that has been legally visible in public for only a generation.",
+          "trajectoryIds": [
+            "tehran-1979",
+            "mecca-1979"
+          ],
+          "bookIds": [
+            "media-events"
+          ]
+        },
+        {
+          "span": "since-2001",
+          "label": "Heritage, squares and the timetable",
+          "lens": "HERITAGE / SQUARE / TIMETABLE",
+          "text": "UNESCO proclaimed Mexico's indigenous festivity of the dead a masterpiece of intangible heritage in 2003 and inscribed it on its list in 2008, and the state became a curator of the dead; the education ministry's contest of literary calaveritas on Mexican history is heritage policy turned into homework. Mexico City's large Day of the Dead parade began only in 2016, after a James Bond film staged an invented one in 2015. Eric Hobsbawm and Terence Ranger would recognise a tradition younger than many of the children dressed for it. In May 2011 the indignados camped in Puerta del Sol, and the square has been an argument about whose time it is ever since; in 2026 a television presenter wants a new camp cleared for the Christmas tree. In Israel, Tel Aviv began running free weekend shuttles on Shabbat in 2019, working around the national arrangement, and Walla's question about Shabbat public transport is that local workaround reaching the national timetable.",
+          "trajectoryIds": [
+            "sol-2011"
+          ],
+          "bookIds": [
+            "invention-of-tradition"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "label": "Rites rebuilt after the war",
+          "lens": "COUNCIL / SUBURB / STATUS QUO",
+          "text": "Three postwar settlements shaped the rites in this reading. In June 1947 David Ben-Gurion's letter to Agudat Yisrael promised that the coming state would keep Shabbat as its official day of rest, and the status quo on public transport has been bargained over in coalition after coalition since. Between 1962 and 1965 the Second Vatican Council moved the Mass into local languages and opened roles to the laity, and a 1973 instruction allowed lay people to distribute communion, which is why Córdoba can count 2,000 communion ministers. In the American suburbs of the 1950s Halloween became trick-or-treating for children, and film and retail exported it until Seoul, Wellington, Saltillo and Agen each had their own quarrel with it: a safety check, a worry about frightened children, a call for saints, a cocktail in a blood bag. Each rite was renegotiated rather than simply inherited, and each negotiation left a number behind: a day of rest, a count of ministers, a curfew.",
+          "trajectoryIds": [
+            "samhain-to-suburbs"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-e3e0fbe804c186",
+        "n-39711ac06b3f81",
+        "n-f4ece96e805325",
+        "n-08e0011f1d405a",
+        "n-5ce1ed18c41bfa",
+        "n-ba0989448143d8",
+        "n-a2f70a14e380e1",
+        "n-02e798283d463b",
+        "n-6e042eebe17225",
+        "n-f4b3d6aaf417e3",
+        "n-b517dcbcfdc39f",
+        "n-d63592350c5ebb",
+        "n-7ae1254ece3089",
+        "n-a8514ab535338b",
+        "n-968adf3ceacedc",
+        "n-cf4b6fbacb00ba",
+        "n-184df5dbfbef20",
+        "n-0e924bd32fbce0"
+      ]
+    },
+    {
+      "id": "cloud-comes-down-county",
+      "line": "The cloud has come down to the county, and the county has started saying no.",
+      "kicker": "ACRE / GRID / WATER",
+      "claim": "The money stories about AI are priced in trillions, but the day's harder facts are measured in acres, megawatts, litres and fire. Arizona officials turned down a 3,000-acre campus, a Korean data centre burned, Malaysia kept coal plants in reserve, Kenya and Thailand counted new power, and Lombardy and São Paulo argued over water. The limit on the next technology is the oldest one: land and the utilities beneath it. The people deciding it are local officials who never sat in a pitch meeting.",
+      "rungs": [
+        {
+          "id": "d-obs-1",
+          "kind": "observation",
+          "label": "The pitch",
+          "fragments": [
+            {
+              "id": "d-o1-f1",
+              "label": "Trillions on paper",
+              "text": "ETtoday reports that Meta is seeking NT$3 trillion to expand its AI, with Nvidia, AMD and Broadcom interested in investing. Digital Daily reports Broadcom leasing chips to Anthropic with Wall Street backing to break Nvidia's hold. The Manila Times carries a release on data-centre access hardware from Southco Korea.",
+              "articleIds": [
+                "n-46d25da3100919",
+                "n-c559c694215c15",
+                "n-2b1a7b1bb1f1a8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-o1-f2",
+              "label": "The wobble",
+              "text": "Business Day reports that CoreWeave led a tech selloff after a consolidation warning from Musk, and SAMAA reports that China's AI stock bubble has burst. The money is nervous on the same day the ground is unwilling.",
+              "articleIds": [
+                "n-745fe4904206a4",
+                "n-c2149c36fb393b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "d-obs-2",
+          "kind": "observation",
+          "label": "The ground",
+          "fragments": [
+            {
+              "id": "d-o2-f1",
+              "label": "Eloy says no",
+              "text": "The Times of India reports that Arizona officials rejected a data-centre plan covering 3,000 acres near Eloy, even though the developer had already cut it to 11 buildings. The Hankyoreh's editorial puts government negligence under scrutiny after a Korean data-centre fire. One headline is about where the cloud may sit, the other about what happens when it is all in one place.",
+              "articleIds": [
+                "n-1fe77a8dd6a3c2",
+                "n-5c6bcb54ee3bef"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-o2-f2",
+              "label": "Power and water",
+              "text": "The Straits Times reports Malaysia saying that extending coal plants remains an option, and also Thailand's US$1.5 billion household solar push. Business Daily reports Kenya aiming for an extra 421MW by 2030, and Il Messaggero gas hitting 97 euros. ANSA reports a new inquiry into Lombardy's water crisis, and Diário do Grande ABC Sabesp insisting its water transposition is environmentally sound despite residents' criticism.",
+              "articleIds": [
+                "n-4c3f6745d93984",
+                "n-6ff799d3b9dbeb",
+                "n-88ffef8ccd1fef",
+                "n-5ef7214475b2f6",
+                "n-b05b9bc99f5f84",
+                "n-4afb17860d94af"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "d-int-1",
+          "kind": "interpretation",
+          "label": "The industry is hedging toward less",
+          "fragments": [
+            {
+              "id": "d-i1-f1",
+              "label": "Efficiency as admission",
+              "text": "Globes reports that a company called Unconventional AI, which makes energy-efficient chips, is buying Israel's NeuReality. Digital Daily tests a small PC that shares AI computation on the desk. These are bets that computing must shrink to fit the socket it is offered, the industry's quiet answer to a county like Eloy.",
+              "articleIds": [
+                "n-a8db49b1a188c0",
+                "n-c77e8e6341b11a",
+                "n-1fe77a8dd6a3c2"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-i1-f2",
+              "label": "The far end of the load",
+              "text": "Clarín reports that Finland has authorised the world's first nuclear cemetery, 400 metres deep, and Yle that uranium pellets were imported into Asikkala with or without a permit. Any grid big enough for the trillions in the Taipei and Seoul headlines ends somewhere: in coal kept running in Malaysia, or in a hole in Finnish granite. The slow cost sits at the opposite end of the pipe from the fast money.",
+              "articleIds": [
+                "n-0b19e6cad9832f",
+                "n-e1bb0b8f0bd69d",
+                "n-4c3f6745d93984"
+              ],
+              "bookIds": [
+                "slow-violence"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "d-break",
+          "kind": "break",
+          "label": "Break this reading",
+          "fragments": [
+            {
+              "id": "d-b-f1",
+              "label": "One refusal, many silent approvals",
+              "text": "The Arizona item is a single explainer-style line from an Indian paper's overseas pages, and rejecting a shrunken plan may be ordinary zoning; elsewhere campuses are approved every week and approvals rarely make headlines. Il Messaggero itself attributes the gas peak to stocks and cold weather, and Malaysia's coal, Lombardy's drought and Sabesp's transposition have causes unrelated to data centres. The reading gathers every utility story of the day and assigns it to AI.",
+              "articleIds": [
+                "n-5ef7214475b2f6",
+                "n-1fe77a8dd6a3c2"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "decade",
+          "label": "Moratoria before the chatbot, and after",
+          "lens": "MORATORIUM / LOAD / CHATBOT",
+          "text": "The refusals began before the chatbot. In 2019 Amsterdam and neighbouring Haarlemmermeer paused new data-centre permits, and Singapore halted new builds until 2022 because the island had no spare land or power. In Ireland, data centres used about a fifth of the country's electricity by 2023, and the grid operator restricted new connections around Dublin. Then ChatGPT reached a hundred million users within two months of its launch in November 2022, and demand shifted from storage to computation, which is hotter and hungrier. Johor in Malaysia became Southeast Asia's overflow site, one reason Kuala Lumpur now keeps ageing coal plants as an option. In September 2025 a battery fire at the state data centre in Daejeon took hundreds of South Korean government services offline, and the Hankyoreh's editorial on negligence reads in its shadow. Arizona's rejection near Eloy, by these headlines, is an American county applying a decade of European and Asian lessons to the desert.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "half-century",
+          "label": "Fibre in the ground, reactors on hold",
+          "lens": "FIBRE / BUBBLE / REACTOR",
+          "text": "In March 1979 a partial meltdown at Three Mile Island effectively ended new reactor orders in the United States for a generation, and in April 1986 Chernobyl did much the same in parts of Europe; Ulrich Beck published Risk Society that year. Netscape's listing in August 1995 priced the web before it had earned anything, and the money that followed laid far more optical fibre than anyone could use. When the bubble burst in 2000 and WorldCom collapsed in 2002, the unused fibre stayed in the ground and later carried the cloud cheaply. That is the pattern this reading stands on: speculation builds infrastructure, and infrastructure outlives the speculators. In September 2024 Microsoft agreed to buy the output of a restarted Three Mile Island unit for its data centres, closing a circle of forty-five years. The Finnish nuclear cemetery in Clarín's headline is where Europe's half-century of reluctance about atoms finally puts its waste.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": [
+            "risk-society"
+          ]
+        },
+        {
+          "span": "since-2001",
+          "label": "Zero rates poured into server halls",
+          "lens": "CLOUD / CHEAP MONEY / SHALE",
+          "text": "Amazon began renting out storage and computing in 2006, and two years later the failure of Lehman Brothers made the cloud an investment as well as a service. Near-zero interest rates through the 2010s rewarded anything with long, steady rents, and server halls were exactly that. The same years gave the United States cheap power from shale gas, which is why large campuses went to Virginia, Texas and Arizona rather than to Europe, where Russia's gas cut-off sent the Dutch benchmark above 300 euros a megawatt-hour in August 2022. Il Messaggero's 97-euro peak is a fraction of that and still a headline. São Paulo learned in the drought of 2014 and 2015 how quickly a metropolis can run short of water, the background to residents' quarrel with Sabesp's transposition. The Taiwanese and Korean headlines about trillions are the cheap-money era's appetite outlasting its interest rates, now meeting counties and reservoirs that were never part of the valuation.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "label": "When the state built the wires",
+          "lens": "ARPA / ATOM / UTILITY",
+          "text": "For most of the postwar period the machinery of a technological society was commissioned and wired by states. Eisenhower's Atoms for Peace speech of December 1953 promised electricity from the physics of the bomb. Sputnik in October 1957 produced ARPA, which funded the network that became the internet. Utilities were public or tightly regulated, and siting a power station or a reservoir was a political act argued in parliaments and town halls. Finland began building its Olkiluoto reactors in the 1970s and chose the site for a deep repository in 2000, a state planning across a century. Rob Nixon's Slow Violence names what such projects leave to the slow end of time: waste, drawn-down aquifers, haze. The data-centre boom inverts the postwar order. Private companies now set the load, and the public bodies that once commissioned the wires, an Arizona county, a Lombardy inquiry, a Kenyan grid plan, are left only to say yes or no.",
+          "trajectoryIds": [
+            "sputnik-1957"
+          ],
+          "bookIds": [
+            "slow-violence"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-46d25da3100919",
+        "n-c559c694215c15",
+        "n-2b1a7b1bb1f1a8",
+        "n-745fe4904206a4",
+        "n-c2149c36fb393b",
+        "n-1fe77a8dd6a3c2",
+        "n-5c6bcb54ee3bef",
+        "n-4c3f6745d93984",
+        "n-6ff799d3b9dbeb",
+        "n-88ffef8ccd1fef",
+        "n-5ef7214475b2f6",
+        "n-b05b9bc99f5f84",
+        "n-4afb17860d94af",
+        "n-a8db49b1a188c0",
+        "n-c77e8e6341b11a",
+        "n-0b19e6cad9832f",
+        "n-e1bb0b8f0bd69d"
+      ]
+    },
+    {
+      "id": "households-72-hours-warheads",
+      "line": "Europe is asking households to last 72 hours alone while its states shop for other people's warheads.",
+      "kicker": "HOUSEHOLD / WARHEAD / SHELTER",
+      "claim": "Defence in these headlines comes in two sizes. At the top, Poland says it is ready to host American and French nuclear weapons and France widens its umbrella; at the bottom, households are told to stock cash, water and tins for 72 hours, and German pupils can take the fire service as a school subject. What is thinning is the middle, the civil defence the state once supplied. The citizen is being asked to become the first responder to a war, a storm or a power cut.",
+      "rungs": [
+        {
+          "id": "e-obs-1",
+          "kind": "observation",
+          "label": "The two sizes",
+          "fragments": [
+            {
+              "id": "e-o1-f1",
+              "label": "Warheads",
+              "text": "An Ninh Thủ Đô in Hanoi reports that Poland is ready to accept American and French nuclear weapons. Okaz in Saudi Arabia reports France expanding its nuclear umbrella under the label advanced deterrence to confront Russia. Onet reports Washington pressing for talks with Putin and Europe giving a clear answer.",
+              "articleIds": [
+                "n-2483b86ce27e27",
+                "n-17c8c812d89c24",
+                "n-d60ed6c1cd977e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "e-o1-f2",
+              "label": "Tins and water",
+              "text": "Herald Economy in Seoul explains why the British government recommends 72-hour survival: stock up on cash, bottled water and canned food. Die Welt reports a German state increasing funding for the fire service as an elective school subject. In taz a finance expert on food security says shocks will keep coming.",
+              "articleIds": [
+                "n-64edbf9ba4e5b9",
+                "n-ead7b404b8693b",
+                "n-2e31b5052a758d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "e-obs-2",
+          "kind": "observation",
+          "label": "Places already living it",
+          "fragments": [
+            {
+              "id": "e-o2-f1",
+              "label": "Outages by the hour",
+              "text": "LB.ua reports Ukrenergo's hourly power cut schedules for tomorrow, and representatives of more than twenty countries reviewing training at a territorial defence centre. Lenta reports the digital ministry warning of possible mobile internet restrictions in central Moscow. The BBC reports Storm Boelo felling trees and leaving homes without power.",
+              "articleIds": [
+                "n-efc1fd7283a1c0",
+                "n-04bb921e84f086",
+                "n-4b59676c03fc1c",
+                "n-27fc0a07d4404b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "e-o2-f2",
+              "label": "Planning for the dead",
+              "text": "Khaberni in Jordan headlines that the US Army is training to dig graves. Lenta reports the Russian foreign ministry accusing the IAEA of spineless behaviour. The planners' count and the referee's standing appear in the same feed as the shopping list.",
+              "articleIds": [
+                "n-615d1146c65578",
+                "n-888c15541cca2d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "e-int-1",
+          "kind": "interpretation",
+          "label": "The citizen as first responder",
+          "fragments": [
+            {
+              "id": "e-i1-f1",
+              "label": "The middle thins",
+              "text": "Between the warhead and the tin can there used to be the civil-defence state: shelters, sirens, wardens. In these headlines security is being shared upward, as borrowed deterrence from Paris and Washington, and downward, as household kits and school fire lessons. The Ukrainian training centre visited by twenty countries is the model under study: a society that organises itself to stay lit when the grid is a target.",
+              "articleIds": [
+                "n-04bb921e84f086",
+                "n-64edbf9ba4e5b9",
+                "n-2483b86ce27e27",
+                "n-ead7b404b8693b"
+              ],
+              "bookIds": [
+                "risk-society"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "e-i1-f2",
+              "label": "News abroad, paperwork at home",
+              "text": "None of the central stories reaches this collection from its own country: British advice comes via Seoul, Polish weapons via Hanoi, the French umbrella via Jeddah. Preparedness reads as alarming news from outside and as administrative routine from inside. That gap is itself the sign of a change being absorbed quietly, one leaflet at a time.",
+              "articleIds": [
+                "n-64edbf9ba4e5b9",
+                "n-2483b86ce27e27",
+                "n-17c8c812d89c24"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "e-break",
+          "kind": "break",
+          "label": "Break this reading",
+          "fragments": [
+            {
+              "id": "e-b-f1",
+              "label": "Standing advice in borrowed headlines",
+              "text": "Seventy-two-hour kits have long been standard guidance in Sweden, Finland and Switzerland and in European Union advice, so a British update reported by a Korean paper may be a routine website change dressed as news. Poland's wish to join nuclear sharing has been voiced for years, and a Vietnamese outlet's paraphrase may sharpen it. The German fire-service elective is a regional education measure tied to volunteer shortages, not war, and the grave-digging story comes from an aggregator with a sensational register. The reading may be turning long continuity into a turn.",
+              "articleIds": [
+                "n-615d1146c65578",
+                "n-ead7b404b8693b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "decade",
+          "label": "From pamphlet to umbrella",
+          "lens": "PAMPHLET / OUTAGE / DETERRENCE",
+          "text": "In 2018 Sweden sent every household a pamphlet on what to do if crisis or war comes, the first since the Cold War, and reissued it in November 2024; Finland's network of shelters became a model its neighbours studied. After Russia's full invasion of Ukraine in February 2022, missile and drone strikes on the power system taught Ukrainians to live by outage schedules like the one Ukrenergo publishes in LB.ua. In March 2025 the European Commission's preparedness strategy urged citizens to be able to manage alone for 72 hours, and the same month Emmanuel Macron offered to open a debate on extending France's deterrent to European allies. In June 2025 Ukrainian drones launched from lorries hit strategic bombers deep inside Russia, showing that a nuclear power's own aircraft could be reached by cheap machines. By these headlines, Poland now says it will host American and French weapons, and Britain's 72-hour advice is news in Seoul.",
+          "trajectoryIds": [
+            "spiderweb-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "half-century",
+          "label": "Protect and survive",
+          "lens": "PROTOCOL / PAMPHLET / PROTEST",
+          "text": "In June 1977 Additional Protocol I to the Geneva Conventions forbade attacking objects indispensable to civilian survival: food, water and the works that supply them. In December 1979 NATO's dual-track decision brought cruise and Pershing missiles to Western Europe, and in 1980 Britain issued Protect and Survive, a booklet telling families to whitewash windows and build an inner refuge from doors. It was widely mocked, and the women's camp at Greenham Common from 1981 turned civil defence into a subject of protest. Chernobyl in April 1986 taught Europe that a disaster could cross borders without a war, the year Ulrich Beck published Risk Society. Through the 1990s bunkers were sold and sirens retired. The German state paying for fire-service lessons in schools, and Ukraine's lights going off by the hour in spite of the 1977 rule, stand at the far end of that dismantling and the start of its reversal.",
+          "trajectoryIds": [
+            "protocol-1977"
+          ],
+          "bookIds": [
+            "risk-society"
+          ]
+        },
+        {
+          "span": "since-2001",
+          "label": "Duct tape to nuclear sharing",
+          "lens": "READINESS / PROLIFERATION / SHARING",
+          "text": "In February 2003, a year and a half after the September attacks, the American government told households to keep duct tape and plastic sheeting, and its Ready.gov campaign made the three-day kit the unit of private readiness. Japan's earthquake and the Fukushima meltdown of March 2011 showed what days alone look like in a rich country. The nuclear question moved the other way. The Vienna agreement with Iran in July 2015 suggested proliferation could be capped by treaty, and Washington's withdrawal in 2018 revived the argument that only the bomb deters. Polish leaders have raised joining NATO's nuclear sharing since 2022, and by these headlines Warsaw is now ready to host French as well as American weapons. The Russian foreign ministry calling the IAEA spineless is the treaty system's referee being waved away. The household kit and the borrowed warhead grew up in the same quarter-century, as two answers to a state that promises less in between.",
+          "trajectoryIds": [
+            "jcpoa-2015"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "label": "Shelters, bombs and an independent deterrent",
+          "lens": "BLITZ / BOMB / UMBRELLA",
+          "text": "In June 1944 the first V-1s fell on London, and a British state that had built shelters and wardens for the Blitz learned that a city could be attacked by something with no pilot to shoot down. A month after the war in Europe ended, the Trinity test made the city-destroying bomb a state project, and the Cold War built civil defence on both sides of the Iron Curtain: Switzerland required shelter space for its residents from 1963. Suez in October 1956 convinced Paris that Washington would not always cover France, and the French tested their first bomb in the Sahara in February 1960. Tony Judt's Postwar traces how that independence became a national creed. Seventy years on, Okaz reports France widening its umbrella over neighbours its doctrine once left outside. The oldest pattern in this reading is that states promise to guard the sky and leave the cellar to citizens, which is where the 72-hour kit in the Seoul headline is meant to be kept.",
+          "trajectoryIds": [
+            "v1-1944",
+            "trinity-1945",
+            "suez-1956"
+          ],
+          "bookIds": [
+            "postwar"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-2483b86ce27e27",
+        "n-17c8c812d89c24",
+        "n-d60ed6c1cd977e",
+        "n-64edbf9ba4e5b9",
+        "n-ead7b404b8693b",
+        "n-2e31b5052a758d",
+        "n-efc1fd7283a1c0",
+        "n-04bb921e84f086",
+        "n-4b59676c03fc1c",
+        "n-27fc0a07d4404b",
+        "n-615d1146c65578",
+        "n-888c15541cca2d"
+      ]
+    }
+  ]
+}
