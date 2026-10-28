@@ -135,14 +135,14 @@ a { color: inherit; }
 .world.near .label b, .world.close .label b { color: var(--ink-3); }
 .world.near .label b::before, .world.close .label b::before { content: "· "; }
 
-.zoom { position: absolute; right: 16px; bottom: calc(var(--strip-h) + 16px); display: flex; flex-direction: column; align-items: flex-end; gap: 2px; z-index: 5; }
+.zoom { position: absolute; right: 16px; bottom: calc(var(--strip-h) + 16px); display: flex; flex-direction: column; align-items: flex-end; gap: 2px; z-index: 12; }  /* above lit and focused beads (6, 7) and the open bead (9) */
 .zoom button { width: 30px; height: 30px; border: 1px solid var(--ink); background: var(--bg); font-size: 15px; line-height: 1; }
 .zoom button:hover { background: var(--ink); color: var(--bg); }
 .zoom button:disabled { color: var(--ink-4); border-color: var(--ink-4); cursor: default; }
 .zoom button:disabled:hover { background: var(--bg); }
 .zoom-level { font-size: 9px; letter-spacing: .16em; color: var(--ink-3); margin-bottom: 4px; }
 #zoom-world { font-size: 12px; margin-top: 4px; }
-.hint { position: absolute; left: 18px; bottom: calc(var(--strip-h) + 14px); color: var(--ink-3); margin: 0; z-index: 4; pointer-events: none; }
+.hint { position: absolute; left: 18px; bottom: calc(var(--strip-h) + 14px); color: var(--ink-3); margin: 0; z-index: 11; pointer-events: none; }
 
 /* Narratives: the strip along the bottom */
 .narratives {

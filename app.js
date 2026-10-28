@@ -878,8 +878,11 @@
     fieldEl.addEventListener('pointerdown', e => {
       if (e.button !== 0 && e.pointerType === 'mouse') return;
       pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
-      if (pointers.size === 1) { start = { x: e.clientX, y: e.clientY, px: state.panX, py: state.panY }; dragged = false; fieldEl.setPointerCapture(e.pointerId); }
-      if (pointers.size === 2) { zoomTarget = null; cancelAnimationFrame(anim); const [a, b] = [...pointers.values()]; const rect = fieldEl.getBoundingClientRect(); pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), z: state.z, anchor: anchorAt((a.x + b.x) / 2 - rect.left, (a.y + b.y) / 2 - rect.top) }; }
+      if (e.target.closest('.zoom')) return;  // the zoom buttons are not a drag
+      if (pointers.size === 1) { start = { x: e.clientX, y: e.clientY, px: state.panX, py: state.panY }; dragged = false; }
+      // The pointer is captured only once a drag or a pinch has begun. Capturing on every press retargets the click that
+      // follows, which in Safari and Chrome swallowed clicks on the beads and the zoom buttons.
+      if (pointers.size === 2) { zoomTarget = null; cancelAnimationFrame(anim); const [a, b] = [...pointers.values()]; const rect = fieldEl.getBoundingClientRect(); pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), z: state.z, anchor: anchorAt((a.x + b.x) / 2 - rect.left, (a.y + b.y) / 2 - rect.top) }; for (const id of pointers.keys()) try { fieldEl.setPointerCapture(id); } catch {} }
     });
     fieldEl.addEventListener('pointermove', e => {
       if (!pointers.has(e.pointerId)) return;
@@ -891,7 +894,7 @@
       }
       if (start && pointers.size === 1) {
         const dx = e.clientX - start.x, dy = e.clientY - start.y;
-        if (!dragged && Math.hypot(dx, dy) > 4) { dragged = true; fieldEl.classList.add('dragging'); cancelAnimationFrame(anim); }
+        if (!dragged && Math.hypot(dx, dy) > 4) { dragged = true; fieldEl.classList.add('dragging'); cancelAnimationFrame(anim); try { fieldEl.setPointerCapture(e.pointerId); } catch {} }
         if (dragged) { state.panX = start.px + dx; state.panY = start.py + dy; cameraDirty = true; }
       }
     });
