@@ -184,6 +184,8 @@ body.drawer-open .narratives { right: var(--drawer-w); }
 .page h2 { font-size: 20px; font-weight: 400; margin: 34px 0 8px; }
 .page p { font-size: 16px; line-height: 1.55; margin: 0 0 14px; }
 .page .back { font-family: var(--mono); font-size: 11px; color: var(--ink-2); }
+.support, .page .support, .chronicle .support { font-size: 11px; color: var(--ink-3); margin: 28px 0 8px; }
+.support a { color: var(--ink-2); }
 .page .note { font-size: 13px; color: var(--ink-3); line-height: 1.45; border-top: 1px solid var(--ink-4); padding-top: 14px; margin-top: 36px; }
 a.tool { text-decoration: none; display: inline-flex; align-items: center; }
 .narratives-strip {
