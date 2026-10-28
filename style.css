@@ -333,6 +333,11 @@ body.drawer-open .narratives-hint { display: none; }
 .prose h2 { font-size: 24px; line-height: 1.15; letter-spacing: -.015em; margin: 0 0 12px; }
 .prose h3 { font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin: 20px 0 4px; font-weight: 400; }
 .prose p { margin: 0 0 10px; font-size: 15px; line-height: 1.48; }
+/* a section named in the prose: its glyph, its name, and the thing itself */
+.tool-ref { display: inline; font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--ink-4); padding: 0 1px; white-space: nowrap; vertical-align: 1px; }
+.tool-ref .g { margin-right: 4px; letter-spacing: 0; }
+.tool-ref:hover, .tool-ref:focus-visible { border-bottom-color: var(--ink); }
+.tool-ref.static { border-bottom: 0; color: var(--ink-2); }
 
 /* Card */
 .card {
