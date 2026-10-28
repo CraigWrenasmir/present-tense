@@ -17,10 +17,12 @@
   const CARD_W = 220, CELL_W = (CARD_W + 36) / NEAR_Z, SWARM = 26;
   const LEVEL_NAME = { atlas: 'WORLD', region: 'REGION', near: 'HEADLINES', close: 'CLOSE' };
   const zMin = () => { const v = viewport(); return clamp(Math.min((v.w - 48) / WORLD_W, (v.h - 40) / WORLD_H), 0.03, 0.42); };
-  const mobile = () => window.innerWidth <= 760;
+  const phoneQuery = matchMedia('(max-width: 760px)');
+  const mobile = () => phoneQuery.matches;
+  document.body.classList.toggle('phone', mobile());
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 
-  const state = { z: 0.4, panX: 0, panY: 0, lang: 'en', reading: '', rung: '', frag: '', focusIds: null, ghosts: false, panel: '', drawer: false, edition: '' };
+  const state = { z: 0.4, panX: 0, panY: 0, lang: 'en', reading: '', rung: '', frag: '', focusIds: null, ghosts: false, panel: '', drawer: false, edition: '', fieldOpen: false };
   let news, readings, library, world, ledger, config, held = [], fieldArticles = [];
   let liveReadings, editions = [], attention = null, attentionDays = [], attentionLive = null;  // every edition of narratives, newest first; what was looked up, and its days
   let beads = [], ghosts = [], labels = [];
@@ -52,7 +54,8 @@
     state.reading = p.get('reading') || '';
     state.rung = p.get('rung') || ''; state.frag = p.get('frag') || '';
     state.drawer = p.get('open') === '1';
-    state.panel = ['tide', 'index', 'about', 'editions', 'attention'].includes(p.get('view')) ? p.get('view') : '';
+    state.panel = ['tide', 'index', 'about', 'editions', 'attention', 'more'].includes(p.get('view')) ? p.get('view') : '';
+    state.fieldOpen = p.get('field') === '1';
     state.edition = p.get('edition') || '';
     if (p.get('lang') === 'orig') state.lang = 'orig';
     state.ghosts = p.get('ghosts') === '1';
@@ -68,6 +71,7 @@
     if (state.lang === 'orig') p.set('lang', 'orig');
     if (state.ghosts) p.set('ghosts', '1');
     if (state.edition) p.set('edition', state.edition);
+    if (state.fieldOpen && mobile()) p.set('field', '1');
     const h = '#' + p.toString();
     if (location.hash !== h) history.replaceState(null, '', h.length > 1 ? h : location.pathname);
   }
@@ -76,16 +80,27 @@
   async function getJSON(path) { const r = await fetch(path, { cache: 'no-cache' }); if (!r.ok) throw Error(`${path}: HTTP ${r.status}`); return r.json(); }
   async function load() {
     [news, readings, library, world, config] = await Promise.all(['data/news.json', 'data/readings.json', 'data/library.json', 'data/world.json', 'data/source-config.json'].map(getJSON));
-    try { ledger = await getJSON('data/ledger.json'); } catch { ledger = null; }
     try { editions = (await getJSON('data/narratives/index.json')).editions || []; } catch { editions = []; }
-    try { attention = await getJSON('data/attention.json'); attentionLive = attention; } catch { attention = null; }
-    try { attentionDays = (await getJSON('data/attention/index.json')).days || []; } catch { attentionDays = []; }
+    // On a phone the tide and the register load when they are first wanted, not before the first paint.
+    if (!mobile()) { await ensureLedger(); await ensureAttention(); }
     news.articles = news.articles.filter(a => a && a.id && a.title && safeURL(a.url));
     news.articles.forEach(a => byId.set(a.id, a));
     liveReadings = readings;
     adoptReadings(readings);
   }
   /* The field shows today's headlines plus whichever headlines the chosen edition cites that have since left the collection (held). */
+  let ledgerTried = false, attentionTried = false;
+  async function ensureLedger() {
+    if (ledger || ledgerTried) return ledger; ledgerTried = true;
+    try { ledger = await getJSON('data/ledger.json'); } catch { ledger = null; }
+    return ledger;
+  }
+  async function ensureAttention() {
+    if (attention || attentionTried) return attention; attentionTried = true;
+    try { attention = await getJSON('data/attention.json'); attentionLive = attention; } catch { attention = null; }
+    try { attentionDays = (await getJSON('data/attention/index.json')).days || []; } catch { attentionDays = []; }
+    return attention;
+  }
   const newsIds = () => new Set(news.articles.map(a => a.id));
   function adoptReadings(ed) {
     readings = ed;
@@ -192,7 +207,12 @@
   function beadEl(a, ghost) {
     const el = create('button', 'bead' + (ghost ? ' ghost' : '')); el.type = 'button'; el.dataset.id = a.id; el.tabIndex = -1;
     el.append(create('span', 'dot'), create('span', 't'), create('span', 'alt'), create('span', 'm'));
-    el.addEventListener('click', e => { if (dragged) return; e.stopPropagation(); openCard(a, el); });
+    el.addEventListener('click', e => {
+      if (dragged) return; e.stopPropagation();
+      // on a phone a tap on a swarm opens that country's page of headlines; the card waits until the headlines are legible
+      if (mobile() && !ghost && (bucket() === 'atlas' || bucket() === 'region')) { const same = beads.filter(p => p.a.sourceCountryCode === a.sourceCountryCode); if (same.length) { fitBeads(same, 1.0, 16); return; } }
+      openCard(a, el);
+    });
     el.addEventListener('keydown', e => { if (e.key === 'Enter') openCard(a, el); });
     return el;
   }
@@ -267,8 +287,8 @@
   const stripH = () => { const s = $('#narratives'); return s ? s.offsetHeight : 0; };
   function viewport() {
     const w = window.innerWidth - (state.drawer && !mobile() ? parseInt(getComputedStyle(document.documentElement).getPropertyValue('--drawer-w')) : 0);
-    const top = fieldEl.getBoundingClientRect().top;
-    const h = window.innerHeight - top - stripH();
+    const fr = fieldEl.getBoundingClientRect(), top = fr.top;
+    const h = fr.height - stripH() - (mobile() && state.fieldOpen ? ($('#sheet').offsetHeight || 0) : 0);
     return { w, h, top };
   }
   function bucket() {
@@ -359,7 +379,7 @@
   function fitReading() {
     const r = currentReading();
     const list = r ? r.articleIds.map(id => beadById.get(id)).filter(Boolean) : [];
-    if (list.length) fitBeads(list, 1.0); else fitWorld();
+    if (list.length) fitBeads(list, 1.0, mobile() ? 14 : 60); else fitWorld();
   }
   function fitWorld() {
     const f = fitRect(0, 0, WORLD_W, WORLD_H, 0.6, 16);
@@ -414,7 +434,7 @@
       return;
     }
     const onScreen = p => { const sx = p.x * z + px, sy = p.y * z + py; return sx > -30 && sx < W + 30 && sy > -30 && sy < H + 30; };
-    const cap = lvl === 'atlas' ? (mobile() ? 3 : 7) : (mobile() ? 5 : Math.min(9, Math.floor((W * H) / (200 * 70) / 5)));
+    const cap = mobile() && !state.fieldOpen ? 0 : lvl === 'atlas' ? (mobile() ? 3 : 7) : (mobile() ? 4 : Math.min(9, Math.floor((W * H) / (200 * 70) / 5)));
     // which lit headlines get a label when there is not room for all: one per country first, in citation order
     let labelled = all.filter(onScreen);
     if (labelled.length > cap) {
@@ -539,11 +559,58 @@
     worldEl.classList.toggle('reading', !!r);
     renderStrip();
     state.drawer = !!r && open;
+    if (mobile() && state.drawer) setFieldOpen(false);
     document.body.classList.toggle('drawer-open', state.drawer);
     $('#drawer').hidden = !state.drawer;
     if (state.drawer) renderDrawer();
+    if (mobile()) renderSheet();
     if (fit) fitReading();
-    cameraDirty = true; writeHash();
+    cameraDirty = true; writeHash(); syncTabs();
+  }
+  /* The phone's field: a band above the paper until it is opened, then the whole screen with a sheet of the lit headlines. */
+  function setFieldOpen(on) {
+    state.fieldOpen = !!on;
+    document.body.classList.toggle('field-open', state.fieldOpen);
+    litKey = ''; sizeCanvas(); cameraDirty = true;
+    if (state.fieldOpen) { $('#sheet-body').hidden = true; $('#sheet-bar').setAttribute('aria-expanded', 'false'); renderSheet(); }
+    sheetHeight();
+  }
+  function openField() {
+    if (state.drawer) { state.drawer = false; document.body.classList.remove('drawer-open'); $('#drawer').hidden = true; setFocus(null); }
+    if (state.panel) openPanel(state.panel);
+    setFieldOpen(true);
+    requestAnimationFrame(() => { if (currentReading()) fitReading(); else fitWorld(); });
+    writeHash(); syncTabs();
+  }
+  function closeField() { setFieldOpen(false); requestAnimationFrame(() => { if (currentReading()) fitReading(); }); writeHash(); syncTabs(); }
+  function sheetHeight() { const sh = $('#sheet'); document.documentElement.style.setProperty('--sheet-h', (mobile() && state.fieldOpen && sh ? sh.offsetHeight : 0) + 'px'); }
+  function renderSheet() {
+    const r = currentReading(), sheet = $('#sheet');
+    if (!r) { sheet.hidden = true; sheetHeight(); return; }
+    sheet.hidden = false;
+    const list = readings.readings, idx = list.findIndex(x => x.id === r.id);
+    $('#sheet-k').textContent = String(idx + 1).padStart(2, '0');
+    $('#sheet-n').textContent = r.line;
+    $('#sheet-m').textContent = `${r.articleIds.length} ${$('#sheet-bar').getAttribute('aria-expanded') === 'true' ? '▾' : '▴'}`;
+    const body = $('#sheet-body'); body.replaceChildren();
+    if (!body.hidden) {
+      const byCountry = new Map();
+      r.articleIds.map(id => byId.get(id)).filter(Boolean).forEach(a => { const k = a.sourceCountry || '?'; if (!byCountry.has(k)) byCountry.set(k, []); byCountry.get(k).push(a); });
+      [...byCountry.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])).forEach(([c, items]) => {
+        body.append(create('p', 'sect', `${c.toUpperCase()} · ${items.length}`));
+        items.forEach(a => body.append(sourceEl(a, { closeSheet: true })));
+      });
+      const open = create('button', 'text', 'read the narrative →'); open.type = 'button'; open.style.margin = '12px 0 0';
+      open.addEventListener('click', () => selectReading(r.id, { open: true, fit: false }));
+      body.append(open);
+    }
+    sheetHeight();
+  }
+  function syncTabs() {
+    const cur = state.panel === 'attention' ? 'attention' : state.panel ? 'more' : state.fieldOpen ? 'field' : 'paper';
+    $$('#tabs .tab[data-tab]').forEach(t => t.setAttribute('aria-pressed', String(t.dataset.tab === cur)));
+    $('#more-lang').setAttribute('aria-pressed', String(state.lang === 'orig'));
+    $('#more-night').setAttribute('aria-pressed', String(document.documentElement.dataset.theme === 'night'));
   }
   let stripBuilt = false;
   function renderStrip() {
@@ -627,6 +694,7 @@
     nav.append(prev, next); foot.append(cites, nav); body.append(foot);
     body.scrollTop = 0;
     const openRung = $('.rung.open', body); if (openRung && state.frag) openRung.scrollIntoView({ block: 'start', behavior: 'instant' });
+    if (mobile() && !attention) ensureAttention().then(a => { if (a && state.drawer && currentReading() === r) renderDrawer(); });
   }
   /* Since the previous edition: what this narrative continues and what has changed, with a step back to the narrative it continues
      and, when a later edition carried it on, a step forward. */
@@ -663,10 +731,13 @@
       const li = create('li', 'event' + (state.frag === 'ev:' + e.label ? ' open' : ''));
       const b = create('button', 'event-btn'); b.type = 'button'; b.setAttribute('aria-pressed', String(state.frag === 'ev:' + e.label));
       b.append(create('span', 'l', e.label), create('span', 'c', `${ids.length}`));
-      b.addEventListener('click', () => { const open = state.frag === 'ev:' + e.label; state.frag = open ? '' : 'ev:' + e.label; setFocus(open ? null : ids); renderDrawer(); if (!open && ids.length) fitFocus(ids); });
+      b.addEventListener('click', () => { const open = state.frag === 'ev:' + e.label; state.frag = open ? '' : 'ev:' + e.label; setFocus(open ? null : ids); renderDrawer(); if (!open && ids.length && !mobile()) fitFocus(ids); });
       b.addEventListener('mouseenter', () => { if (!state.frag) setFocus(ids); });
       b.addEventListener('mouseleave', () => { if (!state.frag) setFocus(null); });
-      li.append(b); ul.append(li);
+      li.append(b);
+      // on a phone the field is out of sight while reading, so an open event lists its headlines here
+      if (mobile() && state.frag === 'ev:' + e.label && ids.length) { const srcs = create('div', 'event-srcs'); ids.forEach(id => { const a = byId.get(id); if (a) srcs.append(sourceEl(a)); }); li.append(srcs); }
+      ul.append(li);
     });
     wrap.append(ul);
     return wrap;
@@ -674,6 +745,7 @@
   /* How we got here: the day's pattern placed on four longer trajectories, with a ruler of the moments it cites. */
   const SPAN_YEARS = { decade: 2016, 'half-century': 1976, 'since-2001': 2001, 'since-1945': 1945, 'long-run': 1800 };
   const yearOf = t => { const m = String(t.when || '').match(/\d{4}/); return m ? parseInt(m[0]) : null; };
+  const openHorizons = new Set();
   function horizonsEl(r) {
     const wrap = create('section', 'horizons');
     wrap.append(create('p', 'sect', 'HOW WE GOT HERE'));
@@ -697,8 +769,9 @@
     });
     wrap.append(ruler);
     r.horizons.forEach(h => {
-      const d = create('div', 'horizon ' + h.span);
+      const d = create('div', 'horizon ' + h.span + (!mobile() || openHorizons.has(h.span) ? ' open' : ''));
       const head = create('div', 'horizon-head');
+      head.addEventListener('click', () => { if (!mobile()) return; const on = d.classList.toggle('open'); if (on) openHorizons.add(h.span); else openHorizons.delete(h.span); });
       const from = SPAN_YEARS[h.span];
       head.append(create('span', 'hl', h.label), create('span', 'hy', from ? `${from} to ${now}` : ''));
       d.append(head);
@@ -738,14 +811,17 @@
     }
     return d;
   }
-  function sourceEl(a) {
+  function sourceEl(a, { closeSheet = false } = {}) {
     const wrap = create('div', 'src-wrap');
     const s = create('a', 'src'); s.href = safeURL(a.url); s.target = '_blank'; s.rel = 'noopener noreferrer';
     const w = create('span', 'w', `${a.sourceCountry} / ${a.publisher}${a.language && a.language !== 'en' ? ' / ' + langName(a.language) : ''} · ${fmt(a.publishedAt || a.seenAt)}`);
     const h = create('span', 'h', headline(a) + ' ↗'); h.dir = 'auto';
     s.append(w, h); const o = alt(a); if (o) { const oe = create('span', 'o', o); oe.dir = 'auto'; oe.lang = a.language || ''; s.append(oe); }
     const loc = create('button', 'text', '◎ field'); loc.type = 'button'; loc.title = 'Find this headline in the field';
-    loc.addEventListener('click', () => { if (!locate(a.id)) toast('This headline is from an earlier collection and is not in the field.'); });
+    loc.addEventListener('click', () => {
+      if (mobile()) { if (!state.fieldOpen) openField(); if (closeSheet) { $('#sheet-body').hidden = true; $('#sheet-bar').setAttribute('aria-expanded', 'false'); renderSheet(); } }
+      requestAnimationFrame(() => { if (!locate(a.id)) toast('This headline is from an earlier collection and is not in the field.'); });
+    });
     wrap.append(s, loc); return wrap;
   }
 
@@ -780,9 +856,11 @@
   /* ---------- panels ---------- */
   function openPanel(name) {
     state.panel = state.panel === name ? '' : name;
-    ['tide', 'index', 'about', 'editions', 'attention'].forEach(n => { $(`#${n}-panel`).hidden = state.panel !== n; $$(`[data-open="${n}"]`).forEach(b => b.setAttribute('aria-pressed', String(state.panel === n))); });
-    if (state.panel === 'tide') renderTide(); if (state.panel === 'index') renderIndex(); if (state.panel === 'about') renderAbout(); if (state.panel === 'editions') renderEditions(); if (state.panel === 'attention') renderAttention();
-    writeHash();
+    ['tide', 'index', 'about', 'editions', 'attention', 'more'].forEach(n => { $(`#${n}-panel`).hidden = state.panel !== n; $$(`[data-open="${n}"]`).forEach(b => b.setAttribute('aria-pressed', String(state.panel === n))); });
+    if (state.panel === 'tide') { if (ledger) renderTide(); else ensureLedger().then(() => { if (state.panel === 'tide') { renderTide(); buildField(); selectReading(state.reading, { open: state.drawer, fit: false }); } }); }
+    if (state.panel === 'index') renderIndex(); if (state.panel === 'about') renderAbout(); if (state.panel === 'editions') renderEditions();
+    if (state.panel === 'attention') { if (attention || attentionTried) renderAttention(); else ensureAttention().then(() => { if (state.panel === 'attention') renderAttention(); }); }
+    writeHash(); syncTabs();
   }
   /* Matching the register to the narratives: a subject (a Wikipedia article resolved across languages, with its English aliases)
      is matched by plain text against a narrative's line, events, claim and the English text of its headlines. Deterministic, no model. */
@@ -1041,6 +1119,25 @@
     $('[data-action="home"]').addEventListener('click', e => { e.preventDefault(); if (state.panel) openPanel(state.panel); if (!isLive()) showEdition('', '', { open: false }); else selectReading(readings.readings[0].id, { open: false }); });
     $('#lang').addEventListener('click', () => setLang(state.lang === 'en' ? 'orig' : 'en'));
     $('#night').addEventListener('click', () => setNight(document.documentElement.dataset.theme !== 'night'));
+    $('#more-lang').addEventListener('click', () => { setLang(state.lang === 'en' ? 'orig' : 'en'); syncTabs(); });
+    $('#more-night').addEventListener('click', () => { setNight(document.documentElement.dataset.theme !== 'night'); syncTabs(); });
+    // the phone's furniture
+    $('#field-cover').addEventListener('click', openField);
+    $('#field-back').addEventListener('click', closeField);
+    $('#sheet-bar').addEventListener('click', () => { const b = $('#sheet-body'); b.hidden = !b.hidden; $('#sheet-bar').setAttribute('aria-expanded', String(!b.hidden)); renderSheet(); });
+    $$('#tabs .tab[data-tab]').forEach(t => t.addEventListener('click', () => {
+      const w = t.dataset.tab;
+      if (w === 'field') { if (state.fieldOpen && !state.panel && !state.drawer) return; openField(); }
+      else if (w === 'paper') { if (state.panel) openPanel(state.panel); if (state.drawer) { state.drawer = false; document.body.classList.remove('drawer-open'); $('#drawer').hidden = true; setFocus(null); } if (state.fieldOpen) setFieldOpen(false); writeHash(); syncTabs(); }
+      else if (w === 'attention') { if (state.panel !== 'attention') { if (state.panel) openPanel(state.panel); openPanel('attention'); } }
+      else if (w === 'more') { if (state.panel === 'more') openPanel('more'); else { if (state.panel) openPanel(state.panel); openPanel('more'); } }
+    }));
+    if ('ResizeObserver' in window) new ResizeObserver(sheetHeight).observe($('#sheet'));
+    // a swipe across the reader steps between narratives
+    let sw = null; const db = $('#drawer-body');
+    db.addEventListener('touchstart', e => { if (e.touches.length === 1) sw = { x: e.touches[0].clientX, y: e.touches[0].clientY }; }, { passive: true });
+    db.addEventListener('touchend', e => { if (!sw) return; const t = e.changedTouches[0], dx = t.clientX - sw.x, dy = t.clientY - sw.y; sw = null; if (Math.abs(dx) > 70 && Math.abs(dx) > Math.abs(dy) * 2) stepReading(dx < 0 ? 1 : -1); }, { passive: true });
+    phoneQuery.addEventListener('change', () => { document.body.classList.toggle('phone', mobile()); if (!mobile()) setFieldOpen(false); stripBuilt = false; renderStrip(); sizeCanvas(); cameraDirty = true; syncTabs(); });
     $('#scrim').addEventListener('click', closeCard);
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape') { if (!$('#card').hidden) return closeCard(); if (state.panel) return openPanel(state.panel); if (state.drawer) { state.drawer = false; document.body.classList.remove('drawer-open'); $('#drawer').hidden = true; setFocus(null); writeHash(); } return; }
@@ -1075,6 +1172,8 @@
     if (state.debugZ) { const v2 = viewport(); state.z = state.debugZ; const c = toWorld(isNaN(state.debugLon) ? 10 : state.debugLon, isNaN(state.debugLat) ? 48 : state.debugLat); state.panX = v2.w / 2 - c[0] * state.z; state.panY = v2.h / 2 - c[1] * state.z; applyBucket(); cameraDirty = true; }
     if (state.panel) { const p = state.panel; state.panel = ''; openPanel(p); }
     $('#hint').hidden = mobile();
+    if (mobile()) { if (state.fieldOpen && !state.drawer && !state.panel) { setFieldOpen(true); requestAnimationFrame(() => fitReading()); } else state.fieldOpen = false; renderSheet(); }
+    syncTabs();
   }
   init();
 })();

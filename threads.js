@@ -57,7 +57,65 @@
 
   /* ---------- the loom ---------- */
   const LANE_H = 34, TOP = 44, LEFT = 24, RIGHT = 380;
+  const phone = () => window.innerWidth <= 760;
+  /* On a phone time runs down the page: each edition is a row, newest at the top, lanes run across, and the newest row's
+     narratives are numbered and listed beneath, since there is no room for lines of text beside the marks. */
+  const ROWS = { day: 64, week: 30, month: 14 };
+  let picked = null;
+  function drawLoomVertical() {
+    const svg = $('#loom'); svg.replaceChildren(); picked = null; $('#loom-tip').hidden = true;
+    const laneCount = buildChains(), rowH = ROWS[scale];
+    const W = Math.max(300, $('#loom-scroll').clientWidth - 2), left = 108, right = 20;
+    const laneW = Math.min(44, (W - left - right) / Math.max(1, laneCount));
+    const n = editions.length, top = 14, h = top + n * rowH + 16;
+    svg.setAttribute('viewBox', `0 0 ${W} ${h}`); svg.setAttribute('width', W); svg.setAttribute('height', h);
+    const x = lane => left + lane * laneW + laneW / 2, y = col => top + (n - 1 - col) * rowH + rowH / 2;
+    const dayOf = e => `${e.stamp.slice(0, 4)}-${e.stamp.slice(4, 6)}-${e.stamp.slice(6, 8)}`;
+    let lastDay = '';
+    editions.forEach((e, col) => {
+      const g = svgEl('g', { class: 'col' + (col === n - 1 ? ' now' : '') });
+      g.append(svgEl('line', { x1: left - 10, x2: W - right, y1: y(col), y2: y(col) }));
+      const day = dayOf(e), showLabel = scale === 'day' || day !== lastDay || col === n - 1; lastDay = day;
+      if (showLabel) {
+        const t = svgEl('text', { x: 0, y: y(col) - 3, class: 'when' }); t.textContent = scale === 'day' ? fmt(e.stamp).replace(' UTC', '').toUpperCase() : fmt(e.stamp, false).toUpperCase(); g.append(t);
+        if (scale === 'day') { const m = svgEl('text', { x: 0, y: y(col) + 10, class: 'meta' }); m.textContent = `${e.narratives.length}${col === n - 1 ? ' · NOW' : ''}`; g.append(m); }
+      }
+      svg.append(g);
+    });
+    nodes.forEach(a => a.next.forEach(b => {
+      const p = svgEl('path', { class: 'link' + (b.grouped ? ' grouped' : ''), d: `M${x(a.lane)},${y(a.col)} C${x(a.lane)},${y(a.col) - rowH * 0.45} ${x(b.lane)},${y(b.col) + rowH * 0.45} ${x(b.lane)},${y(b.col)}`, 'stroke-width': (1 + Math.min(a.headlines, b.headlines) / 9).toFixed(1) });
+      p.dataset.from = `${a.stamp}|${a.id}`; p.dataset.to = `${b.stamp}|${b.id}`; svg.append(p);
+    }));
+    const legend = [];
+    chains.forEach(c => c.forEach(m => {
+      const r = Math.min(laneW / 2 - 2, 3 + Math.sqrt(m.headlines) * 0.9);
+      const g = svgEl('g', { class: 'bead', tabindex: '0', role: 'button' }); g.dataset.key = `${m.stamp}|${m.id}`;
+      g.append(svgEl('circle', { cx: x(m.lane), cy: y(m.col), r: r.toFixed(1) }));
+      g.append(svgEl('circle', { cx: x(m.lane), cy: y(m.col), r: (r + 9).toFixed(1), class: 'halo' }));
+      if (m.col === n - 1) { legend.push(m); const t = svgEl('text', { x: x(m.lane), y: y(m.col) - r - 5, 'text-anchor': 'middle', class: 'num' }); t.textContent = String(legend.length); svg.append(t); }
+      const title = svgEl('title'); title.textContent = `${fmt(m.stamp)} · ${m.kicker}\n${m.line}`; g.append(title);
+      // first tap shows the narrative; a second tap on the same mark opens it
+      g.addEventListener('click', () => { if (picked === m) { location.href = `./#edition=${m.stamp}&reading=${encodeURIComponent(m.id)}&open=1`; return; } picked = m; showPick(m); });
+      g.addEventListener('keydown', e => { if (e.key === 'Enter') g.click(); });
+      svg.append(g);
+    }));
+    const lg = $('#loom-legend'); lg.replaceChildren();
+    legend.sort((a, b) => a.lane - b.lane).forEach((m, i) => {
+      const b = create('button', 'legend-item'); b.type = 'button';
+      b.append(create('span', 'num mono', String(i + 1)), create('span', 'line', m.line), create('span', 'm mono', `${m.kicker}${m.chain && m.chain.length > 1 ? ` · thread of ${m.chain.length} editions` : ''}`));
+      b.addEventListener('click', () => { location.href = `./#edition=${m.stamp}&reading=${encodeURIComponent(m.id)}&open=1`; });
+      lg.append(b);
+    });
+    $('#loom-count').textContent = `${editions.length} EDITIONS · ${nodes.size} NARRATIVES · ${chains.filter(c => c.length > 1).length} THREADS THAT RAN MORE THAN ONE EDITION`;
+  }
+  function showPick(m) {
+    const tip = $('#loom-tip'); tip.replaceChildren(create('span', 'k', `${fmt(m.stamp)} · ${m.kicker}`), create('span', 'n', m.line), create('span', 'm', `${m.events ? m.events + ' events · ' : ''}${m.headlines} headlines${m.chain && m.chain.length > 1 ? ` · thread of ${m.chain.length} editions` : ''} · tap again to open`));
+    tip.hidden = false; tip.style.left = ''; tip.style.top = '';
+    $$('#loom .bead').forEach(b => b.classList.toggle('hot', b.dataset.key === `${m.stamp}|${m.id}`));
+  }
   function drawLoom() {
+    if (phone()) return drawLoomVertical();
+    $('#loom-legend').replaceChildren();
     const svg = $('#loom'); svg.replaceChildren();
     const laneCount = buildChains(), { colW, labelMin } = SCALES[scale];
     const dayOf = e => `${e.stamp.slice(0, 4)}-${e.stamp.slice(4, 6)}-${e.stamp.slice(6, 8)}`;
@@ -191,6 +249,7 @@
     $('#threads-edition').textContent = `THREADS · ${editions.length} EDITIONS SINCE ${fmt(editions[0].stamp, false).toUpperCase()}`;
     $$('[data-scale]').forEach(b => b.addEventListener('click', () => { scale = b.dataset.scale; $$('[data-scale]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); drawLoom(); }));
     drawLoom(); renderChronicle(chronicle);
+    let lastPhone = phone(), rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { if (phone() !== lastPhone || phone()) { lastPhone = phone(); drawLoom(); } }, 150); });
   }
   init();
 })();

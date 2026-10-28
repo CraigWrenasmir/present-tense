@@ -2,10 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Threads · The Present Tense</title>
 <meta name="description" content="The narratives of The Present Tense across days: which threads persist, which fell silent, and a running account of where things stand by these headlines, revised after each edition.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Present Tense">
+<meta property="og:title" content="Threads · The Present Tense">
+<meta property="og:description" content="The narratives of The Present Tense across days: which threads persist, which fell silent, and the Chronicle.">
+<meta property="og:image" content="https://presenttense.news/preview.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="style.css">
 </head>
 <body class="scrolls">
@@ -35,6 +43,7 @@
     </div>
     <div class="loom-scroll" id="loom-scroll"><svg id="loom" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Threads of narratives across editions"></svg></div>
     <p class="loom-hint mono">each column is an edition · each mark a narrative, sized by its headlines · a solid line joins a narrative to the one it says it continues · a dotted line is the Chronicle's grouping · select a mark to open it in that edition</p>
+    <div class="loom-legend" id="loom-legend"></div>
     <div class="loom-tip mono" id="loom-tip" hidden></div>
   </section>
 
@@ -48,6 +57,13 @@
     <p class="support mono">The site is free and costs about US$1.15 a day to write. <a href="https://ko-fi.com/thepresenttense" target="_blank" rel="noopener">Buy it a coffee</a> if you want it to keep going. Write to <a href="mailto:hello@presenttense.news">hello@presenttense.news</a>.</p>
   </section>
 </main>
+<nav class="tabs mono" id="tabs" aria-label="Sections">
+  <a class="tab" href="./#field=1"><span class="g" aria-hidden="true">⊙</span>Field</a>
+  <a class="tab" href="./"><span class="g" aria-hidden="true">¶</span>Narratives</a>
+  <a class="tab" aria-current="page"><span class="g" aria-hidden="true">≋</span>Threads</a>
+  <a class="tab" href="./#view=attention"><span class="g" aria-hidden="true">⌕</span>Looked up</a>
+  <a class="tab" href="./#view=more"><span class="g" aria-hidden="true">⋯</span>More</a>
+</nav>
 <script src="threads.js"></script>
 </body>
 </html>

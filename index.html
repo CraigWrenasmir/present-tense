@@ -7,6 +7,20 @@
 <meta name="description" content="A field of the world's headlines and the narratives that run through them, with sources, the connections spelled out, and the case against each one.">
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Present Tense">
+<meta property="og:title" content="The Present Tense">
+<meta property="og:description" content="The day's headlines from dozens of countries, and five narratives a day that join them.">
+<meta property="og:url" content="https://presenttense.news/">
+<meta property="og:image" content="https://presenttense.news/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Present Tense">
+<meta name="twitter:description" content="The day's headlines from dozens of countries, and five narratives a day that join them.">
+<meta name="twitter:image" content="https://presenttense.news/preview.png">
 <link rel="stylesheet" href="style.css">
 <script src="app.js" defer></script>
 </head>
@@ -44,7 +58,18 @@
     <button id="zoom-world" title="The whole world (0)">⊙</button>
   </div>
   <p class="hint mono" id="hint">drag to move · scroll or double-click to zoom · zoom in until the countries open · click a headline to read it</p>
+  <button class="field-cover mono" id="field-cover" type="button" aria-label="Open the field of headlines"><span>open the field ↗</span></button>
+  <button class="field-back mono" id="field-back" type="button">↓ narratives</button>
 </main>
+
+<section class="sheet mono" id="sheet" aria-label="The headlines this narrative cites">
+  <button class="sheet-bar" id="sheet-bar" type="button" aria-expanded="false">
+    <span class="sheet-k" id="sheet-k"></span>
+    <span class="sheet-n" id="sheet-n"></span>
+    <span class="sheet-m" id="sheet-m"></span>
+  </button>
+  <div class="sheet-body" id="sheet-body" hidden></div>
+</section>
 
 <section class="narratives" id="narratives" aria-label="The narratives in today's headlines">
   <div class="narratives-head mono">
@@ -121,6 +146,29 @@
     <p class="mono small" id="about-edition"></p>
   </div>
 </aside>
+
+<aside class="panel" id="more-panel" hidden aria-label="More">
+  <div class="panel-top mono"><span>MORE</span><button class="close" data-close="more" aria-label="Close">×</button></div>
+  <div class="panel-body more-body" id="more-body">
+    <button class="more-item" data-open="editions" type="button"><span class="w">EDITIONS</span><span class="d">Every edition of narratives, where we were</span></button>
+    <button class="more-item" data-open="tide" type="button"><span class="w">THE TIDE</span><span class="d">What arrived, stayed and departed since the previous collection</span></button>
+    <button class="more-item" data-open="index" type="button"><span class="w">THE INDEX</span><span class="d">Every headline, as a plain searchable list</span></button>
+    <a class="more-item" href="threads.html"><span class="w">THREADS</span><span class="d">The narratives across days, and the Chronicle</span></a>
+    <button class="more-item" data-open="about" type="button"><span class="w">ABOUT</span><span class="d">What this is, what it costs, who made it</span></button>
+    <a class="more-item" href="lineage.html"><span class="w">LINEAGE</span><span class="d">Where the idea comes from</span></a>
+    <button class="more-item" id="more-lang" type="button"><span class="w">ORIGINAL</span><span class="d">Show headlines in their source language</span></button>
+    <button class="more-item" id="more-night" type="button"><span class="w">NIGHT</span><span class="d">White on black</span></button>
+    <p class="support">The site is free and costs about US$1.15 a day to write. <a href="https://ko-fi.com/thepresenttense" target="_blank" rel="noopener">Buy it a coffee</a> if you want it to keep going. Write to <a href="mailto:hello@presenttense.news">hello@presenttense.news</a>.</p>
+  </div>
+</aside>
+
+<nav class="tabs mono" id="tabs" aria-label="Sections">
+  <button class="tab" data-tab="field" type="button" aria-pressed="false"><span class="g" aria-hidden="true">⊙</span>Field</button>
+  <button class="tab" data-tab="paper" type="button" aria-pressed="true"><span class="g" aria-hidden="true">¶</span>Narratives</button>
+  <a class="tab" href="threads.html"><span class="g" aria-hidden="true">≋</span>Threads</a>
+  <button class="tab" data-tab="attention" type="button" aria-pressed="false"><span class="g" aria-hidden="true">⌕</span>Looked up</button>
+  <button class="tab" data-tab="more" type="button" aria-pressed="false"><span class="g" aria-hidden="true">⋯</span>More</button>
+</nav>
 
 <div class="card" id="card" hidden role="dialog" aria-label="Headline"></div>
 <div class="scrim" id="scrim" hidden></div>
