@@ -397,6 +397,7 @@ body.drawer-open .narratives-hint { display: none; }
 #loom .col.now .when { fill: var(--ink); }
 #loom .meta { font-size: 8.5px; letter-spacing: .1em; fill: var(--ink-3); }
 #loom .link { fill: none; stroke: var(--ink); stroke-opacity: .55; }
+#loom .link.grouped { stroke-dasharray: 2 4; stroke-linecap: round; }
 #loom .link.hot { stroke-opacity: 1; stroke-width: 3; }
 #loom .bead { cursor: pointer; }
 #loom .bead circle { fill: var(--ink); }

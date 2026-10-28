@@ -24,6 +24,15 @@
         if (p && me) { p.next.push(me); me.prev = p; }
       });
     });
+    // the Chronicle's own grouping: where it runs narratives together that do not declare a continuation, draw that too, dotted
+    (chronicle && chronicle.threads || []).forEach(t => {
+      const members = t.narratives.map(r => nodes.get(`${r.stamp}|${r.id}`)).filter(Boolean).sort((a, b) => a.col - b.col);
+      for (let i = 1; i < members.length; i++) {
+        const a = members[i - 1], b = members[i];
+        if (a.col >= b.col || b.prev) continue;
+        a.next.push(b); b.prev = a; b.grouped = true;
+      }
+    });
     // a chain follows first successors; further successors begin chains of their own, still linked by a line
     const used = new Set();
     [...nodes.values()].sort((a, b) => a.col - b.col || a.row - b.row).forEach(n => {
@@ -66,7 +75,7 @@
     });
     // links
     nodes.forEach(n => n.next.forEach(m => {
-      const p = svgEl('path', { class: 'link', d: `M${x(n.col)},${y(n.lane)} C${x(n.col) + colW * 0.45},${y(n.lane)} ${x(m.col) - colW * 0.45},${y(m.lane)} ${x(m.col)},${y(m.lane)}`, 'stroke-width': (1 + Math.min(n.headlines, m.headlines) / 9).toFixed(1) });
+      const p = svgEl('path', { class: 'link' + (m.grouped ? ' grouped' : ''), d: `M${x(n.col)},${y(n.lane)} C${x(n.col) + colW * 0.45},${y(n.lane)} ${x(m.col) - colW * 0.45},${y(m.lane)} ${x(m.col)},${y(m.lane)}`, 'stroke-width': (1 + Math.min(n.headlines, m.headlines) / 9).toFixed(1) });
       p.dataset.from = `${n.stamp}|${n.id}`; p.dataset.to = `${m.stamp}|${m.id}`; svg.append(p);
     }));
     // beads and labels
@@ -91,7 +100,7 @@
         t.textContent = label.length > room ? label.slice(0, room - 1) + '…' : label; svg.append(t);
       }
     });
-    $('#loom-count').textContent = `${editions.length} EDITIONS · ${nodes.size} NARRATIVES · ${chains.filter(c => c.length > 1).length} THREADS THAT RAN MORE THAN A DAY`;
+    $('#loom-count').textContent = `${editions.length} EDITIONS · ${nodes.size} NARRATIVES · ${chains.filter(c => c.length > 1).length} THREADS THAT RAN MORE THAN ONE EDITION`;
     const sc = $('#loom-scroll'); sc.scrollLeft = sc.scrollWidth;
   }
   function showTip(n, e) {
