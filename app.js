@@ -738,7 +738,7 @@
       });
       const rec = $('#standing-record');
       if (record && record.lines && record.lines.length) {
-        rec.hidden = false; rec.append(create('p', 'sect', 'THE RECORD · ONE LINE A DAY, NEVER REVISED'));
+        rec.hidden = false; rec.append(create('p', 'sect', 'THE RECORD · ONE SENTENCE FOR EACH DAY, KEPT AS IT WAS WRITTEN'));
         record.lines.slice(-3).reverse().forEach(l => { const d = create('div', 'rec'); d.append(create('span', 'd', fmt(l.asOf).replace(/,.*$/, '').toUpperCase()), create('span', 't', l.line)); rec.append(d); });
         const a = create('a', 'text mono', 'the whole record ≋'); a.href = 'threads.html#record'; rec.append(a);
       }

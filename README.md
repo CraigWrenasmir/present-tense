@@ -18,10 +18,9 @@ Black and white. No framework, no build step. A static site that refreshes itsel
 | `data/editions/` | Slim copies of the last 14 collections, for the ledger. |
 | `data/narratives/` | Every edition of narratives, one file per headline collection read, with `index.json` listing them newest first. The site's Editions panel and the Threads page read it. |
 | `data/chronicle.json`, `data/chronicle/` | The Chronicle: a running account of where things stand by these headlines, revised after each edition, with every version kept. Its standing paragraph is shown at the top of the narratives as "Where we are". |
-| `data/record.json` | The record: one sentence per edition from the Chronicle's keeper, saying what the day is in the longer story since 1945. Added to, never revised. |
+| `data/record.json` | The record: one sentence per edition from the Chronicle's keeper, saying what the day is in the longer story since 1945. Added to, and kept as written. |
 | `data/attention.json` | A second register: yesterday's most-viewed Wikipedia articles in 28 language editions, Bluesky's trending topics, trending hashtags on a few Mastodon servers. |
 | `threads.html`, `threads.js` | The narratives across editions, drawn as threads, with the Chronicle beneath. |
-| `lineage.html` | Where the idea comes from: the books and arguments behind the site. |
 | `data/world.json` | Natural Earth land, sampled as dots. See `data/WORLD-SOURCE.md`. |
 | `data/source-config.json` | The publisher allowlist, country anchors and collection limits. |
 | `data/translations.json` | Cache of English headlines keyed by the original title. |

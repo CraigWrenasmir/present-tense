@@ -258,7 +258,7 @@
     const lines = (rec && rec.lines || []).slice().reverse();
     if (!lines.length) {
       $('#record-meta').textContent = 'NOT YET BEGUN';
-      body.append(create('p', 'chronicle-empty', 'With each revision of the Chronicle, its keeper writes one sentence saying what the day is in the longer story since 1945. The sentences are kept here in order and never changed. The first arrives with the next edition.'));
+      body.append(create('p', 'chronicle-empty', 'With each edition the Chronicle adds one sentence saying what the day is in the longer story since 1945. The sentences stay here in order, as they were written. The first arrives with the next edition.'));
       return;
     }
     $('#record-meta').textContent = `${lines.length} LINE${lines.length === 1 ? '' : 'S'} · FROM ${fmt(lines[lines.length - 1].asOf, false).toUpperCase()}`;
