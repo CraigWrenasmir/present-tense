@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "_site"
 FILES = ["index.html", "lineage.html", "threads.html", "threads.js", "style.css", "app.js", "favicon.svg", "CNAME", "manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png", "preview.png"]
-DATA = ["news.json", "readings.json", "library.json", "world.json", "ledger.json", "source-config.json", "translations.json", "WORLD-SOURCE.md", "attention.json", "chronicle.json"]
+DATA = ["news.json", "readings.json", "library.json", "world.json", "ledger.json", "source-config.json", "translations.json", "WORLD-SOURCE.md", "attention.json", "chronicle.json", "record.json"]
 
 
 def main():

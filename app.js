@@ -24,7 +24,8 @@
 
   const state = { z: 0.4, panX: 0, panY: 0, lang: 'en', reading: '', rung: '', frag: '', focusIds: null, ghosts: false, panel: '', drawer: false, edition: '', fieldOpen: false };
   let news, readings, library, world, ledger, config, held = [], fieldArticles = [];
-  let liveReadings, editions = [], attention = null, attentionDays = [], attentionLive = null;  // every edition of narratives, newest first; what was looked up, and its days
+  let liveReadings, editions = [], attention = null, attentionDays = [], attentionLive = null;
+  let chronicle = null, record = null;  // where we are, and the line a day  // every edition of narratives, newest first; what was looked up, and its days
   let beads = [], ghosts = [], labels = [];
   const byId = new Map(), beadById = new Map();
   let cameraDirty = true, lastFrame = 0, anim = null, dragged = false;
@@ -81,6 +82,8 @@
   async function load() {
     [news, readings, library, world, config] = await Promise.all(['data/news.json', 'data/readings.json', 'data/library.json', 'data/world.json', 'data/source-config.json'].map(getJSON));
     try { editions = (await getJSON('data/narratives/index.json')).editions || []; } catch { editions = []; }
+    try { chronicle = await getJSON('data/chronicle.json'); } catch { chronicle = null; }
+    try { record = await getJSON('data/record.json'); } catch { record = null; }
     // On a phone the tide and the register load when they are first wanted, not before the first paint.
     if (!mobile()) { await ensureLedger(); await ensureAttention(); }
     news.articles = news.articles.filter(a => a && a.id && a.title && safeURL(a.url));
@@ -619,8 +622,42 @@
     $('#more-lang').setAttribute('aria-pressed', String(state.lang === 'orig'));
     $('#more-night').setAttribute('aria-pressed', String(document.documentElement.dataset.theme === 'night'));
   }
+  /* Where we are: the Chronicle's standing paragraph at the top of the paper, with its threads as links into today's narratives. */
+  let standingBuilt = false;
+  function renderStanding() {
+    const el = $('#standing'); if (!el || !chronicle || !chronicle.standing) return;
+    if (!standingBuilt) {
+      standingBuilt = true;
+      $('#standing-eyebrow').textContent = mobile() ? `WHERE WE ARE · ${fmt(chronicle.asOf).toUpperCase()}` : `WHERE WE ARE · THE CHRONICLE, REVISED FOR THE EDITION OF ${fmt(chronicle.asOf).toUpperCase()}`;
+      $('#standing-text').textContent = chronicle.standing;
+      $('#standing-more').addEventListener('click', () => {
+        const open = el.classList.toggle('open'); $('#standing-open').hidden = !open;
+        $('#standing-more').textContent = open ? 'less' : 'more'; $('#standing-more').setAttribute('aria-expanded', String(open));
+        setStripVar();
+      });
+      const rec = $('#standing-record');
+      if (record && record.lines && record.lines.length) {
+        rec.hidden = false; rec.append(create('p', 'sect', 'THE RECORD · ONE LINE A DAY, NEVER REVISED'));
+        record.lines.slice(-3).reverse().forEach(l => { const d = create('div', 'rec'); d.append(create('span', 'd', fmt(l.asOf).replace(/,.*$/, '').toUpperCase()), create('span', 't', l.line)); rec.append(d); });
+        const a = create('a', 'text mono', 'the whole record ≋'); a.href = 'threads.html#record'; rec.append(a);
+      }
+    }
+    const box = $('#standing-threads'); box.replaceChildren();
+    const stamp = currentStamp(), here = new Set(readings.readings.map(r => r.id));
+    const threads = (chronicle.threads || []).slice().sort((a, b) => (a.status === b.status ? 0 : a.status === 'live' ? -1 : 1));
+    threads.forEach(t => {
+      const today = (t.narratives || []).find(n => n.stamp === stamp && here.has(n.id));
+      let chip;
+      if (today) { chip = create('button', 'chip', t.label); chip.type = 'button'; chip.title = 'Open the narrative in this edition that continues this thread'; chip.addEventListener('click', () => selectReading(today.id, { open: true })); }
+      else { chip = create('a', 'chip' + (t.status === 'live' ? '' : ' silent'), t.label); chip.href = 'threads.html#chronicle'; chip.title = t.status === 'live' ? 'No narrative in this edition; read the thread in the Chronicle' : 'Silent: read the thread in the Chronicle'; }
+      box.append(chip);
+    });
+    el.hidden = false;
+  }
+  const setStripVar = () => { document.documentElement.style.setProperty('--strip-h', stripH() + 'px'); sizeCanvas(); cameraDirty = true; };
   let stripBuilt = false;
   function renderStrip() {
+    renderStanding();
     const r = currentReading(), list = readings.readings;
     $('#narratives-count').textContent = `${list.length} NARRATIVES IN THE HEADLINES OF ${fmt(readings.newsGeneratedAt).toUpperCase()}` + (isLive() ? '' : ' · AN EARLIER EDITION');
     $('#narratives').classList.toggle('past', !isLive());

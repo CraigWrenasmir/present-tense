@@ -7,7 +7,7 @@
   const stampDate = s => new Date(`${s.slice(0, 4)}-${s.slice(4, 6)}-${s.slice(6, 8)}T${s.slice(9, 11)}:${s.slice(11, 13)}:00Z`);
   const fmt = (s, withTime = true) => { const d = typeof s === 'string' && /^\d{8}T/.test(s) ? stampDate(s) : new Date(s); if (isNaN(d)) return String(s); return d.toLocaleString('en-GB', withTime ? { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' } : { day: 'numeric', month: 'short', timeZone: 'UTC' }) + (withTime ? ' UTC' : ''); };
   const SCALES = { day: { colW: 230, labelMin: 1 }, week: { colW: 80, labelMin: 2 }, month: { colW: 30, labelMin: 3 } };
-  let scale = 'day', editions = [], chronicle = null, versions = [], nodes = new Map(), chains = [], attentionDays = [];
+  let scale = 'day', editions = [], chronicle = null, versions = [], nodes = new Map(), chains = [], attentionDays = [], record = null;
 
   async function getJSON(path) { const r = await fetch(path, { cache: 'no-cache' }); if (!r.ok) throw Error(`${path}: HTTP ${r.status}`); return r.json(); }
 
@@ -246,6 +246,26 @@
     if (ch.notes) body.append(create('p', 'note', ch.notes.join(' ')));
   }
 
+  /* ---------- the record: one line per edition, newest first, never revised ---------- */
+  function renderRecord(rec) {
+    const body = $('#record-body'); if (!body) return; body.replaceChildren();
+    const lines = (rec && rec.lines || []).slice().reverse();
+    if (!lines.length) {
+      $('#record-meta').textContent = 'NOT YET BEGUN';
+      body.append(create('p', 'chronicle-empty', 'With each revision of the Chronicle, its keeper writes one sentence saying what the day is in the longer story since 1945. The sentences are kept here in order and never changed. The first arrives with the next edition.'));
+      return;
+    }
+    $('#record-meta').textContent = `${lines.length} LINE${lines.length === 1 ? '' : 'S'} · FROM ${fmt(lines[lines.length - 1].asOf, false).toUpperCase()}`;
+    const ol = create('ol', 'record-list');
+    lines.forEach(l => {
+      const li = create('li', 'rec');
+      const a = create('a', 'd mono', fmt(l.asOf, false).toUpperCase()); a.href = `./#edition=${l.stamp}`; a.title = 'The edition this line was written for';
+      li.append(a, create('span', 't', l.line)); ol.append(li);
+    });
+    body.append(ol);
+    if (rec.notes) body.append(create('p', 'note', rec.notes.join(' ')));
+  }
+
   /* ---------- init ---------- */
   function setNight(on) { document.documentElement.dataset.theme = on ? 'night' : ''; $('#night').setAttribute('aria-pressed', String(on)); try { localStorage.setItem('pt-night', on ? '1' : '0'); } catch {} }
   function bindTips() {
@@ -266,10 +286,11 @@
     try { editions = (await getJSON('data/narratives/index.json')).editions.slice().reverse(); } catch (e) { $('#loom-count').textContent = 'THE EDITIONS COULD NOT BE LOADED'; return; }
     try { chronicle = await getJSON('data/chronicle.json'); } catch { chronicle = null; }
     try { versions = (await getJSON('data/chronicle/index.json')).versions || []; } catch { versions = []; }
+    try { record = await getJSON('data/record.json'); } catch { record = null; }
     try { attentionDays = (await getJSON('data/attention/index.json')).days || []; } catch { attentionDays = []; }
     $('#threads-edition').textContent = `THREADS · ${editions.length} EDITIONS SINCE ${fmt(editions[0].stamp, false).toUpperCase()}`;
     $$('[data-scale]').forEach(b => b.addEventListener('click', () => { scale = b.dataset.scale; $$('[data-scale]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); drawLoom(); }));
-    drawLoom(); renderChronicle(chronicle);
+    drawLoom(); renderChronicle(chronicle); renderRecord(record);
     let lastPhone = phone(), rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { if (phone() !== lastPhone || phone()) { lastPhone = phone(); drawLoom(); } }, 150); });
   }
   init();

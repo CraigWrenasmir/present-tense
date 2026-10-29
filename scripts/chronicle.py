@@ -35,6 +35,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = DATA / "chronicle"
 CURRENT = DATA / "chronicle.json"
+RECORD = DATA / "record.json"
 STATE = DATA / "chronicle-state.json"
 RECENT_EDITIONS = 30
 PRUNE_SILENT_AFTER = 14  # editions
@@ -54,6 +55,7 @@ The Chronicle has:
 - silent: zero to four short items on what fell silent: a thread no narrative has touched in the last two or three editions. Say, where you can, whether that is likely the world moving on or the collection's sample.
 - threads: the living account, one entry per thread. A thread is a run of narratives across editions that follow the same join or the same events. Each has: key (kebab-case, stable: keep the previous Chronicle's keys for threads that continue); label (three to eight plain words naming the thread); status "live" or "silent"; since (the stamp of the first edition in the thread); lastSeen (the stamp of the last edition with a narrative in it); narratives (every narrative in the thread, oldest first, as edition stamp and id); text (60 to 140 words, dated, saying where this thread stands and how it has moved across its editions: "On 27 October the join was fuel prices at the pump; by the 28th it had reached jet fuel, bitumen and subsidy formulas"); direction (one plain sentence on the direction it has been moving, or an empty string if it has not moved).
 - caseAgainst: one paragraph on why this Chronicle may be wrong: the sample of publishers and the caps on it, the fact that continuity between days is partly produced by the brief that asks for it, the pull of your own earlier versions, and anything specific to this day.
+- line: one plain sentence, at most 170 characters, saying what this day is in the longer story since 1945, by these headlines. It is kept in a record that is never revised, one line per edition, so write it to be read in a year beside the lines of every other day: dated where a date helps ("Eight months into the Iran war, ..."), concrete, naming the thing that marks the day, and not a summary of the five narratives. No metaphor, no aphorism, no sentence written to be quoted; a sentence a careful reader could check against the Chronicle.
 - revision: one to three sentences on what changed in the Chronicle itself since its previous version: threads begun, threads ended, the standing rewritten, a direction reversed. The first time, say that this is the first version.
 
 Rules:
@@ -92,9 +94,10 @@ SCHEMA = {
             },
         },
         "caseAgainst": {"type": "string"},
+        "line": {"type": "string"},
         "revision": {"type": "string"},
     },
-    "required": ["standing", "moved", "silent", "threads", "caseAgainst", "revision"],
+    "required": ["standing", "moved", "silent", "threads", "caseAgainst", "line", "revision"],
     "additionalProperties": False,
 }
 
@@ -114,7 +117,7 @@ def build_request(index, readings, previous):
         if brk:
             today.append("case against: " + " ".join(f["text"] for f in brk["fragments"]))
         today.append("")
-    prev = json.dumps({k: previous[k] for k in ("standing", "moved", "silent", "threads", "caseAgainst", "revision") if k in previous}, ensure_ascii=False, indent=1) if previous else "(none: this is the first version)"
+    prev = json.dumps({k: previous[k] for k in ("standing", "moved", "silent", "threads", "caseAgainst", "line", "revision") if k in previous}, ensure_ascii=False, indent=1) if previous else "(none: this is the first version)"
     prev_stamp = previous.get("editionStamp") if previous else None
     user = (
         f"THE PREVIOUS CHRONICLE{' (revised for edition ' + prev_stamp + ')' if prev_stamp else ''}:\n{prev}\n\n"
@@ -137,6 +140,10 @@ def validate(ch, index, readings):
     stamps = {e["stamp"] for e in index["editions"]} | {stamp}
     if not ch.get("standing", "").strip():
         problems.append("empty standing")
+    if not ch.get("line", "").strip():
+        problems.append("empty line")
+    elif len(ch["line"]) > 200:
+        problems.append("line longer than 200 characters")
     keys, seen = set(), {}
     for t in ch.get("threads", []):
         if t["key"] in keys:
@@ -197,6 +204,19 @@ def write_versions(ch):
                          "threads": len(v["threads"]), "live": sum(1 for t in v["threads"] if t["status"] == "live")})
     versions.sort(key=lambda v: v["stamp"], reverse=True)
     (OUT / "index.json").write_text(json.dumps({"versions": versions}, ensure_ascii=False, indent=1) + "\n")
+    append_record(ch)
+
+
+def append_record(ch):
+    """The record: one line per edition, kept in order, never revised. A stamp already recorded is left as it was."""
+    if not ch.get("line"):
+        return
+    rec = json.loads(RECORD.read_text()) if RECORD.exists() else {"notes": ["One line per edition from the keeper of the Chronicle, saying what the day is in the longer story since 1945, by these headlines. Lines are added, never revised or removed."], "lines": []}
+    if any(l["stamp"] == ch["editionStamp"] for l in rec["lines"]):
+        return
+    rec["lines"].append({"stamp": ch["editionStamp"], "asOf": ch["asOf"], "writtenAt": ch["generatedAt"], "line": ch["line"].strip()})
+    rec["lines"].sort(key=lambda l: l["stamp"])
+    RECORD.write_text(json.dumps(rec, ensure_ascii=False, indent=1) + "\n")
 
 
 def main():

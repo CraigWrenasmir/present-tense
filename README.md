@@ -17,7 +17,8 @@ Black and white. No framework, no build step. A static site that refreshes itsel
 | `data/ledger.json` | The tide: what arrived, stayed and departed since the previous collection, and which countries were silent. |
 | `data/editions/` | Slim copies of the last 14 collections, for the ledger. |
 | `data/narratives/` | Every edition of narratives, one file per headline collection read, with `index.json` listing them newest first. The site's Editions panel and the Threads page read it. |
-| `data/chronicle.json`, `data/chronicle/` | The Chronicle: a running account of where things stand by these headlines, revised after each edition, with every version kept. |
+| `data/chronicle.json`, `data/chronicle/` | The Chronicle: a running account of where things stand by these headlines, revised after each edition, with every version kept. Its standing paragraph is shown at the top of the narratives as "Where we are". |
+| `data/record.json` | The record: one sentence per edition from the Chronicle's keeper, saying what the day is in the longer story since 1945. Added to, never revised. |
 | `data/attention.json` | A second register: yesterday's most-viewed Wikipedia articles in 28 language editions, Bluesky's trending topics, trending hashtags on a few Mastodon servers. |
 | `threads.html`, `threads.js` | The narratives across editions, drawn as threads, with the Chronicle beneath. |
 | `lineage.html` | Where the idea comes from: the books and arguments behind the site. |
@@ -64,7 +65,7 @@ Headlines are collected at 04:17, 10:17, 16:17 and 22:17 UTC. New narratives are
 
 ## Threads and the Chronicle
 
-`threads.html` draws every edition as a column and every narrative as a mark sized by its headlines; where a narrative continues one from the edition before, a line joins them, so a story that persists runs across the page as a thread and a story that stops simply ends. Scale it to days, weeks or months. Select a mark to open that narrative in that edition. Beneath it sits the Chronicle: where things stand, what moved, what fell silent, a dated paragraph per thread, the case against the Chronicle itself, and what changed in it since its previous version. It is revised after each edition, not added to, and every version is kept so the account's own history can be read.
+`threads.html` draws every edition as a column and every narrative as a mark sized by its headlines; where a narrative continues one from the edition before, a line joins them, so a story that persists runs across the page as a thread and a story that stops simply ends. Scale it to days, weeks or months. Select a mark to open that narrative in that edition. Beneath it sits the Chronicle: where things stand, what moved, what fell silent, a dated paragraph per thread, the case against the Chronicle itself, and what changed in it since its previous version. It is revised after each edition, not added to, and every version is kept so the account's own history can be read. Its standing paragraph also opens the front page, above the narratives, with each thread a link into the narrative that continues it. With each revision the keeper also writes one line for the record, a sentence saying what the day is in the longer story since 1945; `data/record.json` is only ever added to, and Threads lists every line.
 
 The second register, "Looked up", sets what people looked up and talked about beside what publishers printed. It is passed to the model as context: a narrative may mention it, naming the language edition or the platform, but cannot cite it or rest on it.
 

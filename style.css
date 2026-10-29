@@ -162,6 +162,21 @@ a { color: inherit; }
   padding: 8px 16px 12px; transition: right .5s var(--ease);
 }
 body.drawer-open .narratives { right: var(--drawer-w); }
+/* Where we are: the Chronicle's standing paragraph, lifted to the top of the paper. Collapsed to two lines until opened. */
+.standing { border-bottom: 1px solid var(--ink-5); margin: 0 0 8px; padding: 0 0 8px; }
+.standing-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; color: var(--ink-3); margin-bottom: 3px; }
+.standing-actions { display: inline-flex; gap: 14px; white-space: nowrap; flex: none; }
+.standing-text { font-family: var(--serif); font-size: 14px; line-height: 1.4; margin: 0; color: var(--ink); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.standing.open .standing-text { display: block; -webkit-line-clamp: none; overflow: visible; }
+.standing-open { margin-top: 8px; display: flex; flex-direction: column; gap: 8px; }
+.standing-threads { display: flex; flex-wrap: wrap; gap: 6px 8px; color: var(--ink-3); }
+.standing-threads .chip { border: 1px solid var(--ink-4); padding: 2px 7px; font-size: 10px; letter-spacing: .06em; color: var(--ink-2); background: none; cursor: pointer; }
+.standing-threads .chip:hover { border-color: var(--ink); color: var(--ink); }
+.standing-threads a.chip { text-decoration: none; }
+.standing-threads .chip.silent { color: var(--ink-3); border-style: dashed; }
+.standing-record .sect { margin: 0 0 2px; }
+.standing-record .rec { display: grid; grid-template-columns: 56px 1fr; gap: 10px; font-family: var(--serif); font-size: 13.5px; line-height: 1.4; margin: 0 0 3px; }
+.standing-record .rec .d { font-family: var(--mono); font-size: 10px; letter-spacing: .08em; color: var(--ink-3); padding-top: 3px; }
 .narratives-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; color: var(--ink-2); margin-bottom: 8px; }
 .narratives-actions { display: inline-flex; gap: 14px; align-items: baseline; }
 .narratives-hint { color: var(--ink-3); }
@@ -399,6 +414,8 @@ body.drawer-open .narratives-hint { display: none; }
   .narratives { top: calc(var(--mast-h) + var(--band-h)); bottom: var(--tabs-h); padding: 10px 14px 14px; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; transition: none; }
   body.field-open .narratives { display: none; }
   body.drawer-open .narratives { right: 0; }
+  .standing-text { -webkit-line-clamp: 3; font-size: 15px; }
+  .standing-record .rec { font-size: 14px; }
   .narratives-head { flex-wrap: wrap; row-gap: 4px; margin-bottom: 10px; }
   .narratives-hint { display: none; }
   .narratives-strip { display: grid; grid-auto-flow: row; grid-template-columns: 1fr; grid-auto-columns: auto; gap: 10px; overflow: visible; scroll-snap-type: none; }
@@ -527,6 +544,12 @@ body.scrolls { overflow: auto; }  /* the field page is fixed; the reading pages 
 .chronicle .standing { font-size: 19px; line-height: 1.45; margin: 0 0 24px; }
 .chronicle .sect { margin: 26px 0 8px; }
 .chronicle-two { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.record { max-width: 720px; margin: 48px auto 0; padding: 0 20px 40px; }
+.record-list { list-style: none; margin: 8px 0 16px; padding: 0; }
+.record-list .rec { display: grid; grid-template-columns: 84px 1fr; gap: 12px; padding: 9px 0; border-top: 1px solid var(--ink-5); font-family: var(--serif); font-size: 16px; line-height: 1.4; }
+.record-list .rec .d { font-size: 10px; letter-spacing: .08em; color: var(--ink-3); padding-top: 5px; text-decoration: none; }
+.record-list .rec .d:hover { color: var(--ink); }
+@media (max-width: 760px) { .record-list .rec { grid-template-columns: 1fr; gap: 2px; } .record { padding: 0 14px 40px; } }
 .chronicle ul.plain { list-style: none; margin: 0; padding: 0; }
 .chronicle ul.plain li { font-size: 15px; line-height: 1.45; color: var(--ink-2); margin: 0 0 10px; padding-left: 14px; text-indent: -14px; }
 .chronicle ul.plain li::before { content: "· "; color: var(--ink); }
