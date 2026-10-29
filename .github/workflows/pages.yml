@@ -49,14 +49,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: Readings once a day on the schedule, every time by hand
         # The edition belongs to the 22:17 UTC run (09:17 in Sydney during daylight saving), which writes if the current
-        # edition's collection is at least twelve hours old. GitHub can start a scheduled run hours late, so any
+        # edition's collection is at least twelve hours old (a run of that slot may start as late as 02:xx). GitHub can start a scheduled run hours late, so any
         # scheduled run also writes once that collection is twenty hours old, whatever the clock says.
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
             age=$(python3 -c "import json,datetime as d; t=json.load(open('data/readings.json')).get('newsGeneratedAt') or json.load(open('data/readings.json'))['generatedAt']; print((d.datetime.now(d.timezone.utc)-d.datetime.fromisoformat(t.replace('Z','+00:00'))).total_seconds()/3600)")
             hour=$(date -u +%H)
             echo "The current edition's collection is ${age} hours old; the hour is ${hour}"
-            if python3 -c "import sys; a=float('${age}'); h=int('${hour}'); sys.exit(0 if a >= 20 or (h == 22 and a >= 12) else 1)"; then echo "a new edition is due"; else echo "WANT_READINGS=false" >> "$GITHUB_ENV"; fi
+            if python3 -c "import sys; a=float('${age}'); h=int('${hour}'); sys.exit(0 if a >= 20 or (h in (22, 23, 0, 1, 2) and a >= 12) else 1)"; then echo "a new edition is due"; else echo "WANT_READINGS=false" >> "$GITHUB_ENV"; fi
           fi
       - uses: actions/setup-python@v5
         with:
