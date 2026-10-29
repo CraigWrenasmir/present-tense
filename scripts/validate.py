@@ -16,12 +16,26 @@ DATA = ROOT / "data"
 KINDS = {"observation", "interpretation", "break"}
 
 
+def is_list(line):
+    """True for a line of the form "A, B, C and D": three or more commas, or two commas whose
+    middle items are short noun phrases (four words or fewer) and a final "X and Y" of the same kind."""
+    parts = [p.strip() for p in line.split(",")]
+    if len(parts) >= 4:
+        return True
+    if len(parts) == 3 and " and " in parts[2]:
+        inner = parts[1]
+        last = parts[2].split(" and ")[0]
+        return len(inner.split()) <= 4 and len(last.split()) <= 4
+    return False
+
+
 def load(name):
     return json.loads((DATA / name).read_text())
 
 
 def main():
     errors = []
+    warnings = []
     news = load("news.json")
     readings = load("readings.json")
     library = load("library.json")
@@ -104,12 +118,18 @@ def main():
                         errors.append(f"reading {rid} horizon {h.get('span')} cites unknown book {bid}")
         if "articleIds" in r and set(r["articleIds"]) != cited:
             errors.append(f"reading {rid} articleIds do not match its fragments (run freeze.py)")
+        # The line says what the join shows, not the evidence. Editions before 29 Oct 2026 predate
+        # this rule, so here it is a warning; oracle.py refuses a new edition that breaks it.
+        if is_list(r.get("line", "")):
+            warnings.append(f"reading {rid} line is a list rather than a statement of what the join shows")
 
     if ledger:
         for key in ("editionAt", "arrived", "stayed", "departed"):
             if key not in ledger:
                 errors.append(f"ledger.json missing {key}")
 
+    for w in warnings:
+        print("△ " + w, file=sys.stderr)
     if errors:
         print("\n".join("✗ " + e for e in errors), file=sys.stderr)
         print(f"{len(errors)} problem(s)", file=sys.stderr)

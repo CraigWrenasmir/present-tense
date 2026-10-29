@@ -60,17 +60,17 @@ Kinds of join, to vary across the edition:
 - The same shape: different events in which the same question is being decided the same way, who pays, who decides, who is blamed, what is rationed. Name the shape in plain words.
 - A material or an object in several roles: water, copper, a chip, a vaccine, a stadium, a ship, appearing in unrelated stories.
 
-Worked example. Suppose the collection holds: Chennai eases building rules in its aquifer zone; an Arizona chip plant is delayed over its water supply; Ireland pauses new data centres on the Dublin grid and water network; Dutch farmers protest nitrogen and water rules. A collation would make four narratives, housing, chips, data centres, farming, or one narrative about "Chennai's water shortage as reported in India, Britain and Singapore". A narrative joins them: "Water, not land or money, is the limit on what gets built this week in Chennai, Arizona, Dublin and the Netherlands." That line is plain, specific and checkable against the headlines, and it can be wrong, which is what the case against is for.
+Worked example. Suppose the collection holds: Chennai eases building rules in its aquifer zone; an Arizona chip plant is delayed over its water supply; Ireland pauses new data centres on the Dublin grid and water network; Dutch farmers protest nitrogen and water rules. A collation would make four narratives, housing, chips, data centres, farming, or one narrative about "Chennai's water shortage as reported in India, Britain and Singapore". A narrative joins them. Its claim opens by naming them: "Chennai's aquifer rules, an Arizona chip plant, Dublin's data centres and Dutch farms are all held up this week by water rather than land or money." Its line says what that shows: "Ten years after the first big drought warnings, water has become the limit on building in rich and poor countries alike." Its kicker is "WATER / BUILDING / LIMITS". The line is plain, specific and checkable against the headlines, and it can be wrong, which is what the case against is for.
 
 You will receive the collection: one line per headline with its id, publisher country, publisher, language, time and English headline. You may also receive a second register, what was looked up: yesterday's most-viewed Wikipedia articles by language edition, and trending topics on Bluesky and Mastodon. That register is context, not evidence: a fragment may mention it in its text, naming the language edition or the platform ("the Spanish and Portuguese Wikipedias' most-viewed pages were Lula and the Brazilian election"), but cannot cite it, and a narrative may not rest on it. You will also receive a library of books and historical trajectories you may draw on, and the previous edition's narratives (id and line) so you do not repeat them and so you can say what each of yours continues.
 
 Compose an edition of narratives. Each narrative has:
-- line: one plain sentence that states the idea and names the unlike events it joins. Descriptive and specific: who, what, where. A reader should know from the line alone what is being connected and what the connection is. At most 110 characters, counted strictly; shorten by dropping a clause, not by compressing into an image. No metaphor, no aphorism, no wordplay, no paradox, no colon-headlines, no questions, no hedging. Write "Water, not land or money, is the limit on building this week in Chennai, Arizona, Dublin and the Netherlands", not "The tap is the new planning office".
-- kicker: three plain words in capitals separated by " / " that name the subjects of the narrative, for example "WATER / CHIPS / FARMS" or "BONDS / PENSIONS / BUDGETS". Subjects, not images.
+- line: one plain sentence, shown on the narrative's tile, that says what the join shows about the present at the scale of a decade: what it tells a reader about where things stand in this year, not which headlines were joined. "Eight months into a war over oil, the countries that said they were leaving it still price their roads, flights and subsidies by it" is a line; "The war's fuel squeeze reaches US air fares, easyJet luggage, Estonian asphalt and Malaysian subsidies" is not, because it lists the evidence and leaves the idea to the reader. The line names no publisher and no headline, and is not a list: it may name a kind of thing (roads, flights, subsidies) but not the four places they happened. If the join genuinely shows nothing about the present beyond itself, do not invent a condition: state the join plainly instead, and let the kicker carry the idea. At most 135 characters, counted strictly; shorten by dropping a clause, not by compressing into an image. No metaphor, no aphorism, no wordplay, no paradox, no colon-headlines, no questions, no hedging, no sentence that reads as a slogan. Dates, durations, numbers and the names of institutions are what make a line specific.
+- kicker: three plain words in capitals separated by " / " that name the terms of the idea, for example "OIL / A WAR / THE TRANSITION" or "BONDS / PENSIONS / BUDGETS". The terms of the idea, not a list of the products or places in the evidence, and not the same nouns the line uses. Subjects, not images.
 - events: three to six entries, each a short plain label of two to eight words naming one distinct event or development the narrative joins, with the ids of the headlines about that event. The entries must be about different things, not the same event in different countries. Every headline the narrative cites should belong to one entry, and no entry may hold more than half of the narrative's headlines. This list is shown to the reader at the top of the narrative as what it joins.
 - continues: the id of the narrative in the previous edition that this one carries forward, if any; otherwise an empty string. A narrative continues an earlier one when it follows the same join or the same events a day later, not merely the same topic.
 - change: if continues is set, one to three plain sentences saying what has changed since that narrative: what moved, what was confirmed, what fell away. If continues is empty, an empty string. This is shown to the reader as "Since the previous edition", so write it for them.
-- claim: two to four sentences that state the idea, say which events it joins and why the join matters. Written for an intelligent general reader in plain descriptive prose. Commit to the interpretation. No disclaimers, and no closing flourish: do not end a paragraph on an epigram or a line designed to be quoted.
+- claim: two to four sentences, read first when the narrative is opened. The first sentence names the joined events: who, what, where, so that a reader knows at once what has been connected. The rest states the idea and why the join matters. Written for an intelligent general reader in plain descriptive prose. Commit to the interpretation. No disclaimers, and no closing flourish: do not end a paragraph on an epigram or a line designed to be quoted.
 - rungs: three to five rungs, in this order: one or two of kind "observation" (what the headlines say, event by event, across countries), one or two of kind "interpretation" (what joins them: the cause, mechanism, actor or shape, and what it might mean), and always, last, exactly one of kind "break" labelled "The case against" that makes the strongest honest case against the narrative: that the events are not in fact connected, a rival explanation, a sampling objection, a reason the pattern is an artefact of the collection or of English, or a reason you have mistaken a normal thing for a new thing. The break rung must be substantive and specific, not a generic caveat. Observation and interpretation rungs have plain descriptive labels of two to six words saying what they cover ("Four workplace deaths", "Where the money is going"), not titles or images ("Two doors", "The counter goes quiet").
 - each rung has one to three fragments. A fragment has a short plain label, a text of two to five sentences, and the ids of the headlines it rests on (observation and interpretation fragments cite at least one; break fragments may cite none). The text names publishers and countries and quotes headlines in paraphrase. Facts about events come only from the headlines; do not invent them. The connection between events is yours, so state it as an idea, not as a reported fact. A fragment may notice what a headline withholds.
 - bookIds and trajectoryIds: cite a book or a trajectory only when it changes how the fragment reads. Most fragments should cite none. Never more than two per fragment.
@@ -284,7 +284,43 @@ def validate(edition, news, library):
                     problems.append(f"{r['id']}/{h.get('span')}: unknown book {b}")
         if len(r.get("line", "")) > 140:
             problems.append(f"{r['id']}: line too long")
+        problems.extend(f"{r['id']}: {p}" for p in check_line(r, by))
     return problems
+
+
+def is_list(line):
+    """True for a line of the form "A, B, C and D": three or more commas, or two commas whose
+    middle items are short noun phrases (four words or fewer) and a final "X and Y" of the same kind."""
+    parts = [p.strip() for p in line.split(",")]
+    if len(parts) >= 4:
+        return True
+    if len(parts) == 3 and " and " in parts[2]:
+        inner = parts[1]
+        last = parts[2].split(" and ")[0]
+        return len(inner.split()) <= 4 and len(last.split()) <= 4
+    return False
+
+
+def check_line(reading, by):
+    """The line states what the join shows, not the evidence: no list of four or more items, no publisher's name."""
+    line = reading.get("line", "")
+    out = []
+    if is_list(line):
+        out.append("line is a list; it should say what the join shows, not list the evidence")
+    low = line.lower()
+    cited = set()
+    for rung in reading.get("rungs", []):
+        for f in rung.get("fragments", []):
+            cited.update(f.get("articleIds", []))
+    for x in cited:
+        a = by.get(x)
+        if not a:
+            continue
+        pub = (a.get("publisher") or a.get("publisherDomain") or "").lower()
+        if pub and len(pub) > 3 and pub in low:
+            out.append(f"line names a publisher ({pub})")
+            break
+    return out
 
 
 def check_events(reading, ids):
