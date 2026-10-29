@@ -1,9 +1,5 @@
 name: Collect, read and publish The Present Tense
 
-# One run at a time: a push while a scheduled or manual run is writing must queue behind it, not race it to the commit.
-concurrency:
-  group: edition
-  cancel-in-progress: false
 
 on:
   push:
