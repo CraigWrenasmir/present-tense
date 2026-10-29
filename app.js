@@ -15,8 +15,11 @@
   const UNFOLD = [0.42, 0.8];
   const NEAR_Z = 0.8;
   const CARD_W = 220, CELL_W = (CARD_W + 36) / NEAR_Z, SWARM = 26;
-  const LEVEL_NAME = { atlas: 'WORLD', region: 'REGION', near: 'HEADLINES', close: 'CLOSE' };
+  const LEVEL_NAME = { time: 'IN TIME', atlas: 'WORLD', region: 'REGION', near: 'HEADLINES', close: 'CLOSE' };
   const zMin = () => { const v = viewport(); return clamp(Math.min((v.w - 48) / WORLD_W, (v.h - 40) / WORLD_H), 0.03, 0.42); };
+  /* Below the world fit the field reaches back in time: today's headlines fade and the library's moments appear at their places. */
+  const zFloor = () => zMin() * (mobile() ? 0.8 : 0.6);  // the floor, as a fraction of the world fit: a phone's world is already small
+  const timeT = () => clamp((zMin() * 0.97 - state.z) / (zMin() * 0.97 - zFloor()), 0, 1);  // 0 at the world fit, 1 at the floor
   const phoneQuery = matchMedia('(max-width: 760px)');
   const mobile = () => phoneQuery.matches;
   document.body.classList.toggle('phone', mobile());
@@ -26,7 +29,7 @@
   let news, readings, library, world, ledger, config, held = [], fieldArticles = [];
   let liveReadings, editions = [], attention = null, attentionDays = [], attentionLive = null;
   let chronicle = null, record = null;  // where we are, and the line a day  // every edition of narratives, newest first; what was looked up, and its days
-  let beads = [], ghosts = [], labels = [];
+  let beads = [], ghosts = [], labels = [], moments = [];
   const byId = new Map(), beadById = new Map();
   let cameraDirty = true, lastFrame = 0, anim = null, dragged = false;
   const ground = $('#ground'), ctx = ground.getContext('2d');
@@ -38,6 +41,7 @@
   const toScreen = (x, y) => [x * state.z + state.panX, y * state.z + state.panY];
   const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
   const rand = seed => { const x = Math.sin(seed * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); };
+  const yearOf = t => { const m = String(t.when || '').match(/\d{4}/); return m ? parseInt(m[0]) : null; };
   const hashStr = s => { let h = 7; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0; return Math.abs(h); };
   const safeURL = u => { try { const p = new URL(u); return p.protocol === 'https:' ? p.href : null; } catch { return null; } };
   const headline = a => state.lang === 'en' ? (a.titleEnglish || a.title) : a.title;
@@ -290,7 +294,88 @@
       }
       labels.push(l); labelsEl.append(el);
     });
+    buildMoments();
     cameraDirty = true;
+  }
+  /* The library's moments, each at its place. Several at one place sit in a small spiral, oldest innermost. */
+  function buildMoments() {
+    moments.forEach(m => m.el.remove()); moments = [];
+    const groups = new Map();
+    (library.trajectories || []).filter(t => t.place && isFinite(t.place.lat) && isFinite(t.place.lon)).sort((a, b) => (yearOf(a) || 0) - (yearOf(b) || 0)).forEach(t => {
+      const k = `${Math.round(t.place.lat * 2) / 2},${Math.round(t.place.lon * 2) / 2}`;
+      if (!groups.has(k)) groups.set(k, []); groups.get(k).push(t);
+    });
+    const frag = document.createDocumentFragment();
+    for (const list of groups.values()) list.forEach((t, i) => {
+      const [wx, wy] = toWorld(t.place.lon, t.place.lat);
+      const rr = i ? 13 * Math.sqrt(i) + 8 : 0, ang = i * 2.39996 + 0.6;
+      const el = create('button', 'moment'); el.type = 'button'; el.tabIndex = -1; el.dataset.id = t.id;
+      el.append(create('span', 'mk'), create('span', 'y', String(yearOf(t) || t.when)), create('span', 'p', t.place.name));
+      el.title = `${t.when}: ${t.title}`; el.setAttribute('aria-label', `${t.when}: ${t.title}`);
+      const m = { t, el, wx, wy, ox: rr * Math.cos(ang), oy: rr * Math.sin(ang), y: yearOf(t) || 0 };
+      el.addEventListener('click', e => { if (dragged) return; e.stopPropagation(); openMomentCard(m); });
+      frag.append(el); moments.push(m);
+    });
+    worldEl.append(frag);
+    markMoments();
+  }
+  /* The moments a narrative cites, in its rungs or its horizons, are lit; the rest are the background of the past. */
+  function citedMoments(r) {
+    const ids = new Set();
+    if (r) { r.rungs.forEach(ru => ru.fragments.forEach(f => (f.trajectoryIds || []).forEach(id => ids.add(id)))); (r.horizons || []).forEach(h => (h.trajectoryIds || []).forEach(id => ids.add(id))); }
+    return ids;
+  }
+  function markMoments() {
+    const ids = citedMoments(currentReading());
+    moments.forEach(m => { m.lit = ids.has(m.t.id); m.el.classList.toggle('lit', m.lit); });
+    momentKey = ''; cameraDirty = true;
+  }
+  let momentKey = '';
+  function placeMoments() {
+    const z = state.z, px = state.panX, py = state.panY, lvl = bucket();
+    const show = lvl === 'time' ? 'all' : lvl === 'atlas' ? 'lit' : 'none';
+    const t = timeT();
+    worldEl.style.setProperty('--time', t.toFixed(3));
+    for (const m of moments) {
+      const on = show === 'all' || (show === 'lit' && m.lit);
+      if (m.on !== on) { m.on = on; m.el.classList.toggle('on', on); }
+      if (!on) continue;
+      m.sx = m.wx * z + px + m.ox; m.sy = m.wy * z + py + m.oy;
+      m.el.style.transform = `translate3d(${(m.sx + (m.dx || 0)).toFixed(1)}px,${(m.sy + (m.dy || 0)).toFixed(1)}px,0)`;
+    }
+    const key = `${z.toFixed(3)}|${px.toFixed(0)}|${py.toFixed(0)}|${show}`;
+    if (key === momentKey) return; momentKey = key;
+    const on = moments.filter(m => m.on);
+    // at the world only the lit moments show, as a mark and a year; back in time every moment carries its place
+    if (show === 'lit') { on.forEach(m => { m.el.classList.add('quiet'); m.dx = m.dy = 0; }); relaxMoments(on, 50, 46); return; }
+    on.forEach(m => m.el.classList.remove('quiet'));
+    relaxMoments(on, 60, 0);
+    // a label that still overlaps another is reduced to its mark and year; lit first, then newest first
+    const placed = []; const order = on.slice().sort((a, b) => (b.lit - a.lit) || (b.y - a.y));
+    for (const m of order) {
+      const w = m.el.offsetWidth || 90, h = 13, x = m.sx + m.dx, y = m.sy + m.dy;
+      const hit = placed.some(q => x < q.x + q.w + 3 && x + w + 3 > q.x && y < q.y + q.h + 1 && y + h + 1 > q.y);
+      m.el.classList.toggle('quiet', hit);
+      if (!hit) placed.push({ x, y, w, h });
+    }
+  }
+  /* Moments near one another in screen space are nudged apart a little, lit ones least, and never far from their place. */
+  function relaxMoments(list, iters, labelW) {
+    const boxes = list.map(m => ({ m, w: labelW || (m.el.offsetWidth || 70), h: 13, x: m.sx, y: m.sy }));
+    for (let it = 0; it < iters; it++) {
+      for (let i = 0; i < boxes.length; i++) {
+        const a = boxes[i];
+        for (let j = i + 1; j < boxes.length; j++) {
+          const b = boxes[j];
+          const ox = (a.w + b.w) / 2 + 4 - Math.abs((a.x + a.w / 2) - (b.x + b.w / 2)); if (ox <= 0) continue;
+          const oy = (a.h + b.h) / 2 + 3 - Math.abs(a.y - b.y); if (oy <= 0) continue;
+          if (ox * 0.3 < oy) { const s = (a.x < b.x ? -1 : 1) * ox * 0.2; a.x += s; b.x -= s; }
+          else { const s = (a.y < b.y ? -1 : 1) * oy * 0.3; a.y += s; b.y -= s; }
+        }
+        a.x += (a.m.sx - a.x) * 0.04; a.y += (a.m.sy - a.y) * 0.04;
+      }
+    }
+    boxes.forEach(b => { b.m.dx = clamp(b.x - b.m.sx, -40, 40); b.m.dy = clamp(b.y - b.m.sy, -30, 30); b.m.el.style.transform = `translate3d(${(b.m.sx + b.m.dx).toFixed(1)}px,${(b.m.sy + b.m.dy).toFixed(1)}px,0)`; });
   }
 
   /* ---------- camera ---------- */
@@ -303,16 +388,18 @@
   }
   function bucket() {
     const z = state.z;
-    return z < LEVEL_Z.region ? 'atlas' : z < LEVEL_Z.near ? 'region' : z < LEVEL_Z.close ? 'near' : 'close';
+    return z < zMin() * 0.97 ? 'time' : z < LEVEL_Z.region ? 'atlas' : z < LEVEL_Z.near ? 'region' : z < LEVEL_Z.close ? 'near' : 'close';
   }
   function applyBucket() {
     const b = bucket();
     if (!worldEl.classList.contains(b)) {
-      worldEl.classList.remove('atlas', 'region', 'near', 'close'); worldEl.classList.add(b);
+      worldEl.classList.remove('time', 'atlas', 'region', 'near', 'close'); worldEl.classList.add(b);
+      fieldEl.classList.toggle('time', b === 'time');
       $('#zoom-level').textContent = LEVEL_NAME[b];
-      litKey = '';
+      $('#hint').textContent = b === 'time' ? 'the moments the narratives reach back to, at their places · zoom in to return to today' : b === 'atlas' ? 'drag to move · scroll or double-click to zoom · zoom out once more to reach back in time · click a headline to read it' : 'drag to move · scroll or double-click to zoom · zoom in until the countries open · click a headline to read it';
+      litKey = ''; momentKey = '';
     }
-    $('#zoom-out').disabled = state.z <= zMin() * 1.001; $('#zoom-in').disabled = state.z >= Z_MAX * 0.999;
+    $('#zoom-out').disabled = state.z <= zFloor() * 1.001; $('#zoom-in').disabled = state.z >= Z_MAX * 0.999;
   }
   /* The country nearest the pointer is the anchor of a zoom: it stays under the pointer while the layout unfolds around it. */
   function anchorAt(sx, sy) {
@@ -328,7 +415,7 @@
     return [sx - (bx + a.ox) * nz, sy - (by + a.oy) * nz];
   }
   function zoomAt(nz, sx, sy, anchor) {
-    nz = clamp(nz, zMin(), Z_MAX);
+    nz = clamp(nz, zFloor(), Z_MAX);
     if (anchor) { [state.panX, state.panY] = panForAnchor(nz, sx, sy, anchor); }
     else { const wx = (sx - state.panX) / state.z, wy = (sy - state.panY) / state.z; state.panX = sx - wx * nz; state.panY = sy - wy * nz; }
     state.z = nz; cameraDirty = true; applyBucket();
@@ -382,7 +469,7 @@
   }
   function zoomBy(factor, sx, sy, dur = 420) {
     const v = viewport(); if (sx === undefined) { sx = v.w / 2; sy = v.h / 2; }
-    const nz = clamp((zoomTarget ? zoomTarget.z : state.z) * factor, zMin(), Z_MAX);
+    const nz = clamp((zoomTarget ? zoomTarget.z : state.z) * factor, zFloor(), Z_MAX);
     const wx = (sx - state.panX) / state.z, wy = (sy - state.panY) / state.z;
     animateTo(nz, sx - wx * nz, sy - wy * nz, dur, anchorAt(sx, sy));
   }
@@ -417,7 +504,7 @@
       p.x = p.cx + (p.ex - p.cx) * t + dx; p.y = p.cy + (p.ey - p.cy) * t + dy;
       if (!p.lit) p.el.style.transform = `translate3d(${(p.x * z + px).toFixed(1)}px,${(p.y * z + py).toFixed(1)}px,0)`;
     }
-    placeLit();
+    placeLit(); placeMoments();
     if (state.ghosts) for (const g of ghosts) {
       g.x = g.cx + (g.ex - g.cx) * t + amp * Math.sin(now * g.f1 + g.ph) * 6; g.y = g.cy + (g.ey - g.cy) * t + amp * Math.cos(now * g.f2 + g.ph) * 4;
       g.el.style.transform = `translate3d(${(g.x * z + px).toFixed(1)}px,${(g.y * z + py).toFixed(1)}px,0)`;
@@ -444,7 +531,7 @@
       return;
     }
     const onScreen = p => { const sx = p.x * z + px, sy = p.y * z + py; return sx > -30 && sx < W + 30 && sy > -30 && sy < H + 30; };
-    const cap = mobile() && !state.fieldOpen ? 0 : lvl === 'atlas' ? (mobile() ? 3 : 7) : (mobile() ? 4 : Math.min(9, Math.floor((W * H) / (200 * 70) / 5)));
+    const cap = mobile() && !state.fieldOpen ? 0 : lvl === 'time' ? 0 : lvl === 'atlas' ? (mobile() ? 3 : 7) : (mobile() ? 4 : Math.min(9, Math.floor((W * H) / (200 * 70) / 5)));
     // which lit headlines get a label when there is not room for all: one per country first, in citation order
     let labelled = all.filter(onScreen);
     if (labelled.length > cap) {
@@ -498,6 +585,7 @@
     const z = state.z, px = state.panX, py = state.panY;
     // land: one dot per degree of Natural Earth land, a stipple that reads as continents when small and as grain when near
     ctx.fillStyle = ink(z < LEVEL_Z.region ? '--land-far' : '--land-near');
+    const tt = timeT(); if (tt > 0) ctx.globalAlpha = 1 - tt * 0.45;
     const s = clamp(z * 9, 1.4, 2.2);
     const kx = WORLD_W / 360 * z, ky = WORLD_H / 145 * z, x0 = 180 * kx + px, y0 = 85 * ky + py;
     for (const [lon, lat] of world.points) {
@@ -505,6 +593,7 @@
       if (x < -4 || y < -4 || x > w + 4 || y > h + 4) continue;
       ctx.fillRect(x, y, s, s);
     }
+    ctx.globalAlpha = 1;
     // country blocks: a rule above each page of headlines once the swarms have unfolded
     const tu = unfold(z);
     if (tu > 0.85) {
@@ -536,12 +625,23 @@
       ctx.strokeStyle = hot ? ink('--ink') : (focus || nearLevel ? ink('--ink-4') : ink('--ink-2'));
       ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
     }
+    // back in time: a dotted line from each moment the narrative cites to the nearest of its headlines
+    const lvl = bucket();
+    if (lvl === 'time' || lvl === 'atlas') {
+      ctx.setLineDash([4, 7]); ctx.lineWidth = 1; ctx.strokeStyle = ink('--ink-3');
+      for (const m of moments) {
+        if (!m.lit || !m.on || m.sx === undefined) continue;
+        let best = null, bd = Infinity;
+        for (const p of pts) { const [x, y] = star(p); const d = Math.hypot(x - m.sx, y - m.sy); if (d < bd) { bd = d; best = [x, y]; } }
+        if (best) { ctx.beginPath(); ctx.moveTo(m.sx + (m.dx || 0) + 3, m.sy + (m.dy || 0) + 7); ctx.lineTo(best[0], best[1]); ctx.stroke(); }
+      }
+    }
     // leaders: each headline label back to its star, and the star itself
     ctx.setLineDash([]); ctx.lineWidth = 1; ctx.font = '13px ' + getComputedStyle(document.documentElement).getPropertyValue('--mono');
     for (const p of pts) {
       const [sx, sy] = star(p); const hot = !focus || focus.has(p.a.id);
       ctx.strokeStyle = hot ? ink('--ink-3') : ink('--ink-4'); ctx.fillStyle = hot ? ink('--ink') : ink('--ink-4');
-      if (p.lx !== undefined) {
+      if (p.lx !== undefined && !p.el.classList.contains('quiet')) {
         const lx = clamp(sx, p.lx, p.lx + (p.el.offsetWidth || 200)), ly = clamp(sy, p.ly, p.ly + (p.el.offsetHeight || 40));
         if (Math.hypot(lx - sx, ly - sy) > 6) { ctx.beginPath(); ctx.moveTo(sx, sy); ctx.lineTo(lx, ly); ctx.stroke(); }
       }
@@ -566,7 +666,7 @@
     const r = currentReading();
     beads.forEach(p => { p.lit = !!r && r.articleIds.includes(p.a.id); p.el.classList.toggle('lit', p.lit); p.el.tabIndex = p.lit ? 0 : -1; p.lx = undefined; });
     litKey = '';
-    worldEl.classList.toggle('reading', !!r);
+    worldEl.classList.toggle('reading', !!r); markMoments();
     renderStrip();
     state.drawer = !!r && open;
     if (mobile() && state.drawer) setFieldOpen(false);
@@ -791,7 +891,6 @@
      earlier editions keep decade / half-century / since-2001 / since-1945. */
   const SPAN_YEARS = { 'since-2020': 2020, 'since-2008': 2008, 'since-1989': 1989, decade: 2016, 'half-century': 1976, 'since-2001': 2001, 'since-1945': 1945, 'long-run': 1800 };
   const spanFrom = h => { const m = String(h.from || '').match(/\d{4}/); return m ? parseInt(m[0]) : SPAN_YEARS[h.span]; };
-  const yearOf = t => { const m = String(t.when || '').match(/\d{4}/); return m ? parseInt(m[0]) : null; };
   const openHorizons = new Set();
   function horizonsEl(r) {
     const wrap = create('section', 'horizons');
@@ -810,8 +909,9 @@
     const marks = [...cited.values()].sort((a, b) => a.y - b.y); let lastX = -99;
     marks.forEach(({ t, y }) => {
       const x = clamp((y - y0) / span * 100, 0, 100);
-      const m = create('a', 'ruler-mark' + (y < y0 ? ' before' : ''), '*'); m.href = t.url; m.target = '_blank'; m.rel = 'noopener noreferrer';
-      m.style.left = x + '%'; m.title = `${t.when}: ${t.title}`; m.setAttribute('aria-label', `${t.when}: ${t.title}`);
+      const m = create('button', 'ruler-mark' + (y < y0 ? ' before' : ''), '*'); m.type = 'button';
+      m.style.left = x + '%'; m.title = `${t.when}: ${t.title}. Find it in the field.`; m.setAttribute('aria-label', `${t.when}: ${t.title}`);
+      m.addEventListener('click', () => { if (mobile() && !state.fieldOpen) openField(); requestAnimationFrame(() => goBack(t.id)); });
       if (x - lastX < 2.2) m.classList.add('stack'); lastX = x;
       ruler.append(m);
     });
@@ -898,6 +998,37 @@
       card.style.left = left + 'px'; card.style.top = top + 'px';
     }
     $('#scrim').hidden = false;
+  }
+  /* A moment's card: when and where, the library's note, its link, and the narratives whose horizons stand on it. */
+  function openMomentCard(m) {
+    const t = m.t, card = $('#card'); card.replaceChildren();
+    const w = create('div', 'w'); w.append(create('span', '', `LOOK BACK / ${t.when}`), create('span', '', t.place ? t.place.name : ''));
+    card.append(w, create('p', 'h', t.title));
+    if (t.note) card.append(create('p', 'o', t.note));
+    const go = create('a', 'go', 'Read about it ↗'); go.href = safeURL(t.url) || '#'; go.target = '_blank'; go.rel = 'noopener noreferrer'; card.append(go);
+    const cites = readings.readings.filter(r => citedMoments(r).has(t.id));
+    if (cites.length) {
+      const inn = create('div', 'in'); inn.append(create('div', 'w', 'IN THE NARRATIVES'));
+      cites.forEach(r => { const b = create('button', '', r.line); b.type = 'button'; b.addEventListener('click', () => { closeCard(); selectReading(r.id, { open: true, fit: false }); }); inn.append(b); });
+      card.append(inn);
+    }
+    const x = create('button', 'close', '×'); x.setAttribute('aria-label', 'Close'); x.addEventListener('click', closeCard); card.append(x);
+    card.hidden = false;
+    if (!mobile()) {
+      const r = m.el.getBoundingClientRect(); const cw = card.offsetWidth, ch = card.offsetHeight;
+      let left = r.right + 10, top = r.top - 6;
+      if (left + cw > window.innerWidth - 12) left = r.left - cw - 10; if (left < 12) left = 12;
+      if (top + ch > window.innerHeight - 12) top = window.innerHeight - ch - 12; if (top < 60) top = 60;
+      card.style.left = left + 'px'; card.style.top = top + 'px';
+    }
+    $('#scrim').hidden = false;
+  }
+  /* Zoom out to the past and bring one moment into view. */
+  function goBack(id) {
+    const m = moments.find(x => x.t.id === id); if (!m) return;
+    const v = viewport(), z = zFloor() * 1.02;
+    animateTo(z, v.w / 2 - m.wx * z - m.ox, v.h / 2 - m.wy * z - m.oy, 800);
+    m.el.classList.add('focus'); setTimeout(() => m.el.classList.remove('focus'), 2600);
   }
   function closeCard() { $('#card').hidden = true; $('#scrim').hidden = true; }
 
@@ -1136,7 +1267,7 @@
       cancelAnimationFrame(anim);
       const anchor = zoomTarget && zoomTarget.anchor && Math.hypot(sx - zoomTarget.sx, sy - zoomTarget.sy) < 40 ? zoomTarget.anchor : anchorAt(sx, sy);
       if (anchor && anchor !== (zoomTarget && zoomTarget.anchor)) { anchor.sx = sx; anchor.sy = sy; }
-      zoomTarget = { z: clamp(base * factor, zMin(), Z_MAX), sx: anchor ? anchor.sx : sx, sy: anchor ? anchor.sy : sy, anchor };
+      zoomTarget = { z: clamp(base * factor, zFloor(), Z_MAX), sx: anchor ? anchor.sx : sx, sy: anchor ? anchor.sy : sy, anchor };
     }, { passive: false });
     fieldEl.addEventListener('dblclick', e => {
       if (e.target.closest('.bead')) return;

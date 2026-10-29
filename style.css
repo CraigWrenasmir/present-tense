@@ -123,6 +123,9 @@ a { color: inherit; }
   background: var(--bg); box-shadow: 0 0 0 3px var(--bg); z-index: 9;
 }
 .world.atlas .bead:not(.lit):hover .m, .world.region .bead:not(.lit):hover .m { display: block; position: absolute; left: 14px; top: 100%; }
+.world.time .bead:not(.lit) { width: 14px; height: 14px; padding: 0; }
+.world.time .bead:not(.lit) .t, .world.time .bead:not(.lit) .m, .world.time .bead:not(.lit) .alt { display: none; }
+.world.time .bead:not(.lit) .dot { display: block; width: 3px; height: 3px; margin: 5.5px; }
 .world.near .bead:not(.lit) { width: 220px; }
 .world.close .bead:not(.lit) { width: 300px; font-size: 18px; }
 .world.near .bead:not(.lit) .t, .world.close .bead:not(.lit) .t { animation: appear .3s var(--ease); }
@@ -135,6 +138,23 @@ a { color: inherit; }
 .world.reading .bead.ghost { opacity: .15; }
 .world.tide .bead.lit { }
 
+/* moments: the library's history at its places, shown when the field is zoomed out past the world (and, when lit by a narrative, at the world too) */
+.moment { position: absolute; left: 0; top: 0; display: none; align-items: baseline; gap: 5px; padding: 0; background: none; color: var(--ink-2); font-family: var(--mono); font-size: 10px; letter-spacing: .06em; white-space: nowrap; cursor: pointer; z-index: 4; opacity: calc(.3 + .45 * var(--time, 0)); }
+.moment.on { display: inline-flex; }
+.moment .mk { width: 5px; height: 5px; background: var(--ink-2); transform: rotate(45deg); flex: none; }
+.moment .y { color: var(--ink); }
+.moment .p { color: var(--ink-3); }
+.moment.quiet .y, .moment.quiet .p { display: none; }
+.moment:hover, .moment.focus { z-index: 8; opacity: 1; color: var(--ink); }
+.moment:hover .p, .moment.focus .p, .moment.lit .p { color: var(--ink-2); }
+.moment.lit { opacity: 1; z-index: 6; }
+.moment.lit .mk { background: var(--ink); width: 7px; height: 7px; }
+.moment.lit .y { font-weight: 700; }
+.moment.lit.quiet .y { display: inline; }
+.world.time .bead:not(.lit) { opacity: calc(1 - .8 * var(--time, 0)) !important; }
+.world.time .bead.lit { opacity: calc(1 - .35 * var(--time, 0)); }
+.field.time .label { opacity: .3; }
+.ruler-mark { background: none; border: 0; padding: 0; cursor: pointer; }
 .label {
   position: absolute; left: 0; top: 0; transform-origin: 0 0; white-space: nowrap;
   font-family: var(--mono); font-size: 10px; letter-spacing: .14em; color: var(--ink-2); text-transform: uppercase;
