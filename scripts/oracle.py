@@ -74,7 +74,7 @@ Compose an edition of narratives. Each narrative has:
 - rungs: three to five rungs, in this order: one or two of kind "observation" (what the headlines say, event by event, across countries), one or two of kind "interpretation" (what joins them: the cause, mechanism, actor or shape, and what it might mean), and always, last, exactly one of kind "break" labelled "The case against" that makes the strongest honest case against the narrative: that the events are not in fact connected, a rival explanation, a sampling objection, a reason the pattern is an artefact of the collection or of English, or a reason you have mistaken a normal thing for a new thing. The break rung must be substantive and specific, not a generic caveat. Observation and interpretation rungs have plain descriptive labels of two to six words saying what they cover ("Four workplace deaths", "Where the money is going"), not titles or images ("Two doors", "The counter goes quiet").
 - each rung has one to three fragments. A fragment has a short plain label, a text of two to five sentences, and the ids of the headlines it rests on (observation and interpretation fragments cite at least one; break fragments may cite none). The text names publishers and countries and quotes headlines in paraphrase. Facts about events come only from the headlines; do not invent them. The connection between events is yours, so state it as an idea, not as a reported fact. A fragment may notice what a headline withholds.
 - bookIds and trajectoryIds: cite a book or a trajectory only when it changes how the fragment reads. Most fragments should cite none. Never more than two per fragment.
-- horizons: after the rungs, "How we got here". Exactly four, in this order, with span "decade" (the past ten years), "half-century" (the past fifty years), "since-2001" (since September 2001) and "since-1945" (since the end of the Second World War). Each has a lens of two or three capitalised words separated by " / " naming the kinds of history it draws on (for example "OIL / REVOLUTION / ALLIANCE", "DEMOGRAPHY / HOUSING / PROTEST", "CAPITAL / DISCLOSURE / WATER"), and a text of 130 to 200 words. A horizon places the idea, the join itself, on a longer trajectory: sociological, economic, demographic, migratory, environmental, technological, legal or intellectual, whichever genuinely explain how these different things came to have this in common. Name dates, laws, prices, flows of people, institutions, books and the people who wrote them. Be concrete and specific to the narrative's countries and events; connect at least once in each horizon back to a specific headline in the narrative. Do not write a general history of the period. Do not claim authority: a horizon is a trajectory, not a verdict, and it may say where the trajectory is contested. Each horizon cites one to four trajectories and zero to two books from the library, chosen because they are the moments and arguments the text actually stands on; if the library lacks the moment you need, name it in the text and cite nothing. Use only facts you are confident of; where the decade's recent events are known to you only from the headlines, say "by these headlines".
+- horizons: after the rungs, "How we got here". Four, in this order, each anchored to the start of a regime most of the world is still living inside: span "since-2020" (the pandemic, the inflation that followed it, the war in Ukraine, the AI wave: the conditions of this decade), "since-2008" (the financial crisis, the smartphone and the platforms, China as the second economy, the end of the belief that globalisation ran itself), "since-1989" (the end of the Cold War, the openings of India and China, the internet, the WTO, the long peace that 2008 and 2022 ended) and "since-1945" (decolonisation, the institutions, the dollar, the welfare state: the order the other three are chapters of). Each horizon answers the same question in the same shape: what did the regime that began then put in place that these headlines are now living inside? Its label is "Since 2020", "Since 2008", "Since 1989" or "Since 1945"; its from field is an empty string. A fifth horizon, span "longer", may be added after the four only when the join is about something older than 1945 and the past genuinely offers better context: water, land, a border, a religion, an empire, a trade route. It names its own starting point: from is a four-digit year ("1916"), its label is "Since" followed by that year or the moment ("Since 1916, the Sykes-Picot line"), and its text explains why that is where this join begins. Most narratives should not have one. Each horizon has a lens of two or three capitalised words separated by " / " naming the kinds of history it draws on (for example "OIL / REVOLUTION / ALLIANCE", "DEMOGRAPHY / HOUSING / PROTEST", "CAPITAL / DISCLOSURE / WATER"), and a text of 130 to 200 words. A horizon places the idea, the join itself, on a longer trajectory: sociological, economic, demographic, migratory, environmental, technological, legal or intellectual, whichever genuinely explain how these different things came to have this in common. Name dates, laws, prices, flows of people, institutions, books and the people who wrote them. Be concrete and specific to the narrative's countries and events; connect at least once in each horizon back to a specific headline in the narrative. Do not write a general history of the period, and do not let the horizons overlap: what belongs to the years since 2020 is said once, there, and the since-2008 horizon begins where that one stops. Do not claim authority: a horizon is a trajectory, not a verdict, and it may say where the trajectory is contested. Each horizon cites one to four trajectories and zero to two books from the library, chosen because they are the moments and arguments the text actually stands on; if the library lacks the moment you need, name it in the text and cite nothing (the longer horizon will often have to). Use only facts you are confident of; where the decade's recent events are known to you only from the headlines, say "by these headlines".
 
 Language. This matters as much as the structure:
 - Plain spoken and descriptive throughout, in every field. Say what is reported, where, by whom, and what joins it to the rest. Prefer the concrete noun to the image and the ordinary word to the striking one. Short sentences are fine. Numbers, dates, names and institutions are the material.
@@ -158,14 +158,15 @@ SCHEMA = {
                     "items": {
                         "type": "object",
                         "properties": {
-                            "span": {"type": "string", "enum": ["decade", "half-century", "since-2001", "since-1945"]},
+                            "span": {"type": "string", "enum": ["since-2020", "since-2008", "since-1989", "since-1945", "longer"]},
+                            "from": {"type": "string"},
                             "label": {"type": "string"},
                             "lens": {"type": "string"},
                             "text": {"type": "string"},
                             "trajectoryIds": {"type": "array", "items": {"type": "string"}},
                             "bookIds": {"type": "array", "items": {"type": "string"}},
                         },
-                        "required": ["span", "label", "lens", "text", "trajectoryIds", "bookIds"],
+                        "required": ["span", "from", "label", "lens", "text", "trajectoryIds", "bookIds"],
                         "additionalProperties": False,
                     },
                 },
@@ -269,9 +270,7 @@ def validate(edition, news, library):
         for key in ("line", "kicker", "claim"):
             if not r.get(key, "").strip():
                 problems.append(f"{r['id']}: empty {key}")
-        spans = [h.get("span") for h in r.get("horizons", [])]
-        if spans != ["decade", "half-century", "since-2001", "since-1945"]:
-            problems.append(f"{r['id']}: horizons must be decade, half-century, since-2001, since-1945 in order (got {spans})")
+        problems.extend(f"{r['id']}: {p}" for p in check_horizon_spans(r.get("horizons", [])))
         for h in r.get("horizons", []):
             words = len(h.get("text", "").split())
             if words < 90:
@@ -299,6 +298,29 @@ def is_list(line):
         last = parts[2].split(" and ")[0]
         return len(inner.split()) <= 4 and len(last.split()) <= 4
     return False
+
+
+HORIZON_SPANS = ["since-2020", "since-2008", "since-1989", "since-1945"]
+OLD_HORIZON_SPANS = ["decade", "half-century", "since-2001", "since-1945"]  # editions before 29 October 2026
+
+
+def check_horizon_spans(horizons, allow_old=False):
+    """Four fixed horizons in order, then at most one 'longer' horizon that names its own starting year."""
+    spans = [h.get("span") for h in horizons]
+    if allow_old and spans == OLD_HORIZON_SPANS:
+        return []
+    out = []
+    if spans[:4] != HORIZON_SPANS:
+        out.append(f"horizons must be {', '.join(HORIZON_SPANS)} in order (got {spans})")
+    if len(spans) > 5 or (len(spans) == 5 and spans[4] != "longer"):
+        out.append("at most one further horizon, and it must be 'longer'")
+    for h in horizons:
+        if h.get("span") == "longer":
+            if not re.fullmatch(r"\d{4}", str(h.get("from", "")).strip()):
+                out.append("the longer horizon must give its starting year in 'from'")
+            elif int(h["from"]) >= 1945:
+                out.append("the longer horizon must begin before 1945")
+    return out
 
 
 def check_line(reading, by):
@@ -470,7 +492,7 @@ def collect(client, state, pending, library):
             "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
             "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
             "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
-            "Each narrative ends with 'How we got here': four horizons, the past decade, the past fifty years, since September 2001 and since 1945, that place the day's pattern on longer trajectories. They are a trajectory, not a verdict.",
+            "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
             "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
             "Books and trajectories appear only where they change how a fragment or a horizon reads.",
         ],

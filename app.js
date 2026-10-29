@@ -749,14 +749,17 @@
     wrap.append(ul);
     return wrap;
   }
-  /* How we got here: the day's pattern placed on four longer trajectories, with a ruler of the moments it cites. */
-  const SPAN_YEARS = { decade: 2016, 'half-century': 1976, 'since-2001': 2001, 'since-1945': 1945, 'long-run': 1800 };
+  /* How we got here: the day's pattern placed on longer trajectories, with a ruler of the moments it cites.
+     Editions from 29 October 2026 use since-2020 / 2008 / 1989 / 1945 and an optional 'longer' horizon that names its own year;
+     earlier editions keep decade / half-century / since-2001 / since-1945. */
+  const SPAN_YEARS = { 'since-2020': 2020, 'since-2008': 2008, 'since-1989': 1989, decade: 2016, 'half-century': 1976, 'since-2001': 2001, 'since-1945': 1945, 'long-run': 1800 };
+  const spanFrom = h => { const m = String(h.from || '').match(/\d{4}/); return m ? parseInt(m[0]) : SPAN_YEARS[h.span]; };
   const yearOf = t => { const m = String(t.when || '').match(/\d{4}/); return m ? parseInt(m[0]) : null; };
   const openHorizons = new Set();
   function horizonsEl(r) {
     const wrap = create('section', 'horizons');
     wrap.append(create('p', 'sect', 'HOW WE GOT HERE'));
-    wrap.append(create('p', 'horizons-intro', 'The same pattern on four longer clocks. A trajectory, not a verdict.'));
+    wrap.append(create('p', 'horizons-intro', `The same pattern on ${r.horizons.length === 4 ? 'four' : r.horizons.length} longer clocks. A trajectory, not a verdict.`));
     const now = new Date(news.generatedAt || Date.now()).getUTCFullYear();
     const cited = new Map();
     const addT = (id, where) => { const t = library.trajectories.find(x => x.id === id); if (t) { const y = yearOf(t); if (y) cited.set(id, { t, y, where }); } };
@@ -765,7 +768,8 @@
     // the ruler: 1945 to now, with earlier moments gathered at the left edge
     const ruler = create('div', 'ruler'); const y0 = 1945, span = now - y0;
     const line = create('div', 'ruler-line'); ruler.append(line);
-    [[1945, '1945'], [1973, '1973'], [2001, '2001'], [2016, '2016'], [now, String(now)]].forEach(([y, l]) => { const tk = create('span', 'ruler-tick', l); tk.style.left = ((y - y0) / span * 100) + '%'; ruler.append(tk); });
+    const newSpans = r.horizons.some(h => h.span === 'since-2020');
+    (newSpans ? [[1945, '1945'], [1989, '1989'], [2008, '2008'], [2020, '2020'], [now, String(now)]] : [[1945, '1945'], [1973, '1973'], [2001, '2001'], [2016, '2016'], [now, String(now)]]).forEach(([y, l]) => { const tk = create('span', 'ruler-tick', l); tk.style.left = ((y - y0) / span * 100) + '%'; ruler.append(tk); });
     const marks = [...cited.values()].sort((a, b) => a.y - b.y); let lastX = -99;
     marks.forEach(({ t, y }) => {
       const x = clamp((y - y0) / span * 100, 0, 100);
@@ -779,7 +783,7 @@
       const d = create('div', 'horizon ' + h.span + (!mobile() || openHorizons.has(h.span) ? ' open' : ''));
       const head = create('div', 'horizon-head');
       head.addEventListener('click', () => { if (!mobile()) return; const on = d.classList.toggle('open'); if (on) openHorizons.add(h.span); else openHorizons.delete(h.span); });
-      const from = SPAN_YEARS[h.span];
+      const from = spanFrom(h);
       head.append(create('span', 'hl', h.label), create('span', 'hy', from ? `${from} to ${now}` : ''));
       d.append(head);
       if (h.lens) d.append(create('p', 'horizon-lens', h.lens));

@@ -8,12 +8,36 @@ Standard library only.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 KINDS = {"observation", "interpretation", "break"}
+
+
+HORIZON_SPANS = ["since-2020", "since-2008", "since-1989", "since-1945"]
+OLD_HORIZON_SPANS = ["decade", "half-century", "since-2001", "since-1945"]  # editions before 29 October 2026
+
+
+def check_horizon_spans(horizons, allow_old=False):
+    """Four fixed horizons in order, then at most one 'longer' horizon that names its own starting year."""
+    spans = [h.get("span") for h in horizons]
+    if allow_old and spans == OLD_HORIZON_SPANS:
+        return []
+    out = []
+    if spans[:4] != HORIZON_SPANS:
+        out.append(f"horizons must be {', '.join(HORIZON_SPANS)} in order (got {spans})")
+    if len(spans) > 5 or (len(spans) == 5 and spans[4] != "longer"):
+        out.append("at most one further horizon, and it must be 'longer'")
+    for h in horizons:
+        if h.get("span") == "longer":
+            if not re.fullmatch(r"\d{4}", str(h.get("from", "")).strip()):
+                out.append("the longer horizon must give its starting year in 'from'")
+            elif int(h["from"]) >= 1945:
+                out.append("the longer horizon must begin before 1945")
+    return out
 
 
 def is_list(line):
@@ -105,8 +129,7 @@ def main():
                 errors.append(f"reading {rid}: one event holds more than half of its headlines")
         if readings.get("schemaVersion", 2) >= 3:
             spans = [h.get("span") for h in r.get("horizons", [])]
-            if spans != ["decade", "half-century", "since-2001", "since-1945"]:
-                errors.append(f"reading {rid} horizons must be decade, half-century, since-2001, since-1945 in order")
+            errors.extend(f"reading {rid}: {p}" for p in check_horizon_spans(r.get("horizons", []), allow_old=True))
             for h in r.get("horizons", []):
                 if len(h.get("text", "").split()) < 90:
                     errors.append(f"reading {rid} horizon {h.get('span')} is too short")
