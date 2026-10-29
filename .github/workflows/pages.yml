@@ -46,10 +46,14 @@ jobs:
       WANT_READINGS: ${{ (github.event_name == 'schedule' && vars.GENERATE_READINGS == 'true') || (github.event_name == 'workflow_dispatch' && inputs.readings) }}
     steps:
       - uses: actions/checkout@v4
-      - name: Readings once a day on the schedule (the 22:17 UTC run), every time by hand
+      - name: Readings once a day on the schedule, every time by hand
+        # GitHub can start a scheduled run hours late, so the 22:17 run is not matched by its hour. Instead the first
+        # scheduled run after twenty hours have passed since the current edition's collection writes the next one.
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%H)" != "22" ]; then
-            echo "WANT_READINGS=false" >> "$GITHUB_ENV"
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            age=$(python3 -c "import json,datetime as d; t=json.load(open('data/readings.json')).get('newsGeneratedAt') or json.load(open('data/readings.json'))['generatedAt']; print((d.datetime.now(d.timezone.utc)-d.datetime.fromisoformat(t.replace('Z','+00:00'))).total_seconds()/3600)")
+            echo "The current edition's collection is ${age} hours old"
+            if python3 -c "import sys; sys.exit(0 if float('${age}') >= 20 else 1)"; then echo "a new edition is due"; else echo "WANT_READINGS=false" >> "$GITHUB_ENV"; fi
           fi
       - uses: actions/setup-python@v5
         with:
