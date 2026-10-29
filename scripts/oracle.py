@@ -327,6 +327,24 @@ def check_horizon_spans(horizons, allow_old=False):
     return out
 
 
+def refuse_narratives(edition, by):
+    """A narrative that breaks the tile rules (a line that lists its evidence or names a publisher, a missing
+    firmness) is refused on its own; the edition stands with the rest as long as three remain. Returns the reasons."""
+    readings = edition.get("readings", [])
+    bad = {}
+    for r in readings:
+        reasons = check_line(r, by)
+        if r.get("firmness") not in ("firm", "plausible", "tentative"):
+            reasons.append("no firmness")
+        if reasons:
+            bad[r.get("id", "?")] = reasons
+    if not bad or len(readings) - len(bad) < 3:
+        return []  # nothing to drop, or too few would remain: validate() will refuse the whole edition
+    edition["readings"] = [r for r in readings if r.get("id", "?") not in bad]
+    edition.setdefault("refused", []).extend({"id": k, "reasons": v} for k, v in bad.items())
+    return [f"{k}: {'; '.join(v)}" for k, v in bad.items()]
+
+
 def check_line(reading, by):
     """The line states what the join shows, not the evidence: no list of four or more items, no publisher's name."""
     line = reading.get("line", "")
@@ -462,10 +480,14 @@ def collect(client, state, pending, library):
     except ValueError as error:
         return fail(state, f"response was not JSON: {error}")
     snapshot_news = {"generatedAt": pending["newsGeneratedAt"], "articles": pending["articles"]}
+    by_id = {a["id"]: a for a in pending["articles"]}
+    refused = refuse_narratives(edition, by_id)
+    if refused:
+        note(state, "narratives refused: " + "; ".join(refused))
+        print("oracle: narratives refused, the edition stands without them: " + "; ".join(refused), file=sys.stderr)
     problems = validate(edition, snapshot_news, library)
     if problems:
         return fail(state, "edition rejected: " + "; ".join(problems[:8]))
-    by_id = {a["id"]: a for a in pending["articles"]}
     previous = json.loads((DATA / "readings.json").read_text()) if (DATA / "readings.json").exists() else {}
     prev_ids = {r["id"] for r in previous.get("readings", [])}
     cited = []
@@ -503,6 +525,9 @@ def collect(client, state, pending, library):
         "sourceArticles": [by_id[i] for i in cited],
         "readings": edition["readings"],
     }
+    if edition.get("refused"):
+        out["refused"] = edition["refused"]
+        out["notes"].append("One or more narratives in this edition were refused by the site's own rules (a tile line that listed its evidence or named a publisher, or no stated firmness) and are not shown; the ids and reasons are kept in this file under 'refused'.")
     (DATA / "readings.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
     note(state, "ok", batchId=pending["batchId"], usage=usage)
     print(f"composed {len(out['readings'])} readings with {message.model} (batch); {usage['input']} in / {usage['output']} out tokens")

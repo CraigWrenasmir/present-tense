@@ -1,5 +1,10 @@
 name: Collect, read and publish The Present Tense
 
+# One run at a time: a push while a scheduled or manual run is writing must queue behind it, not race it to the commit.
+concurrency:
+  group: edition
+  cancel-in-progress: false
+
 on:
   push:
     branches: [main]
@@ -131,7 +136,9 @@ jobs:
             git commit -m "Edition $(date -u +'%Y-%m-%d %H:%M') UTC"
             # commits made by hand while this run was working must not fail it: rebase onto them and retry
             for attempt in 1 2 3; do
-              git pull --rebase origin main && git push && break
+              # on a conflict the run's own data files win; they are the newer collection
+              git pull --rebase -X theirs origin main && git push && break
+              git rebase --abort 2>/dev/null || true
               echo "push attempt $attempt failed; retrying"; sleep 10
             done
           fi
