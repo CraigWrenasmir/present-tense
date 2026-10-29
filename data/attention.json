@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T04:01:53Z",
+ "generatedAt": "2026-10-29T04:08:45Z",
  "wikipedia": {
   "date": "2026-10-28",
   "source": "Wikimedia REST API, most-viewed articles per language edition, all access; subjects resolved through Wikidata",
@@ -10428,11 +10428,10 @@
   "tags": [
    {
     "tag": "InternationalBeerASong",
-    "uses": 1320,
+    "uses": 1058,
     "servers": [
      "mastodon.social",
      "mstdn.jp",
-     "chaos.social",
      "mastodon.uno",
      "masto.pt",
      "mastodon.online"
@@ -10440,7 +10439,6 @@
     "languages": [
      "English",
      "Japanese",
-     "German",
      "Italian",
      "Portuguese"
     ],
@@ -10448,11 +10446,10 @@
    },
    {
     "tag": "WhineAMovie",
-    "uses": 1163,
+    "uses": 938,
     "servers": [
      "mastodon.social",
      "mstdn.jp",
-     "chaos.social",
      "mastodon.uno",
      "masto.pt",
      "mastodon.online"
@@ -10460,7 +10457,6 @@
     "languages": [
      "English",
      "Japanese",
-     "German",
      "Italian",
      "Portuguese"
     ],
@@ -10483,22 +10479,6 @@
     "url": "https://mastodon.social/tags/toledo"
    },
    {
-    "tag": "MeerMittwoch",
-    "uses": 333,
-    "servers": [
-     "mastodon.social",
-     "chaos.social",
-     "mastodon.uno",
-     "mastodon.online"
-    ],
-    "languages": [
-     "English",
-     "German",
-     "Italian"
-    ],
-    "url": "https://mastodon.social/tags/meermittwoch"
-   },
-   {
     "tag": "indieworld",
     "uses": 262,
     "servers": [
@@ -10508,6 +10488,20 @@
      "Japanese"
     ],
     "url": "https://mstdn.jp/tags/indieworld"
+   },
+   {
+    "tag": "MeerMittwoch",
+    "uses": 245,
+    "servers": [
+     "mastodon.social",
+     "mastodon.uno",
+     "mastodon.online"
+    ],
+    "languages": [
+     "English",
+     "Italian"
+    ],
+    "url": "https://mastodon.social/tags/meermittwoch"
    },
    {
     "tag": "出身地当てます",
@@ -10535,19 +10529,6 @@
      "Spanish"
     ],
     "url": "https://mastodon.social/tags/accidenteferroviario"
-   },
-   {
-    "tag": "しれっと再掲してめっちゃ絵を描いたフリをしよう",
-    "uses": 147,
-    "servers": [
-     "mstdn.jp",
-     "chaos.social"
-    ],
-    "languages": [
-     "Japanese",
-     "German"
-    ],
-    "url": "https://mstdn.jp/tags/%E3%81%97%E3%82%8C%E3%81%A3%E3%81%A8%E5%86%8D%E6%8E%B2%E3%81%97%E3%81%A6%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83%E7%B5%B5%E3%82%92%E6%8F%8F%E3%81%84%E3%81%9F%E3%83%95%E3%83%AA%E3%82%92%E3%81%97%E3%82%88%E3%81%86"
    },
    {
     "tag": "macbookpro",
@@ -10605,6 +10586,17 @@
     "url": "https://mastodon.uno/tags/lfc"
    },
    {
+    "tag": "しれっと再掲してめっちゃ絵を描いたフリをしよう",
+    "uses": 84,
+    "servers": [
+     "mstdn.jp"
+    ],
+    "languages": [
+     "Japanese"
+    ],
+    "url": "https://mstdn.jp/tags/%E3%81%97%E3%82%8C%E3%81%A3%E3%81%A8%E5%86%8D%E6%8E%B2%E3%81%97%E3%81%A6%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83%E7%B5%B5%E3%82%92%E6%8F%8F%E3%81%84%E3%81%9F%E3%83%95%E3%83%AA%E3%82%92%E3%81%97%E3%82%88%E3%81%86"
+   },
+   {
     "tag": "私は存在感が薄いので5人以上にrnされたら負け",
     "uses": 67,
     "servers": [
@@ -10660,6 +10652,17 @@
     "url": "https://mastodon.social/tags/urda"
    },
    {
+    "tag": "nomanssky",
+    "uses": 61,
+    "servers": [
+     "mastodon.online"
+    ],
+    "languages": [
+     "English"
+    ],
+    "url": "https://mastodon.online/tags/nomanssky"
+   },
+   {
     "tag": "映画10選選手権",
     "uses": 60,
     "servers": [
@@ -10669,17 +10672,6 @@
      "Japanese"
     ],
     "url": "https://mstdn.jp/tags/%E6%98%A0%E7%94%BB10%E9%81%B8%E9%81%B8%E6%89%8B%E6%A8%A9"
-   },
-   {
-    "tag": "nomanssky",
-    "uses": 60,
-    "servers": [
-     "mastodon.online"
-    ],
-    "languages": [
-     "English"
-    ],
-    "url": "https://mastodon.online/tags/nomanssky"
    }
   ]
  },
