@@ -1,6 +1,57 @@
 {
  "editions": [
   {
+   "stamp": "20261029T045403",
+   "file": "data/narratives/20261029T045403.json",
+   "newsGeneratedAt": "2026-10-29T04:54:03Z",
+   "generatedAt": "2026-10-29T05:03:12Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-5",
+   "narratives": [
+    {
+     "id": "war-prices-reach-mortgages",
+     "kicker": "A WAR / INTEREST / BORROWERS",
+     "line": "In 2026 the Iran war's price rise holds central bank rates up, and households meet it as the highest mortgage rates in over a decade.",
+     "events": 6,
+     "headlines": 11,
+     "countries": 9,
+     "continues": "iran-war-fuel-squeeze-refined-products",
+     "firmness": "plausible"
+    },
+    {
+     "id": "data-centre-profit-and-dispute",
+     "kicker": "COMPUTING / LAND / WAR",
+     "line": "In 2026 the AI data centre lifts profits at Asian hardware makers and has become a planning and security dispute in Europe.",
+     "events": 5,
+     "headlines": 8,
+     "countries": 5,
+     "continues": "",
+     "firmness": "firm"
+    },
+    {
+     "id": "former-rulers-court-or-exit",
+     "kicker": "ACCOUNTABILITY / PARDON / FLIGHT",
+     "line": "Former heads of government in 2026 face courts at home, and their allies answer with amnesty bills, new laws and foreign refuge.",
+     "events": 6,
+     "headlines": 12,
+     "countries": 10,
+     "continues": "",
+     "firmness": "plausible"
+    },
+    {
+     "id": "backup-systems-and-blame",
+     "kicker": "MAINTENANCE / AUTOMATION / RESPONSIBILITY",
+     "line": "Backup systems meant to catch human error failed on railways and grids this week, and official blame still starts with the operator.",
+     "events": 6,
+     "headlines": 10,
+     "countries": 6,
+     "continues": "",
+     "firmness": "tentative"
+    }
+   ]
+  },
+  {
    "stamp": "20261027T201945",
    "file": "data/narratives/20261027T201945.json",
    "newsGeneratedAt": "2026-10-27T20:19:45Z",

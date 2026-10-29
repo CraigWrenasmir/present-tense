@@ -1,6 +1,6 @@
 {
- "day": "2026-10-27",
- "attempts": 2,
+ "day": "2026-10-29",
+ "attempts": 1,
  "history": [
   {
    "at": "2026-10-27T04:39:25Z",
@@ -83,6 +83,21 @@
    "usage": {
     "input": 54609,
     "output": 71724,
+    "tier": "batch"
+   }
+  },
+  {
+   "at": "2026-10-29T04:55:39Z",
+   "note": "submitted",
+   "batchId": "msgbatch_01H2qAwPqQMTzrpaDsk4erXK"
+  },
+  {
+   "at": "2026-10-29T05:03:12Z",
+   "note": "ok",
+   "batchId": "msgbatch_01H2qAwPqQMTzrpaDsk4erXK",
+   "usage": {
+    "input": 65529,
+    "output": 45727,
     "tier": "batch"
    }
   }
