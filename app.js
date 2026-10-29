@@ -661,6 +661,7 @@
   /* ---------- readings ---------- */
   const currentReading = () => readings.readings.find(r => r.id === state.reading) || null;
   function selectReading(id, { open = state.drawer, fit = true } = {}) {
+    if (walk && walk.r.id !== id) stopWalk();
     const prev = state.reading;
     state.reading = id || ''; if (prev !== state.reading) { state.rung = ''; state.frag = ''; state.focusIds = null; }
     const r = currentReading();
@@ -800,6 +801,7 @@
     const list = readings.readings, idx = list.findIndex(x => x.id === r.id);
     $('#drawer-eyebrow').textContent = `NARRATIVE ${String(idx + 1).padStart(2, '0')} / ${String(list.length).padStart(2, '0')} · ${readings.method === 'claude-authored-seed' ? 'SEED EDITION' : 'AI EDITION'} · ${fmt(readings.generatedAt).toUpperCase()}`;
     body.append(create('p', 'reading-kicker', r.kicker), create('h2', 'reading-line', r.line));
+    const wb = create('button', 'text walk-btn', '▷ walk this narrative'); wb.type = 'button'; wb.title = 'One step at a time: each event in the field, then each horizon back in time, then the case against'; wb.addEventListener('click', () => startWalk(r)); body.append(wb);
     if (r.events && r.events.length) body.append(eventsEl(r));
     const since = sinceEl(r); if (since) body.append(since);
     body.append(create('p', 'reading-claim', r.claim));
@@ -971,6 +973,75 @@
       requestAnimationFrame(() => { if (!locate(a.id)) toast('This headline is from an earlier collection and is not in the field.'); });
     });
     wrap.append(s, loc); return wrap;
+  }
+
+  /* ---------- the walk: a narrative one step at a time, the field moving with it ---------- */
+  let walk = null;
+  function walkSteps(r) {
+    const steps = [{ k: 'THE NARRATIVE', h: r.line, t: r.claim, ids: r.articleIds, fit: 'reading' }];
+    (r.events || []).forEach((e, i) => { const ids = (e.articleIds || []).filter(id => byId.has(id)); steps.push({ k: `WHAT IT JOINS · ${i + 1} OF ${r.events.length}`, h: e.label, t: '', ids, fit: 'focus' }); });
+    const interp = r.rungs.filter(ru => ru.kind === 'interpretation');
+    interp.forEach(ru => ru.fragments.forEach(f => steps.push({ k: `WHAT MIGHT CONNECT THEM · ${ru.label.toUpperCase()}`, h: f.label, t: f.text, ids: f.articleIds || [], fit: 'focus' })));
+    (r.horizons || []).forEach(h => steps.push({ k: `HOW WE GOT HERE · ${h.lens || ''}`, h: h.label, t: h.text, ids: [], moments: h.trajectoryIds || [], fit: 'time' }));
+    const brk = r.rungs.find(ru => ru.kind === 'break');
+    if (brk) brk.fragments.forEach(f => steps.push({ k: 'THE CASE AGAINST', h: f.label, t: f.text, ids: f.articleIds || [], fit: 'reading' }));
+    return steps;
+  }
+  function startWalk(r) {
+    stopWalk();
+    walk = { r, steps: walkSteps(r), i: 0, timer: null };
+    document.body.classList.add('walking');
+    if (mobile()) { if (!state.fieldOpen) openField(); }
+    else if (state.drawer) { state.drawer = false; document.body.classList.remove('drawer-open'); $('#drawer').hidden = true; writeHash(); }
+    $('#walk').hidden = false;
+    requestAnimationFrame(() => showStep(0));
+  }
+  function stopWalk() {
+    if (!walk) return;
+    clearTimeout(walk.timer); walk = null;
+    document.body.classList.remove('walking'); $('#walk').hidden = true; $('#walk-play').setAttribute('aria-pressed', 'false');
+    setFocus(null); moments.forEach(m => m.el.classList.remove('focus'));
+    if (currentReading()) { if (!mobile()) selectReading(currentReading().id, { open: true, fit: true }); else fitReading(); }
+  }
+  function showStep(i) {
+    if (!walk) return;
+    const st = walk.steps[i]; if (!st) { stopWalk(); return; }
+    walk.i = i;
+    $('#walk-k').textContent = `${String(i + 1).padStart(2, '0')} / ${String(walk.steps.length).padStart(2, '0')} · ${st.k}`;
+    $('#walk-h').textContent = st.h; $('#walk-t').textContent = st.t; $('#walk-t').hidden = !st.t;
+    const srcs = $('#walk-srcs'); srcs.replaceChildren();
+    if (st.fit === 'focus') st.ids.slice(0, mobile() ? 3 : 4).forEach(id => { const a = byId.get(id); if (a) srcs.append(sourceEl(a)); });
+    $('#walk-prev').disabled = i === 0; $('#walk-next').textContent = i === walk.steps.length - 1 ? 'done' : '→';
+    moments.forEach(m => m.el.classList.remove('focus'));
+    if (st.fit === 'focus' && st.ids.length) { setFocus(st.ids); if (mobile()) landOn(st.ids); else fitFocus(st.ids); }
+    else if (st.fit === 'time') { setFocus(null); fitMoments(st.moments); }
+    else { setFocus(null); fitReading(); }
+    if (walk.playing) { clearTimeout(walk.timer); walk.timer = setTimeout(() => { if (walk && walk.playing) showStep(walk.i + 1); }, st.t ? 14000 : 7000); }
+  }
+  /* On a phone a fit of several headlines lands at REGION, where nothing can be read, so a walk lands on the first of them at HEADLINES, above the walk panel. */
+  function landOn(ids) {
+    const p = ids.map(id => beadById.get(id)).find(Boolean); if (!p) return;
+    const z = LEVEL_Z.near + 0.02, [x, y] = posAt(p, z), v = viewport(), wh = $('#walk').offsetHeight || 0;
+    animateTo(z, v.w / 2 - (x + 110 / z) * z, Math.max(80, (v.h - wh - 12) / 2) - (y + 24 / z) * z, 700);
+  }
+  /* Zoom out to the past, with a horizon's moments in view and marked. */
+  function fitMoments(ids) {
+    const list = ids.map(id => moments.find(m => m.t.id === id)).filter(Boolean);
+    list.forEach(m => m.el.classList.add('focus'));
+    const v = viewport(), z = zFloor() * 1.02;
+    let cx, cy;
+    if (list.length) { cx = list.reduce((a, m) => a + m.wx, 0) / list.length; cy = list.reduce((a, m) => a + m.wy, 0) / list.length; }
+    else { const pts = (currentReading() ? currentReading().articleIds : []).map(id => beadById.get(id)).filter(Boolean); cx = pts.length ? pts.reduce((a, p) => a + p.cx, 0) / pts.length : WORLD_W / 2; cy = pts.length ? pts.reduce((a, p) => a + p.cy, 0) / pts.length : WORLD_H / 2; }
+    // keep the whole world roughly centred; the moments are small, so a gentle lean towards them is enough
+    cx = WORLD_W / 2 + (cx - WORLD_W / 2) * 0.35; cy = WORLD_H / 2 + (cy - WORLD_H / 2) * 0.35;
+    animateTo(z, v.w / 2 - cx * z, v.h / 2 - cy * z, 900);
+  }
+  function bindWalk() {
+    $('#walk-prev').addEventListener('click', () => walk && showStep(walk.i - 1));
+    $('#walk-next').addEventListener('click', () => walk && showStep(walk.i + 1));
+    $('#walk-stop').addEventListener('click', stopWalk);
+    $('#walk-play').addEventListener('click', () => { if (!walk) return; walk.playing = !walk.playing; $('#walk-play').setAttribute('aria-pressed', String(walk.playing)); if (walk.playing) showStep(walk.i); else clearTimeout(walk.timer); });
+    document.addEventListener('keydown', e => { if (!walk || e.target.matches('input, textarea')) return; if (e.key === 'ArrowRight') showStep(walk.i + 1); else if (e.key === 'ArrowLeft') showStep(walk.i - 1); else if (e.key === 'Escape') stopWalk(); });
   }
 
   /* ---------- card ---------- */
@@ -1296,6 +1367,7 @@
 
   /* ---------- events ---------- */
   function bind() {
+    bindWalk();
     bindField();
     $('#narratives-clear').addEventListener('click', () => { selectReading('', { open: false, fit: false }); fitWorld(); });
     const step = d => { const i = editions.findIndex(e => e.stamp === currentStamp()); const e = editions[i + d]; if (e) showEdition(e.stamp, '', { open: state.drawer }); };
