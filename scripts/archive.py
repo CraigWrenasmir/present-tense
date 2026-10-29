@@ -50,6 +50,7 @@ def summarise(edition, stamp):
             "events": len(r.get("events") or []), "headlines": len(ids),
             "countries": len({by[i]["sourceCountryCode"] for i in ids if i in by}),
             "continues": r.get("continues") or "",
+            "firmness": r.get("firmness") or "",
         })
     return {
         "stamp": stamp, "file": f"data/narratives/{stamp}.json",

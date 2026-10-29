@@ -45,7 +45,7 @@ def now_iso():
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 
-BRIEF = """You keep the Chronicle of The Present Tense. The site lays out one day's world headlines as a field and publishes, once a day, five narratives: each an idea that joins unlike events in that day's headlines, with its evidence and the case against it. Every edition is kept, and where a narrative carries on one from the edition before it says so. The Chronicle is the zoomed-out view of all this: a running account of where things stand and which way they have been moving, by these headlines, over days and weeks. It is revised after each edition, not added to, so it always reads as a current understanding. Every version is kept, so readers can also see how the understanding changed.
+BRIEF = """You keep the Chronicle of The Present Tense. The site lays out one day's world headlines as a field and publishes, once a day, three to five narratives: each an idea that joins unlike events in that day's headlines, with its evidence and the case against it. Every edition is kept, and where a narrative carries on one from the edition before it says so. The Chronicle is the zoomed-out view of all this: a running account of where things stand and which way they have been moving, by these headlines, over days and weeks. It is revised after each edition, not added to, so it always reads as a current understanding. Every version is kept, so readers can also see how the understanding changed.
 
 You will receive the previous Chronicle (or none, the first time), the recent editions in brief (for each narrative: edition stamp, id, kicker, line, and the id of the narrative it continues, if any), and today's edition in detail. Return the whole Chronicle, revised.
 
@@ -54,6 +54,7 @@ The Chronicle has:
 - moved: one to four short items, one or two sentences each, saying what moved since the previous Chronicle: a thread that grew, a thread that turned, a join that was confirmed or broke.
 - silent: zero to four short items on what fell silent: a thread no narrative has touched in the last two or three editions. Say, where you can, whether that is likely the world moving on or the collection's sample.
 - threads: the living account, one entry per thread. A thread is a run of narratives across editions that follow the same join or the same events. Each has: key (kebab-case, stable: keep the previous Chronicle's keys for threads that continue); label (three to eight plain words naming the thread); status "live" or "silent"; since (the stamp of the first edition in the thread); lastSeen (the stamp of the last edition with a narrative in it); narratives (every narrative in the thread, oldest first, as edition stamp and id); text (60 to 140 words, dated, saying where this thread stands and how it has moved across its editions: "On 27 October the join was fuel prices at the pump; by the 28th it had reached jet fuel, bitumen and subsidy formulas"); direction (one plain sentence on the direction it has been moving, or an empty string if it has not moved).
+- withdrawn: the list of interpretations the Chronicle once held and no longer holds. Carry forward every item from the previous Chronicle exactly as it was, and add an item whenever this revision drops or reverses something the previous version said: a thread that turned out to be two, a direction that reversed, a join that broke. Each item has held (the interpretation, one plain sentence, as it was held), undone (why it no longer holds, one or two sentences, by these headlines) and stamp (today's edition stamp). Items are never removed or softened; this list is the record of being wrong.
 - caseAgainst: one paragraph on why this Chronicle may be wrong: the sample of publishers and the caps on it, the fact that continuity between days is partly produced by the brief that asks for it, the pull of your own earlier versions, and anything specific to this day.
 - line: one plain sentence, at most 170 characters, saying what this day is in the longer story since 1945, by these headlines. It is kept in a record that is never revised, one line per edition, so write it to be read in a year beside the lines of every other day: dated where a date helps ("Eight months into the Iran war, ..."), concrete, naming the thing that marks the day, and not a summary of the five narratives. No metaphor, no aphorism, no sentence written to be quoted; a sentence a careful reader could check against the Chronicle.
 - revision: one to three sentences on what changed in the Chronicle itself since its previous version: threads begun, threads ended, the standing rewritten, a direction reversed. The first time, say that this is the first version.
@@ -93,11 +94,12 @@ SCHEMA = {
                 "additionalProperties": False,
             },
         },
+        "withdrawn": {"type": "array", "items": {"type": "object", "properties": {"held": {"type": "string"}, "undone": {"type": "string"}, "stamp": {"type": "string"}}, "required": ["held", "undone", "stamp"], "additionalProperties": False}},
         "caseAgainst": {"type": "string"},
         "line": {"type": "string"},
         "revision": {"type": "string"},
     },
-    "required": ["standing", "moved", "silent", "threads", "caseAgainst", "line", "revision"],
+    "required": ["standing", "moved", "silent", "threads", "withdrawn", "caseAgainst", "line", "revision"],
     "additionalProperties": False,
 }
 
@@ -112,12 +114,12 @@ def build_request(index, readings, previous):
             brief_lines.append(f"  {n['id']} | {n['kicker']} | {n['line']} | continues: {n.get('continues') or '-'}")
     today = []
     for r in readings["readings"]:
-        today.append(f"id: {r['id']}\nkicker: {r['kicker']}\nline: {r['line']}\ncontinues: {r.get('continues') or '-'}\nchange: {r.get('change') or '-'}\nevents: " + "; ".join(e["label"] for e in r.get("events", [])) + f"\nclaim: {r['claim']}")
+        today.append(f"id: {r['id']}\nkicker: {r['kicker']}\nline: {r['line']}\nfirmness: {r.get('firmness') or '-'}\ncontinues: {r.get('continues') or '-'}\nchange: {r.get('change') or '-'}\nevents: " + "; ".join(e["label"] for e in r.get("events", [])) + f"\nclaim: {r['claim']}")
         brk = next((ru for ru in r["rungs"] if ru["kind"] == "break"), None)
         if brk:
             today.append("case against: " + " ".join(f["text"] for f in brk["fragments"]))
         today.append("")
-    prev = json.dumps({k: previous[k] for k in ("standing", "moved", "silent", "threads", "caseAgainst", "line", "revision") if k in previous}, ensure_ascii=False, indent=1) if previous else "(none: this is the first version)"
+    prev = json.dumps({k: previous[k] for k in ("standing", "moved", "silent", "threads", "withdrawn", "caseAgainst", "line", "revision") if k in previous}, ensure_ascii=False, indent=1) if previous else "(none: this is the first version)"
     prev_stamp = previous.get("editionStamp") if previous else None
     user = (
         f"THE PREVIOUS CHRONICLE{' (revised for edition ' + prev_stamp + ')' if prev_stamp else ''}:\n{prev}\n\n"
@@ -132,8 +134,12 @@ def stamp_of(edition):
     return (edition.get("newsGeneratedAt") or edition["generatedAt"]).replace("-", "").replace(":", "")[:15]
 
 
-def validate(ch, index, readings):
+def validate(ch, index, readings, previous=None):
     problems = []
+    held = {w["held"].strip() for w in ch.get("withdrawn", [])}
+    for w in (previous or {}).get("withdrawn", []):
+        if w["held"].strip() not in held:
+            problems.append("a withdrawn item from the previous Chronicle was dropped: " + w["held"][:60])
     stamp = stamp_of(readings)
     known = {(e["stamp"], n["id"]) for e in index["editions"] for n in e["narratives"]}
     known.update((stamp, r["id"]) for r in readings["readings"])
@@ -270,7 +276,7 @@ def main():
     except ValueError as error:
         note(state, f"not JSON: {error}")
         return 1
-    problems = validate(ch, index, readings)
+    problems = validate(ch, index, readings, previous)
     if problems:
         note(state, "rejected: " + "; ".join(problems[:6]))
         print("chronicle rejected: " + "; ".join(problems[:6]), file=sys.stderr)

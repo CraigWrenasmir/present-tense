@@ -774,7 +774,7 @@
       list.forEach((x, i) => {
         const b = create('button', 'narrative'); b.type = 'button'; b.setAttribute('role', 'listitem'); b.dataset.id = x.id;
         const n = new Set(x.articleIds.map(id => (byId.get(id) || {}).sourceCountry).filter(Boolean)).size;
-        b.append(create('span', 'k', `${String(i + 1).padStart(2, '0')} · ${x.kicker}`), create('span', 'n', x.line), create('span', 'm', `${x.events && x.events.length ? x.events.length + ' events · ' : ''}${x.articleIds.length} headlines · ${n} countries`));
+        b.append(create('span', 'k', `${String(i + 1).padStart(2, '0')} · ${x.kicker}`), create('span', 'n', x.line), create('span', 'm', `${x.events && x.events.length ? x.events.length + ' events · ' : ''}${x.articleIds.length} headlines · ${n} countries${x.firmness ? ' · ' + x.firmness : ''}`));
         b.addEventListener('click', () => selectReading(x.id, { open: true, fit: state.reading !== x.id }));
         strip.append(b);
       });
@@ -800,7 +800,8 @@
     const r = currentReading(), body = $('#drawer-body'); body.replaceChildren(); if (!r) return;
     const list = readings.readings, idx = list.findIndex(x => x.id === r.id);
     $('#drawer-eyebrow').textContent = `NARRATIVE ${String(idx + 1).padStart(2, '0')} / ${String(list.length).padStart(2, '0')} · ${readings.method === 'claude-authored-seed' ? 'SEED EDITION' : 'AI EDITION'} · ${fmt(readings.generatedAt).toUpperCase()}`;
-    body.append(create('p', 'reading-kicker', r.kicker), create('h2', 'reading-line', r.line));
+    const kick = create('p', 'reading-kicker', r.kicker); if (r.firmness) kick.append(create('span', 'firmness ' + r.firmness, ` · ${r.firmness.toUpperCase()}`));
+    body.append(kick, create('h2', 'reading-line', r.line));
     const wb = create('button', 'text walk-btn', '▷ walk this narrative'); wb.type = 'button'; wb.title = 'One step at a time: each event in the field, then each horizon back in time, then the case against'; wb.addEventListener('click', () => startWalk(r)); body.append(wb);
     if (r.events && r.events.length) body.append(eventsEl(r));
     const since = sinceEl(r); if (since) body.append(since);

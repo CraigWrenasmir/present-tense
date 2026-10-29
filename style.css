@@ -623,3 +623,12 @@ body.scrolls { overflow: auto; }  /* the field page is fixed; the reading pages 
   .chronicle .standing { font-size: 17px; }
   .chronicle .thread-text, .chronicle ul.plain li { font-size: 16px; }
 }
+
+/* firmness: how sure the writer says it is, in the drawer, on the tile, and on Threads */
+.reading-kicker .firmness { color: var(--ink-2); }
+.reading-kicker .firmness.tentative { font-style: italic; }
+#loom .bead.plausible > circle:first-of-type { fill: var(--ink-2); }
+#loom .bead.tentative > circle:first-of-type { fill: var(--bg); stroke: var(--ink); stroke-width: 1.2; stroke-dasharray: 2 2; }
+.withdrawn li { margin: 0 0 8px; }
+.withdrawn .held { text-decoration: line-through; text-decoration-color: var(--ink-3); }
+.withdrawn .stamp { font-size: 10px; color: var(--ink-3); letter-spacing: .06em; }

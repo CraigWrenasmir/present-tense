@@ -89,7 +89,7 @@
     const legend = [];
     chains.forEach(c => c.forEach(m => {
       const r = Math.min(laneW / 2 - 2, 3 + Math.sqrt(m.headlines) * 0.9);
-      const g = svgEl('g', { class: 'bead', tabindex: '0', role: 'button' }); g.dataset.key = `${m.stamp}|${m.id}`;
+      const g = svgEl('g', { class: 'bead' + (m.firmness ? ' ' + m.firmness : ''), tabindex: '0', role: 'button' }); g.dataset.key = `${m.stamp}|${m.id}`;
       g.append(svgEl('circle', { cx: x(m.lane), cy: y(m.col), r: r.toFixed(1) }));
       g.append(svgEl('circle', { cx: x(m.lane), cy: y(m.col), r: (r + 9).toFixed(1), class: 'halo' }));
       if (m.col === n - 1) { legend.push(m); const t = svgEl('text', { x: x(m.lane), y: y(m.col) - r - 5, 'text-anchor': 'middle', class: 'num' }); t.textContent = String(legend.length); svg.append(t); }
@@ -143,7 +143,7 @@
     chains.forEach(c => {
       c.forEach(n => {
         const r = 3 + Math.sqrt(n.headlines) * 0.9;
-        const g = svgEl('g', { class: 'bead', tabindex: '0', role: 'link' }); g.dataset.key = `${n.stamp}|${n.id}`;
+        const g = svgEl('g', { class: 'bead' + (n.firmness ? ' ' + n.firmness : ''), tabindex: '0', role: 'link' }); g.dataset.key = `${n.stamp}|${n.id}`;
         g.append(svgEl('circle', { cx: x(n.col), cy: y(n.lane), r: r.toFixed(1) }));
         g.append(svgEl('circle', { cx: x(n.col), cy: y(n.lane), r: (r + 7).toFixed(1), class: 'halo' }));
         const title = svgEl('title'); title.textContent = `${fmt(n.stamp)} · ${n.kicker}\n${n.line}`; g.append(title);
@@ -231,6 +231,12 @@
       });
     };
     list(live, 'THE THREADS'); list(silent, 'SILENT');
+    if (ch.withdrawn && ch.withdrawn.length) {
+      body.append(create('p', 'sect', 'WITHDRAWN · WHAT THE CHRONICLE ONCE HELD AND NO LONGER DOES'));
+      const ul = create('ul', 'plain withdrawn');
+      ch.withdrawn.slice().reverse().forEach(w => { const li = create('li'); li.append(create('span', 'held', w.held), create('span', 'undone', ` ${w.undone}`), create('span', 'stamp mono', ` ${fmt(w.stamp, false).toUpperCase()}`)); ul.append(li); });
+      body.append(ul);
+    }
     if (ch.caseAgainst) { body.append(create('p', 'sect', 'THE CASE AGAINST THIS CHRONICLE')); body.append(create('p', 'case', ch.caseAgainst)); }
     if (ch.revision) { body.append(create('p', 'sect', 'WHAT CHANGED IN THE CHRONICLE')); body.append(create('p', 'revision', ch.revision)); }
     if (versions.length > 1) {

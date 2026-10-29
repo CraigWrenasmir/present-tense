@@ -78,6 +78,8 @@ def main():
     if len(article_ids) != len(news["articles"]):
         errors.append("duplicate article ids in news.json")
 
+    if not 3 <= len(readings["readings"]) <= 5:
+        errors.append(f"{len(readings['readings'])} readings (need three to five)")
     seen_reading_ids = set()
     for r in readings["readings"]:
         rid = r.get("id", "?")
@@ -143,6 +145,8 @@ def main():
             errors.append(f"reading {rid} articleIds do not match its fragments (run freeze.py)")
         # The line says what the join shows, not the evidence. Editions before 29 Oct 2026 predate
         # this rule, so here it is a warning; oracle.py refuses a new edition that breaks it.
+        if r.get("firmness") not in ("firm", "plausible", "tentative"):
+            warnings.append(f"reading {rid} has no firmness (editions before 29 October 2026 predate it)")
         if is_list(r.get("line", "")):
             warnings.append(f"reading {rid} line is a list rather than a statement of what the join shows")
 
