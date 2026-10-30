@@ -7,6 +7,14 @@ trajectory must exist, every reading must end with a 'break' rung, and the
 edition must contain five readings (four to six accepted). An invalid, refused or
 failed response leaves the previous readings in place.
 
+Each narrative also sets one or two expectations, things to watch for that
+should follow if its join is right, each with a date. They are kept in
+data/watch.json, and every later edition's request lists the open ones so the
+writer can check them against that day's collection: kept or failed only with
+a headline behind it, otherwise open; past their date the site closes them as
+failed. The ledger is never pruned, so the site's own record against its
+stated firmness can be read.
+
 The request goes through the Message Batches API, which runs the same model at
 half the price. A run submits the batch, waits up to ORACLE_WAIT_MINUTES for it,
 and if it has not finished leaves it pending in data/oracle-pending.json for the
@@ -43,6 +51,12 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 STATE = DATA / "oracle-state.json"
 PENDING = DATA / "oracle-pending.json"
+WATCH = DATA / "watch.json"
+WATCH_DAYS = (4, 28)  # an expectation runs to a date this many days after the collection
+WATCH_NOTES = [
+    "What to watch for: each narrative sets one or two expectations, things that should follow if its join is right, each with a date. Every later edition's writer checks the open ones against that day's headlines: kept or failed only with a headline behind it, otherwise open. Past its date an open expectation is closed by the site as failed.",
+    "Items are added and settled, never removed or reworded. Read the count beside each narrative's stated firmness: it is the site's own record of whether its confidence means anything.",
+]
 KEEP = ("id", "title", "titleEnglish", "url", "publisher", "publisherDomain", "publishedAt", "seenAt",
         "dateBasis", "sourceCountry", "sourceCountryCode", "sourceRegion", "sourceLat", "sourceLon", "language")
 MAX_INPUT_CHARS = 140_000
@@ -69,6 +83,7 @@ Compose an edition of narratives. Each narrative has:
 - kicker: three plain words in capitals separated by " / " that name the terms of the idea, for example "OIL / A WAR / THE TRANSITION" or "BONDS / PENSIONS / BUDGETS". The terms of the idea, not a list of the products or places in the evidence, and not the same nouns the line uses. Subjects, not images.
 - events: three to six entries, each a short plain label of two to eight words naming one distinct event or development the narrative joins, with the ids of the headlines about that event. The entries must be about different things, not the same event in different countries. Every headline the narrative cites should belong to one entry, and no entry may hold more than half of the narrative's headlines. This list is shown to the reader at the top of the narrative as what it joins.
 - firmness: "firm", "plausible" or "tentative", chosen honestly. Firm: the cause, actor or mechanism is named in the headlines themselves and the join would be hard to deny. Plausible: the join is a reasonable reading that a careful reader could contest. Tentative: the pattern may be an artefact of the sample, of English, or of one day. An edition of five firm narratives is not credible; a tentative narrative is worth publishing when it says so. The site shows the word to the reader and, in time, checks it against what the join went on to predict.
+- watch: one or two things to watch for, each a test of the join. If the join is right, something should follow that this collection, or a later one, would report. Each has what: one plain sentence of at most 160 characters saying what a headline would report, specific enough that a reader could say yes or no on seeing it ("A central bank outside the G7 names the war in a rate decision", "A second European country pauses data centre approvals over power or water"); by: the date, written as YYYY-MM-DD, by which it should have appeared if the join holds, between four and twenty-eight days after the collection's date given at the top; and because: one sentence saying why the join, rather than any one of its events on its own, predicts it. An expectation that would be met even if the events were unrelated tests nothing. A scheduled event (a vote on a known date) is not an expectation unless the expectation is about its outcome. "Prices will move" and "pressure will grow" are not expectations, because no headline could fail them. The site checks every expectation against later collections and records, beside the narrative's firmness, whether it was kept, failed, or ran out of time. Write them as you would want to be judged: a firm narrative should expect more than a tentative one.
 - continues: the id of the narrative in the previous edition that this one carries forward, if any; otherwise an empty string. A narrative continues an earlier one when it follows the same join or the same events a day later, not merely the same topic.
 - change: if continues is set, one to three plain sentences saying what has changed since that narrative: what moved, what was confirmed, what fell away. If continues is empty, an empty string. This is shown to the reader as "Since the previous edition", so write it for them.
 - claim: two to four sentences, read first when the narrative is opened. The first sentence names the joined events: who, what, where, so that a reader knows at once what has been connected. The rest states the idea and why the join matters. Written for an intelligent general reader in plain descriptive prose. Commit to the interpretation. No disclaimers, and no closing flourish: do not end a paragraph on an epigram or a line designed to be quoted.
@@ -76,6 +91,8 @@ Compose an edition of narratives. Each narrative has:
 - each rung has one to three fragments. A fragment has a short plain label, a text of two to five sentences, and the ids of the headlines it rests on (observation and interpretation fragments cite at least one; break fragments may cite none). The text names publishers and countries and quotes headlines in paraphrase. Facts about events come only from the headlines; do not invent them. The connection between events is yours, so state it as an idea, not as a reported fact. A fragment may notice what a headline withholds.
 - bookIds and trajectoryIds: cite a book or a trajectory only when it changes how the fragment reads. Most fragments should cite none. Never more than two per fragment.
 - horizons: after the rungs, "How we got here". Four, in this order, each anchored to the start of a regime most of the world is still living inside: span "since-2020" (the pandemic, the inflation that followed it, the war in Ukraine, the AI wave: the conditions of this decade), "since-2008" (the financial crisis, the smartphone and the platforms, China as the second economy, the end of the belief that globalisation ran itself), "since-1989" (the end of the Cold War, the openings of India and China, the internet, the WTO, the long peace that 2008 and 2022 ended) and "since-1945" (decolonisation, the institutions, the dollar, the welfare state: the order the other three are chapters of). Each horizon answers the same question in the same shape: what did the regime that began then put in place that these headlines are now living inside? Its label is "Since 2020", "Since 2008", "Since 1989" or "Since 1945"; its from field is an empty string. A fifth horizon, span "longer", may be added after the four only when the join is about something older than 1945 and the past genuinely offers better context: water, land, a border, a religion, an empire, a trade route. It names its own starting point: from is a four-digit year ("1916"), its label is "Since" followed by that year or the moment ("Since 1916, the Sykes-Picot line"), and its text explains why that is where this join begins. Most narratives should not have one. Each horizon has a lens of two or three capitalised words separated by " / " naming the kinds of history it draws on (for example "OIL / REVOLUTION / ALLIANCE", "DEMOGRAPHY / HOUSING / PROTEST", "CAPITAL / DISCLOSURE / WATER"), and a text of 130 to 200 words. A horizon places the idea, the join itself, on a longer trajectory: sociological, economic, demographic, migratory, environmental, technological, legal or intellectual, whichever genuinely explain how these different things came to have this in common. Name dates, laws, prices, flows of people, institutions, books and the people who wrote them. Be concrete and specific to the narrative's countries and events; connect at least once in each horizon back to a specific headline in the narrative. Do not write a general history of the period, and do not let the horizons overlap: what belongs to the years since 2020 is said once, there, and the since-2008 horizon begins where that one stops. Do not claim authority: a horizon is a trajectory, not a verdict, and it may say where the trajectory is contested. Each horizon cites one to four trajectories and zero to two books from the library, chosen because they are the moments and arguments the text actually stands on; if the library lacks the moment you need, name it in the text and cite nothing (the longer horizon will often have to). Use only facts you are confident of; where the decade's recent events are known to you only from the headlines, say "by these headlines".
+
+Checking earlier expectations. You will also receive OPEN EXPECTATIONS set by earlier editions, each with its id, the date it was set, the line of the narrative that set it, the date it runs to, and what it expects. Return a check for each one with a verdict: "kept" if a headline in this collection reports the thing itself (cite the ids); "failed" if a headline in this collection reports the opposite or rules it out (cite the ids); otherwise "open". Be strict: a headline on the same subject is not the thing itself, and a kept or failed verdict with no headline behind it is discarded by the site. Give a note of one plain sentence saying what the headline reports when the verdict is kept or failed, and an empty note otherwise. An expectation past its date is closed by the site, not by you; check it like the others. When there are no open expectations, return an empty list.
 
 Language. This matters as much as the structure:
 - Plain spoken and descriptive throughout, in every field. Say what is reported, where, by whom, and what joins it to the rest. Prefer the concrete noun to the image and the ordinary word to the striking one. Short sentences are fine. Numbers, dates, names and institutions are the material.
@@ -92,7 +109,7 @@ Rules of the game:
 - Write in plain British English. Use hyphens, never dashes. Capitalise proper nouns only.
 - Across the edition the horizons must not repeat each other: if two narratives share a decade, they must read it through different lenses and different moments.
 
-Return JSON matching the schema (its top-level key is still called "readings"; each item is one narrative). Compose three to five narratives: only the joins that hold. If three hold, write three; an edition that reaches for a fourth to fill the page is worse than one that stops, and a quiet day is itself a finding. Fewer, fuller and better evidenced rather than more."""
+Return JSON matching the schema (its top-level key is still called "readings"; each item is one narrative; "checks" holds the verdicts on the open expectations). Compose three to five narratives: only the joins that hold. If three hold, write three; an edition that reaches for a fourth to fill the page is worse than one that stops, and a quiet day is itself a finding. Fewer, fuller and better evidenced rather than more."""
 
 
 def now_iso():
@@ -111,6 +128,19 @@ SCHEMA = {
                     "line": {"type": "string"},
                     "kicker": {"type": "string"},
                     "firmness": {"type": "string", "enum": ["firm", "plausible", "tentative"]},
+                    "watch": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "what": {"type": "string", "description": "one sentence saying what a headline would report"},
+                                "by": {"type": "string", "description": "YYYY-MM-DD"},
+                                "because": {"type": "string", "description": "why the join predicts it"},
+                            },
+                            "required": ["what", "by", "because"],
+                            "additionalProperties": False,
+                        },
+                    },
                     "continues": {"type": "string", "description": "id of the previous edition's narrative this continues, or empty"},
                     "change": {"type": "string", "description": "what has changed since that narrative, or empty"},
                     "claim": {"type": "string"},
@@ -173,12 +203,26 @@ SCHEMA = {
                     },
                 },
                 },
-                "required": ["id", "line", "kicker", "firmness", "continues", "change", "claim", "events", "rungs", "horizons"],
+                "required": ["id", "line", "kicker", "firmness", "watch", "continues", "change", "claim", "events", "rungs", "horizons"],
                 "additionalProperties": False,
             },
-        }
+        },
+        "checks": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {"type": "string", "description": "the expectation's id as given"},
+                    "verdict": {"type": "string", "enum": ["kept", "failed", "open"]},
+                    "articleIds": {"type": "array", "items": {"type": "string"}},
+                    "note": {"type": "string"},
+                },
+                "required": ["id", "verdict", "articleIds", "note"],
+                "additionalProperties": False,
+            },
+        },
     },
-    "required": ["readings"],
+    "required": ["readings", "checks"],
     "additionalProperties": False,
 }
 
@@ -211,7 +255,21 @@ def attention_block():
     return f"WHAT WAS LOOKED UP (Wikipedia most-viewed on {w.get('date')} by language edition; context, not evidence):\n" + "\n".join(out) + "\n\n"
 
 
-def build_request(news, library, previous):
+def load_watch():
+    if WATCH.exists():
+        return json.loads(WATCH.read_text())
+    return {"notes": WATCH_NOTES, "items": []}
+
+
+def watch_block(watch):
+    items = [w for w in (watch or {}).get("items", []) if w.get("status") == "open"]
+    if not items:
+        return "OPEN EXPECTATIONS set by earlier editions: (none yet)\n\n"
+    lines = [f"{w['id']} | set {w['asOf'][:10]} by \"{w['line']}\" | runs to {w['by']} | {w['what']}" for w in items]
+    return "OPEN EXPECTATIONS set by earlier editions (id | set on, by which narrative | runs to | what):\n" + "\n".join(lines) + "\n\n"
+
+
+def build_request(news, library, previous, watch=None):
     lines = []
     for a in news["articles"]:
         t = (a.get("titleEnglish") or a["title"]).replace("\n", " ").strip()
@@ -226,7 +284,9 @@ def build_request(news, library, previous):
         f"THE COLLECTION, gathered {news['generatedAt']} ({len(news['articles'])} headlines):\n{collection}\n\n"
         + attention_block() +
         f"THE LIBRARY, books:\n{books}\n\nTHE LIBRARY, trajectories:\n{trajs}\n\n"
-        f"THE PREVIOUS EDITION'S NARRATIVES (id | line):\n{prev}\n\nCompose this edition."
+        f"THE PREVIOUS EDITION'S NARRATIVES (id | line):\n{prev}\n\n"
+        + watch_block(watch) +
+        "Compose this edition, and check the open expectations."
     )
     return user
 
@@ -274,6 +334,7 @@ def validate(edition, news, library):
                 problems.append(f"{r['id']}: empty {key}")
         if r.get("firmness") not in ("firm", "plausible", "tentative"):
             problems.append(f"{r['id']}: firmness must be firm, plausible or tentative")
+        problems.extend(f"{r['id']}: {p}" for p in check_watch(r))
         problems.extend(f"{r['id']}: {p}" for p in check_horizon_spans(r.get("horizons", [])))
         for h in r.get("horizons", []):
             words = len(h.get("text", "").split())
@@ -329,13 +390,14 @@ def check_horizon_spans(horizons, allow_old=False):
 
 def refuse_narratives(edition, by):
     """A narrative that breaks the tile rules (a line that lists its evidence or names a publisher, a missing
-    firmness) is refused on its own; the edition stands with the rest as long as three remain. Returns the reasons."""
+    firmness, no usable expectation to watch for) is refused on its own; the edition stands with the rest as long as three remain. Returns the reasons."""
     readings = edition.get("readings", [])
     bad = {}
     for r in readings:
         reasons = check_line(r, by)
         if r.get("firmness") not in ("firm", "plausible", "tentative"):
             reasons.append("no firmness")
+        reasons.extend(check_watch(r))
         if reasons:
             bad[r.get("id", "?")] = reasons
     if not bad or len(readings) - len(bad) < 3:
@@ -392,6 +454,91 @@ def check_events(reading, ids):
     return out
 
 
+def check_watch(reading):
+    """One or two expectations, each a sentence of at most 180 characters with a reason and a YYYY-MM-DD date
+    (the date's range is settled by normalise_watch before this runs)."""
+    items = reading.get("watch")
+    if not isinstance(items, list) or not 1 <= len(items) <= 2:
+        return [f"{0 if not isinstance(items, list) else len(items)} expectations to watch for (need one or two)"]
+    out = []
+    for i, w in enumerate(items, 1):
+        what = (w.get("what") or "").strip()
+        if not what:
+            out.append(f"expectation {i} is empty")
+        elif len(what) > 180:
+            out.append(f"expectation {i} is longer than 180 characters")
+        if not (w.get("because") or "").strip():
+            out.append(f"expectation {i} gives no reason")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(w.get("by", "")).strip()):
+            out.append(f"expectation {i} has no date of the form YYYY-MM-DD")
+    return out
+
+
+def normalise_watch(edition, as_of):
+    """An expectation's date must fall between WATCH_DAYS after the collection's date; one outside that range is
+    moved to the nearest end, and the move is reported so it is on the record."""
+    from datetime import date, timedelta
+    day0 = date.fromisoformat(as_of[:10])
+    lo, hi = day0 + timedelta(days=WATCH_DAYS[0]), day0 + timedelta(days=WATCH_DAYS[1])
+    notes = []
+    for r in edition.get("readings", []):
+        for w in r.get("watch") or []:
+            by = str(w.get("by", "")).strip()
+            try:
+                d = date.fromisoformat(by)
+            except ValueError:
+                continue
+            fixed = min(max(d, lo), hi)
+            if fixed != d:
+                notes.append(f"{r.get('id', '?')}: expectation date {by} moved to {fixed.isoformat()}")
+                w["by"] = fixed.isoformat()
+    return notes
+
+
+def headline_snapshot(a):
+    return {k: a.get(k) for k in ("id", "title", "titleEnglish", "url", "publisher", "sourceCountry") if a.get(k) is not None}
+
+
+def apply_checks(edition, watch, by_id, as_of, stamp):
+    """Settle open expectations from the writer's checks (a headline must stand behind kept or failed), then close
+    any still open past its date as failed. Returns a list of what was settled."""
+    open_items = {w["id"]: w for w in watch["items"] if w.get("status") == "open"}
+    settled = []
+    for c in edition.get("checks") or []:
+        w = open_items.get(c.get("id"))
+        if not w or w.get("status") != "open":
+            continue
+        verdict = c.get("verdict")
+        ids = [x for x in (c.get("articleIds") or []) if x in by_id]
+        if verdict in ("kept", "failed") and ids:
+            w["status"] = verdict
+            w["resolved"] = {"stamp": stamp, "asOf": as_of, "how": "headline", "note": (c.get("note") or "").strip()[:300],
+                             "headlines": [headline_snapshot(by_id[x]) for x in ids[:4]]}
+            settled.append({"id": w["id"], "status": verdict, "how": "headline"})
+    today = as_of[:10]
+    for w in watch["items"]:
+        if w.get("status") == "open" and w.get("by", "9999") < today:
+            w["status"] = "failed"
+            w["resolved"] = {"stamp": stamp, "asOf": as_of, "how": "expired", "note": f"Nothing in the collections up to {today} reported it.", "headlines": []}
+            settled.append({"id": w["id"], "status": "failed", "how": "expired"})
+    return settled
+
+
+def add_watch_items(edition, watch, as_of, stamp):
+    """Give each new expectation an id and enter it in the ledger. Items of the same stamp are replaced, so a
+    recovered edition does not enter its expectations twice."""
+    watch["items"] = [w for w in watch["items"] if w.get("stamp") != stamp]
+    for r in edition["readings"]:
+        for i, x in enumerate(r.get("watch") or [], 1):
+            x["id"] = f"{stamp}-{r['id']}-{i}"
+            watch["items"].append({
+                "id": x["id"], "stamp": stamp, "asOf": as_of, "narrativeId": r["id"], "kicker": r.get("kicker", ""),
+                "line": r.get("line", ""), "firmness": r.get("firmness", ""),
+                "what": x["what"].strip(), "by": x["by"], "because": x["because"].strip(), "status": "open", "resolved": None,
+            })
+    watch["notes"] = WATCH_NOTES
+
+
 def load_state():
     state = json.loads(STATE.read_text()) if STATE.exists() else {"day": None, "attempts": 0, "history": []}
     today = now_iso()[:10]
@@ -427,7 +574,7 @@ def submit(client, state, news, library, previous, model, effort):
     if state["attempts"] >= cap:
         print(f"oracle already submitted {state['attempts']} time(s) today; nothing sent", file=sys.stderr)
         return None
-    user = build_request(news, library, previous)
+    user = build_request(news, library, previous, load_watch())
     try:
         batch = client.messages.batches.create(requests=[{"custom_id": "edition", "params": request_params(model, effort, user)}])
     except anthropic.APIError as error:
@@ -484,6 +631,9 @@ def collect(client, state, pending, library):
         return fail(state, f"response was not JSON: {error}")
     snapshot_news = {"generatedAt": pending["newsGeneratedAt"], "articles": pending["articles"]}
     by_id = {a["id"]: a for a in pending["articles"]}
+    moved = normalise_watch(edition, pending["newsGeneratedAt"])
+    if moved:
+        note(state, "expectation dates moved into range: " + "; ".join(moved))
     refused = refuse_narratives(edition, by_id)
     if refused:
         note(state, "narratives refused: " + "; ".join(refused))
@@ -491,6 +641,13 @@ def collect(client, state, pending, library):
     problems = validate(edition, snapshot_news, library)
     if problems:
         return fail(state, "edition rejected: " + "; ".join(problems[:8]))
+    as_of = pending["newsGeneratedAt"]
+    stamp = as_of.replace("-", "").replace(":", "")[:15]
+    watch = load_watch()
+    settled = apply_checks(edition, watch, by_id, as_of, stamp)
+    add_watch_items(edition, watch, as_of, stamp)
+    WATCH.write_text(json.dumps(watch, ensure_ascii=False, indent=1) + "\n")
+    edition.pop("checks", None)
     previous = json.loads((DATA / "readings.json").read_text()) if (DATA / "readings.json").exists() else {}
     prev_ids = {r["id"] for r in previous.get("readings", [])}
     cited = []
@@ -509,12 +666,12 @@ def collect(client, state, pending, library):
         cited.extend(i for i in ids if i not in cited)
     usage = {"input": message.usage.input_tokens, "output": message.usage.output_tokens, "tier": "batch"}
     out = {
-        "schemaVersion": 3,
+        "schemaVersion": 4,
         "generatedAt": now_iso(),
         "newsGeneratedAt": pending["newsGeneratedAt"],
         "method": "claude-api-batch",
         "model": message.model,
-        "promptVersion": "narrative-5",
+        "promptVersion": "narrative-6",
         "previousNewsGeneratedAt": previous.get("newsGeneratedAt"),
         "usage": usage,
         "notes": [
@@ -522,10 +679,12 @@ def collect(client, state, pending, library):
             "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
             "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
             "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+            "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
             "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
             "Books and trajectories appear only where they change how a fragment or a horizon reads.",
         ],
         "sourceArticles": [by_id[i] for i in cited],
+        "settled": settled,
         "readings": edition["readings"],
     }
     if edition.get("refused"):
@@ -533,7 +692,9 @@ def collect(client, state, pending, library):
         out["notes"].append("One or more narratives in this edition were refused by the site's own rules (a tile line that listed its evidence or named a publisher, or no stated firmness) and are not shown; the ids and reasons are kept in this file under 'refused'.")
     (DATA / "readings.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
     note(state, "ok", batchId=pending["batchId"], usage=usage)
-    print(f"composed {len(out['readings'])} readings with {message.model} (batch); {usage['input']} in / {usage['output']} out tokens")
+    n_watch = sum(len(r.get("watch") or []) for r in out["readings"])
+    print(f"composed {len(out['readings'])} readings with {message.model} (batch); {usage['input']} in / {usage['output']} out tokens; "
+          f"{n_watch} expectations set, {len(settled)} settled ({sum(1 for x in settled if x['status'] == 'kept')} kept)")
     return True
 
 
@@ -583,7 +744,7 @@ def main():
     effort = os.environ.get("ORACLE_EFFORT") or "high"
     wait = float(os.environ.get("ORACLE_WAIT_MINUTES") or "25")
     if args.dry_run:
-        user = build_request(news, library, previous)
+        user = build_request(news, library, previous, load_watch())
         print(f"dry run: {len(user):,} characters of input for {model} via the batch API; no request made")
         return 0
     if not os.environ.get("ANTHROPIC_API_KEY"):

@@ -28,7 +28,7 @@
   const state = { z: 0.4, panX: 0, panY: 0, lang: 'en', reading: '', rung: '', frag: '', focusIds: null, ghosts: false, panel: '', drawer: false, edition: '', fieldOpen: false };
   let news, readings, library, world, ledger, config, held = [], fieldArticles = [];
   let liveReadings, editions = [], attention = null, attentionDays = [], attentionLive = null;
-  let chronicle = null, record = null;  // where we are, and the line a day  // every edition of narratives, newest first; what was looked up, and its days
+  let chronicle = null, record = null, watch = null;  // the ledger of expectations  // where we are, and the line a day  // every edition of narratives, newest first; what was looked up, and its days
   let beads = [], ghosts = [], labels = [], moments = [];
   const byId = new Map(), beadById = new Map();
   let cameraDirty = true, lastFrame = 0, anim = null, dragged = false;
@@ -88,6 +88,7 @@
     try { editions = (await getJSON('data/narratives/index.json')).editions || []; } catch { editions = []; }
     try { chronicle = await getJSON('data/chronicle.json'); } catch { chronicle = null; }
     try { record = await getJSON('data/record.json'); } catch { record = null; }
+    try { watch = await getJSON('data/watch.json'); } catch { watch = null; }
     // On a phone the tide and the register load when they are first wanted, not before the first paint.
     if (!mobile()) { await ensureLedger(); await ensureAttention(); }
     news.articles = news.articles.filter(a => a && a.id && a.title && safeURL(a.url));
@@ -742,6 +743,12 @@
         record.lines.slice(-3).reverse().forEach(l => { const d = create('div', 'rec'); d.append(create('span', 'd', fmt(l.asOf).replace(/,.*$/, '').toUpperCase()), create('span', 't', l.line)); rec.append(d); });
         const a = create('a', 'text mono', 'the whole record ≋'); a.href = 'threads.html#record'; rec.append(a);
       }
+      const sw = $('#standing-watch');
+      if (sw && watch && watch.items && watch.items.length) {
+        const items = watch.items, c = st => items.filter(w => w.status === st).length;
+        sw.hidden = false; sw.append(create('span', 'k', `WHAT TO WATCH FOR · ${items.length} SET · ${c('kept')} KEPT · ${c('failed')} FAILED · ${c('open')} OPEN`));
+        const a = create('a', 'text', 'the ledger ≋'); a.href = 'threads.html#watch'; sw.append(a);
+      }
     }
     const box = $('#standing-threads'); box.replaceChildren();
     const stamp = currentStamp(), here = new Set(readings.readings.map(r => r.id));
@@ -832,6 +839,7 @@
       ol.append(li);
     });
     body.append(ol);
+    const we = watchEl(r); if (we) body.append(we);
     if (r.horizons && r.horizons.length) body.append(horizonsEl(r));
     const foot = create('div', 'reading-foot');
     const cites = create('span', 'cites', `${r.events && r.events.length ? r.events.length + ' events · ' : ''}${r.articleIds.length} headlines · ${new Set(r.articleIds.map(id => (byId.get(id) || {}).sourceCountry)).size} countries`);
@@ -845,6 +853,36 @@
   }
   /* Since the previous edition: what this narrative continues and what has changed, with a step back to the narrative it continues
      and, when a later edition carried it on, a step forward. */
+  /* What to watch for: the narrative's one or two expectations, with the ledger's verdict on each. An expectation
+     set by this edition is open until a later edition's writer finds a headline that keeps or fails it, or its date passes. */
+  const fmtDay = iso => { const d = new Date(iso); return isNaN(d) ? String(iso) : d.toLocaleString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' }); };
+  const WATCH_WORD = { open: 'OPEN', kept: 'KEPT', failed: 'FAILED' };
+  function watchEl(r) {
+    if (!r.watch || !r.watch.length) return null;
+    const ledger = new Map(((watch && watch.items) || []).map(w => [w.id, w]));
+    const wrap = create('section', 'watch');
+    wrap.append(create('p', 'sect', 'WHAT TO WATCH FOR · IF THE JOIN IS RIGHT'));
+    const ol = create('ol', 'watch-list');
+    r.watch.forEach(x => {
+      const w = (x.id && ledger.get(x.id)) || Object.assign({ status: 'open' }, x);
+      const li = create('li', 'watch-item ' + w.status);
+      const head = create('p', 'watch-head mono');
+      const when = w.status === 'open' ? `by ${fmtDay(w.by)}` : w.resolved && w.resolved.how === 'expired' ? `not reported by ${fmtDay(w.by)}` : `on ${fmtDay(w.resolved ? w.resolved.asOf : w.by)}`;
+      head.append(create('span', 'st', WATCH_WORD[w.status] || 'OPEN'), create('span', 'by', ` · ${when}`));
+      li.append(head, create('p', 'watch-what', w.what));
+      if (w.because) li.append(create('p', 'watch-because', w.because));
+      if (w.resolved) {
+        if (w.resolved.note) li.append(create('p', 'watch-note', w.resolved.note));
+        (w.resolved.headlines || []).forEach(h => { const a = create('a', 'watch-h'); a.href = h.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.append(create('span', 'w mono', `${h.publisher || ''}${h.sourceCountry ? ' · ' + h.sourceCountry : ''}`), create('span', 'q', (h.titleEnglish || h.title || '') + ' ↗')); li.append(a); });
+      }
+      ol.append(li);
+    });
+    wrap.append(ol);
+    const all = (watch && watch.items) || [], settled = all.filter(w => w.status !== 'open');
+    const a = create('a', 'text mono watch-score', settled.length ? `the site's record so far: ${settled.filter(w => w.status === 'kept').length} of ${settled.length} kept ≋` : 'the ledger of expectations ≋'); a.href = 'threads.html#watch'; wrap.append(a);
+    wrap.append(create('p', 'watch-foot', 'Checked by each later edition against its headlines: kept or failed only with a headline behind it; past its date, failed.'));
+    return wrap;
+  }
   function sinceEl(r) {
     const i = editions.findIndex(e => e.stamp === currentStamp());
     const prev = i >= 0 ? editions[i + 1] : null, prevN = prev && r.continues ? prev.narratives.find(n => n.id === r.continues) : null;
@@ -986,6 +1024,11 @@
     (r.horizons || []).forEach(h => steps.push({ k: `HOW WE GOT HERE · ${h.lens || ''}`, h: h.label, t: h.text, ids: [], moments: h.trajectoryIds || [], fit: 'time' }));
     const brk = r.rungs.find(ru => ru.kind === 'break');
     if (brk) brk.fragments.forEach(f => steps.push({ k: 'THE CASE AGAINST', h: f.label, t: f.text, ids: f.articleIds || [], fit: 'reading' }));
+    if (r.watch && r.watch.length) {
+      const ledger = new Map(((watch && watch.items) || []).map(w => [w.id, w]));
+      const said = r.watch.map(x => { const w = (x.id && ledger.get(x.id)) || x; const st = w.status && w.status !== 'open' ? ` ${w.status === 'kept' ? 'Kept' : 'Failed'}${w.resolved && w.resolved.how === 'expired' ? ': not reported by then.' : w.resolved && w.resolved.note ? ': ' + w.resolved.note : '.'}` : ''; return `${w.what} By ${fmtDay(w.by)}.${st}`; });
+      steps.push({ k: 'WHAT TO WATCH FOR', h: 'If the join is right', t: said.join(' '), ids: r.articleIds, fit: 'reading' });
+    }
     return steps;
   }
   function startWalk(r) {

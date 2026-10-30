@@ -632,3 +632,44 @@ body.scrolls { overflow: auto; }  /* the field page is fixed; the reading pages 
 .withdrawn li { margin: 0 0 8px; }
 .withdrawn .held { text-decoration: line-through; text-decoration-color: var(--ink-3); }
 .withdrawn .stamp { font-size: 10px; color: var(--ink-3); letter-spacing: .06em; }
+
+/* What to watch for: in the drawer, the narrative's expectations with the ledger's verdict on each. */
+.watch { margin: 14px 0 6px; padding: 10px 12px; border-left: 2px solid var(--ink-4); }
+.watch .sect { margin: 0 0 6px; }
+.watch-list { list-style: none; margin: 0; padding: 0; }
+.watch-item { padding: 7px 0; border-top: 1px solid var(--ink-5); }
+.watch-item:first-child { border-top: 0; padding-top: 0; }
+.watch-head { font-size: 10px; letter-spacing: .1em; color: var(--ink-3); margin: 0 0 3px; }
+.watch-head .st, .wl-head .st { color: var(--ink-2); }
+.watch-item.kept .watch-head .st, .wl.kept .wl-head .st { color: var(--ink); }
+.watch-item.kept .watch-head .st::before, .wl.kept .wl-head .st::before { content: "✓ "; }
+.watch-item.failed .watch-head .st::before, .wl.failed .wl-head .st::before { content: "✗ "; }
+.watch-item.open .watch-head .st::before, .wl.open .wl-head .st::before { content: "· "; }
+.watch-what { font-size: 14.5px; line-height: 1.4; margin: 0 0 3px; color: var(--ink); }
+.watch-because { font-size: 13px; line-height: 1.4; color: var(--ink-3); margin: 0 0 4px; }
+.watch-note { font-size: 13px; line-height: 1.4; color: var(--ink-2); margin: 0 0 4px; }
+.watch-h, .wl-h { display: block; text-decoration: none; font-size: 13px; line-height: 1.4; color: var(--ink-2); margin: 0 0 4px; }
+.watch-h .w, .wl-h .w { display: block; font-size: 10px; letter-spacing: .06em; color: var(--ink-3); }
+.watch-h:hover .q, .wl-h:hover .q { text-decoration: underline; }
+.watch-score { display: inline-block; margin: 6px 0 0; font-size: 11px; }
+.watch-foot { font-size: 12.5px; color: var(--ink-3); margin: 8px 0 0; font-style: italic; }
+.standing-watch { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 10px; letter-spacing: .08em; color: var(--ink-3); }
+@media (max-width: 760px) { .watch-what { font-size: 16px; } .watch-because, .watch-note, .watch-h { font-size: 14px; } }
+
+/* The ledger on Threads: every expectation, open ones soonest first, settled ones newest first. (.ledger prefixes beat .prose p.) */
+.ledger { max-width: 720px; margin: 48px auto 0; padding: 0 20px; }
+.ledger .watch-firmness { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 8px 0 4px; font-size: 11px; letter-spacing: .08em; color: var(--ink-2); }
+.ledger .watch-firmness .tentative, .ledger .wl-set .firm.tentative { font-style: italic; }
+.ledger .watch-intro { font-size: 14px; color: var(--ink-3); margin: 0 0 8px; font-style: italic; }
+.ledger .watch-ledger { list-style: none; margin: 8px 0 16px; padding: 0; }
+.ledger .wl { padding: 12px 0; border-top: 1px solid var(--ink-5); }
+.ledger .wl-head { font-size: 10px; letter-spacing: .1em; color: var(--ink-3); margin: 0 0 4px; }
+.ledger .wl-what { font-size: 17px; line-height: 1.4; margin: 0 0 4px; }
+.ledger .wl-set { margin: 0 0 6px; font-size: 10px; letter-spacing: .06em; color: var(--ink-3); line-height: 1.5; }
+.ledger .wl-ref { font-family: var(--serif); font-size: 13.5px; letter-spacing: 0; color: var(--ink-2); text-decoration: none; }
+.ledger .wl-ref:hover { color: var(--ink); text-decoration: underline; }
+.ledger .wl-because { font-size: 14px; line-height: 1.45; color: var(--ink-3); margin: 0 0 6px; }
+.ledger .wl-note { font-size: 14.5px; line-height: 1.45; color: var(--ink-2); margin: 0 0 6px; }
+.ledger .wl-h { font-size: 14px; }
+.ledger .note { margin-top: 12px; }
+@media (max-width: 760px) { .ledger { padding: 0 14px; } .ledger .wl-head, .ledger .wl-set { font-size: 11px; } .ledger .wl-what { font-size: 17px; } .ledger .wl-ref { font-size: 15px; } }

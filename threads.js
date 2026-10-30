@@ -7,7 +7,7 @@
   const stampDate = s => new Date(`${s.slice(0, 4)}-${s.slice(4, 6)}-${s.slice(6, 8)}T${s.slice(9, 11)}:${s.slice(11, 13)}:00Z`);
   const fmt = (s, withTime = true) => { const d = typeof s === 'string' && /^\d{8}T/.test(s) ? stampDate(s) : new Date(s); if (isNaN(d)) return String(s); return d.toLocaleString('en-GB', withTime ? { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' } : { day: 'numeric', month: 'short', timeZone: 'UTC' }) + (withTime ? ' UTC' : ''); };
   const SCALES = { day: { colW: 230, labelMin: 1 }, week: { colW: 80, labelMin: 2 }, month: { colW: 30, labelMin: 3 } };
-  let scale = 'day', editions = [], chronicle = null, versions = [], nodes = new Map(), chains = [], attentionDays = [], record = null;
+  let scale = 'day', editions = [], chronicle = null, versions = [], nodes = new Map(), chains = [], attentionDays = [], record = null, watchLedger = null;
 
   async function getJSON(path) { const r = await fetch(path, { cache: 'no-cache' }); if (!r.ok) throw Error(`${path}: HTTP ${r.status}`); return r.json(); }
 
@@ -272,6 +272,45 @@
     if (rec.notes) body.append(create('p', 'note', rec.notes.join(' ')));
   }
 
+  /* ---------- what to watch for: every expectation the narratives set, and how each was settled ---------- */
+  function renderWatch(wl) {
+    const body = $('#watch-body'); if (!body) return; body.replaceChildren();
+    const items = (wl && wl.items || []).slice();
+    if (!items.length) {
+      $('#watch-meta').textContent = 'NOT YET BEGUN';
+      body.append(create('p', 'chronicle-empty', 'From its next edition each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines, and the results stand here beside the firmness each narrative claimed.'));
+      return;
+    }
+    const n = st => items.filter(w => w.status === st).length, settled = items.filter(w => w.status !== 'open');
+    $('#watch-meta').textContent = `${items.length} SET · ${n('kept')} KEPT · ${n('failed')} FAILED · ${n('open')} OPEN`;
+    const byF = ['firm', 'plausible', 'tentative'].map(f => { const s = settled.filter(w => w.firmness === f); return { f, kept: s.filter(w => w.status === 'kept').length, n: s.length, open: items.filter(w => w.firmness === f && w.status === 'open').length }; }).filter(x => x.n || x.open);
+    if (byF.length) {
+      const p = create('p', 'watch-firmness mono');
+      byF.forEach(x => p.append(create('span', 'f ' + x.f, `${x.f.toUpperCase()}: ${x.n ? `${x.kept} OF ${x.n} KEPT` : 'NONE SETTLED'}${x.open ? ` · ${x.open} OPEN` : ''}`)));
+      body.append(p, create('p', 'watch-intro', 'A firm narrative should keep more of what it expects than a tentative one. If it does not, the word means nothing, and this page will show it.'));
+    }
+    const list = (arr, head) => { if (!arr.length) return; body.append(create('p', 'sect', head)); const ol = create('ol', 'watch-ledger'); arr.forEach(w => ol.append(ledgerItem(w))); body.append(ol); };
+    list(items.filter(w => w.status === 'open').sort((a, b) => (a.by < b.by ? -1 : 1)), 'STILL OPEN · SOONEST FIRST');
+    list(settled.sort((a, b) => (b.resolved.asOf > a.resolved.asOf ? 1 : -1)), 'SETTLED · NEWEST FIRST');
+    if (wl.notes) body.append(create('p', 'note', wl.notes.join(' ')));
+  }
+  function ledgerItem(w) {
+    const li = create('li', 'wl ' + w.status);
+    const head = create('p', 'wl-head mono');
+    const when = w.status === 'open' ? `runs to ${fmt(w.by, false)}` : w.resolved.how === 'expired' ? `not reported by ${fmt(w.by, false)}` : `${fmt(w.resolved.asOf, false)}`;
+    head.append(create('span', 'st', w.status.toUpperCase()), create('span', 'when', ` · ${when}`));
+    li.append(head, create('p', 'wl-what', w.what));
+    const set = create('p', 'wl-set mono'); const a = create('a', 'wl-ref', w.line);
+    a.href = `./#edition=${w.stamp}&reading=${encodeURIComponent(w.narrativeId)}&open=1`; a.title = 'Open the narrative that set it';
+    set.append(create('span', 'w', `SET ${fmt(w.asOf, false).toUpperCase()} · ${(w.firmness || '').toUpperCase()} · BY `), a); li.append(set);
+    if (w.because) li.append(create('p', 'wl-because', w.because));
+    if (w.resolved) {
+      if (w.resolved.note) li.append(create('p', 'wl-note', w.resolved.note));
+      (w.resolved.headlines || []).forEach(h => { const a = create('a', 'wl-h'); a.href = h.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.append(create('span', 'w mono', `${h.publisher || ''}${h.sourceCountry ? ' · ' + h.sourceCountry : ''}`), create('span', 'q', (h.titleEnglish || h.title || '') + ' ↗')); li.append(a); });
+    }
+    return li;
+  }
+
   /* ---------- init ---------- */
   function setNight(on) { document.documentElement.dataset.theme = on ? 'night' : ''; $('#night').setAttribute('aria-pressed', String(on)); try { localStorage.setItem('pt-night', on ? '1' : '0'); } catch {} }
   function bindTips() {
@@ -293,10 +332,11 @@
     try { chronicle = await getJSON('data/chronicle.json'); } catch { chronicle = null; }
     try { versions = (await getJSON('data/chronicle/index.json')).versions || []; } catch { versions = []; }
     try { record = await getJSON('data/record.json'); } catch { record = null; }
+    try { watchLedger = await getJSON('data/watch.json'); } catch { watchLedger = null; }
     try { attentionDays = (await getJSON('data/attention/index.json')).days || []; } catch { attentionDays = []; }
     $('#threads-edition').textContent = `THREADS · ${editions.length} EDITIONS SINCE ${fmt(editions[0].stamp, false).toUpperCase()}`;
     $$('[data-scale]').forEach(b => b.addEventListener('click', () => { scale = b.dataset.scale; $$('[data-scale]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); drawLoom(); }));
-    drawLoom(); renderChronicle(chronicle); renderRecord(record);
+    drawLoom(); renderChronicle(chronicle); renderWatch(watchLedger); renderRecord(record);
     let lastPhone = phone(), rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { if (phone() !== lastPhone || phone()) { lastPhone = phone(); drawLoom(); } }, 150); });
   }
   init();

@@ -64,6 +64,8 @@ def main():
     readings = load("readings.json")
     library = load("library.json")
     ledger = load("ledger.json") if (DATA / "ledger.json").exists() else None
+    watch = load("watch.json") if (DATA / "watch.json").exists() else None
+    watch_ids = {w.get("id") for w in (watch or {}).get("items", [])}
 
     article_ids = {a["id"] for a in news["articles"]}
     saved_ids = {a["id"] for a in readings.get("sourceArticles", [])}
@@ -150,6 +152,30 @@ def main():
         if is_list(r.get("line", "")):
             warnings.append(f"reading {rid} line is a list rather than a statement of what the join shows")
 
+        if readings.get("schemaVersion", 2) >= 4:
+            items = r.get("watch")
+            if not isinstance(items, list) or not 1 <= len(items) <= 2:
+                errors.append(f"reading {rid} must set one or two expectations to watch for")
+            for w in items or []:
+                if not w.get("id") or not w.get("what", "").strip() or not w.get("because", "").strip() or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(w.get("by", ""))):
+                    errors.append(f"reading {rid} has an expectation without an id, a sentence, a reason or a date")
+                elif w.get("id") not in watch_ids:
+                    errors.append(f"reading {rid} expectation {w['id']} is not in watch.json")
+
+    # The ledger of expectations: ids unique, statuses known, a resolution exactly where the status says so.
+    if watch:
+        for w in watch.get("items", []):
+            if w.get("status") not in ("open", "kept", "failed"):
+                errors.append(f"watch item {w.get('id')} has unknown status {w.get('status')}")
+            if (w.get("status") == "open") == bool(w.get("resolved")):
+                errors.append(f"watch item {w.get('id')} is {w.get('status')} but its resolution says otherwise")
+            if w.get("resolved") and w["resolved"].get("how") not in ("headline", "expired"):
+                errors.append(f"watch item {w.get('id')} resolved by an unknown means")
+            if w.get("resolved") and w["resolved"].get("how") == "headline" and not w["resolved"].get("headlines"):
+                errors.append(f"watch item {w.get('id')} was settled by a headline but cites none")
+        if len(watch_ids) != len(watch.get("items", [])):
+            errors.append("duplicate ids in watch.json")
+
     if ledger:
         for key in ("editionAt", "arrived", "stayed", "departed"):
             if key not in ledger:
@@ -163,7 +189,8 @@ def main():
         return 1
     n_frag = sum(len(f) for r in readings["readings"] for f in [sum([ru.get("fragments", []) for ru in r["rungs"]], [])])
     n_h = sum(len(r.get("horizons", [])) for r in readings["readings"])
-    print(f"✓ {len(news['articles'])} headlines, {len(readings['readings'])} readings, {n_frag} fragments, {n_h} horizons, {len(book_ids)} books, {len(traj_ids)} trajectories")
+    n_w = len((watch or {}).get("items", []))
+    print(f"✓ {len(news['articles'])} headlines, {len(readings['readings'])} readings, {n_frag} fragments, {n_h} horizons, {len(book_ids)} books, {len(traj_ids)} trajectories, {n_w} expectations in the ledger")
     return 0
 
 

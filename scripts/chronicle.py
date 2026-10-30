@@ -36,6 +36,7 @@ DATA = ROOT / "data"
 OUT = DATA / "chronicle"
 CURRENT = DATA / "chronicle.json"
 RECORD = DATA / "record.json"
+WATCH = DATA / "watch.json"
 STATE = DATA / "chronicle-state.json"
 RECENT_EDITIONS = 30
 PRUNE_SILENT_AFTER = 14  # editions
@@ -47,7 +48,7 @@ def now_iso():
 
 BRIEF = """You keep the Chronicle of The Present Tense. The site lays out one day's world headlines as a field and publishes, once a day, three to five narratives: each an idea that joins unlike events in that day's headlines, with its evidence and the case against it. Every edition is kept, and where a narrative carries on one from the edition before it says so. The Chronicle is the zoomed-out view of all this: a running account of where things stand and which way they have been moving, by these headlines, over days and weeks. It is revised after each edition, not added to, so it always reads as a current understanding. Every version is kept, so readers can also see how the understanding changed.
 
-You will receive the previous Chronicle (or none, the first time), the recent editions in brief (for each narrative: edition stamp, id, kicker, line, and the id of the narrative it continues, if any), and today's edition in detail. Return the whole Chronicle, revised.
+You will receive the previous Chronicle (or none, the first time), the recent editions in brief (for each narrative: edition stamp, id, kicker, line, and the id of the narrative it continues, if any), today's edition in detail, and the ledger of expectations: the things earlier narratives said to watch for, which of them were kept or failed since the previous Chronicle and against which headline, and which are still open. Return the whole Chronicle, revised.
 
 The Chronicle has:
 - standing: three to five plain sentences on where things stand today by these headlines. Name the places, the prices, the people and the institutions. Not "the world is anxious"; rather "fuel refined from oil has been short in four countries for three days, Brazil's defeated right is leaving for the United States, and public schemes in six countries are reported as falling short".
@@ -60,6 +61,7 @@ The Chronicle has:
 - revision: one to three sentences on what changed in the Chronicle itself since its previous version: threads begun, threads ended, the standing rewritten, a direction reversed. The first time, say that this is the first version.
 
 Rules:
+- The ledger of expectations is evidence about the threads. Where an expectation was kept or failed, say so in the thread's text or in moved, dated, with what the headline reported; a failed expectation is a reason to doubt the thread's direction and to say so. Do not total the ledger or give a score; the site counts it.
 - A narrative whose "continues" names an earlier narrative belongs to that narrative's thread. A narrative that continues nothing starts a new thread, unless it plainly belongs to a silent thread, in which case revive that thread and keep its key.
 - Every narrative in today's edition appears in exactly one thread. Earlier narratives keep their threads.
 - A thread with no narrative in the last three editions is "silent". Keep silent threads, with their text left as it was or shortened; they are pruned later by the site, not by you.
@@ -104,6 +106,28 @@ SCHEMA = {
 }
 
 
+def watch_block(previous):
+    if not WATCH.exists():
+        return ""
+    try:
+        items = json.loads(WATCH.read_text()).get("items", [])
+    except ValueError:
+        return ""
+    if not items:
+        return ""
+    since = (previous or {}).get("generatedAt") or ""
+    recent = [w for w in items if w.get("resolved") and (w["resolved"].get("asOf") or "") >= since[:10]]
+    open_ = [w for w in items if w.get("status") == "open"]
+    lines = []
+    for w in recent:
+        res = w["resolved"]
+        heads = "; ".join(f"{h.get('publisher', '')} ({h.get('sourceCountry', '')}): {h.get('titleEnglish') or h.get('title', '')}" for h in res.get("headlines", [])[:2])
+        lines.append(f"{w['status'].upper()} on {res['asOf'][:10]} | set {w['asOf'][:10]} by {w['narrativeId']} ({w['firmness']}) | {w['what']} | {res.get('note', '')}{' | ' + heads if heads else ''}")
+    for w in open_:
+        lines.append(f"OPEN, runs to {w['by']} | set {w['asOf'][:10]} by {w['narrativeId']} ({w['firmness']}) | {w['what']}")
+    return "THE LEDGER OF EXPECTATIONS (settled since the previous Chronicle, then still open):\n" + "\n".join(lines) + "\n\n"
+
+
 def build_request(index, readings, previous):
     editions = index["editions"][:RECENT_EDITIONS]
     stamp = stamp_of(readings)
@@ -115,6 +139,8 @@ def build_request(index, readings, previous):
     today = []
     for r in readings["readings"]:
         today.append(f"id: {r['id']}\nkicker: {r['kicker']}\nline: {r['line']}\nfirmness: {r.get('firmness') or '-'}\ncontinues: {r.get('continues') or '-'}\nchange: {r.get('change') or '-'}\nevents: " + "; ".join(e["label"] for e in r.get("events", [])) + f"\nclaim: {r['claim']}")
+        if r.get("watch"):
+            today.append("to watch for: " + "; ".join(f"{w['what']} (by {w['by']})" for w in r["watch"]))
         brk = next((ru for ru in r["rungs"] if ru["kind"] == "break"), None)
         if brk:
             today.append("case against: " + " ".join(f["text"] for f in brk["fragments"]))
@@ -124,8 +150,9 @@ def build_request(index, readings, previous):
     user = (
         f"THE PREVIOUS CHRONICLE{' (revised for edition ' + prev_stamp + ')' if prev_stamp else ''}:\n{prev}\n\n"
         f"THE RECENT EDITIONS, oldest first:\n" + "\n".join(brief_lines) + "\n\n"
-        f"TODAY'S EDITION, {stamp} (headlines of {readings.get('newsGeneratedAt')}), in detail:\n" + "\n".join(today) +
-        "\nRevise the Chronicle."
+        f"TODAY'S EDITION, {stamp} (headlines of {readings.get('newsGeneratedAt')}), in detail:\n" + "\n".join(today) + "\n"
+        + watch_block(previous) +
+        "Revise the Chronicle."
     )
     return user
 
@@ -285,7 +312,7 @@ def main():
     usage = {"input": message.usage.input_tokens, "output": message.usage.output_tokens, "tier": "standard"}
     out = {
         "schemaVersion": 1, "editionStamp": stamp, "asOf": readings.get("newsGeneratedAt"), "generatedAt": now_iso(),
-        "model": message.model, "promptVersion": "chronicle-1", "usage": usage,
+        "model": message.model, "promptVersion": "chronicle-2", "usage": usage,
         "previousVersion": previous.get("editionStamp") if previous else None,
         "notes": ["A running account of where things stand by these headlines, revised after each edition rather than added to. Every version is kept.",
                   "Written by the model from the narratives, not from the headlines. It is a reading, not a record."],

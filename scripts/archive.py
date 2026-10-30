@@ -51,6 +51,7 @@ def summarise(edition, stamp):
             "countries": len({by[i]["sourceCountryCode"] for i in ids if i in by}),
             "continues": r.get("continues") or "",
             "firmness": r.get("firmness") or "",
+            "watch": len(r.get("watch") or []),
         })
     return {
         "stamp": stamp, "file": f"data/narratives/{stamp}.json",
