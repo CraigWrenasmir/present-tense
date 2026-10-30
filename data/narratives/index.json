@@ -1,6 +1,57 @@
 {
  "editions": [
   {
+   "stamp": "20261030T015732",
+   "file": "data/narratives/20261030T015732.json",
+   "newsGeneratedAt": "2026-10-30T01:57:32Z",
+   "generatedAt": "2026-10-30T02:08:50Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-5",
+   "narratives": [
+    {
+     "id": "ai-spending-growth-and-markdown",
+     "kicker": "CAPITAL / COMPUTE / VALUATION",
+     "line": "AI investment now drives a large part of US growth, while investors mark down the companies doing the spending.",
+     "events": 6,
+     "headlines": 14,
+     "countries": 10,
+     "continues": "data-centre-profit-and-dispute",
+     "firmness": "plausible"
+    },
+    {
+     "id": "washington-oil-price-two-wars",
+     "kicker": "ENERGY / THE VOTE / PRESSURE",
+     "line": "Before the US midterms, Washington is pressing for a lower oil price in two wars, and fuel taxes and budgets elsewhere are reset.",
+     "events": 6,
+     "headlines": 13,
+     "countries": 8,
+     "continues": "war-prices-reach-mortgages",
+     "firmness": "plausible"
+    },
+    {
+     "id": "contesting-the-count",
+     "kicker": "ELECTIONS / CERTIFICATION / POWER",
+     "line": "Since the Capitol riot of 2021, governing parties and losing candidates alike treat the vote count as something to contest.",
+     "events": 6,
+     "headlines": 15,
+     "countries": 10,
+     "continues": "",
+     "firmness": "plausible"
+    },
+    {
+     "id": "drones-and-the-return-of-mass",
+     "kicker": "AUTOMATION / MASS / MOBILISATION",
+     "line": "Cheap drones have made defence a matter of quantity again, so states are financing arms factories and widening conscription.",
+     "events": 6,
+     "headlines": 10,
+     "countries": 7,
+     "continues": "",
+     "firmness": "plausible"
+    }
+   ]
+  },
+  {
    "stamp": "20261029T045403",
    "file": "data/narratives/20261029T045403.json",
    "newsGeneratedAt": "2026-10-29T04:54:03Z",

@@ -1,14 +1,14 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-10-29T05:03:12Z",
-  "newsGeneratedAt": "2026-10-29T04:54:03Z",
+  "generatedAt": "2026-10-30T02:08:50Z",
+  "newsGeneratedAt": "2026-10-30T01:57:32Z",
   "method": "claude-api-batch",
   "model": "claude-opus-5-5",
   "promptVersion": "narrative-5",
-  "previousNewsGeneratedAt": "2026-10-27T20:19:45Z",
+  "previousNewsGeneratedAt": "2026-10-29T04:54:03Z",
   "usage": {
-    "input": 65529,
-    "output": 45727,
+    "input": 63659,
+    "output": 45843,
     "tier": "batch"
   },
   "notes": [
@@ -21,65 +21,31 @@
   ],
   "sourceArticles": [
     {
-      "id": "n-200e348dae8187",
-      "title": "Fed holds rates as inflation risks persist",
-      "titleEnglish": "Fed holds rates as inflation risks persist",
-      "url": "https://www.businessday.co.za/world/americas/2026-10-28-fed-holds-rates-as-inflation-risks-persist/",
-      "publisher": "Business Day",
-      "publisherDomain": "businessday.co.za",
-      "publishedAt": "2026-10-28T20:17:00Z",
-      "seenAt": "2026-10-28T20:17:00Z",
+      "id": "n-801be6891d785c",
+      "title": "La economía de Estados Unidos acelera en el tercer trimestre al crecer un 3,4% impulsada por la IA",
+      "titleEnglish": "US economy accelerates in third quarter, growing 3.4% driven by AI",
+      "url": "https://elpais.com/economia/2026-10-29/la-economia-de-estados-unidos-acelera-en-el-tercer-trimestre-al-crecer-un-34-impulsada-por-la-ia.html",
+      "publisher": "El País",
+      "publisherDomain": "elpais.com",
+      "publishedAt": "2026-10-29T12:35:37Z",
+      "seenAt": "2026-10-29T13:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Africa",
-      "sourceCountryCode": "ZA",
-      "sourceRegion": "Africa",
-      "sourceLat": -30,
-      "sourceLon": 25,
-      "language": "en"
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
     },
     {
-      "id": "n-736b6585dfd145",
-      "title": "Fed holds interest rates steady even as inflation remains stubborn",
-      "titleEnglish": "Fed holds interest rates steady even as inflation remains stubborn",
-      "url": "https://www.ideastream.org/2026-10-28/fed-holds-interest-rates-steady-even-as-inflation-remains-stubborn",
-      "publisher": "Ideastream Public Media",
-      "publisherDomain": "ideastream.org",
-      "publishedAt": "2026-10-28T18:04:42Z",
-      "seenAt": "2026-10-28T20:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "United States",
-      "sourceCountryCode": "US",
-      "sourceRegion": "North America",
-      "sourceLat": 39,
-      "sourceLon": -98,
-      "language": "en"
-    },
-    {
-      "id": "n-6002194c660c68",
-      "title": "沃什回避是否需要进一步加息的问题",
-      "titleEnglish": "Warsh on whether further rate hikes may be needed",
-      "url": "https://www.yicai.com/news/103414063.html",
-      "publisher": "yicai.com",
-      "publisherDomain": "yicai.com",
-      "publishedAt": "2026-10-28T19:47:00Z",
-      "seenAt": "2026-10-28T19:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "China",
-      "sourceCountryCode": "CN",
-      "sourceRegion": "Asia",
-      "sourceLat": 35,
-      "sourceLon": 104,
-      "language": "zh"
-    },
-    {
-      "id": "n-6d5094d0b921f0",
-      "title": "Euroopan keskuspankin odotetaan pitävän ohjauskorkonsa ennallaan",
-      "titleEnglish": "European Central Bank expected to keep its policy rate unchanged",
-      "url": "https://yle.fi/uutiset/lyhyesti/74-20253934",
+      "id": "n-59e3e948f2924e",
+      "title": "USA:n talouskasvu ylitti odotukset kulutuksen ja AI-investointien vetämänä",
+      "titleEnglish": "US economic growth beat expectations, driven by consumption and AI investment",
+      "url": "https://yle.fi/a/74-20254091",
       "publisher": "Yle Uutiset",
       "publisherDomain": "yle.fi",
-      "publishedAt": "2026-10-29T01:28:02Z",
-      "seenAt": "2026-10-29T03:47:00Z",
+      "publishedAt": "2026-10-29T13:31:48Z",
+      "seenAt": "2026-10-29T13:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Finland",
       "sourceCountryCode": "FI",
@@ -89,116 +55,65 @@
       "language": "fi"
     },
     {
-      "id": "n-d91431ef2275de",
-      "title": "9월 은행 주담대 금리 4.88%...14년5개월 만에 최고",
-      "titleEnglish": "Bank mortgage rates in September at 4.88%, highest in 14 years and 5 months",
-      "url": "https://www.hani.co.kr/arti/economy/economy_general/1284783.html",
-      "publisher": "한겨레",
-      "publisherDomain": "hani.co.kr",
-      "publishedAt": "2026-10-29T03:00:00Z",
-      "seenAt": "2026-10-29T03:47:00Z",
+      "id": "n-8f76bb4c461610",
+      "title": "Amazon profitiert von Cloud-Geschäft - WELT",
+      "titleEnglish": "Amazon benefits from cloud business - WELT",
+      "url": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/netzwelt/article6ae3b6165955c00547f807a4/amazon-profitiert-von-cloud-geschaeft.html",
+      "publisher": "DIE WELT",
+      "publisherDomain": "welt.de",
+      "publishedAt": "2026-10-29T22:47:00Z",
+      "seenAt": "2026-10-29T22:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Korea",
-      "sourceCountryCode": "KR",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 128,
-      "language": "ko"
-    },
-    {
-      "id": "n-f53c67d3765c2e",
-      "title": "고금리 현실로..주담대 고정금리 13년 만에 5% 진입",
-      "titleEnglish": "High interest rates become reality: fixed-rate mortgage loans enter 5% for the first time in 13 years",
-      "url": "https://www.fnnews.com/news/202610291114457145",
-      "publisher": "파이낸셜뉴스",
-      "publisherDomain": "fnnews.com",
-      "publishedAt": "2026-10-29T03:00:00Z",
-      "seenAt": "2026-10-29T03:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Korea",
-      "sourceCountryCode": "KR",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 128,
-      "language": "ko"
-    },
-    {
-      "id": "n-6023f697841911",
-      "title": "'빚 고민엔 1375'…채무상담 대표번호 29일 개통",
-      "titleEnglish": "'Debt worries? Call 1375': debt counselling hotline number opens on the 29th",
-      "url": "https://www.newspim.com/news/view/20261029000366",
-      "publisher": "뉴스핌",
-      "publisherDomain": "newspim.com",
-      "publishedAt": "2026-10-29T01:30:00Z",
-      "seenAt": "2026-10-29T01:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Korea",
-      "sourceCountryCode": "KR",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 128,
-      "language": "ko"
-    },
-    {
-      "id": "n-5d2babd806fd44",
-      "title": "住宅ローン金利が上昇、広島でも変動型から固定型へ借り換えの動き",
-      "titleEnglish": "Mortgage rates rise; in Hiroshima too, a move to refinance from variable to fixed rates",
-      "url": "https://www.47news.jp/15143493.html",
-      "publisher": "47NEWS",
-      "publisherDomain": "47news.jp",
-      "publishedAt": "2026-10-29T01:47:00Z",
-      "seenAt": "2026-10-29T01:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Japan",
-      "sourceCountryCode": "JP",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 138,
-      "language": "ja"
-    },
-    {
-      "id": "n-5c6562b7b71826",
-      "title": "ЦБ ограничит выдачу долгосрочных автокредитов с 2027 года",
-      "titleEnglish": "Central Bank to restrict issuance of long-term car loans from 2027",
-      "url": "https://iz.ru/2192520/2026-10-29/tcb-ogranichit-vydachu-dolgosrochnykh-avtokreditov-s-2027-goda",
-      "publisher": "Известия",
-      "publisherDomain": "iz.ru",
-      "publishedAt": "2026-10-28T22:32:42Z",
-      "seenAt": "2026-10-28T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Russia",
-      "sourceCountryCode": "RU",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
       "sourceRegion": "Europe",
-      "sourceLat": 61,
-      "sourceLon": 100,
-      "language": "ru"
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
     },
     {
-      "id": "n-41af444ebdf1a0",
-      "title": "UK growth forecast slashed to 1 for next year amid Iran war impact",
-      "titleEnglish": "UK growth forecast slashed to 1 for next year amid Iran war impact",
-      "url": "https://www.thisisoxfordshire.co.uk/news/national/26677720.uk-growth-forecast-slashed-1-next-year-amid-iran-war-impact/",
-      "publisher": "This is Oxfordshire",
-      "publisherDomain": "thisisoxfordshire.co.uk",
-      "publishedAt": "2026-10-28T13:47:00Z",
-      "seenAt": "2026-10-28T13:47:00Z",
+      "id": "n-4b8fc57fd6fce4",
+      "title": "KI-Boom: Amazon profitiert von Cloud-Geschäft",
+      "titleEnglish": "AI Boom: Amazon Profits From Cloud Business",
+      "url": "https://www.handelsblatt.com/technik/ki/ki-boom-amazon-profitiert-von-cloud-geschaeft/100265410.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-10-29T21:23:45Z",
+      "seenAt": "2026-10-29T22:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "United Kingdom",
-      "sourceCountryCode": "GB",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
       "sourceRegion": "Europe",
-      "sourceLat": 54,
-      "sourceLon": -2,
-      "language": "en"
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
     },
     {
-      "id": "n-da00863fbf8281",
-      "title": "Australia news LIVE: At least 68 killed in Spanish train crash; Labor under renewed pressure after inflation rise",
-      "titleEnglish": "Australia news LIVE: At least 68 killed in Spanish train crash; Labor under renewed pressure after inflation rise",
-      "url": "https://www.smh.com.au/national/australia-news-live-at-least-68-killed-in-spanish-train-collision-labor-under-renewed-pressure-after-inflation-rise-20261029-p619jl.html",
-      "publisher": "The Sydney Morning Herald",
-      "publisherDomain": "smh.com.au",
-      "publishedAt": "2026-10-28T19:45:36Z",
-      "seenAt": "2026-10-28T20:17:00Z",
+      "id": "n-52b9fa77ac1bcc",
+      "title": "Gastos da Amazon disparam em meio à desaceleração do crescimento das vendas on-line",
+      "titleEnglish": "Amazon Spending Soars Amid Slowdown in Online Sales Growth",
+      "url": "https://oglobo.globo.com/economia/negocios/noticia/2026/10/29/amazon-eleva-gastos-para-atender-a-crescente-demanda-por-servicos-de-ia.ghtml",
+      "publisher": "O Globo",
+      "publisherDomain": "oglobo.globo.com",
+      "publishedAt": "2026-10-29T22:47:00Z",
+      "seenAt": "2026-10-29T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-fcd519910b8baa",
+      "title": "Amazon's Q3 results miss analysts' estimates",
+      "titleEnglish": "Amazon's Q3 results miss analysts' estimates",
+      "url": "https://www.westernadvocate.com.au/story/9382759/amazons-q3-results-miss-analysts-estimates/",
+      "publisher": "westernadvocate.com.au",
+      "publisherDomain": "westernadvocate.com.au",
+      "publishedAt": "2026-10-29T21:12:36Z",
+      "seenAt": "2026-10-29T22:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Australia",
       "sourceCountryCode": "AU",
@@ -208,14 +123,14 @@
       "language": "en"
     },
     {
-      "id": "n-87327fc14000d9",
-      "title": "삼성SDI, 3분기 영업익 4078억원 깜짝 실적…AI 데이터센터 훈풍에 12분기 만에 최대",
-      "titleEnglish": "Samsung SDI Q3 operating profit of 407.8 billion won, a surprise; highest in 12 quarters on AI data center boost",
-      "url": "https://biz.heraldcorp.com/article/10918503",
+      "id": "n-680ecc02ce8a2f",
+      "title": "“믿었던 알파벳마저” 시총 5000억달러 증발…뉴욕증시 일제히 하락[투자360]",
+      "titleEnglish": "\"Even Alphabet, Which We Trusted\" Market Cap Evaporates by 500 Billion Dollars…New York Stocks All Fall [Investment 360]",
+      "url": "https://biz.heraldcorp.com/article/10919931",
       "publisher": "헤럴드경제",
       "publisherDomain": "biz.heraldcorp.com",
-      "publishedAt": "2026-10-29T00:31:36Z",
-      "seenAt": "2026-10-29T01:47:00Z",
+      "publishedAt": "2026-10-29T22:44:30Z",
+      "seenAt": "2026-10-29T22:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "South Korea",
       "sourceCountryCode": "KR",
@@ -225,167 +140,31 @@
       "language": "ko"
     },
     {
-      "id": "n-569f8f3ab1c15d",
-      "title": "Tekoälybuumi siivitti Samsungin tuloksen huimaan nousuun",
-      "titleEnglish": "AI boom propelled Samsung's results to a dizzying rise",
-      "url": "https://yle.fi/a/74-20253936",
-      "publisher": "Yle Uutiset",
-      "publisherDomain": "yle.fi",
-      "publishedAt": "2026-10-29T03:08:15Z",
-      "seenAt": "2026-10-29T03:47:00Z",
+      "id": "n-cd22dbdd701009",
+      "title": "Google-eigenaar Alphabet keldert op Wall Street na resultaten",
+      "titleEnglish": "Google parent Alphabet falls on Wall Street after results",
+      "url": "https://nieuws.nl/economie/google-eigenaar-alphabet-keldert-op-wall-street-na-resultaten",
+      "publisher": "Nieuws.nl",
+      "publisherDomain": "nieuws.nl",
+      "publishedAt": "2026-10-29T13:48:53Z",
+      "seenAt": "2026-10-29T14:17:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Finland",
-      "sourceCountryCode": "FI",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
       "sourceRegion": "Europe",
-      "sourceLat": 64,
-      "sourceLon": 26,
-      "language": "fi"
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
     },
     {
-      "id": "n-972ed9c5a4eaa9",
-      "title": "삼성SDS, 클라우드 성장에 물류도 날았다…피지컬 AI 본격 진출",
-      "titleEnglish": "Samsung SDS, logistics soared along with cloud growth; full-scale entry into physical AI",
-      "url": "https://www.newspim.com/news/view/20261029000478",
-      "publisher": "뉴스핌",
-      "publisherDomain": "newspim.com",
-      "publishedAt": "2026-10-29T01:40:00Z",
-      "seenAt": "2026-10-29T01:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Korea",
-      "sourceCountryCode": "KR",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 128,
-      "language": "ko"
-    },
-    {
-      "id": "n-6016ba29572bfb",
-      "title": "AI測試需求旺，中華精測Q3獲利翻倍、EPS 16.75元創高！明年營收拚近五成成長 | 魏鑫陽 | 財經",
-      "titleEnglish": "Strong demand for AI testing: CHPT Q3 profit doubles, EPS at record 16.75 yuan! Revenue to grow nearly 50% next year | Wei Xinyang | Finance",
-      "url": "https://www.storm.mg/article/11176626",
-      "publisher": "storm.mg",
-      "publisherDomain": "storm.mg",
-      "publishedAt": "2026-10-28T16:40:00Z",
-      "seenAt": "2026-10-28T16:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Taiwan",
-      "sourceCountryCode": "TW",
-      "sourceRegion": "Asia",
-      "sourceLat": 23.7,
-      "sourceLon": 121,
-      "language": "zh-Hant"
-    },
-    {
-      "id": "n-415725dcdf33db",
-      "title": "中華精測搶攻CPO測試介面！接洽逾5家廠商，加碼自製MEMS探針布局 | 魏鑫陽 | 財經",
-      "titleEnglish": "CHPT targets CPO test interfaces: in talks with over 5 vendors, adds in-house MEMS probe development | Wei Xinyang | Finance",
-      "url": "https://www.storm.mg/article/11176628",
-      "publisher": "storm.mg",
-      "publisherDomain": "storm.mg",
-      "publishedAt": "2026-10-28T16:38:00Z",
-      "seenAt": "2026-10-28T16:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Taiwan",
-      "sourceCountryCode": "TW",
-      "sourceRegion": "Asia",
-      "sourceLat": 23.7,
-      "sourceLon": 121,
-      "language": "zh-Hant"
-    },
-    {
-      "id": "n-1baadeabec6d98",
-      "title": "Fremmer hasteforslag om datasenterfrys",
-      "titleEnglish": "Introduces urgent proposal for data centre freeze",
-      "url": "https://www.nrk.no/artikkel/fremmer-hasteforslag-om-datasenterfrys-1531172",
-      "publisher": "nrk.no",
-      "publisherDomain": "nrk.no",
-      "publishedAt": "2026-10-28T16:05:58Z",
-      "seenAt": "2026-10-28T16:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Norway",
-      "sourceCountryCode": "NO",
-      "sourceRegion": "Europe",
-      "sourceLat": 64,
-      "sourceLon": 11,
-      "language": "no"
-    },
-    {
-      "id": "n-11a0fd269432b6",
-      "title": "Villmanstrand avverkade skog för ett datacenter – naturskyddsdistriktet förbereder en polisanmälan",
-      "titleEnglish": "Villmanstrand cleared forest for a data centre – nature conservation district prepares a police report",
-      "url": "https://yle.fi/a/7-10107751",
-      "publisher": "Svenska Yle",
-      "publisherDomain": "yle.fi",
-      "publishedAt": "2026-10-28T19:40:32Z",
-      "seenAt": "2026-10-28T20:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Finland",
-      "sourceCountryCode": "FI",
-      "sourceRegion": "Europe",
-      "sourceLat": 64,
-      "sourceLon": 26,
-      "language": "sv"
-    },
-    {
-      "id": "n-b2cde29ee2e2b8",
-      "title": "Cloud.ru планирует резерв мощностей на фоне атак на российские дата-центры",
-      "titleEnglish": "Cloud.ru plans capacity reserve amid attacks on Russian data centres",
-      "url": "https://www.kommersant.ru/doc/9063045",
-      "publisher": "Коммерсантъ",
-      "publisherDomain": "kommersant.ru",
-      "publishedAt": "2026-10-28T16:38:52Z",
-      "seenAt": "2026-10-28T16:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Russia",
-      "sourceCountryCode": "RU",
-      "sourceRegion": "Europe",
-      "sourceLat": 61,
-      "sourceLon": 100,
-      "language": "ru"
-    },
-    {
-      "id": "n-7e990c1ac5e44a",
-      "title": "'내란 우두머리' 윤석열 2심서도 사형 구형…김용현엔 무기징역(종합)",
-      "titleEnglish": "'Ringleader of insurrection' Yoon Suk Yeol again sentenced to death in second trial; Kim Yong-hyun gets life imprisonment (combined)",
-      "url": "https://www.fnnews.com/news/202610291228052977",
-      "publisher": "파이낸셜뉴스",
-      "publisherDomain": "fnnews.com",
-      "publishedAt": "2026-10-29T03:28:06Z",
-      "seenAt": "2026-10-29T03:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Korea",
-      "sourceCountryCode": "KR",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 128,
-      "language": "ko"
-    },
-    {
-      "id": "n-9cf49e135b3eec",
-      "title": "[속보] 특검, 윤석열 ‘내란 우두머리’ 2심서도 사형 구형",
-      "titleEnglish": "[BREAKING] Special counsel seeks death sentence for Yoon Suk Yeol as 'ringleader of insurrection' in second trial",
-      "url": "https://www.hani.co.kr/arti/society/society_general/1284786.html",
-      "publisher": "한겨레",
-      "publisherDomain": "hani.co.kr",
-      "publishedAt": "2026-10-29T03:25:00Z",
-      "seenAt": "2026-10-29T03:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Korea",
-      "sourceCountryCode": "KR",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 128,
-      "language": "ko"
-    },
-    {
-      "id": "n-70d45bec62979b",
-      "title": "韩国检方再次要求判处前总统尹锡悦死刑",
-      "titleEnglish": "South Korean prosecutors again seek death penalty for former president Yoon Suk Yeol",
-      "url": "https://www.nbd.com.cn/articles/2026-10-29/4626586.html",
-      "publisher": "nbd.com.cn",
-      "publisherDomain": "nbd.com.cn",
-      "publishedAt": "2026-10-29T04:47:00Z",
-      "seenAt": "2026-10-29T04:47:00Z",
+      "id": "n-d2d5f046a2b64d",
+      "title": "刚刚，全线跳水！两大利空，突袭美股",
+      "titleEnglish": "Just now: across-the-board plunge, two bearish factors hit US stocks",
+      "url": "https://finance.sina.com.cn/roll/2026-10-30/doc-iniwxzqi4851854.shtml",
+      "publisher": "finance.sina.com.cn",
+      "publisherDomain": "finance.sina.com.cn",
+      "publishedAt": "2026-10-29T23:21:34Z",
+      "seenAt": "2026-10-30T00:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "China",
       "sourceCountryCode": "CN",
@@ -395,14 +174,48 @@
       "language": "zh"
     },
     {
-      "id": "n-4c3b739859fa8c",
-      "title": "南韓前總統尹錫悅涉戒嚴內亂 二審特檢組「再度求處死刑」！ | ETtoday國際新聞 | ETtoday新聞雲",
-      "titleEnglish": "Former South Korean president Yoon Suk Yeol involved in martial law insurrection; special prosecution team in appeal again seeks death penalty! | ETtoday International News | ETtoday News Cloud",
-      "url": "https://www.ettoday.net/news/20261029/3262723.htm",
-      "publisher": "ETtoday新聞雲",
-      "publisherDomain": "ettoday.net",
-      "publishedAt": "2026-10-29T04:13:00Z",
-      "seenAt": "2026-10-29T04:47:00Z",
+      "id": "n-6d3b18b06ae7b0",
+      "title": "算力超级周期扩容提速 AIDC基建迎来深度重构",
+      "titleEnglish": "Computing power super cycle expands and accelerates; AIDC infrastructure faces deep restructuring",
+      "url": "https://www.yicai.com/brief/103417135.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-10-30T00:47:00Z",
+      "seenAt": "2026-10-30T00:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-91a770cfbda033",
+      "title": "中信建投：端侧有望成为AI的下一个浪潮",
+      "titleEnglish": "CITIC Construction Investment: Edge side expected to become the next wave of AI",
+      "url": "https://www.yicai.com/news/103417222.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-10-30T00:47:00Z",
+      "seenAt": "2026-10-30T00:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-88e3759e09df88",
+      "title": "友達售廠一成一停！388億元賣中科廠給台積電、估賺185億元！華亞廠案交易終止，廣達：AI產能規劃不受影響 | 魏鑫陽 | 財經",
+      "titleEnglish": "AUO: one-tenth of plants halted; 38.8 billion yuan sale of Zhongke plant to TSMC, estimated profit 18.5 billion yuan; Huaya plant deal terminated, Quanta says AI capacity planning unaffected | Wei Hsin-yang | Finance",
+      "url": "https://www.storm.mg/article/11176893",
+      "publisher": "storm.mg",
+      "publisherDomain": "storm.mg",
+      "publishedAt": "2026-10-29T10:33:00Z",
+      "seenAt": "2026-10-29T10:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Taiwan",
       "sourceCountryCode": "TW",
@@ -412,218 +225,150 @@
       "language": "zh-Hant"
     },
     {
-      "id": "n-f99dc159422ec8",
-      "title": "Alcolumbre planeja indulto ou anistia a Jair Bolsonaro - Tribuna do Norte",
-      "titleEnglish": "Alcolumbre plans pardon or amnesty for Jair Bolsonaro - Tribuna do Norte",
-      "url": "https://tribunadonorte.com.br/politica/alcolumbre-planeja-indulto-ou-anistia-a-jair-bolsonaro/",
-      "publisher": "Tribuna do Norte",
-      "publisherDomain": "tribunadonorte.com.br",
-      "publishedAt": "2026-10-29T01:36:21Z",
-      "seenAt": "2026-10-29T04:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Brazil",
-      "sourceCountryCode": "BR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -14,
-      "sourceLon": -52,
-      "language": "pt"
-    },
-    {
-      "id": "n-a68938be4fab38",
-      "title": "Brasil cancela el pasaporte a Flávio Bolsonaro, que podría haber huido del país",
-      "titleEnglish": "Brazil cancels passport of Flávio Bolsonaro, who may have fled the country",
-      "url": "https://www.dw.com/es/brasil-cancela-el-pasaporte-a-fl%C3%A1vio-bolsonaro-que-podr%C3%ADa-haber-huido-del-pa%C3%ADs/a-79781434",
-      "publisher": "dw.com",
-      "publisherDomain": "dw.com",
-      "publishedAt": "2026-10-28T19:47:00Z",
-      "seenAt": "2026-10-28T19:47:00Z",
+      "id": "n-0e4af043e03e5a",
+      "title": "Künstliche Intelligenz: Schwarz-Gruppe investiert groß in KI-Start-up Cohere",
+      "titleEnglish": "Artificial Intelligence: Schwarz Group invests heavily in AI start-up Cohere",
+      "url": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-schwarz-gruppe-investiert-gross-in-ki-start-up-cohere/100265983.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-10-29T16:55:18Z",
+      "seenAt": "2026-10-29T17:17:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Germany",
       "sourceCountryCode": "DE",
       "sourceRegion": "Europe",
       "sourceLat": 51,
       "sourceLon": 10,
-      "language": "es"
+      "language": "de"
     },
     {
-      "id": "n-77d9f3a224fcae",
-      "title": "Flávio Bolsonaro tuvo paso por Ecuador luego de huir de Brasil, confirman autoridades argentinas",
-      "titleEnglish": "Flávio Bolsonaro passed through Ecuador after fleeing Brazil, Argentine authorities confirm",
-      "url": "https://www.elcolombiano.com/inicio/flavio-bolsonaro-pasa-por-ecuador-y-destino-seria-miami-EI42863052",
-      "publisher": "El Colombiano",
-      "publisherDomain": "elcolombiano.com",
-      "publishedAt": "2026-10-28T13:49:12Z",
-      "seenAt": "2026-10-28T13:47:00Z",
+      "id": "n-43017e2c757f60",
+      "title": "Kanada dołączy do sieci superkomputerów UE. To początek szerszej współpracy w AI",
+      "titleEnglish": "Canada to join EU supercomputer network. This is the start of broader cooperation on AI",
+      "url": "https://wiadomosci.onet.pl/politico/kanada-dolaczy-do-sieci-superkomputerow-ue-to-poczatek-szerszej-wspolpracy-w/vmcktdc",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-10-29T17:17:00Z",
+      "seenAt": "2026-10-29T17:17:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Colombia",
-      "sourceCountryCode": "CO",
-      "sourceRegion": "Latin America",
-      "sourceLat": 4,
-      "sourceLon": -73,
-      "language": "es"
-    },
-    {
-      "id": "n-c31c7b4726a8c5",
-      "title": "Trump confirma su permiso para que Flávio Bolsonaro y su familia ingresaran a EE.UU.: “Fueron tratados muy injustamente” - La Tercera",
-      "titleEnglish": "Trump confirms he allowed Flávio Bolsonaro and his family to enter the US: \"They were treated very unfairly\" - La Tercera",
-      "url": "https://www.latercera.com/mundo/noticia/trump-confirma-su-permiso-para-que-flavio-bolsonaro-y-su-familia-ingresaran-a-eeuu-fueron-tratados-muy-injustamente/",
-      "publisher": "La Tercera",
-      "publisherDomain": "latercera.com",
-      "publishedAt": "2026-10-28T21:58:03Z",
-      "seenAt": "2026-10-28T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Chile",
-      "sourceCountryCode": "CL",
-      "sourceRegion": "Latin America",
-      "sourceLat": -33,
-      "sourceLon": -71,
-      "language": "es"
-    },
-    {
-      "id": "n-0d678ed41a35b4",
-      "title": "Flávio diz que não fugiu do Brasil. “Saí pelo Brasil”, disse - Tribuna do Norte",
-      "titleEnglish": "Flávio says he did not flee Brazil. \"I left through Brazil,\" he said - Tribuna do Norte",
-      "url": "https://tribunadonorte.com.br/politica/flavio-diz-que-nao-fugiu-do-brasil-sai-pelo-brasil-disse/",
-      "publisher": "Tribuna do Norte",
-      "publisherDomain": "tribunadonorte.com.br",
-      "publishedAt": "2026-10-29T01:34:37Z",
-      "seenAt": "2026-10-29T04:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Brazil",
-      "sourceCountryCode": "BR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -14,
-      "sourceLon": -52,
-      "language": "pt"
-    },
-    {
-      "id": "n-252e179d0b9253",
-      "title": "El informe pericial contradice la versión de Zapatero: ve poco probable que las joyas se fabricaran en Oriente Medio y antes de 2007",
-      "titleEnglish": "Expert report contradicts Zapatero's version: considers it unlikely that the jewels were made in the Middle East and before 2007",
-      "url": "https://www.elmundo.es/espana/2026/10/28/6ae24cc3e9cf4a5a638b4571.html",
-      "publisher": "El Mundo",
-      "publisherDomain": "elmundo.es",
-      "publishedAt": "2026-10-28T19:33:45Z",
-      "seenAt": "2026-10-28T20:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Spain",
-      "sourceCountryCode": "ES",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
       "sourceRegion": "Europe",
-      "sourceLat": 40,
-      "sourceLon": -4,
-      "language": "es"
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
     },
     {
-      "id": "n-c65c47ee0bd69e",
-      "title": "Respons Usulan Luhut, Komisi III DPR Buka Opsi Revisi UU Tipikor - merdeka.com",
-      "titleEnglish": "Response to Luhut's proposal, DPR Commission III opens option to revise Anti-Corruption Law - merdeka.com",
-      "url": "https://www.merdeka.com/politik/read/8323529/respons-usulan-luhut-komisi-iii-dpr-buka-opsi-revisi-uu-tipikor",
-      "publisher": "merdeka.com",
-      "publisherDomain": "merdeka.com",
-      "publishedAt": "2026-10-28T12:34:46Z",
-      "seenAt": "2026-10-28T13:47:00Z",
+      "id": "n-ac6ec6a340d206",
+      "title": "WSJ: Ukraina keskeytti iskut Venäjän öljynjalostamoihin Trumpin painostuksesta",
+      "titleEnglish": "WSJ: Ukraine halted strikes on Russian oil refineries under Trump's pressure",
+      "url": "https://yle.fi/uutiset/lyhyesti/74-20254141",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-10-30T00:19:13Z",
+      "seenAt": "2026-10-30T00:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Indonesia",
-      "sourceCountryCode": "ID",
-      "sourceRegion": "Asia",
-      "sourceLat": -2,
-      "sourceLon": 118,
-      "language": "id"
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
     },
     {
-      "id": "n-9767853aa9840e",
-      "title": "आजम खान के खिलाफ मनी लॉन्ड्रिंग मामले में ED की बड़ी कार्रवाई, 1170 करोड़ रुपए की जौहर यूनिवर्सिटी को किया जब्त",
-      "titleEnglish": "ED takes major action against Azam Khan in money laundering case, seizes Jauhar University worth 1,170 crore rupees",
-      "url": "https://www.punjabkesari.in/national/news/ed-attaches-jauhar-university-in-money-laundering-case-against-azam-khan-2394502",
-      "publisher": "punjabkesari",
-      "publisherDomain": "punjabkesari.in",
-      "publishedAt": "2026-10-29T03:37:01Z",
-      "seenAt": "2026-10-29T03:47:00Z",
+      "id": "n-e1ffbb08c08847",
+      "title": "На Западе объяснили стремление НАТО к перемирию на Украине",
+      "titleEnglish": "In the West, explanation given for NATO's push for a ceasefire in Ukraine",
+      "url": "https://lenta.ru/news/2026/10/30/na-zapade-ob-yasnili-stremlenie-nato-k-peremiriyu-na-ukraine/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-10-29T19:47:00Z",
+      "seenAt": "2026-10-29T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-062722d32ef045",
+      "title": "ईरान को मिला जेडी वेंस का शांति प्रस्ताव: लेकिन जवाब देने से बच रहा तेहरान; क्या थमेगा अमेरिका से युद्ध?",
+      "titleEnglish": "Iran receives JD Vance's peace proposal, but Tehran avoids responding; will the war with the United States end?",
+      "url": "https://www.amarujala.com/world/iran-receives-jd-vance-letter-to-revive-us-peace-talks-2026-10-30",
+      "publisher": "Amar Ujala",
+      "publisherDomain": "amarujala.com",
+      "publishedAt": "2026-10-30T00:47:00Z",
+      "seenAt": "2026-10-30T00:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "India",
       "sourceCountryCode": "IN",
       "sourceRegion": "Asia",
       "sourceLat": 22,
       "sourceLon": 79,
-      "language": "hi"
+      "language": "bh"
     },
     {
-      "id": "n-7bcb1e11d6b8ce",
-      "title": "Al menos 15 avisos de InfoAdif por problemas de señalización en torno a Urda desde 2024 | El Comercio: Diario de Asturias",
-      "titleEnglish": "At least 15 InfoAdif warnings about signalling problems around Urda since 2024 | El Comercio: Diario de Asturias",
-      "url": "https://www.elcomercio.es/sociedad/avisos-infoadif-problemas-senalizacion-torno-urda-2024-20261028190054-ntrc.html",
-      "publisher": "El Comercio: Diario de Asturias",
-      "publisherDomain": "elcomercio.es",
-      "publishedAt": "2026-10-28T18:00:54Z",
-      "seenAt": "2026-10-28T22:47:00Z",
+      "id": "n-5cd97b6bf3d2db",
+      "title": "سيناتور أميركي: اطلعنا على خطة ترمب لاستئناف ضرب إيران.. إنها",
+      "titleEnglish": "US senator: We have been briefed on Trump's plan to resume strikes on Iran.. it is",
+      "url": "https://www.khaberni.com/news/862227-%D8%B3%D9%8A%D9%86%D8%A7%D8%AA%D9%88%D8%B1-%D8%A7%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D8%A7%D8%B7%D9%84%D8%B9%D9%86%D8%A7-%D8%B9%D9%84%D9%89-%D8%AE%D8%B7%D8%A9-%D8%AA%D8%B1%D9%85%D8%A8-%D9%84%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81-%D8%B6%D8%B1%D8%A8-%D8%A7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%86%D9%87%D8%A7-%D8%AC%D9%86%D9%88%D9%86%D9%8A%D8%A9",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-10-29T19:47:00Z",
+      "seenAt": "2026-10-29T19:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Spain",
-      "sourceCountryCode": "ES",
-      "sourceRegion": "Europe",
-      "sourceLat": 40,
-      "sourceLon": -4,
-      "language": "es"
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
     },
     {
-      "id": "n-7423bf3c48faa8",
-      "title": "Maquinistas del AVE de Málaga advierten: la señalización ya estaba averiada ayer en el lugar del accidente | El Comercio: Diario de Asturias",
-      "titleEnglish": "AVE Málaga train drivers warn: the signalling was already faulty yesterday at the accident site | El Comercio: Asturias Daily",
-      "url": "https://www.elcomercio.es/sociedad/maquinistas-ave-malaga-advierten-senalizacion-averiada-ayer-20261028142930-ntrc.html",
-      "publisher": "El Comercio: Diario de Asturias",
-      "publisherDomain": "elcomercio.es",
-      "publishedAt": "2026-10-28T13:29:31Z",
-      "seenAt": "2026-10-28T13:47:00Z",
+      "id": "n-eac3016e7643d2",
+      "title": "صحيفة عمون : بريطانيا تدعم الفتح الكامل لمضيق هرمز وترفض أي قدرات نووية إيرانية",
+      "titleEnglish": "Amon Newspaper: Britain Supports Full Opening of the Strait of Hormuz and Rejects Any Iranian Nuclear Capabilities",
+      "url": "https://www.ammonnews.net/article/1040815",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-10-29T19:47:00Z",
+      "seenAt": "2026-10-29T19:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Spain",
-      "sourceCountryCode": "ES",
-      "sourceRegion": "Europe",
-      "sourceLat": 40,
-      "sourceLon": -4,
-      "language": "es"
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
     },
     {
-      "id": "n-8bed4103b38454",
-      "title": "El controlador de Atocha, al maquinista del AVE: “Desconecte y vuelva a conectar y reanude con marcha normal”",
-      "titleEnglish": "Atocha controller to AVE train driver: “Disconnect and reconnect, and resume at normal speed”",
-      "url": "https://elpais.com/espana/2026-10-28/el-controlador-de-atocha-al-maquinista-del-ave-desconecte-y-vuelva-a-conectar-y-reanude-con-marcha-normal.html",
-      "publisher": "El País",
-      "publisherDomain": "elpais.com",
-      "publishedAt": "2026-10-28T20:00:05Z",
-      "seenAt": "2026-10-28T20:17:00Z",
+      "id": "n-317daf49c23436",
+      "title": "U.S. Ponders Updated LNG Safety Rules To Accelerate Export Projects",
+      "titleEnglish": "U.S. Ponders Updated LNG Safety Rules To Accelerate Export Projects",
+      "url": "https://leadership.ng/u-s-ponders-updated-lng-safety-rules-to-accelerate-export-projects/",
+      "publisher": "LEADERSHIP Newspapers",
+      "publisherDomain": "leadership.ng",
+      "publishedAt": "2026-10-29T17:03:02Z",
+      "seenAt": "2026-10-29T17:17:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Spain",
-      "sourceCountryCode": "ES",
-      "sourceRegion": "Europe",
-      "sourceLat": 40,
-      "sourceLon": -4,
-      "language": "es"
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
     },
     {
-      "id": "n-07a44400146c34",
-      "title": "Collision meurtrière entre deux trains en Espagne : la piste d'une erreur humaine privilégiée",
-      "titleEnglish": "Deadly collision between two trains in Spain: human error considered the most likely cause",
-      "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/collision-meurtriere-entre-deux-trains-en-espagne-la-piste-d-une-erreur-humaine-privilegiee_8257868.html",
-      "publisher": "franceinfo",
-      "publisherDomain": "franceinfo.fr",
-      "publishedAt": "2026-10-28T19:41:57Z",
-      "seenAt": "2026-10-28T20:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "France",
-      "sourceCountryCode": "FR",
-      "sourceRegion": "Europe",
-      "sourceLat": 46,
-      "sourceLon": 2,
-      "language": "fr"
-    },
-    {
-      "id": "n-9a6d058165dc6e",
-      "title": "「眠気でブレーキかけ遅れ」JRが停車駅を通過、自動装置も作動せず：朝日新聞",
-      "titleEnglish": "\"Braking delayed due to drowsiness\": JR train passed through stop station, automatic system also did not activate: Asahi Shimbun",
-      "url": "https://www.asahi.com/articles/ASVBX4JHHVBXPTIL013M.html",
-      "publisher": "朝日新聞",
-      "publisherDomain": "asahi.com",
-      "publishedAt": "2026-10-28T13:59:00Z",
-      "seenAt": "2026-10-28T16:47:00Z",
+      "id": "n-bfec9b6818474d",
+      "title": "米国36州で知事選、民主優勢か 黒人女性で初も、中間選挙",
+      "titleEnglish": "Governor Elections in 36 US States, Democrats Likely to Lead; First Black Woman Too, Midterm Elections",
+      "url": "https://www.47news.jp/15158817.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-10-29T22:47:00Z",
+      "seenAt": "2026-10-29T22:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Japan",
       "sourceCountryCode": "JP",
@@ -633,167 +378,626 @@
       "language": "ja"
     },
     {
-      "id": "n-a8cce914fc2ed7",
-      "title": "Power Division forms probe committee over grid failure",
-      "titleEnglish": "Power Division forms probe committee over grid failure",
-      "url": "https://bdnews24.com/bangladesh/rlw1b33ceq",
-      "publisher": "bdnews24.com",
-      "publisherDomain": "bdnews24.com",
-      "publishedAt": "2026-10-28T09:31:53Z",
-      "seenAt": "2026-10-28T10:47:00Z",
+      "id": "n-50e9d1cf23d796",
+      "title": "הפתעה: מחיר הדלק יירד במוצ\"ש ב-42 אגורות - וואלה כסף",
+      "titleEnglish": "Surprise: fuel price will fall on Saturday night by 42 agorot - Walla Money",
+      "url": "https://finance.walla.co.il/item/3874197",
+      "publisher": "וואלה",
+      "publisherDomain": "finance.walla.co.il",
+      "publishedAt": "2026-10-29T13:47:00Z",
+      "seenAt": "2026-10-29T13:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Bangladesh",
-      "sourceCountryCode": "BD",
-      "sourceRegion": "Asia",
-      "sourceLat": 24,
-      "sourceLon": 90,
-      "language": "en"
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
     },
     {
-      "id": "n-502c75129f50a9",
-      "title": "NID server ‘down’, online services disrupted for three hours",
-      "titleEnglish": "NID server ‘down’, online services disrupted for three hours",
-      "url": "https://bdnews24.com/bangladesh/s97ow54h5e",
-      "publisher": "bdnews24.com",
-      "publisherDomain": "bdnews24.com",
-      "publishedAt": "2026-10-28T10:29:44Z",
-      "seenAt": "2026-10-28T10:47:00Z",
+      "id": "n-752a3047cd18c5",
+      "title": "Após duas semanas de queda, gasolina volta a subir na Refinaria Clara Camarão - Tribuna do Norte",
+      "titleEnglish": "After two weeks of decline, gasoline rises again at Clara Camarão Refinery - Tribuna do Norte",
+      "url": "https://tribunadonorte.com.br/economia/apos-duas-semanas-de-queda-gasolina-volta-a-subir-na-refinaria-clara-camarao/",
+      "publisher": "Tribuna do Norte",
+      "publisherDomain": "tribunadonorte.com.br",
+      "publishedAt": "2026-10-29T13:07:40Z",
+      "seenAt": "2026-10-29T16:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Bangladesh",
-      "sourceCountryCode": "BD",
-      "sourceRegion": "Asia",
-      "sourceLat": 24,
-      "sourceLon": 90,
-      "language": "en"
-    },
-    {
-      "id": "n-0f6fc0f7c7aead",
-      "title": "Broken CCTVs at NAIA flagged",
-      "titleEnglish": "Broken CCTVs at NAIA flagged",
-      "url": "https://www.philstar.com/headlines/2026/10/29/2566414/broken-cctvs-naia-flagged",
-      "publisher": "Philstar.com",
-      "publisherDomain": "philstar.com",
-      "publishedAt": "2026-10-28T17:17:00Z",
-      "seenAt": "2026-10-28T17:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Philippines",
-      "sourceCountryCode": "PH",
-      "sourceRegion": "Asia",
-      "sourceLat": 12,
-      "sourceLon": 122,
-      "language": "en"
-    },
-    {
-      "id": "n-97e07c7aeb1816",
-      "title": "¡No eres tú! Caída de internet HOY afecta a Izzi, Totalplay, Telmex, X, ChatGPT, Fortnite y WhatsApp en México",
-      "titleEnglish": "It's not you! Internet outage TODAY affects Izzi, Totalplay, Telmex, X, ChatGPT, Fortnite and WhatsApp in Mexico",
-      "url": "https://vanguardia.com.mx/noticias/no-eres-tu-caida-de-internet-hoy-afecta-a-izzi-totalplay-telmex-x-chatgpt-fortnite-y-whatsapp-en-mexico-JG24448256",
-      "publisher": "Vanguardia",
-      "publisherDomain": "vanguardia.com.mx",
-      "publishedAt": "2026-10-29T02:39:52Z",
-      "seenAt": "2026-10-29T03:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Mexico",
-      "sourceCountryCode": "MX",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
       "sourceRegion": "Latin America",
-      "sourceLat": 23,
-      "sourceLon": -102,
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-849980ee78d6ff",
+      "title": "Estados aprovam aumento do ICMS sobre gasolina, diesel e gás de cozinha para 2027 - Tribuna do Norte",
+      "titleEnglish": "States Approve Increase in ICMS Tax on Petrol, Diesel and Cooking Gas for 2027 - Tribuna do Norte",
+      "url": "https://tribunadonorte.com.br/economia/estados-aprovam-aumento-do-icms-sobre-gasolina-diesel-e-gas-de-cozinha-para-2027/",
+      "publisher": "Tribuna do Norte",
+      "publisherDomain": "tribunadonorte.com.br",
+      "publishedAt": "2026-10-29T21:28:22Z",
+      "seenAt": "2026-10-29T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-9e4b7136f112db",
+      "title": "Госдума приняла в первом чтении проект о снижении цены отсечения нефти до $50",
+      "titleEnglish": "State Duma passes in first reading bill to lower oil cut-off price to $50",
+      "url": "https://www.kommersant.ru/doc/9064188",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-10-29T19:15:30Z",
+      "seenAt": "2026-10-29T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-ccd86b399bff06",
+      "title": "Крупным финпланом: как депутаты предложили доработать бюджет на 2027-2029 годы",
+      "titleEnglish": "In detail: how deputies proposed revising the budget for 2027-2029",
+      "url": "https://iz.ru/2193017/milana-gadzhieva/kak-deputaty-predlozhili-dorabotat-byudzhet-na-2027-2029-gody",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-10-29T16:06:35Z",
+      "seenAt": "2026-10-29T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-86812eb2716849",
+      "title": "صحيفة عمون : روسيا: معدل التضخم يصل إلى نحو 7.1%",
+      "titleEnglish": "Amman newspaper: Russia: inflation rate reaches about 7.1%",
+      "url": "https://www.ammonnews.net/article/1040819",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-10-29T19:47:00Z",
+      "seenAt": "2026-10-29T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-9aca980904166c",
+      "title": "Em carta golpista, Flávio se diz presidente; Tarcísio prega respeito às urnas - Diário do Grande ABC",
+      "titleEnglish": "In coup letter, Flávio declares himself president; Tarcísio urges respect for the ballot boxes - Diário do Grande ABC",
+      "url": "https://www.dgabc.com.br/Noticia/4365658/em-carta-golpista-flavio-se-diz-presidente-tarcisio-prega-respeito-as-urnas",
+      "publisher": "Jornal Diário do Grande ABC",
+      "publisherDomain": "dgabc.com.br",
+      "publishedAt": "2026-10-29T07:00:00Z",
+      "seenAt": "2026-10-29T10:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-e119e811ee24d6",
+      "title": "Apenas a horas de la huida de Flávio Bolsonaro, la derecha de Brasil ya tiene un candidato y rechaza las denuncias de fraude",
+      "titleEnglish": "Just Hours After Flávio Bolsonaro's Flight, Brazil's Right Already Has a Candidate and Rejects Fraud Allegations",
+      "url": "https://www.clarin.com/mundo/apenas-horas-huida-flavio-bolsonaro-derecha-brasil-candidato-rechaza-denuncias-fraude_0_USbmXVRFOh.html",
+      "publisher": "Clarín",
+      "publisherDomain": "clarin.com",
+      "publishedAt": "2026-10-29T21:34:09Z",
+      "seenAt": "2026-10-29T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
       "language": "es"
     },
     {
-      "id": "n-0fe0cdae0a89cd",
-      "title": "El segundo accidente mortal de la alta velocidad en diez meses dinamita la campaña electoral para el 29-N | El Comercio: Diario de Asturias",
-      "titleEnglish": "The second fatal high-speed accident in ten months rocks the election campaign for 29-N | El Comercio: Asturias Daily",
-      "url": "https://www.elcomercio.es/politica/segundo-accidente-mortal-alta-velocidad-meses-dinamita-20261028143832-ntrc.html",
-      "publisher": "El Comercio: Diario de Asturias",
-      "publisherDomain": "elcomercio.es",
-      "publishedAt": "2026-10-28T13:38:32Z",
-      "seenAt": "2026-10-28T13:47:00Z",
+      "id": "n-0ea1ed2985caa8",
+      "title": "Valdemar Costa Neto diz não ter gostado de carta divulgada por Flávio Bolsonaro",
+      "titleEnglish": "Valdemar Costa Neto says he did not like the letter released by Flávio Bolsonaro",
+      "url": "https://noticias.r7.com/brasilia/valdemar-costa-neto-diz-nao-ter-gostado-do-teor-de-carta-divulgada-por-flavio-bolsonaro-29102026/",
+      "publisher": "Noticias R7",
+      "publisherDomain": "noticias.r7.com",
+      "publishedAt": "2026-10-29T13:39:54Z",
+      "seenAt": "2026-10-29T13:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Spain",
-      "sourceCountryCode": "ES",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-59aa190f0402b0",
+      "title": "Valdemar diz que Flávio se despediu do pai e depois nega que Jair soubesse de fuga",
+      "titleEnglish": "Valdemar says Flávio said goodbye to his father and then denies that Jair knew about the escape",
+      "url": "https://www.em.com.br/politica/2026/10/7530566-valdemar-diz-que-flavio-se-despediu-do-pai-e-depois-nega-que-jair-soubesse-de-fuga.html",
+      "publisher": "Estado de Minas",
+      "publisherDomain": "em.com.br",
+      "publishedAt": "2026-10-29T19:05:43Z",
+      "seenAt": "2026-10-29T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-0e08f31b7975ed",
+      "title": "Israel election result shows no overall majority as vote count complete",
+      "titleEnglish": "Israel election result shows no overall majority as vote count complete",
+      "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-10-29T22:47:00Z",
+      "seenAt": "2026-10-29T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-a40b63a0dd87d5",
+      "title": "صحيفة عمون : آيزنكوت يتهم نتنياهو بالسعي إلى \"نزع شرعية\" نتائج الانتخابات",
+      "titleEnglish": "Amman newspaper: Eisenkot accuses Netanyahu of seeking to \"delegitimize\" election results",
+      "url": "https://www.ammonnews.net/article/1040816",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-10-29T19:47:00Z",
+      "seenAt": "2026-10-29T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-61880ef9a6d5d6",
+      "title": "أيزنكوت يتحدى نتنياهو: لا تأجيل لتنصيب الكنيست وقوانين حاسمة على الطاولة",
+      "titleEnglish": "Eisenkot challenges Netanyahu: no postponement of Knesset swearing-in and decisive laws on the table",
+      "url": "https://www.khaberni.com/news/862193-%D8%A7%D9%8A%D8%B2%D9%86%D9%83%D9%88%D8%AA-%D9%8A%D8%AA%D8%AD%D8%AF%D9%89-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%84%D8%A7-%D8%AA%D8%A7%D8%AC%D9%8A%D9%84-%D9%84%D8%AA%D9%86%D8%B5%D9%8A%D8%A8-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D9%88%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86-%D8%AD%D8%A7%D8%B3%D9%85%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B7%D8%A7%D9%88%D9%84%D8%A9",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-10-29T17:17:00Z",
+      "seenAt": "2026-10-29T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-4c6f98c212ca86",
+      "title": "US-Parlamentswahlen: Medien: US-Ministerium weitet Ermittlung zu Alaska-Wahl aus",
+      "titleEnglish": "US Parliamentary Elections: Media: US Ministry Expands Investigation Into Alaska Vote",
+      "url": "https://www.handelsblatt.com/politik/international/us-parlamentswahlen-medien-us-ministerium-weitet-ermittlung-zu-alaska-wahl-aus/100265777.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-10-29T21:47:54Z",
+      "seenAt": "2026-10-29T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
       "sourceRegion": "Europe",
-      "sourceLat": 40,
-      "sourceLon": -4,
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-90399f15e82bf2",
+      "title": "Texas AG’s office sues Harris County clerk over accusations of selectively targeting demographics for voting ads",
+      "titleEnglish": "Texas AG’s office sues Harris County clerk over accusations of selectively targeting demographics for voting ads",
+      "url": "https://www.click2houston.com/news/local/2026/10/29/texas-ags-office-sues-harris-county-clerk-over-accusations-of-selectively-targeting-demographics-for-voting-ads/",
+      "publisher": "KPRC",
+      "publisherDomain": "click2houston.com",
+      "publishedAt": "2026-10-29T19:20:25Z",
+      "seenAt": "2026-10-29T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-d85b58a5152180",
+      "title": "Sądny dzień dla Trumpa. Co się stanie, jeśli przegra wybory [WYJAŚNIAMY]",
+      "titleEnglish": "Judgment day for Trump. What will happen if he loses the election [EXPLAINER]",
+      "url": "https://wiadomosci.onet.pl/swiat/sadny-dzien-dla-trumpa-co-sie-stanie-jesli-przegra-wybory-wyjasniamy/yb9f8hz",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-10-29T17:17:00Z",
+      "seenAt": "2026-10-29T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-81a0820afea9a6",
+      "title": "In Delhi, BJP booth agents file deletion forms against Muslim voters living at their addresses",
+      "titleEnglish": "In Delhi, BJP booth agents file deletion forms against Muslim voters living at their addresses",
+      "url": "https://www.thehindu.com/news/cities/Delhi/in-delhi-bjp-booth-agents-file-deletion-forms-against-muslim-voters-living-at-their-addresses/article71641353.ece",
+      "publisher": "The Hindu",
+      "publisherDomain": "thehindu.com",
+      "publishedAt": "2026-10-30T00:35:00Z",
+      "seenAt": "2026-10-30T00:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-43c9e8309c3202",
+      "title": "Imo: Uzodinma has never won election - Okorocha",
+      "titleEnglish": "Imo: Uzodinma has never won election - Okorocha",
+      "url": "https://dailypost.ng/2026/10/29/imo-uzodinma-has-never-won-election-okorocha/",
+      "publisher": "Daily Post Nigeria",
+      "publisherDomain": "dailypost.ng",
+      "publishedAt": "2026-10-29T19:10:29Z",
+      "seenAt": "2026-10-29T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-f99a9f578fa2c6",
+      "title": "Hope Uzodinma: I'm not happy over court judgement - Okorocha",
+      "titleEnglish": "Hope Uzodinma: I'm not happy over court judgement - Okorocha",
+      "url": "https://dailypost.ng/2026/10/29/hope-uzodinma-im-not-happy-over-court-judgment-okorocha/",
+      "publisher": "Daily Post Nigeria",
+      "publisherDomain": "dailypost.ng",
+      "publishedAt": "2026-10-29T18:46:51Z",
+      "seenAt": "2026-10-29T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-41981021aa2196",
+      "title": "Trump dice que las elecciones de Brasil fueron una \"desgracia\"",
+      "titleEnglish": "Trump says Brazil's elections were a \"disgrace\"",
+      "url": "https://www.dw.com/es/trump-dice-que-las-elecciones-de-brasil-fueron-una-desgracia/a-79801467",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-10-29T19:47:00Z",
+      "seenAt": "2026-10-29T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
       "language": "es"
+    },
+    {
+      "id": "n-22ee34a3fe28de",
+      "title": "قطر تنفي التدخل في الانتخابات الإسرائيلية وتتهم أطرافاً بالتضليل",
+      "titleEnglish": "Qatar denies interfering in Israeli elections and accuses parties of misinformation",
+      "url": "https://www.okaz.com.sa/politics/na/2273066",
+      "publisher": "عكاظ",
+      "publisherDomain": "okaz.com.sa",
+      "publishedAt": "2026-10-29T17:36:08Z",
+      "seenAt": "2026-10-29T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "ar"
+    },
+    {
+      "id": "n-eec6607027be33",
+      "title": "Сколько перехватчиков реактивных дронов есть у Украины: Флэш объяснил важный нюанс",
+      "titleEnglish": "How many interceptors against jet drones does Ukraine have: Flash explains an important nuance",
+      "url": "https://www.unian.net/weapons/perehvatchiki-reaktivnyh-shahedov-flesh-obyasnil-v-chem-seychas-zaklyuchaetsya-ih-problema-13543893.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-10-29T14:17:00Z",
+      "seenAt": "2026-10-29T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-b75150789ceaf3",
+      "title": "Россия навязывает Украине инженерную гонку по производству дронов: Флэш о новых угрозах",
+      "titleEnglish": "Russia imposes an engineering race on Ukraine in drone production: Flash on new threats",
+      "url": "https://www.unian.net/war/rossiya-narashchivaet-proizvodstvo-dlya-usileniya-dronovyh-udarov-po-ukraine-flesh-rasskazal-poslednie-novosti-13543872.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-10-29T14:17:00Z",
+      "seenAt": "2026-10-29T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-c6b3dafb44b41d",
+      "title": "\"Все контролируют военные\": Флэш рассказал, как в Украине работает частная ПВО",
+      "titleEnglish": "\"The military controls everything\": Flash describes how private air defense works in Ukraine",
+      "url": "https://www.unian.net/weapons/chastnaya-pvo-v-ukraine-flesh-obyasnil-kak-ona-rabotaet-13543866.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-10-29T14:17:00Z",
+      "seenAt": "2026-10-29T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-8d7a12ebd38124",
+      "title": "Rekordowy atak dronów na Rosję. Paraliż lotnisk w Moskwie i Sankt Petersburgu",
+      "titleEnglish": "Record drone attack on Russia. Airports in Moscow and Saint Petersburg paralysed",
+      "url": "https://wiadomosci.onet.pl/swiat/rekordowy-atak-dronow-na-rosje-paraliz-lotnisk-w-moskwie-i-sankt-petersburgu/71ffj3l",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-10-29T17:17:00Z",
+      "seenAt": "2026-10-29T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-52d900d30807e2",
+      "title": "Ukraine-Krieg: Selenskyj vermeldet Zerstörung russischer Kampfjets am Boden – Moskau reagiert mit Raketen - WELT",
+      "titleEnglish": "Ukraine war: Zelensky reports destruction of Russian fighter jets on the ground – Moscow responds with missiles - WELT",
+      "url": "https://www.welt.de/politik/ausland/article6ae3c1cfaacefa08f5b98b49/ukraine-krieg-selenskyj-vermeldet-zerstoerung-russischer-kampfjets-am-boden-moskau-reagiert-mit-raketen.html",
+      "publisher": "DIE WELT",
+      "publisherDomain": "welt.de",
+      "publishedAt": "2026-10-29T22:47:00Z",
+      "seenAt": "2026-10-29T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-8aefb7d705c906",
+      "title": "Iran tuyên bố chiếm quyền kiểm soát UAV trinh sát của Mỹ",
+      "titleEnglish": "Iran claims it has taken control of US reconnaissance UAV",
+      "url": "https://dantri.com.vn/the-gioi/iran-tuyen-bo-chiem-quyen-kiem-soat-uav-trinh-sat-cua-my-20261029203008800.htm",
+      "publisher": "Báo điện tử Dân trí",
+      "publisherDomain": "dantri.com.vn",
+      "publishedAt": "2026-10-29T14:17:00Z",
+      "seenAt": "2026-10-29T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Vietnam",
+      "sourceCountryCode": "VN",
+      "sourceRegion": "Asia",
+      "sourceLat": 16,
+      "sourceLon": 107,
+      "language": "vi"
+    },
+    {
+      "id": "n-3ca0d7968aad33",
+      "title": "Puolustusvoimat kokeilee VR-laseja droonitorjunnan kouluttamisessa",
+      "titleEnglish": "Finnish Defence Forces test VR lasers in training for counter-drone operations",
+      "url": "https://yle.fi/a/74-20254076",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-10-29T13:12:40Z",
+      "seenAt": "2026-10-29T13:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-668c02ca794b2c",
+      "title": "Lituânia vai ter serviço militar obrigatório para todos os homens a partir de 2032",
+      "titleEnglish": "Lithuania Will Have Compulsory Military Service for All Men From 2032",
+      "url": "https://executivedigest.sapo.pt/lituania-vai-ter-servico-militar-obrigatorio-para-todos-os-homens-a-partir-de-2032/",
+      "publisher": "Executive Digest",
+      "publisherDomain": "executivedigest.sapo.pt",
+      "publishedAt": "2026-10-29T22:24:31Z",
+      "seenAt": "2026-10-29T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-f29797f795f3b6",
+      "title": "НБУ спростив умови кредитування підприємств ОПК під державні контракти",
+      "titleEnglish": "NBU eases lending terms for defence-industry enterprises under state contracts",
+      "url": "https://lb.ua/society/2026/10/29/777004_nbu_sprostiv_umovi_kredituvannya.html",
+      "publisher": "LB.ua",
+      "publisherDomain": "lb.ua",
+      "publishedAt": "2026-10-29T10:47:00Z",
+      "seenAt": "2026-10-29T10:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "uk"
+    },
+    {
+      "id": "n-56ea37c84d355b",
+      "title": "John Ivison: Ottawa lets a key Arctic defence-tech company slip into foreign hands",
+      "titleEnglish": "John Ivison: Ottawa lets a key Arctic defence-tech company slip into foreign hands",
+      "url": "https://nationalpost.com/opinion/https-beta-nationalpost-com-news-john-ivison-canada-lets-arctic-defence-tech-company-slip-into-foreign-hands",
+      "publisher": "nationalpost",
+      "publisherDomain": "nationalpost.com",
+      "publishedAt": "2026-10-29T10:47:00Z",
+      "seenAt": "2026-10-29T10:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
     }
   ],
   "readings": [
     {
-      "id": "war-prices-reach-mortgages",
-      "line": "The Iran war's price rise holds central bank rates up, and households meet it as the highest mortgage rates in over a decade.",
-      "kicker": "A WAR / INTEREST / BORROWERS",
+      "id": "ai-spending-growth-and-markdown",
+      "line": "AI investment now drives a large part of US growth, while investors mark down the companies doing the spending.",
+      "kicker": "CAPITAL / COMPUTE / VALUATION",
       "firmness": "plausible",
-      "continues": "iran-war-fuel-squeeze-refined-products",
-      "change": "The previous edition followed the war's fuel prices into air fares, luggage fees, asphalt and subsidies. Today the same price rise appears one step further on, in central bank decisions and in mortgage and loan rates in South Korea, Japan and Russia. The fuel headlines have not gone away, but the new evidence is about the cost of borrowing.",
-      "claim": "The Fed holds rates while its chair Warsh is asked about further hikes, the ECB is expected to hold, South Korean mortgage rates reach their highest in over 13 years, Hiroshima borrowers switch to fixed loans, Russia's central bank restricts long car loans, and the UK cuts its growth forecast over the Iran war. These are the same price rise seen at different points: fuel and food costs keep central banks from cutting, and lenders pass that decision on to households. The war that raised fares and asphalt prices in the previous edition is now being paid for in loan contracts that run for years.",
+      "continues": "data-centre-profit-and-dispute",
+      "change": "The previous edition followed AI data centres through Asian hardware profits and European planning disputes. Today the same spending appears in the US national accounts, where third-quarter growth of 3.4% is credited to AI investment, and in the quarterly results of Amazon and Alphabet, where the stock market reacted to the cost. A Taiwanese display maker selling a plant to TSMC carries the Asian side forward.",
+      "claim": "US third-quarter growth of 3.4%, credited to AI investment, was reported in Spain and Finland on the same day as Amazon's cloud profits and rising spending and a fall in Alphabet's market value, reported from Germany, Brazil, Australia, South Korea and the Netherlands. Chinese brokers describe a computing-power super cycle, a Taiwanese display maker sells a plant to TSMC, and a German retailer and the Canadian government buy into AI capacity of their own. One programme of spending on data centres and chips now shows up at once as national growth, corporate profit, a factory changing hands and a falling share price. What this week adds is that the market has begun to price the cost of the spending separately from what it promises.",
       "events": [
         {
-          "label": "Fed holds, Warsh weighs further hikes",
+          "label": "US growth credited to AI investment",
           "articleIds": [
-            "n-200e348dae8187",
-            "n-736b6585dfd145",
-            "n-6002194c660c68"
+            "n-801be6891d785c",
+            "n-59e3e948f2924e"
           ]
         },
         {
-          "label": "ECB expected to hold its rate",
+          "label": "Amazon's cloud profits and rising spending",
           "articleIds": [
-            "n-6d5094d0b921f0"
+            "n-8f76bb4c461610",
+            "n-4b8fc57fd6fce4",
+            "n-52b9fa77ac1bcc",
+            "n-fcd519910b8baa"
           ]
         },
         {
-          "label": "Korean mortgage rates hit 14-year high",
+          "label": "Alphabet loses value after results",
           "articleIds": [
-            "n-d91431ef2275de",
-            "n-f53c67d3765c2e",
-            "n-6023f697841911"
+            "n-680ecc02ce8a2f",
+            "n-cd22dbdd701009",
+            "n-d2d5f046a2b64d"
           ]
         },
         {
-          "label": "Hiroshima borrowers refinance to fixed rates",
+          "label": "Chinese brokers forecast a computing super cycle",
           "articleIds": [
-            "n-5d2babd806fd44"
+            "n-6d3b18b06ae7b0",
+            "n-91a770cfbda033"
           ]
         },
         {
-          "label": "Russia restricts long-term car loans",
+          "label": "AUO sells a plant to TSMC",
           "articleIds": [
-            "n-5c6562b7b71826"
+            "n-88e3759e09df88"
           ]
         },
         {
-          "label": "UK growth cut, Australian inflation rises",
+          "label": "German retailer and Canada buy AI capacity",
           "articleIds": [
-            "n-41af444ebdf1a0",
-            "n-da00863fbf8281"
+            "n-0e4af043e03e5a",
+            "n-43017e2c757f60"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "a-obs-1",
+          "id": "ai-r1",
           "kind": "observation",
-          "label": "Rate decisions in Washington and Frankfurt",
+          "label": "Growth and earnings together",
           "fragments": [
             {
-              "id": "a-obs-1-f1",
-              "label": "The Fed holds",
-              "text": "Business Day in South Africa reports that the Fed held rates 'as inflation risks persist', and Ideastream in the US that it held 'even as inflation remains stubborn'. Yicai in China reports Fed chair Warsh being asked whether further rate hikes may be needed. The question in these reports is whether rates rise again, not when cuts resume.",
+              "id": "ai-r1-f1",
+              "label": "US growth credited to AI",
+              "text": "El País in Spain reports that the US economy accelerated in the third quarter, growing 3.4% driven by AI. Yle in Finland says growth beat expectations, driven by consumption and AI investment. Neither headline says how much of the growth came from AI alone.",
               "articleIds": [
-                "n-200e348dae8187",
-                "n-736b6585dfd145",
-                "n-6002194c660c68"
+                "n-801be6891d785c",
+                "n-59e3e948f2924e"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "a-obs-1-f2",
-              "label": "The ECB holds",
-              "text": "Yle in Finland reports that the European Central Bank is expected to keep its policy rate unchanged. The headline gives no reason. A hold in the same week as the Fed's leaves borrowing costs in both currency areas where they are.",
+              "id": "ai-r1-f2",
+              "label": "Amazon read two ways",
+              "text": "WELT and Handelsblatt in Germany lead with Amazon profiting from its cloud business, Handelsblatt under the heading of the AI boom. O Globo in Brazil leads with Amazon's spending soaring while online sales growth slows, and the Western Advocate in Australia with a third quarter that missed analysts' estimates. The same results are reported as profit in one country and as cost in another.",
               "articleIds": [
-                "n-6d5094d0b921f0"
+                "n-8f76bb4c461610",
+                "n-4b8fc57fd6fce4",
+                "n-52b9fa77ac1bcc",
+                "n-fcd519910b8baa"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "ai-r1-f3",
+              "label": "Alphabet's fall",
+              "text": "Herald Business in South Korea reports that Alphabet, a company 'we trusted', lost 500 billion dollars of market value as New York stocks all fell. Nieuws.nl in the Netherlands reports Alphabet falling on Wall Street after its results, and Sina Finance in China an across-the-board plunge driven by two bearish factors. On Bluesky the trending phrasing was that Google's AI Mode sank Alphabet shares.",
+              "articleIds": [
+                "n-680ecc02ce8a2f",
+                "n-cd22dbdd701009",
+                "n-d2d5f046a2b64d"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -801,29 +1005,29 @@
           ]
         },
         {
-          "id": "a-obs-2",
+          "id": "ai-r2",
           "kind": "observation",
-          "label": "Borrowers in Korea, Japan and Russia",
+          "label": "Buyers and sellers of capacity",
           "fragments": [
             {
-              "id": "a-obs-2-f1",
-              "label": "Korean mortgages",
-              "text": "Hankyoreh reports that bank mortgage rates in September reached 4.88 per cent, the highest in 14 years and 5 months. Financial News reports fixed-rate mortgage loans entering 5 per cent for the first time in 13 years. Newspim reports a government debt-counselling hotline, 1375, opening on the 29th.",
+              "id": "ai-r2-f1",
+              "label": "China and Taiwan",
+              "text": "Yicai in China reports that the computing-power super cycle is expanding and that AI data centre infrastructure faces deep restructuring, and carries a CITIC Construction Investment note naming edge devices as the next wave. Storm Media in Taiwan reports that AUO has halted a tenth of its plants and is selling its Zhongke plant to TSMC for 38.8 billion, while Quanta says its AI capacity plans are unaffected by a cancelled deal.",
               "articleIds": [
-                "n-d91431ef2275de",
-                "n-f53c67d3765c2e",
-                "n-6023f697841911"
+                "n-6d3b18b06ae7b0",
+                "n-91a770cfbda033",
+                "n-88e3759e09df88"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "a-obs-2-f2",
-              "label": "Hiroshima and Moscow",
-              "text": "47NEWS reports rising mortgage rates in Japan and borrowers in Hiroshima refinancing from variable to fixed rates. Izvestia reports that Russia's Central Bank will restrict long-term car loans from 2027. Both are responses to credit that is expected to stay expensive.",
+              "id": "ai-r2-f2",
+              "label": "Europe and Canada",
+              "text": "Handelsblatt reports that the Schwarz Group, the German retail group, is investing heavily in the AI start-up Cohere. Onet in Poland reports that Canada will join the EU's supercomputer network as the start of broader cooperation on AI. Both are buyers outside the large American cloud firms seeking computing they control.",
               "articleIds": [
-                "n-5d2babd806fd44",
-                "n-5c6562b7b71826"
+                "n-0e4af043e03e5a",
+                "n-43017e2c757f60"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -831,30 +1035,31 @@
           ]
         },
         {
-          "id": "a-int-1",
+          "id": "ai-r3",
           "kind": "interpretation",
-          "label": "From fuel prices to loan rates",
+          "label": "One expense, several readings",
           "fragments": [
             {
-              "id": "a-int-1-f1",
-              "label": "The chain",
-              "text": "This Is Oxfordshire reports the UK growth forecast cut for next year 'amid Iran war impact', and the Sydney Morning Herald's live page reports Labor under pressure after an inflation rise. These sit in the middle of a chain: the war raises fuel and food prices, central banks hold rather than cut, and lenders pass the held rate to households. The previous edition followed the first link into fares and asphalt; the Korean and Japanese loan figures are the last link.",
+              "id": "ai-r3-f1",
+              "label": "Spending as output and as cost",
+              "text": "The join is a shared cause: the build-out of data centres and chips. In the national accounts this spending counts as investment and so raises growth. At Amazon it appears both as cloud revenue and as capital spending that O Globo puts in its headline, and at Alphabet the market reacted to the results by cutting the share price. When the same expenditure lifts GDP and lowers valuations in one week, statisticians are counting the outlay while investors are asking when it will pay.",
               "articleIds": [
-                "n-41af444ebdf1a0",
-                "n-da00863fbf8281",
-                "n-d91431ef2275de"
+                "n-801be6891d785c",
+                "n-52b9fa77ac1bcc",
+                "n-680ecc02ce8a2f"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "a-int-1-f2",
-              "label": "Fixed rates as a forecast",
-              "text": "A borrower who switches from a variable to a fixed rate, as in Hiroshima, or a bank that prices fixed loans above 5 per cent, as in Korea, is betting that rates will stay high for years. Those bets turn a price shock into a cost carried for the length of a mortgage. The Russian car loan rule shows a central bank adding a limit on loan terms when the rate alone does not slow borrowing.",
+              "id": "ai-r3-f2",
+              "label": "The supply side moves",
+              "text": "Further from the American results, the same demand reorganises factories and ownership. A Taiwanese display maker shrinking its operations sells a plant to the chipmaker that supplies the boom, Chinese brokers look for the next place the money goes, and a German retailer and the Canadian government pay for capacity of their own rather than renting it.",
               "articleIds": [
-                "n-5d2babd806fd44",
-                "n-f53c67d3765c2e",
-                "n-5c6562b7b71826"
+                "n-88e3759e09df88",
+                "n-91a770cfbda033",
+                "n-0e4af043e03e5a",
+                "n-43017e2c757f60"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -862,27 +1067,29 @@
           ]
         },
         {
-          "id": "a-break",
+          "id": "ai-r4",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "a-break-f1",
-              "label": "Separate causes",
-              "text": "Japan's rates have been rising since the Bank of Japan ended negative rates in March 2024, for reasons in its own wage and price cycle. Korea's mortgage rates depend heavily on its housing market and household debt. Russia's car loan limit belongs to a war economy shaped by Ukraine and sanctions. None of the central bank headlines names Iran; only the UK growth forecast does.",
+              "id": "ai-r4-f1",
+              "label": "Different reasons for the falls",
+              "text": "Alphabet's fall may have more to do with the threat AI answers pose to its search advertising than with how much it spends, which is what the Bluesky phrasing suggests. Amazon's miss may be a retail story, and Sina's 'two bearish factors' are not named. US growth was also driven by consumption, which Yle puts first.",
               "articleIds": [
-                "n-5d2babd806fd44",
-                "n-5c6562b7b71826",
-                "n-200e348dae8187"
+                "n-680ecc02ce8a2f",
+                "n-fcd519910b8baa",
+                "n-59e3e948f2924e"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "a-break-f2",
-              "label": "What the events do not share",
-              "text": "The events do not share an instrument: one is a policy hold, one a market mortgage rate, one a household's refinancing choice, one a cap on loan terms. They share only the direction of borrowing costs. A reader could explain that direction without the war at all, as inflation left over from 2022.",
-              "articleIds": [],
+              "id": "ai-r4-f2",
+              "label": "A calendar, not a turn",
+              "text": "Late October is when the large US technology firms report, so a cluster of earnings headlines is a feature of the calendar. The other events part from the join: AUO is a display maker cutting capacity for reasons of its own, Schwarz is a retailer making a strategic bet, and Canada's step is membership of a research network. They share a subject, AI, more than a mechanism, and none of them shows that the spending is failing to pay.",
+              "articleIds": [
+                "n-88e3759e09df88"
+              ],
               "bookIds": [],
               "trajectoryIds": []
             }
@@ -894,10 +1101,10 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "PANDEMIC / PRICES / RATES",
-          "text": "The years since 2020 put two price shocks back to back. Supply disruption after the pandemic and the gas crisis after Russia's invasion of Ukraine in February 2022 took US inflation to 9.1 per cent in June 2022. The Fed raised its rate from near zero to 5.25-5.5 per cent by July 2023, and the ECB moved its deposit rate up from minus 0.5 per cent. Cuts began in 2024 and were expected to continue. By these headlines, a war with Iran has since lifted fuel and food prices again: the UK growth forecast is cut 'amid Iran war impact', and the Fed under Warsh holds 'as inflation remains stubborn'. The Korean mortgage rate of 4.88 per cent is the household end of that sequence. The June 2025 strikes on Fordow were an earlier round of the conflict whose price effects now sit inside central bank statements. Whether today's inflation is driven by the war or is the remainder of the 2022 wave is contested.",
+          "lens": "SOFTWARE / CAPITAL / STATISTICS",
+          "text": "ChatGPT was released on 30 November 2022 and reached about a hundred million users in two months. Within a year Microsoft, Alphabet, Amazon and Meta had each told shareholders they would raise capital spending, mostly on data centres and Nvidia chips, and by 2025 their combined annual budgets were reported in the hundreds of billions of dollars. The pandemic had already moved offices, schools and shops onto rented cloud servers in 2020 and 2021, so the firms selling computing were the ones with cash to spend when the new demand arrived. Because business investment enters GDP directly, this private building programme became visible in the US national accounts, which is how El País and Yle can report third-quarter growth of 3.4% as driven by AI. The same years produced the question now put to Alphabet and Amazon each quarter: whether revenue will follow the outlay. A share price answers that question every three months; the growth figure does not ask it.",
           "trajectoryIds": [
-            "fordow-2025"
+            "chatgpt-2022"
           ],
           "bookIds": []
         },
@@ -905,8 +1112,8 @@
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "CRISIS / CHEAP MONEY / HOUSEHOLD DEBT",
-          "text": "After Lehman Brothers failed in September 2008, the main central banks cut rates to zero and bought government bonds for most of a decade. The Fed held near zero from December 2008 to December 2015; the ECB went negative in 2014. Cheap money moved into housing. South Korean household debt rose to roughly the size of the whole economy, among the highest ratios in the world, and much of it carried variable rates tied to bank funding costs. That design is why a policy hold in Washington shows up quickly as a mortgage figure in Seoul, and why Korea is opening a debt-counselling line. Adam Tooze argues in Crashed that the 2008 rescue made the Fed the lender of last resort to the world's dollar system, which is why its decision is reported this morning from Johannesburg and Shanghai. A generation took loans assuming rates near zero; the Hiroshima switch from variable to fixed is that assumption being withdrawn.",
+          "lens": "CREDIT / CLOUD / FOUNDRIES",
+          "text": "After Lehman Brothers failed in September 2008, the Federal Reserve held its policy rate near zero until late 2015 and again from 2020 to 2022. Cheap money favoured companies that promised large future earnings, and the cloud businesses fitted: Amazon Web Services, launched in 2006, provided most of Amazon's operating profit through much of the 2010s, which is why WELT and Handelsblatt read this quarter's results through it. The same decade concentrated advanced chip manufacturing in Taiwan, as TSMC won the smartphone contracts and rivals left the most expensive production processes. Display makers such as AUO, which grew on the television and monitor boom of the 2000s, faced Chinese competitors backed by state credit. A panel maker selling a plant to TSMC is one end of that sorting of the Taiwanese electronics industry into the foundry and the rest. Adam Tooze's account of the crisis years explains why the cheap credit lasted as long as it did.",
           "trajectoryIds": [
             "lehman-2008"
           ],
@@ -918,232 +1125,8 @@
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "BUBBLES / DEFLATION / CAPITAL FLOWS",
-          "text": "Japan's asset bubble burst in 1990, and the Bank of Japan spent most of the next thirty years at or below zero, cutting to zero in 1999 and going negative in 2016. Variable-rate home loans became the Japanese norm because the variable rate barely moved for a generation. The bank ended negative rates in March 2024, so the Hiroshima borrowers switching to fixed loans are reacting to the first sustained rise most of them have known. South Korea opened its capital markets in the 1990s and learned a different lesson in the 1997 crisis, when an IMF programme pushed interest rates above 20 per cent. Russia's central bank was created from the Soviet state bank in 1990 and has since used credit rules alongside rates; the limit on long car loans from 2027 is a rule of that kind. The three systems in this narrative came out of the 1990s with different memories of what a rate rise does to borrowers.",
-          "trajectoryIds": [],
-          "bookIds": []
-        },
-        {
-          "span": "since-1945",
-          "from": "",
-          "label": "Since 1945",
-          "lens": "DOLLAR / OIL / INFLATION",
-          "text": "The order built after 1945 tied currencies to the dollar, and the dollar to gold until 1971, so that a Federal Reserve decision became the reference for every other central bank. The 1973 oil embargo showed how a war in the Middle East becomes a price rise in every economy that imports fuel. The inflation of the 1970s ended only after Paul Volcker took the Fed rate close to 20 per cent in 1980 and 1981, and central banks since have been judged mainly on whether they let an oil price rise turn into general inflation. That is the test the Fed and the ECB are reported as facing this week, and the reason British and Australian headlines link war, prices and the next rate decision. Daniel Yergin's history of oil describes how a fuel became the organising price of the century. Whether 2026 resembles 1973 or the short oil spike of 1990 is not yet settled by these headlines.",
-          "trajectoryIds": [
-            "oil-embargo-1973"
-          ],
-          "bookIds": [
-            "the-prize"
-          ]
-        }
-      ],
-      "articleIds": [
-        "n-200e348dae8187",
-        "n-736b6585dfd145",
-        "n-6002194c660c68",
-        "n-6d5094d0b921f0",
-        "n-d91431ef2275de",
-        "n-f53c67d3765c2e",
-        "n-6023f697841911",
-        "n-5d2babd806fd44",
-        "n-5c6562b7b71826",
-        "n-41af444ebdf1a0",
-        "n-da00863fbf8281"
-      ]
-    },
-    {
-      "id": "data-centre-profit-and-dispute",
-      "line": "The AI data centre lifts profits at Asian hardware makers and has become a planning and security dispute in Europe.",
-      "kicker": "COMPUTING / LAND / WAR",
-      "firmness": "firm",
-      "continues": "",
-      "change": "",
-      "claim": "Samsung's battery and IT units and Taiwan's CHPT report sharply higher profits on AI data centre demand, while Norway's parliament considers an urgent freeze on data centres, a Finnish city faces a police report for clearing forest for one, and Cloud.ru plans reserve capacity as Russian data centres come under attack. The same kind of building appears as a source of profit, a claim on land and power, and a military target. The profits in Korea and Taiwan and the objections in the Nordic countries are two ends of one expansion, and the costs are raised where the buildings stand rather than where the computing is sold.",
-      "events": [
-        {
-          "label": "AI data centre demand lifts Samsung results",
-          "articleIds": [
-            "n-87327fc14000d9",
-            "n-569f8f3ab1c15d",
-            "n-972ed9c5a4eaa9"
-          ]
-        },
-        {
-          "label": "Taiwanese test-equipment maker doubles profit",
-          "articleIds": [
-            "n-6016ba29572bfb",
-            "n-415725dcdf33db"
-          ]
-        },
-        {
-          "label": "Norway proposes urgent data centre freeze",
-          "articleIds": [
-            "n-1baadeabec6d98"
-          ]
-        },
-        {
-          "label": "Finnish forest cleared for data centre",
-          "articleIds": [
-            "n-11a0fd269432b6"
-          ]
-        },
-        {
-          "label": "Russian data centres under attack",
-          "articleIds": [
-            "n-b2cde29ee2e2b8"
-          ]
-        }
-      ],
-      "rungs": [
-        {
-          "id": "b-obs-1",
-          "kind": "observation",
-          "label": "Profits in Korea and Taiwan",
-          "fragments": [
-            {
-              "id": "b-obs-1-f1",
-              "label": "Samsung",
-              "text": "Herald Economy reports a Samsung SDI third-quarter operating profit of 407.8 billion won, the highest in 12 quarters, on an 'AI data center boost'. Yle in Finland reports that the AI boom propelled Samsung's results, and Newspim that Samsung SDS's logistics business grew along with cloud. All three name computing demand as the source.",
-              "articleIds": [
-                "n-87327fc14000d9",
-                "n-569f8f3ab1c15d",
-                "n-972ed9c5a4eaa9"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "b-obs-1-f2",
-              "label": "A Taiwanese supplier",
-              "text": "Storm Media reports that CHPT's third-quarter profit doubled on strong demand for AI testing, with record earnings per share of 16.75 yuan and revenue expected to grow nearly 50 per cent next year. A second report has it in talks with more than five vendors on test interfaces for co-packaged optics, a component of data centre networks.",
-              "articleIds": [
-                "n-6016ba29572bfb",
-                "n-415725dcdf33db"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "b-obs-2",
-          "kind": "observation",
-          "label": "Objections in Norway, Finland and Russia",
-          "fragments": [
-            {
-              "id": "b-obs-2-f1",
-              "label": "Freeze and forest",
-              "text": "NRK reports an urgent proposal in Norway for a freeze on data centres. Svenska Yle reports that Villmanstrand, Lappeenranta in Finnish, cleared forest for a data centre and that a nature conservation district is preparing a police report. Neither headline mentions AI; both treat the building as a use of land.",
-              "articleIds": [
-                "n-1baadeabec6d98",
-                "n-11a0fd269432b6"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "b-obs-2-f2",
-              "label": "A target",
-              "text": "Kommersant reports that Cloud.ru is planning reserve capacity 'amid attacks on Russian data centres'. In Russia the data centre is now discussed as refineries and power stations are, as something a wartime opponent strikes.",
-              "articleIds": [
-                "n-b2cde29ee2e2b8"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "b-int-1",
-          "kind": "interpretation",
-          "label": "One building in three roles",
-          "fragments": [
-            {
-              "id": "b-int-1-f1",
-              "label": "The same object",
-              "text": "Across these headlines the same kind of building is an earnings line in Korea and Taiwan, a claim on land and electricity in Norway and Finland, and a military target in Russia. The common factor is scale. A computing site large enough to move a battery maker's quarter is also large enough to need a parliament's attention and to be worth attacking.",
-              "articleIds": [
-                "n-87327fc14000d9",
-                "n-1baadeabec6d98",
-                "n-b2cde29ee2e2b8"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "b-int-1-f2",
-              "label": "Why the Nordic countries",
-              "text": "Builders go north for cheap hydro and wind power, cool air and stable grids, which is why the disputes arise in Norway and Finland rather than in the countries buying the computing. The Norwegian proposal is a national response to a local cost: electricity and land used by servers are not available to households or other industry. The Finnish complaint is about forest, the oldest kind of land dispute.",
-              "articleIds": [
-                "n-1baadeabec6d98",
-                "n-11a0fd269432b6"
-              ],
-              "bookIds": [
-                "shock-of-the-old"
-              ],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "b-break",
-          "kind": "break",
-          "label": "The case against",
-          "fragments": [
-            {
-              "id": "b-break-f1",
-              "label": "Different buildings, different reasons",
-              "text": "Samsung SDI makes batteries, and its data centre gain may come from energy storage sold to data centres rather than from computing. The Norwegian freeze may be aimed at crypto-mining sites, which Norway has debated restricting, rather than at AI. The Russian attacks belong to the war with Ukraine and would fall on any infrastructure. What the events do not share is a reason: one is a supplier's order book, one a nature complaint, one a drone campaign.",
-              "articleIds": [
-                "n-87327fc14000d9",
-                "n-1baadeabec6d98",
-                "n-b2cde29ee2e2b8"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "b-break-f2",
-              "label": "A Nordic sample",
-              "text": "The objections come only from Nordic and Russian outlets in this collection. Disputes in Ireland, the Netherlands, the US or Malaysia, if any were reported today, are not in the sample. The split between Asian profit and European objection may reflect which newspapers were read.",
-              "articleIds": [],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        }
-      ],
-      "horizons": [
-        {
-          "span": "since-2020",
-          "from": "",
-          "label": "Since 2020",
-          "lens": "AI / CHIPS / ELECTRICITY",
-          "text": "ChatGPT, released in November 2022, reached a hundred million users in two months and turned AI from a research field into a market for computing. The buildings that supply that computing need chips, batteries, cooling and large, steady electricity connections. By these headlines, the market now shows in Korean and Taiwanese results: Samsung SDI's operating profit at a twelve-quarter high on data centre demand, and CHPT expecting revenue to grow nearly 50 per cent next year on AI testing. The same years brought European energy prices to record levels after Russia's invasion of Ukraine in 2022, which made Nordic hydro and wind power, cool air and stable grids more attractive to builders. The Norwegian freeze proposal and the Lappeenranta forest complaint are what that attraction looks like locally. In Russia the war has added a third role: Cloud.ru plans reserve capacity because data centres are now among the targets of drone attacks.",
-          "trajectoryIds": [
-            "chatgpt-2022"
-          ],
-          "bookIds": []
-        },
-        {
-          "span": "since-2008",
-          "from": "",
-          "label": "Since 2008",
-          "lens": "CLOUD / PLATFORMS / CAPITAL",
-          "text": "After 2008, with interest rates near zero, investors funded companies that rented computing rather than sold it. Amazon Web Services, launched in 2006, grew into the largest business of its kind, Microsoft and Google followed, and the large data centre became the physical form of the platform economy. Shoshana Zuboff describes the business model those buildings served in the 2010s, the collection of behaviour as data. The Nordic countries entered early: Google bought a former paper mill at Hamina in Finland in 2009, and Facebook opened a data centre at Luleå in northern Sweden in 2013. Cheap electricity and tax terms drew them, and local opposition was small while the sites were few. Samsung SDS's cloud growth in this edition and the Finnish nature district's police report are the commercial and local ends of the same expansion, which reached its present size only when AI multiplied the demand for computing.",
-          "trajectoryIds": [
-            "lehman-2008"
-          ],
-          "bookIds": [
-            "surveillance-capitalism"
-          ]
-        },
-        {
-          "span": "since-1989",
-          "from": "",
-          "label": "Since 1989",
-          "lens": "INTERNET / SUPPLIERS / EAST ASIA",
-          "text": "The internet opened to commercial use in the early 1990s, and the Netscape listing of August 1995 was the first time the market priced it. The dot-com crash of March 2000 showed that the price could run years ahead of revenue. In the same decade South Korea and Taiwan built their electronics industries on supplying the hardware. Samsung became the largest memory maker in the world, and Taiwan's semiconductor cluster, centred on TSMC, founded in 1987, grew a ring of testing and packaging suppliers of the kind CHPT belongs to. Those firms earn from each wave of building, whichever software company wins. Their results this week rise on data centre orders as they rose on personal computers in the 1990s and smartphones after 2007. Whether the AI wave ends like 2000 or continues is the open question behind both the profits and the investment that funds the buildings.",
+          "lens": "INTERNET / LISTINGS / DISCLOSURE",
+          "text": "The end of the Cold War opened the commercial internet. Restrictions on commercial traffic over the US backbone were lifted in the early 1990s, and Netscape's listing in August 1995 was the first time investors priced a company on a technology that had not yet earned much. Five years of such listings ended in the crash of March 2000, after which the Nasdaq lost most of its value over two years. The firms that survived, Amazon among them, learned to describe heavy spending as building for the future, and markets learned to doubt the claim at intervals. Google, founded in 1998, was the clearest winner of the years after the crash. China's entry to the WTO in 2001 put hardware assembly in Shenzhen and components in Taiwan. The Korean headline that even a trusted Alphabet lost 500 billion dollars in value draws on the memory of 2000, when market leaders were repriced within days.",
           "trajectoryIds": [
             "netscape-1995",
             "dotcom-2000"
@@ -1154,8 +1137,8 @@
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "STATE / RESEARCH / INFRASTRUCTURE",
-          "text": "For most of the period since 1945 computing was a state project. The first large computers served weapons work and code-breaking; the field of artificial intelligence was named at a Dartmouth workshop in 1956; after Sputnik in 1957 the United States founded ARPA, whose network became the internet. Electricity grids were also built by states as national projects, Norway's hydropower among them. David Edgerton argues that what matters about a technology is the use and upkeep of its physical plant rather than the moment of invention. The data centre fits: the disputes in Norway and Finland concern land, electricity and forest, the oldest questions of infrastructure, now raised by private builders rather than ministries. The Russian attacks fit the older pattern too. Whatever a state comes to depend on becomes a military target, as railways, power stations and refineries did before, and Cloud.ru's reserve plan is a wartime precaution of a familiar kind.",
+          "lens": "SCIENCE / THE STATE / INDUSTRY",
+          "text": "For most of the postwar period, the computing that changed economies was commissioned by governments. The field of artificial intelligence was named at a Dartmouth workshop in 1956, funded by the Rockefeller Foundation, and the Soviet Sputnik of 1957 led the United States to found ARPA, whose network became the internet. Europe built shared laboratories on the same public model, from CERN in 1954 to the joint supercomputing programme that, by these headlines, Canada is now joining. Seventy years on, the largest AI budgets belong to companies, and states that want capacity of their own must pool it or buy into it. The Schwarz Group investing in the Canadian firm Cohere, and Ottawa joining the EU network, are two answers to the postwar question of who owns the machines an economy and its armed forces depend on. David Edgerton's argument that use and maintenance matter more than invention applies to data centres as much as to the factories before them.",
           "trajectoryIds": [
             "dartmouth-1956",
             "sputnik-1957"
@@ -1166,116 +1149,111 @@
         }
       ],
       "articleIds": [
-        "n-87327fc14000d9",
-        "n-569f8f3ab1c15d",
-        "n-972ed9c5a4eaa9",
-        "n-6016ba29572bfb",
-        "n-415725dcdf33db",
-        "n-1baadeabec6d98",
-        "n-11a0fd269432b6",
-        "n-b2cde29ee2e2b8"
+        "n-801be6891d785c",
+        "n-59e3e948f2924e",
+        "n-8f76bb4c461610",
+        "n-4b8fc57fd6fce4",
+        "n-52b9fa77ac1bcc",
+        "n-fcd519910b8baa",
+        "n-680ecc02ce8a2f",
+        "n-cd22dbdd701009",
+        "n-d2d5f046a2b64d",
+        "n-6d3b18b06ae7b0",
+        "n-91a770cfbda033",
+        "n-88e3759e09df88",
+        "n-0e4af043e03e5a",
+        "n-43017e2c757f60"
       ]
     },
     {
-      "id": "former-rulers-court-or-exit",
-      "line": "Former heads of government face courts at home, and their allies answer with amnesty bills, new laws and foreign refuge.",
-      "kicker": "ACCOUNTABILITY / PARDON / FLIGHT",
+      "id": "washington-oil-price-two-wars",
+      "line": "Before the US midterms, Washington is pressing for a lower oil price in two wars, and fuel taxes and budgets elsewhere are reset.",
+      "kicker": "ENERGY / THE VOTE / PRESSURE",
       "firmness": "plausible",
-      "continues": "",
-      "change": "",
-      "claim": "South Korea's special counsel again seeks, and by one report wins, a death sentence for former president Yoon Suk Yeol, while in Brazil Alcolumbre plans a pardon or amnesty for Jair Bolsonaro and Flávio Bolsonaro reaches the United States with Trump's consent; the same day an expert report contradicts Spain's Zapatero, India seizes Azam Khan's university and Indonesia's parliament opens its anti-corruption law to revision. In each, a former office-holder's case has reached the stage where it is settled either by a court or by politics. Korea is letting the court finish; in Brazil the routes out run through the legislature and a foreign host.",
+      "continues": "war-prices-reach-mortgages",
+      "change": "Yesterday the Iran war's price rise was read through central bank rates and mortgages. Today the reports run the other way: Washington is said to have pressed Kyiv to stop hitting Russian refineries and has sent Tehran a peace proposal, Israel's pump price falls and Russia plans its budget on cheaper oil. US mortgage rates have now fallen for two weeks, by a Chinese report, though Brazilian petrol is rising again.",
+      "claim": "Yle reports, citing the Wall Street Journal, that Ukraine stopped striking Russian oil refineries under pressure from Trump; Iran has received a peace proposal from JD Vance while a US senator says he was briefed on a plan to resume strikes; Britain backs the full opening of the Strait of Hormuz; and Israel's fuel price is set to fall, Russia's Duma plans its budget on a $50 oil price and Brazilian states raise fuel taxes. The common actor is the US government, which in the week before its midterm elections is acting on the supply of oil in both wars in which it is involved. The expected fall in crude is then absorbed by other countries through their own rules, in different directions: a cut at the pump in Israel, a lower revenue assumption in Moscow, a higher tax rate in Brazil.",
       "events": [
         {
-          "label": "Yoon Suk Yeol faces second death sentence",
+          "label": "Ukraine pauses strikes on Russian refineries",
           "articleIds": [
-            "n-7e990c1ac5e44a",
-            "n-9cf49e135b3eec",
-            "n-70d45bec62979b",
-            "n-4c3b739859fa8c"
+            "n-ac6ec6a340d206",
+            "n-e1ffbb08c08847"
           ]
         },
         {
-          "label": "Alcolumbre plans Bolsonaro pardon or amnesty",
+          "label": "US peace offer and strike plans for Iran",
           "articleIds": [
-            "n-f99dc159422ec8"
+            "n-062722d32ef045",
+            "n-5cd97b6bf3d2db",
+            "n-eac3016e7643d2"
           ]
         },
         {
-          "label": "Flávio Bolsonaro leaves Brazil for US",
+          "label": "Pump prices and fuel tax in Israel and Brazil",
           "articleIds": [
-            "n-a68938be4fab38",
-            "n-0d678ed41a35b4",
-            "n-c31c7b4726a8c5",
-            "n-77d9f3a224fcae"
+            "n-50e9d1cf23d796",
+            "n-752a3047cd18c5",
+            "n-849980ee78d6ff"
           ]
         },
         {
-          "label": "Expert report contradicts Zapatero on jewels",
+          "label": "Russia budgets for cheaper oil",
           "articleIds": [
-            "n-252e179d0b9253"
+            "n-9e4b7136f112db",
+            "n-ccd86b399bff06",
+            "n-86812eb2716849"
           ]
         },
         {
-          "label": "Indonesia opens anti-corruption law to revision",
+          "label": "US eases rules for LNG exports",
           "articleIds": [
-            "n-c65c47ee0bd69e"
+            "n-317daf49c23436"
           ]
         },
         {
-          "label": "India seizes Azam Khan's university",
+          "label": "US midterm elections days away",
           "articleIds": [
-            "n-9767853aa9840e"
+            "n-bfec9b6818474d"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "c-obs-1",
+          "id": "oil-r1",
           "kind": "observation",
-          "label": "A second death sentence in Seoul",
+          "label": "Pressure on supply in two wars",
           "fragments": [
             {
-              "id": "c-obs-1-f1",
-              "label": "The Yoon case",
-              "text": "Financial News reports that Yoon Suk Yeol, 'ringleader of insurrection', was again sentenced to death in his second trial and that Kim Yong-hyun received life imprisonment. Hankyoreh reports the special counsel seeking the death sentence. China's nbd.com.cn and Taiwan's ETtoday carry the case as a prosecution request, so the headlines differ on whether the court has already ruled.",
+              "id": "oil-r1-f1",
+              "label": "Ukraine's refinery strikes",
+              "text": "Yle in Finland reports, citing the Wall Street Journal, that Ukraine halted strikes on Russian oil refineries under Trump's pressure. Lenta in Russia runs a piece on Western explanations for NATO's push for a ceasefire in Ukraine. Neither says what Ukraine received in return.",
               "articleIds": [
-                "n-7e990c1ac5e44a",
-                "n-9cf49e135b3eec",
-                "n-70d45bec62979b",
-                "n-4c3b739859fa8c"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "c-obs-2",
-          "kind": "observation",
-          "label": "Amnesty, exile and review elsewhere",
-          "fragments": [
-            {
-              "id": "c-obs-2-f1",
-              "label": "The Bolsonaros",
-              "text": "Tribuna do Norte reports that Alcolumbre plans a pardon or amnesty for Jair Bolsonaro. DW reports that Brazil cancelled the passport of Flávio Bolsonaro, who may have fled; El Colombiano that he passed through Ecuador, according to Argentine authorities; La Tercera that Trump confirmed he let Flávio and his family into the US because they 'were treated very unfairly'. Flávio's own version, in Tribuna do Norte, is that he 'left through Brazil'.",
-              "articleIds": [
-                "n-f99dc159422ec8",
-                "n-a68938be4fab38",
-                "n-77d9f3a224fcae",
-                "n-c31c7b4726a8c5",
-                "n-0d678ed41a35b4"
+                "n-ac6ec6a340d206",
+                "n-e1ffbb08c08847"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "c-obs-2-f2",
-              "label": "Spain, Indonesia, India",
-              "text": "El Mundo reports an expert report contradicting Zapatero's account of a set of jewels, finding it unlikely they were made in the Middle East or before 2007. Merdeka reports the DPR's Commission III opening the option of revising Indonesia's Anti-Corruption Law after a proposal from Luhut. Punjab Kesari reports the Enforcement Directorate seizing Jauhar University, worth 1,170 crore rupees, in a money-laundering case against Azam Khan.",
+              "id": "oil-r1-f2",
+              "label": "Iran and Hormuz",
+              "text": "Amar Ujala in India reports that Iran has received JD Vance's peace proposal but has not answered. Khaberni in Jordan quotes a US senator saying he was briefed on Trump's plan to resume strikes on Iran, and Ammon in Jordan reports that Britain supports the full opening of the Strait of Hormuz and rejects any Iranian nuclear capability. Washington is offering terms and keeping force in view at the same time.",
               "articleIds": [
-                "n-252e179d0b9253",
-                "n-c65c47ee0bd69e",
-                "n-9767853aa9840e"
+                "n-062722d32ef045",
+                "n-5cd97b6bf3d2db",
+                "n-eac3016e7643d2"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "oil-r1-f3",
+              "label": "Gas and the election",
+              "text": "Leadership in Nigeria reports that the US is weighing updated LNG safety rules to speed up export projects. 47NEWS in Japan reports governor elections in 36 US states in which the Democrats are likely to lead. The midterm vote is days away.",
+              "articleIds": [
+                "n-317daf49c23436",
+                "n-bfec9b6818474d"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1283,61 +1261,92 @@
           ]
         },
         {
-          "id": "c-int-1",
+          "id": "oil-r2",
+          "kind": "observation",
+          "label": "Prices and budgets elsewhere",
+          "fragments": [
+            {
+              "id": "oil-r2-f1",
+              "label": "At the pump",
+              "text": "Walla in Israel calls it a surprise that the fuel price will fall by 42 agorot on Saturday night. Tribuna do Norte in Brazil reports petrol rising again at the Clara Camarão refinery after two weeks of decline, and Brazilian states approving higher ICMS tax on petrol, diesel and cooking gas for 2027.",
+              "articleIds": [
+                "n-50e9d1cf23d796",
+                "n-752a3047cd18c5",
+                "n-849980ee78d6ff"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "oil-r2-f2",
+              "label": "In Russia's budget",
+              "text": "Kommersant reports that the State Duma passed in first reading a bill lowering the oil cut-off price to $50, and Izvestia sets out how deputies proposed revising the 2027-2029 budget. Ammon in Jordan reports Russian inflation at about 7.1%. A lower cut-off means Moscow plans on less oil income.",
+              "articleIds": [
+                "n-9e4b7136f112db",
+                "n-ccd86b399bff06",
+                "n-86812eb2716849"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "oil-r3",
           "kind": "interpretation",
-          "label": "Routes a reckoning can take",
+          "label": "One government acting on supply",
           "fragments": [
             {
-              "id": "c-int-1-f1",
-              "label": "Court, legislature, host, statute",
-              "text": "Set side by side, these cases show the routes open once a former office-holder is pursued. In Korea the court carries the case to a sentence. In Brazil allies in Congress prepare an amnesty and a foreign president provides entry. In Indonesia the law under which such cases are brought is itself opened for revision. Spain and India show an earlier stage, an expert report and an asset seizure, before any route is chosen.",
+              "id": "oil-r3-f1",
+              "label": "The shared actor",
+              "text": "The join is a shared actor. In both wars the US is acting on oil supply: asking Kyiv to stop taking Russian refining capacity offline, offering Tehran a settlement that would reopen Gulf shipping, and easing its own gas export rules. The headlines do not give a motive, and the link to the midterm elections is ours: a government facing voters in days has reason to want petrol prices down.",
               "articleIds": [
-                "n-7e990c1ac5e44a",
-                "n-f99dc159422ec8",
-                "n-c31c7b4726a8c5",
-                "n-c65c47ee0bd69e"
+                "n-ac6ec6a340d206",
+                "n-062722d32ef045",
+                "n-317daf49c23436",
+                "n-bfec9b6818474d"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "c-int-1-f2",
-              "label": "Why the foreign host matters",
-              "text": "Trump's admission of the Bolsonaro family turns a Brazilian prosecution into a matter between states, the reverse of Pinochet's arrest in London in 1998, when a foreign country held a former ruler rather than sheltered one. A former leader whose family can leave, or whose allies can legislate, is not in Yoon's position. The outcome depends on who holds the legislature and who will receive the accused as much as on the evidence.",
+              "id": "oil-r3-f2",
+              "label": "Different directions downstream",
+              "text": "Each country takes the expected change through its own rule. Israel's administered price passes a fall to drivers within days. Russia lowers the price on which its budget counts oil revenue, preparing for less money. Brazilian states, which collect ICMS on fuel, raise the tax for 2027, which protects their share of revenue whatever crude does.",
               "articleIds": [
-                "n-c31c7b4726a8c5",
-                "n-a68938be4fab38"
+                "n-50e9d1cf23d796",
+                "n-9e4b7136f112db",
+                "n-849980ee78d6ff"
               ],
               "bookIds": [],
-              "trajectoryIds": [
-                "pinochet-1998"
-              ]
+              "trajectoryIds": []
             }
           ]
         },
         {
-          "id": "c-break",
+          "id": "oil-r4",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "c-break-f1",
-              "label": "Not the same offence",
-              "text": "Yoon is tried over a declaration of martial law; the Bolsonaro amnesty concerns a conviction for a coup plot; Zapatero's jewels are a question of gifts and provenance; Azam Khan's case is money laundering by a state politician, which his party may call political targeting by the national government. Indonesia's revision may concern the commission's procedures rather than any person. What the events do not share is the act being judged: two concern seizures of power, the rest money.",
+              "id": "oil-r4-f1",
+              "label": "Each event has its own reason",
+              "text": "Ukraine's pause may belong to ceasefire diplomacy, as Lenta's NATO headline implies, rather than to oil prices. A US plan to resume strikes on Iran would raise the risk to supply, not lower it. Russia's cut-off is a fiscal rule responding to sanctions and discounts on its crude, Brazil's tax is a revenue decision for 2027 taken while its petrol price rises, and Israel's price follows a monthly formula. What they do not share: one is a military decision, one a tax rate, one a budget assumption, one an administrative calculation.",
               "articleIds": [
-                "n-7e990c1ac5e44a",
-                "n-f99dc159422ec8",
-                "n-252e179d0b9253",
-                "n-9767853aa9840e"
+                "n-e1ffbb08c08847",
+                "n-5cd97b6bf3d2db",
+                "n-752a3047cd18c5"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "c-break-f2",
-              "label": "An ordinary week",
-              "text": "Former leaders and ministers are investigated somewhere every week. Korea and Brazil happen to reach decisive stages on the same day, and the Spanish, Indian and Indonesian items may be the normal background of corruption reporting gathered into a pattern by the coincidence.",
-              "articleIds": [],
+              "id": "oil-r4-f2",
+              "label": "The motive is supplied, not reported",
+              "text": "No headline connects Washington's pressure on Kyiv or Tehran to the pump price or the midterms. The refinery report reaches this collection second-hand, through a Finnish summary of an American newspaper. If the pause is denied or reversed, the actor in this narrative is doing less than it claims.",
+              "articleIds": [
+                "n-ac6ec6a340d206"
+              ],
               "bookIds": [],
               "trajectoryIds": []
             }
@@ -1349,11 +1358,10 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "ELECTIONS / INSURRECTION / COURTS",
-          "text": "The decade's model of a contested handover was set on 6 January 2021 in Washington and repeated in Brasília on 8 January 2023, when supporters of Jair Bolsonaro stormed the three branches of government a week after Lula's inauguration. Brazil's supreme court later tried Bolsonaro for the coup plot and convicted him in September 2025. South Korea's case began on 3 December 2024, when President Yoon Suk Yeol declared martial law for about six hours; parliament overturned it and impeached him, and the special counsel charged him as ringleader of an insurrection, the charge in today's second trial. The decade's other answer also came from Washington: the January 2025 pardons of those convicted over the Capitol attack made a mass pardon an ordinary political tool. Alcolumbre's reported plan for Bolsonaro and Trump's admission of Flávio Bolsonaro's family draw on that precedent, while Korea follows the path of prosecution to sentence.",
+          "lens": "SANCTIONS / REFINERIES / PUMP PRICES",
+          "text": "Russia's invasion of Ukraine in February 2022 pushed Brent crude above $120 a barrel, and the Biden administration released 180 million barrels from the Strategic Petroleum Reserve, the largest sale in its history, in a midterm year. In December 2022 the G7 set a $60 cap on Russian crude carried by Western-insured tankers, designed to keep Russian oil flowing while cutting Moscow's income. From 2024 Ukraine struck Russian refineries with long-range drones, which cut Russia's fuel output but also tightened world markets for diesel. The twelve-day Israel-Iran war of June 2025 ended with American bombers over Fordow; by these headlines a longer US-Iran war followed and is now the subject of a peace proposal. The pattern of the decade is that Washington wants Russian and Iranian oil revenue reduced without higher prices at American pumps, and the report that Kyiv halted refinery strikes under Trump's pressure is that pattern applied to an ally.",
           "trajectoryIds": [
-            "washington-2021",
-            "brasilia-2023"
+            "fordow-2025"
           ],
           "bookIds": []
         },
@@ -1361,132 +1369,382 @@
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "CORRUPTION / IMPEACHMENT / LAWFARE",
-          "text": "The years after 2008 brought a wave of corruption prosecutions of sitting and former leaders. In Brazil the Lava Jato investigation, begun in 2014, jailed Lula in 2018 before the supreme court annulled his convictions in 2021; the reversal taught both sides of Brazilian politics to describe prosecution of their own leaders as persecution, the language of Trump's 'treated very unfairly'. In South Korea Park Geun-hye was impeached in 2017 and jailed, then pardoned in December 2021, continuing a Korean pattern of punishment followed by release. Indonesia's anti-corruption commission was weakened by a 2019 revision of its law, and the DPR's openness to a further revision after Luhut's proposal continues that argument. India's Enforcement Directorate has multiplied money-laundering cases against opposition politicians since 2014, the Azam Khan seizure among them. Levitsky and Ziblatt describe the risk of this period as courts used by whichever side controls them.",
-          "trajectoryIds": [],
+          "lens": "SHALE / GAS EXPORTS / SANCTIONS",
+          "text": "Between 2008 and 2019 horizontal drilling and hydraulic fracturing more than doubled US crude output, and by 2018 the United States was the largest oil producer in the world. Congress lifted the forty-year ban on crude exports in December 2015, the first LNG cargo left Sabine Pass in Louisiana in 2016, and by 2023 the country was the largest LNG exporter. That changed what a high oil price means in Washington: it helps Texas and North Dakota and hurts drivers in swing states. It also made sanctions cheaper to impose, since Iranian and Russian barrels could be cut with less risk of shortage. The 2015 nuclear agreement brought Iranian crude back to market; the American withdrawal in 2018 removed it again. The Leadership report that the US is weighing faster safety rules for LNG export projects belongs to this period, in which energy exports became part of American foreign policy.",
+          "trajectoryIds": [
+            "jcpoa-2015"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "PETROSTATES / FISCAL RULES / WAR",
+          "text": "The Soviet collapse in 1991 left Russia a state living on oil and gas receipts, and the fall of crude to about $10 a barrel in 1998 contributed to its default that August. Under Putin the finance ministry built a stabilisation fund in 2004 and later a budget rule: revenue above a set cut-off price goes to reserves, and spending is planned on the lower figure. The Duma vote to lower that cut-off to $50, reported by Kommersant, uses the rule to plan for less income. In the Gulf, the 1991 war over Kuwait and the 2003 invasion of Iraq fixed the United States as the military guarantor of supply and Iran as the main power outside that arrangement. Brazil became a large producer after the pre-salt discoveries of 2006 and 2007, and its states came to rely on the ICMS tax on fuel, which is why they set it again this week.",
+          "trajectoryIds": [
+            "iraq-2003"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OIL / ALLIANCE / EMBARGO",
+          "text": "Postwar recovery in Europe and Japan used Middle Eastern oil supplied under American protection. In February 1945 Roosevelt met Ibn Saud on a cruiser in the Great Bitter Lake, and the unwritten exchange of security for supply has held since. The Arab oil embargo of October 1973 quadrupled the price within months and showed consumer governments that a war in one region becomes a price everywhere; the International Energy Agency and the US strategic reserve were both created in response. In January 1980 the Carter Doctrine declared that the US would use force to keep the Gulf open, the commitment behind Britain's statement this week, reported in Jordan, that it supports the full opening of the Strait of Hormuz. Daniel Yergin's history of oil records the same habit in every decade: governments treat the oil price as a political number and act on supply when voters feel it.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "oil-embargo-1973"
+          ],
+          "bookIds": [
+            "the-prize"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-ac6ec6a340d206",
+        "n-e1ffbb08c08847",
+        "n-062722d32ef045",
+        "n-5cd97b6bf3d2db",
+        "n-eac3016e7643d2",
+        "n-317daf49c23436",
+        "n-bfec9b6818474d",
+        "n-50e9d1cf23d796",
+        "n-752a3047cd18c5",
+        "n-849980ee78d6ff",
+        "n-9e4b7136f112db",
+        "n-ccd86b399bff06",
+        "n-86812eb2716849"
+      ]
+    },
+    {
+      "id": "contesting-the-count",
+      "line": "Since the Capitol riot of 2021, governing parties and losing candidates alike treat the vote count as something to contest.",
+      "kicker": "ELECTIONS / CERTIFICATION / POWER",
+      "firmness": "plausible",
+      "continues": "",
+      "change": "",
+      "claim": "In Brazil, Flávio Bolsonaro released a letter declaring himself president and then left the country; in Israel, Gadi Eisenkot accuses Netanyahu of trying to delegitimise a result that gave no bloc a majority; in the United States a federal ministry is widening an inquiry into the Alaska vote and Texas's attorney general is suing Houston's county clerk; in Delhi, BJP booth agents filed deletion forms against Muslim voters; and in Nigeria a former governor says his successor has never won an election. These are different countries at different points in the electoral cycle, but in each the argument is over the roll, the count or the certification rather than over policy. The challengers include governments and ruling parties as well as defeated candidates, and foreign leaders now offer verdicts on other countries' counts. The administration of elections, once a clerical matter, has become a main place where power is fought over.",
+      "events": [
+        {
+          "label": "Flávio Bolsonaro's letter and flight",
+          "articleIds": [
+            "n-9aca980904166c",
+            "n-e119e811ee24d6",
+            "n-0ea1ed2985caa8",
+            "n-59aa190f0402b0"
+          ]
+        },
+        {
+          "label": "Israel's count and Knesset swearing-in dispute",
+          "articleIds": [
+            "n-0e08f31b7975ed",
+            "n-a40b63a0dd87d5",
+            "n-61880ef9a6d5d6"
+          ]
+        },
+        {
+          "label": "Foreign verdicts on Brazilian and Israeli votes",
+          "articleIds": [
+            "n-41981021aa2196",
+            "n-22ee34a3fe28de"
+          ]
+        },
+        {
+          "label": "US inquiries and lawsuits over midterm voting",
+          "articleIds": [
+            "n-4c6f98c212ca86",
+            "n-90399f15e82bf2",
+            "n-d85b58a5152180"
+          ]
+        },
+        {
+          "label": "Delhi voter deletion forms",
+          "articleIds": [
+            "n-81a0820afea9a6"
+          ]
+        },
+        {
+          "label": "Imo governorship disputed in Nigeria",
+          "articleIds": [
+            "n-43c9e8309c3202",
+            "n-f99a9f578fa2c6"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "vote-r1",
+          "kind": "observation",
+          "label": "After the vote",
+          "fragments": [
+            {
+              "id": "vote-r1-f1",
+              "label": "Brazil",
+              "text": "Diário do Grande ABC calls it a coup letter: Flávio Bolsonaro declares himself president, while São Paulo's governor Tarcísio urges respect for the ballot boxes. Clarín in Argentina reports that within hours of Flávio's flight the Brazilian right already had a candidate and rejected the fraud allegations. R7 and Estado de Minas report that the party leader Valdemar Costa Neto did not like the letter and denies that Jair Bolsonaro knew about the escape.",
+              "articleIds": [
+                "n-9aca980904166c",
+                "n-e119e811ee24d6",
+                "n-0ea1ed2985caa8",
+                "n-59aa190f0402b0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "vote-r1-f2",
+              "label": "Israel",
+              "text": "Al Jazeera reports that the completed count gives no overall majority. Ammon in Jordan reports Eisenkot accusing Netanyahu of seeking to delegitimise the results, and Khaberni reports him demanding no postponement of the Knesset swearing-in. The most-viewed page on the Hebrew Wikipedia was the one on double-envelope voting, the ballots counted last.",
+              "articleIds": [
+                "n-0e08f31b7975ed",
+                "n-a40b63a0dd87d5",
+                "n-61880ef9a6d5d6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "vote-r2",
+          "kind": "observation",
+          "label": "Before the vote and in court",
+          "fragments": [
+            {
+              "id": "vote-r2-f1",
+              "label": "United States",
+              "text": "Handelsblatt reports that a US ministry has widened its investigation into the Alaska vote. KPRC in Houston reports the Texas attorney general's office suing the Harris County clerk over accusations of targeting particular demographic groups with voting advertisements. Onet in Poland runs an explainer on what happens if Trump loses. On Bluesky, Trump on accepting midterm results and ballot-stacking allegations around Mary Peltola were both trending.",
+              "articleIds": [
+                "n-4c6f98c212ca86",
+                "n-90399f15e82bf2",
+                "n-d85b58a5152180"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "vote-r2-f2",
+              "label": "India and Nigeria",
+              "text": "The Hindu reports that in Delhi BJP booth agents filed deletion forms against Muslim voters registered at their addresses. Daily Post in Nigeria quotes Rochas Okorocha saying Imo's governor Hope Uzodinma has never won an election, and that he is unhappy with a court judgement.",
+              "articleIds": [
+                "n-81a0820afea9a6",
+                "n-43c9e8309c3202",
+                "n-f99a9f578fa2c6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "vote-r3",
+          "kind": "interpretation",
+          "label": "Who challenges the count",
+          "fragments": [
+            {
+              "id": "vote-r3-f1",
+              "label": "The same shape",
+              "text": "In each country the dispute is over the machinery of the election: who is on the roll in Delhi, how voters were addressed in Houston, whether votes were lawful in Alaska, when a parliament is sworn in in Israel, whether a declared result binds the loser in Brazil, whether a court-confirmed governor won in Nigeria. The challengers are a federal ministry, a state attorney general, a ruling party's booth agents and, by his opponent's account, a sitting prime minister, as well as a defeated family. Contesting the count is no longer only what losers do.",
+              "articleIds": [
+                "n-81a0820afea9a6",
+                "n-90399f15e82bf2",
+                "n-4c6f98c212ca86",
+                "n-a40b63a0dd87d5",
+                "n-9aca980904166c",
+                "n-43c9e8309c3202"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "vote-r3-f2",
+              "label": "Verdicts from abroad",
+              "text": "Deutsche Welle reports Trump calling Brazil's elections a disgrace, and Okaz reports Qatar denying interference in Israel's election and accusing parties of misinformation. A count is now judged by foreign governments and accused of foreign influence within days of polling.",
+              "articleIds": [
+                "n-41981021aa2196",
+                "n-22ee34a3fe28de"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "vote-r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "vote-r4-f1",
+              "label": "Unequal acts",
+              "text": "Flávio Bolsonaro's letter is an attempt to claim an office he did not win, which a Brazilian paper calls a coup. Delhi's deletion forms use a legal objection procedure during roll revision. The Texas suit concerns advertising, Nigeria's dispute is a familiar complaint after a tribunal ruling, and Israel's argument is about a coalition timetable whose other side is not in these headlines. Putting a coup attempt beside a lawsuit over voter adverts makes the lesser look graver and the greater look ordinary.",
+              "articleIds": [
+                "n-9aca980904166c",
+                "n-90399f15e82bf2",
+                "n-81a0820afea9a6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "vote-r4-f2",
+              "label": "A crowded election week",
+              "text": "Brazil, Israel and the US midterms fall in the same fortnight, and disputes follow close elections everywhere, so the pattern may be the calendar. The Brazilian headlines also show the opposite of the claim: the right's own party leader disowned the letter and a leading governor urged respect for the result.",
+              "articleIds": [
+                "n-0ea1ed2985caa8",
+                "n-e119e811ee24d6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "LITIGATION / INSURRECTION / IMITATION",
+          "text": "After the US presidential election of November 2020, the Trump campaign and its allies filed more than sixty lawsuits challenging results and lost nearly all of them; on 6 January 2021 a crowd stormed the Capitol to stop the certification. Two years and two days later, on 8 January 2023, supporters of Jair Bolsonaro stormed Congress, the Supreme Court and the presidential palace in Brasília after his defeat by Lula. Brazil's electoral court barred Bolsonaro from office until 2030, and in September 2025 the Supreme Court convicted him of plotting a coup. By these headlines his son Flávio has now written a letter declaring himself president and left the country, and the party leader Valdemar Costa Neto has disowned it. The lesson many losing camps drew from the decade was that contesting a count costs little with their own supporters; the lesson Brazil's courts drew was to act quickly. Levitsky and Ziblatt's account of unwritten rules describes this moment.",
+          "trajectoryIds": [
+            "washington-2021",
+            "brasilia-2023"
+          ],
           "bookIds": [
             "how-democracies-die"
           ]
         },
         {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "VOTING RIGHTS / PLATFORMS / DATA",
+          "text": "Several tools now used to contest a count were built after 2008. In 2013 the US Supreme Court's ruling in Shelby County v. Holder ended the requirement that Texas and other states clear changes to voting rules with the Justice Department, which moved election disputes into state offices and state courts, where the Harris County suit sits. Social platforms and WhatsApp groups carried fraud claims through Brazil's 2018 and 2022 campaigns faster than the electoral court could answer them. India digitised its electoral rolls and built the Aadhaar identity system from 2009, making mass additions and deletions easier to file and to challenge, as the forms reported by The Hindu show. Israel held five elections between April 2019 and November 2022, each close enough that the final envelope ballots decided coalitions. The library has no trajectory for these moments, which are legal and administrative rather than dramatic.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "TRANSITION / JURISDICTION / AMNESTY",
-          "text": "The end of the Cold War made it possible to try former rulers without risking a coup. South Korea sentenced Chun Doo-hwan to death and Roh Tae-woo to prison in 1996 for the 1979 coup and the Gwangju killings; both were pardoned in December 1997. That sequence, a death sentence and then a political release, is the precedent over Yoon's case. In October 1998 Pinochet's arrest in London on a Spanish warrant showed a former ruler could be pursued abroad, and in 2002 the International Criminal Court opened. South Africa's Truth and Reconciliation Commission offered a third way, amnesty in return for testimony. Brazil kept its 1979 amnesty law, which protected the military and was upheld by its supreme court in 2010, so Alcolumbre's plan revives an instrument Brazil has used before. Korea's courts, meanwhile, proceed on the model of 1996, and the question of a later pardon remains open.",
+          "lens": "DEMOCRATISATION / COURTS / MACHINES",
+          "text": "Most of the countries in this narrative built their present electoral machinery in the third wave of democratisation. Brazil's 1988 constitution was followed by electronic voting machines from 1996, run by the electoral court whose authority Bolsonaro's camp has attacked since 2021. Nigeria returned to civilian rule in 1999 with election petition tribunals, and governorships have been settled in court ever since; in Imo the Supreme Court installed Hope Uzodinma in January 2020, a ruling Rochas Okorocha still disputes in Daily Post. India's Election Commission gained practical independence under T. N. Seshan in the early 1990s and used electronic machines nationally by 2004. Lula's own first victory in 2002, when the currency fell before polling and he promised to honour the debt, showed a result accepted at home while being tested by markets abroad. Huntington warned in 1991 that waves recede; the present argument is about procedure, not about whether to hold elections at all.",
           "trajectoryIds": [
-            "chun-1996",
-            "pinochet-1998",
-            "trc-1996"
+            "lula-2002"
           ],
-          "bookIds": []
+          "bookIds": [
+            "third-wave"
+          ]
         },
         {
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "TRIBUNALS / COUPS / MEMORY",
-          "text": "The Nuremberg trials of 1945 and 1946 established that the people who ran a state could be tried for what it did. For forty years the principle was applied mostly to defeated enemies. Many of the countries in this narrative were then governed by men who had taken power by force: Brazil's generals from 1964 to 1985, Park Chung-hee in Korea from 1961 until he was shot in 1979, Suharto in Indonesia from 1966 to 1998. Argentina's trial of its juntas in 1985 was the first time a state tried its own recent rulers in its own courts. Paul Ricoeur's question, what a society owes to the past it reopens and the past it closes, describes the choice between Yoon's prosecution and Bolsonaro's proposed pardon. The postwar order made trying a former ruler possible in principle; whether it happens has depended since on who controls the courts and the legislature when the ruler falls.",
+          "lens": "SOVEREIGNTY / INTERVENTION / FRANCHISE",
+          "text": "The postwar order made the national election the test of a government's right to rule, and it also made other countries' elections a concern of the great powers. India held its first general election in 1951 and 1952 under an Election Commission created by the 1950 constitution, with about 173 million voters, most of whom could not read, which is why party symbols still appear on ballots. Israel's founding in 1948 fixed the single national list and proportional count that produce coalitions like the one now being negotiated. In Latin America, Washington backed the Brazilian generals who took power in 1964 and worked from 1970 to undo Salvador Allende's victory in Chile. Trump calling Brazil's elections a disgrace, reported by Deutsche Welle, belongs to that history of US presidents judging Latin American results, now in public statements rather than covert funding. The postwar promise was that the count settled the question of who governs; each of these countries is now arguing over who decides that it has.",
           "trajectoryIds": [
-            "nuremberg-1945",
-            "juntas-1985",
-            "brazil-1964"
+            "brazil-1964",
+            "santiago-1970"
           ],
-          "bookIds": [
-            "memory-history-forgetting"
-          ]
+          "bookIds": []
         }
       ],
       "articleIds": [
-        "n-7e990c1ac5e44a",
-        "n-9cf49e135b3eec",
-        "n-70d45bec62979b",
-        "n-4c3b739859fa8c",
-        "n-f99dc159422ec8",
-        "n-a68938be4fab38",
-        "n-77d9f3a224fcae",
-        "n-c31c7b4726a8c5",
-        "n-0d678ed41a35b4",
-        "n-252e179d0b9253",
-        "n-c65c47ee0bd69e",
-        "n-9767853aa9840e"
+        "n-9aca980904166c",
+        "n-e119e811ee24d6",
+        "n-0ea1ed2985caa8",
+        "n-59aa190f0402b0",
+        "n-0e08f31b7975ed",
+        "n-a40b63a0dd87d5",
+        "n-61880ef9a6d5d6",
+        "n-4c6f98c212ca86",
+        "n-90399f15e82bf2",
+        "n-d85b58a5152180",
+        "n-81a0820afea9a6",
+        "n-43c9e8309c3202",
+        "n-f99a9f578fa2c6",
+        "n-41981021aa2196",
+        "n-22ee34a3fe28de"
       ]
     },
     {
-      "id": "backup-systems-and-blame",
-      "line": "Backup systems meant to catch human error failed on railways and grids this week, and official blame still starts with the operator.",
-      "kicker": "MAINTENANCE / AUTOMATION / RESPONSIBILITY",
-      "firmness": "tentative",
+      "id": "drones-and-the-return-of-mass",
+      "line": "Cheap drones have made defence a matter of quantity again, so states are financing arms factories and widening conscription.",
+      "kicker": "AUTOMATION / MASS / MOBILISATION",
+      "firmness": "plausible",
       "continues": "",
       "change": "",
-      "claim": "A Spanish high-speed collision near Urda followed at least 15 warnings about faulty signalling, a Japanese JR train overran a station when its driver was drowsy and its automatic system did not activate, Bangladesh is investigating a grid failure and a three-hour outage of its identity server, Manila's airport has broken CCTVs, and Mexico lost internet services across several networks. In each, a layer meant to catch a failure was itself not working. The first official explanations, human error in Spain and drowsiness in Japan, point at the person rather than at the unmaintained system around them.",
+      "claim": "Ukrainian commanders describe a shortage of interceptors against jet-powered drones and a production race imposed by Russia; Onet in Poland reports a record drone attack that shut airports in Moscow and St Petersburg; Finland's army trains soldiers against drones with VR lasers; Iran says it took control of a US reconnaissance drone; Ukraine's central bank eases loans to arms makers, a Canadian columnist protests the sale of an Arctic defence-tech firm to foreign owners, and Lithuania will conscript all men from 2032. The shared mechanism is that cheap drones are used in numbers that expensive defences cannot match one for one, so the contest moves to how many can be built, launched and stopped. States are answering with the methods of mass armies: credit for factories, control over small suppliers, and service for every man.",
       "events": [
         {
-          "label": "Urda collision after repeated signalling warnings",
+          "label": "Ukraine short of drone interceptors",
           "articleIds": [
-            "n-7bcb1e11d6b8ce",
-            "n-7423bf3c48faa8",
-            "n-8bed4103b38454",
-            "n-07a44400146c34",
-            "n-0fe0cdae0a89cd"
+            "n-eec6607027be33",
+            "n-b75150789ceaf3",
+            "n-c6b3dafb44b41d"
           ]
         },
         {
-          "label": "JR train overruns station, automatic braking fails",
+          "label": "Record drone raids on Russian airports",
           "articleIds": [
-            "n-9a6d058165dc6e"
+            "n-8d7a12ebd38124",
+            "n-52d900d30807e2"
           ]
         },
         {
-          "label": "Bangladesh probes national grid failure",
+          "label": "Iran claims capture of US drone",
           "articleIds": [
-            "n-a8cce914fc2ed7"
+            "n-8aefb7d705c906"
           ]
         },
         {
-          "label": "Bangladesh identity server down three hours",
+          "label": "Finland trains troops against drones",
           "articleIds": [
-            "n-502c75129f50a9"
+            "n-3ca0d7968aad33"
           ]
         },
         {
-          "label": "Broken CCTVs flagged at Manila airport",
+          "label": "Lithuania brings in universal male conscription",
           "articleIds": [
-            "n-0f6fc0f7c7aead"
+            "n-668c02ca794b2c"
           ]
         },
         {
-          "label": "Internet outage across Mexican networks",
+          "label": "Credit and ownership of defence firms",
           "articleIds": [
-            "n-97e07c7aeb1816"
+            "n-f29797f795f3b6",
+            "n-56ea37c84d355b"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "d-obs-1",
+          "id": "drone-r1",
           "kind": "observation",
-          "label": "Two train failures",
+          "label": "The drone war this week",
           "fragments": [
             {
-              "id": "d-obs-1-f1",
-              "label": "Urda",
-              "text": "El Comercio reports at least 15 InfoAdif warnings about signalling problems around Urda since 2024, and AVE drivers saying the signalling was already faulty at the site the day before. El País publishes the Atocha controller's instruction to the driver: 'Disconnect and reconnect, and resume at normal speed.' Franceinfo reports human error as the most likely cause.",
+              "id": "drone-r1-f1",
+              "label": "Ukraine's interceptors",
+              "text": "UNIAN in Ukraine runs three interviews with the adviser known as Flash: on how many interceptors Ukraine has against jet-powered drones, on Russia forcing an engineering race in drone production, and on how private air defence works under military control. The subject of all three is supply rather than technique.",
               "articleIds": [
-                "n-7bcb1e11d6b8ce",
-                "n-7423bf3c48faa8",
-                "n-8bed4103b38454",
-                "n-07a44400146c34"
+                "n-eec6607027be33",
+                "n-b75150789ceaf3",
+                "n-c6b3dafb44b41d"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "d-obs-1-f2",
-              "label": "Japan",
-              "text": "Asahi Shimbun reports a JR train that passed through a station where it should have stopped, with braking 'delayed due to drowsiness', and that 'the automatic system also did not activate'. No injuries are reported. The account has the same two parts as Urda: a person who erred and an automatic layer that did not catch it.",
+              "id": "drone-r1-f2",
+              "label": "Strikes on Russia and a captured drone",
+              "text": "Onet in Poland reports a record drone attack on Russia that halted airports in Moscow and St Petersburg. WELT in Germany reports Zelensky announcing the destruction of Russian fighter jets on the ground and Moscow replying with missiles. Dân trí in Vietnam reports Iran's claim to have taken control of a US reconnaissance drone.",
               "articleIds": [
-                "n-9a6d058165dc6e"
+                "n-8d7a12ebd38124",
+                "n-52d900d30807e2",
+                "n-8aefb7d705c906"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1494,28 +1752,28 @@
           ]
         },
         {
-          "id": "d-obs-2",
+          "id": "drone-r2",
           "kind": "observation",
-          "label": "Grids, servers and cameras",
+          "label": "Armies and treasuries prepare",
           "fragments": [
             {
-              "id": "d-obs-2-f1",
-              "label": "Bangladesh",
-              "text": "bdnews24 reports that the Power Division has formed a probe committee over a grid failure, and separately that the national identity server was 'down' for three hours, disrupting online services. Neither report gives a cause.",
+              "id": "drone-r2-f1",
+              "label": "Training and service",
+              "text": "Yle reports the Finnish Defence Forces testing VR lasers to train soldiers for counter-drone operations. Executive Digest in Portugal reports that Lithuania will make military service compulsory for all men from 2032.",
               "articleIds": [
-                "n-a8cce914fc2ed7",
-                "n-502c75129f50a9"
+                "n-3ca0d7968aad33",
+                "n-668c02ca794b2c"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "d-obs-2-f2",
-              "label": "Manila and Mexico",
-              "text": "Philstar reports broken CCTVs flagged at Manila's NAIA airport. Vanguardia reports an internet outage across Izzi, Totalplay, Telmex, X, ChatGPT, Fortnite and WhatsApp in Mexico. In both, a system treated as background stopped working.",
+              "id": "drone-r2-f2",
+              "label": "Money and ownership",
+              "text": "LB.ua reports that Ukraine's central bank has eased lending terms for defence companies working under state contracts. In the National Post, John Ivison argues that Ottawa has let a key Arctic defence-technology company pass into foreign hands.",
               "articleIds": [
-                "n-0f6fc0f7c7aead",
-                "n-97e07c7aeb1816"
+                "n-f29797f795f3b6",
+                "n-56ea37c84d355b"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1523,60 +1781,62 @@
           ]
         },
         {
-          "id": "d-int-1",
+          "id": "drone-r3",
           "kind": "interpretation",
-          "label": "The operator and the system",
+          "label": "Why numbers matter again",
           "fragments": [
             {
-              "id": "d-int-1-f1",
-              "label": "Blame at the end of a chain",
-              "text": "The Atocha instruction places a person between a signalling system already reported faulty and a train at speed. Calling the result human error names the last person in that chain and leaves out the fifteen warnings. El Comercio's report that this is the second fatal high-speed accident in ten months, shaking the campaign for the 29 November election, shows the argument moving from the driver's cab to the ministry. The Spanish Wikipedia's most-viewed pages included the earlier Adamuz and Santiago de Compostela accidents.",
+              "id": "drone-r3-f1",
+              "label": "The shared mechanism",
+              "text": "A drone costing a small fraction of the interceptor that stops it can be launched in hundreds, so a defender who relies on a few expensive missiles runs out first. That is the shortage the Ukrainian interviews describe. The answers reported elsewhere are the methods of mass: training every Finnish soldier rather than specialist crews, conscripting every Lithuanian man, cheap credit for Ukrainian arms factories, and treating a small Canadian technology firm as a strategic asset.",
               "articleIds": [
-                "n-8bed4103b38454",
-                "n-07a44400146c34",
-                "n-0fe0cdae0a89cd",
-                "n-7bcb1e11d6b8ce"
+                "n-eec6607027be33",
+                "n-b75150789ceaf3",
+                "n-3ca0d7968aad33",
+                "n-668c02ca794b2c",
+                "n-f29797f795f3b6",
+                "n-56ea37c84d355b"
               ],
-              "bookIds": [
-                "risk-society"
-              ],
+              "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "d-int-1-f2",
-              "label": "Upkeep as the shared factor",
-              "text": "The Spanish, Japanese, Bangladeshi and Philippine cases share a protective layer that existed on paper and was not working on the day: signalling, automatic braking, a grid, cameras. These are failures of upkeep rather than of design. They come to light only when the primary system, a driver or a power plant, also fails.",
+              "id": "drone-r3-f2",
+              "label": "Disruption across a country",
+              "text": "The raid that shut Moscow and St Petersburg airports shows that the effect of numbers is disruption far from the front, not only destruction. Every airport, refinery and airbase needs cover, which multiplies the stock of interceptors and trained crews a state must hold.",
               "articleIds": [
-                "n-7bcb1e11d6b8ce",
-                "n-9a6d058165dc6e",
-                "n-a8cce914fc2ed7",
-                "n-0f6fc0f7c7aead"
+                "n-8d7a12ebd38124",
+                "n-52d900d30807e2"
               ],
-              "bookIds": [
-                "shock-of-the-old"
-              ],
+              "bookIds": [],
               "trajectoryIds": []
             }
           ]
         },
         {
-          "id": "d-break",
+          "id": "drone-r4",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "d-break-f1",
-              "label": "Unequal events",
-              "text": "The Urda collision killed 68 people, as other headlines in the collection report; the JR overrun hurt no one reported; the Bangladesh, Mexico and Manila cases are outages and defects with no stated harm and no stated cause. The Mexican outage may be a single network fault or an attack, and the Bangladesh grid failure may come from weather or demand. What the events do not share is consequence or cause: one is a disaster, one a near miss, the rest disruptions whose origin is unknown.",
-              "articleIds": [],
+              "id": "drone-r4-f1",
+              "label": "Different causes",
+              "text": "Lithuania's conscription law answers the size of Russia's army and Lithuania's small population, not drones in particular, and it takes effect in 2032. The Canadian column is about foreign takeovers and industrial policy. Iran's claim may be propaganda, and capturing a single surveillance drone says nothing about quantity. What these events do not share: one is a law on men, one a bank rule, one a company sale, one a training method.",
+              "articleIds": [
+                "n-668c02ca794b2c",
+                "n-56ea37c84d355b",
+                "n-8aefb7d705c906"
+              ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "d-break-f2",
-              "label": "One crash shapes the sample",
-              "text": "Half the evidence is Spanish. On a day without a major crash, the other items would read as routine outages of the kind found in any day's news, and no one would group them. The pattern may be the Spanish story lending its shape to unrelated reports.",
-              "articleIds": [],
+              "id": "drone-r4-f2",
+              "label": "One source and an old pattern",
+              "text": "The three Ukrainian headlines come from one outlet interviewing one adviser on one day, which inflates the weight of the theme. Finland and Ukraine never gave up mass armies, so the return of quantity may be a Western European perception, not a new condition.",
+              "articleIds": [
+                "n-eec6607027be33"
+              ],
               "bookIds": [],
               "trajectoryIds": []
             }
@@ -1588,19 +1848,24 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "COMPETITION / LOAD / OUTAGES",
-          "text": "Since 2020 several of the networks in this narrative have been asked to carry more. Spain opened its high-speed lines to competing operators: Ouigo began running on the Madrid-Barcelona line in May 2021 and Iryo in November 2022, alongside Renfe, so more trains now use tracks and signalling managed by the state company Adif. Bangladesh suffered a nationwide grid failure in October 2022 that left most of the country without power for hours, and today's probe committee follows that precedent. Identity systems, airport cameras and consumer internet services have become things daily life cannot do without, which turns a three-hour outage of Bangladesh's identity server into national news. By these headlines the Urda collision is Spain's second fatal high-speed accident in ten months, and El Comercio's count of fifteen signalling warnings since 2024 suggests the maintenance record did not keep pace with the traffic. Whether that holds will be argued in the 29 November campaign.",
-          "trajectoryIds": [],
-          "bookIds": []
+          "lens": "DRONES / ATTRITION / PRODUCTION",
+          "text": "The war over Nagorno-Karabakh from September to November 2020 was the first in which drones, Turkish Bayraktar TB2s and Israeli loitering munitions, decided the outcome, and defence ministries rewrote their procurement plans in its wake. Russia's invasion of Ukraine in 2022 turned that lesson into a war of production: Ukraine came to build small first-person-view drones by the million a year, and Russia began making Iranian-designed Shahed drones at Alabuga in Tatarstan. In June 2025 Ukraine's Operation Spiderweb launched drones from lorries parked near Russian airbases and damaged strategic bombers thousands of kilometres from the front. The interceptor shortage described in the UNIAN interviews follows from that arithmetic: a drone costing tens of thousands of dollars can require a missile costing hundreds of thousands to stop it, so over time the side that produces more holds the advantage. Grégoire Chamayou asked what happens to war when one side cannot be hit back; in this decade both sides can.",
+          "trajectoryIds": [
+            "karabakh-2020",
+            "spiderweb-2025"
+          ],
+          "bookIds": [
+            "theory-of-the-drone"
+          ]
         },
         {
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "AUSTERITY / HIGH SPEED / LIABILITY",
-          "text": "After 2008 Spain's public investment fell sharply as governments cut spending during the euro crisis, while the high-speed network kept growing until it was the longest in Europe. In July 2013 an Alvia train derailed at Angrois near Santiago de Compostela, killing 80. The first account blamed the driver, who was on a phone call and took a curve at more than twice the limit. The trial that ended in 2024 convicted both the driver and Adif's former head of traffic safety, because the curve lacked automatic speed protection. That case is the template for the Urda argument: franceinfo reports human error as the likely cause, El País publishes the controller's instruction, and El Comercio counts the warnings. The Spanish Wikipedia's most-viewed pages on 28 October included the Santiago and Adamuz accidents, which suggests readers were making the same comparison.",
+          "lens": "SMARTPHONES / SUPPLY CHAINS / PRECISION",
+          "text": "The parts of a cheap drone, small cameras, lithium batteries, satellite navigation receivers, gyroscopes and radio chips, became cheap because the smartphone industry bought them by the billion after 2008. The Shenzhen firm DJI, founded in 2006, sold its Phantom quadcopter from 2013, and its supply chain is the one both Ukraine and Russia now draw on, often through intermediaries. In the same years the United States used armed Reaper drones for strikes in Pakistan, Yemen and Somalia, which made the drone a mark of a rich state. That changed on 14 September 2019, when drones and missiles cut Saudi output at Abqaiq by half for days. Iran's claim this week, reported in Vietnam, to have taken control of a US reconnaissance drone continues a contest Tehran has pursued since it displayed a captured American RQ-170 in December 2011.",
           "trajectoryIds": [
-            "lehman-2008"
+            "abqaiq-2019"
           ],
           "bookIds": []
         },
@@ -1608,35 +1873,40 @@
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "PRIVATISATION / TIMETABLES / JAPAN",
-          "text": "Japanese National Railways was split and privatised in 1987, and the new JR companies ran dense timetables under commercial pressure. In April 2005 a JR West train derailed at Amagasaki, killing 106 passengers and the driver. The inquiry found the driver had been speeding to recover a delay of about ninety seconds, under a company regime that punished lateness with retraining, and that the curve lacked a modern automatic train stop. The Asahi report that a JR driver's braking was 'delayed due to drowsiness' and that 'the automatic system also did not activate' has the same two parts. Spain opened its first high-speed line, Madrid to Seville, in 1992, and reorganised its railways under European rules in the 2000s, separating track from trains. In both countries the 1990s turned rail into a business with performance targets, and after each accident the question became whether the person or the company had failed.",
-          "trajectoryIds": [],
-          "bookIds": []
+          "lens": "PEACE DIVIDEND / CONSCRIPTION / ARMIES",
+          "text": "After the Soviet Union dissolved in 1991, most European states cut their armed forces and many ended conscription in favour of small professional armies: France from 1997, Sweden in 2010, Germany in 2011. Lithuania, independent again from 1990, suspended conscription in 2008 and restored it in 2015 after Russia annexed Crimea; the law for universal male service from 2032, reported by Executive Digest, extends that reversal. Finland kept mass conscription and territorial defence throughout, which is why its army trains ordinary soldiers against drones. The same years opened accurate satellite navigation to civilians in May 2000 and saw the first armed Predator strike in October 2001. Mary Kaldor described the wars of the 1990s as conflicts without fronts, fought by irregular forces; the war in Ukraine has fronts again, and drones are what both sides use to hold them.",
+          "trajectoryIds": [
+            "gps-2000",
+            "predator-2001"
+          ],
+          "bookIds": [
+            "new-and-old-wars"
+          ]
         },
         {
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "RISK / MAINTENANCE / AUTOMATION",
-          "text": "Postwar states built national grids, railways and later data networks as public works, and added automatic safety layers after each disaster. Japan fitted automatic train stop equipment across its network after the Mikawashima collision of 1962, which killed 160. Ulrich Beck argued in 1986 that modern societies produce risks faster than they can assign responsibility for them, so that the argument over blame becomes the main politics of an accident. David Edgerton points out that most of a technology's life is maintenance, which is seldom news until it fails. The broken CCTVs at Manila's airport, the grid failure under investigation in Bangladesh and the signalling faults reported before Urda are maintenance stories that became news only when something stopped. The public bodies founded after 1945 still own or regulate most of these networks, which is why each failure ends in a probe committee or a minister's statement.",
-          "trajectoryIds": [],
-          "bookIds": [
-            "risk-society",
-            "shock-of-the-old"
-          ]
+          "lens": "DETERRENCE / ALLIANCE / PRECISION",
+          "text": "The postwar Western approach to war rested on quality over numbers. NATO, founded in 1949, expected to face larger Soviet armies in Europe, and in the 1970s the Pentagon's offset strategy under Harold Brown and William Perry set out to defeat that mass with precision-guided weapons, stealth and surveillance. An early proof came in June 1982 over the Bekaa Valley, when Israeli drones located Syrian air defences and the air force destroyed them. The pilotless weapon itself goes back to the German V-1 that struck London from June 1944, built by a state that could no longer spare pilots. The postwar model produced expensive interceptors in small stocks, the stocks Ukraine now finds too small against cheap jet drones. Canada's place in this order was the Arctic, defended with the United States through NORAD from 1958, and a National Post columnist's alarm over the sale of an Arctic defence-tech firm is about who now supplies that defence.",
+          "trajectoryIds": [
+            "v1-1944",
+            "bekaa-1982"
+          ],
+          "bookIds": []
         }
       ],
       "articleIds": [
-        "n-7bcb1e11d6b8ce",
-        "n-7423bf3c48faa8",
-        "n-8bed4103b38454",
-        "n-07a44400146c34",
-        "n-9a6d058165dc6e",
-        "n-a8cce914fc2ed7",
-        "n-502c75129f50a9",
-        "n-0f6fc0f7c7aead",
-        "n-97e07c7aeb1816",
-        "n-0fe0cdae0a89cd"
+        "n-eec6607027be33",
+        "n-b75150789ceaf3",
+        "n-c6b3dafb44b41d",
+        "n-8d7a12ebd38124",
+        "n-52d900d30807e2",
+        "n-8aefb7d705c906",
+        "n-3ca0d7968aad33",
+        "n-668c02ca794b2c",
+        "n-f29797f795f3b6",
+        "n-56ea37c84d355b"
       ]
     }
   ]
