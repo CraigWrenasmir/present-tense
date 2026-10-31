@@ -1,40 +1,39 @@
 {
   "schemaVersion": 1,
-  "editionStamp": "20261030T015732",
-  "asOf": "2026-10-30T01:57:32Z",
-  "generatedAt": "2026-10-30T02:11:13Z",
+  "editionStamp": "20261031T013540",
+  "asOf": "2026-10-31T01:35:40Z",
+  "generatedAt": "2026-10-31T01:46:44Z",
   "model": "claude-opus-5-5",
-  "promptVersion": "chronicle-1",
+  "promptVersion": "chronicle-2",
   "usage": {
-    "input": 16264,
-    "output": 15359,
+    "input": 18493,
+    "output": 13714,
     "tier": "standard"
   },
-  "previousVersion": "20261029T045403",
+  "previousVersion": "20261030T015732",
   "notes": [
     "A running account of where things stand by these headlines, revised after each edition rather than added to. Every version is kept.",
     "Written by the model from the narratives, not from the headlines. It is a reading, not a record."
   ],
-  "standing": "By these headlines the oil story turned on 30 October. Ukraine is reported to have stopped striking Russian refineries under pressure from Trump, JD Vance has sent Iran a peace proposal while a US senator was briefed on plans to resume strikes, Israel's pump price is set to fall, Russia's Duma is budgeting on $50 oil and US mortgage rates have fallen for two weeks. US third-quarter growth of 3.4% is credited to AI investment, while Alphabet lost market value after its results and Amazon's spending rises. Flávio Bolsonaro released a letter declaring himself Brazil's president and left the country, disowned by his own party leader; in Israel, Eisenkot accuses Netanyahu of delegitimising a result that gave no bloc a majority; and days before the US midterms, voting is the subject of a federal inquiry in Alaska and a lawsuit in Texas. Ukraine reports a shortage of drone interceptors, a record drone raid shut airports in Moscow and St Petersburg, and Lithuania will conscript all men from 2032, while Yoon Suk Yeol's case, the Urda rail collision, public schemes and AI fakes had no narrative today.",
+  "standing": "Brent crude reached $117.64 on 31 October as the war with Iran went on, Italy's inflation rose to 5.4% with its president blaming stagnant wages, Colombia, Nigeria and Vietnam opened minimum or public pay rounds, and Turkey, Germany and Japan argued over fuel and consumption tax relief. A US technology sell-off over AI spending deepened, with Alphabet's biggest fall on record, Intel down 29% in a day and the Nasdaq on course for a $2 trillion October loss, while Taiwan, reporting its fastest growth in fifty years, saw nearly a trillion Taiwan dollars of foreign selling in a month and its state funds and central bank buying. European ministers shunned Sergei Lavrov at the G20, while US and Russian foreign ministers talked at APEC, Washington weighed lifting sanctions on a Putin associate and approved 500 Patriot missiles for Ukraine, and Russia signed 53 documents at its Africa summit. Protests called for the weekend of 31 October were banned in La Rochelle, allowed within perimeters in Rochefort and Saintes, and negotiated in Lisbon, with more than 150,000 young Germans signed up and arrests threatened outside the US embassy in London. Brazil's contested count, the US midterm lawsuits, drones, Yoon Suk Yeol's case and the Urda rail collision had no narrative today.",
   "moved": [
-    "The Iran and fuel thread turned. On 29 October it was the war's price rise held in central bank rates and mortgages; on 30 October it was Washington pressing for a lower oil price in both wars before the midterms, with US mortgage rates down for two weeks and Brazilian states raising fuel taxes.",
-    "The data centre thread reached the US national accounts and the share market: growth of 3.4% credited to AI investment, Amazon's rising spending and Alphabet's fall after results, with no planning or security dispute in view.",
-    "A new thread began on contested vote counts, joining Flávio Bolsonaro's letter, Israel's undecided result, US inquiries and lawsuits before the midterms, voter deletion forms in Delhi and a disputed governorship in Imo, Nigeria.",
-    "The drones thread, silent since 26 October, was revived: cheap drones in numbers, interceptor shortages in Ukraine, record raids on Russian airports and Lithuanian conscription."
+    "The Iran and fuel thread turned back within a day. The 30 October reading of Washington pressing the oil price down gave way on 31 October to Brent up 2.4% at $117.64 and the war's price rise argued over in Italian inflation, pay rounds in three countries and tax relief in three more.",
+    "The AI spending thread became a sell-off and reached public money: Alphabet's record fall, Intel's 29% drop and a $2 trillion Nasdaq loss for October, with Taiwan's state funds and central bank buying against record foreign selling.",
+    "A new thread began on Russia, shunned by European ministers at the G20 while Washington and African governments negotiate and trade with it.",
+    "The students thread, silent since 27 October, was revived as protests called for the same weekend across Europe, met with a ban in La Rochelle, perimeters in Rochefort and Saintes and negotiation in Lisbon."
   ],
   "silent": [
-    "The AI companies' listing and lawsuits thread is now silent, with no narrative since the morning of 27 October. Amazon's and Alphabet's results appeared on 30 October inside the data centre thread, so the subject has continued under another grouping more than the world has moved on.",
-    "Students striking and occupying, and state housing drives with housing protests, have now gone three editions without a narrative and are silent. No edition stamped 28 October was given, so whether the strikes grew or ended is not shown.",
-    "Public schemes falling short, AI fakes in checks, removals over offence and Brazil's election thread have had no narrative on 29 or 30 October. Brazil's events kept appearing under other joins; the other three may simply not have been the day's strongest joins.",
-    "The four single observations from early 27 October, the football night and courts re-sentencing the past remain silent. Halloween and the days of the dead are still ahead, so the rites thread may return."
+    "Brazil's election and the United States is now silent, with no narrative since the evening of 27 October. Its events ran under other threads on 29 and 30 October, but none appeared on 31 October, so this may be the story going quiet after Flávio Bolsonaro's exit as much as the sample.",
+    "Public schemes falling short, AI fakes in checks and removals over offence, all begun on the evening of 27 October, have gone three editions without a narrative and are silent. Each was a single observation and may simply not have been a strong join since.",
+    "The single observations from 26 and 27 October remain silent. Halloween falls on 31 October, but the only trace of it was the price of Halloween sweets inside the wage narrative, so the rites thread has not returned."
   ],
   "threads": [
     {
       "key": "iran-war-and-fuel",
-      "label": "Iran war, Hormuz, oil prices and borrowing",
+      "label": "Iran war, oil prices, borrowing and wages",
       "status": "live",
       "since": "20261026T234612",
-      "lastSeen": "20261030T015732",
+      "lastSeen": "20261031T013540",
       "narratives": [
         {
           "stamp": "20261026T234612",
@@ -55,15 +54,19 @@
         {
           "stamp": "20261030T015732",
           "id": "washington-oil-price-two-wars"
+        },
+        {
+          "stamp": "20261031T013540",
+          "id": "war-prices-reach-wage-talks"
         }
       ],
-      "text": "On 26 October the join was the Gulf running talks and strike preparations side by side. On 27 October it was the Hormuz shock at the pump, then jet fuel, Estonian asphalt and subsidy rules in Malaysia, India, Ukraine and South Korea. On 29 October it reached borrowing: the Fed held, South Korean mortgage rates hit a 14-year high and the UK cut its growth forecast over the war. On 30 October the reports ran the other way: Ukraine is said, through a Finnish summary of the Wall Street Journal, to have stopped hitting Russian refineries under Trump's pressure, JD Vance sent Tehran a peace proposal while a senator was briefed on resumed strikes, Israel's pump price is set to fall, Russia budgets on $50 oil and US mortgage rates have fallen two weeks. Brazilian states are raising fuel taxes.",
-      "direction": "After moving outward from the pump to loan rates as a rising cost, it turned on 30 October towards Washington pressing for a lower oil price before the midterms, with the war named directly again."
+      "text": "On 26 October the join was the Gulf running talks and strike preparations side by side. On 27 October it was the Hormuz shock at the pump, then jet fuel, Estonian asphalt and subsidies in Malaysia, India, Ukraine and South Korea. On 29 October it reached borrowing, with the Fed holding and South Korean mortgage rates at a 14-year high. On 30 October reports ran the other way: Washington pressing Kyiv to stop hitting Russian refineries, a US peace proposal to Tehran and US mortgage rates down. On 31 October Brent rose 2.4% to $117.64, Italy's inflation reached 5.4%, Colombia, Nigeria and Vietnam opened pay rounds, and Turkey, Germany and Japan argued over tax relief. The edition's case against says only Italy's figure and the fuel relief clearly carry the oil price.",
+      "direction": "After a one-day reading of easing on 30 October, it has returned to the war's price rise spreading outward, now from tax receipts towards wages."
     },
     {
       "key": "brazil-election-and-the-us",
       "label": "Brazil's election and the United States",
-      "status": "live",
+      "status": "silent",
       "since": "20261026T234612",
       "lastSeen": "20261027T201945",
       "narratives": [
@@ -80,8 +83,8 @@
           "id": "us-as-actor-after-lula-win"
         }
       ],
-      "text": "On 26 October Brazil's vote was read as a script in Buenos Aires, Madrid and Nairobi. On the morning of 27 October Trump called the election rigged; by that evening, after Lula's run-off win, the United States was the common party in Flávio Bolsonaro's exit, Lula's warning of persecution, about 300 US soldiers in Colombia and Machado's return to Venezuela. No narrative has carried this thread since, but its events kept running under other joins: on 29 October Flávio Bolsonaro reached the United States with Trump's consent and Alcolumbre planned an amnesty for Jair Bolsonaro, in the former-leaders thread; on 30 October Flávio released a letter declaring himself president before leaving, in the contested-count thread. One more edition without a narrative and it turns silent.",
-      "direction": "It moved from how Brazil's vote is read abroad to Washington's part in what follows, and since 29 October its events have been taken up under wider joins."
+      "text": "On 26 October Brazil's vote was read as a script in Buenos Aires, Madrid and Nairobi. On the morning of 27 October Trump called the election rigged; by that evening, after Lula's run-off win, the United States was the common party in Flávio Bolsonaro's exit, Lula's warning of persecution, about 300 US soldiers in Colombia and Machado's return to Venezuela. Its events then ran under wider joins: Flávio Bolsonaro's arrival in the United States and an amnesty plan for Jair Bolsonaro on 29 October, and Flávio's letter declaring himself president on 30 October. Nothing from Brazil appeared on 31 October, and the thread is now silent.",
+      "direction": "It moved from how Brazil's vote is read abroad to Washington's part in what follows, then was taken up under wider joins and fell silent."
     },
     {
       "key": "ai-industry-listing-and-footprint",
@@ -103,15 +106,15 @@
           "id": "anthropic-listing-and-copyright"
         }
       ],
-      "text": "On 26 October the join was an AI company listing the end of the world as a risk factor in its prospectus and the market buying the shares. Early on 27 October an edition followed data centres to county level, where land, grid and water requests were refused, and that morning Anthropic filed for a record US share listing as Elvis Presley's rights holders sued it over 200 songs. Data centres split into their own thread on 29 October. No narrative on listings or lawsuits has followed in three editions; the share prices of Amazon and Alphabet appeared on 30 October inside the data centre thread.",
+      "text": "On 26 October the join was an AI company listing the end of the world as a risk factor in its prospectus and the market buying the shares. Early on 27 October an edition followed data centres to county level, where land, grid and water requests were refused, and that morning Anthropic filed for a record US share listing as Elvis Presley's rights holders sued it over 200 songs. Data centres split into their own thread on 29 October. No narrative on listings or lawsuits has followed in four editions; the share falls of Alphabet and Intel on 30 and 31 October were carried in the data centre thread.",
       "direction": "It went from the prospectus to the ground and the courts, then fell silent as its market side was carried under the data centre thread."
     },
     {
       "key": "students-and-the-square",
-      "label": "Students striking and occupying",
-      "status": "silent",
+      "label": "Young people's protests and their policing",
+      "status": "live",
       "since": "20261026T234612",
-      "lastSeen": "20261027T075302",
+      "lastSeen": "20261031T013540",
       "narratives": [
         {
           "stamp": "20261026T234612",
@@ -120,10 +123,14 @@
         {
           "stamp": "20261027T075302",
           "id": "student-strikes-and-occupations"
+        },
+        {
+          "stamp": "20261031T013540",
+          "id": "one-weekend-of-protest-bans-and-talks"
         }
       ],
-      "text": "On 26 October the join was young people in public squares: students had brought down a government, and a president was copying a teenage dance. On the morning of 27 October it became concrete, with students on strike or occupying buildings in France, Mexico, India and Italy, Serbia expected next, and police action at universities in the frame. No narrative has carried it in the three editions since, so whether the strikes grew or ended is not shown by these headlines.",
-      "direction": "It moved from youth as a political image to named strikes and occupations, then went unmentioned."
+      "text": "On 26 October the join was young people in public squares, with students bringing down a government. On the morning of 27 October students were on strike or occupying buildings in France, Mexico, India and Italy. After three editions without a narrative, the Chronicle revived it on 31 October, when protests called for the same weekend met different answers: La Rochelle banned gatherings on the 31st while Rochefort and Saintes set perimeters, Lisbon's police set no red lines for Rossio, Hague shops braced for a 'Gen Z protest', over 150,000 young Germans signed up and arrests were threatened outside the US embassy in London. The edition marked it tentative and found no common organiser or demand; the revival is the Chronicle's judgment, as the narrative cited no earlier one.",
+      "direction": "It has moved from youth as a political image, to named student strikes, to how states police one weekend's crowds."
     },
     {
       "key": "housing-states-and-protest",
@@ -137,13 +144,13 @@
           "id": "housing-states-employers-protests"
         }
       ],
-      "text": "On the morning of 27 October one narrative joined Egypt, Indonesia and Tamil Nadu expanding housing through states and employers with Portugal investigating police conduct at housing protests, and the part property funds play. No narrative has followed it in three editions, though the rise in Korean and Japanese mortgage rates on 29 October and the fall in US mortgage rates on 30 October bear on the same households by these headlines.",
+      "text": "On the morning of 27 October one narrative joined Egypt, Indonesia and Tamil Nadu expanding housing through states and employers with Portugal investigating police conduct at housing protests, and the part property funds play. No narrative has followed it in four editions. Mortgage rates appeared in the oil thread on 29 and 30 October, and on 31 October Lisbon's housing camps and the Rossio demonstration appeared in the revived protest thread.",
       "direction": ""
     },
     {
       "key": "public-schemes-falling-short",
       "label": "Public schemes passing costs to households",
-      "status": "live",
+      "status": "silent",
       "since": "20261027T201945",
       "lastSeen": "20261027T201945",
       "narratives": [
@@ -152,13 +159,13 @@
           "id": "public-schemes-costs-to-households"
         }
       ],
-      "text": "Begun on the evening of 27 October. In six countries a public scheme meant to cover a cost was reported as falling short: Canadians paying for private surgery from savings and GoFundMe, German adult children billed for parents' care, Lucknow's subsidised generic pharmacies short of medicines, a Bangladeshi antivenom programme lacking funds, compensation claims from 50,000 Australians over unlawful Centrelink suspensions, and doubt over a Mexican voluntary pension scheme. The case against noted that several of these stories have run for years. No narrative carried it on 29 or 30 October; one more edition without it and it turns silent.",
+      "text": "Begun on the evening of 27 October. In six countries a public scheme meant to cover a cost was reported as falling short: Canadians paying for private surgery from savings and GoFundMe, German adult children billed for parents' care, Lucknow's subsidised generic pharmacies short of medicines, a Bangladeshi antivenom programme lacking funds, compensation claims from 50,000 Australians over unlawful Centrelink suspensions, and doubt over a Mexican voluntary pension scheme. The case against noted that several of these stories have run for years. No narrative has carried it in the three editions since, and it is now silent.",
       "direction": ""
     },
     {
       "key": "ai-fakes-in-checks",
       "label": "AI-made faces and files in checks",
-      "status": "live",
+      "status": "silent",
       "since": "20261027T201945",
       "lastSeen": "20261027T201945",
       "narratives": [
@@ -167,13 +174,13 @@
           "id": "ai-fakes-in-checks-built-for-people"
         }
       ],
-      "text": "Begun on the evening of 27 October. Nigeria's electoral commission is investigating suspected AI-generated photos in the voters' register, New Zealand job seekers report being ignored as AI-written applications flood employers, an Australian court passed the first sentence under deepfake laws without jail, and fashion models face AI copies of their image. The join is that a plausible picture or document now costs little to make while checking it still takes a person's time. No narrative carried it on 29 or 30 October, though voters' rolls returned on 30 October in the contested-count thread; one more edition without it and it turns silent.",
+      "text": "Begun on the evening of 27 October. Nigeria's electoral commission is investigating suspected AI-generated photos in the voters' register, New Zealand job seekers report being ignored as AI-written applications flood employers, an Australian court passed the first sentence under deepfake laws without jail, and fashion models face AI copies of their image. The join is that a plausible picture or document now costs little to make while checking it still takes a person's time. No narrative has carried it in the three editions since, and it is now silent.",
       "direction": ""
     },
     {
       "key": "removal-over-offence",
       "label": "Broadcasts and films removed over offence",
-      "status": "live",
+      "status": "silent",
       "since": "20261027T201945",
       "lastSeen": "20261027T201945",
       "narratives": [
@@ -182,15 +189,15 @@
           "id": "removal-over-offence"
         }
       ],
-      "text": "Begun on the evening of 27 October. A Chinese platform dropped Racing-Real Madrid and La Liga broadcasts were suspended after a remark by Mbappé, an Indian court ordered a documentary on Adani and Modi taken down, a Korean drama faced calls to halt over a Gwangju episode, and Neil Young sued to stop Trump rallies using his songs, while police in Jordan, Egypt and Spain acted against content and a Mexican court struck down a state propaganda law. Three of the headlines were the same Mbappé story. No narrative carried it on 29 or 30 October; one more edition without it and it turns silent.",
+      "text": "Begun on the evening of 27 October. A Chinese platform dropped Racing-Real Madrid and La Liga broadcasts were suspended after a remark by Mbappé, an Indian court ordered a documentary on Adani and Modi taken down, a Korean drama faced calls to halt over a Gwangju episode, and Neil Young sued to stop Trump rallies using his songs. Three of the headlines were the same Mbappé story. No narrative has carried it in the three editions since, and it is now silent.",
       "direction": ""
     },
     {
       "key": "data-centres-profit-and-objection",
-      "label": "AI data centres: spending, profit and dispute",
+      "label": "AI spending: profit, dispute and sell-off",
       "status": "live",
       "since": "20261029T045403",
-      "lastSeen": "20261030T015732",
+      "lastSeen": "20261031T013540",
       "narratives": [
         {
           "stamp": "20261029T045403",
@@ -199,10 +206,14 @@
         {
           "stamp": "20261030T015732",
           "id": "ai-spending-growth-and-markdown"
+        },
+        {
+          "stamp": "20261031T013540",
+          "id": "ai-selloff-taiwan-state-buyers"
         }
       ],
-      "text": "Begun on 29 October, when Samsung's battery and IT units and Taiwan's CHPT reported higher profits on AI data centre demand while Norway's parliament considered an urgent freeze, a Finnish city faced a police report over cleared forest and Russian data centres came under attack. On 30 October the same spending reached the US national accounts, where third-quarter growth of 3.4% was credited to AI investment, and the results of Amazon, whose cloud profits and spending rose, and Alphabet, which lost market value. AUO sold a plant to TSMC, Chinese brokers spoke of a computing super cycle, and a German retailer and Canada bought AI capacity. No planning or security dispute appeared on 30 October. The edition's own case against says Alphabet's fall may concern search advertising and that late October is earnings season.",
-      "direction": "It has moved from profit and local objection to national growth and share prices, with investors reported to be pricing the cost of the spending."
+      "text": "Begun on 29 October with Samsung and CHPT profits on AI data centre demand alongside a Norwegian freeze proposal, a Finnish forest police report and attacks on Russian data centres. On 30 October it reached US growth of 3.4% credited to AI investment and the results of Amazon and Alphabet. On 31 October the markdown deepened: Alphabet had its biggest fall on record, Intel lost 29% in a day and the Nasdaq is on course for a $2 trillion October loss. Taiwan, reporting its fastest growth in fifty years, saw nearly a trillion Taiwan dollars of foreign selling in a month while its state funds and central bank bought. The case against says Taiwan's fund buys in most large sell-offs and Intel's fall is its own. No planning dispute has appeared since 29 October.",
+      "direction": "It has moved from profit and local objection to national growth, then to a share sell-off whose losses are partly taken on by Taiwanese public money."
     },
     {
       "key": "former-leaders-courts-and-exit",
@@ -216,7 +227,7 @@
           "id": "former-rulers-court-or-exit"
         }
       ],
-      "text": "Begun on 29 October. South Korea's special counsel again sought, and by one report won, a death sentence for former president Yoon Suk Yeol over his martial law declaration, while in Brazil Alcolumbre planned a pardon or amnesty for Jair Bolsonaro and Flávio Bolsonaro reached the United States with Trump's consent. An expert report contradicted Spain's Zapatero over jewels, India seized Azam Khan's university and Indonesia's parliament opened its anti-corruption law to revision. The join is a former office-holder's case settled by a court or by politics. On 30 October Flávio Bolsonaro's letter declaring himself president appeared in the contested-count thread; no narrative carried the court cases.",
+      "text": "Begun on 29 October. South Korea's special counsel again sought, and by one report won, a death sentence for former president Yoon Suk Yeol over his martial law declaration, while in Brazil Alcolumbre planned a pardon or amnesty for Jair Bolsonaro and Flávio Bolsonaro reached the United States with Trump's consent. An expert report contradicted Spain's Zapatero over jewels, India seized Azam Khan's university and Indonesia's parliament opened its anti-corruption law to revision. On 30 October Flávio Bolsonaro's letter appeared in the contested-count thread; no narrative carried the court cases on 30 or 31 October, and one more edition without it turns it silent.",
       "direction": ""
     },
     {
@@ -231,7 +242,7 @@
           "id": "backup-systems-and-blame"
         }
       ],
-      "text": "Begun on 29 October and marked tentative by its own edition. A high-speed collision near Urda in Spain, which other headlines say killed 68 people, followed at least 15 warnings about faulty signalling; a JR train in Japan overran a station when its driver was drowsy and its automatic braking did not act; Bangladesh is investigating a grid failure and an identity server outage; Manila's airport has broken CCTVs; and Mexico lost internet across several networks. Only the Spanish and Japanese cases have a stated cause, and half the evidence is Spanish. No narrative carried it on 30 October.",
+      "text": "Begun on 29 October and marked tentative by its own edition. A high-speed collision near Urda in Spain, which other headlines say killed 68 people, followed at least 15 warnings about faulty signalling; a JR train in Japan overran a station when its driver was drowsy and its automatic braking did not act; Bangladesh is investigating a grid failure and an identity server outage; Manila's airport has broken CCTVs; and Mexico lost internet across several networks. Only the Spanish and Japanese cases have a stated cause. No narrative carried it on 30 or 31 October; one more edition without it and it turns silent.",
       "direction": ""
     },
     {
@@ -246,7 +257,7 @@
           "id": "contesting-the-count"
         }
       ],
-      "text": "Begun on 30 October. Flávio Bolsonaro released a letter declaring himself president of Brazil and then left the country; in Israel, Gadi Eisenkot accuses Netanyahu of trying to delegitimise a result that gave no bloc a majority; in the United States, days before the midterms, a federal inquiry into the Alaska vote is widening and Texas's attorney general is suing Houston's county clerk; in Delhi BJP booth agents filed deletion forms against Muslim voters; and in Imo, Nigeria, a governorship is disputed. The join is the roll, count or certification as the thing fought over. The case against notes that it sets a coup attempt beside a suit over voter adverts, and that Brazil's right-wing party leader disowned the letter. Flávio Bolsonaro also runs through the Brazil and former-leaders threads.",
+      "text": "Begun on 30 October. Flávio Bolsonaro released a letter declaring himself president of Brazil and then left the country; in Israel, Gadi Eisenkot accuses Netanyahu of trying to delegitimise a result that gave no bloc a majority; in the United States, days before the midterms, a federal inquiry into the Alaska vote is widening and Texas's attorney general is suing Houston's county clerk; in Delhi BJP booth agents filed deletion forms against Muslim voters; and in Imo, Nigeria, a governorship is disputed. The case against notes that it sets a coup attempt beside a suit over voter adverts. No narrative carried it on 31 October, though the midterms are still days away.",
       "direction": ""
     },
     {
@@ -265,8 +276,23 @@
           "id": "drones-and-the-return-of-mass"
         }
       ],
-      "text": "On 26 October one narrative joined drones cutting power, guarding a lake, carrying the wounded and being sold. It was silent for three editions, and attacks on Russian data centres on 29 October were placed in another thread. On 30 October drones returned as a matter of numbers: Ukrainian commanders describe a shortage of interceptors against jet-powered drones, a record raid shut airports in Moscow and St Petersburg, Finland trains soldiers against drones, Iran claims to have taken a US reconnaissance drone, Ukraine's central bank eases loans to arms makers and Lithuania will conscript all men from 2032. The 30 October narrative did not cite the earlier one; the Chronicle revived this thread because both take the drone as the common object, though the joins differ.",
+      "text": "On 26 October one narrative joined drones cutting power, guarding a lake, carrying the wounded and being sold. It was silent for three editions. On 30 October drones returned as a matter of numbers: Ukrainian commanders describe a shortage of interceptors against jet-powered drones, a record raid shut airports in Moscow and St Petersburg, Finland trains soldiers against drones, Ukraine's central bank eases loans to arms makers and Lithuania will conscript all men from 2032. The revival was the Chronicle's judgment, as the 30 October narrative cited no earlier one. No narrative carried drones on 31 October, though Washington's approval of 500 Patriot missiles for Ukraine appeared in the new Russia thread.",
       "direction": "It has moved from the drone's many uses to the number of drones and the factories and conscripts states are raising to match them."
+    },
+    {
+      "key": "russia-shunned-and-courted",
+      "label": "Russia shunned by Europe, courted elsewhere",
+      "status": "live",
+      "since": "20261031T013540",
+      "lastSeen": "20261031T013540",
+      "narratives": [
+        {
+          "stamp": "20261031T013540",
+          "id": "russia-shunned-and-courted"
+        }
+      ],
+      "text": "Begun on 31 October. European ministers refused to stand beside Sergei Lavrov for the G20 photograph and Poland's foreign minister told him 'enough', while US and Russian foreign ministers discussed coordination at APEC, Washington weighed lifting sanctions on a Putin associate, Russia signed 53 documents at its Africa summit and Nigeria moved to replace a 1967 air agreement with Moscow. Washington also approved 500 Patriot missiles for Ukraine. The case against says the Europeans still attended, Europe has a role in the Abu Dhabi talks, and the African deals renew old ties. It sits close to the 30 October report, carried in the oil thread, that Ukraine stopped striking Russian refineries under Trump's pressure.",
+      "direction": ""
     },
     {
       "key": "money-exit-and-amnesties",
@@ -280,7 +306,7 @@
           "id": "money-hides-state-discounts"
         }
       ],
-      "text": "Early on 27 October one narrative joined savings and fortunes moving into dollars, gold and trusts with states answering by amnesties and discounts meant to bring the money back into view. No narrative in the four editions since has followed it, so it stands as a single observation. The amnesty bills of 29 October concern convictions, not tax or hidden money.",
+      "text": "Early on 27 October one narrative joined savings and fortunes moving into dollars, gold and trusts with states answering by amnesties and discounts meant to bring the money back into view. No narrative in the five editions since has followed it, so it stands as a single observation. The amnesty bills of 29 October concern convictions, not tax or hidden money.",
       "direction": ""
     },
     {
@@ -295,7 +321,7 @@
           "id": "clerks-paid-labourers-buried"
         }
       ],
-      "text": "Early on 27 October one narrative set office workers being paid to leave as AI takes their tasks against labourers still dying in ditches, fields and collapsed buildings. No later narrative has carried it in four editions. AI has appeared since in other joins, as fakes, data centres and national growth, but not as a matter of jobs.",
+      "text": "Early on 27 October one narrative set office workers being paid to leave as AI takes their tasks against labourers still dying in ditches, fields and collapsed buildings. No later narrative has carried it in five editions. AI has appeared since as fakes, data centres, national growth and a share sell-off, but not as a matter of jobs; wages appeared on 31 October only through the oil price.",
       "direction": ""
     },
     {
@@ -310,7 +336,7 @@
           "id": "rites-measured-before-dead"
         }
       ],
-      "text": "Early on 27 October one narrative joined reports that measured the rites of late October and early November before they happen: numbers of hosts, incense sticks, costumes and the strain on worshippers' knees. No narrative has carried it in the four editions since. With Halloween and the days of the dead on 31 October and 1 and 2 November, it may return.",
+      "text": "Early on 27 October one narrative joined reports that measured the rites of late October and early November before they happen: numbers of hosts, incense sticks, costumes and the strain on worshippers' knees. No narrative has carried it in the five editions since. On 31 October, Halloween itself, the only trace was a headline on the rising cost of Halloween sweets inside the wage narrative. The days of the dead on 1 and 2 November are still ahead.",
       "direction": ""
     },
     {
@@ -325,7 +351,7 @@
           "id": "households-72-hours-warheads"
         }
       ],
-      "text": "Early on 27 October one narrative joined European advice that households should be able to last 72 hours on their own with European states seeking cover from nuclear warheads they do not own. No narrative in the four editions since has returned to it. Finnish anti-drone training and Lithuanian conscription on 30 October were placed in the drones thread.",
+      "text": "Early on 27 October one narrative joined European advice that households should be able to last 72 hours on their own with European states seeking cover from nuclear warheads they do not own. No narrative in the five editions since has returned to it. Finnish anti-drone training and Lithuanian conscription on 30 October went to the drones thread, and Europe's stance towards Russia on 31 October to a new thread.",
       "direction": ""
     },
     {
@@ -340,7 +366,7 @@
           "id": "agreed-on-a-football"
         }
       ],
-      "text": "On 26 October one narrative joined coverage of a single football night that drew attention across many countries at once. It was tied to one event and no narrative has carried it in the five editions since. Football returned on 27 October only as a broadcasting dispute in the removal-over-offence thread.",
+      "text": "On 26 October one narrative joined coverage of a single football night that drew attention across many countries at once. It was tied to one event and no narrative has carried it in the six editions since. Football returned on 27 October only as a broadcasting dispute in the removal-over-offence thread.",
       "direction": ""
     },
     {
@@ -355,7 +381,7 @@
           "id": "past-re-sentenced"
         }
       ],
-      "text": "On 26 October one narrative joined courts re-sentencing events of 1979 and 1996 with a library removing material from 2026, treating them as revisions of the record. No narrative has carried it in the five editions since. The former-leaders thread of 29 October and the contested-count thread of 30 October touch nearby ground, but neither re-sentences an old event.",
+      "text": "On 26 October one narrative joined courts re-sentencing events of 1979 and 1996 with a library removing material from 2026, treating them as revisions of the record. No narrative has carried it in the six editions since. The former-leaders and contested-count threads touch nearby ground, but neither re-sentences an old event.",
       "direction": ""
     }
   ],
@@ -374,9 +400,14 @@
       "held": "The data centre question was running apart from the AI companies' finance, as a matter of land, power and security.",
       "undone": "On 30 October the data centre thread itself turned to finance: US growth credited to AI investment, Amazon's spending and Alphabet's fall in market value, with no planning or security dispute in that edition. The split of threads stands, but the separation of data centres from company finance does not.",
       "stamp": "20261030T015732"
+    },
+    {
+      "held": "On 30 October the Iran war's costs had turned towards easing, with Washington pressing for a lower oil price before the midterms.",
+      "undone": "On 31 October Brent rose 2.4% to $117.64, Italy's inflation reached 5.4% and the price rise was argued over in pay rounds and tax relief in several countries. The easing reading did not last a day, and the earlier withdrawal of the outward-spread reading now looks premature.",
+      "stamp": "20261031T013540"
     }
   ],
-  "caseAgainst": "This Chronicle rests on six editions over about 74 hours, still with none stamped 28 October, so it cannot show what happened in that gap. Two of today's four narratives carry continuation links, and the brief that asks for continuity may have produced them as much as the world did. The turn in the oil thread rests on a Finnish summary of a Wall Street Journal report and a Chinese report on US mortgage rates, and the edition's own case against says a US plan to resume strikes on Iran would raise supply risk, not lower it; I may have overstated the turn in adding it to the withdrawn record. The data centre move to share prices falls in the week the large US technology firms report, so it may be the calendar. Brazil, Israel and the US midterms fall in the same fortnight, which may make contested counts look like a pattern. Flávio Bolsonaro now appears in three threads, because the rules start a new thread for an unlinked narrative unless an old one is silent; a reader could fairly fold them together. Reviving the drones thread was my judgment, not the edition's, and the three Ukrainian drone headlines come from one outlet interviewing one adviser. My earlier versions' habit of leading with the war may have pulled me to lead with it again.",
-  "line": "On 30 October 2026, days before the US midterms, Washington is reported pressing for lower oil prices in two wars, and US growth of 3.4% is credited to AI.",
-  "revision": "One thread begun on contested vote counts, the drones thread of 26 October revived, and the AI listing, students and housing threads marked silent, leaving ten live. The Iran fuel thread's direction is withdrawn as reversed, and the view of data centres as apart from company finance is withdrawn, so two items are added to the withdrawn record. The standing was rewritten around the oil price turn, AI in US growth, contested counts and drones."
+  "caseAgainst": "This Chronicle rests on seven editions over about 98 hours, still with none stamped 28 October. Two of today's four narratives carry continuation links, and the brief that asks for continuity may produce them as much as the world does. The oil thread has now been read as spreading, then easing, then spreading again in three consecutive versions; that swing may say more about which headlines each collection caught than about the oil market, and I have withdrawn readings on single editions twice. The wage join rests firmly only on Italy's inflation figure and the fuel relief schemes, as its own case against says. The sell-off falls in US earnings week at the end of a month, and Taiwan's fund buys in most large falls. The Russia thread rests on a G20, an APEC meeting and an Africa summit in the same week, so the meetings calendar may have made the pattern. Reviving the students thread was my judgment on a tentative narrative gathered on the eve of one weekend, with no common organiser named. My earlier versions led with the war, and I have led with it again.",
+  "line": "On 31 October 2026, with Brent at $117.64, the Iran war's price rise reaches wage talks, and Taiwan's state funds buy as a US tech sell-off over AI spending deepens.",
+  "revision": "The Brazil, public schemes, AI fakes and removal-over-offence threads are marked silent; a new thread on Russia was begun and the students thread revived around one weekend's protests, leaving eight live. The 30 October reading of easing war costs is withdrawn after Brent rose and the price rise reached pay rounds, and the standing was rewritten around oil and wages, the AI sell-off and Taiwan, Russia and the weekend protests."
 }

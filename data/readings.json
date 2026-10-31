@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 3,
-  "generatedAt": "2026-10-30T02:08:50Z",
-  "newsGeneratedAt": "2026-10-30T01:57:32Z",
+  "schemaVersion": 4,
+  "generatedAt": "2026-10-31T01:44:31Z",
+  "newsGeneratedAt": "2026-10-31T01:35:40Z",
   "method": "claude-api-batch",
   "model": "claude-opus-5-5",
-  "promptVersion": "narrative-5",
-  "previousNewsGeneratedAt": "2026-10-29T04:54:03Z",
+  "promptVersion": "narrative-6",
+  "previousNewsGeneratedAt": "2026-10-30T01:57:32Z",
   "usage": {
-    "input": 63659,
-    "output": 45843,
+    "input": 63774,
+    "output": 52254,
     "tier": "batch"
   },
   "notes": [
@@ -16,70 +16,37 @@
     "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
     "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
     "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
     "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
     "Books and trajectories appear only where they change how a fragment or a horizon reads."
   ],
   "sourceArticles": [
     {
-      "id": "n-801be6891d785c",
-      "title": "La economía de Estados Unidos acelera en el tercer trimestre al crecer un 3,4% impulsada por la IA",
-      "titleEnglish": "US economy accelerates in third quarter, growing 3.4% driven by AI",
-      "url": "https://elpais.com/economia/2026-10-29/la-economia-de-estados-unidos-acelera-en-el-tercer-trimestre-al-crecer-un-34-impulsada-por-la-ia.html",
-      "publisher": "El País",
-      "publisherDomain": "elpais.com",
-      "publishedAt": "2026-10-29T12:35:37Z",
-      "seenAt": "2026-10-29T13:47:00Z",
+      "id": "n-9fe79de68d577f",
+      "title": "Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen",
+      "titleEnglish": "Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/30/nasdaq-faces-2-trillion-wipeout-in-october-as-ai-spending-fears-deepen",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-10-30T23:38:00Z",
+      "seenAt": "2026-10-30T16:32:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Spain",
-      "sourceCountryCode": "ES",
-      "sourceRegion": "Europe",
-      "sourceLat": 40,
-      "sourceLon": -4,
-      "language": "es"
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
     },
     {
-      "id": "n-59e3e948f2924e",
-      "title": "USA:n talouskasvu ylitti odotukset kulutuksen ja AI-investointien vetämänä",
-      "titleEnglish": "US economic growth beat expectations, driven by consumption and AI investment",
-      "url": "https://yle.fi/a/74-20254091",
-      "publisher": "Yle Uutiset",
-      "publisherDomain": "yle.fi",
-      "publishedAt": "2026-10-29T13:31:48Z",
-      "seenAt": "2026-10-29T13:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Finland",
-      "sourceCountryCode": "FI",
-      "sourceRegion": "Europe",
-      "sourceLat": 64,
-      "sourceLon": 26,
-      "language": "fi"
-    },
-    {
-      "id": "n-8f76bb4c461610",
-      "title": "Amazon profitiert von Cloud-Geschäft - WELT",
-      "titleEnglish": "Amazon benefits from cloud business - WELT",
-      "url": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/netzwelt/article6ae3b6165955c00547f807a4/amazon-profitiert-von-cloud-geschaeft.html",
-      "publisher": "DIE WELT",
-      "publisherDomain": "welt.de",
-      "publishedAt": "2026-10-29T22:47:00Z",
-      "seenAt": "2026-10-29T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "de"
-    },
-    {
-      "id": "n-4b8fc57fd6fce4",
-      "title": "KI-Boom: Amazon profitiert von Cloud-Geschäft",
-      "titleEnglish": "AI Boom: Amazon Profits From Cloud Business",
-      "url": "https://www.handelsblatt.com/technik/ki/ki-boom-amazon-profitiert-von-cloud-geschaeft/100265410.html",
+      "id": "n-f16c88025288cd",
+      "title": "Dow Jones, S&P 500, Nasdaq: Nasdaq 100 auf Talfahrt – Intel-Aktie verliert 29 Prozent",
+      "titleEnglish": "Dow Jones, S&P 500, Nasdaq: Nasdaq 100 in a downward slide – Intel shares lose 29 percent",
+      "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nasdaq-100-auf-talfahrt-intel-aktie-verliert-29-prozent/100266181.html",
       "publisher": "handelsblatt.com",
       "publisherDomain": "handelsblatt.com",
-      "publishedAt": "2026-10-29T21:23:45Z",
-      "seenAt": "2026-10-29T22:47:00Z",
+      "publishedAt": "2026-10-30T19:30:00Z",
+      "seenAt": "2026-10-30T22:32:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Germany",
       "sourceCountryCode": "DE",
@@ -89,303 +56,31 @@
       "language": "de"
     },
     {
-      "id": "n-52b9fa77ac1bcc",
-      "title": "Gastos da Amazon disparam em meio à desaceleração do crescimento das vendas on-line",
-      "titleEnglish": "Amazon Spending Soars Amid Slowdown in Online Sales Growth",
-      "url": "https://oglobo.globo.com/economia/negocios/noticia/2026/10/29/amazon-eleva-gastos-para-atender-a-crescente-demanda-por-servicos-de-ia.ghtml",
-      "publisher": "O Globo",
-      "publisherDomain": "oglobo.globo.com",
-      "publishedAt": "2026-10-29T22:47:00Z",
-      "seenAt": "2026-10-29T22:47:00Z",
+      "id": "n-9a93975e945c22",
+      "title": "Estouro da bolha de IA? Por que ações da Alphabet, dona da Google, tiveram maior queda da história - BBC News Brasil",
+      "titleEnglish": "Burst of the AI bubble? Why Alphabet, Google's parent, had its biggest drop in history - BBC News Brasil",
+      "url": "https://www.bbc.com/portuguese/articles/cmy0r2wrwwxlo",
+      "publisher": "BBC News Brasil",
+      "publisherDomain": "bbc.com",
+      "publishedAt": "2026-10-30T15:17:38Z",
+      "seenAt": "2026-10-30T16:32:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Brazil",
-      "sourceCountryCode": "BR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -14,
-      "sourceLon": -52,
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
       "language": "pt"
     },
     {
-      "id": "n-fcd519910b8baa",
-      "title": "Amazon's Q3 results miss analysts' estimates",
-      "titleEnglish": "Amazon's Q3 results miss analysts' estimates",
-      "url": "https://www.westernadvocate.com.au/story/9382759/amazons-q3-results-miss-analysts-estimates/",
-      "publisher": "westernadvocate.com.au",
-      "publisherDomain": "westernadvocate.com.au",
-      "publishedAt": "2026-10-29T21:12:36Z",
-      "seenAt": "2026-10-29T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Australia",
-      "sourceCountryCode": "AU",
-      "sourceRegion": "Oceania",
-      "sourceLat": -25,
-      "sourceLon": 134,
-      "language": "en"
-    },
-    {
-      "id": "n-680ecc02ce8a2f",
-      "title": "“믿었던 알파벳마저” 시총 5000억달러 증발…뉴욕증시 일제히 하락[투자360]",
-      "titleEnglish": "\"Even Alphabet, Which We Trusted\" Market Cap Evaporates by 500 Billion Dollars…New York Stocks All Fall [Investment 360]",
-      "url": "https://biz.heraldcorp.com/article/10919931",
-      "publisher": "헤럴드경제",
-      "publisherDomain": "biz.heraldcorp.com",
-      "publishedAt": "2026-10-29T22:44:30Z",
-      "seenAt": "2026-10-29T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Korea",
-      "sourceCountryCode": "KR",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 128,
-      "language": "ko"
-    },
-    {
-      "id": "n-cd22dbdd701009",
-      "title": "Google-eigenaar Alphabet keldert op Wall Street na resultaten",
-      "titleEnglish": "Google parent Alphabet falls on Wall Street after results",
-      "url": "https://nieuws.nl/economie/google-eigenaar-alphabet-keldert-op-wall-street-na-resultaten",
-      "publisher": "Nieuws.nl",
-      "publisherDomain": "nieuws.nl",
-      "publishedAt": "2026-10-29T13:48:53Z",
-      "seenAt": "2026-10-29T14:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Netherlands",
-      "sourceCountryCode": "NL",
-      "sourceRegion": "Europe",
-      "sourceLat": 52,
-      "sourceLon": 5,
-      "language": "nl"
-    },
-    {
-      "id": "n-d2d5f046a2b64d",
-      "title": "刚刚，全线跳水！两大利空，突袭美股",
-      "titleEnglish": "Just now: across-the-board plunge, two bearish factors hit US stocks",
-      "url": "https://finance.sina.com.cn/roll/2026-10-30/doc-iniwxzqi4851854.shtml",
-      "publisher": "finance.sina.com.cn",
-      "publisherDomain": "finance.sina.com.cn",
-      "publishedAt": "2026-10-29T23:21:34Z",
-      "seenAt": "2026-10-30T00:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "China",
-      "sourceCountryCode": "CN",
-      "sourceRegion": "Asia",
-      "sourceLat": 35,
-      "sourceLon": 104,
-      "language": "zh"
-    },
-    {
-      "id": "n-6d3b18b06ae7b0",
-      "title": "算力超级周期扩容提速 AIDC基建迎来深度重构",
-      "titleEnglish": "Computing power super cycle expands and accelerates; AIDC infrastructure faces deep restructuring",
-      "url": "https://www.yicai.com/brief/103417135.html",
-      "publisher": "yicai.com",
-      "publisherDomain": "yicai.com",
-      "publishedAt": "2026-10-30T00:47:00Z",
-      "seenAt": "2026-10-30T00:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "China",
-      "sourceCountryCode": "CN",
-      "sourceRegion": "Asia",
-      "sourceLat": 35,
-      "sourceLon": 104,
-      "language": "zh"
-    },
-    {
-      "id": "n-91a770cfbda033",
-      "title": "中信建投：端侧有望成为AI的下一个浪潮",
-      "titleEnglish": "CITIC Construction Investment: Edge side expected to become the next wave of AI",
-      "url": "https://www.yicai.com/news/103417222.html",
-      "publisher": "yicai.com",
-      "publisherDomain": "yicai.com",
-      "publishedAt": "2026-10-30T00:47:00Z",
-      "seenAt": "2026-10-30T00:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "China",
-      "sourceCountryCode": "CN",
-      "sourceRegion": "Asia",
-      "sourceLat": 35,
-      "sourceLon": 104,
-      "language": "zh"
-    },
-    {
-      "id": "n-88e3759e09df88",
-      "title": "友達售廠一成一停！388億元賣中科廠給台積電、估賺185億元！華亞廠案交易終止，廣達：AI產能規劃不受影響 | 魏鑫陽 | 財經",
-      "titleEnglish": "AUO: one-tenth of plants halted; 38.8 billion yuan sale of Zhongke plant to TSMC, estimated profit 18.5 billion yuan; Huaya plant deal terminated, Quanta says AI capacity planning unaffected | Wei Hsin-yang | Finance",
-      "url": "https://www.storm.mg/article/11176893",
-      "publisher": "storm.mg",
-      "publisherDomain": "storm.mg",
-      "publishedAt": "2026-10-29T10:33:00Z",
-      "seenAt": "2026-10-29T10:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Taiwan",
-      "sourceCountryCode": "TW",
-      "sourceRegion": "Asia",
-      "sourceLat": 23.7,
-      "sourceLon": 121,
-      "language": "zh-Hant"
-    },
-    {
-      "id": "n-0e4af043e03e5a",
-      "title": "Künstliche Intelligenz: Schwarz-Gruppe investiert groß in KI-Start-up Cohere",
-      "titleEnglish": "Artificial Intelligence: Schwarz Group invests heavily in AI start-up Cohere",
-      "url": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-schwarz-gruppe-investiert-gross-in-ki-start-up-cohere/100265983.html",
-      "publisher": "handelsblatt.com",
-      "publisherDomain": "handelsblatt.com",
-      "publishedAt": "2026-10-29T16:55:18Z",
-      "seenAt": "2026-10-29T17:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "de"
-    },
-    {
-      "id": "n-43017e2c757f60",
-      "title": "Kanada dołączy do sieci superkomputerów UE. To początek szerszej współpracy w AI",
-      "titleEnglish": "Canada to join EU supercomputer network. This is the start of broader cooperation on AI",
-      "url": "https://wiadomosci.onet.pl/politico/kanada-dolaczy-do-sieci-superkomputerow-ue-to-poczatek-szerszej-wspolpracy-w/vmcktdc",
-      "publisher": "wiadomosci.onet.pl",
-      "publisherDomain": "wiadomosci.onet.pl",
-      "publishedAt": "2026-10-29T17:17:00Z",
-      "seenAt": "2026-10-29T17:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Poland",
-      "sourceCountryCode": "PL",
-      "sourceRegion": "Europe",
-      "sourceLat": 52,
-      "sourceLon": 20,
-      "language": "pl"
-    },
-    {
-      "id": "n-ac6ec6a340d206",
-      "title": "WSJ: Ukraina keskeytti iskut Venäjän öljynjalostamoihin Trumpin painostuksesta",
-      "titleEnglish": "WSJ: Ukraine halted strikes on Russian oil refineries under Trump's pressure",
-      "url": "https://yle.fi/uutiset/lyhyesti/74-20254141",
-      "publisher": "Yle Uutiset",
-      "publisherDomain": "yle.fi",
-      "publishedAt": "2026-10-30T00:19:13Z",
-      "seenAt": "2026-10-30T00:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Finland",
-      "sourceCountryCode": "FI",
-      "sourceRegion": "Europe",
-      "sourceLat": 64,
-      "sourceLon": 26,
-      "language": "fi"
-    },
-    {
-      "id": "n-e1ffbb08c08847",
-      "title": "На Западе объяснили стремление НАТО к перемирию на Украине",
-      "titleEnglish": "In the West, explanation given for NATO's push for a ceasefire in Ukraine",
-      "url": "https://lenta.ru/news/2026/10/30/na-zapade-ob-yasnili-stremlenie-nato-k-peremiriyu-na-ukraine/",
-      "publisher": "Lenta.RU",
-      "publisherDomain": "lenta.ru",
-      "publishedAt": "2026-10-29T19:47:00Z",
-      "seenAt": "2026-10-29T19:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Russia",
-      "sourceCountryCode": "RU",
-      "sourceRegion": "Europe",
-      "sourceLat": 61,
-      "sourceLon": 100,
-      "language": "ru"
-    },
-    {
-      "id": "n-062722d32ef045",
-      "title": "ईरान को मिला जेडी वेंस का शांति प्रस्ताव: लेकिन जवाब देने से बच रहा तेहरान; क्या थमेगा अमेरिका से युद्ध?",
-      "titleEnglish": "Iran receives JD Vance's peace proposal, but Tehran avoids responding; will the war with the United States end?",
-      "url": "https://www.amarujala.com/world/iran-receives-jd-vance-letter-to-revive-us-peace-talks-2026-10-30",
-      "publisher": "Amar Ujala",
-      "publisherDomain": "amarujala.com",
-      "publishedAt": "2026-10-30T00:47:00Z",
-      "seenAt": "2026-10-30T00:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "India",
-      "sourceCountryCode": "IN",
-      "sourceRegion": "Asia",
-      "sourceLat": 22,
-      "sourceLon": 79,
-      "language": "bh"
-    },
-    {
-      "id": "n-5cd97b6bf3d2db",
-      "title": "سيناتور أميركي: اطلعنا على خطة ترمب لاستئناف ضرب إيران.. إنها",
-      "titleEnglish": "US senator: We have been briefed on Trump's plan to resume strikes on Iran.. it is",
-      "url": "https://www.khaberni.com/news/862227-%D8%B3%D9%8A%D9%86%D8%A7%D8%AA%D9%88%D8%B1-%D8%A7%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D8%A7%D8%B7%D9%84%D8%B9%D9%86%D8%A7-%D8%B9%D9%84%D9%89-%D8%AE%D8%B7%D8%A9-%D8%AA%D8%B1%D9%85%D8%A8-%D9%84%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81-%D8%B6%D8%B1%D8%A8-%D8%A7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%86%D9%87%D8%A7-%D8%AC%D9%86%D9%88%D9%86%D9%8A%D8%A9",
-      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
-      "publisherDomain": "khaberni.com",
-      "publishedAt": "2026-10-29T19:47:00Z",
-      "seenAt": "2026-10-29T19:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Jordan",
-      "sourceCountryCode": "JO",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31,
-      "sourceLon": 36,
-      "language": "ar"
-    },
-    {
-      "id": "n-eac3016e7643d2",
-      "title": "صحيفة عمون : بريطانيا تدعم الفتح الكامل لمضيق هرمز وترفض أي قدرات نووية إيرانية",
-      "titleEnglish": "Amon Newspaper: Britain Supports Full Opening of the Strait of Hormuz and Rejects Any Iranian Nuclear Capabilities",
-      "url": "https://www.ammonnews.net/article/1040815",
-      "publisher": "وكالة عمون الاخبارية",
-      "publisherDomain": "ammonnews.net",
-      "publishedAt": "2026-10-29T19:47:00Z",
-      "seenAt": "2026-10-29T19:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Jordan",
-      "sourceCountryCode": "JO",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31,
-      "sourceLon": 36,
-      "language": "ar"
-    },
-    {
-      "id": "n-317daf49c23436",
-      "title": "U.S. Ponders Updated LNG Safety Rules To Accelerate Export Projects",
-      "titleEnglish": "U.S. Ponders Updated LNG Safety Rules To Accelerate Export Projects",
-      "url": "https://leadership.ng/u-s-ponders-updated-lng-safety-rules-to-accelerate-export-projects/",
-      "publisher": "LEADERSHIP Newspapers",
-      "publisherDomain": "leadership.ng",
-      "publishedAt": "2026-10-29T17:03:02Z",
-      "seenAt": "2026-10-29T17:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Nigeria",
-      "sourceCountryCode": "NG",
-      "sourceRegion": "Africa",
-      "sourceLat": 9,
-      "sourceLon": 8,
-      "language": "en"
-    },
-    {
-      "id": "n-bfec9b6818474d",
-      "title": "米国36州で知事選、民主優勢か 黒人女性で初も、中間選挙",
-      "titleEnglish": "Governor Elections in 36 US States, Democrats Likely to Lead; First Black Woman Too, Midterm Elections",
-      "url": "https://www.47news.jp/15158817.html",
-      "publisher": "47NEWS",
-      "publisherDomain": "47news.jp",
-      "publishedAt": "2026-10-29T22:47:00Z",
-      "seenAt": "2026-10-29T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Japan",
-      "sourceCountryCode": "JP",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 138,
-      "language": "ja"
-    },
-    {
-      "id": "n-50e9d1cf23d796",
-      "title": "הפתעה: מחיר הדלק יירד במוצ\"ש ב-42 אגורות - וואלה כסף",
-      "titleEnglish": "Surprise: fuel price will fall on Saturday night by 42 agorot - Walla Money",
-      "url": "https://finance.walla.co.il/item/3874197",
+      "id": "n-0eae67d94a2e91",
+      "title": "הבועה מתפוצצת? צניחות חדות בבורסה - ענקיות ה-AI מאבדות גובה - וואלה כסף",
+      "titleEnglish": "Is the bubble bursting? Sharp falls on the stock exchange - AI giants losing ground | Walla Money",
+      "url": "https://finance.walla.co.il/item/3874337",
       "publisher": "וואלה",
       "publisherDomain": "finance.walla.co.il",
-      "publishedAt": "2026-10-29T13:47:00Z",
-      "seenAt": "2026-10-29T13:47:00Z",
+      "publishedAt": "2026-10-30T19:32:00Z",
+      "seenAt": "2026-10-30T19:32:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Israel",
       "sourceCountryCode": "IL",
@@ -395,456 +90,14 @@
       "language": "he"
     },
     {
-      "id": "n-752a3047cd18c5",
-      "title": "Após duas semanas de queda, gasolina volta a subir na Refinaria Clara Camarão - Tribuna do Norte",
-      "titleEnglish": "After two weeks of decline, gasoline rises again at Clara Camarão Refinery - Tribuna do Norte",
-      "url": "https://tribunadonorte.com.br/economia/apos-duas-semanas-de-queda-gasolina-volta-a-subir-na-refinaria-clara-camarao/",
-      "publisher": "Tribuna do Norte",
-      "publisherDomain": "tribunadonorte.com.br",
-      "publishedAt": "2026-10-29T13:07:40Z",
-      "seenAt": "2026-10-29T16:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Brazil",
-      "sourceCountryCode": "BR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -14,
-      "sourceLon": -52,
-      "language": "pt"
-    },
-    {
-      "id": "n-849980ee78d6ff",
-      "title": "Estados aprovam aumento do ICMS sobre gasolina, diesel e gás de cozinha para 2027 - Tribuna do Norte",
-      "titleEnglish": "States Approve Increase in ICMS Tax on Petrol, Diesel and Cooking Gas for 2027 - Tribuna do Norte",
-      "url": "https://tribunadonorte.com.br/economia/estados-aprovam-aumento-do-icms-sobre-gasolina-diesel-e-gas-de-cozinha-para-2027/",
-      "publisher": "Tribuna do Norte",
-      "publisherDomain": "tribunadonorte.com.br",
-      "publishedAt": "2026-10-29T21:28:22Z",
-      "seenAt": "2026-10-29T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Brazil",
-      "sourceCountryCode": "BR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -14,
-      "sourceLon": -52,
-      "language": "pt"
-    },
-    {
-      "id": "n-9e4b7136f112db",
-      "title": "Госдума приняла в первом чтении проект о снижении цены отсечения нефти до $50",
-      "titleEnglish": "State Duma passes in first reading bill to lower oil cut-off price to $50",
-      "url": "https://www.kommersant.ru/doc/9064188",
-      "publisher": "Коммерсантъ",
-      "publisherDomain": "kommersant.ru",
-      "publishedAt": "2026-10-29T19:15:30Z",
-      "seenAt": "2026-10-29T19:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Russia",
-      "sourceCountryCode": "RU",
-      "sourceRegion": "Europe",
-      "sourceLat": 61,
-      "sourceLon": 100,
-      "language": "ru"
-    },
-    {
-      "id": "n-ccd86b399bff06",
-      "title": "Крупным финпланом: как депутаты предложили доработать бюджет на 2027-2029 годы",
-      "titleEnglish": "In detail: how deputies proposed revising the budget for 2027-2029",
-      "url": "https://iz.ru/2193017/milana-gadzhieva/kak-deputaty-predlozhili-dorabotat-byudzhet-na-2027-2029-gody",
-      "publisher": "Известия",
-      "publisherDomain": "iz.ru",
-      "publishedAt": "2026-10-29T16:06:35Z",
-      "seenAt": "2026-10-29T16:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Russia",
-      "sourceCountryCode": "RU",
-      "sourceRegion": "Europe",
-      "sourceLat": 61,
-      "sourceLon": 100,
-      "language": "ru"
-    },
-    {
-      "id": "n-86812eb2716849",
-      "title": "صحيفة عمون : روسيا: معدل التضخم يصل إلى نحو 7.1%",
-      "titleEnglish": "Amman newspaper: Russia: inflation rate reaches about 7.1%",
-      "url": "https://www.ammonnews.net/article/1040819",
-      "publisher": "وكالة عمون الاخبارية",
-      "publisherDomain": "ammonnews.net",
-      "publishedAt": "2026-10-29T19:47:00Z",
-      "seenAt": "2026-10-29T19:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Jordan",
-      "sourceCountryCode": "JO",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31,
-      "sourceLon": 36,
-      "language": "ar"
-    },
-    {
-      "id": "n-9aca980904166c",
-      "title": "Em carta golpista, Flávio se diz presidente; Tarcísio prega respeito às urnas - Diário do Grande ABC",
-      "titleEnglish": "In coup letter, Flávio declares himself president; Tarcísio urges respect for the ballot boxes - Diário do Grande ABC",
-      "url": "https://www.dgabc.com.br/Noticia/4365658/em-carta-golpista-flavio-se-diz-presidente-tarcisio-prega-respeito-as-urnas",
-      "publisher": "Jornal Diário do Grande ABC",
-      "publisherDomain": "dgabc.com.br",
-      "publishedAt": "2026-10-29T07:00:00Z",
-      "seenAt": "2026-10-29T10:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Brazil",
-      "sourceCountryCode": "BR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -14,
-      "sourceLon": -52,
-      "language": "pt"
-    },
-    {
-      "id": "n-e119e811ee24d6",
-      "title": "Apenas a horas de la huida de Flávio Bolsonaro, la derecha de Brasil ya tiene un candidato y rechaza las denuncias de fraude",
-      "titleEnglish": "Just Hours After Flávio Bolsonaro's Flight, Brazil's Right Already Has a Candidate and Rejects Fraud Allegations",
-      "url": "https://www.clarin.com/mundo/apenas-horas-huida-flavio-bolsonaro-derecha-brasil-candidato-rechaza-denuncias-fraude_0_USbmXVRFOh.html",
-      "publisher": "Clarín",
-      "publisherDomain": "clarin.com",
-      "publishedAt": "2026-10-29T21:34:09Z",
-      "seenAt": "2026-10-29T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Argentina",
-      "sourceCountryCode": "AR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -35,
-      "sourceLon": -64,
-      "language": "es"
-    },
-    {
-      "id": "n-0ea1ed2985caa8",
-      "title": "Valdemar Costa Neto diz não ter gostado de carta divulgada por Flávio Bolsonaro",
-      "titleEnglish": "Valdemar Costa Neto says he did not like the letter released by Flávio Bolsonaro",
-      "url": "https://noticias.r7.com/brasilia/valdemar-costa-neto-diz-nao-ter-gostado-do-teor-de-carta-divulgada-por-flavio-bolsonaro-29102026/",
-      "publisher": "Noticias R7",
-      "publisherDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-29T13:39:54Z",
-      "seenAt": "2026-10-29T13:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Brazil",
-      "sourceCountryCode": "BR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -14,
-      "sourceLon": -52,
-      "language": "pt"
-    },
-    {
-      "id": "n-59aa190f0402b0",
-      "title": "Valdemar diz que Flávio se despediu do pai e depois nega que Jair soubesse de fuga",
-      "titleEnglish": "Valdemar says Flávio said goodbye to his father and then denies that Jair knew about the escape",
-      "url": "https://www.em.com.br/politica/2026/10/7530566-valdemar-diz-que-flavio-se-despediu-do-pai-e-depois-nega-que-jair-soubesse-de-fuga.html",
-      "publisher": "Estado de Minas",
-      "publisherDomain": "em.com.br",
-      "publishedAt": "2026-10-29T19:05:43Z",
-      "seenAt": "2026-10-29T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Brazil",
-      "sourceCountryCode": "BR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -14,
-      "sourceLon": -52,
-      "language": "pt"
-    },
-    {
-      "id": "n-0e08f31b7975ed",
-      "title": "Israel election result shows no overall majority as vote count complete",
-      "titleEnglish": "Israel election result shows no overall majority as vote count complete",
-      "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete",
-      "publisher": "Al Jazeera",
-      "publisherDomain": "aljazeera.com",
-      "publishedAt": "2026-10-29T22:47:00Z",
-      "seenAt": "2026-10-29T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Qatar",
-      "sourceCountryCode": "QA",
-      "sourceRegion": "Middle East",
-      "sourceLat": 25.3,
-      "sourceLon": 51.2,
-      "language": "en"
-    },
-    {
-      "id": "n-a40b63a0dd87d5",
-      "title": "صحيفة عمون : آيزنكوت يتهم نتنياهو بالسعي إلى \"نزع شرعية\" نتائج الانتخابات",
-      "titleEnglish": "Amman newspaper: Eisenkot accuses Netanyahu of seeking to \"delegitimize\" election results",
-      "url": "https://www.ammonnews.net/article/1040816",
-      "publisher": "وكالة عمون الاخبارية",
-      "publisherDomain": "ammonnews.net",
-      "publishedAt": "2026-10-29T19:47:00Z",
-      "seenAt": "2026-10-29T19:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Jordan",
-      "sourceCountryCode": "JO",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31,
-      "sourceLon": 36,
-      "language": "ar"
-    },
-    {
-      "id": "n-61880ef9a6d5d6",
-      "title": "أيزنكوت يتحدى نتنياهو: لا تأجيل لتنصيب الكنيست وقوانين حاسمة على الطاولة",
-      "titleEnglish": "Eisenkot challenges Netanyahu: no postponement of Knesset swearing-in and decisive laws on the table",
-      "url": "https://www.khaberni.com/news/862193-%D8%A7%D9%8A%D8%B2%D9%86%D9%83%D9%88%D8%AA-%D9%8A%D8%AA%D8%AD%D8%AF%D9%89-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%84%D8%A7-%D8%AA%D8%A7%D8%AC%D9%8A%D9%84-%D9%84%D8%AA%D9%86%D8%B5%D9%8A%D8%A8-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D9%88%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86-%D8%AD%D8%A7%D8%B3%D9%85%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B7%D8%A7%D9%88%D9%84%D8%A9",
-      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
-      "publisherDomain": "khaberni.com",
-      "publishedAt": "2026-10-29T17:17:00Z",
-      "seenAt": "2026-10-29T17:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Jordan",
-      "sourceCountryCode": "JO",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31,
-      "sourceLon": 36,
-      "language": "ar"
-    },
-    {
-      "id": "n-4c6f98c212ca86",
-      "title": "US-Parlamentswahlen: Medien: US-Ministerium weitet Ermittlung zu Alaska-Wahl aus",
-      "titleEnglish": "US Parliamentary Elections: Media: US Ministry Expands Investigation Into Alaska Vote",
-      "url": "https://www.handelsblatt.com/politik/international/us-parlamentswahlen-medien-us-ministerium-weitet-ermittlung-zu-alaska-wahl-aus/100265777.html",
-      "publisher": "handelsblatt.com",
-      "publisherDomain": "handelsblatt.com",
-      "publishedAt": "2026-10-29T21:47:54Z",
-      "seenAt": "2026-10-29T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "de"
-    },
-    {
-      "id": "n-90399f15e82bf2",
-      "title": "Texas AG’s office sues Harris County clerk over accusations of selectively targeting demographics for voting ads",
-      "titleEnglish": "Texas AG’s office sues Harris County clerk over accusations of selectively targeting demographics for voting ads",
-      "url": "https://www.click2houston.com/news/local/2026/10/29/texas-ags-office-sues-harris-county-clerk-over-accusations-of-selectively-targeting-demographics-for-voting-ads/",
-      "publisher": "KPRC",
-      "publisherDomain": "click2houston.com",
-      "publishedAt": "2026-10-29T19:20:25Z",
-      "seenAt": "2026-10-29T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "United States",
-      "sourceCountryCode": "US",
-      "sourceRegion": "North America",
-      "sourceLat": 39,
-      "sourceLon": -98,
-      "language": "en"
-    },
-    {
-      "id": "n-d85b58a5152180",
-      "title": "Sądny dzień dla Trumpa. Co się stanie, jeśli przegra wybory [WYJAŚNIAMY]",
-      "titleEnglish": "Judgment day for Trump. What will happen if he loses the election [EXPLAINER]",
-      "url": "https://wiadomosci.onet.pl/swiat/sadny-dzien-dla-trumpa-co-sie-stanie-jesli-przegra-wybory-wyjasniamy/yb9f8hz",
-      "publisher": "wiadomosci.onet.pl",
-      "publisherDomain": "wiadomosci.onet.pl",
-      "publishedAt": "2026-10-29T17:17:00Z",
-      "seenAt": "2026-10-29T17:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Poland",
-      "sourceCountryCode": "PL",
-      "sourceRegion": "Europe",
-      "sourceLat": 52,
-      "sourceLon": 20,
-      "language": "pl"
-    },
-    {
-      "id": "n-81a0820afea9a6",
-      "title": "In Delhi, BJP booth agents file deletion forms against Muslim voters living at their addresses",
-      "titleEnglish": "In Delhi, BJP booth agents file deletion forms against Muslim voters living at their addresses",
-      "url": "https://www.thehindu.com/news/cities/Delhi/in-delhi-bjp-booth-agents-file-deletion-forms-against-muslim-voters-living-at-their-addresses/article71641353.ece",
-      "publisher": "The Hindu",
-      "publisherDomain": "thehindu.com",
-      "publishedAt": "2026-10-30T00:35:00Z",
-      "seenAt": "2026-10-30T00:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "India",
-      "sourceCountryCode": "IN",
-      "sourceRegion": "Asia",
-      "sourceLat": 22,
-      "sourceLon": 79,
-      "language": "en"
-    },
-    {
-      "id": "n-43c9e8309c3202",
-      "title": "Imo: Uzodinma has never won election - Okorocha",
-      "titleEnglish": "Imo: Uzodinma has never won election - Okorocha",
-      "url": "https://dailypost.ng/2026/10/29/imo-uzodinma-has-never-won-election-okorocha/",
-      "publisher": "Daily Post Nigeria",
-      "publisherDomain": "dailypost.ng",
-      "publishedAt": "2026-10-29T19:10:29Z",
-      "seenAt": "2026-10-29T19:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Nigeria",
-      "sourceCountryCode": "NG",
-      "sourceRegion": "Africa",
-      "sourceLat": 9,
-      "sourceLon": 8,
-      "language": "en"
-    },
-    {
-      "id": "n-f99a9f578fa2c6",
-      "title": "Hope Uzodinma: I'm not happy over court judgement - Okorocha",
-      "titleEnglish": "Hope Uzodinma: I'm not happy over court judgement - Okorocha",
-      "url": "https://dailypost.ng/2026/10/29/hope-uzodinma-im-not-happy-over-court-judgment-okorocha/",
-      "publisher": "Daily Post Nigeria",
-      "publisherDomain": "dailypost.ng",
-      "publishedAt": "2026-10-29T18:46:51Z",
-      "seenAt": "2026-10-29T19:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Nigeria",
-      "sourceCountryCode": "NG",
-      "sourceRegion": "Africa",
-      "sourceLat": 9,
-      "sourceLon": 8,
-      "language": "en"
-    },
-    {
-      "id": "n-41981021aa2196",
-      "title": "Trump dice que las elecciones de Brasil fueron una \"desgracia\"",
-      "titleEnglish": "Trump says Brazil's elections were a \"disgrace\"",
-      "url": "https://www.dw.com/es/trump-dice-que-las-elecciones-de-brasil-fueron-una-desgracia/a-79801467",
-      "publisher": "dw.com",
-      "publisherDomain": "dw.com",
-      "publishedAt": "2026-10-29T19:47:00Z",
-      "seenAt": "2026-10-29T19:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "es"
-    },
-    {
-      "id": "n-22ee34a3fe28de",
-      "title": "قطر تنفي التدخل في الانتخابات الإسرائيلية وتتهم أطرافاً بالتضليل",
-      "titleEnglish": "Qatar denies interfering in Israeli elections and accuses parties of misinformation",
-      "url": "https://www.okaz.com.sa/politics/na/2273066",
-      "publisher": "عكاظ",
-      "publisherDomain": "okaz.com.sa",
-      "publishedAt": "2026-10-29T17:36:08Z",
-      "seenAt": "2026-10-29T17:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Saudi Arabia",
-      "sourceCountryCode": "SA",
-      "sourceRegion": "Middle East",
-      "sourceLat": 24,
-      "sourceLon": 45,
-      "language": "ar"
-    },
-    {
-      "id": "n-eec6607027be33",
-      "title": "Сколько перехватчиков реактивных дронов есть у Украины: Флэш объяснил важный нюанс",
-      "titleEnglish": "How many interceptors against jet drones does Ukraine have: Flash explains an important nuance",
-      "url": "https://www.unian.net/weapons/perehvatchiki-reaktivnyh-shahedov-flesh-obyasnil-v-chem-seychas-zaklyuchaetsya-ih-problema-13543893.html",
-      "publisher": "unian.net",
-      "publisherDomain": "unian.net",
-      "publishedAt": "2026-10-29T14:17:00Z",
-      "seenAt": "2026-10-29T14:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Ukraine",
-      "sourceCountryCode": "UA",
-      "sourceRegion": "Europe",
-      "sourceLat": 49,
-      "sourceLon": 32,
-      "language": "ru"
-    },
-    {
-      "id": "n-b75150789ceaf3",
-      "title": "Россия навязывает Украине инженерную гонку по производству дронов: Флэш о новых угрозах",
-      "titleEnglish": "Russia imposes an engineering race on Ukraine in drone production: Flash on new threats",
-      "url": "https://www.unian.net/war/rossiya-narashchivaet-proizvodstvo-dlya-usileniya-dronovyh-udarov-po-ukraine-flesh-rasskazal-poslednie-novosti-13543872.html",
-      "publisher": "unian.net",
-      "publisherDomain": "unian.net",
-      "publishedAt": "2026-10-29T14:17:00Z",
-      "seenAt": "2026-10-29T14:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Ukraine",
-      "sourceCountryCode": "UA",
-      "sourceRegion": "Europe",
-      "sourceLat": 49,
-      "sourceLon": 32,
-      "language": "ru"
-    },
-    {
-      "id": "n-c6b3dafb44b41d",
-      "title": "\"Все контролируют военные\": Флэш рассказал, как в Украине работает частная ПВО",
-      "titleEnglish": "\"The military controls everything\": Flash describes how private air defense works in Ukraine",
-      "url": "https://www.unian.net/weapons/chastnaya-pvo-v-ukraine-flesh-obyasnil-kak-ona-rabotaet-13543866.html",
-      "publisher": "unian.net",
-      "publisherDomain": "unian.net",
-      "publishedAt": "2026-10-29T14:17:00Z",
-      "seenAt": "2026-10-29T14:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Ukraine",
-      "sourceCountryCode": "UA",
-      "sourceRegion": "Europe",
-      "sourceLat": 49,
-      "sourceLon": 32,
-      "language": "ru"
-    },
-    {
-      "id": "n-8d7a12ebd38124",
-      "title": "Rekordowy atak dronów na Rosję. Paraliż lotnisk w Moskwie i Sankt Petersburgu",
-      "titleEnglish": "Record drone attack on Russia. Airports in Moscow and Saint Petersburg paralysed",
-      "url": "https://wiadomosci.onet.pl/swiat/rekordowy-atak-dronow-na-rosje-paraliz-lotnisk-w-moskwie-i-sankt-petersburgu/71ffj3l",
-      "publisher": "wiadomosci.onet.pl",
-      "publisherDomain": "wiadomosci.onet.pl",
-      "publishedAt": "2026-10-29T17:17:00Z",
-      "seenAt": "2026-10-29T17:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Poland",
-      "sourceCountryCode": "PL",
-      "sourceRegion": "Europe",
-      "sourceLat": 52,
-      "sourceLon": 20,
-      "language": "pl"
-    },
-    {
-      "id": "n-52d900d30807e2",
-      "title": "Ukraine-Krieg: Selenskyj vermeldet Zerstörung russischer Kampfjets am Boden – Moskau reagiert mit Raketen - WELT",
-      "titleEnglish": "Ukraine war: Zelensky reports destruction of Russian fighter jets on the ground – Moscow responds with missiles - WELT",
-      "url": "https://www.welt.de/politik/ausland/article6ae3c1cfaacefa08f5b98b49/ukraine-krieg-selenskyj-vermeldet-zerstoerung-russischer-kampfjets-am-boden-moskau-reagiert-mit-raketen.html",
-      "publisher": "DIE WELT",
-      "publisherDomain": "welt.de",
-      "publishedAt": "2026-10-29T22:47:00Z",
-      "seenAt": "2026-10-29T22:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "de"
-    },
-    {
-      "id": "n-8aefb7d705c906",
-      "title": "Iran tuyên bố chiếm quyền kiểm soát UAV trinh sát của Mỹ",
-      "titleEnglish": "Iran claims it has taken control of US reconnaissance UAV",
-      "url": "https://dantri.com.vn/the-gioi/iran-tuyen-bo-chiem-quyen-kiem-soat-uav-trinh-sat-cua-my-20261029203008800.htm",
-      "publisher": "Báo điện tử Dân trí",
-      "publisherDomain": "dantri.com.vn",
-      "publishedAt": "2026-10-29T14:17:00Z",
-      "seenAt": "2026-10-29T14:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Vietnam",
-      "sourceCountryCode": "VN",
-      "sourceRegion": "Asia",
-      "sourceLat": 16,
-      "sourceLon": 107,
-      "language": "vi"
-    },
-    {
-      "id": "n-3ca0d7968aad33",
-      "title": "Puolustusvoimat kokeilee VR-laseja droonitorjunnan kouluttamisessa",
-      "titleEnglish": "Finnish Defence Forces test VR lasers in training for counter-drone operations",
-      "url": "https://yle.fi/a/74-20254076",
-      "publisher": "Yle Uutiset",
-      "publisherDomain": "yle.fi",
-      "publishedAt": "2026-10-29T13:12:40Z",
-      "seenAt": "2026-10-29T13:47:00Z",
+      "id": "n-b8a7abfedee33f",
+      "title": "Mittavat investoinnit tekoälyyn huolestuttavat, tekno-osakkeet tippuvat",
+      "titleEnglish": "Large investments in AI worry, tech shares fall",
+      "url": "https://www.lansi-savo.fi/uutissuomalainen/9916440",
+      "publisher": "Länsi-Savo",
+      "publisherDomain": "lansi-savo.fi",
+      "publishedAt": "2026-10-30T15:54:17Z",
+      "seenAt": "2026-10-30T16:32:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Finland",
       "sourceCountryCode": "FI",
@@ -854,14 +107,218 @@
       "language": "fi"
     },
     {
-      "id": "n-668c02ca794b2c",
-      "title": "Lituânia vai ter serviço militar obrigatório para todos os homens a partir de 2032",
-      "titleEnglish": "Lithuania Will Have Compulsory Military Service for All Men From 2032",
-      "url": "https://executivedigest.sapo.pt/lituania-vai-ter-servico-militar-obrigatorio-para-todos-os-homens-a-partir-de-2032/",
-      "publisher": "Executive Digest",
-      "publisherDomain": "executivedigest.sapo.pt",
-      "publishedAt": "2026-10-29T22:24:31Z",
-      "seenAt": "2026-10-29T22:47:00Z",
+      "id": "n-50965b2458ab1e",
+      "title": "Big Tech returns smallest share of cash to shareholders in 15 years, given AI spending",
+      "titleEnglish": "Big Tech returns smallest share of cash to shareholders in 15 years, given AI spending",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/30/big-tech-returns-smallest-share-of-cash-to-shareholders-in-15-years-given-ai-spending",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-10-30T23:47:00Z",
+      "seenAt": "2026-10-30T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
+    },
+    {
+      "id": "n-778abbbb0f85cc",
+      "title": "Fortune Tech: Amazon's eye-watering spending is overshadowing growth | Fortune",
+      "titleEnglish": "Fortune Tech: Amazon's eye-watering spending is overshadowing growth | Fortune",
+      "url": "https://fortune.com/2026/10/30/amazons-eye-watering-spending-is-overshadowing-growth/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-10-30T13:32:00Z",
+      "seenAt": "2026-10-30T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-1908bc61ebda24",
+      "title": "Berkeley Law professor: Anthropic’s IPO puts AI accountability to the test | Fortune",
+      "titleEnglish": "Berkeley Law professor: Anthropic’s IPO puts AI accountability to the test | Fortune",
+      "url": "https://fortune.com/2026/10/30/anthropic-ipo-s1-ai-accountability-independent-evaluator/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-10-30T13:32:00Z",
+      "seenAt": "2026-10-30T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-d8b36220bcd619",
+      "title": "前3季經濟成長14.22％ 創半世紀新高 | 聯合新聞網",
+      "titleEnglish": "First three quarters economic growth at 14.22%, a half-century high | UDN",
+      "url": "https://udn.com/news/story/7238/9848113",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-10-30T17:48:32Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-9f4dc22d5dbbdc",
+      "title": "歷來最慘！外資本月大砍台股近兆元 公股低接2,409億創新高 | 聯合新聞網",
+      "titleEnglish": "Worst ever! Foreign investors sell nearly a trillion in Taiwan stocks this month; state funds buy low at 240.9 billion, a record high | UDN",
+      "url": "https://udn.com/news/story/7251/9847954",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-10-30T18:21:46Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-5a988ad3196fbe",
+      "title": "台股高點回檔近1成！ 靜待籌碼沉澱 11月資金回流明年獲利成長股 | ETtoday財經雲 | ETtoday新聞雲",
+      "titleEnglish": "Taiwan Stocks Pull Back Nearly 10% From Highs! Waiting for Chip Settlement, November Funds Return to Next Year's Profit-Growth Stocks | ETtoday Finance Cloud | ETtoday News Cloud",
+      "url": "https://finance.ettoday.net/news/3263698",
+      "publisher": "ETtoday財經雲",
+      "publisherDomain": "finance.ettoday.net",
+      "publishedAt": "2026-10-30T22:32:00Z",
+      "seenAt": "2026-10-30T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-8ce13cc9c2ba3d",
+      "title": "國安基金：股市有漲有跌很正常 | 聯合新聞網",
+      "titleEnglish": "National Stabilization Fund: it is normal for stocks to rise and fall | UDN",
+      "url": "https://udn.com/news/story/7239/9847950",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-10-30T18:18:25Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-159583ec70af00",
+      "title": "央行重手強拉 台幣小升守住32.520 | 聯合新聞網",
+      "titleEnglish": "Central bank intervenes forcefully; New Taiwan dollar edges up and holds 32.520 | UDN",
+      "url": "https://udn.com/news/story/7239/9848108",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-10-30T17:43:21Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-9ea33bedaae404",
+      "title": "南向资金丨中芯国际遭净卖出9.99亿港元",
+      "titleEnglish": "Southbound funds | SMIC sees net selling of HK$999 million",
+      "url": "https://www.yicai.com/brief/103418609.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-10-30T10:32:00Z",
+      "seenAt": "2026-10-30T10:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-1c0a016da3b18d",
+      "title": "Millionen für Chip-Fabrik: Vishay baut Werk in Itzehoe aus",
+      "titleEnglish": "Millions for chip factory: Vishay expands plant in Itzehoe",
+      "url": "https://www.ndr.de/nachrichten/schleswig-holstein/dithmarschen_steinburg/millionen-fuer-chip-fabrik-vishay-baut-werk-in-itzehoe-aus,chipfabrik-110.html",
+      "publisher": "ndr.de",
+      "publisherDomain": "ndr.de",
+      "publishedAt": "2026-10-30T19:32:00Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-98d4e7f6b31f5f",
+      "title": "外交部：美方无理打压中国企业 中方坚决反对、强烈不满",
+      "titleEnglish": "Foreign Ministry: US unreasonably cracks down on Chinese companies; China firmly opposes and strongly dissatisfied",
+      "url": "https://www.yicai.com/brief/103418288.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-10-30T07:32:00Z",
+      "seenAt": "2026-10-30T07:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-09119214db2415",
+      "title": "黃仁勳身邊藏中國女間諜 美媒：美星台官員憂洩密 | ETtoday國際新聞 | ETtoday新聞雲",
+      "titleEnglish": "Chinese Female Spy Found Near Jensen Huang; US Media: US Star Platform Officials Worry About Leaks | ETtoday International News | ETtoday News Cloud",
+      "url": "https://www.ettoday.net/news/20261031/3263743.htm",
+      "publisher": "ETtoday新聞雲",
+      "publisherDomain": "ettoday.net",
+      "publishedAt": "2026-10-30T22:25:00Z",
+      "seenAt": "2026-10-30T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-ef130bbae574f7",
+      "title": "Cotação do Brent para entrega em dezembro sobe 2,40% para 117,64 dólares | Jornal Económico",
+      "titleEnglish": "Brent crude for December delivery rises 2.40% to $117.64 a barrel | Jornal Económico",
+      "url": "https://jornaleconomico.sapo.pt/noticias/cotacao-do-brent-para-entrega-em-dezembro-sobe-240-para-11764-dolares/",
+      "publisher": "Jornal Económico",
+      "publisherDomain": "jornaleconomico.sapo.pt",
+      "publishedAt": "2026-10-30T22:02:12Z",
+      "seenAt": "2026-10-30T22:32:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Portugal",
       "sourceCountryCode": "PT",
@@ -871,92 +328,783 @@
       "language": "pt"
     },
     {
-      "id": "n-f29797f795f3b6",
-      "title": "НБУ спростив умови кредитування підприємств ОПК під державні контракти",
-      "titleEnglish": "NBU eases lending terms for defence-industry enterprises under state contracts",
-      "url": "https://lb.ua/society/2026/10/29/777004_nbu_sprostiv_umovi_kredituvannya.html",
-      "publisher": "LB.ua",
-      "publisherDomain": "lb.ua",
-      "publishedAt": "2026-10-29T10:47:00Z",
-      "seenAt": "2026-10-29T10:47:00Z",
+      "id": "n-8477a83297412f",
+      "title": "Jaishankar warns of global energy supply disruptions, urges G20 action",
+      "titleEnglish": "Jaishankar warns of global energy supply disruptions, urges G20 action",
+      "url": "https://www.thehindubusinessline.com/news/india-flags-global-energy-disruptions-caused-by-sanctions-and-chokepoints/article71648064.ece",
+      "publisher": "BusinessLine",
+      "publisherDomain": "thehindubusinessline.com",
+      "publishedAt": "2026-10-31T00:42:19Z",
+      "seenAt": "2026-10-31T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-8e88240fda7d60",
+      "title": "ABD Başkanı Trump, İran'la savaşın \"yakında\" sona ereceğini belirtti",
+      "titleEnglish": "US President Trump says the war with Iran will end \"soon\"",
+      "url": "https://www.aa.com.tr/tr/dunya/abd-baskani-trump-iranla-savasin-yakinda-sona-erecegini-belirtti/4106778",
+      "publisher": "Anadolu Ajansı",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-10-30T19:22:24Z",
+      "seenAt": "2026-10-30T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-fd0dcf854b59dd",
+      "title": "Gas prices seen higher next week; rollback for diesel",
+      "titleEnglish": "Gas prices seen higher next week; rollback for diesel",
+      "url": "https://www.philstar.com/headlines/2026/10/31/2566826/gas-prices-seen-higher-next-week-rollback-diesel",
+      "publisher": "Philstar.com",
+      "publisherDomain": "philstar.com",
+      "publishedAt": "2026-10-30T16:32:00Z",
+      "seenAt": "2026-10-30T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Philippines",
+      "sourceCountryCode": "PH",
+      "sourceRegion": "Asia",
+      "sourceLat": 12,
+      "sourceLon": 122,
+      "language": "en"
+    },
+    {
+      "id": "n-97f678f11f8b8c",
+      "title": "Teures Heizöl: Für Lieferanten ein enormer Mehraufwand",
+      "titleEnglish": "Expensive heating oil: an enormous extra workload for suppliers",
+      "url": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/teures-heizoel-fuer-lieferanten-ein-enormer-mehraufwand,heizoel-164.html",
+      "publisher": "ndr.de",
+      "publisherDomain": "ndr.de",
+      "publishedAt": "2026-10-30T19:32:00Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-36f5c3ead9ba88",
+      "title": "Fon ara ödemeleri başladı! 29.3 milyar TL hesaplarda",
+      "titleEnglish": "Fuel tax refund payments have begun! 29.3 billion TL in accounts",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/ekonomi-haberleri/fon-ara-odemeleri-basladi-29-3-milyar-tl-hesaplarda_ID102278974/",
+      "publisher": "bigpara.hurriyet.com.tr",
+      "publisherDomain": "bigpara.hurriyet.com.tr",
+      "publishedAt": "2026-10-30T13:32:00Z",
+      "seenAt": "2026-10-30T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-8e07af8a5a1766",
+      "title": "Spritpreise: Wie viel Tankrabatt kommt bei Autofahrern tatsächlich an?",
+      "titleEnglish": "Fuel prices: How much of the fuel discount actually reaches drivers?",
+      "url": "https://www.handelsblatt.com/politik/spritpreise-wie-viel-tankrabatt-kommt-bei-autofahrern-tatsaechlich-an/100263312.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-10-30T13:33:00Z",
+      "seenAt": "2026-10-30T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-6c135ca45a421e",
+      "title": "山場迎える消費減税法案、給付は不透明なまま 野党「ツケは政府に」：朝日新聞",
+      "titleEnglish": "Consumption tax reduction bill reaches climax, benefits still unclear; opposition: \"the bill falls on the government\" | Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVBZ3TRHVBZUTFK00CM.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-10-30T12:40:00Z",
+      "seenAt": "2026-10-30T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-170c3dc235a470",
+      "title": "L’inflazione sale al 5,4%. Mattarella: «Tenore di vita aggredito da salari fermi e prezzi»",
+      "titleEnglish": "Inflation Rises to 5.4%. Mattarella: \"Standard of Living Attacked by Stagnant Wages and Prices\"",
+      "url": "https://www.ilmessaggero.it:443/economia/news/inflazione_prezzi_salari_mattarella_tenore_di_vita_cosa_ha_detto-9859253.html",
+      "publisher": "ilmessaggero.it",
+      "publisherDomain": "ilmessaggero.it",
+      "publishedAt": "2026-10-30T23:20:14Z",
+      "seenAt": "2026-10-31T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-48ee95100e47a5",
+      "title": "Masivas protestas en Italia contra Giorgia Meloni: “Bajen las armas y suban los salarios”",
+      "titleEnglish": "Massive protests in Italy against Giorgia Meloni: \"Lay down arms and raise wages\"",
+      "url": "https://www.minutouno.com/mundo/masivas-protestas-italia-contra-giorgia-meloni-bajen-las-armas-y-suban-los-salarios-n6339980",
+      "publisher": "Minuto Uno",
+      "publisherDomain": "minutouno.com",
+      "publishedAt": "2026-10-31T01:32:00Z",
+      "seenAt": "2026-10-31T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-3995048c9cbdd3",
+      "title": "Salario mínimo 2027: Fenalco volverá a la mesa de concertación y anticipó el incremento",
+      "titleEnglish": "Minimum Wage 2027: Fenalco Will Return to the Negotiating Table and Anticipated the Increase",
+      "url": "https://www.eluniversal.com.co/economica/2026/10/30/salario-minimo-2027-fenalco-volvera-a-la-mesa-de-concertacion-y-anticipo-el-incremento/",
+      "publisher": "www.eluniversal.com.co",
+      "publisherDomain": "eluniversal.com.co",
+      "publishedAt": "2026-10-31T00:20:47Z",
+      "seenAt": "2026-10-31T00:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-07da6ca37ed187",
+      "title": "Minimum wage: Why Nigerian govt can't pay workers N500,000 - Primate Ayodele to Labour",
+      "titleEnglish": "Minimum wage: Why Nigerian govt can't pay workers N500,000 - Primate Ayodele to Labour",
+      "url": "https://dailypost.ng/2026/10/30/minimum-wage-why-nigerian-govt-cant-pay-workers-n500000-primate-ayodele-to-labour/",
+      "publisher": "Daily Post Nigeria",
+      "publisherDomain": "dailypost.ng",
+      "publishedAt": "2026-10-30T12:46:40Z",
+      "seenAt": "2026-10-30T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-49ba1fd9f9ec09",
+      "title": "Bộ trưởng Nội vụ: Sẽ đề xuất chính sách tiền lương, phụ cấp mới cho viên chức đơn vị sự nghiệp cấp xã",
+      "titleEnglish": "Minister of Home Affairs: Will propose new salary and allowance policies for public employees at commune-level public service units",
+      "url": "https://anninhthudo.vn/bo-truong-noi-vu-se-de-xuat-chinh-sach-tien-luong-phu-cap-moi-cho-vien-chuc-don-vi-su-nghiep-cap-xa-post673968.antd",
+      "publisher": "Báo Điện tử An ninh Thủ đô",
+      "publisherDomain": "anninhthudo.vn",
+      "publishedAt": "2026-10-30T12:13:27Z",
+      "seenAt": "2026-10-30T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Vietnam",
+      "sourceCountryCode": "VN",
+      "sourceRegion": "Asia",
+      "sourceLat": 16,
+      "sourceLon": 107,
+      "language": "vi"
+    },
+    {
+      "id": "n-40fc68e8104aac",
+      "title": "Soaring cost of Halloween treats spooks shoppers",
+      "titleEnglish": "Soaring cost of Halloween treats spooks shoppers",
+      "url": "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno",
+      "publisher": "BBC News",
+      "publisherDomain": "bbc.co.uk",
+      "publishedAt": "2026-10-30T22:32:00Z",
+      "seenAt": "2026-10-30T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-76c06a447a2bb4",
+      "title": "Candy prices got you scared stiff? What to know about the cost of Halloween this year",
+      "titleEnglish": "Candy prices got you scared stiff? What to know about the cost of Halloween this year",
+      "url": "https://www.ideastream.org/2026-10-30/candy-prices-got-you-scared-stiff-what-to-know-about-the-cost-of-halloween-this-year",
+      "publisher": "Ideastream Public Media",
+      "publisherDomain": "ideastream.org",
+      "publishedAt": "2026-10-30T09:00:00Z",
+      "seenAt": "2026-10-30T10:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-f21e4d5bec3660",
+      "title": "G20-kokouksen yhteiskuva peruttiin, eurooppalaiset eivät suostuneet seisomaan Lavrovin rinnalla",
+      "titleEnglish": "G20 group photo cancelled, European countries refused to stand alongside Lavrov",
+      "url": "https://www.lansi-savo.fi/uutissuomalainen/9916464",
+      "publisher": "Länsi-Savo",
+      "publisherDomain": "lansi-savo.fi",
+      "publishedAt": "2026-10-30T16:06:15Z",
+      "seenAt": "2026-10-30T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-21148ae692dd63",
+      "title": "G20 toplantısı, aile fotoğrafı çekilmeden başladı | Dış Haberler",
+      "titleEnglish": "G20 meeting began before family photo was taken | Foreign News",
+      "url": "https://www.haberturk.com/dunya/g20-toplantisi-aile-fotografi-cekilmeden-basladi-3923799",
+      "publisher": "Habertürk",
+      "publisherDomain": "haberturk.com",
+      "publishedAt": "2026-10-30T17:02:00Z",
+      "seenAt": "2026-10-30T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-afe1e7ae39d23f",
+      "title": "Szef polskiej dyplomacji do Siergieja Ławrowa. \"Dosyć już tego\"",
+      "titleEnglish": "Head of Polish diplomacy to Sergei Lavrov: \"Enough of this\"",
+      "url": "https://wiadomosci.onet.pl/swiat/radoslaw-sikorski-zwrocil-sie-do-siergieja-lawrowa-dosyc-juz-tego/ygqgt7n",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-10-30T14:02:00Z",
+      "seenAt": "2026-10-30T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-9846808de719ec",
+      "title": "Sikorski z przesłaniem do Rosjan. Szef polskiego MSZ zwrócił się do człowieka Putina",
+      "titleEnglish": "Sikorski with a message for Russians: Polish foreign minister addresses a man close to Putin",
+      "url": "https://wiadomosci.radiozet.pl/polska/sikorski-z-przeslaniem-do-rosjan-szef-polskiego-msz-zwrocil-sie-do-czlowieka-putina",
+      "publisher": "wiadomosci.radiozet.pl",
+      "publisherDomain": "wiadomosci.radiozet.pl",
+      "publishedAt": "2026-10-30T19:34:10Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-2e4b6518f471fc",
+      "title": "Захарова назвала дном поведение главы МИД Германии по отношению к Лаврову",
+      "titleEnglish": "Zakharova calls German Foreign Minister's behavior toward Lavrov \"the bottom\"",
+      "url": "https://lenta.ru/news/2026/10/30/zaharova-nazvala-dnom-povedenie-glavy-mid-germanii-po-otnosheniyu-k-lavrovu/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-10-30T17:02:00Z",
+      "seenAt": "2026-10-30T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-f392d5450fc058",
+      "title": "Захарова указала на попытку Вадефуля напугать Лаврова «обнаженной дипломатией»",
+      "titleEnglish": "Zakharova points to Wadephul's attempt to scare Lavrov with 'naked diplomacy'",
+      "url": "https://iz.ru/2193851/2026-10-30/zakharova-ukazala-na-popytku-vadufulia-napugat-lavrova-obnazhennoi-diplomatiei",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-10-30T16:12:10Z",
+      "seenAt": "2026-10-30T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-3551d2342ca280",
+      "title": "米ロ外相、APECへ連携を協議 中国が3カ国首脳会談を調整",
+      "titleEnglish": "US and Russian foreign ministers discuss coordination at APEC; China arranges trilateral leaders' meeting",
+      "url": "https://www.47news.jp/15164635.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-10-31T01:32:00Z",
+      "seenAt": "2026-10-31T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-44324aab00dd1e",
+      "title": "Guerre en Ukraine : nouvelle main tendue de l'administration Trump à Vladimir Poutine, Washington envisage de lever ses sanctions contre la \"caisse noire\" du président russe",
+      "titleEnglish": "War in Ukraine: Trump Administration Makes New Overture to Vladimir Putin, Washington Considers Lifting Sanctions Against Russian President's \"Black Box\"",
+      "url": "https://www.ladepeche.fr/2026/10/29/guerre-en-ukraine-nouvelle-main-tendue-de-ladministration-trump-a-vladimir-poutine-washington-envisage-de-lever-ses-sanctions-contre-la-caisse-noire-13626052.php",
+      "publisher": "ladepeche.fr",
+      "publisherDomain": "ladepeche.fr",
+      "publishedAt": "2026-10-30T22:32:00Z",
+      "seenAt": "2026-10-30T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-402ea3b3473623",
+      "title": "Ушаков: Россия и США согласовывают дату переговоров по Украине в Абу-Даби",
+      "titleEnglish": "Ushakov: Russia and US are agreeing on a date for Ukraine talks in Abu Dhabi",
+      "url": "https://www.kommersant.ru/doc/9077761",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-10-30T16:14:48Z",
+      "seenAt": "2026-10-30T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-d3ba91516d6973",
+      "title": "В МИДе раскрыли роль Европы в переговорном процессе в Абу-Даби",
+      "titleEnglish": "Foreign Ministry reveals Europe's role in negotiations in Abu Dhabi",
+      "url": "https://www.unian.net/politics/v-mid-rasskazali-o-roli-evropy-v-peregovornom-processe-v-abu-dabi-13545195.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-10-30T17:02:00Z",
+      "seenAt": "2026-10-30T17:02:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Ukraine",
       "sourceCountryCode": "UA",
       "sourceRegion": "Europe",
       "sourceLat": 49,
       "sourceLon": 32,
-      "language": "uk"
+      "language": "ru"
     },
     {
-      "id": "n-56ea37c84d355b",
-      "title": "John Ivison: Ottawa lets a key Arctic defence-tech company slip into foreign hands",
-      "titleEnglish": "John Ivison: Ottawa lets a key Arctic defence-tech company slip into foreign hands",
-      "url": "https://nationalpost.com/opinion/https-beta-nationalpost-com-news-john-ivison-canada-lets-arctic-defence-tech-company-slip-into-foreign-hands",
-      "publisher": "nationalpost",
-      "publisherDomain": "nationalpost.com",
-      "publishedAt": "2026-10-29T10:47:00Z",
-      "seenAt": "2026-10-29T10:47:00Z",
+      "id": "n-5d03fd414a5bb1",
+      "title": "Мелания Трамп сообщила об эвакуации более 750 жителей из Алешек",
+      "titleEnglish": "Melania Trump reports evacuation of more than 750 residents from Aleshki",
+      "url": "https://www.kommersant.ru/doc/9077765",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-10-30T16:22:20Z",
+      "seenAt": "2026-10-30T16:32:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Canada",
-      "sourceCountryCode": "CA",
-      "sourceRegion": "North America",
-      "sourceLat": 56,
-      "sourceLon": -106,
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-a3f1a4a2e082f1",
+      "title": "Stranded locals use rare truce to leave Moscow-occupied town in Ukraine",
+      "titleEnglish": "Stranded locals use rare truce to leave Moscow-occupied town in Ukraine",
+      "url": "https://www.nzherald.co.nz/world/stranded-locals-use-rare-truce-to-leave-moscow-occupied-town-in-ukraine/D3J2HJBZNZFVHBOLU23X6BCUG4/",
+      "publisher": "NZ Herald",
+      "publisherDomain": "nzherald.co.nz",
+      "publishedAt": "2026-10-30T22:32:00Z",
+      "seenAt": "2026-10-30T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
       "language": "en"
+    },
+    {
+      "id": "n-69b7a33079b937",
+      "title": "الكرملين: توقيع 53 وثيقة حكومية ومشتركة على هامش قمة روسيا - أفريقيا - اليوم السابع",
+      "titleEnglish": "Kremlin: 53 government and joint documents signed on the sidelines of the Russia-Africa summit - Youm7",
+      "url": "https://www.youm7.com/story/2026/10/31/%D8%A7%D9%84%D9%83%D8%B1%D9%85%D9%84%D9%8A%D9%86-%D8%AA%D9%88%D9%82%D9%8A%D8%B9-53-%D9%88%D8%AB%D9%8A%D9%82%D8%A9-%D8%AD%D9%83%D9%88%D9%85%D9%8A%D8%A9-%D9%88%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D8%B9%D9%84%D9%89-%D9%87%D8%A7%D9%85%D8%B4-%D9%82%D9%85%D8%A9-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7/7600089",
+      "publisher": "اليوم السابع",
+      "publisherDomain": "youm7.com",
+      "publishedAt": "2026-10-31T03:13:39Z",
+      "seenAt": "2026-10-31T01:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-b74e2b2d77b8ba",
+      "title": "Nigeria, Russia Move To Replace 59-year Air Services Agreement",
+      "titleEnglish": "Nigeria, Russia Move To Replace 59-year Air Services Agreement",
+      "url": "https://leadership.ng/nigeria-russia-move-to-replace-59-year-air-services-agreement/",
+      "publisher": "LEADERSHIP Newspapers",
+      "publisherDomain": "leadership.ng",
+      "publishedAt": "2026-10-30T16:23:35Z",
+      "seenAt": "2026-10-30T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-d5237efd913aea",
+      "title": "В США оценили продажу Эфиопии российских Су-35С и С-400",
+      "titleEnglish": "US assesses Russian Su-35S and S-400 sales to Ethiopia",
+      "url": "https://lenta.ru/news/2026/10/30/v-ssha-otsenili-prodazhu-efiopii-rossiyskih-su-35s-i-s-400/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-10-30T17:02:00Z",
+      "seenAt": "2026-10-30T17:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-4db3e8f5e0ec95",
+      "title": "US approves $2.1bn Patriot missile sale to Ukraine after Zelensky's protest",
+      "titleEnglish": "US approves $2.1bn Patriot missile sale to Ukraine after Zelensky's protest",
+      "url": "https://dailypost.ng/2026/10/30/us-approves-2-1bn-patriot-missile-sale-to-ukraine-after-zelenskys-protest/",
+      "publisher": "Daily Post Nigeria",
+      "publisherDomain": "dailypost.ng",
+      "publishedAt": "2026-10-30T21:26:05Z",
+      "seenAt": "2026-10-30T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-eb49c3ea247fde",
+      "title": "Госдепартамент США одобрил продажу Украине 500 ракет к Patriot на 2,1 млрд долларов",
+      "titleEnglish": "US State Department approves sale to Ukraine of 500 Patriot missiles for $2.1 billion",
+      "url": "https://www.unian.net/weapons/gosdepartament-ssha-odobril-prodazhu-ukraine-500-raket-k-patriot-na-2-1-mlrd-dollarov-13545327.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-10-30T19:32:00Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-7351308e540cab",
+      "title": "Πράσινο φως από τις ΗΠΑ για την πώληση Patriot στην Ουκρανία – Στην Κωνσταντινούπολη το Σάββατο ο Ζελένσκι",
+      "titleEnglish": "Green light from the US for the sale of Patriot to Ukraine – Zelensky in Istanbul on Saturday",
+      "url": "https://www.enikos.gr/international/prasino-fos-apo-tis-ipa-gia-tin-polisi-patriot-stin-oukrania-stin-konstantinoupoli-to-savvato-o-zelenski/2668880/",
+      "publisher": "ENIKOS",
+      "publisherDomain": "enikos.gr",
+      "publishedAt": "2026-10-30T20:53:36Z",
+      "seenAt": "2026-10-30T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-b90fd12bb5ced1",
+      "title": "'Gli Usa approvano la possibile vendita di Patriot all'Ucraina per 2,1 miliardi' - Ultima ora - Ansa.it",
+      "titleEnglish": "'US approves possible sale of Patriot to Ukraine for 2.1 billion' - Breaking news - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/30/gli-usa-approvano-la-possibile-vendita-di-patriot-allucraina-per-21-miliardi_e86117ad-8940-4e9d-b10e-9ee25d20bbf7.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-10-30T19:11:00Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-55b3524edaeafe",
+      "title": "У Путина заявили, что РФ продолжит воевать против Украины даже во время переговоров",
+      "titleEnglish": "Putin's office says Russia will keep fighting against Ukraine even during negotiations",
+      "url": "https://www.unian.net/world/voyna-v-ukraine-kreml-ne-poydet-na-prekrashchenie-ognya-vo-vremya-peregovorov-13545309.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-10-30T19:32:00Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-12e03a21a22eb7",
+      "title": "Haagse winkeliers treffen voorzorgsmaatregelen voor mogelijk 'Gen Z-protest'",
+      "titleEnglish": "The Hague shopkeepers take precautions against possible 'Gen Z protest'",
+      "url": "https://nos.nl/artikel/2637301-haagse-winkeliers-treffen-voorzorgsmaatregelen-voor-mogelijk-gen-z-protest",
+      "publisher": "nos.nl",
+      "publisherDomain": "nos.nl",
+      "publishedAt": "2026-10-30T14:02:00Z",
+      "seenAt": "2026-10-30T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-b5902f0c74962e",
+      "title": "Saksan nuoret lähtevät kaduille: yli 150 000 ilmoittautui protesteihin",
+      "titleEnglish": "German youth take to the streets: over 150,000 sign up for protests",
+      "url": "https://yle.fi/a/74-20254153",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-10-30T07:05:04Z",
+      "seenAt": "2026-10-30T07:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-1c235a036f5e5e",
+      "title": "Où manifester ce samedi 31 octobre en Charente-Maritime : rassemblements toujours interdits à La Rochelle, feu vert à Rochefort et à Saintes selon certains périmètres",
+      "titleEnglish": "Where to protest this Saturday, October 31, in Charente-Maritime: gatherings still banned in La Rochelle, green light in Rochefort and Saintes depending on certain perimeters",
+      "url": "https://www.sudouest.fr/societe/greves-et-manifestations/ou-manifester-ce-samedi-31-octobre-en-charente-maritime-rassemblements-toujours-interdits-a-la-rochelle-feu-vert-a-rochefort-et-a-saintes-selon-certains-perimetres-31302851.php",
+      "publisher": "SudOuest.fr",
+      "publisherDomain": "sudouest.fr",
+      "publishedAt": "2026-10-30T14:02:00Z",
+      "seenAt": "2026-10-30T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-aca4465773111e",
+      "title": "Peut-on interdire les masques d’Halloween demain ?",
+      "titleEnglish": "Can Halloween masks be banned tomorrow?",
+      "url": "https://www.franceinfo.fr/societe/manifestations/peut-on-interdire-les-masques-d-halloween-demain_8261021.html",
+      "publisher": "franceinfo",
+      "publisherDomain": "franceinfo.fr",
+      "publishedAt": "2026-10-30T20:05:03Z",
+      "seenAt": "2026-10-30T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-def4dbbf2cb829",
+      "title": "\"Estaremos lá para voltar a negociar.\" PSP sem \"linhas vermelhas\" para manifestação no dia 31, mas descarta \"diálogo infinito\" no Rossio",
+      "titleEnglish": "“We will be there to return to negotiating.” PSP has no “red lines” for the demonstration on the 31st, but rules out “endless dialogue” at Rossio",
+      "url": "https://observador.pt/2026/10/30/estaremos-la-para-voltar-a-negociar-psp-sem-linhas-vermelhas-para-manifestacao-no-dia-31-mas-descarta-dialogo-infinito-no-rossio/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-10-30T19:32:00Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-6e1e9b266ac631",
+      "title": "Habitação. Grupo de emigrantes portugueses lança carta aberta em apoio a acampadas",
+      "titleEnglish": "Housing. Group of Portuguese emigrants launches open letter in support of the encampments",
+      "url": "https://observador.pt/2026/10/30/habitacao-grupo-de-emigrantes-portugueses-lanca-carta-aberta-em-apoio-a-acampadas/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-10-30T19:32:00Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-f90e608add893f",
+      "title": "Habitação. Pureza denuncia \"consenso muito negativo\" nos vistos gold e em \"borlas fiscais\"",
+      "titleEnglish": "Housing. Pureza denounces “very negative consensus” on golden visas and “tax freebies”",
+      "url": "https://observador.pt/2026/10/30/habitacao-pureza-denuncia-consenso-muito-negativo-nos-vistos-gold-e-em-borlas-fiscais/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-10-30T19:32:00Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-0f0eaf4c085384",
+      "title": "מתיחות בלונדון: איום במעצרים בהפגנת הענק מול שגרירות ארה״ב | וואלה חדשות",
+      "titleEnglish": "Tensions in London: threat of arrests at giant protest outside the US embassy | Walla News",
+      "url": "https://www.walla.co.il:443/news/world/383959502",
+      "publisher": "walla.co.il",
+      "publisherDomain": "walla.co.il",
+      "publishedAt": "2026-10-30T19:32:00Z",
+      "seenAt": "2026-10-30T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
     }
   ],
+  "settled": [],
   "readings": [
     {
-      "id": "ai-spending-growth-and-markdown",
-      "line": "AI investment now drives a large part of US growth, while investors mark down the companies doing the spending.",
-      "kicker": "CAPITAL / COMPUTE / VALUATION",
+      "id": "ai-selloff-taiwan-state-buyers",
+      "line": "Taiwan's fastest growth in fifty years rests on AI spending, so when US tech shares fall its state funds and central bank step in.",
+      "kicker": "CHIPS / CAPITAL / PUBLIC MONEY",
       "firmness": "plausible",
-      "continues": "data-centre-profit-and-dispute",
-      "change": "The previous edition followed AI data centres through Asian hardware profits and European planning disputes. Today the same spending appears in the US national accounts, where third-quarter growth of 3.4% is credited to AI investment, and in the quarterly results of Amazon and Alphabet, where the stock market reacted to the cost. A Taiwanese display maker selling a plant to TSMC carries the Asian side forward.",
-      "claim": "US third-quarter growth of 3.4%, credited to AI investment, was reported in Spain and Finland on the same day as Amazon's cloud profits and rising spending and a fall in Alphabet's market value, reported from Germany, Brazil, Australia, South Korea and the Netherlands. Chinese brokers describe a computing-power super cycle, a Taiwanese display maker sells a plant to TSMC, and a German retailer and the Canadian government buy into AI capacity of their own. One programme of spending on data centres and chips now shows up at once as national growth, corporate profit, a factory changing hands and a falling share price. What this week adds is that the market has begun to price the cost of the spending separately from what it promises.",
+      "watch": [
+        {
+          "what": "Taiwan's National Stabilization Fund or central bank reports further buying of shares or Taiwan dollars during November.",
+          "by": "2026-11-21",
+          "because": "If Taiwan's market is now tied to doubts about US AI spending, further falls in US tech should bring further Taiwanese state action, not a single week's support.",
+          "id": "20261031T013540-ai-selloff-taiwan-state-buyers-1"
+        },
+        {
+          "what": "South Korea's government or a state fund announces support for chip shares or the won as tech stocks fall.",
+          "by": "2026-11-28",
+          "because": "The join says chip-supplying economies now carry AI risk on public books, and South Korea is the other large supplier exposed to the same spending.",
+          "id": "20261031T013540-ai-selloff-taiwan-state-buyers-2"
+        }
+      ],
+      "continues": "ai-spending-growth-and-markdown",
+      "change": "The markdown of the AI spenders deepened: Alphabet had its biggest fall on record, Intel lost 29% and the Nasdaq is on course for a $2 trillion October loss. What is new is where it lands. Taiwan reported record foreign selling of its shares and record buying by its state funds, while its central bank defended the currency.",
+      "claim": "A US tech sell-off over AI spending, with the Nasdaq facing a $2 trillion October loss and Intel down 29% in a day, came in the same week that Taiwan reported its fastest growth in half a century, foreign investors sold nearly a trillion Taiwan dollars of its shares in a month, and Taiwan's state funds and central bank bought to steady the market and the currency. The AI investment wave has tied Taiwan's output to the spending plans of a handful of American companies. When investors in New York doubt those plans, the losses they want to avoid are partly taken on by Taiwanese public money.",
       "events": [
         {
-          "label": "US growth credited to AI investment",
+          "label": "US tech shares fall over AI spending",
           "articleIds": [
-            "n-801be6891d785c",
-            "n-59e3e948f2924e"
+            "n-9fe79de68d577f",
+            "n-f16c88025288cd",
+            "n-9a93975e945c22",
+            "n-0eae67d94a2e91",
+            "n-b8a7abfedee33f"
           ]
         },
         {
-          "label": "Amazon's cloud profits and rising spending",
+          "label": "Big Tech spends cash instead of paying out",
           "articleIds": [
-            "n-8f76bb4c461610",
-            "n-4b8fc57fd6fce4",
-            "n-52b9fa77ac1bcc",
-            "n-fcd519910b8baa"
+            "n-50965b2458ab1e",
+            "n-778abbbb0f85cc",
+            "n-1908bc61ebda24"
           ]
         },
         {
-          "label": "Alphabet loses value after results",
+          "label": "Taiwan's record growth and record foreign selling",
           "articleIds": [
-            "n-680ecc02ce8a2f",
-            "n-cd22dbdd701009",
-            "n-d2d5f046a2b64d"
+            "n-d8b36220bcd619",
+            "n-9f4dc22d5dbbdc",
+            "n-5a988ad3196fbe"
           ]
         },
         {
-          "label": "Chinese brokers forecast a computing super cycle",
+          "label": "Taiwan's state fund and central bank intervene",
           "articleIds": [
-            "n-6d3b18b06ae7b0",
-            "n-91a770cfbda033"
+            "n-8ce13cc9c2ba3d",
+            "n-159583ec70af00"
           ]
         },
         {
-          "label": "AUO sells a plant to TSMC",
+          "label": "Chip makers elsewhere sold and expanded",
           "articleIds": [
-            "n-88e3759e09df88"
-          ]
-        },
-        {
-          "label": "German retailer and Canada buy AI capacity",
-          "articleIds": [
-            "n-0e4af043e03e5a",
-            "n-43017e2c757f60"
+            "n-9ea33bedaae404",
+            "n-1c0a016da3b18d"
           ]
         }
       ],
@@ -964,40 +1112,30 @@
         {
           "id": "ai-r1",
           "kind": "observation",
-          "label": "Growth and earnings together",
+          "label": "The US sell-off and its cause",
           "fragments": [
             {
-              "id": "ai-r1-f1",
-              "label": "US growth credited to AI",
-              "text": "El País in Spain reports that the US economy accelerated in the third quarter, growing 3.4% driven by AI. Yle in Finland says growth beat expectations, driven by consumption and AI investment. Neither headline says how much of the growth came from AI alone.",
+              "id": "ai-f1",
+              "label": "Falls in New York and elsewhere",
+              "text": "The Star in Malaysia reports the Nasdaq facing a $2 trillion October wipeout as fears about AI spending deepen. Handelsblatt reports Intel shares down 29 percent as the Nasdaq 100 slid, and BBC News Brasil asks whether the AI bubble has burst after Alphabet's biggest drop in its history. Walla in Israel and Länsi-Savo in Finland report the same fall in their own markets, with AI giants losing ground.",
               "articleIds": [
-                "n-801be6891d785c",
-                "n-59e3e948f2924e"
+                "n-9fe79de68d577f",
+                "n-f16c88025288cd",
+                "n-9a93975e945c22",
+                "n-0eae67d94a2e91",
+                "n-b8a7abfedee33f"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "ai-r1-f2",
-              "label": "Amazon read two ways",
-              "text": "WELT and Handelsblatt in Germany lead with Amazon profiting from its cloud business, Handelsblatt under the heading of the AI boom. O Globo in Brazil leads with Amazon's spending soaring while online sales growth slows, and the Western Advocate in Australia with a third quarter that missed analysts' estimates. The same results are reported as profit in one country and as cost in another.",
+              "id": "ai-f2",
+              "label": "Spending ahead of shareholders",
+              "text": "The Star reports that Big Tech is returning the smallest share of its cash to shareholders in 15 years because of AI spending. Fortune writes that Amazon's spending is overshadowing its growth, and a Berkeley law professor in Fortune treats Anthropic's planned listing as a test of AI accountability. The money is going into data centres and chips rather than back to investors.",
               "articleIds": [
-                "n-8f76bb4c461610",
-                "n-4b8fc57fd6fce4",
-                "n-52b9fa77ac1bcc",
-                "n-fcd519910b8baa"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "ai-r1-f3",
-              "label": "Alphabet's fall",
-              "text": "Herald Business in South Korea reports that Alphabet, a company 'we trusted', lost 500 billion dollars of market value as New York stocks all fell. Nieuws.nl in the Netherlands reports Alphabet falling on Wall Street after its results, and Sina Finance in China an across-the-board plunge driven by two bearish factors. On Bluesky the trending phrasing was that Google's AI Mode sank Alphabet shares.",
-              "articleIds": [
-                "n-680ecc02ce8a2f",
-                "n-cd22dbdd701009",
-                "n-d2d5f046a2b64d"
+                "n-50965b2458ab1e",
+                "n-778abbbb0f85cc",
+                "n-1908bc61ebda24"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1007,27 +1145,29 @@
         {
           "id": "ai-r2",
           "kind": "observation",
-          "label": "Buyers and sellers of capacity",
+          "label": "Taiwan's month",
           "fragments": [
             {
-              "id": "ai-r2-f1",
-              "label": "China and Taiwan",
-              "text": "Yicai in China reports that the computing-power super cycle is expanding and that AI data centre infrastructure faces deep restructuring, and carries a CITIC Construction Investment note naming edge devices as the next wave. Storm Media in Taiwan reports that AUO has halted a tenth of its plants and is selling its Zhongke plant to TSMC for 38.8 billion, while Quanta says its AI capacity plans are unaffected by a cancelled deal.",
+              "id": "ai-f3",
+              "label": "Record growth, record selling",
+              "text": "UDN reports Taiwan's growth over the first three quarters at 14.22%, the highest in half a century. The same paper reports foreign investors sold nearly a trillion Taiwan dollars of local shares this month, the worst on record, while state funds bought a record 240.9 billion. ETtoday reports the market almost 10% below its highs and waiting on chip results.",
               "articleIds": [
-                "n-6d3b18b06ae7b0",
-                "n-91a770cfbda033",
-                "n-88e3759e09df88"
+                "n-d8b36220bcd619",
+                "n-9f4dc22d5dbbdc",
+                "n-5a988ad3196fbe"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "ai-r2-f2",
-              "label": "Europe and Canada",
-              "text": "Handelsblatt reports that the Schwarz Group, the German retail group, is investing heavily in the AI start-up Cohere. Onet in Poland reports that Canada will join the EU's supercomputer network as the start of broader cooperation on AI. Both are buyers outside the large American cloud firms seeking computing they control.",
+              "id": "ai-f4",
+              "label": "The state steps in",
+              "text": "UDN quotes the National Stabilization Fund saying it is normal for stocks to rise and fall, and reports the central bank intervening forcefully to hold the Taiwan dollar at 32.520. Yicai reports net selling of SMIC by southbound Hong Kong funds of HK$999 million. In Germany, NDR reports Vishay expanding its chip plant in Itzehoe, so building continues while the shares fall.",
               "articleIds": [
-                "n-0e4af043e03e5a",
-                "n-43017e2c757f60"
+                "n-8ce13cc9c2ba3d",
+                "n-159583ec70af00",
+                "n-9ea33bedaae404",
+                "n-1c0a016da3b18d"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1037,29 +1177,17 @@
         {
           "id": "ai-r3",
           "kind": "interpretation",
-          "label": "One expense, several readings",
+          "label": "Who carries the risk",
           "fragments": [
             {
-              "id": "ai-r3-f1",
-              "label": "Spending as output and as cost",
-              "text": "The join is a shared cause: the build-out of data centres and chips. In the national accounts this spending counts as investment and so raises growth. At Amazon it appears both as cloud revenue and as capital spending that O Globo puts in its headline, and at Alphabet the market reacted to the results by cutting the share price. When the same expenditure lifts GDP and lowers valuations in one week, statisticians are counting the outlay while investors are asking when it will pay.",
+              "id": "ai-f5",
+              "label": "From shareholders to the state",
+              "text": "The American companies have chosen to spend their cash on AI rather than return it, which leaves the bet with their investors. Taiwan sells the chips that spending buys, so its record growth is the same bet seen from the supplier's side. When foreign funds sell Taiwanese shares to cut their exposure, Taiwan's state funds and central bank take some of it on. Part of the AI boom is now carried on a public balance sheet in Taipei.",
               "articleIds": [
-                "n-801be6891d785c",
-                "n-52b9fa77ac1bcc",
-                "n-680ecc02ce8a2f"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "ai-r3-f2",
-              "label": "The supply side moves",
-              "text": "Further from the American results, the same demand reorganises factories and ownership. A Taiwanese display maker shrinking its operations sells a plant to the chipmaker that supplies the boom, Chinese brokers look for the next place the money goes, and a German retailer and the Canadian government pay for capacity of their own rather than renting it.",
-              "articleIds": [
-                "n-88e3759e09df88",
-                "n-91a770cfbda033",
-                "n-0e4af043e03e5a",
-                "n-43017e2c757f60"
+                "n-50965b2458ab1e",
+                "n-d8b36220bcd619",
+                "n-9f4dc22d5dbbdc",
+                "n-159583ec70af00"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1072,23 +1200,12 @@
           "label": "The case against",
           "fragments": [
             {
-              "id": "ai-r4-f1",
-              "label": "Different reasons for the falls",
-              "text": "Alphabet's fall may have more to do with the threat AI answers pose to its search advertising than with how much it spends, which is what the Bluesky phrasing suggests. Amazon's miss may be a retail story, and Sina's 'two bearish factors' are not named. US growth was also driven by consumption, which Yle puts first.",
+              "id": "ai-f6",
+              "label": "A routine intervention",
+              "text": "Taiwan's stabilisation fund has bought in most large sell-offs since it was set up, so a record purchase may show the size of this fall rather than a new role for the state. Foreign selling in Taipei can also follow the currency, US pressure on Chinese firms, which China's foreign ministry protested this week in Yicai, or security worries such as ETtoday's report of a Chinese spy near Jensen Huang. The events also part: Intel is losing the AI chip race, Alphabet is a spender, and Taiwan is a supplier booking real profits rather than losses.",
               "articleIds": [
-                "n-680ecc02ce8a2f",
-                "n-fcd519910b8baa",
-                "n-59e3e948f2924e"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "ai-r4-f2",
-              "label": "A calendar, not a turn",
-              "text": "Late October is when the large US technology firms report, so a cluster of earnings headlines is a feature of the calendar. The other events part from the join: AUO is a display maker cutting capacity for reasons of its own, Schwarz is a retailer making a strategic bet, and Canada's step is membership of a research network. They share a subject, AI, more than a mechanism, and none of them shows that the spending is failing to pay.",
-              "articleIds": [
-                "n-88e3759e09df88"
+                "n-98d4e7f6b31f5f",
+                "n-09119214db2415"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1101,8 +1218,8 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "SOFTWARE / CAPITAL / STATISTICS",
-          "text": "ChatGPT was released on 30 November 2022 and reached about a hundred million users in two months. Within a year Microsoft, Alphabet, Amazon and Meta had each told shareholders they would raise capital spending, mostly on data centres and Nvidia chips, and by 2025 their combined annual budgets were reported in the hundreds of billions of dollars. The pandemic had already moved offices, schools and shops onto rented cloud servers in 2020 and 2021, so the firms selling computing were the ones with cash to spend when the new demand arrived. Because business investment enters GDP directly, this private building programme became visible in the US national accounts, which is how El País and Yle can report third-quarter growth of 3.4% as driven by AI. The same years produced the question now put to Alphabet and Amazon each quarter: whether revenue will follow the outlay. A share price answers that question every three months; the growth figure does not ask it.",
+          "lens": "CHIPS / SHORTAGE / AI",
+          "text": "The years since 2020 turned the chip from a component into an object of state policy. In 2021 a shortage of microcontrollers stopped car plants in Germany, the United States and Japan, and governments learned how much of the supply came from a few fabs in Taiwan. Washington answered with the CHIPS and Science Act of August 2022, worth about $52 billion in subsidies, and TSMC agreed to build in Arizona. Three months later ChatGPT reached a hundred million users, and demand for the graphics chips that train such models went from a niche to the largest order book in the industry. By these headlines the result is visible in UDN's figure of 14.22% growth for Taiwan in the first three quarters, a half-century high. The same years made a few American spenders the main customers, so Taiwan's growth and the Nasdaq's fears now depend on the same orders.",
           "trajectoryIds": [
             "chatgpt-2022"
           ],
@@ -1112,8 +1229,8 @@
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "CREDIT / CLOUD / FOUNDRIES",
-          "text": "After Lehman Brothers failed in September 2008, the Federal Reserve held its policy rate near zero until late 2015 and again from 2020 to 2022. Cheap money favoured companies that promised large future earnings, and the cloud businesses fitted: Amazon Web Services, launched in 2006, provided most of Amazon's operating profit through much of the 2010s, which is why WELT and Handelsblatt read this quarter's results through it. The same decade concentrated advanced chip manufacturing in Taiwan, as TSMC won the smartphone contracts and rivals left the most expensive production processes. Display makers such as AUO, which grew on the television and monitor boom of the 2000s, faced Chinese competitors backed by state credit. A panel maker selling a plant to TSMC is one end of that sorting of the Taiwanese electronics industry into the foundry and the rest. Adam Tooze's account of the crisis years explains why the cheap credit lasted as long as it did.",
+          "lens": "CHEAP MONEY / PLATFORMS / BUYBACKS",
+          "text": "After Lehman Brothers failed in September 2008, central banks held interest rates near zero for most of a decade and bought bonds by the trillion. Cheap money and the smartphone made the platform companies the largest firms on earth, and from about 2012 they returned much of their cash through buybacks and dividends; Apple alone has bought back several hundred billion dollars of its own shares since then. Adam Tooze's Crashed describes how that decade's rescues kept capital flowing to the safest-looking assets, and the cloud companies were among them. The Star's report that Big Tech is now returning the smallest share of its cash in 15 years marks the end of that habit: the money is going into data centres instead. Taiwan's National Stabilization Fund, which bought shares in the 2008 crash and in later sell-offs, was used throughout that era against sudden foreign outflows, and is being used again now.",
           "trajectoryIds": [
             "lehman-2008"
           ],
@@ -1125,8 +1242,8 @@
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "INTERNET / LISTINGS / DISCLOSURE",
-          "text": "The end of the Cold War opened the commercial internet. Restrictions on commercial traffic over the US backbone were lifted in the early 1990s, and Netscape's listing in August 1995 was the first time investors priced a company on a technology that had not yet earned much. Five years of such listings ended in the crash of March 2000, after which the Nasdaq lost most of its value over two years. The firms that survived, Amazon among them, learned to describe heavy spending as building for the future, and markets learned to doubt the claim at intervals. Google, founded in 1998, was the clearest winner of the years after the crash. China's entry to the WTO in 2001 put hardware assembly in Shenzhen and components in Taiwan. The Korean headline that even a trusted Alphabet lost 500 billion dollars in value draws on the memory of 2000, when market leaders were repriced within days.",
+          "lens": "FOUNDRY / GLOBALISATION / BUBBLES",
+          "text": "The industry Taiwan now depends on was built in the years around the end of the Cold War. TSMC was founded in 1987 by Morris Chang with state backing, on the idea that one company could make chips for many designers who owned no factories. Through the 1990s the fabless model spread, the WTO opened markets, and Taiwan became the factory for American chip design. The same decade taught markets how to price a technology before it earned anything: Netscape's listing in 1995, then the Nasdaq's fall of almost four fifths between March 2000 and October 2002. Taiwan passed the law creating its National Stabilization Fund in 2000, during that crash. The Fortune piece on Anthropic's listing and BBC Brasil's question about a bubble both measure the present against that precedent, though today's spenders have earnings that the dot-com firms lacked.",
           "trajectoryIds": [
             "netscape-1995",
             "dotcom-2000"
@@ -1137,123 +1254,127 @@
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "SCIENCE / THE STATE / INDUSTRY",
-          "text": "For most of the postwar period, the computing that changed economies was commissioned by governments. The field of artificial intelligence was named at a Dartmouth workshop in 1956, funded by the Rockefeller Foundation, and the Soviet Sputnik of 1957 led the United States to found ARPA, whose network became the internet. Europe built shared laboratories on the same public model, from CERN in 1954 to the joint supercomputing programme that, by these headlines, Canada is now joining. Seventy years on, the largest AI budgets belong to companies, and states that want capacity of their own must pool it or buy into it. The Schwarz Group investing in the Canadian firm Cohere, and Ottawa joining the EU network, are two answers to the postwar question of who owns the machines an economy and its armed forces depend on. David Edgerton's argument that use and maintenance matter more than invention applies to data centres as much as to the factories before them.",
+          "lens": "DEVELOPMENTAL STATE / ALLIANCE / RESEARCH",
+          "text": "The habit of the state buying shares in Taipei belongs to a longer pattern. After 1949 the Kuomintang government on Taiwan, backed by American aid until 1965, ran a state-led industrial policy: land reform, an export processing zone at Kaohsiung from 1966, the Industrial Technology Research Institute in 1973 and the Hsinchu Science Park in 1980. In the United States the same postwar decades had governments paying for the technologies that mattered, from the 1956 Dartmouth workshop that named artificial intelligence to ARPA after Sputnik. What has changed is who pays first. The AI build-out is financed by private companies, as the Star's report on shrinking payouts shows, while the state reappears afterwards as buyer of last resort, in UDN's report of record purchases by Taiwan's state funds. The postwar developmental state is still there, but as a stabiliser rather than a sponsor.",
           "trajectoryIds": [
             "dartmouth-1956",
             "sputnik-1957"
           ],
-          "bookIds": [
-            "shock-of-the-old"
-          ]
+          "bookIds": []
         }
       ],
       "articleIds": [
-        "n-801be6891d785c",
-        "n-59e3e948f2924e",
-        "n-8f76bb4c461610",
-        "n-4b8fc57fd6fce4",
-        "n-52b9fa77ac1bcc",
-        "n-fcd519910b8baa",
-        "n-680ecc02ce8a2f",
-        "n-cd22dbdd701009",
-        "n-d2d5f046a2b64d",
-        "n-6d3b18b06ae7b0",
-        "n-91a770cfbda033",
-        "n-88e3759e09df88",
-        "n-0e4af043e03e5a",
-        "n-43017e2c757f60"
+        "n-9fe79de68d577f",
+        "n-f16c88025288cd",
+        "n-9a93975e945c22",
+        "n-0eae67d94a2e91",
+        "n-b8a7abfedee33f",
+        "n-50965b2458ab1e",
+        "n-778abbbb0f85cc",
+        "n-1908bc61ebda24",
+        "n-d8b36220bcd619",
+        "n-9f4dc22d5dbbdc",
+        "n-5a988ad3196fbe",
+        "n-8ce13cc9c2ba3d",
+        "n-159583ec70af00",
+        "n-9ea33bedaae404",
+        "n-1c0a016da3b18d",
+        "n-98d4e7f6b31f5f",
+        "n-09119214db2415"
       ]
     },
     {
-      "id": "washington-oil-price-two-wars",
-      "line": "Before the US midterms, Washington is pressing for a lower oil price in two wars, and fuel taxes and budgets elsewhere are reset.",
-      "kicker": "ENERGY / THE VOTE / PRESSURE",
+      "id": "war-prices-reach-wage-talks",
+      "line": "With oil near $118, the war's price rise is now argued over in wage talks, while governments cut fuel and sales taxes to slow it.",
+      "kicker": "INFLATION / LABOUR / THE BUDGET",
       "firmness": "plausible",
-      "continues": "war-prices-reach-mortgages",
-      "change": "Yesterday the Iran war's price rise was read through central bank rates and mortgages. Today the reports run the other way: Washington is said to have pressed Kyiv to stop hitting Russian refineries and has sent Tehran a peace proposal, Israel's pump price falls and Russia plans its budget on cheaper oil. US mortgage rates have now fallen for two weeks, by a Chinese report, though Brazilian petrol is rising again.",
-      "claim": "Yle reports, citing the Wall Street Journal, that Ukraine stopped striking Russian oil refineries under pressure from Trump; Iran has received a peace proposal from JD Vance while a US senator says he was briefed on a plan to resume strikes; Britain backs the full opening of the Strait of Hormuz; and Israel's fuel price is set to fall, Russia's Duma plans its budget on a $50 oil price and Brazilian states raise fuel taxes. The common actor is the US government, which in the week before its midterm elections is acting on the supply of oil in both wars in which it is involved. The expected fall in crude is then absorbed by other countries through their own rules, in different directions: a cut at the pump in Israel, a lower revenue assumption in Moscow, a higher tax rate in Brazil.",
+      "watch": [
+        {
+          "what": "A national strike or wage settlement in a European country is reported with fuel or energy prices named among its reasons.",
+          "by": "2026-11-21",
+          "because": "If the war's price rise has moved from the pump into pay, the next large pay disputes should cite it, which neither the oil price nor any single wage round predicts alone.",
+          "id": "20261031T013540-war-prices-reach-wage-talks-1"
+        },
+        {
+          "what": "Japan's Diet passes the consumption tax reduction bill.",
+          "by": "2026-11-28",
+          "because": "If governments are still choosing to absorb the price rise through tax rather than leave it to wages, Japan's bill should pass rather than stall.",
+          "id": "20261031T013540-war-prices-reach-wage-talks-2"
+        }
+      ],
+      "continues": "washington-oil-price-two-wars",
+      "change": "The previous edition followed Washington's push for a lower oil price and the fuel taxes being reset elsewhere. Brent has since risen another 2.4%. Fuel relief continues in Turkey and Germany, but the price rise now also shows in inflation figures and pay claims, in Italy, Colombia, Nigeria and Vietnam.",
+      "claim": "Brent crude reached $117.64 as India's foreign minister warned the G20 of energy disruptions, Italy's inflation rose to 5.4% with its president blaming stagnant wages, Italian protesters demanded the government lay down arms and raise pay, and Colombia, Nigeria and Vietnam opened minimum wage or public pay rounds. In the same days Turkey paid back fuel tax, Germany argued over whether its fuel discount reaches drivers and Japan's parliament debated a consumption tax cut. The question of who pays for the price rise from the war with Iran is moving from governments' tax receipts to employers' payrolls. That makes it a question about next year's wages, not only this month's pump prices.",
       "events": [
         {
-          "label": "Ukraine pauses strikes on Russian refineries",
+          "label": "Brent rises as the Gulf war continues",
           "articleIds": [
-            "n-ac6ec6a340d206",
-            "n-e1ffbb08c08847"
+            "n-ef130bbae574f7",
+            "n-8477a83297412f",
+            "n-8e88240fda7d60",
+            "n-fd0dcf854b59dd",
+            "n-97f678f11f8b8c"
           ]
         },
         {
-          "label": "US peace offer and strike plans for Iran",
+          "label": "Italian inflation and protests over pay",
           "articleIds": [
-            "n-062722d32ef045",
-            "n-5cd97b6bf3d2db",
-            "n-eac3016e7643d2"
+            "n-170c3dc235a470",
+            "n-48ee95100e47a5"
           ]
         },
         {
-          "label": "Pump prices and fuel tax in Israel and Brazil",
+          "label": "Minimum and public pay rounds open",
           "articleIds": [
-            "n-50e9d1cf23d796",
-            "n-752a3047cd18c5",
-            "n-849980ee78d6ff"
+            "n-3995048c9cbdd3",
+            "n-07da6ca37ed187",
+            "n-49ba1fd9f9ec09"
           ]
         },
         {
-          "label": "Russia budgets for cheaper oil",
+          "label": "Fuel and consumption tax relief",
           "articleIds": [
-            "n-9e4b7136f112db",
-            "n-ccd86b399bff06",
-            "n-86812eb2716849"
+            "n-36f5c3ead9ba88",
+            "n-8e07af8a5a1766",
+            "n-6c135ca45a421e"
           ]
         },
         {
-          "label": "US eases rules for LNG exports",
+          "label": "Halloween sweets cost more",
           "articleIds": [
-            "n-317daf49c23436"
-          ]
-        },
-        {
-          "label": "US midterm elections days away",
-          "articleIds": [
-            "n-bfec9b6818474d"
+            "n-40fc68e8104aac",
+            "n-76c06a447a2bb4"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "oil-r1",
+          "id": "wg-r1",
           "kind": "observation",
-          "label": "Pressure on supply in two wars",
+          "label": "The oil price and the relief",
           "fragments": [
             {
-              "id": "oil-r1-f1",
-              "label": "Ukraine's refinery strikes",
-              "text": "Yle in Finland reports, citing the Wall Street Journal, that Ukraine halted strikes on Russian oil refineries under Trump's pressure. Lenta in Russia runs a piece on Western explanations for NATO's push for a ceasefire in Ukraine. Neither says what Ukraine received in return.",
+              "id": "wg-f1",
+              "label": "The price",
+              "text": "Jornal Económico reports Brent for December delivery up 2.40% to $117.64 a barrel. BusinessLine reports Jaishankar warning the G20 of global energy supply disruptions, while Anadolu carries Trump saying the war with Iran will end soon. Philstar expects petrol prices higher next week in the Philippines, and NDR reports German heating oil suppliers overwhelmed by orders at high prices.",
               "articleIds": [
-                "n-ac6ec6a340d206",
-                "n-e1ffbb08c08847"
+                "n-ef130bbae574f7",
+                "n-8477a83297412f",
+                "n-8e88240fda7d60",
+                "n-fd0dcf854b59dd",
+                "n-97f678f11f8b8c"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "oil-r1-f2",
-              "label": "Iran and Hormuz",
-              "text": "Amar Ujala in India reports that Iran has received JD Vance's peace proposal but has not answered. Khaberni in Jordan quotes a US senator saying he was briefed on Trump's plan to resume strikes on Iran, and Ammon in Jordan reports that Britain supports the full opening of the Strait of Hormuz and rejects any Iranian nuclear capability. Washington is offering terms and keeping force in view at the same time.",
+              "id": "wg-f2",
+              "label": "The relief",
+              "text": "Hürriyet's Bigpara reports fuel tax refunds of 29.3 billion lira being paid into accounts in Turkey. Handelsblatt asks how much of Germany's fuel discount actually reaches drivers. Asahi reports Japan's consumption tax reduction bill at its climax with the benefits still unclear. Each government is paying out of its tax take to hold prices down at the point of sale.",
               "articleIds": [
-                "n-062722d32ef045",
-                "n-5cd97b6bf3d2db",
-                "n-eac3016e7643d2"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "oil-r1-f3",
-              "label": "Gas and the election",
-              "text": "Leadership in Nigeria reports that the US is weighing updated LNG safety rules to speed up export projects. 47NEWS in Japan reports governor elections in 36 US states in which the Democrats are likely to lead. The midterm vote is days away.",
-              "articleIds": [
-                "n-317daf49c23436",
-                "n-bfec9b6818474d"
+                "n-36f5c3ead9ba88",
+                "n-8e07af8a5a1766",
+                "n-6c135ca45a421e"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1261,30 +1382,31 @@
           ]
         },
         {
-          "id": "oil-r2",
+          "id": "wg-r2",
           "kind": "observation",
-          "label": "Prices and budgets elsewhere",
+          "label": "The pay claims",
           "fragments": [
             {
-              "id": "oil-r2-f1",
-              "label": "At the pump",
-              "text": "Walla in Israel calls it a surprise that the fuel price will fall by 42 agorot on Saturday night. Tribuna do Norte in Brazil reports petrol rising again at the Clara Camarão refinery after two weeks of decline, and Brazilian states approving higher ICMS tax on petrol, diesel and cooking gas for 2027.",
+              "id": "wg-f3",
+              "label": "Italy",
+              "text": "Il Messaggero reports Italian inflation rising to 5.4%, with President Mattarella saying the standard of living is under attack from stagnant wages and rising prices. Minuto Uno in Argentina reports mass protests against Giorgia Meloni under the slogan 'Lay down arms and raise wages'.",
               "articleIds": [
-                "n-50e9d1cf23d796",
-                "n-752a3047cd18c5",
-                "n-849980ee78d6ff"
+                "n-170c3dc235a470",
+                "n-48ee95100e47a5"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "oil-r2-f2",
-              "label": "In Russia's budget",
-              "text": "Kommersant reports that the State Duma passed in first reading a bill lowering the oil cut-off price to $50, and Izvestia sets out how deputies proposed revising the 2027-2029 budget. Ammon in Jordan reports Russian inflation at about 7.1%. A lower cut-off means Moscow plans on less oil income.",
+              "id": "wg-f4",
+              "label": "Minimum wage rounds and shop prices",
+              "text": "El Universal reports that Fenalco, Colombia's retail federation, will return to the 2027 minimum wage talks and has already put forward an increase. Daily Post Nigeria carries a cleric's argument that the government cannot pay workers the 500,000 naira labour wants. In Vietnam, An ninh Thủ đô reports the home affairs minister proposing new pay and allowances for commune-level public employees. In Britain and the US, BBC News and Ideastream report shoppers alarmed by the cost of Halloween sweets.",
               "articleIds": [
-                "n-9e4b7136f112db",
-                "n-ccd86b399bff06",
-                "n-86812eb2716849"
+                "n-3995048c9cbdd3",
+                "n-07da6ca37ed187",
+                "n-49ba1fd9f9ec09",
+                "n-40fc68e8104aac",
+                "n-76c06a447a2bb4"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1292,31 +1414,19 @@
           ]
         },
         {
-          "id": "oil-r3",
+          "id": "wg-r3",
           "kind": "interpretation",
-          "label": "One government acting on supply",
+          "label": "Who pays for the price rise",
           "fragments": [
             {
-              "id": "oil-r3-f1",
-              "label": "The shared actor",
-              "text": "The join is a shared actor. In both wars the US is acting on oil supply: asking Kyiv to stop taking Russian refining capacity offline, offering Tehran a settlement that would reopen Gulf shipping, and easing its own gas export rules. The headlines do not give a motive, and the link to the midterm elections is ours: a government facing voters in days has reason to want petrol prices down.",
+              "id": "wg-f5",
+              "label": "From the budget to the payroll",
+              "text": "In the first months of a price shock, governments pay through tax cuts and refunds, as Turkey, Germany and Japan are doing. Once the rise shows in the annual inflation figure, it enters the wage claims that employers and treasuries settle for a year or more, as in Italy, Colombia and Nigeria. The Italian slogan joins the two halves: it treats arms spending and the fall in real pay as one budget choice. In each place the cost of the war is being moved from the fuel price to the question of what a year's work is worth.",
               "articleIds": [
-                "n-ac6ec6a340d206",
-                "n-062722d32ef045",
-                "n-317daf49c23436",
-                "n-bfec9b6818474d"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "oil-r3-f2",
-              "label": "Different directions downstream",
-              "text": "Each country takes the expected change through its own rule. Israel's administered price passes a fall to drivers within days. Russia lowers the price on which its budget counts oil revenue, preparing for less money. Brazilian states, which collect ICMS on fuel, raise the tax for 2027, which protects their share of revenue whatever crude does.",
-              "articleIds": [
-                "n-50e9d1cf23d796",
-                "n-9e4b7136f112db",
-                "n-849980ee78d6ff"
+                "n-48ee95100e47a5",
+                "n-170c3dc235a470",
+                "n-36f5c3ead9ba88",
+                "n-3995048c9cbdd3"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1324,28 +1434,18 @@
           ]
         },
         {
-          "id": "oil-r4",
+          "id": "wg-r4",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "oil-r4-f1",
-              "label": "Each event has its own reason",
-              "text": "Ukraine's pause may belong to ceasefire diplomacy, as Lenta's NATO headline implies, rather than to oil prices. A US plan to resume strikes on Iran would raise the risk to supply, not lower it. Russia's cut-off is a fiscal rule responding to sanctions and discounts on its crude, Brazil's tax is a revenue decision for 2027 taken while its petrol price rises, and Israel's price follows a monthly formula. What they do not share: one is a military decision, one a tax rate, one a budget assumption, one an administrative calculation.",
+              "id": "wg-f6",
+              "label": "Old fights with their own causes",
+              "text": "Nigeria's minimum wage dispute grows out of its own currency fall and the end of its petrol subsidy, and Colombia sets its minimum wage every December whatever oil does. Vietnam's public pay reform has been planned for years, and Japan's consumption tax cut is an election-season measure. Halloween sweets owe more to cocoa than to crude. What these events do not share is a single cause: only Italy's inflation figure and the fuel relief schemes clearly carry the oil price, and the rest may be ordinary annual pay politics in a year when oil happens to be high.",
               "articleIds": [
-                "n-e1ffbb08c08847",
-                "n-5cd97b6bf3d2db",
-                "n-752a3047cd18c5"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "oil-r4-f2",
-              "label": "The motive is supplied, not reported",
-              "text": "No headline connects Washington's pressure on Kyiv or Tehran to the pump price or the midterms. The refinery report reaches this collection second-hand, through a Finnish summary of an American newspaper. If the pause is denied or reversed, the actor in this narrative is doing less than it claims.",
-              "articleIds": [
-                "n-ac6ec6a340d206"
+                "n-07da6ca37ed187",
+                "n-3995048c9cbdd3",
+                "n-40fc68e8104aac"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1358,8 +1458,8 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "SANCTIONS / REFINERIES / PUMP PRICES",
-          "text": "Russia's invasion of Ukraine in February 2022 pushed Brent crude above $120 a barrel, and the Biden administration released 180 million barrels from the Strategic Petroleum Reserve, the largest sale in its history, in a midterm year. In December 2022 the G7 set a $60 cap on Russian crude carried by Western-insured tankers, designed to keep Russian oil flowing while cutting Moscow's income. From 2024 Ukraine struck Russian refineries with long-range drones, which cut Russia's fuel output but also tightened world markets for diesel. The twelve-day Israel-Iran war of June 2025 ended with American bombers over Fordow; by these headlines a longer US-Iran war followed and is now the subject of a peace proposal. The pattern of the decade is that Washington wants Russian and Iranian oil revenue reduced without higher prices at American pumps, and the report that Kyiv halted refinery strikes under Trump's pressure is that pattern applied to an ally.",
+          "lens": "ENERGY / INFLATION / RELIEF",
+          "text": "The years since 2020 taught governments a routine for oil shocks. After Russia invaded Ukraine in February 2022, Brent passed $130 in March, euro area inflation peaked at 10.6% that October, and the ECB raised rates from July 2022. Governments paid first at the pump: Germany's three-month fuel discount in the summer of 2022, Italy's cut in fuel excise, France's rebate at the till. Economists then argued, as Handelsblatt argues now, over how much of each discount reached drivers and how much stayed with the oil companies. Wages followed late and only in part, and Italian real pay fell further in 2022 than in most large economies. By these headlines a second shock has come from the Gulf, after the twelve-day war of June 2025 was followed by a longer one, and the same sequence is running again, with Mattarella's remark about stagnant wages arriving where the 2022 sequence ended.",
           "trajectoryIds": [
             "fordow-2025"
           ],
@@ -1369,10 +1469,11 @@
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "SHALE / GAS EXPORTS / SANCTIONS",
-          "text": "Between 2008 and 2019 horizontal drilling and hydraulic fracturing more than doubled US crude output, and by 2018 the United States was the largest oil producer in the world. Congress lifted the forty-year ban on crude exports in December 2015, the first LNG cargo left Sabine Pass in Louisiana in 2016, and by 2023 the country was the largest LNG exporter. That changed what a high oil price means in Washington: it helps Texas and North Dakota and hurts drivers in swing states. It also made sanctions cheaper to impose, since Iranian and Russian barrels could be cut with less risk of shortage. The 2015 nuclear agreement brought Iranian crude back to market; the American withdrawal in 2018 removed it again. The Leadership report that the US is weighing faster safety rules for LNG export projects belongs to this period, in which energy exports became part of American foreign policy.",
+          "lens": "SANCTIONS / THE GULF / STAGNATION",
+          "text": "Brent reached $147 in July 2008 and fell below $40 by December as the financial crisis cut demand. For the next decade wages in southern Europe barely moved: austerity after the euro crisis of 2010 to 2012 kept Italian pay flat, and the habit of low settlements outlasted the crisis. Over the same years the oil price came to depend on Gulf security more than on supply. The Iran nuclear agreement of July 2015 lowered the risk premium on crude; the United States' withdrawal in 2018 restored it, and the drone and missile strike on Abqaiq in September 2019 showed that cheap weapons could halve Saudi output for days. Jaishankar's warning to the G20 about supply disruption comes from a large importer that has lived with this risk since. Italy's protesters now connect that Gulf risk to pay that has hardly risen in fifteen years.",
           "trajectoryIds": [
-            "jcpoa-2015"
+            "jcpoa-2015",
+            "abqaiq-2019"
           ],
           "bookIds": []
         },
@@ -1380,19 +1481,19 @@
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "PETROSTATES / FISCAL RULES / WAR",
-          "text": "The Soviet collapse in 1991 left Russia a state living on oil and gas receipts, and the fall of crude to about $10 a barrel in 1998 contributed to its default that August. Under Putin the finance ministry built a stabilisation fund in 2004 and later a budget rule: revenue above a set cut-off price goes to reserves, and spending is planned on the lower figure. The Duma vote to lower that cut-off to $50, reported by Kommersant, uses the rule to plan for less income. In the Gulf, the 1991 war over Kuwait and the 2003 invasion of Iraq fixed the United States as the military guarantor of supply and Iran as the main power outside that arrangement. Brazil became a large producer after the pre-salt discoveries of 2006 and 2007, and its states came to rely on the ICMS tax on fuel, which is why they set it again this week.",
-          "trajectoryIds": [
-            "iraq-2003"
-          ],
-          "bookIds": []
+          "lens": "INDEXATION / LABOUR SUPPLY / BARGAINING",
+          "text": "In the 1990s the link between prices and wages was cut by law and by the world market. Italy abolished the scala mobile, its automatic wage indexation, in the July 1992 agreement between government, unions and employers, so that pay since has followed bargaining rather than the price index. Colombia's 1991 constitution and a 1996 law gave a commission of government, employers and unions the job of setting the minimum wage each December, with the government deciding by decree if talks fail; that is the table Fenalco is returning to. Vietnam's reforms after 1986 and the entry of China and India into world trade added hundreds of millions of workers to global labour supply and held down the price of manufactured goods for two decades. Karl Polanyi's argument in The Great Transformation, that societies eventually try to pull labour back out of the market, describes what the Italian protest and the Nigerian claim are attempting.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "great-transformation"
+          ]
         },
         {
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "OIL / ALLIANCE / EMBARGO",
-          "text": "Postwar recovery in Europe and Japan used Middle Eastern oil supplied under American protection. In February 1945 Roosevelt met Ibn Saud on a cruiser in the Great Bitter Lake, and the unwritten exchange of security for supply has held since. The Arab oil embargo of October 1973 quadrupled the price within months and showed consumer governments that a war in one region becomes a price everywhere; the International Energy Agency and the US strategic reserve were both created in response. In January 1980 the Carter Doctrine declared that the US would use force to keep the Gulf open, the commitment behind Britain's statement this week, reported in Jordan, that it supports the full opening of the Strait of Hormuz. Daniel Yergin's history of oil records the same habit in every decade: governments treat the oil price as a political number and act on supply when voters feel it.",
+          "lens": "OIL / DOLLAR / WAGE-PRICE",
+          "text": "The postwar order priced the world economy in dollars and its energy in Gulf oil. In February 1945 Roosevelt and Ibn Saud made an unwritten bargain of protection for oil, and for almost thirty years cheap crude underwrote rising pay in Europe and Japan. The Arab embargo of October 1973 quadrupled the price, and the decade that followed was defined by wage-price spirals: indexed pay in Italy, strikes in Britain, and governments trying incomes policies to stop prices and wages chasing each other. Daniel Yergin's The Prize tells how that fuel became the organising fact of the century's wars and alliances. The lesson governments drew from the 1970s was to keep oil prices out of wage settlements, and the present headlines, from Turkey's fuel tax refund to Italy's 5.4% inflation, show them trying to hold that line once more.",
           "trajectoryIds": [
             "quincy-1945",
             "oil-embargo-1973"
@@ -1403,103 +1504,108 @@
         }
       ],
       "articleIds": [
-        "n-ac6ec6a340d206",
-        "n-e1ffbb08c08847",
-        "n-062722d32ef045",
-        "n-5cd97b6bf3d2db",
-        "n-eac3016e7643d2",
-        "n-317daf49c23436",
-        "n-bfec9b6818474d",
-        "n-50e9d1cf23d796",
-        "n-752a3047cd18c5",
-        "n-849980ee78d6ff",
-        "n-9e4b7136f112db",
-        "n-ccd86b399bff06",
-        "n-86812eb2716849"
+        "n-ef130bbae574f7",
+        "n-8477a83297412f",
+        "n-8e88240fda7d60",
+        "n-fd0dcf854b59dd",
+        "n-97f678f11f8b8c",
+        "n-36f5c3ead9ba88",
+        "n-8e07af8a5a1766",
+        "n-6c135ca45a421e",
+        "n-170c3dc235a470",
+        "n-48ee95100e47a5",
+        "n-3995048c9cbdd3",
+        "n-07da6ca37ed187",
+        "n-49ba1fd9f9ec09",
+        "n-40fc68e8104aac",
+        "n-76c06a447a2bb4"
       ]
     },
     {
-      "id": "contesting-the-count",
-      "line": "Since the Capitol riot of 2021, governing parties and losing candidates alike treat the vote count as something to contest.",
-      "kicker": "ELECTIONS / CERTIFICATION / POWER",
+      "id": "russia-shunned-and-courted",
+      "line": "More than four years into the invasion, European ministers shun Russia while Washington and African governments negotiate with it.",
+      "kicker": "SANCTIONS / ALLIANCES / UKRAINE",
       "firmness": "plausible",
+      "watch": [
+        {
+          "what": "The US Treasury lifts or eases sanctions on a named Russian official, company or fund.",
+          "by": "2026-11-28",
+          "because": "If Washington is treating Russia as a negotiating partner while Europe isolates it, the reported overture on sanctions should become an act that Europe does not copy.",
+          "id": "20261031T013540-russia-shunned-and-courted-1"
+        },
+        {
+          "what": "A European government or the EU publicly objects to a US step to ease Russia sanctions or to the terms of the Abu Dhabi talks.",
+          "by": "2026-11-21",
+          "because": "The join predicts that the gap between European isolation and American bargaining becomes an open dispute between allies, not only a difference of tone.",
+          "id": "20261031T013540-russia-shunned-and-courted-2"
+        }
+      ],
       "continues": "",
       "change": "",
-      "claim": "In Brazil, Flávio Bolsonaro released a letter declaring himself president and then left the country; in Israel, Gadi Eisenkot accuses Netanyahu of trying to delegitimise a result that gave no bloc a majority; in the United States a federal ministry is widening an inquiry into the Alaska vote and Texas's attorney general is suing Houston's county clerk; in Delhi, BJP booth agents filed deletion forms against Muslim voters; and in Nigeria a former governor says his successor has never won an election. These are different countries at different points in the electoral cycle, but in each the argument is over the roll, the count or the certification rather than over policy. The challengers include governments and ruling parties as well as defeated candidates, and foreign leaders now offer verdicts on other countries' counts. The administration of elections, once a clerical matter, has become a main place where power is fought over.",
+      "claim": "European ministers refused to stand beside Sergei Lavrov for the G20 family photograph, Poland's foreign minister told him 'enough', and Moscow called the German foreign minister's conduct 'the bottom', in the same days that US and Russian foreign ministers discussed coordination at APEC, Washington weighed lifting sanctions on a Putin associate, Russia signed 53 documents at its Africa summit and Nigeria moved to replace a 59-year-old air agreement with Moscow. Europe treats Russia as an outcast, while the United States and several African governments treat it as a partner to bargain and trade with. The division over Russia now runs between Washington and its European allies as well as between Europe and Africa, even as Washington approves 500 Patriot missiles for Ukraine.",
       "events": [
         {
-          "label": "Flávio Bolsonaro's letter and flight",
+          "label": "Europeans shun Lavrov at the G20",
           "articleIds": [
-            "n-9aca980904166c",
-            "n-e119e811ee24d6",
-            "n-0ea1ed2985caa8",
-            "n-59aa190f0402b0"
+            "n-f21e4d5bec3660",
+            "n-21148ae692dd63",
+            "n-afe1e7ae39d23f",
+            "n-9846808de719ec",
+            "n-2e4b6518f471fc",
+            "n-f392d5450fc058"
           ]
         },
         {
-          "label": "Israel's count and Knesset swearing-in dispute",
+          "label": "US talks with Moscow and weighs sanctions",
           "articleIds": [
-            "n-0e08f31b7975ed",
-            "n-a40b63a0dd87d5",
-            "n-61880ef9a6d5d6"
+            "n-3551d2342ca280",
+            "n-44324aab00dd1e",
+            "n-402ea3b3473623",
+            "n-d3ba91516d6973"
           ]
         },
         {
-          "label": "Foreign verdicts on Brazilian and Israeli votes",
+          "label": "Russia's agreements with African states",
           "articleIds": [
-            "n-41981021aa2196",
-            "n-22ee34a3fe28de"
+            "n-69b7a33079b937",
+            "n-b74e2b2d77b8ba",
+            "n-d5237efd913aea"
           ]
         },
         {
-          "label": "US inquiries and lawsuits over midterm voting",
+          "label": "US approves Patriot sale to Ukraine",
           "articleIds": [
-            "n-4c6f98c212ca86",
-            "n-90399f15e82bf2",
-            "n-d85b58a5152180"
+            "n-4db3e8f5e0ec95",
+            "n-eb49c3ea247fde",
+            "n-7351308e540cab"
           ]
         },
         {
-          "label": "Delhi voter deletion forms",
+          "label": "Oleshky truce while Kremlin keeps fighting",
           "articleIds": [
-            "n-81a0820afea9a6"
-          ]
-        },
-        {
-          "label": "Imo governorship disputed in Nigeria",
-          "articleIds": [
-            "n-43c9e8309c3202",
-            "n-f99a9f578fa2c6"
+            "n-a3f1a4a2e082f1",
+            "n-5d03fd414a5bb1",
+            "n-55b3524edaeafe"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "vote-r1",
+          "id": "ru-r1",
           "kind": "observation",
-          "label": "After the vote",
+          "label": "Europe's refusals",
           "fragments": [
             {
-              "id": "vote-r1-f1",
-              "label": "Brazil",
-              "text": "Diário do Grande ABC calls it a coup letter: Flávio Bolsonaro declares himself president, while São Paulo's governor Tarcísio urges respect for the ballot boxes. Clarín in Argentina reports that within hours of Flávio's flight the Brazilian right already had a candidate and rejected the fraud allegations. R7 and Estado de Minas report that the party leader Valdemar Costa Neto did not like the letter and denies that Jair Bolsonaro knew about the escape.",
+              "id": "ru-f1",
+              "label": "The G20 photograph",
+              "text": "Länsi-Savo in Finland reports that the G20 group photo was cancelled because European countries refused to stand alongside Lavrov, and Habertürk in Turkey notes the meeting began before any family photo was taken. Onet reports Radosław Sikorski telling Lavrov 'Enough of this', and Radio Zet says he addressed a message to Russians through a man close to Putin. Izvestia and Lenta quote Maria Zakharova calling Johann Wadephul's behaviour toward Lavrov 'the bottom' and an attempt to scare him with 'naked diplomacy'.",
               "articleIds": [
-                "n-9aca980904166c",
-                "n-e119e811ee24d6",
-                "n-0ea1ed2985caa8",
-                "n-59aa190f0402b0"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "vote-r1-f2",
-              "label": "Israel",
-              "text": "Al Jazeera reports that the completed count gives no overall majority. Ammon in Jordan reports Eisenkot accusing Netanyahu of seeking to delegitimise the results, and Khaberni reports him demanding no postponement of the Knesset swearing-in. The most-viewed page on the Hebrew Wikipedia was the one on double-envelope voting, the ballots counted last.",
-              "articleIds": [
-                "n-0e08f31b7975ed",
-                "n-a40b63a0dd87d5",
-                "n-61880ef9a6d5d6"
+                "n-f21e4d5bec3660",
+                "n-21148ae692dd63",
+                "n-afe1e7ae39d23f",
+                "n-9846808de719ec",
+                "n-2e4b6518f471fc",
+                "n-f392d5450fc058"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1507,30 +1613,33 @@
           ]
         },
         {
-          "id": "vote-r2",
+          "id": "ru-r2",
           "kind": "observation",
-          "label": "Before the vote and in court",
+          "label": "Who deals with Moscow",
           "fragments": [
             {
-              "id": "vote-r2-f1",
-              "label": "United States",
-              "text": "Handelsblatt reports that a US ministry has widened its investigation into the Alaska vote. KPRC in Houston reports the Texas attorney general's office suing the Harris County clerk over accusations of targeting particular demographic groups with voting advertisements. Onet in Poland runs an explainer on what happens if Trump loses. On Bluesky, Trump on accepting midterm results and ballot-stacking allegations around Mary Peltola were both trending.",
+              "id": "ru-f2",
+              "label": "Washington",
+              "text": "47NEWS reports the US and Russian foreign ministers discussing coordination at APEC, with China arranging a three-way leaders' meeting. La Dépêche reports Washington considering lifting sanctions on the man it calls Putin's 'black box'. Kommersant quotes Yuri Ushakov saying Russia and the US are agreeing a date for Ukraine talks in Abu Dhabi, and UNIAN reports Kyiv's foreign ministry describing Europe's role there. Kommersant also reports Melania Trump announcing the evacuation of more than 750 residents from Oleshky, and NZ Herald reports locals using a rare truce to leave.",
               "articleIds": [
-                "n-4c6f98c212ca86",
-                "n-90399f15e82bf2",
-                "n-d85b58a5152180"
+                "n-3551d2342ca280",
+                "n-44324aab00dd1e",
+                "n-402ea3b3473623",
+                "n-d3ba91516d6973",
+                "n-5d03fd414a5bb1",
+                "n-a3f1a4a2e082f1"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "vote-r2-f2",
-              "label": "India and Nigeria",
-              "text": "The Hindu reports that in Delhi BJP booth agents filed deletion forms against Muslim voters registered at their addresses. Daily Post in Nigeria quotes Rochas Okorocha saying Imo's governor Hope Uzodinma has never won an election, and that he is unhappy with a court judgement.",
+              "id": "ru-f3",
+              "label": "Africa",
+              "text": "Youm7 in Egypt reports the Kremlin saying 53 government and joint documents were signed on the sidelines of the Russia-Africa summit. Leadership reports Nigeria and Russia moving to replace their 59-year-old air services agreement, and Lenta reports the US assessing Russian sales of Su-35S fighters and S-400 air defences to Ethiopia.",
               "articleIds": [
-                "n-81a0820afea9a6",
-                "n-43c9e8309c3202",
-                "n-f99a9f578fa2c6"
+                "n-69b7a33079b937",
+                "n-b74e2b2d77b8ba",
+                "n-d5237efd913aea"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1538,32 +1647,22 @@
           ]
         },
         {
-          "id": "vote-r3",
+          "id": "ru-r3",
           "kind": "interpretation",
-          "label": "Who challenges the count",
+          "label": "Three policies toward one state",
           "fragments": [
             {
-              "id": "vote-r3-f1",
-              "label": "The same shape",
-              "text": "In each country the dispute is over the machinery of the election: who is on the roll in Delhi, how voters were addressed in Houston, whether votes were lawful in Alaska, when a parliament is sworn in in Israel, whether a declared result binds the loser in Brazil, whether a court-confirmed governor won in Nigeria. The challengers are a federal ministry, a state attorney general, a ruling party's booth agents and, by his opponent's account, a sitting prime minister, as well as a defeated family. Contesting the count is no longer only what losers do.",
+              "id": "ru-f4",
+              "label": "Refusal, bargaining and trade",
+              "text": "Europe's instruments are refusal and sanctions: its ministers will not be photographed with Russia's foreign minister. Washington's are bargaining: it talks to Moscow and considers easing sanctions, and in the same days Daily Post, ENIKOS, UNIAN and ANSA report it approving 500 Patriot missiles for Ukraine for $2.1 billion. African governments deal with Russia as a supplier of aircraft, weapons and air links. The Kremlin, in UNIAN's report, says it will keep fighting during negotiations, so it can work each of these channels separately.",
               "articleIds": [
-                "n-81a0820afea9a6",
-                "n-90399f15e82bf2",
-                "n-4c6f98c212ca86",
-                "n-a40b63a0dd87d5",
-                "n-9aca980904166c",
-                "n-43c9e8309c3202"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "vote-r3-f2",
-              "label": "Verdicts from abroad",
-              "text": "Deutsche Welle reports Trump calling Brazil's elections a disgrace, and Okaz reports Qatar denying interference in Israel's election and accusing parties of misinformation. A count is now judged by foreign governments and accused of foreign influence within days of polling.",
-              "articleIds": [
-                "n-41981021aa2196",
-                "n-22ee34a3fe28de"
+                "n-44324aab00dd1e",
+                "n-4db3e8f5e0ec95",
+                "n-eb49c3ea247fde",
+                "n-7351308e540cab",
+                "n-b90fd12bb5ced1",
+                "n-55b3524edaeafe",
+                "n-b74e2b2d77b8ba"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1571,29 +1670,18 @@
           ]
         },
         {
-          "id": "vote-r4",
+          "id": "ru-r4",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "vote-r4-f1",
-              "label": "Unequal acts",
-              "text": "Flávio Bolsonaro's letter is an attempt to claim an office he did not win, which a Brazilian paper calls a coup. Delhi's deletion forms use a legal objection procedure during roll revision. The Texas suit concerns advertising, Nigeria's dispute is a familiar complaint after a tribunal ruling, and Israel's argument is about a coalition timetable whose other side is not in these headlines. Putting a coup attempt beside a lawsuit over voter adverts makes the lesser look graver and the greater look ordinary.",
+              "id": "ru-f5",
+              "label": "Less of a split than it looks",
+              "text": "Refusing a photograph is a gesture at a meeting the Europeans still attended, and UNIAN reports Europe has a role in the Abu Dhabi talks, so Europe is not outside the bargaining. The Patriot sale shows Washington still arming Ukraine, and the sanctions idea is only under consideration. Nigeria's air agreement dates from 1967 and Ethiopia's Russian arms go back to the Soviet period, so the African deals are old ties renewed, not a response to Washington's turn. What the events do not share is an aim: the US contacts are about ending a war, the African ones are trade and arms, and the European ones are about who is seen with whom.",
               "articleIds": [
-                "n-9aca980904166c",
-                "n-90399f15e82bf2",
-                "n-81a0820afea9a6"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "vote-r4-f2",
-              "label": "A crowded election week",
-              "text": "Brazil, Israel and the US midterms fall in the same fortnight, and disputes follow close elections everywhere, so the pattern may be the calendar. The Brazilian headlines also show the opposite of the claim: the right's own party leader disowned the letter and a leading governor urged respect for the result.",
-              "articleIds": [
-                "n-0ea1ed2985caa8",
-                "n-e119e811ee24d6"
+                "n-d3ba91516d6973",
+                "n-4db3e8f5e0ec95",
+                "n-b74e2b2d77b8ba"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1606,22 +1694,17 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "LITIGATION / INSURRECTION / IMITATION",
-          "text": "After the US presidential election of November 2020, the Trump campaign and its allies filed more than sixty lawsuits challenging results and lost nearly all of them; on 6 January 2021 a crowd stormed the Capitol to stop the certification. Two years and two days later, on 8 January 2023, supporters of Jair Bolsonaro stormed Congress, the Supreme Court and the presidential palace in Brasília after his defeat by Lula. Brazil's electoral court barred Bolsonaro from office until 2030, and in September 2025 the Supreme Court convicted him of plotting a coup. By these headlines his son Flávio has now written a letter declaring himself president and left the country, and the party leader Valdemar Costa Neto has disowned it. The lesson many losing camps drew from the decade was that contesting a count costs little with their own supporters; the lesson Brazil's courts drew was to act quickly. Levitsky and Ziblatt's account of unwritten rules describes this moment.",
-          "trajectoryIds": [
-            "washington-2021",
-            "brasilia-2023"
-          ],
-          "bookIds": [
-            "how-democracies-die"
-          ]
+          "lens": "SANCTIONS / ABSTENTION / WAR",
+          "text": "The present arrangement was set in 2022. After the invasion of 24 February, the EU adopted package after package of sanctions, froze Russian central bank reserves with the G7 and closed its airspace to Russian aircraft. In the UN General Assembly vote of 2 March 2022, 141 states condemned the invasion, but 35 abstained, many of them African, and most governments outside Europe and North America declined to join the sanctions. Russia held its second Africa summit in St Petersburg in July 2023. G20 meetings since have struggled over Russia's presence, and walkouts and refused photographs became the European way of registering it. The change by these headlines is in Washington: the Trump administration's direct talks with Moscow, from 2025, ended the common Western line. The cancelled family photo reported by Länsi-Savo and the APEC coordination reported by 47NEWS show the two halves of that change in one week.",
+          "trajectoryIds": [],
+          "bookIds": []
         },
         {
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "VOTING RIGHTS / PLATFORMS / DATA",
-          "text": "Several tools now used to contest a count were built after 2008. In 2013 the US Supreme Court's ruling in Shelby County v. Holder ended the requirement that Texas and other states clear changes to voting rules with the Justice Department, which moved election disputes into state offices and state courts, where the Harris County suit sits. Social platforms and WhatsApp groups carried fraud claims through Brazil's 2018 and 2022 campaigns faster than the electoral court could answer them. India digitised its electoral rolls and built the Aadhaar identity system from 2009, making mass additions and deletions easier to file and to challenge, as the forms reported by The Hindu show. Israel held five elections between April 2019 and November 2022, each close enough that the final envelope ballots decided coalitions. The library has no trajectory for these moments, which are legal and administrative rather than dramatic.",
+          "lens": "GEORGIA / CRIMEA / AFRICA",
+          "text": "The August 2008 war in Georgia was followed within a year by an American reset with Moscow. The habit of treating Russia as an outcast began instead in 2014: when Russia annexed Crimea that March, the other members suspended the G8, and the EU and US imposed the first sectoral sanctions. From then Moscow looked elsewhere: to China, with a gas deal in May 2014, and to Africa, where Wagner contractors arrived in the Central African Republic in 2018 and the first Russia-Africa summit was held in Sochi in October 2019. The 53 documents signed at this week's summit, in Youm7's report, continue that line. Washington's policy swung in these years between the reset of 2009, sanctions in 2014 and the Helsinki summit of 2018, so its present overture has precedent, while Europe's position has moved in one direction since 2014.",
           "trajectoryIds": [],
           "bookIds": []
         },
@@ -1629,122 +1712,153 @@
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "DEMOCRATISATION / COURTS / MACHINES",
-          "text": "Most of the countries in this narrative built their present electoral machinery in the third wave of democratisation. Brazil's 1988 constitution was followed by electronic voting machines from 1996, run by the electoral court whose authority Bolsonaro's camp has attacked since 2021. Nigeria returned to civilian rule in 1999 with election petition tribunals, and governorships have been settled in court ever since; in Imo the Supreme Court installed Hope Uzodinma in January 2020, a ruling Rochas Okorocha still disputes in Daily Post. India's Election Commission gained practical independence under T. N. Seshan in the early 1990s and used electronic machines nationally by 2004. Lula's own first victory in 2002, when the currency fell before polling and he promised to honour the debt, showed a result accepted at home while being tested by markets abroad. Huntington warned in 1991 that waves recede; the present argument is about procedure, not about whether to hold elections at all.",
+          "lens": "ENLARGEMENT / IMITATION / RESENTMENT",
+          "text": "After 1991 Russia was invited in. It joined the Council of Europe in 1996, and the G7 became the G8 when Russia was admitted in 1997. NATO and the EU then expanded east, taking in Poland in 1999 and 2004. Ivan Krastev and Stephen Holmes argue in The Light That Failed that the decades after 1989 were an age of imitating the West, and that Russia's reply was to imitate what it saw as Western hypocrisy rather than Western institutions. The colour revolutions, from Tbilisi in 2003 to Kyiv in 2004, convinced Moscow that every crowd was a Western project. Sikorski, a minister in Polish governments since the 2000s, is a figure of that enlargement, and his 'enough' to Lavrov in Onet's report comes from the country that most wanted to leave Moscow's sphere and now most wants Russia kept out.",
           "trajectoryIds": [
-            "lula-2002"
+            "tbilisi-2003"
           ],
           "bookIds": [
-            "third-wave"
+            "light-that-failed"
           ]
         },
         {
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "SOVEREIGNTY / INTERVENTION / FRANCHISE",
-          "text": "The postwar order made the national election the test of a government's right to rule, and it also made other countries' elections a concern of the great powers. India held its first general election in 1951 and 1952 under an Election Commission created by the 1950 constitution, with about 173 million voters, most of whom could not read, which is why party symbols still appear on ballots. Israel's founding in 1948 fixed the single national list and proportional count that produce coalitions like the one now being negotiated. In Latin America, Washington backed the Brazilian generals who took power in 1964 and worked from 1970 to undo Salvador Allende's victory in Chile. Trump calling Brazil's elections a disgrace, reported by Deutsche Welle, belongs to that history of US presidents judging Latin American results, now in public statements rather than covert funding. The postwar promise was that the count settled the question of who governs; each of these countries is now arguing over who decides that it has.",
+          "lens": "DECOLONISATION / ARMS / BLOCS",
+          "text": "The African ties are older than the end of the Cold War. From the late 1950s the Soviet Union offered newly independent states arms, scholarships and aid without the colonial record of London and Paris; in 1956 it backed Nasser over Suez and learned that an outside power could make itself the guarantor of a settlement. During Nigeria's civil war, which began in 1967, Moscow supplied the federal government with aircraft when Britain hesitated, and the air services agreement Leadership reports Nigeria replacing dates from that year. In 1977 the Soviet Union switched sides in the Horn of Africa and armed Ethiopia, which is why Lenta can report Su-35S and S-400 sales to Addis Ababa as a continuation. Tony Judt's Postwar describes the opposite memory in Europe, where Soviet power meant occupation, and the two memories now support opposite policies toward the same state.",
           "trajectoryIds": [
-            "brazil-1964",
-            "santiago-1970"
+            "suez-1956"
           ],
-          "bookIds": []
+          "bookIds": [
+            "postwar"
+          ]
         }
       ],
       "articleIds": [
-        "n-9aca980904166c",
-        "n-e119e811ee24d6",
-        "n-0ea1ed2985caa8",
-        "n-59aa190f0402b0",
-        "n-0e08f31b7975ed",
-        "n-a40b63a0dd87d5",
-        "n-61880ef9a6d5d6",
-        "n-4c6f98c212ca86",
-        "n-90399f15e82bf2",
-        "n-d85b58a5152180",
-        "n-81a0820afea9a6",
-        "n-43c9e8309c3202",
-        "n-f99a9f578fa2c6",
-        "n-41981021aa2196",
-        "n-22ee34a3fe28de"
+        "n-f21e4d5bec3660",
+        "n-21148ae692dd63",
+        "n-afe1e7ae39d23f",
+        "n-9846808de719ec",
+        "n-2e4b6518f471fc",
+        "n-f392d5450fc058",
+        "n-3551d2342ca280",
+        "n-44324aab00dd1e",
+        "n-402ea3b3473623",
+        "n-d3ba91516d6973",
+        "n-5d03fd414a5bb1",
+        "n-a3f1a4a2e082f1",
+        "n-69b7a33079b937",
+        "n-b74e2b2d77b8ba",
+        "n-d5237efd913aea",
+        "n-4db3e8f5e0ec95",
+        "n-eb49c3ea247fde",
+        "n-7351308e540cab",
+        "n-b90fd12bb5ced1",
+        "n-55b3524edaeafe"
       ]
     },
     {
-      "id": "drones-and-the-return-of-mass",
-      "line": "Cheap drones have made defence a matter of quantity again, so states are financing arms factories and widening conscription.",
-      "kicker": "AUTOMATION / MASS / MOBILISATION",
-      "firmness": "plausible",
+      "id": "one-weekend-of-protest-bans-and-talks",
+      "line": "Protests called for the same weekend in several European countries are met with bans in some cities and negotiation in others.",
+      "kicker": "ASSEMBLY / YOUTH / POLICING",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "Organisers in two or more European countries announce a shared date for a further protest in November.",
+          "by": "2026-11-21",
+          "because": "If these are one wave rather than local grievances that happened to meet on a weekend, the next call should again be made across borders.",
+          "id": "20261031T013540-one-weekend-of-protest-bans-and-talks-1"
+        },
+        {
+          "what": "A European government proposes new limits on face coverings or on public gatherings, citing the 31 October protests.",
+          "by": "2026-11-28",
+          "because": "The join is about how states set the limits of assembly, and a wave across countries should produce a rule rather than only one day's policing decision.",
+          "id": "20261031T013540-one-weekend-of-protest-bans-and-talks-2"
+        }
+      ],
       "continues": "",
       "change": "",
-      "claim": "Ukrainian commanders describe a shortage of interceptors against jet-powered drones and a production race imposed by Russia; Onet in Poland reports a record drone attack that shut airports in Moscow and St Petersburg; Finland's army trains soldiers against drones with VR lasers; Iran says it took control of a US reconnaissance drone; Ukraine's central bank eases loans to arms makers, a Canadian columnist protests the sale of an Arctic defence-tech firm to foreign owners, and Lithuania will conscript all men from 2032. The shared mechanism is that cheap drones are used in numbers that expensive defences cannot match one for one, so the contest moves to how many can be built, launched and stopped. States are answering with the methods of mass armies: credit for factories, control over small suppliers, and service for every man.",
+      "claim": "Shopkeepers in The Hague are taking precautions against a possible 'Gen Z protest', La Rochelle has banned gatherings on 31 October while Rochefort and Saintes allow them within set perimeters, Lisbon's police say they have no red lines for the demonstration on the 31st at Rossio, more than 150,000 young Germans have signed up for street protests, Italians marched against Giorgia Meloni, and arrests were threatened at a large protest outside the US embassy in London. The grievances are separate, from housing in Lisbon to wages and arms in Italy, but they reach the street in the same days. Each state is deciding the same question, how much public space a crowd may take, on its own terms, from a prefect's ban to a police negotiator.",
       "events": [
         {
-          "label": "Ukraine short of drone interceptors",
+          "label": "Hague shops brace for Gen Z protest",
           "articleIds": [
-            "n-eec6607027be33",
-            "n-b75150789ceaf3",
-            "n-c6b3dafb44b41d"
+            "n-12e03a21a22eb7"
           ]
         },
         {
-          "label": "Record drone raids on Russian airports",
+          "label": "German youth sign up for protests",
           "articleIds": [
-            "n-8d7a12ebd38124",
-            "n-52d900d30807e2"
+            "n-b5902f0c74962e"
           ]
         },
         {
-          "label": "Iran claims capture of US drone",
+          "label": "French towns ban or allow gatherings",
           "articleIds": [
-            "n-8aefb7d705c906"
+            "n-1c235a036f5e5e",
+            "n-aca4465773111e"
           ]
         },
         {
-          "label": "Finland trains troops against drones",
+          "label": "Lisbon housing camps and Rossio demonstration",
           "articleIds": [
-            "n-3ca0d7968aad33"
+            "n-def4dbbf2cb829",
+            "n-6e1e9b266ac631",
+            "n-f90e608add893f"
           ]
         },
         {
-          "label": "Lithuania brings in universal male conscription",
+          "label": "Italian protests over arms and wages",
           "articleIds": [
-            "n-668c02ca794b2c"
+            "n-48ee95100e47a5"
           ]
         },
         {
-          "label": "Credit and ownership of defence firms",
+          "label": "London protest at the US embassy",
           "articleIds": [
-            "n-f29797f795f3b6",
-            "n-56ea37c84d355b"
+            "n-0f0eaf4c085384"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "drone-r1",
+          "id": "pr-r1",
           "kind": "observation",
-          "label": "The drone war this week",
+          "label": "What each city expects",
           "fragments": [
             {
-              "id": "drone-r1-f1",
-              "label": "Ukraine's interceptors",
-              "text": "UNIAN in Ukraine runs three interviews with the adviser known as Flash: on how many interceptors Ukraine has against jet-powered drones, on Russia forcing an engineering race in drone production, and on how private air defence works under military control. The subject of all three is supply rather than technique.",
+              "id": "pr-f1",
+              "label": "Netherlands and Germany",
+              "text": "NOS reports shopkeepers in The Hague taking precautions against a possible 'Gen Z protest'. Yle in Finland reports German young people taking to the streets, with more than 150,000 signed up for protests. Neither headline names the grievance.",
               "articleIds": [
-                "n-eec6607027be33",
-                "n-b75150789ceaf3",
-                "n-c6b3dafb44b41d"
+                "n-12e03a21a22eb7",
+                "n-b5902f0c74962e"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "drone-r1-f2",
-              "label": "Strikes on Russia and a captured drone",
-              "text": "Onet in Poland reports a record drone attack on Russia that halted airports in Moscow and St Petersburg. WELT in Germany reports Zelensky announcing the destruction of Russian fighter jets on the ground and Moscow replying with missiles. Dân trí in Vietnam reports Iran's claim to have taken control of a US reconnaissance drone.",
+              "id": "pr-f2",
+              "label": "France and Portugal",
+              "text": "Sud Ouest lists where people may protest in Charente-Maritime on Saturday 31 October: gatherings remain banned in La Rochelle and are allowed in Rochefort and Saintes within set perimeters. Franceinfo asks whether Halloween masks can be banned the next day. In Lisbon, Observador reports the PSP police saying they have no red lines for the demonstration on the 31st but rule out 'endless dialogue' at Rossio. The same paper reports emigrants' open letter backing the housing encampments, and Pureza attacking the consensus on golden visas and tax breaks.",
               "articleIds": [
-                "n-8d7a12ebd38124",
-                "n-52d900d30807e2",
-                "n-8aefb7d705c906"
+                "n-1c235a036f5e5e",
+                "n-aca4465773111e",
+                "n-def4dbbf2cb829",
+                "n-6e1e9b266ac631",
+                "n-f90e608add893f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "pr-f3",
+              "label": "Italy and Britain",
+              "text": "Minuto Uno in Argentina reports mass protests in Italy against Meloni under the slogan 'Lay down arms and raise wages'. Walla in Israel reports tension in London, with arrests threatened at a large protest outside the US embassy.",
+              "articleIds": [
+                "n-48ee95100e47a5",
+                "n-0f0eaf4c085384"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1752,90 +1866,40 @@
           ]
         },
         {
-          "id": "drone-r2",
-          "kind": "observation",
-          "label": "Armies and treasuries prepare",
-          "fragments": [
-            {
-              "id": "drone-r2-f1",
-              "label": "Training and service",
-              "text": "Yle reports the Finnish Defence Forces testing VR lasers to train soldiers for counter-drone operations. Executive Digest in Portugal reports that Lithuania will make military service compulsory for all men from 2032.",
-              "articleIds": [
-                "n-3ca0d7968aad33",
-                "n-668c02ca794b2c"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "drone-r2-f2",
-              "label": "Money and ownership",
-              "text": "LB.ua reports that Ukraine's central bank has eased lending terms for defence companies working under state contracts. In the National Post, John Ivison argues that Ottawa has let a key Arctic defence-technology company pass into foreign hands.",
-              "articleIds": [
-                "n-f29797f795f3b6",
-                "n-56ea37c84d355b"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "drone-r3",
+          "id": "pr-r2",
           "kind": "interpretation",
-          "label": "Why numbers matter again",
+          "label": "One question, decided locally",
           "fragments": [
             {
-              "id": "drone-r3-f1",
-              "label": "The shared mechanism",
-              "text": "A drone costing a small fraction of the interceptor that stops it can be launched in hundreds, so a defender who relies on a few expensive missiles runs out first. That is the shortage the Ukrainian interviews describe. The answers reported elsewhere are the methods of mass: training every Finnish soldier rather than specialist crews, conscripting every Lithuanian man, cheap credit for Ukrainian arms factories, and treating a small Canadian technology firm as a strategic asset.",
+              "id": "pr-f4",
+              "label": "Many grievances, one weekend",
+              "text": "The grievances differ: housing and golden visas in Lisbon, pay and arms spending in Italy, US policy in London, and in The Hague and Germany a generation named rather than a cause. What they share is timing and form, crowds of mostly young people in central squares in the same days, which is how protest has spread since the Gen Z movements in Asia and Africa. The response is national and often municipal: a prefectoral ban in La Rochelle, permitted perimeters in nearby towns, a police negotiator in Lisbon and private precautions by Dutch shops. Franceinfo's question about Halloween masks shows a festival object becoming a policing question because the festival and the protests fall on the same day.",
               "articleIds": [
-                "n-eec6607027be33",
-                "n-b75150789ceaf3",
-                "n-3ca0d7968aad33",
-                "n-668c02ca794b2c",
-                "n-f29797f795f3b6",
-                "n-56ea37c84d355b"
+                "n-12e03a21a22eb7",
+                "n-1c235a036f5e5e",
+                "n-def4dbbf2cb829",
+                "n-48ee95100e47a5",
+                "n-aca4465773111e"
               ],
               "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "drone-r3-f2",
-              "label": "Disruption across a country",
-              "text": "The raid that shut Moscow and St Petersburg airports shows that the effect of numbers is disruption far from the front, not only destruction. Every airport, refinery and airbase needs cover, which multiplies the stock of interceptors and trained crews a state must hold.",
-              "articleIds": [
-                "n-8d7a12ebd38124",
-                "n-52d900d30807e2"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
+              "trajectoryIds": [
+                "kathmandu-2025"
+              ]
             }
           ]
         },
         {
-          "id": "drone-r4",
+          "id": "pr-r3",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "drone-r4-f1",
-              "label": "Different causes",
-              "text": "Lithuania's conscription law answers the size of Russia's army and Lithuania's small population, not drones in particular, and it takes effect in 2032. The Canadian column is about foreign takeovers and industrial policy. Iran's claim may be propaganda, and capturing a single surveillance drone says nothing about quantity. What these events do not share: one is a law on men, one a bank rule, one a company sale, one a training method.",
+              "id": "pr-f5",
+              "label": "A weekend, not a wave",
+              "text": "31 October is a Saturday before a public holiday in France and Portugal, so protests of every kind fall on it, and no headline names a common organiser or slogan. Lisbon's demonstration grows out of a housing camp with its own history, London's is about US policy, and the German sign-ups may concern a different date and a domestic issue such as military service, which Yle's headline does not state. The La Rochelle ban may have purely local reasons. What the events do not share is a demand, and the pattern may be an artefact of a collection gathered on the eve of one weekend.",
               "articleIds": [
-                "n-668c02ca794b2c",
-                "n-56ea37c84d355b",
-                "n-8aefb7d705c906"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "drone-r4-f2",
-              "label": "One source and an old pattern",
-              "text": "The three Ukrainian headlines come from one outlet interviewing one adviser on one day, which inflates the weight of the theme. Finland and Ukraine never gave up mass armies, so the return of quantity may be a Western European perception, not a new condition.",
-              "articleIds": [
-                "n-eec6607027be33"
+                "n-b5902f0c74962e",
+                "n-1c235a036f5e5e"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1848,24 +1912,23 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "DRONES / ATTRITION / PRODUCTION",
-          "text": "The war over Nagorno-Karabakh from September to November 2020 was the first in which drones, Turkish Bayraktar TB2s and Israeli loitering munitions, decided the outcome, and defence ministries rewrote their procurement plans in its wake. Russia's invasion of Ukraine in 2022 turned that lesson into a war of production: Ukraine came to build small first-person-view drones by the million a year, and Russia began making Iranian-designed Shahed drones at Alabuga in Tatarstan. In June 2025 Ukraine's Operation Spiderweb launched drones from lorries parked near Russian airbases and damaged strategic bombers thousands of kilometres from the front. The interceptor shortage described in the UNIAN interviews follows from that arithmetic: a drone costing tens of thousands of dollars can require a missile costing hundreds of thousands to stop it, so over time the side that produces more holds the advantage. Grégoire Chamayou asked what happens to war when one side cannot be hit back; in this decade both sides can.",
+          "lens": "GEN Z / PLATFORMS / LOCKDOWN",
+          "text": "The years since 2020 changed both sides of the protest. Lockdowns in 2020 and 2021 gave European states emergency powers over gatherings, and France and Portugal used them repeatedly; the habit of perimeter orders and prefectoral bans outlived the virus. On the other side, a generation organised on TikTok, Discord and Telegram produced protests that named themselves by age: Sri Lanka in 2022, Kenya's finance bill protests in June 2024, Bangladesh's students in July and August 2024, and Nepal in September 2025, where a government fell to protesters carrying a pirate flag from a Japanese comic. Morocco and Madagascar followed within weeks. By these headlines the label has now reached The Hague, where NOS reports shopkeepers preparing for a 'Gen Z protest', and the question for European police is whether a movement without leaders can be negotiated with, as Lisbon's PSP proposes, or only banned.",
           "trajectoryIds": [
-            "karabakh-2020",
-            "spiderweb-2025"
+            "dhaka-2024",
+            "kathmandu-2025"
           ],
-          "bookIds": [
-            "theory-of-the-drone"
-          ]
+          "bookIds": []
         },
         {
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "SMARTPHONES / SUPPLY CHAINS / PRECISION",
-          "text": "The parts of a cheap drone, small cameras, lithium batteries, satellite navigation receivers, gyroscopes and radio chips, became cheap because the smartphone industry bought them by the billion after 2008. The Shenzhen firm DJI, founded in 2006, sold its Phantom quadcopter from 2013, and its supply chain is the one both Ukraine and Russia now draw on, often through intermediaries. In the same years the United States used armed Reaper drones for strikes in Pakistan, Yemen and Somalia, which made the drone a mark of a rich state. That changed on 14 September 2019, when drones and missiles cut Saudi output at Abqaiq by half for days. Iran's claim this week, reported in Vietnam, to have taken control of a US reconnaissance drone continues a contest Tehran has pursued since it displayed a captured American RQ-170 in December 2011.",
+          "lens": "AUSTERITY / SQUARES / HOUSING",
+          "text": "The housing grievance in Lisbon was assembled after 2008. Portugal took a €78 billion rescue in 2011, cut public pay and pensions, and courted foreign money to recover: a tax regime for non-habitual residents from 2009, and golden visas for property buyers from 2012. Tourism and short-term letting followed, and Lisbon rents rose faster than wages through the 2010s. The protests of that decade set the form: Cairo's Tahrir Square in early 2011, Portugal's 'Geração à Rasca' march that March, and Madrid's Puerta del Sol camp that May, where occupying a central square became the method. Pureza's attack in Observador on the consensus over golden visas, and the emigrants' letter backing the encampments, belong to this line, the letter written partly by Portuguese who left during the crisis. The Rossio demonstration applies the camp method to rent.",
           "trajectoryIds": [
-            "abqaiq-2019"
+            "tahrir-2011",
+            "sol-2011"
           ],
           "bookIds": []
         },
@@ -1873,40 +1936,39 @@
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "PEACE DIVIDEND / CONSCRIPTION / ARMIES",
-          "text": "After the Soviet Union dissolved in 1991, most European states cut their armed forces and many ended conscription in favour of small professional armies: France from 1997, Sweden in 2010, Germany in 2011. Lithuania, independent again from 1990, suspended conscription in 2008 and restored it in 2015 after Russia annexed Crimea; the law for universal male service from 2032, reported by Executive Digest, extends that reversal. Finland kept mass conscription and territorial defence throughout, which is why its army trains ordinary soldiers against drones. The same years opened accurate satellite navigation to civilians in May 2000 and saw the first armed Predator strike in October 2001. Mary Kaldor described the wars of the 1990s as conflicts without fronts, fought by irregular forces; the war in Ukraine has fronts again, and drones are what both sides use to hold them.",
+          "lens": "WAR / SUMMITS / MARCHES",
+          "text": "The European protest against a foreign war, like Italy's 'lay down arms' and London's march to the US embassy, took its present form after the Cold War. The counter-summit protests of Seattle in 1999 and Genoa in 2001, where a protester was shot dead during the G8, made Italian police and the Italian left long adversaries. On 15 February 2003 millions marched in London, Rome and Madrid against the invasion of Iraq; the war went ahead, and many concluded that numbers alone change nothing. Belgrade in October 2000 had offered the opposite lesson, that a disciplined movement could bring down a government. Europe's protesters still choose between the two models. The slogan reported by Minuto Uno joins arms and wages in one demand, as the 2003 marches did not, which reflects years in which defence spending and pay compete in the same budget.",
           "trajectoryIds": [
-            "gps-2000",
-            "predator-2001"
+            "iraq-2003",
+            "belgrade-2000"
           ],
-          "bookIds": [
-            "new-and-old-wars"
-          ]
+          "bookIds": []
         },
         {
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "DETERRENCE / ALLIANCE / PRECISION",
-          "text": "The postwar Western approach to war rested on quality over numbers. NATO, founded in 1949, expected to face larger Soviet armies in Europe, and in the 1970s the Pentagon's offset strategy under Harold Brown and William Perry set out to defeat that mass with precision-guided weapons, stealth and surveillance. An early proof came in June 1982 over the Bekaa Valley, when Israeli drones located Syrian air defences and the air force destroyed them. The pilotless weapon itself goes back to the German V-1 that struck London from June 1944, built by a state that could no longer spare pilots. The postwar model produced expensive interceptors in small stocks, the stocks Ukraine now finds too small against cheap jet drones. Canada's place in this order was the Arctic, defended with the United States through NORAD from 1958, and a National Post columnist's alarm over the sale of an Arctic defence-tech firm is about who now supplies that defence.",
+          "lens": "ASSEMBLY / CONSTITUTIONS / 1968",
+          "text": "The right being negotiated in each city was written into the postwar constitutions. Italy's of 1948 guarantees peaceful assembly in Article 17, requiring only notice for public places; West Germany's Basic Law of 1949 does so in Article 8; Portugal's of 1976, written after the Carnation Revolution of April 1974, made demonstration a right for a people denied it for forty-eight years. France kept an older regime, a 1935 decree requiring demonstrations to be declared, which is why a prefect in Charente-Maritime can ban gatherings in one town and allow them in another, as Sud Ouest reports. May 1968 in Paris fixed the script of young people in the street and the state's replies to them. Elias Canetti's Crowds and Power asks what a crowd wants once it has formed; these laws are the postwar answer to how much space it may take.",
           "trajectoryIds": [
-            "v1-1944",
-            "bekaa-1982"
+            "lisbon-1974",
+            "paris-1968"
           ],
-          "bookIds": []
+          "bookIds": [
+            "crowds-and-power"
+          ]
         }
       ],
       "articleIds": [
-        "n-eec6607027be33",
-        "n-b75150789ceaf3",
-        "n-c6b3dafb44b41d",
-        "n-8d7a12ebd38124",
-        "n-52d900d30807e2",
-        "n-8aefb7d705c906",
-        "n-3ca0d7968aad33",
-        "n-668c02ca794b2c",
-        "n-f29797f795f3b6",
-        "n-56ea37c84d355b"
+        "n-12e03a21a22eb7",
+        "n-b5902f0c74962e",
+        "n-1c235a036f5e5e",
+        "n-aca4465773111e",
+        "n-def4dbbf2cb829",
+        "n-6e1e9b266ac631",
+        "n-f90e608add893f",
+        "n-48ee95100e47a5",
+        "n-0f0eaf4c085384"
       ]
     }
   ]

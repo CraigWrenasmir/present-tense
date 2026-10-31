@@ -1,6 +1,61 @@
 {
  "editions": [
   {
+   "stamp": "20261031T013540",
+   "file": "data/narratives/20261031T013540.json",
+   "newsGeneratedAt": "2026-10-31T01:35:40Z",
+   "generatedAt": "2026-10-31T01:44:31Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-6",
+   "narratives": [
+    {
+     "id": "ai-selloff-taiwan-state-buyers",
+     "kicker": "CHIPS / CAPITAL / PUBLIC MONEY",
+     "line": "Taiwan's fastest growth in fifty years rests on AI spending, so when US tech shares fall its state funds and central bank step in.",
+     "events": 5,
+     "headlines": 17,
+     "countries": 8,
+     "continues": "ai-spending-growth-and-markdown",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "war-prices-reach-wage-talks",
+     "kicker": "INFLATION / LABOUR / THE BUDGET",
+     "line": "With oil near $118, the war's price rise is now argued over in wage talks, while governments cut fuel and sales taxes to slow it.",
+     "events": 5,
+     "headlines": 15,
+     "countries": 13,
+     "continues": "washington-oil-price-two-wars",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "russia-shunned-and-courted",
+     "kicker": "SANCTIONS / ALLIANCES / UKRAINE",
+     "line": "More than four years into the invasion, European ministers shun Russia while Washington and African governments negotiate with it.",
+     "events": 5,
+     "headlines": 20,
+     "countries": 12,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "one-weekend-of-protest-bans-and-talks",
+     "kicker": "ASSEMBLY / YOUTH / POLICING",
+     "line": "Protests called for the same weekend in several European countries are met with bans in some cities and negotiation in others.",
+     "events": 6,
+     "headlines": 9,
+     "countries": 6,
+     "continues": "",
+     "firmness": "tentative",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261030T015732",
    "file": "data/narratives/20261030T015732.json",
    "newsGeneratedAt": "2026-10-30T01:57:32Z",
