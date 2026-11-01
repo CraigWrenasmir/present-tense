@@ -65,27 +65,34 @@
       if (day !== lastDay) {
         lastDay = day; const rel = dayOf(day) - today;
         const h = create('p', 'day-head mono'); h.id = 'day-' + day;
-        h.append(create('span', 'd', fmtDay(day, true).toUpperCase()), create('span', 'r', rel === 0 ? 'TODAY' : rel < 0 ? `${-rel} DAY${rel === -1 ? '' : 'S'} AGO · DUE, NOT YET CHECKED` : `IN ${rel} DAY${rel === 1 ? '' : 'S'}`));
+        h.append(create('span', 'd', 'DUE BY ' + fmtDay(day, true).toUpperCase()), create('span', 'r', rel === 0 ? 'TODAY' : rel < 0 ? `${-rel} DAY${rel === -1 ? '' : 'S'} AGO · DUE, NOT YET CHECKED` : `IN ${rel} DAY${rel === 1 ? '' : 'S'}`));
         body.append(h); ol = create('ol', 'watch-ledger'); body.append(ol);
       }
       ol.append(ledgerItem(w, false));
     });
   }
 
+  /* One expectation, every part labelled: what was expected, why the join predicts it, which narrative set it, and,
+     once settled, the headline that settled it or the note that nothing did. */
+  function row(label, ...content) { const d = create('div', 'wl-row'); d.append(create('span', 'wl-lab mono', label)); const v = create('div', 'wl-val'); content.forEach(c => v.append(c)); d.append(v); return d; }
   function ledgerItem(w, withStatus = true) {
     const li = create('li', 'wl ' + w.status); li.id = 'x-' + w.id;
     if (withStatus) {
       const head = create('p', 'wl-head mono');
-      const when = w.status === 'open' ? `runs to ${fmtDay(w.by)}` : w.resolved.how === 'expired' ? `not reported by ${fmtDay(w.by)}` : `${fmtDay(w.resolved.asOf)}`;
+      const when = w.status === 'open' ? `due by ${fmtDay(w.by)}` : w.resolved.how === 'expired' ? `nothing reported by ${fmtDay(w.by)}` : `settled ${fmtDay(w.resolved.asOf)}`;
       head.append(create('span', 'st', w.status.toUpperCase()), create('span', 'when', ` · ${when}`)); li.append(head);
     }
-    li.append(create('p', 'wl-what', w.what));
-    const set = create('p', 'wl-set mono'); const a = create('a', 'wl-ref', w.line);
-    a.href = openNarrative(w); a.title = 'Open the narrative that set it';
-    set.append(create('span', 'w', `SET ${fmtDay(w.asOf).toUpperCase()} · ${(w.firmness || '').toUpperCase()} · BY `), a); li.append(set);
-    if (w.because) li.append(create('p', 'wl-because', w.because));
-    if (w.resolved && w.resolved.note) li.append(create('p', 'wl-note', w.resolved.note));
-    headlineLinks(w).forEach(x => li.append(x));
+    li.append(row('EXPECTED', create('p', 'wl-what', w.what)));
+    if (w.because) li.append(row('WHY THE JOIN PREDICTS IT', create('p', 'wl-because', w.because)));
+    const from = create('p', 'wl-from'); const a = create('a', 'wl-ref', w.line); a.href = openNarrative(w); a.title = 'Open the narrative that set it';
+    from.append(a, create('span', 'wl-set mono', ` · ${(w.firmness || '').toUpperCase()} · SET ${fmtDay(w.asOf).toUpperCase()}`));
+    li.append(row('FROM THE NARRATIVE', from));
+    if (w.resolved) {
+      const parts = [];
+      if (w.resolved.note) parts.push(create('p', 'wl-note', w.resolved.note));
+      headlineLinks(w).forEach(x => parts.push(x));
+      if (parts.length) li.append(row(w.resolved.how === 'expired' ? 'HOW IT SETTLED' : 'THE HEADLINE THAT SETTLED IT', ...parts));
+    }
     return li;
   }
 

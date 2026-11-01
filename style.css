@@ -664,6 +664,8 @@ body.scrolls { overflow: auto; }  /* the field page is fixed; the reading pages 
 .watch-item.kept .watch-head .st::before, .wl.kept .wl-head .st::before { content: "✓ "; }
 .watch-item.failed .watch-head .st::before, .wl.failed .wl-head .st::before { content: "✗ "; }
 .wl.open .wl-head .st::before { content: "· "; }
+.watch-lab { font-size: 8.5px; letter-spacing: .14em; color: var(--ink-3); margin: 5px 0 1px; }
+.watch-item .watch-lab:first-of-type { margin-top: 2px; }
 .watch-what { font-size: 14.5px; line-height: 1.4; margin: 0 0 3px; color: var(--ink); }
 .watch-because { font-size: 13px; line-height: 1.4; color: var(--ink-3); margin: 0 0 4px; }
 .watch-note { font-size: 13px; line-height: 1.4; color: var(--ink-2); margin: 0 0 4px; }
@@ -708,14 +710,18 @@ body.scrolls { overflow: auto; }  /* the field page is fixed; the reading pages 
 :is(.ledger, .board) .wl { padding: 12px 0; border-top: 1px solid var(--ink-5); }
 :is(.ledger, .board) .wl-head { font-size: 10px; letter-spacing: .1em; color: var(--ink-3); margin: 0 0 4px; }
 :is(.ledger, .board) .wl-what { font-size: 17px; line-height: 1.4; margin: 0 0 4px; }
-:is(.ledger, .board) .wl-set { margin: 0 0 6px; font-size: 10px; letter-spacing: .06em; color: var(--ink-3); line-height: 1.5; }
+:is(.ledger, .board) .wl-row { display: grid; grid-template-columns: 128px 1fr; column-gap: 14px; padding: 5px 0; }
+:is(.ledger, .board) .wl-lab { font-size: 9px; letter-spacing: .14em; color: var(--ink-3); padding-top: 4px; line-height: 1.4; }
+:is(.ledger, .board) .wl-val > p:last-child, :is(.ledger, .board) .wl-val > a:last-child { margin-bottom: 0; }
+:is(.ledger, .board) .wl-from { margin: 0; font-size: 14px; line-height: 1.45; }
+:is(.ledger, .board) .wl-set { font-size: 10px; letter-spacing: .06em; color: var(--ink-3); white-space: nowrap; }
 :is(.ledger, .board) .wl-ref { font-family: var(--serif); font-size: 13.5px; letter-spacing: 0; color: var(--ink-2); text-decoration: none; }
 :is(.ledger, .board) .wl-ref:hover { color: var(--ink); text-decoration: underline; }
 :is(.ledger, .board) .wl-because { font-size: 14px; line-height: 1.45; color: var(--ink-3); margin: 0 0 6px; }
 :is(.ledger, .board) .wl-note { font-size: 14.5px; line-height: 1.45; color: var(--ink-2); margin: 0 0 6px; }
 :is(.ledger, .board) .wl-h { font-size: 14px; }
 :is(.ledger, .board) .note { margin-top: 12px; }
-@media (max-width: 760px) { .ledger { padding: 0 14px; } :is(.ledger, .board) .wl-head, :is(.ledger, .board) .wl-set { font-size: 11px; } :is(.ledger, .board) .wl-what { font-size: 17px; } :is(.ledger, .board) .wl-ref { font-size: 15px; } }
+@media (max-width: 760px) { .ledger { padding: 0 14px; } :is(.ledger, .board) .wl-head, :is(.ledger, .board) .wl-set { font-size: 11px; } :is(.ledger, .board) .wl-what { font-size: 17px; } :is(.ledger, .board) .wl-ref { font-size: 15px; } :is(.ledger, .board) .wl-row { grid-template-columns: 1fr; row-gap: 2px; padding: 6px 0; } :is(.ledger, .board) .wl-lab { font-size: 10px; padding-top: 0; } :is(.ledger, .board) .wl-set { white-space: normal; } .watch-lab { font-size: 10px; } }
 
 /* The Ahead page: the board of open expectations on the four weeks ahead, the paths of today's narratives, the record. */
 .ahead-page .board, .ahead-page .paths-page { max-width: 720px; margin: 0 auto; padding: 36px 20px 0; }

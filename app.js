@@ -914,12 +914,15 @@
       items.forEach((w, i) => {
         const li = create('li', 'watch-item ' + w.status);
         const head = create('p', 'watch-head mono');
-        const when = w.status === 'open' ? `by ${fmtDay(w.by)}` : w.resolved && w.resolved.how === 'expired' ? `not reported by ${fmtDay(w.by)}` : `on ${fmtDay(w.resolved ? w.resolved.asOf : w.by)}`;
+        const when = w.status === 'open' ? `due by ${fmtDay(w.by)}` : w.resolved && w.resolved.how === 'expired' ? `nothing reported by ${fmtDay(w.by)}` : `settled ${fmtDay(w.resolved ? w.resolved.asOf : w.by)}`;
         head.append(create('span', 'n', String(i + 1)), create('span', 'st', WATCH_WORD[w.status] || 'OPEN'), create('span', 'by', ` · ${when}`));
-        li.append(head, create('p', 'watch-what', w.what));
-        if (w.because) li.append(create('p', 'watch-because', w.because));
-        if (w.resolved && w.resolved.note) li.append(create('p', 'watch-note', w.resolved.note));
-        headlineLinks(w, 'watch-h').forEach(x => li.append(x));
+        li.append(head, create('p', 'watch-lab mono', 'EXPECTED'), create('p', 'watch-what', w.what));
+        if (w.because) li.append(create('p', 'watch-lab mono', 'WHY THE JOIN PREDICTS IT'), create('p', 'watch-because', w.because));
+        if (w.resolved && (w.resolved.note || (w.resolved.headlines || []).length)) {
+          li.append(create('p', 'watch-lab mono', w.resolved.how === 'expired' ? 'HOW IT SETTLED' : 'THE HEADLINE THAT SETTLED IT'));
+          if (w.resolved.note) li.append(create('p', 'watch-note', w.resolved.note));
+          headlineLinks(w, 'watch-h').forEach(x => li.append(x));
+        }
         ol.append(li);
       });
       inner.append(ol);
