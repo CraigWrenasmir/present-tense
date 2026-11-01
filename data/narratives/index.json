@@ -1,6 +1,61 @@
 {
  "editions": [
   {
+   "stamp": "20261101T010841",
+   "file": "data/narratives/20261101T010841.json",
+   "newsGeneratedAt": "2026-11-01T01:08:41Z",
+   "generatedAt": "2026-11-01T01:18:18Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-6",
+   "narratives": [
+    {
+     "id": "ai-gains-concentrated",
+     "kicker": "CAPITAL / COMPUTING / LABOUR",
+     "line": "Four years after ChatGPT, AI spending is so concentrated that one chip firm's staff gain years of pay as another's shares fall 29%.",
+     "events": 6,
+     "headlines": 10,
+     "countries": 5,
+     "continues": "ai-selloff-taiwan-state-buyers",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "war-fuel-price-who-pays",
+     "kicker": "WAR / REVENUE / ELECTIONS",
+     "line": "As talks to end the war with Iran stall, governments are judged on its fuel price and at least one now takes more of it in tax.",
+     "events": 5,
+     "headlines": 9,
+     "countries": 7,
+     "continues": "war-prices-reach-wage-talks",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "constitutions-and-courts-contested",
+     "kicker": "LAW / POWER / ELECTIONS",
+     "line": "A decade after Poland's court dispute began, constitutions and courts are where governments and their opponents fight.",
+     "events": 5,
+     "headlines": 8,
+     "countries": 6,
+     "continues": "",
+     "firmness": "tentative",
+     "watch": 1
+    },
+    {
+     "id": "gen-z-protests-met-by-police",
+     "kicker": "YOUTH / DISSENT / ORDER",
+     "line": "More than a year after Nepal's Gen Z protests, Europe's governments meet their own young protesters mainly with police numbers.",
+     "events": 6,
+     "headlines": 7,
+     "countries": 6,
+     "continues": "one-weekend-of-protest-bans-and-talks",
+     "firmness": "plausible",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261031T013540",
    "file": "data/narratives/20261031T013540.json",
    "newsGeneratedAt": "2026-10-31T01:35:40Z",

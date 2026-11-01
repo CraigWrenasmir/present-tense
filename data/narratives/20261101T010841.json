@@ -1,0 +1,1575 @@
+{
+  "schemaVersion": 4,
+  "generatedAt": "2026-11-01T01:18:18Z",
+  "newsGeneratedAt": "2026-11-01T01:08:41Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-6",
+  "previousNewsGeneratedAt": "2026-10-31T01:35:40Z",
+  "usage": {
+    "input": 34263,
+    "output": 55858,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-2e489d0403a8cc",
+      "title": "Intel stock plunges 29%. Analysts urge caution on buying the dip",
+      "titleEnglish": "Intel stock plunges 29%. Analysts urge caution on buying the dip",
+      "url": "https://www.cnbc.com/2026/10/31/intel-not-a-buy-after-drop.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-10-31T13:02:22Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-47a53ba3f30154",
+      "title": "Bank of America says buy these stocks ahead of earnings before it's too late",
+      "titleEnglish": "Bank of America says buy these stocks ahead of earnings before it's too late",
+      "url": "https://www.cnbc.com/2026/10/31/bank-of-america-stocks-to-buy-into-earnings.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-10-31T13:05:03Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-d37d669335938b",
+      "title": "AI泡沫爆了嗎？那斯達克大跌 跟2000年達康泡沫情景有何異同 | 聯合新聞網",
+      "titleEnglish": "Has the AI bubble burst? Nasdaq falls; how does it compare with the 2000 dot-com bubble? | UDN News",
+      "url": "https://udn.com/news/story/6811/9849322",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-10-31T13:23:25Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-355f45bc14a494",
+      "title": "AI造富神话：美光中国台湾700名员工喜提5年薪水！",
+      "titleEnglish": "AI wealth myth: 700 Micron Taiwan employees receive 5 years of salary!",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-10-31/doc-inixcsqn1482050.shtml",
+      "publisher": "finance.sina.com.cn",
+      "publisherDomain": "finance.sina.com.cn",
+      "publishedAt": "2026-10-31T13:18:08Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-26c3bcc9b59b9d",
+      "title": "透视A股三季报：AI算力领跑，材料量价齐升，地产和消费寻底｜看财报",
+      "titleEnglish": "Looking through A-share Q3 reports: AI computing power leads, materials prices and volumes rise, real estate and consumption bottom out | Read the Reports",
+      "url": "https://finance.sina.com.cn/cj/2026-10-31/doc-inixcsqk4707569.shtml",
+      "publisher": "finance.sina.com.cn",
+      "publisherDomain": "finance.sina.com.cn",
+      "publishedAt": "2026-10-31T13:21:19Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-45e9bfbabf34dc",
+      "title": "前10个月重点房企销售额降幅同比收窄",
+      "titleEnglish": "Sales decline of key real estate firms narrows year-on-year in first 10 months",
+      "url": "https://www.163.com/dy/article/LAJM2TL0053469RG.html",
+      "publisher": "163.com",
+      "publisherDomain": "163.com",
+      "publishedAt": "2026-10-31T13:17:02Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-f969e97402ddc8",
+      "title": "江苏多地物业引进机器人保安：可顶替5名真人保安，每月仅耗电200度！",
+      "titleEnglish": "Multiple Jiangsu properties introduce robot security guards: can replace 5 human guards, consuming only 200 kWh per month!",
+      "url": "https://www.163.com/dy/article/LAJ42O690541MRXQ.html",
+      "publisher": "163.com",
+      "publisherDomain": "163.com",
+      "publishedAt": "2026-10-31T16:05:11Z",
+      "seenAt": "2026-10-31T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-9a4d4410db4223",
+      "title": "Боевые роботы берут на себя опасные задачи, но военные по-прежнему рискуют, – BI",
+      "titleEnglish": "Combat robots take on dangerous tasks, but soldiers still face risks, – BI",
+      "url": "https://www.unian.net/weapons/raboty-na-fronte-kak-ukraina-razvivaet-avtonomnye-sistemy-i-kakie-riski-ostayutsya-13545819.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-8920b0b93a2c25",
+      "title": "AI, automation offer opportunities for young engineers: BrahMos chief",
+      "titleEnglish": "AI, automation offer opportunities for young engineers: BrahMos chief",
+      "url": "https://www.thehindu.com/news/national/karnataka/ai-automation-offer-opportunities-for-young-engineers-brahmos-chief/article71649487.ece",
+      "publisher": "The Hindu",
+      "publisherDomain": "thehindu.com",
+      "publishedAt": "2026-10-31T13:22:18Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-2e7fee0996164e",
+      "title": "刘文飞：怎么在AI面前捍卫人，是人道主义的新内容",
+      "titleEnglish": "Liu Wenfei: How to defend humanity in the face of AI is new content of humanism",
+      "url": "https://www.163.com/dy/article/LAJM8O8J05129QAF.html",
+      "publisher": "163.com",
+      "publisherDomain": "163.com",
+      "publishedAt": "2026-10-31T13:20:13Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-b93d5512f6905d",
+      "title": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
+      "titleEnglish": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
+      "url": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-10-31T12:49:58Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-60c42fec84d864",
+      "title": "US campaign for control of Congress enters final weekend",
+      "titleEnglish": "US campaign for control of Congress enters final weekend",
+      "url": "https://www.channelnewsasia.com/world/us-midterm-election-campaign-congress-final-weekend-6509386",
+      "publisher": "CNA",
+      "publisherDomain": "channelnewsasia.com",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-777619c46d6d4b",
+      "title": "Benzin ve motorine ÖTV zammı",
+      "titleEnglish": "Special consumption tax (ÖTV) hike on petrol and diesel",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/genel-haberler/benzin-ve-motorine-otv-zammi_ID102280025/",
+      "publisher": "bigpara.hurriyet.com.tr",
+      "publisherDomain": "bigpara.hurriyet.com.tr",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-b9d81cb3d97b71",
+      "title": "ÖTV Zammı Haberleri - Son Dakika ÖTV Zammı Hakkında Güncel Haber ve Bilgiler",
+      "titleEnglish": "ÖTV Hike News - Latest ÖTV Hike News and Information",
+      "url": "https://www.hurriyet.com.tr/haberleri/otv-zammi",
+      "publisher": "HÜRRİYET - ARAMA",
+      "publisherDomain": "hurriyet.com.tr",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-50eb4b932d16c3",
+      "title": "محادثات ماراثونية في طهران.. ومطلبان متعارضان يعرقلان الاتفاق",
+      "titleEnglish": "Marathon talks in Tehran... two conflicting demands hold up agreement",
+      "url": "https://www.khaberni.com/news/862600-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D9%85%D8%A7%D8%B1%D8%A7%D8%AB%D9%88%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D9%88%D9%85%D8%B7%D9%84%D8%A8%D8%A7%D9%86-%D9%85%D8%AA%D8%B9%D8%A7%D8%B1%D8%B6%D8%A7%D9%86-%D9%8A%D8%B9%D8%B1%D9%82%D9%84%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D8%AA%D9%81%D8%A7%D9%82",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-10-31T16:32:00Z",
+      "seenAt": "2026-10-31T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-30ecba05360e22",
+      "title": "【速報】米イラン戦闘終結巡り、仲介国で協議と報道",
+      "titleEnglish": "[Breaking] Reports say talks in mediator countries on ending US-Iran fighting",
+      "url": "https://www.47news.jp/15167340.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-fc8224ab9e8d27",
+      "title": "Lãnh tụ Tối cao Iran ra chỉ thị cứng rắn cho quân đội",
+      "titleEnglish": "Iran's Supreme Leader issues hardline directive to the military",
+      "url": "https://dantri.com.vn/the-gioi/lanh-tu-toi-cao-iran-ra-chi-thi-cung-ran-cho-quan-doi-20261031194135744.htm",
+      "publisher": "Báo điện tử Dân trí",
+      "publisherDomain": "dantri.com.vn",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Vietnam",
+      "sourceCountryCode": "VN",
+      "sourceRegion": "Asia",
+      "sourceLat": 16,
+      "sourceLon": 107,
+      "language": "vi"
+    },
+    {
+      "id": "n-5d8fedb0370db6",
+      "title": "Pemimpin Tertinggi Iran Perintahkan Militer Siaga Tempur",
+      "titleEnglish": "Iran's Supreme Leader Orders Military to Combat Readiness",
+      "url": "https://www.liputan6.com/global/read/8325626/pemimpin-tertinggi-iran-perintahkan-militer-siaga-tempur",
+      "publisher": "liputan6.com",
+      "publisherDomain": "liputan6.com",
+      "publishedAt": "2026-10-31T12:00:46Z",
+      "seenAt": "2026-10-31T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-447ff3c6e22f8a",
+      "title": "%84 نسبة ارتفاع حجم بضائع الترانزيت برا خلال الربع الثالث من 2026",
+      "titleEnglish": "84% rise in transit cargo volume by road during the third quarter of 2026",
+      "url": "https://www.khaberni.com/news/862619-84-%D9%86%D8%B3%D8%A8%D8%A9-%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%AD%D8%AC%D9%85-%D8%A8%D8%B6%D8%A7%D8%A6%D8%B9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D9%86%D8%B2%D9%8A%D8%AA-%D8%A8%D8%B1%D8%A7-%D8%AE%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D9%85%D9%86-2026",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-10-31T16:32:00Z",
+      "seenAt": "2026-10-31T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-1c55e562c3f5f1",
+      "title": "El presidente polaco toma partido por la oposición a Tusk en la pugna por el control del Tribunal Constitucional que deja ya cuatro detenidos",
+      "titleEnglish": "Polish president sides with opposition to Tusk in struggle for control of Constitutional Tribunal, which has already left four detained",
+      "url": "https://www.elmundo.es/internacional/2026/10/31/6ae5d86ee4d4d8db798b457e.html",
+      "publisher": "El Mundo",
+      "publisherDomain": "elmundo.es",
+      "publishedAt": "2026-10-31T12:13:20Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-9a57780fdaefb2",
+      "title": "Polonia: Scandal între preşedinte şi premier privind Curtea Constituțională",
+      "titleEnglish": "Poland: Scandal between president and prime minister over the Constitutional Court",
+      "url": "https://www.dw.com/ro/polonia-scandal-%C3%AEntre-pre%C5%9Fedinte-%C5%9Fi-premier-privind-curtea-constitu%C8%9Bional%C4%83/a-79815252",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "ro"
+    },
+    {
+      "id": "n-2801c0f6132c53",
+      "title": "Gorąco przed Trybunałem. Poseł: czegoś takiego jeszcze nigdy nie było",
+      "titleEnglish": "Tensions in front of the Tribunal. Deputy: nothing like this has ever happened before",
+      "url": "https://wiadomosci.onet.pl/kraj/chaos-przed-trybunalem-posel-zdradza-do-trzeciej-w-nocy-odbieralem-telefony/w7vqb8n",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-10-31T16:32:00Z",
+      "seenAt": "2026-10-31T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-7d5ccf60b89110",
+      "title": "هل تحتاج مصر إلى تعديل الدستور الحالي؟ | مصراوي",
+      "titleEnglish": "Does Egypt need to amend the current constitution? | Masrawy",
+      "url": "https://www.masrawy.com/news/news_egypt/details/2026/10/31/3071392/%D9%87%D9%84-%D8%AA%D8%AD%D8%AA%D8%A7%D8%AC-%D9%85%D8%B5%D8%B1-%D8%A5%D9%84%D9%89-%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D8%A7%D9%84%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%A3%D9%88-%D9%88%D8%B6%D8%B9-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-4-%D8%AE%D8%A8%D8%B1%D8%A7%D8%A1-%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D9%8A%D9%86-%D9%8A%D8%AC%D9%8A%D8%A8%D9%88%D9%86",
+      "publisher": "مصراوي.كوم",
+      "publisherDomain": "masrawy.com",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-455a22320d5c59",
+      "title": "كيف تغير الدستور المصري من 1882 حتى 2019؟ | مصراوي",
+      "titleEnglish": "How has Egypt's constitution changed from 1882 to 2019? | Masrawy",
+      "url": "https://www.masrawy.com/news/news_egypt/details/2026/10/31/3071397/%D8%A7%D9%84%D8%AF%D8%B3%D8%A7%D8%AA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1-%D9%88%D8%A7%D9%84%D8%A5%D9%84%D8%BA%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%AA%D8%B9%D8%B7%D9%8A%D9%84-19-%D9%85%D8%AD%D8%B7%D8%A9-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A%D8%A9-%D9%85%D9%87%D9%85%D8%A9",
+      "publisher": "مصراوي.كوم",
+      "publisherDomain": "masrawy.com",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-ec7d9a917cf408",
+      "title": "Madeira não deve esperar pela revisão constitucional",
+      "titleEnglish": "Madeira should not wait for the constitutional revision",
+      "url": "https://sapo.pt/artigo/madeira-nao-deve-esperar-pela-revisao-constitucional-6ae5e91cf8020b0595d872e5",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-10-31T13:09:21Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-52d86c2a4e8539",
+      "title": "मल्लिकार्जुन खरगे पर लखीसराय कोर्ट में दर्ज हुआ मुकदमा, PM मोदी पर आपत्तिजनक टिप्पणी मामला",
+      "titleEnglish": "Case registered in Lakhisarai court against Mallikarjun Kharge over offensive remarks on PM Modi",
+      "url": "https://navbharattimes.indiatimes.com/state/bihar/lakhisarai/case-filed-against-mallikarjun-kharge-in-lakhisarai-court-over-objectionable-remarks-about-pm-modi/articleshow/135406304.cms",
+      "publisher": "Navbharat Times",
+      "publisherDomain": "navbharattimes.indiatimes.com",
+      "publishedAt": "2026-10-31T16:32:00Z",
+      "seenAt": "2026-10-31T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "hi"
+    },
+    {
+      "id": "n-2b5b2c4cda0726",
+      "title": "रामपुर: आजम खां और बेटे अब्दुल्ला की रिहाई से पहले जेल पहुंची ईडी की टीम, समर्थकों में हलचल, भारी फोर्स तैनात",
+      "titleEnglish": "Rampur: ED team reaches jail before release of Azam Khan and son Abdullah, supporters stirred, heavy force deployed",
+      "url": "https://www.amarujala.com/uttar-pradesh/rampur/crime/rampur-ed-team-reaches-jail-ahead-of-azam-khan-and-abdullah-release-heavy-police-force-deployed-2026-10-31",
+      "publisher": "Amar Ujala",
+      "publisherDomain": "amarujala.com",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "hi"
+    },
+    {
+      "id": "n-ddac0542232e90",
+      "title": "Europe protests: France deploys 70,000 security personnel for third weekend of rallies",
+      "titleEnglish": "Europe protests: France deploys 70,000 security personnel for third weekend of rallies",
+      "url": "https://www.channelnewsasia.com/watch/europe-protests-france-deploys-70000-security-personnel-third-weekend-rallies-6509531",
+      "publisher": "CNA",
+      "publisherDomain": "channelnewsasia.com",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-73133f7c84e22c",
+      "title": "Manifestation du 31 octobre à Toulouse : quelles sont les stations de métro, quelles lignes de bus sont déviées... ce qu'il faut savoir sur les perturbations dans les transports en commun",
+      "titleEnglish": "Toulouse demonstration on 31 October: which metro stations and bus lines are diverted... what to know about public transport disruptions",
+      "url": "https://www.ladepeche.fr/2026/10/31/manifestation-du-31-octobre-a-toulouse-quelles-sont-les-stations-de-metro-quelles-lignes-de-bus-sont-deviees-ce-quil-faut-savoir-sur-les-perturbations-13629486.php",
+      "publisher": "ladepeche.fr",
+      "publisherDomain": "ladepeche.fr",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-7bf86e4e4bdd3b",
+      "title": "Fusils, boucliers, grenades lacrymogènes et LBD… Une histoire des outils du maintien de l’ordre",
+      "titleEnglish": "Rifles, shields, tear gas grenades and LBDs… A history of law enforcement tools",
+      "url": "https://www.franceinfo.fr/replay-radio/l-info-de-l-histoire/fusils-boucliers-grenades-lacrymogenes-et-lbd-une-histoire-des-outils-du-maintien-de-l-ordre_8241097.html",
+      "publisher": "franceinfo",
+      "publisherDomain": "franceinfo.fr",
+      "publishedAt": "2026-10-31T16:00:02Z",
+      "seenAt": "2026-10-31T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-31b660f7d8d2ac",
+      "title": "Maandamano ya Gen Z Ujerumani: Je, vurugu kama za Ufaransa zinaweza kujirudia?",
+      "titleEnglish": "Gen Z protest in Germany: could violence like in France happen again?",
+      "url": "https://www.dw.com/sw/maandamano-ya-gen-z-siku-ya-halloween-je-vurugu-kama-za-ufaransa-zinaweza-kutokea/a-79815693",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "sw"
+    },
+    {
+      "id": "n-793736e7c25ada",
+      "title": "पोलैंड: सांविधानिक न्यायाधिकरण के अध्यक्ष को निलंबित किए जाने पर भड़के लोग, हिरासत में तीन प्रदर्शनकारी",
+      "titleEnglish": "Poland: People anger over suspension of Constitutional Tribunal president, three protesters in custody",
+      "url": "https://www.amarujala.com/world/poland-constitutional-tribunal-president-suspended-police-detain-protesters-during-overnight-rally-nawrocki-2026-10-31",
+      "publisher": "Amar Ujala",
+      "publisherDomain": "amarujala.com",
+      "publishedAt": "2026-10-31T13:32:00Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "hi"
+    },
+    {
+      "id": "n-0cb0ae100d1350",
+      "title": "Fenprof apresenta queixa à Provedora de Justiça após “desrespeito” do Governo | Jornal Económico",
+      "titleEnglish": "Fenprof files complaint with Ombudsman after Government \"disrespect\" | Jornal Económico",
+      "url": "https://jornaleconomico.sapo.pt/noticias/fenprof-apresenta-queixa-a-provedora-de-justica-apos-desrespeito-do-governo/",
+      "publisher": "Jornal Económico",
+      "publisherDomain": "jornaleconomico.sapo.pt",
+      "publishedAt": "2026-10-31T13:02:28Z",
+      "seenAt": "2026-10-31T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-50aa63ce3f297b",
+      "title": "20 منظمة بتايلند تتظاهر ضد الوجود الإسرائيلي في البلاد",
+      "titleEnglish": "20 organisations in Thailand protest against the Israeli presence in the country",
+      "url": "https://www.khaberni.com/news/862629-20-%D9%85%D9%86%D8%B8%D9%85%D8%A9-%D8%A8%D8%AA%D8%A7%D9%8A%D9%84%D9%86%D8%AF-%D8%AA%D8%AA%D8%B8%D8%A7%D9%87%D8%B1-%D8%B6%D8%AF-%D8%A7%D9%84%D9%88%D8%AC%D9%88%D8%AF-%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%AF",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-10-31T16:32:00Z",
+      "seenAt": "2026-10-31T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    }
+  ],
+  "settled": [],
+  "readings": [
+    {
+      "id": "ai-gains-concentrated",
+      "line": "Four years after ChatGPT, AI spending is so concentrated that one chip firm's staff gain years of pay as another's shares fall 29%.",
+      "kicker": "CAPITAL / COMPUTING / LABOUR",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A memory-chip maker in South Korea or Taiwan reports record quarterly profit or staff payouts tied to AI demand.",
+          "by": "2026-11-28",
+          "because": "If AI spending goes to a few chip and memory makers, their results should stay strong even in weeks when US chip shares fall.",
+          "id": "20261101T010841-ai-gains-concentrated-1"
+        },
+        {
+          "what": "A Taiwan or South Korea share index falls more than 3% in a day on selling of AI-related shares.",
+          "by": "2026-11-21",
+          "because": "If the spending is held by a few suppliers, a fall in US AI shares should pass directly to the Asian markets where those suppliers are listed.",
+          "id": "20261101T010841-ai-gains-concentrated-2"
+        }
+      ],
+      "continues": "ai-selloff-taiwan-state-buyers",
+      "change": "The previous edition read the fall in US tech shares through buying by Taiwan's state funds and central bank. No state buying is reported today. The fall is now named, Intel down 29%, and the collection also shows where AI money is still arriving: Micron's staff in Taiwan and Chinese companies whose third-quarter results were led by computing power.",
+      "claim": "Intel's shares fell 29% and a Taiwanese paper asked whether the AI bubble had burst as the Nasdaq fell, while a Chinese finance site reported 700 Micron employees in Taiwan receiving five years' salary and Chinese third-quarter results were led by AI computing. In the same collection, Jiangsu housing estates install robot guards said to replace five people, and Ukrainian units give dangerous tasks to combat robots. The common cause is AI spending, and these reports show how narrowly it lands: on a few makers of chips and computing power, whose staff and shareholders gain, and away from firms that missed the orders. The machines it pays for are sold as cheaper or safer substitutes for guards and soldiers.",
+      "events": [
+        {
+          "label": "Intel falls 29%, banks urge buying",
+          "articleIds": [
+            "n-2e489d0403a8cc",
+            "n-47a53ba3f30154"
+          ]
+        },
+        {
+          "label": "Taiwan asks if AI bubble burst",
+          "articleIds": [
+            "n-d37d669335938b"
+          ]
+        },
+        {
+          "label": "Micron Taiwan staff paid five years' salary",
+          "articleIds": [
+            "n-355f45bc14a494"
+          ]
+        },
+        {
+          "label": "Chinese results led by AI computing",
+          "articleIds": [
+            "n-26c3bcc9b59b9d",
+            "n-45e9bfbabf34dc"
+          ]
+        },
+        {
+          "label": "Robots sold as guards and soldiers",
+          "articleIds": [
+            "n-f969e97402ddc8",
+            "n-9a4d4410db4223"
+          ]
+        },
+        {
+          "label": "AI as career and moral question",
+          "articleIds": [
+            "n-8920b0b93a2c25",
+            "n-2e7fee0996164e"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "a-o1",
+          "kind": "observation",
+          "label": "Falling chip shares",
+          "fragments": [
+            {
+              "id": "a-o1-f1",
+              "label": "Intel's 29% fall",
+              "text": "CNBC in the United States reports that Intel's stock plunged 29%, with analysts urging caution about buying the dip. On the same day CNBC carries Bank of America's advice to buy a list of stocks before their earnings. The Intel headline gives no reason for the fall.",
+              "articleIds": [
+                "n-2e489d0403a8cc",
+                "n-47a53ba3f30154"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-o1-f2",
+              "label": "A bubble question in Taiwan",
+              "text": "UDN in Taiwan asks whether the AI bubble has burst as the Nasdaq falls, and compares the moment with the dot-com bubble of 2000. The question is asked in the country that makes most of the chips the AI boom runs on.",
+              "articleIds": [
+                "n-d37d669335938b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "dotcom-2000"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a-o2",
+          "kind": "observation",
+          "label": "Where the money is arriving",
+          "fragments": [
+            {
+              "id": "a-o2-f1",
+              "label": "Micron's staff in Taiwan",
+              "text": "Sina Finance in China reports that 700 Micron employees in Taiwan have received the equivalent of five years' salary, under the headline 'AI wealth myth'. The headline does not say whether the money is a bonus or shares.",
+              "articleIds": [
+                "n-355f45bc14a494"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-o2-f2",
+              "label": "Chinese third-quarter results",
+              "text": "A Sina survey of A-share third-quarter reports finds AI computing power leading, materials prices and volumes rising, and real estate and consumption at the bottom. 163.com separately reports that the fall in sales at leading property developers narrowed in the first ten months.",
+              "articleIds": [
+                "n-26c3bcc9b59b9d",
+                "n-45e9bfbabf34dc"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-o2-f3",
+              "label": "Machines for guard posts and the front",
+              "text": "163.com reports that several Jiangsu housing estates have introduced robot security guards said to replace five human guards while using 200 kWh a month. UNIAN in Ukraine, citing Business Insider, reports that combat robots take on dangerous tasks but that soldiers still face risks.",
+              "articleIds": [
+                "n-f969e97402ddc8",
+                "n-9a4d4410db4223"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-i1",
+          "kind": "interpretation",
+          "label": "How narrowly AI spending lands",
+          "fragments": [
+            {
+              "id": "a-i1-f1",
+              "label": "A few firms gain",
+              "text": "Money spent on AI goes first to a few makers of chips, memory and computing capacity, and these headlines show that narrowness from both sides. Micron, a memory maker, pays its Taiwanese staff years of salary; Intel, which did not win the AI orders, loses more than a quarter of its market value; Chinese computing firms lead their market's results while property waits. A fall in US indices is read in Taiwan as a question about a bubble because so much of Taiwan's output depends on the same spending.",
+              "articleIds": [
+                "n-355f45bc14a494",
+                "n-2e489d0403a8cc",
+                "n-26c3bcc9b59b9d",
+                "n-d37d669335938b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-i1-f2",
+              "label": "What the spending buys",
+              "text": "The machines this spending pays for are sold on cost and on risk. The Jiangsu report prices a robot against five guards' wages, and the Ukrainian report weighs robots against soldiers' lives. Two answers to that pricing appear in the same collection: in The Hindu the head of BrahMos tells young engineers that AI and automation are an opportunity, and on 163.com the scholar Liu Wenfei asks how to defend humanity in the face of AI.",
+              "articleIds": [
+                "n-f969e97402ddc8",
+                "n-9a4d4410db4223",
+                "n-8920b0b93a2c25",
+                "n-2e7fee0996164e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-b1",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "a-b1-f1",
+              "label": "Separate stories",
+              "text": "Intel's fall may have nothing to do with the concentration of AI spending: the headline gives no reason, and a fall of 29% usually follows a company's own results or forecast. The Micron payout is reported by a mainland site as a 'myth' about Taiwan, a framing with its own purpose. The Jiangsu robot is a property-management device and the Ukrainian robots are a wartime necessity; neither is bought with the investment that moves the Nasdaq. What these events do not share is a market: one is a share price, one a payroll, one a housing estate and one a front line.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-b1-f2",
+              "label": "Broadening, not narrowing",
+              "text": "The Chinese results can be read the other way. If AI computing leads earnings in Shanghai and Shenzhen while US chip shares fall, the spending may be spreading to more firms and more countries rather than concentrating on a few.",
+              "articleIds": [
+                "n-26c3bcc9b59b9d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "COMPUTING / SUBSIDY / MEMORY",
+          "text": "ChatGPT reached a hundred million users within two months of its launch on 30 November 2022, and the money followed the hardware rather than the software. Training and running large models needs graphics processors and high-bandwidth memory, so the gains went to a short list of firms: Nvidia, TSMC and the memory makers SK Hynix, Samsung and Micron, which makes much of its memory in Taiwan. In August 2022 the US CHIPS and Science Act set aside about $52bn to bring chipmaking home, with Intel as its largest intended beneficiary, and in 2025 Washington converted grants into a stake of roughly a tenth of the company. That is the background to the CNBC report of a 29% fall: the state's chosen national champion was not the firm the AI orders went to. The Micron payout read about in China and the A-share results led by computing power show the same narrowing from the other side.",
+          "trajectoryIds": [
+            "chatgpt-2022",
+            "extinction-statement-2023"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "FOUNDRIES / PHONES / PROPERTY",
+          "text": "After Lehman Brothers failed in September 2008, near-zero interest rates in the US and Europe made long and expensive bets cheap to fund, and the smartphone gave chipmakers their largest market. Apple's first iPhone appeared in 2007; by the mid-2010s its processors and most others were made by TSMC in Taiwan, while Intel, which designed and made its own chips, fell behind on its 10-nanometre process from about 2015. Concentration in manufacturing came before concentration in AI. China took a different route out of 2008: a stimulus of four trillion yuan, much of it spent through local governments on construction, built the property boom whose end is still visible in the 163.com report that developers' sales fell less steeply this year. The Sina survey, with AI computing up and property at the bottom, records Beijing's attempt since then to move growth from flats to chips. Adam Tooze's Crashed describes how the cheap money of those years spread around the world.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "LISTINGS / BUBBLES / TAIWAN",
+          "text": "The comparison the UDN headline reaches for is the one this period supplies. Netscape's listing in August 1995 priced a technology before it earned money, and the Nasdaq composite rose to just over 5,000 in March 2000 before losing about three quarters of its value by October 2002. Intel was then the centre of the industry, its 'Intel Inside' campaign running from 1991. The same years made Taiwan the place where chips are made: TSMC, founded in 1987 by Morris Chang with state backing, offered to manufacture other companies' designs, and Taiwan joined the WTO in 2002, weeks after China. The lesson most investors drew from 2000 was that the infrastructure built in a bubble survives it, while many of the companies that built it do not. Reading Intel's fall and Micron's payout together is a way of asking which side of that line each firm stands on.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE RESEARCH / TRANSISTORS / WAR",
+          "text": "The transistor was built at Bell Labs in 1947, and for three decades the main customer for what followed was the American state: missiles, the space programme and ARPA, the research agency founded in 1958 after Sputnik. Artificial intelligence was named at a Dartmouth workshop in the summer of 1956, paid for by the Rockefeller Foundation. Intel was founded in 1968 by Robert Noyce and Gordon Moore, in a valley that defence contracts had built. Taiwan's Industrial Technology Research Institute, set up by the government in 1973, sent engineers to learn chipmaking from RCA. This edition's headlines show both halves of that inheritance. The builders of AI are now companies whose employees can receive years of salary at once, but the machines still go to war: the UNIAN report on Ukrainian combat robots taking on dangerous tasks is the military use with which the field began.",
+          "trajectoryIds": [
+            "dartmouth-1956",
+            "sputnik-1957"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-2e489d0403a8cc",
+        "n-47a53ba3f30154",
+        "n-d37d669335938b",
+        "n-355f45bc14a494",
+        "n-26c3bcc9b59b9d",
+        "n-45e9bfbabf34dc",
+        "n-f969e97402ddc8",
+        "n-9a4d4410db4223",
+        "n-8920b0b93a2c25",
+        "n-2e7fee0996164e"
+      ]
+    },
+    {
+      "id": "war-fuel-price-who-pays",
+      "line": "As talks to end the war with Iran stall, governments are judged on its fuel price and at least one now takes more of it in tax.",
+      "kicker": "WAR / REVENUE / ELECTIONS",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A second government raises a fuel tax or ends a fuel subsidy, citing its budget, while oil prices stay high.",
+          "by": "2026-11-28",
+          "because": "If the war's price has become revenue as well as cost, Turkey should not be the only treasury that stops absorbing it.",
+          "id": "20261101T010841-war-fuel-price-who-pays-1"
+        },
+        {
+          "what": "Reports on the US midterm results or exit polls name fuel or energy prices as a reason for the outcome.",
+          "by": "2026-11-08",
+          "because": "If the war's fuel price is being put to voters, it should appear in explanations of the result and not only in the campaign.",
+          "id": "20261101T010841-war-fuel-price-who-pays-2"
+        }
+      ],
+      "continues": "war-prices-reach-wage-talks",
+      "change": "Yesterday governments were cutting fuel and sales taxes and unions were bargaining over prices. Today Turkey goes the other way and raises its special consumption tax on petrol and diesel, and the US price rise is reported against a broken campaign promise days before the midterms. The talks on ending the US-Iran fighting are reported stuck on two conflicting demands.",
+      "claim": "CNBC reports that US petrol, diesel and jet fuel prices have risen despite Donald Trump's promise to cut energy costs, days before the midterm elections; Turkey raises its special consumption tax on petrol and diesel; talks in Tehran and in mediator countries on ending the US-Iran fighting are held up by two conflicting demands while Iran's Supreme Leader orders the military to readiness; and Jordan reports road transit cargo up 84% in the third quarter. The war's high fuel price is now being divided between voters, drivers and treasuries, and each government decides who carries it. Turkey's choice, to take more of the price as tax, is the reverse of the cuts reported the day before, and shows that for a state that needs money the price is also revenue.",
+      "events": [
+        {
+          "label": "US fuel prices rise before midterms",
+          "articleIds": [
+            "n-b93d5512f6905d",
+            "n-60c42fec84d864"
+          ]
+        },
+        {
+          "label": "Turkey raises tax on petrol and diesel",
+          "articleIds": [
+            "n-777619c46d6d4b",
+            "n-b9d81cb3d97b71"
+          ]
+        },
+        {
+          "label": "US-Iran talks stall over demands",
+          "articleIds": [
+            "n-50eb4b932d16c3",
+            "n-30ecba05360e22"
+          ]
+        },
+        {
+          "label": "Iran orders military to readiness",
+          "articleIds": [
+            "n-fc8224ab9e8d27",
+            "n-5d8fedb0370db6"
+          ]
+        },
+        {
+          "label": "Jordan's road transit cargo up 84%",
+          "articleIds": [
+            "n-447ff3c6e22f8a"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "b-o1",
+          "kind": "observation",
+          "label": "Fuel prices in two countries",
+          "fragments": [
+            {
+              "id": "b-o1-f1",
+              "label": "A US promise and US prices",
+              "text": "CNBC reports that Donald Trump promised to slash energy costs but that petrol, diesel and jet fuel prices have all risen instead. CNA in Singapore reports that the campaign for control of Congress has entered its final weekend, so the price rise reaches voters just before the midterm elections.",
+              "articleIds": [
+                "n-b93d5512f6905d",
+                "n-60c42fec84d864"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-o1-f2",
+              "label": "A Turkish tax rise",
+              "text": "Bigpara and Hürriyet in Turkey report a rise in the special consumption tax, ÖTV, on petrol and diesel. Neither headline mentions the war or the oil price; both treat the rise as a matter for drivers' budgets.",
+              "articleIds": [
+                "n-777619c46d6d4b",
+                "n-b9d81cb3d97b71"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-o2",
+          "kind": "observation",
+          "label": "Talks, readiness and a land route",
+          "fragments": [
+            {
+              "id": "b-o2-f1",
+              "label": "Talks held up",
+              "text": "Khaberni in Jordan reports marathon talks in Tehran held up by two conflicting demands, and 47NEWS in Japan reports talks in mediator countries on ending the US-Iran fighting. Neither headline says what the demands are.",
+              "articleIds": [
+                "n-50eb4b932d16c3",
+                "n-30ecba05360e22"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-o2-f2",
+              "label": "An order to the army",
+              "text": "Dân trí in Vietnam and Liputan6 in Indonesia report that Iran's Supreme Leader has issued a hardline directive ordering the military to combat readiness, on the same day as the talks are reported.",
+              "articleIds": [
+                "n-fc8224ab9e8d27",
+                "n-5d8fedb0370db6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-o2-f3",
+              "label": "Goods by road through Jordan",
+              "text": "Khaberni also reports an 84% rise in transit cargo moved by road through Jordan in the third quarter of 2026. The headline gives no reason. One reading is that goods are moving by land because shipping in the Gulf is disrupted.",
+              "articleIds": [
+                "n-447ff3c6e22f8a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-i1",
+          "kind": "interpretation",
+          "label": "Who carries the price",
+          "fragments": [
+            {
+              "id": "b-i1-f1",
+              "label": "Voters, drivers and treasuries",
+              "text": "What joins these reports is the question of who pays for a war-driven fuel price while the war goes on. In the US it is put to voters as a broken promise days before an election. In Turkey the state takes a larger share of each litre as tax, the opposite of the fuel and sales tax cuts reported in the previous edition. The stalled talks and the readiness order mean no government can plan on the price falling soon.",
+              "articleIds": [
+                "n-b93d5512f6905d",
+                "n-777619c46d6d4b",
+                "n-50eb4b932d16c3",
+                "n-5d8fedb0370db6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-i1-f2",
+              "label": "Revenue as well as cost",
+              "text": "A high fuel price is a cost to households and a source of money to governments that tax fuel. Turkey's decision suggests that after several years of energy support some treasuries can no longer give that money up. On Bluesky, one of the trending subjects was the oil industry's profits from the Iran war, a third party to the same division.",
+              "articleIds": [
+                "n-777619c46d6d4b",
+                "n-b9d81cb3d97b71"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-b1",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "b-b1-f1",
+              "label": "Different reasons, different deciders",
+              "text": "Turkey raises fuel taxes regularly to keep pace with inflation and its budget, and this rise may be routine rather than a response to the war. US pump prices also depend on refinery capacity and the season. Jordan's road cargo may be rising because of trade with Syria or Iraq rather than any change at sea. What the events do not share is a decision-maker: an American price set in a market, a Turkish tax set by a finance ministry, a negotiation in Tehran and a freight count in Amman.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "ENERGY SHOCK / SUBSIDY / BORROWING",
+          "text": "Russia's invasion of Ukraine in February 2022 pushed Brent crude above $120 a barrel by June that year, and most governments answered with subsidies and tax cuts: Germany's three-month Tankrabatt, a 5p cut in British fuel duty in March 2022, and the release of 180 million barrels from the US Strategic Petroleum Reserve. Those measures were meant to be temporary and were paid for by borrowing. Turkey's inflation passed 80% in late 2022, and the government subsidised household gas and electricity before the May 2023 elections. The twelve-day Israel-Iran war of June 2025, ended by American strikes on Fordow, showed how quickly the region could close again; by these headlines it has, and the fighting between the US and Iran is now the subject of stalled talks. The difference from 2022 is fiscal: budgets that paid once are less able to pay again, which is the context for the ÖTV rise that bigpara and Hürriyet report.",
+          "trajectoryIds": [
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SHALE / SANCTIONS / LIRA",
+          "text": "Oil reached $147 in July 2008 and fell below $40 within six months as the financial crisis spread. In the years that followed, horizontal drilling and fracking in Texas and North Dakota made the United States the world's largest crude producer by 2018, and American politicians began to speak of energy independence as if it meant independence from world prices. It did not: US petrol is still priced off a world market, which is why a war in the Gulf appears in the CNBC report as a broken campaign promise. Iran's oil was taken off that market by sanctions, returned to it by the Vienna agreement of July 2015, and taken off again after the US withdrawal in May 2018. Turkey's route ran through its currency: the lira's falls of 2018 and 2021 raised the price of every imported barrel and made fuel taxes one of the Treasury's most reliable sources of revenue.",
+          "trajectoryIds": [
+            "lehman-2008",
+            "jcpoa-2015"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "GULF WARS / LAND ROUTES / FUEL TAX",
+          "text": "Iraq's invasion of Kuwait in August 1990 roughly doubled the oil price within three months and put Jordan, which then depended on trade with Iraq through the port of Aqaba and the desert road to Baghdad, between its main customer and the coalition. After the 2003 invasion the road east became a frontier again. Jordan's economy has since relied in part on carrying other countries' goods by land when nearby sea routes or borders close, which is the setting for the Khaberni report of road transit cargo up 84% in the third quarter. Turkey's special consumption tax was created in 2002 by folding several levies into one, and from then on fuel became one of the state's largest single sources of indirect tax. Raising it during a price rise uses a tool that has been in place for almost a quarter of a century, and that a finance ministry short of money reaches for first.",
+          "trajectoryIds": [
+            "iraq-2003"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OIL ORDER / EMBARGO / REVOLUTION",
+          "text": "The postwar order put the Gulf at the centre of the world's fuel supply. Roosevelt's meeting with Ibn Saud in February 1945 linked American protection to Saudi oil, and cheap Gulf crude underpinned the European and Japanese recoveries of the 1950s and 1960s. The Arab embargo of October 1973 quadrupled the price within months and taught governments that a regional war becomes a domestic price; the US brought in a national 55-mile-an-hour speed limit in 1974. Turkey was hit especially hard, and its oil import bill helped bring on the balance-of-payments crisis of 1977 to 1980. The revolution in Tehran in February 1979 made Iran the adversary in American policy that it remains in these headlines, where talks are reported in mediator countries and the Supreme Leader orders the army to readiness. Daniel Yergin's The Prize tells this history as one in which states repeatedly decide who pays for a fuel they cannot do without.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "oil-embargo-1973",
+            "tehran-1979"
+          ],
+          "bookIds": [
+            "the-prize"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-b93d5512f6905d",
+        "n-60c42fec84d864",
+        "n-777619c46d6d4b",
+        "n-b9d81cb3d97b71",
+        "n-50eb4b932d16c3",
+        "n-30ecba05360e22",
+        "n-fc8224ab9e8d27",
+        "n-5d8fedb0370db6",
+        "n-447ff3c6e22f8a"
+      ]
+    },
+    {
+      "id": "constitutions-and-courts-contested",
+      "line": "A decade after Poland's court dispute began, constitutions and courts are where governments and their opponents fight.",
+      "kicker": "LAW / POWER / ELECTIONS",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "A government or ruling party outside Poland proposes changing the membership or powers of a constitutional or supreme court.",
+          "by": "2026-11-28",
+          "because": "If the legal frame is the contested ground in several countries, Poland's fight over its Tribunal should not be the only move on a top court within a month.",
+          "id": "20261101T010841-constitutions-and-courts-contested-1"
+        }
+      ],
+      "continues": "",
+      "change": "",
+      "claim": "In Poland the president and Donald Tusk's government fight over control of the Constitutional Tribunal, with tensions outside the building; in Egypt, Masrawy asks whether the constitution should be amended and traces its changes since 1882; in Portugal, a SAPO column says Madeira should not wait for the constitutional revision; and in India a court case is filed against Congress president Mallikarjun Kharge over remarks about Narendra Modi while the Enforcement Directorate arrives at the jail before Azam Khan's release. In each, a political dispute is being settled through the constitution, a court or a prosecutor rather than at an election. The practical question in every case is who sets the rules that the next government, and the next opposition, will have to work within.",
+      "events": [
+        {
+          "label": "Poland's fight over the Constitutional Tribunal",
+          "articleIds": [
+            "n-2801c0f6132c53",
+            "n-9a57780fdaefb2",
+            "n-1c55e562c3f5f1"
+          ]
+        },
+        {
+          "label": "Egyptian press debates constitutional amendment",
+          "articleIds": [
+            "n-7d5ccf60b89110",
+            "n-455a22320d5c59"
+          ]
+        },
+        {
+          "label": "Madeira and Portugal's constitutional revision",
+          "articleIds": [
+            "n-ec7d9a917cf408"
+          ]
+        },
+        {
+          "label": "Court case against Kharge over remarks",
+          "articleIds": [
+            "n-52d86c2a4e8539"
+          ]
+        },
+        {
+          "label": "Investigators wait for Azam Khan's release",
+          "articleIds": [
+            "n-2b5b2c4cda0726"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "c-o1",
+          "kind": "observation",
+          "label": "Poland's Constitutional Tribunal",
+          "fragments": [
+            {
+              "id": "c-o1-f1",
+              "label": "Clash over control",
+              "text": "El Mundo in Spain reports that Poland's president has sided with the opposition to Donald Tusk in the struggle for control of the Constitutional Tribunal, and that four people have been detained. DW's Romanian service calls it a scandal between president and prime minister over the court.",
+              "articleIds": [
+                "n-1c55e562c3f5f1",
+                "n-9a57780fdaefb2"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-o1-f2",
+              "label": "Outside the building",
+              "text": "Onet in Poland reports tensions in front of the Tribunal and quotes a deputy saying nothing like this has happened before. On the Polish Wikipedia, the Tribunal, its president Bogdan Święczkowski and the article on the coup d'état were among the most-viewed pages.",
+              "articleIds": [
+                "n-2801c0f6132c53"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c-o2",
+          "kind": "observation",
+          "label": "Constitutions and cases elsewhere",
+          "fragments": [
+            {
+              "id": "c-o2-f1",
+              "label": "Egypt asks about amendment",
+              "text": "Masrawy in Egypt asks whether the country needs to amend its current constitution, and alongside it publishes a history of how the constitution changed from 1882 to 2019. The headlines do not say who is proposing a change.",
+              "articleIds": [
+                "n-7d5ccf60b89110",
+                "n-455a22320d5c59"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-o2-f2",
+              "label": "Madeira and the revision",
+              "text": "A SAPO column in Portugal argues that Madeira should not wait for the constitutional revision, placing a regional demand inside the national process of amending the constitution.",
+              "articleIds": [
+                "n-ec7d9a917cf408"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-o2-f3",
+              "label": "Indian cases against opposition leaders",
+              "text": "Navbharat Times reports a case registered in a Lakhisarai court against Congress president Mallikarjun Kharge over offensive remarks about Prime Minister Modi. Amar Ujala reports that an Enforcement Directorate team reached the jail in Rampur before the release of Azam Khan and his son Abdullah, with supporters gathering and a large police force deployed.",
+              "articleIds": [
+                "n-52d86c2a4e8539",
+                "n-2b5b2c4cda0726"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c-i1",
+          "kind": "interpretation",
+          "label": "The legal frame as the contest",
+          "fragments": [
+            {
+              "id": "c-i1-f1",
+              "label": "Deciding the rules",
+              "text": "In each of these places the dispute is about the rules that bind the next government, or about which politicians may take part, rather than about a vote. Poland's government and president fight over who sits on the court that judges their laws. Egypt's press reopens the constitution itself. India's opposition leaders meet a court case and an investigating agency in the same week.",
+              "articleIds": [
+                "n-1c55e562c3f5f1",
+                "n-7d5ccf60b89110",
+                "n-52d86c2a4e8539",
+                "n-2b5b2c4cda0726"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-i1-f2",
+              "label": "Why it is done this way",
+              "text": "Moving a contest into the courts lets a side that cannot win or keep a majority still decide outcomes. It also makes control of a court or a prosecutor as consequential as an election result, which explains the detentions outside the Polish Tribunal and the police at the Rampur jail.",
+              "articleIds": [
+                "n-2801c0f6132c53",
+                "n-2b5b2c4cda0726"
+              ],
+              "bookIds": [
+                "how-democracies-die"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c-b1",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "c-b1-f1",
+              "label": "Unlike disputes",
+              "text": "These are different kinds of event. Poland's is an open conflict between two elected branches over appointments. Egypt's is a newspaper discussion with no proposal named. Madeira's is a regional request inside a revision process Portugal has run peacefully seven times. The Indian cases are criminal complaints and investigations, which are common in Indian politics and may be about exactly what they say. What they do not share is a crisis: only Poland's is one, and one large story may be drawing smaller and ordinary ones into its frame.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "PROSECUTION / OPPOSITION / ELECTIONS",
+          "text": "This decade's elections have often been followed by legal fights over their results or their winners. The storming of the Capitol in January 2021 and the attack on Brasília's three powers in January 2023 were followed by prosecutions, and in Brazil by the Electoral Court barring Jair Bolsonaro from office until 2030. In India, Rahul Gandhi was convicted of defamation in March 2023 over a remark about the surname Modi and lost his seat until the Supreme Court stayed the conviction that August; Delhi's chief minister Arvind Kejriwal was arrested by the Enforcement Directorate in March 2024. The Navbharat Times report of a case against Kharge, and the ED team at the jail for Azam Khan, belong to that pattern. In Poland, Tusk's coalition won in October 2023 promising to undo its predecessor's appointments, and Karol Nawrocki's election as president in 2025 gave the other side a veto, which is the deadlock El Mundo and DW report.",
+          "trajectoryIds": [
+            "washington-2021",
+            "brasilia-2023"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "COURT CAPTURE / REVOLUTION / REFERENDUM",
+          "text": "Poland's dispute began in late 2015, when the outgoing parliament and the new Law and Justice government each appointed judges to the Constitutional Tribunal and the government declined to publish rulings it disliked. The European Commission opened the Article 7 procedure against Poland in December 2017. Hungary had rewritten its constitution in 2011. Steven Levitsky and Daniel Ziblatt describe this as capturing the referees, and Ivan Krastev and Stephen Holmes read it as a reaction against thirty years of copying Western institutions. Egypt went through the same years by another road: after the eighteen days in Tahrir Square in 2011 it adopted a constitution in 2012, another in 2014 after the army removed Mohamed Morsi, and amendments in 2019 that lengthened presidential terms. Masrawy's question about amending the constitution again is asked in a country where each change since 2011 has followed a change in who holds power.",
+          "trajectoryIds": [
+            "tahrir-2011"
+          ],
+          "bookIds": [
+            "light-that-failed",
+            "how-democracies-die"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "TRANSITION / CONSTITUTIONAL COURTS / AUTONOMY",
+          "text": "The countries that became democracies in Samuel Huntington's third wave nearly all adopted one institution: a separate constitutional court able to strike down laws. Portugal, where the wave began in April 1974, created its Constitutional Court in 1982; Poland set up its Tribunal in 1985, and its rulings became final under the 1997 constitution, eight years after the Round Table talks of 1989 ended Communist rule. These courts were meant to protect the new order from the next majority, which is why each new majority has wanted to name their judges. Portugal's 1976 constitution has been revised seven times, and the autonomy of Madeira and the Azores granted in 1976 is a recurring subject; the SAPO column urging Madeira not to wait belongs to that long and mostly calm argument. In India, the Prevention of Money Laundering Act of 2002 gave the Enforcement Directorate the powers it now uses against opposition politicians.",
+          "trajectoryIds": [
+            "lisbon-1974"
+          ],
+          "bookIds": [
+            "third-wave"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "JUDICIAL REVIEW / DECOLONISATION / CONSTITUTIONS",
+          "text": "The idea that a court can overrule an elected parliament took hold in Europe after 1945, among people who had watched Hitler take power by legal means. West Germany's Basic Law of 1949 created a Federal Constitutional Court that sat from 1951, Italy's followed in 1956, and the Nuremberg trials had already established that the acts of a state could be judged by law. India's constitution of 1950 was drafted under B. R. Ambedkar, and in the Kesavananda Bharati case of 1973 its Supreme Court ruled that parliament could not amend the constitution's basic structure. Egypt's path ran through decolonisation and military rule: the Free Officers of 1952 abolished the monarchy's 1923 constitution, and constitutions of 1956, 1964 and 1971 followed, each written for a new holder of power. The Masrawy history from 1882 to 2019 lists those documents. Tony Judt's Postwar describes the European half of this settlement.",
+          "trajectoryIds": [
+            "nuremberg-1945"
+          ],
+          "bookIds": [
+            "postwar"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-1c55e562c3f5f1",
+        "n-9a57780fdaefb2",
+        "n-2801c0f6132c53",
+        "n-7d5ccf60b89110",
+        "n-455a22320d5c59",
+        "n-ec7d9a917cf408",
+        "n-52d86c2a4e8539",
+        "n-2b5b2c4cda0726"
+      ]
+    },
+    {
+      "id": "gen-z-protests-met-by-police",
+      "line": "More than a year after Nepal's Gen Z protests, Europe's governments meet their own young protesters mainly with police numbers.",
+      "kicker": "YOUTH / DISSENT / ORDER",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "France deploys 50,000 or more security personnel for a fourth weekend of youth protests.",
+          "by": "2026-11-09",
+          "because": "If deployment is the state's main reply rather than a one-off, the same numbers should return the next weekend.",
+          "id": "20261101T010841-gen-z-protests-met-by-police-1"
+        },
+        {
+          "what": "German authorities ban or restrict a Gen Z protest in a German city, citing the violence in France.",
+          "by": "2026-11-21",
+          "because": "If the policing frame crosses borders ahead of the protests, Germany should adopt France's reply before seeing France's violence.",
+          "id": "20261101T010841-gen-z-protests-met-by-police-2"
+        }
+      ],
+      "continues": "one-weekend-of-protest-bans-and-talks",
+      "change": "Yesterday the weekend's protests were met with bans in some cities and negotiation in others. Today, on the day itself, the reports are of numbers and logistics: 70,000 security personnel in France for a third weekend, diverted metro and bus lines in Toulouse, and German coverage asking whether France's violence will be repeated. No headline in the collection reports a negotiation.",
+      "claim": "France deploys 70,000 security personnel for a third weekend of rallies, Toulouse diverts metro and bus lines for a 31 October demonstration, German coverage asks whether violence like France's could reach Germany's Gen Z protest, franceinfo publishes a history of police rifles, shields, tear gas and rubber-bullet launchers, and protesters are detained in Poland over the Constitutional Tribunal. Meanwhile a Portuguese teachers' union takes its dispute to the Ombudsman and twenty groups in Thailand protest against Israel's presence. Across Europe this weekend, youth protest is reported almost entirely as a question of order: officers counted, routes diverted, equipment described. The headlines about France and Germany do not say what the protesters want, and the visible reply of the state is deployment rather than an offer.",
+      "events": [
+        {
+          "label": "France's third weekend of rallies",
+          "articleIds": [
+            "n-ddac0542232e90",
+            "n-73133f7c84e22c"
+          ]
+        },
+        {
+          "label": "Broadcaster's history of riot police tools",
+          "articleIds": [
+            "n-7bf86e4e4bdd3b"
+          ]
+        },
+        {
+          "label": "Germany asks if violence will spread",
+          "articleIds": [
+            "n-31b660f7d8d2ac"
+          ]
+        },
+        {
+          "label": "Protesters detained over Poland's Tribunal",
+          "articleIds": [
+            "n-793736e7c25ada"
+          ]
+        },
+        {
+          "label": "Portuguese teachers go to Ombudsman",
+          "articleIds": [
+            "n-0cb0ae100d1350"
+          ]
+        },
+        {
+          "label": "Thai groups protest Israeli presence",
+          "articleIds": [
+            "n-50aa63ce3f297b"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "d-o1",
+          "kind": "observation",
+          "label": "France's third weekend",
+          "fragments": [
+            {
+              "id": "d-o1-f1",
+              "label": "70,000 personnel",
+              "text": "CNA in Singapore reports that France has deployed 70,000 security personnel for a third weekend of rallies in Europe. La Dépêche in Toulouse tells readers which metro stations and bus lines are diverted for the 31 October demonstration.",
+              "articleIds": [
+                "n-ddac0542232e90",
+                "n-73133f7c84e22c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-o1-f2",
+              "label": "A history of police tools",
+              "text": "Franceinfo publishes a history of French law enforcement tools: rifles, shields, tear gas grenades and LBD rubber-bullet launchers. It is a feature written for a weekend on which those tools are expected on the streets.",
+              "articleIds": [
+                "n-7bf86e4e4bdd3b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "d-o2",
+          "kind": "observation",
+          "label": "Germany, Poland and other protests",
+          "fragments": [
+            {
+              "id": "d-o2-f1",
+              "label": "Germany looks at France",
+              "text": "DW's Swahili service asks whether violence like that in France could happen again at Germany's Gen Z protest. On Mastodon, #genZRegelt and #genz were trending in several languages.",
+              "articleIds": [
+                "n-31b660f7d8d2ac"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-o2-f2",
+              "label": "Detentions in Poland",
+              "text": "Amar Ujala in India reports public anger in Poland over the suspension of the Constitutional Tribunal's president, with three protesters taken into custody.",
+              "articleIds": [
+                "n-793736e7c25ada"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-o2-f3",
+              "label": "Protests that name their demand",
+              "text": "Two other protests in the collection are reported with their grievance in the headline. Jornal Económico reports that the Portuguese teachers' union Fenprof has complained to the Ombudsman about government 'disrespect'. Khaberni in Jordan reports twenty organisations in Thailand protesting against Israel's presence in the country.",
+              "articleIds": [
+                "n-0cb0ae100d1350",
+                "n-50aa63ce3f297b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "d-i1",
+          "kind": "interpretation",
+          "label": "Order instead of demands",
+          "fragments": [
+            {
+              "id": "d-i1-f1",
+              "label": "What the headlines count",
+              "text": "This weekend's European youth protests appear in these headlines as a matter of public order: numbers of officers, diverted transport, the risk of violence and the history of the equipment. None of the headlines about France or Germany says what the protesters are asking for, while the Portuguese and Thai protests are reported by their grievance. The state's reply is deployment, and the press reports the reply rather than the claim.",
+              "articleIds": [
+                "n-ddac0542232e90",
+                "n-73133f7c84e22c",
+                "n-31b660f7d8d2ac",
+                "n-7bf86e4e4bdd3b",
+                "n-0cb0ae100d1350",
+                "n-50aa63ce3f297b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-i1-f2",
+              "label": "A reply that crosses borders",
+              "text": "The German report shows the policing frame crossing a border ahead of the protest: it asks whether France's violence will come to Germany, not whether France's demands are shared. One government's reply to its young protesters becomes the starting point for its neighbour's.",
+              "articleIds": [
+                "n-31b660f7d8d2ac",
+                "n-ddac0542232e90"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "kathmandu-2025"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d-b1",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "d-b1-f1",
+              "label": "Selection and difference",
+              "text": "Protest-day headlines are nearly always about policing and transport, and the sample here is a Singapore wire, a regional French daily, DW's Swahili service and a broadcaster's feature; the demands may be reported in French and German outlets not in the collection. The events also differ. France's rallies have been violent, Germany's have not been by these headlines, Poland's protesters are adults defending a court rather than members of a youth movement, and Thailand's are about a foreign state. What they do not share is a cause, and the policing may simply follow the violence where there has been some.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "GEN Z / NETWORKS / POLICE",
+          "text": "This decade's youth protests started from particular grievances and spread through the same platforms. In Dhaka in July and August 2024, students protesting job quotas forced Sheikh Hasina to leave by helicopter; in Kathmandu in September 2025, protests against a social media ban, under a pirate flag from the Japanese comic One Piece, brought down the government within days; in Serbia, a station canopy that killed sixteen people in Novi Sad in November 2024 began a student movement. The label Gen Z travelled with them. France's own reference point for policing is nearer: after a police officer shot seventeen-year-old Nahel Merzouk in June 2023, the government deployed about 45,000 police and gendarmes a night. The CNA figure of 70,000 for a third weekend is larger. The DW question whether France's violence will reach Germany treats the protests as one movement crossing borders, which is also how the decade's protesters have described themselves.",
+          "trajectoryIds": [
+            "dhaka-2024",
+            "kathmandu-2025",
+            "novi-sad-2024"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SQUARES / RIOT GEAR / LAW",
+          "text": "The model of a protest organised online and without leaders was set in 2011, in Tahrir Square in January and in Madrid's Puerta del Sol in May, and states learned from it as quickly as protesters did. France's turning point came with the gilets jaunes from November 2018, when police used the LBD 40 rubber-bullet launcher so widely that more than twenty people lost an eye, and parliament passed the 2019 'anti-casseurs' law against covering the face at demonstrations. The franceinfo history of rifles, shields, tear gas and LBDs is written for readers who remember those weekends. Germany's reference is the G20 summit in Hamburg in July 2017, when about 20,000 police faced several nights of rioting. The decade after the crash also lowered what the young had to lose by protesting: youth unemployment in France and Spain stayed in double figures for years after 2008.",
+          "trajectoryIds": [
+            "tahrir-2011",
+            "sol-2011"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "EXPORTED MANUALS / SUBURBS / EMERGENCY",
+          "text": "After 1989, street protest in Europe was mostly associated with removing governments in the east, and the Serbian Otpor movement that helped bring down Milošević in October 2000 wrote a manual that was used in Tbilisi in 2003 and Kyiv in 2004. In western Europe the protests that shaped policing were different. In November 2005, after two teenagers died fleeing police in Clichy-sous-Bois, riots spread across French suburbs for three weeks and the government declared a state of emergency under a 1955 law, its first use in mainland France since the Algerian war. German protest in those years gathered around summits, such as the G8 at Heiligendamm in 2007. The division then set has lasted: in the east protest was read as a contest for power, in France as a question of public order in the suburbs. The Polish detentions over the Tribunal and the French deployment of 70,000 sit on either side of that line.",
+          "trajectoryIds": [
+            "belgrade-2000",
+            "tbilisi-2003"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "1968 / RIOT POLICE / CROWDS",
+          "text": "France's riot police, the Compagnies républicaines de sécurité, were created in December 1944 as the state was rebuilt, and in May 1968 they faced the students of the Latin Quarter and then a general strike of about ten million workers. De Gaulle's government reformed the universities, dissolved parliament and won the June election; it did not concede in the street. That month set the European expectation that young protesters are met first by police and only later by policy. In Mexico City in October 1968, ten days before the Olympics, the army fired on students at Tlatelolco, the harsher answer available to a state. Elias Canetti's Crowds and Power, published in 1960, treats the crowd as something that wants to grow, which is also how police planners treat it; the CNA count of 70,000 personnel is planning of that kind, and the Toulouse transport notice is the same planning for one city.",
+          "trajectoryIds": [
+            "paris-1968",
+            "tlatelolco-1968"
+          ],
+          "bookIds": [
+            "crowds-and-power"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-ddac0542232e90",
+        "n-73133f7c84e22c",
+        "n-7bf86e4e4bdd3b",
+        "n-31b660f7d8d2ac",
+        "n-793736e7c25ada",
+        "n-0cb0ae100d1350",
+        "n-50aa63ce3f297b"
+      ]
+    }
+  ]
+}

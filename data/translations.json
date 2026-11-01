@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "updatedAt": "2026-10-31T19:59:18Z",
+ "updatedAt": "2026-11-01T01:09:13Z",
  "note": "Cache of English headlines keyed by sha256 of the original title. Seeded from the first collection; later entries come from scripts/translate.py.",
  "entries": {
   "3e8d54cf3a9b6c2a76dbebb93a5a8bba41f19be6833be7e7ba3b49133b410110": {
@@ -38918,6 +38918,816 @@
    "model": "claude-haiku-5-5",
    "at": "2026-10-31T19:59:18Z",
    "lang": "ja"
+  },
+  "db93c92d1fe070a4302281a3248f492fe1bdcadb123b3c09c3fbdfe45976d9d0": {
+   "en": "D.Bayarkhuu: The Frenzy of Freedom",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "mn"
+  },
+  "fe3d7422c52ee735acb2b49e49a0720b0ee9573eb6846a94437249a16e085fb4": {
+   "en": "Commune police wade through paddy fields to collect en masse nets and stakes that wipe out wild birds",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "vi"
+  },
+  "8eaab69c9368e247087c02a26f392939c0e78ac3ac49c986b6b83d60fdbdd0da": {
+   "en": "How to choose a summer retreat suitable for children? Pick by 3 age groups with eyes closed, from 850 yuan per person+FAQ",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "zh"
+  },
+  "fae444c7a51d5cd6c4f754e9791d0f0736a8914ed80b31f3f7441654da6ebe92": {
+   "en": "WhatsApp announces 4 new features to make managing group chats easier - Al-Youm Al-Sabea",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ar"
+  },
+  "785240ff6f15b542a4fdf07efde8a121fcfdb15baf7904a3d1a7ee9196a7cd67": {
+   "en": "Ismaily Club general assembly fails to reach quorum... learn the details - Al-Youm Al-Sabea",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ar"
+  },
+  "0d113e3e1ef44138590140a16822026664088e9bb74b8b2b202854f67584632d": {
+   "en": "Eduardo Costantini receives the Sorolla Medal in New York for his contribution to Latin American art",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "es"
+  },
+  "5700bf1f2dbe92743c4e78386c09760906463921d18557c21e64c7ad98d9806e": {
+   "en": "Way clear for red-green-red coalition talks in Berlin - WELT",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "de"
+  },
+  "5a721933ed94266ecf5fe3464d61075a585f9fe020814f70c7ac5e2063caa2a8": {
+   "en": "20 organisations in Thailand protest against the Israeli presence in the country",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ar"
+  },
+  "59bcd99a4171504eae6ab585d282450dc8dbac7ac05ee420e544ee88d73112fa": {
+   "en": "Tensions in front of the Tribunal. Deputy: nothing like this has ever happened before",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "pl"
+  },
+  "e141fbf9f84ce4260249860f4dad7c2c4177d567646193c3e6c4231645fdb75b": {
+   "en": "It spins in the sky and pulls a 28,000-foot cable... the story of the world's most dangerous aircraft",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ar"
+  },
+  "f865dc463318fee5cc432ff2eec9492fdc3328d5ba5c44f3cb78a7ea63d29555": {
+   "en": "Tips for keeping the home and office clean during spring allergy season",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "es"
+  },
+  "d93e6ab39498c683c3422f06d4d694c3b9551a5fa946134745e14914a60e0ed4": {
+   "en": "84% rise in transit cargo volume by road during the third quarter of 2026",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ar"
+  },
+  "aa64a4e9dac240cfc8e521e546c97b50f9aeda14ccfe1eab5763086bcc62bd2b": {
+   "en": "Marathon talks in Tehran... two conflicting demands hold up agreement",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ar"
+  },
+  "3bc69368587804a3a29930149c8e135d67d82b2ed3f058d8ddee846d053912a5": {
+   "en": "Surprise from traditional Chinese medicine: herbal formula kills cancer cells",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ar"
+  },
+  "77c7bdd7b90dbf1d3211d86483c8849446decda173b9f42c3404c3a188e35af6": {
+   "en": "Case registered in Lakhisarai court against Mallikarjun Kharge over offensive remarks on PM Modi",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "hi"
+  },
+  "7054652bc1048ef1b7402e7c61355a3683d34c4d14b0d47e0b8c9f21e01ab062": {
+   "en": "EU's Kallas: Lavrov lied at G20 meeting",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "fi"
+  },
+  "286379337516950e1ed2cf8cc493701f9c0b887e34c2a4f4c7bfda008f8b1246": {
+   "en": "Judoka Patrícia Sampaio runner-up at Abu Dhabi Grand Slam",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "pt"
+  },
+  "33bee63da7aa24c5079515079d7d4faaa2b223f2219173736c9f0c820a092f22": {
+   "en": "The 20 most famous photographs in human history; look until the last one and be left speechless",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "zh"
+  },
+  "96dbc82fe9c78e325fab9c9773a0c7de96f89cfe4f0fee595e1b1fab686a2d48": {
+   "en": "Luís Castro: \"Emotions make you look at the result in a different way\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "es"
+  },
+  "9dba99db5834c5df6e2219ec9f4746e7652d5383f68ab465bb93d4966966fe8c": {
+   "en": "Mônica Fonseca is expelled from reality show A Fazenda after an incident that left a participant injured",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "pt"
+  },
+  "a9eb1abbcdfac05fecfd38212142eb3252adde1ef95b82afce9405829e08f955": {
+   "en": "Multiple Jiangsu properties introduce robot security guards: can replace 5 human guards, consuming only 200 kWh per month!",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "zh"
+  },
+  "9742e062f60b894e5a189c7096271f40226635dd70c23bd7d1282c3ce97b18e9": {
+   "en": "Rifles, shields, tear gas grenades and LBDs… A history of law enforcement tools",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "fr"
+  },
+  "121d7dd42aa7660ec4954b9f681803a2e34d8a22559e52839d7590141109b935": {
+   "en": "US warned Moscow of possible attack this Saturday (31), Russian agency says",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "pt"
+  },
+  "8d28c2e04a7b12369cbd35b746274d7f360a0495b4c8b7ce76e517a13be5e953": {
+   "en": "Almería fan falls from the stands onto the pitch while celebrating the 0-1 at Ipurua",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "es"
+  },
+  "d7afca06b0f19d74dd5d8ac2aeebe62f60c7773915e8813342e3351cb079b254": {
+   "en": "Rafa Jódar becomes the 21st Spaniard in the 'top 10' and breaks a record set by Guga Kuerten",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "es"
+  },
+  "1a71323ca66efcdac51c6ee99dc3aff0b41809ff69365687956ce5f54681a03c": {
+   "en": "Energy ministry omnibus bill goes to Parliament, with €2.3 billion investments in the islands and the \"New Karaiskaki\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "el"
+  },
+  "fcadd0928013ba2230e48b1069169f01bf893fd65b87fd9e0dd4efe4d1176755": {
+   "en": "Is Al Ahly considering a swap deal with Zed FC? - Al-Youm Al-Sabea",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ar"
+  },
+  "becffc3a0d96f2400e33f132f9cfd2bf49f4eec08aaea8e5fde71d988d2841fc": {
+   "en": "Zamalek nears facing Tunisia's Africain at Cairo Stadium - Al-Youm Al-Sabea",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ar"
+  },
+  "809bb15270df1e3e8f207945352dd916e19e81f3828d1c4d5c157aab9a4b602c": {
+   "en": "Growing British support for returning to the European Union after Brexit - Al-Youm Al-Sabea",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ar"
+  },
+  "5c4d1f576abb89117e146d5b109108e8de9f8bdcf6cccfa5082dc906fab28528": {
+   "en": "Acosta and Marc Márquez: calculated risks",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "es"
+  },
+  "4bfda3756a677f525c27f88691136a9408763e17a3e7f6f4396e0e0fb22567d0": {
+   "en": "Human beings: creatures who come out of water and return to water",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ko"
+  },
+  "9161d5a003f898859b501b3be23cca69232d039513b0783b1f8dc6d1a28b34d0": {
+   "en": "The miracle that happens when you give thanks every time you think and speak",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ko"
+  },
+  "59d52c7dcf44a1447da40745d37205bcce29575fed0c984a28fe341e8144ca55": {
+   "en": "Interview with depth psychologist Professor Sung Hae-young",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ko"
+  },
+  "1c1dafca37a85f7c8377fc99001b5a02939120e63f56192679c8820b70f2cc08": {
+   "en": "Nurses and ghosts... young people in costume stream into Katamachi; Halloween crowds, including a group from Shaun the Sheep",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ja"
+  },
+  "bad074e637d477fe5802ab4b2dd66ea59acef69d681ee15980230132b10410fc": {
+   "en": "Erzurumspor FK: 1 - Çorum FK: 3 | MATCH RESULT (Süper Lig)",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "tr"
+  },
+  "be13b0bc82d05e1b831395e9f14973eeb09653c8f07177915c6c86aac8570ee7": {
+   "en": "Combat robots take on dangerous tasks, but soldiers still face risks, – BI",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ru"
+  },
+  "79a8c69d943e1ec5623e00ca5f2b3d1748a53fa6c2c0d9513896be51160337de": {
+   "en": "Jessica Lange, Hollywood legend, announces retirement after complaining of lack of good roles",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "pt"
+  },
+  "e5e8b5d979529fa837b2122aeb1351e9dfa816ecb28d5c49dd32901c226036b1": {
+   "en": "Poland: Scandal between president and prime minister over the Constitutional Court",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ro"
+  },
+  "f6312c769c5288803cd9717e76547701c089fd7b7f37e8160da263bf8dff45e2": {
+   "en": "5 points summing up the clash between Amr Adib and Mostafa Bakry | Masrawy",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ar"
+  },
+  "a3e13fa7f813272c29ea6cc324949bda249c2b5173c487cf249706d9bdf6a426": {
+   "en": "WhatsApp profiles of these users will change: they can set cover photos like Facebook, how to use it? Learn the method",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "hi"
+  },
+  "0cbf9524669322f83bd114bc475885257ab7138769ec2207a60d18a60442dcb7": {
+   "en": "NTV announcer Natsumi Kawade's dramatic transformation; cosplay as Maomao from The Apothecary Diaries draws online shock: \"So alike!\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ja"
+  },
+  "5ec1b0a270d2869a9ebc972f8495ba214ca66bfd77a423c26c9a83301ea78b22": {
+   "en": "COP17 ends with commitment to \"accelerate\" efforts to protect nature",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "pt"
+  },
+  "76c348881c0a583b70da540f298e7f2bcaeac724094c16a34b1eb36f9437e193": {
+   "en": "Terrible incident in Ankara! Killed his daughter and her boyfriend... first statement revealed",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "tr"
+  },
+  "6024962233881401eb08e352e1ebfc2a1fd1dbcbee82426d05a75f1e542cd8c2": {
+   "en": "Part of Dnipro to remain without power until Monday: where there will be no electricity",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ru"
+  },
+  "f7f70eb0770922c874bcea83bfb18a116a48feee00726342149c922fbae8785e": {
+   "en": "CT UAV improves product quality to international standards",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "vi"
+  },
+  "081033f4d5647b84577ce04d576ce21404184baf093b58d07e52744589b9fbc2": {
+   "en": "Gen Z protest in Germany: could violence like in France happen again?",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "sw"
+  },
+  "3cf4b1af5216e22e18b8a99fdf559985ca2eeeab100dc951353af62702352d92": {
+   "en": "Toulouse demonstration on 31 October: which metro stations and bus lines are diverted... what to know about public transport disruptions",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "fr"
+  },
+  "eb713abcf08d7ed056231b02a5a4fbc1f0c71f486130092c36214b4a8ca1a405": {
+   "en": "[Breaking] GMO to hold press conference on November 2 over unauthorised access",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ja"
+  },
+  "2feb5dc0141875be0a9aaf9c55461f763922a273784b15797c0e4dffa71109db": {
+   "en": "Vanspor FK: 1 - Sarıyer: 0 | MATCH RESULT (1. Lig)",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "tr"
+  },
+  "09f8c5f447b080cc7d7e95985ca21f446d99c8a80dd02a5903ba8dc4b84dc454": {
+   "en": "Former contestant of \"The Bachelor 15\" publicly addresses Kravtsov after being eliminated from the reality show",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ru"
+  },
+  "e27e7dbb5e598d9cb8531a9b6cef92c69e4d69fbb5a101051ac25bd2804b0b84": {
+   "en": "Naive woman finds a new home, tends buffalo like a precious treasure",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "vi"
+  },
+  "737f063a4a59f0dee6d1c0505ca66a22cfcad61f60a9b692fb3f266392ec3951": {
+   "en": "Does Egypt need to amend the current constitution? | Masrawy",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ar"
+  },
+  "c79a83b1e989bed0930c61ba471fea0f40b4770d1b0dcfd1297e5dfe98379786": {
+   "en": "Bordeaux: the Student Fair returns on November 14 at the Palais des congrès",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "fr"
+  },
+  "855d75d85ccfbb9d0c6daf66afea02b4ddcec2d9022dd443fbafe777775f0ca6": {
+   "en": "Kyoko Yoshine shows full Halloween spirit on the set of \"Meoto Biyori\"; a friendly shot with co-stars also shared: \"The mood-maker quality of the set comes through even in the photos wwww\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ja"
+  },
+  "6f5492d725d54690686738a94d43865b15a481ec29bc841270a4a19b1bf80004": {
+   "en": "The most painful birthday",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "tr"
+  },
+  "9532bf30bd57b5f711d321fb2de46e9237124560e3d8573a3be6cbc25ab84297": {
+   "en": "Iran's Supreme Leader issues hardline directive to the military",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "vi"
+  },
+  "7cf742e2f8f63e103b1115be3d69021c4056c5bd3a35254f5464204a7a6d6853": {
+   "en": "Natalie Portman reveals how she felt and picks the hardest part of shaving her head on camera for a film",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "pt"
+  },
+  "025d3abf13ea271837984a50c3e8dc27caab430934f8303396bb9a5964636433": {
+   "en": "Dehradun News: Fierce battle between Sugriv and Bali, Shri Ram kills Bali",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "bh"
+  },
+  "ceb1a9663b9a6ed35ec83ce3bf2a8827dab0d22168e5d94c84ac20a2e9206992": {
+   "en": "[Niigata Prefecture, National High School Soccer Championship] Niigata Meiun and Hokuetsu advance to semifinals; Joetsu vs Teikyo Nagaoka and Nihon Bunri vs Kamo Gyosei postponed to November 2",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "ja"
+  },
+  "4c2c9fabe684abfe7d97742b766f0bf6dba95feab1286fc5e68fcf8735bfd571": {
+   "en": "ELECTRICITY OUTAGE IN 12 DISTRICTS OF ISTANBUL! BEDAŞ and AYEDAŞ announce: will last hours! District-by-district outage schedule for November 1, 2026",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:08:55Z",
+   "lang": "tr"
+  },
+  "8abe5045100a5c14f116144bac876a6ea9946ae312252f52d6f9f8781b0a5392": {
+   "en": "William is determined to spare his children the same suffering he went through in the royal family",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "pt"
+  },
+  "ed6e399dab476ad43374a494f3806b57352afeace52d4b647f0d43cf2d1344eb": {
+   "en": "How has Egypt's constitution changed from 1882 to 2019? | Masrawy",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "ar"
+  },
+  "aac6c969004de01d18558fdc925d46c9778d2a8f5dc7fa85a0cd204b54b32e0f": {
+   "en": "Korean study raises doubts about the benefits of paper drinking straws and links them to cancer",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "ar"
+  },
+  "1098a8daba9e2ac89993dddc099b9d62540705323afca3837b303c99c6eb3627": {
+   "en": "[Volleyball, High School Championship Niigata Prefecture Qualifiers] Joetsu women's team reaches the final for the first time! Will clash with Nagaoka Shogyo for the title, men's final will be Sado vs Joetsu General Technology",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "ja"
+  },
+  "b58f2ee6817330668f7e83b1ca8fd1ade42ff8980ba3da7a9854f3c2d5944298": {
+   "en": "Special consumption tax (ÖTV) hike on petrol and diesel",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "tr"
+  },
+  "5f3992afce298e618316abb75e9f0c8e80ba26efc31ed3de7e3de315582ce828": {
+   "en": "Selma Blair breaks down in tears while apologising for incident on plane in which she bit a flight attendant",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "pt"
+  },
+  "80cda520bbbe2255321a38c8c083338610694dbf24968ba7ca8cdce1f7f845e4": {
+   "en": "[Breaking] Ukrainian evacuees arrive in northern region",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "ja"
+  },
+  "f6281eba9f125b5277a6e521bf1d9246c4502c2651bfcc11c071234ffbd9ce32": {
+   "en": "Burak Yılmaz: \"Our feet will be on the ground\" - Erzurum News - Habertürk Local News",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "tr"
+  },
+  "47857d5950fb2e04e75fb824d2b68b5ccb70f7e08c61937c332d0121b62458a2": {
+   "en": "Jennifer Lopez is advised to forget the 'disastrous' feelings she still has for Ben Affleck",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "pt"
+  },
+  "04bceaf61fb5f96eeb3763a373cc0cf63f6330ce6bbd12dd744c42ce7bb3c838": {
+   "en": "Egypt takes over chairmanship of the Board of Directors of the Arab Labour Organization for the third time in a row | Masrawy",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "ar"
+  },
+  "5404c03439f9f16b0d80026e9f73f561c9dfae3d77a3526175647ce100bb5620": {
+   "en": "PM Modi attends National Unity Day parade: to give 426 crore gift to Ekta Nagar, will become a tourist attraction",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "bh"
+  },
+  "40ce467ddb9264c8dfdde28171f1e0016a17b81cf847f05382752911613acd17": {
+   "en": "[Breaking] Reports say talks in mediator countries on ending US-Iran fighting",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "ja"
+  },
+  "1a531aa4bd0bdf6f758db3a9325539b57e9bca74edd537049d869f5a3fb79da6": {
+   "en": "Critical meeting from President Erdoğan! Ukrainian President Zelensky in Istanbul",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "tr"
+  },
+  "18ee7bce45ba32a9c0c40ac793629a05be03af973f80cc7b6dbb3927e5787f1e": {
+   "en": "Jennifer Lawrence explains why she will never play Mystique, her character in 'X-Men', again",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "pt"
+  },
+  "d6af3f5020426a3804881fed3c6e7ee5112a96005e9fbb77af153afb16f837c2": {
+   "en": "Volleyball SV Alanmare Akita Shonai loses 0-3 to Osaka",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "ja"
+  },
+  "4fa27c7acd66a061526de6d92e5f1cc9f2c6326115f572484ba4b86b7b8e52ab": {
+   "en": "Father arrested while trying to shoot his daughter in hospital is jailed - Adana News - Habertürk Local News",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "tr"
+  },
+  "5e6bf0cdb204dec255c4e9279d4ea29062c920d7cd495b43e710b49b8325882a": {
+   "en": "Michael Douglas reveals the ultimatum he received from Catherine Zeta-Jones on learning of multiple affairs",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "pt"
+  },
+  "af05c611e86679e4fa154320bc2d9d54ed7f699e0093a188fdadea10187baf2e": {
+   "en": "ÖTV Hike News - Latest ÖTV Hike News and Information",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "tr"
+  },
+  "4a97fd4a469ff1b4577c8f56b0c4474cedab49aecc28a0732a2bda30605e83e1": {
+   "en": "Rampur: ED team reaches jail before release of Azam Khan and son Abdullah, supporters stirred, heavy force deployed",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "hi"
+  },
+  "e8af5ae38dc7f86b106cb557f6f482d089529faeb9d5a8d1d9b102b3aef829ee": {
+   "en": "In Ahlat, fish sales increase with cold weather - Bitlis Latest News - Habertürk Local News",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "tr"
+  },
+  "7ca740fbaa3c439a2ce89977d0bd0babc66f2edb3da20d350cb2a68518ffd1fd": {
+   "en": "Erdoğan sends condolence message to martyr's family",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "tr"
+  },
+  "78c66d5f1e3183131340fa92cb41d3d2ad2f8411e7d7e190334894fbe8ed78c1": {
+   "en": "Damaged village road causes reaction from drivers - Adıyaman News - Habertürk Local News",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "tr"
+  },
+  "74128dc5b3ed68eb6f30d43b787cc435eb1f40af6dfbf2d81988e6d9e2a29e2e": {
+   "en": "Box office: Craze for 'Ramayana' before release, crores earned in advance booking; film also popular abroad",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "hi"
+  },
+  "57c772b4a1487cf0ac18c11bc4992303d07c2a8d3b121d1d4170926f250319df": {
+   "en": "Operation against Manisa BBSK: 4 people including former president detained",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "tr"
+  },
+  "2ed18cedfb6dcfd976efc38b44ae8be663807d31eae1355bd7aa6d97c8d7c328": {
+   "en": "Poland: People anger over suspension of Constitutional Tribunal president, three protesters in custody",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "hi"
+  },
+  "559c74af18f71f94448bde6764018ddd9b3021d0465e0fcfb53217ca920f58ec": {
+   "en": "Dehradun News: Children waiting for shed, forced to eat outdoors on veranda",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "hi"
+  },
+  "88b78d9c46f10777e24e939fc94d40c7c6cb0d6e7e905638937e40860a4bd6fc": {
+   "en": "Dali Wen-Gao urban land readjustment completed with fanfare, linking station and sports park to build new livable core | ETtoday Local News | ETtoday News Cloud",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "zh-Hant"
+  },
+  "9b9fa8ab7ad14284c4d9f461913a17d124064bcf729d51a263d2201c502ee1f3": {
+   "en": "Emergency bulletin from Hellenic National Meteorological Service: weather turns fierce with strong storms and hail - Areas affected and Kallianos' flood warning",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "el"
+  },
+  "bde79184d8eea4047a2da3fc3aca7127da1f58c20648abab7ba287c6ffab6754": {
+   "en": "Monkey Zodiac Horoscope for Tomorrow, Sunday 1 November 2026: Financial Opportunities Increase, Focus on Key to Success",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "id"
+  },
+  "193797169d7b4c475eab21f3bd0f94242188a00c7f43393d58df75168c0ae679": {
+   "en": "Not Me: Choose: nuclear fusion play test report: each person has their own fate",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "zh"
+  },
+  "de41b5df96d814fb408078a7e61deb8bf7893e7d4c7577fb375426b605e184b8": {
+   "en": "Rans Carnival Boycotted, Revenue Cut and Raffi Ahmad Controversy in Spotlight",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "id"
+  },
+  "5664d8b7902be03654d895f1adb45c26301d52dfb4b1f0958544230ee4129590": {
+   "en": "Has the AI bubble burst? Nasdaq falls; how does it compare with the 2000 dot-com bubble? | UDN News",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "zh-Hant"
+  },
+  "1c9352a4be6eda7da108eac76a2d78dadbf937adaf83f82fc13964d7d77d94e3": {
+   "en": "Savory Oat Porridge Recipe with Egg, Water Spinach, and Tempeh, Good for Breakfast",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "id"
+  },
+  "c1085414c836efcc5bf0009d568a76d940dbcf2477d700b45f3cbc3194110783": {
+   "en": "Looking through A-share Q3 reports: AI computing power leads, materials prices and volumes rise, real estate and consumption bottom out | Read the Reports",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "zh"
+  },
+  "82f4c0df23be177c69acdcddf559ea83db8b53917ebec21d2fea9d32b41fc1db": {
+   "en": "Undergoing digital transformation, Jasaraharja Putera: Technology must align with the company",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "id"
+  },
+  "9a18c731219f95b879d42ce80d9958c415f94ab846bde159609adce32b013719": {
+   "en": "Bear unloads belly size 'even beats twins' bump' - Xiangying shocked: I'm only 99cm! | ETtoday Star Cloud | ETtoday News Cloud",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "zh-Hant"
+  },
+  "9fb9318e0c2e532e0b70f23f12499138b3522ccd68d788f48c65d0d325722110": {
+   "en": "Canada will keep ban on Russians taking part in tournaments",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "ru"
+  },
+  "c24abca89ff6e0ec01d42d934fb72d6381a43f04df5ffb4063699891bdd46ae9": {
+   "en": "Lee Kang-in starts in Levante match; Spanish media: \"Lee Kang-in effect even during the game\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "ko"
+  },
+  "883db0ae6240d77f2104c2f38168083c9a464af9869a9f3c746e142a7b158957": {
+   "en": "Liu Wenfei: How to defend humanity in the face of AI is new content of humanism",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "zh"
+  },
+  "fabc7851d4cc0f81fd842414ea3763dbf822894471b598b76c43c58249968eb1": {
+   "en": "Six-industry integration, book fragrance spreads across new rural cultural tourism frontier",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "zh"
+  },
+  "de646bb8bb71f192f238918f57d4c26a2aec3bb98cef373311180d86c2ac8ef2": {
+   "en": "AI wealth myth: 700 Micron Taiwan employees receive 5 years of salary!",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "zh"
+  },
+  "3d91e7657fad3372a06ecbfbc5fa8576d8377885076f49cb19ad6a9a200e84de": {
+   "en": "Sales decline of key real estate firms narrows year-on-year in first 10 months",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "zh"
+  },
+  "03e11437fde6973795b347ac8649f90aa2f3736f87f5f84ab52465a80bdc2524": {
+   "en": "Video | Snow and temperature drop in earthquake-hit areas; Tibet Bagong fire brigade clears snow and ice overnight, enters homes to remove hazards",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "zh"
+  },
+  "016b90c06898c39ddbee33dd509be0e84837a4a98f8b70315458efba84ae2141": {
+   "en": "Snake Zodiac Horoscope for Tomorrow, Sunday 1 November 2026: Courage Reaches 77 Percent, Time to Focus",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "id"
+  },
+  "ac52251220bf3c3b6d8a6428656a06fb58ef169655b94a4e044fd641257ecd40": {
+   "en": "Reaction of Brazilian markets changes the trade outlook for Argentina",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "es"
+  },
+  "70c3244885bd00b2b5d44aa6d2b4c86480f54795360c2e9c220eb55fa2daf435": {
+   "en": "Dragon Zodiac Horoscope for Tomorrow, Sunday 1 November 2026: Luck Increases 71 Percent",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "id"
+  },
+  "33c5978807039976aa02a2b40aab73e6d8b55b5fde8e7a015c345302df00c513": {
+   "en": "Don Silvano Casciotti to children: \"Today Halloween costumes, tomorrow dress as saints\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "it"
+  },
+  "cd1effe257b00614afa355cd558909e6c8f3ad2ffabd4646697e7b9e965fe79d": {
+   "en": "Rabbit Zodiac Horoscope for Tomorrow, Sunday 1 November 2026: Harmony Reaches 94 Percent, Stable Relationships",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "id"
+  },
+  "409ac819a3f6bca8787c6bd75e0c967037b13c15f655bcac0df1300e8b813f44": {
+   "en": "Madeira should not wait for the constitutional revision",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "pt"
+  },
+  "4b324419315b003f65cf4b3c21dfbf9511ceb46ba85d3fa8ff86d12395dc55ae": {
+   "en": "Israel: Bedouins brought the electoral upset – How they contributed to Netanyahu losing his majority",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "el"
+  },
+  "784b91097aa6f8d7b9e74aff4870510a0756ae7e5c0bae22b543f512355922a8": {
+   "en": "A-Ming pig heart clarifies 'no announced indefinite closure'! Hopes outsiders give space | ETtoday Lifestyle News | ETtoday News Cloud",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "zh-Hant"
+  },
+  "c513f01a4e621b3582d0229756969547933d204354f605cc5dae828c7a971ed5": {
+   "en": "TVBS poll / debate performance! Shen Boyang gets 47%, Chiang Wan-an 40%; support rating also revealed | ETtoday Political News | ETtoday News Cloud",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "zh-Hant"
+  },
+  "f79b28bdccd490a894f8f582334aa5bc5a12008536eca46d88fd953a7d7a7234": {
+   "en": "Fenprof files complaint with Ombudsman after Government \"disrespect\" | Jornal Económico",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "pt"
+  },
+  "b1a6d00e6046873ac49e6dbb12ec9274357975e847e5f5ba01cad0b08b2d3ae7": {
+   "en": "CIM Cávado distinguishes Terras de Bouro company in 2nd edition of Municipal Seal for Diversity, Equality and Inclusion",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "pt"
+  },
+  "24c0cd37168865d687cff31914401fb8e59ac05dbd69003ffa5e65cd31235b23": {
+   "en": "Stabbing in Vila Viçosa: investigation underway",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "pt"
+  },
+  "3fb6b9f926e5e292e3c75e852d8dbda896a21f6f19e97fc375d09d4ccb2d2bd3": {
+   "en": "Crane assembly affects traffic on Rua Fernão de Ornelas",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "pt"
+  },
+  "b04e07ffa2e28b73b5682a515348e724b5d6ebb32fa22c3f0a39c2d2bb02cd8d": {
+   "en": "Halloween, hunting for 'fireballs': when and how to see the brightest meteors of autumn",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "it"
+  },
+  "9607cf7d3e03f7bf40a2351d0e35822fba4307edc08979bdb6a03695940b3927": {
+   "en": "\"Failed!\" Trump irritated by protester in Florida",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "pt"
+  },
+  "05b1e8e01d2195866fc48262e038f5bfb6ccfe2be652ba9c1474ec15dfeb2e85": {
+   "en": "Argentine beef expands its presence in the interior of China",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "es"
+  },
+  "9fec5b7186598110c5cc76c59ae979941cd2997bdf126f4079da0c5af8125a4d": {
+   "en": "Pink meteorite found in Sahara is a 4.1-billion-year-old fragment of Mars",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:08Z",
+   "lang": "it"
+  },
+  "0b306ac10cd6d48cd5874d9ec9db1ec5f7e1a9aa21e1f377955cd162b1b546d6": {
+   "en": "Once warned that the debate \"must never underestimate Chiang Wan-an\"! Green Party legislator: after 2 days in seclusion, skills greatly improved | ETtoday Politics News | ETtoday News Cloud",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "zh-Hant"
+  },
+  "9fa9360db683686eff5e01b1338d1a63e3a715d5a19cb9eac44b184a75e2d3c8": {
+   "en": "Hsu Chun-shuo joked about \"being awkward\" on entering the Taipei Dome, sees 30,000 fans and is thrilled: \"My concerts don't draw that many people\" | ETtoday Star Cloud | ETtoday News Cloud",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "zh-Hant"
+  },
+  "00f77418d3508b63bc03b35fdd7d4316368ffe5ac5b92d509892b970d8e32d1c": {
+   "en": "Toyota is offering a new engine for external sale; will domestic Chinese automakers buy it to use?",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "zh"
+  },
+  "edbf8f1d5ddeed440fa48762b715424a1d8bb6aee55b790ad8c23a40229820ff": {
+   "en": "If I place a deposit now for the 2026 Li i6, can I get the car before the end of the year?",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "zh"
+  },
+  "e3ba7cb2c256314ead7fc90b01c0445c237217bae0b3ec87ef27f5f72a17a212": {
+   "en": "The 2026 Li i6 is rated at 780 km of range; how far can it actually go in winter?",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "zh"
+  },
+  "714a7fdedeaca314505547800d30069cadca43cd8dd62c8badd6d8164788bf05": {
+   "en": "Besides seating, what are the differences between the five-seat and six-seat versions of the Mercedes-Benz... Shenxingzhe 8?",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "zh"
+  },
+  "c4cc9d71867bf2023cde0dfcbfa87260288c1ecba133956fdd07909971abcc9f": {
+   "en": "Taichung Indigenous Culture Festival opens, with 40,000 Indigenous people gathering to exchange | ETtoday Life News | ETtoday News Cloud",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "zh-Hant"
+  },
+  "2604c8cd138741d76a881b851f7452f9902519a5e885dac4860291b16f8de4ae": {
+   "en": "Polish president sides with opposition to Tusk in struggle for control of Constitutional Tribunal, which has already left four detained",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "es"
+  },
+  "201dca3a0a8f246b52295ad01a6c42cf25ebbf57988dd94903167ee24b661b4b": {
+   "en": "October brought losses in Chicago, climate uncertainty in Brazil and a record for Argentine wheat",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "es"
+  },
+  "d29376e2b30bf53009e36e04dc117b540f7169249fd1217a03cc4fb71f91761c": {
+   "en": "Iran's Supreme Leader Orders Military to Combat Readiness",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "id"
+  },
+  "d328084708be93bfe01d0ae26cd3472be78df6ea70db6e57d478a610620a56b8": {
+   "en": "Pinocchio and the Carabinieri: in Florence, legality is told through literature - News - Ansa.it",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "it"
+  },
+  "7846df05621dcdfb667bcd8f969507b59b1b33446ba76054bcd49c5ff1909fef": {
+   "en": "After 25 years, Los Pumas could leave the Tiro Federal facilities in San Justo",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "es"
+  },
+  "2886da191a132ffaad51ca5f1aaf044586350ae695653c80477555d035613b13": {
+   "en": "Occupation of state property: Cosentino municipality will not have to pay 110 thousand euros - News - Ansa.it",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "it"
+  },
+  "b9e40a88f39ed58eb3c234e36e7c4b4253e5926ebb41eaaeeaa522fcec241413": {
+   "en": "Mega-Sena 3079 rolls over and goes to R$ 42 million; 1 bet from MG hits the quina",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "pt"
+  },
+  "e940f28503e4f8026a0f39aa955a923a5a533ca3581e9dcd3ab43f94a496768c": {
+   "en": "Pensions: new Quota 100 or social APE? What early retirement will look like in 2027? The two routes in the Budget Law",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T01:09:13Z",
+   "lang": "it"
   }
  }
 }
