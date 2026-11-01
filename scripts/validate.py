@@ -161,6 +161,16 @@ def main():
                     errors.append(f"reading {rid} has an expectation without an id, a sentence, a reason or a date")
                 elif w.get("id") not in watch_ids:
                     errors.append(f"reading {rid} expectation {w['id']} is not in watch.json")
+        if readings.get("schemaVersion", 2) >= 5:
+            a = r.get("ahead") or {}
+            paths = a.get("paths") if isinstance(a.get("paths"), list) else []
+            if not a.get("precedent", "").strip() or not a.get("decade", "").strip() or not 2 <= len(paths) <= 3:
+                errors.append(f"reading {rid} must look ahead with a precedent, two or three paths and a decade")
+            if sum(1 for p in paths if p.get("weight") == "favoured") != 1:
+                errors.append(f"reading {rid} must favour exactly one path ahead")
+            for p in paths:
+                if not p.get("name", "").strip() or not p.get("text", "").strip() or not p.get("sign", "").strip():
+                    errors.append(f"reading {rid} has a path ahead without a name, a text or a first sign")
 
     # The ledger of expectations: ids unique, statuses known, a resolution exactly where the status says so.
     if watch:

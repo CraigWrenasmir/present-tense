@@ -746,8 +746,9 @@
       const sw = $('#standing-watch');
       if (sw && watch && watch.items && watch.items.length) {
         const items = watch.items, c = st => items.filter(w => w.status === st).length;
-        sw.hidden = false; sw.append(create('span', 'k', `WHAT TO WATCH FOR · ${items.length} SET · ${c('kept')} KEPT · ${c('failed')} FAILED · ${c('open')} OPEN`));
-        const a = create('a', 'text', 'the ledger ≋'); a.href = 'threads.html#watch'; sw.append(a);
+        const next = items.filter(w => w.status === 'open').map(w => w.by).sort()[0];
+        sw.hidden = false; sw.append(create('span', 'k', `AHEAD · ${c('open')} TO WATCH FOR${next ? ' · NEXT DUE ' + fmtDay(next).toUpperCase() : ''} · ${c('kept')} KEPT · ${c('failed')} FAILED`));
+        const a = create('a', 'text', 'where this goes →'); a.href = 'ahead.html'; sw.append(a);
       }
     }
     const box = $('#standing-threads'); box.replaceChildren();
@@ -810,6 +811,7 @@
     const kick = create('p', 'reading-kicker', r.kicker); if (r.firmness) kick.append(create('span', 'firmness ' + r.firmness, ` · ${r.firmness.toUpperCase()}`));
     body.append(kick, create('h2', 'reading-line', r.line));
     const wb = create('button', 'text walk-btn', '▷ walk this narrative'); wb.type = 'button'; wb.title = 'One step at a time: each event in the field, then each horizon back in time, then the case against'; wb.addEventListener('click', () => startWalk(r)); body.append(wb);
+    if ((r.ahead && r.ahead.paths && r.ahead.paths.length) || (r.watch && r.watch.length)) { const ab = create('button', 'text walk-btn ahead-btn', '→ where this goes'); ab.type = 'button'; ab.title = 'What to watch for, the paths and the precedent'; ab.addEventListener('click', () => { const el = $('.ahead', body); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }); body.append(ab); }
     if (r.events && r.events.length) body.append(eventsEl(r));
     const since = sinceEl(r); if (since) body.append(since);
     body.append(create('p', 'reading-claim', r.claim));
@@ -839,7 +841,7 @@
       ol.append(li);
     });
     body.append(ol);
-    const we = watchEl(r); if (we) body.append(we);
+    const ae = aheadEl(r); if (ae) body.append(ae);
     if (r.horizons && r.horizons.length) body.append(horizonsEl(r));
     const foot = create('div', 'reading-foot');
     const cites = create('span', 'cites', `${r.events && r.events.length ? r.events.length + ' events · ' : ''}${r.articleIds.length} headlines · ${new Set(r.articleIds.map(id => (byId.get(id) || {}).sourceCountry)).size} countries`);
@@ -853,34 +855,98 @@
   }
   /* Since the previous edition: what this narrative continues and what has changed, with a step back to the narrative it continues
      and, when a later edition carried it on, a step forward. */
-  /* What to watch for: the narrative's one or two expectations, with the ledger's verdict on each. An expectation
-     set by this edition is open until a later edition's writer finds a headline that keeps or fails it, or its date passes. */
+  /* Ahead: where this goes. The one framed thing in the drawer, apart from the evidence: the narrative's dated
+     expectations on a strip of the next four weeks with the ledger's verdict on each, then the writer's anticipation:
+     the paths it could take with one favoured, the precedent and the decade. Editions before November 2026 have the
+     expectations only, and editions before 31 October 2026 have neither. */
   const fmtDay = iso => { const d = new Date(iso); return isNaN(d) ? String(iso) : d.toLocaleString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' }); };
   const WATCH_WORD = { open: 'OPEN', kept: 'KEPT', failed: 'FAILED' };
-  function watchEl(r) {
-    if (!r.watch || !r.watch.length) return null;
+  const WEIGHT = { favoured: 0, possible: 1, unlikely: 2 };
+  const svgEl = (tag, attrs = {}) => { const el = document.createElementNS('http://www.w3.org/2000/svg', tag); for (const k in attrs) el.setAttribute(k, attrs[k]); return el; };
+  const dayOf = iso => Math.floor(new Date(iso).getTime() / 864e5);
+  function watchItems(r) {
     const ledger = new Map(((watch && watch.items) || []).map(w => [w.id, w]));
-    const wrap = create('section', 'watch');
-    wrap.append(create('p', 'sect', 'WHAT TO WATCH FOR · IF THE JOIN IS RIGHT'));
-    const ol = create('ol', 'watch-list');
-    r.watch.forEach(x => {
-      const w = (x.id && ledger.get(x.id)) || Object.assign({ status: 'open' }, x);
-      const li = create('li', 'watch-item ' + w.status);
-      const head = create('p', 'watch-head mono');
-      const when = w.status === 'open' ? `by ${fmtDay(w.by)}` : w.resolved && w.resolved.how === 'expired' ? `not reported by ${fmtDay(w.by)}` : `on ${fmtDay(w.resolved ? w.resolved.asOf : w.by)}`;
-      head.append(create('span', 'st', WATCH_WORD[w.status] || 'OPEN'), create('span', 'by', ` · ${when}`));
-      li.append(head, create('p', 'watch-what', w.what));
-      if (w.because) li.append(create('p', 'watch-because', w.because));
-      if (w.resolved) {
-        if (w.resolved.note) li.append(create('p', 'watch-note', w.resolved.note));
-        (w.resolved.headlines || []).forEach(h => { const a = create('a', 'watch-h'); a.href = h.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.append(create('span', 'w mono', `${h.publisher || ''}${h.sourceCountry ? ' · ' + h.sourceCountry : ''}`), create('span', 'q', (h.titleEnglish || h.title || '') + ' ↗')); li.append(a); });
-      }
-      ol.append(li);
+    return (r.watch || []).map(x => (x.id && ledger.get(x.id)) || Object.assign({ status: 'open' }, x));
+  }
+  /* The strip: the four weeks after the collection, a mark on each expectation's date (hollow while open, filled when
+     kept, crossed when failed) and a dashed line at today when today falls inside them. */
+  function stripEl(items, asOf) {
+    const W = 400, H = 50, x0 = 10, x1 = W - 10, ax = 30, d0 = dayOf(asOf), span = 28;
+    const X = d => x0 + (x1 - x0) * Math.max(0, Math.min(span, d)) / span;
+    const s = svgEl('svg', { class: 'ahead-strip', viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'The next four weeks, with a mark on each expectation' });
+    s.append(svgEl('line', { class: 'axis', x1: x0, x2: x1, y1: ax, y2: ax }));
+    for (let w = 0; w <= 4; w++) {
+      const x = X(w * 7); s.append(svgEl('line', { class: 'tick', x1: x, x2: x, y1: ax - 3, y2: ax + 3 }));
+      const t = svgEl('text', { x, y: ax + 14, 'text-anchor': w === 0 ? 'start' : w === 4 ? 'end' : 'middle' }); t.textContent = fmtDay(new Date((d0 + w * 7) * 864e5).toISOString()).toUpperCase(); s.append(t);
+    }
+    const today = dayOf(new Date().toISOString()) - d0;
+    if (today >= 0 && today <= span) {
+      const g = svgEl('g', { class: 'today' }), x = X(today);
+      g.append(svgEl('line', { x1: x, x2: x, y1: 4, y2: ax + 4 }));
+      const t = svgEl('text', { x: x + (today > span * 0.8 ? -4 : 4), y: 9, 'text-anchor': today > span * 0.8 ? 'end' : 'start' }); t.textContent = 'TODAY'; g.append(t); s.append(g);
+    }
+    const seen = {};
+    items.forEach((w, i) => {
+      const d = dayOf(w.by) - d0, x = X(d), lift = (seen[d] || 0) * 9; seen[d] = (seen[d] || 0) + 1;
+      const g = svgEl('g', { class: 'm ' + w.status });
+      if (w.status === 'failed') { g.append(svgEl('line', { x1: x - 4, x2: x + 4, y1: ax - 4 - lift, y2: ax + 4 - lift }), svgEl('line', { x1: x - 4, x2: x + 4, y1: ax + 4 - lift, y2: ax - 4 - lift })); }
+      else g.append(svgEl('circle', { cx: x, cy: ax - lift, r: 4.5 }));
+      const t = svgEl('text', { x, y: ax - 9 - lift, 'text-anchor': 'middle' }); t.textContent = String(i + 1); g.append(t);
+      const title = svgEl('title'); title.textContent = `${i + 1} · ${WATCH_WORD[w.status] || 'OPEN'} · by ${fmtDay(w.by)}: ${w.what}`; g.append(title);
+      s.append(g);
     });
-    wrap.append(ol);
+    return s;
+  }
+  function headlineLinks(w, cls) {
+    return (w.resolved && w.resolved.headlines || []).map(h => { const a = create('a', cls); a.href = h.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.append(create('span', 'w mono', `${h.publisher || ''}${h.sourceCountry ? ' · ' + h.sourceCountry : ''}`), create('span', 'q', (h.titleEnglish || h.title || '') + ' ↗')); return a; });
+  }
+  function aheadEl(r) {
+    const a = r.ahead && r.ahead.paths && r.ahead.paths.length ? r.ahead : null, items = watchItems(r);
+    if (!a && !items.length) return null;
+    const wrap = create('section', 'ahead'); wrap.id = 'ahead';
+    const bar = create('div', 'ahead-bar mono');
+    bar.append(create('span', 'ahead-title', 'AHEAD · WHERE THIS GOES'), create('span', 'ahead-firm', r.firmness ? `THE JOIN IS ${r.firmness.toUpperCase()}` : ''));
+    wrap.append(bar);
+    const inner = create('div', 'ahead-body');
+    if (items.length) {
+      inner.append(create('p', 'sect', 'WHAT TO WATCH FOR · THE NEXT FOUR WEEKS'), stripEl(items, readings.newsGeneratedAt));
+      const ol = create('ol', 'watch-list');
+      items.forEach((w, i) => {
+        const li = create('li', 'watch-item ' + w.status);
+        const head = create('p', 'watch-head mono');
+        const when = w.status === 'open' ? `by ${fmtDay(w.by)}` : w.resolved && w.resolved.how === 'expired' ? `not reported by ${fmtDay(w.by)}` : `on ${fmtDay(w.resolved ? w.resolved.asOf : w.by)}`;
+        head.append(create('span', 'n', String(i + 1)), create('span', 'st', WATCH_WORD[w.status] || 'OPEN'), create('span', 'by', ` · ${when}`));
+        li.append(head, create('p', 'watch-what', w.what));
+        if (w.because) li.append(create('p', 'watch-because', w.because));
+        if (w.resolved && w.resolved.note) li.append(create('p', 'watch-note', w.resolved.note));
+        headlineLinks(w, 'watch-h').forEach(x => li.append(x));
+        ol.append(li);
+      });
+      inner.append(ol);
+    }
+    if (a) {
+      inner.append(create('p', 'sect', 'THE PATHS · ONE FAVOURED · SELECT TO OPEN'));
+      const pl = create('ol', 'paths');
+      a.paths.slice().sort((x, y) => (WEIGHT[x.weight] ?? 1) - (WEIGHT[y.weight] ?? 1)).forEach(p => {
+        const li = create('li', 'path ' + p.weight + (p.weight === 'favoured' ? ' open' : ''));
+        const btn = create('button', 'path-btn'); btn.type = 'button'; btn.setAttribute('aria-expanded', String(p.weight === 'favoured'));
+        btn.append(create('span', 'pw mono', (p.weight || '').toUpperCase()), create('span', 'pn', p.name));
+        btn.addEventListener('click', () => { const open = li.classList.toggle('open'); btn.setAttribute('aria-expanded', String(open)); });
+        li.append(btn, create('p', 'path-text', p.text));
+        const sg = create('p', 'path-sign'); sg.append(create('span', 'mono', 'FIRST SIGN · '), document.createTextNode(p.sign)); li.append(sg);
+        pl.append(li);
+      });
+      inner.append(pl);
+      if (a.precedent) inner.append(create('p', 'sect', 'THE PRECEDENT'), create('p', 'ahead-text', a.precedent));
+      if (a.decade) inner.append(create('p', 'sect', 'AT THE SCALE OF A DECADE'), create('p', 'ahead-text', a.decade));
+    }
     const all = (watch && watch.items) || [], settled = all.filter(w => w.status !== 'open');
-    const a = create('a', 'text mono watch-score', settled.length ? `the site's record so far: ${settled.filter(w => w.status === 'kept').length} of ${settled.length} kept ≋` : 'the ledger of expectations ≋'); a.href = 'threads.html#watch'; wrap.append(a);
-    wrap.append(create('p', 'watch-foot', 'Checked by each later edition against its headlines: kept or failed only with a headline behind it; past its date, failed.'));
+    const foot = create('p', 'ahead-foot mono');
+    const link = create('a', 'text', settled.length ? `the site's record so far: ${settled.filter(w => w.status === 'kept').length} of ${settled.length} kept → Ahead` : 'every expectation and every path → Ahead'); link.href = 'ahead.html'; foot.append(link);
+    inner.append(foot, create('p', 'watch-foot', a
+      ? 'The paths, the precedent and the decade are the writer\'s anticipation, drawn on what it knows of history and not only on these headlines. The site holds it to the expectations above: each later edition marks one kept or failed only with a headline behind it, and past its date an open expectation is failed.'
+      : 'Checked by each later edition against its headlines: kept or failed only with a headline behind it; past its date, failed.'));
+    wrap.append(inner);
     return wrap;
   }
   function sinceEl(r) {
@@ -1024,9 +1090,11 @@
     (r.horizons || []).forEach(h => steps.push({ k: `HOW WE GOT HERE · ${h.lens || ''}`, h: h.label, t: h.text, ids: [], moments: h.trajectoryIds || [], fit: 'time' }));
     const brk = r.rungs.find(ru => ru.kind === 'break');
     if (brk) brk.fragments.forEach(f => steps.push({ k: 'THE CASE AGAINST', h: f.label, t: f.text, ids: f.articleIds || [], fit: 'reading' }));
+    const fav = r.ahead && (r.ahead.paths || []).find(p => p.weight === 'favoured');
+    if (fav) steps.push({ k: 'AHEAD · THE FAVOURED PATH', h: fav.name, t: `${fav.text} First sign: ${fav.sign}`, ids: r.articleIds, fit: 'reading' });
+    if (r.ahead && r.ahead.precedent) steps.push({ k: 'AHEAD · THE PRECEDENT', h: 'The last time', t: r.ahead.precedent, ids: [], fit: 'reading' });
     if (r.watch && r.watch.length) {
-      const ledger = new Map(((watch && watch.items) || []).map(w => [w.id, w]));
-      const said = r.watch.map(x => { const w = (x.id && ledger.get(x.id)) || x; const st = w.status && w.status !== 'open' ? ` ${w.status === 'kept' ? 'Kept' : 'Failed'}${w.resolved && w.resolved.how === 'expired' ? ': not reported by then.' : w.resolved && w.resolved.note ? ': ' + w.resolved.note : '.'}` : ''; return `${w.what} By ${fmtDay(w.by)}.${st}`; });
+      const said = watchItems(r).map(w => { const st = w.status && w.status !== 'open' ? ` ${w.status === 'kept' ? 'Kept' : 'Failed'}${w.resolved && w.resolved.how === 'expired' ? ': not reported by then.' : w.resolved && w.resolved.note ? ': ' + w.resolved.note : '.'}` : ''; return `${w.what} By ${fmtDay(w.by)}.${st}`; });
       steps.push({ k: 'WHAT TO WATCH FOR', h: 'If the join is right', t: said.join(' '), ids: r.articleIds, fit: 'reading' });
     }
     return steps;

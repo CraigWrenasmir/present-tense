@@ -141,6 +141,9 @@ def build_request(index, readings, previous):
         today.append(f"id: {r['id']}\nkicker: {r['kicker']}\nline: {r['line']}\nfirmness: {r.get('firmness') or '-'}\ncontinues: {r.get('continues') or '-'}\nchange: {r.get('change') or '-'}\nevents: " + "; ".join(e["label"] for e in r.get("events", [])) + f"\nclaim: {r['claim']}")
         if r.get("watch"):
             today.append("to watch for: " + "; ".join(f"{w['what']} (by {w['by']})" for w in r["watch"]))
+        fav = next((p for p in (r.get("ahead") or {}).get("paths", []) if p.get("weight") == "favoured"), None)
+        if fav:
+            today.append(f"the writer's favoured path ahead: {fav['name']}. {fav['text']}")
         brk = next((ru for ru in r["rungs"] if ru["kind"] == "break"), None)
         if brk:
             today.append("case against: " + " ".join(f["text"] for f in brk["fragments"]))

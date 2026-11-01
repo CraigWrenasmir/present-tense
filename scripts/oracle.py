@@ -15,6 +15,13 @@ a headline behind it, otherwise open; past their date the site closes them as
 failed. The ledger is never pruned, so the site's own record against its
 stated firmness can be read.
 
+Each narrative also looks ahead: the historical precedent its join most
+resembles, two or three paths it could take with exactly one favoured, and
+where the longer trajectory points. The expectations are the earliest dated
+signs of the favoured path, so when they fail the path they stood for is in
+doubt. This is the writer's anticipation, drawn on what it knows of history
+and politics and not only on the headlines, and it is labelled as such.
+
 The request goes through the Message Batches API, which runs the same model at
 half the price. A run submits the batch, waits up to ORACLE_WAIT_MINUTES for it,
 and if it has not finished leaves it pending in data/oracle-pending.json for the
@@ -83,7 +90,8 @@ Compose an edition of narratives. Each narrative has:
 - kicker: three plain words in capitals separated by " / " that name the terms of the idea, for example "OIL / A WAR / THE TRANSITION" or "BONDS / PENSIONS / BUDGETS". The terms of the idea, not a list of the products or places in the evidence, and not the same nouns the line uses. Subjects, not images.
 - events: three to six entries, each a short plain label of two to eight words naming one distinct event or development the narrative joins, with the ids of the headlines about that event. The entries must be about different things, not the same event in different countries. Every headline the narrative cites should belong to one entry, and no entry may hold more than half of the narrative's headlines. This list is shown to the reader at the top of the narrative as what it joins.
 - firmness: "firm", "plausible" or "tentative", chosen honestly. Firm: the cause, actor or mechanism is named in the headlines themselves and the join would be hard to deny. Plausible: the join is a reasonable reading that a careful reader could contest. Tentative: the pattern may be an artefact of the sample, of English, or of one day. An edition of five firm narratives is not credible; a tentative narrative is worth publishing when it says so. The site shows the word to the reader and, in time, checks it against what the join went on to predict.
-- watch: one or two things to watch for, each a test of the join. If the join is right, something should follow that this collection, or a later one, would report. Each has what: one plain sentence of at most 160 characters saying what a headline would report, specific enough that a reader could say yes or no on seeing it ("A central bank outside the G7 names the war in a rate decision", "A second European country pauses data centre approvals over power or water"); by: the date, written as YYYY-MM-DD, by which it should have appeared if the join holds, between four and twenty-eight days after the collection's date given at the top; and because: one sentence saying why the join, rather than any one of its events on its own, predicts it. An expectation that would be met even if the events were unrelated tests nothing. A scheduled event (a vote on a known date) is not an expectation unless the expectation is about its outcome. "Prices will move" and "pressure will grow" are not expectations, because no headline could fail them. The site checks every expectation against later collections and records, beside the narrative's firmness, whether it was kept, failed, or ran out of time. Write them as you would want to be judged: a firm narrative should expect more than a tentative one.
+- watch: one or two things to watch for, each a test of the join. If the join is right, something should follow that this collection, or a later one, would report. Each has what: one plain sentence of at most 160 characters saying what a headline would report, specific enough that a reader could say yes or no on seeing it ("A central bank outside the G7 names the war in a rate decision", "A second European country pauses data centre approvals over power or water"); by: the date, written as YYYY-MM-DD, by which it should have appeared if the join holds, between four and twenty-eight days after the collection's date given at the top; and because: one sentence saying why the join, rather than any one of its events on its own, predicts it. An expectation that would be met even if the events were unrelated tests nothing. A scheduled event (a vote on a known date) is not an expectation unless the expectation is about its outcome. "Prices will move" and "pressure will grow" are not expectations, because no headline could fail them. The site checks every expectation against later collections and records, beside the narrative's firmness, whether it was kept, failed, or ran out of time. Write them as you would want to be judged: a firm narrative should expect more than a tentative one. The expectations are the earliest dated signs of the path you favour in ahead, below: if they fail, the path they stood for is in doubt, and the site will show that.
+- ahead: where this goes. This is the one place you are asked to anticipate, and to draw on everything you know of history, politics and economics, not only on the headlines. It has three parts. precedent: two to four sentences naming the past case this join most resembles, with its dates, how it went, and where the present differs from it ("The last time the Gulf states and Russia cut output into a slowing world economy was 2016; the price recovered within a year, but then China was still growing at seven per cent"). Name the case; do not gesture at "history shows". paths: two or three ways this could go over the coming weeks to a year, each with name (two to six plain words naming the outcome, not an image: "Subsidies return before the vote", "The strikes spread to ports"), weight ("favoured", "possible" or "unlikely"; exactly one path is favoured, and you must choose), text (two to four sentences saying what happens, roughly when, and why this join points that way), and sign (one sentence saying the first thing a headline would report if this path is under way). Commit to the favoured path and say why the others are less likely; a set of paths that hedges across every outcome tells the reader nothing. decade: one or two sentences saying where the trajectory in the horizons points over the next ten years, at the scale of the line. If the narrative continues one whose expectations failed, do not favour the same path again without saying what has changed. Plain words throughout, dates and institutions named, no metaphor. The reader is shown this as the writer's anticipation, apart from the evidence, and the site checks it only through the expectations above.
 - continues: the id of the narrative in the previous edition that this one carries forward, if any; otherwise an empty string. A narrative continues an earlier one when it follows the same join or the same events a day later, not merely the same topic.
 - change: if continues is set, one to three plain sentences saying what has changed since that narrative: what moved, what was confirmed, what fell away. If continues is empty, an empty string. This is shown to the reader as "Since the previous edition", so write it for them.
 - claim: two to four sentences, read first when the narrative is opened. The first sentence names the joined events: who, what, where, so that a reader knows at once what has been connected. The rest states the idea and why the join matters. Written for an intelligent general reader in plain descriptive prose. Commit to the interpretation. No disclaimers, and no closing flourish: do not end a paragraph on an epigram or a line designed to be quoted.
@@ -140,6 +148,29 @@ SCHEMA = {
                             "required": ["what", "by", "because"],
                             "additionalProperties": False,
                         },
+                    },
+                    "ahead": {
+                        "type": "object",
+                        "properties": {
+                            "precedent": {"type": "string", "description": "the past case this most resembles, dated, and where the present differs"},
+                            "paths": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "name": {"type": "string", "description": "two to six plain words naming the outcome"},
+                                        "weight": {"type": "string", "enum": ["favoured", "possible", "unlikely"]},
+                                        "text": {"type": "string"},
+                                        "sign": {"type": "string", "description": "the first thing a headline would report if this path is under way"},
+                                    },
+                                    "required": ["name", "weight", "text", "sign"],
+                                    "additionalProperties": False,
+                                },
+                            },
+                            "decade": {"type": "string"},
+                        },
+                        "required": ["precedent", "paths", "decade"],
+                        "additionalProperties": False,
                     },
                     "continues": {"type": "string", "description": "id of the previous edition's narrative this continues, or empty"},
                     "change": {"type": "string", "description": "what has changed since that narrative, or empty"},
@@ -203,7 +234,7 @@ SCHEMA = {
                     },
                 },
                 },
-                "required": ["id", "line", "kicker", "firmness", "watch", "continues", "change", "claim", "events", "rungs", "horizons"],
+                "required": ["id", "line", "kicker", "firmness", "watch", "ahead", "continues", "change", "claim", "events", "rungs", "horizons"],
                 "additionalProperties": False,
             },
         },
@@ -335,6 +366,7 @@ def validate(edition, news, library):
         if r.get("firmness") not in ("firm", "plausible", "tentative"):
             problems.append(f"{r['id']}: firmness must be firm, plausible or tentative")
         problems.extend(f"{r['id']}: {p}" for p in check_watch(r))
+        problems.extend(f"{r['id']}: {p}" for p in check_ahead(r))
         problems.extend(f"{r['id']}: {p}" for p in check_horizon_spans(r.get("horizons", [])))
         for h in r.get("horizons", []):
             words = len(h.get("text", "").split())
@@ -390,7 +422,7 @@ def check_horizon_spans(horizons, allow_old=False):
 
 def refuse_narratives(edition, by):
     """A narrative that breaks the tile rules (a line that lists its evidence or names a publisher, a missing
-    firmness, no usable expectation to watch for) is refused on its own; the edition stands with the rest as long as three remain. Returns the reasons."""
+    firmness, no usable expectation to watch for, no favoured path ahead) is refused on its own; the edition stands with the rest as long as three remain. Returns the reasons."""
     readings = edition.get("readings", [])
     bad = {}
     for r in readings:
@@ -398,6 +430,7 @@ def refuse_narratives(edition, by):
         if r.get("firmness") not in ("firm", "plausible", "tentative"):
             reasons.append("no firmness")
         reasons.extend(check_watch(r))
+        reasons.extend(check_ahead(r))
         if reasons:
             bad[r.get("id", "?")] = reasons
     if not bad or len(readings) - len(bad) < 3:
@@ -471,6 +504,34 @@ def check_watch(reading):
             out.append(f"expectation {i} gives no reason")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(w.get("by", "")).strip()):
             out.append(f"expectation {i} has no date of the form YYYY-MM-DD")
+    return out
+
+
+def check_ahead(reading):
+    """Where this goes: a precedent, two or three named paths with exactly one favoured (each with a text and a
+    first sign), and a sentence at the scale of a decade."""
+    a = reading.get("ahead")
+    if not isinstance(a, dict):
+        return ["nothing ahead (need a precedent, two or three paths and a decade)"]
+    out = []
+    if len((a.get("precedent") or "").split()) < 12:
+        out.append("the precedent ahead is missing or too short")
+    paths = a.get("paths")
+    if not isinstance(paths, list) or not 2 <= len(paths) <= 3:
+        out.append(f"{0 if not isinstance(paths, list) else len(paths)} paths ahead (need two or three)")
+    else:
+        if sum(1 for p in paths if p.get("weight") == "favoured") != 1:
+            out.append("exactly one path ahead must be favoured")
+        for i, p in enumerate(paths, 1):
+            name = (p.get("name") or "").strip()
+            if not 1 <= len(name.split()) <= 8:
+                out.append(f"path {i} ahead has no name of two to six words")
+            if len((p.get("text") or "").split()) < 10:
+                out.append(f"path {i} ahead has no text")
+            if not (p.get("sign") or "").strip():
+                out.append(f"path {i} ahead has no first sign")
+    if not (a.get("decade") or "").strip():
+        out.append("nothing ahead at the scale of a decade")
     return out
 
 
@@ -666,12 +727,12 @@ def collect(client, state, pending, library):
         cited.extend(i for i in ids if i not in cited)
     usage = {"input": message.usage.input_tokens, "output": message.usage.output_tokens, "tier": "batch"}
     out = {
-        "schemaVersion": 4,
+        "schemaVersion": 5,
         "generatedAt": now_iso(),
         "newsGeneratedAt": pending["newsGeneratedAt"],
         "method": "claude-api-batch",
         "model": message.model,
-        "promptVersion": "narrative-6",
+        "promptVersion": "narrative-7",
         "previousNewsGeneratedAt": previous.get("newsGeneratedAt"),
         "usage": usage,
         "notes": [
@@ -680,6 +741,7 @@ def collect(client, state, pending, library):
             "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
             "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
             "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+            "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
             "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
             "Books and trajectories appear only where they change how a fragment or a horizon reads.",
         ],
@@ -689,7 +751,7 @@ def collect(client, state, pending, library):
     }
     if edition.get("refused"):
         out["refused"] = edition["refused"]
-        out["notes"].append("One or more narratives in this edition were refused by the site's own rules (a tile line that listed its evidence or named a publisher, or no stated firmness) and are not shown; the ids and reasons are kept in this file under 'refused'.")
+        out["notes"].append("One or more narratives in this edition were refused by the site's own rules (a tile line that listed its evidence or named a publisher, no stated firmness, no usable expectation or no favoured path ahead) and are not shown; the ids and reasons are kept in this file under 'refused'.")
     (DATA / "readings.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
     note(state, "ok", batchId=pending["batchId"], usage=usage)
     n_watch = sum(len(r.get("watch") or []) for r in out["readings"])
