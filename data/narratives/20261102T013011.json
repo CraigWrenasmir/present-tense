@@ -1,0 +1,1890 @@
+{
+  "schemaVersion": 5,
+  "generatedAt": "2026-11-02T01:39:52Z",
+  "newsGeneratedAt": "2026-11-02T01:30:11Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-7",
+  "previousNewsGeneratedAt": "2026-11-01T01:08:41Z",
+  "usage": {
+    "input": 47895,
+    "output": 56861,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-df66e76856d1bf",
+      "title": "\"أكسيوس\": نتنياهو يضغط على ترامب لشن هجوم واسع على إيران فور انتهاء انتخابات التجديد النصفي - جريدة الأنباء الإلكترونية",
+      "titleEnglish": "\"Axios\": Netanyahu presses Trump to launch a broad attack on Iran as soon as midterm elections end - Al-Anbaa Online",
+      "url": "https://anbaaonline.com/news/347143",
+      "publisher": "جريدة الأنباء الإلكترونية",
+      "publisherDomain": "anbaaonline.com",
+      "publishedAt": "2026-11-01T18:12:44Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Lebanon",
+      "sourceCountryCode": "LB",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33.9,
+      "sourceLon": 35.9,
+      "language": "ar"
+    },
+    {
+      "id": "n-d76f05f61f3a0d",
+      "title": "\"أكسيوس\": ترامب يفضل حالياً إتاحة الفرصة للمفاوضات وهي استراتيجية تثير قلق نتنياهو - جريدة الأنباء الإلكترونية",
+      "titleEnglish": "\"Axios\": Trump currently prefers to give negotiations a chance, a strategy that worries Netanyahu - Al-Anbaa Online",
+      "url": "https://anbaaonline.com/news/347144",
+      "publisher": "جريدة الأنباء الإلكترونية",
+      "publisherDomain": "anbaaonline.com",
+      "publishedAt": "2026-11-01T18:25:43Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Lebanon",
+      "sourceCountryCode": "LB",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33.9,
+      "sourceLon": 35.9,
+      "language": "ar"
+    },
+    {
+      "id": "n-fef5e493134b4e",
+      "title": "ترامب: المفاوضات مع إيران تسير على نحو جيد | مصراوي",
+      "titleEnglish": "Trump: Negotiations with Iran are going well | Masrawy",
+      "url": "https://www.masrawy.com/news/news_publicaffairs/details/2026/11/1/3072027/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D9%85%D8%B9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D8%B3%D9%8A%D8%B1-%D8%B9%D9%84%D9%89-%D9%86%D8%AD%D9%88-%D8%AC%D9%8A%D8%AF",
+      "publisher": "مصراوي.كوم",
+      "publisherDomain": "masrawy.com",
+      "publishedAt": "2026-11-01T16:47:00Z",
+      "seenAt": "2026-11-01T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-92021a9446f38a",
+      "title": "伊朗外长披露\"两天计划\" 美方履约方能重启伊美谈判",
+      "titleEnglish": "Iranian foreign minister discloses \"two-day plan\": US must fulfil its obligations for Iran-US talks to resume",
+      "url": "https://www.yicai.com/news/103420520.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-11-02T00:17:00Z",
+      "seenAt": "2026-11-02T00:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-86beb0a54cf2ae",
+      "title": "مستشار مجتبى خامنئي: الاستراتيجية العسكرية الإيرانية تشهد \"تحولا سريعا\" وردنا على أي هجوم لن يلتزم بالجغرافيا - جريدة الأنباء الإلكترونية",
+      "titleEnglish": "Adviser to Mojtaba Khamenei: Iran's military strategy is undergoing \"rapid transformation\" and our response to any attack will not be bound by geography - Al-Anbaa Online",
+      "url": "https://anbaaonline.com/news/347146",
+      "publisher": "جريدة الأنباء الإلكترونية",
+      "publisherDomain": "anbaaonline.com",
+      "publishedAt": "2026-11-01T18:48:19Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Lebanon",
+      "sourceCountryCode": "LB",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33.9,
+      "sourceLon": 35.9,
+      "language": "ar"
+    },
+    {
+      "id": "n-78c7344b6b6175",
+      "title": "Irã classifica Marinha e Força Aérea Real do Reino Unido como organizações terroristas - Jornal de Brasília",
+      "titleEnglish": "Iran classifies UK Royal Navy and Royal Air Force as terrorist organizations - Jornal de Brasília",
+      "url": "https://jornaldebrasilia.com.br/noticias/mundo/ira-classifica-marinha-e-forca-aerea-real-do-reino-unido-como-organizacoes-terroristas/",
+      "publisher": "Jornal de Brasília",
+      "publisherDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-11-01T16:17:00Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-c3925f49931b09",
+      "title": "La demócrata Haley Stevens da la espalda a El-Sayed y apoya al republicano Mike Rogers en la carrera al Senado por Míchigan a dos días de las elecciones",
+      "titleEnglish": "Democrat Haley Stevens turns her back on El-Sayed and endorses Republican Mike Rogers in the Michigan Senate race two days before the election",
+      "url": "https://www.elmundo.es/internacional/2026/11/01/6ae78c00e4d4d8dd178b4583.html",
+      "publisher": "El Mundo",
+      "publisherDomain": "elmundo.es",
+      "publishedAt": "2026-11-01T19:02:09Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-4172cd6e4aeb83",
+      "title": "Analysis: Republicans face a midterm reckoning of Trump’s making",
+      "titleEnglish": "Analysis: Republicans face a midterm reckoning of Trump’s making",
+      "url": "https://www.niagarafallsreview.ca/news/world/united-states/analysis-republicans-face-a-midterm-reckoning-of-trump-s-making/article_2857ef22-19cc-506c-a033-aa074fa76e72.html",
+      "publisher": "Niagara Falls Review",
+      "publisherDomain": "niagarafallsreview.ca",
+      "publishedAt": "2026-11-01T16:17:00Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
+    },
+    {
+      "id": "n-64a03dc6532ce4",
+      "title": "Το ισραηλινό λόμπι των ΗΠΑ αλλάζει τα ρούχα του",
+      "titleEnglish": "The Israeli lobby in the US is changing its clothes",
+      "url": "https://www.efsyn.gr/themata/1500410/to-israilino-lompi-ton-ipa-allazei-ta-royha-toy/",
+      "publisher": "Η Εφημερίδα των Συντακτών",
+      "publisherDomain": "efsyn.gr",
+      "publishedAt": "2026-11-01T18:21:39Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-8c03a16babb7d7",
+      "title": "Trump White House maps path to govern without Congress if Democrats win",
+      "titleEnglish": "Trump White House maps path to govern without Congress if Democrats win",
+      "url": "https://www.rnz.co.nz/news/world/2292280/trump-white-house-maps-path-to-govern-without-congress-if-democrats-win",
+      "publisher": "RNZ",
+      "publisherDomain": "rnz.co.nz",
+      "publishedAt": "2026-11-01T19:17:00Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-a4bc008e0181db",
+      "title": "布伦特原油期货跌幅扩大至2%，报111.14美元/桶",
+      "titleEnglish": "Brent crude futures extend losses to 2%, quoted at $111.14 per barrel",
+      "url": "https://www.nbd.com.cn/articles/2026-11-02/4633821.html",
+      "publisher": "nbd.com.cn",
+      "publisherDomain": "nbd.com.cn",
+      "publishedAt": "2026-11-02T01:17:00Z",
+      "seenAt": "2026-11-02T01:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-ddc3e02e544ee5",
+      "title": "Everything changed for the oil, AI and bond trades over the past month",
+      "titleEnglish": "Everything changed for the oil, AI and bond trades over the past month",
+      "url": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-01T15:58:24Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-95855f8f47cb6b",
+      "title": "جماعة أنصار الله: غارات سعودية تستهدف ميناء الحديدة ومناطق عدة في اليمن - BBC News عربي",
+      "titleEnglish": "Ansarallah group: Saudi raids target Hodeidah port and several areas in Yemen - BBC News Arabic",
+      "url": "https://www.bbc.com/arabic/articles/c6y4xe1557xdo",
+      "publisher": "BBC News عربي",
+      "publisherDomain": "bbc.com",
+      "publishedAt": "2026-11-01T18:45:35Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "ar"
+    },
+    {
+      "id": "n-dbd8fbf129039d",
+      "title": "Yemeni forces report 1,272 strikes on Houthis in 24 hours, retake positions in Al-Jawf",
+      "titleEnglish": "Yemeni forces report 1,272 strikes on Houthis in 24 hours, retake positions in Al-Jawf",
+      "url": "https://www.arabnews.com/middle-east/yemeni-forces-report-1272-strikes-on-houthis-in-24-hours-retake-positions-in-al-jawf-3009284",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-01T16:42:48Z",
+      "seenAt": "2026-11-01T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-e1dc7480eba866",
+      "title": "Bulgaria's incumbent president wins presidential runoff: exit polls",
+      "titleEnglish": "Bulgaria's incumbent president wins presidential runoff: exit polls",
+      "url": "https://english.news.cn/20261102/38c525c548af4c5d8e0817a238e6088a/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-11-02T00:17:00Z",
+      "seenAt": "2026-11-02T00:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-75ae5948d6d854",
+      "title": "Гюров признал поражение на выборах в Болгарии",
+      "titleEnglish": "Gyurov admits defeat in Bulgarian elections",
+      "url": "https://iz.ru/2194656/2026-11-02/giurov-priznal-porazhenie-na-vyborakh-v-bolgarii",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-11-02T00:14:13Z",
+      "seenAt": "2026-11-02T00:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-616db386c84969",
+      "title": "На живо: балотаж между Йотова и Гюров. Колко е разликата между тях?",
+      "titleEnglish": "Live: runoff between Yotova and Gyurov. What is the difference between them?",
+      "url": "https://www.dw.com/bg/na-zivo-balotaz-mezdu-jotova-i-gurov-kolko-e-razlikata-mezdu-tah/live-79756584",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-01T16:17:00Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "bg"
+    },
+    {
+      "id": "n-253a135cba73a3",
+      "title": "Israel elections chief says inquiry into irregularities will not undermine result",
+      "titleEnglish": "Israel elections chief says inquiry into irregularities will not undermine result",
+      "url": "https://www.arabnews.com/middle-east/israel-elections-chief-says-inquiry-into-irregularities-will-not-undermine-result-3009292",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-01T18:36:40Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-fb9f4ac81e7d1a",
+      "title": "حزب \"الليكود\": سحابة سوداء تخيّم على نتائج الانتخابات الإسرائيليّة حتّى ينتهي التحقيق - جريدة الأنباء الإلكترونية",
+      "titleEnglish": "Likud party: black cloud hangs over Israeli election results until investigation ends - Al-Anbaa Online",
+      "url": "https://anbaaonline.com/news/347145",
+      "publisher": "جريدة الأنباء الإلكترونية",
+      "publisherDomain": "anbaaonline.com",
+      "publishedAt": "2026-11-01T18:43:40Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Lebanon",
+      "sourceCountryCode": "LB",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33.9,
+      "sourceLon": 35.9,
+      "language": "ar"
+    },
+    {
+      "id": "n-9381b9e5d3bc18",
+      "title": "איזנקוט בירך, בליכוד הטילו ספק: תגובת המפלגות להצהרת סולברג | וואלה חדשות",
+      "titleEnglish": "Eisenkot congratulated, Likud cast doubt: parties' reactions to Sollberg's statement | Walla News",
+      "url": "https://www.walla.co.il:443/news/politics/383959718",
+      "publisher": "walla.co.il",
+      "publisherDomain": "walla.co.il",
+      "publishedAt": "2026-11-01T19:17:00Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
+    },
+    {
+      "id": "n-e4baf393248d18",
+      "title": "喊讓選委會主席下台…印度反對派號召5萬人示威 蟑螂人民黨保持中立不參加 | 聯合新聞網",
+      "titleEnglish": "Calling for the election commission chair to step down… Indian opposition calls 50,000 to protest; Cockroach People's Party stays neutral and does not join | UDN",
+      "url": "https://udn.com/news/story/6809/9850554",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-11-01T12:53:42Z",
+      "seenAt": "2026-11-01T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-7cedd779756645",
+      "title": "رويترز: مساعدو ترمب يرسمون مسارا للحكم بدون الكونغرس إذا فاز الديمقراطيون‏",
+      "titleEnglish": "Reuters: Trump aides mapping out a path to governing without Congress if Democrats win",
+      "url": "https://www.aljazeera.net/news/2026/11/1/%D8%B1%D9%88%D9%8A%D8%AA%D8%B1%D8%B2-%D8%A7%D9%84%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D9%8A%D8%B6%D8%B9-%D8%AE%D8%B7%D8%B7%D8%A7-%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-01T16:47:00Z",
+      "seenAt": "2026-11-01T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-8c58040f912372",
+      "title": "U.S. mid-term elections: How officials are facing the heat",
+      "titleEnglish": "U.S. mid-term elections: How officials are facing the heat",
+      "url": "https://www.thehindu.com/opinion/op-ed/us-mid-term-elections-how-officials-are-facing-the-heat/article71653990.ece",
+      "publisher": "The Hindu",
+      "publisherDomain": "thehindu.com",
+      "publishedAt": "2026-11-01T18:44:12Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-70ac4ef4510844",
+      "title": "Dan Sullivan accepteert verkiezingsuitslag in Alaska",
+      "titleEnglish": "Dan Sullivan accepts election result in Alaska",
+      "url": "https://nieuws.nl/buitenland/senator-sullivan-zal-verkiezingsresultaat-in-alaska-accepteren",
+      "publisher": "Nieuws.nl",
+      "publisherDomain": "nieuws.nl",
+      "publishedAt": "2026-11-01T15:52:44Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-258810a69aed57",
+      "title": "\"Вторият Съливан\" в Аляска: дали това е трик на демократите?",
+      "titleEnglish": "\"The second Sullivan\" in Alaska: is this a Democratic trick?",
+      "url": "https://www.dw.com/bg/alaska-skroiha-li-demokratite-nomer-na-republikancite/a-79822274",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-01T16:17:00Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "bg"
+    },
+    {
+      "id": "n-f19b378568e397",
+      "title": "No-cost EMI: a loan that is portrayed as free",
+      "titleEnglish": "No-cost EMI: a loan that is portrayed as free",
+      "url": "https://www.thehindu.com/business/Economy/no-cost-emi-a-loan-that-is-portrayed-as-free/article71651979.ece",
+      "publisher": "The Hindu",
+      "publisherDomain": "thehindu.com",
+      "publishedAt": "2026-11-02T00:41:00Z",
+      "seenAt": "2026-11-02T01:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-cf412ed6c4a435",
+      "title": "Kysyimme asiakkailta: Kauppojen tiedonkeruu harmittaa, mutta etukorteista ei haluta luopua",
+      "titleEnglish": "We asked customers: data collection by shops annoys them, but they do not want to give up loyalty cards",
+      "url": "https://yle.fi/a/74-20254468",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-01T15:35:30Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-b788ca654679b3",
+      "title": "ব্যক্তি পর্যায়ের লেনদেনে কিউআর কোড চালু",
+      "titleEnglish": "QR code launched for person-to-person transactions",
+      "url": "https://bangla.bdnews24.com/business/j417lh23zj",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bangla.bdnews24.com",
+      "publishedAt": "2026-11-01T16:04:31Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "bn"
+    },
+    {
+      "id": "n-6b61af24fe18a3",
+      "title": "Tak Selalu Ketinggalan Zaman, Ini 7 Sifat Orang yang Lebih Memilih Membayar dengan Uang Tunai",
+      "titleEnglish": "Not always behind the times: 7 traits of people who prefer paying with cash",
+      "url": "https://www.jawapos.com/kepribadian/2611010389/tak-selalu-ketinggalan-zaman-ini-7-sifat-orang-yang-lebih-memilih-membayar-dengan-uang-tunai",
+      "publisher": "www.jawapos.com",
+      "publisherDomain": "jawapos.com",
+      "publishedAt": "2026-11-01T15:44:07Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-f6a390c9999aa2",
+      "title": "Historian suurin virtuaalivaluuttoihin kohdistunut tietomurto osui Binanceen ja paljasti alan tietoturvariskit",
+      "titleEnglish": "Largest data breach targeting virtual currencies in history hit Binance and revealed industry security risks",
+      "url": "https://yle.fi/a/74-20254456",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-01T18:38:21Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-8ea027cfa3b897",
+      "title": "FBI acusa Coreia do Norte de estar por trás do maior roubo da história em criptomoedas",
+      "titleEnglish": "FBI accuses North Korea of being behind the largest cryptocurrency heist in history",
+      "url": "https://www.dw.com/pt-br/fbi-acusa-coreia-do-norte-do-maior-roubo-da-hist%C3%B3ria-em-criptomoedas/a-79822996",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-01T16:17:00Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "pt"
+    },
+    {
+      "id": "n-9680436e045b3d",
+      "title": "‘Govt official’ promises benefits, cheats 60-year-old of gold and cash worth ₹5L in Ahmedabad",
+      "titleEnglish": "‘Govt official’ promises benefits, cheats 60-year-old of gold and cash worth ₹5L in Ahmedabad",
+      "url": "https://timesofindia.indiatimes.com/city/ahmedabad/govt-official-promises-benefits-cheats-60-year-old-of-gold-and-cash-worth-5l-in-ahmedabad/articleshow/135436194.cms",
+      "publisher": "The Times of India",
+      "publisherDomain": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-11-01T19:17:00Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-dcb26c2828821f",
+      "title": "Le Centre hospitalier de Mont-de-Marsan lance un appel à la vigilance face à une escroquerie",
+      "titleEnglish": "Mont-de-Marsan Hospital Centre calls for vigilance against a scam",
+      "url": "https://www.sudouest.fr:443/sante/le-centre-hospitalier-de-mont-de-marsan-lance-un-appel-a-la-vigilance-face-a-une-escroquerie-31337946.php",
+      "publisher": "SudOuest.fr",
+      "publisherDomain": "sudouest.fr",
+      "publishedAt": "2026-11-01T19:17:00Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-63ab37117ef865",
+      "title": "Pensioni, come cambieranno nel 2027 (sino a 25.000 euro nessun taglio): le tre fasce e le simulazioni",
+      "titleEnglish": "Pensions, how they will change in 2027 (no cuts up to 25,000 euros): the three bands and simulations",
+      "url": "https://www.ilmessaggero.it/economia/news/pensioni_2027_come_cambiano_importi_simulazioni_manovra-9862522.html",
+      "publisher": "ilmessaggero.it",
+      "publisherDomain": "ilmessaggero.it",
+      "publishedAt": "2026-11-01T15:46:33Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-4fff7186467eac",
+      "title": "Statali, Tfs più veloce: liquidazione in 9 mesi dal 2027. E bonus fiscale sul salario accessorio fino a 800 euro",
+      "titleEnglish": "Civil servants, faster severance: payout in 9 months from 2027. And tax bonus on accessory pay up to 800 euros",
+      "url": "https://www.ilmessaggero.it:443/economia/news/statali_liquidazione_quando_arriva_nuove_regole_quali_sono-9862836.html",
+      "publisher": "ilmessaggero.it",
+      "publisherDomain": "ilmessaggero.it",
+      "publishedAt": "2026-11-01T23:05:24Z",
+      "seenAt": "2026-11-02T00:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-13511b5ab481cc",
+      "title": "Welfare e protesta: la fine di una stagione",
+      "titleEnglish": "Welfare and protest: the end of a season",
+      "url": "https://www.ilmessaggero.it:443/editoriali/primopiano/welfare_e_protesta_la_fine_di_una_stagione-9862892.html",
+      "publisher": "ilmessaggero.it",
+      "publisherDomain": "ilmessaggero.it",
+      "publishedAt": "2026-11-01T23:29:42Z",
+      "seenAt": "2026-11-02T00:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-d3cec50defd752",
+      "title": "Manovra, 358 milioni per gli ammortizzatori sociali, 15 all'ex Ilva - Notizie - Ansa.it",
+      "titleEnglish": "Budget: 358 million for social shock absorbers, 15 for former Ilva - News - Ansa.it",
+      "url": "https://www.ansa.it/liguria/notizie/2026/11/01/manovra-358-milioni-per-gli-ammortizzatori-sociali-15-allex-ilva_3668cd59-8bee-4400-aaf5-7a88f093728c.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-01T14:40:00Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-489b0a240a63e5",
+      "title": "Manovra: 17 milioni per le alluvioni in Emilia-Romagna, Marche e Toscana - Ultima ora - Ansa.it",
+      "titleEnglish": "Budget: 17 million for floods in Emilia-Romagna, Marche and Tuscany - Latest news - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/manovra-17-milioni-per-le-alluvioni-in-emilia-romagna-marche-e-toscana_3f8b6cd1-d92a-4d07-a3f5-88155f652d59.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-01T16:01:00Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-f0180c5f1b1c7c",
+      "title": "Manovra: per il reddito di libertà delle donne 2 milioni in più all'anno - Ultima ora - Ansa.it",
+      "titleEnglish": "Budget: 2 million more per year for women's freedom income - Latest news - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/manovra-per-il-reddito-di-liberta-delle-donne-2-milioni-in-piu-allanno_3d35079a-94c3-4cc1-8a89-410e313aa0e6.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-01T15:59:00Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-05f7f2d80d4d43",
+      "title": "John Healey promises benefits bill ‘will come down under Labour’",
+      "titleEnglish": "John Healey promises benefits bill ‘will come down under Labour’",
+      "url": "https://www.bournemouthecho.co.uk/news/national/26687924.john-healey-promises-benefits-bill-will-come-labour/",
+      "publisher": "Bournemouth Echo",
+      "publisherDomain": "bournemouthecho.co.uk",
+      "publishedAt": "2026-11-01T19:17:00Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-d4a51f3adb7e0d",
+      "title": "Los economistas alertan sobre la difícil situación que atraviesa un autónomo estando de baja: \"180 euros para pasar el mes\"",
+      "titleEnglish": "Economists warn about the difficult situation of a self-employed worker on sick leave: \"180 euros to get through the month\"",
+      "url": "https://www.marca.com/tiramillas/economia/2026/11/01/economistas-alertan-sobre-dificil-situacion-atraviesa-autonomo-estando-baja-180-euros-pasar-mes.html",
+      "publisher": "MARCA",
+      "publisherDomain": "marca.com",
+      "publishedAt": "2026-11-01T16:01:13Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-13dc03be866a75",
+      "title": "El Tribunal de Cuentas alerta de las irregularidades en las ayudas destinadas a los autónomos durante la pandemia",
+      "titleEnglish": "Court of Auditors warns of irregularities in aid for the self-employed during the pandemic",
+      "url": "https://www.marca.com/tiramillas/economia/2026/11/01/tribunal-cuentas-alerta-irregularidades-ayudas-destinadas-autonomos-durante-pandemia.html",
+      "publisher": "MARCA",
+      "publisherDomain": "marca.com",
+      "publishedAt": "2026-11-01T16:01:12Z",
+      "seenAt": "2026-11-01T16:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-b8bd86c78cb207",
+      "title": "Россиянам напомнили о трех формах получения пенсионных накоплений",
+      "titleEnglish": "Russians reminded of three ways to receive pension savings",
+      "url": "https://lenta.ru/news/2026/11/01/rossiyanam-napomnili-o-treh-formah-polucheniya-pensionnyh-nakopleniy/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-11-01T19:17:00Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-f9a7c86b9a84c9",
+      "title": "Even as unemployment falls, lack of ‘decent work’ in India",
+      "titleEnglish": "Even as unemployment falls, lack of ‘decent work’ in India",
+      "url": "https://www.thehindu.com/opinion/lead/even-as-unemployment-falls-lack-of-decent-work-in-india/article71653971.ece",
+      "publisher": "The Hindu",
+      "publisherDomain": "thehindu.com",
+      "publishedAt": "2026-11-01T18:57:29Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-77850cdbe77d81",
+      "title": "FG saves N3.56tn despite borrowing",
+      "titleEnglish": "FG saves N3.56tn despite borrowing",
+      "url": "https://punchng.com/fg-saves-n3-56tn-despite-borrowing/",
+      "publisher": "Punch Newspapers",
+      "publisherDomain": "punchng.com",
+      "publishedAt": "2026-11-01T23:39:53Z",
+      "seenAt": "2026-11-02T00:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-746d03fdca42d7",
+      "title": "Άννα Παπαδοπούλου: «Πόσες νομοθετικές χάρες για τραπεζίτες και funds θα κάνει αυτή η κυβέρνηση;»",
+      "titleEnglish": "Anna Papadopoulou: \"How many legislative favours for bankers and funds will this government make?\"",
+      "url": "https://www.efsyn.gr/politiki/1500723/anna-papadopoyloy-poses-nomothetikes-hares-gia-trapezites-kai-funds-tha-kanei-ayti-i-kyvernisi/",
+      "publisher": "Η Εφημερίδα των Συντακτών",
+      "publisherDomain": "efsyn.gr",
+      "publishedAt": "2026-11-01T18:56:09Z",
+      "seenAt": "2026-11-01T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    }
+  ],
+  "settled": [],
+  "readings": [
+    {
+      "id": "iran-choice-timed-to-midterms",
+      "line": "With the US midterms due on 3 November, the choice between striking Iran and talking to it is being timed to an American vote.",
+      "kicker": "FORCE / DIPLOMACY / THE BALLOT",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "US and Iranian officials are reported meeting, directly or through Oman or Qatar, within three weeks of the 3 November vote.",
+          "by": "2026-11-23",
+          "because": "If the vote is what holds back both talks and strikes, its passing should release one of them quickly, and Trump's stated preference makes talks the first to move.",
+          "id": "20261102T013011-iran-choice-timed-to-midterms-1"
+        },
+        {
+          "what": "Brent crude is reported below $105 a barrel on news of resumed US-Iran talks.",
+          "by": "2026-11-20",
+          "because": "The 2% fall on talk of talks shows the oil market pricing the same post-vote choice as Israel and Iran, so a confirmed round should move it further.",
+          "id": "20261102T013011-iran-choice-timed-to-midterms-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is 1980, when Iran held 52 American hostages through a US presidential election and released them on 20 January 1981, minutes after Ronald Reagan was sworn in; then it was Tehran that timed its move to the American calendar. In June 2025 Israel struck Iran on 13 June, two days before a planned round of US-Iran talks in Muscat, and the US bombed Fordow nine days later. The present differs in that a war is already under way and the vote is a midterm, which changes Congress rather than the president.",
+        "paths": [
+          {
+            "name": "Talks resume after the count",
+            "weight": "favoured",
+            "text": "Within two to three weeks of 3 November, US and Iranian negotiators meet, probably through Oman or Qatar, on terms close to those Iran's foreign minister has set out. Trump's reported preference for talks and the fall in oil both point this way, and a president facing a possible Democratic House has less room to start a wider war. Israel keeps pressing in public but does not strike alone.",
+            "sign": "Oman or Qatar announces it is hosting a new round of US-Iran talks."
+          },
+          {
+            "name": "A broad strike follows the vote",
+            "weight": "possible",
+            "text": "Israel, with or without US forces, launches the broad attack Netanyahu is reported to want in the days after the count, as in June 2025 when strikes came just before scheduled talks. Oil would climb back above $118 and Iran's warning that its response will not be bound by geography would be tested on British or Gulf targets. Less likely because Trump is reported to prefer talks and the vote does not change who commands US forces.",
+            "sign": "Israeli or US aircraft are reported striking targets inside Iran in the week after 3 November."
+          },
+          {
+            "name": "An interim deal by December",
+            "weight": "unlikely",
+            "text": "Washington and Tehran sign an interim agreement before the end of the year. Unlikely because Iran frames its terms as preconditions and Israel's objections would be pressed hard on a new Congress.",
+            "sign": "The White House announces an interim agreement with Iran on enrichment or sanctions."
+          }
+        ],
+        "decade": "Since the US left the 2015 agreement in 2018, deals with Washington have been treated in the Gulf as lasting one term; over the next ten years the US electoral calendar is likely to remain a fixed input to war and talks in the region."
+      },
+      "continues": "war-fuel-price-who-pays",
+      "change": "The previous edition had talks stalled and Brent near $118. Today Brent is quoted at $111 after a 2% fall, Trump says talks with Iran are going well, Iran's foreign minister sets out a two-day plan, and Axios reports Netanyahu pressing for a broad attack once the midterms are over. The fuel-tax argument does not appear in this collection.",
+      "claim": "Axios, relayed by Lebanon's Al-Anbaa, reports that Benjamin Netanyahu wants a broad attack on Iran as soon as the US midterms end while Donald Trump prefers to give talks a chance; Iran's foreign minister, quoted by China's Yicai, sets conditions for talks to resume; Brent falls 2% to $111; and Yemeni government forces report 1,272 strikes on the Houthis in a day. The common element is the American vote on 3 November. Israel, Iran and the oil market are each acting on the expectation that the choice between striking Iran and negotiating with it will be made in Washington after the count, and are placing themselves for either outcome before it.",
+      "events": [
+        {
+          "label": "Netanyahu presses for post-midterm strike",
+          "articleIds": [
+            "n-df66e76856d1bf",
+            "n-d76f05f61f3a0d"
+          ]
+        },
+        {
+          "label": "Washington and Tehran describe the talks",
+          "articleIds": [
+            "n-fef5e493134b4e",
+            "n-92021a9446f38a"
+          ]
+        },
+        {
+          "label": "Iran widens its list of targets",
+          "articleIds": [
+            "n-86beb0a54cf2ae",
+            "n-78c7344b6b6175"
+          ]
+        },
+        {
+          "label": "Brent crude falls to $111",
+          "articleIds": [
+            "n-a4bc008e0181db",
+            "n-ddc3e02e544ee5"
+          ]
+        },
+        {
+          "label": "Saudi-led strikes on the Houthis",
+          "articleIds": [
+            "n-95855f8f47cb6b",
+            "n-dbd8fbf129039d"
+          ]
+        },
+        {
+          "label": "Final days of the midterm campaign",
+          "articleIds": [
+            "n-c3925f49931b09",
+            "n-4172cd6e4aeb83",
+            "n-64a03dc6532ce4",
+            "n-8c03a16babb7d7"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "iran-o1",
+          "kind": "observation",
+          "label": "What each side said before the vote",
+          "fragments": [
+            {
+              "id": "iran-o1-f1",
+              "label": "Israel names a date",
+              "text": "Al-Anbaa (Lebanon), citing Axios, reports that Netanyahu is pressing Trump to launch a broad attack on Iran as soon as the midterm elections end. A second Al-Anbaa item, also citing Axios, says Trump currently prefers to give negotiations a chance, a strategy that worries Netanyahu. The Israeli request is framed around a date rather than a condition.",
+              "articleIds": [
+                "n-df66e76856d1bf",
+                "n-d76f05f61f3a0d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "iran-o1-f2",
+              "label": "Washington and Tehran on talks",
+              "text": "Masrawy (Egypt) carries Trump saying negotiations with Iran are going well. Yicai (China) reports Iran's foreign minister disclosing a two-day plan and saying the US must fulfil its obligations before talks resume. An adviser to Mojtaba Khamenei, quoted by Al-Anbaa, says Iran's response to any attack will not be bound by geography, and Jornal de Brasília reports Iran classifying Britain's Royal Navy and Royal Air Force as terrorist organisations.",
+              "articleIds": [
+                "n-fef5e493134b4e",
+                "n-92021a9446f38a",
+                "n-86beb0a54cf2ae",
+                "n-78c7344b6b6175"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "iran-o1-f3",
+              "label": "The campaign itself",
+              "text": "El Mundo (Spain) reports the Democrat Haley Stevens endorsing the Republican Mike Rogers in Michigan two days before the election. The Niagara Falls Review (Canada) runs an analysis that Republicans face a midterm reckoning of Trump's making, and Efsyn (Greece) writes that the Israeli lobby in the US is changing its clothes. RNZ reports Trump aides mapping a way to govern without Congress if Democrats win.",
+              "articleIds": [
+                "n-c3925f49931b09",
+                "n-4172cd6e4aeb83",
+                "n-64a03dc6532ce4",
+                "n-8c03a16babb7d7"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "iran-o2",
+          "kind": "observation",
+          "label": "Oil and the Yemen front",
+          "fragments": [
+            {
+              "id": "iran-o2-f1",
+              "label": "The price falls",
+              "text": "nbd.com.cn (China) reports Brent futures extending losses to 2%, quoted at $111.14 a barrel. CNBC (US) says everything changed for the oil, AI and bond trades over the past month. The fall comes on the same day as Trump's remark that talks are going well.",
+              "articleIds": [
+                "n-a4bc008e0181db",
+                "n-ddc3e02e544ee5"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "iran-o2-f2",
+              "label": "Strikes in Yemen",
+              "text": "BBC News Arabic reports the Houthi movement saying Saudi raids hit Hodeidah port and several areas of Yemen. Arab News (Saudi Arabia) reports Yemeni government forces counting 1,272 strikes on the Houthis in 24 hours and retaking positions in Al-Jawf.",
+              "articleIds": [
+                "n-95855f8f47cb6b",
+                "n-dbd8fbf129039d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "iran-i1",
+          "kind": "interpretation",
+          "label": "Why the vote is the hinge",
+          "fragments": [
+            {
+              "id": "iran-i1-f1",
+              "label": "One date for several actors",
+              "text": "These headlines do not report a single decision; they report several actors naming or acting on the same date. Netanyahu wants to move after the vote, Trump is said to prefer talks until then, Iran sets a short deadline of its own, and traders sell oil on the prospect of talks. A Democratic House would not stop a strike, but it would change what the White House can fund and how it is questioned, which is why the reported plan to govern without Congress belongs in the same picture. Both a strike and a deal are easier to present once the count is over.",
+              "articleIds": [
+                "n-df66e76856d1bf",
+                "n-92021a9446f38a",
+                "n-a4bc008e0181db",
+                "n-8c03a16babb7d7"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "fordow-2025"
+              ]
+            },
+            {
+              "id": "iran-i1-f2",
+              "label": "The front that does not wait",
+              "text": "The Saudi-led push in Al-Jawf and on Hodeidah is the part of the conflict that does not appear to wait for Washington. Riyadh carries the risk on that front and sets its own pace there. The contrast shows where the American calendar matters most: on the direct question of Iran, not on every war around it.",
+              "articleIds": [
+                "n-95855f8f47cb6b",
+                "n-dbd8fbf129039d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "iran-b1",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "iran-b1-f1",
+              "label": "Ordinary news on an ordinary weekend",
+              "text": "Netanyahu's reported request is the only headline that ties the war to the vote; the rest is the usual flow of statements from Tehran and Washington. A 2% move in oil after a month that CNBC describes as changing several trades at once is not evidence of an election effect. The Yemen war began in 2014 and has its own seasons. What these events do not share is a decision-maker: Israel wants a strike, Iran wants obligations met, traders want a price and Riyadh wants ground in Al-Jawf, and the midterms may be background rather than cause.",
+              "articleIds": [
+                "n-df66e76856d1bf",
+                "n-ddc3e02e544ee5",
+                "n-dbd8fbf129039d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "WAR / OIL / ELECTIONS",
+          "text": "The decade opened with the killing of Qassem Soleimani by a US drone on 3 January 2020, ten months before a presidential election. After Russia's invasion of Ukraine in 2022, Brent passed $120 and a US president travelled to Jeddah to ask for more supply before a midterm, which showed that an American administration weighs the petrol price at home against its choices in the Gulf. The Israel-Hamas war from October 2023 drew in the Houthis, who attacked Red Sea shipping, and in June 2025 Israel and the US fought a twelve-day war with Iran that ended with the bombing of Fordow, struck days before talks had been due in Muscat. By these headlines the war has since resumed and Brent stands at $111. Netanyahu's reported request to wait until the midterms are over is made by a government that learned in these six years that American decisions on Iran arrive on an electoral timetable, and that talks scheduled in advance do not protect against a strike.",
+          "trajectoryIds": [
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SHALE / DIPLOMACY / PARTISANSHIP",
+          "text": "After 2008 the United States moved from being the largest importer of oil to being, by 2020, a net exporter of petroleum over the year, as shale wells in Texas and North Dakota came in. That loosened the old tie between Gulf supply and American security but not the tie between petrol prices and American votes. The nuclear agreement signed in Vienna in July 2015 was an executive arrangement rather than a treaty, and the next president withdrew from it on 8 May 2018. In September 2019 drones and missiles hit Abqaiq and halved Saudi output for days, without a large American response. Those two events taught Tehran, Riyadh and Jerusalem that an agreement with Washington lasts as long as the party that signed it holds office. Iran's foreign minister now insisting, in the Yicai report, that the US must fulfil its obligations before talks resume is a demand shaped by 2018, and it is why any new round is read against the American calendar.",
+          "trajectoryIds": [
+            "jcpoa-2015",
+            "abqaiq-2019"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "CONTAINMENT / INVASION / YEMEN",
+          "text": "The end of the Cold War left the United States as the only outside power in the Gulf. It fought Iraq in 1991, adopted a policy of dual containment of Iraq and Iran in 1993, and invaded Iraq in March 2003, removing Iran's main regional enemy and opening a line of allied governments and militias from Tehran to the Mediterranean. In Yemen, the Houthi movement fought six rounds of war with the government between 2004 and 2010, took Sanaa in September 2014, and has been bombed by a Saudi-led coalition since March 2015. The 1,272 strikes reported by Yemeni forces in one day, and the raids on Hodeidah port, belong to that war, which has outlasted four American administrations and was decided by none of them. In these years Israel's argument that only force would stop Iran's programme took its present form, and American presidents learned that a war begun in the Gulf outlives the term of whoever began it.",
+          "trajectoryIds": [
+            "iraq-2003"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OIL / PROTECTION / REVOLUTION",
+          "text": "The bargain struck by Franklin Roosevelt and Ibn Saud on a cruiser in the Great Bitter Lake in February 1945, protection in return for oil, placed Gulf security inside American domestic politics from the start. The Arab oil embargo of October 1973 showed that a regional war becomes a price at every American petrol pump. The revolution in Tehran in February 1979 and the hostage crisis that followed showed that an Iranian government could make an American election turn on it: Jimmy Carter lost in November 1980 with the hostages still held. Daniel Yergin's The Prize traces how oil became the fact around which these alliances were built and how prices became political at home. The Brent quote from Beijing two days before a US midterm, and the Israeli request to wait until the count is done, are both features of the arrangement made in 1945, in which an outside power's domestic politics are part of the region's security.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "oil-embargo-1973",
+            "tehran-1979"
+          ],
+          "bookIds": [
+            "the-prize"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-df66e76856d1bf",
+        "n-d76f05f61f3a0d",
+        "n-fef5e493134b4e",
+        "n-92021a9446f38a",
+        "n-86beb0a54cf2ae",
+        "n-78c7344b6b6175",
+        "n-c3925f49931b09",
+        "n-4172cd6e4aeb83",
+        "n-64a03dc6532ce4",
+        "n-8c03a16babb7d7",
+        "n-a4bc008e0181db",
+        "n-ddc3e02e544ee5",
+        "n-95855f8f47cb6b",
+        "n-dbd8fbf129039d"
+      ]
+    },
+    {
+      "id": "incumbents-doubt-the-count",
+      "line": "Five years after the storming of the Capitol, parties in office are now as likely as their opponents to cast doubt on a count.",
+      "kicker": "INCUMBENCY / CERTIFICATION / CONSENT",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "Likud or a coalition partner asks an Israeli court to annul, recount or delay certification of part of the Knesset election result.",
+          "by": "2026-11-23",
+          "because": "If governing parties now treat a count as open to negotiation, a party that has already cast public doubt should move from statement to formal challenge.",
+          "id": "20261102T013011-incumbents-doubt-the-count-1"
+        },
+        {
+          "what": "After the 3 November vote, Trump or a senior White House aide publicly disputes the count in at least one state or House race.",
+          "by": "2026-11-17",
+          "because": "The reported plan to govern without Congress fits the same shape, and disputing specific counts would be its first visible step.",
+          "id": "20261102T013011-incumbents-doubt-the-count-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the US election of November 2020, when the losing incumbent disputed the count for two months and his supporters stormed the Capitol on 6 January 2021; Brazil repeated the pattern on 8 January 2023. In both, courts and election officials held and the result stood. The present differs in that the doubt in Israel is raised through an official inquiry before the result is settled, and in the US before the vote rather than after it.",
+        "paths": [
+          {
+            "name": "Inquiries and courts settle it",
+            "weight": "favoured",
+            "text": "In Israel the inquiry closes within weeks without changing the result, Likud files at most a limited court challenge, and a government is formed. In the US, disputes after 3 November go to state courts and are mostly lost, and the argument moves to spending fights with a new Congress. Election bodies in both countries have held under heavier pressure since 2021.",
+            "sign": "Israel's Central Elections Committee publishes the inquiry's findings and confirms the result."
+          },
+          {
+            "name": "Handover is delayed",
+            "weight": "possible",
+            "text": "Likud uses the inquiry to delay the formation of a new government, or the White House says it will not carry out laws passed by a Democratic House. The dispute would move from the count to the transfer of power. Less likely because Israel's committee and courts have the final word, and in the US the president keeps office whatever the House result.",
+            "sign": "Israel's president delays giving a mandate to form a government, citing the inquiry."
+          },
+          {
+            "name": "Every loser concedes quickly",
+            "weight": "unlikely",
+            "text": "All losing sides concede within days, as in Bulgaria. Unlikely because Likud and the White House have both already committed in public to doubt.",
+            "sign": "Likud issues a statement accepting the Knesset election result."
+          }
+        ],
+        "decade": "Since 2021 the concession has become something a losing incumbent may withhold; over the next decade election bodies and courts, rather than candidates, are likely to be what ends a disputed election."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "In Bulgaria the defeated candidate Gyurov admits losing the presidential runoff to the incumbent; in Israel the elections chief says an inquiry into irregularities will not undermine the result while Likud says a black cloud hangs over it; in the United States Reuters reports Trump aides mapping a way to govern without Congress if Democrats win; and in India the opposition calls 50,000 people to demand the election commission's chair resign. Each is a dispute over who certifies an election and whether the losing side accepts it. In Israel and the United States the doubt comes from the governing side, while in Bulgaria it was the challenger who conceded on the night.",
+      "events": [
+        {
+          "label": "Bulgarian runoff and Gyurov's concession",
+          "articleIds": [
+            "n-e1dc7480eba866",
+            "n-75ae5948d6d854",
+            "n-616db386c84969"
+          ]
+        },
+        {
+          "label": "Israeli inquiry and Likud's doubt",
+          "articleIds": [
+            "n-253a135cba73a3",
+            "n-fb9f4ac81e7d1a",
+            "n-9381b9e5d3bc18"
+          ]
+        },
+        {
+          "label": "White House plan to bypass Congress",
+          "articleIds": [
+            "n-8c03a16babb7d7",
+            "n-7cedd779756645",
+            "n-8c58040f912372"
+          ]
+        },
+        {
+          "label": "Alaska ballot dispute ends",
+          "articleIds": [
+            "n-70ac4ef4510844",
+            "n-258810a69aed57"
+          ]
+        },
+        {
+          "label": "Indian opposition targets election commission",
+          "articleIds": [
+            "n-e4baf393248d18"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "count-o1",
+          "kind": "observation",
+          "label": "Three counts in dispute or settled",
+          "fragments": [
+            {
+              "id": "count-o1-f1",
+              "label": "Bulgaria concedes",
+              "text": "Xinhua (China) reports exit polls showing Bulgaria's incumbent president winning the runoff, and Izvestia (Russia) reports Gyurov admitting defeat. DW's Bulgarian service had run a live page on the Yotova-Gyurov runoff. The loser conceded on the night the polls closed.",
+              "articleIds": [
+                "n-e1dc7480eba866",
+                "n-75ae5948d6d854",
+                "n-616db386c84969"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "count-o1-f2",
+              "label": "Israel's inquiry",
+              "text": "Arab News (Saudi Arabia) quotes Israel's elections chief saying an inquiry into irregularities will not undermine the result. Al-Anbaa (Lebanon) reports Likud saying a black cloud hangs over the results until the investigation ends, and Walla (Israel) reports Eisenkot being congratulated while Likud cast doubt after Sollberg's statement. The party casting doubt is the one that has led the government.",
+              "articleIds": [
+                "n-253a135cba73a3",
+                "n-fb9f4ac81e7d1a",
+                "n-9381b9e5d3bc18"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "count-o1-f3",
+              "label": "India's referee",
+              "text": "UDN (Taiwan) reports India's opposition calling 50,000 people to protest and demand that the chair of the election commission step down. Here the dispute is with the body that runs elections rather than with one result.",
+              "articleIds": [
+                "n-e4baf393248d18"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "count-o2",
+          "kind": "observation",
+          "label": "The American vote",
+          "fragments": [
+            {
+              "id": "count-o2-f1",
+              "label": "Planning before the count",
+              "text": "RNZ (New Zealand) and Al Jazeera (Qatar), both citing Reuters, report Trump aides mapping a path to govern without Congress if Democrats win. The Hindu (India) asks how US election officials are facing the heat. Nieuws.nl (Netherlands) reports Dan Sullivan accepting an election result in Alaska, while DW's Bulgarian service asks whether a second Sullivan on the ballot is a Democratic trick.",
+              "articleIds": [
+                "n-8c03a16babb7d7",
+                "n-7cedd779756645",
+                "n-8c58040f912372",
+                "n-70ac4ef4510844",
+                "n-258810a69aed57"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "count-i1",
+          "kind": "interpretation",
+          "label": "Who doubts and why",
+          "fragments": [
+            {
+              "id": "count-i1-f1",
+              "label": "Doubt from the governing side",
+              "text": "In 2020 and 2022 the refusal to accept a count came from incumbents who had lost, in Washington and then Brasília. In these headlines Likud doubts a result before an inquiry has finished, and the White House is reported planning around a result not yet counted. The tools differ: an inquiry in Israel, executive power in the US, a street protest against the referee in India. What they share is that acceptance of a count is being negotiated after the vote rather than assumed before it.",
+              "articleIds": [
+                "n-fb9f4ac81e7d1a",
+                "n-8c03a16babb7d7",
+                "n-e4baf393248d18"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "washington-2021",
+                "brasilia-2023"
+              ]
+            },
+            {
+              "id": "count-i1-f2",
+              "label": "Where concession still holds",
+              "text": "Bulgaria's runoff shows the older pattern intact: an exit poll, a concession, a result reported abroad within hours. Alaska's ballot dispute also ends with a candidate accepting the outcome. The shape is strongest where an incumbent has most to lose from losing, which is the condition Levitsky and Ziblatt identify as the test of the unwritten rules.",
+              "articleIds": [
+                "n-75ae5948d6d854",
+                "n-70ac4ef4510844"
+              ],
+              "bookIds": [
+                "how-democracies-die"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "count-b1",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "count-b1-f1",
+              "label": "Four different disputes",
+              "text": "The Israeli inquiry concerns specific irregularities and is run by an elections chief who says it will not change the result, which is a working system rather than a failing one. The Reuters report is about governing after losing Congress, not about refusing a count, and Trump is not on the ballot. India's opposition has quarrelled with the commission for years. What the events do not share: Bulgaria is an ordinary concession, Israel a formal inquiry, the US a plan for divided government, India a protest against an appointed official. A collection gathered two days before a US election and shortly after an Israeli one will overweight election disputes in any case.",
+              "articleIds": [
+                "n-253a135cba73a3",
+                "n-8c03a16babb7d7",
+                "n-e4baf393248d18"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "INSURRECTION / COURTS / ELECTION LAW",
+          "text": "The decade began with a sitting president refusing to accept defeat. After 6 January 2021 more than a thousand people were charged, and Congress passed the Electoral Count Reform Act in December 2022 to make plain that a vice-president cannot reject a state's electors. Two years and two days after Washington, supporters of Jair Bolsonaro stormed Brazil's Congress, Supreme Court and presidential palace, and by June 2023 Brazil's electoral court had barred him from office. In India, a law passed in December 2023 removed the Chief Justice from the panel that chooses election commissioners and gave the government a majority on it, which helps explain why the opposition, in the UDN report, targets the commission's chair in person. Bulgaria held seven parliamentary elections between April 2021 and October 2024, which made rapid concession a habit there. By these headlines, the same years taught governing parties that doubt about a count can be raised without losing office, and the White House plan reported by Reuters is drafted with that knowledge.",
+          "trajectoryIds": [
+            "washington-2021",
+            "brasilia-2023"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "POLARISATION / CAPTURE / FRAUD CLAIMS",
+          "text": "After the financial crisis a series of governments elected in fair contests used their majorities to change the rules of the next one. Hungary's Fidesz won a two-thirds majority in 2010 and rewrote the constitution and the electoral map in 2011; Poland's Law and Justice began its dispute over the constitutional court in 2015. Ivan Krastev and Stephen Holmes argue in The Light That Failed that these governments were reacting against two decades of imitating Western institutions, and that the resentment made the referee itself a target. Claims of fraud began to travel between countries, carried by the same social media accounts and phrases, from the US in 2020 to Brazil in 2022. Likud's statement that a black cloud hangs over Israel's result, reported in Lebanon within hours, is made for that international audience as well as a domestic one. The period's change was that the rules of counting, once technical, became a normal object of party competition, so that the side in power now has reasons to dispute them too.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "light-that-failed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "TRANSITION / MONITORING / REFEREES",
+          "text": "The end of the Cold War made the competitive election the standard by which governments were judged. Bulgaria held its first multiparty election in June 1990 and its first direct presidential election in January 1992; the concession reported by Izvestia is a routine that country has practised for over three decades. The OSCE's Copenhagen Document of June 1990 committed European states to invite election observers, and monitoring became a profession. In Belgrade in October 2000, crowds forced Slobodan Milošević to accept a count he had tried to overturn. In India, T. N. Seshan, chief election commissioner from 1990 to 1996, turned a weak office into one parties feared, and electronic voting machines were used nationwide from 2004. Samuel Huntington's The Third Wave counted the countries that learned to vote between 1974 and 1990 and warned that waves recede. The belief of these years was that an independent referee would settle disputes; the Indian opposition's demand that the referee resign, and Likud's quarrel with an inquiry, show that belief under argument.",
+          "trajectoryIds": [
+            "belgrade-2000"
+          ],
+          "bookIds": [
+            "third-wave"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "SELF-DETERMINATION / VOTE / CONSENT",
+          "text": "The order built after 1945 wrote the vote into its founding texts: Article 21 of the Universal Declaration of Human Rights, adopted in 1948, says the will of the people shall be expressed in periodic and genuine elections. Several of the bodies in these headlines date from those years. Israel held its first Knesset election in January 1949, and its Central Elections Committee is chaired by a Supreme Court justice, which is why the elections chief's statement carries weight against Likud. India's Election Commission was created on 25 January 1950, a day before the constitution took effect, and ran a first general election for about 173 million voters. These bodies were designed as referees above parties. The same decades showed what followed when a count was overruled from above or abroad: in Brazil in 1964 the generals took power with Washington's approval. Steven Levitsky and Daniel Ziblatt argue that democracies rest on unwritten rules of mutual toleration and restraint, and the loser's concession is the most visible of them.",
+          "trajectoryIds": [
+            "brazil-1964"
+          ],
+          "bookIds": [
+            "how-democracies-die"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-e1dc7480eba866",
+        "n-75ae5948d6d854",
+        "n-616db386c84969",
+        "n-253a135cba73a3",
+        "n-fb9f4ac81e7d1a",
+        "n-9381b9e5d3bc18",
+        "n-e4baf393248d18",
+        "n-8c03a16babb7d7",
+        "n-7cedd779756645",
+        "n-8c58040f912372",
+        "n-70ac4ef4510844",
+        "n-258810a69aed57"
+      ]
+    },
+    {
+      "id": "cost-of-paying-moves-to-payer",
+      "line": "As everyday payment moves to phones and cards, its cost reaches the payer as interest or data rather than as a visible fee.",
+      "kicker": "CONVENIENCE / RISK / THE CUSTOMER",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "India's central bank or a European consumer regulator issues a rule or warning on interest-free instalment or buy-now-pay-later offers.",
+          "by": "2026-11-30",
+          "because": "If the hidden cost of easier payment is becoming an issue across these markets, regulators are the first place it should be named in a rule rather than an explainer.",
+          "id": "20261102T013011-cost-of-paying-moves-to-payer-1"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is British payment protection insurance, sold with loans and cards from the 1990s with its cost folded into repayments. After a High Court ruling in 2011 the banks were made to pay redress, and by the 2019 deadline they had paid about £38 billion. The present differs in that much of the hidden cost now is personal data and security risk, for which there is no refund formula.",
+        "paths": [
+          {
+            "name": "Disclosure rules rather than bans",
+            "weight": "favoured",
+            "text": "Over the next year regulators in India, the EU and Britain require instalment and loyalty schemes to state more clearly what they cost the buyer. Nothing slows the move to phones and codes; the dispute is over what must be shown at the point of sale. This follows the pattern of earlier consumer credit law, which disclosed rather than banned.",
+            "sign": "A regulator orders sellers to show the interest or the lost discount in a 'no-cost' instalment offer."
+          },
+          {
+            "name": "A theft forces compensation rules",
+            "weight": "possible",
+            "text": "The Binance breach attributed to North Korea leads a government to require crypto exchanges to insure or reimburse customer losses. Possible because the theft is now described as the largest on record. Less likely within a year because crypto rules move slowly and across many jurisdictions.",
+            "sign": "A government announces that crypto exchanges must reimburse customers for funds lost to theft."
+          },
+          {
+            "name": "Payers return to cash",
+            "weight": "unlikely",
+            "text": "Measurable numbers of payers turn back to notes and coins. Unlikely because state payment schemes such as Bangladesh's QR code are expanding and the share of cash in payments has fallen almost everywhere it is counted.",
+            "sign": "A central bank reports a rise in the share of retail payments made in cash."
+          }
+        ],
+        "decade": "Over the next ten years the argument about payment is likely to move from access to disclosure: what a free method charges, and who repays the payer when it fails."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "The Hindu explains that India's 'no-cost EMI' is a loan portrayed as free; Yle reports Finnish shoppers annoyed by shops' data collection but unwilling to give up loyalty cards; Bangladesh launches a QR code for person-to-person payments while Jawa Pos defends Indonesians who still pay cash; and the FBI, reported by DW, blames North Korea for the largest cryptocurrency theft in history, a breach Yle says hit Binance. Each is a way of paying offered as easier or cheaper than the old one, which charges for it somewhere the payer does not see at the till. The visible fee has gone, and the cost now sits in a loan, in a purchase record, or in the security of an account the customer does not control.",
+      "events": [
+        {
+          "label": "Interest-free instalments that are loans",
+          "articleIds": [
+            "n-f19b378568e397"
+          ]
+        },
+        {
+          "label": "Loyalty cards kept despite data",
+          "articleIds": [
+            "n-cf412ed6c4a435"
+          ]
+        },
+        {
+          "label": "QR payments and the case for cash",
+          "articleIds": [
+            "n-b788ca654679b3",
+            "n-6b61af24fe18a3"
+          ]
+        },
+        {
+          "label": "Binance breach blamed on North Korea",
+          "articleIds": [
+            "n-f6a390c9999aa2",
+            "n-8ea027cfa3b897"
+          ]
+        },
+        {
+          "label": "Impostor scams on older people",
+          "articleIds": [
+            "n-9680436e045b3d",
+            "n-dcb26c2828821f"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "pay-o1",
+          "kind": "observation",
+          "label": "How people are paying",
+          "fragments": [
+            {
+              "id": "pay-o1-f1",
+              "label": "Credit sold as free",
+              "text": "The Hindu (India) runs an explainer on 'no-cost EMI' under the heading that it is a loan portrayed as free. The headline's point is that the instalment remains a loan whatever the label.",
+              "articleIds": [
+                "n-f19b378568e397"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "pay-o1-f2",
+              "label": "Data for discounts",
+              "text": "Yle (Finland) asked customers about shop loyalty schemes and found that data collection annoys them but they do not want to give up the cards. The discount is paid for with a record of what they buy, and they make that trade knowingly.",
+              "articleIds": [
+                "n-cf412ed6c4a435"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "pay-o1-f3",
+              "label": "Codes and cash",
+              "text": "bdnews24 (Bangladesh) reports a QR code launched for person-to-person transactions. Jawa Pos (Indonesia) lists seven traits of people who prefer paying cash, under the heading that they are not always behind the times. The defence of cash is written as a reply to a change already assumed.",
+              "articleIds": [
+                "n-b788ca654679b3",
+                "n-6b61af24fe18a3"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "pay-o2",
+          "kind": "observation",
+          "label": "When payment goes wrong",
+          "fragments": [
+            {
+              "id": "pay-o2-f1",
+              "label": "The theft",
+              "text": "Yle reports that the largest data breach targeting virtual currencies in history hit Binance and exposed the industry's security risks. DW's Portuguese service reports the FBI accusing North Korea of being behind the largest cryptocurrency heist on record.",
+              "articleIds": [
+                "n-f6a390c9999aa2",
+                "n-8ea027cfa3b897"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "pay-o2-f2",
+              "label": "Impostors",
+              "text": "The Times of India reports a man posing as a government official who promised benefits and cheated a 60-year-old in Ahmedabad of gold and cash worth ₹5 lakh. SudOuest (France) reports the hospital in Mont-de-Marsan warning the public about a scam using its name.",
+              "articleIds": [
+                "n-9680436e045b3d",
+                "n-dcb26c2828821f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "pay-i1",
+          "kind": "interpretation",
+          "label": "Where the cost has moved",
+          "fragments": [
+            {
+              "id": "pay-i1-f1",
+              "label": "A fee replaced by other charges",
+              "text": "The older card or bank transfer showed its fee. Each newer arrangement in these headlines removes the visible charge and places it elsewhere: inside a loan for the EMI, inside personal data for the loyalty card, inside the custody of an exchange for crypto. The Indonesian defence of cash is the other side of the same change, since notes are the one method here where the buyer sees and holds the whole cost. Shoshana Zuboff describes the data trade as the business model of the period; the Finnish survey shows customers accepting it.",
+              "articleIds": [
+                "n-f19b378568e397",
+                "n-cf412ed6c4a435",
+                "n-f6a390c9999aa2",
+                "n-6b61af24fe18a3"
+              ],
+              "bookIds": [
+                "surveillance-capitalism"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "pay-i1-f2",
+              "label": "Who carries the loss",
+              "text": "When the hidden part fails, the payer carries it. Binance customers depend on an exchange's security they cannot inspect. The Ahmedabad and Mont-de-Marsan cases show the same exposure with no new technology at all: the fraud works by imitating an institution the victim trusts, which is also what every new payment method asks its users to do.",
+              "articleIds": [
+                "n-9680436e045b3d",
+                "n-dcb26c2828821f",
+                "n-8ea027cfa3b897"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "pay-b1",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "pay-b1-f1",
+              "label": "Features, not one development",
+              "text": "A loan with interest folded in, a loyalty scheme, a QR code, a state-backed hack and a doorstep fraud are different things with different causes. Zero-interest instalment schemes have drawn warnings from India's central bank since at least 2013, and loyalty cards date from the 1990s. The crypto theft is attributed to a state intelligence service, not to a payment design, and the scams use impersonation rather than any new system. What the events do not share is a payer choosing a method: Binance's customers chose an exchange, but the Ahmedabad victim chose nothing. The join also leans on weekend explainers and features rather than on reported changes.",
+              "articleIds": [
+                "n-f19b378568e397",
+                "n-8ea027cfa3b897",
+                "n-9680436e045b3d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "CONTACTLESS / CREDIT / THEFT",
+          "text": "The pandemic moved payment off the counter. In 2020 many shops refused cash, contactless limits were raised across Europe, and buy-now-pay-later firms such as Klarna and Afterpay grew fastest while interest rates were near zero. Indonesia's national QR standard, QRIS, became mandatory for payment providers in January 2020, and India's UPI went from about 1.3 billion transactions a month at the start of 2020 to more than ten billion by 2023. When rates rose from 2022, the interest inside 'no-cost' instalments became more expensive for lenders and sellers to absorb, which is part of why The Hindu now explains it to readers. The same years made crypto theft a state activity: the FBI attributed the $1.5 billion theft from Bybit in February 2025 to North Korea and, by these headlines, now names it behind a larger one at Binance. Bangladesh's QR code for person-to-person payments is a late step in a change most of its neighbours made during these years.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SMARTPHONE / IDENTITY / CRYPTO",
+          "text": "Three things after 2008 put payment on the phone. Smartphones made a pocket computer ordinary; M-Pesa, launched in Kenya in March 2007, showed that a phone balance could stand in for a bank account; and India's Aadhaar identity scheme, begun in 2009, followed by UPI in 2016 and the withdrawal of high-value banknotes on 8 November 2016, pushed hundreds of millions of Indians to pay digitally. Bitcoin's white paper appeared in October 2008, a month after Lehman Brothers failed, offering money without banks; within a decade most of it was held through exchanges such as Binance, which work as a new kind of bank without deposit insurance. Shoshana Zuboff's The Age of Surveillance Capitalism describes the model of the same years: services given free in return for behavioural data. The Finnish shoppers who resent data collection but keep their loyalty cards are making that trade with their eyes open.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "surveillance-capitalism"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "INTERNET / RETAIL / DATA",
+          "text": "The commercial internet opened in the early 1990s, and Netscape's listing in August 1995 put a price on it. Shopping at a distance needed card payment between strangers, and card networks wrote fraud rules that put most losses on merchants and banks, which is the protection crypto exchanges and impostor scams now lack. The same decade produced the modern loyalty card: Tesco's Clubcard launched in Britain in 1995, and its makers said plainly that its purpose was to learn what customers bought. India's opening after the 1991 balance of payments crisis brought consumer credit to a middle class that had seldom borrowed for goods, and the EMI became an everyday word. The dot-com crash of 2000 slowed none of this. The loyalty card in the Yle survey and the instalment in The Hindu explainer are both products of the 1990s arrangement in which credit and data were offered to the customer as a service.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "CONSUMER CREDIT / BANKING / LAW",
+          "text": "Mass consumer credit is a post-war invention. Diners Club issued its first card in 1950, and in 1958 Bank of America mailed sixty thousand unsolicited BankAmericards to households in Fresno, California; the card became Visa in 1976. Instalment buying of cars and appliances became normal in the United States and Western Europe in the same decades, and governments responded with disclosure laws: the US Truth in Lending Act of 1968 and Britain's Consumer Credit Act of 1974 required lenders to state the annual rate. Those laws rest on the idea that a buyer can choose fairly if the price of credit is shown. The Hindu's point that a 'no-cost EMI' is a loan portrayed as free is an argument from inside that tradition. The Ahmedabad and Mont-de-Marsan scams belong to an older history still: fraud by impersonating a trusted office predates every payment method in these headlines.",
+          "trajectoryIds": [],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-f19b378568e397",
+        "n-cf412ed6c4a435",
+        "n-b788ca654679b3",
+        "n-6b61af24fe18a3",
+        "n-f6a390c9999aa2",
+        "n-8ea027cfa3b897",
+        "n-9680436e045b3d",
+        "n-dcb26c2828821f"
+      ]
+    },
+    {
+      "id": "budgets-protect-age-and-contract",
+      "line": "Six years after pandemic aid, budgets protect pensions and salaried staff while the self-employed and claimants are left with less.",
+      "kicker": "AGE / CONTRACTS / AUSTERITY",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "The UK government confirms the pensions triple lock for next year while announcing a cut or freeze to a working-age benefit.",
+          "by": "2026-11-30",
+          "because": "If budgets are drawing their line by age and contract, Britain's next fiscal statement should put pensions and working-age benefits on opposite sides of it.",
+          "id": "20261102T013011-budgets-protect-age-and-contract-1"
+        },
+        {
+          "what": "Self-employed workers in Spain or Italy stage a protest or strike over sick pay, social contributions or pensions.",
+          "by": "2026-11-30",
+          "because": "The join predicts that the group left outside the protected line is the one that organises against it, not the pensioners or civil servants inside it.",
+          "id": "20261102T013011-budgets-protect-age-and-contract-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the austerity of 2010 to 2012. Britain introduced the pensions triple lock in 2010 while cutting and freezing working-age benefits, and Italy, Spain and Greece cut spending under market and EU pressure, with Italy's 2011 Fornero reform raising the pension age but leaving pensions in payment largely in place. Pensioners came through that decade better than the young. The present differs in that there is no acute debt crisis forcing the cuts; they are chosen under higher interest costs and rising defence spending.",
+        "paths": [
+          {
+            "name": "Pensions held, working-age trimmed",
+            "weight": "favoured",
+            "text": "Budgets passed in Italy, Britain and elsewhere by the end of the year keep pension indexation and cut or freeze working-age benefits and small social lines. This follows the pattern of the 2010s and the electoral weight of older voters. The self-employed get reviews and promises rather than better sick pay.",
+            "sign": "A European budget is passed that keeps pension indexation while freezing a working-age benefit."
+          },
+          {
+            "name": "Pension protection is cut",
+            "weight": "possible",
+            "text": "A government facing bond-market pressure or higher defence costs reduces pension indexation, as Italy did for higher pensions in 2023. Possible because NATO's 2025 spending targets add to every budget. Less likely in the coming year because cutting pensions is the choice parties of every kind have avoided since 2012.",
+            "sign": "A European government announces it will index pensions below inflation next year."
+          },
+          {
+            "name": "Self-employed gain full cover",
+            "weight": "unlikely",
+            "text": "Spain or Italy raises sick pay for the self-employed to the level of employees. Unlikely because auditors are still examining pandemic aid to the same group and finance ministries are looking for savings.",
+            "sign": "Spain's government announces higher sick pay for the self-employed from the first day of illness."
+          }
+        ],
+        "decade": "As populations age and borrowing costs stay above those of the 2010s, budgets over the next decade are likely to divide citizens more by age and type of contract than by income."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Italy's budget promises no pension cuts up to 25,000 euros and faster severance for civil servants, while setting aside 17 million euros for floods in three regions and 2 million more a year for a 'freedom income' for women. Britain's John Healey promises the benefits bill will come down, Spanish economists say a self-employed worker on sick leave can have 180 euros to get through the month, and Russia reminds savers of the ways to draw pension savings. These budgets and statements draw the same line: income tied to age or to a salaried contract is protected, and income outside it is trimmed or left thin. The line was blurred in 2020, when states paid the self-employed directly, and is now being redrawn.",
+      "events": [
+        {
+          "label": "Italy protects pensions and civil servants",
+          "articleIds": [
+            "n-63ab37117ef865",
+            "n-4fff7186467eac",
+            "n-13511b5ab481cc"
+          ]
+        },
+        {
+          "label": "Italy's small sums for floods and women",
+          "articleIds": [
+            "n-d3cec50defd752",
+            "n-489b0a240a63e5",
+            "n-f0180c5f1b1c7c"
+          ]
+        },
+        {
+          "label": "British pledge to cut benefits bill",
+          "articleIds": [
+            "n-05f7f2d80d4d43"
+          ]
+        },
+        {
+          "label": "Spain's self-employed and pandemic aid audit",
+          "articleIds": [
+            "n-d4a51f3adb7e0d",
+            "n-13dc03be866a75"
+          ]
+        },
+        {
+          "label": "Nigerian savings and Greek bank favours",
+          "articleIds": [
+            "n-77850cdbe77d81",
+            "n-746d03fdca42d7"
+          ]
+        },
+        {
+          "label": "Russian pension savings and Indian work",
+          "articleIds": [
+            "n-b8bd86c78cb207",
+            "n-f9a7c86b9a84c9"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "budget-o1",
+          "kind": "observation",
+          "label": "What Italy's budget protects",
+          "fragments": [
+            {
+              "id": "budget-o1-f1",
+              "label": "Pensions and public staff",
+              "text": "Il Messaggero sets out how pensions will change in 2027, with no cuts up to 25,000 euros, in three bands with simulations. It also reports that civil servants will receive severance within nine months from 2027 and a tax bonus of up to 800 euros on accessory pay. A Messaggero column the same night is titled 'Welfare and protest: the end of a season'.",
+              "articleIds": [
+                "n-63ab37117ef865",
+                "n-4fff7186467eac",
+                "n-13511b5ab481cc"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "budget-o1-f2",
+              "label": "The smaller lines",
+              "text": "ANSA reports 358 million euros for social shock absorbers and 15 million for the former Ilva steelworks, 17 million for floods in Emilia-Romagna, Marche and Tuscany, and 2 million more a year for the 'freedom income' for women. These are the lines for people outside a pension or a public contract, and they are counted in millions.",
+              "articleIds": [
+                "n-d3cec50defd752",
+                "n-489b0a240a63e5",
+                "n-f0180c5f1b1c7c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "budget-o2",
+          "kind": "observation",
+          "label": "Outside Italy",
+          "fragments": [
+            {
+              "id": "budget-o2-f1",
+              "label": "Britain and Spain",
+              "text": "The Bournemouth Echo reports John Healey promising that the benefits bill 'will come down under Labour'. MARCA (Spain) reports economists warning that a self-employed worker on sick leave may have 180 euros to get through the month, and in the same hour reports the Court of Auditors warning of irregularities in pandemic aid to the self-employed.",
+              "articleIds": [
+                "n-05f7f2d80d4d43",
+                "n-d4a51f3adb7e0d",
+                "n-13dc03be866a75"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "budget-o2-f2",
+              "label": "Russia, India, Nigeria, Greece",
+              "text": "Lenta (Russia) reminds Russians of three ways to receive pension savings. The Hindu (India) reports that even as unemployment falls, India lacks 'decent work'. Punch (Nigeria) reports the federal government saving 3.56 trillion naira despite borrowing, and Efsyn (Greece) quotes an opposition MP asking how many legislative favours for bankers and funds the government will make.",
+              "articleIds": [
+                "n-b8bd86c78cb207",
+                "n-f9a7c86b9a84c9",
+                "n-77850cdbe77d81",
+                "n-746d03fdca42d7"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "budget-i1",
+          "kind": "interpretation",
+          "label": "The line being drawn",
+          "fragments": [
+            {
+              "id": "budget-i1-f1",
+              "label": "Age and contract as the test",
+              "text": "Across these headlines the protected incomes are attached to age, such as Italian pensions up to 25,000 euros, or to a salaried contract, such as civil service severance. The thin ones are attached to neither: sick pay for Spain's self-employed, Britain's working-age benefits, India's workers without decent jobs. The two Spanish headlines show the sequence: aid reached the self-employed in 2020, auditors now examine it, and the ordinary sick pay left is 180 euros.",
+              "articleIds": [
+                "n-63ab37117ef865",
+                "n-05f7f2d80d4d43",
+                "n-d4a51f3adb7e0d",
+                "n-13dc03be866a75",
+                "n-f9a7c86b9a84c9"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "budget-i1-f2",
+              "label": "Why the line falls there",
+              "text": "Pensioners vote in larger numbers and their payments are written into law with indexation, while working-age benefits are set year by year. With borrowing dearer than in the 2010s, finance ministries look for savings where law and electorate allow. Nigeria's 'savings despite borrowing' and the Greek complaint about favours to banks are the same argument about who is spared, conducted in countries with much thinner welfare systems.",
+              "articleIds": [
+                "n-77850cdbe77d81",
+                "n-746d03fdca42d7",
+                "n-4fff7186467eac"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "budget-b1",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "budget-b1-f1",
+              "label": "One budget and many statements",
+              "text": "There is one budget in this collection, Italy's, and its pension guarantee up to 25,000 euros may come with less generous treatment above that level. Healey is the defence secretary making a political promise, not a budget measure; Spain's 180 euros is an economists' example, not a policy change; Russia's item is a reminder of existing rules; India's is about the labour market and Nigeria's about debt. What the events do not share is a decision: they come from very different welfare systems, and only Italy is choosing anything this week. Protecting pensions over working-age benefits is also a pattern decades old, not new this autumn.",
+              "articleIds": [
+                "n-63ab37117ef865",
+                "n-05f7f2d80d4d43",
+                "n-d4a51f3adb7e0d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "PANDEMIC AID / INFLATION / INDEXATION",
+          "text": "In 2020 governments paid people they had never paid before. Spain created an extraordinary benefit for the self-employed in March 2020, Italy extended its wage guarantee fund, the cassa integrazione, to almost every sector, and Britain's furlough scheme paid 80 per cent of wages for millions while a separate grant reached the self-employed. The inflation of 2022 then tested indexation. Pensions rose with prices across most of Europe, and Britain's triple lock produced a 10.1 per cent increase in April 2023, while many working-age benefits lagged behind. The Spanish Court of Auditors' warning about irregularities in pandemic aid to the self-employed, reported by MARCA, is the audit of that moment, and the 180 euros for a self-employed worker on sick leave is what remains once the emergency payments stopped. Italy's promise of no pension cuts up to 25,000 euros belongs to the same years, in which indexation of pensions became the line governments would not cross.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "DEBT / AUSTERITY / GENERATIONS",
+          "text": "The financial crisis became a sovereign debt crisis in southern Europe, and the response set the pattern these budgets follow. Greece signed bailout programmes in 2010, 2012 and 2015 that cut pensions repeatedly but cut wages and jobs for the young harder, and youth unemployment there passed 50 per cent; the Greek MP's complaint about favours to bankers and funds is a sentence from that decade. Italy's Fornero reform of December 2011 raised the retirement age under bond-market pressure. Britain cut working-age benefits from 2010 while introducing the triple lock for pensions. Adam Tooze argues in Crashed that the crisis became a decade of politics everywhere, and one result was a settlement between generations in which the old were protected and the young were told to wait. Many of Spain's self-employed, the subject of MARCA's warning, became self-employed because salaried jobs did not return after 2012.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "REFORM / INFORMALITY / FUNDED PENSIONS",
+          "text": "After 1989 governments turned pensions from promises into accounts. Italy's Dini reform of 1995 moved new workers to a contribution-based system, which is why its pensions now arrive in bands and simulations, as Il Messaggero lays them out. Russia created a funded pension pillar in 2002, froze new contributions to it from 2014 and raised the pension age in 2018 despite protests, which is why Lenta has to remind Russians how to draw savings they were once promised. India's opening after 1991 raised growth fast but left most workers in informal jobs without contracts or pensions, the 'lack of decent work' The Hindu reports even as unemployment falls. The same decades brought self-employment and platform work into labour markets in large numbers, outside welfare systems designed for employees. The protected line in these budgets follows the old employment contract, while much of the growth in work since 1989 has happened outside it.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "WELFARE STATE / EMPLOYMENT / CITIZENSHIP",
+          "text": "The welfare states built after 1945 were built around the employee. Britain's followed William Beveridge's report of 1942 and paid benefits funded by contributions from people in work; Italy's 1948 constitution, in Article 38, promised support to workers in old age, illness and unemployment; Spain placed the self-employed in a separate scheme, the RETA, from 1970. The memory of the 1930s, when a quarter of American workers lost their jobs and democracies fell in Europe, is why these systems were built at all. Karl Polanyi, writing in 1944, argued that societies would pull markets back under social control, and the post-war systems did so through the wage contract. Their model was a full-time job for life, usually a man's, with a pension at the end. People outside it, the self-employed, women outside formal work and the informal majority in India and Nigeria, were covered later or not at all. Italy's 'freedom income' for women and Spain's 180 euros are both attempts to reach people that design left out.",
+          "trajectoryIds": [
+            "great-depression-1929"
+          ],
+          "bookIds": [
+            "great-transformation"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-63ab37117ef865",
+        "n-4fff7186467eac",
+        "n-13511b5ab481cc",
+        "n-d3cec50defd752",
+        "n-489b0a240a63e5",
+        "n-f0180c5f1b1c7c",
+        "n-05f7f2d80d4d43",
+        "n-d4a51f3adb7e0d",
+        "n-13dc03be866a75",
+        "n-b8bd86c78cb207",
+        "n-f9a7c86b9a84c9",
+        "n-77850cdbe77d81",
+        "n-746d03fdca42d7"
+      ]
+    }
+  ]
+}

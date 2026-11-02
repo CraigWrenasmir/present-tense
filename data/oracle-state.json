@@ -1,5 +1,5 @@
 {
- "day": "2026-11-01",
+ "day": "2026-11-02",
  "attempts": 1,
  "history": [
   {
@@ -143,6 +143,21 @@
    "usage": {
     "input": 34263,
     "output": 55858,
+    "tier": "batch"
+   }
+  },
+  {
+   "at": "2026-11-02T01:30:48Z",
+   "note": "submitted",
+   "batchId": "msgbatch_01UyPPgZMBTXzLd7QYNJNGiC"
+  },
+  {
+   "at": "2026-11-02T01:39:52Z",
+   "note": "ok",
+   "batchId": "msgbatch_01UyPPgZMBTXzLd7QYNJNGiC",
+   "usage": {
+    "input": 47895,
+    "output": 56861,
     "tier": "batch"
    }
   }

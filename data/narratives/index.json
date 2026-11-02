@@ -1,6 +1,61 @@
 {
  "editions": [
   {
+   "stamp": "20261102T013011",
+   "file": "data/narratives/20261102T013011.json",
+   "newsGeneratedAt": "2026-11-02T01:30:11Z",
+   "generatedAt": "2026-11-02T01:39:52Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-7",
+   "narratives": [
+    {
+     "id": "iran-choice-timed-to-midterms",
+     "kicker": "FORCE / DIPLOMACY / THE BALLOT",
+     "line": "With the US midterms due on 3 November, the choice between striking Iran and talking to it is being timed to an American vote.",
+     "events": 6,
+     "headlines": 14,
+     "countries": 11,
+     "continues": "war-fuel-price-who-pays",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "incumbents-doubt-the-count",
+     "kicker": "INCUMBENCY / CERTIFICATION / CONSENT",
+     "line": "Five years after the storming of the Capitol, parties in office are now as likely as their opponents to cast doubt on a count.",
+     "events": 5,
+     "headlines": 12,
+     "countries": 11,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "cost-of-paying-moves-to-payer",
+     "kicker": "CONVENIENCE / RISK / THE CUSTOMER",
+     "line": "As everyday payment moves to phones and cards, its cost reaches the payer as interest or data rather than as a visible fee.",
+     "events": 5,
+     "headlines": 8,
+     "countries": 6,
+     "continues": "",
+     "firmness": "tentative",
+     "watch": 1
+    },
+    {
+     "id": "budgets-protect-age-and-contract",
+     "kicker": "AGE / CONTRACTS / AUSTERITY",
+     "line": "Six years after pandemic aid, budgets protect pensions and salaried staff while the self-employed and claimants are left with less.",
+     "events": 6,
+     "headlines": 13,
+     "countries": 7,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261101T010841",
    "file": "data/narratives/20261101T010841.json",
    "newsGeneratedAt": "2026-11-01T01:08:41Z",
