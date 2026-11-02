@@ -1,0 +1,1923 @@
+{
+  "schemaVersion": 5,
+  "generatedAt": "2026-11-02T23:40:48Z",
+  "newsGeneratedAt": "2026-11-02T23:29:30Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-7",
+  "previousNewsGeneratedAt": "2026-11-02T01:30:11Z",
+  "usage": {
+    "input": 64077,
+    "output": 57573,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-165f8d4820289f",
+      "title": "Oracle taps investors for $20 billion to finance AI expansion",
+      "titleEnglish": "Oracle taps investors for $20 billion to finance AI expansion",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/11/02/oracle-to-offer-10-billion-in-bonds",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-11-02T21:28:00Z",
+      "seenAt": "2026-11-02T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
+    },
+    {
+      "id": "n-07e204ef20c843",
+      "title": "블룸버그 \"메타, 200억 달러 규모 채권 발행 추진\"",
+      "titleEnglish": "Bloomberg: \"Meta pursues bond issue worth $20 billion\"",
+      "url": "https://www.newspim.com/news/view/20261103000016",
+      "publisher": "뉴스핌",
+      "publisherDomain": "newspim.com",
+      "publishedAt": "2026-11-02T19:24:00Z",
+      "seenAt": "2026-11-02T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-d412bc971cb16c",
+      "title": "Big Tech's $740bn spending plans raise fresh fears over AI investment boom",
+      "titleEnglish": "Big Tech's $740bn spending plans raise fresh fears over AI investment boom",
+      "url": "https://www.thedailystar.net/news/technology/news/big-techs-740bn-spending-plans-raise-fresh-fears-over-ai-investment-boom-4313641",
+      "publisher": "The Daily Star",
+      "publisherDomain": "thedailystar.net",
+      "publishedAt": "2026-11-02T11:17:00Z",
+      "seenAt": "2026-11-02T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-8632ada0c046d7",
+      "title": "哈塞特反驳AI融资担忧 称该行业不存在被全面抛售的风险",
+      "titleEnglish": "Hassett Rejects AI Financing Concerns, Says Industry Faces No Risk of Full-Scale Sell-Off",
+      "url": "https://k.sina.com.cn/article_2868676035_aafc85c302001z9tc.html",
+      "publisher": "新浪网",
+      "publisherDomain": "k.sina.com.cn",
+      "publishedAt": "2026-11-03T01:03:19Z",
+      "seenAt": "2026-11-02T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-072eb1500d1a2c",
+      "title": "Volano a 17 miliardi i ricavi trimestrali di Anthropic, 23 di perdite - Notizie - Ansa.it",
+      "titleEnglish": "Anthropic's quarterly revenue rises to 17 billion, losses 23 - News - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/11/02/volano-a-17-miliardi-i-ricavi-trimestrali-di-anthropic-23-di-perdite_05af6686-eab9-4160-b88b-87a41880d232.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-02T19:55:00Z",
+      "seenAt": "2026-11-02T23:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-4099086dfd4747",
+      "title": "IPO: Anthropic meldet 17 Milliarden Dollar Umsatz im dritten Quartal",
+      "titleEnglish": "IPO: Anthropic reports 17 billion dollars in revenue in the third quarter",
+      "url": "https://www.handelsblatt.com/technik/ki/ipo-anthropic-meldet-17-milliarden-dollar-umsatz-im-dritten-quartal/100266735.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-02T16:30:14Z",
+      "seenAt": "2026-11-02T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-3e02e03055f43a",
+      "title": "周一纽约尾盘，纳指期货跌1.07%",
+      "titleEnglish": "New York late trading on Monday, Nasdaq futures down 1.07%",
+      "url": "https://www.nbd.com.cn/articles/2026-11-03/4635166.html",
+      "publisher": "nbd.com.cn",
+      "publisherDomain": "nbd.com.cn",
+      "publishedAt": "2026-11-02T22:17:00Z",
+      "seenAt": "2026-11-02T22:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-0597cffc851565",
+      "title": "[오늘의 증시]코스피, 美 AI 투심 위축에 다시 위기감…유가 급락이 낙폭 막을까",
+      "titleEnglish": "[Today's stock market] KOSPI falls back into crisis mood as US AI sentiment weakens… will the oil price plunge limit the decline?",
+      "url": "https://www.fnnews.com/news/202611030747052428",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-02T22:47:05Z",
+      "seenAt": "2026-11-02T23:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-9db8ec3f2ba4c4",
+      "title": "Intel foundry push faces critical test after stock's 45% plunge in October",
+      "titleEnglish": "Intel foundry push faces critical test after stock's 45% plunge in October",
+      "url": "https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-02T20:07:56Z",
+      "seenAt": "2026-11-02T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-9c6c1a4898ff8c",
+      "title": "China Focus: China steps up monetary policy support to bolster stock market",
+      "titleEnglish": "China Focus: China steps up monetary policy support to bolster stock market",
+      "url": "https://english.news.cn/20261103/e8508962977a48f59cafed650d7f2636/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-11-02T23:17:00Z",
+      "seenAt": "2026-11-02T23:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-dddc2fbca907eb",
+      "title": "Частные дата-центры обяжут выделить 10% мощностей под госнужды",
+      "titleEnglish": "Private data centres to be obliged to allocate 10% of capacity for state needs",
+      "url": "https://www.kommersant.ru/doc/9079407",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-02T18:17:38Z",
+      "seenAt": "2026-11-02T23:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-4f8795b01ca465",
+      "title": "Путин обязал частные ЦОД зарезервировать 10% мощностей для нужд государства",
+      "titleEnglish": "Putin orders private data centres to reserve 10% of capacity for state needs",
+      "url": "https://www.kommersant.ru/doc/9079235",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-02T14:41:14Z",
+      "seenAt": "2026-11-02T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-d6011db375dcf2",
+      "title": "Helsingfors godkände principer för datacenter",
+      "titleEnglish": "Helsinki approved principles for data centres",
+      "url": "https://yle.fi/a/7-10107986",
+      "publisher": "Svenska Yle",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-02T20:04:24Z",
+      "seenAt": "2026-11-02T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "sv"
+    },
+    {
+      "id": "n-7ad9da8c6cae57",
+      "title": "مراكز البيانات تشق صف الجمهوريين.. لماذا يرفضها ناخبو ترمب؟",
+      "titleEnglish": "Data centres split Republicans... why do Trump's voters reject them?",
+      "url": "https://www.aljazeera.net/news/2026/11/2/%D9%85%D8%B1%D8%A7%D9%83%D8%B2-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%AA%D8%B4%D9%82-%D8%B5%D9%81-%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D9%8A%D9%86",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-02T14:47:00Z",
+      "seenAt": "2026-11-02T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-375ed525079b32",
+      "title": "WP сообщила о превращении американского BigTech в источник выбросов в атмосферу",
+      "titleEnglish": "WP reports American BigTech has become a source of atmospheric emissions",
+      "url": "https://iz.ru/2195262/2026-11-02/wp-soobshchila-o-prevrashchenii-amerikanskogo-bigtech-v-istochnik-vybrosov-v-atmosferu",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-11-02T19:57:21Z",
+      "seenAt": "2026-11-02T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-a640907d5943b0",
+      "title": "New cyberattack on European supermarket freezers",
+      "titleEnglish": "New cyberattack on European supermarket freezers",
+      "url": "https://www.smh.com.au/world/new-cyberattack-on-european-supermarket-freezers-20261103-p61asg.html",
+      "publisher": "The Sydney Morning Herald",
+      "publisherDomain": "smh.com.au",
+      "publishedAt": "2026-11-02T22:17:00Z",
+      "seenAt": "2026-11-02T22:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-bb2573d221f743",
+      "title": "Fridge cyberattack hits supermarkets across Europe",
+      "titleEnglish": "Fridge cyberattack hits supermarkets across Europe",
+      "url": "https://www.rnz.co.nz/news/world/2306906/fridge-cyberattack-hits-supermarkets-across-europe",
+      "publisher": "RNZ",
+      "publisherDomain": "rnz.co.nz",
+      "publishedAt": "2026-11-02T22:17:00Z",
+      "seenAt": "2026-11-02T22:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-7a4dc29220d60f",
+      "title": "Weer aanval op winkelkoelingen door heel Europa: 'Bedrijven hebben zitten slapen'",
+      "titleEnglish": "Another attack on shop refrigeration across Europe: 'Companies have been sleeping'",
+      "url": "https://nos.nl/artikel/2637775-weer-aanval-op-winkelkoelingen-door-heel-europa-bedrijven-hebben-zitten-slapen",
+      "publisher": "nos.nl",
+      "publisherDomain": "nos.nl",
+      "publishedAt": "2026-11-02T20:17:00Z",
+      "seenAt": "2026-11-02T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-9f949b801b7c30",
+      "title": "Fridges, freezers of 17 Dutch businesses attacked; Large supermarkets unaffected",
+      "titleEnglish": "Fridges, freezers of 17 Dutch businesses attacked; Large supermarkets unaffected",
+      "url": "https://nltimes.nl/2026/11/02/fridges-freezers-17-dutch-businesses-attacked-large-supermarkets-unaffected",
+      "publisher": "NL Times",
+      "publisherDomain": "nltimes.nl",
+      "publishedAt": "2026-11-02T12:45:25Z",
+      "seenAt": "2026-11-02T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "en"
+    },
+    {
+      "id": "n-71ec129c89f2cd",
+      "title": "EU calls food store cyberattacks ‘deeply concerning’",
+      "titleEnglish": "EU calls food store cyberattacks ‘deeply concerning’",
+      "url": "https://www.arabnews.com/world/eu-calls-food-store-cyberattacks-deeply-concerning-3009468",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-02T16:19:02Z",
+      "seenAt": "2026-11-02T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-765982fc940ef8",
+      "title": "Cyberangrep mot butikker: Angrep på matforsyningen, sier EU",
+      "titleEnglish": "Cyberattack on stores: Attack on food supply, says EU",
+      "url": "https://www.nrk.no/artikkel/cyberangrep-mot-butikker-angrep-pa-matforsyningen-sier-eu-1531536",
+      "publisher": "nrk.no",
+      "publisherDomain": "nrk.no",
+      "publishedAt": "2026-11-02T12:21:09Z",
+      "seenAt": "2026-11-02T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Norway",
+      "sourceCountryCode": "NO",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 11,
+      "language": "no"
+    },
+    {
+      "id": "n-5218e1101ad73f",
+      "title": "Kyberturvallisuuskeskus: Suomalaisyrityksiä varoitettiin jo pari viikkoa sitten, kun Ranskassa oli isketty kauppojen kylmälaitteisiin",
+      "titleEnglish": "National Cyber Security Centre: Finnish companies were warned a couple of weeks ago after cold equipment in shops was hit in France",
+      "url": "https://www.lansi-savo.fi/uutissuomalainen/9920895",
+      "publisher": "Länsi-Savo",
+      "publisherDomain": "lansi-savo.fi",
+      "publishedAt": "2026-11-02T13:48:48Z",
+      "seenAt": "2026-11-02T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-1c9be710bd4174",
+      "title": "The $6.3bn hack of Binance took just 20 minutes",
+      "titleEnglish": "The $6.3bn hack of Binance took just 20 minutes",
+      "url": "https://www.thedailystar.net/news/technology/news/the-63bn-hack-binance-took-just-20-minutes-4313656",
+      "publisher": "The Daily Star",
+      "publisherDomain": "thedailystar.net",
+      "publishedAt": "2026-11-02T11:17:00Z",
+      "seenAt": "2026-11-02T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-8a8f3ed2a8038a",
+      "title": "北, 훔쳐간 바이낸스 가상자산 2차 세탁...동결 어려워져",
+      "titleEnglish": "North Korea launders stolen Binance crypto assets a second time... freezing becoming harder",
+      "url": "https://www.fnnews.com/news/202611030632433045",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-02T21:39:51Z",
+      "seenAt": "2026-11-02T23:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-0d76f5239f2849",
+      "title": "北김여정 \"바이낸스 사태, 우리 소행 아냐\" 부인..美 적대적 행위 주장",
+      "titleEnglish": "North Korea's Kim Yo Jong denies involvement in Binance incident, claims US hostile acts",
+      "url": "https://www.fnnews.com/news/202611030706562520",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-02T22:09:14Z",
+      "seenAt": "2026-11-02T23:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-c3d3c850f94a9a",
+      "title": "Власти КНДР назвали провокацией обвинения в причастности к взлому Binance",
+      "titleEnglish": "DPRK Authorities Call Accusations of Involvement in Binance Hack a Provocation",
+      "url": "https://www.kommersant.ru/doc/9079455",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-02T23:11:20Z",
+      "seenAt": "2026-11-02T23:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-ef080a5c23e9ef",
+      "title": "한양증권, 해킹 사고 발생…고객정보 등 일부 유출",
+      "titleEnglish": "Hanyang Securities Hit by Hacking Incident; Some Customer Information Leaked",
+      "url": "https://www.fnnews.com/news/202611030810391353",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-02T23:10:39Z",
+      "seenAt": "2026-11-02T23:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-1e2e41fdf37feb",
+      "title": "이 대통령 부부 개인정보 인터넷 유출…‘1호기’ 탄 168명도 5개월간",
+      "titleEnglish": "Personal information of President Lee and his wife leaked online; 168 people on 'Air Force One' also affected over five months",
+      "url": "https://www.hani.co.kr/arti/politics/politics_general/1285436.html",
+      "publisher": "한겨레",
+      "publisherDomain": "hani.co.kr",
+      "publishedAt": "2026-11-02T13:13:00Z",
+      "seenAt": "2026-11-02T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-269c9f287f0995",
+      "title": "DOJ asks Supreme Court to block California counting disputed mail-in ballots",
+      "titleEnglish": "DOJ asks Supreme Court to block California counting disputed mail-in ballots",
+      "url": "https://www.cnbc.com/2026/11/02/supreme-court-california-mail-ballots-election.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-02T16:34:43Z",
+      "seenAt": "2026-11-02T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-352c028fd6de1b",
+      "title": "[美 중간선거] 트럼프 정부, 대법원에 캘리포니아 우편투표 2만 표 개표 중지 요청",
+      "titleEnglish": "[US Midterms] Trump administration asks Supreme Court to halt counting of 20,000 California mail-in votes",
+      "url": "https://www.newspim.com/news/view/20261103000017",
+      "publisher": "뉴스핌",
+      "publisherDomain": "newspim.com",
+      "publishedAt": "2026-11-02T20:07:00Z",
+      "seenAt": "2026-11-02T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-315048e9ecae55",
+      "title": "Τραμπ: Αν χάσει τις εκλογές σκέφτεται να δώσει χάρη προληπτικά στους συμμάχους του",
+      "titleEnglish": "Trump: If he loses the elections, he is considering pre-emptively pardoning his allies",
+      "url": "https://www.efsyn.gr/kosmos/1501666/tramp-an-hasei-tis-ekloges-skeftetai-na-dosei-hari-proliptika-stoys-symmahoys-toy/",
+      "publisher": "Η Εφημερίδα των Συντακτών",
+      "publisherDomain": "efsyn.gr",
+      "publishedAt": "2026-11-02T20:58:37Z",
+      "seenAt": "2026-11-02T22:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-be2b41a7bf325c",
+      "title": "ترامب يستبق «تجديد الكونغرس» بـ«سلاح العفو»",
+      "titleEnglish": "Trump gets ahead of \"Congressional renewal\" with \"the pardon weapon\"",
+      "url": "https://www.khaberni.com/news/863273-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%B3%D8%AA%D8%A8%D9%82-%C2%AB%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D8%B1%D8%B3%C2%BB-%D8%A8%C2%AB%D8%B3%D9%84%D8%A7%D8%AD-%D8%A7%D9%84%D8%B9%D9%81%D9%88%C2%BB",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-11-02T17:17:00Z",
+      "seenAt": "2026-11-02T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-29d590d701eb68",
+      "title": "SIR: Over 90k names deleted from Chamarajanagar final voter list",
+      "titleEnglish": "SIR: Over 90k names deleted from Chamarajanagar final voter list",
+      "url": "https://timesofindia.indiatimes.com/city/mysuru/sir-over-90k-names-deleted-from-chamarajanagar-final-voter-list/articleshow/135469804.cms",
+      "publisher": "The Times of India",
+      "publisherDomain": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-11-02T22:17:00Z",
+      "seenAt": "2026-11-02T22:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-01383e2ce9c104",
+      "title": "Ponnam asks BJP to reveal foreign nationals number identified in SIR",
+      "titleEnglish": "Ponnam asks BJP to reveal foreign nationals number identified in SIR",
+      "url": "https://www.thehindu.com/news/national/telangana/ponnam-asks-bjp-to-reveal-foreign-nationals-number-identified-in-sir/article71658034.ece",
+      "publisher": "The Hindu",
+      "publisherDomain": "thehindu.com",
+      "publishedAt": "2026-11-02T17:03:25Z",
+      "seenAt": "2026-11-02T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-79bc10045113c8",
+      "title": "Cumhurbaşkanı Başdanışmanı Mehmet Uçum'dan CNN Türk’te önemli mesajlar: Seçim 16 Nisan 2028'de olsun dedim",
+      "titleEnglish": "Chief Presidential Adviser Mehmet Ucum's important messages on CNN Turk: I said the election should be on 16 April 2028",
+      "url": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-basdanismani-mehmet-ucum-cnn-turkte-43363708",
+      "publisher": "Hürriyet",
+      "publisherDomain": "hurriyet.com.tr",
+      "publishedAt": "2026-11-02T20:17:00Z",
+      "seenAt": "2026-11-02T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-5ba340052f1a3d",
+      "title": "Netanjahu: Likud tavoittelee laajaa koalitiohallitusta ilman arabipuolueita",
+      "titleEnglish": "Netanyahu: Likud seeks broad coalition government without Arab parties",
+      "url": "https://www.lansi-savo.fi/uutissuomalainen/9921650",
+      "publisher": "Länsi-Savo",
+      "publisherDomain": "lansi-savo.fi",
+      "publishedAt": "2026-11-02T20:09:43Z",
+      "seenAt": "2026-11-02T23:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-caec36f9d4b00a",
+      "title": "Israel opposition bloc to meet Tuesday for first time to push PM pick: party",
+      "titleEnglish": "Israel opposition bloc to meet Tuesday for first time to push PM pick: party",
+      "url": "https://www.arabnews.com/middle-east/israel-opposition-bloc-to-meet-tuesday-for-first-time-to-push-pm-pick-party-3009464",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-02T15:57:32Z",
+      "seenAt": "2026-11-02T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-4e203975d14a40",
+      "title": "Верховный лидер Ирана поручил урегулировать конфликт с США",
+      "titleEnglish": "Iran's Supreme Leader orders resolution of conflict with US",
+      "url": "https://lenta.ru/news/2026/11/02/verhovnyy-lider-irana-poruchil-uregulirovat-konflikt-s-ssha/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-11-02T14:17:00Z",
+      "seenAt": "2026-11-02T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-64e9ca96161aa0",
+      "title": "伊朗称局势如何发展取决于美方态度",
+      "titleEnglish": "Iran says how the situation develops depends on the US side's attitude",
+      "url": "https://www.yicai.com/brief/103421594.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-11-02T08:17:00Z",
+      "seenAt": "2026-11-02T08:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-90e5b9b63f7a42",
+      "title": "特朗普：\"不急于\"决定是否重启对伊朗的战事-新华网",
+      "titleEnglish": "Trump: 'No Rush' to Decide Whether to Resume Military Action Against Iran - Xinhua",
+      "url": "https://www.news.cn/world/20261103/6a84299efa9743e2bdf6de1ea741ac7b/c.html",
+      "publisher": "news.cn",
+      "publisherDomain": "news.cn",
+      "publishedAt": "2026-11-02T23:17:00Z",
+      "seenAt": "2026-11-02T23:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-8eaf9f5e921efd",
+      "title": "¿Tercera Guerra Mundial?... aseguran que Donald Trump evalúa lanzar un ataque nuclear contra Irán bajo presión de Israel",
+      "titleEnglish": "Third World War?... Donald Trump reportedly considering a nuclear strike on Iran under pressure from Israel",
+      "url": "https://vanguardia.com.mx/noticias/internacional/tercera-guerra-mundial-aseguran-que-donald-trump-evalua-lanzar-un-ataque-nuclear-contra-iran-bajo-presion-de-israel-DA24537307",
+      "publisher": "Vanguardia",
+      "publisherDomain": "vanguardia.com.mx",
+      "publishedAt": "2026-11-02T16:01:20Z",
+      "seenAt": "2026-11-02T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Mexico",
+      "sourceCountryCode": "MX",
+      "sourceRegion": "Latin America",
+      "sourceLat": 23,
+      "sourceLon": -102,
+      "language": "es"
+    },
+    {
+      "id": "n-210c224c11bd50",
+      "title": "美·이란 협상 기대에 국제유가 7%↓…WTI 100달러 밑으로",
+      "titleEnglish": "International oil prices fall 7% on US-Iran negotiation hopes, WTI below $100",
+      "url": "https://biz.heraldcorp.com/article/10923344",
+      "publisher": "헤럴드경제",
+      "publisherDomain": "biz.heraldcorp.com",
+      "publishedAt": "2026-11-02T22:03:53Z",
+      "seenAt": "2026-11-02T22:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-6bbb77247e4ed9",
+      "title": "유럽증시, 이란 종전 기대에 유가 급락·위험선호 회복에 상승 마감",
+      "titleEnglish": "European stocks close higher as oil plunges and risk appetite recovers on hopes for end of Iran war",
+      "url": "https://www.newspim.com/news/view/20261103000015",
+      "publisher": "뉴스핌",
+      "publisherDomain": "newspim.com",
+      "publishedAt": "2026-11-02T18:01:00Z",
+      "seenAt": "2026-11-02T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-d2c793b817398a",
+      "title": "إيران.. دويّ انفجارات في جزيرة قشم والحرس الثوري يسيطر على مسيّرتين أمريكيتين",
+      "titleEnglish": "Iran: explosions heard on Qeshm Island as Revolutionary Guard seizes two American drones",
+      "url": "https://www.aljazeera.net/news/liveblog/2026/11/3/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%AA%D8%B1%D9%85%D8%A8-%D9%85%D8%AA%D9%85%D9%87%D9%84-%D8%A8%D8%B4%D8%A3%D9%86-%D9%82%D8%B1%D8%A7%D8%B1",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-02T22:17:00Z",
+      "seenAt": "2026-11-02T22:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-6cea7ceb3403c9",
+      "title": "伊朗南部伦格港附近海域传出爆炸声",
+      "titleEnglish": "Explosion sounds reported in waters near Lengeh port, southern Iran",
+      "url": "https://www.nbd.com.cn/articles/2026-11-03/4635163.html",
+      "publisher": "nbd.com.cn",
+      "publisherDomain": "nbd.com.cn",
+      "publishedAt": "2026-11-02T22:17:00Z",
+      "seenAt": "2026-11-02T22:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-647b6fb85aa3bd",
+      "title": "الجيش الإيراني: حريق ينشب في ناقلة نفط أثناء عبور مضيق هرمز",
+      "titleEnglish": "Iranian army: fire breaks out on oil tanker transiting the Strait of Hormuz",
+      "url": "https://www.khaberni.com/news/863271-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A7%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D8%AD%D8%B1%D9%8A%D9%82-%D9%8A%D9%86%D8%B4%D8%A8-%D9%81%D9%8A-%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%86%D9%81%D8%B7-%D8%A7%D8%AB%D9%86%D8%A7%D8%A1-%D8%B9%D8%A8%D9%88%D8%B1-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-11-02T17:17:00Z",
+      "seenAt": "2026-11-02T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-9087c96f5286b9",
+      "title": "再攻撃観測巡り意見交換か イラン高官とロシア大統領",
+      "titleEnglish": "Exchange of Views on Possible Renewed Attack Between Iranian Official and Russian President",
+      "url": "https://www.47news.jp/15176423p2.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-11-02T23:17:00Z",
+      "seenAt": "2026-11-02T23:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-f52f6a88498812",
+      "title": "Saudi defense minister discusses military ties, regional developments with US, French and Greek counterparts",
+      "titleEnglish": "Saudi defense minister discusses military ties, regional developments with US, French and Greek counterparts",
+      "url": "https://www.arabnews.com/saudi-arabia/saudi-defense-minister-discusses-military-ties-regional-developments-with-us-french-and-greek-counterparts-3009480",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-02T18:30:14Z",
+      "seenAt": "2026-11-02T22:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    }
+  ],
+  "settled": [],
+  "readings": [
+    {
+      "id": "ai-build-needs-lenders-and-hosts",
+      "line": "Four years after ChatGPT, AI firms fund their build with borrowed money, while governments and voters set terms for its data centres.",
+      "kicker": "CREDIT / COMPUTE / CONSENT",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "Another AI or cloud company announces a bond, loan or share sale of $10 billion or more to pay for data centres.",
+          "by": "2026-11-23",
+          "because": "If the build has outgrown what profits can fund, Oracle and Meta are not the last to go to lenders, and the spending fears do not stop the raising.",
+          "id": "20261102T232930-ai-build-needs-lenders-and-hosts-1"
+        },
+        {
+          "what": "A national or city government outside Russia attaches a public-use, power or water condition to data centre approvals.",
+          "by": "2026-11-30",
+          "because": "The join says the buildings now need outside permission as much as outside money, so Helsinki's principles and Russia's decree should not stay alone.",
+          "id": "20261102T232930-ai-build-needs-lenders-and-hosts-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the telecom build of 1996 to 2001, when WorldCom, Global Crossing and others borrowed heavily to lay fibre on forecasts of internet traffic. Global Crossing filed for bankruptcy in January 2002 and WorldCom in July 2002, while the fibre was used years later. The difference is that the largest borrowers now, Meta and Oracle, have long records of profit, and that governments ask for a share of capacity or set siting rules before the buildings exist.",
+        "paths": [
+          {
+            "name": "Borrowing continues on tighter terms",
+            "weight": "favoured",
+            "text": "Over the next six months more raises of $10 billion or more follow, priced at wider spreads as lenders ask for more. More cities and states attach power, water or public-use conditions. The join points here because the firms are profitable enough to keep borrowing and the hosts have just discovered they can set terms.",
+            "sign": "A cloud or AI company prices a bond at a higher spread than its previous issue, citing data centre spending."
+          },
+          {
+            "name": "A listing or bond deal fails",
+            "weight": "possible",
+            "text": "Anthropic's listing or a large debt sale struggles to find buyers, and AI shares and bonds are repriced sharply within weeks. This is less likely because Apple and Palantir results show the profits still exist, but the loss larger than revenue makes it real.",
+            "sign": "An AI company postpones or cuts the size of a share sale or bond."
+          },
+          {
+            "name": "Big Tech cuts its spending",
+            "weight": "unlikely",
+            "text": "In results early next year the largest firms lower their capital spending plans. They have each said the risk of building too little is larger than building too much, so a voluntary cut would reverse a stated policy.",
+            "sign": "A large US tech company lowers its capital spending forecast for next year."
+          }
+        ],
+        "decade": "Over ten years the data centre is likely to be treated as a utility: financed like infrastructure, sited by public permission and in some states partly owned by the state."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Oracle and Meta are each raising about $20 billion for AI, Anthropic reports a loss of 23 billion on revenue of 17 billion in a quarter ahead of a listing, and tech shares fell from New York to Seoul while Kevin Hassett said the industry faced no risk of a full sell-off. On the same day Russia ordered private data centres to set aside a tenth of their capacity for the state, Helsinki approved principles for data centres, and Al Jazeera reported Trump voters turning against them. The AI build has grown too large to pay for from profits or to place without permission, so it now depends on lenders on one side and on governments and residents on the other.",
+      "events": [
+        {
+          "label": "Oracle and Meta raise $20 billion each",
+          "articleIds": [
+            "n-165f8d4820289f",
+            "n-07e204ef20c843"
+          ]
+        },
+        {
+          "label": "Spending fears and Hassett's denial",
+          "articleIds": [
+            "n-8632ada0c046d7",
+            "n-d412bc971cb16c"
+          ]
+        },
+        {
+          "label": "Anthropic's loss exceeds revenue before listing",
+          "articleIds": [
+            "n-072eb1500d1a2c",
+            "n-4099086dfd4747"
+          ]
+        },
+        {
+          "label": "Tech shares fall from Nasdaq to Seoul",
+          "articleIds": [
+            "n-0597cffc851565",
+            "n-3e02e03055f43a",
+            "n-9db8ec3f2ba4c4",
+            "n-9c6c1a4898ff8c"
+          ]
+        },
+        {
+          "label": "Russia claims a tenth of data centre capacity",
+          "articleIds": [
+            "n-dddc2fbca907eb",
+            "n-4f8795b01ca465"
+          ]
+        },
+        {
+          "label": "Helsinki rules and US voter resistance",
+          "articleIds": [
+            "n-d6011db375dcf2",
+            "n-7ad9da8c6cae57",
+            "n-375ed525079b32"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "ai-obs-money",
+          "kind": "observation",
+          "label": "Borrowing, losses and falling shares",
+          "fragments": [
+            {
+              "id": "ai-f1",
+              "label": "Two $20 billion raises",
+              "text": "Malaysia's The Star reports that Oracle is asking investors for $20 billion to finance its AI expansion, and Korea's Newspim, citing Bloomberg, that Meta is pursuing a $20 billion bond. Bangladesh's Daily Star says Big Tech's $740 billion spending plans have raised fresh fears about the AI investment boom. Sina in China carries Kevin Hassett rejecting concerns about AI financing and saying the industry faces no risk of a full sell-off.",
+              "articleIds": [
+                "n-165f8d4820289f",
+                "n-07e204ef20c843",
+                "n-d412bc971cb16c",
+                "n-8632ada0c046d7"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "ai-f2",
+              "label": "A loss larger than revenue",
+              "text": "Italy's ANSA reports Anthropic's quarterly revenue at 17 billion and its losses at 23. Germany's Handelsblatt files the same figures under the heading of a stock market listing. The company is asking public investors to fund a business that spends more than it earns.",
+              "articleIds": [
+                "n-072eb1500d1a2c",
+                "n-4099086dfd4747"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "ai-f3",
+              "label": "Shares fall abroad",
+              "text": "China's nbd reports Nasdaq futures down 1.07% in late New York trading. Korea's Financial News says the KOSPI fell back into a crisis mood as US AI sentiment weakened, and CNBC says Intel's foundry push faces a test after a 45% fall in its shares in October. Xinhua reports China stepping up monetary support to bolster its stock market.",
+              "articleIds": [
+                "n-3e02e03055f43a",
+                "n-0597cffc851565",
+                "n-9db8ec3f2ba4c4",
+                "n-9c6c1a4898ff8c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "ai-obs-hosts",
+          "kind": "observation",
+          "label": "Data centres and their hosts",
+          "fragments": [
+            {
+              "id": "ai-f4",
+              "label": "A state's share",
+              "text": "Kommersant reports twice that Putin has ordered private data centres in Russia to reserve 10% of their capacity for state needs. The decree treats computing capacity as something the state can requisition, as it might fuel or grain.",
+              "articleIds": [
+                "n-dddc2fbca907eb",
+                "n-4f8795b01ca465"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "ai-f5",
+              "label": "A city's rules and voters' objections",
+              "text": "Finland's Svenska Yle reports that Helsinki has approved principles for data centres. Al Jazeera asks why Trump's voters reject data centres and says the question splits Republicans. Izvestia, citing the Washington Post, reports that American Big Tech has become a source of atmospheric emissions.",
+              "articleIds": [
+                "n-d6011db375dcf2",
+                "n-7ad9da8c6cae57",
+                "n-375ed525079b32"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "ai-int",
+          "kind": "interpretation",
+          "label": "Outside money and outside permission",
+          "fragments": [
+            {
+              "id": "ai-f6",
+              "label": "What joins them",
+              "text": "The AI build now needs two kinds of outsider. Lenders and share buyers are needed because the sums, $20 billion at a time and a quarterly loss of 23 billion at Anthropic, are beyond what even the largest firms want to pay from cash. Governments and residents are needed because the buildings use land and power that someone must allow, and in Russia the state is taking a share of what is built. Both kinds of outsider can set terms, which the cloud companies of the 2010s rarely faced.",
+              "articleIds": [
+                "n-165f8d4820289f",
+                "n-07e204ef20c843",
+                "n-072eb1500d1a2c",
+                "n-dddc2fbca907eb",
+                "n-7ad9da8c6cae57"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "chatgpt-2022"
+              ]
+            },
+            {
+              "id": "ai-f7",
+              "label": "Why Seoul feels it first",
+              "text": "When the build depends on persuading lenders, doubt about its returns travels to the markets that supply it. The KOSPI's fall on weaker US AI sentiment and Hassett's public reassurance are two sides of that persuasion. China's support for its own market on the same day shows a government stepping in where investors hesitate.",
+              "articleIds": [
+                "n-0597cffc851565",
+                "n-8632ada0c046d7",
+                "n-9c6c1a4898ff8c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "ai-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "ai-f8",
+              "label": "Different decisions by different people",
+              "text": "Oracle and Meta borrowing is ordinary corporate finance by firms with large profits, and Apple reported record results the same day, so the money side may show nothing new. Russia's decree is about state control under sanctions, not about AI economics; Helsinki's principles may concern heat reuse and grid planning; US voters object mainly to their electricity bills. China's market support answers its own economy. What the events do not share is a decision-maker: one is a bond market, one an authoritarian decree, one a city council and one a group of voters.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "COMPUTE / RATES / SOVEREIGNTY",
+          "text": "ChatGPT's launch on 30 November 2022 turned a research field into a market within two months, and the spending followed. It came at a bad moment for borrowers. To fight the inflation that followed the pandemic and Russia's invasion of Ukraine, the Federal Reserve raised its rate from near zero in March 2022 to above 5 per cent by July 2023. The AI build is therefore the first large technology boom of the century financed at positive interest rates, which is why $20 billion raises by Meta and Oracle are news rather than routine. The same years taught governments that computing is a strategic resource. The United States restricted exports of advanced chips to China from October 2022, and Ireland's grid operator stopped most new data centre connections in Dublin from 2022. Russia, cut off from Western cloud providers by sanctions, moved toward state control of its own capacity. Putin's order that private data centres reserve a tenth of capacity for the state, reported by Kommersant, belongs to that line.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CLOUD / CHEAP MONEY / PLATFORMS",
+          "text": "After Lehman Brothers failed in September 2008, central banks held interest rates near zero for most of a decade and bought bonds in trillions. That cheap money built the platforms. Amazon Web Services, launched in 2006, Microsoft Azure and Google Cloud grew into the rented infrastructure of the world, and their owners became the most valuable companies ever listed. Those firms paid for their data centres mostly from advertising and subscription profits, with little need to persuade lenders. Adam Tooze's Crashed describes how the crisis concentrated financial power; it also concentrated computing in four or five American companies. The spending now planned, put at $740 billion in the Daily Star's headline, breaks with that model because it is larger than the profits that built the cloud. Kevin Hassett's denial of any risk of a full sell-off, reported by Sina, is addressed to bond and share buyers who now have to be persuaded, as they did not in the 2010s.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "INTERNET / LISTINGS / BUBBLES",
+          "text": "The opening of the internet to commerce in the early 1990s and Netscape's listing in August 1995 set the pattern the AI build follows: a technology priced by markets before it earned money. Between 1996 and 2001 American telecom companies borrowed hundreds of billions of dollars to lay fibre-optic cable on forecasts of traffic growth. When the Nasdaq fell by more than three quarters from its March 2000 peak, WorldCom and Global Crossing went bankrupt and much of the cable sat unused for years. The disclosure rules that followed, including the Sarbanes-Oxley Act of 2002, are part of why Anthropic's figures, a quarterly loss of 23 billion against revenue of 17 billion, are public before its listing, as ANSA and Handelsblatt report. The difference from 2000 is who borrows. Then it was new companies with no profits; now it is Oracle and Meta, and the risk sits with their bondholders.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE SCIENCE / INFRASTRUCTURE / PLANNING",
+          "text": "For most of the period since 1945 the machines that could change everything were paid for by states. The atomic bomb in 1945, the Dartmouth workshop that named artificial intelligence in 1956 and ARPA, founded in 1958 after Sputnik, were state or foundation projects, and the first large computers were bought by defence ministries. Works that used large amounts of land, water and power, from dams to nuclear stations, were built under public planning and permission. The AI build reverses the first half of that arrangement: companies now pay, with borrowed money. The second half is returning. Russia's claim on a tenth of private data centre capacity, Helsinki's principles for data centres and the Republican voters reported by Al Jazeera to reject them near their homes all treat the data centre as a public work that needs consent, as power stations were treated in the postwar decades.",
+          "trajectoryIds": [
+            "trinity-1945",
+            "dartmouth-1956",
+            "sputnik-1957"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-165f8d4820289f",
+        "n-07e204ef20c843",
+        "n-d412bc971cb16c",
+        "n-8632ada0c046d7",
+        "n-072eb1500d1a2c",
+        "n-4099086dfd4747",
+        "n-3e02e03055f43a",
+        "n-0597cffc851565",
+        "n-9db8ec3f2ba4c4",
+        "n-9c6c1a4898ff8c",
+        "n-dddc2fbca907eb",
+        "n-4f8795b01ca465",
+        "n-d6011db375dcf2",
+        "n-7ad9da8c6cae57",
+        "n-375ed525079b32"
+      ]
+    },
+    {
+      "id": "hacks-reach-fridges-and-wallets",
+      "line": "Hacking now reaches shop freezers and exchange wallets, and the EU calls an attack on refrigeration an attack on food supply.",
+      "kicker": "SABOTAGE / SUPPLY / BLAME",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A European government or the EU names a state or a named group as responsible for the attacks on shop refrigeration.",
+          "by": "2026-11-23",
+          "because": "The join says these attacks are treated as attacks on supply, so blame becomes a political act, as it already is with North Korea and Binance.",
+          "id": "20261102T232930-hacks-reach-fridges-and-wallets-1"
+        },
+        {
+          "what": "A European regulator or cyber agency orders or formally advises shops to disconnect refrigeration controls from the internet.",
+          "by": "2026-11-30",
+          "because": "If the target is operating equipment owned by small firms, the response has to fall on that equipment and its owners rather than on data rules.",
+          "id": "20261102T232930-hacks-reach-fridges-and-wallets-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is NotPetya in June 2017, malware spread through a Ukrainian accounting program that stopped Maersk's terminals and Merck's factories and cost about $10 billion; the United States and Britain attributed it to Russian military intelligence in February 2018, eight months later. North Korea's theft of $81 million from Bangladesh Bank in February 2016 is the precedent for Binance. The difference now is the size of the theft, $6.3 billion, and the spread of targets to equipment in small shops that no law treated as critical.",
+        "paths": [
+          {
+            "name": "Rules for connected equipment tighten",
+            "weight": "favoured",
+            "text": "Over the next months national cyber agencies and the European Commission use the NIS2 directive and the Cyber Resilience Act to press refrigeration vendors and shops, while attribution stays slow. This is favoured because the Finnish warning and the EU statement are already regulatory moves, and naming a culprit took eight months after NotPetya.",
+            "sign": "A national cyber agency publishes mandatory guidance for remotely managed refrigeration or building systems."
+          },
+          {
+            "name": "A state is named within weeks",
+            "weight": "possible",
+            "text": "An EU government blames Russia or another state for the refrigeration attacks before the end of November, turning them into a sanctions question. The EU's language about food supply makes this possible, but governments usually wait for forensic certainty.",
+            "sign": "An EU member government publicly blames a foreign state for the refrigeration attacks."
+          },
+          {
+            "name": "Arrests end the campaign",
+            "weight": "unlikely",
+            "text": "Police identify a criminal group and the attacks stop. Repeated attacks across several countries suggest an organised operation that arrests in one country would not end quickly.",
+            "sign": "Police in a European country announce arrests over the refrigeration attacks."
+          }
+        ],
+        "decade": "Over ten years the ordinary connected machine, in shops, farms and homes, is likely to be regulated as critical infrastructure, and crypto theft treated as a form of sanctions evasion by states."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Refrigeration in shops across Europe was attacked again, hitting 17 Dutch businesses while large supermarkets were unaffected, and the EU called it an attack on food supply. In Asia, North Korea denied stealing $6.3 billion from Binance in a hack that took twenty minutes and whose proceeds are being laundered a second time, while a Korean brokerage and the personal details of President Lee were leaked in the older kind of breach. The new attacks act on machines that keep food cold or money in place, so the loss happens while the attack is under way. That moves the question from data protection to who defends ordinary equipment, and so far the answer is the smallest owners and officials naming a state that denies it.",
+      "events": [
+        {
+          "label": "Shop refrigeration attacked across Europe",
+          "articleIds": [
+            "n-a640907d5943b0",
+            "n-bb2573d221f743",
+            "n-7a4dc29220d60f",
+            "n-9f949b801b7c30"
+          ]
+        },
+        {
+          "label": "EU calls it an attack on food",
+          "articleIds": [
+            "n-71ec129c89f2cd",
+            "n-765982fc940ef8"
+          ]
+        },
+        {
+          "label": "Finland warned firms after French attacks",
+          "articleIds": [
+            "n-5218e1101ad73f"
+          ]
+        },
+        {
+          "label": "Binance theft and second laundering",
+          "articleIds": [
+            "n-1c9be710bd4174",
+            "n-8a8f3ed2a8038a"
+          ]
+        },
+        {
+          "label": "North Korea denies the Binance hack",
+          "articleIds": [
+            "n-0d76f5239f2849",
+            "n-c3d3c850f94a9a"
+          ]
+        },
+        {
+          "label": "Korean brokerage and presidential data leaks",
+          "articleIds": [
+            "n-ef080a5c23e9ef",
+            "n-1e2e41fdf37feb"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "cy-obs-europe",
+          "kind": "observation",
+          "label": "Attacks on shop refrigeration",
+          "fragments": [
+            {
+              "id": "cy-f1",
+              "label": "Across Europe",
+              "text": "The Sydney Morning Herald and RNZ report a new cyberattack on supermarket freezers across Europe. The Dutch broadcaster NOS calls it another attack on shop refrigeration and quotes the view that companies have been sleeping. NL Times says the fridges and freezers of 17 Dutch businesses were attacked and that large supermarkets were unaffected.",
+              "articleIds": [
+                "n-a640907d5943b0",
+                "n-bb2573d221f743",
+                "n-7a4dc29220d60f",
+                "n-9f949b801b7c30"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "cy-f2",
+              "label": "Officials respond",
+              "text": "Arab News reports the EU calling the attacks on food stores deeply concerning, and Norway's NRK that the EU describes them as an attack on food supply. Finland's Länsi-Savo says the National Cyber Security Centre warned Finnish companies a couple of weeks ago, after cold equipment in French shops was hit.",
+              "articleIds": [
+                "n-71ec129c89f2cd",
+                "n-765982fc940ef8",
+                "n-5218e1101ad73f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "cy-obs-asia",
+          "kind": "observation",
+          "label": "Thefts and leaks in Asia",
+          "fragments": [
+            {
+              "id": "cy-f3",
+              "label": "Binance",
+              "text": "Bangladesh's Daily Star reports that the $6.3 billion hack of Binance took just 20 minutes. Korea's Financial News says North Korea is laundering the stolen assets a second time, making them harder to freeze. Financial News and Kommersant report Kim Yo Jong denying involvement, calling the accusations a provocation and citing US hostile acts.",
+              "articleIds": [
+                "n-1c9be710bd4174",
+                "n-8a8f3ed2a8038a",
+                "n-0d76f5239f2849",
+                "n-c3d3c850f94a9a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "cy-f4",
+              "label": "Korean leaks",
+              "text": "Financial News reports that Hanyang Securities was hacked and some customer information leaked. Hankyoreh reports that the personal information of President Lee and his wife was leaked online, and that 168 people on the presidential aircraft were also affected over five months.",
+              "articleIds": [
+                "n-ef080a5c23e9ef",
+                "n-1e2e41fdf37feb"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "cy-int",
+          "kind": "interpretation",
+          "label": "Acting on machines, not files",
+          "fragments": [
+            {
+              "id": "cy-f5",
+              "label": "Loss while it happens",
+              "text": "A fridge controller and an exchange wallet are both systems where an intruder acts rather than copies. The Binance money moved in twenty minutes and is being laundered faster than it can be frozen; a freezer that is switched off damages stock before anyone reads a report. This is why the EU uses the word supply rather than privacy. The Korean leaks are the older form, where the harm comes later.",
+              "articleIds": [
+                "n-1c9be710bd4174",
+                "n-8a8f3ed2a8038a",
+                "n-765982fc940ef8",
+                "n-9f949b801b7c30"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "cy-f6",
+              "label": "Who carries it",
+              "text": "The cost falls on those least able to defend. In the Netherlands 17 smaller businesses were hit while the large chains were not, and NOS quotes the charge that companies slept despite the Finnish warning. At the other end, blame becomes diplomacy: the theft is laid at North Korea's door and North Korea answers with a denial and a counter-charge.",
+              "articleIds": [
+                "n-9f949b801b7c30",
+                "n-7a4dc29220d60f",
+                "n-5218e1101ad73f",
+                "n-0d76f5239f2849",
+                "n-c3d3c850f94a9a"
+              ],
+              "bookIds": [
+                "risk-society"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "cy-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "cy-f7",
+              "label": "Three kinds of crime",
+              "text": "The refrigeration attacks have no named author and no visible gain; they may be vandalism by a small group whose work spread to Australia, New Zealand and Saudi Arabia through English-language wires, which makes one campaign look global. The Binance theft is state theft for foreign currency, a pattern North Korea has followed since 2016, and the Korean leaks are routine data breaches. What the events do not share is a motive: one is sabotage without profit, one is a state raising money, one is the loss of records.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "SABOTAGE / RANSOM / REGULATION",
+          "text": "In May 2021 a ransomware attack on Colonial Pipeline shut the main fuel line to the American east coast for six days, and drivers queued for petrol. On 24 February 2022, the morning Russia invaded Ukraine, an attack on the Viasat KA-SAT satellite network cut remote monitoring to thousands of German wind turbines. These were the decade's lessons that hacking could stop machines rather than steal files. The European Union answered with the NIS2 directive, adopted in 2022 and applying from October 2024, and the Cyber Resilience Act of 2024, which puts security duties on makers of connected products. The refrigeration attacks reported by NOS and NL Times hit the kind of firm those laws reach last: 17 Dutch businesses, with the large supermarkets untouched. North Korea's thefts grew in the same years; the Bybit theft of February 2025, about $1.5 billion, was the largest until Binance. Ukraine's drone raid of June 2025 showed the same arithmetic in war: cheap means against costly targets.",
+          "trajectoryIds": [
+            "spiderweb-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CRYPTO / STATE HACKING / SANCTIONS",
+          "text": "The Bitcoin white paper was published on 31 October 2008, six weeks after Lehman Brothers failed, as a payment system that needed no bank. It created the kind of asset North Korea now steals. Stuxnet, discovered in 2010 and widely attributed to the United States and Israel, showed that code could break centrifuges at Natanz, and made industrial equipment a target for states. After the United Nations tightened sanctions on North Korea from 2016, cryptocurrency theft became one of its main sources of foreign currency, and UN panels of experts estimated the takings in billions of dollars. Kim Yo Jong's denial over Binance, reported by Financial News and Kommersant, is the regime's standard line. The platforms built after 2008 also left small businesses dependent on vendors who run their equipment remotely, which is how one attack can reach shops in several countries at once.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "INTERNET / COMMERCE / OPEN NETWORKS",
+          "text": "The internet that opened to commerce in the early 1990s was built for trust among researchers, not for defence. Netscape's listing in August 1995 put a price on that openness, and the switch-off of deliberate GPS error in May 2000 showed how technologies built by states passed to civilians without the protections states had kept for themselves. Through the 2000s ordinary equipment, tills, thermostats, cameras and refrigeration controls, was connected to vendors over the public network so it could be serviced cheaply from a distance. Security writers warned for two decades that this equipment had no market reason to be secure, because the buyer could not see the risk and the maker did not bear it. The Finnish National Cyber Security Centre's warning to companies after the French attacks, reported by Länsi-Savo, is a public agency trying to make that risk visible, which the market of the 1990s never did.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "gps-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "LAWS OF WAR / FOOD / CIVILIAN SUPPLY",
+          "text": "After 1945 states agreed, at Geneva in 1949 and in the Additional Protocol of 1977, that what civilians need to survive may not be attacked. Article 54 of Protocol I names foodstuffs and the installations that supply them. When the EU, as NRK reports, calls an attack on shop refrigeration an attack on food supply, it reaches for that vocabulary, written for armies and aircraft. The postwar state also built the cold chain as policy: refrigerated distribution and food safety law were part of European recovery after rationing, which ended in Britain in 1954. The question these attacks raise is whether the laws of war and the food safety state reach an anonymous intruder in a fridge controller. The Tallinn Manual, published for NATO's cyber centre in 2013, argued that the laws of war apply to such attacks; no state has yet tested that against a culprit.",
+          "trajectoryIds": [
+            "geneva-1949",
+            "protocol-1977"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-a640907d5943b0",
+        "n-bb2573d221f743",
+        "n-7a4dc29220d60f",
+        "n-9f949b801b7c30",
+        "n-71ec129c89f2cd",
+        "n-765982fc940ef8",
+        "n-5218e1101ad73f",
+        "n-1c9be710bd4174",
+        "n-8a8f3ed2a8038a",
+        "n-0d76f5239f2849",
+        "n-c3d3c850f94a9a",
+        "n-ef080a5c23e9ef",
+        "n-1e2e41fdf37feb"
+      ]
+    },
+    {
+      "id": "incumbents-act-before-polling",
+      "line": "Parties in office now shape who votes and which ballots count before polling day, not only dispute results after it.",
+      "kicker": "INCUMBENCY / ELECTORATE / COURTS",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "The Trump administration or a federal agency asks a court to stop or delay the counting or certification of ballots in a second state.",
+          "by": "2026-11-17",
+          "because": "The join says acting on the count in advance is now a method for the side in office, not a dispute about California alone.",
+          "id": "20261102T232930-incumbents-act-before-polling-1"
+        },
+        {
+          "what": "Trump grants a pardon to a named political ally or official before the new Congress sits.",
+          "by": "2026-11-30",
+          "because": "If incumbents now act before results are settled, insurance against losing should be used before the loss takes effect, not after.",
+          "id": "20261102T232930-incumbents-act-before-polling-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The nearest case is Bush v. Gore in December 2000, when the US Supreme Court stopped Florida's recount and settled a presidential election; then the request came from a campaign after the vote, now it comes from the Justice Department before polls close. Hungary after 2010 is the other: Fidesz rewrote the electoral law in 2011 and won two thirds of parliament in 2014 with under 45 per cent of the list vote.",
+        "paths": [
+          {
+            "name": "Courts refuse most pre-count requests",
+            "weight": "favoured",
+            "text": "The Supreme Court and lower courts decline to halt counting in California and elsewhere within days of the vote, as courts rejected most challenges in 2020. The argument moves to certification and to public claims of fraud through December. The join points here because the moves are legal and procedural, and courts have so far held the count itself.",
+            "sign": "The Supreme Court declines to halt the California count."
+          },
+          {
+            "name": "A court pauses part of a count",
+            "weight": "possible",
+            "text": "A federal court orders a state to set aside or pause counting of a category of ballots, delaying results in close races into December. This is less likely because the request came late and concerns a state's own procedure.",
+            "sign": "A federal court orders a state to segregate or pause counting of a category of mail ballots."
+          },
+          {
+            "name": "Certification is refused",
+            "weight": "unlikely",
+            "text": "A state or county board refuses to certify results, forcing a court to order it. Officials who tried this in 2022 were ordered to certify within weeks.",
+            "sign": "A state or county board votes not to certify its midterm results."
+          }
+        ],
+        "decade": "Over ten years the contest over elections is likely to move further from the count to the roll, the date and the rules, making election administration a main field of party conflict."
+      },
+      "continues": "incumbents-doubt-the-count",
+      "change": "The previous edition joined incumbents casting doubt on counts. Since then the US Justice Department has taken the doubt to the Supreme Court before polls close, asking it to halt the counting of 20,000 California mail ballots, and Trump has been reported weighing pardons for allies in case he loses. India's revised voter lists and a Turkish election date add cases where the move comes before any vote is cast.",
+      "claim": "The US Justice Department asked the Supreme Court to stop California counting 20,000 disputed mail-in ballots, and Trump was reported considering pre-emptive pardons for allies if he loses; in India a revision of voter lists removed more than 90,000 names in Chamarajanagar alone; in Turkey the president's chief adviser said the next election should be held on 16 April 2028; in Israel Netanyahu said Likud would seek a coalition without Arab parties. In each case the side in power is deciding in advance which voters, which ballots or which elected members will count. Yesterday the move was doubt about a count; today it comes earlier, before the count begins or before a government is formed.",
+      "events": [
+        {
+          "label": "Justice Department seeks halt to California count",
+          "articleIds": [
+            "n-269c9f287f0995",
+            "n-352c028fd6de1b"
+          ]
+        },
+        {
+          "label": "Trump weighs pre-emptive pardons for allies",
+          "articleIds": [
+            "n-315048e9ecae55",
+            "n-be2b41a7bf325c"
+          ]
+        },
+        {
+          "label": "India's voter-roll revision deletes names",
+          "articleIds": [
+            "n-29d590d701eb68",
+            "n-01383e2ce9c104"
+          ]
+        },
+        {
+          "label": "Erdogan's adviser names a 2028 election date",
+          "articleIds": [
+            "n-79bc10045113c8"
+          ]
+        },
+        {
+          "label": "Netanyahu plans coalition without Arab parties",
+          "articleIds": [
+            "n-5ba340052f1a3d",
+            "n-caec36f9d4b00a"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "el-obs-us",
+          "kind": "observation",
+          "label": "Before the American vote",
+          "fragments": [
+            {
+              "id": "el-f1",
+              "label": "A filing against ballots",
+              "text": "CNBC reports that the Justice Department asked the Supreme Court to block California from counting disputed mail-in ballots. Korea's Newspim puts the number at 20,000 and the request on the eve of the midterms.",
+              "articleIds": [
+                "n-269c9f287f0995",
+                "n-352c028fd6de1b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "el-f2",
+              "label": "Pardons in advance",
+              "text": "Greece's EfSyn reports that Trump is considering pre-emptively pardoning his allies if he loses. Jordan's Khaberni describes it as getting ahead of a new Congress with the pardon as a weapon.",
+              "articleIds": [
+                "n-315048e9ecae55",
+                "n-be2b41a7bf325c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "el-obs-elsewhere",
+          "kind": "observation",
+          "label": "Rolls, dates and coalitions elsewhere",
+          "fragments": [
+            {
+              "id": "el-f3",
+              "label": "India's lists",
+              "text": "The Times of India reports that more than 90,000 names were deleted from Chamarajanagar's final voter list under the special intensive revision. The Hindu reports a Telangana minister asking the BJP to reveal how many foreign nationals the revision actually identified.",
+              "articleIds": [
+                "n-29d590d701eb68",
+                "n-01383e2ce9c104"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "el-f4",
+              "label": "Turkey's date and Israel's arithmetic",
+              "text": "Hürriyet reports the chief presidential adviser Mehmet Uçum saying on CNN Türk that the election should be held on 16 April 2028. Finland's Länsi-Savo reports Netanyahu saying Likud seeks a broad coalition without Arab parties, and Arab News that the opposition bloc will meet for the first time to push its own choice of prime minister.",
+              "articleIds": [
+                "n-79bc10045113c8",
+                "n-5ba340052f1a3d",
+                "n-caec36f9d4b00a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "el-int",
+          "kind": "interpretation",
+          "label": "Deciding the electorate in advance",
+          "fragments": [
+            {
+              "id": "el-f5",
+              "label": "The shared move",
+              "text": "The common act is choosing, before voters' choices are known or before they become a government, which part of them will be allowed to matter. The Justice Department aims at a defined set of ballots, the revision removes names from the roll, the adviser fixes the date on the president's side, and Netanyahu removes Arab parties' seats from the arithmetic of government. Each uses a legal power the incumbent already holds, which is what Levitsky and Ziblatt called the end of forbearance.",
+              "articleIds": [
+                "n-269c9f287f0995",
+                "n-29d590d701eb68",
+                "n-79bc10045113c8",
+                "n-5ba340052f1a3d"
+              ],
+              "bookIds": [
+                "how-democracies-die"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "el-f6",
+              "label": "The pardon as insurance",
+              "text": "Pre-emptive pardons treat losing as a legal risk to be covered before the result. They belong to the same shape: the side in office arranges the consequences of the vote before the vote.",
+              "articleIds": [
+                "n-315048e9ecae55",
+                "n-be2b41a7bf325c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "el-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "el-f7",
+              "label": "Different powers, different actors",
+              "text": "India's revision is run by the Election Commission, a constitutional body, in a state governed by the opposition Congress, and revisions routinely remove the dead and the duplicated. A 2028 date in Turkey is close to the scheduled one, and Israeli coalitions have excluded Arab parties in every government but one, so neither may be new. The Justice Department filing is ordinary litigation a court can refuse. What the events do not share is an instrument: one is a court filing, one an administrative list, one a statement of the calendar and one a coalition preference after the votes were cast.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "DENIAL / PARDONS / MAIL BALLOTS",
+          "text": "Mail voting grew sharply in the American election of November 2020 because of the pandemic, and it became the main target of the claim that the election had been stolen. More than sixty lawsuits by the Trump campaign and its allies failed within weeks, and on 6 January 2021 the claim became an attack on the Capitol. Brazil repeated the sequence on 8 January 2023. These headlines show the next stage: the federal government itself, through the Justice Department, asks the Supreme Court, as CNBC and Newspim report, to stop California counting 20,000 disputed mail ballots. The same years made the pardon part of the election cycle. Trump pardoned allies in December 2020, Joe Biden issued pre-emptive pardons to officials and family members in January 2025, and Trump pardoned about 1,500 people charged over 6 January on his first day back in office. Talk of pre-emptive pardons before this vote extends that habit.",
+          "trajectoryIds": [
+            "washington-2021",
+            "brasilia-2023"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CRISIS / MAJORITIES / ROLLS",
+          "text": "Hungary took an IMF loan in October 2008, and in April 2010 Fidesz won two thirds of parliament on the anger that followed; in 2011 it rewrote the constitution and the electoral law. That became the model of the decade: governments elected after the crisis changing the rules of competition while keeping elections. In 2013 the US Supreme Court, in Shelby County v. Holder, ended federal approval of voting law changes in states with a record of discrimination, and a decade of disputes over rolls and identification followed. Turkey's 2017 referendum created the executive presidency whose election date is now set out, as Hürriyet reports, by the president's own adviser. India's argument over citizenship registers, from Assam's final list of August 2019, which left out 1.9 million people, runs into the revision that removed 90,000 names in Chamarajanagar. Levitsky and Ziblatt's How Democracies Die described this pattern in 2018.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "how-democracies-die"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "TRANSITIONS / MONITORING / FRAUD",
+          "text": "After 1989 elections spread across the former communist states, Latin America and Africa, and an international practice of watching them grew alongside: OSCE observers, the Carter Center, parallel counts by civic groups. The model of the stolen election in that period was the count itself. Milošević's attempt to deny Vojislav Koštunica victory in September 2000 ended with crowds in Belgrade on 5 October, and Georgia's disputed parliamentary count in November 2003 produced the Rose Revolution. Monitors learned to check tallies, and incumbents learned that the tally was the most watched place to cheat. The headlines here show the move away from it toward earlier and more legal stages: the voter list in Karnataka, the election date in Ankara, a federal filing in Washington. These are harder for observers to call fraud, because each follows an official procedure, and that is part of why they are used.",
+          "trajectoryIds": [
+            "belgrade-2000",
+            "tbilisi-2003"
+          ],
+          "bookIds": [
+            "third-wave"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "SUFFRAGE / ELECTION COMMISSIONS / MINORITIES",
+          "text": "The postwar order made the universal vote and an independent count the test of legitimacy. India's constitution of 1950 created an Election Commission, and its first chief, Sukumar Sen, organised the 1951-52 election for 173 million voters, most of whom could not read. Turkey held its first free multi-party election in May 1950, and the ruling party handed over power. The United States passed the Voting Rights Act in 1965 to end the exclusion of black voters in the South. Israel gave its Arab citizens the vote from 1949, though Arab parties stayed out of governing coalitions until Ra'am joined one in 2021. The third wave that began in Lisbon in 1974 later spread the same test across three continents. Each of today's headlines touches the institution these countries' postwar orders relied on, down to Netanyahu's stated aim, reported by Länsi-Savo, of a coalition without Arab parties.",
+          "trajectoryIds": [
+            "lisbon-1974"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-269c9f287f0995",
+        "n-352c028fd6de1b",
+        "n-315048e9ecae55",
+        "n-be2b41a7bf325c",
+        "n-29d590d701eb68",
+        "n-01383e2ce9c104",
+        "n-79bc10045113c8",
+        "n-5ba340052f1a3d",
+        "n-caec36f9d4b00a"
+      ]
+    },
+    {
+      "id": "iran-talks-priced-before-the-fighting-stops",
+      "line": "Markets now price a negotiated end to the war with Iran faster than the fighting around the Strait of Hormuz is slowing.",
+      "kicker": "OIL / DIPLOMACY / FORCE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A tanker or commercial ship is reported attacked, seized or set on fire near the Strait of Hormuz after US-Iran talks are announced.",
+          "by": "2026-11-24",
+          "because": "The join says forces in the Gulf act on their own timetable, apart from the statements that move prices.",
+          "id": "20261102T232930-iran-talks-priced-before-the-fighting-stops-1"
+        },
+        {
+          "what": "Oil is reported rising at least 5% in a day after the US vote on a Gulf incident, while talks are still said to be under way.",
+          "by": "2026-11-20",
+          "because": "If prices have run ahead of the fighting, a single incident should move them back sharply without the talks ending.",
+          "id": "20261102T232930-iran-talks-priced-before-the-fighting-stops-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The Tanker War of 1984 to 1988 is the closest case: Iran and Iraq attacked more than 400 ships, the United States reflagged Kuwaiti tankers in 1987 and sank much of Iran's navy in Operation Praying Mantis in April 1988, and Khomeini accepted UN Resolution 598 in July 1988. Attacks on shipping went on until the ceasefire took effect in August. The difference is price: then oil was below $20 in a glutted market, so the war barely moved it, while now WTI is near $100 and each statement moves it by several per cent.",
+        "paths": [
+          {
+            "name": "Talks resume, incidents continue",
+            "weight": "favoured",
+            "text": "After 3 November, envoys meet through Oman or Qatar within weeks and oil drifts lower in steps, jumping on each incident near Hormuz. No signed text appears before the new year. This is favoured because both leaders have now said they prefer talks, while the Revolutionary Guard's actions show no change of orders at sea.",
+            "sign": "Omani or Qatari officials announce a date for US-Iranian talks."
+          },
+          {
+            "name": "Strikes resume after the vote",
+            "weight": "possible",
+            "text": "With the election past, Trump orders or allows renewed strikes, and oil returns above $110 within days. The report of pressure from Israel and Iran's consultation with Putin over a renewed attack keep this possible.",
+            "sign": "The US or Israel is reported striking targets inside Iran."
+          },
+          {
+            "name": "A quick signed deal",
+            "weight": "unlikely",
+            "text": "Washington and Tehran announce an agreement on shipping or nuclear limits within a month. Agreements of this kind took two years in 2013 to 2015, and the Gulf incidents show the sides have not agreed even a pause at sea.",
+            "sign": "The White House announces an agreement with Iran on shipping or nuclear limits."
+          }
+        ],
+        "decade": "Over ten years the Strait of Hormuz is likely to be treated as a permanent risk, priced into oil and insured and patrolled like a war zone, while Asian importers build reserves and routes around it."
+      },
+      "continues": "iran-choice-timed-to-midterms",
+      "change": "The previous edition joined the timing of the choice between striking and talking to the US vote. Since then the words have tilted toward talks: Iran's Supreme Leader is reported to have ordered the conflict resolved, Trump says there is no rush to strike, and oil fell 7%. What has not changed is the fighting: two drones seized, explosions near two Iranian ports and a tanker fire in the strait.",
+      "claim": "Oil fell 7% and WTI went below $100 on hopes of US-Iran negotiations, and European shares rose, after Iran's Supreme Leader was reported to have ordered the conflict with the United States resolved and Trump said he was in no rush to resume military action. In the same hours the Revolutionary Guard said it seized two American drones near Qeshm Island, explosions were reported near the port of Lengeh, an oil tanker caught fire in the Strait of Hormuz, and an Iranian official discussed a possible renewed attack with Putin. Prices are moving on what leaders say while the forces in the Gulf act as though nothing has been agreed, and that gap is the main risk in the weeks after the US vote.",
+      "events": [
+        {
+          "label": "Oil falls 7% on talk hopes",
+          "articleIds": [
+            "n-210c224c11bd50",
+            "n-6bbb77247e4ed9"
+          ]
+        },
+        {
+          "label": "Khamenei orders the conflict resolved",
+          "articleIds": [
+            "n-4e203975d14a40",
+            "n-64e9ca96161aa0"
+          ]
+        },
+        {
+          "label": "Trump says no rush to strike",
+          "articleIds": [
+            "n-90e5b9b63f7a42",
+            "n-8eaf9f5e921efd"
+          ]
+        },
+        {
+          "label": "Drones seized and explosions in the Gulf",
+          "articleIds": [
+            "n-d2c793b817398a",
+            "n-6cea7ceb3403c9",
+            "n-647b6fb85aa3bd"
+          ]
+        },
+        {
+          "label": "Iran consults Putin, Saudis consult the West",
+          "articleIds": [
+            "n-9087c96f5286b9",
+            "n-f52f6a88498812"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "ir-obs-words",
+          "kind": "observation",
+          "label": "What leaders said and prices did",
+          "fragments": [
+            {
+              "id": "ir-f1",
+              "label": "Statements",
+              "text": "Lenta reports that Iran's Supreme Leader has ordered the conflict with the United States resolved, and Yicai that Iran says what happens next depends on the American attitude. Xinhua reports Trump saying there is no rush to decide whether to resume military action. Mexico's Vanguardia carries a report that Trump is considering a nuclear strike on Iran under pressure from Israel.",
+              "articleIds": [
+                "n-4e203975d14a40",
+                "n-64e9ca96161aa0",
+                "n-90e5b9b63f7a42",
+                "n-8eaf9f5e921efd"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "ir-f2",
+              "label": "Prices",
+              "text": "Korea's Herald Business reports international oil prices falling 7% on hopes of US-Iran negotiations, with WTI below $100. Newspim reports European shares closing higher as oil fell and investors bet on an end to the Iran war.",
+              "articleIds": [
+                "n-210c224c11bd50",
+                "n-6bbb77247e4ed9"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "ir-obs-gulf",
+          "kind": "observation",
+          "label": "What happened in the Gulf",
+          "fragments": [
+            {
+              "id": "ir-f3",
+              "label": "At sea and on the islands",
+              "text": "Al Jazeera reports explosions heard on Qeshm Island as the Revolutionary Guard seized two American drones. China's nbd reports explosions in waters near Lengeh port in southern Iran. Jordan's Khaberni carries the Iranian army saying a fire broke out on an oil tanker passing through the Strait of Hormuz.",
+              "articleIds": [
+                "n-d2c793b817398a",
+                "n-6cea7ceb3403c9",
+                "n-647b6fb85aa3bd"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "ir-f4",
+              "label": "Consultations",
+              "text": "Japan's 47NEWS reports an Iranian official and Putin exchanging views on a possible renewed attack. Arab News reports the Saudi defence minister discussing military ties and regional developments with his American, French and Greek counterparts.",
+              "articleIds": [
+                "n-9087c96f5286b9",
+                "n-f52f6a88498812"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "ir-int",
+          "kind": "interpretation",
+          "label": "Words move prices, forces keep acting",
+          "fragments": [
+            {
+              "id": "ir-f5",
+              "label": "Price follows statements",
+              "text": "Traders sold oil on statements, not on a meeting or a text. The 7% fall is the same mechanism that pushed prices up during the war, run in reverse: markets in Seoul, London and New York price the chance that oil keeps passing through Hormuz. That makes the price sensitive to the next statement in either direction.",
+              "articleIds": [
+                "n-210c224c11bd50",
+                "n-6bbb77247e4ed9",
+                "n-4e203975d14a40",
+                "n-90e5b9b63f7a42"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "ir-f6",
+              "label": "Both sides prepare for failure",
+              "text": "The drone seizures and the explosions near Qeshm and Lengeh show the forces at sea acting as before. Iran discussing a renewed attack with Putin, and Riyadh talking to Washington, Paris and Athens about its defences, are what governments do when they expect the talks may fail. The words have changed faster than the deployments.",
+              "articleIds": [
+                "n-d2c793b817398a",
+                "n-6cea7ceb3403c9",
+                "n-647b6fb85aa3bd",
+                "n-9087c96f5286b9",
+                "n-f52f6a88498812"
+              ],
+              "bookIds": [
+                "the-prize"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "ir-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "ir-f7",
+              "label": "A normal market day",
+              "text": "Lenta's headline is a Russian paraphrase of Iranian statements, and the tanker fire and the explosions near Lengeh have no stated cause; they may be accidents or air defence. Oil may also have fallen on fears for demand as US tech shares dropped, and a fall from near $100 is positioning before an election rather than a judgement on peace. What the events do not share is a decision-maker: the price fall is a trading decision in New York and London, the drone seizure a military act by the Revolutionary Guard, the Putin talk a diplomatic one.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "WAR / SHIPPING / PRICES",
+          "text": "Russia's invasion of Ukraine in February 2022 pushed Brent above $120 and taught traders that a war could reset the oil price within weeks; the market has priced political statements at that speed since. The Houthi attacks on Red Sea shipping from November 2023 sent container traffic round the Cape of Good Hope and showed that a force outside any state's control could close a sea lane. The twelve-day war between Israel and Iran in June 2025, ended by American bombers at Fordow, was the first direct exchange between the two states. By these headlines, the war that followed has kept WTI near or above $100 until this week. The 7% fall reported by Herald Business and the Revolutionary Guard's seizure of two American drones near Qeshm, reported by Al Jazeera the same day, are this decade's pattern: statements move prices in hours, while forces at sea keep their own pace.",
+          "trajectoryIds": [
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SANCTIONS / AGREEMENTS / DRONES",
+          "text": "After 2008 the United States and the EU made sanctions on Iran's oil and banks their main instrument, and in 2012 the EU stopped buying Iranian crude. The pressure produced the Vienna agreement of July 2015, which lifted sanctions in return for limits on enrichment; the Trump administration left it in May 2018 and restored sanctions. The years that followed made the Gulf a place where cheap weapons hit costly targets. Tankers were damaged off Fujairah in May 2019, and in September 2019 drones and missiles halved Saudi output at Abqaiq for days, with no American military reply. That is the background to the Saudi defence minister's talks with his American, French and Greek counterparts reported by Arab News. Since 2015 the region has alternated between agreements and strikes at increasing speed, and Iran's statement, reported by Yicai, that everything depends on the American attitude is the line it has used since 2018.",
+          "trajectoryIds": [
+            "jcpoa-2015",
+            "abqaiq-2019"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "AMERICAN PRIMACY / THE GULF / RUSSIA",
+          "text": "The Gulf War of 1991 made the United States the guarantor of shipping and oil in the region after the Soviet collapse, with forces based in Saudi Arabia, Bahrain, Qatar and Kuwait. The policy of containing both Iran and Iraq followed in 1993. The invasion of Iraq in March 2003 removed Iran's main enemy and gave Tehran influence from Baghdad to Beirut, which is why every American decision on Iran since has been taken with Israel, Saudi Arabia and Russia in view. Daniel Yergin's The Prize, published in 1991, told the twentieth century as a struggle over oil; these headlines suggest the deciding fact is now the Strait of Hormuz, through which about a fifth of the world's oil passes. An Iranian official discussing a renewed attack with Putin, as 47NEWS reports, shows the place Russia gained in the region after its intervention in Syria in 2015.",
+          "trajectoryIds": [
+            "iraq-2003"
+          ],
+          "bookIds": [
+            "the-prize"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OIL / PROTECTION / REVOLUTION",
+          "text": "The bargain made on the Great Bitter Lake in February 1945, American protection for Saudi oil, set the terms of the region for eighty years. In 1953 the CIA and MI6 removed Iran's prime minister Mohammad Mosaddegh after he nationalised the oil industry, and Britain's failure at Suez in 1956 left the United States as the outside power. The Arab embargo of October 1973 showed that a regional war could become a global price within weeks. The revolution of February 1979 turned Iran from America's main ally in the Gulf into its main opponent, and the Carter Doctrine of January 1980 declared the Gulf a vital American interest. These headlines descend from that sequence: American drones over Iranian islands, a Saudi minister consulting Washington, and an oil price that, as European markets showed on Monday, still moves with what Tehran and Washington say.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "suez-1956",
+            "oil-embargo-1973",
+            "tehran-1979"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-4e203975d14a40",
+        "n-64e9ca96161aa0",
+        "n-90e5b9b63f7a42",
+        "n-8eaf9f5e921efd",
+        "n-210c224c11bd50",
+        "n-6bbb77247e4ed9",
+        "n-d2c793b817398a",
+        "n-6cea7ceb3403c9",
+        "n-647b6fb85aa3bd",
+        "n-9087c96f5286b9",
+        "n-f52f6a88498812"
+      ]
+    }
+  ]
+}

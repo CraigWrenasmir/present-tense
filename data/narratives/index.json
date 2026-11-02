@@ -1,6 +1,61 @@
 {
  "editions": [
   {
+   "stamp": "20261102T232930",
+   "file": "data/narratives/20261102T232930.json",
+   "newsGeneratedAt": "2026-11-02T23:29:30Z",
+   "generatedAt": "2026-11-02T23:40:48Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-7",
+   "narratives": [
+    {
+     "id": "ai-build-needs-lenders-and-hosts",
+     "kicker": "CREDIT / COMPUTE / CONSENT",
+     "line": "Four years after ChatGPT, AI firms fund their build with borrowed money, while governments and voters set terms for its data centres.",
+     "events": 6,
+     "headlines": 15,
+     "countries": 10,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "hacks-reach-fridges-and-wallets",
+     "kicker": "SABOTAGE / SUPPLY / BLAME",
+     "line": "Hacking now reaches shop freezers and exchange wallets, and the EU calls an attack on refrigeration an attack on food supply.",
+     "events": 6,
+     "headlines": 13,
+     "countries": 9,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "incumbents-act-before-polling",
+     "kicker": "INCUMBENCY / ELECTORATE / COURTS",
+     "line": "Parties in office now shape who votes and which ballots count before polling day, not only dispute results after it.",
+     "events": 5,
+     "headlines": 9,
+     "countries": 8,
+     "continues": "incumbents-doubt-the-count",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "iran-talks-priced-before-the-fighting-stops",
+     "kicker": "OIL / DIPLOMACY / FORCE",
+     "line": "Markets now price a negotiated end to the war with Iran faster than the fighting around the Strait of Hormuz is slowing.",
+     "events": 5,
+     "headlines": 11,
+     "countries": 8,
+     "continues": "iran-choice-timed-to-midterms",
+     "firmness": "plausible",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261102T013011",
    "file": "data/narratives/20261102T013011.json",
    "newsGeneratedAt": "2026-11-02T01:30:11Z",
