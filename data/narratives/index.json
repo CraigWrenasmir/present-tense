@@ -1,6 +1,61 @@
 {
  "editions": [
   {
+   "stamp": "20261103T214619",
+   "file": "data/narratives/20261103T214619.json",
+   "newsGeneratedAt": "2026-11-03T21:46:19Z",
+   "generatedAt": "2026-11-03T21:59:19Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-7",
+   "narratives": [
+    {
+     "id": "hormuz-cost-to-buyers-gain-to-bypass-sellers",
+     "kicker": "A STRAIT / WHO PAYS / WHO GAINS",
+     "line": "With Hormuz shut, the war's cost falls on energy importers and its gains go to producers whose oil does not pass the strait.",
+     "events": 6,
+     "headlines": 15,
+     "countries": 9,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "breaches-start-with-suppliers-and-staff",
+     "kicker": "THIRD PARTIES / HIRING / LIABILITY",
+     "line": "Large breaches now start with a firm's suppliers or its staff rather than its own systems, and the firm still bears the loss.",
+     "events": 6,
+     "headlines": 14,
+     "countries": 12,
+     "continues": "hacks-reach-fridges-and-wallets",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "poland-cheap-threats-costly-answers",
+     "kicker": "HYBRID WAR / DETERRENCE / ATTRIBUTION",
+     "line": "Cheap, unclaimed threats against Poland's flights, satellite links and border now draw costly military and police responses.",
+     "events": 6,
+     "headlines": 11,
+     "countries": 7,
+     "continues": "",
+     "firmness": "tentative",
+     "watch": 2
+    },
+    {
+     "id": "chinese-goods-push-others-to-merge-or-tax",
+     "kicker": "OVERCAPACITY / SCALE / PROTECTION",
+     "line": "Eight years into the US-China tariff war, producers elsewhere merge to compete with Chinese goods or tax them at the border.",
+     "events": 6,
+     "headlines": 11,
+     "countries": 9,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261102T232930",
    "file": "data/narratives/20261102T232930.json",
    "newsGeneratedAt": "2026-11-02T23:29:30Z",

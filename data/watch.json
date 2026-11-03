@@ -225,8 +225,31 @@
    "what": "US and Iranian officials are reported meeting, directly or through Oman or Qatar, within three weeks of the 3 November vote.",
    "by": "2026-11-23",
    "because": "If the vote is what holds back both talks and strikes, its passing should release one of them quickly, and Trump's stated preference makes talks the first to move.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261103T214619",
+    "asOf": "2026-11-03T21:46:19Z",
+    "how": "headline",
+    "note": "Qatar says US-Iran negotiations through its mediation are progressing, and Al Jazeera reports Doha mediating between the two after the Qeshm bombing on the day of the vote.",
+    "headlines": [
+     {
+      "id": "n-202edfeeb6b635",
+      "title": "카타르 \"美·이란 협상 진전\"... 이란 \"합의 못 이뤄\"",
+      "titleEnglish": "Qatar: \"US-Iran negotiations are progressing\"... Iran: \"No agreement reached\"",
+      "url": "https://www.fnnews.com/news/202611032109153168",
+      "publisher": "파이낸셜뉴스",
+      "sourceCountry": "South Korea"
+     },
+     {
+      "id": "n-a4041897dc76c7",
+      "title": "وساطة الدوحة بعد قصف قشم.. سباق دبلوماسي لتبديد غيوم الحرب",
+      "titleEnglish": "Doha mediation after Qeshm bombing: diplomatic race to dispel the clouds of war",
+      "url": "https://www.aljazeera.net/politics/2026/11/3/%D9%88%D8%B3%D8%A7%D8%B7%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D8%AD%D8%A9-%D8%A8%D8%B9%D8%AF-%D9%82%D8%B5%D9%81-%D9%82%D8%B4%D9%85-%D8%B3%D8%A8%D8%A7%D9%82-%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A-2",
+      "publisher": "الجزيرة نت",
+      "sourceCountry": "Qatar"
+     }
+    ]
+   }
   },
   {
    "id": "20261102T013011-iran-choice-timed-to-midterms-2",
@@ -421,6 +444,118 @@
    "what": "Oil is reported rising at least 5% in a day after the US vote on a Gulf incident, while talks are still said to be under way.",
    "by": "2026-11-20",
    "because": "If prices have run ahead of the fighting, a single incident should move them back sharply without the talks ending.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261103T214619-hormuz-cost-to-buyers-gain-to-bypass-sellers-1",
+   "stamp": "20261103T214619",
+   "asOf": "2026-11-03T21:46:19Z",
+   "narrativeId": "hormuz-cost-to-buyers-gain-to-bypass-sellers",
+   "kicker": "A STRAIT / WHO PAYS / WHO GAINS",
+   "line": "With Hormuz shut, the war's cost falls on energy importers and its gains go to producers whose oil does not pass the strait.",
+   "firmness": "plausible",
+   "what": "A Gulf producer announces new or larger export capacity by pipeline or port that avoids the Strait of Hormuz.",
+   "by": "2026-12-01",
+   "because": "If the war's gains go to oil that avoids the strait, other Gulf producers should move to buy the position Aramco is now enlarging.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261103T214619-hormuz-cost-to-buyers-gain-to-bypass-sellers-2",
+   "stamp": "20261103T214619",
+   "asOf": "2026-11-03T21:46:19Z",
+   "narrativeId": "hormuz-cost-to-buyers-gain-to-bypass-sellers",
+   "kicker": "A STRAIT / WHO PAYS / WHO GAINS",
+   "line": "With Hormuz shut, the war's cost falls on energy importers and its gains go to producers whose oil does not pass the strait.",
+   "firmness": "plausible",
+   "what": "The EU or a European government signs a new long-term oil or gas supply deal with a producer outside the Gulf, citing the Hormuz closure.",
+   "by": "2026-11-30",
+   "because": "Buyers paying the extra bill should move their contracts towards sellers whose cargoes do not need the strait.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261103T214619-breaches-start-with-suppliers-and-staff-1",
+   "stamp": "20261103T214619",
+   "asOf": "2026-11-03T21:46:19Z",
+   "narrativeId": "breaches-start-with-suppliers-and-staff",
+   "kicker": "THIRD PARTIES / HIRING / LIABILITY",
+   "line": "Large breaches now start with a firm's suppliers or its staff rather than its own systems, and the firm still bears the loss.",
+   "firmness": "plausible",
+   "what": "An investigator, retailer or supplier says the European supermarket attacks entered through a refrigeration or maintenance contractor's remote access.",
+   "by": "2026-11-24",
+   "because": "The join holds that the way in is a party the victim trusts, so the supermarket attacks should trace to a supplier as the airline and city breaches did.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261103T214619-breaches-start-with-suppliers-and-staff-2",
+   "stamp": "20261103T214619",
+   "asOf": "2026-11-03T21:46:19Z",
+   "narrativeId": "breaches-start-with-suppliers-and-staff",
+   "kicker": "THIRD PARTIES / HIRING / LIABILITY",
+   "line": "Large breaches now start with a firm's suppliers or its staff rather than its own systems, and the firm still bears the loss.",
+   "firmness": "plausible",
+   "what": "A second company or crypto exchange reports a theft or breach that began with a fake recruiter, job offer or job interview.",
+   "by": "2026-12-01",
+   "because": "If hiring has become a route in, the Binance method will be found in other firms rather than remain a single case.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261103T214619-poland-cheap-threats-costly-answers-1",
+   "stamp": "20261103T214619",
+   "asOf": "2026-11-03T21:46:19Z",
+   "narrativeId": "poland-cheap-threats-costly-answers",
+   "kicker": "HYBRID WAR / DETERRENCE / ATTRIBUTION",
+   "line": "Cheap, unclaimed threats against Poland's flights, satellite links and border now draw costly military and police responses.",
+   "firmness": "tentative",
+   "what": "Poland's government names Russian services as behind the emailed bomb threats to flights or the arson of the Starlink station.",
+   "by": "2026-11-30",
+   "because": "The join holds that these acts share a sponsor; unrelated hoaxes and a local crime would not lead to a single attribution.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261103T214619-poland-cheap-threats-costly-answers-2",
+   "stamp": "20261103T214619",
+   "asOf": "2026-11-03T21:46:19Z",
+   "narrativeId": "poland-cheap-threats-costly-answers",
+   "kicker": "HYBRID WAR / DETERRENCE / ATTRIBUTION",
+   "line": "Cheap, unclaimed threats against Poland's flights, satellite links and border now draw costly military and police responses.",
+   "firmness": "tentative",
+   "what": "Another emailed bomb threat diverts or grounds a flight to or from Poland or a Baltic state.",
+   "by": "2026-11-17",
+   "because": "A campaign of cheap pressure repeats because each threat costs almost nothing, while one-off hoaxes would not recur within two weeks.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261103T214619-chinese-goods-push-others-to-merge-or-tax-1",
+   "stamp": "20261103T214619",
+   "asOf": "2026-11-03T21:46:19Z",
+   "narrativeId": "chinese-goods-push-others-to-merge-or-tax",
+   "kicker": "OVERCAPACITY / SCALE / PROTECTION",
+   "line": "Eight years into the US-China tariff war, producers elsewhere merge to compete with Chinese goods or tax them at the border.",
+   "firmness": "plausible",
+   "what": "Another government in Southeast Asia, Latin America or Africa raises duties or taxes on imported Chinese cars, steel or chemicals.",
+   "by": "2026-12-01",
+   "because": "The join holds that border taxes are the answer of mid-sized producers to Chinese prices, so Thailand's step should be repeated elsewhere.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261103T214619-chinese-goods-push-others-to-merge-or-tax-2",
+   "stamp": "20261103T214619",
+   "asOf": "2026-11-03T21:46:19Z",
+   "narrativeId": "chinese-goods-push-others-to-merge-or-tax",
+   "kicker": "OVERCAPACITY / SCALE / PROTECTION",
+   "line": "Eight years into the US-China tariff war, producers elsewhere merge to compete with Chinese goods or tax them at the border.",
+   "firmness": "plausible",
+   "what": "A second industrial merger or takeover between firms outside China is announced with Chinese competition named as a reason.",
+   "by": "2026-12-01",
+   "because": "If scale is the firms' answer, as SCG's chief says, other mergers should be justified in the same terms as the Tata-Iveco deal.",
    "status": "open",
    "resolved": null
   }
