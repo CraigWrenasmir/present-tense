@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "editionStamp": "20261103T214619",
-  "asOf": "2026-11-03T21:46:19Z",
-  "generatedAt": "2026-11-03T22:02:47Z",
+  "editionStamp": "20261104T215151",
+  "asOf": "2026-11-04T21:51:51Z",
+  "generatedAt": "2026-11-04T22:09:49Z",
   "model": "claude-opus-5-5",
   "promptVersion": "chronicle-2",
   "usage": {
-    "input": 27092,
-    "output": 18436,
+    "input": 28767,
+    "output": 20937,
     "tier": "standard"
   },
-  "previousVersion": "20261102T232930",
+  "previousVersion": "20261103T214619",
   "notes": [
     "A running account of where things stand by these headlines, revised after each edition rather than added to. Every version is kept.",
     "Written by the model from the narratives, not from the headlines. It is a reading, not a record."
   ],
-  "standing": "On 3 November, US midterm polling day, headlines reported the Strait of Hormuz still shut as the US struck Iran, with a bombing at Qeshm. Qatar said US-Iran negotiations through its mediation were progressing, and Iran said no agreement had been reached. Fortune and Anadolu put the closure's addition to Europe's energy bill at $142 billion, while Saudi Aramco reported higher profits and began expanding its East-West pipeline and Brazil set a record for oil and gas output. The $6.3 billion Binance theft is reported to have begun with a fake job interview, attacks on shop refrigeration have reached Belgium and Greece, and Singapore Airlines says 46,000 booking records were reached through Amadeus. Emailed bomb threats diverted Poland-bound flights as GROM special forces were sent to the Russian border, Thailand raised taxes on imported electric cars and Tata Motors and Iveco combined; no narrative on polling day dealt with the US count itself, AI borrowing, France's protests or Poland's tribunal.",
+  "standing": "On 4 November, the day after the US midterms, President Trump's party had lost Congress, and Trump and Vance named the war with Iran and rising prices among the causes; oil fell more than 8% and US shares rose on the result. Euro area inflation reached 4.0% in October, Israel raised its pump price, Brazil held the world's highest real interest rate and a former Philippine central banker defended tightening as the peso fell, while Taiwan's shares fell nearly 1,900 points in a day as foreign investors sold NT$149.9 billion. Abroad the result was read through each capital's own dispute with Washington: Iran's leaders called it a rejection of the war while Khamenei said US policy would not change, and Pedro Sánchez said it would help Spain's socialists. Election bodies were argued over in Mexico, Nigeria, South Africa and Pakistan, Accenture was accused of publishing papers full of AI errors, and no narrative today reported the state of the Strait of Hormuz, the threats against Poland, the shop hacks or Chinese goods.",
   "moved": [
-    "On 3 November the Iran thread turned from talk of talks to force and mediation together: the strait stayed shut as the US struck Iran, and Qatar said talks through its mediation were progressing. That kept the 2 November expectation of US-Iranian contact through Oman or Qatar; the tilt towards talks is withdrawn.",
-    "An unlinked narrative, placed in the Iran thread by the Chronicle, returned it to who pays and who gains: $142 billion added to Europe's energy bill against Aramco's profits and East-West pipeline, Brazil's record output and China and Brunei signing with Oman.",
-    "The hacks thread was carried on by the edition's own link and moved from what was hit to how attackers got in: a fake job interview at Binance, Amadeus for Singapore Airlines, an outside service for Osaka, and refrigeration attacks spreading to Belgium and Greece.",
-    "Two threads began: unclaimed threats against Poland's flights, satellite links and border, and producers outside China merging or taxing imports, with Thailand's electric car tax and the Tata Motors and Iveco group."
+    "The Iran thread, carried on by the edition's link, reached the US ballot on 4 November: Trump and Vance named the war and prices as causes of losing Congress, oil fell more than 8%, and importers were still paying through euro area inflation of 4.0% and Israel's higher pump price. The expectation open to 8 November, that reports would name fuel or energy prices as a reason for the result, is not yet marked settled.",
+    "The contested-count thread, by the Chronicle's judgment, moved from ballots and rolls to the bodies that run elections: Mexico's opposition rejecting a new INE head linked to Morena, Nigerian lawmakers faulting INEC's Warri wards, South Africa's IEC after a ballot theft, and Israel's election chair warning at handover. In the US the Republican redistricting drive failed against a large swing and Ohio adopted photo ID.",
+    "On 4 November Storm Media reported Taiwan shares falling nearly 1,900 points as foreign investors sold NT$149.9 billion, which kept the 1 November expectation of a 3% one-day fall on AI selling; the same headline reports government-linked funds buying against the trend.",
+    "Two threads began: foreign capitals reading the US result through their own disputes with Washington, and responsibility for AI's errors being placed on those who adopt it."
   ],
   "silent": [
-    "Young people's protests has gone three editions without a narrative and is now silent; France's fourth weekend falls on 7 and 8 November and the expectation of 50,000 or more personnel stays open to 9 November, so the quiet may be the gap between weekends.",
-    "Constitutions and courts is now silent after three editions; Poland returned on 3 November, but as a matter of threats to flights and the border, not the tribunal.",
-    "Russia shunned and courted stays silent; Kaliningrad's electronic warfare appeared in the new Poland thread, whose own case against says no headline names Russia, so the subject may be running under another join.",
-    "Payment costs and budgets protecting pensions have each gone two editions without a narrative since early on 2 November; one more turns them silent, which may be the sample on a day led by the US vote and the strait."
+    "Payment costs and budgets protecting pensions have gone three editions without a narrative since early on 2 November and are now silent; on days led by the US vote and the strait this is more likely the sample than the world moving on, and their expectations stay open to 30 November.",
+    "Young people's protests stays silent; France's fourth weekend falls on 7 and 8 November and the expectation of 50,000 or more security personnel runs to 9 November, so the quiet may be the gap between weekends.",
+    "AI spending has gone two editions without a narrative; one more turns it silent, though the Taiwan share fall reported on 4 November suggests its subject has not gone quiet in the headlines.",
+    "Brazil appeared on 4 November only as the holder of the world's highest real interest rate, inside the Iran thread; its election thread stays silent."
   ],
   "threads": [
     {
@@ -34,7 +34,7 @@
       "label": "Iran war, oil prices, talks and the US vote",
       "status": "live",
       "since": "20261026T234612",
-      "lastSeen": "20261103T214619",
+      "lastSeen": "20261104T215151",
       "narratives": [
         {
           "stamp": "20261026T234612",
@@ -75,10 +75,14 @@
         {
           "stamp": "20261103T214619",
           "id": "hormuz-cost-to-buyers-gain-to-bypass-sellers"
+        },
+        {
+          "stamp": "20261104T215151",
+          "id": "war-price-reaches-ballot-and-rates"
         }
       ],
-      "text": "On 26 October the join was the Gulf running talks and strike preparations side by side; from 27 October to 1 November it followed the Hormuz price shock to jet fuel, mortgages, wage rounds and a Turkish fuel tax, with Brent at $117.64 on 31 October. On 2 November oil fell, by 7% late in the day, on reports that Khamenei had ordered the conflict resolved, while drones were seized near Qeshm and a tanker burned. On 3 November, polling day, the strait stayed shut as the US struck Iran, and Qatar said talks through its mediation were progressing, which kept the expectation of contact through Oman or Qatar. A narrative the edition did not link, placed here by the Chronicle, read the war as moving money by geography: $142 billion on Europe's energy bill, Aramco's profits and pipeline, Brazil's record output.",
-      "direction": "Since 2 November it has moved from prices falling on talk of talks to US strikes and Qatari mediation running together, and back to who pays and who gains from the closed strait."
+      "text": "On 26 October the join was the Gulf running talks and strike preparations side by side; from 27 October to 1 November it followed the Hormuz price shock to jet fuel, mortgages, wage rounds and a Turkish fuel tax, with Brent at $117.64 on 31 October. On 2 November oil fell on reports that Khamenei had ordered the conflict resolved. On 3 November the strait stayed shut as the US struck Iran, Qatar said talks through its mediation were progressing, keeping the expectation of contact through Oman or Qatar, and the thread turned to who pays and who gains. On 4 November the cost reached the US ballot: Trump and Vance named the war and prices as causes of losing Congress, oil fell more than 8%, euro area inflation was 4.0% and Israel raised its pump price. The edition's own case against says only US headlines name the war as a cause.",
+      "direction": "Since 3 November it has followed the war's cost to those who pay it, by 4 November to US voters who removed the president's party from control of Congress, while importers still pay through rates and fuel prices."
     },
     {
       "key": "brazil-election-and-the-us",
@@ -100,7 +104,7 @@
           "id": "us-as-actor-after-lula-win"
         }
       ],
-      "text": "On 26 October Brazil's vote was read as a script in Buenos Aires, Madrid and Nairobi. On the morning of 27 October Trump called the election rigged; by that evening, after Lula's run-off win, the United States was the common party in Flávio Bolsonaro's exit, Lula's warning of persecution, about 300 US soldiers in Colombia and Machado's return to Venezuela. Its events then ran under wider joins: Flávio Bolsonaro's arrival in the United States and an amnesty plan for Jair Bolsonaro on 29 October, and Flávio's letter declaring himself president on 30 October. Brazil appeared on 3 November only as a record oil and gas producer in the Iran thread.",
+      "text": "On 26 October Brazil's vote was read as a script in Buenos Aires, Madrid and Nairobi. On the morning of 27 October Trump called the election rigged; by that evening, after Lula's run-off win, the United States was the common party in Flávio Bolsonaro's exit, Lula's warning of persecution, about 300 US soldiers in Colombia and Machado's return to Venezuela. Its events then ran under wider joins: Flávio Bolsonaro's arrival in the United States and an amnesty plan for Jair Bolsonaro on 29 October, and Flávio's letter declaring himself president on 30 October. Brazil appeared on 3 November as a record oil and gas producer and on 4 November as the holder of the world's highest real interest rate, both in the Iran thread.",
       "direction": "It moved from how Brazil's vote is read abroad to Washington's part in what follows, then was taken up under wider joins and fell silent."
     },
     {
@@ -123,8 +127,8 @@
           "id": "anthropic-listing-and-copyright"
         }
       ],
-      "text": "On 26 October the join was an AI company listing the end of the world as a risk factor in its prospectus and the market buying the shares. Early on 27 October an edition followed data centres to county level, where land, grid and water requests were refused, and that morning Anthropic filed for a record US share listing as Elvis Presley's rights holders sued it over 200 songs. Data centres split into their own thread on 29 October. Late on 2 November Anthropic's quarterly loss before its listing and US voters turning against data centres returned in a narrative the Chronicle placed in the AI spending thread rather than reviving this one.",
-      "direction": "It went from the prospectus to the ground and the courts, then fell silent as its subjects were carried under the AI spending thread."
+      "text": "On 26 October the join was an AI company listing the end of the world as a risk factor in its prospectus and the market buying the shares. Early on 27 October an edition followed data centres to county level, where land, grid and water requests were refused, and that morning Anthropic filed for a record US share listing as Elvis Presley's rights holders sued it over 200 songs. Data centres split into their own thread on 29 October. Late on 2 November Anthropic's quarterly loss went to the AI spending thread, and on 4 November Anthropic's IPO filing setting out risks appeared in the new thread on AI errors, not here.",
+      "direction": "It went from the prospectus to the ground and the courts, then fell silent as its subjects were carried under other AI threads."
     },
     {
       "key": "students-and-the-square",
@@ -150,7 +154,7 @@
           "id": "gen-z-protests-met-by-police"
         }
       ],
-      "text": "On 26 October the join was young people in public squares; on 27 October students struck or occupied buildings in France, Mexico, India and Italy. Revived on 31 October, when protests called for the same weekend met a ban in La Rochelle and negotiation in Lisbon, it was carried on 1 November with France deploying 70,000 security personnel for a third weekend, Toulouse diverting transport and protesters detained in Poland. No headline reported a demand. No narrative has carried it in the three editions since, so it is silent; whether France deploys 50,000 or more for a fourth weekend stays open until 9 November.",
+      "text": "On 26 October the join was young people in public squares; on 27 October students struck or occupied buildings in France, Mexico, India and Italy. Revived on 31 October, when protests called for the same weekend met a ban in La Rochelle and negotiation in Lisbon, it was carried on 1 November with France deploying 70,000 security personnel for a third weekend, Toulouse diverting transport and protesters detained in Poland. No headline reported a demand. No narrative has carried it in the four editions since; whether France deploys 50,000 or more for a fourth weekend stays open until 9 November.",
       "direction": "It moved from youth as a political image to student strikes and then to policing reported as officers counted and routes diverted, then fell silent."
     },
     {
@@ -180,7 +184,7 @@
           "id": "public-schemes-costs-to-households"
         }
       ],
-      "text": "Begun on the evening of 27 October. In six countries a public scheme meant to cover a cost was reported as falling short: Canadians paying for private surgery from savings and GoFundMe, German adult children billed for parents' care, Lucknow's subsidised generic pharmacies short of medicines, a Bangladeshi antivenom programme lacking funds, compensation claims from 50,000 Australians over Centrelink suspensions, and doubt over a Mexican voluntary pension scheme. The case against noted that several of these stories have run for years. No narrative has carried it since; the budgets thread begun on 2 November touches nearby ground but did not cite it.",
+      "text": "Begun on the evening of 27 October. In six countries a public scheme meant to cover a cost was reported as falling short: Canadians paying for private surgery from savings and GoFundMe, German adult children billed for parents' care, Lucknow's subsidised generic pharmacies short of medicines, a Bangladeshi antivenom programme lacking funds, compensation claims from 50,000 Australians over Centrelink suspensions, and doubt over a Mexican voluntary pension scheme. The case against noted that several of these stories have run for years. No narrative has carried it since; the budgets thread begun on 2 November touched nearby ground but did not cite it.",
       "direction": ""
     },
     {
@@ -195,7 +199,7 @@
           "id": "ai-fakes-in-checks-built-for-people"
         }
       ],
-      "text": "Begun on the evening of 27 October. Nigeria's electoral commission is investigating suspected AI-generated photos in the voters' register, New Zealand job seekers report being ignored as AI-written applications flood employers, an Australian court passed the first sentence under deepfake laws without jail, and fashion models face AI copies of their image. The join is that a plausible picture or document now costs little to make while checking it still takes a person's time. No narrative has carried it since; the fake job interview behind the Binance theft went to the hacks thread on 3 November.",
+      "text": "Begun on the evening of 27 October. Nigeria's electoral commission is investigating suspected AI-generated photos in the voters' register, New Zealand job seekers report being ignored as AI-written applications flood employers, an Australian court passed the first sentence under deepfake laws without jail, and fashion models face AI copies of their image. The join is that a plausible picture or document now costs little to make while checking it still takes a person's time. No narrative has carried it since; the fake job interview behind the Binance theft went to the hacks thread on 3 November, and AI errors at Accenture to a new thread on 4 November.",
       "direction": ""
     },
     {
@@ -241,7 +245,7 @@
           "id": "ai-build-needs-lenders-and-hosts"
         }
       ],
-      "text": "Begun on 29 October with Samsung and CHPT profits on data centre demand beside Norwegian, Finnish and Russian disputes. On 30 October it reached US growth of 3.4% credited to AI investment; on 31 October Alphabet had its biggest fall on record, Intel lost 29% and Taiwan's state funds bought; on 1 November the falls were read as gains landing on few firms. Late on 2 November a narrative the edition did not link, placed here by the Chronicle, read the build as needing lenders and hosts: Oracle and Meta raising about $20 billion each, Anthropic's quarterly loss of 23 billion on revenue of 17 billion, and Russia claiming a tenth of private data centre capacity. No narrative carried it on 3 November; its expectations on Taiwanese buying, Korean support, a 3% index fall and another $10 billion raise remain open.",
+      "text": "Begun on 29 October with Samsung and CHPT profits on data centre demand beside Norwegian, Finnish and Russian disputes. On 30 October it reached US growth of 3.4% credited to AI investment; on 31 October Alphabet had its biggest fall on record and Taiwan's state funds bought; on 1 November the falls were read as gains landing on few firms. Late on 2 November a narrative placed here by the Chronicle read the build as needing lenders and hosts, with Oracle and Meta raising about $20 billion each. No narrative carried it on 3 or 4 November, but on 4 November Storm Media reported Taiwan shares falling nearly 1,900 points as foreign investors sold NT$149.9 billion, keeping the 1 November expectation of a 3% fall; the same headline reports government-linked funds buying, the reading withdrawn on 1 November.",
       "direction": "It has moved from profit and local objection through a share sell-off to the build's dependence on borrowing and on the terms governments and residents set."
     },
     {
@@ -276,10 +280,10 @@
     },
     {
       "key": "contested-vote-counts",
-      "label": "Vote counts and rolls as contested ground",
+      "label": "Vote counts, rolls and election bodies contested",
       "status": "live",
       "since": "20261030T015732",
-      "lastSeen": "20261102T232930",
+      "lastSeen": "20261104T215151",
       "narratives": [
         {
           "stamp": "20261030T015732",
@@ -292,10 +296,14 @@
         {
           "stamp": "20261102T232930",
           "id": "incumbents-act-before-polling"
+        },
+        {
+          "stamp": "20261104T215151",
+          "id": "electoral-bodies-become-the-contest"
         }
       ],
-      "text": "Begun on 30 October with Flávio Bolsonaro declaring himself Brazil's president, Eisenkot accusing Netanyahu of delegitimising Israel's result, deletion forms against Muslim voters in Delhi and a disputed governorship in Imo. Early on 2 November the Chronicle placed here doubt from governing sides: Likud's black cloud over the Knesset result and Trump aides planning to govern without Congress. Late on 2 November the edition carried it on and moved it earlier: the Justice Department asked the Supreme Court to halt California's count of 20,000 mail ballots, Trump was reported weighing pre-emptive pardons, and India's roll revision removed more than 90,000 names in Chamarajanagar. No narrative carried it on 3 November, polling day itself; its expectations of a second federal court challenge and a disputed race run to 17 November.",
-      "direction": "It has moved from contesting results after a vote to governing sides acting on ballots, rolls and pardons before the count, and had no narrative on the US polling day."
+      "text": "Begun on 30 October with Flávio Bolsonaro declaring himself Brazil's president, Eisenkot accusing Netanyahu of delegitimising Israel's result and deletion forms in Delhi. Early on 2 November it took in Likud's doubt over the Knesset result; late on 2 November it moved before the vote, with the Justice Department asking the Supreme Court to halt California's count of 20,000 mail ballots and India's roll revision removing more than 90,000 names in Chamarajanagar. On 4 November a narrative the edition did not link, placed here by the Chronicle, moved it to the bodies that run elections: Mexico's opposition rejecting a new INE head linked to Morena, Nigerian lawmakers faulting INEC's Warri wards, South Africa's IEC after a ballot theft, Israel's election chair warning at handover. The US redistricting drive failed against a large swing; no dispute of the US count was reported, and that expectation runs to 17 November.",
+      "direction": "It has moved from disputing results to acting before polling and now to who runs the commissions, though in the United States the redrawing before the vote did not hold."
     },
     {
       "key": "one-machine-drones",
@@ -328,7 +336,7 @@
           "id": "russia-shunned-and-courted"
         }
       ],
-      "text": "Begun on 31 October. European ministers refused to stand beside Sergei Lavrov for the G20 photograph, while US and Russian foreign ministers discussed coordination at APEC, Washington weighed lifting sanctions on a Putin associate, Russia signed 53 documents at its Africa summit and Nigeria moved to replace a 1967 air agreement with Moscow. The case against says the Europeans still attended and the African deals renew old ties. No narrative has carried it since; its sanctions expectations are still open. On 3 November Kaliningrad's electronic warfare appeared in the new Poland thread.",
+      "text": "Begun on 31 October. European ministers refused to stand beside Sergei Lavrov for the G20 photograph, while US and Russian foreign ministers discussed coordination at APEC, Washington weighed lifting sanctions on a Putin associate, Russia signed 53 documents at its Africa summit and Nigeria moved to replace a 1967 air agreement with Moscow. The case against says the Europeans still attended and the African deals renew old ties. No narrative has carried it since; its sanctions expectations are still open. On 3 November Kaliningrad's electronic warfare appeared in the Poland thread.",
       "direction": ""
     },
     {
@@ -343,7 +351,7 @@
           "id": "constitutions-and-courts-contested"
         }
       ],
-      "text": "Begun on 1 November and marked tentative by its own edition: Poland's president and Donald Tusk's government fighting over control of the Constitutional Tribunal, with protesters detained outside it, Egypt's debate on amending the constitution, Madeira's revision and a case against Mallikarjun Kharge in India. Its case against said only Poland's was a crisis. No narrative has carried it in the three editions since, so it is silent. On 3 November Poland returned in a new thread on threats to its flights and border, where Tusk's National Security Council meeting, not the tribunal, was the subject.",
+      "text": "Begun on 1 November and marked tentative by its own edition: Poland's president and Donald Tusk's government fighting over control of the Constitutional Tribunal, with protesters detained outside it, Egypt's debate on amending the constitution, Madeira's revision and a case against Mallikarjun Kharge in India. Its case against said only Poland's was a crisis. No narrative has carried it since. On 3 November Poland returned in a thread on threats to its flights and border, and on 4 November Pakistan's election commission rejecting a retired judge's reading went to the contested-count thread.",
       "direction": ""
     },
     {
@@ -373,7 +381,7 @@
           "id": "clerks-paid-labourers-buried"
         }
       ],
-      "text": "Early on 27 October one narrative set office workers being paid to leave as AI takes their tasks against labourers still dying in ditches, fields and collapsed buildings. No later narrative has carried it. On 1 November the AI thread touched nearby ground, with Micron staff payouts in Taiwan and robot guards in Jiangsu said to replace five people, but no narrative revived this join.",
+      "text": "Early on 27 October one narrative set office workers being paid to leave as AI takes their tasks against labourers still dying in ditches, fields and collapsed buildings. No later narrative has carried it. On 1 November the AI thread touched nearby ground, with Micron staff payouts and robot guards in Jiangsu, and on 4 November Accenture's reported dismissal of staff who would not use AI went to the new thread on AI errors.",
       "direction": ""
     },
     {
@@ -403,7 +411,7 @@
           "id": "households-72-hours-warheads"
         }
       ],
-      "text": "Early on 27 October one narrative joined European advice that households should be able to last 72 hours on their own with European states seeking cover from nuclear warheads they do not own. No narrative has returned to it. Finnish anti-drone training and Lithuanian conscription on 30 October went to the drones thread, Europe's stance towards Russia on 31 October to its own thread, and the threats to Poland's flights and border on 3 November to a new thread.",
+      "text": "Early on 27 October one narrative joined European advice that households should be able to last 72 hours on their own with European states seeking cover from nuclear warheads they do not own. No narrative has returned to it. Finnish anti-drone training and Lithuanian conscription on 30 October went to the drones thread, Europe's stance towards Russia on 31 October to its own thread, and the threats to Poland's flights and border on 3 November to a separate thread.",
       "direction": ""
     },
     {
@@ -439,7 +447,7 @@
     {
       "key": "hidden-cost-of-paying",
       "label": "New ways of paying and their hidden costs",
-      "status": "live",
+      "status": "silent",
       "since": "20261102T013011",
       "lastSeen": "20261102T013011",
       "narratives": [
@@ -448,13 +456,13 @@
           "id": "cost-of-paying-moves-to-payer"
         }
       ],
-      "text": "Begun early on 2 November and marked tentative by its own edition. The Hindu explains that India's no-cost EMI is a loan presented as free; Yle reports Finnish shoppers annoyed by data collection but keeping their loyalty cards; Bangladesh launches a QR code for person-to-person payments while Jawa Pos defends Indonesians who still pay cash; and the FBI blames North Korea for the Binance theft. The join is that the visible fee has gone and the cost sits in a loan, a purchase record or an account the payer does not control. The Binance theft has since run in the hacks thread. No narrative carried this one late on 2 November or on 3 November, so one more edition without it turns it silent.",
+      "text": "Begun early on 2 November and marked tentative by its own edition. The Hindu explains that India's no-cost EMI is a loan presented as free; Yle reports Finnish shoppers annoyed by data collection but keeping their loyalty cards; Bangladesh launches a QR code for person-to-person payments while Jawa Pos defends Indonesians who still pay cash; and the FBI blames North Korea for the Binance theft. The join is that the visible fee has gone and the cost sits in a loan, a purchase record or an account the payer does not control. The Binance theft ran on in the hacks thread; no narrative has carried this join in the three editions since, so it is silent.",
       "direction": ""
     },
     {
       "key": "budgets-protect-pensions",
       "label": "Budgets protecting pensions over working-age incomes",
-      "status": "live",
+      "status": "silent",
       "since": "20261102T013011",
       "lastSeen": "20261102T013011",
       "narratives": [
@@ -463,7 +471,7 @@
           "id": "budgets-protect-age-and-contract"
         }
       ],
-      "text": "Begun early on 2 November. Italy's budget promises no pension cuts up to 25,000 euros and faster severance for civil servants. Britain's John Healey promises the benefits bill will come down, Spanish economists say a self-employed worker on sick leave can have 180 euros for the month, and Russia reminds savers how to draw pension savings. The join is that income tied to age or a salaried contract is protected while income outside it is trimmed. Its case against says Italy's is the only budget and Healey is the defence secretary. No narrative carried it late on 2 November or on 3 November, so one more edition without it turns it silent.",
+      "text": "Begun early on 2 November. Italy's budget promises no pension cuts up to 25,000 euros and faster severance for civil servants. Britain's John Healey promises the benefits bill will come down, Spanish economists say a self-employed worker on sick leave can have 180 euros for the month, and Russia reminds savers how to draw pension savings. The join is that income tied to age or a salaried contract is protected while income outside it is trimmed. Its case against says Italy's is the only budget and Healey is the defence secretary. No narrative has carried it in the three editions since, so it is silent; its expectations run to 30 November.",
       "direction": ""
     },
     {
@@ -482,7 +490,7 @@
           "id": "breaches-start-with-suppliers-and-staff"
         }
       ],
-      "text": "Begun late on 2 November with attacks on shop refrigeration hitting 17 Dutch businesses, which the EU called an attack on food supply, and North Korea denying the $6.3 billion Binance theft; the join was loss during the attack on equipment small owners must defend. On 3 November the edition carried it on and moved the join to how attackers get in: O Globo, El Mundo and Yle report the Binance theft began with a fake job interview of an engineer, Singapore Airlines says 46,000 booking records were reached through Amadeus, Osaka City names may have leaked through an outside service, and Italian advice tells shops to check supplier contacts as the refrigeration attacks reach Belgium and Greece. Its case against says the harms differ and the supplier route for the shops rests on advice, not a finding.",
+      "text": "Begun late on 2 November with attacks on shop refrigeration hitting 17 Dutch businesses, which the EU called an attack on food supply, and North Korea denying the $6.3 billion Binance theft. On 3 November the edition carried it on and moved the join to how attackers get in: the Binance theft began with a fake job interview of an engineer, Singapore Airlines says 46,000 booking records were reached through Amadeus, Osaka City names may have leaked through an outside service, and Italian advice tells shops to check supplier contacts as the refrigeration attacks reach Belgium and Greece. Its case against says the supplier route for the shops rests on advice, not a finding. No narrative carried it on 4 November, when NTT's AI defences against a sevenfold rise in attacks went to the AI errors thread.",
       "direction": "It has moved from what was hit, freezers and wallets, to the suppliers and staff through whom attackers got in."
     },
     {
@@ -497,7 +505,7 @@
           "id": "poland-cheap-threats-costly-answers"
         }
       ],
-      "text": "Begun on 3 November and marked tentative by its own edition. Emailed bomb threats forced a plane to land in Warsaw, a search at Chopin airport and the diversion of two Poland-bound planes from London; a second person was detained over the arson of a Starlink station and a Turkish man arrested in Germany as its alleged instigator; Onet reports Kaliningrad becoming a centre of electronic warfare, and GROM special forces were sent to the Russian border as Poland's National Security Council met. The join is cheap, unclaimed acts drawing costly answers below the level at which NATO's treaty applies. Its case against says no headline names Russia and much of the picture comes from Onet and Radio ZET on one day.",
+      "text": "Begun on 3 November and marked tentative by its own edition. Emailed bomb threats forced a plane to land in Warsaw, a search at Chopin airport and the diversion of two Poland-bound planes from London; a second person was detained over the arson of a Starlink station and a Turkish man arrested in Germany as its alleged instigator; Onet reports Kaliningrad becoming a centre of electronic warfare, and GROM special forces were sent to the Russian border. The join is cheap, unclaimed acts drawing costly answers below the level at which NATO's treaty applies. Its case against says no headline names Russia. No narrative carried it on 4 November, when Poland appeared only as analysts expecting continuity in US foreign policy.",
       "direction": ""
     },
     {
@@ -512,7 +520,37 @@
           "id": "chinese-goods-push-others-to-merge-or-tax"
         }
       ],
-      "text": "Begun on 3 November. SCG's chief executive tells Fortune that China's cheap exports are a fact of life and Southeast Asia's factories must grow; Thailand approves steep tax rises on imported electric cars; Tata Motors and Iveco form a group with 21 billion in revenue; the United States plans to leave Agoa as South Africa prepares aid for farm exporters; and Kenya, Switzerland and an American farm delegation court buyers in China. The join is that producers caught between Chinese prices and US tariffs merge, tax at the border or sell to China. Its case against says the cause rests on one interview, and that the Agoa exit and Tata's deal may have nothing to do with China.",
+      "text": "Begun on 3 November. SCG's chief executive tells Fortune that China's cheap exports are a fact of life and Southeast Asia's factories must grow; Thailand approves steep tax rises on imported electric cars; Tata Motors and Iveco form a group with 21 billion in revenue; the United States plans to leave Agoa as South Africa prepares aid for farm exporters; and Kenya, Switzerland and an American farm delegation court buyers in China. Its case against says the cause rests on one interview. No narrative carried it on 4 November, when Thai firms cheering the US result and Canada weighing trade appeared in the thread on foreign readings of the vote.",
+      "direction": ""
+    },
+    {
+      "key": "us-midterms-read-abroad",
+      "label": "Foreign capitals reading the US midterm result",
+      "status": "live",
+      "since": "20261104T215151",
+      "lastSeen": "20261104T215151",
+      "narratives": [
+        {
+          "stamp": "20261104T215151",
+          "id": "us-vote-read-through-own-disputes"
+        }
+      ],
+      "text": "Begun on 4 November, the day after the midterms. Iran's leaders called the result a rejection of Trump's war while Khamenei said it would not change Washington's Iran policy; Egyptian commentators named Netanyahu among the losers; Pedro Sánchez said it would help Spain's socialists; Thai firms cheered; Canada's National Post asked whether Trump still wants a deal; Polish analysts said his foreign policy would not change. The join is that each capital reads the vote through its own dispute with Washington, while the war and much of trade policy run through the White House. Its case against says Trump himself linked the defeat to the war, several voices are commentators rather than governments, and English headlines favour sharp quotations.",
+      "direction": ""
+    },
+    {
+      "key": "ai-errors-and-liability",
+      "label": "Who answers for AI systems' errors",
+      "status": "live",
+      "since": "20261104T215151",
+      "lastSeen": "20261104T215151",
+      "narratives": [
+        {
+          "stamp": "20261104T215151",
+          "id": "ai-errors-fall-on-adopters"
+        }
+      ],
+      "text": "Begun on 4 November and marked tentative by its own edition. Sina reports Accenture accused of publishing papers full of AI hallucinations after dismissing staff who would not use AI; Google has switched AI tools off by default for school pupils; an Italian trial of AI found it not chargeable but socially dangerous; Portuguese firms adopt AI faster than they train staff; Anthropic's IPO filing sets out the risks of its build; and NTT adds AI defences as attacks rise sevenfold. The join is that the consequences of errors land on the firm, school, investor or operator that took a system up. Its case against says the Italian trial may be a staged debate, the Accenture item is an accusation, and makers also appear here changing products and listing risks.",
       "direction": ""
     }
   ],
@@ -558,7 +596,7 @@
       "stamp": "20261103T214619"
     }
   ],
-  "caseAgainst": "This Chronicle rests on eleven editions over about eight days, with none stamped 28 October, and only now has one expectation been settled, the Qatari mediation, which was a likely event in any week of this war. Two of today's four narratives start new threads, one carries a link, and the Iran narrative linked to nothing: I placed it in the live Iran thread by judgment, as I did the AI narrative the day before, and the brief that asks for continuity may produce such joins as much as the world does. Today's collection was gathered on US polling day, yet no narrative took up the count, so the contested-count thread's quiet is the edition's choice, not evidence that disputes have stopped. The 'US strikes Iran' report comes through an event label whose detail the narrative does not give, and no oil price was reported today, so I cannot say how markets took it. The Poland cluster rests heavily on Onet and Radio ZET, the Chinese goods join on one Fortune interview, and the hacks join on one very large theft carried by Brazilian, Spanish, Finnish and Argentine outlets. The Iran thread has now been read seven ways in eight versions, and I have led with the war again, as every earlier version did.",
-  "line": "On 3 November 2026, US midterm polling day, the Strait of Hormuz stays shut as the US strikes Iran while Qatar reports US-Iran talks through its mediation progressing.",
-  "revision": "Two threads began, on unclaimed threats against Poland and on producers merging or taxing against Chinese goods; the hacks thread was carried on by the edition's link and relabelled, and the Iran thread was continued by the Chronicle's judgment with its talks tilt withdrawn. Young people's protests and constitutions and courts fell silent, leaving eight live threads, and the standing was rewritten around polling day with the strait shut."
+  "caseAgainst": "This Chronicle rests on twelve editions over about nine days, with none stamped 28 October. Today one event, the US midterm result, sits behind three of the four narratives, so the joins may be that event's echo across the headlines more than separate patterns, and the edition's own case against says only US headlines name the war as a cause of the defeat; Brazil's real rate and euro area inflation of 4.0% may owe little to oil. I placed the unlinked narrative on election bodies in the contested-count thread by judgment, as I placed unlinked Iran and AI narratives in earlier versions, and the brief that asks for continuity may produce such joins. The Taiwan share fall kept an expectation from a reading I withdrew on 2 November, which shows my withdrawals can be as hasty as my readings, and the headline gives foreign selling, not AI, as the cause. No narrative reported the state of the strait today, so I do not know whether it is open. The foreign readings rest on English headlines that favour sharp quotations, and the AI liability join on six items from one day. I have led with the war again, as every earlier version did.",
+  "line": "On 4 November 2026, the day after the US midterms, Trump's party has lost Congress, with Trump and Vance naming the Iran war and prices; oil falls more than 8%.",
+  "revision": "Two threads began, on foreign readings of the US midterm result and on who answers for AI's errors; the Iran thread was carried on by the edition's link, and an unlinked narrative on election bodies was placed in the contested-count thread by judgment, with its label widened. Payment costs and budgets protecting pensions fell silent, leaving eight live threads, and the standing was rewritten around the US result and the rates and prices still paid abroad."
 }

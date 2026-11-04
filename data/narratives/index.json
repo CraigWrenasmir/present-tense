@@ -1,6 +1,61 @@
 {
  "editions": [
   {
+   "stamp": "20261104T215151",
+   "file": "data/narratives/20261104T215151.json",
+   "newsGeneratedAt": "2026-11-04T21:51:51Z",
+   "generatedAt": "2026-11-04T22:06:58Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-7",
+   "narratives": [
+    {
+     "id": "war-price-reaches-ballot-and-rates",
+     "kicker": "OIL / THE BALLOT / BORROWING",
+     "line": "The Iran war's price rise has now cost Trump's party Congress, and central banks abroad still hold rates high against it.",
+     "events": 6,
+     "headlines": 16,
+     "countries": 10,
+     "continues": "hormuz-cost-to-buyers-gain-to-bypass-sellers",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "electoral-bodies-become-the-contest",
+     "kicker": "ADMINISTRATION / BOUNDARIES / TRUST",
+     "line": "The bodies that run the count and draw the maps are now fought over before the vote, though the US redrawing failed on Tuesday.",
+     "events": 6,
+     "headlines": 11,
+     "countries": 8,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "us-vote-read-through-own-disputes",
+     "kicker": "ALLIES / SELF-INTEREST / EXECUTIVE POWER",
+     "line": "Abroad the midterm rout is read as a verdict on each capital's dispute with Washington, while the president still runs the war.",
+     "events": 6,
+     "headlines": 12,
+     "countries": 8,
+     "continues": "",
+     "firmness": "firm",
+     "watch": 2
+    },
+    {
+     "id": "ai-errors-fall-on-adopters",
+     "kicker": "AUTOMATION / LIABILITY / WORK",
+     "line": "Four years after ChatGPT, responsibility for AI's errors is being placed on those who adopt it rather than on those who build it.",
+     "events": 6,
+     "headlines": 6,
+     "countries": 6,
+     "continues": "",
+     "firmness": "tentative",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261103T214619",
    "file": "data/narratives/20261103T214619.json",
    "newsGeneratedAt": "2026-11-03T21:46:19Z",
