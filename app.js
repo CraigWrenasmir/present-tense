@@ -14,7 +14,8 @@
   const LEVEL_Z = { region: 0.3, near: 0.8, close: 1.5 };
   const UNFOLD = [0.42, 0.8];
   const NEAR_Z = 0.8;
-  const CARD_W = 220, CELL_W = (CARD_W + 36) / NEAR_Z, SWARM = 26;
+  /* A card's width and the pitch of a country's columns. On a phone the cards are narrower and a country has at most two columns, so its page fits the screen's width. */
+  const cardW = () => mobile() ? 150 : 220, cellGap = () => mobile() ? 20 : 36, cellW = () => (cardW() + cellGap()) / NEAR_Z, SWARM = 26;
   const LEVEL_NAME = { time: 'IN TIME', atlas: 'WORLD', region: 'REGION', near: 'HEADLINES', close: 'CLOSE' };
   const zMin = () => { const v = viewport(); return clamp(Math.min((v.w - 48) / WORLD_W, (v.h - 40) / WORLD_H), 0.03, 0.42); };
   /* Below the world fit the field reaches back in time: today's headlines fade and the library's moments appear at their places. */
@@ -29,7 +30,7 @@
   let news, readings, library, world, ledger, config, held = [], fieldArticles = [];
   let liveReadings, editions = [], attention = null, attentionDays = [], attentionLive = null;
   let chronicle = null, record = null, watch = null;  // the ledger of expectations  // where we are, and the line a day  // every edition of narratives, newest first; what was looked up, and its days
-  let beads = [], ghosts = [], labels = [], moments = [];
+  let beads = [], ghosts = [], labels = [], moments = [], countryNames = new Map();
   const byId = new Map(), beadById = new Map();
   let cameraDirty = true, lastFrame = 0, anim = null, dragged = false;
   const ground = $('#ground'), ctx = ground.getContext('2d');
@@ -59,7 +60,7 @@
     state.reading = p.get('reading') || '';
     state.rung = p.get('rung') || ''; state.frag = p.get('frag') || '';
     state.drawer = p.get('open') === '1';
-    state.panel = ['tide', 'index', 'about', 'editions', 'attention', 'more'].includes(p.get('view')) ? p.get('view') : '';
+    state.panel = ['tide', 'index', 'about', 'editions', 'attention', 'more', 'places'].includes(p.get('view')) ? p.get('view') : '';
     state.fieldOpen = p.get('field') === '1';
     state.edition = p.get('edition') || '';
     if (p.get('lang') === 'orig') state.lang = 'orig';
@@ -150,9 +151,9 @@
      talking. Expanded: a card in its country's block, so a country reads as a page of its own headlines. The frame
      interpolates between them with zoom, so swarms unfold into pages as you approach. */
   function estimate(a) {
-    const len = headline(a).length;
-    const lines = clamp(Math.ceil(len / 26), 1, 6);
-    return { w: CARD_W, h: lines * 17 + 12 + 14 + 12 };
+    const len = headline(a).length, m = mobile();
+    const lines = clamp(Math.ceil(len / (m ? 19 : 26)), 1, m ? 7 : 6);
+    return { w: cardW(), h: lines * (m ? 16 : 17) + 12 + 14 + 12 };
   }
   const smooth = t => { t = clamp(t, 0, 1); return t * t * (3 - 2 * t); };
   const unfold = z => smooth((z - UNFOLD[0]) / (UNFOLD[1] - UNFOLD[0]));
@@ -167,19 +168,22 @@
       const [ax, ay] = anchors[code] || toWorld(list[0].sourceLon, list[0].sourceLat);
       list.sort((a, b) => (a.publisher + (a.publishedAt || '')).localeCompare(b.publisher + (b.publishedAt || '')));
       const n = list.length, r = SWARM * Math.sqrt(n) + 14, turn = hashStr(code) % 7;
-      const cols = clamp(Math.round(Math.sqrt(n / 1.5)), 1, 4), colH = new Array(cols).fill(0);
+      const cols = clamp(Math.round(Math.sqrt(n / 1.5)), 1, mobile() ? 2 : 4), colH = new Array(cols).fill(0);
       const items = list.map((a, i) => {
         const s = estimate(a), rr = SWARM * Math.sqrt(i + 0.6), ang = i * 2.39996 + turn;
         const c = colH.indexOf(Math.min(...colH));
-        const it = { a, w: s.w, h: s.h, sx: rr * Math.cos(ang) * 1.25, sy: rr * Math.sin(ang), bx: c * CELL_W, by: colH[c] };
+        const it = { a, w: s.w, h: s.h, sx: rr * Math.cos(ang) * 1.25, sy: rr * Math.sin(ang), bx: c * cellW(), by: colH[c] };
         colH[c] += (s.h + 10) / NEAR_Z;
         return it;
       });
-      blocks.push({ code, ax, ay, n, r, items, bw: cols * CELL_W, bh: Math.max(...colH), cx: ax, cy: ay, ex: ax, ey: ay });
+      blocks.push({ code, ax, ay, n, r, items, bw: cols * cellW(), bh: Math.max(...colH), cx: ax, cy: ay, ex: ax, ey: ay });
     }
     relaxRects(blocks.map(b => ({ b, x: b.cx, y: b.cy, w: b.r * 2 + 36, h: b.r * 2 + 36, ax: b.ax, ay: b.ay })), 400, 0.75);
     blocks.forEach(b => { b.cx = b._x; b.cy = b._y; });
-    relaxRects(blocks.map(b => ({ b, x: b.ex, y: b.ey, w: b.bw + 170, h: b.bh + 230, ax: b.ax, ay: b.ay })), 700, 0.7);
+    // The pages need more room than the world has, so their stage is the world spread from its centre by k, and may run past its edges.
+    // Geography at this level is loose by design; what matters is that no two pages overlap and each sits near its country.
+    const k = mobile() ? 1.75 : 1.5, spread = (v, mid) => mid + (v - mid) * k;
+    relaxRects(blocks.map(b => { const ax = spread(b.ax, WORLD_W / 2), ay = spread(b.ay, WORLD_H / 2); return { b, x: ax, y: ay, w: b.bw + 170, h: b.bh + 230, ax, ay }; }), mobile() ? 1000 : 700, mobile() ? 0.5 : 0.7, { step: 0.3, slackX: (k - 1) / 2 * WORLD_W + 200, slackY: (k - 1) / 2 * WORLD_H + 200, fix: true });
     blocks.forEach(b => { b.ex = b._x; b.ey = b._y; });
     const out = [];
     blocks.forEach(b => b.items.forEach(it => {
@@ -189,22 +193,40 @@
     }));
     return out;
   }
-  /* Rigid rectangles (centre x, y) pushed apart, pulled gently to their anchors, kept inside the world. */
-  function relaxRects(items, iters, xBias) {
+  /* Rigid rectangles (centre x, y) pushed apart, pulled gently to their anchors, kept inside the world (or a stage a little larger than it).
+     With fix, whatever still overlaps when the relax stops is settled: biggest first, a rectangle that overlaps one already settled moves
+     to the nearest free spot, searched in rings from where the relax left it. The result never overlaps. */
+  function relaxRects(items, iters, xBias, { step = 0.5, slackX = 0, slackY = 0, fix = false } = {}) {
     items.forEach((p, i) => { p.i = i; });
+    const keep = (p, x, y) => [clamp(x, p.w / 2 - slackX, WORLD_W + slackX - p.w / 2), clamp(y, p.h / 2 + 10 - slackY, WORLD_H + 200 + slackY - p.h / 2)];
     for (let it = 0; it < iters; it++) {
-      const pull = it < iters * 0.4 ? 0.03 : 0.006;
+      const pull = it < iters * 0.4 ? 0.03 : it < iters * 0.7 ? 0.006 : 0;
       for (const p of items) {
         for (const q of items) {
           if (q.i <= p.i) continue;
           const ox = (p.w + q.w) / 2 - Math.abs(p.x - q.x); if (ox <= 0) continue;
           const oy = (p.h + q.h) / 2 - Math.abs(p.y - q.y); if (oy <= 0) continue;
           const left = p.x === q.x ? p.i < q.i : p.x < q.x, above = p.y === q.y ? p.i < q.i : p.y < q.y;
-          if (ox * xBias < oy) { const s = (left ? -1 : 1) * ox * 0.5; p.x += s; q.x -= s; }
-          else { const s = (above ? -1 : 1) * oy * 0.5; p.y += s; q.y -= s; }
+          if (ox * xBias < oy) { const s = (left ? -1 : 1) * ox * step; p.x += s; q.x -= s; }
+          else { const s = (above ? -1 : 1) * oy * step; p.y += s; q.y -= s; }
         }
         p.x += (p.ax - p.x) * pull; p.y += (p.ay - p.y) * pull;
-        p.x = clamp(p.x, p.w / 2, WORLD_W - p.w / 2); p.y = clamp(p.y, p.h / 2 + 10, WORLD_H + 200 - p.h / 2);
+        [p.x, p.y] = keep(p, p.x, p.y);
+      }
+    }
+    if (fix) {
+      const order = items.slice().sort((a, b) => (b.b.n || 0) - (a.b.n || 0) || a.ay - b.ay), placed = [], grid = 50;
+      const free = (p, x, y) => !placed.some(q => Math.abs(x - q.x) < (p.w + q.w) / 2 && Math.abs(y - q.y) < (p.h + q.h) / 2);
+      for (const p of order) {
+        if (!free(p, p.x, p.y)) {
+          let best = null, bd = Infinity; const sx = p.x, sy = p.y;
+          for (let r = 1; r <= 90 && !best; r++) for (let j = -r; j <= r; j++) for (const [x0, y0] of [[sx + j * grid, sy - r * grid], [sx + j * grid, sy + r * grid], [sx - r * grid, sy + j * grid], [sx + r * grid, sy + j * grid]]) {
+            const [x, y] = keep(p, x0, y0), d = Math.hypot((x - p.ax) * 0.75, y - p.ay);
+            if (d < bd && free(p, x, y)) { best = [x, y]; bd = d; }
+          }
+          if (best) { p.x = best[0]; p.y = best[1]; }
+        }
+        placed.push(p);
       }
     }
     items.forEach(p => { p.b._x = p.x; p.b._y = p.y; });
@@ -217,15 +239,7 @@
     el.addEventListener('click', e => {
       if (dragged) return; e.stopPropagation();
       // on a phone a tap on a swarm opens that country's page of headlines; the card waits until the headlines are legible
-      if (mobile() && !ghost && (bucket() === 'atlas' || bucket() === 'region')) {
-        const same = beads.filter(p => p.a.sourceCountryCode === a.sourceCountryCode);
-        if (same.length) {
-          // land at the HEADLINES level whatever the country's size: a page wider than the screen can be panned, a swarm cannot be read
-          const z = LEVEL_Z.near + 0.02, pts = same.map(p => posAt(p, z)), xs = pts.map(q => q[0]), ys = pts.map(q => q[1]);
-          const cx = Math.min(...xs) + Math.min((Math.max(...xs) - Math.min(...xs)) / 2, (viewport().w / 2 - 20) / z), cy = Math.min(...ys) + Math.min((Math.max(...ys) - Math.min(...ys)) / 2, (viewport().h / 2 - 40) / z);
-          const v = viewport(); animateTo(z, v.w / 2 - cx * z, v.h / 2 - cy * z, 600); return;
-        }
-      }
+      if (mobile() && !ghost && (bucket() === 'atlas' || bucket() === 'region')) { fitCountry(a.sourceCountryCode); return; }
       openCard(a, el);
     });
     el.addEventListener('keydown', e => { if (e.key === 'Enter') openCard(a, el); });
@@ -279,6 +293,7 @@
     // labels: one per country with headlines (above its swarm, then its block) plus silent countries at their anchor
     labels = [];
     const byCode = {}; blocks.forEach(b => { byCode[b.code] = b; });
+    countryNames = new Map(config.countries.map(c => [c.code, c.name])); blocks.forEach(b => { if (!countryNames.has(b.code)) countryNames.set(b.code, b.items[0].a.sourceCountry); });
     const states = {}; (ledger ? ledger.countries : []).forEach(c => { states[c.code] = c.state; });
     config.countries.forEach(c => {
       const b = byCode[c.code];
@@ -334,7 +349,8 @@
   let momentKey = '';
   function placeMoments() {
     const z = state.z, px = state.panX, py = state.panY, lvl = bucket();
-    const show = lvl === 'time' ? 'all' : lvl === 'atlas' ? 'lit' : 'none';
+    // on a phone the world is too small for the moments; back in time it shows the ones the narrative stands on, with their places
+    const show = lvl === 'time' ? (mobile() && currentReading() ? 'lit' : 'all') : lvl === 'atlas' ? (mobile() ? 'none' : 'lit') : 'none';
     const t = timeT();
     worldEl.style.setProperty('--time', t.toFixed(3));
     for (const m of moments) {
@@ -348,7 +364,7 @@
     if (key === momentKey) return; momentKey = key;
     const on = moments.filter(m => m.on);
     // at the world only the lit moments show, as a mark and a year; back in time every moment carries its place
-    if (show === 'lit') { on.forEach(m => { m.el.classList.add('quiet'); m.dx = m.dy = 0; }); relaxMoments(on, 50, 46); return; }
+    if (show === 'lit' && lvl !== 'time') { on.forEach(m => { m.el.classList.add('quiet'); m.dx = m.dy = 0; }); relaxMoments(on, 50, 46); return; }
     on.forEach(m => m.el.classList.remove('quiet'));
     relaxMoments(on, 60, 0);
     // a label that still overlaps another is reduced to its mark and year; lit first, then newest first
@@ -483,11 +499,21 @@
     const f = fitRect(0, 0, WORLD_W, WORLD_H, 0.6, 16);
     animateTo(f.z, f.v.w / 2 - f.cx * f.z, f.v.h / 2 + 10 - f.cy * f.z);
   }
+  /* A country's page of headlines at the HEADLINES level whatever its size: a page wider than the screen can be panned, a swarm cannot be read. */
+  function fitCountry(code, dur = 600) {
+    const same = beads.filter(p => p.a.sourceCountryCode === code); if (!same.length) return fitWorld();
+    const z = LEVEL_Z.near + 0.02, pts = same.map(p => posAt(p, z)), xs = pts.map(q => q[0]), ys = pts.map(q => q[1]), v = viewport();
+    // centre the page if it fits the screen, else its left edge sits a little in from the screen's
+    const cx = Math.min(...xs) + Math.min((Math.max(...xs) - Math.min(...xs) + cardW() / z) / 2, (v.w / 2 - 12) / z), cy = Math.min(...ys) + Math.min((Math.max(...ys) - Math.min(...ys)) / 2, (v.h / 2 - 40) / z);
+    animateTo(z, v.w / 2 - cx * z, v.h / 2 - cy * z, dur);
+  }
+  /* Where the camera rests: on a phone with the field closed, the whole world in the band; otherwise the narrative's constellation. */
+  const fitHome = () => (mobile() && !state.fieldOpen ? fitWorld() : fitReading());
   function locate(id) {
     const p = beadById.get(id) || ghosts.find(g => g.a.id === id); if (!p) return false;
     const v = viewport(); const z = Math.max(state.z, 1.0);
     const [x, y] = posAt(p, z);
-    animateTo(z, v.w / 2 - (x + 110) * z, v.h / 2 - (y + 30) * z);
+    animateTo(z, v.w / 2 - (x + cardW() / 2) * z, v.h / 2 - (y + 30) * z);
     p.el.classList.add('focus'); setTimeout(() => p.el.classList.remove('focus'), 2600);
     return true;
   }
@@ -532,7 +558,8 @@
       return;
     }
     const onScreen = p => { const sx = p.x * z + px, sy = p.y * z + py; return sx > -30 && sx < W + 30 && sy > -30 && sy < H + 30; };
-    const cap = mobile() && !state.fieldOpen ? 0 : lvl === 'time' ? 0 : lvl === 'atlas' ? (mobile() ? 3 : 7) : (mobile() ? 4 : Math.min(9, Math.floor((W * H) / (200 * 70) / 5)));
+    // on a phone the world shows the narrative's headlines as stars only; the sheet below lists them
+    const cap = mobile() && !state.fieldOpen ? 0 : lvl === 'time' ? 0 : lvl === 'atlas' ? (mobile() ? 0 : 7) : (mobile() ? 2 : Math.min(9, Math.floor((W * H) / (200 * 70) / 5)));
     // which lit headlines get a label when there is not room for all: one per country first, in citation order
     let labelled = all.filter(onScreen);
     if (labelled.length > cap) {
@@ -581,8 +608,56 @@
     ground.style.width = r.width + 'px'; ground.style.height = r.height + 'px';
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0); cameraDirty = true;
   }
+  /* The phone's band: not the field shrunk, but a diagram of it. The land, a dot for each country sized by its headlines, and the
+     open narrative's countries named, with dotted lines through them in the order it cites them. Nothing else. */
+  function drawGlance(w, h) {
+    const z = state.z, px = state.panX, py = state.panY, vh = viewport().h;
+    ctx.fillStyle = ink('--land-far');
+    const kx = WORLD_W / 360 * z, ky = WORLD_H / 145 * z, x0 = 180 * kx + px, y0 = 85 * ky + py;
+    for (const [lon, lat] of world.points) { const x = lon * kx + x0, y = y0 - lat * ky; if (x < -4 || y < -4 || x > w + 4 || y > vh + 4) continue; ctx.fillRect(x, y, 1.4, 1.4); }
+    const r = currentReading(), share = new Map();
+    if (r) r.articleIds.forEach(id => { const a = byId.get(id); if (a) share.set(a.sourceCountryCode, (share.get(a.sourceCountryCode) || 0) + 1); });
+    const byCode = new Map(blocks.map(b => [b.code, b]));
+    const pos = b => toScreen(b.ax, b.ay), radius = b => clamp(1.2 + Math.sqrt(b.n) * 0.7, 1.5, 5);
+    ctx.strokeStyle = ink('--ink-4'); ctx.lineWidth = 1;
+    for (const l of labels) if (l.silent) { const [x, y] = toScreen(l.ax, l.ay); ctx.beginPath(); ctx.arc(x, y, 2.5, 0, Math.PI * 2); ctx.stroke(); }
+    for (const b of blocks) { const [x, y] = pos(b); ctx.fillStyle = ink(share.has(b.code) ? '--ink' : '--ink-3'); ctx.beginPath(); ctx.arc(x, y, radius(b) + (share.has(b.code) ? 0.8 : 0), 0, Math.PI * 2); ctx.fill(); }
+    // the join: dotted lines through the narrative's countries in the order it cites them
+    const seq = [];
+    if (r) r.articleIds.forEach(id => { const a = byId.get(id), b = a && byCode.get(a.sourceCountryCode); if (b && seq[seq.length - 1] !== b) seq.push(b); });
+    ctx.save(); ctx.setLineDash([1.2, 5]); ctx.lineCap = 'round'; ctx.lineWidth = 1.2; ctx.strokeStyle = ink('--ink-2');
+    for (let i = 0; i < seq.length - 1; i++) { const [x1, y1] = pos(seq[i]), [x2, y2] = pos(seq[i + 1]); ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke(); }
+    ctx.restore();
+    // names: the narrative's countries by their share of it, or with nothing open the countries with most headlines
+    const items = r ? [...share.entries()].sort((a, b) => b[1] - a[1]).map(([code, n]) => ({ b: byCode.get(code), n })).filter(x => x.b)
+      : blocks.slice().sort((a, b) => b.n - a.n).slice(0, 14).map(b => ({ b, n: b.n }));
+    ctx.font = '10px ' + getComputedStyle(document.documentElement).getPropertyValue('--mono'); ctx.textBaseline = 'middle';
+    try { ctx.letterSpacing = '0.1em'; } catch {}
+    const placed = items.map(({ b }) => { const [x, y] = pos(b), rd = radius(b) + 2; return { x: x - rd, y: y - rd, w: rd * 2, h: rd * 2 }; });
+    const th = 11;
+    for (const { b, n } of items) {
+      const name = (countryNames.get(b.code) || b.code).toUpperCase(), count = ' ' + n;
+      const nw = ctx.measureText(name).width, tw = nw + ctx.measureText(count).width, [x, y] = pos(b), rd = radius(b);
+      const cands = [[x + rd + 5, y - th / 2], [x - rd - 5 - tw, y - th / 2], [x - tw / 2, y - rd - 4 - th], [x - tw / 2, y + rd + 4]];
+      const fits = c => c[0] >= 3 && c[0] + tw <= w - 3 && c[1] >= 2 && c[1] + th <= vh - 2 && !placed.some(q => c[0] < q.x + q.w + 4 && c[0] + tw + 4 > q.x && c[1] < q.y + q.h + 1 && c[1] + th + 1 > q.y);
+      const c = cands.find(fits); if (!c) continue;
+      placed.push({ x: c[0], y: c[1], w: tw, h: th });
+      ctx.fillStyle = ink(r ? '--ink' : '--ink-2'); ctx.fillText(name, c[0], c[1] + th / 2);
+      ctx.fillStyle = ink('--ink-3'); ctx.fillText(count, c[0] + nw, c[1] + th / 2);
+    }
+    try { ctx.letterSpacing = '0px'; } catch {}
+    // a dotted thread from the open narrative's card, below the band, up to the nearest of its countries
+    if (!seq.length) return;
+    const o = $('#narratives-strip .narrative[aria-pressed="true"]'); if (!o || !o.offsetParent) return;
+    const orect = o.getBoundingClientRect(), frect = fieldEl.getBoundingClientRect();
+    const ox = clamp(orect.left + 24 - frect.left, 0, frect.width), oy = orect.top - frect.top;
+    let best = null, bd = Infinity;
+    for (const b of seq) { const [x, y] = pos(b); const d = Math.hypot(x - ox, y - oy); if (d < bd) { bd = d; best = [x, y]; } }
+    ctx.save(); ctx.strokeStyle = ink('--ink-3'); ctx.setLineDash([1, 7]); ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(ox, oy); ctx.lineTo(best[0], best[1]); ctx.stroke(); ctx.restore();
+  }
   function drawGround() {
     const w = ground.clientWidth, h = ground.clientHeight; ctx.clearRect(0, 0, w, h);
+    if (mobile() && !state.fieldOpen) return drawGlance(w, h);
     const z = state.z, px = state.panX, py = state.panY;
     // land: one dot per degree of Natural Earth land, a stipple that reads as continents when small and as grain when near
     ctx.fillStyle = ink(z < LEVEL_Z.region ? '--land-far' : '--land-near');
@@ -600,7 +675,7 @@
     if (tu > 0.85) {
       ctx.strokeStyle = ink('--ink'); ctx.lineWidth = 1; ctx.globalAlpha = (tu - 0.85) / 0.15;
       for (const b of blocks) {
-        const x1 = (b.ex - b.bw / 2) * z + px, y1 = (b.ey - b.bh / 2) * z + py - 10, x2 = x1 + (b.bw - 36 / NEAR_Z) * z;
+        const x1 = (b.ex - b.bw / 2) * z + px, y1 = (b.ey - b.bh / 2) * z + py - 10, x2 = x1 + (b.bw - cellGap() / NEAR_Z) * z;
         if (x2 < 0 || x1 > w || y1 < -10 || y1 > h + 10) continue;
         ctx.beginPath(); ctx.moveTo(x1, y1 + 0.5); ctx.lineTo(x2, y1 + 0.5); ctx.stroke();
       }
@@ -676,7 +751,7 @@
     $('#drawer').hidden = !state.drawer;
     if (state.drawer) renderDrawer();
     if (mobile()) renderSheet();
-    if (fit) fitReading();
+    if (fit) fitHome();
     cameraDirty = true; writeHash(); syncTabs();
   }
   /* The phone's field: a band above the paper until it is opened, then the whole screen with a sheet of the lit headlines. */
@@ -685,16 +760,50 @@
     document.body.classList.toggle('field-open', state.fieldOpen);
     litKey = ''; sizeCanvas(); cameraDirty = true;
     if (state.fieldOpen) { $('#sheet-body').hidden = true; $('#sheet-bar').setAttribute('aria-expanded', 'false'); renderSheet(); }
+    else if (mobile()) requestAnimationFrame(fitWorld);  // the band always holds the whole world
     sheetHeight();
   }
-  function openField() {
+  function openField(fit) {
     if (state.drawer) { state.drawer = false; document.body.classList.remove('drawer-open'); $('#drawer').hidden = true; setFocus(null); }
     if (state.panel) openPanel(state.panel);
     setFieldOpen(true);
-    requestAnimationFrame(() => { if (currentReading()) fitReading(); else fitWorld(); });
+    requestAnimationFrame(() => { if (fit) fit(); else if (currentReading()) fitReading(); else fitWorld(); });
     writeHash(); syncTabs();
   }
-  function closeField() { setFieldOpen(false); requestAnimationFrame(() => { if (currentReading()) fitReading(); }); writeHash(); syncTabs(); }
+  function closeField() { setFieldOpen(false); writeHash(); syncTabs(); }
+  /* The phone's Field tab: the headlines by country, a list that opens the field at a country's page. */
+  function renderPlaces() {
+    const body = $('#places-body'); body.replaceChildren();
+    const r = currentReading(), name = code => countryNames.get(code) || code, pad = n => String(n).padStart(2, '0');
+    const share = new Map(); if (r) r.articleIds.forEach(id => { const a = byId.get(id); if (a) share.set(a.sourceCountryCode, (share.get(a.sourceCountryCode) || 0) + 1); });
+    const go = code => openField(() => fitCountry(code));
+    body.append(create('p', 'places-intro', `${fieldArticles.length} headlines from ${blocks.length} countries, in the collection of ${fmt(readings.newsGeneratedAt)}, each placed by its publisher. Select a country to open its page of headlines in the field.`));
+    if (r) {
+      const idx = readings.readings.findIndex(x => x.id === r.id);
+      body.append(create('p', 'sect', `NARRATIVE ${pad(idx + 1)} · ITS HEADLINES ARE FROM ${share.size} ${share.size === 1 ? 'COUNTRY' : 'COUNTRIES'}`));
+      body.append(create('p', 'places-line', r.line));
+      const chips = create('div', 'chips places-chips');
+      [...share.entries()].sort((a, b) => b[1] - a[1]).forEach(([code, n]) => { const c = create('button', 'chip', `${name(code)} · ${n}`); c.type = 'button'; c.addEventListener('click', () => go(code)); chips.append(c); });
+      body.append(chips);
+    }
+    body.append(create('p', 'sect', 'EVERY COUNTRY · MOST HEADLINES FIRST'));
+    const ol = create('ol', 'places-list'), max = Math.max(1, ...blocks.map(b => b.n));
+    blocks.slice().sort((a, b) => b.n - a.n || name(a.code).localeCompare(name(b.code))).forEach(b => {
+      const li = create('li'), btn = create('button', 'place' + (share.has(b.code) ? ' in' : '')); btn.type = 'button';
+      const pubs = [...new Set(b.items.map(it => it.a.publisher))];
+      const bar = create('span', 'bar'); bar.style.width = (b.n / max * 100).toFixed(1) + '%';
+      btn.append(create('span', 'name', name(b.code)), create('span', 'n', String(b.n)), bar, create('span', 'pubs', pubs.slice(0, 3).join(', ') + (pubs.length > 3 ? ` and ${pubs.length - 3} more` : '')));
+      btn.addEventListener('click', () => go(b.code)); li.append(btn); ol.append(li);
+    });
+    body.append(ol);
+    const silent = config.countries.filter(c => !blocks.some(b => b.code === c.code));
+    if (silent.length) {
+      body.append(create('p', 'sect', `HEARD NOTHING FROM · ${silent.length}`));
+      body.append(create('p', 'places-silent', silent.map(c => c.name).join(' · ')));
+      body.append(create('p', 'places-note', 'Countries we have publishers for that returned nothing in this collection. A gap in our listening, not a silence in the country.'));
+    }
+    const foot = create('p', 'places-foot'); const all = create('button', 'text', 'the whole field, to drag and zoom ↗'); all.type = 'button'; all.addEventListener('click', () => openField(fitWorld)); foot.append(all); body.append(foot);
+  }
   function sheetHeight() { const sh = $('#sheet'); document.documentElement.style.setProperty('--sheet-h', (mobile() && state.fieldOpen && sh ? sh.offsetHeight : 0) + 'px'); }
   function renderSheet() {
     const r = currentReading(), sheet = $('#sheet');
@@ -719,7 +828,7 @@
     sheetHeight();
   }
   function syncTabs() {
-    const cur = state.panel === 'attention' ? 'attention' : state.panel ? 'more' : state.fieldOpen ? 'field' : 'paper';
+    const cur = state.panel === 'places' ? 'field' : state.panel === 'attention' ? 'attention' : state.panel ? 'more' : state.fieldOpen ? 'field' : 'paper';
     $$('#tabs .tab[data-tab]').forEach(t => t.setAttribute('aria-pressed', String(t.dataset.tab === cur)));
     $('#more-lang').setAttribute('aria-pressed', String(state.lang === 'orig'));
     $('#more-night').setAttribute('aria-pressed', String(document.documentElement.dataset.theme === 'night'));
@@ -790,7 +899,7 @@
     }
     strip.querySelectorAll('.narrative').forEach(b => {
       const on = !!r && b.dataset.id === r.id; b.setAttribute('aria-pressed', String(on));
-      if (on && typeof b.scrollIntoView === 'function') b.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+      if (on && !mobile() && typeof b.scrollIntoView === 'function') b.scrollIntoView({ block: 'nearest', inline: 'nearest' });
     });
   }
   function stepReading(d) {
@@ -1116,7 +1225,7 @@
     clearTimeout(walk.timer); walk = null;
     document.body.classList.remove('walking'); $('#walk').hidden = true; $('#walk-play').setAttribute('aria-pressed', 'false');
     setFocus(null); moments.forEach(m => m.el.classList.remove('focus'));
-    if (currentReading()) { if (!mobile()) selectReading(currentReading().id, { open: true, fit: true }); else fitReading(); }
+    if (currentReading()) { if (!mobile()) selectReading(currentReading().id, { open: true, fit: true }); else fitHome(); }
   }
   function showStep(i) {
     if (!walk) return;
@@ -1137,7 +1246,7 @@
   function landOn(ids) {
     const p = ids.map(id => beadById.get(id)).find(Boolean); if (!p) return;
     const z = LEVEL_Z.near + 0.02, [x, y] = posAt(p, z), v = viewport(), wh = $('#walk').offsetHeight || 0;
-    animateTo(z, v.w / 2 - (x + 110 / z) * z, Math.max(80, (v.h - wh - 12) / 2) - (y + 24 / z) * z, 700);
+    animateTo(z, v.w / 2 - (x + cardW() / 2 / z) * z, Math.max(80, (v.h - wh - 12) / 2) - (y + 24 / z) * z, 700);
   }
   /* Zoom out to the past, with a horizon's moments in view and marked. */
   function fitMoments(ids) {
@@ -1221,7 +1330,8 @@
   /* ---------- panels ---------- */
   function openPanel(name) {
     state.panel = state.panel === name ? '' : name;
-    ['tide', 'index', 'about', 'editions', 'attention', 'more'].forEach(n => { $(`#${n}-panel`).hidden = state.panel !== n; $$(`[data-open="${n}"]`).forEach(b => b.setAttribute('aria-pressed', String(state.panel === n))); });
+    ['tide', 'index', 'about', 'editions', 'attention', 'more', 'places'].forEach(n => { $(`#${n}-panel`).hidden = state.panel !== n; $$(`[data-open="${n}"]`).forEach(b => b.setAttribute('aria-pressed', String(state.panel === n))); });
+    if (state.panel === 'places') renderPlaces();
     if (state.panel === 'tide') { if (ledger) renderTide(); else ensureLedger().then(() => { if (state.panel === 'tide') { renderTide(); buildField(); selectReading(state.reading, { open: state.drawer, fit: false }); } }); }
     if (state.panel === 'index') renderIndex(); if (state.panel === 'about') renderAbout(); if (state.panel === 'editions') renderEditions();
     if (state.panel === 'attention') { if (attention || attentionTried) renderAttention(); else ensureAttention().then(() => { if (state.panel === 'attention') renderAttention(); }); }
@@ -1504,13 +1614,15 @@
     // the first visit: one line under the masthead, dismissed once and remembered
     try { if (localStorage.getItem('pt-seen') !== '1') { $('#first').hidden = false; } } catch { $('#first').hidden = false; }
     $('#first-close').addEventListener('click', () => { $('#first').hidden = true; try { localStorage.setItem('pt-seen', '1'); } catch {} });
+    // on a phone the note sits at the top of the paper, not over the map, and says where things are
+    if (mobile()) { $('#narratives').prepend($('#first')); $('#first .first-text').textContent = 'Above, a map of where today\'s headlines were published; the Field tab lists them by country. Below, the day\'s narratives, written each morning by a language model: each says what it joins, shows its evidence and makes the case against itself. Select one.'; }
     // the phone's furniture
     $('#field-cover').addEventListener('click', openField);
     $('#field-back').addEventListener('click', closeField);
     $('#sheet-bar').addEventListener('click', () => { const b = $('#sheet-body'); b.hidden = !b.hidden; $('#sheet-bar').setAttribute('aria-expanded', String(!b.hidden)); renderSheet(); });
     $$('#tabs .tab[data-tab]').forEach(t => t.addEventListener('click', () => {
       const w = t.dataset.tab;
-      if (w === 'field') { if (state.fieldOpen && !state.panel && !state.drawer) return; openField(); }
+      if (w === 'field') { if (state.panel === 'places') return; if (state.panel) openPanel(state.panel); openPanel('places'); }
       else if (w === 'paper') { if (state.panel) openPanel(state.panel); if (state.drawer) { state.drawer = false; document.body.classList.remove('drawer-open'); $('#drawer').hidden = true; setFocus(null); } if (state.fieldOpen) setFieldOpen(false); writeHash(); syncTabs(); }
       else if (w === 'attention') { if (state.panel !== 'attention') { if (state.panel) openPanel(state.panel); openPanel('attention'); } }
       else if (w === 'more') { if (state.panel === 'more') openPanel('more'); else { if (state.panel) openPanel(state.panel); openPanel('more'); } }
@@ -1520,7 +1632,7 @@
     let sw = null; const db = $('#drawer-body');
     db.addEventListener('touchstart', e => { if (e.touches.length === 1) sw = { x: e.touches[0].clientX, y: e.touches[0].clientY }; }, { passive: true });
     db.addEventListener('touchend', e => { if (!sw) return; const t = e.changedTouches[0], dx = t.clientX - sw.x, dy = t.clientY - sw.y; sw = null; if (Math.abs(dx) > 70 && Math.abs(dx) > Math.abs(dy) * 2) stepReading(dx < 0 ? 1 : -1); }, { passive: true });
-    phoneQuery.addEventListener('change', () => { document.body.classList.toggle('phone', mobile()); if (!mobile()) setFieldOpen(false); stripBuilt = false; renderStrip(); sizeCanvas(); cameraDirty = true; syncTabs(); });
+    phoneQuery.addEventListener('change', () => { document.body.classList.toggle('phone', mobile()); if (!mobile()) setFieldOpen(false); stripBuilt = false; buildField(); selectReading(state.reading, { open: state.drawer, fit: false }); renderStrip(); sizeCanvas(); cameraDirty = true; syncTabs(); });
     $('#scrim').addEventListener('click', closeCard);
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape') { if (!$('#card').hidden) return closeCard(); if (state.panel) return openPanel(state.panel); if (state.drawer) { state.drawer = false; document.body.classList.remove('drawer-open'); $('#drawer').hidden = true; setFocus(null); writeHash(); } return; }
@@ -1555,7 +1667,7 @@
     if (state.debugZ) { const v2 = viewport(); state.z = state.debugZ; const c = toWorld(isNaN(state.debugLon) ? 10 : state.debugLon, isNaN(state.debugLat) ? 48 : state.debugLat); state.panX = v2.w / 2 - c[0] * state.z; state.panY = v2.h / 2 - c[1] * state.z; applyBucket(); cameraDirty = true; }
     if (state.panel) { const p = state.panel; state.panel = ''; openPanel(p); }
     $('#hint').hidden = mobile();
-    if (mobile()) { if (state.fieldOpen && !state.drawer && !state.panel) { setFieldOpen(true); requestAnimationFrame(() => fitReading()); } else state.fieldOpen = false; renderSheet(); }
+    if (mobile()) { if (state.fieldOpen && !state.drawer && !state.panel) { setFieldOpen(true); requestAnimationFrame(() => fitReading()); } else { state.fieldOpen = false; requestAnimationFrame(fitWorld); } renderSheet(); }
     syncTabs();
   }
   init();

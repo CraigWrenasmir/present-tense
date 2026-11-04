@@ -424,15 +424,18 @@ body.drawer-open .narratives-hint { display: none; }
 /* Phone: the paper first, the field second. The narratives fill the screen as a list; the field is a band above them that
    opens to full height on a tap; a tab bar sits under the thumb; the drawer is a full-screen reader. */
 @media (max-width: 760px) {
-  :root { --mast-h: 48px; --drawer-w: 100%; --tabs-h: calc(50px + env(safe-area-inset-bottom, 0px)); --band-h: 34dvh; }
+  :root { --mast-h: 48px; --drawer-w: 100%; --tabs-h: calc(50px + env(safe-area-inset-bottom, 0px)); --band-h: 30dvh; }
   .mast { gap: 8px; padding: 0 12px; grid-template-columns: auto 1fr; }
   .mark .name { font-size: 17px; }
   .edition { display: none; }
   .tools { display: none; }
-  .first { flex-direction: column; gap: 6px; font-size: 13px; padding: 10px 14px; }
+  .first { position: static; flex-direction: column; gap: 6px; font-size: 13px; padding: 10px 12px; margin: 0 0 10px; border: 1px solid var(--ink); }
+  .first-text { line-height: 1.5; }
   .tip { display: none !important; }
   .skip { display: none; }
   .field { bottom: var(--tabs-h); }
+  /* the band is a diagram drawn on the canvas: the swarms, labels and moments wait until the field is opened */
+  body:not(.field-open) :is(.world, .labels) { display: none; }
   .bead.lit { width: 150px; font-size: 12px; }
   .bead.lit .m { display: none; }
   .hint { display: none; }
@@ -491,7 +494,10 @@ body.drawer-open .narratives-hint { display: none; }
   .panel { top: var(--mast-h); bottom: var(--tabs-h); width: 100%; border-left: 0; animation: rise .32s var(--ease); }
   .panel-body { padding: 14px 16px 48px; }
   .card { left: 12px !important; right: 12px; top: auto !important; bottom: calc(var(--tabs-h) + 12px); width: auto; }
-  .bead { width: 180px; font-size: 14px; }
+  .bead { width: 150px; font-size: 13px; }
+  .world.near .bead:not(.lit) { width: 150px; }
+  .world.close .bead:not(.lit) { width: 220px; font-size: 16px; }
+  .world.near .bead.lit, .world.close .bead.lit { width: 150px; }
   /* the sheet of lit headlines over the open field */
   .sheet { display: none; position: fixed; left: 0; right: 0; bottom: var(--tabs-h); z-index: 21; background: var(--bg); border-top: 1px solid var(--ink); max-height: 60dvh; flex-direction: column; }
   body.field-open .sheet { display: flex; }
@@ -509,6 +515,22 @@ body.drawer-open .narratives-hint { display: none; }
   .tab .g { font-size: 16px; line-height: 1; }
   .tab[aria-pressed="true"], .tab[aria-current="page"] { color: var(--ink); }
   .toast { top: auto; bottom: calc(var(--tabs-h) + 12px); }
+  /* the Field tab: the headlines by country */
+  .places-intro { font-size: 14px; line-height: 1.45; color: var(--ink-2); margin: 0 0 8px; }
+  .places-line { font-size: 15px; line-height: 1.35; margin: 4px 0 8px; }
+  .places-chips { margin: 0 0 6px; }
+  .places-list { list-style: none; margin: 0; padding: 0; }
+  .place { display: grid; grid-template-columns: 1fr auto; column-gap: 12px; align-items: baseline; width: 100%; text-align: left; padding: 11px 0 10px; border-top: 1px solid var(--ink-5); }
+  .place .name { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink); }
+  .place.in .name::before { content: "* "; letter-spacing: 0; }
+  .place .n { font-family: var(--mono); font-size: 11px; color: var(--ink-3); }
+  .place .bar { grid-column: 1 / -1; height: 2px; background: var(--ink-4); margin-top: 6px; min-width: 2px; }
+  .place.in .bar { background: var(--ink); }
+  .place .pubs { grid-column: 1 / -1; font-size: 12.5px; color: var(--ink-2); margin-top: 4px; line-height: 1.35; }
+  .places-silent { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; color: var(--ink-3); line-height: 1.7; margin: 4px 0 4px; }
+  .places-note { font-size: 13px; color: var(--ink-3); line-height: 1.4; margin: 0; }
+  .places-foot { margin: 20px 0 0; }
+  .places-foot .text { font-size: 12px; }
 }
 
 /* Looked up: the second register */
