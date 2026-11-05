@@ -1,14 +1,14 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-11-04T22:06:58Z",
-  "newsGeneratedAt": "2026-11-04T21:51:51Z",
+  "generatedAt": "2026-11-05T22:12:20Z",
+  "newsGeneratedAt": "2026-11-05T21:59:02Z",
   "method": "claude-api-batch",
   "model": "claude-opus-5-5",
   "promptVersion": "narrative-7",
-  "previousNewsGeneratedAt": "2026-11-03T21:46:19Z",
+  "previousNewsGeneratedAt": "2026-11-04T21:51:51Z",
   "usage": {
-    "input": 69457,
-    "output": 83784,
+    "input": 79001,
+    "output": 72139,
     "tier": "batch"
   },
   "notes": [
@@ -23,405 +23,14 @@
   ],
   "sourceArticles": [
     {
-      "id": "n-12c10d769a2da4",
-      "title": "Трамп и Вэнс о поражении республиканцев на выборах: причиной стала война с Ираном, рост цен, невыполненные обещания",
-      "titleEnglish": "Trump and Vance on the Republican defeat in the elections: the cause was the war with Iran, rising prices, and unfulfilled promises",
-      "url": "https://lenta.ru/news/2026/11/04/long-prichina-eto-voyna-vens-i-tramp-ob-yasnili-porazhenie-respublikantsev-na-vyborah/",
-      "publisher": "Lenta.RU",
-      "publisherDomain": "lenta.ru",
-      "publishedAt": "2026-11-04T21:47:00Z",
-      "seenAt": "2026-11-04T21:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Russia",
-      "sourceCountryCode": "RU",
-      "sourceRegion": "Europe",
-      "sourceLat": 61,
-      "sourceLon": 100,
-      "language": "ru"
-    },
-    {
-      "id": "n-7175b6a4e559b3",
-      "title": "Trump admite que guerra no Irã contribuiu para derrota republicana",
-      "titleEnglish": "Trump admits the war in Iran contributed to the Republican defeat",
-      "url": "https://www.dw.com/pt-br/trump-admite-que-guerra-no-ir%C3%A3-contribuiu-para-derrota-republicana/live-79849879",
-      "publisher": "dw.com",
-      "publisherDomain": "dw.com",
-      "publishedAt": "2026-11-04T20:47:00Z",
-      "seenAt": "2026-11-04T20:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "pt"
-    },
-    {
-      "id": "n-e3cc30a2afd9a9",
-      "title": "JD Vance culpa guerra no Irão pelo desaire nas intercalares e posiciona-se na corrida para 2028",
-      "titleEnglish": "JD Vance blames war in Iran for midterm setback and positions himself for the 2028 race",
-      "url": "https://observador.pt/2026/11/04/jd-vance-culpa-guerra-no-irao-pelo-desaire-nas-intercalares-e-posiciona-se-na-corrida-para-2028/",
-      "publisher": "Observador",
-      "publisherDomain": "observador.pt",
-      "publishedAt": "2026-11-04T20:47:00Z",
-      "seenAt": "2026-11-04T20:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Portugal",
-      "sourceCountryCode": "PT",
-      "sourceRegion": "Europe",
-      "sourceLat": 39.5,
-      "sourceLon": -8,
-      "language": "pt"
-    },
-    {
-      "id": "n-45ef1a05d59a5f",
-      "title": "Democrats sweep Congress to usher in new era as Trump acknowledges effect of war",
-      "titleEnglish": "Democrats sweep Congress to usher in new era as Trump acknowledges effect of war",
-      "url": "https://www.thisisoxfordshire.co.uk/news/national/26700348.democrats-sweep-congress-usher-new-era-trump-acknowledges-effect-war/",
-      "publisher": "This is Oxfordshire",
-      "publisherDomain": "thisisoxfordshire.co.uk",
-      "publishedAt": "2026-11-04T18:47:00Z",
-      "seenAt": "2026-11-04T18:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "United Kingdom",
-      "sourceCountryCode": "GB",
-      "sourceRegion": "Europe",
-      "sourceLat": 54,
-      "sourceLon": -2,
-      "language": "en"
-    },
-    {
-      "id": "n-dbcef0a415ddcf",
-      "title": "[속보] 美 민주당 압승에 국제유가 8% 넘게 급락",
-      "titleEnglish": "[BREAKING] International oil prices plunge over 8% after Democrats' landslide win in US",
-      "url": "https://biz.heraldcorp.com/article/10926224",
-      "publisher": "헤럴드경제",
-      "publisherDomain": "biz.heraldcorp.com",
-      "publishedAt": "2026-11-04T20:30:59Z",
-      "seenAt": "2026-11-04T20:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Korea",
-      "sourceCountryCode": "KR",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 128,
-      "language": "ko"
-    },
-    {
-      "id": "n-f70949db9f13d7",
-      "title": "Wall Street piristyi kongressin välivaaleista",
-      "titleEnglish": "Wall Street rallies after US congressional midterm elections",
-      "url": "https://yle.fi/uutiset/lyhyesti/74-20255168",
-      "publisher": "Yle Uutiset",
-      "publisherDomain": "yle.fi",
-      "publishedAt": "2026-11-04T21:18:05Z",
-      "seenAt": "2026-11-04T21:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Finland",
-      "sourceCountryCode": "FI",
-      "sourceRegion": "Europe",
-      "sourceLat": 64,
-      "sourceLon": 26,
-      "language": "fi"
-    },
-    {
-      "id": "n-3725924df63a2f",
-      "title": "نتائج انتخابات الكونغرس ترفع الأسهم الأمريكية في مستهل التعاملات",
-      "titleEnglish": "Congressional election results lift US stocks at the start of trading",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/4/%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D8%B1%D8%B3-%D8%AA%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D8%A3%D8%B3%D9%87%D9%85",
-      "publisher": "الجزيرة نت",
-      "publisherDomain": "aljazeera.net",
-      "publishedAt": "2026-11-04T15:47:00Z",
-      "seenAt": "2026-11-04T15:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Qatar",
-      "sourceCountryCode": "QA",
-      "sourceRegion": "Middle East",
-      "sourceLat": 25.3,
-      "sourceLon": 51.2,
-      "language": "ar"
-    },
-    {
-      "id": "n-9d44c8a1c0d9f6",
-      "title": "Ennakkotiedot: Euroalueen inflaatio kiihtyi lokakuussa 4,0 prosenttiin",
-      "titleEnglish": "Preliminary: Euro area inflation accelerated to 4.0% in October",
-      "url": "https://yle.fi/a/74-20255043",
-      "publisher": "Yle Uutiset",
-      "publisherDomain": "yle.fi",
-      "publishedAt": "2026-11-04T10:09:47Z",
-      "seenAt": "2026-11-04T10:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Finland",
-      "sourceCountryCode": "FI",
-      "sourceRegion": "Europe",
-      "sourceLat": 64,
-      "sourceLon": 26,
-      "language": "fi"
-    },
-    {
-      "id": "n-0237ed4d5677c4",
-      "title": "Euroalueen inflaatio kiihtyi lokakuussa 4,0 prosenttiin",
-      "titleEnglish": "Euro area inflation accelerated to 4.0% in October",
-      "url": "https://yle.fi/uutiset/lyhyesti/74-20255043",
-      "publisher": "Yle Uutiset",
-      "publisherDomain": "yle.fi",
-      "publishedAt": "2026-11-04T10:09:47Z",
-      "seenAt": "2026-11-04T10:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Finland",
-      "sourceCountryCode": "FI",
-      "sourceRegion": "Europe",
-      "sourceLat": 64,
-      "sourceLon": 26,
-      "language": "fi"
-    },
-    {
-      "id": "n-50f4f8b0e26d58",
-      "title": "Inflation: Teuerung im Euro-Raum erreicht die Vier-Prozent-Marke",
-      "titleEnglish": "Inflation: Price rises in the euro area reach the four-percent mark",
-      "url": "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-teuerung-im-euro-raum-erreicht-die-vier-prozent-marke/100263504.html",
-      "publisher": "handelsblatt.com",
-      "publisherDomain": "handelsblatt.com",
-      "publishedAt": "2026-11-04T10:00:38Z",
-      "seenAt": "2026-11-04T10:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "de"
-    },
-    {
-      "id": "n-250741902cfb8d",
-      "title": "Euro Bölgesi'nde enflasyon yüzde 4 eşiğine ulaştı",
-      "titleEnglish": "Inflation in the Euro Area reaches the 4% threshold",
-      "url": "https://www.dw.com/tr/euro-b%C3%B6lgesinde-enflasyon-y%C3%BCzde-4-e%C5%9Fi%C4%9Fine-ula%C5%9Ft%C4%B1/a-79854863",
-      "publisher": "dw.com",
-      "publisherDomain": "dw.com",
-      "publishedAt": "2026-11-04T15:47:00Z",
-      "seenAt": "2026-11-04T15:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "tr"
-    },
-    {
-      "id": "n-707e06e89553a3",
-      "title": "Brasil amplia distância e segue com o maior juro real do mundo após Copom manter Selic; veja ranking | G1",
-      "titleEnglish": "Brazil widens gap and keeps the world's highest real interest rate after Copom holds Selic; see ranking | G1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/04/ranking-juro-real-novembro.ghtml",
-      "publisher": "G1",
-      "publisherDomain": "g1.globo.com",
-      "publishedAt": "2026-11-04T21:47:00Z",
-      "seenAt": "2026-11-04T21:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Brazil",
-      "sourceCountryCode": "BR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -14,
-      "sourceLon": -52,
-      "language": "pt"
-    },
-    {
-      "id": "n-c228877f6283df",
-      "title": "Selic pressiona e região tem pior setembro na criação de empregos formais desde 2019 - Diário do Grande ABC",
-      "titleEnglish": "Selic pressures and region has worst September for formal job creation since 2019 - Diário do Grande ABC",
-      "url": "https://www.dgabc.com.br/Noticia/4366885/selic-pressiona-e-regiao-tem-pior-setembro-na-criacao-de-empregos-formais-desde-2019",
-      "publisher": "Jornal Diário do Grande ABC",
-      "publisherDomain": "dgabc.com.br",
-      "publishedAt": "2026-11-04T18:40:00Z",
-      "seenAt": "2026-11-04T21:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Brazil",
-      "sourceCountryCode": "BR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -14,
-      "sourceLon": -52,
-      "language": "pt"
-    },
-    {
-      "id": "n-60424e9fc5d9cd",
-      "title": "Tightening not to defend peso, ex-BSP official says",
-      "titleEnglish": "Tightening not to defend peso, ex-BSP official says",
-      "url": "https://www.manilatimes.net/2026/11/05/business/top-business/tightening-not-to-defend-peso-ex-bsp-official-says/2462143",
-      "publisher": "The Manila Times",
-      "publisherDomain": "manilatimes.net",
-      "publishedAt": "2026-11-04T16:18:00Z",
-      "seenAt": "2026-11-04T21:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Philippines",
-      "sourceCountryCode": "PH",
-      "sourceRegion": "Asia",
-      "sourceLat": 12,
-      "sourceLon": 122,
-      "language": "en"
-    },
-    {
-      "id": "n-95b7c939c029c5",
-      "title": "Peso down; PSEi goes up",
-      "titleEnglish": "Peso down; PSEi goes up",
-      "url": "https://www.manilatimes.net/2026/11/05/business/top-business/peso-down-psei-goes-up/2462150",
-      "publisher": "The Manila Times",
-      "publisherDomain": "manilatimes.net",
-      "publishedAt": "2026-11-04T16:20:00Z",
-      "seenAt": "2026-11-04T21:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Philippines",
-      "sourceCountryCode": "PH",
-      "sourceRegion": "Asia",
-      "sourceLat": 12,
-      "sourceLon": 122,
-      "language": "en"
-    },
-    {
-      "id": "n-37a52723ee2714",
-      "title": "לידיעת הנהגים: מחיר הדלק יעלה הלילה ב-50 אגורות",
-      "titleEnglish": "For drivers' attention: fuel price will rise tonight by 50 agorot",
-      "url": "https://www.globes.co.il/news/article.aspx?did=1001561995",
-      "publisher": "גלובס",
-      "publisherDomain": "globes.co.il",
-      "publishedAt": "2026-11-04T10:09:00Z",
-      "seenAt": "2026-11-04T10:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Israel",
-      "sourceCountryCode": "IL",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31.5,
-      "sourceLon": 35,
-      "language": "he"
-    },
-    {
-      "id": "n-7059d12b159d71",
-      "title": "PAN no avalará nueva titular del INE ligada a Morena",
-      "titleEnglish": "PAN will not endorse new INE head linked to Morena",
-      "url": "https://www.excelsior.com.mx/nacional/pan-rechaza-presidencia-ine-ligada-morena",
-      "publisher": "Excélsior",
-      "publisherDomain": "excelsior.com.mx",
-      "publishedAt": "2026-11-04T21:28:07Z",
-      "seenAt": "2026-11-04T21:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Mexico",
-      "sourceCountryCode": "MX",
-      "sourceRegion": "Latin America",
-      "sourceLat": 23,
-      "sourceLon": -102,
-      "language": "es"
-    },
-    {
-      "id": "n-1c2dbd427f10f8",
-      "title": "INE: Pierde el régimen una batalla; no la guerra",
-      "titleEnglish": "INE: The regime loses a battle; not the war",
-      "url": "https://vanguardia.com.mx/opinion/ine-pierde-el-regimen-una-batalla-no-la-guerra-NE24572843",
-      "publisher": "Vanguardia",
-      "publisherDomain": "vanguardia.com.mx",
-      "publishedAt": "2026-11-04T11:00:00Z",
-      "seenAt": "2026-11-04T13:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Mexico",
-      "sourceCountryCode": "MX",
-      "sourceRegion": "Latin America",
-      "sourceLat": 23,
-      "sourceLon": -102,
-      "language": "es"
-    },
-    {
-      "id": "n-897b1962191caf",
-      "title": "2027: Delta lawmakers fault INEC over Warri ward changes",
-      "titleEnglish": "2027: Delta lawmakers fault INEC over Warri ward changes",
-      "url": "https://punchng.com/2027-delta-lawmakers-fault-inec-over-warri-ward-changes/",
-      "publisher": "Punch Newspapers",
-      "publisherDomain": "punchng.com",
-      "publishedAt": "2026-11-04T21:22:45Z",
-      "seenAt": "2026-11-04T21:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Nigeria",
-      "sourceCountryCode": "NG",
-      "sourceRegion": "Africa",
-      "sourceLat": 9,
-      "sourceLon": 8,
-      "language": "en"
-    },
-    {
-      "id": "n-0a73999e3d4d58",
-      "title": "IEC implements security override after ballot theft in SA province - Channel Africa",
-      "titleEnglish": "IEC implements security override after ballot theft in SA province - Channel Africa",
-      "url": "https://www.channelafrica.co.za/channelafrica/news/iec-implements-security-override-after-ballot-theft-in-sa-province/",
-      "publisher": "Channel Africa",
-      "publisherDomain": "channelafrica.co.za",
-      "publishedAt": "2026-11-04T15:47:00Z",
-      "seenAt": "2026-11-04T15:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Africa",
-      "sourceCountryCode": "ZA",
-      "sourceRegion": "Africa",
-      "sourceLat": -30,
-      "sourceLon": 25,
-      "language": "en"
-    },
-    {
-      "id": "n-be06cf5279bfc3",
-      "title": "WATCH | What’s at stake in South Africa’s municipal elections?",
-      "titleEnglish": "WATCH | What’s at stake in South Africa’s municipal elections?",
-      "url": "https://www.businessday.co.za/bdtv/2026-11-04-watch-whats-at-stake-in-south-africas-municipal-elections/",
-      "publisher": "Business Day",
-      "publisherDomain": "businessday.co.za",
-      "publishedAt": "2026-11-04T21:47:00Z",
-      "seenAt": "2026-11-04T21:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Africa",
-      "sourceCountryCode": "ZA",
-      "sourceRegion": "Africa",
-      "sourceLat": -30,
-      "sourceLon": 25,
-      "language": "en"
-    },
-    {
-      "id": "n-7ce9abacfe203b",
-      "title": "ECP rejects Justice (retd) Mansoor Ali Shah’s interpretation of electoral cases",
-      "titleEnglish": "ECP rejects Justice (retd) Mansoor Ali Shah’s interpretation of electoral cases",
-      "url": "https://www.samaa.tv/2087359649-ecp-rejects-justice-retd-mansoor-ali-shah-s-interpretation-of-electoral-cases",
-      "publisher": "SAMAA TV",
-      "publisherDomain": "samaa.tv",
-      "publishedAt": "2026-11-04T08:33:56Z",
-      "seenAt": "2026-11-04T09:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Pakistan",
-      "sourceCountryCode": "PK",
-      "sourceRegion": "Asia",
-      "sourceLat": 30,
-      "sourceLon": 69,
-      "language": "en"
-    },
-    {
-      "id": "n-72a08cd7f61fb7",
-      "title": "Isaac Herzog receives Knesset election results, Sohlberg warns of danger to democracy | The Jerusalem Post",
-      "titleEnglish": "Isaac Herzog receives Knesset election results, Sohlberg warns of danger to democracy | The Jerusalem Post",
-      "url": "https://www.jpost.com/israel-election-2026/article-913806",
-      "publisher": "The Jerusalem Post | JPost.com",
-      "publisherDomain": "jpost.com",
-      "publishedAt": "2026-11-04T12:47:00Z",
-      "seenAt": "2026-11-04T12:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Israel",
-      "sourceCountryCode": "IL",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31.5,
-      "sourceLon": 35,
-      "language": "en"
-    },
-    {
-      "id": "n-1e7dd50c348867",
-      "title": "Trump-backed Republican redistricting sought a midterm edge. It didn't work",
-      "titleEnglish": "Trump-backed Republican redistricting sought a midterm edge. It didn't work",
-      "url": "https://www.wsls.com/news/politics/2026/11/04/trump-backed-republican-redistricting-sought-a-midterm-edge-it-didnt-work/",
-      "publisher": "WSLS",
-      "publisherDomain": "wsls.com",
-      "publishedAt": "2026-11-04T13:16:49Z",
-      "seenAt": "2026-11-04T15:47:00Z",
+      "id": "n-87e7d41b07576e",
+      "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+      "titleEnglish": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+      "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-05T20:16:52Z",
+      "seenAt": "2026-11-05T21:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "United States",
       "sourceCountryCode": "US",
@@ -431,48 +40,14 @@
       "language": "en"
     },
     {
-      "id": "n-12b476ee4cc3a2",
-      "title": "GOP’s redistricting gamble backfires in Florida as Democrats hold ground",
-      "titleEnglish": "GOP’s redistricting gamble backfires in Florida as Democrats hold ground",
-      "url": "https://www.aljazeera.com/news/2026/11/4/gops-redistricting-gamble-backfires-in-florida-as-democrats-hold-ground",
-      "publisher": "Al Jazeera",
-      "publisherDomain": "aljazeera.com",
-      "publishedAt": "2026-11-04T10:17:00Z",
-      "seenAt": "2026-11-04T10:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Qatar",
-      "sourceCountryCode": "QA",
-      "sourceRegion": "Middle East",
-      "sourceLat": 25.3,
-      "sourceLon": 51.2,
-      "language": "en"
-    },
-    {
-      "id": "n-691604bbb67340",
-      "title": "نتائج أولية لانتخابات مجلس النواب الأميركي: 237 مقعدا للديمقراطيين مقابل 139 للجمهوريين",
-      "titleEnglish": "Preliminary results of the US House of Representatives elections: 237 seats for Democrats versus 139 for Republicans",
-      "url": "https://www.khaberni.com/news/863949-%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A7%D9%88%D9%84%D9%8A%D8%A9-%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D9%86%D9%88%D8%A7%D8%A8-%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D8%B1%D9%83%D9%8A-237-%D9%85%D9%82%D8%B9%D8%AF%D8%A7-%D9%84%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A%D9%8A%D9%86-%D9%85%D9%82%D8%A7%D8%A8%D9%84-139-%D9%84%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D9%8A%D9%86",
-      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
-      "publisherDomain": "khaberni.com",
-      "publishedAt": "2026-11-04T21:47:00Z",
-      "seenAt": "2026-11-04T21:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Jordan",
-      "sourceCountryCode": "JO",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31,
-      "sourceLon": 36,
-      "language": "ar"
-    },
-    {
-      "id": "n-58e3e07625eb5b",
-      "title": "Amendment requiring photo ID for in-person voting in Ohio passes easily",
-      "titleEnglish": "Amendment requiring photo ID for in-person voting in Ohio passes easily",
-      "url": "https://www.ideastream.org/2026-11-04/amendment-requiring-photo-id-for-in-person-voting-in-ohio-passes-easily",
-      "publisher": "Ideastream Public Media",
-      "publisherDomain": "ideastream.org",
-      "publishedAt": "2026-11-04T08:42:12Z",
-      "seenAt": "2026-11-04T12:47:00Z",
+      "id": "n-cc801b10b76666",
+      "title": "Voters rejected AI data centers over resource concerns. Here's why measuring water usage is hard",
+      "titleEnglish": "Voters rejected AI data centers over resource concerns. Here's why measuring water usage is hard",
+      "url": "https://www.cnbc.com/2026/11/05/meta-spacex-ai-data-centers-use-millions-of-gallons-of-water-a-day.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-05T13:00:01Z",
+      "seenAt": "2026-11-05T13:17:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "United States",
       "sourceCountryCode": "US",
@@ -482,14 +57,14 @@
       "language": "en"
     },
     {
-      "id": "n-4100e78689298a",
-      "title": "Iranian officials gloat as US voters deal blow to Trump",
-      "titleEnglish": "Iranian officials gloat as US voters deal blow to Trump",
-      "url": "https://bdnews24.com/world/lli64u4lro",
+      "id": "n-b5bd4b607aa2e0",
+      "title": "Nasdaq 100 eyes $1.8tn loss as Democratic win sparks AI delay fears",
+      "titleEnglish": "Nasdaq 100 eyes $1.8tn loss as Democratic win sparks AI delay fears",
+      "url": "https://bdnews24.com/business/qa5xslx74d",
       "publisher": "bdnews24.com",
       "publisherDomain": "bdnews24.com",
-      "publishedAt": "2026-11-04T14:43:16Z",
-      "seenAt": "2026-11-04T15:47:00Z",
+      "publishedAt": "2026-11-05T17:40:54Z",
+      "seenAt": "2026-11-05T18:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Bangladesh",
       "sourceCountryCode": "BD",
@@ -499,14 +74,31 @@
       "language": "en"
     },
     {
-      "id": "n-6d4058b7c16c58",
-      "title": "Iran's leaders say midterm results show US voters have rejected Trump's war",
-      "titleEnglish": "Iran's leaders say midterm results show US voters have rejected Trump's war",
-      "url": "https://www.wsls.com/news/2026/11/04/iranian-officials-say-midterm-results-show-us-voters-have-rejected-trumps-war/",
-      "publisher": "WSLS",
-      "publisherDomain": "wsls.com",
-      "publishedAt": "2026-11-04T12:00:43Z",
-      "seenAt": "2026-11-04T15:47:00Z",
+      "id": "n-774af0d96fca9a",
+      "title": "\"رويترز\": الأسهم الأميركية تواصل خسائرها وستاندرد آند بورز 500 ينخفض 4.1% وناسداك يهوي 5.4% وداو جونز يهبط 3.2% - جريدة الأنباء الإلكترونية",
+      "titleEnglish": "\"Reuters\": US stocks continue losses, S&P 500 down 4.1%, Nasdaq plunges 5.4% and Dow Jones falls 3.2% - Al-Anbaa online",
+      "url": "https://anbaaonline.com/news/347663",
+      "publisher": "جريدة الأنباء الإلكترونية",
+      "publisherDomain": "anbaaonline.com",
+      "publishedAt": "2026-11-05T18:15:48Z",
+      "seenAt": "2026-11-05T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Lebanon",
+      "sourceCountryCode": "LB",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33.9,
+      "sourceLon": 35.9,
+      "language": "ar"
+    },
+    {
+      "id": "n-a2eccaa14f6910",
+      "title": "Retail traders dump the most stocks in a single day since Covid sell-off",
+      "titleEnglish": "Retail traders dump the most stocks in a single day since Covid sell-off",
+      "url": "https://www.cnbc.com/2026/11/05/retail-traders-dump-the-most-stocks-in-single-day-since-covid-sell-off.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-05T21:20:03Z",
+      "seenAt": "2026-11-05T21:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "United States",
       "sourceCountryCode": "US",
@@ -516,14 +108,14 @@
       "language": "en"
     },
     {
-      "id": "n-e7ce04bf471bb7",
-      "title": "Hamaney, ABD'deki seçim sonuçlarının Washington'ın İran politikasında değişiklik oluşturmayacağını söyledi | Dış Haberler",
-      "titleEnglish": "Khamenei says results of US elections will not change Washington's Iran policy | Foreign News",
-      "url": "https://www.haberturk.com/dunya/hamaney-abd-deki-secim-sonuclarinin-washington-in-iran-politikasinda-degisiklik-olusturmayacagini-soyledi-3924898",
+      "id": "n-46d248fc7d48e8",
+      "title": "ABD borsalarında yapay zeka depremi",
+      "titleEnglish": "AI earthquake on US stock exchanges",
+      "url": "https://www.haberturk.com/ekonomi/abd-borsalarinda-yapay-zeka-depremi-3925268",
       "publisher": "Habertürk",
       "publisherDomain": "haberturk.com",
-      "publishedAt": "2026-11-04T12:47:00Z",
-      "seenAt": "2026-11-04T12:47:00Z",
+      "publishedAt": "2026-11-05T21:47:00Z",
+      "seenAt": "2026-11-05T21:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Turkey",
       "sourceCountryCode": "TR",
@@ -533,31 +125,14 @@
       "language": "tr"
     },
     {
-      "id": "n-07de2fa9742d97",
-      "title": "خامنئي يعلق على خسارة ترمب وإيران تعلن إسقاط طائرة مسيّرة أمريكية بمضيق هرمز",
-      "titleEnglish": "Khamenei comments on Trump's defeat as Iran announces downing of US drone in Strait of Hormuz",
-      "url": "https://www.aljazeera.net/news/2026/11/4/%D9%85%D8%A7%D8%B0%D8%A7-%D8%AD%D9%85%D9%84%D8%AA-%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D8%AE%D8%A7%D9%85%D9%86%D8%A6%D9%8A-%D8%A5%D9%84%D9%89-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%B9%D9%82%D8%A8",
-      "publisher": "الجزيرة نت",
-      "publisherDomain": "aljazeera.net",
-      "publishedAt": "2026-11-04T15:47:00Z",
-      "seenAt": "2026-11-04T15:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Qatar",
-      "sourceCountryCode": "QA",
-      "sourceRegion": "Middle East",
-      "sourceLat": 25.3,
-      "sourceLon": 51.2,
-      "language": "ar"
-    },
-    {
-      "id": "n-4242d088f991c2",
-      "title": "مساعد وزير الخارجية الأسبق: «الموجة الزرقاء» تقلب موازين الانتخابات الأمريكية.. ونتنياهو أبرز الخاسرين - الوطن",
-      "titleEnglish": "Former deputy foreign minister: the \"blue wave\" overturns the balance of the American elections... and Netanyahu is among the biggest losers - Al-Watan",
-      "url": "https://www.elwatannews.com/news/details/8390423",
-      "publisher": "الوطن",
-      "publisherDomain": "elwatannews.com",
-      "publishedAt": "2026-11-04T21:45:45Z",
-      "seenAt": "2026-11-04T20:47:00Z",
+      "id": "n-82acca7fd58216",
+      "title": "العالم هذا المساء.. إيلون ماسك يخسر 60 مليار دولار عقب هزيمة الجمهوريين.. حادث طعن فى الأردن.. 1.6 مليون متظاهر فى شوارع فرنسا.. والقائمة العربية المشتركة تبلغ الرئيس الإسرائيلى بدعم آيزنكوت لتشكيل الحكومة - اليوم السابع",
+      "titleEnglish": "The world this evening: Elon Musk loses $60 billion after Republican defeat; stabbing incident in Jordan; 1.6 million protesters in the streets of France; and the Joint Arab List informs the Israeli president of Eisenkot's support for forming the government - Youm7",
+      "url": "https://www.youm7.com/story/2026/11/5/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%A1-%D8%A5%D9%8A%D9%84%D9%88%D9%86-%D9%85%D8%A7%D8%B3%D9%83-%D9%8A%D8%AE%D8%B3%D8%B1-60-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%B9%D9%82%D8%A8/7607460",
+      "publisher": "اليوم السابع",
+      "publisherDomain": "youm7.com",
+      "publishedAt": "2026-11-05T22:06:43Z",
+      "seenAt": "2026-11-05T20:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Egypt",
       "sourceCountryCode": "EG",
@@ -567,133 +142,82 @@
       "language": "ar"
     },
     {
-      "id": "n-7fad524674d1d7",
-      "title": "هل ينجح الديمقراطيون في وقف حرب إيران؟ | مصراوي",
-      "titleEnglish": "Will the Democrats succeed in stopping the war in Iran? | Masrawy",
-      "url": "https://www.masrawy.com/news/news_publicaffairs/details/2026/11/4/3073826/%D9%87%D9%84-%D9%8A%D9%86%D8%AC%D8%AD-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A%D9%88%D9%86-%D9%81%D9%8A-%D9%88%D9%82%D9%81-%D8%AD%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-",
-      "publisher": "مصراوي.كوم",
-      "publisherDomain": "masrawy.com",
-      "publishedAt": "2026-11-04T20:47:00Z",
-      "seenAt": "2026-11-04T20:47:00Z",
+      "id": "n-f99aa97dbfc2c3",
+      "title": "Bolsas de NY fecham em queda forte com tecnos na mira de venda após eleições - Diário do Grande ABC",
+      "titleEnglish": "NY stocks close sharply lower with tech stocks in the sell-off crosshairs after elections - Diário do Grande ABC",
+      "url": "https://www.dgabc.com.br/Noticia/4367134/bolsas-de-ny-fecham-em-queda-forte-com-tecnos-na-mira-de-venda-apos-eleicoes",
+      "publisher": "Jornal Diário do Grande ABC",
+      "publisherDomain": "dgabc.com.br",
+      "publishedAt": "2026-11-05T18:26:00Z",
+      "seenAt": "2026-11-05T21:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Egypt",
-      "sourceCountryCode": "EG",
-      "sourceRegion": "Africa",
-      "sourceLat": 27,
-      "sourceLon": 30,
-      "language": "ar"
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
     },
     {
-      "id": "n-e2904840c701e3",
-      "title": "Sanchez, ABD'deki seçim sonuçlarının İspanya'daki seçimlerde sosyalistlere yarayacağını savundu",
-      "titleEnglish": "Sanchez argued that the US election results will benefit the socialists in Spain's elections",
-      "url": "https://www.aa.com.tr/tr/dunya/sanchez-abddeki-secim-sonuclarinin-ispanyadaki-secimlerde-sosyalistlere-yarayacagini-savundu/4111557",
-      "publisher": "Anadolu Ajansı",
-      "publisherDomain": "aa.com.tr",
-      "publishedAt": "2026-11-04T16:09:38Z",
-      "seenAt": "2026-11-04T13:17:00Z",
+      "id": "n-e27ecfc3e6acac",
+      "title": "外資狂砍台股1024億！台玻昨加碼今殺最兇 進出前10一次看 | ETtoday財經雲 | ETtoday新聞雲",
+      "titleEnglish": "Foreign Investors Heavily Sell Taiwan Stocks by NT$102.4 Billion! Taiwan Glass Bought Yesterday, Sold Most Today; Top 10 Buying and Selling at a Glance | ETtoday Finance Cloud | ETtoday News Cloud",
+      "url": "https://finance.ettoday.net/news/3267116",
+      "publisher": "ETtoday財經雲",
+      "publisherDomain": "finance.ettoday.net",
+      "publishedAt": "2026-11-05T09:47:00Z",
+      "seenAt": "2026-11-05T09:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Turkey",
-      "sourceCountryCode": "TR",
-      "sourceRegion": "Middle East",
-      "sourceLat": 39,
-      "sourceLon": 35,
-      "language": "tr"
-    },
-    {
-      "id": "n-33f3d7f481bbd3",
-      "title": "Thai firms cheer rejection of Trump",
-      "titleEnglish": "Thai firms cheer rejection of Trump",
-      "url": "https://www.bangkokpost.com/business/general/3348781/thai-firms-cheer-rejection-of-trump",
-      "publisher": "https://www.bangkokpost.com",
-      "publisherDomain": "bangkokpost.com",
-      "publishedAt": "2026-11-04T21:47:00Z",
-      "seenAt": "2026-11-04T21:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Thailand",
-      "sourceCountryCode": "TH",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
       "sourceRegion": "Asia",
-      "sourceLat": 15,
-      "sourceLon": 101,
-      "language": "en"
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
     },
     {
-      "id": "n-a58f10cd9d6730",
-      "title": "The midterms are over. Will Trump still want to make a deal with Canada?",
-      "titleEnglish": "The midterms are over. Will Trump still want to make a deal with Canada?",
-      "url": "https://nationalpost.com/news/donald-trump-canada-trade/",
-      "publisher": "National Post",
-      "publisherDomain": "nationalpost.com",
-      "publishedAt": "2026-11-04T09:00:00Z",
-      "seenAt": "2026-11-04T09:47:00Z",
+      "id": "n-0f5efc3c8f4bad",
+      "title": "米中間選挙が日本の株式市場を直撃！ AI相場は崩壊か…専門家が読む今後と「6万円割れ」のシナリオ｜日刊ゲンダイDIGITAL",
+      "titleEnglish": "US midterm elections hit Japan's stock market directly! Will the AI rally collapse... experts read the outlook and the \"below 60,000 yen\" scenario | Nikkan Gendai DIGITAL",
+      "url": "https://www.nikkan-gendai.com/articles/view/money/395202",
+      "publisher": "日刊ゲンダイDIGITAL",
+      "publisherDomain": "nikkan-gendai.com",
+      "publishedAt": "2026-11-05T03:47:00Z",
+      "seenAt": "2026-11-05T03:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Canada",
-      "sourceCountryCode": "CA",
-      "sourceRegion": "North America",
-      "sourceLat": 56,
-      "sourceLon": -106,
-      "language": "en"
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
     },
     {
-      "id": "n-74100531e117f5",
-      "title": "Klęska wyborcza nie zmieni polityki zagranicznej Trumpa [ANALIZA]",
-      "titleEnglish": "Electoral defeat will not change Trump's foreign policy [ANALYSIS]",
-      "url": "https://wiadomosci.onet.pl/swiat/kleska-wyborcza-nie-zmieni-polityki-zagranicznej-trumpa-analiza/keg6hxt",
-      "publisher": "wiadomosci.onet.pl",
-      "publisherDomain": "wiadomosci.onet.pl",
-      "publishedAt": "2026-11-04T13:17:00Z",
-      "seenAt": "2026-11-04T13:17:00Z",
+      "id": "n-3c6ed5343aaf27",
+      "title": "주식 담보로 1700억 빚냈는데… 증시 급락에 잠못드는 대주주 [불안한 증시]",
+      "titleEnglish": "Borrowed 170 Billion Won Against Shares… Major Shareholders Sleepless as Stocks Plunge [Unstable Stock Market]",
+      "url": "https://www.fnnews.com/news/202611051837568345",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-05T09:37:56Z",
+      "seenAt": "2026-11-05T10:17:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Poland",
-      "sourceCountryCode": "PL",
-      "sourceRegion": "Europe",
-      "sourceLat": 52,
-      "sourceLon": 20,
-      "language": "pl"
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
     },
     {
-      "id": "n-c389076ee184f2",
-      "title": "Jest reakcja z kancelarii Nawrockiego na wyniki wyborów w USA",
-      "titleEnglish": "There is a reaction from Nawrocki's chancellery to the US election results",
-      "url": "https://wiadomosci.onet.pl/swiat/marcin-przydacz-o-wyniku-wyborow-w-usa-ostrzega-przed-skutkami-dla-polski/s35czhe",
-      "publisher": "wiadomosci.onet.pl",
-      "publisherDomain": "wiadomosci.onet.pl",
-      "publishedAt": "2026-11-04T10:17:00Z",
-      "seenAt": "2026-11-04T10:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Poland",
-      "sourceCountryCode": "PL",
-      "sourceRegion": "Europe",
-      "sourceLat": 52,
-      "sourceLon": 20,
-      "language": "pl"
-    },
-    {
-      "id": "n-2f2a23151c0113",
-      "title": "World leaders who sparred with Trump express relief mixed with caution at Republican election rout",
-      "titleEnglish": "World leaders who sparred with Trump express relief mixed with caution at Republican election rout",
-      "url": "https://www.wsls.com/news/world/2026/11/04/world-leaders-who-sparred-with-trump-express-relief-mixed-with-caution-at-republican-election-rout/",
-      "publisher": "WSLS",
-      "publisherDomain": "wsls.com",
-      "publishedAt": "2026-11-04T15:03:40Z",
-      "seenAt": "2026-11-04T15:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "United States",
-      "sourceCountryCode": "US",
-      "sourceRegion": "North America",
-      "sourceLat": 39,
-      "sourceLon": -98,
-      "language": "en"
-    },
-    {
-      "id": "n-8b753365713e98",
-      "title": "埃森哲被指发布充斥AI幻觉论文，曾裁员不会用AI员工",
-      "titleEnglish": "Accenture accused of publishing papers full of AI hallucinations; had laid off staff who would not use AI",
-      "url": "https://k.sina.com.cn/article_5952915720_162d249080670545bs.html",
-      "publisher": "新浪网",
-      "publisherDomain": "k.sina.com.cn",
-      "publishedAt": "2026-11-04T21:05:07Z",
-      "seenAt": "2026-11-04T13:17:00Z",
+      "id": "n-3bfa962a69f2e5",
+      "title": "富时中国A50指数期货夜盘收跌1.85%。",
+      "titleEnglish": "FTSE China A50 index futures closed down 1.85% in the night session.",
+      "url": "https://www.nbd.com.cn/articles/2026-11-06/4640152.html",
+      "publisher": "nbd.com.cn",
+      "publisherDomain": "nbd.com.cn",
+      "publishedAt": "2026-11-05T21:47:00Z",
+      "seenAt": "2026-11-05T21:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "China",
       "sourceCountryCode": "CN",
@@ -703,48 +227,354 @@
       "language": "zh"
     },
     {
-      "id": "n-f21efff3495819",
-      "title": "Empresas portuguesas aceleram no acesso à IA mas formação não acompanha ritmo, diz Cegid | Jornal Económico",
-      "titleEnglish": "Portuguese companies speed up access to AI but training does not keep pace, says Cegid | Jornal Económico",
-      "url": "https://jornaleconomico.sapo.pt/noticias/empresas-portuguesas-aceleram-no-acesso-a-ia-mas-formacao-nao-acompanha-ritmo-diz-cegid/",
-      "publisher": "Jornal Económico",
-      "publisherDomain": "jornaleconomico.sapo.pt",
-      "publishedAt": "2026-11-04T21:32:54Z",
-      "seenAt": "2026-11-04T21:47:00Z",
+      "id": "n-37d51dd9815761",
+      "title": "Thu: Defense, tech stocks tumble",
+      "titleEnglish": "Thu: Defense, tech stocks tumble",
+      "url": "https://en.globes.co.il/en/article-thu-defense-tech-stocks-tumble-1001562332",
+      "publisher": "en.globes.co.il",
+      "publisherDomain": "en.globes.co.il",
+      "publishedAt": "2026-11-05T16:53:00Z",
+      "seenAt": "2026-11-05T20:47:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Portugal",
-      "sourceCountryCode": "PT",
-      "sourceRegion": "Europe",
-      "sourceLat": 39.5,
-      "sourceLon": -8,
-      "language": "pt"
-    },
-    {
-      "id": "n-782967bcf3564b",
-      "title": "Google turns off AI tools by default for school pupils",
-      "titleEnglish": "Google turns off AI tools by default for school pupils",
-      "url": "https://punchng.com/google-turns-off-ai-tools-by-default-for-school-pupils/",
-      "publisher": "Punch Newspapers",
-      "publisherDomain": "punchng.com",
-      "publishedAt": "2026-11-04T20:34:32Z",
-      "seenAt": "2026-11-04T21:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Nigeria",
-      "sourceCountryCode": "NG",
-      "sourceRegion": "Africa",
-      "sourceLat": 9,
-      "sourceLon": 8,
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
       "language": "en"
     },
     {
-      "id": "n-9f7bfa61035137",
-      "title": "L'Ia sotto processo, 'non imputabile ma socialmente pericolosa' - Notizie - Ansa.it",
-      "titleEnglish": "AI on trial, 'not chargeable but socially dangerous' - News - Ansa.it",
-      "url": "https://www.ansa.it/puglia/notizie/2026/11/04/lia-sotto-processo-non-imputabile-ma-socialmente-pericolosa_8691fe28-7ea9-4787-a5df-d1fb2ccfe352.html",
-      "publisher": "Agenzia ANSA",
-      "publisherDomain": "ansa.it",
-      "publishedAt": "2026-11-04T18:21:00Z",
-      "seenAt": "2026-11-04T21:47:00Z",
+      "id": "n-32a34cfe80b603",
+      "title": "Dólar vai a R$ 5,48 diante de piora de aversão ao risco com tombo de techs - Diário do Grande ABC",
+      "titleEnglish": "Dollar rises to R$ 5.48 amid worsening risk aversion with tech sell-off - Diário do Grande ABC",
+      "url": "https://www.dgabc.com.br/Noticia/4367135/dolar-vai-a-rs-5-48-diante-de-piora-de-aversao-ao-risco-com-tombo-de-techs",
+      "publisher": "Jornal Diário do Grande ABC",
+      "publisherDomain": "dgabc.com.br",
+      "publishedAt": "2026-11-05T18:30:00Z",
+      "seenAt": "2026-11-05T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-38309298b5c827",
+      "title": "Uday Kotak sees Indian equities gaining appeal as AI spending concerns ease",
+      "titleEnglish": "Uday Kotak sees Indian equities gaining appeal as AI spending concerns ease",
+      "url": "https://www.thehindubusinessline.com/markets/indian-equities-look-more-attractive-as-ai-spending-concerns-ease-says-uday-kotak/article71669318.ece",
+      "publisher": "BusinessLine",
+      "publisherDomain": "thehindubusinessline.com",
+      "publishedAt": "2026-11-05T09:21:29Z",
+      "seenAt": "2026-11-05T10:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-b04c70be438dae",
+      "title": "Google unveils $17B investment for 1st data center in US state of Wyoming",
+      "titleEnglish": "Google unveils $17B investment for 1st data center in US state of Wyoming",
+      "url": "https://aa.com.tr/en/americas/google-unveils-17b-investment-for-1st-data-center-in-us-state-of-wyoming/4113445",
+      "publisher": "Anadolu",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-11-05T23:06:40Z",
+      "seenAt": "2026-11-05T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-0418ffd223f125",
+      "title": "腾讯：Hy4调用激增，WorkBuddy已十倍扩容",
+      "titleEnglish": "Tencent: Hy4 calls surge, WorkBuddy expanded tenfold",
+      "url": "https://www.yicai.com/news/103427854.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-11-05T10:17:00Z",
+      "seenAt": "2026-11-05T10:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-7387d204554e57",
+      "title": "Bank hikes interest rates to 4 and warns more to come if Iran war continues",
+      "titleEnglish": "Bank hikes interest rates to 4 and warns more to come if Iran war continues",
+      "url": "https://www.bournemouthecho.co.uk/news/national/26701978.bank-hikes-interest-rates-4-warns-come-iran-war-continues/",
+      "publisher": "Bournemouth Echo",
+      "publisherDomain": "bournemouthecho.co.uk",
+      "publishedAt": "2026-11-05T13:17:00Z",
+      "seenAt": "2026-11-05T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-3457e66d2174da",
+      "title": "Bank of England raises rates for first time since 2023",
+      "titleEnglish": "Bank of England raises rates for first time since 2023",
+      "url": "https://www.businessday.co.za/world/europe/2026-11-05-bank-of-england-raises-rates-for-first-time-since-2023/",
+      "publisher": "Business Day",
+      "publisherDomain": "businessday.co.za",
+      "publishedAt": "2026-11-05T13:17:00Z",
+      "seenAt": "2026-11-05T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Africa",
+      "sourceCountryCode": "ZA",
+      "sourceRegion": "Africa",
+      "sourceLat": -30,
+      "sourceLon": 25,
+      "language": "en"
+    },
+    {
+      "id": "n-3f58b744c47be9",
+      "title": "Banco de Inglaterra sube su tasa de interés por primera vez en más de tres años - La Tercera",
+      "titleEnglish": "Bank of England raises its interest rate for the first time in more than three years - La Tercera",
+      "url": "https://www.latercera.com/pulso/noticia/banco-de-inglaterra-sube-su-tasa-de-interes-por-primera-vez-en-mas-de-tres-anos/",
+      "publisher": "La Tercera",
+      "publisherDomain": "latercera.com",
+      "publishedAt": "2026-11-05T12:39:22Z",
+      "seenAt": "2026-11-05T12:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-8637e64ba4fc02",
+      "title": "영란은행, 기준금리 0.25%p 인상해 연 4.0%로… 베일리 총재 \"이번 인상이 마지막 아닐 것\"",
+      "titleEnglish": "Bank of Korea raises benchmark rate by 0.25 percentage points to 4.0%… Governor Bailey: \"This increase will not be the last\"",
+      "url": "https://www.newspim.com/news/view/20261105001527",
+      "publisher": "뉴스핌",
+      "publisherDomain": "newspim.com",
+      "publishedAt": "2026-11-05T12:57:00Z",
+      "seenAt": "2026-11-05T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-e984482a3f6e2f",
+      "title": "Banxico baja tasa de interés; queda en 6.25%",
+      "titleEnglish": "Banxico cuts interest rate; it stands at 6.25%",
+      "url": "https://www.razon.com.mx/negocios/2026/11/05/banxico-baja-tasa-de-interes-queda-en-625/",
+      "publisher": "La Razón de México",
+      "publisherDomain": "razon.com.mx",
+      "publishedAt": "2026-11-05T19:40:05Z",
+      "seenAt": "2026-11-05T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Mexico",
+      "sourceCountryCode": "MX",
+      "sourceRegion": "Latin America",
+      "sourceLat": 23,
+      "sourceLon": -102,
+      "language": "es"
+    },
+    {
+      "id": "n-1bf9faa427ba6f",
+      "title": "Taxas de juros caem, mas curva inclina após comunicação menos conservadora do Copom - Diário do Grande ABC",
+      "titleEnglish": "Interest rates fall, but the yield curve tilts after less conservative Copom statement - Diário do Grande ABC",
+      "url": "https://www.dgabc.com.br/Noticia/4367136/taxas-de-juros-caem-mas-curva-inclina-apos-comunicacao-menos-conservadora-do-copom",
+      "publisher": "Jornal Diário do Grande ABC",
+      "publisherDomain": "dgabc.com.br",
+      "publishedAt": "2026-11-05T18:35:00Z",
+      "seenAt": "2026-11-05T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-c1eb87a3678076",
+      "title": "В октябре нефтегазовые доходы федерального бюджета установили рекорд",
+      "titleEnglish": "In October, federal budget oil and gas revenues set a record",
+      "url": "https://www.kommersant.ru/doc/9081226",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-05T17:15:03Z",
+      "seenAt": "2026-11-05T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-6c7ce6da69aa51",
+      "title": "Центробанк зафиксировал перегрев экономики в III квартале 2026 года",
+      "titleEnglish": "Central bank records overheating of the economy in Q3 2026",
+      "url": "https://iz.ru/2196949/tcb-soobshchil-o-vozvrashchenii-rossiiskoi-ekonomiki-k-polozhitelnomu-razryvu-vypuska",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-11-05T18:28:38Z",
+      "seenAt": "2026-11-05T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-a906a295e3356b",
+      "title": "Импорт нефтепродуктов в Россию в октябре вырос на 25%",
+      "titleEnglish": "Imports of petroleum products into Russia rose 25% in October",
+      "url": "https://www.kommersant.ru/doc/9081215",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-05T16:57:28Z",
+      "seenAt": "2026-11-05T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-23b009b0895e32",
+      "title": "Bangladesh’s trade deficit widens 31% as fuel import bill doubles",
+      "titleEnglish": "Bangladesh’s trade deficit widens 31% as fuel import bill doubles",
+      "url": "https://www.thedailystar.net/business/news/bangladeshs-trade-deficit-widens-31-fuel-import-bill-doubles-4316541",
+      "publisher": "The Daily Star",
+      "publisherDomain": "thedailystar.net",
+      "publishedAt": "2026-11-05T15:47:00Z",
+      "seenAt": "2026-11-05T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-8103c3a3cf650a",
+      "title": "Forex reserves fall below $30bn after paying $1.64bn in ACU bills",
+      "titleEnglish": "Forex reserves fall below $30bn after paying $1.64bn in ACU bills",
+      "url": "https://bdnews24.com/economy/7nx8a8fxp0",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-11-05T18:13:56Z",
+      "seenAt": "2026-11-05T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-4dbc34e95dc836",
+      "title": "Reserves drop to $34.85 billion after ACU payment",
+      "titleEnglish": "Reserves drop to $34.85 billion after ACU payment",
+      "url": "https://www.thedailystar.net/business/news/reserves-drop-3485-billion-after-acu-payment-4316506",
+      "publisher": "The Daily Star",
+      "publisherDomain": "thedailystar.net",
+      "publishedAt": "2026-11-05T15:47:00Z",
+      "seenAt": "2026-11-05T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-4a2d5640158be8",
+      "title": "‘গ্যাসের দাম কমিয়ে দে, নইলে গদি ছাইড়া দে’ স্লোগানে চট্টগ্রামে এনসিপির মশাল মিছিল",
+      "titleEnglish": "With the slogan ‘Cut the gas price, or leave the throne’, NCP torch procession in Chattogram",
+      "url": "https://www.dhakatoday.com/news/93153/%E2%80%98%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A7%87,-%E0%A6%A8%E0%A6%87%E0%A6%B2%E0%A7%87-%E0%A6%97%E0%A6%A6%E0%A6%BF-%E0%A6%9B%E0%A6%BE%E0%A6%87%E0%A7%9C%E0%A6%BE-%E0%A6%A6%E0%A7%87%E2%80%99-%E0%A6%B8%E0%A7%8D%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%87-%E0%A6%8F%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%AE%E0%A6%B6%E0%A6%BE%E0%A6%B2-%E0%A6%AE%E0%A6%BF%E0%A6%9B%E0%A6%BF%E0%A6%B2",
+      "publisher": "dhakaToday.com",
+      "publisherDomain": "dhakatoday.com",
+      "publishedAt": "2026-11-05T12:47:00Z",
+      "seenAt": "2026-11-05T12:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "bn"
+    },
+    {
+      "id": "n-140071e1fd6bd7",
+      "title": "Oil shock hammers developing economies hardest - Channel Africa",
+      "titleEnglish": "Oil shock hammers developing economies hardest - Channel Africa",
+      "url": "https://www.channelafrica.co.za/channelafrica/news/oil-shock-hammers-developing-economies-hardest/",
+      "publisher": "Channel Africa",
+      "publisherDomain": "channelafrica.co.za",
+      "publishedAt": "2026-11-05T15:47:00Z",
+      "seenAt": "2026-11-05T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Africa",
+      "sourceCountryCode": "ZA",
+      "sourceRegion": "Africa",
+      "sourceLat": -30,
+      "sourceLon": 25,
+      "language": "en"
+    },
+    {
+      "id": "n-05ff46c85f0920",
+      "title": "High Power Costs Threaten Kenya’s Industrial Growth, World Bank Update Shows",
+      "titleEnglish": "High Power Costs Threaten Kenya’s Industrial Growth, World Bank Update Shows",
+      "url": "https://kenya-today.com/report-high-power-costs-threaten-kenyas-industrial-growth-world-bank-update-shows-22628/",
+      "publisher": "Kenya Today",
+      "publisherDomain": "kenya-today.com",
+      "publishedAt": "2026-11-05T21:12:23Z",
+      "seenAt": "2026-11-05T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Kenya",
+      "sourceCountryCode": "KE",
+      "sourceRegion": "Africa",
+      "sourceLat": 0.1,
+      "sourceLon": 38,
+      "language": "en"
+    },
+    {
+      "id": "n-2ebdf5fd8d02a0",
+      "title": "Istat, prezzi in aumento e si svuota il carrello della spesa: i dati",
+      "titleEnglish": "Istat: prices rising and the shopping basket is emptying: the data",
+      "url": "https://tg24.sky.it/economia/2026/11/05/spesa-italia-dati-istat-settembre",
+      "publisher": "tg24.sky.it",
+      "publisherDomain": "tg24.sky.it",
+      "publishedAt": "2026-11-05T18:47:00Z",
+      "seenAt": "2026-11-05T18:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Italy",
       "sourceCountryCode": "IT",
@@ -754,14 +584,31 @@
       "language": "it"
     },
     {
-      "id": "n-b5618f9b3089b2",
-      "title": "Dario Amodei wants 'a country of geniuses in a data center.' Realizing that vision requires risky financial mechanics, Anthropic's IPO filing shows | Fortune",
-      "titleEnglish": "Dario Amodei wants 'a country of geniuses in a data center.' Realizing that vision requires risky financial mechanics, Anthropic's IPO filing shows | Fortune",
-      "url": "https://fortune.com/2026/11/04/dario-amodei-wants-a-country-of-geniuses-in-a-data-center-realizing-that-vision-requires-tricky-financial-mechanics-anthropics-ipo-filing-shows/",
-      "publisher": "Fortune",
-      "publisherDomain": "fortune.com",
-      "publishedAt": "2026-11-04T12:47:00Z",
-      "seenAt": "2026-11-04T12:47:00Z",
+      "id": "n-e2fb73c8fd2e14",
+      "title": "Harga Minyak Dunia Diproyeksi Melandai Tahun Depan, Ini Dampaknya pada Ekonomi",
+      "titleEnglish": "World oil prices projected to fall next year, here is the impact on the economy",
+      "url": "https://ekonomi.republika.co.id/berita/to1c6r370/harga-minyak-dunia-diproyeksi-melandai-tahun-depan-ini-dampaknya-pada-ekonomi",
+      "publisher": "Republika Online",
+      "publisherDomain": "ekonomi.republika.co.id",
+      "publishedAt": "2026-11-05T15:25:39Z",
+      "seenAt": "2026-11-05T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-5d72f15bca2e01",
+      "title": "French budget unanimously rejected by lawmakers ahead of nationwide strikes",
+      "titleEnglish": "French budget unanimously rejected by lawmakers ahead of nationwide strikes",
+      "url": "https://www.cnbc.com/2026/11/05/france-budget-debt-strikes.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-05T12:53:23Z",
+      "seenAt": "2026-11-05T13:17:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "United States",
       "sourceCountryCode": "US",
@@ -771,14 +618,82 @@
       "language": "en"
     },
     {
-      "id": "n-7afb0f3a2ebc88",
-      "title": "NTTへサイバー攻撃7倍 前年10月比、AI防御強化へ",
-      "titleEnglish": "Cyberattacks on NTT up sevenfold year on year; AI defences to be strengthened",
-      "url": "https://www.47news.jp/15183709p2.html",
-      "publisher": "47NEWS",
-      "publisherDomain": "47news.jp",
-      "publishedAt": "2026-11-04T10:17:00Z",
-      "seenAt": "2026-11-04T10:17:00Z",
+      "id": "n-2db5fd141cb20e",
+      "title": "Après les mobilisations du 5 novembre, quelles réponses politiques ? Le dialogue social est-il encore possible ?",
+      "titleEnglish": "After the 5 November mobilisations, what political responses? Is social dialogue still possible?",
+      "url": "https://www.radiofrance.fr/franceinter/podcasts/le-telephone-sonne/le-18-20-le-telephone-sonne-du-jeudi-05-novembre-2026-1521821",
+      "publisher": "France Inter",
+      "publisherDomain": "radiofrance.fr",
+      "publishedAt": "2026-11-05T18:19:00Z",
+      "seenAt": "2026-11-05T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-e58ddb0e00dfbf",
+      "title": "« Vous n’êtes pas seuls face aux difficultés » : la préfète de la Dordogne face à des dizaines de maires remontés contre l’État",
+      "titleEnglish": "« You Are Not Alone in Facing Difficulties »: Dordogne Prefect Faces Dozens of Mayors Angry at the State",
+      "url": "https://www.sudouest.fr:443/dordogne/bourdeilles/vous-n-etes-pas-seuls-face-aux-difficultes-la-prefete-de-la-dordogne-face-a-des-dizaines-de-maires-remontes-contre-l-etat-31399718.php",
+      "publisher": "SudOuest.fr",
+      "publisherDomain": "sudouest.fr",
+      "publishedAt": "2026-11-05T20:47:00Z",
+      "seenAt": "2026-11-05T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-611c6e4803b690",
+      "title": "Senegal's parliament requests withdrawal of 2027 budget bill - Channel Africa",
+      "titleEnglish": "Senegal's parliament requests withdrawal of 2027 budget bill - Channel Africa",
+      "url": "https://www.channelafrica.co.za/channelafrica/news/senegals-parliament-requests-withdrawal-of-2027-budget-bill/",
+      "publisher": "Channel Africa",
+      "publisherDomain": "channelafrica.co.za",
+      "publishedAt": "2026-11-05T15:47:00Z",
+      "seenAt": "2026-11-05T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Africa",
+      "sourceCountryCode": "ZA",
+      "sourceRegion": "Africa",
+      "sourceLat": -30,
+      "sourceLon": 25,
+      "language": "en"
+    },
+    {
+      "id": "n-88b5ae4a625b53",
+      "title": "Jetten: belastingplan wegstemmen kost miljarden",
+      "titleEnglish": "Jetten: voting down tax plan would cost billions",
+      "url": "https://nieuws.nl/algemeen/wegstemmen-belastingplan-kost-vele-miljarden-waarschuwt-jetten",
+      "publisher": "Nieuws.nl",
+      "publisherDomain": "nieuws.nl",
+      "publishedAt": "2026-11-05T00:57:27Z",
+      "seenAt": "2026-11-05T03:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-0ac513ad123e0b",
+      "title": "茶番の「消費税減税」…高市首相ようやく6日に委員会で答弁も「1時間限定」の往生際の悪さ｜日刊ゲンダイDIGITAL",
+      "titleEnglish": "Farce of the \"consumption tax cut\"... PM Takaichi finally to answer questions in committee on the 6th, but with a \"one hour limit\" showing poor grace | Nikkan Gendai DIGITAL",
+      "url": "https://www.nikkan-gendai.com/articles/view/news/395201",
+      "publisher": "日刊ゲンダイDIGITAL",
+      "publisherDomain": "nikkan-gendai.com",
+      "publishedAt": "2026-11-05T03:47:00Z",
+      "seenAt": "2026-11-05T03:47:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Japan",
       "sourceCountryCode": "JP",
@@ -786,137 +701,331 @@
       "sourceLat": 36,
       "sourceLon": 138,
       "language": "ja"
+    },
+    {
+      "id": "n-84aa37ac24036c",
+      "title": "Congress's first task post-midterms is to figure out how to keep funding America—and that's before you address the $40 trillion national debt | Fortune",
+      "titleEnglish": "Congress's first task post-midterms is to figure out how to keep funding America—and that's before you address the $40 trillion national debt | Fortune",
+      "url": "https://fortune.com/2026/11/05/congresss-funding-hurdles-fiscal-gridlock-shutdown-national-debt/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-11-05T18:47:00Z",
+      "seenAt": "2026-11-05T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-8d94766887d14f",
+      "title": "Frankrijk demonstreert opnieuw voor hogere lonen, regering wil onrust voorkomen",
+      "titleEnglish": "France protests again for higher wages, government wants to prevent unrest",
+      "url": "https://nos.nl/artikel/2638145-frankrijk-demonstreert-opnieuw-voor-hogere-lonen-regering-wil-onrust-voorkomen",
+      "publisher": "nos.nl",
+      "publisherDomain": "nos.nl",
+      "publishedAt": "2026-11-05T13:17:00Z",
+      "seenAt": "2026-11-05T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-a79875c3d7dc08",
+      "title": "Manifestation du 5 novembre à Toulouse : gaz lacrymogènes, commerces dégradés, tentative de rejoindre la rocade… comment la mobilisation a dégénéré depuis Saint-Cyprien",
+      "titleEnglish": "Demonstration of 5 November in Toulouse: tear gas, damaged shops, attempt to reach the ring road… how the mobilisation degenerated from Saint-Cyprien",
+      "url": "https://www.ladepeche.fr/2026/11/05/manifestation-du-5-novembre-a-toulouse-gaz-lacrymogenes-commerces-degrades-tentative-de-rejoindre-la-rocade-comment-la-mobilisation-a-degenere-depuis-13638426.php",
+      "publisher": "ladepeche.fr",
+      "publisherDomain": "ladepeche.fr",
+      "publishedAt": "2026-11-05T18:47:00Z",
+      "seenAt": "2026-11-05T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-b453c8c4b94d54",
+      "title": "Στις διαδηλώσεις στο Παρίσι ο Αλέξης Τσίπρας - «Η Γαλλία στέλνει μήνυμα αντίστασης απέναντι στις πολιτικές που διαλύουν την κοινωνία»",
+      "titleEnglish": "At the Paris demonstrations, Alexis Tsipras - \"France sends a message of resistance against policies that are breaking society apart\"",
+      "url": "https://www.enikos.gr/politics/stis-diadiloseis-sto-parisi-o-alexis-tsipras-i-gallia-stelnei-minyma-antistasis-apenanti-stis-politikes-pou-dialyoun-tin-koinonia/2672119/",
+      "publisher": "ENIKOS",
+      "publisherDomain": "enikos.gr",
+      "publishedAt": "2026-11-05T18:31:55Z",
+      "seenAt": "2026-11-05T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-edb37d6c6ac3b7",
+      "title": "Soal Pengerahan Anggota TNI di Jakarta, Panglima: Siaga Pertahankan NKRI dari Berbagai Ancaman",
+      "titleEnglish": "On deploying TNI personnel in Jakarta, Commander: Stand ready to defend NKRI from various threats",
+      "url": "https://rejabar.republika.co.id/berita/to13h3282/soal-pengerahan-anggota-tni-di-jakarta-panglima-siaga-pertahankan-nkri-dari-berbagai-ancaman",
+      "publisher": "Republika Online",
+      "publisherDomain": "rejabar.republika.co.id",
+      "publishedAt": "2026-11-05T12:32:00Z",
+      "seenAt": "2026-11-05T12:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-6173efead9bb73",
+      "title": "Situasi Aceh Kembali Kondusif, TNI Bongkar Detik-detik Ricuh Perayaan Maulid yang Tewaskan 1 Warga",
+      "titleEnglish": "Situation in Aceh Calm Again, TNI Reveals Details of Maulid Celebration Riot That Killed 1 Resident",
+      "url": "https://www.viva.co.id/berita/nasional/1941424-situasi-aceh-kembali-kondusif-tni-bongkar-detik-detik-ricuh-perayaan-maulid-yang-tewaskan-1-warga",
+      "publisher": "viva.co.id",
+      "publisherDomain": "viva.co.id",
+      "publishedAt": "2026-11-05T21:30:00Z",
+      "seenAt": "2026-11-05T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-45e8fa671b3a10",
+      "title": "Army, Rangers deployed for by-elections in Punjab",
+      "titleEnglish": "Army, Rangers deployed for by-elections in Punjab",
+      "url": "https://www.samaa.tv/2087359737-army-rangers-deployed-for-by-elections-in-punjab",
+      "publisher": "SAMAA TV",
+      "publisherDomain": "samaa.tv",
+      "publishedAt": "2026-11-05T13:54:48Z",
+      "seenAt": "2026-11-05T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Pakistan",
+      "sourceCountryCode": "PK",
+      "sourceRegion": "Asia",
+      "sourceLat": 30,
+      "sourceLon": 69,
+      "language": "en"
+    },
+    {
+      "id": "n-10c4bdadd23cd4",
+      "title": "Soldier killed in shooting with ‘human traffickers’ during Teknaf raid",
+      "titleEnglish": "Soldier killed in shooting with ‘human traffickers’ during Teknaf raid",
+      "url": "https://bdnews24.com/bangladesh/coxs-bazar",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-11-05T18:21:18Z",
+      "seenAt": "2026-11-05T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-f3e445232fddd2",
+      "title": "Army personnel injured as joint forces, ‘human traffickers’ exchange gunfire in Teknaf",
+      "titleEnglish": "Army personnel injured as joint forces, ‘human traffickers’ exchange gunfire in Teknaf",
+      "url": "https://bdnews24.com/bangladesh/cqhs9v34id",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-11-05T18:00:59Z",
+      "seenAt": "2026-11-05T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-b265ebedbde8b4",
+      "title": "مداهمات وحواجز للجيش في مناطق عدّة.. توقيف عشرات الأشخاص وضبط أسلحة وذخائر - جريدة الأنباء الإلكترونية",
+      "titleEnglish": "Raids and army checkpoints in several areas... dozens of people arrested, weapons and ammunition seized - Al-Anba Online newspaper",
+      "url": "https://anbaaonline.com/news/347667",
+      "publisher": "جريدة الأنباء الإلكترونية",
+      "publisherDomain": "anbaaonline.com",
+      "publishedAt": "2026-11-05T18:54:21Z",
+      "seenAt": "2026-11-05T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Lebanon",
+      "sourceCountryCode": "LB",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33.9,
+      "sourceLon": 35.9,
+      "language": "ar"
+    },
+    {
+      "id": "n-5ee54732f53bb1",
+      "title": "Projet de loi sur l'usage légitime des armes pour les forces de l’ordre : \"une avancée majeure\" pour les syndicats de police, \"un permis de tuer\" pour la gauche - Outre-mer La 1ère",
+      "titleEnglish": "Bill on the legitimate use of firearms by law enforcement: \"a major advance\" for police unions, \"a licence to kill\" for the left - Outre-mer La 1ère",
+      "url": "https://la1ere.franceinfo.fr/reunion/projet-de-loi-sur-l-usage-legitime-des-armes-pour-les-forces-de-l-ordre-une-avancee-majeure-pour-les-syndicats-de-police-un-permis-de-tuer-pour-la-gauche-1718473.html",
+      "publisher": "Réunion La 1ère",
+      "publisherDomain": "la1ere.franceinfo.fr",
+      "publishedAt": "2026-11-05T21:47:00Z",
+      "seenAt": "2026-11-05T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
     }
   ],
   "settled": [
     {
-      "id": "20261101T010841-ai-gains-concentrated-2",
+      "id": "20261103T214619-poland-cheap-threats-costly-answers-2",
+      "status": "kept",
+      "how": "headline"
+    },
+    {
+      "id": "20261104T215151-war-price-reaches-ballot-and-rates-2",
       "status": "kept",
       "how": "headline"
     }
   ],
   "readings": [
     {
-      "id": "war-price-reaches-ballot-and-rates",
-      "line": "The Iran war's price rise has now cost Trump's party Congress, and central banks abroad still hold rates high against it.",
-      "kicker": "OIL / THE BALLOT / BORROWING",
-      "firmness": "plausible",
+      "id": "ai-build-vote-sells-asia",
+      "line": "Democrats' talk of a data-centre moratorium has cut share prices across Asia, where growth now rests on building AI.",
+      "kicker": "ELECTIONS / COMPUTE / EXPORT ECONOMIES",
+      "firmness": "firm",
       "watch": [
         {
-          "what": "A central bank in Asia or Latin America holds or raises its rate and names oil prices or the Iran war as a reason.",
+          "what": "A US state, county or city pauses, rejects or puts power or water conditions on a data-centre project after the midterms.",
           "by": "2026-11-30",
-          "because": "If one war price is behind these figures, rate-setters outside the euro area should name it in their own decisions, not only the US president after his defeat.",
-          "id": "20261104T215151-war-price-reaches-ballot-and-rates-1"
+          "because": "If markets are pricing a political limit on the AI build, the first limits should come from local and state bodies, not from a Congress that still faces a Trump veto.",
+          "id": "20261105T215902-ai-build-vote-sells-asia-1"
         },
         {
-          "what": "US and Iranian officials are reported meeting or agreeing to resume talks on ending the war.",
-          "by": "2026-11-30",
-          "because": "If the war's price has been settled against the president at the ballot box, the White House has a reason to end the war before the new Congress sits.",
-          "id": "20261104T215151-war-price-reaches-ballot-and-rates-2"
+          "what": "The Nasdaq is reported to have recovered at least half of its post-election fall.",
+          "by": "2026-11-27",
+          "because": "The join says the fall priced a federal moratorium that cannot become law while Trump can veto it, so the national part of the fall should reverse while local limits remain.",
+          "id": "20261105T215902-ai-build-vote-sells-asia-2"
         }
       ],
       "ahead": {
-        "precedent": "The closest case is 1979 to 1980, when the Iranian revolution more than doubled the oil price, the Federal Reserve pushed its rate towards 20% and Jimmy Carter lost the 1980 election. Then the United States was a large oil importer and the shock lasted two years. Now it is a net exporter, its governing party has lost a midterm rather than the presidency, and the oil price fell on the vote instead of rising after it.",
+        "precedent": "The closest case is the spring of 2000, when the Nasdaq fell from its March peak and Taiwanese and Korean technology shares, which had risen on the same internet spending, fell with it; the Nasdaq lost 78% by October 2002. The difference is that the companies now doing the spending earn large profits, and the threat named in these headlines is political, a limit on permits, power and water, rather than a collapse in demand.",
         "paths": [
           {
-            "name": "Talks resume and oil eases",
+            "name": "Building moves to friendlier states",
             "weight": "favoured",
-            "text": "Within weeks the White House, which has named the war as a cost, seeks a pause or talks with Iran before the new Congress sits on 3 January 2027. Oil falls further and by early 2027 central banks in importing countries stop tightening. The 8% fall on the vote shows traders already expect this, and Vance's positioning for 2028 gives the administration a reason to close the war.",
-            "sign": "US and Iranian officials are reported meeting or agreeing a date for talks."
+            "text": "The call for a national moratorium stalls over the coming months, because any bill needs Trump's signature until January 2029. The fight moves to state utility regulators and county councils, and companies place new sites in Republican-run states such as Wyoming and abroad. Markets recover much of the post-election fall, and Asian suppliers trade on each local decision.",
+            "sign": "A large AI company says it is moving or adding a data-centre site in another state after a local rejection."
           },
           {
-            "name": "War goes on and rates rise",
+            "name": "A longer AI correction",
             "weight": "possible",
-            "text": "Iran's Revolutionary Guard keeps firing at US drones near Hormuz, the strait stays shut and oil recovers its losses. Euro area inflation stays above 4% and the European Central Bank raises rates in December while Brazil and the Philippines hold. This is less likely because the president has now said in public that the war cost him votes.",
-            "sign": "The European Central Bank raises its rates and names energy prices."
+            "text": "The sell-off exposes how much of the build depends on borrowing, lenders tighten terms and the large builders trim next year's spending. Taiwanese and Korean shares fall further and Korean investors who borrowed against their shares are forced to sell. This is less likely because the largest builders pay mostly from their own cash.",
+            "sign": "A large cloud company cuts its capital spending guidance for next year."
           },
           {
-            "name": "Escalation before January",
+            "name": "Congress limits the build",
             "weight": "unlikely",
-            "text": "The administration strikes Iranian territory again before the Democratic Congress sits, to end the war on its own terms. Oil rises sharply and importers' central banks tighten further. It is unlikely because the defeat and the reported talk of replacing Hegseth point away from a wider war.",
-            "sign": "US aircraft strike targets inside Iran after the midterms."
+            "text": "Democrats attach data-centre conditions to a funding bill that Trump must sign to avoid a shutdown. This is unlikely before the new Congress sits in January, and Trump has tied his economic case to AI.",
+            "sign": "A federal funding bill passes with a clause on data-centre power or water use."
           }
         ],
-        "decade": "Over the next ten years the oil price will keep deciding elections in exporting and importing countries alike, because neither US shale nor the energy transition has removed petrol from household budgets. Central banks in importing countries will hold rates higher in each Gulf crisis until oil's share of their energy falls well below today's."
+        "decade": "Over ten years the AI build is likely to become a permitting question decided state by state and country by country, with power and water as the deciding terms, and East Asia's export economies will stay tied to whoever grants those permits."
       },
-      "continues": "hormuz-cost-to-buyers-gain-to-bypass-sellers",
-      "change": "Yesterday's narrative traced the war's cost to energy importers and its gains to producers who avoid Hormuz. Today the cost has reached US politics: the president and vice-president name the war and prices as causes of their party's defeat, oil fell more than 8% on the result, and euro area inflation for October came in at 4.0%.",
-      "claim": "Trump and Vance blamed the war with Iran and rising prices for losing Congress; oil fell more than 8% and US shares rose on the result; euro area inflation reached 4.0% in October; Brazil's central bank held the world's highest real interest rate; a former Philippine central banker defended tightening as the peso fell; and Israel raised its pump price. These are one price rise, the war's, being settled in different places. In the United States voters settled it against the party in power, and traders read their verdict as a step towards ending the war. In the importing countries the same rise is still being paid through interest rates and fuel prices, and the fall in oil has not yet reached those bills.",
+      "continues": "",
+      "change": "",
+      "claim": "After their midterm sweep, senior Democrats called for a national moratorium on data centres, and on the same day the Nasdaq fell more than 5%, US retail traders sold the most stock since the Covid crash, foreign investors sold NT$102.4bn of Taiwanese shares, Japanese and Korean stocks fell and the Brazilian real weakened. Several of these headlines name the Democratic win and the fear of a slower AI build as the cause. The selling reached furthest into the markets whose recent growth comes from supplying that build, while an Indian banker said the same news made India more attractive. A US vote about local power and water has become a price in Taipei, Tokyo and Seoul because those markets are now largely a bet on American data centres.",
       "events": [
         {
-          "label": "US leaders blame war and prices for defeat",
+          "label": "Democrats call for data-centre moratorium",
           "articleIds": [
-            "n-12c10d769a2da4",
-            "n-7175b6a4e559b3",
-            "n-e3cc30a2afd9a9",
-            "n-45ef1a05d59a5f"
+            "n-87e7d41b07576e",
+            "n-cc801b10b76666",
+            "n-b5bd4b607aa2e0"
           ]
         },
         {
-          "label": "Oil falls and US shares rise",
+          "label": "Wall Street's tech sell-off after the vote",
           "articleIds": [
-            "n-dbcef0a415ddcf",
-            "n-f70949db9f13d7",
-            "n-3725924df63a2f"
+            "n-46d248fc7d48e8",
+            "n-a2eccaa14f6910",
+            "n-774af0d96fca9a",
+            "n-82acca7fd58216",
+            "n-f99aa97dbfc2c3"
           ]
         },
         {
-          "label": "Euro area inflation reaches 4.0%",
+          "label": "Asian and Israeli shares fall",
           "articleIds": [
-            "n-250741902cfb8d",
-            "n-9d44c8a1c0d9f6",
-            "n-0237ed4d5677c4",
-            "n-50f4f8b0e26d58"
+            "n-e27ecfc3e6acac",
+            "n-0f5efc3c8f4bad",
+            "n-3c6ed5343aaf27",
+            "n-3bfa962a69f2e5",
+            "n-37d51dd9815761"
           ]
         },
         {
-          "label": "Brazil holds the world's highest real rate",
+          "label": "Brazilian real weakens on risk aversion",
           "articleIds": [
-            "n-707e06e89553a3",
-            "n-c228877f6283df"
+            "n-32a34cfe80b603"
           ]
         },
         {
-          "label": "Philippine tightening as the peso falls",
+          "label": "Indian shares pitched as the alternative",
           "articleIds": [
-            "n-60424e9fc5d9cd",
-            "n-95b7c939c029c5"
+            "n-38309298b5c827"
           ]
         },
         {
-          "label": "Israel raises its fuel price",
+          "label": "Data-centre building and AI adoption continue",
           "articleIds": [
-            "n-37a52723ee2714"
+            "n-b04c70be438dae",
+            "n-0418ffd223f125"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "a-r1",
+          "id": "ai-build-vote-sells-asia-obs1",
           "kind": "observation",
-          "label": "The vote and the market",
+          "label": "The vote and the US sell-off",
           "fragments": [
             {
-              "id": "a-f1",
-              "label": "Blame named in Washington",
-              "text": "Lenta (Russia) reports Trump and Vance saying the Republican defeat was caused by the war with Iran, rising prices and unfulfilled promises. DW's Portuguese service (Germany) reports Trump admitting the war contributed, and Observador (Portugal) says Vance blamed the war while positioning himself for 2028. This is Oxfordshire (UK) reports the Democrats' sweep of Congress as Trump acknowledged the effect of the war.",
+              "id": "ai-build-vote-sells-asia-f1",
+              "label": "A moratorium is proposed",
+              "text": "CNBC in the United States reports top Democrats calling for a 'national data center moratorium now' after the midterm sweep, and in a second piece says voters rejected data centres over resource concerns and that their water use is hard to measure. bdnews24 in Bangladesh puts the Nasdaq 100 on course for a $1.8tn loss as the Democratic win raises fears of AI delays.",
               "articleIds": [
-                "n-12c10d769a2da4",
-                "n-7175b6a4e559b3",
-                "n-e3cc30a2afd9a9",
-                "n-45ef1a05d59a5f"
+                "n-87e7d41b07576e",
+                "n-cc801b10b76666",
+                "n-b5bd4b607aa2e0"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "a-f2",
-              "label": "Oil falls, shares rise",
-              "text": "Herald Business (South Korea) reports international oil prices falling more than 8% after the Democrats' landslide. Yle (Finland) and Al Jazeera Arabic (Qatar) report Wall Street rising after the results. None of these headlines reports new talks with Iran, so the market moved on the vote itself.",
+              "id": "ai-build-vote-sells-asia-f2",
+              "label": "Wall Street falls",
+              "text": "Al-Anbaa in Lebanon, citing Reuters, reports the S&P 500 down 4.1%, the Nasdaq down 5.4% and the Dow down 3.2%. CNBC says retail traders sold more stock in a single day than at any time since the Covid sell-off. Habertürk in Turkey calls it an AI earthquake, Youm7 in Egypt says Elon Musk lost $60bn after the Republican defeat, and Diário do Grande ABC in Brazil says tech stocks led the fall after the elections.",
               "articleIds": [
-                "n-dbcef0a415ddcf",
-                "n-f70949db9f13d7",
-                "n-3725924df63a2f"
+                "n-774af0d96fca9a",
+                "n-a2eccaa14f6910",
+                "n-46d248fc7d48e8",
+                "n-82acca7fd58216",
+                "n-f99aa97dbfc2c3"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -924,33 +1033,31 @@
           ]
         },
         {
-          "id": "a-r2",
+          "id": "ai-build-vote-sells-asia-obs2",
           "kind": "observation",
-          "label": "Prices and rates in importers",
+          "label": "Outside the United States",
           "fragments": [
             {
-              "id": "a-f3",
-              "label": "Euro area at 4%",
-              "text": "Yle (Finland) reports twice that euro area inflation accelerated to 4.0% in October, and Handelsblatt and DW's Turkish service (Germany) report the same four per cent mark. The headlines do not give the energy share of the rise.",
+              "id": "ai-build-vote-sells-asia-f3",
+              "label": "Asian and Israeli markets",
+              "text": "ETtoday in Taiwan reports foreign investors sold NT$102.4bn of Taiwanese shares in a day. Nikkan Gendai in Japan says the midterms hit the Tokyo market directly and asks whether the AI rally collapses and the Nikkei falls below 60,000. Financial News in South Korea reports major shareholders who borrowed 170bn won against their shares unable to sleep as prices drop. nbd.com.cn in China reports FTSE China A50 futures down 1.85% overnight, and Globes in Israel reports defence and tech stocks tumbling.",
               "articleIds": [
-                "n-9d44c8a1c0d9f6",
-                "n-0237ed4d5677c4",
-                "n-50f4f8b0e26d58",
-                "n-250741902cfb8d"
+                "n-e27ecfc3e6acac",
+                "n-0f5efc3c8f4bad",
+                "n-3c6ed5343aaf27",
+                "n-3bfa962a69f2e5",
+                "n-37d51dd9815761"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "a-f4",
-              "label": "Brazil, the Philippines and Israel",
-              "text": "G1 (Brazil) reports the Copom holding the Selic, keeping the world's highest real interest rate, and Diário do Grande ABC says Selic pressure gave the region its worst September for formal jobs since 2019. The Manila Times reports the peso down and a former central bank official saying tightening is not meant to defend it. Globes (Israel) tells drivers the fuel price rises by 50 agorot tonight.",
+              "id": "ai-build-vote-sells-asia-f4",
+              "label": "A currency and a rotation",
+              "text": "Diário do Grande ABC reports the dollar rising to R$5.48 as risk aversion spreads with the tech sell-off. BusinessLine in India quotes Uday Kotak saying Indian equities gain appeal as concerns over AI spending ease. The same news is a loss in one emerging market and a sales pitch in another.",
               "articleIds": [
-                "n-707e06e89553a3",
-                "n-c228877f6283df",
-                "n-60424e9fc5d9cd",
-                "n-95b7c939c029c5",
-                "n-37a52723ee2714"
+                "n-32a34cfe80b603",
+                "n-38309298b5c827"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -958,31 +1065,30 @@
           ]
         },
         {
-          "id": "a-r3",
+          "id": "ai-build-vote-sells-asia-int1",
           "kind": "interpretation",
-          "label": "One price, settled in different places",
+          "label": "One build priced in many markets",
           "fragments": [
             {
-              "id": "a-f5",
-              "label": "Ballot box and rate decision",
-              "text": "The join is one upstream price rise, the war's oil price, and the different places its cost is settled. In the United States it was settled by voters, and the president himself names it. In Brazil and the Philippines it is settled by holding or raising interest rates, which passes the cost to borrowers and, as the Greater ABC jobs figures show, to people looking for work. In Israel it is settled at the pump.",
+              "id": "ai-build-vote-sells-asia-f5",
+              "label": "Why Asia sold together",
+              "text": "The join is that a large share of the value in Taipei, Seoul and Tokyo now rests on a single programme of spending: data centres built mainly in the United States. A congressional threat to that programme is a threat to the Taiwanese foundries, Korean memory makers and Japanese suppliers who fill it, so they were sold on the same day for the same reason. India, whose market holds little AI hardware, read the same news as good for itself, which is what the join predicts.",
               "articleIds": [
-                "n-12c10d769a2da4",
-                "n-707e06e89553a3",
-                "n-c228877f6283df",
-                "n-37a52723ee2714"
+                "n-87e7d41b07576e",
+                "n-e27ecfc3e6acac",
+                "n-3c6ed5343aaf27",
+                "n-38309298b5c827"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "a-f6",
-              "label": "Why importers lag the oil fall",
-              "text": "The 8% fall in oil reported by Herald Business was a bet by traders on the war ending, made after a US vote. October's euro area inflation was measured on prices from before the result, and Israel's regulated pump price is set by a monthly formula on earlier prices. Importers' figures will trail any end to the war by months, and central banks holding rates now are acting on that delay.",
+              "id": "ai-build-vote-sells-asia-f6",
+              "label": "The build itself carries on",
+              "text": "On the same day Anadolu in Turkey reports Google committing $17bn to its first data centre in Wyoming, a Republican-run state, and Yicai in China reports Tencent's WorkBuddy office tool grew tenfold. The sell-off is about where and on what terms the build happens in the United States, not about whether companies still want it. That makes it a political price rather than a judgement on the technology.",
               "articleIds": [
-                "n-dbcef0a415ddcf",
-                "n-9d44c8a1c0d9f6",
-                "n-37a52723ee2714"
+                "n-b04c70be438dae",
+                "n-0418ffd223f125"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -990,26 +1096,19 @@
           ]
         },
         {
-          "id": "a-r4",
+          "id": "ai-build-vote-sells-asia-break",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "a-f7",
-              "label": "Other causes",
-              "text": "Brazil's real interest rate was the world's highest before the war, for reasons of public debt and domestic demand, and the G1 headline names no war. The former Philippine official quoted by the Manila Times denies one reading of the tightening outright. Euro area inflation at 4% could reflect food, wages or the exchange rate as much as oil. The US defeat had several named causes, including unfulfilled promises, and a president blaming a war may be choosing the least damaging explanation.",
+              "id": "ai-build-vote-sells-asia-f7",
+              "label": "A normal repricing with several causes",
+              "text": "One day's fall after an election is ordinary, and valuations in Tokyo and Seoul were already high enough to fall on any news. Globes reports Israeli defence stocks falling alongside tech, which points to hopes of the Iran war ending rather than to data centres. The events part where it matters: the Brazilian real weakened because investors bought dollars in general, the Israeli fall mixes war and tech, and the Indian comment is a banker promoting his own market. The moratorium call comes from party leaders who cannot pass it, so markets may simply have overreacted to words.",
               "articleIds": [
-                "n-707e06e89553a3",
-                "n-60424e9fc5d9cd"
+                "n-37d51dd9815761",
+                "n-32a34cfe80b603",
+                "n-38309298b5c827"
               ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "a-f8",
-              "label": "What they do not share",
-              "text": "The United States is a net oil exporter whose voters dislike high pump prices; the others are importers whose central banks act on inflation whatever its source. A vote and a rate decision are different acts, taken by different people on different evidence. Only the US headlines name the war as the cause.",
-              "articleIds": [],
               "bookIds": [],
               "trajectoryIds": []
             }
@@ -1021,8 +1120,278 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "INFLATION / ENERGY / INCUMBENTS",
-          "text": "The years since 2020 taught voters to judge governments on prices. Russia's invasion of Ukraine in February 2022 pushed Brent above $120 a barrel by June, US petrol passed $5 a gallon and US inflation reached 9.1%. Joe Biden released 180 million barrels from the Strategic Petroleum Reserve to bring the pump price down before that year's midterms. Euro area inflation peaked at 10.6% in October 2022, and the European Central Bank raised its deposit rate from minus 0.5% to 4% by September 2023. In 2024 parties in office lost ground almost everywhere they faced voters, from Britain to Japan. In June 2025 a twelve-day war between Israel and Iran ended with American bombers striking Fordow; by these headlines a wider war with Iran has since shut the Strait of Hormuz. That is why Trump and Vance, as Lenta and Observador report, name the war and rising prices in the same breath, and why the euro area's return to 4.0% inflation belongs to the same story as a Republican defeat.",
+          "lens": "COMPUTE / CAPITAL / LOCAL POWER",
+          "text": "ChatGPT's release on 30 November 2022 turned a research field into a spending programme. By 2025 Microsoft, Alphabet, Amazon and Meta were each spending tens of billions of dollars a year on data centres, and Nvidia became the most valuable company in the world. That spending ran through Asian supply chains: TSMC in Taiwan made the chips, SK Hynix and Samsung in Korea made the high-bandwidth memory, and Japanese firms supplied materials and tools. At the same time the sites became local politics. Residents in Virginia, Georgia and Arizona argued over power bills and water, and in November 2025 Democrats won seats on Georgia's utility regulator after a campaign about electricity prices. By these headlines, voters in 2026 turned against data centres over resource concerns and Democratic leaders now call for a national moratorium. That is the step from a county argument to a national one, and it is why foreign investors sold NT$102.4bn of Taiwanese shares in a day.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CHEAP MONEY / PLATFORMS / RETAIL INVESTORS",
+          "text": "After Lehman Brothers failed in September 2008, the Federal Reserve held its rate near zero for seven years and bought trillions of dollars of bonds. Cheap money and the smartphone together made a handful of platform companies the largest firms in the world; by 2024 seven of them made up about a third of the S&P 500's value. The second change was who owned shares. Commission-free apps such as Robinhood in the United States, and the wave of Korean small investors known as the 'Donghak ants' during the 2020 crash, brought millions of households into the market, many of them on borrowed money. That is why one day's news now travels so far. CNBC reports retail traders selling more than on any day since the Covid sell-off, and Korean major shareholders who borrowed 170bn won against their holdings face margin calls. A decade of concentration means that a vote about one industry moves the whole index.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "FOUNDRIES / SUPPLY CHAINS / BUBBLES",
+          "text": "The Asian side of this sell-off was built after the Cold War. Morris Chang founded TSMC in 1987 with Taiwanese state backing to make chips designed by others, and in the 1990s Korea's conglomerates bet heavily on memory. China's opening after 1992 and the founding of the WTO in 1995 joined these firms into one supply chain serving American demand. Netscape's listing in August 1995 showed that a technology could be priced long before it earned. When that bubble burst in March 2000, the Nasdaq's 78% fall was matched by heavy falls in Taipei and Seoul, because they made the hardware. The lesson then was that East Asia's exporters carry American technology risk one step removed. Nikkan Gendai asking whether a US election sends the Nikkei below 60,000 is the same exposure, though the risk named now is a permit rather than a business model.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE / RESEARCH / ALLIANCE",
+          "text": "The postwar order produced both halves of this story. The United States paid for computing as a state project: the Dartmouth workshop named artificial intelligence in 1956, and after Sputnik in 1957 the new research agency ARPA funded the work that became the internet. Washington also underwrote the industries of its Asian allies, opening its market to Japanese goods and protecting Taiwan and South Korea while they built export manufacturing under state direction from the 1960s. For sixty years the pace of new technology was set in federal budgets. The AI build reversed that arrangement: it is privately funded, and the state's part is the permit, the grid connection and the water licence. When Democrats call for a national moratorium and Google announces $17bn in Wyoming on the same day, the question is again what the American state will allow, and the allies' markets still move on the answer.",
+          "trajectoryIds": [
+            "dartmouth-1956",
+            "sputnik-1957"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-87e7d41b07576e",
+        "n-cc801b10b76666",
+        "n-b5bd4b607aa2e0",
+        "n-774af0d96fca9a",
+        "n-a2eccaa14f6910",
+        "n-46d248fc7d48e8",
+        "n-82acca7fd58216",
+        "n-f99aa97dbfc2c3",
+        "n-e27ecfc3e6acac",
+        "n-0f5efc3c8f4bad",
+        "n-3c6ed5343aaf27",
+        "n-3bfa962a69f2e5",
+        "n-37d51dd9815761",
+        "n-32a34cfe80b603",
+        "n-38309298b5c827",
+        "n-b04c70be438dae",
+        "n-0418ffd223f125"
+      ]
+    },
+    {
+      "id": "war-oil-splits-rate-setters",
+      "line": "The war's oil price now pushes rates up in countries that buy oil, while central banks in countries that sell it cut.",
+      "kicker": "CRUDE / CURRENCIES / A WAR",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "The Bank of Korea or the Reserve Bank of New Zealand raises its rate at its late-November meeting and names oil or the Iran war.",
+          "by": "2026-11-30",
+          "because": "Both countries import nearly all their oil, so if trade position decides the response they should follow London rather than Mexico City.",
+          "id": "20261105T215902-war-oil-splits-rate-setters-1"
+        },
+        {
+          "what": "Bangladesh announces a fuel or gas price rise, new import curbs or a request to the IMF to protect reserves now below $30bn.",
+          "by": "2026-11-30",
+          "because": "The join says importers without a strong currency pay the war's price in reserves, which forces a choice between domestic prices and dollars within weeks.",
+          "id": "20261105T215902-war-oil-splits-rate-setters-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is 2008, when oil reached $147 a barrel in July and the European Central Bank raised its rate to 4.25% against the price, while oil exporters' budgets filled. Within three months Lehman Brothers had failed and the ECB was cutting. The difference now is that the price comes from a war and a closed strait rather than from strong demand, so it could fall quickly on a deal, and Brazil and Mexico start from much higher rates.",
+        "paths": [
+          {
+            "name": "Importers keep raising into the new year",
+            "weight": "favoured",
+            "text": "The Bank of England has said this rise will not be the last, and other importing central banks follow in November and December. Bangladesh and similar importers raise fuel prices or seek IMF money as reserves fall. This holds as long as the strait stays closed, and nothing in these headlines suggests that ends within weeks.",
+            "sign": "A second oil-importing central bank raises its rate and names the war."
+          },
+          {
+            "name": "A deal lowers oil and rates",
+            "weight": "possible",
+            "text": "Iran's proposal sent through Qatar becomes an agreement before the end of the year, oil falls toward the lower price Indonesia projects for next year, and the Bank of England's rise is its only one. Talks have stalled before, which is why this is not the favoured path.",
+            "sign": "Brent crude is reported falling 10% in a week on news of a US-Iran agreement."
+          },
+          {
+            "name": "Exporters forced to raise",
+            "weight": "unlikely",
+            "text": "The tech sell-off and wider risk aversion push the real and the peso down far enough that Brazil and Mexico reverse course and raise. Unlikely because oil revenue supports both currencies and both banks have room after cutting.",
+            "sign": "Brazil's Copom raises the Selic rate and cites the exchange rate."
+          }
+        ],
+        "decade": "Over ten years a recurring Gulf risk is likely to keep oil-importing countries building reserves and alternative energy at a cost to growth, while exporters outside the Gulf gain room, a sorting of monetary policy by energy position that the move away from oil will narrow only slowly."
+      },
+      "continues": "war-price-reaches-ballot-and-rates",
+      "change": "The previous edition had central banks abroad holding rates high against the war's price. Today the Bank of England went further and raised to 4%, saying more could follow if the war continues. But Mexico's and Brazil's central banks cut on the same day, so holding high no longer describes rate-setters in general.",
+      "claim": "The Bank of England raised its rate to 4%, its first rise since 2023, and warned of more if the Iran war continues, on the day Mexico's central bank cut to 6.25% and Brazil's continued to cut. Russia records its highest oil and gas revenue and a central bank warning of overheating, while Bangladesh's reserves fall below $30bn as its fuel import bill doubles. The oil price is the same for every country, but what it does to money depends on whether a country buys or sells oil. Buyers are paying in higher rates and lost reserves, and sellers have room to cut.",
+      "events": [
+        {
+          "label": "Bank of England raises rates to 4%",
+          "articleIds": [
+            "n-7387d204554e57",
+            "n-3457e66d2174da",
+            "n-3f58b744c47be9",
+            "n-8637e64ba4fc02"
+          ]
+        },
+        {
+          "label": "Mexico and Brazil cut rates",
+          "articleIds": [
+            "n-e984482a3f6e2f",
+            "n-1bf9faa427ba6f"
+          ]
+        },
+        {
+          "label": "Russia's record oil revenue and overheating",
+          "articleIds": [
+            "n-c1eb87a3678076",
+            "n-6c7ce6da69aa51",
+            "n-a906a295e3356b"
+          ]
+        },
+        {
+          "label": "Bangladesh's reserves fall on fuel imports",
+          "articleIds": [
+            "n-8103c3a3cf650a",
+            "n-4dbc34e95dc836",
+            "n-23b009b0895e32",
+            "n-4a2d5640158be8"
+          ]
+        },
+        {
+          "label": "Oil and power costs hit other importers",
+          "articleIds": [
+            "n-140071e1fd6bd7",
+            "n-05ff46c85f0920",
+            "n-2ebdf5fd8d02a0"
+          ]
+        },
+        {
+          "label": "Indonesia expects cheaper oil next year",
+          "articleIds": [
+            "n-e2fb73c8fd2e14"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "war-oil-splits-rate-setters-obs1",
+          "kind": "observation",
+          "label": "Three rate decisions",
+          "fragments": [
+            {
+              "id": "war-oil-splits-rate-setters-f1",
+              "label": "London raises",
+              "text": "The Bournemouth Echo in Britain reports the Bank raising rates to 4% and warning of more if the Iran war continues. Business Day in South Africa and La Tercera in Chile call it the first rise since 2023. Newspim in South Korea, whose headline as rendered names the Bank of Korea but quotes Governor Bailey saying the rise will not be the last, is reporting the same British decision.",
+              "articleIds": [
+                "n-7387d204554e57",
+                "n-3457e66d2174da",
+                "n-3f58b744c47be9",
+                "n-8637e64ba4fc02"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "war-oil-splits-rate-setters-f2",
+              "label": "Mexico and Brazil cut",
+              "text": "La Razón de México reports Banxico cutting its rate to 6.25%. Diário do Grande ABC in Brazil reports rates falling, with the yield curve shifting after a less cautious Copom statement. Neither headline mentions the war.",
+              "articleIds": [
+                "n-e984482a3f6e2f",
+                "n-1bf9faa427ba6f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "war-oil-splits-rate-setters-obs2",
+          "kind": "observation",
+          "label": "A seller and the buyers",
+          "fragments": [
+            {
+              "id": "war-oil-splits-rate-setters-f3",
+              "label": "Russia's revenue",
+              "text": "Kommersant reports record federal oil and gas revenue in October. Izvestia reports the central bank recording an overheating economy in the third quarter. Kommersant also reports Russian imports of petroleum products up 25% in October.",
+              "articleIds": [
+                "n-c1eb87a3678076",
+                "n-6c7ce6da69aa51",
+                "n-a906a295e3356b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "war-oil-splits-rate-setters-f4",
+              "label": "Importers' bills",
+              "text": "The Daily Star in Bangladesh reports the trade deficit widening 31% as the fuel import bill doubles, and bdnews24 reports reserves below $30bn after a $1.64bn Asian Clearing Union payment; dhakaToday reports a torch march in Chattogram demanding a gas price cut. Channel Africa says the oil shock hits developing economies hardest, Kenya Today cites a World Bank update on high power costs threatening Kenyan industry, and Sky TG24 in Italy reports Istat data on rising prices and emptier shopping baskets.",
+              "articleIds": [
+                "n-23b009b0895e32",
+                "n-8103c3a3cf650a",
+                "n-4dbc34e95dc836",
+                "n-4a2d5640158be8",
+                "n-140071e1fd6bd7",
+                "n-05ff46c85f0920",
+                "n-2ebdf5fd8d02a0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "war-oil-splits-rate-setters-int1",
+          "kind": "interpretation",
+          "label": "How trade position sets the rate",
+          "fragments": [
+            {
+              "id": "war-oil-splits-rate-setters-f5",
+              "label": "A transfer from buyers to sellers",
+              "text": "A higher oil price moves money from countries that buy oil to countries that sell it. In Britain it arrives as inflation the central bank must answer, in Bangladesh as dollars leaving the reserves, and in the selling countries as revenue that supports the currency and the budget, which leaves Banxico and the Copom free to cut. Russia shows the far end of the selling side, where revenue is large enough that the central bank worries about overheating.",
+              "articleIds": [
+                "n-7387d204554e57",
+                "n-8103c3a3cf650a",
+                "n-c1eb87a3678076",
+                "n-e984482a3f6e2f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "war-oil-splits-rate-setters-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "war-oil-splits-rate-setters-f6",
+              "label": "Domestic reasons, and imperfect sellers",
+              "text": "Mexico and Brazil may be cutting for their own reasons: both started from high real rates and slowing growth, and Mexico buys much of its petrol from the United States, so it is not a clean seller. Russia's 25% rise in fuel imports shows that a crude exporter can still be short of fuel. Republika in Indonesia projects oil falling next year, so any split may be brief. The events part on a basic point: the British decision names the war, and the Mexican and Brazilian headlines name nothing of it.",
+              "articleIds": [
+                "n-e2fb73c8fd2e14",
+                "n-1bf9faa427ba6f",
+                "n-a906a295e3356b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "INFLATION / CREDIBILITY / WAR",
+          "text": "The inflation that followed the pandemic set the terms for this decision. The Bank of England raised its rate fourteen times, from 0.1% in December 2021 to 5.25% in August 2023, after Russia's invasion of Ukraine pushed British energy bills to records, and then cut. Brazil's central bank, which began raising in March 2021, took the Selic to 15% by mid-2025, while Banxico cut from its 11.25% peak as Mexican inflation fell. Central banks learned in those years that waiting to see whether an energy shock was temporary cost them credibility. In June 2025 American bombers struck Fordow and ended a twelve-day war; by these headlines a wider war with Iran and the closing of Hormuz followed in 2026. The Bank of England's warning that more rises will come if the war continues is a central bank declining to wait a second time, while Brazil and Mexico use the room their earlier high rates gave them.",
           "trajectoryIds": [
             "fordow-2025"
           ],
@@ -1032,9 +1401,10 @@
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "SHALE / DRONES / IMPORTERS",
-          "text": "Oil peaked at $147 a barrel in July 2008 and collapsed with the financial crisis, and in the years after two things changed who feels a Gulf war. American shale drilling lifted US crude output from about 5 million barrels a day in 2008 to more than 13 million by 2023, and in 2020 the United States became a net exporter of petroleum for the first time since at least 1949. A war that raises the oil price now helps American producers while still costing American drivers, so it reaches US politics through the pump rather than the trade balance. In September 2019 drones and missiles halved Saudi output at Abqaiq for days, showing how cheaply Gulf supply could be cut. Importers have no producers to offset the cost. The Philippines, Israel and the euro area buy nearly all their oil abroad, which is why a former Philippine central bank official, in the Manila Times, has to explain that tightening is not about the peso.",
+          "lens": "SHALE / SANCTIONS / PRODUCERS",
+          "text": "After 2008 the map of who sells oil changed. Shale drilling made the United States the largest producer by 2018, and in 2014 the price more than halved when OPEC chose not to cut. Brazil developed the pre-salt fields found off its coast in 2006 and 2007, and Mexico opened its oil sector in the 2013 energy reform. Russia, under sanctions after 2014, adopted a fiscal rule in 2017 to save revenue above a set price, which is why Kommersant can report record oil and gas income while the central bank warns of overheating. The Gulf meanwhile became the main risk: the Iran nuclear agreement of 2015 was abandoned by Washington in 2018, and drones halved Saudi output at Abqaiq in September 2019. Producers outside the strait gained from each scare. The war has made that gain large enough to appear in their rate decisions.",
           "trajectoryIds": [
+            "jcpoa-2015",
             "abqaiq-2019"
           ],
           "bookIds": []
@@ -1043,10 +1413,10 @@
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "GULF WARS / INFLATION TARGETS",
-          "text": "The rules that make a central bank hold rates against an oil shock were mostly written after 1989. New Zealand gave its central bank an inflation target in 1990; Brazil adopted one in 1999 after the real was devalued, the Philippines in 2002, and the European Central Bank began in 1999 with price stability as its first task. When Iraq invaded Kuwait in August 1990 the oil price more than doubled within months, the US slid into recession and George H. W. Bush lost the 1992 election on the economy. The invasion of Iraq in 2003 then removed Iran's main regional rival and left Tehran with influence from Baghdad to Beirut, part of why a war with Iran in this decade could close a strait. Brazil's Copom, which G1 reports holding the world's highest real interest rate, works inside the 1999 framework: it holds rates when prices rise, whatever the source, and lets employment, like the Greater ABC jobs figures, take the strain.",
+          "lens": "INFLATION TARGETS / RESERVES / CRISES",
+          "text": "Most of today's central banks were shaped in the 1990s. Mexico gave Banxico autonomy in 1994, the year of the peso crisis. Brazil ended hyperinflation with the Plano Real in 1994 and adopted an inflation target in 1999, and the Bank of England gained operational independence in May 1997. The Asian crisis of 1997 and Russia's default of 1998 taught importing countries that dollars held in reserve are their only defence against capital leaving at once. In 2002 the real lost a third of its value before Lula's election, and Brazil's central bank has since treated the exchange rate as something it must answer. Bangladesh learned the same lesson later: its reserves peaked near $48bn in 2021 and it took a $4.7bn IMF loan in 2023. The reserves now reported below $30bn after an Asian Clearing Union payment are that defence being spent.",
           "trajectoryIds": [
-            "iraq-2003"
+            "lula-2002"
           ],
           "bookIds": []
         },
@@ -1054,12 +1424,11 @@
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "OIL / ALLIANCE / SHOCK",
-          "text": "The postwar order tied the Gulf's oil to American protection. In February 1945 Roosevelt met Ibn Saud on a cruiser in the Great Bitter Lake, and the unwritten exchange of security for supply has shaped US policy in the region since. The exchange broke twice in ways that resemble this week. In October 1973 the Arab oil embargo quadrupled the price within months. In 1979 the Iranian revolution cut Iran's exports and the price more than doubled again; US inflation passed 13%, the Federal Reserve under Paul Volcker pushed its rate towards 20%, and Jimmy Carter lost the 1980 election with the Tehran hostages still held. Daniel Yergin's The Prize tells this as the century in which oil became the fact around which wars and elections were organised. The Herald Business report that oil fell more than 8% on a US vote is the same relation run the other way: a domestic result priced as a change in a Gulf war.",
+          "lens": "DOLLAR / OIL / BRETTON WOODS",
+          "text": "The order of 1945 priced oil in dollars and tied Gulf supply to American protection. Bretton Woods fixed currencies to the dollar in 1944, and Roosevelt met Ibn Saud on the Great Bitter Lake in February 1945. When the Arab embargo of October 1973 quadrupled the price, it showed that a regional war becomes a transfer of money from buying countries to selling ones. Britain answered with high rates and, in 1976, an IMF loan, while producers placed their surplus in Western banks that lent it to Latin America until Mexico's default in 1982. Daniel Yergin's The Prize tells that history with oil as the organising fact of the century. The present split follows the same line: the Bank of England, in a country that has imported oil again since 2005, raising rates, and Bangladesh paying in reserves, while sellers bank the difference.",
           "trajectoryIds": [
             "quincy-1945",
-            "oil-embargo-1973",
-            "tehran-1979"
+            "oil-embargo-1973"
           ],
           "bookIds": [
             "the-prize"
@@ -1067,139 +1436,140 @@
         }
       ],
       "articleIds": [
-        "n-12c10d769a2da4",
-        "n-7175b6a4e559b3",
-        "n-e3cc30a2afd9a9",
-        "n-45ef1a05d59a5f",
-        "n-dbcef0a415ddcf",
-        "n-f70949db9f13d7",
-        "n-3725924df63a2f",
-        "n-9d44c8a1c0d9f6",
-        "n-0237ed4d5677c4",
-        "n-50f4f8b0e26d58",
-        "n-250741902cfb8d",
-        "n-707e06e89553a3",
-        "n-c228877f6283df",
-        "n-60424e9fc5d9cd",
-        "n-95b7c939c029c5",
-        "n-37a52723ee2714"
+        "n-7387d204554e57",
+        "n-3457e66d2174da",
+        "n-3f58b744c47be9",
+        "n-8637e64ba4fc02",
+        "n-e984482a3f6e2f",
+        "n-1bf9faa427ba6f",
+        "n-c1eb87a3678076",
+        "n-6c7ce6da69aa51",
+        "n-a906a295e3356b",
+        "n-23b009b0895e32",
+        "n-8103c3a3cf650a",
+        "n-4dbc34e95dc836",
+        "n-4a2d5640158be8",
+        "n-140071e1fd6bd7",
+        "n-05ff46c85f0920",
+        "n-2ebdf5fd8d02a0",
+        "n-e2fb73c8fd2e14"
       ]
     },
     {
-      "id": "electoral-bodies-become-the-contest",
-      "line": "The bodies that run the count and draw the maps are now fought over before the vote, though the US redrawing failed on Tuesday.",
-      "kicker": "ADMINISTRATION / BOUNDARIES / TRUST",
+      "id": "parliaments-refuse-budgets",
+      "line": "Parliaments are refusing governments' budgets, so next year's tax and spending are set in the chamber rather than the cabinet.",
+      "kicker": "LEGISLATURES / TAXATION / MAJORITIES",
       "firmness": "plausible",
       "watch": [
         {
-          "what": "PAN, PRI or another Mexican opposition party goes to court or boycotts a vote over the appointment of the new INE head.",
+          "what": "Another national parliament outside France and Senegal votes down or forces withdrawal of a government's budget or main tax bill.",
+          "by": "2026-12-03",
+          "because": "If legislatures now set budgets rather than approve them, the refusals should not stop at two countries in one autumn.",
+          "id": "20261105T215902-parliaments-refuse-budgets-1"
+        },
+        {
+          "what": "France's government drops or rewrites a named tax or spending measure to win votes for its budget.",
           "by": "2026-11-30",
-          "because": "If the commission's leadership is itself the contest, the opposition should escalate beyond a refusal to endorse rather than wait for the next election.",
-          "id": "20261104T215151-electoral-bodies-become-the-contest-1"
-        },
-        {
-          "what": "Nigeria's INEC suspends or reverses its Warri ward changes, or is taken to court over them.",
-          "by": "2026-12-02",
-          "because": "The join holds that disputes now attach to the machinery before polling, so an objection to ward lines should become a legal or administrative fight, not a campaign issue.",
-          "id": "20261104T215151-electoral-bodies-become-the-contest-2"
+          "because": "The join says the chamber now decides, and the favoured path is concession rather than force, which would show first where the rejection was unanimous.",
+          "id": "20261105T215902-parliaments-refuse-budgets-2"
         }
       ],
       "ahead": {
-        "precedent": "Mexico in 2006 is the nearest case: the IFE declared Felipe Calderón the winner by 0.56 points, Andrés Manuel López Obrador refused the count and camped his supporters in the Zócalo, and the 2007 reform that followed replaced the IFE's leadership. Then the opposition attacked the commission. Now the movement López Obrador founded governs and is reshaping its successor, and in the United States the party in office redrew maps and still lost.",
+        "precedent": "In December 2024 Michel Barnier forced France's social security budget through with Article 49.3 and was brought down by a censure motion on 4 December, the first French government to fall that way since 1962. A special law carried spending into 2025, and François Bayrou passed a budget in February 2025 after concessions to the Socialists. The difference now is that the rejection was unanimous, it came with nationwide wage strikes, and legislatures in Senegal, the Netherlands and the United States are resisting at the same time.",
         "paths": [
           {
-            "name": "Majorities appoint the election bodies",
+            "name": "Budgets pass late, by concession",
             "weight": "favoured",
-            "text": "Over the next year governing parties with large majorities fill commission posts with allies: Morena's majority installs its INE head, and the Nigerian disputes carry into the 2027 campaign. Opposition parties answer by boycotting appointments rather than winning them back. Mexico's supermajority and the lack of any reported compromise point this way.",
-            "sign": "Mexico's Chamber of Deputies confirms the new INE head without opposition votes."
+            "text": "Between December and February the French, Dutch and Senegalese budgets pass after governments give up named measures, with stopgap laws covering the gap. Governments prefer concession because forcing a budget risks the fall Barnier suffered. In Washington a short-term funding bill carries the government into the new Congress.",
+            "sign": "A government announces it is dropping a tax rise or spending cut to win budget votes."
           },
           {
-            "name": "Courts become the second count",
+            "name": "A government falls on its budget",
             "weight": "possible",
-            "text": "Disputes over wards, ballots and legal readings move into courts before the votes, in Nigeria's tribunals, South Africa's Electoral Court and Pakistan's new constitutional court, and results are settled months later. It is less likely to dominate because the Pakistani headline shows a commission rejecting a judge's reading rather than deferring to one.",
-            "sign": "A court suspends an electoral commission's boundary or security decision."
+            "text": "A censure motion in France, or a lost vote elsewhere, brings down a government before Christmas. Possible because no deputy voted for the French budget and the strikes are large.",
+            "sign": "A censure motion against the French government passes."
           },
           {
-            "name": "Mid-decade maps abandoned",
+            "name": "Budgets forced through unchanged",
             "weight": "unlikely",
-            "text": "After Florida and Texas, US parties stop redrawing districts between censuses. It is unlikely because the 2030 census is close and both parties now control enough state legislatures to keep trying.",
-            "sign": "A state legislature repeals or freezes a congressional map adopted in 2025."
+            "text": "Governments use decrees or constitutional procedures to pass budgets as written. Unlikely because the cost of doing so in France was shown in 2024.",
+            "sign": "France's government passes its budget by Article 49.3 without changes."
           }
         ],
-        "decade": "Over ten years the trajectory points to more countries with election bodies trusted by only one side, and to results accepted mainly when the margin is too large to argue over, as it was in the United States this week."
+        "decade": "Over ten years, with fragmented party systems and high debt, budgets in many democracies are likely to be set by shifting coalitions in the chamber, making fiscal policy slower and more often provisional than when finance ministries wrote it alone."
       },
       "continues": "",
       "change": "",
-      "claim": "Mexico's main opposition party will not endorse a new INE head linked to Morena; Delta state lawmakers in Nigeria fault INEC over changes to Warri's wards; South Africa's IEC has imposed a security override after ballots were stolen in a province; Pakistan's election commission has rejected a retired Supreme Court judge's reading of electoral cases; Israel's election chief warned of danger to democracy as he delivered the Knesset results; and in the United States the Republican redistricting drive failed while Ohio adopted photo ID. In each the argument is about the machinery of the election rather than the candidates: who heads the commission, where the lines fall, how ballots are kept, who interprets the rules. The US result shows where the strategy stops: a map drawn for one party did not hold against a large swing.",
+      "claim": "French deputies unanimously rejected their government's budget ahead of nationwide strikes for higher wages, Senegal's parliament asked for the 2027 budget bill to be withdrawn, Rob Jetten warned Dutch MPs that voting down his tax plan would cost billions, Japan's prime minister faces a time-limited committee session over a consumption tax cut, and a Democratic Congress must now fund the US government. In each case the government has proposed next year's taxes and spending and the legislature, not the cabinet, is deciding what passes. The common condition is that governments no longer command the chambers they answer to, either because they lack a majority or because their own members will not follow.",
       "events": [
         {
-          "label": "Mexico's opposition rejects new INE head",
+          "label": "French deputies reject the budget",
           "articleIds": [
-            "n-7059d12b159d71",
-            "n-1c2dbd427f10f8"
+            "n-5d72f15bca2e01",
+            "n-2db5fd141cb20e",
+            "n-e58ddb0e00dfbf"
           ]
         },
         {
-          "label": "Nigerian lawmakers fault INEC ward changes",
+          "label": "Wage strikes and marches in France",
           "articleIds": [
-            "n-897b1962191caf"
+            "n-8d94766887d14f",
+            "n-a79875c3d7dc08",
+            "n-b453c8c4b94d54"
           ]
         },
         {
-          "label": "South Africa's IEC acts after ballot theft",
+          "label": "Senegal's parliament asks for budget withdrawal",
           "articleIds": [
-            "n-0a73999e3d4d58",
-            "n-be06cf5279bfc3"
+            "n-611c6e4803b690"
           ]
         },
         {
-          "label": "Pakistan's ECP rejects retired judge's reading",
+          "label": "Dutch tax plan faces defeat",
           "articleIds": [
-            "n-7ce9abacfe203b"
+            "n-88b5ae4a625b53"
           ]
         },
         {
-          "label": "Israel's election chair warns at handover",
+          "label": "Japan's consumption tax cut in committee",
           "articleIds": [
-            "n-72a08cd7f61fb7"
+            "n-0ac513ad123e0b"
           ]
         },
         {
-          "label": "US redistricting fails, Ohio adopts photo ID",
+          "label": "New Congress inherits US funding fight",
           "articleIds": [
-            "n-1e7dd50c348867",
-            "n-12b476ee4cc3a2",
-            "n-58e3e07625eb5b",
-            "n-691604bbb67340"
+            "n-84aa37ac24036c"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "b-r1",
+          "id": "parliaments-refuse-budgets-obs1",
           "kind": "observation",
-          "label": "Commissions under challenge",
+          "label": "Budgets refused or in doubt",
           "fragments": [
             {
-              "id": "b-f1",
-              "label": "Mexico and Nigeria",
-              "text": "Excélsior (Mexico) reports that the PAN will not endorse a new INE head linked to Morena, and a Vanguardia column calls the episode a battle lost by 'the regime' but not the war. Punch (Nigeria) reports Delta state lawmakers faulting INEC over ward changes in Warri, filed under the 2027 election.",
+              "id": "parliaments-refuse-budgets-f1",
+              "label": "France and Senegal",
+              "text": "CNBC reports the French budget unanimously rejected by lawmakers ahead of nationwide strikes, and France Inter asks what political answer can follow the 5 November mobilisations. Sud Ouest reports the Dordogne prefect facing dozens of mayors angry at the state. Channel Africa reports Senegal's parliament requesting the withdrawal of the 2027 budget bill.",
               "articleIds": [
-                "n-7059d12b159d71",
-                "n-1c2dbd427f10f8",
-                "n-897b1962191caf"
+                "n-5d72f15bca2e01",
+                "n-2db5fd141cb20e",
+                "n-e58ddb0e00dfbf",
+                "n-611c6e4803b690"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "b-f2",
-              "label": "South Africa and Pakistan",
-              "text": "Channel Africa reports South Africa's IEC implementing a security override after ballot theft in a province, and Business Day asks what is at stake in the municipal elections. SAMAA (Pakistan) reports the Election Commission rejecting retired Justice Mansoor Ali Shah's interpretation of electoral cases.",
+              "id": "parliaments-refuse-budgets-f2",
+              "label": "The Netherlands, Japan, the United States",
+              "text": "Nieuws.nl reports Jetten saying that voting down his tax plan would cost billions. Nikkan Gendai in Japan calls the consumption tax cut a farce and reports that Prime Minister Takaichi will answer questions in committee on the 6th with a one-hour limit. Fortune says Congress's first task after the midterms is to keep the US government funded, before the $40tn debt is addressed.",
               "articleIds": [
-                "n-0a73999e3d4d58",
-                "n-be06cf5279bfc3",
-                "n-7ce9abacfe203b"
+                "n-88b5ae4a625b53",
+                "n-0ac513ad123e0b",
+                "n-84aa37ac24036c"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1207,29 +1577,18 @@
           ]
         },
         {
-          "id": "b-r2",
+          "id": "parliaments-refuse-budgets-obs2",
           "kind": "observation",
-          "label": "Counts and maps tested",
+          "label": "Wage protests in France",
           "fragments": [
             {
-              "id": "b-f3",
-              "label": "Israel's handover",
-              "text": "The Jerusalem Post reports President Herzog receiving the Knesset election results while Sohlberg, who delivered them, warned of danger to democracy. The headline does not say whom the warning was aimed at.",
+              "id": "parliaments-refuse-budgets-f3",
+              "label": "Marches for higher wages",
+              "text": "NOS in the Netherlands reports France protesting again for higher wages while the government tries to prevent unrest. La Dépêche reports tear gas, damaged shops and an attempt to reach the ring road in Toulouse. ENIKOS in Greece reports Alexis Tsipras marching in Paris and saying France is resisting policies that are breaking society apart.",
               "articleIds": [
-                "n-72a08cd7f61fb7"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "b-f4",
-              "label": "The American maps",
-              "text": "WSLS (US) reports that Trump-backed Republican redistricting sought a midterm edge and did not work, and Al Jazeera says the gamble backfired in Florida as Democrats held ground. Khaberni (Jordan) gives a preliminary House count of 237 Democrats to 139 Republicans. Ideastream reports that an amendment requiring photo ID for in-person voting in Ohio passed easily on the same night.",
-              "articleIds": [
-                "n-1e7dd50c348867",
-                "n-12b476ee4cc3a2",
-                "n-691604bbb67340",
-                "n-58e3e07625eb5b"
+                "n-8d94766887d14f",
+                "n-a79875c3d7dc08",
+                "n-b453c8c4b94d54"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1237,31 +1596,29 @@
           ]
         },
         {
-          "id": "b-r3",
+          "id": "parliaments-refuse-budgets-int1",
           "kind": "interpretation",
-          "label": "The machinery as the contest",
+          "label": "Who sets the budget",
           "fragments": [
             {
-              "id": "b-f5",
-              "label": "What is being decided",
-              "text": "In each story the thing in dispute is part of the election's machinery: the head of Mexico's commission, the ward lines in Warri, the custody of South African ballots, the reading of Pakistani electoral law, the standing of Israel's election chief, the shape of American districts and Ohio's ID rule. Governing parties have most to gain from controlling these, and opposition parties now contest them before any vote is cast.",
+              "id": "parliaments-refuse-budgets-f4",
+              "label": "The chamber decides",
+              "text": "These are different budgets answering the same question, who decides next year's taxes, in the same way. In France a unanimous rejection means not one deputy, including the government's own supporters, voted for the plan. In Senegal the request to withdraw comes from a chamber in which the governing party has a large majority, so the refusal is from inside the government's own camp.",
               "articleIds": [
-                "n-7059d12b159d71",
-                "n-897b1962191caf",
-                "n-7ce9abacfe203b",
-                "n-1e7dd50c348867"
+                "n-5d72f15bca2e01",
+                "n-611c6e4803b690"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "b-f6",
-              "label": "Where the strategy stops",
-              "text": "Redrawn districts are designed to win close contests, and the US result shows them failing when the swing is large: Florida's map backfired in a vote that Khaberni's preliminary count puts at 237 to 139. The rules can still be changed where the margin is not in question, as Ohio's photo ID amendment shows on the same night.",
+              "id": "parliaments-refuse-budgets-f5",
+              "label": "Cuts and tax cuts alike",
+              "text": "The refusals are not only of austerity. In Japan the argument is over a tax cut the government promised, in the Netherlands over a tax plan, and in the United States over whether the government is funded at all. What moves to the chamber is the decision itself, whichever direction it takes.",
               "articleIds": [
-                "n-12b476ee4cc3a2",
-                "n-691604bbb67340",
-                "n-58e3e07625eb5b"
+                "n-0ac513ad123e0b",
+                "n-88b5ae4a625b53",
+                "n-84aa37ac24036c"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1269,27 +1626,19 @@
           ]
         },
         {
-          "id": "b-r4",
+          "id": "parliaments-refuse-budgets-break",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "b-f7",
-              "label": "Ordinary process",
-              "text": "Electoral bodies are argued over in every election. An opposition refusing to endorse an appointee, lawmakers complaining about wards and a commission tightening security after a theft are routine events. The South African theft is a crime against the commission, not by it, and Pakistan's dispute is about a former judge's legal opinion. Israel's warning may concern attacks on the committee rather than any capture of it.",
+              "id": "parliaments-refuse-budgets-f6",
+              "label": "An ordinary budget season",
+              "text": "Autumn is when most budgets are voted, and rejections at first reading are common; in France the government still has constitutional tools to pass a budget. Senegal's request may be about debt figures and the IMF rather than about who holds power. The cases part sharply: France has a chamber with no majority, Senegal a majority party pressing its own executive, Japan a government arguing over its own campaign promise, and the United States a divided government after an election. Only the French and Senegalese cases are outright refusals.",
               "articleIds": [
-                "n-0a73999e3d4d58",
-                "n-7ce9abacfe203b",
-                "n-72a08cd7f61fb7"
+                "n-5d72f15bca2e01",
+                "n-611c6e4803b690",
+                "n-0ac513ad123e0b"
               ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "b-f8",
-              "label": "What they do not share",
-              "text": "Only in Mexico is a governing party reported shaping the commission itself. US districts are drawn by state legislatures, not an election body, and the drawing failed. The join may be a sample of normal procedure from a week with many elections.",
-              "articleIds": [],
               "bookIds": [],
               "trajectoryIds": []
             }
@@ -1301,295 +1650,19 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "DENIAL / REFORM / REDISTRICTING",
-          "text": "In this decade losing a count stopped being the end of the argument. The storming of the Capitol in January 2021 and the attack on Brasília's three powers on 8 January 2023 showed that the rules of the count could be disputed by force. Governments then turned to the bodies themselves. In Mexico, Andrés Manuel López Obrador's plan to restructure the INE failed in Congress in 2022 and his 'Plan B' was struck down by the Supreme Court in 2023; a judicial reform passed in September 2024 put judges to popular vote. In Pakistan the 26th and 27th amendments of 2024 and 2025 changed how judges are chosen and which court hears constitutional cases, and Justice Mansoor Ali Shah resigned in protest. In the United States, Texas redrew its congressional map in 2025 at the president's urging and other states replied in kind. The Al Jazeera report that Florida's redistricting backfired is the first result of that contest.",
-          "trajectoryIds": [
-            "brasilia-2023"
-          ],
+          "lens": "DEBT / HUNG CHAMBERS / SHUTDOWNS",
+          "text": "Pandemic spending raised public debt across the rich world and left less room in each following budget. Then majorities went. Macron lost his majority in June 2022, and his snap election of July 2024 produced an assembly with no workable majority; Michel Barnier and François Bayrou both lost office over budgets within a year. In the Netherlands the Schoof cabinet collapsed in June 2025 and D66 under Rob Jetten came first in the October 2025 election. Japan's Liberal Democrats lost their lower house majority in October 2024 and their upper house majority in July 2025, so Sanae Takaichi governs by deals and a consumption tax cut became part of the price. Washington had its longest shutdown, 43 days, in late 2025. Senegal's new government found in 2024 that past debt had been understated, and the IMF paused lending. By these headlines, each budget this autumn meets a chamber its cabinet cannot count on.",
+          "trajectoryIds": [],
           "bookIds": []
         },
         {
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "IDENTIFICATION / RULE-WRITING / REFEREES",
-          "text": "The years after 2008 gave the fight over election machinery its terms. In 2013 the US Supreme Court, in Shelby County v. Holder, ended the rule that states with a history of discrimination must clear changes to voting rules in advance, and a decade of voter identification laws followed; the Ohio photo ID amendment reported by Ideastream passed inside that change. Mexico's 2014 reform turned the federal IFE into the national INE, so that one body now runs every election and its leadership is worth fighting for. Nigeria's 2015 election, run with card readers, was the first in which a sitting president lost and conceded. In Britain the Electoral Commission fined Vote Leave in 2018 over spending in the 2016 referendum, and the commission itself then became a target of the winning side. Steven Levitsky and Daniel Ziblatt's How Democracies Die named the pattern in 2018: elected governments capturing the referees of political competition.",
+          "lens": "AUSTERITY / BOND MARKETS / NEW PARTIES",
+          "text": "The fragmentation of the chambers began with the austerity after 2008. In the euro crisis, budgets were written with bond markets and creditors at the table: Greece signed its first bailout in May 2010, and voters who rejected its terms built new parties. Spain's indignados camped in the Puerta del Sol in May 2011 and their movement became Podemos. In Greece, Syriza under Alexis Tsipras won in January 2015 and held a referendum against the creditors' terms that July. Adam Tooze's Crashed traces how a financial crisis became a decade of politics. The centre parties that had passed budgets alone for decades lost their share, in France as elsewhere: in 2017 neither the Socialists nor the Republicans reached the presidential run-off. Tsipras marching in Paris against policies he says are breaking society apart links the austerity of the 2010s directly to this autumn's budget fight.",
           "trajectoryIds": [
-            "brexit-2016"
-          ],
-          "bookIds": [
-            "how-democracies-die"
-          ]
-        },
-        {
-          "span": "since-1989",
-          "from": "",
-          "label": "Since 1989",
-          "lens": "TRANSITIONS / COMMISSIONS / OBSERVERS",
-          "text": "Most of the commissions in these headlines were built in the decade after 1989, in what Samuel Huntington called the third wave of democratisation. Mexico created the IFE in 1990 after the 1988 count, during which the government's computer system 'crashed' and the PRI won, and made it independent of the interior ministry in 1996. South Africa's first Independent Electoral Commission ran the 1994 election, and a permanent one was set up by law in 1996. Nigeria's INEC was created in 1998 for the return to civilian rule. The model was a body above the parties, watched by foreign observers. Its limit showed in Belgrade in October 2000, when Milošević's commission declared a run-off and an opposition parallel count, backed by the streets, overruled it. The Punch report of Delta lawmakers faulting INEC over Warri's wards is a dispute inside that model: the complaint is about where the lines fall, not about a stolen count.",
-          "trajectoryIds": [
-            "belgrade-2000"
-          ],
-          "bookIds": [
-            "third-wave"
-          ]
-        },
-        {
-          "span": "since-1945",
-          "from": "",
-          "label": "Since 1945",
-          "lens": "SUFFRAGE / BOUNDARIES / ONE PARTY",
-          "text": "The idea that a neutral body should run the count spread with decolonisation and universal suffrage after 1945. India's Election Commission was set up in 1950 and ran its first general election in 1951-52 for about 173 million voters. Britain created standing boundary commissions in 1944. In the United States the Supreme Court ruled in Baker v. Carr in 1962 and Reynolds v. Sims in 1964 that districts must hold roughly equal populations, and the Voting Rights Act of 1965 put federal oversight on states that had excluded Black voters. Israel placed a Supreme Court justice at the head of its Central Elections Committee, which is why the Jerusalem Post reports a judge, Sohlberg, handing the results to President Herzog with a warning. Mexico was the counter-model: until 1990 the interior ministry of the PRI state ran elections, and the government that fired on students at Tlatelolco in 1968 also counted the votes.",
-          "trajectoryIds": [
-            "tlatelolco-1968"
-          ],
-          "bookIds": []
-        }
-      ],
-      "articleIds": [
-        "n-7059d12b159d71",
-        "n-1c2dbd427f10f8",
-        "n-897b1962191caf",
-        "n-0a73999e3d4d58",
-        "n-be06cf5279bfc3",
-        "n-7ce9abacfe203b",
-        "n-72a08cd7f61fb7",
-        "n-1e7dd50c348867",
-        "n-12b476ee4cc3a2",
-        "n-691604bbb67340",
-        "n-58e3e07625eb5b"
-      ]
-    },
-    {
-      "id": "us-vote-read-through-own-disputes",
-      "line": "Abroad the midterm rout is read as a verdict on each capital's dispute with Washington, while the president still runs the war.",
-      "kicker": "ALLIES / SELF-INTEREST / EXECUTIVE POWER",
-      "firmness": "firm",
-      "watch": [
-        {
-          "what": "A European party leader other than Sánchez says the US result helps their own party in a coming election.",
-          "by": "2026-11-20",
-          "because": "The join holds that readers abroad turn the vote into material for their own disputes, so other leaders facing elections should do what Sánchez did.",
-          "id": "20261104T215151-us-vote-read-through-own-disputes-1"
-        },
-        {
-          "what": "The White House announces a new tariff or tariff threat against an allied country.",
-          "by": "2026-11-28",
-          "because": "If the readings that call the vote a general turn are wrong outside the war, pressure on allies over trade continues whatever Congress looks like.",
-          "id": "20261104T215151-us-vote-read-through-own-disputes-2"
-        }
-      ],
-      "ahead": {
-        "precedent": "The closest case is November 2006, when Democrats won both houses in a vote widely read as a rejection of the Iraq war; governments and commentators abroad expected a withdrawal, and in January 2007 George W. Bush announced a troop increase instead. The difference now is that the president himself has named the war as a cause of the defeat, he cannot run again, and his vice-president is already positioning for 2028 against it.",
-        "paths": [
-          {
-            "name": "War eases, trade disputes stay",
-            "weight": "favoured",
-            "text": "The White House moves to pause or wind down the war with Iran, the one policy its own leaders have tied to the loss, while tariffs and pressure on allies continue. By spring, capitals that read the vote as relief on trade, Bangkok and Ottawa among them, find little changed. Neither Trump's nor Vance's explanation of the defeat mentions trade, and trade policy stays largely with the president.",
-            "sign": "The White House announces a new tariff or tariff threat against an ally within weeks of the vote."
-          },
-          {
-            "name": "Capitals wait for 2029",
-            "weight": "possible",
-            "text": "Governments treat the administration as a lame duck, as Jordan's Ammon called it, and slow their deals with Washington to wait for the next president. Trade and security talks stall through 2027. This is less likely while the president keeps the power to impose tariffs on those who wait.",
-            "sign": "A government postpones signing a trade agreement with the United States, citing the situation in Washington."
-          },
-          {
-            "name": "Congress reins in the president",
-            "weight": "unlikely",
-            "text": "The new Congress, sitting from 3 January 2027, cuts funding for the war or overturns tariffs. It is unlikely because the president can veto such bills and Democrats do not hold two-thirds of either house.",
-            "sign": "The House passes a bill to cut off funds for operations against Iran."
-          }
-        ],
-        "decade": "Over the next decade the trajectory points to a world that treats each US election as a vote on its own relations with Washington and hedges between votes, pricing American commitments as lasting one term."
-      },
-      "continues": "",
-      "change": "",
-      "claim": "Iran's leaders called the US result a rejection of Trump's war while Khamenei said it would not change Washington's Iran policy; Egyptian commentators named Netanyahu among the losers; Pedro Sánchez said it would help Spain's socialists; Thai firms cheered; Canada's National Post asked whether Trump still wants a deal; Polish analysts said his foreign policy would not change. Each country reads the same vote through the dispute it has with Washington, and the reading says more about that dispute than about Congress. Those who call it a turn are those with most to gain at home from saying so, and those who doubt it point out that the war and much of trade policy run through the White House, not Congress.",
-      "events": [
-        {
-          "label": "Iran's leaders claim and discount the result",
-          "articleIds": [
-            "n-4100e78689298a",
-            "n-6d4058b7c16c58",
-            "n-e7ce04bf471bb7",
-            "n-07de2fa9742d97"
-          ]
-        },
-        {
-          "label": "Egyptian commentators on Netanyahu and the war",
-          "articleIds": [
-            "n-4242d088f991c2",
-            "n-7fad524674d1d7"
-          ]
-        },
-        {
-          "label": "Sánchez claims a lift for Spain's socialists",
-          "articleIds": [
-            "n-e2904840c701e3"
-          ]
-        },
-        {
-          "label": "Thai firms and Canada weigh trade",
-          "articleIds": [
-            "n-33f3d7f481bbd3",
-            "n-a58f10cd9d6730"
-          ]
-        },
-        {
-          "label": "Polish president and analysts expect continuity",
-          "articleIds": [
-            "n-74100531e117f5",
-            "n-c389076ee184f2"
-          ]
-        },
-        {
-          "label": "Leaders who clashed with Trump stay cautious",
-          "articleIds": [
-            "n-2f2a23151c0113"
-          ]
-        }
-      ],
-      "rungs": [
-        {
-          "id": "c-r1",
-          "kind": "observation",
-          "label": "Readings in Tehran and Cairo",
-          "fragments": [
-            {
-              "id": "c-f1",
-              "label": "Iran's two messages",
-              "text": "bdnews24 (Bangladesh) reports Iranian officials gloating, and WSLS (US) reports Iran's leaders saying voters rejected Trump's war. Habertürk (Turkey) reports Khamenei saying the results will not change Washington's Iran policy, and Al Jazeera Arabic (Qatar) carries his comment on Trump's defeat beside Iran's announcement that it shot down a US drone over the Strait of Hormuz.",
-              "articleIds": [
-                "n-4100e78689298a",
-                "n-6d4058b7c16c58",
-                "n-e7ce04bf471bb7",
-                "n-07de2fa9742d97"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "c-f2",
-              "label": "Egypt's commentators",
-              "text": "Al-Watan (Egypt) quotes a former deputy foreign minister saying the 'blue wave' overturns the balance and that Netanyahu is among the biggest losers. Masrawy asks whether the Democrats will succeed in stopping the war in Iran. Neither headline reports an Egyptian government position.",
-              "articleIds": [
-                "n-4242d088f991c2",
-                "n-7fad524674d1d7"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "c-r2",
-          "kind": "observation",
-          "label": "Readings in Madrid, Bangkok, Ottawa and Warsaw",
-          "fragments": [
-            {
-              "id": "c-f3",
-              "label": "Elections and trade",
-              "text": "Anadolu (Turkey) reports Pedro Sánchez arguing that the US results will benefit the socialists in Spain's elections. The Bangkok Post reports Thai firms cheering the rejection of Trump, and the National Post (Canada) asks whether Trump will still want to make a deal with Canada now the midterms are over.",
-              "articleIds": [
-                "n-e2904840c701e3",
-                "n-33f3d7f481bbd3",
-                "n-a58f10cd9d6730"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "c-f4",
-              "label": "Allies and analysts",
-              "text": "Onet (Poland) runs an analysis saying electoral defeat will not change Trump's foreign policy, and reports a reaction from President Nawrocki's chancellery without the headline saying what it was. WSLS (US) reports world leaders who sparred with Trump expressing relief mixed with caution.",
-              "articleIds": [
-                "n-74100531e117f5",
-                "n-c389076ee184f2",
-                "n-2f2a23151c0113"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "c-r3",
-          "kind": "interpretation",
-          "label": "Each reads its own dispute",
-          "fragments": [
-            {
-              "id": "c-f5",
-              "label": "Readings that match interests",
-              "text": "Every reading matches a quarrel the reader has with Washington: Iran's war, Egypt's view of Israel, Spain's coming election, Thailand's exporters, Canada's trade deal, Poland's alliance with Trump. The voices that call the vote a turn, Iranian officials, Thai firms and Sánchez, each gain at home from saying so. The voices that doubt it, Khamenei and Onet's analyst, are making a point about American powers: the new Congress sits only in January, and the president keeps command of the war and much of trade policy.",
-              "articleIds": [
-                "n-4100e78689298a",
-                "n-33f3d7f481bbd3",
-                "n-e2904840c701e3",
-                "n-e7ce04bf471bb7",
-                "n-74100531e117f5"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "c-f6",
-              "label": "Two audiences in Tehran",
-              "text": "Iran's leadership says both things at once: that voters rejected the war, and that US policy will not change. The first is for Iranians and for the region; the second keeps Iran's 'maximum deterrence' position in place while, as Al Jazeera Arabic reports, it claims a US drone shot down. The reading serves the government's own dispute in both directions.",
-              "articleIds": [
-                "n-6d4058b7c16c58",
-                "n-e7ce04bf471bb7",
-                "n-07de2fa9742d97"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "c-r4",
-          "kind": "break",
-          "label": "The case against",
-          "fragments": [
-            {
-              "id": "c-f7",
-              "label": "The readings may be right",
-              "text": "Trump himself said the war contributed to the defeat, so Iranian officials and Egyptian commentators who link the vote to the war are repeating the president rather than projecting their own interests. Several of the voices are television commentators, not governments. The sample is what reached English headlines, which favours sharp quotations over cautious statements.",
-              "articleIds": [],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "c-f8",
-              "label": "What they do not share",
-              "text": "Iran is at war with the United States; Spain's claim concerns a domestic campaign; Thailand's concerns exporters' costs; Poland's president is a Trump ally whose reaction the headline does not describe. These are different relationships, and the vote changes each of them differently, so a shared pattern of reading may be no more than the fact that everyone has some interest in Washington.",
-              "articleIds": [],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        }
-      ],
-      "horizons": [
-        {
-          "span": "since-2020",
-          "from": "",
-          "label": "Since 2020",
-          "lens": "TARIFFS / ALLIES / HEDGING",
-          "text": "Allied governments began the decade watching the Capitol stormed on 6 January 2021 after a disputed count, and concluded that American commitments might last only until the next election. Trump's second term, from January 2025, gave almost every government its own dispute with Washington. The April 2025 tariffs hit Thailand with a high rate that was later reduced in negotiation. Canada faced tariffs and talk of annexation and elected Mark Carney that month on a promise to stand up to Washington. Spain refused the new NATO spending target at the Hague summit in June 2025 and was threatened with trade measures. Poland elected Karol Nawrocki after Trump received him at the White House during the campaign. Each government now reads a US vote for what it does to its own case. That is why the Bangkok Post reports Thai firms cheering and Anadolu reports Pedro Sánchez claiming the result for Spain's socialists.",
-          "trajectoryIds": [
-            "washington-2021"
-          ],
-          "bookIds": []
-        },
-        {
-          "span": "since-2008",
-          "from": "",
-          "label": "Since 2008",
-          "lens": "DOLLAR / SWAP LINES / MULTIPOLARITY",
-          "text": "The crisis of 2008 showed foreign governments how much of their fate sat in Washington. Adam Tooze's Crashed describes how the Federal Reserve's dollar swap lines kept European and Asian banks alive in 2008 and 2009, and how the House's rejection of the bank rescue on 29 September 2008 moved markets from Seoul to Frankfurt. Since then capitals have treated US politics as their own business. The 2010 midterms, the 2016 election and the 2018 midterms were all watched abroad for their effect on trade. The 2018 result gave Democrats the House but left Trump's steel and China tariffs in place, the precedent behind Onet's analysis that defeat will not change his foreign policy. In the same years China became the world's second economy, and governments from Bangkok to Cairo learned to weigh the United States as one power among several rather than the only one.",
-          "trajectoryIds": [
-            "lehman-2008"
+            "sol-2011"
           ],
           "bookIds": [
             "crashed"
@@ -1599,152 +1672,149 @@
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "UNIPOLARITY / LIVE NEWS / AUDIENCE",
-          "text": "After 1989 the United States was the one power whose elections mattered everywhere, and the means of watching them arrived at the same time. CNN broadcast the Gulf War live in 1991; the web became a mass medium after Netscape's listing in 1995; Al Jazeera began broadcasting from Doha in 1996. By 2000 the Florida recount could be followed hour by hour in Cairo. Benedict Anderson argued that newspapers read at the same hour made strangers into one national public; US results now produce something like that across borders, without the nation. In the register of what was looked up on 3 November, the US elections were among the most-read Wikipedia pages in twelve language editions, from Persian to Turkish. Readers in Tehran and Ankara were following the same results, which is why Al Jazeera Arabic reports Khamenei's comment on the vote within hours, beside Iran's claim about a US drone.",
-          "trajectoryIds": [
-            "netscape-1995"
-          ],
-          "bookIds": [
-            "imagined-communities"
-          ]
+          "lens": "MAASTRICHT / CONSUMPTION TAX / CFA",
+          "text": "The fiscal rules these budgets answer to date from the years after the Cold War. The Maastricht treaty of 1992 set the 3% deficit limit that French and Dutch budgets are still judged against, and the euro's launch in 1999 removed devaluation as a way out. Senegal's rules come from the West African Economic and Monetary Union, created in January 1994 in the same month the CFA franc was devalued by half, which binds its budget to regional deficit ceilings and to the IMF's view of its debt. Japan introduced its consumption tax in April 1989 at 3%, raised it to 5% in 1997, 8% in 2014 and 10% in 2019, and each rise cost or nearly cost a government its standing. The committee session Nikkan Gendai calls a farce is the latest argument over a tax that has shaped Japanese elections for thirty-seven years.",
+          "trajectoryIds": [],
+          "bookIds": []
         },
         {
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "HEGEMONY / INTERVENTION / ALLIANCE",
-          "text": "For most of the years after 1945 it was Washington that treated other countries' elections as its business. It backed the Brazilian generals who took power in 1964 and, after Salvador Allende won in Chile in 1970, set out to damage the Chilean economy. The reverse flow was rarer, and its clearest early case came at Suez. Britain and France attacked Egypt at the end of October 1956; the US presidential election fell on 6 November, and Eisenhower, re-elected that day, forced a ceasefire on his allies within hours. Egypt learned then that a vote in America could decide a war in the Middle East. The Al-Watan and Masrawy commentators who ask whether the Democrats will stop the war in Iran, and who count Netanyahu among the losers, are reading from that lesson. The difference is that in 1956 the re-elected president turned on his allies, while this week voters turned on the president's party.",
+          "lens": "PARLIAMENTS / WELFARE STATE / WAGES",
+          "text": "The postwar welfare states made the budget the main thing a parliament decides, and France wrote its constitution around the danger of that. The Fourth Republic had more than twenty governments in twelve years, many of them brought down over money, so the constitution of 1958 gave the government Article 49.3, which passes a bill unless the assembly removes the government. Wage claims were settled outside parliament: in May 1968 ten million strikers won the Grenelle agreements, which raised the minimum wage by 35%. Tony Judt's Postwar describes how that settlement depended on growth that paid for both wages and services. The 5 November marches for higher wages and a budget rejected without a single vote in favour test both arrangements at once, with workers asking for more and deputies refusing to pass a plan for less.",
           "trajectoryIds": [
-            "suez-1956",
-            "santiago-1970",
-            "brazil-1964"
+            "paris-1968"
           ],
-          "bookIds": []
+          "bookIds": [
+            "postwar"
+          ]
         }
       ],
       "articleIds": [
-        "n-4100e78689298a",
-        "n-6d4058b7c16c58",
-        "n-e7ce04bf471bb7",
-        "n-07de2fa9742d97",
-        "n-4242d088f991c2",
-        "n-7fad524674d1d7",
-        "n-e2904840c701e3",
-        "n-33f3d7f481bbd3",
-        "n-a58f10cd9d6730",
-        "n-74100531e117f5",
-        "n-c389076ee184f2",
-        "n-2f2a23151c0113"
+        "n-5d72f15bca2e01",
+        "n-2db5fd141cb20e",
+        "n-e58ddb0e00dfbf",
+        "n-611c6e4803b690",
+        "n-88b5ae4a625b53",
+        "n-0ac513ad123e0b",
+        "n-84aa37ac24036c",
+        "n-8d94766887d14f",
+        "n-a79875c3d7dc08",
+        "n-b453c8c4b94d54"
       ]
     },
     {
-      "id": "ai-errors-fall-on-adopters",
-      "line": "Four years after ChatGPT, responsibility for AI's errors is being placed on those who adopt it rather than on those who build it.",
-      "kicker": "AUTOMATION / LIABILITY / WORK",
+      "id": "soldiers-do-police-work",
+      "line": "Governments now send soldiers to keep ordinary civil order at home, and police seek rules on force closer to a soldier's.",
+      "kicker": "TROOPS / CIVILIAN CONTROL / THE LAW",
       "firmness": "tentative",
       "watch": [
         {
-          "what": "A court, regulator or professional body fines or sanctions a company or professional for publishing AI-generated errors.",
-          "by": "2026-12-01",
-          "because": "If responsibility lands on adopters, the next enforcement over an AI error should be against a user of the system, not its maker.",
-          "id": "20261104T215151-ai-errors-fall-on-adopters-1"
+          "what": "Indonesia's government or armed forces say the troop deployment in Jakarta will continue or widen beyond its first stated period.",
+          "by": "2026-11-30",
+          "because": "If soldiers are becoming a standing part of civil order rather than a one-off measure, deployments should be extended rather than ended.",
+          "id": "20261105T215902-soldiers-do-police-work-1"
         },
         {
-          "what": "Accenture issues a correction, retraction or refund over the accused papers, or a client says it will seek one.",
-          "by": "2026-11-30",
-          "because": "The join predicts that the adopting firm, not the maker of the model it used, absorbs the cost of the errors.",
-          "id": "20261104T215151-ai-errors-fall-on-adopters-2"
+          "what": "France's National Assembly or Senate votes to pass the bill widening when police may use firearms.",
+          "by": "2026-12-03",
+          "because": "The join says domestic force is moving toward military rules from both directions, so the government should press the bill despite opposition from the left.",
+          "id": "20261105T215902-soldiers-do-police-work-2"
         }
       ],
       "ahead": {
-        "precedent": "The nearest case is Deloitte's partial refund to the Australian government in October 2025, after a report it wrote with AI help was found to contain fabricated references; the client pursued the consultancy and the model's maker was not named. Accenture differs in that it is reported to have dismissed staff who would not use AI, so reliance on the tool was the firm's own policy rather than one employee's lapse.",
+        "precedent": "The closest case is Mexico from December 2006, when Felipe Calderón sent the army against the drug cartels as a temporary measure. The soldiers were never withdrawn: a National Guard was created in 2019 under civilian command and moved to the defence ministry by constitutional change in 2024. The present deployments are smaller, and they are in countries such as Indonesia and Bangladesh whose transitions to democracy were defined by removing soldiers from civil life.",
         "paths": [
           {
-            "name": "Adopters carry the liability",
+            "name": "Deployments become standing arrangements",
             "weight": "favoured",
-            "text": "Over the next year cases over AI errors are settled against the firms, professionals and schools that used the systems, through refunds, fines and disciplinary cases, while makers keep their protections in terms of service and disclaimers. Every case in this collection, and the precedents since 2023, point this way.",
-            "sign": "A professional body or court disciplines a lawyer, consultant or doctor over AI-generated errors."
+            "text": "Over the next year the Jakarta deployment, Bangladesh's joint forces and Pakistan's election duty are extended and written into decrees or standing orders, because governments that distrust their police find soldiers easier to command. Few will be announced as permanent, but few will end.",
+            "sign": "A government extends an army deployment on domestic duty by decree."
           },
           {
-            "name": "Makers drawn into liability",
+            "name": "A killing forces a pull-back",
             "weight": "possible",
-            "text": "The EU's revised Product Liability Directive, which member states must apply by 9 December 2026, lets claimants pursue software makers for defective AI, and the first claims are filed during 2027. This is possible but slower, because claims under a new directive take years to reach judgment.",
-            "sign": "A claim is filed against an AI developer under national rules implementing the EU directive."
+            "text": "Soldiers on civil duty kill protesters or bystanders, and a court or parliament orders them back to barracks. Possible given the death in the Aceh riot.",
+            "sign": "A court or parliament orders soldiers withdrawn from a city or from election duty."
           },
           {
-            "name": "Adoption slows after errors",
+            "name": "Police reform replaces soldiers",
             "weight": "unlikely",
-            "text": "Firms and schools pull back from AI after public mistakes. It is unlikely because the Portuguese figures show adoption running ahead of training, and firms such as Accenture have made use of AI a condition of employment.",
-            "sign": "A large employer withdraws a rule requiring staff to use AI."
+            "text": "Governments invest in civilian police and withdraw the troops. Unlikely within a year because police reform takes longer than a budget cycle.",
+            "sign": "A government names a police recruitment or reform programme as the reason for withdrawing troops."
           }
         ],
-        "decade": "Over ten years the trajectory points to AI being governed like other tools used at work: makers liable for defects where the EU directive reaches, and users answerable for how they rely on its output everywhere else."
+        "decade": "Over ten years the line drawn in the transitions of the 1990s between soldiers and police is likely to keep moving back toward the soldier in middle-income democracies, with courts the main place where it is contested."
       },
       "continues": "",
       "change": "",
-      "claim": "Sina reports Accenture accused of publishing papers full of AI 'hallucinations' after dismissing staff who would not use AI; Google has switched AI tools off by default for school pupils; an Italian 'trial' of AI found it 'not chargeable but socially dangerous'; Portuguese firms are adopting AI faster than they train staff; Anthropic's IPO filing sets out the financial risks of its build; and NTT is adding AI defences as attacks on it rise sevenfold. In each case a decision is being made about who answers for what an AI system does, and it lands on the firm, school, investor or operator that took the system up. The companies that build the systems change defaults and list risks, and the consequences of errors stay with those who use them.",
+      "claim": "Indonesia's armed forces commander has put troops in Jakarta and the army has given its own account of a deadly riot at a Maulid celebration in Aceh; Pakistan has deployed the army and Rangers for by-elections in Punjab; a Bangladeshi soldier was killed raiding human traffickers at Teknaf; and Lebanon's army ran raids and checkpoints that led to dozens of arrests. In France, a bill widening when police may fire was called a major advance by police unions and a licence to kill by the left. In each case a job that civilian police once did, or were meant to do alone, is being handed to soldiers or to rules closer to theirs.",
       "events": [
         {
-          "label": "Accenture accused over AI-written papers",
+          "label": "Troops deployed in Jakarta",
           "articleIds": [
-            "n-8b753365713e98"
+            "n-edb37d6c6ac3b7"
           ]
         },
         {
-          "label": "Google switches pupils' AI off by default",
+          "label": "Army's account of the Aceh riot",
           "articleIds": [
-            "n-782967bcf3564b"
+            "n-6173efead9bb73"
           ]
         },
         {
-          "label": "Italian 'trial' finds AI not chargeable",
+          "label": "Army and Rangers guard Punjab by-elections",
           "articleIds": [
-            "n-9f7bfa61035137"
+            "n-45e8fa671b3a10"
           ]
         },
         {
-          "label": "Portuguese firms adopt AI without training",
+          "label": "Soldier killed in Teknaf trafficking raid",
           "articleIds": [
-            "n-f21efff3495819"
+            "n-10c4bdadd23cd4",
+            "n-f3e445232fddd2"
           ]
         },
         {
-          "label": "Anthropic's IPO filing sets out risks",
+          "label": "Lebanese army raids and checkpoints",
           "articleIds": [
-            "n-b5618f9b3089b2"
+            "n-b265ebedbde8b4"
           ]
         },
         {
-          "label": "NTT adds AI defences against attacks",
+          "label": "French bill on police firearms use",
           "articleIds": [
-            "n-7afb0f3a2ebc88"
+            "n-5ee54732f53bb1"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "e-r1",
+          "id": "soldiers-do-police-work-obs1",
           "kind": "observation",
-          "label": "AI in firms, schools and law",
+          "label": "Soldiers on civil duty",
           "fragments": [
             {
-              "id": "e-f1",
-              "label": "A consultancy and its staff",
-              "text": "Sina (China) reports Accenture accused of publishing papers full of AI 'hallucinations', and adds that it had laid off staff who would not use AI. Jornal Económico (Portugal) reports Cegid saying Portuguese companies are speeding up access to AI while training does not keep pace.",
+              "id": "soldiers-do-police-work-f1",
+              "label": "Indonesia",
+              "text": "Republika reports the armed forces commander, on deploying TNI personnel in Jakarta, saying they stand ready to defend the unitary state from various threats. Viva reports Aceh calm again and the TNI giving details of the riot at a Maulid celebration that killed one resident. In both, the army rather than the police is the voice of public order.",
               "articleIds": [
-                "n-8b753365713e98",
-                "n-f21efff3495819"
+                "n-edb37d6c6ac3b7",
+                "n-6173efead9bb73"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "e-f2",
-              "label": "A school default and a 'trial'",
-              "text": "Punch (Nigeria) reports Google turning off AI tools by default for school pupils; on Bluesky a trending topic said Google was cutting search for schools that ban AI, which the Punch headline does not mention. ANSA (Italy) reports AI put 'on trial' and judged 'not chargeable but socially dangerous'.",
+              "id": "soldiers-do-police-work-f2",
+              "label": "Pakistan, Bangladesh, Lebanon",
+              "text": "SAMAA TV reports the army and Rangers deployed for by-elections in Punjab. bdnews24 reports a soldier killed and army personnel injured in gunfire with human traffickers during a joint forces raid in Teknaf. Al-Anbaa in Lebanon reports raids and army checkpoints in several areas, with dozens arrested and weapons seized.",
               "articleIds": [
-                "n-782967bcf3564b",
-                "n-9f7bfa61035137"
+                "n-45e8fa671b3a10",
+                "n-10c4bdadd23cd4",
+                "n-f3e445232fddd2",
+                "n-b265ebedbde8b4"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1752,17 +1822,16 @@
           ]
         },
         {
-          "id": "e-r2",
+          "id": "soldiers-do-police-work-obs2",
           "kind": "observation",
-          "label": "Investors and defenders",
+          "label": "Police firearms rules in France",
           "fragments": [
             {
-              "id": "e-f3",
-              "label": "A prospectus and a telephone company",
-              "text": "Fortune (US) reports that Dario Amodei's aim of 'a country of geniuses in a data center' requires risky financial mechanics, as Anthropic's IPO filing shows. 47NEWS (Japan) reports cyberattacks on NTT up sevenfold on the year, with AI defences to be strengthened.",
+              "id": "soldiers-do-police-work-f3",
+              "label": "A bill on firing",
+              "text": "Réunion La 1ère reports a bill on the legitimate use of firearms by law enforcement, described as a major advance by police unions and a licence to kill by the left. Here no soldiers are involved. The civilian police are being given wider latitude to use lethal force instead.",
               "articleIds": [
-                "n-b5618f9b3089b2",
-                "n-7afb0f3a2ebc88"
+                "n-5ee54732f53bb1"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1770,31 +1839,29 @@
           ]
         },
         {
-          "id": "e-r3",
+          "id": "soldiers-do-police-work-int1",
           "kind": "interpretation",
-          "label": "Who answers for the output",
+          "label": "Who is trusted with force",
           "fragments": [
             {
-              "id": "e-f4",
-              "label": "The same question, settled one way",
-              "text": "In each story the question is who answers for what an AI system does, and the answer lands on whoever took it up. Accenture, which required its staff to use AI, carries the accusation over the papers. Google's new default moves the decision to turn AI on to schools. The Italian finding says the system itself cannot be charged, which leaves the people who deployed it. Anthropic's filing tells investors the risks, so those who buy carry them, and NTT has to defend itself with AI against attacks that AI makes cheaper.",
+              "id": "soldiers-do-police-work-f4",
+              "label": "The same answer in different places",
+              "text": "These are separate decisions about the same question, who carries force inside the country, and they are being answered the same way: with the institution that has more weapons and fewer limits. Indonesia and Bangladesh both cut back their armies' domestic roles after their democratic transitions, so troops in Jakarta and joint forces at Teknaf are a reversal there, not a continuation. France reaches the same point from the other side, by writing rules for its police that come closer to those for soldiers.",
               "articleIds": [
-                "n-8b753365713e98",
-                "n-782967bcf3564b",
-                "n-9f7bfa61035137",
-                "n-b5618f9b3089b2",
-                "n-7afb0f3a2ebc88"
+                "n-edb37d6c6ac3b7",
+                "n-10c4bdadd23cd4",
+                "n-5ee54732f53bb1"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "e-f5",
-              "label": "Adoption ahead of preparation",
-              "text": "The Portuguese finding that firms give staff AI faster than they train them describes the condition in which this matters. When a firm makes AI use a requirement and does not train for it, the errors that follow are the firm's, as the Accenture case shows. The makers' part in the chain does not appear in any of these headlines.",
+              "id": "soldiers-do-police-work-f5",
+              "label": "Votes and frontiers first",
+              "text": "The duties handed to soldiers are the ones where governments trust their police least: guarding polling stations, as in Punjab, and frontiers used by smugglers, as at Teknaf and in Lebanon. These are also the duties where a mistake has the highest political cost, which is why governments want a force that takes orders without local ties.",
               "articleIds": [
-                "n-f21efff3495819",
-                "n-8b753365713e98"
+                "n-45e8fa671b3a10",
+                "n-b265ebedbde8b4"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1802,26 +1869,18 @@
           ]
         },
         {
-          "id": "e-r4",
+          "id": "soldiers-do-police-work-break",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "e-f6",
-              "label": "Different questions",
-              "text": "Accenture's case is about quality control at a consultancy, Google's about children's safety, Anthropic's about securities law, where risks are always listed, and NTT's about ordinary network defence. The Italian 'trial' may be a staged debate rather than a court. Makers also appear here, Google changing its product and Anthropic answering to regulators, so it is not clear they are escaping anything, and the EU's AI Act already places duties on providers.",
+              "id": "soldiers-do-police-work-f6",
+              "label": "Old arrangements on one day",
+              "text": "Several of these are long-standing. Pakistan's army has guarded elections for decades, Lebanon's army has long been its main internal security force, and raids at Teknaf are border work on a frontier with Myanmar rather than city policing. The Jakarta deployment may be tied to one occasion. The events do not share a task: one is election security, one a border raid, one a patrol in a capital, one an account of a riot and one a draft law about police, not soldiers. The pattern may come from a single day's sample of local outlets.",
               "articleIds": [
-                "n-9f7bfa61035137",
-                "n-b5618f9b3089b2"
+                "n-45e8fa671b3a10",
+                "n-b265ebedbde8b4"
               ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "e-f7",
-              "label": "A thin base",
-              "text": "Six headlines from six countries on one day is a small sample, and the Sina item reports an accusation rather than a finding. What these events share may only be that AI is now everywhere, so any day's news will show it being used, misused and defended against.",
-              "articleIds": [],
               "bookIds": [],
               "trajectoryIds": []
             }
@@ -1833,11 +1892,10 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "CHATBOTS / COURTS / CLIENTS",
-          "text": "ChatGPT was released on 30 November 2022 and reached a hundred million users in two months, and the first rules about its errors were set by courts and clients rather than legislators. In 2023 a New York judge fined two lawyers who had filed a brief citing cases ChatGPT invented, in Mata v. Avianca. In 2024 a Canadian tribunal held Air Canada liable for a refund its website chatbot had promised. In 2025 Deloitte agreed to repay part of its fee to the Australian government after a report it wrote was found to contain fabricated references. In each case the person or firm that used the system paid, not the company that built it. In May 2023 the heads of the main laboratories signed a one-sentence statement calling extinction from AI a global priority, while their terms of service placed errors on users. The Sina report on Accenture is the next case in that line.",
+          "lens": "LOCKDOWNS / UPRISINGS / EMERGENCY POWERS",
+          "text": "The pandemic gave soldiers a domestic job in many countries. In 2020 armies enforced lockdowns and ran vaccination centres from Peru to Indonesia, and France ran a military support operation called Résilience. The decade's uprisings then widened that role. After students forced Sheikh Hasina from Bangladesh in August 2024, many police stations were left unmanned, and in September 2024 the interim government gave army officers magistrates' powers; the joint forces at Teknaf, where a soldier was killed raiding traffickers, work under that arrangement. In March 2025 Indonesia's parliament amended the armed forces law to let serving officers hold more civilian posts, over student protests. In France the police killing of Nahel Merzouk in June 2023, under a 2017 law that loosened the rules on firing at vehicles, set the terms of the argument over the present firearms bill. Each step was presented as temporary or exceptional.",
           "trajectoryIds": [
-            "chatgpt-2022",
-            "extinction-statement-2023"
+            "dhaka-2024"
           ],
           "bookIds": []
         },
@@ -1845,48 +1903,44 @@
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "PLATFORMS / SCHOOLS / VALUATION",
-          "text": "Since 2008 the platforms have become suppliers to the institutions that now have to manage AI. Google offered its classroom software free to schools, and Chromebooks running it became the most common school computers in the United States by the late 2010s; that is why a Google decision, reported by Punch, to switch AI off by default for pupils sets policy for schools that never voted on it. Shoshana Zuboff's The Age of Surveillance Capitalism, published in 2019, argued that these companies write the terms under which their users act. The other lesson of the period came from Theranos, shown from 2015 to have been valued on a technology that did not work, whose founder Elizabeth Holmes was convicted of fraud. Anthropic's IPO filing, which Fortune says shows risky financial mechanics, puts the risks of a far larger bet into a legal document, so investors who buy are told and carry them.",
+          "lens": "REFUGEES / BORDERS / TRAFFICKING",
+          "text": "Several of these duties grew from the movements of people after 2008. In August 2017 more than 700,000 Rohingya fled Myanmar into Cox's Bazar district, where Teknaf lies, and the camps became a base for trafficking routes by sea toward Malaysia. Lebanon took in more than a million Syrians after the war began in 2011, and its army became the force on the border and around the camps, which is the work behind the raids and checkpoints Al-Anbaa reports. Egypt in 2011 taught the decade another lesson: in Tahrir Square the army acted as arbiter between the crowd and the state, and in 2013 it took power. Governments since have treated the army as the institution that still functions when the police do not, and frontiers and camps as the places where that habit begins before it reaches the capital.",
           "trajectoryIds": [
-            "theranos-2015"
+            "tahrir-2011"
           ],
-          "bookIds": [
-            "surveillance-capitalism"
-          ]
+          "bookIds": []
         },
         {
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "INTERNET / IMMUNITY / DISCLOSURE",
-          "text": "The habit of keeping the maker of a digital tool out of the dock dates from the internet's opening. Section 230 of the US Communications Decency Act of 1996 said an online service would not be treated as the publisher of what its users posted, and the EU's e-Commerce Directive of 2000 gave hosts a similar shield. Software licences of the same years disclaimed liability for errors. When the dot-com bubble burst in March 2000, the response was more disclosure rather than liability, and the Sarbanes-Oxley Act of 2002 made executives certify their accounts. The result was a division that still holds: the tool is sold with warnings, and whoever uses it answers for the outcome. The ANSA report of an Italian 'trial' that found AI 'not chargeable but socially dangerous' restates that division in criminal terms: a system cannot be charged, so the charge falls on whoever put it to work.",
+          "lens": "REFORMASI / CIVILIAN CONTROL / TRANSITIONS",
+          "text": "The transitions at the end of the Cold War set the rule that soldiers leave civil life. Bangladesh's military ruler Hussain Muhammad Ershad fell in December 1990 and parliamentary government returned in 1991. In Indonesia, after Suharto resigned in May 1998, the police were separated from the armed forces in 1999 and 2000, and the doctrine of dwifungsi, the army's combined military and political role, was ended. Samuel Huntington's The Third Wave counted civilian control of the army among the tests of a new democracy. Pakistan went the other way with Pervez Musharraf's coup in October 1999, and Aceh's own conflict ended only with the Helsinki agreement of 2005. The Jakarta deployment and the army's account of the Aceh riot are read in Indonesia against the 1998 settlement, and the commander's phrase about defending the unitary state is the language of the army's old domestic mission.",
           "trajectoryIds": [
-            "dotcom-2000"
+            "jakarta-1998"
           ],
-          "bookIds": []
+          "bookIds": [
+            "third-wave"
+          ]
         },
         {
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "STATE SCIENCE / PRODUCT LIABILITY",
-          "text": "Computing began after 1945 as state science. The bomb tested at Trinity in July 1945 was a government project, and the 1956 Dartmouth workshop that named artificial intelligence was funded by a foundation in a decade when governments paid for most research that could change the world. The law of who pays for a faulty product grew up alongside. In 1963 the California Supreme Court, in Greenman v. Yuba Power Products, made manufacturers strictly liable for defective goods, and the European Community's Product Liability Directive of 1985 did the same for Europe. Software largely escaped these rules. The EU revised the directive in 2024 to cover software, including AI, with member states due to apply it by December 2026. Ulrich Beck's Risk Society, published in 1986, described societies producing risks no one will insure. The Portuguese firms that Jornal Económico reports adopting AI faster than they train staff work in the gap before that directive applies.",
-          "trajectoryIds": [
-            "trinity-1945",
-            "dartmouth-1956"
-          ],
-          "bookIds": [
-            "risk-society"
-          ]
+          "lens": "DECOLONISATION / ARMIES / EMERGENCY LAW",
+          "text": "In many states founded after 1945 the army existed before the constitution. Indonesia's army was formed in the war of independence against the Dutch from 1945, and General Nasution's 'middle way' doctrine of 1958 gave it a permanent political role. Pakistan's army took power in 1958 under Ayub Khan, and Bangladesh, independent in 1971, had its first coups in 1975. In those states a soldier at a polling station is familiar, and the question has always been who commands him. France answered the question differently. Its state of emergency law of April 1955, written during the Algerian war, gives civilian prefects exceptional powers, and was used again in 2005 and 2015. The police firearms bill reported from La Réunion belongs to that tradition, in which the civilian state widens its own rules on force rather than calling in troops.",
+          "trajectoryIds": [],
+          "bookIds": []
         }
       ],
       "articleIds": [
-        "n-8b753365713e98",
-        "n-f21efff3495819",
-        "n-782967bcf3564b",
-        "n-9f7bfa61035137",
-        "n-b5618f9b3089b2",
-        "n-7afb0f3a2ebc88"
+        "n-edb37d6c6ac3b7",
+        "n-6173efead9bb73",
+        "n-45e8fa671b3a10",
+        "n-10c4bdadd23cd4",
+        "n-f3e445232fddd2",
+        "n-b265ebedbde8b4",
+        "n-5ee54732f53bb1"
       ]
     }
   ]

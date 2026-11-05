@@ -543,8 +543,31 @@
    "what": "Another emailed bomb threat diverts or grounds a flight to or from Poland or a Baltic state.",
    "by": "2026-11-17",
    "because": "A campaign of cheap pressure repeats because each threat costs almost nothing, while one-off hoaxes would not recur within two weeks.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261105T215902",
+    "asOf": "2026-11-05T21:59:02Z",
+    "how": "headline",
+    "note": "Corriere della Sera reports an anonymous emailed bomb alert on a Milan-Warsaw flight among others, and Radio Zet reports an alarm and security procedures at Warsaw's Chopin Airport.",
+    "headlines": [
+     {
+      "id": "n-2a24589cfacda3",
+      "title": "Allarme bomba sui voli Dublino-Roma, Helsinki-Roma e Milano-Varsavia. La mail anonima: «Segnalazione minaccia»",
+      "titleEnglish": "Bomb Alert on Dublin-Rome, Helsinki-Rome and Milan-Warsaw Flights. Anonymous Email: \"Threat Report\"",
+      "url": "https://www.corriere.it/cronache/26_novembre_05/allarme-bomba-sul-volo-dublino-roma-atterraggio-d-emergenza-in-francia-6fe85706-698a-4a62-a8e6-56e351de5xlk.shtml",
+      "publisher": "Corriere della sera",
+      "sourceCountry": "Italy"
+     },
+     {
+      "id": "n-bb6aabedb9fee4",
+      "title": "Alarm na Lotnisku Chopina. „Wdrożono procedury bezpieczeństwa”",
+      "titleEnglish": "Alarm at Chopin Airport. \"Security Procedures Implemented\"",
+      "url": "https://wiadomosci.radiozet.pl/polska/alarm-na-lotnisku-chopina-wdrozono-procedury-bezpieczenstwa",
+      "publisher": "wiadomosci.radiozet.pl",
+      "sourceCountry": "Poland"
+     }
+    ]
+   }
   },
   {
    "id": "20261103T214619-chinese-goods-push-others-to-merge-or-tax-1",
@@ -599,8 +622,39 @@
    "what": "US and Iranian officials are reported meeting or agreeing to resume talks on ending the war.",
    "by": "2026-11-30",
    "because": "If the war's price has been settled against the president at the ballot box, the White House has a reason to end the war before the new Congress sits.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261105T215902",
+    "asOf": "2026-11-05T21:59:02Z",
+    "how": "headline",
+    "note": "Arab News and Masrawy report Iran sending a nuclear proposal to the US through Qatar, and Khaberni reports Qatar-mediated nuclear talks with Vance's support.",
+    "headlines": [
+     {
+      "id": "n-154e6c6aee8a8c",
+      "title": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official says",
+      "titleEnglish": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official says",
+      "url": "https://www.arabnews.com/middle-east/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-says-3010067",
+      "publisher": "arabnews.com",
+      "sourceCountry": "Saudi Arabia"
+     },
+     {
+      "id": "n-8be4b7df73ff10",
+      "title": "إيران أرسلت مقترحا نوويا عبر قطر إلى أمريكا | مصراوي",
+      "titleEnglish": "Iran sent a nuclear proposal to America via Qatar | Masrawy",
+      "url": "https://www.masrawy.com/news/news_publicaffairs/details/2026/11/5/3074360/%D8%B1%D9%88%D9%8A%D8%AA%D8%B1%D8%B2-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A3%D8%B1%D8%B3%D9%84%D8%AA-%D9%85%D9%82%D8%AA%D8%B1%D8%AD%D8%A7-%D9%86%D9%88%D9%88%D9%8A%D8%A7-%D8%B9%D8%A8%D8%B1-%D9%82%D8%B7%D8%B1-%D8%A5%D9%84%D9%89-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7-",
+      "publisher": "مصراوي.كوم",
+      "sourceCountry": "Egypt"
+     },
+     {
+      "id": "n-9656592ac828fc",
+      "title": "اختراق محتمل بمفاوضات إيران النووية بوساطة قطرية ودعم فانس",
+      "titleEnglish": "Possible Breakthrough in Iran Nuclear Talks Mediated by Qatar with Vance's Support",
+      "url": "https://www.khaberni.com/news/864297-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D9%82-%D9%85%D8%AD%D8%AA%D9%85%D9%84-%D8%A8%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D8%A7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A%D8%A9-%D8%A8%D9%88%D8%B3%D8%A7%D8%B7%D8%A9-%D9%82%D8%B7%D8%B1%D9%8A%D8%A9-%D9%88%D8%AF%D8%B9%D9%85-%D9%81%D8%A7%D9%86%D8%B3",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "sourceCountry": "Jordan"
+     }
+    ]
+   }
   },
   {
    "id": "20261104T215151-electoral-bodies-become-the-contest-1",
@@ -683,6 +737,118 @@
    "what": "Accenture issues a correction, retraction or refund over the accused papers, or a client says it will seek one.",
    "by": "2026-11-30",
    "because": "The join predicts that the adopting firm, not the maker of the model it used, absorbs the cost of the errors.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261105T215902-ai-build-vote-sells-asia-1",
+   "stamp": "20261105T215902",
+   "asOf": "2026-11-05T21:59:02Z",
+   "narrativeId": "ai-build-vote-sells-asia",
+   "kicker": "ELECTIONS / COMPUTE / EXPORT ECONOMIES",
+   "line": "Democrats' talk of a data-centre moratorium has cut share prices across Asia, where growth now rests on building AI.",
+   "firmness": "firm",
+   "what": "A US state, county or city pauses, rejects or puts power or water conditions on a data-centre project after the midterms.",
+   "by": "2026-11-30",
+   "because": "If markets are pricing a political limit on the AI build, the first limits should come from local and state bodies, not from a Congress that still faces a Trump veto.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261105T215902-ai-build-vote-sells-asia-2",
+   "stamp": "20261105T215902",
+   "asOf": "2026-11-05T21:59:02Z",
+   "narrativeId": "ai-build-vote-sells-asia",
+   "kicker": "ELECTIONS / COMPUTE / EXPORT ECONOMIES",
+   "line": "Democrats' talk of a data-centre moratorium has cut share prices across Asia, where growth now rests on building AI.",
+   "firmness": "firm",
+   "what": "The Nasdaq is reported to have recovered at least half of its post-election fall.",
+   "by": "2026-11-27",
+   "because": "The join says the fall priced a federal moratorium that cannot become law while Trump can veto it, so the national part of the fall should reverse while local limits remain.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261105T215902-war-oil-splits-rate-setters-1",
+   "stamp": "20261105T215902",
+   "asOf": "2026-11-05T21:59:02Z",
+   "narrativeId": "war-oil-splits-rate-setters",
+   "kicker": "CRUDE / CURRENCIES / A WAR",
+   "line": "The war's oil price now pushes rates up in countries that buy oil, while central banks in countries that sell it cut.",
+   "firmness": "plausible",
+   "what": "The Bank of Korea or the Reserve Bank of New Zealand raises its rate at its late-November meeting and names oil or the Iran war.",
+   "by": "2026-11-30",
+   "because": "Both countries import nearly all their oil, so if trade position decides the response they should follow London rather than Mexico City.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261105T215902-war-oil-splits-rate-setters-2",
+   "stamp": "20261105T215902",
+   "asOf": "2026-11-05T21:59:02Z",
+   "narrativeId": "war-oil-splits-rate-setters",
+   "kicker": "CRUDE / CURRENCIES / A WAR",
+   "line": "The war's oil price now pushes rates up in countries that buy oil, while central banks in countries that sell it cut.",
+   "firmness": "plausible",
+   "what": "Bangladesh announces a fuel or gas price rise, new import curbs or a request to the IMF to protect reserves now below $30bn.",
+   "by": "2026-11-30",
+   "because": "The join says importers without a strong currency pay the war's price in reserves, which forces a choice between domestic prices and dollars within weeks.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261105T215902-parliaments-refuse-budgets-1",
+   "stamp": "20261105T215902",
+   "asOf": "2026-11-05T21:59:02Z",
+   "narrativeId": "parliaments-refuse-budgets",
+   "kicker": "LEGISLATURES / TAXATION / MAJORITIES",
+   "line": "Parliaments are refusing governments' budgets, so next year's tax and spending are set in the chamber rather than the cabinet.",
+   "firmness": "plausible",
+   "what": "Another national parliament outside France and Senegal votes down or forces withdrawal of a government's budget or main tax bill.",
+   "by": "2026-12-03",
+   "because": "If legislatures now set budgets rather than approve them, the refusals should not stop at two countries in one autumn.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261105T215902-parliaments-refuse-budgets-2",
+   "stamp": "20261105T215902",
+   "asOf": "2026-11-05T21:59:02Z",
+   "narrativeId": "parliaments-refuse-budgets",
+   "kicker": "LEGISLATURES / TAXATION / MAJORITIES",
+   "line": "Parliaments are refusing governments' budgets, so next year's tax and spending are set in the chamber rather than the cabinet.",
+   "firmness": "plausible",
+   "what": "France's government drops or rewrites a named tax or spending measure to win votes for its budget.",
+   "by": "2026-11-30",
+   "because": "The join says the chamber now decides, and the favoured path is concession rather than force, which would show first where the rejection was unanimous.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261105T215902-soldiers-do-police-work-1",
+   "stamp": "20261105T215902",
+   "asOf": "2026-11-05T21:59:02Z",
+   "narrativeId": "soldiers-do-police-work",
+   "kicker": "TROOPS / CIVILIAN CONTROL / THE LAW",
+   "line": "Governments now send soldiers to keep ordinary civil order at home, and police seek rules on force closer to a soldier's.",
+   "firmness": "tentative",
+   "what": "Indonesia's government or armed forces say the troop deployment in Jakarta will continue or widen beyond its first stated period.",
+   "by": "2026-11-30",
+   "because": "If soldiers are becoming a standing part of civil order rather than a one-off measure, deployments should be extended rather than ended.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261105T215902-soldiers-do-police-work-2",
+   "stamp": "20261105T215902",
+   "asOf": "2026-11-05T21:59:02Z",
+   "narrativeId": "soldiers-do-police-work",
+   "kicker": "TROOPS / CIVILIAN CONTROL / THE LAW",
+   "line": "Governments now send soldiers to keep ordinary civil order at home, and police seek rules on force closer to a soldier's.",
+   "firmness": "tentative",
+   "what": "France's National Assembly or Senate votes to pass the bill widening when police may use firearms.",
+   "by": "2026-12-03",
+   "because": "The join says domestic force is moving toward military rules from both directions, so the government should press the bill despite opposition from the left.",
    "status": "open",
    "resolved": null
   }
