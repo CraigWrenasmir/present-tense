@@ -1220,10 +1220,11 @@
     $('#walk').hidden = false;
     requestAnimationFrame(() => showStep(0));
   }
+  function setPlayBtn(on) { const b = $('#walk-play'); b.setAttribute('aria-pressed', String(on)); b.textContent = on ? 'pause' : 'play'; b.title = on ? 'Stop here' : 'Step through on its own'; }
   function stopWalk() {
     if (!walk) return;
     clearTimeout(walk.timer); walk = null;
-    document.body.classList.remove('walking'); $('#walk').hidden = true; $('#walk-play').setAttribute('aria-pressed', 'false');
+    document.body.classList.remove('walking'); $('#walk').hidden = true; setPlayBtn(false); clearBar();
     setFocus(null); moments.forEach(m => m.el.classList.remove('focus'));
     if (currentReading()) { if (!mobile()) selectReading(currentReading().id, { open: true, fit: true }); else fitHome(); }
   }
@@ -1240,8 +1241,22 @@
     if (st.fit === 'focus' && st.ids.length) { setFocus(st.ids); if (mobile()) landOn(st.ids); else fitFocus(st.ids); }
     else if (st.fit === 'time') { setFocus(null); fitMoments(st.moments); }
     else { setFocus(null); fitReading(); }
-    if (walk.playing) { clearTimeout(walk.timer); walk.timer = setTimeout(() => { if (walk && walk.playing) showStep(walk.i + 1); }, st.t ? 14000 : 7000); }
+    clearTimeout(walk.timer);
+    if (!walk.playing) clearBar();
+    else { const ms = stepWait(st); walk.timer = setTimeout(() => { if (walk && walk.playing) showStep(walk.i + 1); }, ms); runBar(ms); }
   }
+  /* How long a played step stays: time to read it at an unhurried pace, plus a moment to look at the field. */
+  function stepWait(st) {
+    const words = `${st.h} ${st.t || ''}`.trim().split(/\s+/).length, srcs = st.fit === 'focus' ? Math.min(st.ids.length, mobile() ? 3 : 4) : 0;
+    return Math.round(Math.min(22000, Math.max(5000, 3500 + words * 260 + srcs * 900)));
+  }
+  /* A hairline along the top of the panel fills over the wait, so play is seen to be going. */
+  function runBar(ms) {
+    const bar = $('#walk-bar'); bar.style.transition = 'none'; bar.style.width = '0%'; void bar.offsetWidth;
+    bar.style.transition = `width ${ms}ms linear`; bar.style.width = '100%';
+  }
+  function holdBar() { const bar = $('#walk-bar'); const w = bar.getBoundingClientRect().width; bar.style.transition = 'none'; bar.style.width = `${w}px`; }
+  function clearBar() { const bar = $('#walk-bar'); bar.style.transition = 'none'; bar.style.width = '0%'; }
   /* On a phone a fit of several headlines lands at REGION, where nothing can be read, so a walk lands on the first of them at HEADLINES, above the walk panel. */
   function landOn(ids) {
     const p = ids.map(id => beadById.get(id)).find(Boolean); if (!p) return;
@@ -1264,7 +1279,13 @@
     $('#walk-prev').addEventListener('click', () => walk && showStep(walk.i - 1));
     $('#walk-next').addEventListener('click', () => walk && showStep(walk.i + 1));
     $('#walk-stop').addEventListener('click', stopWalk);
-    $('#walk-play').addEventListener('click', () => { if (!walk) return; walk.playing = !walk.playing; $('#walk-play').setAttribute('aria-pressed', String(walk.playing)); if (walk.playing) showStep(walk.i); else clearTimeout(walk.timer); });
+    $('#walk-play').addEventListener('click', () => {
+      if (!walk) return;
+      walk.playing = !walk.playing; setPlayBtn(walk.playing);
+      // play moves at once, so it is seen to do something: on to the next step, or from the top again after the last
+      if (walk.playing) showStep(walk.i >= walk.steps.length - 1 ? 0 : walk.i + 1);
+      else { clearTimeout(walk.timer); holdBar(); }
+    });
     document.addEventListener('keydown', e => { if (!walk || e.target.matches('input, textarea')) return; if (e.key === 'ArrowRight') showStep(walk.i + 1); else if (e.key === 'ArrowLeft') showStep(walk.i - 1); else if (e.key === 'Escape') stopWalk(); });
   }
 

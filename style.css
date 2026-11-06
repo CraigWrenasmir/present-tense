@@ -176,6 +176,7 @@ a { color: inherit; }
 #zoom-world { font-size: 12px; margin-top: 4px; }
 /* the walk: one step at a time through a narrative, the field moving with it */
 .walk { position: absolute; left: 18px; bottom: calc(var(--strip-h) + 16px); width: 440px; max-width: calc(100% - 36px); z-index: 16; background: var(--bg); border: 1px solid var(--ink); padding: 10px 14px 12px; box-shadow: 0 0 0 4px var(--bg); }
+.walk-bar { position: absolute; left: 0; top: 0; height: 2px; width: 0; background: var(--ink); }
 .walk-top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; color: var(--ink-3); }
 .walk-ctl { display: inline-flex; gap: 12px; }
 .walk-ctl .text[aria-pressed="true"] { color: var(--ink); }
