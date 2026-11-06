@@ -29,8 +29,23 @@
    "what": "South Korea's government or a state fund announces support for chip shares or the won as tech stocks fall.",
    "by": "2026-11-28",
    "because": "The join says chip-supplying economies now carry AI risk on public books, and South Korea is the other large supplier exposed to the same spending.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261106T212911",
+    "asOf": "2026-11-06T21:29:11Z",
+    "how": "headline",
+    "note": "Herald Economy reports South Korean pension funds buying 1.4 trillion won of shares as the KOSPI plunged in the tech sell-off.",
+    "headlines": [
+     {
+      "id": "n-b29b44bb5e6354",
+      "title": "연기금, 코스피 급락에 1.4조 ‘줍줍’…5천피 방어할까[투자360]",
+      "titleEnglish": "Pension funds buy 1.4 trillion won on KOSPI plunge... can they defend 5,000 points? [Investment 360]",
+      "url": "https://biz.heraldcorp.com/article/10928733",
+      "publisher": "헤럴드경제",
+      "sourceCountry": "South Korea"
+     }
+    ]
+   }
   },
   {
    "id": "20261031T013540-war-prices-reach-wage-talks-1",
@@ -305,8 +320,31 @@
    "what": "After the 3 November vote, Trump or a senior White House aide publicly disputes the count in at least one state or House race.",
    "by": "2026-11-17",
    "because": "The reported plan to govern without Congress fits the same shape, and disputing specific counts would be its first visible step.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261106T212911",
+    "asOf": "2026-11-06T21:29:11Z",
+    "how": "headline",
+    "note": "Liputan6 reports Trump saying the US election was rigged, and Svenska Yle reports him demanding victory in Alaska's close Senate race.",
+    "headlines": [
+     {
+      "id": "n-e8c1d7048db0db",
+      "title": "Trump Murka! Sebut Pemilu AS Curang, Abdul El-Sayed Jadi Muslim Pertama di Senat",
+      "titleEnglish": "Trump America! Says US election rigged, Abdul El-Sayed becomes first Muslim in the Senate",
+      "url": "https://enamplus.liputan6.com/spotlight/read/8330253/trump-murka-sebut-pemilu-as-curang-abdul-el-sayed-jadi-muslim-pertama-di-senat",
+      "publisher": "Enamplus Liputan6",
+      "sourceCountry": "Indonesia"
+     },
+     {
+      "id": "n-700fa9de8bdc05",
+      "title": "Två jämna senatsval pågår ännu i USA – Trump kräver seger i Alaska",
+      "titleEnglish": "Two close Senate races still under way in the USA – Trump demands victory in Alaska",
+      "url": "https://yle.fi/a/7-10108277",
+      "publisher": "Svenska Yle",
+      "sourceCountry": "Finland"
+     }
+    ]
+   }
   },
   {
    "id": "20261102T013011-cost-of-paying-moves-to-payer-1",
@@ -445,8 +483,31 @@
    "what": "A tanker or commercial ship is reported attacked, seized or set on fire near the Strait of Hormuz after US-Iran talks are announced.",
    "by": "2026-11-24",
    "because": "The join says forces in the Gulf act on their own timetable, apart from the statements that move prices.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261106T212911",
+    "asOf": "2026-11-06T21:29:11Z",
+    "how": "headline",
+    "note": "La Tercera reports Iran saying two oil tankers caught fire after hitting naval mines in the Strait of Hormuz, while Trump says the US is talking to Tehran's representatives.",
+    "headlines": [
+     {
+      "id": "n-229ed51f8afe5d",
+      "title": "Irán afirma que dos petroleros se incendiaron tras chocar con minas navales en el estrecho de Ormuz - La Tercera",
+      "titleEnglish": "Iran Says Two Oil Tankers Caught Fire After Hitting Naval Mines in Strait of Hormuz - La Tercera",
+      "url": "https://www.latercera.com/mundo/noticia/iran-afirma-que-dos-petroleros-se-incendiaron-tras-chocar-con-minas-navales-en-el-estrecho-de-ormuz-2/",
+      "publisher": "La Tercera",
+      "sourceCountry": "Chile"
+     },
+     {
+      "id": "n-e9502dd30238c3",
+      "title": "Trump says US talking to Tehran’s representatives, says ‘doing very well’",
+      "titleEnglish": "Trump says US talking to Tehran’s representatives, says ‘doing very well’",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran?update=5129046",
+      "publisher": "Al Jazeera",
+      "sourceCountry": "Qatar"
+     }
+    ]
+   }
   },
   {
    "id": "20261102T232930-iran-talks-priced-before-the-fighting-stops-2",
@@ -849,6 +910,118 @@
    "what": "France's National Assembly or Senate votes to pass the bill widening when police may use firearms.",
    "by": "2026-12-03",
    "because": "The join says domestic force is moving toward military rules from both directions, so the government should press the bill despite opposition from the left.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261106T212911-energy-shock-becomes-equipment-orders-1",
+   "stamp": "20261106T212911",
+   "asOf": "2026-11-06T21:29:11Z",
+   "narrativeId": "energy-shock-becomes-equipment-orders",
+   "kicker": "IMPORTED FUEL / ELECTRICITY / INDUSTRY",
+   "line": "The war's energy shock is now an order book for turbines, batteries and solar cells, and the factories making them are at capacity.",
+   "firmness": "plausible",
+   "what": "A maker of gas turbines, transformers or grid batteries reports a record order backlog or longer delivery times and names energy security or the Gulf war.",
+   "by": "2026-11-27",
+   "because": "If the shock is turning into equipment purchases across many buyers at once, it will show first in the suppliers' order books rather than in any one country's fuel bill.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261106T212911-energy-shock-becomes-equipment-orders-2",
+   "stamp": "20261106T212911",
+   "asOf": "2026-11-06T21:29:11Z",
+   "narrativeId": "energy-shock-becomes-equipment-orders",
+   "kicker": "IMPORTED FUEL / ELECTRICITY / INDUSTRY",
+   "line": "The war's energy shock is now an order book for turbines, batteries and solar cells, and the factories making them are at capacity.",
+   "firmness": "plausible",
+   "what": "A government in Asia, Africa or Latin America announces a solar, storage or nuclear tender and cites fuel import costs or the Hormuz closure.",
+   "by": "2026-12-04",
+   "because": "The join holds only if buyers who cannot change the fuel price are answering it with capital spending, and a tender naming the war is that answer in writing.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261106T212911-the-feed-becomes-the-regulated-product-1",
+   "stamp": "20261106T212911",
+   "asOf": "2026-11-06T21:29:11Z",
+   "narrativeId": "the-feed-becomes-the-regulated-product",
+   "kicker": "ATTENTION / DESIGN / LIABILITY",
+   "line": "Regulators now treat the recommendation system, not the single post, as the thing a platform must answer for.",
+   "firmness": "plausible",
+   "what": "TikTok announces a change to its recommendation feed for European users, such as a non-personalised default or limits for minors, after the Commission's findings.",
+   "by": "2026-12-04",
+   "because": "If the design itself is now the regulated object, the remedy will be a change to the ranking system rather than the removal of particular videos.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261106T212911-the-feed-becomes-the-regulated-product-2",
+   "stamp": "20261106T212911",
+   "asOf": "2026-11-06T21:29:11Z",
+   "narrativeId": "the-feed-becomes-the-regulated-product",
+   "kicker": "ATTENTION / DESIGN / LIABILITY",
+   "line": "Regulators now treat the recommendation system, not the single post, as the thing a platform must answer for.",
+   "firmness": "plausible",
+   "what": "Britain, Australia, Brazil, India or Canada proposes or adopts rules on recommendation or addictive design features for minors.",
+   "by": "2026-12-04",
+   "because": "When several unrelated systems regulate the same object at once, other governments tend to copy the object, so the join predicts design rules rather than new content rules elsewhere.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261106T212911-failed-banks-reach-the-top-1",
+   "stamp": "20261106T212911",
+   "asOf": "2026-11-06T21:29:11Z",
+   "narrativeId": "failed-banks-reach-the-top",
+   "kicker": "FINANCE / OFFICE / ACCOUNTABILITY",
+   "line": "A failed bank or state fund turns into a case against the presidents and judges near it, and its fines divide governments for years.",
+   "firmness": "plausible",
+   "what": "A minister, central bank official or financial regulator in Paraguay or Brazil resigns or is dismissed over the Ueno or Banco Master cases.",
+   "by": "2026-12-04",
+   "because": "If the shape holds, a bank's records move upwards from bankers to the officials who supervised or ruled on it, in both countries rather than only one.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261106T212911-failed-banks-reach-the-top-2",
+   "stamp": "20261106T212911",
+   "asOf": "2026-11-06T21:29:11Z",
+   "narrativeId": "failed-banks-reach-the-top",
+   "kicker": "FINANCE / OFFICE / ACCOUNTABILITY",
+   "line": "A failed bank or state fund turns into a case against the presidents and judges near it, and its fines divide governments for years.",
+   "firmness": "plausible",
+   "what": "UMNO pays Najib's RM50 million fine and he goes home, and Loke or another DAP minister leaves the government.",
+   "by": "2026-12-04",
+   "because": "The join says the cost of a fund's collapse ends up borne by people in office years later, so the fine should be paid in political posts as well as money.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261106T212911-homes-priced-by-money-from-elsewhere-1",
+   "stamp": "20261106T212911",
+   "asOf": "2026-11-06T21:29:11Z",
+   "narrativeId": "homes-priced-by-money-from-elsewhere",
+   "kicker": "CAPITAL / LABOUR / RESIDENCE",
+   "line": "Homes in growing cities are now priced by money earned elsewhere, so a rise in local wages no longer buys a place to live.",
+   "firmness": "tentative",
+   "what": "Portugal's government announces a new tax, limit or rule on home purchases by non-residents or foreign buyers.",
+   "by": "2026-12-04",
+   "because": "If outside money setting the price is the mechanism, governments will move from local supply rules to acting on the buyer, which none of the responses in these headlines yet does.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261106T212911-homes-priced-by-money-from-elsewhere-2",
+   "stamp": "20261106T212911",
+   "asOf": "2026-11-06T21:29:11Z",
+   "narrativeId": "homes-priced-by-money-from-elsewhere",
+   "kicker": "CAPITAL / LABOUR / RESIDENCE",
+   "line": "Homes in growing cities are now priced by money earned elsewhere, so a rise in local wages no longer buys a place to live.",
+   "firmness": "tentative",
+   "what": "A second government in Europe or Australasia publishes the share of home purchases made by foreign or non-resident buyers, or proposes curbing them.",
+   "by": "2026-12-04",
+   "because": "The join claims the mismatch between local wages and outside buyers is common to several countries, so it should surface as a counted figure or a proposal beyond Portugal.",
    "status": "open",
    "resolved": null
   }

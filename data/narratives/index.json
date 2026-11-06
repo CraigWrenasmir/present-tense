@@ -1,6 +1,61 @@
 {
  "editions": [
   {
+   "stamp": "20261106T212911",
+   "file": "data/narratives/20261106T212911.json",
+   "newsGeneratedAt": "2026-11-06T21:29:11Z",
+   "generatedAt": "2026-11-06T21:41:19Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-7",
+   "narratives": [
+    {
+     "id": "energy-shock-becomes-equipment-orders",
+     "kicker": "IMPORTED FUEL / ELECTRICITY / INDUSTRY",
+     "line": "The war's energy shock is now an order book for turbines, batteries and solar cells, and the factories making them are at capacity.",
+     "events": 6,
+     "headlines": 11,
+     "countries": 8,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "the-feed-becomes-the-regulated-product",
+     "kicker": "ATTENTION / DESIGN / LIABILITY",
+     "line": "Regulators now treat the recommendation system, not the single post, as the thing a platform must answer for.",
+     "events": 5,
+     "headlines": 7,
+     "countries": 7,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "failed-banks-reach-the-top",
+     "kicker": "FINANCE / OFFICE / ACCOUNTABILITY",
+     "line": "A failed bank or state fund turns into a case against the presidents and judges near it, and its fines divide governments for years.",
+     "events": 4,
+     "headlines": 9,
+     "countries": 4,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "homes-priced-by-money-from-elsewhere",
+     "kicker": "CAPITAL / LABOUR / RESIDENCE",
+     "line": "Homes in growing cities are now priced by money earned elsewhere, so a rise in local wages no longer buys a place to live.",
+     "events": 6,
+     "headlines": 13,
+     "countries": 9,
+     "continues": "",
+     "firmness": "tentative",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261105T215902",
    "file": "data/narratives/20261105T215902.json",
    "newsGeneratedAt": "2026-11-05T21:59:02Z",

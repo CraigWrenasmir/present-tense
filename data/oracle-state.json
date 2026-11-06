@@ -1,15 +1,7 @@
 {
- "day": "2026-11-05",
+ "day": "2026-11-06",
  "attempts": 1,
  "history": [
-  {
-   "at": "2026-10-27T04:40:11Z",
-   "note": "batch errored error"
-  },
-  {
-   "at": "2026-10-27T04:45:00Z",
-   "note": "attempt counter reset after the schema fault was fixed"
-  },
   {
    "at": "2026-10-27T04:44:58Z",
    "note": "submitted",
@@ -213,6 +205,21 @@
    "usage": {
     "input": 79001,
     "output": 72139,
+    "tier": "batch"
+   }
+  },
+  {
+   "at": "2026-11-06T21:30:44Z",
+   "note": "submitted",
+   "batchId": "msgbatch_01PkfzdjS4jNkqt3K4pWzFbX"
+  },
+  {
+   "at": "2026-11-06T21:41:19Z",
+   "note": "ok",
+   "batchId": "msgbatch_01PkfzdjS4jNkqt3K4pWzFbX",
+   "usage": {
+    "input": 69496,
+    "output": 60923,
     "tier": "batch"
    }
   }
