@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T11:03:42Z",
+ "generatedAt": "2026-11-07T20:27:03Z",
  "wikipedia": {
   "date": "2026-11-06",
   "source": "Wikimedia REST API, most-viewed articles per language edition, all access; subjects resolved through Wikidata",
@@ -1891,6 +1891,88 @@
     ]
    },
    {
+    "language": "fi",
+    "languageName": "Finnish",
+    "project": "fi.wikipedia",
+    "articles": [
+     {
+      "title": "Freeman (suomalainen muusikko)",
+      "views": 11460,
+      "url": "https://fi.wikipedia.org/wiki/Freeman_%28suomalainen_muusikko%29"
+     },
+     {
+      "title": "Jaakko Kulta (artisti)",
+      "views": 4486,
+      "url": "https://fi.wikipedia.org/wiki/Jaakko_Kulta_%28artisti%29"
+     },
+     {
+      "title": "Ruotsalaisuuden päivä",
+      "views": 4039,
+      "url": "https://fi.wikipedia.org/wiki/Ruotsalaisuuden_p%C3%A4iv%C3%A4"
+     },
+     {
+      "title": "Katariina ja Munkkiniemen kreivi",
+      "views": 3888,
+      "url": "https://fi.wikipedia.org/wiki/Katariina_ja_Munkkiniemen_kreivi"
+     },
+     {
+      "title": "Bess (laulaja)",
+      "views": 3836,
+      "url": "https://fi.wikipedia.org/wiki/Bess_%28laulaja%29"
+     },
+     {
+      "title": "Jonas Rannila",
+      "views": 3305,
+      "url": "https://fi.wikipedia.org/wiki/Jonas_Rannila"
+     },
+     {
+      "title": "Korpelalaisuus",
+      "views": 3135,
+      "url": "https://fi.wikipedia.org/wiki/Korpelalaisuus"
+     },
+     {
+      "title": "Ossi Ketola",
+      "views": 3130,
+      "url": "https://fi.wikipedia.org/wiki/Ossi_Ketola"
+     },
+     {
+      "title": "Anna Hanski",
+      "views": 2993,
+      "url": "https://fi.wikipedia.org/wiki/Anna_Hanski"
+     },
+     {
+      "title": "Tino Singh",
+      "views": 2869,
+      "url": "https://fi.wikipedia.org/wiki/Tino_Singh"
+     },
+     {
+      "title": "Valitut (elokuva)",
+      "views": 2671,
+      "url": "https://fi.wikipedia.org/wiki/Valitut_%28elokuva%29"
+     },
+     {
+      "title": "Antero Vartia",
+      "views": 2627,
+      "url": "https://fi.wikipedia.org/wiki/Antero_Vartia"
+     },
+     {
+      "title": "Zen Café",
+      "views": 2404,
+      "url": "https://fi.wikipedia.org/wiki/Zen_Caf%C3%A9"
+     },
+     {
+      "title": "Timo Kotipelto",
+      "views": 1891,
+      "url": "https://fi.wikipedia.org/wiki/Timo_Kotipelto"
+     },
+     {
+      "title": "Nelli Matula",
+      "views": 1874,
+      "url": "https://fi.wikipedia.org/wiki/Nelli_Matula"
+     }
+    ]
+   },
+   {
     "language": "el",
     "languageName": "Greek",
     "project": "el.wikipedia",
@@ -2844,6 +2926,32 @@
     "views": 8754,
     "editions": 2,
     "url": "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D0%BC%D0%BF%2C_%D0%94%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4"
+   },
+   {
+    "key": "Q2620606",
+    "qid": "Q2620606",
+    "title": "Finland-Swedish Heritage Day",
+    "description": "flag day in Finland",
+    "aliases": [],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Ruotsalaisuuden päivä",
+      "views": 4039,
+      "url": "https://fi.wikipedia.org/wiki/Ruotsalaisuuden_p%C3%A4iv%C3%A4"
+     },
+     {
+      "language": "sv",
+      "languageName": "Swedish",
+      "title": "Svenska dagen",
+      "views": 3374,
+      "url": "https://sv.wikipedia.org/wiki/Svenska_dagen"
+     }
+    ],
+    "views": 7413,
+    "editions": 2,
+    "url": "https://fi.wikipedia.org/wiki/Ruotsalaisuuden_p%C3%A4iv%C3%A4"
    },
    {
     "key": "Q26994",
@@ -4876,6 +4984,29 @@
     "url": "https://en.wikipedia.org/wiki/Au_Kam_San"
    },
    {
+    "key": "Q5500987",
+    "qid": "Q5500987",
+    "title": "Freeman (singer)",
+    "description": "Finnish musician",
+    "aliases": [
+     "Leo Christer Friman",
+     "Leo Friman",
+     "singer)"
+    ],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Freeman (suomalainen muusikko)",
+      "views": 11460,
+      "url": "https://fi.wikipedia.org/wiki/Freeman_%28suomalainen_muusikko%29"
+     }
+    ],
+    "views": 11460,
+    "editions": 1,
+    "url": "https://fi.wikipedia.org/wiki/Freeman_%28suomalainen_muusikko%29"
+   },
+   {
     "key": "Q108757245",
     "qid": "Q108757245",
     "title": "Yana Lantratova",
@@ -6446,6 +6577,25 @@
     "url": "https://en.wikipedia.org/wiki/Anna_Korwin-Piotrowska"
    },
    {
+    "key": "Q136039475",
+    "qid": "Q136039475",
+    "title": "Jaakko Kulta (artisti)",
+    "description": null,
+    "aliases": [],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Jaakko Kulta (artisti)",
+      "views": 4486,
+      "url": "https://fi.wikipedia.org/wiki/Jaakko_Kulta_%28artisti%29"
+     }
+    ],
+    "views": 4486,
+    "editions": 1,
+    "url": "https://fi.wikipedia.org/wiki/Jaakko_Kulta_%28artisti%29"
+   },
+   {
     "key": "Q12521705",
     "qid": "Q12521705",
     "title": "Tito Karnavian",
@@ -6721,6 +6871,25 @@
     "url": "https://en.wikipedia.org/wiki/XXXX"
    },
    {
+    "key": "Q6375149",
+    "qid": "Q6375149",
+    "title": "Katariina ja Munkkiniemen kreivi",
+    "description": "1943 film by Ossi Elstelä",
+    "aliases": [],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Katariina ja Munkkiniemen kreivi",
+      "views": 3888,
+      "url": "https://fi.wikipedia.org/wiki/Katariina_ja_Munkkiniemen_kreivi"
+     }
+    ],
+    "views": 3888,
+    "editions": 1,
+    "url": "https://fi.wikipedia.org/wiki/Katariina_ja_Munkkiniemen_kreivi"
+   },
+   {
     "key": "Q7448553",
     "qid": "Q7448553",
     "title": "Tengku Puteri Zainah",
@@ -6761,6 +6930,28 @@
     "views": 3869,
     "editions": 1,
     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+   },
+   {
+    "key": "Q47542004",
+    "qid": "Q47542004",
+    "title": "Bess (singer)",
+    "description": "Finnish singer",
+    "aliases": [
+     "Essi Miia Marianna Launimo",
+     "singer)"
+    ],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Bess (laulaja)",
+      "views": 3836,
+      "url": "https://fi.wikipedia.org/wiki/Bess_%28laulaja%29"
+     }
+    ],
+    "views": 3836,
+    "editions": 1,
+    "url": "https://fi.wikipedia.org/wiki/Bess_%28laulaja%29"
    },
    {
     "key": "Q598540",
@@ -6825,25 +7016,6 @@
     "url": "https://en.wikipedia.org/wiki/Aliette_Opheim"
    },
    {
-    "key": "Q2620606",
-    "qid": "Q2620606",
-    "title": "Finland-Swedish Heritage Day",
-    "description": "flag day in Finland",
-    "aliases": [],
-    "languages": [
-     {
-      "language": "sv",
-      "languageName": "Swedish",
-      "title": "Svenska dagen",
-      "views": 3374,
-      "url": "https://sv.wikipedia.org/wiki/Svenska_dagen"
-     }
-    ],
-    "views": 3374,
-    "editions": 1,
-    "url": "https://sv.wikipedia.org/wiki/Svenska_dagen"
-   },
-   {
     "key": "Q185529",
     "qid": "Q185529",
     "title": "Pornographic film",
@@ -6885,6 +7057,25 @@
     "views": 3322,
     "editions": 1,
     "url": "https://tr.wikipedia.org/wiki/Porno_film"
+   },
+   {
+    "key": "Q50573314",
+    "qid": "Q50573314",
+    "title": "Jonas Rannila",
+    "description": null,
+    "aliases": [],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Jonas Rannila",
+      "views": 3305,
+      "url": "https://fi.wikipedia.org/wiki/Jonas_Rannila"
+     }
+    ],
+    "views": 3305,
+    "editions": 1,
+    "url": "https://en.wikipedia.org/wiki/Jonas_Rannila"
    },
    {
     "key": "Q3409",
@@ -6990,6 +7181,47 @@
     "url": "https://en.wikipedia.org/wiki/Poland"
    },
    {
+    "key": "Q4607543",
+    "qid": "Q4607543",
+    "title": "Korpela movement",
+    "description": "1930s religious movement in Northern Sweden",
+    "aliases": [],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Korpelalaisuus",
+      "views": 3135,
+      "url": "https://fi.wikipedia.org/wiki/Korpelalaisuus"
+     }
+    ],
+    "views": 3135,
+    "editions": 1,
+    "url": "https://en.wikipedia.org/wiki/Korpela_movement"
+   },
+   {
+    "key": "Q131431681",
+    "qid": "Q131431681",
+    "title": "Ossi Ketola",
+    "description": "Finnish poker player and entrepreneur",
+    "aliases": [
+     "Monarch",
+     "Ketola"
+    ],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Ossi Ketola",
+      "views": 3130,
+      "url": "https://fi.wikipedia.org/wiki/Ossi_Ketola"
+     }
+    ],
+    "views": 3130,
+    "editions": 1,
+    "url": "https://en.wikipedia.org/wiki/Ossi_Ketola"
+   },
+   {
     "key": "Q111365600",
     "qid": "Q111365600",
     "title": "Dariusz Matecki",
@@ -7078,6 +7310,28 @@
     "views": 3015,
     "editions": 1,
     "url": "https://en.wikipedia.org/wiki/Seoul"
+   },
+   {
+    "key": "Q11851570",
+    "qid": "Q11851570",
+    "title": "Anna Hanski",
+    "description": "Finnish singer",
+    "aliases": [
+     "Anna Milanja Hanski",
+     "Hanski"
+    ],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Anna Hanski",
+      "views": 2993,
+      "url": "https://fi.wikipedia.org/wiki/Anna_Hanski"
+     }
+    ],
+    "views": 2993,
+    "editions": 1,
+    "url": "https://en.wikipedia.org/wiki/Anna_Hanski"
    },
    {
     "key": "Q493864",
@@ -7204,6 +7458,28 @@
     "views": 2895,
     "editions": 1,
     "url": "https://en.wikipedia.org/wiki/Donald_Tusk"
+   },
+   {
+    "key": "Q11897768",
+    "qid": "Q11897768",
+    "title": "Tino Singh",
+    "description": "Indian-Finnish dancer, presenter and entrepreneur",
+    "aliases": [
+     "Tino Tajendra Singh",
+     "Singh"
+    ],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Tino Singh",
+      "views": 2869,
+      "url": "https://fi.wikipedia.org/wiki/Tino_Singh"
+     }
+    ],
+    "views": 2869,
+    "editions": 1,
+    "url": "https://en.wikipedia.org/wiki/Tino_Singh"
    },
    {
     "key": "Q151904",
@@ -7344,6 +7620,25 @@
     "url": "https://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%94_%D7%94%D7%9C%D7%9C"
    },
    {
+    "key": "Q121316097",
+    "qid": "Q121316097",
+    "title": "Raptures",
+    "description": "2025 film directed by Jon Blåhed",
+    "aliases": [],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Valitut (elokuva)",
+      "views": 2671,
+      "url": "https://fi.wikipedia.org/wiki/Valitut_%28elokuva%29"
+     }
+    ],
+    "views": 2671,
+    "editions": 1,
+    "url": "https://en.wikipedia.org/wiki/Raptures"
+   },
+   {
     "key": "Q2577467",
     "qid": "Q2577467",
     "title": "Paulien Cornelisse",
@@ -7363,6 +7658,28 @@
     "views": 2664,
     "editions": 1,
     "url": "https://en.wikipedia.org/wiki/Paulien_Cornelisse"
+   },
+   {
+    "key": "Q11851928",
+    "qid": "Q11851928",
+    "title": "Antero Vartia",
+    "description": "Finnish actor and politician",
+    "aliases": [
+     "Arvo Einar Antero Vartia",
+     "Vartia"
+    ],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Antero Vartia",
+      "views": 2627,
+      "url": "https://fi.wikipedia.org/wiki/Antero_Vartia"
+     }
+    ],
+    "views": 2627,
+    "editions": 1,
+    "url": "https://en.wikipedia.org/wiki/Antero_Vartia"
    },
    {
     "key": "Q503962",
@@ -7543,6 +7860,27 @@
     "views": 2422,
     "editions": 1,
     "url": "https://ms.wikipedia.org/wiki/Kudrat_1968%3A_High_Council"
+   },
+   {
+    "key": "Q189437",
+    "qid": "Q189437",
+    "title": "Zen Café",
+    "description": "Finnish band",
+    "aliases": [
+     "Zen Cafe"
+    ],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Zen Café",
+      "views": 2404,
+      "url": "https://fi.wikipedia.org/wiki/Zen_Caf%C3%A9"
+     }
+    ],
+    "views": 2404,
+    "editions": 1,
+    "url": "https://en.wikipedia.org/wiki/Zen_Caf%C3%A9"
    },
    {
     "key": "Q545752",
@@ -7905,6 +8243,28 @@
     "url": "https://uk.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87"
    },
    {
+    "key": "Q241965",
+    "qid": "Q241965",
+    "title": "Timo Kotipelto",
+    "description": "Finnish singer",
+    "aliases": [
+     "Timo Antero Kotipelto",
+     "Kotipelto"
+    ],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Timo Kotipelto",
+      "views": 1891,
+      "url": "https://fi.wikipedia.org/wiki/Timo_Kotipelto"
+     }
+    ],
+    "views": 1891,
+    "editions": 1,
+    "url": "https://en.wikipedia.org/wiki/Timo_Kotipelto"
+   },
+   {
     "key": "Q115859078",
     "qid": "Q115859078",
     "title": "Ido Tako",
@@ -7947,6 +8307,28 @@
     "views": 1874,
     "editions": 1,
     "url": "https://en.wikipedia.org/wiki/Paracel_Islands"
+   },
+   {
+    "key": "Q29001032",
+    "qid": "Q29001032",
+    "title": "Nelli Matula",
+    "description": "Finnish singer",
+    "aliases": [
+     "Nelli Sofia Matula",
+     "Matula"
+    ],
+    "languages": [
+     {
+      "language": "fi",
+      "languageName": "Finnish",
+      "title": "Nelli Matula",
+      "views": 1874,
+      "url": "https://fi.wikipedia.org/wiki/Nelli_Matula"
+     }
+    ],
+    "views": 1874,
+    "editions": 1,
+    "url": "https://en.wikipedia.org/wiki/Nelli_Matula"
    },
    {
     "key": "Q136934322",
@@ -10424,104 +10806,104 @@
   "source": "Bluesky public trending topics",
   "topics": [
    {
-    "topic": "Flamingo missiles reportedly hit Oryol",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/c4deeac6e96b"
+    "topic": "Israel government formation mandate",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/61b2907a2d88"
    },
    {
-    "topic": "New Zealand votes in general election",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/cd9e77152281"
+    "topic": "Autumn foliage photos",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/13dcaa82e2bd"
    },
    {
-    "topic": "Ocarina of Time remake release",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/fb7b005a5b87"
+    "topic": "WWE Crown Jewel in Riyadh",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/9b590e63e69c"
+   },
+   {
+    "topic": "Dana White as press secretary",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/93fe1043a04e"
    },
    {
     "topic": "Vehicles women actually like meme",
     "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/c7bf721b2616"
    },
    {
+    "topic": "Godzilla Minus Zero opens",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/9cc9ec092974"
+   },
+   {
     "topic": "Films watched more than six times",
     "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/105480a5b405"
    },
    {
-    "topic": "One actor movie marathon prompt",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/ce21c7867e8d"
+    "topic": "Extra Life charity game day",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/f685c59c5d15"
    },
    {
-    "topic": "Apple launches touchscreen MacBook Pro",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/cba3b27f69a3"
+    "topic": "Ocarina of Time remake release",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/fb7b005a5b87"
    },
    {
-    "topic": "Your role in a heist",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/a99b54dc0dee"
+    "topic": "Google cuts search for AI-banning schools",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/94d007ef30dd"
    },
    {
-    "topic": "Authors share books with newcomers",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/a852932ad52d"
+    "topic": "New Zealand votes in general election",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/cd9e77152281"
    },
    {
-    "topic": "Ancient cannabis in Siberian tomb",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/3e2a5c364767"
-   },
-   {
-    "topic": "Thiel recordings target Pope Leo",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/839c85674eea"
-   },
-   {
-    "topic": "Israel's war in Gaza",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/29c959ea8508"
-   },
-   {
-    "topic": "Southern states voting data",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/abcfbe858397"
+    "topic": "Trump orders DOJ to investigate Democrats",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/d8f11c392b0e"
    },
    {
     "topic": "Speculation Trump allies will flee",
     "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/d7937333696e"
    },
    {
-    "topic": "UK porn content ban takes effect",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/647c7c1b0b33"
+    "topic": "Shooting reported in Krakow",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/0df2245b26a9"
    },
    {
-    "topic": "ICE detains Wisconsin state trooper",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/9716d266c42d"
+    "topic": "Mass Effect N7 Day celebrations",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/3279cd7229e2"
+   },
+   {
+    "topic": "Television guitarist Richard Lloyd dies",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/f43a4d5200f0"
    },
    {
     "topic": "The \"Mamdani lesson\" for Democrats",
     "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/1cc2c00ae70f"
    },
    {
-    "topic": "US offers reward for Iran nuclear tips",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/c3769a29e467"
+    "topic": "Israel's war in Gaza",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/29c959ea8508"
    },
    {
-    "topic": "RFK Jr.'s vaccine agenda",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/458f10898f50"
-   },
-   {
-    "topic": "Paraguay's president Santiago Peña resigns",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/9ecd74c8a33b"
-   },
-   {
-    "topic": "Trump says Russia, Ukraine want deal",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/1025f2ef9903"
-   },
-   {
-    "topic": "Trump picks Miller as chief of staff",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/480a382c2368"
+    "topic": "Washington trans sports ban vote",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/fdb772acff90"
    },
    {
     "topic": "World of Warcraft: Forever launches",
     "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/7ea113d5ba1a"
    },
    {
-    "topic": "Playing Deadlock",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/1091498fba96"
+    "topic": "US data center ban votes",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/a56eadca42c5"
    },
    {
-    "topic": "Carney unveils plan to end homelessness",
-    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/dcceee4f134a"
+    "topic": "Russell Brand 2015 injunction",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/02e5eb8aa9e1"
+   },
+   {
+    "topic": "UK porn content ban takes effect",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/647c7c1b0b33"
+   },
+   {
+    "topic": "US strikes Iranian air defenses",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/2b6f485ef877"
+   },
+   {
+    "topic": "Authors share books with newcomers",
+    "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/a852932ad52d"
    }
   ]
  },
@@ -10530,124 +10912,29 @@
   "tags": [
    {
     "tag": "totp",
-    "uses": 3328,
+    "uses": 2756,
     "servers": [
      "mastodon.social",
-     "chaos.social",
      "mastodon.uno",
      "masto.pt",
      "mastodon.online"
     ],
     "languages": [
      "English",
-     "German",
      "Italian",
      "Portuguese"
     ],
     "url": "https://mastodon.social/tags/totp"
    },
    {
-    "tag": "BandcampFriday",
-    "uses": 2276,
-    "servers": [
-     "mastodon.social",
-     "mstdn.jp",
-     "piaille.fr",
-     "chaos.social",
-     "mastodon.uno",
-     "masto.pt",
-     "mastodon.online"
-    ],
-    "languages": [
-     "English",
-     "Japanese",
-     "French",
-     "German",
-     "Italian",
-     "Portuguese"
-    ],
-    "url": "https://mastodon.social/tags/BandcampFriday"
-   },
-   {
-    "tag": "ChineseTakeOutABook",
-    "uses": 1020,
-    "servers": [
-     "mastodon.social",
-     "mstdn.jp",
-     "chaos.social",
-     "mastodon.uno",
-     "masto.pt",
-     "mastodon.online"
-    ],
-    "languages": [
-     "English",
-     "Japanese",
-     "German",
-     "Italian",
-     "Portuguese"
-    ],
-    "url": "https://mastodon.social/tags/chinesetakeoutabook"
-   },
-   {
-    "tag": "FensterFreitag",
-    "uses": 1006,
-    "servers": [
-     "mastodon.social",
-     "mstdn.jp",
-     "chaos.social",
-     "masto.pt",
-     "mastodon.online"
-    ],
-    "languages": [
-     "English",
-     "Japanese",
-     "German",
-     "Portuguese"
-    ],
-    "url": "https://mastodon.social/tags/fensterfreitag"
-   },
-   {
-    "tag": "MarooningASongOrPoem",
-    "uses": 833,
-    "servers": [
-     "mastodon.social",
-     "mstdn.jp",
-     "chaos.social",
-     "mastodon.uno",
-     "mastodon.online"
-    ],
-    "languages": [
-     "English",
-     "Japanese",
-     "German",
-     "Italian"
-    ],
-    "url": "https://mastodon.social/tags/marooningasongorpoem"
-   },
-   {
-    "tag": "manycolours",
-    "uses": 831,
-    "servers": [
-     "mastodon.social",
-     "chaos.social",
-     "mastodon.uno",
-     "mastodon.online"
-    ],
-    "languages": [
-     "English",
-     "German",
-     "Italian"
-    ],
-    "url": "https://mastodon.social/tags/manycolours"
-   },
-   {
     "tag": "Caturday",
-    "uses": 799,
+    "uses": 2530,
     "servers": [
      "mastodon.social",
      "mstdn.jp",
      "piaille.fr",
      "chaos.social",
+     "mastodon.cl",
      "masto.pt",
      "mastodon.online"
     ],
@@ -10656,27 +10943,69 @@
      "Japanese",
      "French",
      "German",
+     "Spanish",
      "Portuguese"
     ],
     "url": "https://mastodon.social/tags/caturday"
    },
    {
-    "tag": "JukeboxFridayNight",
-    "uses": 750,
+    "tag": "CatsOfMastodon",
+    "uses": 1795,
     "servers": [
      "mastodon.social",
-     "chaos.social",
+     "mstdn.jp",
+     "piaille.fr",
+     "masto.pt",
      "mastodon.online"
     ],
     "languages": [
      "English",
-     "German"
+     "Japanese",
+     "French",
+     "Portuguese"
     ],
-    "url": "https://mastodon.social/tags/jukeboxfridaynight"
+    "url": "https://mastodon.social/tags/catsofmastodon"
+   },
+   {
+    "tag": "MarooningASongOrPoem",
+    "uses": 898,
+    "servers": [
+     "mastodon.social",
+     "mstdn.jp",
+     "chaos.social",
+     "mastodon.uno",
+     "masto.pt",
+     "mastodon.online"
+    ],
+    "languages": [
+     "English",
+     "Japanese",
+     "German",
+     "Italian",
+     "Portuguese"
+    ],
+    "url": "https://mastodon.social/tags/marooningasongorpoem"
+   },
+   {
+    "tag": "Fensterfreitag",
+    "uses": 741,
+    "servers": [
+     "mstdn.jp",
+     "chaos.social",
+     "masto.pt",
+     "mastodon.online"
+    ],
+    "languages": [
+     "Japanese",
+     "German",
+     "Portuguese",
+     "English"
+    ],
+    "url": "https://mstdn.jp/tags/Fensterfreitag"
    },
    {
     "tag": "bikenite",
-    "uses": 557,
+    "uses": 718,
     "servers": [
      "mastodon.social",
      "mstdn.jp",
@@ -10693,26 +11022,52 @@
     "url": "https://mastodon.social/tags/bikenite"
    },
    {
-    "tag": "WindowFriday",
-    "uses": 528,
+    "tag": "defaidodonday",
+    "uses": 712,
     "servers": [
      "mastodon.social",
-     "piaille.fr",
      "chaos.social",
+     "mastodon.uno",
      "masto.pt",
      "mastodon.online"
     ],
     "languages": [
      "English",
-     "French",
      "German",
+     "Italian",
      "Portuguese"
     ],
-    "url": "https://mastodon.social/tags/windowfriday"
+    "url": "https://mastodon.social/tags/defaidodonday"
+   },
+   {
+    "tag": "ChineseTakeOutABook",
+    "uses": 449,
+    "servers": [
+     "mastodon.social",
+     "mastodon.uno"
+    ],
+    "languages": [
+     "English",
+     "Italian"
+    ],
+    "url": "https://mastodon.social/tags/chinesetakeoutabook"
+   },
+   {
+    "tag": "Cats",
+    "uses": 445,
+    "servers": [
+     "piaille.fr",
+     "masto.pt"
+    ],
+    "languages": [
+     "French",
+     "Portuguese"
+    ],
+    "url": "https://piaille.fr/tags/Cats"
    },
    {
     "tag": "これを見た人は何かきいろいものをあげる",
-    "uses": 410,
+    "uses": 418,
     "servers": [
      "mstdn.jp",
      "chaos.social"
@@ -10724,48 +11079,98 @@
     "url": "https://mstdn.jp/tags/%E3%81%93%E3%82%8C%E3%82%92%E8%A6%8B%E3%81%9F%E4%BA%BA%E3%81%AF%E4%BD%95%E3%81%8B%E3%81%8D%E3%81%84%E3%82%8D%E3%81%84%E3%82%82%E3%81%AE%E3%82%92%E3%81%82%E3%81%92%E3%82%8B"
    },
    {
-    "tag": "cybertruck",
-    "uses": 352,
+    "tag": "WindowFriday",
+    "uses": 417,
+    "servers": [
+     "mastodon.social",
+     "piaille.fr",
+     "masto.pt",
+     "mastodon.online"
+    ],
+    "languages": [
+     "English",
+     "French",
+     "Portuguese"
+    ],
+    "url": "https://mastodon.social/tags/windowfriday"
+   },
+   {
+    "tag": "dydddefaidodon",
+    "uses": 405,
     "servers": [
      "mastodon.social",
      "chaos.social",
      "mastodon.uno",
+     "masto.pt",
      "mastodon.online"
     ],
     "languages": [
      "English",
      "German",
+     "Italian",
+     "Portuguese"
+    ],
+    "url": "https://mastodon.social/tags/dydddefaidodon"
+   },
+   {
+    "tag": "Defaidodon",
+    "uses": 373,
+    "servers": [
+     "mastodon.social",
+     "chaos.social",
+     "mastodon.uno",
+     "masto.pt",
+     "mastodon.online"
+    ],
+    "languages": [
+     "English",
+     "German",
+     "Italian",
+     "Portuguese"
+    ],
+    "url": "https://mastodon.social/tags/defaidodon"
+   },
+   {
+    "tag": "いいおなかの日",
+    "uses": 341,
+    "servers": [
+     "mstdn.jp",
+     "chaos.social"
+    ],
+    "languages": [
+     "Japanese",
+     "German"
+    ],
+    "url": "https://mstdn.jp/tags/%E3%81%84%E3%81%84%E3%81%8A%E3%81%AA%E3%81%8B%E3%81%AE%E6%97%A5"
+   },
+   {
+    "tag": "cybertruck",
+    "uses": 323,
+    "servers": [
+     "mastodon.social",
+     "mastodon.uno",
+     "mastodon.online"
+    ],
+    "languages": [
+     "English",
      "Italian"
     ],
     "url": "https://mastodon.social/tags/cybertruck"
    },
    {
-    "tag": "VendrediLecture",
-    "uses": 169,
+    "tag": "BandcampFriday",
+    "uses": 316,
     "servers": [
-     "mastodon.social",
      "piaille.fr"
     ],
     "languages": [
-     "English",
      "French"
     ],
-    "url": "https://mastodon.social/tags/vendredilecture"
+    "url": "https://piaille.fr/tags/BandcampFriday"
    },
    {
-    "tag": "いいおなかの日",
-    "uses": 140,
-    "servers": [
-     "mstdn.jp"
-    ],
-    "languages": [
-     "Japanese"
-    ],
-    "url": "https://mstdn.jp/tags/%E3%81%84%E3%81%84%E3%81%8A%E3%81%AA%E3%81%8B%E3%81%AE%E6%97%A5"
-   },
-   {
-    "tag": "FootpathFriday",
-    "uses": 138,
+    "tag": "strictly",
+    "uses": 188,
     "servers": [
      "mastodon.social",
      "mastodon.online"
@@ -10773,57 +11178,44 @@
     "languages": [
      "English"
     ],
-    "url": "https://mastodon.social/tags/FootpathFriday"
+    "url": "https://mastodon.social/tags/strictly"
    },
    {
-    "tag": "alternatefridaymusic",
-    "uses": 130,
+    "tag": "cat",
+    "uses": 121,
     "servers": [
-     "mastodon.uno",
-     "mastodon.online"
+     "piaille.fr"
     ],
     "languages": [
-     "Italian",
-     "English"
+     "French"
     ],
-    "url": "https://mastodon.uno/tags/alternatefridaymusic"
+    "url": "https://piaille.fr/tags/cat"
    },
    {
-    "tag": "c109",
-    "uses": 86,
-    "servers": [
-     "mstdn.jp"
-    ],
-    "languages": [
-     "Japanese"
-    ],
-    "url": "https://mstdn.jp/tags/c109"
-   },
-   {
-    "tag": "stephenmiller",
-    "uses": 81,
+    "tag": "sheep",
+    "uses": 102,
     "servers": [
      "mastodon.uno"
     ],
     "languages": [
      "Italian"
     ],
-    "url": "https://mastodon.uno/tags/stephenmiller"
+    "url": "https://mastodon.uno/tags/sheep"
    },
    {
-    "tag": "c109webcatalog",
-    "uses": 79,
+    "tag": "vendredilecture",
+    "uses": 84,
     "servers": [
-     "mstdn.jp"
+     "piaille.fr"
     ],
     "languages": [
-     "Japanese"
+     "French"
     ],
-    "url": "https://mstdn.jp/tags/c109webcatalog"
+    "url": "https://piaille.fr/tags/vendredilecture"
    },
    {
     "tag": "好きなお菓子を好きに言って布教するタグ",
-    "uses": 72,
+    "uses": 80,
     "servers": [
      "mstdn.jp"
     ],
@@ -10833,18 +11225,40 @@
     "url": "https://mstdn.jp/tags/%E5%A5%BD%E3%81%8D%E3%81%AA%E3%81%8A%E8%8F%93%E5%AD%90%E3%82%92%E5%A5%BD%E3%81%8D%E3%81%AB%E8%A8%80%E3%81%A3%E3%81%A6%E5%B8%83%E6%95%99%E3%81%99%E3%82%8B%E3%82%BF%E3%82%B0"
    },
    {
-    "tag": "FursuitFriday",
-    "uses": 70,
+    "tag": "c109webcatalog",
+    "uses": 80,
     "servers": [
-     "mastodon.social"
+     "mstdn.jp"
     ],
     "languages": [
-     "English"
+     "Japanese"
     ],
-    "url": "https://mastodon.social/tags/fursuitfriday"
+    "url": "https://mstdn.jp/tags/c109webcatalog"
    },
    {
-    "tag": "bandcamp",
+    "tag": "misskeyバー名古屋",
+    "uses": 72,
+    "servers": [
+     "mstdn.jp"
+    ],
+    "languages": [
+     "Japanese"
+    ],
+    "url": "https://mstdn.jp/tags/misskey%E3%83%90%E3%83%BC%E5%90%8D%E5%8F%A4%E5%B1%8B"
+   },
+   {
+    "tag": "kungfusat",
+    "uses": 69,
+    "servers": [
+     "chaos.social"
+    ],
+    "languages": [
+     "German"
+    ],
+    "url": "https://chaos.social/tags/kungfusat"
+   },
+   {
+    "tag": "grenoble",
     "uses": 62,
     "servers": [
      "piaille.fr"
@@ -10852,7 +11266,29 @@
     "languages": [
      "French"
     ],
-    "url": "https://piaille.fr/tags/bandcamp"
+    "url": "https://piaille.fr/tags/grenoble"
+   },
+   {
+    "tag": "私は犬と猫どっちっぽいですか",
+    "uses": 60,
+    "servers": [
+     "mstdn.jp"
+    ],
+    "languages": [
+     "Japanese"
+    ],
+    "url": "https://mstdn.jp/tags/%E7%A7%81%E3%81%AF%E7%8A%AC%E3%81%A8%E7%8C%AB%E3%81%A9%E3%81%A3%E3%81%A1%E3%81%A3%E3%81%BD%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B"
+   },
+   {
+    "tag": "Krakow",
+    "uses": 60,
+    "servers": [
+     "mastodon.uno"
+    ],
+    "languages": [
+     "Italian"
+    ],
+    "url": "https://mastodon.uno/tags/Krakow"
    }
   ]
  },

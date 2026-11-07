@@ -1,6 +1,61 @@
 {
  "editions": [
   {
+   "stamp": "20261107T201404",
+   "file": "data/narratives/20261107T201404.json",
+   "newsGeneratedAt": "2026-11-07T20:14:04Z",
+   "generatedAt": "2026-11-07T20:27:01Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-7",
+   "narratives": [
+    {
+     "id": "fuel-tax-cuts-end-mid-war",
+     "kicker": "OIL / BUDGETS / HOUSEHOLDS",
+     "line": "With the Iran war unresolved, governments are ending the fuel tax cuts that kept the war's price off drivers.",
+     "events": 5,
+     "headlines": 6,
+     "countries": 6,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "chinese-makers-grow-as-others-retreat",
+     "kicker": "SUBSIDIES / SCALE / MARKET SHARE",
+     "line": "A year after Washington ended its EV credit, US makers drop electric pickups while Chinese makers price higher and sell abroad.",
+     "events": 6,
+     "headlines": 6,
+     "countries": 4,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "pardons-and-signatures-go-to-court",
+     "kicker": "CLEMENCY / OVERSIGHT / FINAL SAY",
+     "line": "Governments are using pardons and refusals to sign laws, and courts and heads of state are now being asked to overrule them.",
+     "events": 6,
+     "headlines": 6,
+     "countries": 6,
+     "continues": "",
+     "firmness": "tentative",
+     "watch": 2
+    },
+    {
+     "id": "el-nino-first-weeks-bring-rain",
+     "kicker": "OCEAN / FORECASTS / PLANNING",
+     "line": "El Niño is expected to bring drought, but its first weeks have brought storms and landslides to mountain cities and the Pacific coast.",
+     "events": 5,
+     "headlines": 6,
+     "countries": 4,
+     "continues": "",
+     "firmness": "tentative",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261106T212911",
    "file": "data/narratives/20261106T212911.json",
    "newsGeneratedAt": "2026-11-06T21:29:11Z",

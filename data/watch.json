@@ -185,8 +185,23 @@
    "what": "A second government raises a fuel tax or ends a fuel subsidy, citing its budget, while oil prices stay high.",
    "by": "2026-11-28",
    "because": "If the war's price has become revenue as well as cost, Turkey should not be the only treasury that stops absorbing it.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261107T201404",
+    "asOf": "2026-11-07T20:14:04Z",
+    "how": "headline",
+    "note": "Il Messaggero reports that Italy will not extend its diesel excise cut, so the tax on diesel goes back up and prices may rise by up to 5 cents a litre from 8 November.",
+    "headlines": [
+     {
+      "id": "n-fa1f60396188a0",
+      "title": "Diesel, nessuna proroga del taglio delle accise: da domani rischio maxi rincari, fino a 5 centesimi in più al litro. Le simulazioni",
+      "titleEnglish": "Diesel: no extension of the excise cut; from tomorrow, risk of major increases of up to 5 cents more per litre. The simulations",
+      "url": "https://www.ilmessaggero.it:443/economia/news/diesel_domani_quanto_costa_cosa_sappiamo-9875662.html",
+      "publisher": "ilmessaggero.it",
+      "sourceCountry": "Italy"
+     }
+    ]
+   }
   },
   {
    "id": "20261101T010841-war-fuel-price-who-pays-2",
@@ -1022,6 +1037,118 @@
    "what": "A second government in Europe or Australasia publishes the share of home purchases made by foreign or non-resident buyers, or proposes curbing them.",
    "by": "2026-12-04",
    "because": "The join claims the mismatch between local wages and outside buyers is common to several countries, so it should surface as a counted figure or a proposal beyond Portugal.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261107T201404-fuel-tax-cuts-end-mid-war-1",
+   "stamp": "20261107T201404",
+   "asOf": "2026-11-07T20:14:04Z",
+   "narrativeId": "fuel-tax-cuts-end-mid-war",
+   "kicker": "OIL / BUDGETS / HOUSEHOLDS",
+   "line": "With the Iran war unresolved, governments are ending the fuel tax cuts that kept the war's price off drivers.",
+   "firmness": "plausible",
+   "what": "A European government other than Italy and Portugal ends or reduces a fuel tax cut or a fuel price cap.",
+   "by": "2026-12-05",
+   "because": "If treasuries are handing the war's fuel price back because they will not carry it into next year's budgets, Italy will not be the only one to stop, which a one-off Italian decision would not predict.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261107T201404-fuel-tax-cuts-end-mid-war-2",
+   "stamp": "20261107T201404",
+   "asOf": "2026-11-07T20:14:04Z",
+   "narrativeId": "fuel-tax-cuts-end-mid-war",
+   "kicker": "OIL / BUDGETS / HOUSEHOLDS",
+   "line": "With the Iran war unresolved, governments are ending the fuel tax cuts that kept the war's price off drivers.",
+   "firmness": "plausible",
+   "what": "Taiwan's CPC raises pump prices, or the Executive Yuan announces money to cover CPC's fuel losses.",
+   "by": "2026-12-05",
+   "because": "If the cost is only being moved between treasury, state company and household, the sum Taiwan's state refiner has absorbed must in time reach either drivers or the budget.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261107T201404-chinese-makers-grow-as-others-retreat-1",
+   "stamp": "20261107T201404",
+   "asOf": "2026-11-07T20:14:04Z",
+   "narrativeId": "chinese-makers-grow-as-others-retreat",
+   "kicker": "SUBSIDIES / SCALE / MARKET SHARE",
+   "line": "A year after Washington ended its EV credit, US makers drop electric pickups while Chinese makers price higher and sell abroad.",
+   "firmness": "plausible",
+   "what": "Another US carmaker cancels, delays or cuts production of an electric pickup or electric SUV.",
+   "by": "2026-12-05",
+   "because": "If the retreat follows the end of the federal credit rather than the Cybertruck's own problems, other American makers facing the same market should be cutting too.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261107T201404-chinese-makers-grow-as-others-retreat-2",
+   "stamp": "20261107T201404",
+   "asOf": "2026-11-07T20:14:04Z",
+   "narrativeId": "chinese-makers-grow-as-others-retreat",
+   "kicker": "SUBSIDIES / SCALE / MARKET SHARE",
+   "line": "A year after Washington ended its EV credit, US makers drop electric pickups while Chinese makers price higher and sell abroad.",
+   "firmness": "plausible",
+   "what": "A European, Korean or Japanese maker cuts electric car or device production or jobs and names Chinese competition as a reason.",
+   "by": "2026-12-05",
+   "because": "The join says Chinese makers grow where others shrink, so the pressure should show outside the US, where Chinese goods are not kept out by tariffs.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261107T201404-pardons-and-signatures-go-to-court-1",
+   "stamp": "20261107T201404",
+   "asOf": "2026-11-07T20:14:04Z",
+   "narrativeId": "pardons-and-signatures-go-to-court",
+   "kicker": "CLEMENCY / OVERSIGHT / FINAL SAY",
+   "line": "Governments are using pardons and refusals to sign laws, and courts and heads of state are now being asked to overrule them.",
+   "firmness": "tentative",
+   "what": "A court in Serbia, Malaysia or Taiwan agrees to hear a challenge to a pardon or to the cabinet's refusal to countersign a law.",
+   "by": "2026-12-05",
+   "because": "If these single-office acts are moving into the courts, at least one of the disputes should reach a judge within weeks, which a set of separate political rows would not require.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261107T201404-pardons-and-signatures-go-to-court-2",
+   "stamp": "20261107T201404",
+   "asOf": "2026-11-07T20:14:04Z",
+   "narrativeId": "pardons-and-signatures-go-to-court",
+   "kicker": "CLEMENCY / OVERSIGHT / FINAL SAY",
+   "line": "Governments are using pardons and refusals to sign laws, and courts and heads of state are now being asked to overrule them.",
+   "firmness": "tentative",
+   "what": "A government in a seventh country refuses to sign, publish or apply a law passed by its parliament.",
+   "by": "2026-12-05",
+   "because": "If the shape is a general turn towards using acts one office controls against legislatures, it should appear outside these six countries; unrelated national rows would not predict it.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261107T201404-el-nino-first-weeks-bring-rain-1",
+   "stamp": "20261107T201404",
+   "asOf": "2026-11-07T20:14:04Z",
+   "narrativeId": "el-nino-first-weeks-bring-rain",
+   "kicker": "OCEAN / FORECASTS / PLANNING",
+   "line": "El Niño is expected to bring drought, but its first weeks have brought storms and landslides to mountain cities and the Pacific coast.",
+   "firmness": "tentative",
+   "what": "Peru declares a state of emergency over rain or flooding in Tumbes, Piura or another northern coastal region.",
+   "by": "2026-12-05",
+   "because": "If the Tumbes rain is the start of a coastal El Niño rather than a single storm, it will continue for weeks and reach the level of an emergency, which a passing storm would not.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261107T201404-el-nino-first-weeks-bring-rain-2",
+   "stamp": "20261107T201404",
+   "asOf": "2026-11-07T20:14:04Z",
+   "narrativeId": "el-nino-first-weeks-bring-rain",
+   "kicker": "OCEAN / FORECASTS / PLANNING",
+   "line": "El Niño is expected to bring drought, but its first weeks have brought storms and landslides to mountain cities and the Pacific coast.",
+   "firmness": "tentative",
+   "what": "Peru's ENFEN or Colombia's IDEAM links the current rains to El Niño or raises its El Niño alert level.",
+   "by": "2026-11-30",
+   "because": "If the rains share the cause the Bogotá report names, the agencies that forecast El Niño will say so; if they are ordinary seasonal storms, they will not.",
    "status": "open",
    "resolved": null
   }
