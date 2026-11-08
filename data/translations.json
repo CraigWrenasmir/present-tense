@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "updatedAt": "2026-11-07T20:14:55Z",
+ "updatedAt": "2026-11-08T01:27:00Z",
  "note": "Cache of English headlines keyed by sha256 of the original title. Seeded from the first collection; later entries come from scripts/translate.py.",
  "entries": {
   "3e8d54cf3a9b6c2a76dbebb93a5a8bba41f19be6833be7e7ba3b49133b410110": {
@@ -81818,6 +81818,726 @@
    "model": "claude-haiku-5-5",
    "at": "2026-11-07T20:14:55Z",
    "lang": "fi"
+  },
+  "67bb92a5d3db3c46ef901ce6d6cc1c38fdaa7a1b74f6e29ce88507136fe8f34b": {
+   "en": "Beba witnesses Man Utd's ranking, covers face and smiles bitterly, angrily scolds: serves them right! Carrick refuses to talk about whether B. Fernandes will apologise",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "zh"
+  },
+  "016e0f5e3c783cb54721ff1f12c529a635eb763d5de9888bf57e0fd2e36fa040": {
+   "en": "Armed men hold family hostage to rob them of 120 thousand pesos",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "es"
+  },
+  "4684f43334110e968722ab0419e39af573ee6a349157c4e40eb709b369266888": {
+   "en": "Marco Tulio Pedroza, professor at the ENAH, found dead",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "es"
+  },
+  "caf93772bd21f996e289696a9ad2cd0d4730f64a681ea56d52902d0484b9a3bb": {
+   "en": "Surveillance video of the 'Xuanwu Gate Incident' unearthed! Now AI is truly blowing minds!",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "zh"
+  },
+  "7baabc9abc40c40c4e0072bdebfd3e0881707bc7338052ddfac5b34a70c7eb5d": {
+   "en": "Deputy and 3 police officers killed in armed attack in Guatemala - Youm7",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "832dabcb97e273d1276cecf3da07c6453f78e78c85263c0d1225ee57bb098856": {
+   "en": "15 years of hard labour for man who killed his wife over her pregnancy with a \"girl\" in Sohag - Youm7",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "21d444af6e6f65b36af4ce95262fd52a948607255c29e5210616d3abad18838c": {
+   "en": "Food prices and outlets in Qena within the price reduction initiative - Youm7",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "d0e99149f3abcb9508482360861c5fc85afaff3d7a06305a67a97e3379659aca": {
+   "en": "Meta launches Muse Voice for direct voice conversations with its AI assistant - Youm7",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "1d16e2a05faee753e651466948de24b10866670466f84cdd91d04bf1a2bc2a5e": {
+   "en": "Invention of double nasal spray that reduces congestion caused by continuous use - Youm7",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "8a8ac3791938a5a5cc5eaf742c88dab792f4d9007b1d9012521d4b059a88d26d": {
+   "en": "Masks of victimhood and religious traders fall.. the full truth of the Muslim Brotherhood's doctrine that trampled citizenship and equality.. a black history of fragmenting society and dividing citizens to serve agendas of betrayal and secret entrenchment at the expense of the homeland - Youm7",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "ebdab0a1dd88755b2123be2a8f8daf9733b475a6cc2a554e5c0089bef15b3ace": {
+   "en": "Screening of the film \"Berlin\" starring Menna Shalaby and Yousra El-Lozy at the Cairo Film Festival, November 13 - Youm7",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "9211d9e2a7b754d0ca3e0adfad7d376169a83f9f2d7c3cf8a3503b4b9899836b": {
+   "en": "Pope Tawadros honours Alexandria priests who hold master's degrees in theology - Al-Watan",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "e7a2f2258eefc7430ccd8f168a6181a7398b2f709dbc0ec775b3b61fae711d2f": {
+   "en": "Health minister witnesses signing of cooperation protocol to promote Egyptian medical tourism in Africa - Al-Watan",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "e10649692bebc7c68d68108931ab1ddb3be5da97068b56f8f8f2a8af689b7ec0": {
+   "en": "Rating and stats for Mostafa Mohamed in Konyaspor vs Samsunspor match: what did he contribute in 61 minutes? - Al-Watan",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "0568ad2e1717f4b5623ff5ffb700f0a6ec4c5d9aa901941dc20fe6a6cd8c7754": {
+   "en": "Mostafa Mohamed takes part in Konyaspor's loss to Samsunspor in the Turkish league - Al-Watan",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "bd26f3a41083651f292e50b709efe71add1383aab7d828f42e14e4d5dc4b1563": {
+   "en": "Rami Imam reveals behind-the-scenes of his directing journey in a masterclass at the Cairo Film Festival - Al-Watan",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "f49e6a46b07f3d731be8de663d1379073107766ba9b6e2734f927bf9f00bee2c": {
+   "en": "New decline of the dollar against the pound: how much did it lose during the week? - Al-Watan",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "4cbad933da406809e5acc34c5d2869c519471646e233858e56e171a02541e5d9": {
+   "en": "\"Administrative Court\" postpones lawsuit to cancel ban on Egyptian women working abroad in 6 professions to December 5 - Al-Watan",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "4a98357f0061ec3cee1ce956eb9b8d055c68c9747790e09147b5dad308c34662": {
+   "en": "Tax authority stresses compliance with rules on selling flavoured tobacco (mo'assel)",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "0294e5aecd286d281811a7131a25c22311793e4d19d97c00bad0adbcd83362de": {
+   "en": "Public works to begin Sunday on maintenance project for sections of Al-Ghor road",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "7f805ebe2dfffea7fc6992865360f5fc06223a12e1e25aac38ea89df90e1e16d": {
+   "en": "Queen Rania Al Abdullah offers condolences to the family of martyr Jawad Al-Slayta",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "ae12e2d33b865a63ecd43a9163f7dce5f9e02df0e5e6cadeabf1fb695429cd19": {
+   "en": "Chief of the Joint Staff Command visits wounded security man and offers condolences over the death of Corporal Al-Slayta",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ar"
+  },
+  "fd47d8aa853bf807f20cc950918de18c9036dc0a27350d92e6a332fc5c340d0c": {
+   "en": "Zoetis posts 7% drop in net profit in third quarter of 2026",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "pt"
+  },
+  "0a5f02ddcc4cd1315895f86d4eaf6a2ec4f1ea76e6dfcdd9586a918d1f71bc2b": {
+   "en": "ANC suffers defeat in local government elections in South Africa",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ha"
+  },
+  "3f5d25430647396eb820037d0e59402633c8670ee80d930c2f4906f8d2103978": {
+   "en": "The Threat Behind the Cold Air of AC",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "id"
+  },
+  "88a4ad479f8855fe7a4217e6d526c60b502b773371c5d8b9ad89ec574fd5a1c6": {
+   "en": "<Those were the days> Smiling with beautiful teeth, November 8, 32 years ago",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ja"
+  },
+  "f19b34b36e2133a72689fb41b3c235a44bbdc220e24aea22e068120c04b7591a": {
+   "en": "Houthis report massacre in Yemen. Saudi Arabia responds firmly",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "pl"
+  },
+  "236e31cfb3361bccff55be56a0064607c4fa3e803710b8e128832746085a49fc": {
+   "en": "Britney Spears rejected Justin Timberlake",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ru"
+  },
+  "be57a581a1267dde3368505ebcdbd18731784ff0b2b91bb78427e760a2316d96": {
+   "en": "8 phrases that reveal people with low intelligence and inflated self-esteem have been named",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ru"
+  },
+  "2c6f86a8aad4fe5a3d46c76d4be656dfc01a273a9f3e69b57c35eff6bba8b8d0": {
+   "en": "Precautions due to germ contamination in intensive care unit - WELT",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "de"
+  },
+  "241182d964ae5763d0edba4ba0c517f4b4facf7a12d93fcffd6b42f311587c44": {
+   "en": "In specialist shops, sales of Christmas decorations ordered for months cannot be improvised - Outre-mer La 1ère",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "fr"
+  },
+  "54ff6c8be6500c09720ea54c86e02a6a3d98b1e1619e8416ff8f38e9210d75f4": {
+   "en": "Car being chased by police car crashes, 17-year-old man arrested, Nagoya",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ja"
+  },
+  "03c5e18c083ca3d79c9a824a5b5be04dc8f3917f98ef5d03fa3cc83421984cd7": {
+   "en": "Shooting in Krakow. Latest information [LIVE REPORT]",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "pl"
+  },
+  "fb9d1f40052a27f26f0684c5aa20c1d2b3e34a8bbcd8299e2672a12945269d4e": {
+   "en": "US announces $20 million reward for information on Iran's nuclear programme",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ru"
+  },
+  "61fb2796b90a4aa7502847705f0f3b2a5ecf023918099c31bdc58c15e787989c": {
+   "en": "After overcoming breast cancer, man gives lectures against prejudice | G1",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "pt"
+  },
+  "345bc54b80f6658edcd448ce67b391f218f3eb15f6ebab7ea827346017ac797c": {
+   "en": "Pianist Jérémy Hababou in concert in Tahiti - Outre-mer La 1ère",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "fr"
+  },
+  "1505f067914e4910c196224b4d6979a2255ab90207eb536a5e0b5534ed9fbe31": {
+   "en": "Shooting in Poland leaves 5 dead; suspect arrested in Krakow, southern city",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ja"
+  },
+  "a8ad1c612b4b6ddf379c47ae67940bae87546ed9a3ecbc8d665cbbb8f0da5f37": {
+   "en": "Moment of arrest of Krakow shooting suspect. Police officer fires shots",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "pl"
+  },
+  "ae710b04180d8c746c731035ba7ecd817d02ab71462c4a38059fc3b930f5f055": {
+   "en": "Forward Tyukavin enters history of Moscow's Dynamo",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ru"
+  },
+  "b94f054d570f35ed3390a0f9652e18af9f2b65c6b883fff32b0a51932556cf8c": {
+   "en": "Alzheimer's disease begins before memory lapses appear: what scientists have found",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ru"
+  },
+  "34db0ffd5967b5750678658ac5ae3fe950097dd0002568610b1cda6ec007c61f": {
+   "en": "Off Newfoundland, Shell and Equinor commit to spend $240.6 million on oil exploration - Outre-mer La 1ère",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "fr"
+  },
+  "feb41643102dde2dc4451a9400536f3b06808fba749140c6d8de27f237760ded": {
+   "en": "US steps up land monitoring of Iran, aiming to block weapons transport",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ja"
+  },
+  "df40be4a9b061b0bccb9bc6d2c12634bf1a4cb27b68dd1bb4274a70b19518534": {
+   "en": "Player Bismarck buried in Natal after being shot dead | G1",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "pt"
+  },
+  "3266687db63170b9a6ba9709626ff25147c883f66e6ec6829ef2e9bf4d2b38d9": {
+   "en": "90 million refugees face threat of climate change",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ha"
+  },
+  "4cd237439c3867440b9bcdfac270142ce0d05eabe812d1503fbd8b05022b1d59": {
+   "en": "Death toll from shooting in Poland rises",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ru"
+  },
+  "3dd46ab1dcd326aa67f0c1708c702fe10c022fa567ef8e4a52b343d11212cf0f": {
+   "en": "Petrol station catches fire in Paraná; witness says lightning struck the site | G1",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "pt"
+  },
+  "7e8ae1c99cb24e2c66f5a8d3415b8956b252cbf4813d07cdea729923b81fe8e2": {
+   "en": "BYD Yangwang releases new car Dingyao in UAE, more ultra-luxury models to follow",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "zh"
+  },
+  "90f538280d737ed4033a58ff093222c4f0a7c3e8bc6577e7e09025607ee62fee": {
+   "en": "Western side gives grim forecast for Ukraine due to fighting",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ru"
+  },
+  "7335eb37a7b68a9927cd7f0719586082c97593a766d5416d2a6ff29a4356bed6": {
+   "en": "Enem: students will get free metro, train and bus in São Paulo on exam days | G1",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "pt"
+  },
+  "73c91578e4a19bd8434eb3bf55c880ba5a304a5f48e6c7bd62c09635dd23d86b": {
+   "en": "Russian military strikes electrical substation in Kyiv region",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ru"
+  },
+  "11d0d031fa142f29a548a7fd4621083f6132a298427834f5ca416ba5928ab39c": {
+   "en": "Newborn baby found inside rubbish bin in Serra Gaúcha | G1",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "pt"
+  },
+  "dceac002076c0f0e86663dd60148380f78e4516a0c08ac72a2c6d62dedb7e4e6": {
+   "en": "Airline removes from sale seats on aircraft with Ronaldo's game number",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ru"
+  },
+  "1fb0f10b6952ea90ff1754c171f104ac396867b018f066ba1282f5102fd0e94f": {
+   "en": "Man stones bus and leaves passenger injured in the head in Recife | G1",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "pt"
+  },
+  "bbb16a50551d31ae90693569e6a403c9b172b8431a7f9c93f35289a7cd929458": {
+   "en": "BYD ultra-luxury executive flagship sedan launched! Yangwang Dingyao executive version is 5.6 metres long with over 1,000 km range",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "zh"
+  },
+  "caf4f2c7ffaa2eec19aac067e3d28d85d5a329b9e8abd75f437931cd5bdcbb51": {
+   "en": "In France, police use gas against protesters",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "ru"
+  },
+  "7b0360d5ebcbb44f828549176124e626636b3773f74b392ffcf23273ecc053e6": {
+   "en": "Wide flat-screen phones go wild! OPPO and vivo rush in, is the phone market about to change?",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "zh"
+  },
+  "26ae319c785c7755bdd181a3449b51a742198ae0d260936af00167f8ce6dc8d2": {
+   "en": "I really don't understand the naming of this year's flagship phones...",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "zh"
+  },
+  "a85dda75cd1e9215527f1f7d1a4d0ec4781d66138ceb3622cf67380df7d87fc3": {
+   "en": "Anthropic aims to complete IPO before Thanksgiving, Apple discloses progress on humanoid robot system, Bill Gates talks about billionaire tax, DeepSeek suffers sudden service problem, these are today's other major news!",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "zh"
+  },
+  "aee83975dad217902cc0b3b9eab159d12798390d8375b529fadaa811a7ae73a5": {
+   "en": "Photo-search homework apps no longer as appealing: how are Yuanfudao and others doing now?",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "zh"
+  },
+  "44cfab8be475a1e1206214027eaf51cc9304e06566f33081b6a88037a1f317ca": {
+   "en": "At Teatro Duse in Bologna, 'Accabadora', based on the novel by Michela Murgia, returns - Theatre - Ansa.it",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:26:48Z",
+   "lang": "it"
+  },
+  "9ef19dd294bd49d5dc60fc1492f58c058ba365e64f9f45a5b57ed5e2ad10dfa3": {
+   "en": "Teatro Duse in Bologna brings back 'Accabadora', from the novel by Michela Murgia - Books - Other Proposals - Ansa.it",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "it"
+  },
+  "9bbcbb70dd9ef5b3727c08642442461e661f774056cb4238de523329e3315172": {
+   "en": "\"Going on like this, your son will become insecure and cowardly\": a clothes-picking video reveals parents' ignorance",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "zh"
+  },
+  "e394e655198681bffab021baadffed6762e0e2183a9eff5523980600889dbec2": {
+   "en": "\"Someone like you won't make it in society either\": girl breaks down in tears over Sunday exam, netizens can't bear to watch",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "zh"
+  },
+  "2ca11f4d3a799562d20ae4c1134bc8e9a80580fe8ff701088b91024d0d7701cb": {
+   "en": "Eyewitness describes shooting terror attack in square in Krakow",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "ru"
+  },
+  "6234b3ee5a1ab36170ca3c13d06b7d0a0ee29c6e6fe0902b82f2ad7ab2c94a52": {
+   "en": "Sarah Santaolalla reacts with humour to Javier Ruiz's interview with Pedro Sánchez: \"He's not coming to 'En Línea', is he?\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "es"
+  },
+  "f0b3e22fa40011b2bba79f3b99c02a7ad7565f45e84454ea2e741158ee367c76": {
+   "en": "Nacional-Académico de Viseu postponed to Sunday due to lack of visibility",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "pt"
+  },
+  "41ae4518206a6b94809b7a02bce78f913e77e32a8f4d2a09b8d9bac821d3603c": {
+   "en": "Less ultra-processed, more health? What starts to change in your body in the first days",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "pt"
+  },
+  "c65154b6fbb9367d3fa62bc4b1f885b3f282c4f8ef68610fb3c4d0abd6c9b571": {
+   "en": "Houston Mayor limits cooperation between police and ICE - 24 Notícias",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "pt"
+  },
+  "fef16b4fbd0cdbb4af6a183a3eea01d2e6e66f0e5642d0cf616c3e97c4af42dd": {
+   "en": "Review: Halln finds a darker tone in season two",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "sv"
+  },
+  "b4d8e2710c5cadcd92c38cc1005156d70421af2f95e7a0b41427cadac1dc9d95": {
+   "en": "Human Initiative distributes Kapas Selection aid for Manggarai earthquake victims",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "id"
+  },
+  "e32e5a016321ab5ce37098f20f5c0aebb8e394bb6c2cf487fb3ff4c2c819cc16": {
+   "en": "Dotor's outburst after another defeat by the bottom club: \"We played 20' unacceptable, we have to look ourselves in the face and tell each other things\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "es"
+  },
+  "76867a41178527a5d093564bbe283a93e15755bdcd1e75c845af2a8acad6b87d": {
+   "en": "Edo Bosch critical: \"A gentleman caused a big commotion\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "pt"
+  },
+  "198ade0069f257d8abad529239ad5eda0e3b24e03fcc85f26ca1cc5fd3bbb93f": {
+   "en": "Former constitutional judge Huber: \"Some of the left's behaviour has totalitarian traits\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "de"
+  },
+  "0ad2f0e773d5c69d61850a40ad7ecef28e21c9bbd622ff2b7c7c7a83e97078fc": {
+   "en": "Alonso and Sainz pray for rain before a qualifying with the favourites in tenth place",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "es"
+  },
+  "be18e8a02dd48adb70b31dd2dfba6b3540468f89aa6216fbd15b189fe26df56d": {
+   "en": "gov.pt app has new features! Find out what is now available",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "pt"
+  },
+  "101378155831021f18fb948bf4a387ff7d7c0da5a8f648827d1a749b68c45d3b": {
+   "en": "Amaia Montero's fall in the middle of a concert in Barcelona: she was joking, tripped and fell on her bottom",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "es"
+  },
+  "36c8c92af4d66e2047ada13220e867fc696d96e3877e39b36eeab2eaff8b6735": {
+   "en": "Alcaraz - Ruud, live | Latest updates from Paris Masters 1000 live today | Marca",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "es"
+  },
+  "94212f98c7b09ee3fe454759abc606f4b57d66141a03cdc2bb0d457a6ff0f293": {
+   "en": "New \"Sverigehataren\" Viivi Vainikka on the important rivalry match: \"I just hope we get to play tough\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "sv"
+  },
+  "a19ee535c893293ed283abe3eafd99ca2eb989fd91ab5bde2a3b8e7f63c45b6c": {
+   "en": "Vinicius has a new ally on the Bernabéu pitch: \"Let him stay focused\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "es"
+  },
+  "9e82953efde688c79dbf57eddbf06ad7a0bf1e24de61931eed55d4b1c0002f69": {
+   "en": "Latest Condition of Gambir Station After Fire",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "id"
+  },
+  "93e74a4257c1e333229e6ea68720f919553c00e6e92341d50b1aad890da8c972": {
+   "en": "Five dead and over a dozen injured after shooting in Krakow",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "sv"
+  },
+  "de40dfd02bc69677abf65104adc0ab6ad79b1ad55a7bfb70b9f3a0639d2521b5": {
+   "en": "Atletico Madrid and Barcelona's peace lunch",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "id"
+  },
+  "3ae607376f5c2d1f22c18a7f0aab9e12ea9bfb620e3aea22848ba3c39a0de2ae": {
+   "en": "Who is Blind Channel's Diana? Test whether you know the song lyrics",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "fi"
+  },
+  "67f3fae868c3f8b06f205434da4be62153a16d41f75a9e85592f634641fe63c1": {
+   "en": "Helsinki police: Defects found in nearly every other taxi",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "sv"
+  },
+  "b64ba9e1b18feaf88e153f23b527e7bdd87887fb5d50cfa999c3ebf78d1be30c": {
+   "en": "Chronology of the food tenant fire at Gambir Station",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "id"
+  },
+  "9eb15ed5b7228c01e6559b80319e39599d8745208fcbfce412df8d83ddfeb14d": {
+   "en": "Brazil: What left-wing election strategists can learn from Lula's victory",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "de"
+  },
+  "d034f65c15dc1a8caad037412be9521c7784ab0e7811a9187903633940533cb7": {
+   "en": "Attitude of 8 AC Milan players disappoints Ruben Amorim",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "id"
+  },
+  "ca5dc3d6ad08cb02513ccbc85a7a1cd3489084e788ec503a9f6e94cf73f6a8f8": {
+   "en": "Gambir Station tenant fire, train journeys not disrupted",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "id"
+  },
+  "fadd69d5ef7bb680fde82a5a4cf73a700d5159ec519bbd57f79596bfcceb6c1d": {
+   "en": "Cracks in the AI bubble now? Four questions about Thursday's share price drop",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "sv"
+  },
+  "b8d69b6781c6683badd4317d4cdcbc536dfd4050ad2b71efe6aa85d603bc05ca": {
+   "en": "Heat kills, cramps on beaches and tourists drowned at sea. The sad summer tally: deaths doubled in a year",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "it"
+  },
+  "66b93a244bc44362f21981e6c2e3048aa33aa6d138aacfd413c8bb47fe38d444": {
+   "en": "Klingbeil with Ruhr SPD: Klingbeil at the grassroots in the Ruhr area - criticism and impulses",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "de"
+  },
+  "f3da0665404e4251631822c23df25c600c298e7a4ae241c47dad0c5ee83fdab6": {
+   "en": "Outsourced workers can become employees of the user company, but there are conditions",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "id"
+  },
+  "e85ff4b3eeab8752918b96930f2a726bfb3d8455388b9ec4d54ad6557168a592": {
+   "en": "BBC interviewed Erkka V. Lehtola about Teemu Pukki's last match: \"He is still a big hero\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "fi"
+  },
+  "6f0c7e9dc7100d3f6686e764c41f58928fc08c375e84945e09577823d2f7db85": {
+   "en": "In 2025 mammograms increased by 4% in Italy - Medicine - Ansa.it",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "it"
+  },
+  "8c238f8b69b2f8b30db83af1159723578a61a1f0995ef66ca4445df2beaefdcb": {
+   "en": "Italian footballers beat their opponents 9:1 on the pitch",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "mn"
+  },
+  "b097edb1ec7ae63d17cec7e1df974f30139ff0ad9b53d59e8e072c61a1525695": {
+   "en": "Bitcoin price has fallen below 76 thousand",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "mn"
+  },
+  "b08eabd2891add3633b977a2b3809f40a169916ca0a620f5fb5ee7ae2b3b9e25": {
+   "en": "Youssef Siher, no appeal by Milan prosecutors against release. He does not ask for mobile phones or PC (even though he has not provided the PINs)",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "it"
+  },
+  "eac8117ef31669522c22e2f93166b80a9af7d637f30446ad472741abcd53b5c2": {
+   "en": "Cádiz - Oviedo, live | Latest updates from LALIGA Hypermotion live today | Marca",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "es"
+  },
+  "1963e68b2ffe870423404b262e614fb313f9b831f949519724e2d94b9e86ec1b": {
+   "en": "China's nuclear technology applications are expected to reach 400 billion yuan in direct annual economic output value, with the potential to form a trillion-yuan-scale market",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "zh"
+  },
+  "f26fe290bc9c22a4629c752cec825238603d8f0a739039d41dcec4989b57e39a": {
+   "en": "Multiple highways in northern Beijing see snowfall, traffic normal, no road closures for now",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "zh"
+  },
+  "9f247092be49107276b910bf4795e7464954ac874fae702823dd2be7ef304dbb": {
+   "en": "Kayseri's rail system network gets a new 18-kilometre line that will connect Erkilet with the city centre and the airport - Kayseri Latest News - Habertürk Local News",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "tr"
+  },
+  "87d26b4f1cfe4b245faa9fec77218ebf7506d3aed797aae59fcee8cf0983fb07": {
+   "en": "\"Barber Angels Brotherhood\" from Hanover wins NDR Volunteer Award",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "de"
+  },
+  "14712efb3b29c18268b380d7fcb4b8c12ad2ca5c224d909c0af0405aff0ad0c8": {
+   "en": "Mark Lee asks 'What Makes You Happy?' in teaser for new single",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "id"
+  },
+  "091ce1097687685846d682f3a7b708c6dc344d15184e49b79c5c8e957bfc8eab": {
+   "en": "Ha Ji Won and Sung Si Kyung spotted eating together in Euljiro, dating rumours emerge",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "id"
+  },
+  "4bfa19557427c86116fbf6e2d2b9c4124679dc5f1147fb2b2a8f731fe2ace9ca": {
+   "en": "Funchal revives traditional recipes with 'showcookings'",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "pt"
+  },
+  "37474ca4827185592e87fca594711840a743d45cab1d7df3739f5014564e5d85": {
+   "en": "Zelensky warns Trump's plan for European security could be \"dangerous\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "pt"
+  },
+  "57e1f056b71ba0465fb44d49ba7febd0a5699cf26788cced7cc93143540be64d": {
+   "en": "Media: FBI alerted Portugal yesterday to bomb threats on three flights - Other news - Ansa.it",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "it"
+  },
+  "b310863490b911615af36eff7d306da9511c3ba17865a7520f24c9405b95a98b": {
+   "en": "Oriental Selection expands into in-house tangerine peel business, investing over 100 million yuan in tangerine peel projects over three years",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "zh"
+  },
+  "c953b6cf109e7fc9fb2fcb3791bd421b59757208d5de2fca0b50f8a45787e82d": {
+   "en": "Marco Benati dies at 29, crushed by rollers at family company. Alpini, unions and institutions cancel all events: \"Dying like this is not acceptable\"",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "it"
+  },
+  "e9dddacae3ffebf34678b089cfb98187792cccbd8058c43fa3fb2ac0b5f75bdc": {
+   "en": "Top luxury brand appoints first female creative director, is this a breakthrough for women in the industry?",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "zh"
+  },
+  "037ca611af0ce9b4b81aa87a3bd784c25cf488ec615ae414ebc026c5d40f57ea": {
+   "en": "What is gender-based violence? First historical dictionary of the phenomenon in Italy is coming - Books - Other Proposals - Ansa.it",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "it"
+  },
+  "3e363fd119faa2f1b7d0b9ee37923b98f5ff885839d6d622b4bcca5fbab66130": {
+   "en": "Mercedesz Henger's house in Liguria: essential kitchen, chic walk-in wardrobe, suspended bedside tables",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "it"
+  },
+  "54e573cf5f2fc42ad46b25b8580c09e3b1403154fc13718cd252b8aabc86a769": {
+   "en": "Inside the apartment where a buyer found a body in MG",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "pt"
+  },
+  "b65e1f803bbf0f00ace1a56d2c888f65a66712b55bde72c7ba51ebca737272a7": {
+   "en": "'Paraguayan Milei': Payo Cubas booed and removed from rally in central Asunción",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "pt"
+  },
+  "c916ab7d3b3406f79eba9c6f865977d03f555769c092d5407cdfc45f92e66b8a": {
+   "en": "Italy prepares to approve new aid package for Ukraine - Latest news - Ansa.it",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "ar"
+  },
+  "96259d8d09100fde3ed832c3a207b9129dda8eba6d0ff9920914a42d1fff9d93": {
+   "en": "Real Madrid away at Valencia! When is the Valencia-Real Madrid match, what time, and on which channel? Is Arda Güler in the starting 11?",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "tr"
+  },
+  "ed24532cc770ffd5a52611885b0fe7856394ed1663ed1c008801d4a6cc2f3861": {
+   "en": "China's National Meteorological Center issues blue cold wave warning at 18:00 on November 7",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "zh"
+  },
+  "81cb187b42e6749ad0a2273fe57f8db0365126d468ca833c5b5c47d5ba72a803": {
+   "en": "The Telegraph reports the end of the \"golden age of pensioners\" in Europe",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "ru"
+  },
+  "e1f561c882dfa78e5ceeb3a453e102b54103f4817adf97dd1c1a83bdc2085380": {
+   "en": "Flc Cgil Valle d'Aosta, mobilisation on 10 and 20 November - News - Ansa.it",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "it"
+  },
+  "8ea03cefbe7203f595cfc3f61394b4d77d0c6a24fde4617613c08a78f382b902": {
+   "en": "Shin Min-a's special rapport with the new \"queen\" in 'Empress Remarried', her lovable empress's surprising charm",
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T01:27:00Z",
+   "lang": "ko"
   }
  }
 }
