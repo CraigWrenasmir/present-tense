@@ -1,14 +1,14 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-11-07T20:27:01Z",
-  "newsGeneratedAt": "2026-11-07T20:14:04Z",
+  "generatedAt": "2026-11-08T20:39:46Z",
+  "newsGeneratedAt": "2026-11-08T20:28:34Z",
   "method": "claude-api-batch",
   "model": "claude-opus-5-5",
   "promptVersion": "narrative-7",
-  "previousNewsGeneratedAt": "2026-11-06T21:29:11Z",
+  "previousNewsGeneratedAt": "2026-11-07T20:14:04Z",
   "usage": {
-    "input": 48800,
-    "output": 76817,
+    "input": 47081,
+    "output": 68233,
     "tier": "batch"
   },
   "notes": [
@@ -23,31 +23,14 @@
   ],
   "sourceArticles": [
     {
-      "id": "n-fa1f60396188a0",
-      "title": "Diesel, nessuna proroga del taglio delle accise: da domani rischio maxi rincari, fino a 5 centesimi in più al litro. Le simulazioni",
-      "titleEnglish": "Diesel: no extension of the excise cut; from tomorrow, risk of major increases of up to 5 cents more per litre. The simulations",
-      "url": "https://www.ilmessaggero.it:443/economia/news/diesel_domani_quanto_costa_cosa_sappiamo-9875662.html",
-      "publisher": "ilmessaggero.it",
-      "publisherDomain": "ilmessaggero.it",
-      "publishedAt": "2026-11-07T17:37:54Z",
-      "seenAt": "2026-11-07T19:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Italy",
-      "sourceCountryCode": "IT",
-      "sourceRegion": "Europe",
-      "sourceLat": 42,
-      "sourceLon": 12,
-      "language": "it"
-    },
-    {
-      "id": "n-f9e4cddb4813ed",
-      "title": "Combustíveis: Governo ajusta desconto no ISP. O que acontece a partir de segunda-feira?",
-      "titleEnglish": "Fuel: Government adjusts ISP discount. What happens from Monday?",
-      "url": "https://pplware.sapo.pt/motores/governo-ajusta-desconto-no-isp-nos-combustiveis-o-que-acontece-a-partir-de-segunda-feira/",
-      "publisher": "Pplware",
-      "publisherDomain": "pplware.sapo.pt",
-      "publishedAt": "2026-11-07T15:14:19Z",
-      "seenAt": "2026-11-07T19:02:00Z",
+      "id": "n-230383966e14db",
+      "title": "Donald Trump considera \"muito improvável\" recomeço da guerra com o Irão",
+      "titleEnglish": "Donald Trump considers resumption of war with Iran \"very unlikely\"",
+      "url": "https://sapo.pt/artigo/donald-trump-considera-muito-improvavel-recomeco-da-guerra-com-o-irao-6af0d3ea59d2c55979450771",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-11-08T19:55:52Z",
+      "seenAt": "2026-11-08T20:17:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Portugal",
       "sourceCountryCode": "PT",
@@ -57,235 +40,14 @@
       "language": "pt"
     },
     {
-      "id": "n-9cee8c87a1a72e",
-      "title": "中油宣布下周汽、柴油不調漲 合計擴大吸收340.7億元 | 聯合新聞網",
-      "titleEnglish": "CPC announces no price increase for gasoline and diesel next week, expanding absorption to NT$34.07 billion | UDN",
-      "url": "https://udn.com/news/story/7266/9864079",
-      "publisher": "聯合新聞網",
-      "publisherDomain": "udn.com",
-      "publishedAt": "2026-11-07T10:33:24Z",
-      "seenAt": "2026-11-07T11:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Taiwan",
-      "sourceCountryCode": "TW",
-      "sourceRegion": "Asia",
-      "sourceLat": 23.7,
-      "sourceLon": 121,
-      "language": "zh-Hant"
-    },
-    {
-      "id": "n-fb106002dd779c",
-      "title": "US military carries out new targeted strike on Iran as Tehran’s leaders weigh mediator’s proposals",
-      "titleEnglish": "US military carries out new targeted strike on Iran as Tehran’s leaders weigh mediator’s proposals",
-      "url": "https://www.arabnews.com/middle-east/us-military-carries-out-new-targeted-strike-on-iran-as-tehrans-leaders-weigh-mediators-proposals-3010264",
-      "publisher": "arabnews.com",
-      "publisherDomain": "arabnews.com",
-      "publishedAt": "2026-11-06T23:40:15Z",
-      "seenAt": "2026-11-07T02:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Saudi Arabia",
-      "sourceCountryCode": "SA",
-      "sourceRegion": "Middle East",
-      "sourceLat": 24,
-      "sourceLon": 45,
-      "language": "en"
-    },
-    {
-      "id": "n-77e8b22db20d80",
-      "title": "伊朗革命卫队称已解除导弹射程限制-新华网",
-      "titleEnglish": "Iran's Revolutionary Guards say missile range limits have been lifted-Xinhua",
-      "url": "https://www.news.cn/world/20261107/72c3d21db68143028d30098bcf6874e4/c.html",
-      "publisher": "news.cn",
-      "publisherDomain": "news.cn",
-      "publishedAt": "2026-11-07T14:02:00Z",
-      "seenAt": "2026-11-07T14:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "China",
-      "sourceCountryCode": "CN",
-      "sourceRegion": "Asia",
-      "sourceLat": 35,
-      "sourceLon": 104,
-      "language": "zh"
-    },
-    {
-      "id": "n-15dceb65970d5a",
-      "title": "「歯医者にも行けない」男子中学生が死亡 救う手だては…電気・ガス止められ、自宅でテント暮らしの父子家庭",
-      "titleEnglish": "\"Couldn't even afford a dentist\": junior high school boy dies; father and son living in a tent at home after electricity and gas were cut off",
-      "url": "https://www.47news.jp/15198715.html",
-      "publisher": "47NEWS",
-      "publisherDomain": "47news.jp",
-      "publishedAt": "2026-11-07T14:02:00Z",
-      "seenAt": "2026-11-07T14:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Japan",
-      "sourceCountryCode": "JP",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 138,
-      "language": "ja"
-    },
-    {
-      "id": "n-d863a68bbd9195",
-      "title": "马斯克：特斯拉将于明年停产Cybertruck",
-      "titleEnglish": "Musk: Tesla will stop producing Cybertruck next year",
-      "url": "https://k.sina.com.cn/article_1887344341_707e96d501901xnf4.html",
-      "publisher": "新浪网",
-      "publisherDomain": "k.sina.com.cn",
-      "publishedAt": "2026-11-07T09:43:14Z",
-      "seenAt": "2026-11-07T02:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "China",
-      "sourceCountryCode": "CN",
-      "sourceRegion": "Asia",
-      "sourceLat": 35,
-      "sourceLon": 104,
-      "language": "zh"
-    },
-    {
-      "id": "n-147717e1f3b61a",
-      "title": "Não foi só a Cybertruck: aposta das montadoras nas picapes elétricas desmorona nos EUA",
-      "titleEnglish": "Not just the Cybertruck: automakers' bet on electric pickups collapses in the US",
-      "url": "https://epocanegocios.globo.com/tecnologia/noticia/2026/11/nao-foi-so-a-cybertruck-aposta-das-montadoras-nas-picapes-eletricas-desmorona-nos-eua.ghtml",
-      "publisher": "Época NEGÓCIOS",
-      "publisherDomain": "epocanegocios.globo.com",
-      "publishedAt": "2026-11-07T14:02:00Z",
-      "seenAt": "2026-11-07T14:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Brazil",
-      "sourceCountryCode": "BR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -14,
-      "sourceLon": -52,
-      "language": "pt"
-    },
-    {
-      "id": "n-4df7b0224fba69",
-      "title": "预计售208万元！仰望鼎曜全球首发并开启预定 对标劳斯莱斯",
-      "titleEnglish": "Expected to sell for 2.08 million yuan! Yangwang Dingyao makes global debut and opens pre-orders, benchmarked against Rolls-Royce",
-      "url": "https://k.sina.com.cn/article_2298836177_890574d102001mywk.html",
-      "publisher": "k.sina.com.cn",
-      "publisherDomain": "k.sina.com.cn",
-      "publishedAt": "2026-11-07T19:02:00Z",
-      "seenAt": "2026-11-07T19:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "China",
-      "sourceCountryCode": "CN",
-      "sourceRegion": "Asia",
-      "sourceLat": 35,
-      "sourceLon": 104,
-      "language": "zh"
-    },
-    {
-      "id": "n-fd83725107e73b",
-      "title": "折合44.7万元起 智己IM6登陆巴西市场",
-      "titleEnglish": "From 447,000 yuan; Zhiji IM6 enters Brazilian market",
-      "url": "https://k.sina.com.cn/article_2298836177_890574d102001myq4.html",
-      "publisher": "k.sina.com.cn",
-      "publisherDomain": "k.sina.com.cn",
-      "publishedAt": "2026-11-07T11:02:00Z",
-      "seenAt": "2026-11-07T11:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "China",
-      "sourceCountryCode": "CN",
-      "sourceRegion": "Asia",
-      "sourceLat": 35,
-      "sourceLon": 104,
-      "language": "zh"
-    },
-    {
-      "id": "n-8f61de6643a279",
-      "title": "애플·삼성도 못 피했다…태블릿 시장 23% 급감, 레노버만 성장",
-      "titleEnglish": "Apple and Samsung could not escape either...tablet market down 23% sharply, only Lenovo grows",
-      "url": "https://www.ddaily.co.kr:443/page/view/2026110710354778975",
-      "publisher": "디지털데일리",
-      "publisherDomain": "ddaily.co.kr",
-      "publishedAt": "2026-11-07T14:02:00Z",
-      "seenAt": "2026-11-07T14:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Korea",
-      "sourceCountryCode": "KR",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 128,
-      "language": "ko"
-    },
-    {
-      "id": "n-467574f327477c",
-      "title": "Elektromobilität: Der deutsche E-Scooter-Pionier trotzt der Konkurrenz aus China",
-      "titleEnglish": "Electromobility: German e-scooter pioneer defies competition from China",
-      "url": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/elektromobilitaet-der-deutsche-e-scooter-pionier-trotzt-der-konkurrenz-aus-china/100250118.html",
-      "publisher": "handelsblatt.com",
-      "publisherDomain": "handelsblatt.com",
-      "publishedAt": "2026-11-06T10:42:00Z",
-      "seenAt": "2026-11-07T14:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "de"
-    },
-    {
-      "id": "n-bac586c6faf104",
-      "title": "Pravnici upozoravaju da bi Vučićeva pomilovanja mogla da završe pred sudovima u Srbiji i Strazburu",
-      "titleEnglish": "Lawyers warn Vučić's pardons could end up before courts in Serbia and Strasbourg",
-      "url": "https://www.dw.com/sr/odluka-aleksandra-vu%C4%8Di%C4%87a-da-pomiluje-49-osoba-izazvala-je-kritike-pravnika-i-otvorila-pitanje-mogu%C4%87e-odgovornosti/a-79850531",
-      "publisher": "dw.com",
-      "publisherDomain": "dw.com",
-      "publishedAt": "2026-11-07T19:02:00Z",
-      "seenAt": "2026-11-07T19:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "sr"
-    },
-    {
-      "id": "n-e41589fe16c0a4",
-      "title": "AG seeks audience with King over Najib's conditional pardon",
-      "titleEnglish": "AG seeks audience with King over Najib's conditional pardon",
-      "url": "https://www.thestar.com.my/news/nation/2026/11/07/ag-seeks-audience-with-king-over-najib039s-conditional-pardon",
-      "publisher": "The Star",
-      "publisherDomain": "thestar.com.my",
-      "publishedAt": "2026-11-07T18:04:00Z",
-      "seenAt": "2026-11-07T11:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Malaysia",
-      "sourceCountryCode": "MY",
-      "sourceRegion": "Asia",
-      "sourceLat": 4,
-      "sourceLon": 109,
-      "language": "en"
-    },
-    {
-      "id": "n-dc63966a5c5045",
-      "title": "政院宣布不副署老福法 吳皇昇：曾幾何時決定法律的不再是民意？ | 聯合新聞網",
-      "titleEnglish": "Executive Yuan announces refusal to countersign Elderly Welfare Act; Wu Huang-sheng: When did the law stop being decided by public opinion? | UDN News",
-      "url": "https://udn.com/news/story/6656/9863324",
-      "publisher": "聯合新聞網",
-      "publisherDomain": "udn.com",
-      "publishedAt": "2026-11-07T01:58:27Z",
-      "seenAt": "2026-11-07T02:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Taiwan",
-      "sourceCountryCode": "TW",
-      "sourceRegion": "Asia",
-      "sourceLat": 23.7,
-      "sourceLon": 121,
-      "language": "zh-Hant"
-    },
-    {
-      "id": "n-2439eaacef1ce9",
-      "title": "Anac, caso Altieri: il confronto con Meloni (dopo ore in trincea). In serata il passo indietro",
-      "titleEnglish": "Anac, Altieri case: the confrontation with Meloni (after hours in the trenches). In the evening, the step back",
-      "url": "https://www.corriere.it/politica/26_novembre_07/anac-altieri-confronto-meloni-passo-indietro-91cbd8f0-4221-45bc-b96f-4d3dc10ebxlk.shtml",
-      "publisher": "Corriere della sera",
-      "publisherDomain": "corriere.it",
-      "publishedAt": "2026-11-07T06:01:28Z",
-      "seenAt": "2026-11-07T08:02:00Z",
+      "id": "n-fd9a224007c043",
+      "title": "Trump, 'improbabile ritorno guerra in Iran se progressi nei colloqui' - Ultima ora - Ansa.it",
+      "titleEnglish": "Trump, 'return to war in Iran improbable if progress in talks' - Latest news - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/11/08/trump-improbabile-ritorno-guerra-in-iran-se-progressi-nei-colloqui_989cfcb5-8cf6-4e35-929e-8e379922df72.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-08T19:09:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Italy",
       "sourceCountryCode": "IT",
@@ -295,116 +57,201 @@
       "language": "it"
     },
     {
-      "id": "n-0b0d13164bb90a",
-      "title": "Federal budget looks to restore auditor general’s access to privileged information",
-      "titleEnglish": "Federal budget looks to restore auditor general’s access to privileged information",
-      "url": "https://www.niagarafallsreview.ca/business/federal-budget-looks-to-restore-auditor-general-s-access-to-privileged-information/article_c4b57561-9e7e-5400-9ba0-a68e0d90cc14.html",
-      "publisher": "Niagara Falls Review",
-      "publisherDomain": "niagarafallsreview.ca",
-      "publishedAt": "2026-11-07T02:02:00Z",
-      "seenAt": "2026-11-07T02:02:00Z",
+      "id": "n-b9391909e4ba42",
+      "title": "Moyen-Orient. Donald Trump juge « très improbable » une reprise de la guerre, sous conditions",
+      "titleEnglish": "Middle East. Donald Trump judges a resumption of the war \"very unlikely\", under conditions",
+      "url": "https://www.estrepublicain.fr/defense-guerre-conflit/2026/11/08/donald-trump-juge-tres-improbable-une-reprise-de-la-guerre-sous-conditions",
+      "publisher": "estrepublicain.fr",
+      "publisherDomain": "estrepublicain.fr",
+      "publishedAt": "2026-11-08T19:08:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Canada",
-      "sourceCountryCode": "CA",
-      "sourceRegion": "North America",
-      "sourceLat": 56,
-      "sourceLon": -106,
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-062d1d106cacbf",
+      "title": "Трамп оценил сохранившиеся мощности Ирана по производству ракет и БПЛА",
+      "titleEnglish": "Trump assessed Iran's remaining missile and drone production capacity",
+      "url": "https://www.kommersant.ru/doc/9092338",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-08T18:45:38Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-e82f402675fbcf",
+      "title": "Hardline Trump advisers oppose Iran talks",
+      "titleEnglish": "Hardline Trump advisers oppose Iran talks",
+      "url": "https://www.samaa.tv/2087359919-hardline-trump-advisers-oppose-iran-talks-world-news",
+      "publisher": "SAMAA TV",
+      "publisherDomain": "samaa.tv",
+      "publishedAt": "2026-11-08T17:00:08Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Pakistan",
+      "sourceCountryCode": "PK",
+      "sourceRegion": "Asia",
+      "sourceLat": 30,
+      "sourceLon": 69,
       "language": "en"
     },
     {
-      "id": "n-d043baaaf03f6f",
-      "title": "APC Mocks ADC On Judgement Sacking Mark, Voiding Atiku’s Candidature, Denies Involvement",
-      "titleEnglish": "APC Mocks ADC On Judgement Sacking Mark, Voiding Atiku’s Candidature, Denies Involvement",
-      "url": "https://leadership.ng/apc-mocks-adc-on-judgement-sacking-mark-voiding-atikus-candidature-denies-involvement/",
-      "publisher": "LEADERSHIP Newspapers",
-      "publisherDomain": "leadership.ng",
-      "publishedAt": "2026-11-07T13:52:03Z",
-      "seenAt": "2026-11-07T14:02:00Z",
+      "id": "n-ac843eeb036564",
+      "title": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
+      "titleEnglish": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
+      "url": "https://www.arabnews.com/middle-east/us-asks-iraq-to-shut-most-iran-border-crossings-iraqi-foreign-minister-says-3010576",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-08T19:09:07Z",
+      "seenAt": "2026-11-08T19:17:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Nigeria",
-      "sourceCountryCode": "NG",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-bc558ac73e56d9",
+      "title": "أكبر حشد بحري منذ غزو العراق.. هل تستعد واشنطن لعملية برية ضد إيران؟",
+      "titleEnglish": "Largest naval gathering since the invasion of Iraq... is Washington preparing a ground operation against Iran?",
+      "url": "https://www.aljazeera.net/politics/2026/11/8/60-%D8%A3%D9%84%D9%81-%D8%AC%D9%86%D8%AF%D9%8A-%D9%883-%D8%AD%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A7%D8%AA-%D9%85%D8%A7-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-08T19:17:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-aa568daa3056b3",
+      "title": "علي الفاتح يكتب: العالم ينتظر المشهد الأخير لمقصلة هرمز - الوطن",
+      "titleEnglish": "Ali Al-Fatih writes: The world awaits the final scene of the Hormuz guillotine - Al-Watan",
+      "url": "https://www.elwatannews.com/news/details/8392743",
+      "publisher": "الوطن",
+      "publisherDomain": "elwatannews.com",
+      "publishedAt": "2026-11-08T19:01:56Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
       "sourceRegion": "Africa",
-      "sourceLat": 9,
-      "sourceLon": 8,
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-7752f2d28092cd",
+      "title": "اليمن.. الحوثيون يعلنون استهداف الرياض وأرامكو وإدانات خليجية وعربية للهجمات",
+      "titleEnglish": "Yemen: Houthis announce targeting of Riyadh and Aramco, Gulf and Arab condemnations of the attacks",
+      "url": "https://www.aljazeera.net/news/liveblog/2026/11/8/%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A%D8%A9-%D8%AA%D8%AA%D9%82%D8%AF%D9%85-%D9%81%D9%8A-2?update=10061612",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-08T19:17:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-7bef17256c705e",
+      "title": "Saudi Aramco building in Riyadh damaged after attempted attack",
+      "titleEnglish": "Saudi Aramco building in Riyadh damaged after attempted attack",
+      "url": "https://www.cnbc.com/2026/11/08/saudi-aramco-riyadh-building-attack.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-08T09:56:23Z",
+      "seenAt": "2026-11-08T11:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
       "language": "en"
     },
     {
-      "id": "n-b816b3353bedb9",
-      "title": "Video: 24Horas VIVO Tumbes: Fujimori visita zonas afectadas por las lluvias por 24 Horas",
-      "titleEnglish": "Video: 24Horas VIVO Tumbes: Fujimori visits areas affected by the rains, by 24 Horas",
-      "url": "https://www.deperu.com/tv/KZ74cNuh3WM.24horas-vivo-tumbes-fujimori-visita-zonas-afectadas-por-las-lluvias.UCsakKsRww3J7pM6DavkrAIQ.html",
-      "publisher": "deperu.com",
-      "publisherDomain": "deperu.com",
-      "publishedAt": "2026-11-07T11:02:00Z",
-      "seenAt": "2026-11-07T11:02:00Z",
+      "id": "n-21b06ab57366be",
+      "title": "حوثی باغیوں کے مطابق صنعاء میں سعودی فضائی حملوں کے نتیجے میں 33 افراد ہلاک اور 39 زخمی ہوئے ہیں۔",
+      "titleEnglish": "According to Houthi rebels, Saudi air strikes in Sanaa killed 33 people and wounded 39",
+      "url": "https://www.dw.com/ur/%D8%B9%DB%8C%D9%86%DB%8C-%D8%B4%D8%A7%DB%81%D8%AF%DB%8C%D9%86-%DA%A9%DB%92-%D9%85%D8%B7%D8%A7%D8%A8%D9%82-%D8%B1%DB%8C%D8%A7%D8%B6-%DA%A9%DB%92-%DA%A9%D9%86%DA%AF-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%84%DB%81-%D9%81%D9%86%D8%A7%D9%86%D8%B4%D9%84-%DA%88%D8%B3%D9%B9%D8%B1%DA%A9%D9%B9-%D9%85%DB%8C%DA%BA-%D8%A2%D8%B1%D8%A7%D9%85%DA%A9%D9%88-%DA%A9%DB%8C-%D8%B9%D9%85%D8%A7%D8%B1%D8%AA-%DA%A9%D9%88-%D9%86%D9%82%D8%B5%D8%A7%D9%86-%D9%BE%DB%81%D9%86%DA%86%D8%A7-%DB%81%DB%92/live-79889434",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-08T20:17:00Z",
+      "seenAt": "2026-11-08T20:17:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Peru",
-      "sourceCountryCode": "PE",
-      "sourceRegion": "Latin America",
-      "sourceLat": -10,
-      "sourceLon": -76,
-      "language": "es"
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "ur"
     },
     {
-      "id": "n-4eed6678627ef7",
-      "title": "El Niño no elimina lluvias ni granizadas: Bogotá registra tormentas eléctricas y variabilidad climática en octubre - Pulzo",
-      "titleEnglish": "El Niño does not eliminate rain or hail: Bogotá records thunderstorms and climate variability in October - Pulzo",
-      "url": "https://www.pulzo.com/nacion/bogota/el-nino-en-bogota-por-que-siguen-las-lluvias-y-granizadas-pese-al-fenomeno-climatico-PP5351458A",
-      "publisher": "pulzo.com",
-      "publisherDomain": "pulzo.com",
-      "publishedAt": "2026-11-07T19:02:00Z",
-      "seenAt": "2026-11-07T19:02:00Z",
+      "id": "n-d8470ee88f9e3c",
+      "title": "Axios, Trump ha chiesto a Netanyahu di procedere sul piano per Gaza - Ultima ora - Ansa.it",
+      "titleEnglish": "Axios: Trump asked Netanyahu to proceed with the plan for Gaza - Latest news - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/11/08/axios-trump-ha-chiesto-a-netanyahu-di-procedere-sul-piano-per-gaza_9eda32d6-1ede-478f-8e56-a69f903b069a.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-08T19:08:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Colombia",
-      "sourceCountryCode": "CO",
-      "sourceRegion": "Latin America",
-      "sourceLat": 4,
-      "sourceLon": -73,
-      "language": "es"
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
     },
     {
-      "id": "n-0bfab966786f0b",
-      "title": "Derrumbe bloquea el paso de vehículos en una avenida de Manizales: árboles cayeron sobre la vía",
-      "titleEnglish": "Landslide blocks vehicle passage on an avenue in Manizales: trees fell onto the road",
-      "url": "https://www.lapatria.com/manizales/derrumbe-bloquea-el-paso-de-vehiculos-en-una-avenida-de-manizales-arboles-cayeron-sobre",
-      "publisher": "La Patria",
-      "publisherDomain": "lapatria.com",
-      "publishedAt": "2026-11-07T18:17:38Z",
-      "seenAt": "2026-11-07T19:02:00Z",
+      "id": "n-7d20d13b4e815f",
+      "title": "عاجل | أكسيوس عن مصادر: ترمب طالب نتنياهو في اتصال هاتفي الخميس بالمضي قدما في تنفيذ خطة السلام بغزة",
+      "titleEnglish": "Breaking | Axios citing sources: Trump asked Netanyahu in a Thursday phone call to proceed with implementing the Gaza peace plan",
+      "url": "https://www.aljazeera.net/news/2026/11/8/%D8%B9%D8%A7%D8%AC%D9%84-%D8%A3%D9%83%D8%B3%D9%8A%D9%88%D8%B3-%D8%B9%D9%86-%D9%85%D8%B5%D8%A7%D8%AF%D8%B1-%D8%AA%D8%B1%D9%85%D8%A8-%D8%B7%D8%A7%D9%84%D8%A8",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-08T19:17:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Colombia",
-      "sourceCountryCode": "CO",
-      "sourceRegion": "Latin America",
-      "sourceLat": 4,
-      "sourceLon": -73,
-      "language": "es"
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
     },
     {
-      "id": "n-265579360122d8",
-      "title": "Há risco nas próximas 72 horas no Brasil? Entenda alerta da Defesa Civil",
-      "titleEnglish": "Is there risk in the next 72 hours in Brazil? Understand the Civil Defense alert",
-      "url": "https://oglobo.globo.com/brasil/noticia/2026/11/07/ha-risco-nas-proximas-72-horas-no-brasil-entenda-alerta-da-defesa-civil.ghtml",
-      "publisher": "O Globo",
-      "publisherDomain": "oglobo.globo.com",
-      "publishedAt": "2026-11-07T19:02:00Z",
-      "seenAt": "2026-11-07T19:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Brazil",
-      "sourceCountryCode": "BR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -14,
-      "sourceLon": -52,
-      "language": "pt"
-    },
-    {
-      "id": "n-bcd665895a7462",
-      "title": "BH tem alerta de chuva na tarde deste sábado (7/11)",
-      "titleEnglish": "BH has rain alert for this Saturday afternoon (11/7)",
-      "url": "https://www.em.com.br/gerais/2026/11/7534920-bh-tem-alerta-de-chuva-na-tarde-deste-sabado-7-11.html",
-      "publisher": "Estado de Minas",
-      "publisherDomain": "em.com.br",
-      "publishedAt": "2026-11-07T15:04:00Z",
-      "seenAt": "2026-11-07T19:02:00Z",
+      "id": "n-ee0c72414b5f2f",
+      "title": "Paraguai: MP estima prejuízo de US$ 809 mi em caso Ueno e Justiça bloqueia bens de Peña",
+      "titleEnglish": "Paraguay: Prosecutors estimate US$ 809 million loss in Ueno case and court freezes Peña's assets",
+      "url": "https://noticias.r7.com/internacional/paraguai-mp-estima-prejuizo-de-us-809-mi-em-caso-ueno-e-justica-bloqueia-bens-de-pena-08112026/",
+      "publisher": "Noticias R7",
+      "publisherDomain": "noticias.r7.com",
+      "publishedAt": "2026-11-08T17:50:45Z",
+      "seenAt": "2026-11-08T20:17:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Brazil",
       "sourceCountryCode": "BR",
@@ -414,14 +261,14 @@
       "language": "pt"
     },
     {
-      "id": "n-6b4c0bc8914204",
-      "title": "Bandera roja por el diluvio al inicio de la clasificación en Interlagos",
-      "titleEnglish": "Red flag due to downpour at the start of qualifying at Interlagos",
-      "url": "https://www.ellitoral.com/deportes/granpremiodesanpablo-interlagos-banderaroja-clasificacion-francocolapinto-alpine_0_CqSlQtRlBj.html",
-      "publisher": "El Litoral",
-      "publisherDomain": "ellitoral.com",
-      "publishedAt": "2026-11-07T18:48:53Z",
-      "seenAt": "2026-11-07T19:02:00Z",
+      "id": "n-ef2fccb692255f",
+      "title": "“No puede ser, ko, soy un expresidente”: la reacción de Santiago Peña cuando lo detuvieron",
+      "titleEnglish": "\"It can't be, ko, I'm a former president\": Santiago Peña's reaction when he was arrested",
+      "url": "https://www.minutouno.com/mundo/no-puede-ser-ko-soy-un-expresidente-la-reaccion-santiago-pena-cuando-lo-detuvieron-n6342919",
+      "publisher": "Minuto Uno",
+      "publisherDomain": "minutouno.com",
+      "publishedAt": "2026-11-08T17:17:00Z",
+      "seenAt": "2026-11-08T17:17:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Argentina",
       "sourceCountryCode": "AR",
@@ -429,127 +276,418 @@
       "sourceLat": -35,
       "sourceLon": -64,
       "language": "es"
-    }
-  ],
-  "settled": [
+    },
     {
-      "id": "20261101T010841-war-fuel-price-who-pays-1",
-      "status": "kept",
-      "how": "headline"
+      "id": "n-375cd4858fe1bf",
+      "title": "VP’s defense team tackles wealth raps",
+      "titleEnglish": "VP’s defense team tackles wealth raps",
+      "url": "https://www.manilatimes.net/2026/11/09/news/vps-defense-team-tackles-wealth-raps/2464775",
+      "publisher": "The Manila Times",
+      "publisherDomain": "manilatimes.net",
+      "publishedAt": "2026-11-08T16:20:00Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Philippines",
+      "sourceCountryCode": "PH",
+      "sourceRegion": "Asia",
+      "sourceLat": 12,
+      "sourceLon": 122,
+      "language": "en"
+    },
+    {
+      "id": "n-7002cfe565d29c",
+      "title": "Smart working, da Deloitte a Capgemini: le aziende richiamano i dipendenti in ufficio (ma nella Pa cresce)",
+      "titleEnglish": "The trail of Jessica González in the Petro Government: millionaire income raises alarm amid 'sex contracts'",
+      "url": "https://www.corriere.it/economia/lavoro/26_novembre_07/smart-working-da-deloitte-a-capgemini-le-aziende-richiamano-i-dipendenti-in-ufficio-ma-nella-pa-cresce-fe86e2bf-c33c-4066-8467-f62398a5axlk.shtml",
+      "publisher": "Corriere della sera",
+      "publisherDomain": "corriere.it",
+      "publishedAt": "2026-11-07T06:44:28Z",
+      "seenAt": "2026-11-08T11:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-606a780836de7d",
+      "title": "Армения: избирателно правосъдие срещу опозицията?",
+      "titleEnglish": "Armenia: selective justice against the opposition?",
+      "url": "https://www.dw.com/bg/armenia-izbiratelno-pravosdie-sresu-opoziciata/a-79890326",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-08T19:17:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "bg"
+    },
+    {
+      "id": "n-dab90e66ef5d38",
+      "title": "تأجيل محاكمة 124 متهما بقضية الهيكل الإداري للإخوان بالتجمع لجلسة 13 يناير - اليوم السابع",
+      "titleEnglish": "Trial of 124 defendants in the Brotherhood administrative structure case in Tagamu postponed to session of 13 January - Al-Youm Al-Sabea",
+      "url": "https://www.youm7.com/story/2026/11/8/%D8%AA%D8%A3%D8%AC%D9%8A%D9%84-%D9%85%D8%AD%D8%A7%D9%83%D9%85%D8%A9-124-%D9%85%D8%AA%D9%87%D9%85%D8%A7-%D8%A8%D9%82%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D9%87%D9%8A%D9%83%D9%84-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A-%D9%84%D9%84%D8%A5%D8%AE%D9%88%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9-%D9%84%D8%AC%D9%84%D8%B3%D8%A9/7610987",
+      "publisher": "اليوم السابع",
+      "publisherDomain": "youm7.com",
+      "publishedAt": "2026-11-08T19:04:03Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-95138aeca05fb9",
+      "title": "Chavirement d’une pirogue à Lompoul : le président Diomaye Faye présente ses condoléances aux familles des victimes - Le Soleil",
+      "titleEnglish": "Pirogue capsizes at Lompoul: President Diomaye Faye sends condolences to the families of the victims - Le Soleil",
+      "url": "https://lesoleil.sn/actualites/societe-fait-divers/chavirement-dune-pirogue-a-lompoul-le-president-diomaye-faye-presente-ses-condoleances-aux-familles-des-victimes/",
+      "publisher": "Le Soleil",
+      "publisherDomain": "lesoleil.sn",
+      "publishedAt": "2026-11-08T17:31:14Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Senegal",
+      "sourceCountryCode": "SN",
+      "sourceRegion": "Africa",
+      "sourceLat": 14,
+      "sourceLon": -14,
+      "language": "fr"
+    },
+    {
+      "id": "n-720a78d8011c59",
+      "title": "塞内加尔内政部：该国北部沉船事故致21人死亡-新华网",
+      "titleEnglish": "Senegal Interior Ministry: shipwreck in the north of the country kills 21 people - Xinhua",
+      "url": "https://www.news.cn/world/20261108/828a6cb5f7e4424288feb06eb1b76360/c.html",
+      "publisher": "news.cn",
+      "publisherDomain": "news.cn",
+      "publishedAt": "2026-11-08T17:17:00Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-60ae4245a294dc",
+      "title": "At least 21 dead after migrant boat sinks off Senegal coast, government says",
+      "titleEnglish": "At least 21 dead after migrant boat sinks off Senegal coast, government says",
+      "url": "https://bdnews24.com/world/xfzf1kl0h4",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-11-08T14:10:48Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-29448471590254",
+      "title": "Lottery shortlists 300 applicants for 112 cost-free jobs in Malaysia",
+      "titleEnglish": "Lottery shortlists 300 applicants for 112 cost-free jobs in Malaysia",
+      "url": "https://bdnews24.com/bangladesh/8yeuhwhz88",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-11-08T14:56:27Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-340390742d2ce8",
+      "title": "“Quartos partilhados, ordenados miseráveis e o fim do sonho: a destruição do sonho europeu e o retorno ao país de origem!”",
+      "titleEnglish": "\"Shared rooms, miserable salaries and the end of the dream: the destruction of the European dream and the return to the home country!\"",
+      "url": "https://sapo.pt/artigo/quartos-partilhados-ordenados-miseraveis-e-o-fim-do-sonho-a-destruicao-do-sonho-europeu-e-o-retorno-ao-pais-de-origem-6af0d187ecae781d73bc96a1",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-11-08T19:45:00Z",
+      "seenAt": "2026-11-08T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-81be0de86f382f",
+      "title": "Suvendu vows to deport every ‘Bangladeshi infiltrator’ from West Bengal",
+      "titleEnglish": "Suvendu vows to deport every ‘Bangladeshi infiltrator’ from West Bengal",
+      "url": "https://bdnews24.com/neighbours/w5rom15nk1",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-11-08T15:32:34Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-ca49eafe2a83b9",
+      "title": "World Bank puts Bangladesh’s per capita external debt at $646",
+      "titleEnglish": "World Bank puts Bangladesh’s per capita external debt at $646",
+      "url": "https://bdnews24.com/economy/7tzjfl1vuv",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-11-08T15:05:54Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-ff6258cb8b83fc",
+      "title": "仰望鼎曜11月7日阿布扎比全球首发，208万级超豪华行政旗舰",
+      "titleEnglish": "Tesla Cybertruck raises prices again before discontinuation, entry version orders suspended | Dongchedi Insight",
+      "url": "https://k.sina.com.cn/article_7879923946_m1d5ae18ea03304031e.html",
+      "publisher": "新浪网",
+      "publisherDomain": "k.sina.com.cn",
+      "publishedAt": "2026-11-08T11:56:02Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-67c62d16fb63f0",
+      "title": "停产前特斯拉Cybertruck又涨价，入门版已暂停接受订单 | 懂车帝视线",
+      "titleEnglish": "NIO's Xinqiao Plant 2 featured by CCTV, one complete vehicle rolls off the line every minute",
+      "url": "https://k.sina.com.cn/article_7879923942_m1d5ae18e603302dy1k.html",
+      "publisher": "新浪网",
+      "publisherDomain": "k.sina.com.cn",
+      "publishedAt": "2026-11-08T12:00:59Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-5228cbe4c405ad",
+      "title": "出海成盈利支撑 车企如何走好国际化？",
+      "titleEnglish": "Overseas expansion brings profits: how can carmakers succeed internationally?",
+      "url": "https://k.sina.com.cn/article_5953740931_162dee083067044uyy.html",
+      "publisher": "k.sina.com.cn",
+      "publisherDomain": "k.sina.com.cn",
+      "publishedAt": "2026-11-08T17:17:00Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-649f108bd8bfdd",
+      "title": "صحيفة عمون : ملح بديل قد ينقذ ملايين الأرواح .. هل حان وقت التخلي عن ملح الطعام التقليدي؟",
+      "titleEnglish": "Yangwang Dingyao to make global debut in Abu Dhabi on November 7, 2.08 million-class ultra-luxury executive flagship",
+      "url": "https://www.ammonnews.net/article/1043297",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-11-08T11:47:00Z",
+      "seenAt": "2026-11-08T11:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-7afcbb8c2b2e4e",
+      "title": "Em teste. Tem GPS e custa menos de 100€: o que esperar da Xiaomi Smart Band 10 Pro?",
+      "titleEnglish": "Under test. Has GPS and costs less than 100€: what to expect from the Xiaomi Smart Band 10 Pro?",
+      "url": "https://sapo.pt/artigo/em-teste-tem-gps-e-custa-menos-de-100-o-que-esperar-da-xiaomi-smart-band-10-pro-6af0d26eecae781d73bcc350",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-11-08T19:50:06Z",
+      "seenAt": "2026-11-08T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-4652250d653f76",
+      "title": "‘PH to continue trade with China’",
+      "titleEnglish": "‘PH to continue trade with China’",
+      "url": "https://www.manilatimes.net/2026/11/09/news/ph-to-continue-trade-with-china/2464769",
+      "publisher": "The Manila Times",
+      "publisherDomain": "manilatimes.net",
+      "publishedAt": "2026-11-08T16:10:00Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Philippines",
+      "sourceCountryCode": "PH",
+      "sourceRegion": "Asia",
+      "sourceLat": 12,
+      "sourceLon": 122,
+      "language": "en"
     }
   ],
+  "settled": [],
   "readings": [
     {
-      "id": "fuel-tax-cuts-end-mid-war",
-      "line": "With the Iran war unresolved, governments are ending the fuel tax cuts that kept the war's price off drivers.",
-      "kicker": "OIL / BUDGETS / HOUSEHOLDS",
-      "firmness": "plausible",
+      "id": "iran-pressed-by-land-and-sea",
+      "line": "With the US-Iran war paused, Washington presses Iran by land and sea while Saudi Arabia and the Houthis trade strikes.",
+      "kicker": "CONTAINMENT / PROXIES / A PAUSE",
+      "firmness": "firm",
       "watch": [
         {
-          "what": "A European government other than Italy and Portugal ends or reduces a fuel tax cut or a fuel price cap.",
-          "by": "2026-12-05",
-          "because": "If treasuries are handing the war's fuel price back because they will not carry it into next year's budgets, Italy will not be the only one to stop, which a one-off Italian decision would not predict.",
-          "id": "20261107T201404-fuel-tax-cuts-end-mid-war-1"
+          "what": "Iraq's government announces that it has closed one or more of its border crossings with Iran.",
+          "by": "2026-11-29",
+          "because": "If the pause is a change of method rather than an end, Washington's request should become an Iraqi act rather than stay a reported conversation.",
+          "id": "20261108T202834-iran-pressed-by-land-and-sea-1"
         },
         {
-          "what": "Taiwan's CPC raises pump prices, or the Executive Yuan announces money to cover CPC's fuel losses.",
-          "by": "2026-12-05",
-          "because": "If the cost is only being moved between treasury, state company and household, the sum Taiwan's state refiner has absorbed must in time reach either drivers or the budget.",
-          "id": "20261107T201404-fuel-tax-cuts-end-mid-war-2"
+          "what": "The US Treasury announces new sanctions on Iranian oil exports, tankers or a named Iranian company.",
+          "by": "2026-11-30",
+          "because": "Pressure by land and sea without strikes needs a financial part, and the join predicts it arrives while Trump still calls war unlikely.",
+          "id": "20261108T202834-iran-pressed-by-land-and-sea-2"
         }
       ],
       "ahead": {
-        "precedent": "Italy cut fuel excise by 30.5 cents a litre in March 2022 after Russia invaded Ukraine, and Giorgia Meloni's new government let the cut lapse on 1 January 2023, after prices had fallen from their summer peak; pump prices rose, there were weeks of complaint, and the cut was not restored. Taiwan's state energy companies ran large losses holding prices down in 2022, and the government later covered part of them from the budget. The present differs because the cuts are ending while the war that caused the price is still being fought.",
+        "precedent": "The closest case is the containment of Iraq between the 1991 ceasefire and the 2003 invasion: twelve years of sanctions, no-fly zones, naval patrols and pressure on neighbours to close the border, with talks on inspections running alongside. It ended in war when Washington decided containment had failed. The present differs in that Iran holds one shore of the Strait of Hormuz, its Houthi allies are already fighting Saudi Arabia, and the neighbour being asked to close the border is a government Iran helped to shape.",
         "paths": [
           {
-            "name": "Cuts lapse and drivers pay",
+            "name": "Containment through the winter",
             "weight": "favoured",
-            "text": "Through November and December more European governments stop or shrink fuel tax cuts as they pass next year's budgets, and pump prices rise by a few cents a litre. Governments accept the complaints because each month of the war makes a renewed cut more expensive. Taiwan holds its freeze longest because its cost sits with a state firm rather than in the budget.",
-            "sign": "A second European government announces that a fuel discount will not be renewed in the new year."
+            "text": "Through December and into early 2027 the United States keeps the pause while adding border closures, sanctions and naval patrols, and talks continue without a signed deal. The Saudi-Houthi exchange goes on at a lower level, with Gulf governments condemning attacks rather than widening them. The join points this way because every step reported this week stops short of strikes, and was taken while the president ruled out war on conditions.",
+            "sign": "Iraq closes crossings with Iran, or the US Treasury lists new Iranian oil buyers or tankers."
           },
           {
-            "name": "Protest brings a cut back",
+            "name": "A signed framework deal",
             "weight": "possible",
-            "text": "If diesel rises during weeks of street protest, such as France's Saturday mobilisations, a government could restore or extend a cut before Christmas to calm hauliers and farmers. This is less likely than in 2022 because the budgets being written now have less room and the war has no end date.",
-            "sign": "Italy or another European government reinstates a diesel excise cut within weeks of ending it."
+            "text": "Talks produce a written framework by early 2027 that reopens Hormuz in stages in return for sanctions relief. It is less likely in the coming weeks because the hardline advisers SAMAA reports are still opposed, and a naval build-up is hard to explain if a deal is close.",
+            "sign": "Iran and the United States announce an agreed text and tankers are reported passing through Hormuz."
           },
           {
-            "name": "A settlement removes the question",
+            "name": "A ground operation against Iran",
             "weight": "unlikely",
-            "text": "US-Iran talks produce a ceasefire and the oil price falls fast enough that ending the cuts costs drivers little. It is unlikely within weeks because a new US strike and Iran's lifting of its missile range limits are reported alongside the talks.",
-            "sign": "Oil is reported below $100 a barrel on news of a US-Iran agreement."
+            "text": "The naval gathering is used for a landing on Iranian islands or coast, as Al Jazeera's headline asks. It is unlikely because Trump has just called renewed war very unlikely after an election his party lost, and a ground war is the most costly choice open to him.",
+            "sign": "US forces are reported landing on an Iranian island or seizing an Iranian port."
           }
         ],
-        "decade": "Since 2022 the fuel tax cut has become the first response to an oil shock in Europe and much of Asia; over the next ten years, as fuel tax revenue falls with the spread of electric cars, governments will have less room to offer it and more reason to end it quickly."
+        "decade": "The trajectory points to a long containment of Iran on the model of Iraq in the 1990s, with Iraq and the Gulf states carrying most of its costs and Yemen remaining the place where the war is fought by allies."
       },
       "continues": "",
       "change": "",
-      "claim": "Italy will not extend its cut in diesel excise, so the price can rise by up to 5 cents a litre from 8 November; Portugal is adjusting its fuel tax discount from Monday; and Taiwan's state refiner CPC is holding pump prices again, having now absorbed NT$34.07 billion. In the same day's reports the US has carried out a new strike on Iran and Iran's Revolutionary Guards say their missile range limits are lifted, so the war that raised fuel prices has not ended. Governments that took the war's fuel price onto their budgets are now deciding to hand it back, and the choice is between the treasury, a state company and the household. A Japanese family living in a tent inside its home after the electricity and gas were cut off is the case where no one but the household carried the cost.",
+      "claim": "Donald Trump called a return to war with Iran very unlikely, as reported from Portugal, Italy and France, while Iraq's foreign minister said Washington had asked Baghdad to shut most of its border crossings with Iran, Al Jazeera described the largest naval gathering since the 2003 invasion of Iraq, and the Houthis struck at Riyadh and Aramco as Saudi aircraft hit Sanaa. Read together, these show the pause in the US-Iran war as a change of method rather than an end: the pressure on Iran has moved from air strikes to its land border and the sea around it. The fighting the pause does not cover has passed to the Saudi-Houthi front, where Iran's ally and America's ally are striking each other's capitals and oil sites.",
       "events": [
         {
-          "label": "Italy ends diesel excise cut",
+          "label": "Trump calls renewed Iran war unlikely",
           "articleIds": [
-            "n-fa1f60396188a0"
+            "n-230383966e14db",
+            "n-fd9a224007c043",
+            "n-b9391909e4ba42",
+            "n-062d1d106cacbf",
+            "n-e82f402675fbcf"
           ]
         },
         {
-          "label": "Portugal adjusts its fuel tax discount",
+          "label": "US asks Iraq to shut Iran crossings",
           "articleIds": [
-            "n-f9e4cddb4813ed"
+            "n-ac843eeb036564"
           ]
         },
         {
-          "label": "Taiwan's CPC freezes prices again",
+          "label": "Largest US naval build-up since 2003",
           "articleIds": [
-            "n-9cee8c87a1a72e"
+            "n-bc558ac73e56d9",
+            "n-aa568daa3056b3"
           ]
         },
         {
-          "label": "US strike and Iran's missile limits",
+          "label": "Houthis strike at Riyadh and Aramco",
           "articleIds": [
-            "n-fb106002dd779c",
-            "n-77e8b22db20d80"
+            "n-7752f2d28092cd",
+            "n-7bef17256c705e"
           ]
         },
         {
-          "label": "Japanese family cut off from energy",
+          "label": "Saudi air strikes on Sanaa",
           "articleIds": [
-            "n-15dceb65970d5a"
+            "n-21b06ab57366be"
+          ]
+        },
+        {
+          "label": "Trump presses Netanyahu on Gaza plan",
+          "articleIds": [
+            "n-d8470ee88f9e3c",
+            "n-7d20d13b4e815f"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "f-obs-1",
+          "id": "r1",
           "kind": "observation",
-          "label": "Three fuel price decisions",
+          "label": "What Washington said and did",
           "fragments": [
             {
-              "id": "f-f1",
-              "label": "Italy's diesel excise",
-              "text": "Il Messaggero reports that Italy's government will not extend its cut in diesel excise, and that from 8 November drivers risk increases of up to 5 cents a litre, with simulations of the cost. The decision is reported as a lapse rather than as a new tax, though its effect on the driver is the same.",
+              "id": "r1f1",
+              "label": "War called unlikely",
+              "text": "SAPO in Portugal, ANSA in Italy and L'Est Républicain in France all report Trump judging a resumption of the war with Iran very unlikely, ANSA and L'Est Républicain adding that this holds only if talks progress. Kommersant reports that he gave an assessment of Iran's remaining missile and drone production capacity. SAMAA in Pakistan reports that hardline advisers oppose the talks.",
               "articleIds": [
-                "n-fa1f60396188a0"
+                "n-230383966e14db",
+                "n-fd9a224007c043",
+                "n-b9391909e4ba42",
+                "n-062d1d106cacbf",
+                "n-e82f402675fbcf"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "f-f2",
-              "label": "Portugal's ISP discount",
-              "text": "Pplware reports that Portugal's government is adjusting its discount on the fuel tax, the ISP, and asks what happens from Monday. The headline does not say whether the discount grows or shrinks, only that the state is again deciding how much of the pump price it will carry.",
+              "id": "r1f2",
+              "label": "Borders and ships",
+              "text": "Arab News quotes Iraq's foreign minister saying the United States has asked Iraq to close most of its border crossings with Iran. Al Jazeera describes the largest naval gathering in the region since the invasion of Iraq and asks whether a ground operation is being prepared. A column in Egypt's Al-Watan says the world is waiting for the final act at Hormuz.",
               "articleIds": [
-                "n-f9e4cddb4813ed"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "f-f3",
-              "label": "Taiwan's state refiner",
-              "text": "UDN reports that CPC, Taiwan's state oil company, will not raise petrol or diesel prices next week, and that the amount it has absorbed has grown to NT$34.07 billion. Taiwan is holding the price where Italy is releasing it, by putting the cost on a state firm rather than on the tax.",
-              "articleIds": [
-                "n-9cee8c87a1a72e"
+                "n-ac843eeb036564",
+                "n-bc558ac73e56d9",
+                "n-aa568daa3056b3"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -557,27 +695,29 @@
           ]
         },
         {
-          "id": "f-obs-2",
+          "id": "r2",
           "kind": "observation",
-          "label": "The war and a household",
+          "label": "Saudi Arabia, Yemen and Gaza",
           "fragments": [
             {
-              "id": "f-f4",
-              "label": "The fighting continues",
-              "text": "Arab News reports a new targeted US strike on Iran while Tehran's leaders weigh a mediator's proposals, and Xinhua reports Iran's Revolutionary Guards saying their missile range limits have been lifted. The war that raised fuel prices is still being fought while the tax cuts made against it come to an end.",
+              "id": "r2f1",
+              "label": "Strikes both ways",
+              "text": "Al Jazeera reports the Houthis announcing attacks aimed at Riyadh and Aramco, and condemnation from Gulf and Arab governments. CNBC reports an Aramco building in Riyadh damaged after an attempted attack. DW's Urdu service reports Houthi figures of 33 killed and 39 wounded in Saudi air strikes on Sanaa.",
               "articleIds": [
-                "n-fb106002dd779c",
-                "n-77e8b22db20d80"
+                "n-7752f2d28092cd",
+                "n-7bef17256c705e",
+                "n-21b06ab57366be"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "f-f5",
-              "label": "A home without gas or power",
-              "text": "47NEWS reports the death of a junior high school boy in Japan who had been living with his father in a tent inside their home after the electricity and gas were cut off; the father says they could not even afford a dentist. It is the case in which neither a treasury nor a company carried the cost of energy, and the household went without it.",
+              "id": "r2f2",
+              "label": "A push on Gaza",
+              "text": "Al Jazeera and ANSA both carry an Axios report that Trump asked Netanyahu in a Thursday call to proceed with the Gaza peace plan. The call came in the same days as the Iran statements and the request to Iraq.",
               "articleIds": [
-                "n-15dceb65970d5a"
+                "n-d8470ee88f9e3c",
+                "n-7d20d13b4e815f"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -585,54 +725,53 @@
           ]
         },
         {
-          "id": "f-int-1",
+          "id": "r3",
           "kind": "interpretation",
-          "label": "Who carries the price",
+          "label": "Pressure by other means",
           "fragments": [
             {
-              "id": "f-f6",
-              "label": "Treasury, company or household",
-              "text": "Read together, these decisions show the three places an oil price can be put: on the budget through a tax cut, on a state company through a price freeze, or on the household. Italy is moving it from the first to the third while the war continues, Portugal is recalculating how much stays with the first, and Taiwan still keeps it with the second. Ending a cut during the war rather than after it means a government no longer treats the high price as temporary.",
+              "id": "r3f1",
+              "label": "A pause used for containment",
+              "text": "The United States is using the pause to tighten the means of pressure that do not require bombing: Iraq's land border, a fleet at sea, and a conditional promise not to resume. The request to Baghdad makes Iraq the place where the policy is carried out. Pressing Netanyahu on Gaza at the same time fits a government trying to close other fronts while it concentrates on Iran.",
               "articleIds": [
-                "n-fa1f60396188a0",
-                "n-f9e4cddb4813ed",
-                "n-9cee8c87a1a72e"
+                "n-ac843eeb036564",
+                "n-bc558ac73e56d9",
+                "n-fd9a224007c043",
+                "n-d8470ee88f9e3c"
               ],
               "bookIds": [],
-              "trajectoryIds": []
+              "trajectoryIds": [
+                "iraq-2003"
+              ]
             },
             {
-              "id": "f-f7",
-              "label": "The budget calendar",
-              "text": "The timing follows the budget calendar. Italy must pass next year's budget law by the end of December, and a fuel cut renewed now is spending written into it. A state firm's losses, as in Taiwan, do not appear in a budget until the government decides to cover them, which is one reason a government with that option keeps prices frozen longer.",
+              "id": "r3f2",
+              "label": "Who carries the fighting",
+              "text": "The pause binds Washington and Tehran, not their allies. The Houthi attack on Aramco's Riyadh building and the Saudi strikes on Sanaa are the part of the war the pause leaves open, and the Gulf state that relies on American protection is the one taking the hits. This repeats 2019, when an attack on Abqaiq went unanswered by the United States.",
               "articleIds": [
-                "n-fa1f60396188a0",
-                "n-9cee8c87a1a72e"
+                "n-7752f2d28092cd",
+                "n-7bef17256c705e",
+                "n-21b06ab57366be"
               ],
               "bookIds": [],
-              "trajectoryIds": []
+              "trajectoryIds": [
+                "abqaiq-2019"
+              ]
             }
           ]
         },
         {
-          "id": "f-break",
+          "id": "r4",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "f-f8",
-              "label": "Routine adjustments",
-              "text": "Italy and Portugal have adjusted fuel tax discounts many times since 2022, and the Portuguese headline does not even say the discount is shrinking. Taiwan's CPC has held prices under its ceiling rule for years, in quiet markets as well as in wars. These may be ordinary steps in long-running schemes rather than a new decision to hand the war's price back.",
-              "articleIds": [],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "f-f9",
-              "label": "What the events do not share",
-              "text": "The Japanese death is a story of poverty and isolation; 47NEWS gives no fuel price and no link to the war, and disconnections for unpaid bills happen in Japan every year. The events do not share a decision-maker: Italy's is a tax choice, Taiwan's is a state company's pricing rule, and Japan's is a utility cutting off a customer who had not paid.",
+              "id": "r4f1",
+              "label": "Separate wars, separate decisions",
+              "text": "The Saudi-Houthi war began in 2015 and has its own Yemeni causes; the Houthis may be acting for their own reasons and Riyadh answering them, with no link to Washington's choices about Iran. The naval gathering may be preparation for renewed war, the opposite of containment, and Trump's statement is conditional and may be aimed at American voters after the midterms. What the events do not share: the request to Iraq is diplomacy, the fleet is a military preparation, and the Sanaa strikes are a Saudi decision taken in Riyadh.",
               "articleIds": [
-                "n-15dceb65970d5a"
+                "n-21b06ab57366be",
+                "n-bc558ac73e56d9"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -645,8 +784,8 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "OIL / WAR / TAX CUTS",
-          "text": "The tax cut Italy is now ending belongs to this decade. Oil fell below zero on the American futures market on 20 April 2020 as the pandemic emptied roads, then rose above $120 a barrel after Russia invaded Ukraine in February 2022. European governments answered at the pump rather than at the source: Italy cut diesel and petrol excise by 30.5 cents a litre in March 2022, Germany ran a three-month fuel tax rebate that summer, and Portugal cut its fuel tax, the ISP, in the same months. Those cuts were described as temporary and were ended when prices eased. The Israel-Iran war of June 2025 lasted twelve days and closed with American bombers over Fordow. By these headlines the present war with Iran has lasted far longer, with a new US strike reported while Tehran weighs a mediator's proposals. What is new in Il Messaggero's report is that the cut lapses while the war that justified it is still going on.",
+          "lens": "CEASEFIRES / DRONES / SHIPPING",
+          "text": "The pause these headlines describe is the latest in a cycle that began in this decade. In April 2022 a UN-brokered truce stopped most Saudi air strikes in Yemen, and in March 2023 Saudi Arabia and Iran restored relations at a meeting in Beijing. From November 2023 the Houthis attacked shipping in the Red Sea, showing that a movement without an air force could close a sea lane with drones and missiles. In June 2025 American bombers struck Fordow and ended a twelve-day war between Israel and Iran; by these headlines a longer war followed in 2026 and closed the Strait of Hormuz. Each pause in that cycle left the smaller fronts open. The Houthi claim to have targeted Riyadh and Aramco, and CNBC's report of a damaged Aramco building, show the 2022 truce failing while the larger ceasefire holds. The question this decade has posed, whether a ceasefire between the main parties covers their allies, is being answered in Sanaa and Riyadh rather than in Washington and Tehran.",
           "trajectoryIds": [
             "fordow-2025"
           ],
@@ -656,10 +795,11 @@
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "PRICES / SUBSIDY REFORM / STATE FIRMS",
-          "text": "Oil reached $147 a barrel in July 2008 and fell below $40 within six months as the financial crisis spread. The swing taught finance ministries that fuel subsidies were easiest to remove when prices were low: India freed diesel prices in October 2014 and Indonesia removed most of its petrol subsidy in January 2015, both after the price had fallen. Taiwan kept another arrangement. CPC, the state refiner, sets prices each week by a formula tied to crude costs, but with a ceiling meant to keep Taiwanese pump prices among the lowest in East Asia, and when crude rises past what the ceiling allows, CPC absorbs the difference. That rule is behind UDN's figure of NT$34.07 billion. It moves the cost of an oil shock from the driver to a state company's accounts, and in 2022 it left Taiwan's state energy firms with losses the government had to cover. The years after 2008 made the question of who absorbs an oil price a matter of institutions as well as of politicians.",
+          "lens": "SANCTIONS / DIPLOMACY / YEMEN",
+          "text": "The tools Washington is using now were built between 2010 and 2019. In 2012 the EU banned imports of Iranian oil and Iranian banks were cut off from the SWIFT payments network; the pressure brought Iran to negotiate, and the nuclear agreement was signed in Vienna in July 2015. In March of that year Saudi Arabia led a coalition into Yemen against the Houthis, opening the war that is active again in these headlines. In May 2018 the United States left the agreement and returned to what it called maximum pressure, sanctions meant to cut Iran's oil sales to nothing. In September 2019 drones and missiles hit Abqaiq and halved Saudi output for days; the Houthis claimed it and Washington did not strike back. That pattern, sanctions and threats against Iran while Saudi Arabia absorbs the attacks, is what the Arab News and Al Jazeera headlines repeat. The SAMAA report of hardline advisers opposing talks is the argument of 2018 still running inside the administration.",
           "trajectoryIds": [
-            "lehman-2008"
+            "jcpoa-2015",
+            "abqaiq-2019"
           ],
           "bookIds": []
         },
@@ -667,8 +807,8 @@
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "EXCISE / EUROPE / REVENUE",
-          "text": "The excise Italy is letting rise again was built into European budgets in the years after 1989. The single market brought harmonised minimum rates on fuel in 1992, and the Energy Taxation Directive of 2003 set the floor for diesel that still applies across the EU. Italy gathered its many fuel duties into one code in 1995, and fuel excise became one of the steadiest revenues a finance ministry has, because demand for diesel barely falls when the price rises. Taxes make up close to half of the pump price in Italy and Portugal. The invasion of Iraq in March 2003 opened five years of rising crude prices in which governments mostly left these taxes alone and let drivers pay. A cut of a few cents is therefore expensive to a treasury and easy to abandon, which is why Portugal can adjust its ISP discount from one week to the next, as Pplware reports.",
+          "lens": "CONTAINMENT / IRAQ / OCCUPATION",
+          "text": "The request to Iraq, reported by Arab News, depends on what happened to Iraq after 1989. After the 1991 Gulf War the United States held Saddam Hussein's Iraq under sanctions, inspections and no-fly zones for twelve years, and from 1993 described its policy as the dual containment of both Iraq and Iran. The invasion of March 2003 removed Iraq as Iran's counterweight and turned the border between them into a trade route: Shia parties with ties to Tehran entered government in Baghdad, and Iraq came to depend on Iranian gas and electricity, bought under American sanctions waivers that Washington let lapse in 2025. Asking Baghdad to shut most crossings asks a government shaped by the occupation to cut a link the occupation created. Al Jazeera's comparison of the present naval gathering with the build-up before the Iraq invasion points to the same period, and to the possibility, raised as a question in its headline, that containment ends as it did in 2003.",
           "trajectoryIds": [
             "iraq-2003"
           ],
@@ -678,11 +818,11 @@
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "OIL / ALLIANCE / THE PUMP",
-          "text": "Postwar Europe and East Asia were rebuilt on cheap oil from the Gulf, secured by the bargain Roosevelt and Ibn Saud made on an American cruiser in February 1945. Taiwan's CPC was founded in Shanghai in 1946 and moved to the island with the Nationalist government in 1949, which is why fuel pricing there has always been decided by a state company rather than by a market. The Arab embargo of October 1973 quadrupled the price of crude and gave Western Europe its lasting answer to oil shocks: tax fuel heavily in normal times so that demand stays lower, hold strategic stocks through the International Energy Agency set up in 1974, and treat the pump price as partly a government decision. Daniel Yergin's history of oil describes how a fuel became a matter of state. This week's reports of a US strike on Iran and of Iran's Revolutionary Guards lifting their missile limits are that dependence in its present form.",
+          "lens": "OIL / PROTECTION / REVOLUTION",
+          "text": "The American warships in the Gulf, and Saudi Arabia's reliance on them, rest on an arrangement made at the end of the Second World War. In February 1945 Franklin Roosevelt met King Ibn Saud on a cruiser in the Great Bitter Lake, and the exchange of security for oil that followed was never written down. In 1953 a coup backed by Britain and the United States removed Mohammad Mossadegh, the Iranian prime minister who had nationalised the country's oil. The 1973 embargo showed what a cut in Gulf supply did to the world price, and the revolution of February 1979 turned Iran from an American ally into its main adversary in the region. In January 1980 the Carter Doctrine said the United States would use force to keep the Gulf open, and in 1987 and 1988 the US Navy escorted reflagged Kuwaiti tankers through Iranian attacks. The fleet Al Jazeera describes and the Al-Watan column on Hormuz belong to that line of policy, which has outlasted every government in Tehran and Washington since.",
           "trajectoryIds": [
             "quincy-1945",
-            "oil-embargo-1973"
+            "tehran-1979"
           ],
           "bookIds": [
             "the-prize"
@@ -690,120 +830,124 @@
         }
       ],
       "articleIds": [
-        "n-fa1f60396188a0",
-        "n-f9e4cddb4813ed",
-        "n-9cee8c87a1a72e",
-        "n-fb106002dd779c",
-        "n-77e8b22db20d80",
-        "n-15dceb65970d5a"
+        "n-230383966e14db",
+        "n-fd9a224007c043",
+        "n-b9391909e4ba42",
+        "n-062d1d106cacbf",
+        "n-e82f402675fbcf",
+        "n-ac843eeb036564",
+        "n-bc558ac73e56d9",
+        "n-aa568daa3056b3",
+        "n-7752f2d28092cd",
+        "n-7bef17256c705e",
+        "n-21b06ab57366be",
+        "n-d8470ee88f9e3c",
+        "n-7d20d13b4e815f"
       ]
     },
     {
-      "id": "chinese-makers-grow-as-others-retreat",
-      "line": "A year after Washington ended its EV credit, US makers drop electric pickups while Chinese makers price higher and sell abroad.",
-      "kicker": "SUBSIDIES / SCALE / MARKET SHARE",
+      "id": "presidents-pursued-through-assets",
+      "line": "Courts now reach presidents and their deputies through their assets and declared wealth, while elsewhere they try the opposition.",
+      "kicker": "PROSECUTION / MONEY / OFFICE",
       "firmness": "plausible",
       "watch": [
         {
-          "what": "Another US carmaker cancels, delays or cuts production of an electric pickup or electric SUV.",
-          "by": "2026-12-05",
-          "because": "If the retreat follows the end of the federal credit rather than the Cybertruck's own problems, other American makers facing the same market should be cutting too.",
-          "id": "20261107T201404-chinese-makers-grow-as-others-retreat-1"
+          "what": "A court in another Latin American country freezes the assets of a current or former president, vice-president or minister.",
+          "by": "2026-12-06",
+          "because": "If asset freezes have become the usual route to people at the top of government, Paraguay's case should not stand alone for long.",
+          "id": "20261108T202834-presidents-pursued-through-assets-1"
         },
         {
-          "what": "A European, Korean or Japanese maker cuts electric car or device production or jobs and names Chinese competition as a reason.",
-          "by": "2026-12-05",
-          "because": "The join says Chinese makers grow where others shrink, so the pressure should show outside the US, where Chinese goods are not kept out by tariffs.",
-          "id": "20261107T201404-chinese-makers-grow-as-others-retreat-2"
+          "what": "Armenian prosecutors bring a corruption, tax or money-laundering charge against an opposition leader or an opposition-linked businessman.",
+          "by": "2026-12-06",
+          "because": "If whether a case follows money or politics depends on who holds office, the next case against Armenia's opposition should be framed as money.",
+          "id": "20261108T202834-presidents-pursued-through-assets-2"
         }
       ],
       "ahead": {
-        "precedent": "After the oil shocks of 1973 and 1979 small Japanese cars took a growing share of the US market; Washington answered with limits on Japanese car exports in 1981, and Japanese makers built American plants, starting with Honda at Marysville, Ohio in 1982, and moved into dearer cars with Acura in 1986 and Lexus in 1989. The present differs because Washington is not inviting Chinese factories but keeping Chinese cars out, so the move up the price range and into new markets happens in Brazil, Europe and Asia instead.",
+        "precedent": "The case this most resembles is Brazil's Lava Jato investigation, which began in March 2014 with a money-laundering inquiry, reached Petrobras and Odebrecht, and jailed Lula in 2018 before his convictions were annulled in 2021 over the judge's conduct. It showed that a money case could reach a president and could also be undone when the court's neutrality was doubted. Paraguay differs in that the case begins with a bank failure and a quantified loss, and the accused belongs to the long-ruling Colorado Party rather than to the opposition.",
         "paths": [
           {
-            "name": "Chinese brands take third markets",
+            "name": "Peña charged and the case widens",
             "weight": "favoured",
-            "text": "Through 2027 Chinese makers gain share in Brazil, Mexico, Turkey, Southeast Asia and Europe, selling luxury models at home and building or buying plants abroad, as BYD has done in Bahia. American makers concentrate on petrol and hybrid trucks for a protected home market. This is favoured because the Cybertruck's end and the Zhiji launch in Brazil point the two industries in these directions on the same day.",
-            "sign": "Chinese brands are reported taking a record share of new car sales in Brazil or a European country."
+            "text": "Within weeks prosecutors file formal charges, the freeze is extended to associates and Ueno executives, and the case becomes Paraguay's main political argument through to the 2028 election. The join points this way because asset freezes have been the first step towards trial in the comparable cases, and the Spanish and Portuguese Wikipedias show the case drawing regional attention.",
+            "sign": "Paraguayan prosecutors formally charge Peña or extend the asset freeze to members of his former government."
           },
           {
-            "name": "Third countries raise their duties",
+            "name": "An appeal court undoes the case",
             "weight": "possible",
-            "text": "Brazil has already raised its import tariff on electric cars to 35% and Mexico approved tariffs of up to 50% on Chinese cars at the end of 2025; more governments follow within the year, slowing the move and pushing Chinese makers to build locally. It is less likely to stop the trend than to change its form, from imports to local assembly.",
-            "sign": "A government in Latin America or Southeast Asia raises duties on Chinese electric cars."
+            "text": "As Brazil's Supreme Court did with Lula in 2021, a Paraguayan appeal court lifts the freeze or annuls the arrest on procedural grounds within the year. It is less likely soon because the prosecutors' $809 million estimate gives the court a concrete loss to answer for.",
+            "sign": "A Paraguayan appeal court lifts the freeze on Peña's assets or orders his release from all measures."
           },
           {
-            "name": "Detroit returns to electric",
+            "name": "Philippine vice-president removed over wealth",
             "weight": "unlikely",
-            "text": "The new Democratic majorities try to restore a federal electric car credit and American makers revive their electric pickups. It is unlikely before 2029 because the president can veto such a bill and the makers have already written off their investments.",
-            "sign": "A bill restoring a federal electric car credit passes either chamber of Congress."
+            "text": "The wealth charges against the Philippine vice-president lead to her removal from office within the year. It is unlikely because the 2025 impeachment was voided by the Supreme Court and a Senate conviction needs two thirds of its members.",
+            "sign": "The Philippine Senate votes to convict the vice-president."
           }
         ],
-        "decade": "Over ten years the US car market looks increasingly like a separate market built around petrol and hybrid pickups behind tariffs, while most of the rest of the world buys electric cars made by Chinese firms or in Chinese-owned plants."
+        "decade": "The trajectory points to asset freezes and wealth declarations becoming the usual way former leaders are pursued, with the argument moving from whether a president can be tried to whether the prosecutors who choose the defendants are neutral."
       },
       "continues": "",
       "change": "",
-      "claim": "Elon Musk says Tesla will stop making the Cybertruck next year, and Época Negócios reports that US carmakers' bet on electric pickups has collapsed; on the same day BYD's Yangwang brand opens pre-orders for a 2.08 million yuan car set against Rolls-Royce, SAIC's Zhiji brand enters Brazil, the tablet market falls 23% with Lenovo the only maker growing, and a German e-scooter firm is reported holding out against Chinese rivals. The shared mechanism is that markets are shrinking for American, Korean and European makers while Chinese makers, with lower costs at scale, keep growing in them, at the top of the price range and in third countries. In the US the retreat follows the end of the federal electric car credit in September 2025 and tariffs that keep Chinese cars out, so the American market and the rest of the world are moving apart.",
+      "claim": "In Paraguay a court froze the assets of former president Santiago Peña and he was arrested over an estimated $809 million loss at the Ueno bank; in the Philippines the vice-president's lawyers answered charges about her wealth; in Colombia an official in Gustavo Petro's government is under scrutiny over her income and contracts; and in Armenia and Egypt opponents of the government face courts accused of selective justice and a mass trial. The first three show prosecutors and investigators reaching people at or near the top of government through money: bank losses, declared assets and income. The last two show courts still being used against opponents on political grounds. Together they show the court case as the normal way power is contested between elections, with the kind of charge depending on who holds office.",
       "events": [
         {
-          "label": "Tesla to end Cybertruck production",
+          "label": "Peña arrested over Ueno bank losses",
           "articleIds": [
-            "n-d863a68bbd9195"
+            "n-ee0c72414b5f2f",
+            "n-ef2fccb692255f"
           ]
         },
         {
-          "label": "US electric pickup bets collapse",
+          "label": "Philippine vice-president answers wealth charges",
           "articleIds": [
-            "n-147717e1f3b61a"
+            "n-375cd4858fe1bf"
           ]
         },
         {
-          "label": "Yangwang opens luxury car pre-orders",
+          "label": "Scrutiny of a Petro official's income",
           "articleIds": [
-            "n-4df7b0224fba69"
+            "n-7002cfe565d29c"
           ]
         },
         {
-          "label": "Zhiji enters the Brazilian market",
+          "label": "Armenia accused of selective justice",
           "articleIds": [
-            "n-fd83725107e73b"
+            "n-606a780836de7d"
           ]
         },
         {
-          "label": "Tablet sales fall, only Lenovo grows",
+          "label": "Egypt's mass Brotherhood trial postponed",
           "articleIds": [
-            "n-8f61de6643a279"
-          ]
-        },
-        {
-          "label": "German e-scooter firm faces Chinese rivals",
-          "articleIds": [
-            "n-467574f327477c"
+            "n-dab90e66ef5d38"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "c-obs-1",
+          "id": "w1",
           "kind": "observation",
-          "label": "American electric pickups end",
+          "label": "Money cases near the top",
           "fragments": [
             {
-              "id": "c-f1",
-              "label": "The Cybertruck",
-              "text": "Sina reports Elon Musk saying Tesla will stop producing the Cybertruck next year. The first were delivered in November 2023, so the model will have lasted a little over three years.",
+              "id": "w1f1",
+              "label": "Paraguay",
+              "text": "R7 in Brazil reports that Paraguayan prosecutors put the loss in the Ueno case at $809 million and that a court has frozen Peña's assets. Minuto Uno in Argentina reports his words on being arrested: it cannot be, he is a former president. The Spanish and Portuguese Wikipedias' most-viewed pages included Peña, the Colorado Party and the Ueno bank.",
               "articleIds": [
-                "n-d863a68bbd9195"
+                "n-ee0c72414b5f2f",
+                "n-ef2fccb692255f"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "c-f2",
-              "label": "The pickup bet",
-              "text": "Época Negócios in Brazil reports that it is not only the Cybertruck: American carmakers' bet on electric pickups has collapsed. The pickup is the most profitable vehicle American makers sell, so the retreat is from the centre of their business rather than its edge.",
+              "id": "w1f2",
+              "label": "The Philippines and Colombia",
+              "text": "The Manila Times reports the vice-president's defence team answering charges over her wealth. Corriere della Sera follows an official, Jessica González, through Petro's government, reporting that her large income has raised alarm amid claims about contracts. Neither headline reports a conviction; both put a person's money at the centre of the case.",
               "articleIds": [
-                "n-147717e1f3b61a"
+                "n-375cd4858fe1bf",
+                "n-7002cfe565d29c"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -811,28 +955,17 @@
           ]
         },
         {
-          "id": "c-obs-2",
+          "id": "w2",
           "kind": "observation",
-          "label": "Chinese makers in luxury and abroad",
+          "label": "Political cases against opponents",
           "fragments": [
             {
-              "id": "c-f3",
-              "label": "A luxury car and Brazil",
-              "text": "Sina reports BYD's Yangwang brand opening worldwide pre-orders for the Dingyao at an expected 2.08 million yuan, set against Rolls-Royce, and the Zhiji IM6 from SAIC's Zhiji brand entering the Brazilian market. Two Chinese makers are selling at the top of the price range and in a third country on the same day.",
+              "id": "w2f1",
+              "label": "Armenia and Egypt",
+              "text": "DW's Bulgarian service asks whether Armenia is practising selective justice against the opposition. Al-Youm Al-Sabea reports that the trial of 124 defendants in the Muslim Brotherhood administrative structure case has been postponed to 13 January. In both, the defendants are opponents of the government in office.",
               "articleIds": [
-                "n-4df7b0224fba69",
-                "n-fd83725107e73b"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "c-f4",
-              "label": "Tablets and scooters",
-              "text": "Digital Daily in South Korea reports the tablet market down 23%, with Apple and Samsung both falling and only Lenovo growing. Handelsblatt reports a German e-scooter pioneer holding out against competition from China, a headline whose news is that a European firm has survived.",
-              "articleIds": [
-                "n-8f61de6643a279",
-                "n-467574f327477c"
+                "n-606a780836de7d",
+                "n-dab90e66ef5d38"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -840,58 +973,53 @@
           ]
         },
         {
-          "id": "c-int-1",
+          "id": "w3",
           "kind": "interpretation",
-          "label": "One market split by policy",
+          "label": "Money as the route to office",
           "fragments": [
             {
-              "id": "c-f5",
-              "label": "Policy at home, scale abroad",
-              "text": "The join is a shared mechanism: in shrinking or unsubsidised markets the makers that keep growing are Chinese, because their costs at scale let them sell where others cut. In the US the federal credit for electric cars ended in September 2025 and Chinese cars are kept out by a 100% tariff, so American makers face an electric market with neither subsidy nor Chinese rivals, and are leaving it. Outside the US Chinese makers face no such wall and are moving into luxury cars and into Brazil.",
+              "id": "w3f1",
+              "label": "Tools made for fallen rulers",
+              "text": "Freezing a leader's assets and asking him to explain his wealth were methods first used against dictators after they fell, such as Marcos in 1986. In Paraguay and the Philippines they are now used on elected leaders soon after or during their term. Peña's reported protest that he is a former president appeals to an idea of office as protection that these cases no longer accept.",
               "articleIds": [
-                "n-d863a68bbd9195",
-                "n-147717e1f3b61a",
-                "n-4df7b0224fba69",
-                "n-fd83725107e73b"
+                "n-ee0c72414b5f2f",
+                "n-ef2fccb692255f",
+                "n-375cd4858fe1bf"
               ],
               "bookIds": [],
-              "trajectoryIds": []
+              "trajectoryIds": [
+                "pinochet-1998"
+              ]
             },
             {
-              "id": "c-f6",
-              "label": "Devices show the same pattern",
-              "text": "Lenovo's growth in a falling tablet market is the same pattern outside cars. A market that shrinks for Apple and Samsung still grows for the Chinese maker selling cheaper machines in volume, and the German scooter firm's survival is reported as news because the expected outcome is that Chinese rivals win.",
+              "id": "w3f2",
+              "label": "Who holds office sets the charge",
+              "text": "Where the accused are former officials or a rival faction, the charge is about money; where the accused are the government's organised opponents, as in Egypt and by DW's account Armenia, the charge is about politics. The same institution, the criminal court, is used in both, and the difference is who controls the prosecutors. This is the use of courts Levitsky and Ziblatt describe, seen from both sides.",
               "articleIds": [
-                "n-8f61de6643a279",
-                "n-467574f327477c"
+                "n-606a780836de7d",
+                "n-dab90e66ef5d38",
+                "n-7002cfe565d29c"
               ],
-              "bookIds": [],
+              "bookIds": [
+                "how-democracies-die"
+              ],
               "trajectoryIds": []
             }
           ]
         },
         {
-          "id": "c-break",
+          "id": "w4",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "c-f7",
-              "label": "Each has its own reason",
-              "text": "The Cybertruck has problems of its own: its price, its design and its owner's politics all hurt sales, and its end may say little about policy. Yangwang and Zhiji are launches and pre-orders, not sales, and a car at 2.08 million yuan is a showpiece rather than evidence of a market. Lenovo's tablet growth may come from school and business contracts in a weak year.",
+              "id": "w4f1",
+              "label": "Five unlike cases",
+              "text": "The events do not share a form. Paraguay's is a bank failure with a measured loss; the Philippine case is an impeachment fight between the Marcos and Duterte camps, which may itself be a political prosecution dressed as a money case; the Colombian item is a press investigation, not a court case; Armenia and Egypt are different regimes with different histories of trying opponents. If the Philippine case is political, the split between money cases and political cases collapses, and what remains is the older and less interesting fact that governments use courts against rivals.",
               "articleIds": [
-                "n-d863a68bbd9195",
-                "n-4df7b0224fba69",
-                "n-8f61de6643a279"
+                "n-375cd4858fe1bf",
+                "n-7002cfe565d29c"
               ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "c-f8",
-              "label": "What the events do not share",
-              "text": "The events do not share a market: US pickups, Chinese luxury cars, Brazilian imports, a global tablet count and German scooters are sold to different buyers under different rules, and one story is a product ending while another is a product launched. Chinese-language outlets are numerous in this collection and report Chinese product launches every day, so the Chinese side may be over-represented by the sample.",
-              "articleIds": [],
               "bookIds": [],
               "trajectoryIds": []
             }
@@ -903,8 +1031,8 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "SUBSIDY / TARIFFS / PRICE WAR",
-          "text": "The two halves of the car market in these headlines were separated by laws passed in this decade. The Inflation Reduction Act of August 2022 offered American buyers $7,500 towards an electric car built with North American batteries, and Detroit and Tesla planned electric pickups around it; the Cybertruck reached its first buyers in November 2023. In May 2024 the Biden administration raised the tariff on Chinese electric cars to 100%, and in October 2024 the EU imposed duties of up to 35.3% on them. In July 2025 Congress passed a law ending the federal credit for cars bought after 30 September 2025. Musk's statement that Tesla will stop making the Cybertruck, reported by Sina, comes a year after that date. In China the same years brought a price war from 2023, which pushed makers to sell abroad and to build brands such as BYD's Yangwang at the top of the range, and in 2025 BYD sold more battery cars than Tesla.",
+          "lens": "BANKS / DISCLOSURE / IMPEACHMENT",
+          "text": "The cases in these headlines belong to a run of prosecutions that began within this decade. In the Philippines the House of Representatives impeached Vice-President Sara Duterte in February 2025 over the use of confidential funds and unexplained wealth, and the Supreme Court voided the impeachment that July; the Manila Times report of her defence team answering wealth charges shows the question is still open. In Colombia in 2024 a scandal over water tankers bought by the national disaster agency for La Guajira reached ministers in Gustavo Petro's government, and the Corriere della Sera report on an official's income comes from the same climate of scrutiny. In Armenia in June 2025 the government arrested the Russian-Armenian businessman Samvel Karapetyan and senior clergy, and its opponents called it selective justice, the question DW now asks. In Paraguay, by these headlines, the Ueno bank's losses have reached a former president. In each case the evidence offered is financial and the defendants are political figures.",
           "trajectoryIds": [],
           "bookIds": []
         },
@@ -912,417 +1040,159 @@
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "INDUSTRIAL POLICY / BATTERIES / RESCUES",
-          "text": "The crisis of 2008 set both countries' car industries on the paths that now diverge. In September 2008 Warren Buffett's Berkshire Hathaway bought about a tenth of BYD, then a battery maker that had recently begun making cars. In 2009 Beijing began the Ten Cities, Thousand Vehicles programme, the first of the subsidies for electric cars that ran until 2022, and in 2015 Made in China 2025 named new energy vehicles a priority industry. In the US, General Motors and Chrysler went through bankruptcy in 2009 with federal money, and in 2010 the Department of Energy lent Tesla $465 million. Lenovo, which Digital Daily reports as the only tablet maker growing, bought Motorola's phone business in 2014. The American rescue saved the existing industry and its profitable trucks; the Chinese programme built a new industry around batteries. Época Negócios's report on electric pickups is about which of those two inheritances is now selling.",
-          "trajectoryIds": [
-            "lehman-2008"
-          ],
-          "bookIds": []
-        },
-        {
-          "span": "since-1989",
-          "from": "",
-          "label": "Since 1989",
-          "lens": "WTO / JOINT VENTURES / SUPPLY CHAINS",
-          "text": "China's carmakers learned the trade inside partnerships that its own rules required. The automotive industry policy of 1994 obliged foreign makers to build in China through joint ventures in which they held no more than half, and SAIC, the Shanghai group behind the Zhiji brand now entering Brazil, made cars with Volkswagen from 1985 and General Motors from 1997. China's entry to the World Trade Organization in December 2001 made it the place where the world's devices were assembled, and in 2005 Lenovo bought IBM's personal computer business, the first large purchase of a Western technology brand by a Chinese firm. Brazil in the same years was a market dominated by European and American makers with local plants. The difference now is that the joint venture rule was lifted for electric cars in 2018 and for all passenger cars in 2022, so Chinese firms arrive in Brazil as owners of their own brands, as Sina's report on Zhiji shows.",
+          "lens": "CONTRACTORS / BRIBERY / APPEALS",
+          "text": "The model for reaching a president through money was built in Brazil after 2014. The Lava Jato investigation began in March 2014 as a money-laundering case and reached Petrobras and the construction firm Odebrecht. In December 2016 Odebrecht admitted to the US Justice Department that it had paid $788 million in bribes in twelve countries, and prosecutors across Latin America used the plea: in Peru several former presidents were investigated, and Alan García killed himself in 2019 as police came to arrest him. Lula was jailed in April 2018 and his convictions were annulled in 2021 after leaked messages showed the judge had coordinated with prosecutors. In Malaysia the 1MDB fund case led to Najib Razak's conviction in 2020. The period showed that money cases could reach the top, and that they could be undone when a court's neutrality was in doubt. The Paraguayan arrest reported by R7 and Minuto Uno takes place in the legal setting these cases created.",
           "trajectoryIds": [],
-          "bookIds": []
-        },
-        {
-          "span": "since-1945",
-          "from": "",
-          "label": "Since 1945",
-          "lens": "DETROIT / TARIFFS / OIL SHOCKS",
-          "text": "The electric pickup mattered to American makers because the pickup has been their protected market for sixty years. In 1964, in a trade dispute with Europe over chicken, the US imposed a 25% tariff on imported light trucks, and it still applies; foreign makers who sell pickups in America build them there. After the oil embargo of October 1973 small Japanese cars took a growing share of the US market, Washington negotiated limits on Japanese car exports in 1981, and Japanese firms answered by building American factories and moving into dearer cars with Acura and Lexus. David Edgerton argues that the history of technology is mostly the history of old machines kept in use, and the petrol pickup is such a machine. The end of the Cybertruck and the collapse Época Negócios reports leave the American market to it, while BYD's Yangwang repeats the Lexus move from the other side of the Pacific.",
-          "trajectoryIds": [
-            "oil-embargo-1973"
-          ],
-          "bookIds": [
-            "shock-of-the-old"
-          ]
-        }
-      ],
-      "articleIds": [
-        "n-d863a68bbd9195",
-        "n-147717e1f3b61a",
-        "n-4df7b0224fba69",
-        "n-fd83725107e73b",
-        "n-8f61de6643a279",
-        "n-467574f327477c"
-      ]
-    },
-    {
-      "id": "pardons-and-signatures-go-to-court",
-      "line": "Governments are using pardons and refusals to sign laws, and courts and heads of state are now being asked to overrule them.",
-      "kicker": "CLEMENCY / OVERSIGHT / FINAL SAY",
-      "firmness": "tentative",
-      "watch": [
-        {
-          "what": "A court in Serbia, Malaysia or Taiwan agrees to hear a challenge to a pardon or to the cabinet's refusal to countersign a law.",
-          "by": "2026-12-05",
-          "because": "If these single-office acts are moving into the courts, at least one of the disputes should reach a judge within weeks, which a set of separate political rows would not require.",
-          "id": "20261107T201404-pardons-and-signatures-go-to-court-1"
-        },
-        {
-          "what": "A government in a seventh country refuses to sign, publish or apply a law passed by its parliament.",
-          "by": "2026-12-05",
-          "because": "If the shape is a general turn towards using acts one office controls against legislatures, it should appear outside these six countries; unrelated national rows would not predict it.",
-          "id": "20261107T201404-pardons-and-signatures-go-to-court-2"
-        }
-      ],
-      "ahead": {
-        "precedent": "Pedro Pablo Kuczynski pardoned Alberto Fujimori on 24 December 2017, days after Fujimori's party helped him survive an impeachment vote. A Peruvian judge annulled the pardon in October 2018, the Constitutional Tribunal restored it in March 2022, the Inter-American Court of Human Rights objected, and Fujimori was released only in December 2023. The present differs in that such disputes are running in several countries at once and include the signing of laws as well as clemency.",
-        "paths": [
-          {
-            "name": "Courts take the disputes",
-            "weight": "favoured",
-            "text": "Over the coming months Serbian lawyers file against the pardons, a Malaysian court is asked to review the terms of Najib's release, and Taiwan's legislature asks the Constitutional Court to rule on the refused countersignature. Rulings take a year or more, as in Peru, and the acts stay in force while they are argued. This is favoured because in each country the opponents have already named a court or the monarch as the next step.",
-            "sign": "A court accepts a challenge to a pardon or to a refused countersignature."
-          },
-          {
-            "name": "Governments step back",
-            "weight": "possible",
-            "text": "As in the evening of the Anac dispute in Italy, governments withdraw or soften the act before a judge rules: the palace clarifies the conditions of Najib's pardon, or Taiwan's cabinet signs after a negotiated amendment. This is less likely where the act brings the government support it needs, as a pardon does inside a coalition.",
-            "sign": "Taiwan's Executive Yuan countersigns the Elderly Welfare Act or the legislature amends it."
-          },
-          {
-            "name": "The acts go unchallenged",
-            "weight": "unlikely",
-            "text": "The pardons stand, Taiwan's refusal becomes accepted practice, and no court is asked to rule. Unlikely because Serbian lawyers and Malaysia's Attorney General have already said they will take the matter further.",
-            "sign": "Serbia's lawyers or Malaysia's Attorney General drop their challenge."
-          }
-        ],
-        "decade": "Over the next ten years, as divided governments and coalitions become the normal condition in these countries, more of the questions that convention used to settle, when to pardon and whether to sign, will be decided by constitutional courts."
-      },
-      "continues": "",
-      "change": "",
-      "claim": "In Serbia lawyers warn that Aleksandar Vučić's pardons could be taken to Serbian courts and to Strasbourg; in Malaysia the Attorney General seeks an audience with the King over Najib Razak's conditional pardon; in Taiwan the Executive Yuan refuses to countersign an Elderly Welfare Act passed by the legislature; in Italy Giorgia Meloni confronts the anti-corruption authority Anac; Canada's budget restores the auditor general's access to privileged information; and a Nigerian court voids Atiku's candidature. In each, a power exercised by one office and then normally left alone, to pardon, to sign, to audit or to nominate, is being taken to another office to decide. The question in all six is who has the final word on how a law is applied, and the answer is moving from the government to a court, a monarch or an auditor.",
-      "events": [
-        {
-          "label": "Challenge to Vučić's pardons",
-          "articleIds": [
-            "n-bac586c6faf104"
-          ]
-        },
-        {
-          "label": "Attorney General queries Najib's pardon",
-          "articleIds": [
-            "n-e41589fe16c0a4"
-          ]
-        },
-        {
-          "label": "Taiwan cabinet refuses to countersign law",
-          "articleIds": [
-            "n-dc63966a5c5045"
-          ]
-        },
-        {
-          "label": "Meloni's clash with Anac",
-          "articleIds": [
-            "n-2439eaacef1ce9"
-          ]
-        },
-        {
-          "label": "Canada restores auditor general's access",
-          "articleIds": [
-            "n-0b0d13164bb90a"
-          ]
-        },
-        {
-          "label": "Nigerian court voids Atiku's candidature",
-          "articleIds": [
-            "n-d043baaaf03f6f"
-          ]
-        }
-      ],
-      "rungs": [
-        {
-          "id": "p-obs-1",
-          "kind": "observation",
-          "label": "Two pardons under challenge",
-          "fragments": [
-            {
-              "id": "p-f1",
-              "label": "Vučić's pardons",
-              "text": "DW's Serbian service reports lawyers warning that pardons granted by Aleksandar Vučić could end up before Serbian courts and the European Court of Human Rights in Strasbourg. The headline does not say who was pardoned, but the warning treats a presidential act of clemency as something a court can review.",
-              "articleIds": [
-                "n-bac586c6faf104"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "p-f2",
-              "label": "Najib's conditional pardon",
-              "text": "The Star in Malaysia reports that the Attorney General is seeking an audience with the King over Najib Razak's conditional pardon. The government's own chief law officer is taking a question about a pardon to the monarch who grants it, rather than letting its terms stand.",
-              "articleIds": [
-                "n-e41589fe16c0a4"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "p-obs-2",
-          "kind": "observation",
-          "label": "A signature, watchdogs and a candidature",
-          "fragments": [
-            {
-              "id": "p-f3",
-              "label": "Taiwan's refused countersignature",
-              "text": "UDN reports that the Executive Yuan has announced it will not countersign the Elderly Welfare Act passed by the legislature, and quotes Wu Huang-sheng asking when the law stopped being decided by public opinion. The cabinet is using a step in the making of a law to stop one.",
-              "articleIds": [
-                "n-dc63966a5c5045"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "p-f4",
-              "label": "Anac and Canada's auditor",
-              "text": "Corriere della Sera reports a confrontation between Meloni and Anac in the Altieri case, and a step back in the evening; the headline leaves unclear which side gave way. In Canada the Niagara Falls Review reports that the federal budget seeks to restore the auditor general's access to privileged information, which means that access had been lost.",
-              "articleIds": [
-                "n-2439eaacef1ce9",
-                "n-0b0d13164bb90a"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "p-f5",
-              "label": "Atiku's voided candidature",
-              "text": "Nigeria's Leadership reports the governing APC mocking the opposition ADC over a court judgment that removed Mark and voided Atiku's candidature, while denying any part in it. Here a court, not a party, has decided who the opposition may run.",
-              "articleIds": [
-                "n-d043baaaf03f6f"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "p-int-1",
-          "kind": "interpretation",
-          "label": "Who has the final word",
-          "fragments": [
-            {
-              "id": "p-f6",
-              "label": "One office, then another",
-              "text": "In each case a power used by one office and then normally left alone is being reviewed by a second: a pardon by a court or the King, a cabinet's signature by the legislature and in time a court, a watchdog's work by the prime minister, a candidature by a judge. In Serbia, Malaysia and Taiwan a government is using its own discretion and others are asking a court or monarch to undo it. In Canada and Nigeria it is an auditor or a court that gains a say over a government or a party.",
-              "articleIds": [
-                "n-bac586c6faf104",
-                "n-e41589fe16c0a4",
-                "n-dc63966a5c5045",
-                "n-0b0d13164bb90a",
-                "n-d043baaaf03f6f"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "p-f7",
-              "label": "Governments without secure majorities",
-              "text": "Three of the governments work without a secure hold on their legislatures or their streets: Taiwan's cabinet faces an opposition majority, Malaysia's government is a coalition in which Najib's party sits beside parties that prosecuted him, and Serbia's politics have been shaped by two years of student protest. Where a government cannot count on the legislature, the acts it controls alone, a pardon or a refusal to sign, become its main tools, and its opponents answer by taking those acts to judges.",
-              "articleIds": [
-                "n-dc63966a5c5045",
-                "n-e41589fe16c0a4",
-                "n-bac586c6faf104"
-              ],
-              "bookIds": [],
-              "trajectoryIds": [
-                "novi-sad-2024"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "p-break",
-          "kind": "break",
-          "label": "The case against",
-          "fragments": [
-            {
-              "id": "p-f8",
-              "label": "Six different disputes",
-              "text": "These events share neither a cause nor, mostly, a direction. Najib's pardon is about a corruption conviction and a coalition's bargain; Taiwan's refusal is a fight over welfare spending between a cabinet and an opposition legislature; the Anac dispute concerns one official; Canada's budget restores an auditor's access, the opposite of a government resisting a check; and the Nigerian judgment is a court acting against an opposition party, which the governing party welcomes. Disputes over pardons and signatures happen somewhere every week, so six on one day may be what any day looks like.",
-              "articleIds": [],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "p-f9",
-              "label": "What the headlines leave out",
-              "text": "None of the headlines says who was pardoned in Serbia, what condition is attached to Najib's pardon, or what the Elderly Welfare Act would cost. Without those facts the join rests on the form of the acts rather than their content, and a reader could fairly say the form is all they share.",
-              "articleIds": [],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        }
-      ],
-      "horizons": [
-        {
-          "span": "since-2020",
-          "from": "",
-          "label": "Since 2020",
-          "lens": "PARDONS / DIVIDED GOVERNMENT / RESTRAINT",
-          "text": "The pardon of a convicted politician returned as an ordinary political act in this decade. On 20 January 2025 Donald Trump pardoned or commuted the sentences of about 1,500 people charged over the storming of the Capitol in January 2021. In Malaysia Najib Razak was convicted in July 2020 over SRC International, jailed in August 2022, and had his sentence halved and his fine cut by the Pardons Board in February 2024, which is the background to the Attorney General's request to see the King. In Taiwan the January 2024 election gave the presidency to the DPP and the legislature to the opposition, and the countersignature the Executive Yuan now refuses became a tool of divided government. In Serbia the canopy collapse at Novi Sad in November 2024 began the protests in which Vučić's pardons are now argued over. Steven Levitsky and Daniel Ziblatt call the restraint that keeps leaders from using every legal power forbearance; these headlines record that restraint being set aside.",
-          "trajectoryIds": [
-            "washington-2021",
-            "novi-sad-2024"
-          ],
           "bookIds": [
             "how-democracies-die"
           ]
         },
         {
-          "span": "since-2008",
-          "from": "",
-          "label": "Since 2008",
-          "lens": "ANTI-CORRUPTION / WATCHDOGS / AUSTERITY",
-          "text": "After the financial crisis, governments built or strengthened the offices that now quarrel with them. In Italy the debt crisis of 2011 brought Mario Monti's technocratic government, which passed the Severino anti-corruption law in November 2012; the authority it created became Anac in 2014 under Raffaele Cantone, with powers over public contracts. Corriere's report of Meloni's confrontation with Anac is a dispute with a body designed to be hard for a prime minister to move. In Malaysia the state fund 1MDB was set up in 2009; reports in 2015 of money taken from it helped end Barisan Nasional's sixty-one years in power in May 2018 and led to Najib's prosecution. In Nigeria the 2015 election was the first in which a sitting president lost, and in the years since, courts have become the place where party candidatures are settled, as in the judgment voiding Atiku's. The years after 2008 made oversight a separate power, and governments have tested it since.",
-          "trajectoryIds": [
-            "lehman-2008"
-          ],
-          "bookIds": []
-        },
-        {
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "TRANSITIONS / COURTS / CONSTITUTIONS",
-          "text": "Most of the courts and offices in these headlines took their present form in the wave of democratisation Samuel Huntington described. Taiwan's constitution was revised seven times between 1991 and 2005, making the president directly elected but keeping the rule that the premier countersigns laws, the step UDN reports the Executive Yuan has now refused. Serbia's courts and its place before the European Court of Human Rights in Strasbourg date from after the fall of Milošević in October 2000 and its entry to the Council of Europe in 2003. Nigeria's 1999 constitution returned civilian rule and gave courts the last word on disputed nominations and elections. The arrest of Augusto Pinochet in London in October 1998 showed that a former ruler's own country was no longer the only place his acts could be judged, which is why the Serbian lawyers in DW's report name Strasbourg as well as Belgrade. The trajectory is contested: many of these courts have since been weakened by the governments they check.",
+          "lens": "TRANSITION / IMMUNITY / TREATIES",
+          "text": "Paraguay's present regime began in February 1989, when General Andrés Rodríguez overthrew Alfredo Stroessner after thirty-five years. The Colorado Party that had ruled under Stroessner kept power through elections, losing the presidency only once, from 2008 until Fernando Lugo's impeachment in 2012. The end of the Cold War also produced the international rules that make asset freezes routine: the OECD Anti-Bribery Convention of 1997 and the UN Convention against Corruption of 2003, which obliged signatories to trace and return stolen public money. Pinochet's arrest in London in 1998 established that a former ruler's office was no protection abroad, and Peru's extradition of Alberto Fujimori from Chile in 2007, and his conviction in 2009, applied the principle at home. Peña's words on arrest, as Minuto Uno reports them, appeal to the older idea that a former president stands apart from ordinary courts. The trajectory since 1989 has run against that idea, though unevenly: the same treaties are applied hard to some leaders and not at all to others.",
           "trajectoryIds": [
-            "belgrade-2000",
             "pinochet-1998"
           ],
-          "bookIds": [
-            "third-wave"
-          ]
+          "bookIds": []
         },
         {
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "PREROGATIVE / CONSTITUTIONS / ACCOUNTABILITY",
-          "text": "The powers in dispute were written into the constitutions of the postwar order. The Republic of China's constitution of 1947, which Taiwan still uses, says in Article 37 that the president promulgates laws with the countersignature of the head of the Executive Yuan. Italy's 1948 constitution gives the power of pardon to the president of the republic. Malaysia's Federal Constitution of 1957 gives the power to pardon offences in the federal territories to the King, on the advice of a Pardons Board, which is why the Attorney General in The Star's report seeks an audience with the King rather than filing in court. These were designed as formal acts, exercised on advice and rarely contested. Alongside them, the Nuremberg trials of 1945 and 1946 set out the principle that those who govern can be held to account in law for what they did in office. The disputes this week turn on which of those two inheritances applies to a convicted former leader.",
-          "trajectoryIds": [
-            "nuremberg-1945"
-          ],
+          "lens": "DICTATORSHIP / PLUNDER / RECOVERY",
+          "text": "The idea that a ruler's fortune can be frozen and returned to the state comes from the dictatorships of the postwar decades. Stroessner took power in Paraguay in 1954; Ferdinand Marcos ruled the Philippines from 1965 until 1986. When Marcos fell, Corazon Aquino's government set up the Presidential Commission on Good Government to recover his wealth, and Swiss courts later returned hundreds of millions of dollars to Manila. It was the first large attempt to treat a leader's assets as evidence of a crime against the state. The other use of courts in these headlines also dates from this period. Egypt banned the Muslim Brotherhood in 1954 after an attempt on Gamal Abdel Nasser's life, and held mass trials of its members in 1954 and 1965; the trial of 124 defendants that Al-Youm Al-Sabea reports postponed to 13 January follows a practice seventy years old. The postwar state produced both instruments: the recovery of wealth from fallen rulers, and the mass trial of organised opponents.",
+          "trajectoryIds": [],
           "bookIds": []
         }
       ],
       "articleIds": [
-        "n-bac586c6faf104",
-        "n-e41589fe16c0a4",
-        "n-dc63966a5c5045",
-        "n-2439eaacef1ce9",
-        "n-0b0d13164bb90a",
-        "n-d043baaaf03f6f"
+        "n-ee0c72414b5f2f",
+        "n-ef2fccb692255f",
+        "n-375cd4858fe1bf",
+        "n-7002cfe565d29c",
+        "n-606a780836de7d",
+        "n-dab90e66ef5d38"
       ]
     },
     {
-      "id": "el-nino-first-weeks-bring-rain",
-      "line": "El Niño is expected to bring drought, but its first weeks have brought storms and landslides to mountain cities and the Pacific coast.",
-      "kicker": "OCEAN / FORECASTS / PLANNING",
+      "id": "work-abroad-rationed",
+      "line": "Legal routes to work abroad are now so few that they go by lottery, while irregular routes still kill dozens at a time.",
+      "kicker": "MIGRATION / LABOUR / SCARCITY",
       "firmness": "tentative",
       "watch": [
         {
-          "what": "Peru declares a state of emergency over rain or flooding in Tumbes, Piura or another northern coastal region.",
-          "by": "2026-12-05",
-          "because": "If the Tumbes rain is the start of a coastal El Niño rather than a single storm, it will continue for weeks and reach the level of an emergency, which a passing storm would not.",
-          "id": "20261107T201404-el-nino-first-weeks-bring-rain-1"
+          "what": "A second labour-sending country uses a lottery or ballot to allocate jobs or work visas abroad.",
+          "by": "2026-12-06",
+          "because": "If legal routes are rationed rather than merely slow, other sending governments facing more applicants than places should ration the same way.",
+          "id": "20261108T202834-work-abroad-rationed-1"
         },
         {
-          "what": "Peru's ENFEN or Colombia's IDEAM links the current rains to El Niño or raises its El Niño alert level.",
-          "by": "2026-11-30",
-          "because": "If the rains share the cause the Bogotá report names, the agencies that forecast El Niño will say so; if they are ordinary seasonal storms, they will not.",
-          "id": "20261107T201404-el-nino-first-weeks-bring-rain-2"
+          "what": "Malaysia or a Gulf state announces a cap, freeze or new quota on workers from Bangladesh.",
+          "by": "2026-12-06",
+          "because": "A lottery implies a fixed number of places set by the receiving country, and the join predicts those numbers are being cut rather than raised.",
+          "id": "20261108T202834-work-abroad-rationed-2"
         }
       ],
       "ahead": {
-        "precedent": "The coastal El Niño of January to March 2017 brought heavy rain and mudslides to northern Peru, killing more than a hundred people and destroying roads and bridges across Tumbes, Piura and Lambayeque; the government set up a reconstruction authority that was still spending years later. The present differs because the rain in Tumbes is arriving in November, before the usual season, and because Colombia is being told to expect drought from the same event.",
+        "precedent": "The nearest case is the pirogue crisis of 2006, when some 31,000 people reached the Canary Islands, mostly from Senegal and Mauritania; Spain and the EU answered with Frontex patrols and return agreements with Dakar, and arrivals fell sharply by 2010. But the fall owed as much to the 2008 crash ending Spain's demand for labour as to the patrols. The present differs in that the legal routes are narrowing at the same time as the sea route is patrolled, and the workers who reach southern Europe report wages that do not pay for staying.",
         "paths": [
           {
-            "name": "Northern Peru floods early",
+            "name": "Quotas tighten, crossings continue",
             "weight": "favoured",
-            "text": "From December to March rains on Peru's north coast are heavier than usual, rivers that are dry most of the year flood, and emergencies are declared in Tumbes and Piura. Political visits like Fujimori's become regular. This is favoured because out-of-season rain in Tumbes is the first sign coastal El Niños have given before.",
-            "sign": "Peru declares an emergency over rain in a northern coastal region."
+            "text": "Over the next year receiving countries cut or freeze quotas and add conditions, sending governments allocate the remaining places by lottery or ballot, and departures by sea from West Africa continue through the winter with further deaths. The join points this way because each event shows a receiving side closing while the number of applicants stays high.",
+            "sign": "A receiving government announces a cut or freeze in foreign worker numbers from a South Asian or West African country."
           },
           {
-            "name": "Colombia's dry season brings rationing",
+            "name": "A new bilateral labour deal",
             "weight": "possible",
-            "text": "By January to March 2027 El Niño's usual effect reaches Colombia, its hydropower reservoirs fall, and Bogotá or the national government asks people to save water or power, as in 2024. This can happen alongside the Peruvian rain, since the same event has opposite effects in the two countries.",
-            "sign": "Bogotá or Colombia's energy ministry announces water or electricity saving measures over reservoir levels."
+            "text": "Spain or the EU signs a circular migration scheme with Senegal, or Malaysia reopens fully to Bangladeshi workers, with numbers stated. It is less likely soon because receiving governments in Europe and Asia are under domestic pressure to reduce numbers, not raise them.",
+            "sign": "A signed agreement giving a stated number of work visas for Senegalese or Bangladeshi workers is announced."
           },
           {
-            "name": "The event fades",
+            "name": "Large returns from southern Europe",
             "weight": "unlikely",
-            "text": "Forecasters revise El Niño down within weeks and the rains return to their normal pattern. Unlikely because Bogotá is already discussing El Niño as a present condition rather than a forecast.",
-            "sign": "ENFEN or the US weather agency NOAA lowers its El Niño outlook."
+            "text": "The cost of rooms and low pay lead to a measurable fall in foreign residents in Portugal within the year. It is unlikely because one testimony is not a trend and Portugal's foreign population has grown for a decade.",
+            "sign": "Portuguese official figures show the number of foreign residents falling."
           }
         ],
-        "decade": "Over the next ten years El Niño years will be the years in which the costs of building on Andean slopes and in dry coastal river beds are paid; whether a warmer climate makes strong El Niños more frequent is still argued among climate scientists."
+        "decade": "The trajectory points to work abroad becoming more temporary, more allocated and more expensive to reach, as ageing countries admit labour in fixed numbers and young countries compete for those places."
       },
       "continues": "",
       "change": "",
-      "claim": "In Peru Fujimori is reported visiting parts of Tumbes hit by rain; in Colombia Pulzo reports that El Niño has not stopped thunderstorms and hail in Bogotá, and La Patria that a landslide brought trees down onto an avenue in Manizales; in Brazil the Civil Defence has a 72-hour alert out, Belo Horizonte a rain warning, and a downpour stopped Formula One qualifying at Interlagos. The shared cause is the El Niño that the Colombian report names: a warming of the eastern Pacific usually described as a drought for Colombia, but which brings rain to Peru's north coast and southern Brazil. If that is right, the first weeks of this El Niño are arriving as rain alerts rather than water shortages, and governments preparing for dry months are dealing with wet ones first.",
+      "claim": "Off Lompoul in northern Senegal a pirogue capsized and at least 21 people died; in Bangladesh a lottery shortlisted 300 applicants for 112 fee-free jobs in Malaysia; a testimony in Portugal's SAPO describes shared rooms and low pay ending a migrant's 'European dream' with a return home; and in West Bengal the politician Suvendu Adhikari promised to deport every 'Bangladeshi infiltrator'. Each is a point where a person's attempt to work in another country is rationed: by a draw, by the risk of the sea, by wages that do not cover staying, or by expulsion. The countries sending these workers have young populations and need the money they send home, and the routes out are narrowing at both ends.",
       "events": [
         {
-          "label": "Rains hit Peru's Tumbes",
+          "label": "Migrant pirogue sinks off northern Senegal",
           "articleIds": [
-            "n-b816b3353bedb9"
+            "n-95138aeca05fb9",
+            "n-720a78d8011c59",
+            "n-60ae4245a294dc"
           ]
         },
         {
-          "label": "Bogotá storms despite El Niño",
+          "label": "Lottery for fee-free jobs in Malaysia",
           "articleIds": [
-            "n-4eed6678627ef7"
+            "n-29448471590254"
           ]
         },
         {
-          "label": "Landslide blocks a Manizales avenue",
+          "label": "World Bank puts Bangladesh's debt per head",
           "articleIds": [
-            "n-0bfab966786f0b"
+            "n-ca49eafe2a83b9"
           ]
         },
         {
-          "label": "Brazilian civil defence rain alerts",
+          "label": "A migrant's return from Portugal",
           "articleIds": [
-            "n-265579360122d8",
-            "n-bcd665895a7462"
+            "n-340390742d2ce8"
           ]
         },
         {
-          "label": "Downpour stops Interlagos qualifying",
+          "label": "West Bengal deportation pledge",
           "articleIds": [
-            "n-6b4c0bc8914204"
+            "n-81be0de86f382f"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "e-obs-1",
+          "id": "m1",
           "kind": "observation",
-          "label": "Rain on the coast and in the mountains",
+          "label": "A boat, a draw, a return",
           "fragments": [
             {
-              "id": "e-f1",
-              "label": "Tumbes",
-              "text": "deperu.com carries a 24 Horas report of Fujimori visiting areas of Tumbes, on Peru's far north coast, affected by the rains. Tumbes is normally dry in November, and its rainy months are usually January to March.",
+              "id": "m1f1",
+              "label": "The Lompoul shipwreck",
+              "text": "Senegal's Le Soleil reports President Diomaye Faye sending condolences after a pirogue capsized at Lompoul. Xinhua, citing Senegal's Interior Ministry, and bdnews24 in Bangladesh both put the dead at 21, bdnews24 calling it a migrant boat. None of the headlines says where the boat was going.",
               "articleIds": [
-                "n-b816b3353bedb9"
+                "n-95138aeca05fb9",
+                "n-720a78d8011c59",
+                "n-60ae4245a294dc"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "e-f2",
-              "label": "Bogotá and Manizales",
-              "text": "Pulzo reports that El Niño 'does not eliminate rain or hail', after Bogotá recorded thunderstorms and changeable weather in October. La Patria reports a landslide in Manizales in which trees fell onto an avenue and blocked traffic.",
+              "id": "m1f2",
+              "label": "The lottery and the return",
+              "text": "bdnews24 reports a lottery shortlisting 300 applicants for 112 jobs in Malaysia offered without cost to the worker. SAPO carries a testimony about shared rooms, miserable salaries and the end of the European dream, ending in a return to the home country.",
               "articleIds": [
-                "n-4eed6678627ef7",
-                "n-0bfab966786f0b"
+                "n-29448471590254",
+                "n-340390742d2ce8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "m1f3",
+              "label": "The expulsion pledge",
+              "text": "bdnews24 reports Suvendu vowing to deport every 'Bangladeshi infiltrator' from West Bengal. The same outlet reports the World Bank putting Bangladesh's external debt at $646 per person.",
+              "articleIds": [
+                "n-81be0de86f382f",
+                "n-ca49eafe2a83b9"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1330,57 +1200,33 @@
           ]
         },
         {
-          "id": "e-obs-2",
-          "kind": "observation",
-          "label": "Alerts in south-eastern Brazil",
-          "fragments": [
-            {
-              "id": "e-f3",
-              "label": "Civil Defence warnings",
-              "text": "O Globo explains a Civil Defence alert covering the next 72 hours in Brazil, and Estado de Minas reports a rain alert for Belo Horizonte on Saturday afternoon. Neither headline names a cause.",
-              "articleIds": [
-                "n-265579360122d8",
-                "n-bcd665895a7462"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "e-f4",
-              "label": "Interlagos",
-              "text": "El Litoral in Argentina reports a red flag for a downpour at the start of Formula One qualifying at Interlagos in São Paulo. A sports report carries the same weather the Brazilian alerts warn of.",
-              "articleIds": [
-                "n-6b4c0bc8914204"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "e-int-1",
+          "id": "m2",
           "kind": "interpretation",
-          "label": "One ocean, opposite effects",
+          "label": "What is being rationed",
           "fragments": [
             {
-              "id": "e-f5",
-              "label": "The named cause",
-              "text": "Only the Bogotá report names El Niño, but its framing matters: Colombians have been told to expect a dry El Niño, and the report has to explain storms. El Niño warms the eastern Pacific, which brings rain to Peru's north coast and to southern Brazil while drying Colombia, and rain in Tumbes in November, ahead of its season, is what a coastal El Niño produces first. Read that way, the first weeks of the event are arriving as rain alerts rather than as water shortages.",
+              "id": "m2f1",
+              "label": "Places, not jobs",
+              "text": "What these events share is a fixed and falling number of places to work in another country, set by the receiving side and divided among more people than it can take. The Bangladeshi lottery divides places openly; the Senegalese boat is what people take when no lottery is offered to them; the Portuguese testimony shows that arriving does not mean being able to stay; the West Bengal pledge removes people already across. Hirschman's term for leaving is exit, and these are the ways exit is now limited.",
               "articleIds": [
-                "n-4eed6678627ef7",
-                "n-b816b3353bedb9"
+                "n-29448471590254",
+                "n-60ae4245a294dc",
+                "n-340390742d2ce8",
+                "n-81be0de86f382f"
               ],
-              "bookIds": [],
+              "bookIds": [
+                "exit-voice-loyalty"
+              ],
               "trajectoryIds": []
             },
             {
-              "id": "e-f6",
-              "label": "Plans made for the wrong weather",
-              "text": "The responses reported are to rain: a national political figure visits Tumbes, Brazil's Civil Defence issues a 72-hour warning, and a road in Manizales is closed by fallen trees. Plans made for an El Niño drought, such as the management of Colombia's reservoirs, do not prepare cities for the storms that come first.",
+              "id": "m2f2",
+              "label": "Bangladesh on both sides",
+              "text": "Bangladesh appears here as a sender of workers to Malaysia and as the country named as the source of 'infiltrators' in West Bengal. A state with $646 of external debt per citizen needs the dollars its workers send home, so each closed route is also a problem for its balance of payments.",
               "articleIds": [
-                "n-b816b3353bedb9",
-                "n-265579360122d8",
-                "n-0bfab966786f0b"
+                "n-ca49eafe2a83b9",
+                "n-29448471590254",
+                "n-81be0de86f382f"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1388,23 +1234,18 @@
           ]
         },
         {
-          "id": "e-break",
+          "id": "m3",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "e-f7",
-              "label": "The wet season is normal",
-              "text": "October and November are Colombia's second rainy season every year, and November begins the wet season in Belo Horizonte and São Paulo, so the Manizales landslide, the Brazilian alerts and the Interlagos storm would be expected in any year. El Niño's effect on south-eastern Brazil is weak and inconsistent; it is the far south of the country that it reliably makes wetter.",
-              "articleIds": [],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "e-f8",
-              "label": "What the events do not share",
-              "text": "Only one headline names El Niño, and only the Tumbes rain is out of season. What the events share is rain; what they do not share is a mechanism, since a desert coast flooding early, an Andean city's usual wet season and a summer storm over a racetrack have different immediate causes. The collection's Spanish and Portuguese outlets report local weather heavily, which makes a South American rain pattern easy to find on any day.",
-              "articleIds": [],
+              "id": "m3f1",
+              "label": "Four different things",
+              "text": "The lottery may be a fairness measure to cut out recruitment agents rather than a sign of scarcity; the shipwreck is an irregular crossing whose destination the headlines do not give; the SAPO piece is one person's account and may be a feature written for clicks; the West Bengal pledge is electoral politics about citizenship, not labour. Four of the seven headlines come from one Bangladeshi outlet, bdnews24, so the pattern may reflect one newsroom's interests on one day. What the events do not share is a single receiving country or a single policy: one is a sea route, one a fee-free scheme, one a wage complaint, one a threat of expulsion.",
+              "articleIds": [
+                "n-29448471590254",
+                "n-340390742d2ce8"
+              ],
               "bookIds": [],
               "trajectoryIds": []
             }
@@ -1416,28 +1257,31 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "CLIMATE / LA NIÑA / RATIONING",
-          "text": "The rains in these headlines follow an unusual run of Pacific years. La Niña, the cool phase, lasted through three northern winters from 2020 to 2023, a rare triple. El Niño followed in 2023 and 2024, and global average temperatures in those two years were the highest recorded. In March 2023 a coastal El Niño and Cyclone Yaku brought floods to Tumbes and Piura in northern Peru, the region where Fujimori is now reported visiting rain damage. In Colombia the 2023-24 El Niño lowered the reservoirs that supply Bogotá, and the city rationed water by district from April 2024 to April 2025, which is why a Bogotá outlet now feels it must explain that El Niño does not mean no rain. In southern Brazil floods in Rio Grande do Sul in April and May 2024, at the end of that El Niño, killed more than 180 people. The decade has taught Andean and Brazilian cities to expect El Niño in two opposite forms.",
-          "trajectoryIds": [],
+          "lens": "BORDERS / QUOTAS / PANDEMIC",
+          "text": "The pandemic closed most legal labour routes in 2020, and they reopened on narrower terms. Malaysia froze the recruitment of foreign workers during the pandemic, reopened to Bangladesh in 2022, and stopped taking new Bangladeshi workers after May 2024 amid accusations that a recruitment syndicate was charging workers thousands of dollars each. A fee-free scheme filled by lottery, as bdnews24 reports, is an answer to that history. At the same time the Atlantic route from West Africa to the Canary Islands reached a record of about 46,800 arrivals in 2024, many of them from Senegal, and the dead off Lompoul belong to that route. Portugal, one of Europe's easier countries to enter for work, ended its 'expression of interest' route in June 2024. In August 2024 Bangladesh's students forced out Sheikh Hasina, and the new distrust between Dhaka and Delhi fed the talk of expulsion in West Bengal. The decade has produced more applicants for fewer places.",
+          "trajectoryIds": [
+            "dhaka-2024"
+          ],
           "bookIds": []
         },
         {
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "DISASTER LAW / WARNING SYSTEMS / CITIES",
-          "text": "The alerts that O Globo and Estado de Minas report were built after the floods of 2010 and 2011. La Niña rains in Colombia in 2010 and 2011 affected more than three million people, and the country passed Law 1523 of 2012, which set up its national system of disaster risk management. In January 2011 floods and landslides in the mountain region of Rio de Janeiro state killed more than 900 people, and Brazil created Cemaden, its national centre for monitoring natural disasters, the same year. Brazil's Civil Defence now sends alerts directly to phones, and its 72-hour warnings are products of that system. Ulrich Beck argued that modern societies spend much of their politics deciding who carries risks they have produced themselves; the built-over slopes of Manizales and of Minas Gerais are such risks. After 2008 the answer in both countries was to warn people earlier rather than to move them.",
-          "trajectoryIds": [],
-          "bookIds": [
-            "risk-society"
-          ]
+          "lens": "CRISIS / REMITTANCES / RECRUITMENT",
+          "text": "The crash of 2008 ended the construction boom in Spain and Portugal that had drawn workers from West Africa and Latin America, and during Portugal's bailout years from 2011 to 2014 around 100,000 Portuguese a year left for work elsewhere. The SAPO testimony of shared rooms and low pay describes a southern Europe where wages for new arrivals have not recovered the ground lost then. In South Asia the period went the other way: remittances became Bangladesh's largest source of foreign currency after exports, passing twenty billion dollars a year by the early 2020s, and governments organised labour export as policy. The cost fell on workers through recruitment fees and the Gulf's kafala sponsorship rules, which tied a worker's visa to one employer; the World Cup built in Qatar for 2022 made those rules visible worldwide. The World Bank's figure of $646 of external debt per Bangladeshi explains why Dhaka keeps open every route it can.",
+          "trajectoryIds": [
+            "lehman-2008",
+            "qatar-2022"
+          ],
+          "bookIds": []
         },
         {
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "FORECASTING / OCEANS / HYDROPOWER",
-          "text": "El Niño became something governments plan for in the years after 1989. The international TOGA programme completed a line of moored buoys across the tropical Pacific in 1994, and from then on El Niño could be forecast months ahead. The first great test was 1997 and 1998, the strongest event of the century, which brought floods to northern Peru and Ecuador and drought elsewhere. Colombia had already learned the opposite lesson: most of its electricity comes from hydropower, and the El Niño of 1991 and 1992 left reservoirs so low that the country rationed power for about a year under César Gaviria. Since then a Colombian El Niño forecast has been read as a drought warning, which is the expectation Pulzo's report on October's thunderstorms is correcting. Peru's north coast reads the same forecast as a warning of rain, so one signal produces opposite preparations in neighbouring countries.",
+          "lens": "SCHENGEN / LABOUR EXPORT / CITIZENSHIP",
+          "text": "The routes in these headlines were laid out in the 1990s. The Schengen agreement came into force in 1995, removing internal borders in Europe and making the outer border, including the sea between West Africa and the Canaries, the place where migration is controlled. In 2006 some 31,000 people reached the Canaries by pirogue, most from Senegal and Mauritania, and Spain and the EU answered with Frontex patrols off the West African coast and return agreements with Dakar. In the same years Malaysia's plantations, building sites and electronics factories drew hundreds of thousands of Bangladeshi workers through Bangladesh's Bureau of Manpower, Employment and Training, founded in 1976. In India citizenship became the instrument of control: the Citizenship Act was amended in 2003 to introduce the category of 'illegal migrant', and in 2019 Assam's National Register of Citizens left 1.9 million people off the list. The pledge reported from West Bengal draws on that legal framework rather than on any new one.",
           "trajectoryIds": [],
           "bookIds": []
         },
@@ -1445,19 +1289,254 @@
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "SCIENCE / FISHERIES / URBAN GROWTH",
-          "text": "The link between warm water off Peru and weather around the Pacific was set out by the Norwegian meteorologist Jacob Bjerknes in 1969, who showed that El Niño and the Southern Oscillation in air pressure were one system. Peru learned its cost first at sea: the El Niño of 1972 and 1973 helped collapse the anchoveta fishery, which had made Peru the world's largest fishing nation by catch in the 1960s. On land, the decades after 1945 moved millions of people from the countryside into Andean and Brazilian cities, many onto steep slopes and river margins. Manizales, built along mountain ridges, has landslides in most wet seasons, and La Patria's report of trees falling onto an avenue is a small one. Belo Horizonte and São Paulo grew in the same years. The rain of an El Niño year now falls on cities whose shape was fixed in that period, which is why the same weather produces alerts and emergencies where it once fell on fields.",
+          "lens": "PARTITION / EMPIRE / GUEST WORKERS",
+          "text": "The border at issue in West Bengal was drawn at Partition in 1947 and tested again in 1971, when some ten million refugees from what became Bangladesh crossed into India; most went back, and the question of who stayed has been used in Bengal and Assam ever since. Senegal became independent from France in 1960, and French industry recruited West African workers through the following decade. Portugal itself was a country of emigrants under the dictatorship: hundreds of thousands left for France in the 1960s, many living in shanty towns outside Paris, before Portugal began to receive migrants after joining the European Community in 1986. West Germany's agreement with Italy in 1955 began the guest-worker schemes that set the postwar pattern, labour admitted for a period with return expected. The SAPO testimony of a return home follows the expectation those schemes built into labour migration, now reached through high rents and low wages rather than by contract.",
           "trajectoryIds": [],
           "bookIds": []
         }
       ],
       "articleIds": [
-        "n-b816b3353bedb9",
-        "n-4eed6678627ef7",
-        "n-0bfab966786f0b",
-        "n-265579360122d8",
-        "n-bcd665895a7462",
-        "n-6b4c0bc8914204"
+        "n-95138aeca05fb9",
+        "n-720a78d8011c59",
+        "n-60ae4245a294dc",
+        "n-29448471590254",
+        "n-340390742d2ce8",
+        "n-81be0de86f382f",
+        "n-ca49eafe2a83b9"
+      ]
+    },
+    {
+      "id": "chinese-makers-sell-at-both-ends",
+      "line": "Twenty-five years after joining the WTO, Chinese makers sell abroad at luxury prices as well as low ones.",
+      "kicker": "EXPORTS / PRICING / INDUSTRIAL POLICY",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A Chinese carmaker announces a new factory or assembly plant outside China.",
+          "by": "2026-12-06",
+          "because": "If export markets are now where Chinese makers plan their profits, production should follow the sales to get inside the tariffs that face them.",
+          "id": "20261108T202834-chinese-makers-sell-at-both-ends-1"
+        },
+        {
+          "what": "A US, European or Japanese carmaker announces a deal to use a Chinese maker's electric platform, batteries or software.",
+          "by": "2026-12-06",
+          "because": "A US maker withdrawing an electric model while Chinese makers move up the market predicts that others will license Chinese technology rather than build their own.",
+          "id": "20261108T202834-chinese-makers-sell-at-both-ends-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is Japan's car industry between 1981 and 1989: a voluntary export restraint with Washington in 1981 was answered by plants in the United States, Honda's in Ohio from 1982, and by luxury brands, Acura in 1986 and Lexus in 1989. Within a decade Japanese makers sold at every price and built inside their largest market. The present differs in that Chinese makers are moving up the market and selling cheaply at the same moment, face tariffs already in the United States and the EU, and are launching luxury models in the Gulf rather than in America.",
+        "paths": [
+          {
+            "name": "Factories follow the exports",
+            "weight": "favoured",
+            "text": "Through 2027 more Chinese makers announce assembly in Turkey, Hungary, Brazil, Thailand or the Gulf to sell inside tariff walls, while luxury launches continue in markets without duties. The join points this way because export profits are now named as the goal and tariffs make building abroad the way to keep them.",
+            "sign": "A Chinese carmaker announces a new plant or assembly deal in a country outside China."
+          },
+          {
+            "name": "Tariffs spread to more markets",
+            "weight": "possible",
+            "text": "Brazil, Mexico, Turkey or a Southeast Asian government raises duties on Chinese cars, and export growth slows in 2027. It is less likely to dominate because the buyers in the Gulf and Southeast Asia, as the Philippine statement shows, keep trading even when in dispute with Beijing.",
+            "sign": "A G20 government outside the US and EU announces higher duties on Chinese electric cars."
+          },
+          {
+            "name": "US makers return to electric pickups",
+            "weight": "unlikely",
+            "text": "A US maker restores an electric pickup programme within the year. It is unlikely because the federal credit has ended and Tesla is raising prices and suspending orders rather than cutting them to win buyers.",
+            "sign": "A US carmaker reinstates a cancelled electric pickup or announces a new one for 2027."
+          }
+        ],
+        "decade": "The trajectory points to Chinese makers holding the place Japanese makers held in the 1980s and 1990s, with factories inside the markets that tax their imports and brands at every price."
+      },
+      "continues": "chinese-makers-grow-as-others-retreat",
+      "change": "Tesla's Cybertruck is now reported being wound down, with another price rise and orders for its entry version suspended. On the Chinese side the news has moved to the top of the market, with a luxury flagship launched in Abu Dhabi and commentary saying overseas sales are where carmakers' profits now come from. The join now reaches beyond cars to devices and to trade with a country in dispute with China.",
+      "claim": "Tesla is raising the Cybertruck's price again and has suspended orders for its entry version ahead of ending production, as reported in China; NIO says its second Xinqiao plant now completes a car a minute; Chinese commentary says overseas expansion is where carmakers' profits come from; the Chinese luxury brand Yangwang launched a flagship priced around two million yuan in Abu Dhabi; Portugal's SAPO tests a Xiaomi fitness band with GPS for under €100; and the Philippine government says it will keep trading with China. Chinese manufacturers are now selling abroad at both ends of the price range, from cheap devices to cars priced above most luxury models, while an American electric pickup is withdrawn. Export markets, including countries in dispute with Beijing, have become where Chinese firms plan their growth.",
+      "events": [
+        {
+          "label": "Tesla winds down the Cybertruck",
+          "articleIds": [
+            "n-ff6258cb8b83fc"
+          ]
+        },
+        {
+          "label": "NIO plant reaches a car a minute",
+          "articleIds": [
+            "n-67c62d16fb63f0"
+          ]
+        },
+        {
+          "label": "Chinese carmakers count profits from export",
+          "articleIds": [
+            "n-5228cbe4c405ad"
+          ]
+        },
+        {
+          "label": "Yangwang luxury flagship launched in Abu Dhabi",
+          "articleIds": [
+            "n-649f108bd8bfdd"
+          ]
+        },
+        {
+          "label": "Xiaomi fitness band sold under €100",
+          "articleIds": [
+            "n-7afcbb8c2b2e4e"
+          ]
+        },
+        {
+          "label": "Philippines keeps trading with China",
+          "articleIds": [
+            "n-4652250d653f76"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "c1",
+          "kind": "observation",
+          "label": "Cars: one retreat, three advances",
+          "fragments": [
+            {
+              "id": "c1f1",
+              "label": "Tesla and NIO",
+              "text": "Sina reports that Tesla has raised Cybertruck prices again before discontinuing it and suspended orders for the entry version. The same portal reports a CCTV feature on NIO's second Xinqiao plant, where one complete vehicle leaves the line every minute.",
+              "articleIds": [
+                "n-ff6258cb8b83fc",
+                "n-67c62d16fb63f0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c1f2",
+              "label": "Export and luxury",
+              "text": "A Sina commentary says overseas expansion is bringing carmakers profits and asks how they can succeed internationally. Jordan's Ammon reports the Yangwang Dingyao, an executive flagship in the 2.08 million yuan class, making its global debut in Abu Dhabi rather than in China.",
+              "articleIds": [
+                "n-5228cbe4c405ad",
+                "n-649f108bd8bfdd"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "kind": "observation",
+          "label": "Devices and trade",
+          "fragments": [
+            {
+              "id": "c2f1",
+              "label": "A band and a trade policy",
+              "text": "SAPO reviews the Xiaomi Smart Band 10 Pro, which has GPS and costs under €100. The Manila Times reports the Philippine government saying it will continue to trade with China.",
+              "articleIds": [
+                "n-7afcbb8c2b2e4e",
+                "n-4652250d653f76"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "kind": "interpretation",
+          "label": "Both ends of the market",
+          "fragments": [
+            {
+              "id": "c3f1",
+              "label": "The same actor at every price",
+              "text": "The actor joining these headlines is Chinese manufacturing as a whole, now selling abroad at the bottom of the price range, with a GPS band under €100 in Portugal, and at the top, with a two-million-yuan car launched in the Gulf. A plant that completes a car a minute produces more than China's own market can absorb, and the Sina commentary says plainly that profit now lies abroad. The American maker that built an expensive electric pickup is ending it as the federal credit that helped sell it has gone.",
+              "articleIds": [
+                "n-7afcbb8c2b2e4e",
+                "n-649f108bd8bfdd",
+                "n-67c62d16fb63f0",
+                "n-5228cbe4c405ad",
+                "n-ff6258cb8b83fc"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c3f2",
+              "label": "Buyers who argue and still buy",
+              "text": "The Philippine statement matters because Manila is in a territorial dispute with Beijing and is still choosing to keep trading. The Gulf, where the Yangwang was launched, has no duties of the kind Washington and Brussels put on Chinese electric cars. Chinese makers are going where the tariffs are not.",
+              "articleIds": [
+                "n-4652250d653f76",
+                "n-649f108bd8bfdd"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "c4f1",
+              "label": "Promotion, not a trend",
+              "text": "Three of the six headlines come from Chinese portals, one of them relaying a state television feature, and car launches and gadget reviews are partly marketing copy. Tesla's decision on the Cybertruck may owe more to that truck's own sales than to any Chinese competitor. What the events do not share: one is an American product decision, one a factory publicity piece, one a luxury launch, one a consumer review and one a diplomatic statement, and none of them reports a sale lost by one side to the other.",
+              "articleIds": [
+                "n-ff6258cb8b83fc",
+                "n-67c62d16fb63f0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "ELECTRIC CARS / TARIFFS / CREDITS",
+          "text": "In this decade China became the world's largest car exporter, passing Japan in 2023 with close to five million vehicles, many of them petrol cars sold to Russia, the Middle East and Latin America after Western makers left Russia in 2022. Electric cars followed, and so did barriers: in May 2024 Washington put a 100 per cent tariff on Chinese electric vehicles, and in October 2024 the EU imposed duties of up to 35.3 per cent. Xiaomi, a phone maker, sold its first car in March 2024. On the American side, Tesla began delivering the Cybertruck in November 2023, and the federal tax credit for electric vehicles ended on 30 September 2025. The Sina report of Cybertruck price rises before its discontinuation, and the launch of a Chinese luxury flagship in Abu Dhabi rather than Europe, follow from these two policies: one closed the American market to Chinese cars, the other removed the subsidy that helped sell American ones.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "STIMULUS / INDUSTRIAL POLICY / BATTERIES",
+          "text": "The firms in these headlines were shaped by China's response to the 2008 crash. In November 2008 Beijing announced a stimulus of four trillion yuan, and in 2009 its 'Ten Cities, Thousand Vehicles' programme began paying for electric buses and taxis in pilot cities, the start of a subsidy system for new-energy vehicles that ran for more than a decade. Warren Buffett's Berkshire Hathaway bought about a tenth of BYD in 2008. Xiaomi was founded in 2010 and sold phones close to cost, and the battery maker CATL was founded in 2011. In May 2015 the State Council's Made in China 2025 plan named new-energy vehicles as a priority industry. NIO, founded in 2014, is one of the many carmakers that subsidy produced; the CCTV feature on its plant, reported by Sina, shows the scale the survivors now reach. Capacity beyond what the home market will buy is the reason the Sina commentary on overseas profits is being written.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "WTO / JOINT VENTURES / TRADE DISPUTES",
+          "text": "For most of this period China's car industry was built to learn from foreign firms. Volkswagen had formed a joint venture with SAIC in Shanghai in 1984, and the automotive policy of 1994 capped foreign ownership of carmaking ventures at 50 per cent, so every Western maker in China worked through a Chinese partner. After Deng Xiaoping's southern tour of 1992 the coastal provinces became the assembly line for the world's electronics, and China joined the WTO in December 2001, which opened export markets for cheap goods of the kind SAPO now reviews. The Philippines spent much of the same period in dispute with China over the South China Sea, and won an arbitration ruling at The Hague in July 2016 that Beijing rejected. The Manila Times headline saying the Philippines will keep trading with China follows the pattern of these decades, in which governments contest China's claims at sea and continue to buy its goods.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "CATCH-UP / EXPORTS / GATT",
+          "text": "The path from cheap exports to luxury brands was laid out by Japan after 1945. Under the GATT, signed in 1947, and with the yen fixed at 360 to the dollar until 1971, Japanese firms sold small, cheap cars abroad. By 1981 their American sales led Washington to negotiate a voluntary export restraint, and Japanese makers answered by building plants in the United States, Honda first in Ohio in 1982, and by moving up the market, Honda with Acura in 1986 and Toyota with Lexus in 1989. South Korea followed with the Hyundai Pony in 1975. The Meiji model of industrialising to remain independent lies behind all three countries' policies. The Yangwang launch in Abu Dhabi is the equivalent of the Lexus step, taken while the cheap-goods step, as SAPO's review of a band under €100 shows, continues. What differs is timing: Japan took three decades over the two steps, and Chinese makers, by these headlines, are taking both at once.",
+          "trajectoryIds": [
+            "meiji-1868"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-ff6258cb8b83fc",
+        "n-67c62d16fb63f0",
+        "n-5228cbe4c405ad",
+        "n-649f108bd8bfdd",
+        "n-7afcbb8c2b2e4e",
+        "n-4652250d653f76"
       ]
     }
   ]

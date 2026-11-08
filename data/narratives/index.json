@@ -1,6 +1,61 @@
 {
  "editions": [
   {
+   "stamp": "20261108T202834",
+   "file": "data/narratives/20261108T202834.json",
+   "newsGeneratedAt": "2026-11-08T20:28:34Z",
+   "generatedAt": "2026-11-08T20:39:46Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-7",
+   "narratives": [
+    {
+     "id": "iran-pressed-by-land-and-sea",
+     "kicker": "CONTAINMENT / PROXIES / A PAUSE",
+     "line": "With the US-Iran war paused, Washington presses Iran by land and sea while Saudi Arabia and the Houthis trade strikes.",
+     "events": 6,
+     "headlines": 13,
+     "countries": 10,
+     "continues": "",
+     "firmness": "firm",
+     "watch": 2
+    },
+    {
+     "id": "presidents-pursued-through-assets",
+     "kicker": "PROSECUTION / MONEY / OFFICE",
+     "line": "Courts now reach presidents and their deputies through their assets and declared wealth, while elsewhere they try the opposition.",
+     "events": 5,
+     "headlines": 6,
+     "countries": 6,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "work-abroad-rationed",
+     "kicker": "MIGRATION / LABOUR / SCARCITY",
+     "line": "Legal routes to work abroad are now so few that they go by lottery, while irregular routes still kill dozens at a time.",
+     "events": 5,
+     "headlines": 7,
+     "countries": 4,
+     "continues": "",
+     "firmness": "tentative",
+     "watch": 2
+    },
+    {
+     "id": "chinese-makers-sell-at-both-ends",
+     "kicker": "EXPORTS / PRICING / INDUSTRIAL POLICY",
+     "line": "Twenty-five years after joining the WTO, Chinese makers sell abroad at luxury prices as well as low ones.",
+     "events": 6,
+     "headlines": 6,
+     "countries": 4,
+     "continues": "chinese-makers-grow-as-others-retreat",
+     "firmness": "plausible",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261107T201404",
    "file": "data/narratives/20261107T201404.json",
    "newsGeneratedAt": "2026-11-07T20:14:04Z",

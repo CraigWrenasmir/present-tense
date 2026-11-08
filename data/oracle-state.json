@@ -1,16 +1,7 @@
 {
- "day": "2026-11-07",
+ "day": "2026-11-08",
  "attempts": 1,
  "history": [
-  {
-   "at": "2026-10-27T07:54:28Z",
-   "note": "submitted",
-   "batchId": "msgbatch_01MrUqxBjsU2uJywU4LHbeC7"
-  },
-  {
-   "at": "2026-10-27T08:08:03Z",
-   "note": "edition rejected: anthropic-listing-and-copyright/since-2001: horizon cites no trajectory; housing-states-employers-protests/decade: horizon cites no trajectory; housing-states-employers-protests/since-1945: horizon cites no trajectory"
-  },
   {
    "at": "2026-10-27T08:17:11Z",
    "note": "recovering batch msgbatch_01MrUqxBjsU2uJywU4LHbeC7 against the collection of 2026-10-27T07:53:02Z"
@@ -220,6 +211,21 @@
    "usage": {
     "input": 48800,
     "output": 76817,
+    "tier": "batch"
+   }
+  },
+  {
+   "at": "2026-11-08T20:29:12Z",
+   "note": "submitted",
+   "batchId": "msgbatch_01JZHyoK7duHigtV3JXgdS5Y"
+  },
+  {
+   "at": "2026-11-08T20:39:46Z",
+   "note": "ok",
+   "batchId": "msgbatch_01JZHyoK7duHigtV3JXgdS5Y",
+   "usage": {
+    "input": 47081,
+    "output": 68233,
     "tier": "batch"
    }
   }

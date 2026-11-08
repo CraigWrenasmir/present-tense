@@ -1,0 +1,1543 @@
+{
+  "schemaVersion": 5,
+  "generatedAt": "2026-11-08T20:39:46Z",
+  "newsGeneratedAt": "2026-11-08T20:28:34Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-7",
+  "previousNewsGeneratedAt": "2026-11-07T20:14:04Z",
+  "usage": {
+    "input": 47081,
+    "output": 68233,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-230383966e14db",
+      "title": "Donald Trump considera \"muito improvável\" recomeço da guerra com o Irão",
+      "titleEnglish": "Donald Trump considers resumption of war with Iran \"very unlikely\"",
+      "url": "https://sapo.pt/artigo/donald-trump-considera-muito-improvavel-recomeco-da-guerra-com-o-irao-6af0d3ea59d2c55979450771",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-11-08T19:55:52Z",
+      "seenAt": "2026-11-08T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-fd9a224007c043",
+      "title": "Trump, 'improbabile ritorno guerra in Iran se progressi nei colloqui' - Ultima ora - Ansa.it",
+      "titleEnglish": "Trump, 'return to war in Iran improbable if progress in talks' - Latest news - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/11/08/trump-improbabile-ritorno-guerra-in-iran-se-progressi-nei-colloqui_989cfcb5-8cf6-4e35-929e-8e379922df72.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-08T19:09:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-b9391909e4ba42",
+      "title": "Moyen-Orient. Donald Trump juge « très improbable » une reprise de la guerre, sous conditions",
+      "titleEnglish": "Middle East. Donald Trump judges a resumption of the war \"very unlikely\", under conditions",
+      "url": "https://www.estrepublicain.fr/defense-guerre-conflit/2026/11/08/donald-trump-juge-tres-improbable-une-reprise-de-la-guerre-sous-conditions",
+      "publisher": "estrepublicain.fr",
+      "publisherDomain": "estrepublicain.fr",
+      "publishedAt": "2026-11-08T19:08:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-062d1d106cacbf",
+      "title": "Трамп оценил сохранившиеся мощности Ирана по производству ракет и БПЛА",
+      "titleEnglish": "Trump assessed Iran's remaining missile and drone production capacity",
+      "url": "https://www.kommersant.ru/doc/9092338",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-08T18:45:38Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-e82f402675fbcf",
+      "title": "Hardline Trump advisers oppose Iran talks",
+      "titleEnglish": "Hardline Trump advisers oppose Iran talks",
+      "url": "https://www.samaa.tv/2087359919-hardline-trump-advisers-oppose-iran-talks-world-news",
+      "publisher": "SAMAA TV",
+      "publisherDomain": "samaa.tv",
+      "publishedAt": "2026-11-08T17:00:08Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Pakistan",
+      "sourceCountryCode": "PK",
+      "sourceRegion": "Asia",
+      "sourceLat": 30,
+      "sourceLon": 69,
+      "language": "en"
+    },
+    {
+      "id": "n-ac843eeb036564",
+      "title": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
+      "titleEnglish": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
+      "url": "https://www.arabnews.com/middle-east/us-asks-iraq-to-shut-most-iran-border-crossings-iraqi-foreign-minister-says-3010576",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-08T19:09:07Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-bc558ac73e56d9",
+      "title": "أكبر حشد بحري منذ غزو العراق.. هل تستعد واشنطن لعملية برية ضد إيران؟",
+      "titleEnglish": "Largest naval gathering since the invasion of Iraq... is Washington preparing a ground operation against Iran?",
+      "url": "https://www.aljazeera.net/politics/2026/11/8/60-%D8%A3%D9%84%D9%81-%D8%AC%D9%86%D8%AF%D9%8A-%D9%883-%D8%AD%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A7%D8%AA-%D9%85%D8%A7-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-08T19:17:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-aa568daa3056b3",
+      "title": "علي الفاتح يكتب: العالم ينتظر المشهد الأخير لمقصلة هرمز - الوطن",
+      "titleEnglish": "Ali Al-Fatih writes: The world awaits the final scene of the Hormuz guillotine - Al-Watan",
+      "url": "https://www.elwatannews.com/news/details/8392743",
+      "publisher": "الوطن",
+      "publisherDomain": "elwatannews.com",
+      "publishedAt": "2026-11-08T19:01:56Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-7752f2d28092cd",
+      "title": "اليمن.. الحوثيون يعلنون استهداف الرياض وأرامكو وإدانات خليجية وعربية للهجمات",
+      "titleEnglish": "Yemen: Houthis announce targeting of Riyadh and Aramco, Gulf and Arab condemnations of the attacks",
+      "url": "https://www.aljazeera.net/news/liveblog/2026/11/8/%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A%D8%A9-%D8%AA%D8%AA%D9%82%D8%AF%D9%85-%D9%81%D9%8A-2?update=10061612",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-08T19:17:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-7bef17256c705e",
+      "title": "Saudi Aramco building in Riyadh damaged after attempted attack",
+      "titleEnglish": "Saudi Aramco building in Riyadh damaged after attempted attack",
+      "url": "https://www.cnbc.com/2026/11/08/saudi-aramco-riyadh-building-attack.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-08T09:56:23Z",
+      "seenAt": "2026-11-08T11:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-21b06ab57366be",
+      "title": "حوثی باغیوں کے مطابق صنعاء میں سعودی فضائی حملوں کے نتیجے میں 33 افراد ہلاک اور 39 زخمی ہوئے ہیں۔",
+      "titleEnglish": "According to Houthi rebels, Saudi air strikes in Sanaa killed 33 people and wounded 39",
+      "url": "https://www.dw.com/ur/%D8%B9%DB%8C%D9%86%DB%8C-%D8%B4%D8%A7%DB%81%D8%AF%DB%8C%D9%86-%DA%A9%DB%92-%D9%85%D8%B7%D8%A7%D8%A8%D9%82-%D8%B1%DB%8C%D8%A7%D8%B6-%DA%A9%DB%92-%DA%A9%D9%86%DA%AF-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%84%DB%81-%D9%81%D9%86%D8%A7%D9%86%D8%B4%D9%84-%DA%88%D8%B3%D9%B9%D8%B1%DA%A9%D9%B9-%D9%85%DB%8C%DA%BA-%D8%A2%D8%B1%D8%A7%D9%85%DA%A9%D9%88-%DA%A9%DB%8C-%D8%B9%D9%85%D8%A7%D8%B1%D8%AA-%DA%A9%D9%88-%D9%86%D9%82%D8%B5%D8%A7%D9%86-%D9%BE%DB%81%D9%86%DA%86%D8%A7-%DB%81%DB%92/live-79889434",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-08T20:17:00Z",
+      "seenAt": "2026-11-08T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "ur"
+    },
+    {
+      "id": "n-d8470ee88f9e3c",
+      "title": "Axios, Trump ha chiesto a Netanyahu di procedere sul piano per Gaza - Ultima ora - Ansa.it",
+      "titleEnglish": "Axios: Trump asked Netanyahu to proceed with the plan for Gaza - Latest news - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/11/08/axios-trump-ha-chiesto-a-netanyahu-di-procedere-sul-piano-per-gaza_9eda32d6-1ede-478f-8e56-a69f903b069a.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-08T19:08:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-7d20d13b4e815f",
+      "title": "عاجل | أكسيوس عن مصادر: ترمب طالب نتنياهو في اتصال هاتفي الخميس بالمضي قدما في تنفيذ خطة السلام بغزة",
+      "titleEnglish": "Breaking | Axios citing sources: Trump asked Netanyahu in a Thursday phone call to proceed with implementing the Gaza peace plan",
+      "url": "https://www.aljazeera.net/news/2026/11/8/%D8%B9%D8%A7%D8%AC%D9%84-%D8%A3%D9%83%D8%B3%D9%8A%D9%88%D8%B3-%D8%B9%D9%86-%D9%85%D8%B5%D8%A7%D8%AF%D8%B1-%D8%AA%D8%B1%D9%85%D8%A8-%D8%B7%D8%A7%D9%84%D8%A8",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-08T19:17:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-ee0c72414b5f2f",
+      "title": "Paraguai: MP estima prejuízo de US$ 809 mi em caso Ueno e Justiça bloqueia bens de Peña",
+      "titleEnglish": "Paraguay: Prosecutors estimate US$ 809 million loss in Ueno case and court freezes Peña's assets",
+      "url": "https://noticias.r7.com/internacional/paraguai-mp-estima-prejuizo-de-us-809-mi-em-caso-ueno-e-justica-bloqueia-bens-de-pena-08112026/",
+      "publisher": "Noticias R7",
+      "publisherDomain": "noticias.r7.com",
+      "publishedAt": "2026-11-08T17:50:45Z",
+      "seenAt": "2026-11-08T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-ef2fccb692255f",
+      "title": "“No puede ser, ko, soy un expresidente”: la reacción de Santiago Peña cuando lo detuvieron",
+      "titleEnglish": "\"It can't be, ko, I'm a former president\": Santiago Peña's reaction when he was arrested",
+      "url": "https://www.minutouno.com/mundo/no-puede-ser-ko-soy-un-expresidente-la-reaccion-santiago-pena-cuando-lo-detuvieron-n6342919",
+      "publisher": "Minuto Uno",
+      "publisherDomain": "minutouno.com",
+      "publishedAt": "2026-11-08T17:17:00Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-375cd4858fe1bf",
+      "title": "VP’s defense team tackles wealth raps",
+      "titleEnglish": "VP’s defense team tackles wealth raps",
+      "url": "https://www.manilatimes.net/2026/11/09/news/vps-defense-team-tackles-wealth-raps/2464775",
+      "publisher": "The Manila Times",
+      "publisherDomain": "manilatimes.net",
+      "publishedAt": "2026-11-08T16:20:00Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Philippines",
+      "sourceCountryCode": "PH",
+      "sourceRegion": "Asia",
+      "sourceLat": 12,
+      "sourceLon": 122,
+      "language": "en"
+    },
+    {
+      "id": "n-7002cfe565d29c",
+      "title": "Smart working, da Deloitte a Capgemini: le aziende richiamano i dipendenti in ufficio (ma nella Pa cresce)",
+      "titleEnglish": "The trail of Jessica González in the Petro Government: millionaire income raises alarm amid 'sex contracts'",
+      "url": "https://www.corriere.it/economia/lavoro/26_novembre_07/smart-working-da-deloitte-a-capgemini-le-aziende-richiamano-i-dipendenti-in-ufficio-ma-nella-pa-cresce-fe86e2bf-c33c-4066-8467-f62398a5axlk.shtml",
+      "publisher": "Corriere della sera",
+      "publisherDomain": "corriere.it",
+      "publishedAt": "2026-11-07T06:44:28Z",
+      "seenAt": "2026-11-08T11:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-606a780836de7d",
+      "title": "Армения: избирателно правосъдие срещу опозицията?",
+      "titleEnglish": "Armenia: selective justice against the opposition?",
+      "url": "https://www.dw.com/bg/armenia-izbiratelno-pravosdie-sresu-opoziciata/a-79890326",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-08T19:17:00Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "bg"
+    },
+    {
+      "id": "n-dab90e66ef5d38",
+      "title": "تأجيل محاكمة 124 متهما بقضية الهيكل الإداري للإخوان بالتجمع لجلسة 13 يناير - اليوم السابع",
+      "titleEnglish": "Trial of 124 defendants in the Brotherhood administrative structure case in Tagamu postponed to session of 13 January - Al-Youm Al-Sabea",
+      "url": "https://www.youm7.com/story/2026/11/8/%D8%AA%D8%A3%D8%AC%D9%8A%D9%84-%D9%85%D8%AD%D8%A7%D9%83%D9%85%D8%A9-124-%D9%85%D8%AA%D9%87%D9%85%D8%A7-%D8%A8%D9%82%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D9%87%D9%8A%D9%83%D9%84-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A-%D9%84%D9%84%D8%A5%D8%AE%D9%88%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9-%D9%84%D8%AC%D9%84%D8%B3%D8%A9/7610987",
+      "publisher": "اليوم السابع",
+      "publisherDomain": "youm7.com",
+      "publishedAt": "2026-11-08T19:04:03Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-95138aeca05fb9",
+      "title": "Chavirement d’une pirogue à Lompoul : le président Diomaye Faye présente ses condoléances aux familles des victimes - Le Soleil",
+      "titleEnglish": "Pirogue capsizes at Lompoul: President Diomaye Faye sends condolences to the families of the victims - Le Soleil",
+      "url": "https://lesoleil.sn/actualites/societe-fait-divers/chavirement-dune-pirogue-a-lompoul-le-president-diomaye-faye-presente-ses-condoleances-aux-familles-des-victimes/",
+      "publisher": "Le Soleil",
+      "publisherDomain": "lesoleil.sn",
+      "publishedAt": "2026-11-08T17:31:14Z",
+      "seenAt": "2026-11-08T19:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Senegal",
+      "sourceCountryCode": "SN",
+      "sourceRegion": "Africa",
+      "sourceLat": 14,
+      "sourceLon": -14,
+      "language": "fr"
+    },
+    {
+      "id": "n-720a78d8011c59",
+      "title": "塞内加尔内政部：该国北部沉船事故致21人死亡-新华网",
+      "titleEnglish": "Senegal Interior Ministry: shipwreck in the north of the country kills 21 people - Xinhua",
+      "url": "https://www.news.cn/world/20261108/828a6cb5f7e4424288feb06eb1b76360/c.html",
+      "publisher": "news.cn",
+      "publisherDomain": "news.cn",
+      "publishedAt": "2026-11-08T17:17:00Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-60ae4245a294dc",
+      "title": "At least 21 dead after migrant boat sinks off Senegal coast, government says",
+      "titleEnglish": "At least 21 dead after migrant boat sinks off Senegal coast, government says",
+      "url": "https://bdnews24.com/world/xfzf1kl0h4",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-11-08T14:10:48Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-29448471590254",
+      "title": "Lottery shortlists 300 applicants for 112 cost-free jobs in Malaysia",
+      "titleEnglish": "Lottery shortlists 300 applicants for 112 cost-free jobs in Malaysia",
+      "url": "https://bdnews24.com/bangladesh/8yeuhwhz88",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-11-08T14:56:27Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-340390742d2ce8",
+      "title": "“Quartos partilhados, ordenados miseráveis e o fim do sonho: a destruição do sonho europeu e o retorno ao país de origem!”",
+      "titleEnglish": "\"Shared rooms, miserable salaries and the end of the dream: the destruction of the European dream and the return to the home country!\"",
+      "url": "https://sapo.pt/artigo/quartos-partilhados-ordenados-miseraveis-e-o-fim-do-sonho-a-destruicao-do-sonho-europeu-e-o-retorno-ao-pais-de-origem-6af0d187ecae781d73bc96a1",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-11-08T19:45:00Z",
+      "seenAt": "2026-11-08T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-81be0de86f382f",
+      "title": "Suvendu vows to deport every ‘Bangladeshi infiltrator’ from West Bengal",
+      "titleEnglish": "Suvendu vows to deport every ‘Bangladeshi infiltrator’ from West Bengal",
+      "url": "https://bdnews24.com/neighbours/w5rom15nk1",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-11-08T15:32:34Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-ca49eafe2a83b9",
+      "title": "World Bank puts Bangladesh’s per capita external debt at $646",
+      "titleEnglish": "World Bank puts Bangladesh’s per capita external debt at $646",
+      "url": "https://bdnews24.com/economy/7tzjfl1vuv",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bdnews24.com",
+      "publishedAt": "2026-11-08T15:05:54Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-ff6258cb8b83fc",
+      "title": "仰望鼎曜11月7日阿布扎比全球首发，208万级超豪华行政旗舰",
+      "titleEnglish": "Tesla Cybertruck raises prices again before discontinuation, entry version orders suspended | Dongchedi Insight",
+      "url": "https://k.sina.com.cn/article_7879923946_m1d5ae18ea03304031e.html",
+      "publisher": "新浪网",
+      "publisherDomain": "k.sina.com.cn",
+      "publishedAt": "2026-11-08T11:56:02Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-67c62d16fb63f0",
+      "title": "停产前特斯拉Cybertruck又涨价，入门版已暂停接受订单 | 懂车帝视线",
+      "titleEnglish": "NIO's Xinqiao Plant 2 featured by CCTV, one complete vehicle rolls off the line every minute",
+      "url": "https://k.sina.com.cn/article_7879923942_m1d5ae18e603302dy1k.html",
+      "publisher": "新浪网",
+      "publisherDomain": "k.sina.com.cn",
+      "publishedAt": "2026-11-08T12:00:59Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-5228cbe4c405ad",
+      "title": "出海成盈利支撑 车企如何走好国际化？",
+      "titleEnglish": "Overseas expansion brings profits: how can carmakers succeed internationally?",
+      "url": "https://k.sina.com.cn/article_5953740931_162dee083067044uyy.html",
+      "publisher": "k.sina.com.cn",
+      "publisherDomain": "k.sina.com.cn",
+      "publishedAt": "2026-11-08T17:17:00Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-649f108bd8bfdd",
+      "title": "صحيفة عمون : ملح بديل قد ينقذ ملايين الأرواح .. هل حان وقت التخلي عن ملح الطعام التقليدي؟",
+      "titleEnglish": "Yangwang Dingyao to make global debut in Abu Dhabi on November 7, 2.08 million-class ultra-luxury executive flagship",
+      "url": "https://www.ammonnews.net/article/1043297",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-11-08T11:47:00Z",
+      "seenAt": "2026-11-08T11:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-7afcbb8c2b2e4e",
+      "title": "Em teste. Tem GPS e custa menos de 100€: o que esperar da Xiaomi Smart Band 10 Pro?",
+      "titleEnglish": "Under test. Has GPS and costs less than 100€: what to expect from the Xiaomi Smart Band 10 Pro?",
+      "url": "https://sapo.pt/artigo/em-teste-tem-gps-e-custa-menos-de-100-o-que-esperar-da-xiaomi-smart-band-10-pro-6af0d26eecae781d73bcc350",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-11-08T19:50:06Z",
+      "seenAt": "2026-11-08T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-4652250d653f76",
+      "title": "‘PH to continue trade with China’",
+      "titleEnglish": "‘PH to continue trade with China’",
+      "url": "https://www.manilatimes.net/2026/11/09/news/ph-to-continue-trade-with-china/2464769",
+      "publisher": "The Manila Times",
+      "publisherDomain": "manilatimes.net",
+      "publishedAt": "2026-11-08T16:10:00Z",
+      "seenAt": "2026-11-08T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Philippines",
+      "sourceCountryCode": "PH",
+      "sourceRegion": "Asia",
+      "sourceLat": 12,
+      "sourceLon": 122,
+      "language": "en"
+    }
+  ],
+  "settled": [],
+  "readings": [
+    {
+      "id": "iran-pressed-by-land-and-sea",
+      "line": "With the US-Iran war paused, Washington presses Iran by land and sea while Saudi Arabia and the Houthis trade strikes.",
+      "kicker": "CONTAINMENT / PROXIES / A PAUSE",
+      "firmness": "firm",
+      "watch": [
+        {
+          "what": "Iraq's government announces that it has closed one or more of its border crossings with Iran.",
+          "by": "2026-11-29",
+          "because": "If the pause is a change of method rather than an end, Washington's request should become an Iraqi act rather than stay a reported conversation.",
+          "id": "20261108T202834-iran-pressed-by-land-and-sea-1"
+        },
+        {
+          "what": "The US Treasury announces new sanctions on Iranian oil exports, tankers or a named Iranian company.",
+          "by": "2026-11-30",
+          "because": "Pressure by land and sea without strikes needs a financial part, and the join predicts it arrives while Trump still calls war unlikely.",
+          "id": "20261108T202834-iran-pressed-by-land-and-sea-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the containment of Iraq between the 1991 ceasefire and the 2003 invasion: twelve years of sanctions, no-fly zones, naval patrols and pressure on neighbours to close the border, with talks on inspections running alongside. It ended in war when Washington decided containment had failed. The present differs in that Iran holds one shore of the Strait of Hormuz, its Houthi allies are already fighting Saudi Arabia, and the neighbour being asked to close the border is a government Iran helped to shape.",
+        "paths": [
+          {
+            "name": "Containment through the winter",
+            "weight": "favoured",
+            "text": "Through December and into early 2027 the United States keeps the pause while adding border closures, sanctions and naval patrols, and talks continue without a signed deal. The Saudi-Houthi exchange goes on at a lower level, with Gulf governments condemning attacks rather than widening them. The join points this way because every step reported this week stops short of strikes, and was taken while the president ruled out war on conditions.",
+            "sign": "Iraq closes crossings with Iran, or the US Treasury lists new Iranian oil buyers or tankers."
+          },
+          {
+            "name": "A signed framework deal",
+            "weight": "possible",
+            "text": "Talks produce a written framework by early 2027 that reopens Hormuz in stages in return for sanctions relief. It is less likely in the coming weeks because the hardline advisers SAMAA reports are still opposed, and a naval build-up is hard to explain if a deal is close.",
+            "sign": "Iran and the United States announce an agreed text and tankers are reported passing through Hormuz."
+          },
+          {
+            "name": "A ground operation against Iran",
+            "weight": "unlikely",
+            "text": "The naval gathering is used for a landing on Iranian islands or coast, as Al Jazeera's headline asks. It is unlikely because Trump has just called renewed war very unlikely after an election his party lost, and a ground war is the most costly choice open to him.",
+            "sign": "US forces are reported landing on an Iranian island or seizing an Iranian port."
+          }
+        ],
+        "decade": "The trajectory points to a long containment of Iran on the model of Iraq in the 1990s, with Iraq and the Gulf states carrying most of its costs and Yemen remaining the place where the war is fought by allies."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Donald Trump called a return to war with Iran very unlikely, as reported from Portugal, Italy and France, while Iraq's foreign minister said Washington had asked Baghdad to shut most of its border crossings with Iran, Al Jazeera described the largest naval gathering since the 2003 invasion of Iraq, and the Houthis struck at Riyadh and Aramco as Saudi aircraft hit Sanaa. Read together, these show the pause in the US-Iran war as a change of method rather than an end: the pressure on Iran has moved from air strikes to its land border and the sea around it. The fighting the pause does not cover has passed to the Saudi-Houthi front, where Iran's ally and America's ally are striking each other's capitals and oil sites.",
+      "events": [
+        {
+          "label": "Trump calls renewed Iran war unlikely",
+          "articleIds": [
+            "n-230383966e14db",
+            "n-fd9a224007c043",
+            "n-b9391909e4ba42",
+            "n-062d1d106cacbf",
+            "n-e82f402675fbcf"
+          ]
+        },
+        {
+          "label": "US asks Iraq to shut Iran crossings",
+          "articleIds": [
+            "n-ac843eeb036564"
+          ]
+        },
+        {
+          "label": "Largest US naval build-up since 2003",
+          "articleIds": [
+            "n-bc558ac73e56d9",
+            "n-aa568daa3056b3"
+          ]
+        },
+        {
+          "label": "Houthis strike at Riyadh and Aramco",
+          "articleIds": [
+            "n-7752f2d28092cd",
+            "n-7bef17256c705e"
+          ]
+        },
+        {
+          "label": "Saudi air strikes on Sanaa",
+          "articleIds": [
+            "n-21b06ab57366be"
+          ]
+        },
+        {
+          "label": "Trump presses Netanyahu on Gaza plan",
+          "articleIds": [
+            "n-d8470ee88f9e3c",
+            "n-7d20d13b4e815f"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "What Washington said and did",
+          "fragments": [
+            {
+              "id": "r1f1",
+              "label": "War called unlikely",
+              "text": "SAPO in Portugal, ANSA in Italy and L'Est Républicain in France all report Trump judging a resumption of the war with Iran very unlikely, ANSA and L'Est Républicain adding that this holds only if talks progress. Kommersant reports that he gave an assessment of Iran's remaining missile and drone production capacity. SAMAA in Pakistan reports that hardline advisers oppose the talks.",
+              "articleIds": [
+                "n-230383966e14db",
+                "n-fd9a224007c043",
+                "n-b9391909e4ba42",
+                "n-062d1d106cacbf",
+                "n-e82f402675fbcf"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r1f2",
+              "label": "Borders and ships",
+              "text": "Arab News quotes Iraq's foreign minister saying the United States has asked Iraq to close most of its border crossings with Iran. Al Jazeera describes the largest naval gathering in the region since the invasion of Iraq and asks whether a ground operation is being prepared. A column in Egypt's Al-Watan says the world is waiting for the final act at Hormuz.",
+              "articleIds": [
+                "n-ac843eeb036564",
+                "n-bc558ac73e56d9",
+                "n-aa568daa3056b3"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Saudi Arabia, Yemen and Gaza",
+          "fragments": [
+            {
+              "id": "r2f1",
+              "label": "Strikes both ways",
+              "text": "Al Jazeera reports the Houthis announcing attacks aimed at Riyadh and Aramco, and condemnation from Gulf and Arab governments. CNBC reports an Aramco building in Riyadh damaged after an attempted attack. DW's Urdu service reports Houthi figures of 33 killed and 39 wounded in Saudi air strikes on Sanaa.",
+              "articleIds": [
+                "n-7752f2d28092cd",
+                "n-7bef17256c705e",
+                "n-21b06ab57366be"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r2f2",
+              "label": "A push on Gaza",
+              "text": "Al Jazeera and ANSA both carry an Axios report that Trump asked Netanyahu in a Thursday call to proceed with the Gaza peace plan. The call came in the same days as the Iran statements and the request to Iraq.",
+              "articleIds": [
+                "n-d8470ee88f9e3c",
+                "n-7d20d13b4e815f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Pressure by other means",
+          "fragments": [
+            {
+              "id": "r3f1",
+              "label": "A pause used for containment",
+              "text": "The United States is using the pause to tighten the means of pressure that do not require bombing: Iraq's land border, a fleet at sea, and a conditional promise not to resume. The request to Baghdad makes Iraq the place where the policy is carried out. Pressing Netanyahu on Gaza at the same time fits a government trying to close other fronts while it concentrates on Iran.",
+              "articleIds": [
+                "n-ac843eeb036564",
+                "n-bc558ac73e56d9",
+                "n-fd9a224007c043",
+                "n-d8470ee88f9e3c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "iraq-2003"
+              ]
+            },
+            {
+              "id": "r3f2",
+              "label": "Who carries the fighting",
+              "text": "The pause binds Washington and Tehran, not their allies. The Houthi attack on Aramco's Riyadh building and the Saudi strikes on Sanaa are the part of the war the pause leaves open, and the Gulf state that relies on American protection is the one taking the hits. This repeats 2019, when an attack on Abqaiq went unanswered by the United States.",
+              "articleIds": [
+                "n-7752f2d28092cd",
+                "n-7bef17256c705e",
+                "n-21b06ab57366be"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "abqaiq-2019"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "r4f1",
+              "label": "Separate wars, separate decisions",
+              "text": "The Saudi-Houthi war began in 2015 and has its own Yemeni causes; the Houthis may be acting for their own reasons and Riyadh answering them, with no link to Washington's choices about Iran. The naval gathering may be preparation for renewed war, the opposite of containment, and Trump's statement is conditional and may be aimed at American voters after the midterms. What the events do not share: the request to Iraq is diplomacy, the fleet is a military preparation, and the Sanaa strikes are a Saudi decision taken in Riyadh.",
+              "articleIds": [
+                "n-21b06ab57366be",
+                "n-bc558ac73e56d9"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "CEASEFIRES / DRONES / SHIPPING",
+          "text": "The pause these headlines describe is the latest in a cycle that began in this decade. In April 2022 a UN-brokered truce stopped most Saudi air strikes in Yemen, and in March 2023 Saudi Arabia and Iran restored relations at a meeting in Beijing. From November 2023 the Houthis attacked shipping in the Red Sea, showing that a movement without an air force could close a sea lane with drones and missiles. In June 2025 American bombers struck Fordow and ended a twelve-day war between Israel and Iran; by these headlines a longer war followed in 2026 and closed the Strait of Hormuz. Each pause in that cycle left the smaller fronts open. The Houthi claim to have targeted Riyadh and Aramco, and CNBC's report of a damaged Aramco building, show the 2022 truce failing while the larger ceasefire holds. The question this decade has posed, whether a ceasefire between the main parties covers their allies, is being answered in Sanaa and Riyadh rather than in Washington and Tehran.",
+          "trajectoryIds": [
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SANCTIONS / DIPLOMACY / YEMEN",
+          "text": "The tools Washington is using now were built between 2010 and 2019. In 2012 the EU banned imports of Iranian oil and Iranian banks were cut off from the SWIFT payments network; the pressure brought Iran to negotiate, and the nuclear agreement was signed in Vienna in July 2015. In March of that year Saudi Arabia led a coalition into Yemen against the Houthis, opening the war that is active again in these headlines. In May 2018 the United States left the agreement and returned to what it called maximum pressure, sanctions meant to cut Iran's oil sales to nothing. In September 2019 drones and missiles hit Abqaiq and halved Saudi output for days; the Houthis claimed it and Washington did not strike back. That pattern, sanctions and threats against Iran while Saudi Arabia absorbs the attacks, is what the Arab News and Al Jazeera headlines repeat. The SAMAA report of hardline advisers opposing talks is the argument of 2018 still running inside the administration.",
+          "trajectoryIds": [
+            "jcpoa-2015",
+            "abqaiq-2019"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "CONTAINMENT / IRAQ / OCCUPATION",
+          "text": "The request to Iraq, reported by Arab News, depends on what happened to Iraq after 1989. After the 1991 Gulf War the United States held Saddam Hussein's Iraq under sanctions, inspections and no-fly zones for twelve years, and from 1993 described its policy as the dual containment of both Iraq and Iran. The invasion of March 2003 removed Iraq as Iran's counterweight and turned the border between them into a trade route: Shia parties with ties to Tehran entered government in Baghdad, and Iraq came to depend on Iranian gas and electricity, bought under American sanctions waivers that Washington let lapse in 2025. Asking Baghdad to shut most crossings asks a government shaped by the occupation to cut a link the occupation created. Al Jazeera's comparison of the present naval gathering with the build-up before the Iraq invasion points to the same period, and to the possibility, raised as a question in its headline, that containment ends as it did in 2003.",
+          "trajectoryIds": [
+            "iraq-2003"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OIL / PROTECTION / REVOLUTION",
+          "text": "The American warships in the Gulf, and Saudi Arabia's reliance on them, rest on an arrangement made at the end of the Second World War. In February 1945 Franklin Roosevelt met King Ibn Saud on a cruiser in the Great Bitter Lake, and the exchange of security for oil that followed was never written down. In 1953 a coup backed by Britain and the United States removed Mohammad Mossadegh, the Iranian prime minister who had nationalised the country's oil. The 1973 embargo showed what a cut in Gulf supply did to the world price, and the revolution of February 1979 turned Iran from an American ally into its main adversary in the region. In January 1980 the Carter Doctrine said the United States would use force to keep the Gulf open, and in 1987 and 1988 the US Navy escorted reflagged Kuwaiti tankers through Iranian attacks. The fleet Al Jazeera describes and the Al-Watan column on Hormuz belong to that line of policy, which has outlasted every government in Tehran and Washington since.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "tehran-1979"
+          ],
+          "bookIds": [
+            "the-prize"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-230383966e14db",
+        "n-fd9a224007c043",
+        "n-b9391909e4ba42",
+        "n-062d1d106cacbf",
+        "n-e82f402675fbcf",
+        "n-ac843eeb036564",
+        "n-bc558ac73e56d9",
+        "n-aa568daa3056b3",
+        "n-7752f2d28092cd",
+        "n-7bef17256c705e",
+        "n-21b06ab57366be",
+        "n-d8470ee88f9e3c",
+        "n-7d20d13b4e815f"
+      ]
+    },
+    {
+      "id": "presidents-pursued-through-assets",
+      "line": "Courts now reach presidents and their deputies through their assets and declared wealth, while elsewhere they try the opposition.",
+      "kicker": "PROSECUTION / MONEY / OFFICE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A court in another Latin American country freezes the assets of a current or former president, vice-president or minister.",
+          "by": "2026-12-06",
+          "because": "If asset freezes have become the usual route to people at the top of government, Paraguay's case should not stand alone for long.",
+          "id": "20261108T202834-presidents-pursued-through-assets-1"
+        },
+        {
+          "what": "Armenian prosecutors bring a corruption, tax or money-laundering charge against an opposition leader or an opposition-linked businessman.",
+          "by": "2026-12-06",
+          "because": "If whether a case follows money or politics depends on who holds office, the next case against Armenia's opposition should be framed as money.",
+          "id": "20261108T202834-presidents-pursued-through-assets-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The case this most resembles is Brazil's Lava Jato investigation, which began in March 2014 with a money-laundering inquiry, reached Petrobras and Odebrecht, and jailed Lula in 2018 before his convictions were annulled in 2021 over the judge's conduct. It showed that a money case could reach a president and could also be undone when the court's neutrality was doubted. Paraguay differs in that the case begins with a bank failure and a quantified loss, and the accused belongs to the long-ruling Colorado Party rather than to the opposition.",
+        "paths": [
+          {
+            "name": "Peña charged and the case widens",
+            "weight": "favoured",
+            "text": "Within weeks prosecutors file formal charges, the freeze is extended to associates and Ueno executives, and the case becomes Paraguay's main political argument through to the 2028 election. The join points this way because asset freezes have been the first step towards trial in the comparable cases, and the Spanish and Portuguese Wikipedias show the case drawing regional attention.",
+            "sign": "Paraguayan prosecutors formally charge Peña or extend the asset freeze to members of his former government."
+          },
+          {
+            "name": "An appeal court undoes the case",
+            "weight": "possible",
+            "text": "As Brazil's Supreme Court did with Lula in 2021, a Paraguayan appeal court lifts the freeze or annuls the arrest on procedural grounds within the year. It is less likely soon because the prosecutors' $809 million estimate gives the court a concrete loss to answer for.",
+            "sign": "A Paraguayan appeal court lifts the freeze on Peña's assets or orders his release from all measures."
+          },
+          {
+            "name": "Philippine vice-president removed over wealth",
+            "weight": "unlikely",
+            "text": "The wealth charges against the Philippine vice-president lead to her removal from office within the year. It is unlikely because the 2025 impeachment was voided by the Supreme Court and a Senate conviction needs two thirds of its members.",
+            "sign": "The Philippine Senate votes to convict the vice-president."
+          }
+        ],
+        "decade": "The trajectory points to asset freezes and wealth declarations becoming the usual way former leaders are pursued, with the argument moving from whether a president can be tried to whether the prosecutors who choose the defendants are neutral."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "In Paraguay a court froze the assets of former president Santiago Peña and he was arrested over an estimated $809 million loss at the Ueno bank; in the Philippines the vice-president's lawyers answered charges about her wealth; in Colombia an official in Gustavo Petro's government is under scrutiny over her income and contracts; and in Armenia and Egypt opponents of the government face courts accused of selective justice and a mass trial. The first three show prosecutors and investigators reaching people at or near the top of government through money: bank losses, declared assets and income. The last two show courts still being used against opponents on political grounds. Together they show the court case as the normal way power is contested between elections, with the kind of charge depending on who holds office.",
+      "events": [
+        {
+          "label": "Peña arrested over Ueno bank losses",
+          "articleIds": [
+            "n-ee0c72414b5f2f",
+            "n-ef2fccb692255f"
+          ]
+        },
+        {
+          "label": "Philippine vice-president answers wealth charges",
+          "articleIds": [
+            "n-375cd4858fe1bf"
+          ]
+        },
+        {
+          "label": "Scrutiny of a Petro official's income",
+          "articleIds": [
+            "n-7002cfe565d29c"
+          ]
+        },
+        {
+          "label": "Armenia accused of selective justice",
+          "articleIds": [
+            "n-606a780836de7d"
+          ]
+        },
+        {
+          "label": "Egypt's mass Brotherhood trial postponed",
+          "articleIds": [
+            "n-dab90e66ef5d38"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "w1",
+          "kind": "observation",
+          "label": "Money cases near the top",
+          "fragments": [
+            {
+              "id": "w1f1",
+              "label": "Paraguay",
+              "text": "R7 in Brazil reports that Paraguayan prosecutors put the loss in the Ueno case at $809 million and that a court has frozen Peña's assets. Minuto Uno in Argentina reports his words on being arrested: it cannot be, he is a former president. The Spanish and Portuguese Wikipedias' most-viewed pages included Peña, the Colorado Party and the Ueno bank.",
+              "articleIds": [
+                "n-ee0c72414b5f2f",
+                "n-ef2fccb692255f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "w1f2",
+              "label": "The Philippines and Colombia",
+              "text": "The Manila Times reports the vice-president's defence team answering charges over her wealth. Corriere della Sera follows an official, Jessica González, through Petro's government, reporting that her large income has raised alarm amid claims about contracts. Neither headline reports a conviction; both put a person's money at the centre of the case.",
+              "articleIds": [
+                "n-375cd4858fe1bf",
+                "n-7002cfe565d29c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "w2",
+          "kind": "observation",
+          "label": "Political cases against opponents",
+          "fragments": [
+            {
+              "id": "w2f1",
+              "label": "Armenia and Egypt",
+              "text": "DW's Bulgarian service asks whether Armenia is practising selective justice against the opposition. Al-Youm Al-Sabea reports that the trial of 124 defendants in the Muslim Brotherhood administrative structure case has been postponed to 13 January. In both, the defendants are opponents of the government in office.",
+              "articleIds": [
+                "n-606a780836de7d",
+                "n-dab90e66ef5d38"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "w3",
+          "kind": "interpretation",
+          "label": "Money as the route to office",
+          "fragments": [
+            {
+              "id": "w3f1",
+              "label": "Tools made for fallen rulers",
+              "text": "Freezing a leader's assets and asking him to explain his wealth were methods first used against dictators after they fell, such as Marcos in 1986. In Paraguay and the Philippines they are now used on elected leaders soon after or during their term. Peña's reported protest that he is a former president appeals to an idea of office as protection that these cases no longer accept.",
+              "articleIds": [
+                "n-ee0c72414b5f2f",
+                "n-ef2fccb692255f",
+                "n-375cd4858fe1bf"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "pinochet-1998"
+              ]
+            },
+            {
+              "id": "w3f2",
+              "label": "Who holds office sets the charge",
+              "text": "Where the accused are former officials or a rival faction, the charge is about money; where the accused are the government's organised opponents, as in Egypt and by DW's account Armenia, the charge is about politics. The same institution, the criminal court, is used in both, and the difference is who controls the prosecutors. This is the use of courts Levitsky and Ziblatt describe, seen from both sides.",
+              "articleIds": [
+                "n-606a780836de7d",
+                "n-dab90e66ef5d38",
+                "n-7002cfe565d29c"
+              ],
+              "bookIds": [
+                "how-democracies-die"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "w4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "w4f1",
+              "label": "Five unlike cases",
+              "text": "The events do not share a form. Paraguay's is a bank failure with a measured loss; the Philippine case is an impeachment fight between the Marcos and Duterte camps, which may itself be a political prosecution dressed as a money case; the Colombian item is a press investigation, not a court case; Armenia and Egypt are different regimes with different histories of trying opponents. If the Philippine case is political, the split between money cases and political cases collapses, and what remains is the older and less interesting fact that governments use courts against rivals.",
+              "articleIds": [
+                "n-375cd4858fe1bf",
+                "n-7002cfe565d29c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "BANKS / DISCLOSURE / IMPEACHMENT",
+          "text": "The cases in these headlines belong to a run of prosecutions that began within this decade. In the Philippines the House of Representatives impeached Vice-President Sara Duterte in February 2025 over the use of confidential funds and unexplained wealth, and the Supreme Court voided the impeachment that July; the Manila Times report of her defence team answering wealth charges shows the question is still open. In Colombia in 2024 a scandal over water tankers bought by the national disaster agency for La Guajira reached ministers in Gustavo Petro's government, and the Corriere della Sera report on an official's income comes from the same climate of scrutiny. In Armenia in June 2025 the government arrested the Russian-Armenian businessman Samvel Karapetyan and senior clergy, and its opponents called it selective justice, the question DW now asks. In Paraguay, by these headlines, the Ueno bank's losses have reached a former president. In each case the evidence offered is financial and the defendants are political figures.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CONTRACTORS / BRIBERY / APPEALS",
+          "text": "The model for reaching a president through money was built in Brazil after 2014. The Lava Jato investigation began in March 2014 as a money-laundering case and reached Petrobras and the construction firm Odebrecht. In December 2016 Odebrecht admitted to the US Justice Department that it had paid $788 million in bribes in twelve countries, and prosecutors across Latin America used the plea: in Peru several former presidents were investigated, and Alan García killed himself in 2019 as police came to arrest him. Lula was jailed in April 2018 and his convictions were annulled in 2021 after leaked messages showed the judge had coordinated with prosecutors. In Malaysia the 1MDB fund case led to Najib Razak's conviction in 2020. The period showed that money cases could reach the top, and that they could be undone when a court's neutrality was in doubt. The Paraguayan arrest reported by R7 and Minuto Uno takes place in the legal setting these cases created.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "how-democracies-die"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "TRANSITION / IMMUNITY / TREATIES",
+          "text": "Paraguay's present regime began in February 1989, when General Andrés Rodríguez overthrew Alfredo Stroessner after thirty-five years. The Colorado Party that had ruled under Stroessner kept power through elections, losing the presidency only once, from 2008 until Fernando Lugo's impeachment in 2012. The end of the Cold War also produced the international rules that make asset freezes routine: the OECD Anti-Bribery Convention of 1997 and the UN Convention against Corruption of 2003, which obliged signatories to trace and return stolen public money. Pinochet's arrest in London in 1998 established that a former ruler's office was no protection abroad, and Peru's extradition of Alberto Fujimori from Chile in 2007, and his conviction in 2009, applied the principle at home. Peña's words on arrest, as Minuto Uno reports them, appeal to the older idea that a former president stands apart from ordinary courts. The trajectory since 1989 has run against that idea, though unevenly: the same treaties are applied hard to some leaders and not at all to others.",
+          "trajectoryIds": [
+            "pinochet-1998"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "DICTATORSHIP / PLUNDER / RECOVERY",
+          "text": "The idea that a ruler's fortune can be frozen and returned to the state comes from the dictatorships of the postwar decades. Stroessner took power in Paraguay in 1954; Ferdinand Marcos ruled the Philippines from 1965 until 1986. When Marcos fell, Corazon Aquino's government set up the Presidential Commission on Good Government to recover his wealth, and Swiss courts later returned hundreds of millions of dollars to Manila. It was the first large attempt to treat a leader's assets as evidence of a crime against the state. The other use of courts in these headlines also dates from this period. Egypt banned the Muslim Brotherhood in 1954 after an attempt on Gamal Abdel Nasser's life, and held mass trials of its members in 1954 and 1965; the trial of 124 defendants that Al-Youm Al-Sabea reports postponed to 13 January follows a practice seventy years old. The postwar state produced both instruments: the recovery of wealth from fallen rulers, and the mass trial of organised opponents.",
+          "trajectoryIds": [],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-ee0c72414b5f2f",
+        "n-ef2fccb692255f",
+        "n-375cd4858fe1bf",
+        "n-7002cfe565d29c",
+        "n-606a780836de7d",
+        "n-dab90e66ef5d38"
+      ]
+    },
+    {
+      "id": "work-abroad-rationed",
+      "line": "Legal routes to work abroad are now so few that they go by lottery, while irregular routes still kill dozens at a time.",
+      "kicker": "MIGRATION / LABOUR / SCARCITY",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "A second labour-sending country uses a lottery or ballot to allocate jobs or work visas abroad.",
+          "by": "2026-12-06",
+          "because": "If legal routes are rationed rather than merely slow, other sending governments facing more applicants than places should ration the same way.",
+          "id": "20261108T202834-work-abroad-rationed-1"
+        },
+        {
+          "what": "Malaysia or a Gulf state announces a cap, freeze or new quota on workers from Bangladesh.",
+          "by": "2026-12-06",
+          "because": "A lottery implies a fixed number of places set by the receiving country, and the join predicts those numbers are being cut rather than raised.",
+          "id": "20261108T202834-work-abroad-rationed-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The nearest case is the pirogue crisis of 2006, when some 31,000 people reached the Canary Islands, mostly from Senegal and Mauritania; Spain and the EU answered with Frontex patrols and return agreements with Dakar, and arrivals fell sharply by 2010. But the fall owed as much to the 2008 crash ending Spain's demand for labour as to the patrols. The present differs in that the legal routes are narrowing at the same time as the sea route is patrolled, and the workers who reach southern Europe report wages that do not pay for staying.",
+        "paths": [
+          {
+            "name": "Quotas tighten, crossings continue",
+            "weight": "favoured",
+            "text": "Over the next year receiving countries cut or freeze quotas and add conditions, sending governments allocate the remaining places by lottery or ballot, and departures by sea from West Africa continue through the winter with further deaths. The join points this way because each event shows a receiving side closing while the number of applicants stays high.",
+            "sign": "A receiving government announces a cut or freeze in foreign worker numbers from a South Asian or West African country."
+          },
+          {
+            "name": "A new bilateral labour deal",
+            "weight": "possible",
+            "text": "Spain or the EU signs a circular migration scheme with Senegal, or Malaysia reopens fully to Bangladeshi workers, with numbers stated. It is less likely soon because receiving governments in Europe and Asia are under domestic pressure to reduce numbers, not raise them.",
+            "sign": "A signed agreement giving a stated number of work visas for Senegalese or Bangladeshi workers is announced."
+          },
+          {
+            "name": "Large returns from southern Europe",
+            "weight": "unlikely",
+            "text": "The cost of rooms and low pay lead to a measurable fall in foreign residents in Portugal within the year. It is unlikely because one testimony is not a trend and Portugal's foreign population has grown for a decade.",
+            "sign": "Portuguese official figures show the number of foreign residents falling."
+          }
+        ],
+        "decade": "The trajectory points to work abroad becoming more temporary, more allocated and more expensive to reach, as ageing countries admit labour in fixed numbers and young countries compete for those places."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Off Lompoul in northern Senegal a pirogue capsized and at least 21 people died; in Bangladesh a lottery shortlisted 300 applicants for 112 fee-free jobs in Malaysia; a testimony in Portugal's SAPO describes shared rooms and low pay ending a migrant's 'European dream' with a return home; and in West Bengal the politician Suvendu Adhikari promised to deport every 'Bangladeshi infiltrator'. Each is a point where a person's attempt to work in another country is rationed: by a draw, by the risk of the sea, by wages that do not cover staying, or by expulsion. The countries sending these workers have young populations and need the money they send home, and the routes out are narrowing at both ends.",
+      "events": [
+        {
+          "label": "Migrant pirogue sinks off northern Senegal",
+          "articleIds": [
+            "n-95138aeca05fb9",
+            "n-720a78d8011c59",
+            "n-60ae4245a294dc"
+          ]
+        },
+        {
+          "label": "Lottery for fee-free jobs in Malaysia",
+          "articleIds": [
+            "n-29448471590254"
+          ]
+        },
+        {
+          "label": "World Bank puts Bangladesh's debt per head",
+          "articleIds": [
+            "n-ca49eafe2a83b9"
+          ]
+        },
+        {
+          "label": "A migrant's return from Portugal",
+          "articleIds": [
+            "n-340390742d2ce8"
+          ]
+        },
+        {
+          "label": "West Bengal deportation pledge",
+          "articleIds": [
+            "n-81be0de86f382f"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "m1",
+          "kind": "observation",
+          "label": "A boat, a draw, a return",
+          "fragments": [
+            {
+              "id": "m1f1",
+              "label": "The Lompoul shipwreck",
+              "text": "Senegal's Le Soleil reports President Diomaye Faye sending condolences after a pirogue capsized at Lompoul. Xinhua, citing Senegal's Interior Ministry, and bdnews24 in Bangladesh both put the dead at 21, bdnews24 calling it a migrant boat. None of the headlines says where the boat was going.",
+              "articleIds": [
+                "n-95138aeca05fb9",
+                "n-720a78d8011c59",
+                "n-60ae4245a294dc"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "m1f2",
+              "label": "The lottery and the return",
+              "text": "bdnews24 reports a lottery shortlisting 300 applicants for 112 jobs in Malaysia offered without cost to the worker. SAPO carries a testimony about shared rooms, miserable salaries and the end of the European dream, ending in a return to the home country.",
+              "articleIds": [
+                "n-29448471590254",
+                "n-340390742d2ce8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "m1f3",
+              "label": "The expulsion pledge",
+              "text": "bdnews24 reports Suvendu vowing to deport every 'Bangladeshi infiltrator' from West Bengal. The same outlet reports the World Bank putting Bangladesh's external debt at $646 per person.",
+              "articleIds": [
+                "n-81be0de86f382f",
+                "n-ca49eafe2a83b9"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "m2",
+          "kind": "interpretation",
+          "label": "What is being rationed",
+          "fragments": [
+            {
+              "id": "m2f1",
+              "label": "Places, not jobs",
+              "text": "What these events share is a fixed and falling number of places to work in another country, set by the receiving side and divided among more people than it can take. The Bangladeshi lottery divides places openly; the Senegalese boat is what people take when no lottery is offered to them; the Portuguese testimony shows that arriving does not mean being able to stay; the West Bengal pledge removes people already across. Hirschman's term for leaving is exit, and these are the ways exit is now limited.",
+              "articleIds": [
+                "n-29448471590254",
+                "n-60ae4245a294dc",
+                "n-340390742d2ce8",
+                "n-81be0de86f382f"
+              ],
+              "bookIds": [
+                "exit-voice-loyalty"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "m2f2",
+              "label": "Bangladesh on both sides",
+              "text": "Bangladesh appears here as a sender of workers to Malaysia and as the country named as the source of 'infiltrators' in West Bengal. A state with $646 of external debt per citizen needs the dollars its workers send home, so each closed route is also a problem for its balance of payments.",
+              "articleIds": [
+                "n-ca49eafe2a83b9",
+                "n-29448471590254",
+                "n-81be0de86f382f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "m3",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "m3f1",
+              "label": "Four different things",
+              "text": "The lottery may be a fairness measure to cut out recruitment agents rather than a sign of scarcity; the shipwreck is an irregular crossing whose destination the headlines do not give; the SAPO piece is one person's account and may be a feature written for clicks; the West Bengal pledge is electoral politics about citizenship, not labour. Four of the seven headlines come from one Bangladeshi outlet, bdnews24, so the pattern may reflect one newsroom's interests on one day. What the events do not share is a single receiving country or a single policy: one is a sea route, one a fee-free scheme, one a wage complaint, one a threat of expulsion.",
+              "articleIds": [
+                "n-29448471590254",
+                "n-340390742d2ce8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "BORDERS / QUOTAS / PANDEMIC",
+          "text": "The pandemic closed most legal labour routes in 2020, and they reopened on narrower terms. Malaysia froze the recruitment of foreign workers during the pandemic, reopened to Bangladesh in 2022, and stopped taking new Bangladeshi workers after May 2024 amid accusations that a recruitment syndicate was charging workers thousands of dollars each. A fee-free scheme filled by lottery, as bdnews24 reports, is an answer to that history. At the same time the Atlantic route from West Africa to the Canary Islands reached a record of about 46,800 arrivals in 2024, many of them from Senegal, and the dead off Lompoul belong to that route. Portugal, one of Europe's easier countries to enter for work, ended its 'expression of interest' route in June 2024. In August 2024 Bangladesh's students forced out Sheikh Hasina, and the new distrust between Dhaka and Delhi fed the talk of expulsion in West Bengal. The decade has produced more applicants for fewer places.",
+          "trajectoryIds": [
+            "dhaka-2024"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CRISIS / REMITTANCES / RECRUITMENT",
+          "text": "The crash of 2008 ended the construction boom in Spain and Portugal that had drawn workers from West Africa and Latin America, and during Portugal's bailout years from 2011 to 2014 around 100,000 Portuguese a year left for work elsewhere. The SAPO testimony of shared rooms and low pay describes a southern Europe where wages for new arrivals have not recovered the ground lost then. In South Asia the period went the other way: remittances became Bangladesh's largest source of foreign currency after exports, passing twenty billion dollars a year by the early 2020s, and governments organised labour export as policy. The cost fell on workers through recruitment fees and the Gulf's kafala sponsorship rules, which tied a worker's visa to one employer; the World Cup built in Qatar for 2022 made those rules visible worldwide. The World Bank's figure of $646 of external debt per Bangladeshi explains why Dhaka keeps open every route it can.",
+          "trajectoryIds": [
+            "lehman-2008",
+            "qatar-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "SCHENGEN / LABOUR EXPORT / CITIZENSHIP",
+          "text": "The routes in these headlines were laid out in the 1990s. The Schengen agreement came into force in 1995, removing internal borders in Europe and making the outer border, including the sea between West Africa and the Canaries, the place where migration is controlled. In 2006 some 31,000 people reached the Canaries by pirogue, most from Senegal and Mauritania, and Spain and the EU answered with Frontex patrols off the West African coast and return agreements with Dakar. In the same years Malaysia's plantations, building sites and electronics factories drew hundreds of thousands of Bangladeshi workers through Bangladesh's Bureau of Manpower, Employment and Training, founded in 1976. In India citizenship became the instrument of control: the Citizenship Act was amended in 2003 to introduce the category of 'illegal migrant', and in 2019 Assam's National Register of Citizens left 1.9 million people off the list. The pledge reported from West Bengal draws on that legal framework rather than on any new one.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "PARTITION / EMPIRE / GUEST WORKERS",
+          "text": "The border at issue in West Bengal was drawn at Partition in 1947 and tested again in 1971, when some ten million refugees from what became Bangladesh crossed into India; most went back, and the question of who stayed has been used in Bengal and Assam ever since. Senegal became independent from France in 1960, and French industry recruited West African workers through the following decade. Portugal itself was a country of emigrants under the dictatorship: hundreds of thousands left for France in the 1960s, many living in shanty towns outside Paris, before Portugal began to receive migrants after joining the European Community in 1986. West Germany's agreement with Italy in 1955 began the guest-worker schemes that set the postwar pattern, labour admitted for a period with return expected. The SAPO testimony of a return home follows the expectation those schemes built into labour migration, now reached through high rents and low wages rather than by contract.",
+          "trajectoryIds": [],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-95138aeca05fb9",
+        "n-720a78d8011c59",
+        "n-60ae4245a294dc",
+        "n-29448471590254",
+        "n-340390742d2ce8",
+        "n-81be0de86f382f",
+        "n-ca49eafe2a83b9"
+      ]
+    },
+    {
+      "id": "chinese-makers-sell-at-both-ends",
+      "line": "Twenty-five years after joining the WTO, Chinese makers sell abroad at luxury prices as well as low ones.",
+      "kicker": "EXPORTS / PRICING / INDUSTRIAL POLICY",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A Chinese carmaker announces a new factory or assembly plant outside China.",
+          "by": "2026-12-06",
+          "because": "If export markets are now where Chinese makers plan their profits, production should follow the sales to get inside the tariffs that face them.",
+          "id": "20261108T202834-chinese-makers-sell-at-both-ends-1"
+        },
+        {
+          "what": "A US, European or Japanese carmaker announces a deal to use a Chinese maker's electric platform, batteries or software.",
+          "by": "2026-12-06",
+          "because": "A US maker withdrawing an electric model while Chinese makers move up the market predicts that others will license Chinese technology rather than build their own.",
+          "id": "20261108T202834-chinese-makers-sell-at-both-ends-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is Japan's car industry between 1981 and 1989: a voluntary export restraint with Washington in 1981 was answered by plants in the United States, Honda's in Ohio from 1982, and by luxury brands, Acura in 1986 and Lexus in 1989. Within a decade Japanese makers sold at every price and built inside their largest market. The present differs in that Chinese makers are moving up the market and selling cheaply at the same moment, face tariffs already in the United States and the EU, and are launching luxury models in the Gulf rather than in America.",
+        "paths": [
+          {
+            "name": "Factories follow the exports",
+            "weight": "favoured",
+            "text": "Through 2027 more Chinese makers announce assembly in Turkey, Hungary, Brazil, Thailand or the Gulf to sell inside tariff walls, while luxury launches continue in markets without duties. The join points this way because export profits are now named as the goal and tariffs make building abroad the way to keep them.",
+            "sign": "A Chinese carmaker announces a new plant or assembly deal in a country outside China."
+          },
+          {
+            "name": "Tariffs spread to more markets",
+            "weight": "possible",
+            "text": "Brazil, Mexico, Turkey or a Southeast Asian government raises duties on Chinese cars, and export growth slows in 2027. It is less likely to dominate because the buyers in the Gulf and Southeast Asia, as the Philippine statement shows, keep trading even when in dispute with Beijing.",
+            "sign": "A G20 government outside the US and EU announces higher duties on Chinese electric cars."
+          },
+          {
+            "name": "US makers return to electric pickups",
+            "weight": "unlikely",
+            "text": "A US maker restores an electric pickup programme within the year. It is unlikely because the federal credit has ended and Tesla is raising prices and suspending orders rather than cutting them to win buyers.",
+            "sign": "A US carmaker reinstates a cancelled electric pickup or announces a new one for 2027."
+          }
+        ],
+        "decade": "The trajectory points to Chinese makers holding the place Japanese makers held in the 1980s and 1990s, with factories inside the markets that tax their imports and brands at every price."
+      },
+      "continues": "chinese-makers-grow-as-others-retreat",
+      "change": "Tesla's Cybertruck is now reported being wound down, with another price rise and orders for its entry version suspended. On the Chinese side the news has moved to the top of the market, with a luxury flagship launched in Abu Dhabi and commentary saying overseas sales are where carmakers' profits now come from. The join now reaches beyond cars to devices and to trade with a country in dispute with China.",
+      "claim": "Tesla is raising the Cybertruck's price again and has suspended orders for its entry version ahead of ending production, as reported in China; NIO says its second Xinqiao plant now completes a car a minute; Chinese commentary says overseas expansion is where carmakers' profits come from; the Chinese luxury brand Yangwang launched a flagship priced around two million yuan in Abu Dhabi; Portugal's SAPO tests a Xiaomi fitness band with GPS for under €100; and the Philippine government says it will keep trading with China. Chinese manufacturers are now selling abroad at both ends of the price range, from cheap devices to cars priced above most luxury models, while an American electric pickup is withdrawn. Export markets, including countries in dispute with Beijing, have become where Chinese firms plan their growth.",
+      "events": [
+        {
+          "label": "Tesla winds down the Cybertruck",
+          "articleIds": [
+            "n-ff6258cb8b83fc"
+          ]
+        },
+        {
+          "label": "NIO plant reaches a car a minute",
+          "articleIds": [
+            "n-67c62d16fb63f0"
+          ]
+        },
+        {
+          "label": "Chinese carmakers count profits from export",
+          "articleIds": [
+            "n-5228cbe4c405ad"
+          ]
+        },
+        {
+          "label": "Yangwang luxury flagship launched in Abu Dhabi",
+          "articleIds": [
+            "n-649f108bd8bfdd"
+          ]
+        },
+        {
+          "label": "Xiaomi fitness band sold under €100",
+          "articleIds": [
+            "n-7afcbb8c2b2e4e"
+          ]
+        },
+        {
+          "label": "Philippines keeps trading with China",
+          "articleIds": [
+            "n-4652250d653f76"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "c1",
+          "kind": "observation",
+          "label": "Cars: one retreat, three advances",
+          "fragments": [
+            {
+              "id": "c1f1",
+              "label": "Tesla and NIO",
+              "text": "Sina reports that Tesla has raised Cybertruck prices again before discontinuing it and suspended orders for the entry version. The same portal reports a CCTV feature on NIO's second Xinqiao plant, where one complete vehicle leaves the line every minute.",
+              "articleIds": [
+                "n-ff6258cb8b83fc",
+                "n-67c62d16fb63f0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c1f2",
+              "label": "Export and luxury",
+              "text": "A Sina commentary says overseas expansion is bringing carmakers profits and asks how they can succeed internationally. Jordan's Ammon reports the Yangwang Dingyao, an executive flagship in the 2.08 million yuan class, making its global debut in Abu Dhabi rather than in China.",
+              "articleIds": [
+                "n-5228cbe4c405ad",
+                "n-649f108bd8bfdd"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "kind": "observation",
+          "label": "Devices and trade",
+          "fragments": [
+            {
+              "id": "c2f1",
+              "label": "A band and a trade policy",
+              "text": "SAPO reviews the Xiaomi Smart Band 10 Pro, which has GPS and costs under €100. The Manila Times reports the Philippine government saying it will continue to trade with China.",
+              "articleIds": [
+                "n-7afcbb8c2b2e4e",
+                "n-4652250d653f76"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "kind": "interpretation",
+          "label": "Both ends of the market",
+          "fragments": [
+            {
+              "id": "c3f1",
+              "label": "The same actor at every price",
+              "text": "The actor joining these headlines is Chinese manufacturing as a whole, now selling abroad at the bottom of the price range, with a GPS band under €100 in Portugal, and at the top, with a two-million-yuan car launched in the Gulf. A plant that completes a car a minute produces more than China's own market can absorb, and the Sina commentary says plainly that profit now lies abroad. The American maker that built an expensive electric pickup is ending it as the federal credit that helped sell it has gone.",
+              "articleIds": [
+                "n-7afcbb8c2b2e4e",
+                "n-649f108bd8bfdd",
+                "n-67c62d16fb63f0",
+                "n-5228cbe4c405ad",
+                "n-ff6258cb8b83fc"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c3f2",
+              "label": "Buyers who argue and still buy",
+              "text": "The Philippine statement matters because Manila is in a territorial dispute with Beijing and is still choosing to keep trading. The Gulf, where the Yangwang was launched, has no duties of the kind Washington and Brussels put on Chinese electric cars. Chinese makers are going where the tariffs are not.",
+              "articleIds": [
+                "n-4652250d653f76",
+                "n-649f108bd8bfdd"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "c4f1",
+              "label": "Promotion, not a trend",
+              "text": "Three of the six headlines come from Chinese portals, one of them relaying a state television feature, and car launches and gadget reviews are partly marketing copy. Tesla's decision on the Cybertruck may owe more to that truck's own sales than to any Chinese competitor. What the events do not share: one is an American product decision, one a factory publicity piece, one a luxury launch, one a consumer review and one a diplomatic statement, and none of them reports a sale lost by one side to the other.",
+              "articleIds": [
+                "n-ff6258cb8b83fc",
+                "n-67c62d16fb63f0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "ELECTRIC CARS / TARIFFS / CREDITS",
+          "text": "In this decade China became the world's largest car exporter, passing Japan in 2023 with close to five million vehicles, many of them petrol cars sold to Russia, the Middle East and Latin America after Western makers left Russia in 2022. Electric cars followed, and so did barriers: in May 2024 Washington put a 100 per cent tariff on Chinese electric vehicles, and in October 2024 the EU imposed duties of up to 35.3 per cent. Xiaomi, a phone maker, sold its first car in March 2024. On the American side, Tesla began delivering the Cybertruck in November 2023, and the federal tax credit for electric vehicles ended on 30 September 2025. The Sina report of Cybertruck price rises before its discontinuation, and the launch of a Chinese luxury flagship in Abu Dhabi rather than Europe, follow from these two policies: one closed the American market to Chinese cars, the other removed the subsidy that helped sell American ones.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "STIMULUS / INDUSTRIAL POLICY / BATTERIES",
+          "text": "The firms in these headlines were shaped by China's response to the 2008 crash. In November 2008 Beijing announced a stimulus of four trillion yuan, and in 2009 its 'Ten Cities, Thousand Vehicles' programme began paying for electric buses and taxis in pilot cities, the start of a subsidy system for new-energy vehicles that ran for more than a decade. Warren Buffett's Berkshire Hathaway bought about a tenth of BYD in 2008. Xiaomi was founded in 2010 and sold phones close to cost, and the battery maker CATL was founded in 2011. In May 2015 the State Council's Made in China 2025 plan named new-energy vehicles as a priority industry. NIO, founded in 2014, is one of the many carmakers that subsidy produced; the CCTV feature on its plant, reported by Sina, shows the scale the survivors now reach. Capacity beyond what the home market will buy is the reason the Sina commentary on overseas profits is being written.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "WTO / JOINT VENTURES / TRADE DISPUTES",
+          "text": "For most of this period China's car industry was built to learn from foreign firms. Volkswagen had formed a joint venture with SAIC in Shanghai in 1984, and the automotive policy of 1994 capped foreign ownership of carmaking ventures at 50 per cent, so every Western maker in China worked through a Chinese partner. After Deng Xiaoping's southern tour of 1992 the coastal provinces became the assembly line for the world's electronics, and China joined the WTO in December 2001, which opened export markets for cheap goods of the kind SAPO now reviews. The Philippines spent much of the same period in dispute with China over the South China Sea, and won an arbitration ruling at The Hague in July 2016 that Beijing rejected. The Manila Times headline saying the Philippines will keep trading with China follows the pattern of these decades, in which governments contest China's claims at sea and continue to buy its goods.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "CATCH-UP / EXPORTS / GATT",
+          "text": "The path from cheap exports to luxury brands was laid out by Japan after 1945. Under the GATT, signed in 1947, and with the yen fixed at 360 to the dollar until 1971, Japanese firms sold small, cheap cars abroad. By 1981 their American sales led Washington to negotiate a voluntary export restraint, and Japanese makers answered by building plants in the United States, Honda first in Ohio in 1982, and by moving up the market, Honda with Acura in 1986 and Toyota with Lexus in 1989. South Korea followed with the Hyundai Pony in 1975. The Meiji model of industrialising to remain independent lies behind all three countries' policies. The Yangwang launch in Abu Dhabi is the equivalent of the Lexus step, taken while the cheap-goods step, as SAPO's review of a band under €100 shows, continues. What differs is timing: Japan took three decades over the two steps, and Chinese makers, by these headlines, are taking both at once.",
+          "trajectoryIds": [
+            "meiji-1868"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-ff6258cb8b83fc",
+        "n-67c62d16fb63f0",
+        "n-5228cbe4c405ad",
+        "n-649f108bd8bfdd",
+        "n-7afcbb8c2b2e4e",
+        "n-4652250d653f76"
+      ]
+    }
+  ]
+}
