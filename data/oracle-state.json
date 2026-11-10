@@ -1,21 +1,7 @@
 {
- "day": "2026-11-08",
+ "day": "2026-11-10",
  "attempts": 1,
  "history": [
-  {
-   "at": "2026-10-27T08:17:11Z",
-   "note": "recovering batch msgbatch_01MrUqxBjsU2uJywU4LHbeC7 against the collection of 2026-10-27T07:53:02Z"
-  },
-  {
-   "at": "2026-10-27T08:17:11Z",
-   "note": "ok",
-   "batchId": "msgbatch_01MrUqxBjsU2uJywU4LHbeC7",
-   "usage": {
-    "input": 52652,
-    "output": 59983,
-    "tier": "batch"
-   }
-  },
   {
    "at": "2026-10-27T20:20:00Z",
    "note": "attempt counter set to 1 so that one re-run under the rewritten brief (narrative-4, joins of unlike events) fits today's cap"
@@ -226,6 +212,25 @@
    "usage": {
     "input": 47081,
     "output": 68233,
+    "tier": "batch"
+   }
+  },
+  {
+   "at": "2026-11-10T00:16:36Z",
+   "note": "submitted",
+   "batchId": "msgbatch_01WgZJKyvW8WDUYJRkvVS3ib"
+  },
+  {
+   "at": "2026-11-10T00:26:25Z",
+   "note": "narratives refused: after-the-rout-cooperation-withdrawn: line is a list; it should say what the join shows, not list the evidence"
+  },
+  {
+   "at": "2026-11-10T00:26:25Z",
+   "note": "ok",
+   "batchId": "msgbatch_01WgZJKyvW8WDUYJRkvVS3ib",
+   "usage": {
+    "input": 71774,
+    "output": 70052,
     "tier": "batch"
    }
   }

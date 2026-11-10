@@ -1,6 +1,50 @@
 {
  "editions": [
   {
+   "stamp": "20261110T001511",
+   "file": "data/narratives/20261110T001511.json",
+   "newsGeneratedAt": "2026-11-10T00:15:11Z",
+   "generatedAt": "2026-11-10T00:26:25Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-7",
+   "narratives": [
+    {
+     "id": "one-chip-firm-carries-ai-risk",
+     "kicker": "CONCENTRATION / ESPIONAGE / CAPITAL",
+     "line": "Four years after ChatGPT, so much rests on one chip firm that its chief's private life moves share prices and chip policy.",
+     "events": 6,
+     "headlines": 19,
+     "countries": 11,
+     "continues": "",
+     "firmness": "firm",
+     "watch": 2
+    },
+    {
+     "id": "oil-prices-follow-talk-not-the-gulf",
+     "kicker": "DIPLOMACY / CHOKEPOINTS / PRICES",
+     "line": "Oil prices now follow what Trump says about Iran talks more than the attacks on the Saudi pipeline that bypasses Hormuz.",
+     "events": 5,
+     "headlines": 16,
+     "countries": 13,
+     "continues": "iran-pressed-by-land-and-sea",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "gas-sought-in-the-hottest-years",
+     "kicker": "SUPPLY / EMISSIONS / DIPLOMACY",
+     "line": "As the last four years are confirmed the hottest, governments seek new gas and LNG while the climate summit plans electrification.",
+     "events": 6,
+     "headlines": 11,
+     "countries": 9,
+     "continues": "",
+     "firmness": "tentative",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261108T202834",
    "file": "data/narratives/20261108T202834.json",
    "newsGeneratedAt": "2026-11-08T20:28:34Z",

@@ -214,8 +214,14 @@
    "what": "Reports on the US midterm results or exit polls name fuel or energy prices as a reason for the outcome.",
    "by": "2026-11-08",
    "because": "If the war's fuel price is being put to voters, it should appear in explanations of the result and not only in the campaign.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261110T001511",
+    "asOf": "2026-11-10T00:15:11Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-10 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261101T010841-constitutions-and-courts-contested-1",
@@ -242,8 +248,14 @@
    "what": "France deploys 50,000 or more security personnel for a fourth weekend of youth protests.",
    "by": "2026-11-09",
    "because": "If deployment is the state's main reply rather than a one-off, the same numbers should return the next weekend.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261110T001511",
+    "asOf": "2026-11-10T00:15:11Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-10 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261101T010841-gen-z-protests-met-by-police-2",
@@ -442,8 +454,39 @@
    "what": "A European government or the EU names a state or a named group as responsible for the attacks on shop refrigeration.",
    "by": "2026-11-23",
    "because": "The join says these attacks are treated as attacks on supply, so blame becomes a political act, as it already is with North Korea and Binance.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261110T001511",
+    "asOf": "2026-11-10T00:15:11Z",
+    "how": "headline",
+    "note": "France has officially accused Iran of the cyberattack on connected supermarket fridges and freezers in Europe.",
+    "headlines": [
+     {
+      "id": "n-f8c22c194ceed4",
+      "title": "Cyberattaque contre des frigos connectés : la France accuse officiellement l’Iran",
+      "titleEnglish": "Cyberattack on connected fridges: France officially accuses Iran",
+      "url": "https://www.sudouest.fr/economie/cybersecurite/cyberattaque-contre-des-frigos-connectes-la-france-accuse-officiellement-l-iran-31461110.php",
+      "publisher": "SudOuest.fr",
+      "sourceCountry": "France"
+     },
+     {
+      "id": "n-96e417d3e0fed4",
+      "title": "France accuses Iran of cyberattack on supermarket fridges",
+      "titleEnglish": "France accuses Iran of cyberattack on supermarket fridges",
+      "url": "https://www.aljazeera.com/news/2026/11/9/france-accuses-iran-of-cyberattack-on-european-fridges",
+      "publisher": "Al Jazeera",
+      "sourceCountry": "Qatar"
+     },
+     {
+      "id": "n-3f45da262f4607",
+      "title": "Iran achter cyberaanval op vriezers in Europa",
+      "titleEnglish": "Iran behind cyberattack on freezers in Europe",
+      "url": "https://nieuws.nl/economie/frankrijk-iran-zit-achter-cyberaanval-op-vriezers-in-europa",
+      "publisher": "Nieuws.nl",
+      "sourceCountry": "Netherlands"
+     }
+    ]
+   }
   },
   {
    "id": "20261102T232930-hacks-reach-fridges-and-wallets-2",
@@ -1079,8 +1122,23 @@
    "what": "Another US carmaker cancels, delays or cuts production of an electric pickup or electric SUV.",
    "by": "2026-12-05",
    "because": "If the retreat follows the end of the federal credit rather than the Cybertruck's own problems, other American makers facing the same market should be cutting too.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261110T001511",
+    "asOf": "2026-11-10T00:15:11Z",
+    "how": "headline",
+    "note": "Elon Musk has axed Tesla's Cybertruck electric pickup and says buyers will get refunds.",
+    "headlines": [
+     {
+      "id": "n-3dd623c7816510",
+      "title": "Elon Musk axes the Cybertruck and says buyers will get refunds",
+      "titleEnglish": "Elon Musk axes the Cybertruck and says buyers will get refunds",
+      "url": "https://www.independent.co.uk/news/world/americas/tesla-cybertruck-elon-musk-cybercab-b3081618.html",
+      "publisher": "The Independent",
+      "sourceCountry": "United Kingdom"
+     }
+    ]
+   }
   },
   {
    "id": "20261107T201404-chinese-makers-grow-as-others-retreat-2",
@@ -1261,6 +1319,90 @@
    "what": "A US, European or Japanese carmaker announces a deal to use a Chinese maker's electric platform, batteries or software.",
    "by": "2026-12-06",
    "because": "A US maker withdrawing an electric model while Chinese makers move up the market predicts that others will license Chinese technology rather than build their own.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261110T001511-one-chip-firm-carries-ai-risk-1",
+   "stamp": "20261110T001511",
+   "asOf": "2026-11-10T00:15:11Z",
+   "narrativeId": "one-chip-firm-carries-ai-risk",
+   "kicker": "CONCENTRATION / ESPIONAGE / CAPITAL",
+   "line": "Four years after ChatGPT, so much rests on one chip firm that its chief's private life moves share prices and chip policy.",
+   "firmness": "firm",
+   "what": "A US bill or Commerce Department rule to tighten Chinese access to AI chips is introduced, with the Nvidia spy allegation named as a reason.",
+   "by": "2026-12-05",
+   "because": "If the affair is treated as a security matter because Nvidia carries the AI build, its first lasting result should be law, not only a share price.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261110T001511-one-chip-firm-carries-ai-risk-2",
+   "stamp": "20261110T001511",
+   "asOf": "2026-11-10T00:15:11Z",
+   "narrativeId": "one-chip-firm-carries-ai-risk",
+   "kicker": "CONCENTRATION / ESPIONAGE / CAPITAL",
+   "line": "Four years after ChatGPT, so much rests on one chip firm that its chief's private life moves share prices and chip policy.",
+   "firmness": "firm",
+   "what": "Shares of TSMC, SK Hynix or another Nvidia supplier fall 5% or more in a day, with Nvidia's troubles named as the cause.",
+   "by": "2026-11-24",
+   "because": "Concentration means a fall at Nvidia should reach the firms whose revenue depends on it, which a stand-alone celebrity scandal would not.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261110T001511-oil-prices-follow-talk-not-the-gulf-1",
+   "stamp": "20261110T001511",
+   "asOf": "2026-11-10T00:15:11Z",
+   "narrativeId": "oil-prices-follow-talk-not-the-gulf",
+   "kicker": "DIPLOMACY / CHOKEPOINTS / PRICES",
+   "line": "Oil prices now follow what Trump says about Iran talks more than the attacks on the Saudi pipeline that bypasses Hormuz.",
+   "firmness": "plausible",
+   "what": "Brent is reported lower over a week in which a further strike on Saudi or Emirati oil infrastructure is also reported.",
+   "by": "2026-11-21",
+   "because": "If prices follow statements about talks rather than events around the Gulf, a strike on the bypass routes should not reverse the fall.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261110T001511-oil-prices-follow-talk-not-the-gulf-2",
+   "stamp": "20261110T001511",
+   "asOf": "2026-11-10T00:15:11Z",
+   "narrativeId": "oil-prices-follow-talk-not-the-gulf",
+   "kicker": "DIPLOMACY / CHOKEPOINTS / PRICES",
+   "line": "Oil prices now follow what Trump says about Iran talks more than the attacks on the Saudi pipeline that bypasses Hormuz.",
+   "firmness": "plausible",
+   "what": "Saudi Arabia or Aramco reports reduced flows, repairs or a halt on the East-West pipeline or at Yanbu after an attack.",
+   "by": "2026-11-28",
+   "because": "If the fighting has moved to the routes built to avoid Hormuz, the damage should show there rather than in the strait.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261110T001511-gas-sought-in-the-hottest-years-1",
+   "stamp": "20261110T001511",
+   "asOf": "2026-11-10T00:15:11Z",
+   "narrativeId": "gas-sought-in-the-hottest-years",
+   "kicker": "SUPPLY / EMISSIONS / DIPLOMACY",
+   "line": "As the last four years are confirmed the hottest, governments seek new gas and LNG while the climate summit plans electrification.",
+   "firmness": "tentative",
+   "what": "The COP31 final text is adopted with electrification or grid targets but without a dated commitment to phase out or transition away from fossil fuels.",
+   "by": "2026-11-27",
+   "because": "If governments are securing gas while the summit plans electrification, the text should set power targets and leave gas untouched.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261110T001511-gas-sought-in-the-hottest-years-2",
+   "stamp": "20261110T001511",
+   "asOf": "2026-11-10T00:15:11Z",
+   "narrativeId": "gas-sought-in-the-hottest-years",
+   "kicker": "SUPPLY / EMISSIONS / DIPLOMACY",
+   "line": "As the last four years are confirmed the hottest, governments seek new gas and LNG while the climate summit plans electrification.",
+   "firmness": "tentative",
+   "what": "A European or Asian government approves a new domestic gas field, a gas drilling trial or an LNG import contract and cites supply security.",
+   "by": "2026-12-06",
+   "because": "The join holds only if the turn to gas is policy across importing countries rather than a handful of unrelated projects.",
    "status": "open",
    "resolved": null
   }

@@ -1,0 +1,1697 @@
+{
+  "schemaVersion": 5,
+  "generatedAt": "2026-11-10T00:26:25Z",
+  "newsGeneratedAt": "2026-11-10T00:15:11Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-7",
+  "previousNewsGeneratedAt": "2026-11-08T20:28:34Z",
+  "usage": {
+    "input": 71774,
+    "output": 70052,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads.",
+    "One or more narratives in this edition were refused by the site's own rules (a tile line that listed its evidence or named a publisher, no stated firmness, no usable expectation or no favoured path ahead) and are not shown; the ids and reasons are kept in this file under 'refused'."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-fefa83810d2260",
+      "title": "黄仁勋承认出轨！ 马斯克、特朗普回应",
+      "titleEnglish": "Jensen Huang admits affair! Musk and Trump respond",
+      "url": "https://www.nbd.com.cn/articles/2026-11-09/4642125.html",
+      "publisher": "nbd.com.cn",
+      "publisherDomain": "nbd.com.cn",
+      "publishedAt": "2026-11-09T23:02:00Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-3ae7a817a433cf",
+      "title": "La trama de infidelidad y supuesto espionaje chino que envuelve a Jensen Huang, CEO de NVIDIA - BBC News Mundo",
+      "titleEnglish": "The infidelity and alleged Chinese espionage plot surrounding Jensen Huang, CEO of NVIDIA - BBC News Mundo",
+      "url": "https://www.bbc.com/mundo/watch/ckr5y5r58r78o",
+      "publisher": "BBC News Mundo",
+      "publisherDomain": "bbc.com",
+      "publishedAt": "2026-11-09T21:41:59Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "es"
+    },
+    {
+      "id": "n-540aff21cbbc5b",
+      "title": "Πώς η Κινέζα κατάσκοπος μπήκε στη ζωή του CEO της Nvidia, της δεύτερης μεγαλύτερης εταιρείας στον κόσμο -Το σκάνδαλο που τάραξε τον επιχειρηματικό κόσμο - iefimerida.gr",
+      "titleEnglish": "How the Chinese spy got into the life of the CEO of Nvidia, the world's second largest company - The scandal that shook the business world - iefimerida.gr",
+      "url": "https://www.iefimerida.gr/kosmos/pos-i-kineza-kataskopos-mpike-sti-zoi-ceo-nvidia",
+      "publisher": "iefimerida.gr",
+      "publisherDomain": "iefimerida.gr",
+      "publishedAt": "2026-11-09T21:30:59Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-e8c1a7789292a0",
+      "title": "9/11 in Nieuwsuur: 'Topman chipgigant Nvidia had relatie met Chinese spion' • Thuiswerkenden willen niet terug naar kantoor • Doek valt voor Novaja Gazeta • Wat gaat de VVD doen?",
+      "titleEnglish": "9/11 on Nieuwsuur: 'Top executive of chip giant Nvidia had relationship with Chinese spy' • Remote workers don't want to return to the office • Curtain falls for Novaja Gazeta • What will the VVD do?",
+      "url": "https://nos.nl/nieuwsuur/artikel/2638714-9-11-in-nieuwsuur-topman-chipgigant-nvidia-had-relatie-met-chinese-spion-thuiswerkenden-willen-niet-terug-naar-kantoor-doek-valt-voor-novaja-gazeta-wat-gaat-de-vvd-doen",
+      "publisher": "nos.nl",
+      "publisherDomain": "nos.nl",
+      "publishedAt": "2026-11-09T15:32:00Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-69a884358e552d",
+      "title": "As Nvidia probes Jensen Huang affair, here's the board member likely to play a big role",
+      "titleEnglish": "As Nvidia probes Jensen Huang affair, here's the board member likely to play a big role",
+      "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-investigation.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-09T20:31:35Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-0c9886d900031a",
+      "title": "Beijing Dismisses Alleged Nvidia Intelligence Operation as 'Nothing but Smears Against China'",
+      "titleEnglish": "Beijing Dismisses Alleged Nvidia Intelligence Operation as 'Nothing but Smears Against China'",
+      "url": "https://www.ibtimes.co.uk/china-rejects-nvidia-jensen-huang-espionage-allegations-1831116",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-11-09T15:23:50Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-526fb739288830",
+      "title": "黃仁勳認了外遇！胡錫進曝「美人計」內幕：中國從不要求女情報員上床 | 蔣季容 | 新聞",
+      "titleEnglish": "Jensen Huang admits affair! Hu Xijin reveals 'honey trap' inside story: China never requires female intelligence officers to sleep with targets | Chiang Chi-jung | News",
+      "url": "https://www.storm.mg/article/11179981",
+      "publisher": "storm.mg",
+      "publisherDomain": "storm.mg",
+      "publishedAt": "2026-11-09T13:44:00Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-0d8d3750a3419a",
+      "title": "Акции Nvidia упали на 9%",
+      "titleEnglish": "Nvidia shares fell 9%",
+      "url": "https://www.kommersant.ru/doc/9093069",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-09T15:29:11Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-b064f1ff016f43",
+      "title": "美股開盤輝達暴跌8% 黃仁勳持股市值蒸發近4000億 | 聯合新聞網",
+      "titleEnglish": "US stocks open with Nvidia plunging 8%, Jensen Huang's shareholding evaporates by nearly 400 billion | UDN",
+      "url": "https://udn.com/news/story/6811/9867834",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-11-09T15:16:43Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-654e35f5ca4f4a",
+      "title": "Nvidia hisseleri düşüşte",
+      "titleEnglish": "Nvidia shares falling",
+      "url": "https://www.haberturk.com/ekonomi/nvidia-hisseleri-dususte-3926132",
+      "publisher": "Habertürk",
+      "publisherDomain": "haberturk.com",
+      "publishedAt": "2026-11-09T23:02:00Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-5ff80296b1c150",
+      "title": "Jensen Huang's net worth dropped $21 billion in AI rout—Nvidia's recovery will be 'capped' after he admits affair | Fortune",
+      "titleEnglish": "Jensen Huang's net worth dropped $21 billion in AI rout—Nvidia's recovery will be 'capped' after he admits affair | Fortune",
+      "url": "https://fortune.com/2026/11/09/jensen-huangs-net-worth-ai-rout-drop-affair-admit/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-11-09T15:32:00Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-96809a2a292b77",
+      "title": "Stocks edge up but Nvidia woes pose a fresh test, oil falls",
+      "titleEnglish": "Stocks edge up but Nvidia woes pose a fresh test, oil falls",
+      "url": "https://www.thestar.com.my/business/business-news/2026/11/09/stocks-edge-up-but-nvidia-woes-pose-a-fresh-test-oil-falls",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-11-09T19:32:00Z",
+      "seenAt": "2026-11-09T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
+    },
+    {
+      "id": "n-768ed7d8480967",
+      "title": "Nvidia's China revenue exposure: What New Street estimates",
+      "titleEnglish": "Nvidia's China revenue exposure: What New Street estimates",
+      "url": "https://www.cnbc.com/2026/11/09/nvidias-china-revenue-exposure-what-new-street-estimates-.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-09T20:13:07Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-a2782b903d80c9",
+      "title": "US House Democratic leader says lawmakers need answers on Nvidia, wants China chip restrictions",
+      "titleEnglish": "US House Democratic leader says lawmakers need answers on Nvidia, wants China chip restrictions",
+      "url": "https://www.straitstimes.com/world/united-states/us-house-democratic-leader-says-lawmakers-need-answers-on-nvidia-wants-china-chip-restrictions",
+      "publisher": "The Straits Times",
+      "publisherDomain": "straitstimes.com",
+      "publishedAt": "2026-11-09T22:35:00Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-9b1433c36fc621",
+      "title": "Nvidia spy allegations likely to spur laws to tighten China’s access to AI chips, say some lawmakers",
+      "titleEnglish": "Nvidia spy allegations likely to spur laws to tighten China’s access to AI chips, say some lawmakers",
+      "url": "https://www.straitstimes.com/world/united-states/nvidia-spy-allegations-likely-to-spur-laws-to-tighten-chinas-access-to-ai-chips-say-experts",
+      "publisher": "The Straits Times",
+      "publisherDomain": "straitstimes.com",
+      "publishedAt": "2026-11-09T22:20:00Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-6b6c42e64b4da4",
+      "title": "Trump says Nvidia CEO Jensen Huang told him he did not know the woman linked to him was a spy",
+      "titleEnglish": "Trump says Nvidia CEO Jensen Huang told him he did not know the woman linked to him was a spy",
+      "url": "https://www.straitstimes.com/world/united-states/trump-says-nvidia-ceo-jensen-huang-told-him-he-did-not-know-the-woman-linked-to-him-was-a-spy",
+      "publisher": "The Straits Times",
+      "publisherDomain": "straitstimes.com",
+      "publishedAt": "2026-11-09T22:42:00Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-5612857712a659",
+      "title": "Overvaluing AI stocks may cause ‘bubble’ to burst, warns Bank of England boss",
+      "titleEnglish": "Overvaluing AI stocks may cause ‘bubble’ to burst, warns Bank of England boss",
+      "url": "https://www.bournemouthecho.co.uk/news/national/26713817.overvaluing-ai-stocks-may-cause-bubble-burst-warns-bank-england-boss/",
+      "publisher": "Bournemouth Echo",
+      "publisherDomain": "bournemouthecho.co.uk",
+      "publishedAt": "2026-11-09T23:02:00Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-88ef03437bc0ab",
+      "title": "Banks, investors grow wary of AI debt, spooked by market selloff",
+      "titleEnglish": "Banks, investors grow wary of AI debt, spooked by market selloff",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/11/09/banks-investors-grow-wary-of-ai-debt-spooked-by-market-selloff",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-11-09T19:13:00Z",
+      "seenAt": "2026-11-09T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
+    },
+    {
+      "id": "n-8dfb21d15c88fa",
+      "title": "판매처는 넓히고 제품은 쪼개고…구글, 에이전트용 TPU 2종 공개",
+      "titleEnglish": "Expanding sales channels and splitting products: Google unveils two TPU chips for agents",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026110911461280468",
+      "publisher": "디지털데일리",
+      "publisherDomain": "ddaily.co.kr",
+      "publishedAt": "2026-11-09T15:32:00Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-6d07a782198c11",
+      "title": "Trump says \"positive momentum\" toward ending U.S.-Iran conflict after talks with Qatari PM",
+      "titleEnglish": "Trump says \"positive momentum\" toward ending U.S.-Iran conflict after talks with Qatari PM",
+      "url": "https://english.news.cn/20261110/ad2dec905698420e9bbfe91381635b2e/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-11-09T23:02:00Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-f47d76865743de",
+      "title": "Trump asegura que hay “avances” para lograr el final de la guerra con Irán - La Tercera",
+      "titleEnglish": "Trump says there is \"progress\" toward ending the war with Iran - La Tercera",
+      "url": "https://www.latercera.com/mundo/noticia/trump-asegura-que-hay-avances-para-lograr-el-final-de-la-guerra-con-iran/",
+      "publisher": "La Tercera",
+      "publisherDomain": "latercera.com",
+      "publishedAt": "2026-11-09T22:43:42Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-5343bb6bcace91",
+      "title": "Trump says new Iran strikes unlikely amid peace talks",
+      "titleEnglish": "Trump says new Iran strikes unlikely amid peace talks",
+      "url": "https://www.samaa.tv/2087359923-trump-says-fresh-iran-strikes-unlikely-as-iran-talks-continue",
+      "publisher": "SAMAA TV",
+      "publisherDomain": "samaa.tv",
+      "publishedAt": "2026-11-09T05:17:02Z",
+      "seenAt": "2026-11-09T06:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Pakistan",
+      "sourceCountryCode": "PK",
+      "sourceRegion": "Asia",
+      "sourceLat": 30,
+      "sourceLon": 69,
+      "language": "en"
+    },
+    {
+      "id": "n-e3588f50ca1f1d",
+      "title": "ترامب يعلن استعداد أمريكا لضرب إيران في أي وقت | مصراوي",
+      "titleEnglish": "Trump announces US readiness to strike Iran at any time | Masrawy",
+      "url": "https://www.masrawy.com/news/news_publicaffairs/details/2026/11/9/3076371/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%85-%D8%B3%D8%AA%D8%B9%D8%AF%D9%88%D9%86-%D9%84%D8%B6%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%81%D9%8A-%D8%A3%D9%8A-%D9%88%D9%82%D8%AA-%D9%88%D9%82%D8%B7%D8%B1-%D9%88%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA-%D8%B1%D9%8A%D8%AF%D8%A7%D9%86-%D8%AD%D9%84-%D8%A7-%D8%B3%D9%84%D9%85%D9%8A-%D8%A7-",
+      "publisher": "مصراوي.كوم",
+      "publisherDomain": "masrawy.com",
+      "publishedAt": "2026-11-09T23:02:00Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-51cd9cdbc22b04",
+      "title": "[국제유가] 브렌트유 5% 급락…트럼프 \"이란 공격 지시 가능성 낮아\"",
+      "titleEnglish": "[International oil prices] Brent crude plunges 5%… Trump: \"Possibility of ordering attack on Iran is low\"",
+      "url": "https://www.fnnews.com/news/202611100523396776",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-09T20:36:34Z",
+      "seenAt": "2026-11-09T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-cc5108db1b1a66",
+      "title": "Нефть стремительно дешевеет после заявлений Трампа по поводу Ирана",
+      "titleEnglish": "Oil is rapidly getting cheaper after Trump's statements about Iran",
+      "url": "https://www.unian.net/economics/energetics/neft-stremitelno-desheveet-kakaya-cena-1-barrelya-nefti-13553925.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-11-09T09:02:00Z",
+      "seenAt": "2026-11-09T09:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-9fbec166054f40",
+      "title": "NY株、一時700ドル超高 原油相場下落で買い優勢",
+      "titleEnglish": "NY stocks briefly up over $700 as oil prices fall and buying gains the upper hand",
+      "url": "https://www.47news.jp/15206837.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-11-09T15:32:00Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-613f048d29190e",
+      "title": "السعودية استهداف خط أنابيب شرق – غرب في منطقة المدينة المنورة",
+      "titleEnglish": "Saudi Arabia: East-West pipeline targeted in Medina region",
+      "url": "https://alanbatnews.net/article/486067",
+      "publisher": "الأنباط",
+      "publisherDomain": "alanbatnews.net",
+      "publishedAt": "2026-11-09T23:04:08Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-149ce78273c490",
+      "title": "Yemen's Houthis warn foreign firms in Saudi Arabia of potential strikes amid escalating conflict",
+      "titleEnglish": "Yemen's Houthis warn foreign firms in Saudi Arabia of potential strikes amid escalating conflict",
+      "url": "https://english.news.cn/20261110/3a4f17ce0c214077a71a24aa8aecce10/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-11-09T23:02:00Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-9d666d4c0b96d6",
+      "title": "Yemen: Ataque aéreo cerca de Saná deja 44 muertos, la mayoría mujeres y niños",
+      "titleEnglish": "Yemen: Airstrike near Sanaa leaves 44 dead, most of them women and children",
+      "url": "https://www.cadena3.com/noticia/mundo/yemen-ataque-aereo-cerca-de-sana-deja-44-muertos-la-mayoria-mujeres-y-ninos_611470",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-11-09T12:32:00Z",
+      "seenAt": "2026-11-09T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-c7aa73159cade9",
+      "title": "特朗普称将继续实施对伊朗的封锁及\"铁门\"特遣行动",
+      "titleEnglish": "Trump says he will continue the blockade of Iran and the \"Iron Gate\" special operation",
+      "url": "https://www.nbd.com.cn/articles/2026-11-10/4643133.html",
+      "publisher": "nbd.com.cn",
+      "publisherDomain": "nbd.com.cn",
+      "publishedAt": "2026-11-09T23:02:00Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-046d5b596388e0",
+      "title": "Trump says Iran is sealed off. But can new US task force stop weapons flow?",
+      "titleEnglish": "Trump says Iran is sealed off. But can new US task force stop weapons flow?",
+      "url": "https://www.aljazeera.com/news-analysis/2026/11/9/trump-says-iran-is-sealed-off-but-can-new-us-task-force-stop-weapons-flow",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-11-09T18:02:00Z",
+      "seenAt": "2026-11-09T18:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-17b882c7957135",
+      "title": "إيران.. توقعات بوصول قوات مارينز وإنزال إلى المنطقة هذا الشهر وبزشكيان يتمسك بالحوار",
+      "titleEnglish": "Iran: expectations of Marines arriving and a landing in the region this month, while Pezeshkian insists on dialogue",
+      "url": "https://www.aljazeera.net/news/liveblog/2026/11/9/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D9%82%D8%B4%D9%85-%D9%88%D8%A8%D9%86%D8%AF%D8%B1-%D8%B9%D8%A8%D8%A7%D8%B3?update=10066226",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-09T15:32:00Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-8eaeafe797861f",
+      "title": "Tea, meat exporters lose Sh11bn in Gulf war in 3 months",
+      "titleEnglish": "Tea, meat exporters lose Sh11bn in Gulf war in 3 months",
+      "url": "https://www.businessdailyafrica.com/bd/markets/commodities/meat-tea-exporters-lose-sh11bn-in-gulf-war-in-3-months-5664376",
+      "publisher": "Business Daily",
+      "publisherDomain": "businessdailyafrica.com",
+      "publishedAt": "2026-11-09T15:32:00Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Kenya",
+      "sourceCountryCode": "KE",
+      "sourceRegion": "Africa",
+      "sourceLat": 0.1,
+      "sourceLon": 38,
+      "language": "en"
+    },
+    {
+      "id": "n-c169bb51442be6",
+      "title": "Phú Quốc làm rõ nguyên nhân người dân xếp hàng chờ đổ xăng",
+      "titleEnglish": "Phu Quoc clarifies cause of people queuing to buy petrol",
+      "url": "https://dantri.com.vn/kinh-doanh/phu-quoc-lam-ro-nguyen-nhan-nguoi-dan-xep-hang-cho-do-xang-20261109163124599.htm",
+      "publisher": "Báo điện tử Dân trí",
+      "publisherDomain": "dantri.com.vn",
+      "publishedAt": "2026-11-09T12:02:00Z",
+      "seenAt": "2026-11-09T12:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Vietnam",
+      "sourceCountryCode": "VN",
+      "sourceRegion": "Asia",
+      "sourceLat": 16,
+      "sourceLon": 107,
+      "language": "vi"
+    },
+    {
+      "id": "n-96b6c3e85710f0",
+      "title": "Another UAE beach closed after oil detected: municipality",
+      "titleEnglish": "Another UAE beach closed after oil detected: municipality",
+      "url": "https://www.arabnews.com/middle-east/another-uae-beach-closed-after-oil-detected-municipality-3010787",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-09T15:21:53Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-d8b429d3bb4ccd",
+      "title": "世界气象组织：近四年为有记录以来最热的四年",
+      "titleEnglish": "World Meteorological Organization: the last four years are the hottest four years on record",
+      "url": "https://news.bjd.com.cn/2026/11/09/12024070.shtml",
+      "publisher": "京报网",
+      "publisherDomain": "news.bjd.com.cn",
+      "publishedAt": "2026-11-09T08:47:32Z",
+      "seenAt": "2026-11-09T09:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-b1039cb305afc0",
+      "title": "El Nino Menguat, WMO Catat 2026 Berpotensi Jadi Tahun Terpanas dalam Sejarah",
+      "titleEnglish": "El Niño strengthens, WMO records 2026 as potentially the hottest year in history",
+      "url": "https://esgnow.republika.co.id/berita/to8hvn423/el-nino-menguat-wmo-catat-2026-berpotensi-jadi-tahun-terpanas-dalam-sejarah",
+      "publisher": "Republika Online",
+      "publisherDomain": "esgnow.republika.co.id",
+      "publishedAt": "2026-11-09T12:11:47Z",
+      "seenAt": "2026-11-09T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-9fb034d86036c7",
+      "title": "2026 рік можуть визнати найспекотнішим роком за всю історію спостережень",
+      "titleEnglish": "2026 may be recognised as the hottest year on record",
+      "url": "https://lb.ua/world/2026/11/09/779672_2026_rik_mozhut_viznati.html",
+      "publisher": "LB.ua",
+      "publisherDomain": "lb.ua",
+      "publishedAt": "2026-11-09T12:02:00Z",
+      "seenAt": "2026-11-09T12:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "uk"
+    },
+    {
+      "id": "n-0af67a2c939610",
+      "title": "COP31 summit targets major electrification push as 1.5C goal slips away",
+      "titleEnglish": "COP31 summit targets major electrification push as 1.5C goal slips away",
+      "url": "https://www.abc.net.au/news/2026-11-10/cop31-tingle-global-temperature-1-5c/107366402",
+      "publisher": "abc.net.au",
+      "publisherDomain": "abc.net.au",
+      "publishedAt": "2026-11-09T15:15:10Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-8f4efd9141999f",
+      "title": "\"كوب 31\" .. كيف توظف تركيا وأستراليا قمة المناخ لتعزيز نفوذهما رغم الانتقادات المناخية؟",
+      "titleEnglish": "\"COP31\" .. How Turkey and Australia are using the climate summit to boost their influence despite climate criticism?",
+      "url": "https://www.dw.com/ar/%D8%B1%D8%A6%D8%A7%D8%B3%D8%A9-%D8%BA%D9%8A%D8%B1-%D9%85%D8%B3%D8%A8%D9%88%D9%82%D8%A9-%D9%84%D9%82%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE-%D9%83%D9%88%D8%A8-31-%D8%AA%D8%B1%D9%83%D9%8A%D8%A7-%D9%88%D8%A3%D8%B3%D8%AA%D8%B1%D8%A7%D9%84%D9%8A%D8%A7-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D9%88%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D8%AF%D8%A7%D8%AA/a-79904792",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-09T21:02:00Z",
+      "seenAt": "2026-11-09T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "ar"
+    },
+    {
+      "id": "n-c112beb2585d7c",
+      "title": "New Zealand gets another 'Fossil of the Day' award at COP31 climate conference",
+      "titleEnglish": "New Zealand gets another 'Fossil of the Day' award at COP31 climate conference",
+      "url": "https://www.rnz.co.nz/news/environment_climate/2490677/new-zealand-gets-another-fossil-of-the-day-award-at-cop31-climate-conference",
+      "publisher": "RNZ",
+      "publisherDomain": "rnz.co.nz",
+      "publishedAt": "2026-11-09T23:02:00Z",
+      "seenAt": "2026-11-09T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-fa68cf8f59325c",
+      "title": "The young Kiwis heading to the world's biggest climate change gathering",
+      "titleEnglish": "The young Kiwis heading to the world's biggest climate change gathering",
+      "url": "https://www.rnz.co.nz/news/environment_climate/2481758/the-young-kiwis-heading-to-the-world-s-biggest-climate-change-gathering",
+      "publisher": "RNZ",
+      "publisherDomain": "rnz.co.nz",
+      "publishedAt": "2026-11-09T18:02:00Z",
+      "seenAt": "2026-11-09T18:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-1697cbf679bdce",
+      "title": "Deutschlands verborgener Erdgas-Reichtum",
+      "titleEnglish": "Germany's hidden natural gas wealth",
+      "url": "https://www.dw.com/de/deutschlands-verborgener-erdgas-reichtum-vorkommen-f%C3%B6rderung-import-fracking-energie-co2/audio-77509600",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-09T18:02:00Z",
+      "seenAt": "2026-11-09T18:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-d52098da6e05c0",
+      "title": "日越首脳、重要鉱物で協力 ＬＮＧ事業、早期実現議論",
+      "titleEnglish": "Japan and Vietnam leaders agree on critical minerals cooperation; discuss early realisation of LNG project",
+      "url": "https://373news.com/news/national/detail/2026110901002256/",
+      "publisher": "南日本新聞デジタル",
+      "publisherDomain": "373news.com",
+      "publishedAt": "2026-11-09T12:32:00Z",
+      "seenAt": "2026-11-09T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-59d46099ed933d",
+      "title": "US$ 38.000 millones en juego: las inversiones más grandes en Vaca Muerta y la minería se definen en los próximos 90 días",
+      "titleEnglish": "US$38,000 million at stake: the largest investments in Vaca Muerta and mining will be decided in the next 90 days",
+      "url": "https://www.clarin.com/energia-y-mineria/us-38000-millones-juego-inversiones-grandes-vaca-muerta-mineria-definen-proximos-90-dias_0_KlyIG4DHiG.html",
+      "publisher": "Clarín",
+      "publisherDomain": "clarin.com",
+      "publishedAt": "2026-11-09T16:42:26Z",
+      "seenAt": "2026-11-09T18:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-4f652348f44eb6",
+      "title": "Governo prorroga Gás do Povo até novembro de 2031",
+      "titleEnglish": "Government extends Gás do Povo until November 2031",
+      "url": "https://www.em.com.br/economia/2026/11/7535442-governo-prorroga-gas-do-povo-ate-novembro-de-2031.html",
+      "publisher": "Estado de Minas",
+      "publisherDomain": "em.com.br",
+      "publishedAt": "2026-11-09T12:15:02Z",
+      "seenAt": "2026-11-09T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    }
+  ],
+  "settled": [
+    {
+      "id": "20261102T232930-hacks-reach-fridges-and-wallets-1",
+      "status": "kept",
+      "how": "headline"
+    },
+    {
+      "id": "20261107T201404-chinese-makers-grow-as-others-retreat-1",
+      "status": "kept",
+      "how": "headline"
+    },
+    {
+      "id": "20261101T010841-war-fuel-price-who-pays-2",
+      "status": "failed",
+      "how": "expired"
+    },
+    {
+      "id": "20261101T010841-gen-z-protests-met-by-police-1",
+      "status": "failed",
+      "how": "expired"
+    }
+  ],
+  "readings": [
+    {
+      "id": "one-chip-firm-carries-ai-risk",
+      "line": "Four years after ChatGPT, so much rests on one chip firm that its chief's private life moves share prices and chip policy.",
+      "kicker": "CONCENTRATION / ESPIONAGE / CAPITAL",
+      "firmness": "firm",
+      "watch": [
+        {
+          "what": "A US bill or Commerce Department rule to tighten Chinese access to AI chips is introduced, with the Nvidia spy allegation named as a reason.",
+          "by": "2026-12-05",
+          "because": "If the affair is treated as a security matter because Nvidia carries the AI build, its first lasting result should be law, not only a share price.",
+          "id": "20261110T001511-one-chip-firm-carries-ai-risk-1"
+        },
+        {
+          "what": "Shares of TSMC, SK Hynix or another Nvidia supplier fall 5% or more in a day, with Nvidia's troubles named as the cause.",
+          "by": "2026-11-24",
+          "because": "Concentration means a fall at Nvidia should reach the firms whose revenue depends on it, which a stand-alone celebrity scandal would not.",
+          "id": "20261110T001511-one-chip-firm-carries-ai-risk-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is Huawei. Its finance chief Meng Wanzhou was arrested in Vancouver on 1 December 2018, and by May 2019 the US had put Huawei on its entity list and cut its access to American chips, so one person's case became export policy within six months. The difference is that Nvidia is American and is the seller rather than the buyer, so tighter rules this time would cost a US firm its Chinese revenue.",
+        "paths": [
+          {
+            "name": "Congress tightens China chip rules",
+            "weight": "favoured",
+            "text": "Over the coming weeks to months, bills or Commerce rules restricting sales of Nvidia's China-specific chips gain support from both parties, with the affair cited. The security reading was stated by lawmakers on the first day, and acting against chip sales to China costs Congress little. Nvidia's China revenue falls further in 2027.",
+            "sign": "A bill or rule restricting AI chip sales to China is introduced with the Nvidia allegation named."
+          },
+          {
+            "name": "Board curbs Huang's role",
+            "weight": "possible",
+            "text": "Nvidia's board inquiry reports by early 2027 and adds oversight, an independent chair or a security review of the chief executive's contacts. This is less likely because Huang founded the firm, but Fortune's report that the recovery is capped gives directors a reason to act.",
+            "sign": "Nvidia announces the findings of its inquiry or a change to its board or to its chief executive's role."
+          },
+          {
+            "name": "Shares recover and the story fades",
+            "weight": "unlikely",
+            "text": "Nvidia regains its price from before the admission within weeks and lawmakers move on. Unlikely because the allegation involves a foreign intelligence service, and such cases produce hearings even when nothing is proved.",
+            "sign": "Nvidia shares are reported back at their level from before the affair was admitted."
+          }
+        ],
+        "decade": "Over ten years the firms that supply AI computing are likely to be treated by states as strategic suppliers, with export rules, security vetting of executives and pressure to spread supply across more makers, as Google's own chips already suggest."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Nvidia's chief executive Jensen Huang admitted an affair with a woman alleged to be a Chinese spy, and on the same day Nvidia shares fell 8 to 9 per cent, US lawmakers called for tighter limits on chip sales to China, and the Bank of England's governor and Wall Street lenders warned about AI valuations and AI debt. Headlines from China, Taiwan, Greece, the Netherlands, Russia, Malaysia and the United States treated a private matter as a market event and a security event at once. That is what follows when one company supplies most of the chips an investment boom is spent on: its chief's conduct is priced within hours, and his contacts become a question of export policy.",
+      "events": [
+        {
+          "label": "Huang admits affair with alleged spy",
+          "articleIds": [
+            "n-fefa83810d2260",
+            "n-3ae7a817a433cf",
+            "n-540aff21cbbc5b",
+            "n-e8c1a7789292a0",
+            "n-69a884358e552d"
+          ]
+        },
+        {
+          "label": "Beijing dismisses the spying claim",
+          "articleIds": [
+            "n-0c9886d900031a",
+            "n-526fb739288830"
+          ]
+        },
+        {
+          "label": "Nvidia shares fall 8 to 9 per cent",
+          "articleIds": [
+            "n-0d8d3750a3419a",
+            "n-b064f1ff016f43",
+            "n-654e35f5ca4f4a",
+            "n-5ff80296b1c150",
+            "n-96809a2a292b77",
+            "n-768ed7d8480967"
+          ]
+        },
+        {
+          "label": "Lawmakers press for China chip limits",
+          "articleIds": [
+            "n-a2782b903d80c9",
+            "n-9b1433c36fc621",
+            "n-6b6c42e64b4da4"
+          ]
+        },
+        {
+          "label": "Warnings on AI valuations and debt",
+          "articleIds": [
+            "n-5612857712a659",
+            "n-88ef03437bc0ab"
+          ]
+        },
+        {
+          "label": "Google sells its own AI chips",
+          "articleIds": [
+            "n-8dfb21d15c88fa"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "The affair and the denial",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "An affair reported as a spy case",
+              "text": "China's nbd.com.cn led with Huang admitting the affair and Musk and Trump responding. BBC News Mundo described an infidelity and an alleged Chinese espionage plot, and Greece's iefimerida called it the scandal that shook the business world, noting that Nvidia is the world's second largest company. The Dutch NOS put it at the top of Nieuwsuur, and CNBC reported that Nvidia is investigating the affair and named the board member likely to lead.",
+              "articleIds": [
+                "n-fefa83810d2260",
+                "n-3ae7a817a433cf",
+                "n-540aff21cbbc5b",
+                "n-e8c1a7789292a0",
+                "n-69a884358e552d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Beijing and a Chinese commentator reply",
+              "text": "International Business Times UK reported Beijing dismissing the alleged operation as nothing but smears against China. In Taiwan, storm.mg carried the Chinese commentator Hu Xijin's claim that China never requires female intelligence officers to sleep with their targets. Neither headline says what the woman had access to; the argument is about whom she worked for.",
+              "articleIds": [
+                "n-0c9886d900031a",
+                "n-526fb739288830"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Shares, lawmakers and lenders",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "The share price",
+              "text": "Kommersant reported Nvidia shares down 9 per cent, UDN in Taiwan reported an 8 per cent fall at the open and nearly 400 billion lost from Huang's holding, and Habertürk reported the shares falling. Fortune put Huang's personal loss at $21 billion in an AI rout and said Nvidia's recovery would be capped after he admitted the affair. The Star in Malaysia said Nvidia's woes posed a fresh test for stocks, and CNBC published estimates of Nvidia's exposure to Chinese revenue.",
+              "articleIds": [
+                "n-0d8d3750a3419a",
+                "n-b064f1ff016f43",
+                "n-654e35f5ca4f4a",
+                "n-5ff80296b1c150",
+                "n-96809a2a292b77",
+                "n-768ed7d8480967"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "Washington",
+              "text": "The Straits Times reported the House Democratic leader saying lawmakers need answers on Nvidia and wanting restrictions on chips to China, and some lawmakers saying the spy allegations are likely to spur laws tightening China's access to AI chips. It also reported Trump saying Huang told him he did not know the woman was a spy.",
+              "articleIds": [
+                "n-a2782b903d80c9",
+                "n-9b1433c36fc621",
+                "n-6b6c42e64b4da4"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f5",
+              "label": "Warnings on valuation and debt",
+              "text": "The Bournemouth Echo carried the Bank of England governor's warning that overvalued AI stocks may cause a bubble to burst. The Star reported banks and investors growing wary of AI debt after the market selloff.",
+              "articleIds": [
+                "n-5612857712a659",
+                "n-88ef03437bc0ab"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Why one firm's chief is priced",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Concentration",
+              "text": "Nvidia's chips are what the AI build is spent on, so its share price carries much of the AI trade, and the Bank of England's warning and the lenders' caution are about that same trade. When a market's value rests this heavily on one firm, events that would be a governance matter at a smaller company are priced within hours. Fortune's word capped is the market saying that the firm's future is now tied to its chief's standing.",
+              "articleIds": [
+                "n-5ff80296b1c150",
+                "n-5612857712a659",
+                "n-88ef03437bc0ab"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "dotcom-2000"
+              ]
+            },
+            {
+              "id": "f7",
+              "label": "Security inside commerce",
+              "text": "Because Washington treats advanced chips as a strategic good, an alleged spy near the chief executive becomes an argument for export law, as the Straits Times reports lawmakers saying. Beijing's denial and CNBC's China revenue estimates show both governments and investors reading the affair as a question of who gets the chips.",
+              "articleIds": [
+                "n-9b1433c36fc621",
+                "n-0c9886d900031a",
+                "n-768ed7d8480967"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f8",
+              "label": "A selloff already under way",
+              "text": "Fortune calls the fall part of an AI rout, and the warnings about AI debt and valuations stand apart from the affair. Nvidia's drop may be the market finding a reason for a correction it was ready to make. A scandal involving a famous man and a spy draws readers in every language, so the number of countries reporting it measures interest, not consequence.",
+              "articleIds": [
+                "n-5ff80296b1c150",
+                "n-88ef03437bc0ab"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f9",
+              "label": "What the events do not share",
+              "text": "The affair is private conduct, the Bank of England's warning is about prices, and the proposed bills are about export policy; they meet in one firm but have separate causes. The concentration is also being contested: Digital Daily reports Google unveiling two TPU chips of its own for sale, which is the kind of rival supply that would make any one firm's troubles matter less.",
+              "articleIds": [
+                "n-8dfb21d15c88fa"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "AI / CHIPS / EXPORT CONTROL",
+          "text": "The arrangement that put Nvidia at the centre of these headlines began with two events in late 2022. On 7 October 2022 the US Commerce Department barred sales of the most advanced AI chips and chipmaking tools to China, and it tightened the rules again in October 2023. Seven weeks after the first rules, ChatGPT launched and reached a hundred million users in two months, and the companies racing to build similar models bought Nvidia's data-centre chips faster than it could make them. Nvidia designed reduced chips to sell to China within the rules, and in April 2025 it took a charge of about $5.5 billion when Washington required licences for them. Its market value passed $4 trillion in July 2025. By the time of these headlines Nvidia is both the main supplier of the AI build and the main object of US-China chip policy, which is why the Straits Times can report lawmakers turning a private affair into an argument for new export law within a day.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CAPITAL / CONCENTRATION / INDEX FUNDS",
+          "text": "After Lehman Brothers failed in September 2008, central banks held interest rates near zero for most of a decade and bought bonds in large amounts, and money that earned nothing in deposits went into shares. Much of it went through index funds, which buy companies in proportion to their size, so the largest firms took a growing share of every new dollar. By the mid-2020s the ten largest companies made up more than a third of the S&P 500 by value. Adam Tooze's Crashed describes how the response to 2008 made the Federal Reserve the lender of last resort to a global dollar system; one result is that savers in Kuala Lumpur, Taipei and Moscow came to hold the same few American firms. That is why the Star in Malaysia, UDN in Taiwan and Kommersant in Russia all reported Nvidia's fall on the same day, and why a Bank of England governor now speaks about AI share prices as a risk at all.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "SEMICONDUCTORS / TAIWAN / SUPPLY CHAINS",
+          "text": "Nvidia was founded in California in 1993 by Jensen Huang, who was born in Taiwan, in the years when the end of the Cold War let chip design and chip making be split across borders. TSMC, founded in Hsinchu in 1987, made that model work: firms such as Nvidia designed chips and a contract foundry in Taiwan built them. In 1994 CoCom, the Western body set up to deny technology to the Soviet bloc, was wound up, and its successor of 1996, the Wassenaar Arrangement, was looser. China joined the WTO in 2001 and became the largest market for chips. The last time one hardware supplier carried a market's hopes was Cisco, briefly the world's most valuable company in March 2000, before its shares lost most of their value. The chain that resulted is designed in the United States, built in Taiwan and sold into China, and UDN's report of Huang's personal loss shows that Taiwan reads him as one of its own.",
+          "trajectoryIds": [
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE / SCIENCE / SECRECY",
+          "text": "In the decades after 1945 the technologies that governments most feared to lose were built by the state and guarded as secrets. The atomic bomb was tested at Trinity in July 1945 as a secret, tax-funded project, and the arrest of the physicist Klaus Fuchs in 1950 for passing its designs to Moscow set the pattern of the spy who reaches a strategic technology through a person. In 1949 the Western allies set up CoCom to keep advanced goods from the Soviet bloc. Artificial intelligence was named as a field at Dartmouth in 1956, and Sputnik in 1957 produced ARPA. Seventy years later the builder of the most strategic computing hardware is a listed company and its chief a public figure, but Washington treats his circle as it once treated a weapons laboratory. The Straits Times report that the spy allegation will spur chip laws applies the older idea of the guarded state secret to a private firm.",
+          "trajectoryIds": [
+            "trinity-1945",
+            "dartmouth-1956",
+            "sputnik-1957"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-fefa83810d2260",
+        "n-3ae7a817a433cf",
+        "n-540aff21cbbc5b",
+        "n-e8c1a7789292a0",
+        "n-69a884358e552d",
+        "n-0c9886d900031a",
+        "n-526fb739288830",
+        "n-0d8d3750a3419a",
+        "n-b064f1ff016f43",
+        "n-654e35f5ca4f4a",
+        "n-5ff80296b1c150",
+        "n-96809a2a292b77",
+        "n-768ed7d8480967",
+        "n-a2782b903d80c9",
+        "n-9b1433c36fc621",
+        "n-6b6c42e64b4da4",
+        "n-5612857712a659",
+        "n-88ef03437bc0ab",
+        "n-8dfb21d15c88fa"
+      ]
+    },
+    {
+      "id": "oil-prices-follow-talk-not-the-gulf",
+      "line": "Oil prices now follow what Trump says about Iran talks more than the attacks on the Saudi pipeline that bypasses Hormuz.",
+      "kicker": "DIPLOMACY / CHOKEPOINTS / PRICES",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "Brent is reported lower over a week in which a further strike on Saudi or Emirati oil infrastructure is also reported.",
+          "by": "2026-11-21",
+          "because": "If prices follow statements about talks rather than events around the Gulf, a strike on the bypass routes should not reverse the fall.",
+          "id": "20261110T001511-oil-prices-follow-talk-not-the-gulf-1"
+        },
+        {
+          "what": "Saudi Arabia or Aramco reports reduced flows, repairs or a halt on the East-West pipeline or at Yanbu after an attack.",
+          "by": "2026-11-28",
+          "because": "If the fighting has moved to the routes built to avoid Hormuz, the damage should show there rather than in the strait.",
+          "id": "20261110T001511-oil-prices-follow-talk-not-the-gulf-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the Tanker War of 1984 to 1988, when Iran and Iraq attacked shipping in the Gulf and the US reflagged Kuwaiti tankers in 1987, yet oil prices stayed low because the world had spare supply. Abqaiq in September 2019 showed the other pattern: a drone and missile strike halved Saudi output, Brent rose nearly 15 per cent in a day, and most of the rise was gone within two weeks. The present differs because Hormuz itself is reported closed and there is little spare route, so the bypass carries more weight than in either case.",
+        "paths": [
+          {
+            "name": "Talks drag while prices drift down",
+            "weight": "favoured",
+            "text": "Through November and December Washington and Tehran keep talking through Qatar, Trump keeps describing progress, and Brent keeps falling even as the Houthis strike Saudi targets and the blockade continues. The join points here because traders have shown they will price statements about Hormuz ahead of what happens around it.",
+            "sign": "Brent is reported below $100 a barrel with the Iran talks named as the reason."
+          },
+          {
+            "name": "A bypass strike reverses the fall",
+            "weight": "possible",
+            "text": "A strike that shuts the East-West pipeline or the Yanbu terminal for days sends Brent up 5 per cent or more, because with Hormuz closed there is no second route for that oil. This is less likely only because earlier Houthi attacks on Saudi oil caused short outages.",
+            "sign": "Aramco reports a halt on the East-West pipeline or at Yanbu."
+          },
+          {
+            "name": "A deal reopens Hormuz by December",
+            "weight": "unlikely",
+            "text": "A signed agreement lets tankers through Hormuz before the end of the year. Unlikely because the US says the blockade and the Iron Gate operation continue and Marines are expected in the region this month.",
+            "sign": "Tankers are reported crossing Hormuz under agreed terms."
+          }
+        ],
+        "decade": "Over ten years the pipelines and ports built to avoid Hormuz are likely to be defended and attacked as the strait itself once was, and importers in Africa and Asia will pay a standing premium for routes that an armed group in Yemen can reach."
+      },
+      "continues": "iran-pressed-by-land-and-sea",
+      "change": "The previous edition had Washington pressing Iran by blockade while Saudi Arabia and the Houthis traded strikes. Since then Trump has said new strikes are unlikely and Brent has fallen about 5 per cent, while the Saudi pipeline that carries oil around Hormuz was reported targeted and the Houthis extended their warning to foreign firms in Saudi Arabia. The blockade continues.",
+      "claim": "Trump said after talks with Qatar's prime minister that there was positive momentum towards ending the conflict with Iran and that new strikes were unlikely, and Brent crude fell 5 per cent; on the same day Saudi Arabia said its East-West pipeline had been targeted near Medina, the Houthis warned foreign firms in Saudi Arabia of strikes, and Trump said the blockade of Iran would continue. The East-West pipeline is the route Saudi Arabia built to carry oil around the Strait of Hormuz. Prices are following what is said about talks, while the attacks have moved to the routes meant to make Hormuz matter less, and exporters in Kenya and drivers in Vietnam still carry the war's cost.",
+      "events": [
+        {
+          "label": "Trump says Iran talks have momentum",
+          "articleIds": [
+            "n-6d07a782198c11",
+            "n-f47d76865743de",
+            "n-5343bb6bcace91",
+            "n-e3588f50ca1f1d"
+          ]
+        },
+        {
+          "label": "Brent falls 5 per cent",
+          "articleIds": [
+            "n-51cd9cdbc22b04",
+            "n-cc5108db1b1a66",
+            "n-9fbec166054f40"
+          ]
+        },
+        {
+          "label": "Saudi pipeline targeted, Houthis warn firms",
+          "articleIds": [
+            "n-613f048d29190e",
+            "n-149ce78273c490",
+            "n-9d666d4c0b96d6"
+          ]
+        },
+        {
+          "label": "US keeps blockade, Marines expected",
+          "articleIds": [
+            "n-c7aa73159cade9",
+            "n-046d5b596388e0",
+            "n-17b882c7957135"
+          ]
+        },
+        {
+          "label": "Exporters and drivers carry the cost",
+          "articleIds": [
+            "n-8eaeafe797861f",
+            "n-c169bb51442be6",
+            "n-96b6c3e85710f0"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "What was said and how oil moved",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "The statements",
+              "text": "Xinhua reported Trump seeing positive momentum towards ending the US-Iran conflict after talks with the Qatari prime minister, La Tercera reported him speaking of progress, and SAMAA TV reported him calling new strikes unlikely amid peace talks. Masrawy in Egypt reported the same president announcing US readiness to strike Iran at any time.",
+              "articleIds": [
+                "n-6d07a782198c11",
+                "n-f47d76865743de",
+                "n-5343bb6bcace91",
+                "n-e3588f50ca1f1d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "The price",
+              "text": "South Korea's Financial News reported Brent plunging 5 per cent after Trump said the possibility of ordering an attack was low. Ukraine's UNIAN reported oil rapidly getting cheaper after his statements, and 47NEWS in Japan reported New York stocks briefly up more than 700 points as oil fell.",
+              "articleIds": [
+                "n-51cd9cdbc22b04",
+                "n-cc5108db1b1a66",
+                "n-9fbec166054f40"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "What happened on land and sea",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Saudi Arabia and Yemen",
+              "text": "Jordan's Al-Anbat reported Saudi Arabia saying the East-West pipeline was targeted in the Medina region. Xinhua reported the Houthis warning foreign firms in Saudi Arabia of possible strikes amid an escalating conflict, and Argentina's Cadena 3 reported an airstrike near Sanaa that left 44 dead, most of them women and children.",
+              "articleIds": [
+                "n-613f048d29190e",
+                "n-149ce78273c490",
+                "n-9d666d4c0b96d6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "The blockade",
+              "text": "China's nbd.com.cn reported Trump saying he will continue the blockade of Iran and the Iron Gate special operation. Al Jazeera asked whether a new US task force can stop weapons reaching an Iran Trump calls sealed off, and Al Jazeera's Arabic site reported expectations of Marines arriving in the region this month while President Pezeshkian insists on dialogue.",
+              "articleIds": [
+                "n-c7aa73159cade9",
+                "n-046d5b596388e0",
+                "n-17b882c7957135"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f5",
+              "label": "Who pays",
+              "text": "Kenya's Business Daily reported tea and meat exporters losing Sh11 billion in three months of the Gulf war. Vietnam's Dân trí reported the authorities on Phu Quoc explaining why people were queuing to buy petrol, and Arab News reported another UAE beach closed after oil was detected in the water.",
+              "articleIds": [
+                "n-8eaeafe797861f",
+                "n-c169bb51442be6",
+                "n-96b6c3e85710f0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Where the risk has moved",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "The bypass becomes a target",
+              "text": "The East-West pipeline carries crude from the eastern fields to Yanbu on the Red Sea; with Hormuz shut it is the main way Saudi oil reaches buyers. The Houthis on the Red Sea can reach it, and their warning to foreign firms widens the list of targets to the companies that run it. A price that falls on a statement about talks is pricing the end of the Hormuz closure, not the safety of the routes around it.",
+              "articleIds": [
+                "n-613f048d29190e",
+                "n-149ce78273c490",
+                "n-51cd9cdbc22b04"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "abqaiq-2019"
+              ]
+            },
+            {
+              "id": "f7",
+              "label": "Talk and pressure together",
+              "text": "Washington keeps the blockade and talks of Marines while the president speaks of momentum, which lets traders hear peace while Tehran feels pressure. Importers pay on a different clock: Kenya's losses are three months of lost Gulf trade, which one day's fall in Brent does not return.",
+              "articleIds": [
+                "n-c7aa73159cade9",
+                "n-6d07a782198c11",
+                "n-8eaeafe797861f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f8",
+              "label": "Other reasons oil fell",
+              "text": "Oil fell on a day when share markets were also shaken by Nvidia and the AI selloff, so weaker demand expectations may explain part of the fall. The pipeline report gives no damage or lost volume, and the Houthis have struck Saudi oil before without moving prices for long. The Saudi-Houthi war has run since 2015 and has its own causes.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f9",
+              "label": "What the events do not share",
+              "text": "The price fall is one day's trading on a statement; the pipeline attack is one strike in the separate Yemeni war; Kenya's losses are trade lost over a quarter; the Phu Quoc queues are explained locally. They share a region and a war in the background, not a single cause, and a reader could tell them as four stories.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "SHIPPING / RED SEA / BLOCKADE",
+          "text": "In this decade the Gulf's conflicts reached oil buyers mainly through shipping. From November 2023 the Houthis attacked merchant ships in the Red Sea in the name of Gaza, and most container lines diverted around the Cape of Good Hope, adding about ten days to voyages between Asia and Europe. American and British strikes on Yemen from January 2024 did not stop them. In June 2025 Israel and Iran fought a twelve-day war that American bombers ended at Fordow. By these headlines, the war that followed closed Hormuz, and the US now enforces a blockade of Iran. The Houthis can therefore threaten both outlets for Saudi oil: the Gulf, and the Red Sea route through Yanbu. Xinhua's report of their warning to foreign firms inside Saudi Arabia extends a campaign that began against ships to the companies operating the bypass.",
+          "trajectoryIds": [
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SHALE / OPEC / PRICE SIGNALS",
+          "text": "After 2008 the United States became the world's largest oil producer. Horizontal drilling and fracking in Texas and North Dakota raised US crude output from about five million barrels a day in 2008 to more than twelve million by 2019, and in December 2015 Congress lifted the forty-year ban on crude exports. Saudi Arabia answered by forming OPEC+ with Russia in 2016 to manage prices together. One result is that an American president's statements now move oil prices as a producer's do, because traders read them as signals about supply as well as about war. In September 2019, after the Abqaiq attack, Brent rose nearly 15 per cent in a day and fell back within two weeks once Washington offered reserves and Riyadh said output would return. The Korean Financial News report that Brent fell 5 per cent on Trump's word follows that pattern of a price led by statements.",
+          "trajectoryIds": [
+            "abqaiq-2019"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "CONTAINMENT / SANCTIONS / YEMEN",
+          "text": "The end of the Cold War left the United States as the only outside power in the Gulf. After the 1991 war against Iraq it kept forces in Saudi Arabia and adopted in 1993 a policy of containing Iraq and Iran together, backed from 1996 by sanctions on firms investing in Iran's oil. Yemen united in 1990; the Houthi movement grew in the north from 2004, took Sanaa in 2014, and a Saudi-led coalition entered the war in March 2015. The nuclear agreement of July 2015 briefly traded sanctions relief for limits, and the US left it in 2018. The present blockade is the most direct form of that thirty-year policy of pressure on Iran's oil. The strike on the Saudi pipeline and the airstrike near Sanaa that Cadena 3 reports killed 44 belong to the separate Yemeni war of 2015, which now runs beside the American one.",
+          "trajectoryIds": [
+            "jcpoa-2015"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OIL / PROTECTION / PIPELINES",
+          "text": "In February 1945 Roosevelt and Ibn Saud agreed, on a cruiser in the Great Bitter Lake, an unwritten exchange of American protection for Saudi oil. Saudi Arabia spent the following decades building ways to sell that oil without depending on one passage. The Trans-Arabian Pipeline to Lebanon, opened in 1950, avoided the Suez Canal, which Egypt nationalised in 1956 and which was closed again from 1967 to 1975. During the Iran-Iraq war, as both sides attacked tankers in the Gulf, Saudi Arabia opened the East-West pipeline in 1981 to carry crude from the eastern fields to Yanbu on the Red Sea, avoiding Hormuz. That is the pipeline Al-Anbat reports targeted near Medina. The bargain of 1945 still shows in the American blockade and the Qatari talks, but the protection was organised around the Gulf, and the bypass now runs within range of an armed group in Yemen.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "suez-1956"
+          ],
+          "bookIds": [
+            "the-prize"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-6d07a782198c11",
+        "n-f47d76865743de",
+        "n-5343bb6bcace91",
+        "n-e3588f50ca1f1d",
+        "n-51cd9cdbc22b04",
+        "n-cc5108db1b1a66",
+        "n-9fbec166054f40",
+        "n-613f048d29190e",
+        "n-149ce78273c490",
+        "n-9d666d4c0b96d6",
+        "n-c7aa73159cade9",
+        "n-046d5b596388e0",
+        "n-17b882c7957135",
+        "n-8eaeafe797861f",
+        "n-c169bb51442be6",
+        "n-96b6c3e85710f0"
+      ]
+    },
+    {
+      "id": "gas-sought-in-the-hottest-years",
+      "line": "As the last four years are confirmed the hottest, governments seek new gas and LNG while the climate summit plans electrification.",
+      "kicker": "SUPPLY / EMISSIONS / DIPLOMACY",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "The COP31 final text is adopted with electrification or grid targets but without a dated commitment to phase out or transition away from fossil fuels.",
+          "by": "2026-11-27",
+          "because": "If governments are securing gas while the summit plans electrification, the text should set power targets and leave gas untouched.",
+          "id": "20261110T001511-gas-sought-in-the-hottest-years-1"
+        },
+        {
+          "what": "A European or Asian government approves a new domestic gas field, a gas drilling trial or an LNG import contract and cites supply security.",
+          "by": "2026-12-06",
+          "because": "The join holds only if the turn to gas is policy across importing countries rather than a handful of unrelated projects.",
+          "id": "20261110T001511-gas-sought-in-the-hottest-years-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is 2022. After Russia invaded Ukraine, Germany built floating LNG terminals within months, opening Wilhelmshaven in December 2022, and signed a fifteen-year supply deal with Qatar in November, the same month COP27 in Sharm el-Sheikh failed to agree to phase down all fossil fuels. Europe's emissions still fell because wind and solar grew faster. The difference now is that the shortfall is in Gulf supply, which hits Asian importers such as Japan and Vietnam hardest, and there is no second Gulf to turn to.",
+        "paths": [
+          {
+            "name": "Gas deals beside electrification targets",
+            "weight": "favoured",
+            "text": "Over the next six months more governments take gas supply or drilling decisions, and COP31 ends with electrification and grid targets but no date for fossil fuels. The join points this way because each government is answering a shortage it feels now, while the summit's targets are written for 2030 and beyond.",
+            "sign": "COP31 closes with electrification targets and no fossil fuel phase-out date."
+          },
+          {
+            "name": "The shock favours solar and batteries",
+            "weight": "possible",
+            "text": "High LNG prices make imported gas too costly for Vietnam and others, and they turn to solar and storage tenders instead. Possible because new gas takes years to flow, while solar can be built within a year.",
+            "sign": "An Asian government announces a solar or storage tender and cites LNG or fuel import costs."
+          },
+          {
+            "name": "Peace shelves the gas projects",
+            "weight": "unlikely",
+            "text": "A deal reopens Hormuz, gas prices fall, and plans such as Germany's reserves and the Japan-Vietnam LNG project are delayed. Unlikely within months because the talks have not yet ended the blockade.",
+            "sign": "An LNG or gas field project is postponed with lower prices named as the reason."
+          }
+        ],
+        "decade": "Over ten years gas is likely to remain the security fuel of importing countries under contracts running into the late 2030s, while the warming the WMO reports passes 1.5C on a lasting basis, so the two will be reported side by side for most of the decade."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "In the week the World Meteorological Organization said the last four years were the hottest on record and COP31 set out an electrification push as the 1.5C goal slips, Deutsche Welle examined Germany's untapped gas, the leaders of Japan and Vietnam discussed an early start to an LNG project, Argentina awaited $38 billion of investment decisions for Vaca Muerta and mining within 90 days, and Brazil extended its household cooking gas programme to 2031. Governments are securing gas supply at the same time as they plan to electrify. With the Gulf war having cut supply through Hormuz, gas is being treated as the fuel that keeps power stations and kitchens running, and the summit's targets are written around that choice.",
+      "events": [
+        {
+          "label": "WMO confirms the hottest four years",
+          "articleIds": [
+            "n-d8b429d3bb4ccd",
+            "n-b1039cb305afc0",
+            "n-9fb034d86036c7"
+          ]
+        },
+        {
+          "label": "COP31 plans electrification as 1.5C slips",
+          "articleIds": [
+            "n-0af67a2c939610",
+            "n-8f4efd9141999f",
+            "n-c112beb2585d7c",
+            "n-fa68cf8f59325c"
+          ]
+        },
+        {
+          "label": "Germany weighs its untapped gas",
+          "articleIds": [
+            "n-1697cbf679bdce"
+          ]
+        },
+        {
+          "label": "Japan and Vietnam discuss LNG project",
+          "articleIds": [
+            "n-d52098da6e05c0"
+          ]
+        },
+        {
+          "label": "Vaca Muerta investment decisions due",
+          "articleIds": [
+            "n-59d46099ed933d"
+          ]
+        },
+        {
+          "label": "Brazil extends cooking gas aid to 2031",
+          "articleIds": [
+            "n-4f652348f44eb6"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Heat records and the summit",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "The records",
+              "text": "Beijing Daily reported the WMO saying the last four years are the hottest four on record. Indonesia's Republika reported El Niño strengthening and 2026 potentially the hottest year in history, and Ukraine's LB.ua reported that 2026 may be recognised as the hottest year on record.",
+              "articleIds": [
+                "n-d8b429d3bb4ccd",
+                "n-b1039cb305afc0",
+                "n-9fb034d86036c7"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "The summit",
+              "text": "Australia's ABC reported COP31 targeting a major electrification push as the 1.5C goal slips away. DW's Arabic service asked how Turkey and Australia are using the summit to raise their influence despite criticism of their climate records, and RNZ reported New Zealand receiving another Fossil of the Day award and young New Zealanders travelling to the conference.",
+              "articleIds": [
+                "n-0af67a2c939610",
+                "n-8f4efd9141999f",
+                "n-c112beb2585d7c",
+                "n-fa68cf8f59325c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Gas sought in four places",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Germany, Japan and Vietnam, Argentina, Brazil",
+              "text": "DW ran a piece on Germany's hidden natural gas wealth. Minami-Nippon Shimbun reported the Japanese and Vietnamese leaders agreeing on critical minerals cooperation and discussing the early realisation of an LNG project. Clarín reported that $38 billion in the largest investments in Vaca Muerta and mining will be decided in the next 90 days, and Estado de Minas reported Brazil's government extending its Gás do Povo programme until November 2031.",
+              "articleIds": [
+                "n-1697cbf679bdce",
+                "n-d52098da6e05c0",
+                "n-59d46099ed933d",
+                "n-4f652348f44eb6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Supply first, targets after",
+          "fragments": [
+            {
+              "id": "f4",
+              "label": "A turn to gas for security",
+              "text": "These are different acts: a German debate about its own reserves, a Japanese-Vietnamese state project, an Argentine investment window and a Brazilian subsidy. What they share is gas treated as a matter of supply security in the year the war closed Hormuz. The summit's chosen word, electrification, fits that turn, because power can be generated from gas and a target for electrification does not require anyone to stop drilling.",
+              "articleIds": [
+                "n-1697cbf679bdce",
+                "n-d52098da6e05c0",
+                "n-0af67a2c939610"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "oil-embargo-1973"
+              ]
+            },
+            {
+              "id": "f5",
+              "label": "A dated shortage against a slow harm",
+              "text": "The WMO records describe a harm that builds year by year, while the gas decisions answer a shortage felt this month. Rob Nixon's distinction between slow harm and the sudden event explains why the second wins in a cabinet: a fuel shortfall has a date and a price, a fraction of a degree of warming does not. New Zealand's repeated Fossil of the Day award is the summit recording the gap without changing it.",
+              "articleIds": [
+                "n-d8b429d3bb4ccd",
+                "n-c112beb2585d7c",
+                "n-59d46099ed933d"
+              ],
+              "bookIds": [
+                "slow-violence"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "None of the gas stories names the war",
+              "text": "Vaca Muerta has drawn investment since YPF's deal with Chevron in 2013 and Argentina's investment incentive law of 2024, and the Japan-Vietnam LNG talks belong to a long programme. Brazil's Gás do Povo is a subsidy for poor households' cooking gas, not new supply, and DW's German piece is a feature, not a decision.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f7",
+              "label": "What the events do not share",
+              "text": "The gas headlines have no common decision-maker or moment: one is a subsidy, one an investment calendar, one a communiqué and one a report. The pattern may be the ordinary flow of gas news placed beside a climate summit week, and an edition gathered in another week would show the same gas stories with no summit beside them.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "WAR / LNG / HEAT RECORDS",
+          "text": "This decade turned gas into a security question. When Russia cut pipeline deliveries to Europe in 2022, European gas prices rose to many times their usual level, and the EU's REPowerEU plan of May 2022 replaced Russian gas with LNG from the United States and Qatar. Asian buyers such as Pakistan and Bangladesh were outbid for cargoes and suffered blackouts. At COP28 in Dubai in December 2023 governments agreed for the first time to transition away from fossil fuels, without a date. In 2024 the global average temperature passed 1.5C above pre-industrial levels for a full calendar year. By these headlines, the war with Iran has now shut the Gulf supply on which Asian LNG importers depended most, and the WMO reports the last four years as the hottest on record. COP31's turn to electrification, reported by the ABC, is a summit choosing a target that a gas-fired power system can also meet.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SHALE / FRACKING / INVESTMENT",
+          "text": "Much of the gas now being sought was made available by the technique that remade American energy after 2008. Horizontal drilling and fracking opened the Marcellus and other shale formations, and the US began exporting LNG from Sabine Pass in Louisiana in February 2016, becoming the largest exporter by 2023. Other countries tried to copy it with mixed results. Argentina renationalised YPF from Repsol in 2012 and signed a deal with Chevron in 2013 to develop Vaca Muerta, the shale formation in Neuquén, though output grew slowly until new pipelines were built in the 2020s. Germany went the other way and in 2016 banned commercial fracking of shale, which is why DW can describe its gas as hidden. The Paris agreement of December 2015 set the 1.5C aim in the same months as the first US exports. Clarín's report of $38 billion in decisions due within 90 days is Vaca Muerta reaching the scale the 2013 deal intended.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "TREATIES / DEVELOPMENT / ASIAN DEMAND",
+          "text": "The climate treaties and the growth of Asian energy demand began together. The Intergovernmental Panel on Climate Change was set up in 1988, the UN climate convention was signed at Rio in 1992, and the Kyoto Protocol of 1997 bound only rich countries, leaving China, India and Vietnam free to grow on coal. Vietnam's reforms of 1986 opened an economy whose electricity demand grew fast for three decades; it received its first LNG cargo only in 2023. Japan, long the largest LNG buyer, relied on it even more after the Fukushima disaster of 2011 shut its nuclear plants, and it has financed gas projects across Southeast Asia. Ulrich Beck's Risk Society described a modernity that produces risks and then argues over who bears them. The Japan-Vietnam talks reported by Minami-Nippon settle that argument in favour of supply: Japan offers finance, and Vietnam gets a fuel its climate pledges allow as a bridge.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "risk-society"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OIL SHOCKS / DIVERSIFICATION / STATE ENTERPRISE",
+          "text": "The habit of treating fuel as a matter of state security comes from the decades after 1945, when governments built national companies to own it. Brazil founded Petrobras in 1953 under the slogan that the oil is ours, and its subsidies for household gas descend from the idea that the state guarantees a basic fuel. The Netherlands found the Groningen field in 1959 and built north-west Europe's gas grid on it. The Arab oil embargo of October 1973 then taught importers to diversify: Japan turned to LNG and nuclear power, France to nuclear, and West Germany deepened the pipeline deals with the Soviet Union it had begun in 1970. Each answer to an oil shock was a new source of supply rather than less use. Estado de Minas's report that Brazil will run Gás do Povo until 2031 and Germany's debate over its own reserves follow the lesson of 1973, half a century later and in a hotter world.",
+          "trajectoryIds": [
+            "oil-embargo-1973"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-d8b429d3bb4ccd",
+        "n-b1039cb305afc0",
+        "n-9fb034d86036c7",
+        "n-0af67a2c939610",
+        "n-8f4efd9141999f",
+        "n-c112beb2585d7c",
+        "n-fa68cf8f59325c",
+        "n-1697cbf679bdce",
+        "n-d52098da6e05c0",
+        "n-59d46099ed933d",
+        "n-4f652348f44eb6"
+      ]
+    }
+  ],
+  "refused": [
+    {
+      "id": "after-the-rout-cooperation-withdrawn",
+      "reasons": [
+        "line is a list; it should say what the join shows, not list the evidence"
+      ]
+    }
+  ]
+}
