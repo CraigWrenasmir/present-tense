@@ -1,0 +1,2058 @@
+{
+  "schemaVersion": 5,
+  "generatedAt": "2026-11-10T21:59:36Z",
+  "newsGeneratedAt": "2026-11-10T21:47:41Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-7",
+  "previousNewsGeneratedAt": "2026-11-10T00:15:11Z",
+  "usage": {
+    "input": 73930,
+    "output": 55027,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-a86b3040ed9633",
+      "title": "Iran-backed militant helped plot attack on UK’s Fairford base from US jail, Justice Department says",
+      "titleEnglish": "Iran-backed militant helped plot attack on UK’s Fairford base from US jail, Justice Department says",
+      "url": "https://www.arabnews.com/world/iran-backed-militant-helped-plot-attack-on-uks-fairford-base-from-us-jail-justice-department-says-3011045",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-10T21:02:10Z",
+      "seenAt": "2026-11-10T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-6ba3140e5788b3",
+      "title": "US charges three men over terror plots, including planned assault on UK airbase",
+      "titleEnglish": "US charges three men over terror plots, including planned assault on UK airbase",
+      "url": "https://www.abc.net.au/news/2026-11-11/us-charges-3-men-with-plotting-terror-attacks/107371492",
+      "publisher": "abc.net.au",
+      "publisherDomain": "abc.net.au",
+      "publishedAt": "2026-11-10T21:10:35Z",
+      "seenAt": "2026-11-10T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-12593add9ede42",
+      "title": "How did Mildenhall become crucial to the US Air Force?",
+      "titleEnglish": "How did Mildenhall become crucial to the US Air Force?",
+      "url": "https://www.bbc.co.uk/news/articles/cj5ynyr33r0xo",
+      "publisher": "BBC News",
+      "publisherDomain": "bbc.co.uk",
+      "publishedAt": "2026-11-10T12:32:00Z",
+      "seenAt": "2026-11-10T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-7d263d40dcfa21",
+      "title": "France Warns Iran of Possible Undisclosed Response After Supermarket Cyberattack Sparked at Least 15 Fires",
+      "titleEnglish": "France Warns Iran of Possible Undisclosed Response After Supermarket Cyberattack Sparked at Least 15 Fires",
+      "url": "https://www.ibtimes.co.uk/france-warns-undisclosed-measures-iran-supermarket-cyberattack-1831350",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-11-10T12:48:32Z",
+      "seenAt": "2026-11-10T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-43575f161ddda9",
+      "title": "Irán rechaza acusaciones de ciberataques a supermercados en Francia",
+      "titleEnglish": "Iran rejects accusations of cyberattacks on supermarkets in France",
+      "url": "https://www.cadena3.com/noticia/mundo/iran-rechaza-acusaciones-de-ciberataques-a-supermercados-en-francia_611865",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-11-10T20:32:00Z",
+      "seenAt": "2026-11-10T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-1dfd61517761c1",
+      "title": "Could Iran-linked cyberattacks reach Europe’s homes and critical infrastructure?",
+      "titleEnglish": "Could Iran-linked cyberattacks reach Europe’s homes and critical infrastructure?",
+      "url": "https://www.arabnews.com/middle-east/could-iran-linked-cyberattacks-reach-europes-homes-and-critical-infrastructure-3010925",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-10T20:57:14Z",
+      "seenAt": "2026-11-10T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-5ab980b2cd2577",
+      "title": "Cyberaanvallen op huishoudelijke apparaten: ENISA waarschuwt",
+      "titleEnglish": "Cyberattacks on household devices: ENISA warns",
+      "url": "https://nieuws.nl/economie/eu-cyberchef-waarschuwt-voor-aanvallen-huishoudelijke-apparatuur",
+      "publisher": "Nieuws.nl",
+      "publisherDomain": "nieuws.nl",
+      "publishedAt": "2026-11-10T17:39:21Z",
+      "seenAt": "2026-11-10T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-b7883422476178",
+      "title": "AI-powered hacking demands response within minutes, cybersecurity experts warn | The Jerusalem Post",
+      "titleEnglish": "AI-powered hacking demands response within minutes, cybersecurity experts warn | The Jerusalem Post",
+      "url": "https://www.jpost.com/defense-and-tech/article-914503",
+      "publisher": "The Jerusalem Post | JPost.com",
+      "publisherDomain": "jpost.com",
+      "publishedAt": "2026-11-10T20:32:00Z",
+      "seenAt": "2026-11-10T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-0b2596ddafb71c",
+      "title": "Iran keeps firing on tankers for transiting Hormuz despite hopes of peace | The Jerusalem Post",
+      "titleEnglish": "Iran keeps firing on tankers for transiting Hormuz despite hopes of peace | The Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-914514",
+      "publisher": "The Jerusalem Post | JPost.com",
+      "publisherDomain": "jpost.com",
+      "publishedAt": "2026-11-10T20:32:00Z",
+      "seenAt": "2026-11-10T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-e334af51b19cb6",
+      "title": "Iran unveils massive underground 'missile city,' IRGC warns of retaliation | The Jerusalem Post",
+      "titleEnglish": "Iran unveils massive underground 'missile city,' IRGC warns of retaliation | The Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-914507",
+      "publisher": "The Jerusalem Post | JPost.com",
+      "publisherDomain": "jpost.com",
+      "publishedAt": "2026-11-10T20:32:00Z",
+      "seenAt": "2026-11-10T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-0e6df247d570e5",
+      "title": "4.15 ملايين دولار يومياً.. خسائر توقف حقل كورمور بعد الهجوم الأخير",
+      "titleEnglish": "$4.15 Million Daily: Losses from Halt of Kormor Field After Latest Attack",
+      "url": "https://almadapaper.net/460549/",
+      "publisher": "جريدة المدى",
+      "publisherDomain": "almadapaper.net",
+      "publishedAt": "2026-11-10T08:17:46Z",
+      "seenAt": "2026-11-10T10:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Iraq",
+      "sourceCountryCode": "IQ",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33,
+      "sourceLon": 44,
+      "language": "ar"
+    },
+    {
+      "id": "n-0f324ac6ebf7a1",
+      "title": "Rubio says ‘no need’ to attack Iran as diplomacy gathers pace",
+      "titleEnglish": "Rubio says ‘no need’ to attack Iran as diplomacy gathers pace",
+      "url": "https://www.arabnews.com/middle-east/rubio-says-no-need-to-attack-iran-as-diplomacy-gathers-pace-3011001",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-10T18:25:12Z",
+      "seenAt": "2026-11-10T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-b2a25de4acc5fa",
+      "title": "Petróleo fecha em queda com indicação de moderação dos EUA em relação ao Irã e dólar - Diário do Grande ABC",
+      "titleEnglish": "Oil closes lower on signs of US moderation toward Iran, and the dollar - Diário do Grande ABC",
+      "url": "https://www.dgabc.com.br/Noticia/4367967/petroleo-fecha-em-queda-com-indicacao-de-moderacao-dos-eua-em-relacao-ao-ira-e-dolar",
+      "publisher": "Jornal Diário do Grande ABC",
+      "publisherDomain": "dgabc.com.br",
+      "publishedAt": "2026-11-10T17:08:00Z",
+      "seenAt": "2026-11-10T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-ed61249e5fb319",
+      "title": "İranlı yetkili: ABD'nin yanıtı aldatıcı | Dış Haberler",
+      "titleEnglish": "Iranian official: US response is deceptive | Foreign News",
+      "url": "https://www.haberturk.com/dunya/iranli-yetkili-abd-nin-yaniti-aldatici-3926375",
+      "publisher": "Habertürk",
+      "publisherDomain": "haberturk.com",
+      "publishedAt": "2026-11-10T18:32:00Z",
+      "seenAt": "2026-11-10T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-67875f0b7b5aba",
+      "title": "هل تقبل واشنطن شروط طهران لوقف الحرب؟ - BBC News عربي",
+      "titleEnglish": "Will Washington accept Tehran's conditions to end the war? - BBC News Arabic",
+      "url": "https://www.bbc.com/arabic/articles/cm1exewz26n0o",
+      "publisher": "BBC News عربي",
+      "publisherDomain": "bbc.com",
+      "publishedAt": "2026-11-10T17:26:02Z",
+      "seenAt": "2026-11-10T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "ar"
+    },
+    {
+      "id": "n-f716c67b63bf01",
+      "title": "热点问答｜美国真不想再打伊朗了？",
+      "titleEnglish": "Hot Topic Q&A | Does the US Really Not Want to Fight Iran Again?",
+      "url": "https://news.bjd.com.cn/2026/11/10/12025726.shtml",
+      "publisher": "京报网",
+      "publisherDomain": "news.bjd.com.cn",
+      "publishedAt": "2026-11-10T12:52:34Z",
+      "seenAt": "2026-11-10T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-665a773fd0b5c3",
+      "title": "Rússia e Ucrânia realizam quase quatro horas de negociações mediadas pelos EUA em Abu Dhabi - Diário do Grande ABC",
+      "titleEnglish": "Russia and Ukraine hold nearly four hours of US-mediated talks in Abu Dhabi - Diário do Grande ABC",
+      "url": "https://www.dgabc.com.br/Noticia/4367970/russia-e-ucrania-realizam-quase-quatro-horas-de-negociacoes-mediadas-pelos-eua-em-abu-dhabi",
+      "publisher": "Jornal Diário do Grande ABC",
+      "publisherDomain": "dgabc.com.br",
+      "publishedAt": "2026-11-10T17:12:00Z",
+      "seenAt": "2026-11-10T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-52ae0943bff45e",
+      "title": "В Абу-Даби раздвинули стол",
+      "titleEnglish": "In Abu Dhabi, the Table Was Extended",
+      "url": "https://www.kommersant.ru/doc/9093901",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-10T15:16:29Z",
+      "seenAt": "2026-11-10T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-b795577e541bdf",
+      "title": "Зеленский описал прошедшие переговоры словами «с россиянами тяжело»",
+      "titleEnglish": "Zelensky describes the talks as \"hard going with the Russians\"",
+      "url": "https://lenta.ru/news/2026/11/10/zelenskiy-opisal-proshedshie-peregovory-slovami-s-rossiyanami-tyazhelo/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-11-10T15:32:00Z",
+      "seenAt": "2026-11-10T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-32ff4e997a85c9",
+      "title": "Украина и РФ обсуждают обмен пленными по формуле \"1000 на 1000\" или \"1500 на 1500\", - Зеленский",
+      "titleEnglish": "Ukraine and Russia discuss prisoner exchange on a \"1000 for 1000\" or \"1500 for 1500\" formula, - Zelensky",
+      "url": "https://www.unian.net/world/vladimir-zelenskiy-zayavil-chto-ukraina-i-rossiya-obsuzhdayut-v-abu-dabi-masshtabnyy-obmen-plennymi-13556115.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-11-10T21:32:00Z",
+      "seenAt": "2026-11-10T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-afb735bd418eaf",
+      "title": "Зеленський: в Абу-Дабі домовляються про обмін полоненими 1000 на 1000 чи 1500 на 1500",
+      "titleEnglish": "Zelensky: in Abu Dhabi, they are agreeing on a prisoner exchange of 1000 for 1000 or 1500 for 1500",
+      "url": "https://www.dw.com/uk/zelenskij-v-abudabi-domovlautsa-pro-obmin-1000-na-1000-ci-1500-na-1500/a-79913524",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-10T21:32:00Z",
+      "seenAt": "2026-11-10T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "uk"
+    },
+    {
+      "id": "n-f65045243870fc",
+      "title": "Zelensky anuncia que negocia \"grande troca\" de prisioneiros com a Rússia - Jornal de Brasília",
+      "titleEnglish": "Zelensky announces he is negotiating a \"big swap\" of prisoners with Russia - Jornal de Brasília",
+      "url": "https://jornaldebrasilia.com.br/noticias/mundo/zelensky-anuncia-que-negocia-grande-troca-de-prisioneiros-com-a-russia/",
+      "publisher": "Jornal de Brasília",
+      "publisherDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-11-10T21:32:00Z",
+      "seenAt": "2026-11-10T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-317171381d0d81",
+      "title": "US-led peace talks between Russia and Ukraine underway in UAE - ABC listen",
+      "titleEnglish": "US-led peace talks between Russia and Ukraine underway in UAE - ABC listen",
+      "url": "https://www.abc.net.au/listen/programs/radionational-breakfast/are-these-peace-talks-going-to-be-final-for-ukraine-/107370872",
+      "publisher": "ABC listen",
+      "publisherDomain": "abc.net.au",
+      "publishedAt": "2026-11-10T19:15:00Z",
+      "seenAt": "2026-11-10T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-39c0dc6803dfba",
+      "title": "Представители США стремятся к \"окончательному завершению\" войны в Украине, - The Guardian",
+      "titleEnglish": "US representatives seek \"final completion\" of the war in Ukraine, - The Guardian",
+      "url": "https://www.unian.net/world/predstaviteli-ssha-stremyatsya-k-okonchatelnomu-zaversheniyu-voyny-v-ukraine-13556082.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-11-10T21:32:00Z",
+      "seenAt": "2026-11-10T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-a399f28cfaf9cd",
+      "title": "미·러·우크라, 종전 협상 시작…미, 우크라에 ‘나토식 안보보장’ 제안",
+      "titleEnglish": "US, Russia, Ukraine Begin Peace Talks; US Offers Ukraine 'NATO-style Security Guarantees'",
+      "url": "https://www.hani.co.kr/arti/international/international_general/1286691.html",
+      "publisher": "한겨레",
+      "publisherDomain": "hani.co.kr",
+      "publishedAt": "2026-11-10T09:45:00Z",
+      "seenAt": "2026-11-10T10:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-9327e3759282db",
+      "title": "美欧称须为乌克兰提供可信的安全保障",
+      "titleEnglish": "US and Europe Say Reliable Security Guarantees Must Be Provided for Ukraine",
+      "url": "https://news.bjd.com.cn/2026/11/10/12025724.shtml",
+      "publisher": "京报网",
+      "publisherDomain": "news.bjd.com.cn",
+      "publishedAt": "2026-11-10T12:51:24Z",
+      "seenAt": "2026-11-10T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-47892f0a186723",
+      "title": "Aliados europeos y Estados Unidos defienden que la OTAN siga siendo el eje de la defensa europea tras la guerra en Ucrania - La Tercera",
+      "titleEnglish": "European allies and the United States argue that NATO should remain the axis of European defence after the war in Ukraine - La Tercera",
+      "url": "https://www.latercera.com/mundo/noticia/aliados-europeos-y-estados-unidos-defienden-que-la-otan-siga-siendo-el-eje-de-la-defensa-europea-tras-la-guerra-en-ucrania/",
+      "publisher": "La Tercera",
+      "publisherDomain": "latercera.com",
+      "publishedAt": "2026-11-10T12:23:53Z",
+      "seenAt": "2026-11-10T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-d6802dc355f3b6",
+      "title": "Украина скоро может получить вооружение на 400 млн долларов в рамках USAI, - дипломат",
+      "titleEnglish": "Ukraine may soon receive $400 million in weapons under USAI, diplomat says",
+      "url": "https://www.unian.net/weapons/pomoshch-ukraine-kiev-skoro-mozhet-poluchit-vooruzhenie-na-400-mln-dollarov-13555500.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-11-10T12:32:00Z",
+      "seenAt": "2026-11-10T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-1ddccf0c913b93",
+      "title": "메르츠 獨 총리의 최후통첩 \"모든 EU 회원국, 우크라 지원 참여해야… 안 그러면 차기 EU 예산안 저지\"",
+      "titleEnglish": "Merz's Ultimatum: \"All EU Member States Must Take Part in Supporting Ukraine... Otherwise I Will Block the Next EU Budget\"",
+      "url": "https://www.newspim.com/news/view/20261110001493",
+      "publisher": "뉴스핌",
+      "publisherDomain": "newspim.com",
+      "publishedAt": "2026-11-10T09:39:00Z",
+      "seenAt": "2026-11-10T10:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-b4af01b0963f6b",
+      "title": "Berlino e i nordici aprono la contesa sugli aiuti a Kiev, 'paghino tutti' - Notizie - Ansa.it",
+      "titleEnglish": "Berlin and the Nordics open dispute over aid to Kyiv, 'everyone should pay' - News - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/10/berlino-e-i-nordici-aprono-la-contesa-sugli-aiuti-a-kiev-paghino-tutti_5efa5f95-09ad-4d2a-9490-358918ec74a4.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-10T19:27:00Z",
+      "seenAt": "2026-11-10T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-f8eabfb0f0fc16",
+      "title": "Фіцо \"шокований\" розмовою з Корецьким, а вимогу Мерца вважає \"шантажем\"",
+      "titleEnglish": "Fico \"shocked\" by conversation with Koretsky, and considers Merz's demand \"blackmail\"",
+      "url": "https://www.dw.com/uk/fico-sokovanij-rozmovou-z-koreckim-a-vimogu-merca-vvazae-santazem/a-79913110",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-10T21:32:00Z",
+      "seenAt": "2026-11-10T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "uk"
+    },
+    {
+      "id": "n-cbc9fe3aafdd02",
+      "title": "صحيفة عمون : روسيا: الاحتياطيات الدولية تتراجع إلى 721 مليار دولار",
+      "titleEnglish": "Amman newspaper: Russia: international reserves fall to $721 billion",
+      "url": "https://www.ammonnews.net/article/1044037",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-11-10T21:32:00Z",
+      "seenAt": "2026-11-10T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-a5adec8c870fd5",
+      "title": "صحيفة عمون : فائض الميزان التجاري الروسي يرتفع إلى 13.2%؜",
+      "titleEnglish": "Amman newspaper: Russia's trade surplus rises to 13.2%",
+      "url": "https://www.ammonnews.net/article/1044040",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-11-10T21:32:00Z",
+      "seenAt": "2026-11-10T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-a5b6e4f69b1bb1",
+      "title": "В Киевской области ужесточат режим светомаскировки",
+      "titleEnglish": "In Kyiv Oblast, blackout regime will be tightened",
+      "url": "https://www.unian.net/society/v-kievskoy-oblasti-uzhestochat-rezhim-svetomaskirovki-novosti-kieva-13556103.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-11-10T21:32:00Z",
+      "seenAt": "2026-11-10T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-46a30244c2d68d",
+      "title": "Спасет ли солнечная станция от зимних отключений: стоимость и целесообразность установки",
+      "titleEnglish": "Will a solar station save from winter outages: cost and feasibility of installation",
+      "url": "https://www.unian.net/economics/energetics/solnechnye-paneli-vo-vremya-zimnih-otklyucheniy-spasenie-ili-novaya-problema-vse-nyuansy-13555410.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-11-10T12:32:00Z",
+      "seenAt": "2026-11-10T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-fc9e6d84497c1c",
+      "title": "快訊／台積電豪砸320億 入股OpenAI、Anthropic | ETtoday財經雲 | ETtoday新聞雲",
+      "titleEnglish": "Breaking: TSMC Spends NT$32 Billion to Invest in OpenAI and Anthropic | ETtoday Finance Cloud | ETtoday News Cloud",
+      "url": "https://finance.ettoday.net/news/3269857",
+      "publisher": "ETtoday財經雲",
+      "publisherDomain": "finance.ettoday.net",
+      "publishedAt": "2026-11-10T13:02:00Z",
+      "seenAt": "2026-11-10T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-bae5ca81be46ee",
+      "title": "快訊／台積電季配飆每股9元破紀錄 325萬股民嗨翻 | ETtoday財經雲 | ETtoday新聞雲",
+      "titleEnglish": "Breaking: TSMC Quarterly Dividend Soars to Record NT$9 Per Share, 3.25 Million Shareholders Elated | ETtoday Finance Cloud | ETtoday News Cloud",
+      "url": "https://finance.ettoday.net/news/3269851",
+      "publisher": "ETtoday財經雲",
+      "publisherDomain": "finance.ettoday.net",
+      "publishedAt": "2026-11-10T13:02:00Z",
+      "seenAt": "2026-11-10T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-805e2770c36114",
+      "title": "資本支出疑慮造成股價波動 AI供應鏈優勢支撐台股長線動能 | ETtoday財經雲 | ETtoday新聞雲",
+      "titleEnglish": "Capex Concerns Cause Stock Volatility; AI Supply Chain Advantages Support Taiwan Stocks' Long-Term Momentum | ETtoday Finance Cloud | ETtoday News Cloud",
+      "url": "https://finance.ettoday.net/news/3269843",
+      "publisher": "ETtoday財經雲",
+      "publisherDomain": "finance.ettoday.net",
+      "publishedAt": "2026-11-10T13:02:00Z",
+      "seenAt": "2026-11-10T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-bf4821cf0ccd25",
+      "title": "Anthropic IPO to raise as much as US$64.4bil, latest draft prospectus shows",
+      "titleEnglish": "Anthropic IPO to raise as much as US$64.4bil, latest draft prospectus shows",
+      "url": "https://www.thestar.com.my/business/business-news/2026/11/10/anthropic-ipo-to-raise-as-much-as-us644bil-latest-draft-prospectus-shows",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-11-10T19:33:00Z",
+      "seenAt": "2026-11-10T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
+    },
+    {
+      "id": "n-ab26bba8416800",
+      "title": "IPO: Anthropic will mit Börsengang fast 70 Milliarden Dollar einnehmen",
+      "titleEnglish": "IPO: Anthropic Wants to Raise Almost 70 Billion Dollars with Stock Market Listing",
+      "url": "https://www.handelsblatt.com/technik/ki/ipo-anthropic-will-mit-boersengang-fast-70-milliarden-dollar-einnehmen/100268723.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-10T09:41:30Z",
+      "seenAt": "2026-11-10T10:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-57458588e253d1",
+      "title": "The stock market 'dodged a real bullet' — Cramer on Anthropic's new IPO valuation",
+      "titleEnglish": "The stock market 'dodged a real bullet' — Cramer on Anthropic's new IPO valuation",
+      "url": "https://www.cnbc.com/2026/11/10/the-stock-market-dodged-a-real-bullet-cramer-on-anthropics-new-ipo-valuation.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-10T18:22:16Z",
+      "seenAt": "2026-11-10T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-832bbc9d889d52",
+      "title": "CoreWeave陷入困境：股价高点已蒸发65%，盘后强劲财报也难平息市场忧虑",
+      "titleEnglish": "CoreWeave in trouble: share price has evaporated 65% from its peak, strong after-hours earnings fail to ease market worries",
+      "url": "https://www.163.com/dy/article/LBDV5R0205198NMR.html",
+      "publisher": "163.com",
+      "publisherDomain": "163.com",
+      "publishedAt": "2026-11-10T18:16:12Z",
+      "seenAt": "2026-11-10T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-61a9c0ce28f413",
+      "title": "Apple Reclaims Top Spot as World’s Most Valuable Firm After Nvidia’s 12% Share Drop",
+      "titleEnglish": "Apple Reclaims Top Spot as World’s Most Valuable Firm After Nvidia’s 12% Share Drop",
+      "url": "https://kenya-today.com/report-apple-reclaims-top-spot-as-worlds-most-valuable-firm-after-nvidias-12-share-drop-24677/",
+      "publisher": "Kenya Today",
+      "publisherDomain": "kenya-today.com",
+      "publishedAt": "2026-11-10T13:13:15Z",
+      "seenAt": "2026-11-10T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Kenya",
+      "sourceCountryCode": "KE",
+      "sourceRegion": "Africa",
+      "sourceLat": 0.1,
+      "sourceLon": 38,
+      "language": "en"
+    },
+    {
+      "id": "n-3c0fa17a4cc84f",
+      "title": "Alphabet shares appear to have bottomed. How to play it for a quick rebound",
+      "titleEnglish": "Alphabet shares appear to have bottomed. How to play it for a quick rebound",
+      "url": "https://www.cnbc.com/2026/11/10/alphabet-shares-appear-to-have-bottomed-how-to-play-it-for-a-quick-rebound.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-10T18:15:24Z",
+      "seenAt": "2026-11-10T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-68f72816ebdb74",
+      "title": "Buy this data center-linked stock primed to rally nearly 60%, says Jefferies",
+      "titleEnglish": "Buy this data center-linked stock primed to rally nearly 60%, says Jefferies",
+      "url": "https://www.cnbc.com/2026/11/10/riot-platforms-jefferies-upgrade-corsicana.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-10T12:03:03Z",
+      "seenAt": "2026-11-10T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-fa43125d5e2150",
+      "title": "Nvidia CEO Jensen Huang Admits Affair as Board Investigates Whether He Was Targeted by Chinese Intelligence",
+      "titleEnglish": "Nvidia CEO Jensen Huang Admits Affair as Board Investigates Whether He Was Targeted by Chinese Intelligence",
+      "url": "https://www.ibtimes.co.uk/nvidia-jensen-huang-independent-investigation-intelligence-claims-1831450",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-11-10T18:03:36Z",
+      "seenAt": "2026-11-10T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-454841ca3cfda2",
+      "title": "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO | CBC News",
+      "titleEnglish": "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO | CBC News",
+      "url": "https://www.cbc.ca/news/world/alice-huang-nvidia-9.7416909",
+      "publisher": "CBC",
+      "publisherDomain": "cbc.ca",
+      "publishedAt": "2026-11-10T20:32:00Z",
+      "seenAt": "2026-11-10T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
+    },
+    {
+      "id": "n-ded776e2191542",
+      "title": "Υπόθεση Nvidia: Η Κινέζα κατάσκοπος καυχιόταν ότι μπορεί να εξασφαλίσει αμερικανικά τσιπ, παρά την απαγόρευση εξαγωγών - iefimerida.gr",
+      "titleEnglish": "Nvidia case: Chinese spy boasted she could secure American chips despite the export ban - iefimerida.gr",
+      "url": "https://www.iefimerida.gr/kosmos/nvidia-kineza-kataskopos-kayhiotan-na-exasfalisei-amerikanika-tsip",
+      "publisher": "iefimerida.gr",
+      "publisherDomain": "iefimerida.gr",
+      "publishedAt": "2026-11-10T09:01:19Z",
+      "seenAt": "2026-11-10T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-8227fe05553fe3",
+      "title": "Trump says FBI investigating Nvidia CEO over China spy allegations",
+      "titleEnglish": "Trump says FBI investigating Nvidia CEO over China spy allegations",
+      "url": "https://www.samaa.tv/2087359968-trump-says-fbi-investigating-nvidia-ceo-over-china-spy-allegations",
+      "publisher": "SAMAA TV",
+      "publisherDomain": "samaa.tv",
+      "publishedAt": "2026-11-10T05:27:12Z",
+      "seenAt": "2026-11-10T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Pakistan",
+      "sourceCountryCode": "PK",
+      "sourceRegion": "Asia",
+      "sourceLat": 30,
+      "sourceLon": 69,
+      "language": "en"
+    },
+    {
+      "id": "n-727b1f6d39feed",
+      "title": "黃樂被爆已結婚！與丈夫合照曝光 他因操縱股票被捕 | ETtoday財經雲 | ETtoday新聞雲",
+      "titleEnglish": "Huang Le Exposed as Already Married! Photo with Husband Surfaces; He Was Arrested for Stock Manipulation | ETtoday Finance Cloud | ETtoday News Cloud",
+      "url": "https://finance.ettoday.net/news/3269842",
+      "publisher": "ETtoday財經雲",
+      "publisherDomain": "finance.ettoday.net",
+      "publishedAt": "2026-11-10T13:02:00Z",
+      "seenAt": "2026-11-10T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-2d32472c1daacc",
+      "title": "Arrestan a alto mando militar estadounidense en Reino Unido por presunto espionaje a favor de Rusia",
+      "titleEnglish": "US senior military officer arrested in the UK over alleged espionage for Russia",
+      "url": "https://www.cadena3.com/noticia/mundo/arrestan-a-alto-mando-militar-estadounidense-en-reino-unido-por-presunto-espionaje-a-favor-de-rusia_611868",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-11-10T20:32:00Z",
+      "seenAt": "2026-11-10T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-0e1ac8349a25e9",
+      "title": "Aftenposten: Telefonnumrene til norske sikkerhetstopper lekket på det mørke nettet",
+      "titleEnglish": "Aftenposten: Phone Numbers of Norwegian Security Chiefs Leaked on the Dark Web",
+      "url": "https://www.nrk.no/nyheter/aftenposten_-telefonnumrene-til-norske-sikkerhetstopper-lekket-pa-det-morke-nettet-1.18078501",
+      "publisher": "NRK",
+      "publisherDomain": "nrk.no",
+      "publishedAt": "2026-11-10T14:13:50Z",
+      "seenAt": "2026-11-10T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Norway",
+      "sourceCountryCode": "NO",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 11,
+      "language": "no"
+    },
+    {
+      "id": "n-0c6bd616d75aa5",
+      "title": "氏名や電話番号、聞きません 漏洩問題で企業側、個人情報手放す動き：朝日新聞",
+      "titleEnglish": "Companies Stop Asking for Names and Phone Numbers Amid Leak Problems: Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVCB0H13VCBUTIL009M.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-11-10T08:00:00Z",
+      "seenAt": "2026-11-10T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-b92581cca19dc4",
+      "title": "El millonario salario de Carlos Oyola, el hacker de la DNI capturado, con el Fondo Colombia en Paz: ¿cuánto ganaba?",
+      "titleEnglish": "The millionaire salary of Carlos Oyola, the captured DNI hacker, with the Colombia en Paz Fund: how much did he earn?",
+      "url": "https://www.elcolombiano.com/colombia/carlos-oyola-hacker-capturado-dni-contrato-fondo-colombia-en-paz-LM43382911",
+      "publisher": "El Colombiano",
+      "publisherDomain": "elcolombiano.com",
+      "publishedAt": "2026-11-10T12:34:11Z",
+      "seenAt": "2026-11-10T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-d7239eb5f93f64",
+      "title": "Así debilitó Petro a la Inteligencia del Estado con sabotaje a elecciones, espionaje a expresidentes y caos",
+      "titleEnglish": "How Petro weakened State Intelligence through sabotage of elections, espionage on former presidents and chaos",
+      "url": "https://www.elcolombiano.com/colombia/politica/debilito-petro-inteligencia-sabotaje-elecciones-espionaje-expresidentes-caos-AM43380642",
+      "publisher": "El Colombiano",
+      "publisherDomain": "elcolombiano.com",
+      "publishedAt": "2026-11-10T12:34:10Z",
+      "seenAt": "2026-11-10T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-f026070e491f4a",
+      "title": "Megawati Singgung Kasus Penyadapan Prabowo dan Nama Listyo Sigit",
+      "titleEnglish": "Megawati raises the Prabowo wiretapping case and the name of Listyo Sigit",
+      "url": "https://enamplus.liputan6.com/tv/read/8332674/megawati-singgung-kasus-penyadapan-prabowo-dan-nama-listyo-sigit",
+      "publisher": "Enamplus Liputan6",
+      "publisherDomain": "enamplus.liputan6.com",
+      "publishedAt": "2026-11-10T20:32:00Z",
+      "seenAt": "2026-11-10T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    }
+  ],
+  "settled": [],
+  "readings": [
+    {
+      "id": "iran-war-reaches-europe-during-talks",
+      "line": "While Washington and Tehran negotiate, attacks linked to Iran are moving to European shops and to US air bases in Britain.",
+      "kicker": "IRAN / DIPLOMACY / SABOTAGE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "France, Britain or the EU announces sanctions, expulsions or a formal attribution to Iran over the supermarket attack or the Fairford plot.",
+          "by": "2026-12-01",
+          "because": "If Iran is carrying the war into Europe while the US talks cover only the Gulf, European governments will answer on a track of their own rather than wait for Washington.",
+          "id": "20261110T214741-iran-war-reaches-europe-during-talks-1"
+        },
+        {
+          "what": "A second European country reports a cyberattack on shops, utilities or household devices and its government links it to Iran.",
+          "by": "2026-12-05",
+          "because": "If the French case is one act in a deniable campaign rather than a one-off crime, the same kind of target will be hit in another country that is not at the negotiating table.",
+          "id": "20261110T214741-iran-war-reaches-europe-during-talks-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is 1985 to 1987, when bombings in Paris shops, including the Tati store on the rue de Rennes in September 1986, were traced to a network acting for Iran while France negotiated with Tehran over hostages and the Eurodif loan. France broke relations in July 1987 and then settled the debt in 1988. The difference now is that the attacks need no one on French soil, and the main negotiator with Tehran is Washington, not the country being hit.",
+        "paths": [
+          {
+            "name": "Europe acts apart from the talks",
+            "weight": "favoured",
+            "text": "Within weeks France and Britain publish attributions and add sanctions or expulsions, while the US keeps talking to Tehran and does not make the European attacks a condition. Iran keeps denying. This is favoured because the headlines already show France warning of its own response while Rubio says there is no need to attack Iran.",
+            "sign": "Paris or London names an Iranian agency as responsible and announces a measure against it."
+          },
+          {
+            "name": "The talks take in Europe's grievances",
+            "weight": "possible",
+            "text": "A US-Iran framework reached by early 2027 includes a clause on attacks against allies or on cyber operations. This would require Washington to trade something for it, which nothing in these headlines suggests it is ready to do.",
+            "sign": "A US official says European cyber incidents are on the agenda of the talks with Iran."
+          },
+          {
+            "name": "Talks break and strikes resume",
+            "weight": "unlikely",
+            "text": "A plot on a US base in Britain or a further attack in Europe gives the White House a reason to end diplomacy and strike Iran again. Rubio's statement and the fall in oil on signs of moderation point the other way for now.",
+            "sign": "The White House suspends talks and cites an attack on US forces or allies in Europe."
+          }
+        ],
+        "decade": "Over ten years, wars between states will be fought partly against the civilian equipment of third countries, and public attribution followed by sanctions will remain the main answer, as it has been since 2022."
+      },
+      "continues": "oil-prices-follow-talk-not-the-gulf",
+      "change": "Yesterday the gap was between oil prices and attacks on the Saudi pipeline. Today oil fell again on signs of US moderation and Rubio said there was no need to attack Iran, while the acts attributed to Iran in the headlines are in France and Britain: a supermarket hack that started fires and a charged plot against RAF Fairford.",
+      "claim": "A man held in a US jail is charged with helping an Iran-backed group plot an attack on RAF Fairford, France has warned Iran after a cyberattack on supermarkets started at least fifteen fires, and Iran is reported still firing on tankers in Hormuz, all while Rubio says there is no need to attack Iran and oil falls on signs of US moderation. The talks between Washington and Tehran are about the Gulf, but the acts attributed to Iran this week are in Europe. Europe is being drawn into the war through its shops and the American bases on its soil while it has no seat where the war's end is discussed.",
+      "events": [
+        {
+          "label": "Charges over a plot against Fairford",
+          "articleIds": [
+            "n-a86b3040ed9633",
+            "n-6ba3140e5788b3",
+            "n-12593add9ede42"
+          ]
+        },
+        {
+          "label": "French supermarket hack starts fires",
+          "articleIds": [
+            "n-7d263d40dcfa21",
+            "n-43575f161ddda9",
+            "n-1dfd61517761c1"
+          ]
+        },
+        {
+          "label": "Warnings on home devices and AI hacking",
+          "articleIds": [
+            "n-5ab980b2cd2577",
+            "n-b7883422476178"
+          ]
+        },
+        {
+          "label": "Tanker fire, Kormor halt, IRGC threats",
+          "articleIds": [
+            "n-0b2596ddafb71c",
+            "n-0e6df247d570e5",
+            "n-e334af51b19cb6"
+          ]
+        },
+        {
+          "label": "US-Iran diplomacy and the oil price",
+          "articleIds": [
+            "n-0f324ac6ebf7a1",
+            "n-b2a25de4acc5fa",
+            "n-ed61249e5fb319",
+            "n-67875f0b7b5aba",
+            "n-f716c67b63bf01"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Attacks attributed to Iran in Europe",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "The Fairford plot",
+              "text": "Arab News in Saudi Arabia reports the US Justice Department saying an Iran-backed militant helped plot an attack on Britain's Fairford base from a US jail. ABC in Australia reports three men charged over terror plots, including a planned assault on a UK airbase. The BBC on the same day explains how Mildenhall became crucial to the US Air Force, so the American bases in England are news in their own right.",
+              "articleIds": [
+                "n-a86b3040ed9633",
+                "n-6ba3140e5788b3",
+                "n-12593add9ede42"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Supermarkets and households",
+              "text": "International Business Times UK reports France warning Iran of a possible undisclosed response after a supermarket cyberattack sparked at least 15 fires. Cadena 3 in Argentina reports Iran rejecting the accusation, and Arab News asks whether Iran-linked attacks could reach Europe's homes and infrastructure. Nieuws.nl in the Netherlands reports the EU cyber agency ENISA warning about attacks on household devices, and the Jerusalem Post quotes experts saying AI-assisted hacking needs a response within minutes.",
+              "articleIds": [
+                "n-7d263d40dcfa21",
+                "n-43575f161ddda9",
+                "n-1dfd61517761c1",
+                "n-5ab980b2cd2577",
+                "n-b7883422476178"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "The Gulf and the talks",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Fighting in the Gulf",
+              "text": "The Jerusalem Post reports Iran still firing on tankers for transiting Hormuz despite hopes of peace, and Iran unveiling an underground 'missile city' as the Revolutionary Guards warn of retaliation. Al-Mada in Iraq puts the losses from the halt of the Kormor field after its latest attack at $4.15 million a day; the headline does not name the attacker.",
+              "articleIds": [
+                "n-0b2596ddafb71c",
+                "n-e334af51b19cb6",
+                "n-0e6df247d570e5"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "Diplomacy and price",
+              "text": "Arab News quotes Rubio saying there is no need to attack Iran as diplomacy gathers pace, and Diário do Grande ABC in Brazil reports oil closing lower on signs of US moderation. Habertürk in Turkey quotes an Iranian official calling the US response deceptive, BBC Arabic asks whether Washington will accept Tehran's conditions, and the Beijing News asks whether the US really does not want to fight Iran again.",
+              "articleIds": [
+                "n-0f324ac6ebf7a1",
+                "n-b2a25de4acc5fa",
+                "n-ed61249e5fb319",
+                "n-67875f0b7b5aba",
+                "n-f716c67b63bf01"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Where the war is now fought",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "Two tracks",
+              "text": "The US-Iran talks concern the strait, sanctions and Iran's weapons; nothing in these headlines puts European shops or bases on that agenda. Acts that are cheap and deniable are landing on countries that are not negotiating, and Iran's denial of the French charge is part of how such acts work. France's warning of its own response shows a second track opening beside Washington's.",
+              "articleIds": [
+                "n-7d263d40dcfa21",
+                "n-43575f161ddda9",
+                "n-0f324ac6ebf7a1"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f6",
+              "label": "Why bases in Britain matter",
+              "text": "Fairford and Mildenhall are used by the US Air Force, so a plot against Fairford is aimed at American capacity on British soil. Britain hosts the aircraft but is not a party to the talks. A charge brought in a US court for a plot against a British base shows how the hosting arrangement turns into exposure.",
+              "articleIds": [
+                "n-a86b3040ed9633",
+                "n-12593add9ede42"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f7",
+              "label": "Different acts, different hands",
+              "text": "The Fairford plot was charged by the US Justice Department against a man already in a US jail, and it may predate the current talks by months. The supermarket fires are attributed by France and denied by Iran, with no published investigation, and earlier editions read the same attack as an ordinary breach through a refrigeration contractor, which would make it crime rather than policy. The Kormor attack has no named attacker, and the ENISA and Jerusalem Post warnings are general. What these events share is the word Iran in some of their headlines, not a proven common command.",
+              "articleIds": [
+                "n-a86b3040ed9633",
+                "n-43575f161ddda9",
+                "n-0e6df247d570e5"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "CYBER / ATTRIBUTION / WAR",
+          "text": "In July 2022 a cyberattack took down Albanian government services, and in September Albania cut diplomatic relations with Iran, the first country to break ties over a cyberattack; NATO allies backed its attribution. Through 2021 and 2022 Israel and Iran traded attacks on each other's petrol stations, ports and water systems. Russia's invasion of Ukraine made attacks on power grids and telecoms a normal part of a European war. The twelve-day war of June 2025 ended with American bombers over Fordow, and since then, by these headlines, the contest with Iran has run as fighting in the strait and negotiation in parallel. The French supermarket fires sit where these lines meet: an attack on civilian equipment in a third country, named by its government and denied by Tehran, in the same week that Rubio says there is no need to attack Iran. The decade's answer to such attacks has been public attribution followed by sanctions, and it has seldom changed what the attacker does next.",
+          "trajectoryIds": [
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SABOTAGE / NUCLEAR / OIL",
+          "text": "Stuxnet, discovered in 2010 and widely reported as an American and Israeli operation, broke centrifuges at Natanz with code. Iran's reply came in 2012, when the Shamoon malware wiped some 30,000 computers at Saudi Aramco, and in 2012 and 2013 a campaign of denial-of-service attacks hit American banks. The 2015 nuclear agreement paused part of this contest; the American withdrawal in 2018 restarted it, and in September 2019 drones and missiles struck Abqaiq and halved Saudi output for days. Since then each round of talks with Iran has run beside acts it does not claim. What has changed since 2012 is the target. Oil companies and banks have security staff and budgets; shop refrigeration and household devices, which ENISA is now warning about, do not. The supermarket fires in France are the 2012 method applied to a target that cannot defend itself in the same way.",
+          "trajectoryIds": [
+            "jcpoa-2015",
+            "abqaiq-2019"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "EXILES / TERROR / COURTS",
+          "text": "After the Cold War, Iran's operations abroad were aimed mostly at its opponents and at Jewish and Israeli targets. In 1992 Kurdish opposition leaders were shot at the Mykonos restaurant in Berlin, and in 1997 a German court found the killing had been ordered by Iran's leadership; in 1994 the AMIA centre in Buenos Aires was bombed. European governments answered with trials and brief recalls of ambassadors, then went back to trade. The 2003 invasion of Iraq removed Iran's main enemy and left armed groups across Iraq that Kurdish officials have blamed for earlier attacks on fields such as Kormor. The internet then extended reach without travel. The habit of the 1990s still holds: Europe and the US treat each act as a criminal case, as the Justice Department charges over Fairford do, rather than as part of a war they are in.",
+          "trajectoryIds": [
+            "iraq-2003"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "BASES / OIL / ALLIANCE",
+          "text": "American aircraft came to Mildenhall in 1950, and Fairford later became the base for US heavy bombers flying to Iraq in 1991 and 2003. The bases belonged to an order in which the United States guaranteed both Western Europe's security and the Gulf's oil: the meeting with Ibn Saud in February 1945, Suez in 1956 when Washington took over London's role in the region, and the 1973 embargo that taught importers what a Gulf conflict costs them. The 1979 revolution made Iran the one large Gulf state outside that order and hostile to it. Since then, hosting American power has also meant being a target for those it fights. The BBC's question about why Mildenhall matters is a question about that arrangement: Britain provides the runways, and the plot charged this week was aimed at the British end of an American war.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "suez-1956",
+            "tehran-1979"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-a86b3040ed9633",
+        "n-6ba3140e5788b3",
+        "n-12593add9ede42",
+        "n-7d263d40dcfa21",
+        "n-43575f161ddda9",
+        "n-1dfd61517761c1",
+        "n-5ab980b2cd2577",
+        "n-b7883422476178",
+        "n-0b2596ddafb71c",
+        "n-e334af51b19cb6",
+        "n-0e6df247d570e5",
+        "n-0f324ac6ebf7a1",
+        "n-b2a25de4acc5fa",
+        "n-ed61249e5fb319",
+        "n-67875f0b7b5aba",
+        "n-f716c67b63bf01"
+      ]
+    },
+    {
+      "id": "ukraine-talks-and-who-pays",
+      "line": "Nearly five years into the invasion, talks to end it advance while EU governments argue over which of them pays for Ukraine.",
+      "kicker": "CEASEFIRE / BURDEN-SHARING / EU BUDGET",
+      "firmness": "firm",
+      "watch": [
+        {
+          "what": "A report on the Abu Dhabi talks says the US plan leaves Ukraine's reconstruction or the cost of its security guarantees to European funding.",
+          "by": "2026-11-30",
+          "because": "If the talks and the EU quarrel are one question about who pays, the US offer will be guarantees in words while the money is assigned to Europe.",
+          "id": "20261110T214741-ukraine-talks-and-who-pays-1"
+        },
+        {
+          "what": "Slovakia, Hungary or another EU member formally refuses Merz's demand that every member contribute to Ukraine aid.",
+          "by": "2026-11-28",
+          "because": "A settlement in sight raises the stakes of the bill, so members that have given little will resist being tied to it before the terms are known.",
+          "id": "20261110T214741-ukraine-talks-and-who-pays-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is Bosnia in 1995: the United States brokered the Dayton agreement, and the European Union and the World Bank paid most of the reconstruction, with European troops later taking over the peacekeeping in 2004. That bill was a few billion dollars for a small country. Ukraine's needs run to hundreds of billions, the EU budget requires unanimity, and Russia still holds territory and reports $721 billion in reserves.",
+        "paths": [
+          {
+            "name": "A fund without the holdouts",
+            "weight": "favoured",
+            "text": "By early 2027 a group of willing EU states, led by Germany and the Nordics, sets up a Ukraine fund outside the unanimity rule, possibly backed by frozen Russian assets, while Slovakia and Hungary stay out. Merz's threat is used to shape the 2028 to 2034 budget talks rather than carried out. This is favoured because Europe has repeatedly gone around vetoes on Ukraine since 2022.",
+            "sign": "Several EU governments announce an intergovernmental fund or loan for Ukraine that does not need every member's agreement."
+          },
+          {
+            "name": "Merz blocks the budget",
+            "weight": "possible",
+            "text": "Germany holds up agreement on the next EU budget into 2027 until every member commits to Ukraine aid, turning the budget round into the main fight over Ukraine. This would carry costs for Germany's own priorities, which makes it less likely than a workaround.",
+            "sign": "Germany vetoes or formally delays an EU budget decision and names Ukraine aid as the reason."
+          },
+          {
+            "name": "Washington pays for the peace",
+            "weight": "unlikely",
+            "text": "The US agrees to fund guarantees or reconstruction directly as part of a deal. Nothing in these headlines suggests it: the US contribution reported is $400 million in weapons and NATO-style wording.",
+            "sign": "The White House asks Congress for a multi-billion-dollar Ukraine reconstruction or security package tied to the deal."
+          }
+        ],
+        "decade": "Over ten years the cost of Ukraine's security will sit mainly in European budgets, and the EU will either learn to raise joint money for defence or split into those who pay and those who do not."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "US-mediated talks between Russia and Ukraine in Abu Dhabi have produced a planned prisoner exchange of 1,000 or 1,500 a side and a US offer of 'NATO-style' security guarantees, while Germany's Merz threatens to block the next EU budget unless every member supports Ukraine and Slovakia's Fico calls the demand blackmail. The talks decide how the war might stop; the quarrel in Europe decides who pays for what follows. The American contribution reported is wording and $400 million in weapons, Russia reports $721 billion in reserves, and Kyiv tightens its blackouts, so the cost of the settlement is being argued over among Europeans.",
+      "events": [
+        {
+          "label": "US-mediated talks in Abu Dhabi",
+          "articleIds": [
+            "n-665a773fd0b5c3",
+            "n-317171381d0d81",
+            "n-52ae0943bff45e",
+            "n-b795577e541bdf",
+            "n-39c0dc6803dfba"
+          ]
+        },
+        {
+          "label": "Prisoner exchange of up to 1,500 a side",
+          "articleIds": [
+            "n-32ff4e997a85c9",
+            "n-afb735bd418eaf",
+            "n-f65045243870fc"
+          ]
+        },
+        {
+          "label": "US security guarantees and weapons",
+          "articleIds": [
+            "n-a399f28cfaf9cd",
+            "n-9327e3759282db",
+            "n-47892f0a186723",
+            "n-d6802dc355f3b6"
+          ]
+        },
+        {
+          "label": "Merz's EU budget ultimatum",
+          "articleIds": [
+            "n-1ddccf0c913b93",
+            "n-b4af01b0963f6b",
+            "n-f8eabfb0f0fc16"
+          ]
+        },
+        {
+          "label": "Russia's reserves and trade surplus",
+          "articleIds": [
+            "n-cbc9fe3aafdd02",
+            "n-a5adec8c870fd5"
+          ]
+        },
+        {
+          "label": "Tighter blackouts around Kyiv",
+          "articleIds": [
+            "n-a5b6e4f69b1bb1",
+            "n-46a30244c2d68d"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "The talks in Abu Dhabi",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Four hours and a swap",
+              "text": "Diário do Grande ABC in Brazil reports nearly four hours of US-mediated talks, Kommersant writes that the table in Abu Dhabi was extended, and Lenta.ru quotes Zelensky calling the talks hard going. UNIAN, DW's Ukrainian service and Jornal de Brasília report Zelensky saying an exchange of 1,000 for 1,000 or 1,500 for 1,500 prisoners is being agreed. ABC in Australia reports the talks under way, and UNIAN, citing the Guardian, says US representatives seek a 'final completion' of the war.",
+              "articleIds": [
+                "n-665a773fd0b5c3",
+                "n-52ae0943bff45e",
+                "n-b795577e541bdf",
+                "n-32ff4e997a85c9",
+                "n-afb735bd418eaf",
+                "n-f65045243870fc",
+                "n-317171381d0d81",
+                "n-39c0dc6803dfba"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "What the US offers",
+              "text": "The Hankyoreh reports the US offering Ukraine 'NATO-style' security guarantees, and the Beijing News reports the US and Europe saying reliable guarantees must be provided. La Tercera in Chile reports allies arguing that NATO should remain the axis of European defence after the war. UNIAN quotes a diplomat saying Ukraine may soon receive $400 million in weapons under the USAI programme.",
+              "articleIds": [
+                "n-a399f28cfaf9cd",
+                "n-9327e3759282db",
+                "n-47892f0a186723",
+                "n-d6802dc355f3b6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Europe's quarrel over money",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Merz's ultimatum",
+              "text": "Newspim in South Korea reports Merz saying all EU members must take part in supporting Ukraine or he will block the next EU budget. ANSA reports Berlin and the Nordic countries opening a dispute over aid to Kyiv under the phrase 'everyone should pay'. DW's Ukrainian service reports Fico saying he was 'shocked' and calling Merz's demand blackmail.",
+              "articleIds": [
+                "n-1ddccf0c913b93",
+                "n-b4af01b0963f6b",
+                "n-f8eabfb0f0fc16"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "The other ledgers",
+              "text": "The Amman newspaper in Jordan reports Russia's international reserves at $721 billion and its trade surplus up 13.2%. UNIAN reports the blackout regime in Kyiv region being tightened and runs a guide on whether a home solar station will get a household through winter outages. Russia's ability to wait and Ukraine's cost of waiting are both in the same day's numbers.",
+              "articleIds": [
+                "n-cbc9fe3aafdd02",
+                "n-a5adec8c870fd5",
+                "n-a5b6e4f69b1bb1",
+                "n-46a30244c2d68d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "The question has become the bill",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "From whether to who pays",
+              "text": "Merz's threat comes in the week the talks advance. Germany, the largest contributor, wants every member committed before a settlement fixes the cost of guarantees, weapons and reconstruction, and ANSA's headline names the question directly. Governments that have given little, such as Fico's, have a reason to resist being bound before the terms are known.",
+              "articleIds": [
+                "n-b4af01b0963f6b",
+                "n-1ddccf0c913b93",
+                "n-f8eabfb0f0fc16"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f6",
+              "label": "Guarantees without money",
+              "text": "What the US brings, by these headlines, is the table, the guarantee wording and $400 million in weapons. Keeping NATO as the axis of European defence after the war means Europe's money spent inside an American-led structure. The settlement being drafted in Abu Dhabi will be paid for largely in Berlin, Stockholm and Brussels.",
+              "articleIds": [
+                "n-d6802dc355f3b6",
+                "n-47892f0a186723",
+                "n-a399f28cfaf9cd"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f7",
+              "label": "Two arguments that happen to coincide",
+              "text": "Merz's demand is about aid now, not a post-war bill, and the Berlin-Nordic dispute may belong to the negotiation over the EU's 2028 to 2034 budget, which would happen whatever is said in Abu Dhabi. The prisoner exchange is a humanitarian step that has happened several times during the war and does not show a settlement is near. Russia's reserve figure is routine monthly data. If the talks stall, the European quarrel is about funding a continuing war, and the join between the table and the budget falls away.",
+              "articleIds": [
+                "n-1ddccf0c913b93",
+                "n-32ff4e997a85c9",
+                "n-cbc9fe3aafdd02"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "WAR / FUNDING / UNANIMITY",
+          "text": "After February 2022 the EU paid for weapons for the first time, through the European Peace Facility, and then spent two years working around Hungarian vetoes. In February 2024 the €50 billion Ukraine Facility was agreed once Orbán gave way, and later that year the G7 agreed a $50 billion loan serviced from the profits on frozen Russian assets. Fico returned to power in Slovakia in October 2023 and stopped state military aid from Slovak stocks. From 2025 the Trump administration stopped new aid packages of the old kind and asked Europeans to buy American weapons for Ukraine, so Europe's share of the cost rose. Ukraine's drone strikes on Russian bombers in June 2025 showed it could raise Russia's costs cheaply, while its own costs are paid in power cuts like those now tightened around Kyiv. By these headlines, Merz now proposes to use the EU budget itself as the lever, which is the step the vetoes of 2022 to 2024 avoided.",
+          "trajectoryIds": [
+            "spiderweb-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CRISIS / CREDITORS / MEDIATION",
+          "text": "The euro crisis that followed 2008 taught the EU to argue about money as creditors and debtors, with Germany setting the conditions. Slovakia was the first test of refusal: in 2010 it declined to join the first loan to Greece, and in October 2011 the Radičová government fell over the vote on the euro rescue fund. Adam Tooze describes how the crisis made budget rules the main ground of European politics. In 2014 and 2015 Germany and France brokered the Minsk agreements on eastern Ukraine, with Russia and Ukraine at the table and no large sums attached. In 2026 the roles are rearranged: the US brokers in Abu Dhabi, and Germany asks for money from members who remember being told to pay for others. Fico's word 'blackmail' carries that memory of conditional European money.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "ENLARGEMENT / TRANSFERS / RESENTMENT",
+          "text": "Slovakia became independent in 1993 and joined both NATO and the EU in 2004, as a net recipient of EU funds. Ukraine gave up the nuclear weapons on its soil under the Budapest Memorandum of 1994 in return for assurances, not guarantees, which is why the word 'guarantee' in the Abu Dhabi reports matters so much to Kyiv. Enlargement rested on a bargain in which the older members paid and the newer ones converged. Ivan Krastev and Stephen Holmes argue that thirty years of imitating Western Europe left resentment in the east at being told what to do. Fico's reply to Merz draws on that resentment, and Merz's demand draws on the other side of the bargain: that receiving countries should also give. The library holds no trajectory for the enlargement of 2004; it is the moment this horizon stands on.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "light-that-failed"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "RECONSTRUCTION / ALLIANCE / BURDEN",
+          "text": "The postwar settlement in Western Europe was designed by people who had watched the reparations of 1919 fail, and it was paid for by the United States: about $13 billion through the Marshall Plan between 1948 and 1952. NATO followed in 1949, and American complaints that Europeans did not pay their share began under Eisenhower and never stopped. Tony Judt shows how Western Europe's recovery rested on American money and an American guarantee it did not have to fund in full. The Abu Dhabi talks reverse that arrangement. The United States mediates and offers 'NATO-style' wording, while the reconstruction and the guarantees are to be paid for by Europeans, and Berlin and the Nordic capitals are arguing about whether every member will contribute. For the first time since 1945 a European peace is being negotiated with the bill pointed at Europe.",
+          "trajectoryIds": [
+            "versailles-1919"
+          ],
+          "bookIds": [
+            "postwar"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-665a773fd0b5c3",
+        "n-52ae0943bff45e",
+        "n-b795577e541bdf",
+        "n-32ff4e997a85c9",
+        "n-afb735bd418eaf",
+        "n-f65045243870fc",
+        "n-317171381d0d81",
+        "n-39c0dc6803dfba",
+        "n-a399f28cfaf9cd",
+        "n-9327e3759282db",
+        "n-47892f0a186723",
+        "n-d6802dc355f3b6",
+        "n-1ddccf0c913b93",
+        "n-b4af01b0963f6b",
+        "n-f8eabfb0f0fc16",
+        "n-cbc9fe3aafdd02",
+        "n-a5adec8c870fd5",
+        "n-a5b6e4f69b1bb1",
+        "n-46a30244c2d68d"
+      ]
+    },
+    {
+      "id": "chipmakers-fund-their-customers",
+      "line": "Four years after ChatGPT, the chipmakers that supply the AI labs are buying stakes in them as the labs turn to the stock market.",
+      "kicker": "VENDOR FINANCE / VALUATION / CAPITAL SPENDING",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "Another chip, server or cloud supplier announces an equity stake in OpenAI, Anthropic or another AI lab that buys its products.",
+          "by": "2026-12-05",
+          "because": "If suppliers are funding their own demand ahead of the listings, TSMC's move is one instance of a practice rather than a one-off investment.",
+          "id": "20261110T214741-chipmakers-fund-their-customers-1"
+        },
+        {
+          "what": "Anthropic cuts the size or price range of its IPO, or delays it, before listing.",
+          "by": "2026-12-08",
+          "because": "If lab valuations rest on suppliers' money, public buyers will price them lower, as they already price CoreWeave 65% below its peak despite strong results.",
+          "id": "20261110T214741-chipmakers-fund-their-customers-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the telecom build of 1996 to 2001, when Lucent, Nortel and Cisco lent billions to new phone and internet carriers so they could buy their equipment. When the carriers failed in 2001 the suppliers wrote off the loans, Nortel's shares fell by about 90% and it went bankrupt in 2009. Today's suppliers hold far more cash, the labs have real and growing revenue, and the support is equity rather than loans, but the buyers are even fewer.",
+        "paths": [
+          {
+            "name": "Listing at a lower price",
+            "weight": "favoured",
+            "text": "Anthropic lists by early 2027 below the top of its draft range, and supplier stakes in labs continue, presented as strategic investments. This is favoured because Cramer's remark that the market 'dodged a real bullet' already reads the valuation as more modest than feared, and CoreWeave's fall shows buyers discounting AI-dependent revenue.",
+            "sign": "Anthropic's final terms show a price or size below the draft's upper figure."
+          },
+          {
+            "name": "The listing is delayed",
+            "weight": "possible",
+            "text": "Further falls in Nvidia and data-centre shares close the window and Anthropic waits until later in 2027, relying on suppliers and private funds. This would push more of the funding onto the companies that sell to it.",
+            "sign": "Anthropic is reported postponing its IPO, citing market conditions."
+          },
+          {
+            "name": "Suppliers write down stakes",
+            "weight": "unlikely",
+            "text": "Within a year a chipmaker or cloud company reports a loss on its investment in an AI lab. This needs a much deeper fall in lab valuations than the headlines show; TSMC is paying a record dividend.",
+            "sign": "A supplier's quarterly results include an impairment on an AI lab stake."
+          }
+        ],
+        "decade": "Over ten years the AI build will either grow into its capacity, as the fibre of 2000 eventually did, or leave its suppliers holding the losses; the circle of suppliers and labs makes the second outcome hit both sides at once."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "TSMC is reported investing NT$32 billion in OpenAI and Anthropic on the day Anthropic's draft prospectus shows an IPO of up to $64.4 billion, CoreWeave's shares stand 65% below their peak despite strong results, and Nvidia's 12% fall returns Apple to the top of the world's most valuable companies. The factory beneath most AI chips is now also a shareholder in the labs whose spending fills its order book, just as those labs ask public buyers for money. When a supplier buys into its customers, part of its sales are paid with its own funds, and the stock market is being asked to price that arrangement.",
+      "events": [
+        {
+          "label": "TSMC invests in OpenAI and Anthropic",
+          "articleIds": [
+            "n-fc9e6d84497c1c"
+          ]
+        },
+        {
+          "label": "TSMC record dividend amid capex worries",
+          "articleIds": [
+            "n-bae5ca81be46ee",
+            "n-805e2770c36114"
+          ]
+        },
+        {
+          "label": "Anthropic files for IPO of up to $64bn",
+          "articleIds": [
+            "n-bf4821cf0ccd25",
+            "n-ab26bba8416800",
+            "n-57458588e253d1"
+          ]
+        },
+        {
+          "label": "CoreWeave 65% below peak, other data-centre stocks tipped",
+          "articleIds": [
+            "n-832bbc9d889d52",
+            "n-68f72816ebdb74"
+          ]
+        },
+        {
+          "label": "Nvidia falls 12%, Alphabet seen bottoming",
+          "articleIds": [
+            "n-61a9c0ce28f413",
+            "n-3c0fa17a4cc84f"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Money going into the labs",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "TSMC's stake and dividend",
+              "text": "ETtoday in Taiwan reports TSMC spending NT$32 billion to invest in OpenAI and Anthropic, and on the same day a record quarterly dividend of NT$9 a share for 3.25 million shareholders. The same outlet reports concerns about capital spending moving Taiwanese shares, while saying the AI supply chain supports their long-term rise.",
+              "articleIds": [
+                "n-fc9e6d84497c1c",
+                "n-bae5ca81be46ee",
+                "n-805e2770c36114"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Anthropic's listing",
+              "text": "The Star in Malaysia reports Anthropic's latest draft prospectus showing an IPO raising as much as $64.4 billion, and Handelsblatt puts the figure at almost $70 billion. CNBC quotes Jim Cramer saying the stock market 'dodged a real bullet' on the valuation, which reads the price as lower than had been feared.",
+              "articleIds": [
+                "n-bf4821cf0ccd25",
+                "n-ab26bba8416800",
+                "n-57458588e253d1"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "How public buyers are pricing it",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "CoreWeave, Nvidia, Alphabet",
+              "text": "NetEase in China reports CoreWeave's share price 65% below its peak, with strong after-hours results failing to ease market worries. Kenya Today reports Apple reclaiming the top spot as the world's most valuable company after a 12% drop in Nvidia. CNBC writes that Alphabet's shares appear to have bottomed and carries a Jefferies call for a data-centre stock to rise nearly 60%, so the selling and the tips for a rebound come in the same day.",
+              "articleIds": [
+                "n-832bbc9d889d52",
+                "n-61a9c0ce28f413",
+                "n-3c0fa17a4cc84f",
+                "n-68f72816ebdb74"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "A supplier inside its own market",
+          "fragments": [
+            {
+              "id": "f4",
+              "label": "Vendor financing by equity",
+              "text": "TSMC makes the chips that Nvidia, Google, Amazon and the labs' own designers sell or use, so OpenAI and Anthropic are its customers' customers. Buying into them turns part of TSMC's profit into a stake in the spending that keeps its plants full. If lab valuations rise it gains twice, and if they fall it loses twice. CoreWeave's fall despite good results shows that public buyers already discount companies whose revenue depends on a handful of AI clients.",
+              "articleIds": [
+                "n-fc9e6d84497c1c",
+                "n-832bbc9d889d52"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "dotcom-2000"
+              ]
+            },
+            {
+              "id": "f5",
+              "label": "Why it comes before the listing",
+              "text": "A stake taken by a large supplier shortly before an IPO gives the lab a reference price and a signal of demand. The labs need money at a scale only public markets can supply, and the suppliers have the most to lose if they cannot raise it. The coincidence of TSMC's stake and Anthropic's prospectus is the private market preparing the public one.",
+              "articleIds": [
+                "n-fc9e6d84497c1c",
+                "n-bf4821cf0ccd25",
+                "n-57458588e253d1"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Ordinary corporate investing",
+              "text": "NT$32 billion is about $1 billion, small beside TSMC's annual capital spending and cash, and chipmakers have long run venture arms that invest in future customers without it changing their sales. CoreWeave's fall has its own causes in its debt and its dependence on a few cloud contracts, and Nvidia's 12% drop followed the spy affair covered in the previous edition rather than any question of valuation. What these events share is the AI trade itself, not a mechanism of suppliers funding demand. The ETtoday headline also does not say whether TSMC buys shares directly or joins a fund.",
+              "articleIds": [
+                "n-fc9e6d84497c1c",
+                "n-832bbc9d889d52",
+                "n-61a9c0ce28f413"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "COMPUTE / CIRCULAR DEALS / LISTINGS",
+          "text": "ChatGPT appeared in November 2022, and within months the main AI labs were funded by the companies that sold them computing. Microsoft's $10 billion investment in OpenAI in January 2023 came largely as use of its Azure cloud. Amazon put up to $8 billion and Google several billion into Anthropic in 2023 and 2024, and Anthropic committed to their clouds and chips. In September 2025 Nvidia announced it would invest up to $100 billion in OpenAI, which would spend on Nvidia systems, and in October 2025 AMD gave OpenAI warrants for up to a tenth of its shares alongside a chip order. Each deal tied an investment to a purchase. By these headlines TSMC, the plant beneath most of those chips, has now joined the arrangement, and Anthropic's IPO is the first time outside buyers are asked to price the whole of it.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CHEAP MONEY / CLOUD / FOUNDRY",
+          "text": "After Lehman failed, the Federal Reserve held rates near zero until 2015 and again from 2020 to 2022, and the money went to companies valued on future growth, above all the cloud businesses of Amazon, Microsoft and Google, which became the largest buyers of servers in the world. TSMC won Apple's phone processors from 2014 and pulled ahead of Intel and Samsung at the leading edge by about 2020, so that nearly every advanced AI chip now passes through its plants. CoreWeave began in 2017 as a cryptocurrency miner with spare graphics chips and turned itself into an AI cloud. The result is an order book in which a few buyers account for most of the demand. That concentration is what makes TSMC's stake in two labs a bet on its own customers, and it is why CoreWeave's shares fall when good results come from the same few clients.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "TELECOM / BUBBLE / VENDOR FINANCE",
+          "text": "Netscape's listing in August 1995 put the first price on the internet, and the US Telecommunications Act of 1996 opened local phone markets to hundreds of new carriers that bought fibre and switching equipment on credit. Lucent, spun out of AT&T in 1996, Nortel and Cisco lent billions to those carriers so they could buy their products. When the bubble burst in 2000 and 2001, the carriers failed, the suppliers wrote off the loans, and the disclosure rules that followed are why Anthropic's draft prospectus runs to hundreds of pages. Much of the fibre laid then was later used, but not by the companies that paid for it. The question for 2026 is the same one: whether the capacity being financed by its own suppliers will earn its cost for the buyers, or only later for someone else.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE SCIENCE / SEMICONDUCTORS / PRIVATE CAPITAL",
+          "text": "The transistor was invented at Bell Labs in 1947, and in the 1960s the Pentagon and NASA were the first large buyers of integrated circuits. Artificial intelligence was named at Dartmouth in 1956 with foundation money, and after Sputnik the US created ARPA in 1958 to commission what private firms would not. Taiwan followed the same model: its Industrial Technology Research Institute was set up by the state in 1973, and TSMC was founded in 1987 with government capital alongside Philips. For forty years the state was both the investor and the first customer of the technologies that changed computing. In the AI build the state has largely stepped back, and companies now play both roles for each other: TSMC funds OpenAI and Anthropic, which buy the chips it makes, and the public market is asked to underwrite the result.",
+          "trajectoryIds": [
+            "dartmouth-1956",
+            "sputnik-1957"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-fc9e6d84497c1c",
+        "n-bae5ca81be46ee",
+        "n-805e2770c36114",
+        "n-bf4821cf0ccd25",
+        "n-ab26bba8416800",
+        "n-57458588e253d1",
+        "n-832bbc9d889d52",
+        "n-61a9c0ce28f413",
+        "n-3c0fa17a4cc84f",
+        "n-68f72816ebdb74"
+      ]
+    },
+    {
+      "id": "secrets-reached-through-people",
+      "line": "Espionage against states and firms now goes through the private lives and phone numbers of the people who hold their secrets.",
+      "kicker": "ESPIONAGE / PRIVACY / INSIDERS",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "A government or large company in Europe or Asia announces new vetting, travel or personal-phone rules for senior staff, citing the Nvidia case or a leak.",
+          "by": "2026-12-05",
+          "because": "If the opening is now the person rather than the network, the response will be rules about people, not only about systems or chips.",
+          "id": "20261110T214741-secrets-reached-through-people-1"
+        },
+        {
+          "what": "Another Western official or executive is reported arrested or investigated over a relationship with a suspected foreign agent.",
+          "by": "2026-12-08",
+          "because": "If this is a method rather than one celebrity case, counter-intelligence services alerted by the Nvidia affair will find and publicise further cases.",
+          "id": "20261110T214741-secrets-reached-through-people-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the Profumo affair of 1963, when a British minister's relationship with Christine Keeler, who was also seeing a Soviet naval attaché, forced his resignation and weakened the Macmillan government. The secret at risk then was military; now it is a company's access to chips the US restricts, and the person at the centre runs a firm, not a ministry.",
+        "paths": [
+          {
+            "name": "Rules for people, not chips",
+            "weight": "favoured",
+            "text": "Over the coming months Nvidia's board inquiry ends with changes to how executives are vetted and protected, and other firms holding export-controlled technology adopt similar rules, while officials in Norway and elsewhere change how their contacts are held. This is favoured because the cases in these headlines are about individuals' exposure, which chip rules do not reach.",
+            "sign": "A company subject to US export controls announces security screening or protection rules for its executives."
+          },
+          {
+            "name": "Export rules tightened over the case",
+            "weight": "possible",
+            "text": "Congress or the Commerce Department uses the reported boast about getting chips past the ban to tighten controls on China by early 2027. This depends on Washington's wider China policy, which the case alone will not decide.",
+            "sign": "A bill or rule on AI chip exports to China is introduced with the Nvidia allegation named."
+          },
+          {
+            "name": "Huang leaves Nvidia",
+            "weight": "unlikely",
+            "text": "The board investigation finds he was compromised and he steps down. Nothing in these headlines goes beyond an admitted affair and an investigation.",
+            "sign": "Nvidia announces an interim chief executive."
+          }
+        ],
+        "decade": "Over ten years, counter-intelligence will extend from ministries to the private firms whose products governments control, and the personal data of officials and executives will be treated as a security asset in its own right."
+      },
+      "continues": "one-chip-firm-carries-ai-risk",
+      "change": "Yesterday's narrative read the Nvidia affair as a risk to markets. Today Trump is reported saying the FBI is investigating, the woman is reported to have boasted she could obtain American chips despite the export ban, and the case appears beside a US officer arrested in Britain over spying for Russia and leaked phone numbers of Norway's security chiefs.",
+      "claim": "Nvidia's board is investigating whether Jensen Huang was targeted by Chinese intelligence through an affair with a woman reported to have boasted she could get American chips past the export ban, a senior US military officer has been arrested in Britain over alleged spying for Russia, the phone numbers of Norway's security chiefs have been leaked on the dark web, and Colombia has captured an intelligence hacker paid by a state fund. In each case the way in is a person: a relationship, a phone, a loyalty. Japanese companies have drawn the defensive conclusion and stopped collecting names and phone numbers at all.",
+      "events": [
+        {
+          "label": "Nvidia chief and an alleged Chinese spy",
+          "articleIds": [
+            "n-fa43125d5e2150",
+            "n-454841ca3cfda2",
+            "n-ded776e2191542",
+            "n-8227fe05553fe3",
+            "n-727b1f6d39feed"
+          ]
+        },
+        {
+          "label": "US officer arrested in Britain over Russia",
+          "articleIds": [
+            "n-2d32472c1daacc"
+          ]
+        },
+        {
+          "label": "Norwegian security chiefs' numbers leaked",
+          "articleIds": [
+            "n-0e1ac8349a25e9"
+          ]
+        },
+        {
+          "label": "Japanese firms stop collecting phone numbers",
+          "articleIds": [
+            "n-0c6bd616d75aa5"
+          ]
+        },
+        {
+          "label": "Colombian state hacker captured",
+          "articleIds": [
+            "n-b92581cca19dc4",
+            "n-d7239eb5f93f64"
+          ]
+        },
+        {
+          "label": "Prabowo wiretapping case raised",
+          "articleIds": [
+            "n-f026070e491f4a"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "A chip chief and an officer",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "The Nvidia case",
+              "text": "International Business Times UK reports Jensen Huang admitting an affair as Nvidia's board investigates whether he was targeted by Chinese intelligence, and CBC profiles Alice Huang, the alleged spy and businesswoman. Iefimerida in Greece reports she boasted she could secure American chips despite the export ban, and SAMAA in Pakistan reports Trump saying the FBI is investigating. ETtoday in Taiwan reports she is already married and that her husband was arrested for stock manipulation.",
+              "articleIds": [
+                "n-fa43125d5e2150",
+                "n-454841ca3cfda2",
+                "n-ded776e2191542",
+                "n-8227fe05553fe3",
+                "n-727b1f6d39feed"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "An officer in Britain",
+              "text": "Cadena 3 in Argentina reports a senior US military officer arrested in the UK over alleged espionage for Russia. The headline gives no detail of how he was approached, only that the case concerns a serving officer with access.",
+              "articleIds": [
+                "n-2d32472c1daacc"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Phones, leaks and taps",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Norway and Japan",
+              "text": "NRK, citing Aftenposten, reports the phone numbers of Norwegian security chiefs leaked on the dark web. The Asahi Shimbun reports Japanese companies no longer asking customers for names and phone numbers because of leak problems.",
+              "articleIds": [
+                "n-0e1ac8349a25e9",
+                "n-0c6bd616d75aa5"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "Spying at home",
+              "text": "El Colombiano reports the large salary that Carlos Oyola, a captured hacker from the national intelligence directorate, drew from the Colombia en Paz fund, and separately describes Petro's government weakening state intelligence through election sabotage and spying on former presidents. Liputan6 in Indonesia reports Megawati raising a case of wiretapping against Prabowo and naming the police chief Listyo Sigit.",
+              "articleIds": [
+                "n-b92581cca19dc4",
+                "n-d7239eb5f93f64",
+                "n-f026070e491f4a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "The person as the way in",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "Why people rather than systems",
+              "text": "Export controls make American AI chips hard to buy and hardened networks make ministries hard to breach, so the person with access becomes the cheaper target. The reported boast in the Nvidia case ties a private relationship directly to a state policy. A security chief's phone number lets an adversary call, track or impersonate them, and an officer's loyalty is a route no firewall covers.",
+              "articleIds": [
+                "n-ded776e2191542",
+                "n-0e1ac8349a25e9",
+                "n-2d32472c1daacc"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f6",
+              "label": "Holding less about people",
+              "text": "The Japanese companies' decision is the defensive form of the same idea: data about people is now a liability to the holder. In Colombia and Indonesia the same tools are turned inward, with a state paying a hacker and politicians accusing each other of tapping phones.",
+              "articleIds": [
+                "n-0c6bd616d75aa5",
+                "n-b92581cca19dc4",
+                "n-f026070e491f4a"
+              ],
+              "bookIds": [
+                "surveillance-capitalism"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f7",
+              "label": "An old trade in a loud week",
+              "text": "Seduction, turned officers and wiretaps are as old as espionage, and one celebrity case dominates the day: Jensen Huang was the most-read subject across eighteen Wikipedia language editions, which measures attention, not frequency. The events also differ in kind. The Nvidia case is an unproven allegation under a board and FBI inquiry with no charge; the US officer is a classic state espionage arrest; Norway's is a leak with no named actor; Colombia and Indonesia are domestic political abuses of intelligence; Japan's is commercial privacy. Several of these headlines were found because they are in or near English.",
+              "articleIds": [
+                "n-fa43125d5e2150",
+                "n-0e1ac8349a25e9",
+                "n-d7239eb5f93f64",
+                "n-0c6bd616d75aa5"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "EXPORT CONTROLS / PHONES / COUNTER-INTELLIGENCE",
+          "text": "In October 2022, weeks before ChatGPT appeared, the US barred exports of the most advanced AI chips to China, and tightened the rules in 2023 and 2024. From 2025 American prosecutors charged people with smuggling Nvidia chips through third countries. The controls made the chips scarce in China and so made the people near them valuable. In the same years officials' phones became the main breach: the Salt Typhoon intrusion into American telecoms, reported in 2024, reached the communications of political figures, and in March 2025 a US national security adviser added a journalist to a Signal group discussing strikes in Yemen. By these headlines the woman at the centre of the Nvidia case boasted she could obtain chips despite the ban, which joins the two lines: a controlled product and a personal relationship with the man who sells it.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SMARTPHONES / DATA / BREACHES",
+          "text": "The iPhone of 2007 and the first Android phones of 2008 put an official's contacts, location and messages on one device. Edward Snowden's disclosures in 2013 showed how much a state could collect from such devices; Shoshana Zuboff later described the commercial version. In 2015 the US Office of Personnel Management lost the records of some 21.5 million people who had applied for security clearances, a breach attributed to China that gave a rival a file on the people with access. In Colombia the DAS intelligence agency was found in 2009 to have tapped judges, journalists and opposition politicians; it was dissolved in 2011 and replaced by the directorate whose hacker has now been captured. In Japan the 2014 Benesse leak of tens of millions of customer records led to a tighter privacy law, the background to firms now refusing to collect phone numbers.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "surveillance-capitalism"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "INSIDERS / REFORM / COMMERCE",
+          "text": "The end of the Cold War did not end insider spying. Aldrich Ames of the CIA was arrested in 1994 and Robert Hanssen of the FBI in 2001, both paid by Moscow for years. The US passed the Economic Espionage Act in 1996 as attention moved from military secrets to commercial ones, and Chinese cases came to dominate prosecutions under it. In Indonesia the fall of Suharto in 1998 brought reform of the army and intelligence services, but the state's ability to listen to politicians survived, which is why Megawati, a former president, can raise a wiretapping case in 2026. The arrest in Britain of a US officer accused of working for Russia is a case of the Ames kind; the Nvidia case is of the commercial kind the 1996 law anticipated, with a company chief rather than a clerk as the reported target.",
+          "trajectoryIds": [
+            "jakarta-1998"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "ATOMIC SECRETS / ROMEO AGENTS / SCANDAL",
+          "text": "The first great postwar spy case came out of the Trinity test: Klaus Fuchs, a physicist at Los Alamos, passed details of the bomb to the Soviet Union and confessed in 1950. The Cambridge spies showed that loyalty, not locks, was the weak point of a state. In 1963 the Profumo affair joined a minister's private life to a Soviet attaché and helped bring down a government. From the 1950s to the 1980s East Germany's foreign intelligence service under Markus Wolf sent so-called Romeo agents to Bonn to court secretaries in West German ministries. The Nvidia case as reported follows that pattern closely, with one difference that belongs to the present: the secret at stake is a private company's access to a product its government restricts, and the person targeted is the head of the company, not an official.",
+          "trajectoryIds": [
+            "trinity-1945"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-fa43125d5e2150",
+        "n-454841ca3cfda2",
+        "n-ded776e2191542",
+        "n-8227fe05553fe3",
+        "n-727b1f6d39feed",
+        "n-2d32472c1daacc",
+        "n-0e1ac8349a25e9",
+        "n-0c6bd616d75aa5",
+        "n-b92581cca19dc4",
+        "n-d7239eb5f93f64",
+        "n-f026070e491f4a"
+      ]
+    }
+  ]
+}

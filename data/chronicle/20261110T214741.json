@@ -1,0 +1,673 @@
+{
+  "schemaVersion": 1,
+  "editionStamp": "20261110T214741",
+  "asOf": "2026-11-10T21:47:41Z",
+  "generatedAt": "2026-11-10T22:03:18Z",
+  "model": "claude-opus-5-5",
+  "promptVersion": "chronicle-2",
+  "usage": {
+    "input": 39006,
+    "output": 28627,
+    "tier": "standard"
+  },
+  "previousVersion": "20261110T001511",
+  "notes": [
+    "A running account of where things stand by these headlines, revised after each edition rather than added to. Every version is kept.",
+    "Written by the model from the narratives, not from the headlines. It is a reading, not a record."
+  ],
+  "standing": "On 10 November oil fell again on signs of US moderation and Rubio said there was no need to attack Iran, while Iran was reported still firing on tankers in Hormuz and Saudi Arabia's East-West pipeline near Medina had been targeted. The acts attributed to Iran that day were in Europe: France warned Iran after a cyberattack on supermarkets started at least fifteen fires, and a man held in a US jail was charged with helping an Iran-backed group plot an attack on RAF Fairford in Britain. US-mediated talks between Russia and Ukraine in Abu Dhabi produced a planned prisoner exchange of 1,000 or 1,500 a side and a US offer of 'NATO-style' security guarantees, while Germany's Merz threatened to block the next EU budget unless every member supports Ukraine and Slovakia's Fico called that blackmail. Nvidia's shares were reported down 12 per cent, returning Apple to the top of the most valuable companies, Trump said the FBI was investigating Jensen Huang's affair with an alleged Chinese spy, and TSMC was reported investing NT$32 billion in OpenAI and Anthropic as Anthropic's draft prospectus showed an IPO of up to $64.4 billion.",
+  "moved": [
+    "The Iran thread was carried on again by its own edition on the evening of 10 November. Oil fell and Rubio said there was no need to attack Iran, while the acts attributed to Iran moved to France and Britain: a supermarket hack that started at least fifteen fires and a charged plot against RAF Fairford. The fridge attacks, until now followed in the silent hacks thread, are carried here.",
+    "The AI spending thread split in two. The edition carried the Nvidia case on as espionage reached through people, beside a US officer arrested in Britain over spying for Russia and leaked phone numbers of Norway's security chiefs, while TSMC's stakes in OpenAI and Anthropic and Nvidia's 12 per cent fall came in an unlinked narrative that begins its own thread.",
+    "A thread began on the Russia-Ukraine talks in Abu Dhabi and the quarrel among EU governments over who pays for Ukraine, marked firm by its edition."
+  ],
+  "silent": [
+    "Fuel tax cuts ending, courts and heads of state given the last word, and El Niño's rains turned silent on the evening of 10 November after three editions without a narrative. Each has expectations open to 5 December, and nothing here says the world has moved on, so the quiet is more likely the sample's.",
+    "The hacks thread has had no narrative since 3 November, but its central events, the supermarket refrigeration attacks, are now carried in the Iran thread. The quiet is a matter of where the Chronicle places them, not a lack of news.",
+    "Young people's protests stays silent since 1 November, and its fourth-weekend expectation failed. No headline here says whether the protests of 7 and 8 November took place, so this may be the world moving on or the sample.",
+    "Russia shunned and courted has been silent since 31 October, yet the US-mediated Abu Dhabi talks returned on 10 November in the new Ukraine thread, whose edition did not link the two."
+  ],
+  "threads": [
+    {
+      "key": "iran-war-and-fuel",
+      "label": "Iran war, oil prices, talks and reach",
+      "status": "live",
+      "since": "20261026T234612",
+      "lastSeen": "20261110T214741",
+      "narratives": [
+        {
+          "stamp": "20261026T234612",
+          "id": "two-clocks"
+        },
+        {
+          "stamp": "20261027T075302",
+          "id": "hormuz-fuel-prices-and-tehran-talks"
+        },
+        {
+          "stamp": "20261027T201945",
+          "id": "iran-war-fuel-squeeze-refined-products"
+        },
+        {
+          "stamp": "20261029T045403",
+          "id": "war-prices-reach-mortgages"
+        },
+        {
+          "stamp": "20261030T015732",
+          "id": "washington-oil-price-two-wars"
+        },
+        {
+          "stamp": "20261031T013540",
+          "id": "war-prices-reach-wage-talks"
+        },
+        {
+          "stamp": "20261101T010841",
+          "id": "war-fuel-price-who-pays"
+        },
+        {
+          "stamp": "20261102T013011",
+          "id": "iran-choice-timed-to-midterms"
+        },
+        {
+          "stamp": "20261102T232930",
+          "id": "iran-talks-priced-before-the-fighting-stops"
+        },
+        {
+          "stamp": "20261103T214619",
+          "id": "hormuz-cost-to-buyers-gain-to-bypass-sellers"
+        },
+        {
+          "stamp": "20261104T215151",
+          "id": "war-price-reaches-ballot-and-rates"
+        },
+        {
+          "stamp": "20261105T215902",
+          "id": "war-oil-splits-rate-setters"
+        },
+        {
+          "stamp": "20261108T202834",
+          "id": "iran-pressed-by-land-and-sea"
+        },
+        {
+          "stamp": "20261110T001511",
+          "id": "oil-prices-follow-talk-not-the-gulf"
+        },
+        {
+          "stamp": "20261110T214741",
+          "id": "iran-war-reaches-europe-during-talks"
+        }
+      ],
+      "text": "On 26 October the join was the Gulf running talks and strike preparations. From 27 October to 5 November it followed the Hormuz price shock to jet fuel, mortgages, wages and taxes, swung between talks and US strikes, and reached Congress and central bank rates. On 8 November the war was reported paused, with pressure on Iraq's crossings and a naval build-up. On the morning of 10 November Brent fell 5 per cent on Trump's talk of momentum while Saudi Arabia's East-West pipeline was targeted. That evening oil fell again, Rubio said there was no need to attack Iran, and the acts attributed to Iran were in Europe: a supermarket hack that started at least fifteen fires in France and a charged plot against RAF Fairford in Britain, with tanker attacks in Hormuz continuing.",
+      "direction": "Since 8 November it has moved from fighting between the US and Iran to talks priced by the oil market, while the acts attributed to Iran have moved from the Gulf to Saudi routes and then to France and Britain."
+    },
+    {
+      "key": "fuel-tax-relief-ends",
+      "label": "Governments ending fuel tax cuts mid-war",
+      "status": "silent",
+      "since": "20261107T201404",
+      "lastSeen": "20261107T201404",
+      "narratives": [
+        {
+          "stamp": "20261107T201404",
+          "id": "fuel-tax-cuts-end-mid-war"
+        }
+      ],
+      "text": "Begun on 7 November and not linked by its edition to the Iran thread, though it keeps an expectation set there on 1 November. Italy will not extend its diesel excise cut, so diesel can rise by up to 5 cents a litre from 8 November. Portugal adjusts its fuel tax discount, and Taiwan's state refiner CPC holds pump prices again after absorbing NT$34.07 billion. The join is governments handing the war's fuel price back to drivers while the war goes on. Its case against says Italy and Portugal have adjusted these discounts since 2022. On 10 November the Iran narrative reported drivers in Vietnam and exporters in Kenya carrying the war's cost. No narrative carried this thread on 8 November or in either edition of 10 November, so it is silent.",
+      "direction": ""
+    },
+    {
+      "key": "energy-shock-equipment-orders",
+      "label": "War energy shock turned into equipment orders",
+      "status": "silent",
+      "since": "20261106T212911",
+      "lastSeen": "20261106T212911",
+      "narratives": [
+        {
+          "stamp": "20261106T212911",
+          "id": "energy-shock-becomes-equipment-orders"
+        }
+      ],
+      "text": "Begun on 6 November and not linked by its edition to the Iran thread, though it starts from the same war. Iran says two tankers caught fire after hitting mines in the Strait of Hormuz. Siemens Energy says a Middle East power push is straining gas turbine supply, a Chinese solar cell line runs at full capacity, Adani Green turns to batteries for India's grid, and an agency finds the energy crisis speeding renewables in emerging economies. The join is that buyers who cannot lower the price of imported fuel are buying equipment to need less of it. Its case against says Siemens Energy's backlog and China's solar capacity predate the war. No narrative carried it on 7, 8 or 10 November, so it is silent. Gas sought beside electrification began a separate thread on 10 November.",
+      "direction": ""
+    },
+    {
+      "key": "students-and-the-square",
+      "label": "Young people's protests and their policing",
+      "status": "silent",
+      "since": "20261026T234612",
+      "lastSeen": "20261101T010841",
+      "narratives": [
+        {
+          "stamp": "20261026T234612",
+          "id": "young-in-the-square"
+        },
+        {
+          "stamp": "20261027T075302",
+          "id": "student-strikes-and-occupations"
+        },
+        {
+          "stamp": "20261031T013540",
+          "id": "one-weekend-of-protest-bans-and-talks"
+        },
+        {
+          "stamp": "20261101T010841",
+          "id": "gen-z-protests-met-by-police"
+        }
+      ],
+      "text": "On 26 October the join was young people in public squares; on 27 October students struck or occupied buildings in France, Mexico, India and Italy. Revived on 31 October, when protests called for the same weekend met a ban in La Rochelle and negotiation in Lisbon, it was carried on 1 November with France deploying 70,000 security personnel for a third weekend and protesters detained in Poland. No headline reported a demand. No narrative has carried it since 1 November. The expectation that France would deploy 50,000 or more for a fourth weekend, on 7 and 8 November, failed on 10 November: nothing in the collections reported it. No headline here says whether that weekend's protests took place, so the reading of these protests as met by police numbers is unconfirmed after 1 November.",
+      "direction": "It moved from youth as a political image to student strikes and then to policing reported as officers counted and routes diverted, then fell silent."
+    },
+    {
+      "key": "housing-states-and-protest",
+      "label": "Housing: state drives, protests and outside money",
+      "status": "silent",
+      "since": "20261027T075302",
+      "lastSeen": "20261106T212911",
+      "narratives": [
+        {
+          "stamp": "20261027T075302",
+          "id": "housing-states-employers-protests"
+        },
+        {
+          "stamp": "20261106T212911",
+          "id": "homes-priced-by-money-from-elsewhere"
+        }
+      ],
+      "text": "On the morning of 27 October one narrative joined Egypt, Indonesia and Tamil Nadu expanding housing with Portugal investigating police at housing protests. After ten days without a narrative the Chronicle revived it on 6 November, by judgment, with an unlinked narrative marked tentative. Foreign buyers made 16% of Portuguese home purchases as prices hit records, while 780,000 people left in five years. Brazilian firms raise up to R$400 million to build homes in the United States, and Australian essential workers are priced out of rents. The join is homes priced by money earned elsewhere; its case against says 84% of Portuguese purchases are by residents. No narrative carried it on 7, 8 or 10 November, so it is silent.",
+      "direction": "It moved from states building homes and police at protests to home prices set by buyers from outside, with Portugal in both editions."
+    },
+    {
+      "key": "data-centres-profit-and-objection",
+      "label": "AI spending, Nvidia's exposure and espionage",
+      "status": "live",
+      "since": "20261029T045403",
+      "lastSeen": "20261110T214741",
+      "narratives": [
+        {
+          "stamp": "20261029T045403",
+          "id": "data-centre-profit-and-dispute"
+        },
+        {
+          "stamp": "20261030T015732",
+          "id": "ai-spending-growth-and-markdown"
+        },
+        {
+          "stamp": "20261031T013540",
+          "id": "ai-selloff-taiwan-state-buyers"
+        },
+        {
+          "stamp": "20261101T010841",
+          "id": "ai-gains-concentrated"
+        },
+        {
+          "stamp": "20261102T232930",
+          "id": "ai-build-needs-lenders-and-hosts"
+        },
+        {
+          "stamp": "20261105T215902",
+          "id": "ai-build-vote-sells-asia"
+        },
+        {
+          "stamp": "20261110T001511",
+          "id": "one-chip-firm-carries-ai-risk"
+        },
+        {
+          "stamp": "20261110T214741",
+          "id": "secrets-reached-through-people"
+        }
+      ],
+      "text": "Begun on 29 October with Samsung and CHPT profits on data centre demand beside disputes in Norway, Finland and Russia. It reached US growth credited to AI investment on 30 October, Alphabet's fall and Taiwan's state buying on 31 October, gains on few firms on 1 November, borrowing on 2 November and a Nasdaq fall of more than 5% on 5 November. The Chronicle revived it on 10 November with Nvidia's 8 to 9 per cent fall after Jensen Huang admitted an affair with an alleged Chinese spy. That evening its edition carried the case on as espionage: Trump said the FBI was investigating, the woman reportedly boasted she could get chips past the export ban, a US officer was arrested in Britain over spying for Russia, and Norway's security chiefs' numbers leaked. TSMC's stakes in AI labs began a separate thread.",
+      "direction": "It has moved from profit and borrowing to Nvidia's weight in the market and then to the Nvidia case read as espionage through people, with the money side split off."
+    },
+    {
+      "key": "chip-suppliers-fund-ai-labs",
+      "label": "Chip suppliers buying stakes in AI labs",
+      "status": "live",
+      "since": "20261110T214741",
+      "lastSeen": "20261110T214741",
+      "narratives": [
+        {
+          "stamp": "20261110T214741",
+          "id": "chipmakers-fund-their-customers"
+        }
+      ],
+      "text": "Begun on the evening of 10 November and not linked by its edition to the AI spending thread, whose ground it shares. TSMC is reported investing NT$32 billion in OpenAI and Anthropic as Anthropic's draft prospectus shows an IPO of up to $64.4 billion, and TSMC sets a record dividend amid worries over its capital spending. CoreWeave's shares stand 65% below their peak despite strong results, and Nvidia's fall reached 12%, returning Apple to the top of the most valuable companies. The join is a supplier buying into the customers whose spending fills its order book, just as they ask public buyers for money. Its case against says NT$32 billion is about $1 billion, chipmakers have long run venture arms, and Nvidia's drop followed the spy affair, not a question of valuation.",
+      "direction": ""
+    },
+    {
+      "key": "former-leaders-courts-and-exit",
+      "label": "Former leaders between courts and amnesty",
+      "status": "silent",
+      "since": "20261029T045403",
+      "lastSeen": "20261029T045403",
+      "narratives": [
+        {
+          "stamp": "20261029T045403",
+          "id": "former-rulers-court-or-exit"
+        }
+      ],
+      "text": "Begun on 29 October. South Korea's special counsel again sought, and by one report won, a death sentence for former president Yoon Suk Yeol over his martial law declaration. In Brazil Alcolumbre planned an amnesty for Jair Bolsonaro, and Flávio Bolsonaro reached the United States with Trump's consent. Spain's Zapatero, India's Azam Khan and Indonesia's anti-corruption law also appeared. No narrative has carried the court cases since. Najib Razak's fine on 6 November and Santiago Peña's arrest on 8 November went to the failed-banks thread, and Najib's conditional pardon on 7 November to the constitutions thread.",
+      "direction": ""
+    },
+    {
+      "key": "backup-systems-and-blame",
+      "label": "Failed safety systems and operator blame",
+      "status": "silent",
+      "since": "20261029T045403",
+      "lastSeen": "20261029T045403",
+      "narratives": [
+        {
+          "stamp": "20261029T045403",
+          "id": "backup-systems-and-blame"
+        }
+      ],
+      "text": "Begun on 29 October and marked tentative by its own edition. A high-speed collision near Urda in Spain, which other headlines say killed 68 people, followed at least 15 warnings about faulty signalling. A JR train in Japan overran a station when its driver was drowsy and its automatic braking did not act. Bangladesh, Manila's airport and Mexico's networks had failures of grids, servers, cameras and internet. Only the Spanish and Japanese cases had a stated cause. No narrative has carried it since.",
+      "direction": ""
+    },
+    {
+      "key": "contested-vote-counts",
+      "label": "Vote counts, rolls and election bodies contested",
+      "status": "silent",
+      "since": "20261030T015732",
+      "lastSeen": "20261104T215151",
+      "narratives": [
+        {
+          "stamp": "20261030T015732",
+          "id": "contesting-the-count"
+        },
+        {
+          "stamp": "20261102T013011",
+          "id": "incumbents-doubt-the-count"
+        },
+        {
+          "stamp": "20261102T232930",
+          "id": "incumbents-act-before-polling"
+        },
+        {
+          "stamp": "20261104T215151",
+          "id": "electoral-bodies-become-the-contest"
+        }
+      ],
+      "text": "Begun on 30 October with Flávio Bolsonaro declaring himself Brazil's president, Eisenkot accusing Netanyahu of delegitimising Israel's result and deletion forms in Delhi. On 2 November it took in Likud's doubt over the Knesset result, then moved before the vote: the Justice Department asked the Supreme Court to halt California's count of 20,000 mail ballots, and India's roll revision removed more than 90,000 names in Chamarajanagar. On 4 November a narrative placed here by the Chronicle moved it to election bodies in Mexico, Nigeria, South Africa and Israel. On 6 November, with no narrative, Trump was reported calling the US election rigged and demanding victory in Alaska's Senate race, keeping a 2 November expectation. No narrative has carried it since 4 November; a court request over a second state can come until 17 November.",
+      "direction": "It moved from disputing results to acting before polling and to who runs the commissions, and after the US vote a disputed result returned, by these headlines, without a narrative."
+    },
+    {
+      "key": "one-machine-drones",
+      "label": "Drones in war, numbers and arms production",
+      "status": "silent",
+      "since": "20261026T234612",
+      "lastSeen": "20261030T015732",
+      "narratives": [
+        {
+          "stamp": "20261026T234612",
+          "id": "one-machine"
+        },
+        {
+          "stamp": "20261030T015732",
+          "id": "drones-and-the-return-of-mass"
+        }
+      ],
+      "text": "On 26 October one narrative joined drones cutting power, guarding a lake, carrying the wounded and being sold. Drones returned on 30 October, by the Chronicle's judgment, as a matter of numbers: a shortage of Ukrainian interceptors, a record raid shutting Moscow and St Petersburg airports, Finnish anti-drone training, Ukrainian loans to arms makers and Lithuanian conscription from 2032. No narrative has carried drones since. Ukrainian combat robots appeared in the AI thread on 1 November, and late on 2 November the seizure of two American drones near Qeshm appeared in the Iran thread.",
+      "direction": "It moved from the drone's many uses to the number of drones and the factories and conscripts states are raising to match them, then fell silent."
+    },
+    {
+      "key": "russia-shunned-and-courted",
+      "label": "Russia shunned by Europe, courted elsewhere",
+      "status": "silent",
+      "since": "20261031T013540",
+      "lastSeen": "20261031T013540",
+      "narratives": [
+        {
+          "stamp": "20261031T013540",
+          "id": "russia-shunned-and-courted"
+        }
+      ],
+      "text": "Begun on 31 October. European ministers refused to stand beside Sergei Lavrov for the G20 photograph. Meanwhile US and Russian foreign ministers discussed coordination at APEC, Washington weighed lifting sanctions on a Putin associate, Russia signed 53 documents at its Africa summit and Nigeria moved to replace a 1967 air agreement with Moscow. The case against says the Europeans still attended and the African deals renew old ties. No narrative has carried it since; its sanctions expectations are still open. On 3 November Kaliningrad's electronic warfare appeared in the Poland thread, and on 5 November Russia's record oil and gas revenue in the Iran thread. On the evening of 10 November the US-mediated Abu Dhabi talks returned in a new Ukraine thread, not linked to this one.",
+      "direction": ""
+    },
+    {
+      "key": "constitutions-and-courts-contested",
+      "label": "Courts and heads of state given the last word",
+      "status": "silent",
+      "since": "20261101T010841",
+      "lastSeen": "20261107T201404",
+      "narratives": [
+        {
+          "stamp": "20261101T010841",
+          "id": "constitutions-and-courts-contested"
+        },
+        {
+          "stamp": "20261107T201404",
+          "id": "pardons-and-signatures-go-to-court"
+        }
+      ],
+      "text": "Begun on 1 November and marked tentative: Poland's president and Tusk's government fighting over the Constitutional Tribunal, Egypt's debate on amending the constitution and Madeira's revision; its case against said only Poland's was a crisis. After six editions without a narrative the Chronicle revived it on 7 November, by judgment, with an unlinked narrative also marked tentative. Lawyers say Vučić's pardons could go to Serbian courts and Strasbourg, Malaysia's Attorney General seeks an audience with the King over Najib Razak's conditional pardon, Taiwan's cabinet refuses to countersign an Elderly Welfare Act, and a Nigerian court voids Atiku's candidature. Its case against says the acts share form but not content. No narrative carried it on 8 November or in either edition of 10 November, so it is silent.",
+      "direction": "It moved from fights over who controls courts and constitutions to who has the last word on pardons and laws already passed."
+    },
+    {
+      "key": "hidden-cost-of-paying",
+      "label": "New ways of paying and their hidden costs",
+      "status": "silent",
+      "since": "20261102T013011",
+      "lastSeen": "20261102T013011",
+      "narratives": [
+        {
+          "stamp": "20261102T013011",
+          "id": "cost-of-paying-moves-to-payer"
+        }
+      ],
+      "text": "Begun early on 2 November and marked tentative by its own edition. The Hindu explains that India's no-cost EMI is a loan presented as free. Yle reports Finnish shoppers annoyed by data collection but keeping their loyalty cards. Bangladesh launches a QR code for person-to-person payments while Jawa Pos defends Indonesians who still pay cash, and the FBI blames North Korea for the Binance theft. The join is that the visible fee has gone and the cost sits in a loan, a purchase record or an account the payer does not control. The Binance theft ran on in the hacks thread; no narrative has carried this join since, so it is silent.",
+      "direction": ""
+    },
+    {
+      "key": "budgets-protect-pensions",
+      "label": "Budgets protecting pensions over working-age incomes",
+      "status": "silent",
+      "since": "20261102T013011",
+      "lastSeen": "20261102T013011",
+      "narratives": [
+        {
+          "stamp": "20261102T013011",
+          "id": "budgets-protect-age-and-contract"
+        }
+      ],
+      "text": "Begun early on 2 November. Italy's budget promises no pension cuts up to 25,000 euros and faster severance for civil servants. Britain's John Healey promises the benefits bill will come down, Spanish economists say a self-employed worker on sick leave can have 180 euros for the month, and Russia reminds savers how to draw pension savings. The join is that income tied to age or a salaried contract is protected while income outside it is trimmed. Its case against says Italy's is the only budget and Healey is the defence secretary. No narrative has carried it since; on 5 November parliaments refusing budgets in France, Senegal and the Netherlands began a separate thread. Its expectations run to 30 November.",
+      "direction": ""
+    },
+    {
+      "key": "hacks-on-equipment-and-wallets",
+      "label": "Hacks through suppliers on freezers and wallets",
+      "status": "silent",
+      "since": "20261102T232930",
+      "lastSeen": "20261103T214619",
+      "narratives": [
+        {
+          "stamp": "20261102T232930",
+          "id": "hacks-reach-fridges-and-wallets"
+        },
+        {
+          "stamp": "20261103T214619",
+          "id": "breaches-start-with-suppliers-and-staff"
+        }
+      ],
+      "text": "Begun late on 2 November with attacks on shop refrigeration hitting 17 Dutch businesses, which the EU called an attack on food supply, and North Korea denying the $6.3 billion Binance theft. On 3 November the join moved to how attackers get in: a fake job interview behind the Binance theft, Singapore Airlines records reached through Amadeus, and Italian advice to check supplier contacts as the attacks reached Belgium and Greece. On 10 November France was reported officially accusing Iran of the refrigeration attacks, keeping the 2 November expectation that a European government would name those responsible. That evening the attacks, now reported to have started at least fifteen fires in France, were carried in the Iran thread's narrative, not here. The 3 November expectation that a contractor's remote access will be named as the way in is open to 24 November.",
+      "direction": "It moved from what was hit, freezers and wallets, to the suppliers and staff through whom attackers got in, then fell silent as its refrigeration attacks passed to the Iran thread."
+    },
+    {
+      "key": "poland-unclaimed-threats",
+      "label": "Unclaimed threats against Poland and its answers",
+      "status": "silent",
+      "since": "20261103T214619",
+      "lastSeen": "20261103T214619",
+      "narratives": [
+        {
+          "stamp": "20261103T214619",
+          "id": "poland-cheap-threats-costly-answers"
+        }
+      ],
+      "text": "Begun on 3 November and marked tentative by its own edition. Emailed bomb threats forced a plane to land in Warsaw and diverted two Poland-bound planes from London. A second person was detained over the arson of a Starlink station, Onet reports Kaliningrad becoming a centre of electronic warfare, and GROM special forces were sent to the Russian border. The join is cheap, unclaimed acts drawing costly answers below the level at which NATO's treaty applies. On 5 November Corriere della Sera reported an emailed bomb alert on a Milan-Warsaw flight and Radio Zet an alarm at Chopin Airport, keeping the expectation of another such threat. No narrative has carried it since 3 November, so it is silent, likely by the sample. No headline yet names Russia.",
+      "direction": ""
+    },
+    {
+      "key": "chinese-goods-merge-or-tax",
+      "label": "Chinese makers' gains and others' answers",
+      "status": "live",
+      "since": "20261103T214619",
+      "lastSeen": "20261108T202834",
+      "narratives": [
+        {
+          "stamp": "20261103T214619",
+          "id": "chinese-goods-push-others-to-merge-or-tax"
+        },
+        {
+          "stamp": "20261107T201404",
+          "id": "chinese-makers-grow-as-others-retreat"
+        },
+        {
+          "stamp": "20261108T202834",
+          "id": "chinese-makers-sell-at-both-ends"
+        }
+      ],
+      "text": "Begun on 3 November: SCG's chief executive called China's cheap exports a fact of life, Thailand raised taxes on imported electric cars, and Tata Motors and Iveco formed a group. It was revived on 7 November, by judgment, when Musk said Tesla would stop making the Cybertruck and BYD's Yangwang opened pre-orders for a 2.08 million yuan car. On 8 November its own edition carried it on, with Tesla suspending orders for the Cybertruck's entry version, NIO claiming a car a minute and Yangwang launching in Abu Dhabi. On 10 November, with no narrative, The Independent reported Musk axing the Cybertruck with refunds, keeping the 7 November expectation of another US carmaker cutting an electric pickup, though by Tesla itself. No narrative carried it in either edition of 10 November, and no headline here reports a sale lost to a Chinese maker.",
+      "direction": "It moved from producers elsewhere merging or taxing to meet Chinese goods, to producers elsewhere retreating, and by 8 November to Chinese makers selling abroad at both the cheap and the luxury end."
+    },
+    {
+      "key": "us-midterms-read-abroad",
+      "label": "Foreign capitals reading the US midterm result",
+      "status": "silent",
+      "since": "20261104T215151",
+      "lastSeen": "20261104T215151",
+      "narratives": [
+        {
+          "stamp": "20261104T215151",
+          "id": "us-vote-read-through-own-disputes"
+        }
+      ],
+      "text": "Begun on 4 November, the day after the midterms. Iran's leaders called the result a rejection of Trump's war, while Khamenei said Washington's Iran policy would not change. Egyptian commentators named Netanyahu among the losers, Pedro Sánchez said it would help Spain's socialists, Thai firms cheered, Canada's National Post asked whether Trump still wants a deal, and Polish analysts expected no change in foreign policy. The join is that each capital reads the vote through its own dispute with Washington. Its case against says Trump himself linked the defeat to the war and several voices are commentators. No narrative has carried it since 4 November, so it is silent.",
+      "direction": ""
+    },
+    {
+      "key": "ai-errors-and-liability",
+      "label": "Who answers for AI systems' errors",
+      "status": "silent",
+      "since": "20261104T215151",
+      "lastSeen": "20261104T215151",
+      "narratives": [
+        {
+          "stamp": "20261104T215151",
+          "id": "ai-errors-fall-on-adopters"
+        }
+      ],
+      "text": "Begun on 4 November and marked tentative by its own edition. Sina reports Accenture accused of publishing papers full of AI hallucinations after dismissing staff who would not use AI. Google has switched AI tools off by default for school pupils, and an Italian trial of AI found it not chargeable but socially dangerous. Portuguese firms adopt AI faster than they train staff, Anthropic's IPO filing sets out the risks of its build, and NTT adds AI defences as attacks rise sevenfold. The join is that the consequences of errors land on whoever took a system up. Its case against says the Italian trial may be a staged debate and the Accenture item is an accusation. No narrative has carried it since 4 November, so it is silent.",
+      "direction": ""
+    },
+    {
+      "key": "parliaments-refuse-budgets",
+      "label": "Parliaments refusing governments' budgets",
+      "status": "silent",
+      "since": "20261105T215902",
+      "lastSeen": "20261105T215902",
+      "narratives": [
+        {
+          "stamp": "20261105T215902",
+          "id": "parliaments-refuse-budgets"
+        }
+      ],
+      "text": "Begun on 5 November. French deputies unanimously rejected their government's budget ahead of nationwide wage strikes, and Senegal's parliament asked for the 2027 budget bill to be withdrawn. Rob Jetten warned Dutch MPs that voting down his tax plan would cost billions, Japan's prime minister faces a time-limited committee session over a consumption tax cut, and a Democratic Congress must now fund the US government. The join is that governments no longer command the chambers that pass next year's taxes and spending. Its case against says autumn is budget season, first-reading rejections are common, and only the French and Senegalese cases are outright refusals. No narrative has carried it since 5 November, so it is silent; the Japanese cut bears on an expectation open to 28 November.",
+      "direction": ""
+    },
+    {
+      "key": "soldiers-do-police-work",
+      "label": "Soldiers sent to keep civil order",
+      "status": "silent",
+      "since": "20261105T215902",
+      "lastSeen": "20261105T215902",
+      "narratives": [
+        {
+          "stamp": "20261105T215902",
+          "id": "soldiers-do-police-work"
+        }
+      ],
+      "text": "Begun on 5 November and marked tentative by its own edition. Indonesia's armed forces commander put troops in Jakarta, and the army gave its own account of a deadly riot at a Maulid celebration in Aceh. Pakistan deployed the army and Rangers for Punjab by-elections, a Bangladeshi soldier was killed raiding traffickers at Teknaf, and Lebanon's army ran raids and checkpoints with dozens arrested. A French bill widening when police may fire was called an advance by police unions and a licence to kill by the left. The join is civil order handed to soldiers or to rules closer to theirs. Its case against says Pakistan's and Lebanon's arrangements are long-standing and the tasks differ. No narrative has carried it since 5 November, so it is silent.",
+      "direction": ""
+    },
+    {
+      "key": "platform-feeds-regulated",
+      "label": "Regulators targeting platforms' recommendation systems",
+      "status": "silent",
+      "since": "20261106T212911",
+      "lastSeen": "20261106T212911",
+      "narratives": [
+        {
+          "stamp": "20261106T212911",
+          "id": "the-feed-becomes-the-regulated-product"
+        }
+      ],
+      "text": "Begun on 6 November. The European Commission accused TikTok of breaching EU rules through its content recommendation system, and Google, Meta and TikTok are suing to block a California law restricting addictive social media features for children. China's broadcasting regulator opened a two-month campaign against vulgar and homogenised AI micro-dramas after removing 75,000 titles, and Democrats are preparing AI bills for Congress. The join is that the thing regulated is the system choosing what a user sees next, not a single post. Its case against says the three regulators want different things and only the EU and California cases are clearly about ranking design. No narrative carried it on 7, 8 or 10 November, so it is silent.",
+      "direction": ""
+    },
+    {
+      "key": "failed-banks-and-office",
+      "label": "Failed banks and money cases reaching office",
+      "status": "live",
+      "since": "20261106T212911",
+      "lastSeen": "20261108T202834",
+      "narratives": [
+        {
+          "stamp": "20261106T212911",
+          "id": "failed-banks-reach-the-top"
+        },
+        {
+          "stamp": "20261108T202834",
+          "id": "presidents-pursued-through-assets"
+        }
+      ],
+      "text": "Begun on 6 November. Paraguay's Congress resumed impeachment of President Santiago Peña over the Ueno bank crisis, Daniel Vorcaro's phone recorded 316 interactions with Justice Alexandre de Moraes in the Banco Master case, Chile upheld a fine on Primus Capital's former chief executive, and UMNO's move to pay Najib Razak's RM50 million fine split Malaysia's coalition. On 8 November an unlinked narrative, placed here by the Chronicle because it follows the Peña case, reported a court freezing the assets of Peña, described as former president, and his arrest over an estimated $809 million Ueno loss. It added the Philippine vice-president answering wealth charges and opponents in Armenia and Egypt facing courts. No narrative carried it in either edition of 10 November.",
+      "direction": "It moved from failed banks reaching people in office to courts reaching office-holders through money in general, with Peña going from impeachment proceedings to arrest in two days."
+    },
+    {
+      "key": "el-nino-rains",
+      "label": "El Niño's first weeks arriving as rain",
+      "status": "silent",
+      "since": "20261107T201404",
+      "lastSeen": "20261107T201404",
+      "narratives": [
+        {
+          "stamp": "20261107T201404",
+          "id": "el-nino-first-weeks-bring-rain"
+        }
+      ],
+      "text": "Begun on 7 November and marked tentative by its own edition. Keiko Fujimori is reported visiting parts of Peru's Tumbes hit by rain, and Pulzo reports that El Niño has not stopped thunderstorms and hail in Bogotá. La Patria reports a landslide bringing trees down onto an avenue in Manizales, Brazil's Civil Defence has a 72-hour alert out, and a downpour stopped Formula One qualifying at Interlagos. The join is that an El Niño expected as drought is arriving first as rain. Its case against says October and November are wet seasons in Colombia and south-eastern Brazil in any year, only one headline names El Niño, and only the Tumbes rain is out of season. No narrative carried it on 8 November or in either edition of 10 November, so it is silent.",
+      "direction": ""
+    },
+    {
+      "key": "work-abroad-rationed",
+      "label": "Routes to work abroad rationed and deadly",
+      "status": "live",
+      "since": "20261108T202834",
+      "lastSeen": "20261108T202834",
+      "narratives": [
+        {
+          "stamp": "20261108T202834",
+          "id": "work-abroad-rationed"
+        }
+      ],
+      "text": "Begun on 8 November and marked tentative by its own edition. Off Lompoul in northern Senegal a pirogue capsized and at least 21 people died. In Bangladesh a lottery shortlisted 300 applicants for 112 fee-free jobs in Malaysia. A testimony in Portugal's SAPO describes shared rooms and low pay ending a migrant's stay, and in West Bengal Suvendu Adhikari promised to deport every 'Bangladeshi infiltrator'. The join is that a person's attempt to work abroad is rationed by a draw, the sea, wages or expulsion. Its case against says the lottery may be meant to cut out recruitment agents, the shipwreck's destination is not given, and four of seven headlines come from bdnews24. No narrative carried it in either edition of 10 November.",
+      "direction": ""
+    },
+    {
+      "key": "gas-sought-beside-electrification",
+      "label": "Gas supply sought beside climate summit targets",
+      "status": "live",
+      "since": "20261110T001511",
+      "lastSeen": "20261110T001511",
+      "narratives": [
+        {
+          "stamp": "20261110T001511",
+          "id": "gas-sought-in-the-hottest-years"
+        }
+      ],
+      "text": "Begun on 10 November and marked tentative by its own edition. The World Meteorological Organization confirmed the last four years as the hottest on record, and COP31 set out an electrification push as the 1.5C goal slips. Meanwhile Deutsche Welle examined Germany's untapped gas, Japan's and Vietnam's leaders discussed an early start to an LNG project, Argentina awaited $38 billion of investment decisions for Vaca Muerta and mining within 90 days, and Brazil extended its household cooking gas programme to 2031. The join is governments securing gas while planning to electrify, with the Hormuz closure in the background. Its case against says Vaca Muerta and the LNG talks are long-running, Brazil's is a subsidy and the German piece a feature. Its edition did not link it to the Iran or equipment threads. No narrative carried it on the evening of 10 November.",
+      "direction": ""
+    },
+    {
+      "key": "ukraine-talks-and-who-pays",
+      "label": "Ukraine talks and who pays in Europe",
+      "status": "live",
+      "since": "20261110T214741",
+      "lastSeen": "20261110T214741",
+      "narratives": [
+        {
+          "stamp": "20261110T214741",
+          "id": "ukraine-talks-and-who-pays"
+        }
+      ],
+      "text": "Begun on the evening of 10 November and marked firm by its edition. US-mediated talks between Russia and Ukraine in Abu Dhabi have produced a planned prisoner exchange of 1,000 or 1,500 a side and a US offer of 'NATO-style' security guarantees, with $400 million in weapons. Germany's Merz threatens to block the next EU budget unless every member supports Ukraine, and Slovakia's Fico calls that blackmail. Russia reports $721 billion in reserves and Kyiv tightens its blackouts. The join is that the talks decide how the war might stop while Europeans argue over who pays for what follows. Its case against says Merz's demand is about aid now and may belong to the 2028 to 2034 budget talks. An expectation from the silent Russia thread, of European objection to the Abu Dhabi terms, is open to 21 November; the edition did not link the two.",
+      "direction": ""
+    }
+  ],
+  "withdrawn": [
+    {
+      "held": "AI companies' share listings, the copyright suit against Anthropic and county refusals of data centre land, grid and water formed one thread.",
+      "undone": "On 29 October data centres returned on their own, as profit for Samsung and CHPT and as planning and security disputes in Norway, Finland and Russia, with no listing or lawsuit in view. The land and power question is running apart from the companies' finance and courts, so the merge no longer holds.",
+      "stamp": "20261029T045403"
+    },
+    {
+      "held": "The Iran war's price rise was moving outward from the pump to central bank rates and loan contracts, with the war named less often at each step.",
+      "undone": "On 30 October the reports ran the other way: Washington pressing Kyiv to stop hitting Russian refineries and sending Tehran a peace proposal, Israel's pump price set to fall, Russia budgeting on $50 oil and US mortgage rates down for two weeks. The war was named directly again, and the costs were reported as easing more than spreading.",
+      "stamp": "20261030T015732"
+    },
+    {
+      "held": "The data centre question was running apart from the AI companies' finance, as a matter of land, power and security.",
+      "undone": "On 30 October the data centre thread itself turned to finance: US growth credited to AI investment, Amazon's spending and Alphabet's fall in market value, with no planning or security dispute in that edition. The split of threads stands, but the separation of data centres from company finance does not.",
+      "stamp": "20261030T015732"
+    },
+    {
+      "held": "On 30 October the Iran war's costs had turned towards easing, with Washington pressing for a lower oil price before the midterms.",
+      "undone": "On 31 October Brent rose 2.4% to $117.64, Italy's inflation reached 5.4% and the price rise was argued over in pay rounds and tax relief in several countries. The easing reading did not last a day, and the earlier withdrawal of the outward-spread reading now looks premature.",
+      "stamp": "20261031T013540"
+    },
+    {
+      "held": "The AI share sell-off was moving towards losses partly taken on by Taiwanese public money, through its state funds and central bank.",
+      "undone": "On 1 November no state buying was reported, and the same thread was read as AI money landing on a few chip and computing makers, with Micron staff payouts and Chinese results led by AI computing. The public-money reading rested on one edition and is not carried as the thread's direction.",
+      "stamp": "20261101T010841"
+    },
+    {
+      "held": "The Iran war thread had turned to which governments carry the fuel price and which take more of it as revenue, with US-Iran talks stuck.",
+      "undone": "On 2 November no fuel-tax argument appeared, Brent fell 2% to $111, Trump said talks were going well and the thread was about whether a strike or talks follow the US vote. The who-pays reading rested on Turkey's single tax rise and is not carried as the direction; its expectation of a second government raising a fuel tax is still open.",
+      "stamp": "20261102T013011"
+    },
+    {
+      "held": "The AI spending thread had turned to how narrowly the gains land, on a few chip and computing makers and their staff.",
+      "undone": "Late on 2 November the thread was about the build depending on borrowing, with Oracle and Meta raising about $20 billion each and Anthropic losing more than its revenue, and on governments and voters setting terms for data centres; no payouts were reported. The concentration reading rested on one edition and is not carried as the direction; its expectations stay open.",
+      "stamp": "20261102T232930"
+    },
+    {
+      "held": "Late on 2 November the Iran thread was tilting towards talks, with prices falling on leaders' words while incidents at sea continued.",
+      "undone": "On 3 November the edition reported the strait still shut as the US struck Iran, with a bombing at Qeshm on polling day; Qatar's mediation went on, but the force was American, not only incidents at sea. The talks tilt held for one edition, and the thread returned to who pays and who gains from the closure.",
+      "stamp": "20261103T214619"
+    },
+    {
+      "held": "Central banks abroad, Brazil's among them with the world's highest real interest rate, were holding rates high against the Iran war's oil price.",
+      "undone": "On 5 November Mexico's central bank cut to 6.25% and Brazil's continued to cut while the Bank of England raised to 4%. Holding high describes some importers, not rate-setters in general, and the Mexican and Brazilian headlines do not name the war.",
+      "stamp": "20261105T215902"
+    },
+    {
+      "held": "The contested-count thread had moved on from disputing results after a vote to acting before polling and contesting the bodies that run elections.",
+      "undone": "On 6 November Liputan6 reported Trump saying the US election was rigged and Svenska Yle reported him demanding victory in Alaska's close Senate race. Disputing a result after the vote is back in these headlines, so the thread has not left it behind.",
+      "stamp": "20261106T212911"
+    },
+    {
+      "held": "On 7 November the US-Iran war was going on, with the US reported striking Iran again and the Revolutionary Guards saying their missile range limits were lifted.",
+      "undone": "On 8 November the edition reported the war as paused, with Trump calling a return to it very unlikely and pressure moved to Iraq's border crossings and a naval build-up. The fighting reported that day was between the Houthis and Saudi Arabia, not between the US and Iran.",
+      "stamp": "20261108T202834"
+    },
+    {
+      "held": "Since 3 November the Iran thread had been following who pays for the war's oil price, a question that passed on 7 November to the thread on fuel tax cuts.",
+      "undone": "On 8 November the thread's narrative named no price, rate or tax, and followed pressure on Iran by land and sea and the Saudi-Houthi exchange. The price question is not carried as this thread's direction; it sits in the fuel tax thread.",
+      "stamp": "20261108T202834"
+    },
+    {
+      "held": "On 8 November the question of the war's oil price had left the Iran thread and sat in the fuel tax thread.",
+      "undone": "On 10 November the Iran thread's own narrative turned on price: Brent fell 5 per cent on Trump's words about talks, and exporters in Kenya and drivers in Vietnam were reported carrying the war's cost.",
+      "stamp": "20261110T001511"
+    },
+    {
+      "held": "On 8 November the Iran thread was moving towards containing Iran by its land border with Iraq and a naval build-up.",
+      "undone": "On 10 November the blockade was reported continuing, but the thread's narrative led with Trump's talk of momentum after meeting Qatar's prime minister and the oil price falling on it. No headline reported Iraq closing a crossing.",
+      "stamp": "20261110T001511"
+    },
+    {
+      "held": "The reading of AI spending as gains concentrated on a few chip makers rested on one edition and was not carried as the thread's direction.",
+      "undone": "On 10 November the thread returned on that reading: so much rests on Nvidia that Jensen Huang's admitted affair with an alleged spy moved its shares 8 to 9 per cent and US chip policy. The concentration reading now has two editions behind it.",
+      "stamp": "20261110T001511"
+    },
+    {
+      "held": "The AI spending thread was moving from profit and borrowing to the market risk of resting so much on one chip firm, with share falls running on from 5 November.",
+      "undone": "On the evening of 10 November its edition carried the Nvidia case on as espionage reached through people, beside a US officer arrested in Britain and leaked Norwegian phone numbers, while the market side, TSMC's stakes in AI labs and Nvidia's 12 per cent fall, came in a narrative not linked to it. The thread has turned out to be two.",
+      "stamp": "20261110T214741"
+    }
+  ],
+  "caseAgainst": "This Chronicle rests on nineteen editions over about sixteen days, with none stamped 28 October or 9 November and two stamped 10 November about 21 hours apart, drawn from whichever publishers the collection reads and capped in how many headlines each may supply; what moved since the last version moved within one calendar day. The espionage narrative continues the Nvidia narrative, so by the rule it sits in the AI spending thread, while the TSMC narrative, which is plainly about AI money, starts a thread of its own; a reader could fairly say I have the split the wrong way round. The Ukraine thread could as well be the silent Russia thread revived, since the Abu Dhabi talks already appeared in its expectations on 31 October. The Iran narrative's own case against says France's attribution is denied by Iran with no published investigation, the Fairford plot may predate the talks by months, and earlier editions read the fridge attacks as a breach through a refrigeration contractor; what links its events may be the word Iran in the headlines. The espionage narrative notes that Jensen Huang was the most-read subject in eighteen Wikipedia languages, which measures attention, and that several of its headlines were found because they are in or near English. I have led the standing with the Iran war again, as every earlier version did, and the pull of those versions may make the war look more continuous than the headlines do.",
+  "line": "On 10 November 2026 Rubio says there is no need to attack Iran, while France warns Iran over a supermarket hack that started fires and a plot on RAF Fairford is charged.",
+  "revision": "The Iran narrative was added to the Iran thread, whose label and direction now take in acts attributed to Iran in France and Britain; the espionage narrative, continuing the Nvidia narrative, went to the AI spending thread, which was relabelled as it split, and the TSMC narrative and a Ukraine talks narrative began new threads. Fuel tax cuts, courts and pardons and El Niño's rains turned silent, leaving eight threads live; one reading was withdrawn and the standing was rewritten."
+}

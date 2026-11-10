@@ -1,6 +1,61 @@
 {
  "editions": [
   {
+   "stamp": "20261110T214741",
+   "file": "data/narratives/20261110T214741.json",
+   "newsGeneratedAt": "2026-11-10T21:47:41Z",
+   "generatedAt": "2026-11-10T21:59:36Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-7",
+   "narratives": [
+    {
+     "id": "iran-war-reaches-europe-during-talks",
+     "kicker": "IRAN / DIPLOMACY / SABOTAGE",
+     "line": "While Washington and Tehran negotiate, attacks linked to Iran are moving to European shops and to US air bases in Britain.",
+     "events": 5,
+     "headlines": 16,
+     "countries": 10,
+     "continues": "oil-prices-follow-talk-not-the-gulf",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "ukraine-talks-and-who-pays",
+     "kicker": "CEASEFIRE / BURDEN-SHARING / EU BUDGET",
+     "line": "Nearly five years into the invasion, talks to end it advance while EU governments argue over which of them pays for Ukraine.",
+     "events": 6,
+     "headlines": 19,
+     "countries": 10,
+     "continues": "",
+     "firmness": "firm",
+     "watch": 2
+    },
+    {
+     "id": "chipmakers-fund-their-customers",
+     "kicker": "VENDOR FINANCE / VALUATION / CAPITAL SPENDING",
+     "line": "Four years after ChatGPT, the chipmakers that supply the AI labs are buying stakes in them as the labs turn to the stock market.",
+     "events": 5,
+     "headlines": 10,
+     "countries": 6,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "secrets-reached-through-people",
+     "kicker": "ESPIONAGE / PRIVACY / INSIDERS",
+     "line": "Espionage against states and firms now goes through the private lives and phone numbers of the people who hold their secrets.",
+     "events": 6,
+     "headlines": 11,
+     "countries": 10,
+     "continues": "one-chip-firm-carries-ai-risk",
+     "firmness": "tentative",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261110T001511",
    "file": "data/narratives/20261110T001511.json",
    "newsGeneratedAt": "2026-11-10T00:15:11Z",
