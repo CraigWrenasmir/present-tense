@@ -1,0 +1,1674 @@
+{
+  "schemaVersion": 5,
+  "generatedAt": "2026-11-11T22:53:40Z",
+  "newsGeneratedAt": "2026-11-11T22:41:26Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-7",
+  "previousNewsGeneratedAt": "2026-11-10T21:47:41Z",
+  "usage": {
+    "input": 79475,
+    "output": 63767,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-7b96fed33cdfe2",
+      "title": "Oil production nears pre-Iran war levels, OPEC says",
+      "titleEnglish": "Oil production nears pre-Iran war levels, OPEC says",
+      "url": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-11-11T21:32:00Z",
+      "seenAt": "2026-11-11T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-73adec9a17d2d2",
+      "title": "Il petrolio chiude in leggero rialzo a New York, a 86,47 dollari - Notizie - Ansa.it",
+      "titleEnglish": "Oil closes slightly higher in New York, at $86.47 a barrel - News - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/11/11/il-petrolio-chiude-in-leggero-rialzo-a-new-york-a-8647-dollari_639b1fe6-1784-4048-a1c9-173afc170031.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-11T19:46:00Z",
+      "seenAt": "2026-11-11T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-55875857af2391",
+      "title": "Nigeria Produces 1.69mbpd Of Crude, Condensate In October, Meets OPEC Quota For 6th Month",
+      "titleEnglish": "Nigeria Produces 1.69mbpd Of Crude, Condensate In October, Meets OPEC Quota For 6th Month",
+      "url": "https://leadership.ng/nigeria-produces-1-69mbpd-of-crude-condensate-in-october-meets-opec-quota-for-6th-month/",
+      "publisher": "LEADERSHIP Newspapers",
+      "publisherDomain": "leadership.ng",
+      "publishedAt": "2026-11-11T13:22:46Z",
+      "seenAt": "2026-11-11T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-a24f70957d8ea5",
+      "title": "Retail prices of RON97, unsubsidised RON95, diesel to drop from Thursday",
+      "titleEnglish": "Retail prices of RON97, unsubsidised RON95, diesel to drop from Thursday",
+      "url": "https://www.thestar.com.my/news/nation/2026/11/11/retail-prices-of-ron97-unsubsidised-ron95-diesel-to-drop-from-thursday",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-11-11T23:31:00Z",
+      "seenAt": "2026-11-11T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
+    },
+    {
+      "id": "n-fcf454ab221fd9",
+      "title": "Singapore Airlines' interim profit nearly halves on higher fuel costs",
+      "titleEnglish": "Singapore Airlines' interim profit nearly halves on higher fuel costs",
+      "url": "https://www.thestar.com.my/business/business-news/2026/11/11/singapore-airlines039-interim-profit-nearly-halves-on-higher-fuel-costs",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-11-11T20:45:00Z",
+      "seenAt": "2026-11-11T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
+    },
+    {
+      "id": "n-17629c88d5199a",
+      "title": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
+      "titleEnglish": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
+      "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-11-11T21:32:00Z",
+      "seenAt": "2026-11-11T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-7b014d8cecc1ec",
+      "title": "إيران مباشر.. طهران تنتظر ردا أمريكيا على مقترحها وسنتكوم تعمل على إبقاء هرمز مفتوحا",
+      "titleEnglish": "Iran live: Tehran awaits US response to its proposal, and Centcom works to keep Hormuz open",
+      "url": "https://www.aljazeera.net/news/liveblog/2026/11/12/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D8%AA%D9%86%D8%AA%D8%B8%D8%B1-%D8%B1%D8%AF%D8%A7-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A7-%D8%B9%D9%84%D9%89",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-11T21:32:00Z",
+      "seenAt": "2026-11-11T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-8018bda5286beb",
+      "title": "حرب إيران تكبد دول الخليج خسائر بقيمة 790 مليار دولار | مصراوي",
+      "titleEnglish": "Iran war causes Gulf states losses of $790 billion | Masrawy",
+      "url": "https://www.masrawy.com/news/news_publicaffairs/details/2026/11/11/3077401/%D8%A8%D8%B3%D8%A8%D8%A8-%D8%AD%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AF%D9%88%D9%84-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D8%AA%D8%AA%D9%83%D8%A8%D8%AF-%D8%AE%D8%B3%D8%A7%D8%A6%D8%B1-%D8%A8%D9%82%D9%8A%D9%85%D8%A9-790-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B9%D8%A7%D9%85-2030",
+      "publisher": "مصراوي.كوم",
+      "publisherDomain": "masrawy.com",
+      "publishedAt": "2026-11-11T21:32:00Z",
+      "seenAt": "2026-11-11T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-e3f2f461b9bc3b",
+      "title": "QatarEnergy Plans Acquisition Of 25% Of Chevron-operated PEL 82 Offshore Namibia",
+      "titleEnglish": "QatarEnergy Plans Acquisition Of 25% Of Chevron-operated PEL 82 Offshore Namibia",
+      "url": "https://leadership.ng/qatarenergy-plans-acquisition-of-25-of-chevron-operated-pel-82-offshore-namibia/",
+      "publisher": "LEADERSHIP Newspapers",
+      "publisherDomain": "leadership.ng",
+      "publishedAt": "2026-11-11T13:48:40Z",
+      "seenAt": "2026-11-11T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-cfbcbf1e586c54",
+      "title": "Oil giant ExxonMobil left Venezuela years ago. Now it's considering a return",
+      "titleEnglish": "Oil giant ExxonMobil left Venezuela years ago. Now it's considering a return",
+      "url": "https://www.npr.org/2026/11/11/nx-s1-5979080/exxonmobil-oil-mou-venezuela",
+      "publisher": "NPR",
+      "publisherDomain": "npr.org",
+      "publishedAt": "2026-11-11T14:02:00Z",
+      "seenAt": "2026-11-11T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-8fa1e50cad4c22",
+      "title": "Lula tem primeiro encontro presencial com presidente interina da Venezuela na COP31 - Diário do Grande ABC",
+      "titleEnglish": "Lula holds first in-person meeting with Venezuela's interim president at COP31 - Diário do Grande ABC",
+      "url": "https://www.dgabc.com.br/Noticia/4368264/lula-tem-primeiro-encontro-presencial-com-presidente-interina-da-venezuela-na-cop31",
+      "publisher": "Jornal Diário do Grande ABC",
+      "publisherDomain": "dgabc.com.br",
+      "publishedAt": "2026-11-11T19:10:00Z",
+      "seenAt": "2026-11-11T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-4297ebd709b818",
+      "title": "Millions of workers strike across Spain as citizens protest soaring housing costs | CBC News",
+      "titleEnglish": "Millions of workers strike across Spain as citizens protest soaring housing costs | CBC News",
+      "url": "https://www.cbc.ca/news/world/spain-strike-protest-march-housing-costs-9.7418346",
+      "publisher": "CBC",
+      "publisherDomain": "cbc.ca",
+      "publishedAt": "2026-11-11T21:32:00Z",
+      "seenAt": "2026-11-11T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
+    },
+    {
+      "id": "n-3444ea2f6c6caa",
+      "title": "Espagne. Grève générale pour le logement : 120 000 manifestants à Madrid, à trois semaines des législatives",
+      "titleEnglish": "Spain. General strike for housing: 120,000 protesters in Madrid, three weeks before the legislative elections",
+      "url": "https://www.estrepublicain.fr/social/2026/11/11/greve-generale-pour-le-logement-120-000-manifestants-a-madrid-a-trois-semaines-des-legislatives",
+      "publisher": "estrepublicain.fr",
+      "publisherDomain": "estrepublicain.fr",
+      "publishedAt": "2026-11-11T20:58:00Z",
+      "seenAt": "2026-11-11T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-121d0e5d44a1a3",
+      "title": "Miles de personas se manifiestan en Palma por la huelga convocada al filo de la campaña electoral",
+      "titleEnglish": "Thousands protest in Palma over strike called on the eve of the election campaign",
+      "url": "https://www.elmundo.es/baleares/2026/11/11/6af4d459fdddff0b7b8b459d.html",
+      "publisher": "El Mundo",
+      "publisherDomain": "elmundo.es",
+      "publishedAt": "2026-11-11T20:57:23Z",
+      "seenAt": "2026-11-11T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-520ab695a9d7cb",
+      "title": "La primera huelga general de toda una generación: “Es una protesta contra un problema”",
+      "titleEnglish": "The first general strike of an entire generation: \"It is a protest against a problem\"",
+      "url": "https://elpais.com/espana/2026-11-11/la-primera-huelga-general-de-toda-una-generacion-es-una-protesta-contra-un-problema.html",
+      "publisher": "El País",
+      "publisherDomain": "elpais.com",
+      "publishedAt": "2026-11-11T19:11:01Z",
+      "seenAt": "2026-11-11T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-e96c115141e737",
+      "title": "La sanidad y la educación en Madrid encaran una huelga “atípica”: “La organización ha sido diferente”",
+      "titleEnglish": "Health and education in Madrid face an \"atypical\" strike: \"The organisation has been different\"",
+      "url": "https://elpais.com/espana/madrid/2026-11-11/la-sanidad-y-la-educacion-en-madrid-encaran-una-huelga-atipica-la-organizacion-ha-sido-diferente.html",
+      "publisher": "El País",
+      "publisherDomain": "elpais.com",
+      "publishedAt": "2026-11-11T19:24:34Z",
+      "seenAt": "2026-11-11T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-4a5dcfc03cfa28",
+      "title": "Nico Williams: \"El problema de la vivienda me toca muy de cerca. Mis padres, a veces, no podían pagar el alquiler. Hay que arreglarlo\"",
+      "titleEnglish": "Nico Williams: \"The housing problem touches me very closely. My parents sometimes could not pay the rent. It has to be fixed\"",
+      "url": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/11/6af496c7fc6c83ec1e8b4583.html",
+      "publisher": "El Mundo",
+      "publisherDomain": "elmundo.es",
+      "publishedAt": "2026-11-11T20:44:21Z",
+      "seenAt": "2026-11-11T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-a87f44c46d2a47",
+      "title": "Luca, un joven español que vive fuera de España: \"Nadie te va a regalar nada en Suiza, la vas a pasar canutas\"",
+      "titleEnglish": "Luca, a young Spaniard living outside Spain: \"Nobody will give you anything in Switzerland, you're going to struggle\"",
+      "url": "https://www.marca.com/tiramillas/sociedad/2026/11/11/luca-joven-espanol-vive-fuera-espana-nadie-te-regalar-suiza-vas-pasar-canutas.html",
+      "publisher": "MARCA",
+      "publisherDomain": "marca.com",
+      "publishedAt": "2026-11-11T20:17:38Z",
+      "seenAt": "2026-11-11T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-f533ecc629cb2d",
+      "title": "系统崩了？公积金新政引发提现潮，有人狂提14万！",
+      "titleEnglish": "System crashed? New housing fund policy triggers withdrawal wave, some withdrew 140,000 wildly!",
+      "url": "https://www.163.com/dy/article/LBGARVUQ0515EKDR.html",
+      "publisher": "163.com",
+      "publisherDomain": "163.com",
+      "publishedAt": "2026-11-11T16:18:59Z",
+      "seenAt": "2026-11-11T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-19bd0be0783541",
+      "title": "26万/套，买天河小鹏人才房？详情我扒到了…",
+      "titleEnglish": "260,000 per unit, buying Xiaopeng talent housing in Tianhe? I dug up the details...",
+      "url": "https://www.163.com/dy/article/LBGAS9RG0515EKDR.html",
+      "publisher": "163.com",
+      "publisherDomain": "163.com",
+      "publishedAt": "2026-11-11T16:19:10Z",
+      "seenAt": "2026-11-11T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-f422aea191c2e7",
+      "title": "謝龍介喊「只做1任4年」 提敬老金3000元、婚育宅每坪15萬 | ETtoday地方新聞 | ETtoday新聞雲",
+      "titleEnglish": "Hsieh Lung-chieh Says \"Only One Term of Four Years\"; Proposes NT$3,000 Senior Allowance, NT$150,000 per Ping Housing for Marriage and Childbirth | ETtoday Local News | ETtoday News Cloud",
+      "url": "https://www.ettoday.net/news/20261111/3270483.htm",
+      "publisher": "ETtoday新聞雲",
+      "publisherDomain": "ettoday.net",
+      "publishedAt": "2026-11-11T10:26:00Z",
+      "seenAt": "2026-11-11T10:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-8d4d7f609f6475",
+      "title": "Papa Leão XIV reúne 3 milhões de fiéis em missa na Argentina - Tribuna do Norte",
+      "titleEnglish": "Pope Leo XIV gathers 3 million faithful at Mass in Argentina - Tribuna do Norte",
+      "url": "https://tribunadonorte.com.br/internacional/papa-leao-xiv-reune-3-milhoes-de-fieis-em-missa-na-argentina/",
+      "publisher": "Tribuna do Norte",
+      "publisherDomain": "tribunadonorte.com.br",
+      "publishedAt": "2026-11-11T18:42:54Z",
+      "seenAt": "2026-11-11T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-54102485548f21",
+      "title": "El papa León XIV en la Basílica de Luján: sorprendió con una vestimenta en honor a la Virgen",
+      "titleEnglish": "Pope Leo XIV at the Basilica of Luján: surprised with a vestment in honour of the Virgin",
+      "url": "https://www.minutouno.com/sociedad/el-papa-leon-xiv-la-basilica-lujan-sorprendio-una-vestimenta-honor-la-virgen-n6343921",
+      "publisher": "Minuto Uno",
+      "publisherDomain": "minutouno.com",
+      "publishedAt": "2026-11-11T16:32:00Z",
+      "seenAt": "2026-11-11T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-c0129f80b94212",
+      "title": "Profundos tuits del papa León XIV tras la histórica misa en Luján: homenaje a Francisco y llamado a la caridad",
+      "titleEnglish": "Pope Leo XIV's heartfelt tweets after the historic Mass in Luján: tribute to Francis and call to charity",
+      "url": "https://www.minutouno.com/sociedad/profundos-tuits-del-papa-leon-xiv-la-historica-misa-lujan-homenaje-francisco-y-llamado-la-caridad-n6343985",
+      "publisher": "Minuto Uno",
+      "publisherDomain": "minutouno.com",
+      "publishedAt": "2026-11-11T16:32:00Z",
+      "seenAt": "2026-11-11T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-7e08a22a38ad04",
+      "title": "El papa León XIV se despide de Argentina: “Me he sentido como en casa”",
+      "titleEnglish": "Pope Leo XIV bids farewell to Argentina: \"I have felt at home\"",
+      "url": "https://elcomercio.pe/mundo/latinoamerica/papa-leon-xiv-se-despide-de-argentina-me-he-sentido-como-en-casa-gira-sudamerica-2026-apuesplan-ultimas-noticia/",
+      "publisher": "El Comercio Perú",
+      "publisherDomain": "elcomercio.pe",
+      "publishedAt": "2026-11-11T16:16:04Z",
+      "seenAt": "2026-11-11T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Peru",
+      "sourceCountryCode": "PE",
+      "sourceRegion": "Latin America",
+      "sourceLat": -10,
+      "sourceLon": -76,
+      "language": "es"
+    },
+    {
+      "id": "n-23aa64cccaf59e",
+      "title": "El papa León XIV llegó a Perú luego de su histórica gira de tres días por Argentina",
+      "titleEnglish": "Pope Leo XIV arrives in Peru after his historic three-day tour of Argentina",
+      "url": "https://www.cadena3.com/noticia/el-camino-de-leon-en-argentina-uruguay-y-peru/el-papa-leon-xiv-llego-a-peru-luego-de-su-historica-gira-de-tres-dias-por-argentina_612143",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-11-11T22:32:00Z",
+      "seenAt": "2026-11-11T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-8f44be032d22dd",
+      "title": "El Papa regresa a Perú, el país que fue su casa y donde forjó su misión",
+      "titleEnglish": "The Pope returns to Peru, the country that was his home and where he forged his mission",
+      "url": "https://elpais.com/america/2026-11-11/el-papa-regresa-a-peru-el-pais-que-fue-su-casa-y-donde-forjo-su-mision.html",
+      "publisher": "El País América",
+      "publisherDomain": "elpais.com",
+      "publishedAt": "2026-11-11T19:26:11Z",
+      "seenAt": "2026-11-11T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-2fc12541a0199f",
+      "title": "Días no laborables por la visita del papa León XIV en Perú: fechas y ciudades beneficiadas",
+      "titleEnglish": "Non-working days for Pope Leo XIV's visit to Peru: dates and cities benefited",
+      "url": "https://elcomercio.pe/respuestas/cuando/visita-del-papa-leon-xiv-en-peru-que-dias-seran-no-laborables-en-lima-callao-chiclayo-cusco-y-pucallpa-tdpe-noticia/",
+      "publisher": "El Comercio Perú",
+      "publisherDomain": "elcomercio.pe",
+      "publishedAt": "2026-11-11T14:41:56Z",
+      "seenAt": "2026-11-11T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Peru",
+      "sourceCountryCode": "PE",
+      "sourceRegion": "Latin America",
+      "sourceLat": -10,
+      "sourceLon": -76,
+      "language": "es"
+    },
+    {
+      "id": "n-f6b08f1486a890",
+      "title": "Ana Lucía Pineda viaja a Perú invitada por Keiko Fujimori para acto protocolario con el papa León XIV - Pulzo",
+      "titleEnglish": "Ana Lucía Pineda travels to Peru invited by Keiko Fujimori for protocol event with Pope Leo XIV - Pulzo",
+      "url": "https://www.pulzo.com/nacion/viaje-de-ana-lucia-pineda-a-lima-detalles-y-financiacion-de-la-primera-dama-invitada-por-keiko-fujimori-PP5354463A",
+      "publisher": "pulzo.com",
+      "publisherDomain": "pulzo.com",
+      "publishedAt": "2026-11-11T16:32:00Z",
+      "seenAt": "2026-11-11T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-96c2e42c20269b",
+      "title": "Argentinien: Nach der Kritik des Papstes ist Javier Milei auf sich allein gestellt - WELT",
+      "titleEnglish": "Argentina: After the Pope's criticism, Javier Milei is on his own - WELT",
+      "url": "https://www.welt.de/politik/ausland/article6af3b75a42c2bfde5b993789/argentinien-nach-der-kritik-des-papstes-ist-javier-milei-auf-sich-allein-gestellt.html",
+      "publisher": "DIE WELT",
+      "publisherDomain": "welt.de",
+      "publishedAt": "2026-11-11T19:32:00Z",
+      "seenAt": "2026-11-11T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-fff1f3381cd17b",
+      "title": "Leerer Bischofsstuhl - Vatikan stoppt Speyrer Reformprozess - WELT",
+      "titleEnglish": "Empty bishop's chair - Vatican halts Speyer reform process - WELT",
+      "url": "https://www.welt.de/regionales/rheinland-pfalz-saarland/article6af4977edb4e2fa8f6eb7c3b/leerer-bischofsstuhl-vatikan-stoppt-speyrer-reformprozess.html",
+      "publisher": "DIE WELT",
+      "publisherDomain": "welt.de",
+      "publishedAt": "2026-11-11T16:32:00Z",
+      "seenAt": "2026-11-11T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-94a91e890be14e",
+      "title": "集安组织取消亚美尼亚投票权和组织内职务提名权-新华网",
+      "titleEnglish": "CSTO removes Armenia's voting rights and right to nominate organisation posts - Xinhuanet",
+      "url": "https://www.news.cn/world/20261112/03a11c2ee14845e2b4e2f681c37bfe81/c.html",
+      "publisher": "news.cn",
+      "publisherDomain": "news.cn",
+      "publishedAt": "2026-11-11T21:32:00Z",
+      "seenAt": "2026-11-11T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-f54ecc9f676df2",
+      "title": "Путин принял участие в работе саммита глав стран—участниц ОДКБ 11 ноября",
+      "titleEnglish": "Putin takes part in the CSTO summit of heads of member states on 11 November",
+      "url": "https://www.kommersant.ru/doc/9095042",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-11T18:45:18Z",
+      "seenAt": "2026-11-11T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-d941d937652110",
+      "title": "Путин указал на высокую оценку стран ОДКБ председательства России в 2026 году",
+      "titleEnglish": "Putin points to high praise from CSTO countries for Russia's chairmanship in 2026",
+      "url": "https://iz.ru/2199972/2026-11-11/putin-ukazal-na-vysokuiu-otcenku-stran-odkb-predsedatelstva-rossii-v-2026-godu",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-11-11T13:48:21Z",
+      "seenAt": "2026-11-11T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-600992beda119c",
+      "title": "Israel excluded from COP31 in Turkey over Gaza war | The Jerusalem Post",
+      "titleEnglish": "Israel excluded from COP31 in Turkey over Gaza war | The Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-914598",
+      "publisher": "The Jerusalem Post | JPost.com",
+      "publisherDomain": "jpost.com",
+      "publishedAt": "2026-11-11T16:32:00Z",
+      "seenAt": "2026-11-11T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-84545d8ae23fea",
+      "title": "EUA e Rússia pedem à Europa para eleger um negociador",
+      "titleEnglish": "US and Russia ask Europe to elect a negotiator",
+      "url": "https://observador.pt/programas/a-guerra-traduzida/eua-e-russia-pedem-a-europa-para-eleger-um-negociador/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-11-11T22:32:00Z",
+      "seenAt": "2026-11-11T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-f97547955881b7",
+      "title": "Rutte vê EUA, Ucrânia e Europa \"unidos\" após Abu Dhabi. Kushner avisa que acordos de paz \"são difíceis e requerem tempo\"",
+      "titleEnglish": "Rutte sees US, Ukraine and Europe \"united\" after Abu Dhabi. Kushner warns peace agreements \"are difficult and require time\"",
+      "url": "https://observador.pt/2026/11/11/rutte-ve-eua-ucrania-e-europa-unidos-apos-abu-dhabi-kushner-avisa-que-acordos-de-paz-sao-dificeis-e-requerem-tempo/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-11-11T22:32:00Z",
+      "seenAt": "2026-11-11T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-1a261413d68abb",
+      "title": "Ukraine-Krieg: Warum die Verhandlungen in Abu Dhabi Europa nervös machen - WELT",
+      "titleEnglish": "Ukraine war: Why the negotiations in Abu Dhabi make Europe nervous - WELT",
+      "url": "https://www.welt.de/politik/ausland/plus6af275e2e39746b7b04be04a/ukraine-krieg-warum-die-verhandlungen-in-abu-dhabi-europa-nervoes-machen.html",
+      "publisher": "DIE WELT",
+      "publisherDomain": "welt.de",
+      "publishedAt": "2026-11-11T19:32:00Z",
+      "seenAt": "2026-11-11T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-1880c922df6de1",
+      "title": "Domani Meloni a riunione convocata da Burnham e Zelensky a margine della Cpe - Altre news - Ansa.it",
+      "titleEnglish": "Tomorrow Meloni at a meeting convened by Burnham and Zelensky on the sidelines of the CPE - Other news - Ansa.it",
+      "url": "https://www.ansa.it/europa/notizie/rubriche/altrenews/2026/11/11/domani-meloni-a-riunione-convocata-da-burnham-e-zelensky-a-margine-della-cpe_0b1d21e6-f1a8-42eb-8198-dd08fd5d7573.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-11T19:19:00Z",
+      "seenAt": "2026-11-11T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-1127b138be4ea4",
+      "title": "Nepal & Bhutans Himalayan agenda snubbed at COP31 - The Tribune",
+      "titleEnglish": "Nepal & Bhutans Himalayan agenda snubbed at COP31 - The Tribune",
+      "url": "https://www.tribuneindia.com/news/world/nepal-bhutans-himalayan-agenda-snubbed-at-cop31/",
+      "publisher": "The Tribune",
+      "publisherDomain": "tribuneindia.com",
+      "publishedAt": "2026-11-11T21:01:09Z",
+      "seenAt": "2026-11-11T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    }
+  ],
+  "settled": [
+    {
+      "id": "20261108T202834-iran-pressed-by-land-and-sea-1",
+      "status": "failed",
+      "how": "headline"
+    }
+  ],
+  "readings": [
+    {
+      "id": "hormuz-risk-moves-supply-elsewhere",
+      "line": "With oil output back near pre-war levels, producers and buyers now invest as if the Strait of Hormuz will stay unsafe.",
+      "kicker": "CHOKEPOINTS / CAPITAL / THE GULF",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A Gulf state oil or gas company announces a new stake in a field or LNG project outside the Middle East.",
+          "by": "2026-12-09",
+          "because": "If Gulf producers are buying supply that does not pass the strait, QatarEnergy's Namibia stake should not be the only such move while the price is falling.",
+          "id": "20261111T224126-hormuz-risk-moves-supply-elsewhere-1"
+        },
+        {
+          "what": "ExxonMobil, Chevron or another Western major signs an agreement with Venezuela's interim government on oil fields.",
+          "by": "2026-12-09",
+          "because": "The join reads the return to Venezuela as a choice of political risk in Caracas over physical risk at Hormuz, so a firm commitment should follow the talk.",
+          "id": "20261111T224126-hormuz-risk-moves-supply-elsewhere-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the period after 1979, when the Iranian revolution and the Iran-Iraq war made the Gulf look permanently unsafe. Consumers developed the North Sea and Alaska, Saudi Arabia opened its East-West pipeline to Yanbu in 1981, and by 1986 the price had collapsed because supply outside the Gulf had grown. The difference now is that the largest Gulf exporters are themselves investing outside the region, and that Qatar's gas cannot be piped around the strait.",
+        "paths": [
+          {
+            "name": "Gulf and Western firms buy elsewhere",
+            "weight": "favoured",
+            "text": "Over the next six to twelve months QatarEnergy, ADNOC's international arm and Aramco add stakes in African, American and Asian fields, and Western majors return to countries they had left, Venezuela first. The join points this way because the price has fallen while the companies are still acting on the risk, which means they expect the risk to outlast the war.",
+            "sign": "A Gulf national oil company announces a new stake in a field or LNG plant outside the Middle East."
+          },
+          {
+            "name": "A Hormuz deal halts the shift",
+            "weight": "possible",
+            "text": "If Washington and Tehran agree terms that include navigation through the strait, the remaining risk premium goes, crude falls below $80 and some foreign projects are deferred. This is less likely in the coming months because Iran's parliament speaker has said the strait will not return to its pre-war status, a position no proposal yet reported has answered.",
+            "sign": "A US-Iran text is announced with terms on shipping through the Strait of Hormuz."
+          },
+          {
+            "name": "Fighting resumes and prices rise",
+            "weight": "unlikely",
+            "text": "Israeli and US preparations for renewed strikes on Iran lead to fighting, Iran targets bases and shipping, and Brent returns above $110 within weeks. Unlikely in the short term because Washington is reported weighing direct talks with Iran's security officials and OPEC output is already near pre-war levels.",
+            "sign": "A tanker is reported struck in or near the Strait of Hormuz."
+          }
+        ],
+        "decade": "Over ten years the share of the world's oil and gas that must pass Hormuz is likely to fall, as it did for oil after 1979, with Namibia, Guyana, Venezuela and US shale taking the growth and Gulf companies owning part of it."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "OPEC says oil output is nearly back to pre-war levels and New York crude closed at $86.47, yet Iran's parliament speaker says the Strait of Hormuz will never return to its pre-war status, QatarEnergy is buying a quarter of a Chevron-operated block off Namibia and ExxonMobil is considering a return to Venezuela. Singapore Airlines reports its profit nearly halved by fuel costs as Malaysia cuts pump prices. The join is the strait itself: the price has come down, but producers and buyers are investing as if passage through Hormuz will remain a risk after the war. A Gulf supplier paying for supply elsewhere is the clearest sign of it.",
+      "events": [
+        {
+          "label": "OPEC output nears pre-war levels",
+          "articleIds": [
+            "n-7b96fed33cdfe2",
+            "n-73adec9a17d2d2",
+            "n-55875857af2391"
+          ]
+        },
+        {
+          "label": "Iran says Hormuz will never return",
+          "articleIds": [
+            "n-17629c88d5199a",
+            "n-7b014d8cecc1ec",
+            "n-8018bda5286beb"
+          ]
+        },
+        {
+          "label": "QatarEnergy buys into a Namibian block",
+          "articleIds": [
+            "n-e3f2f461b9bc3b"
+          ]
+        },
+        {
+          "label": "ExxonMobil weighs a return to Venezuela",
+          "articleIds": [
+            "n-cfbcbf1e586c54",
+            "n-8fa1e50cad4c22"
+          ]
+        },
+        {
+          "label": "Airline losses and cheaper pump prices",
+          "articleIds": [
+            "n-fcf454ab221fd9",
+            "n-a24f70957d8ea5"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Output back and price down",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Barrels and prices",
+              "text": "Al Jazeera reports OPEC's finding that oil production is nearing pre-war levels. ANSA reports crude closing slightly higher in New York at $86.47 a barrel. LEADERSHIP in Nigeria reports 1.69 million barrels a day in October, meeting the OPEC quota for the sixth month.",
+              "articleIds": [
+                "n-7b96fed33cdfe2",
+                "n-73adec9a17d2d2",
+                "n-55875857af2391"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "The lag in prices",
+              "text": "The Star in Malaysia reports that RON97, unsubsidised RON95 and diesel fall in price from Thursday. The same paper reports Singapore Airlines' interim profit nearly halving on higher fuel costs. The pump price follows crude within weeks; an airline's half-year accounts still carry the months when crude was far higher.",
+              "articleIds": [
+                "n-a24f70957d8ea5",
+                "n-fcf454ab221fd9"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "The strait and the money elsewhere",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "What Tehran says",
+              "text": "Al Jazeera quotes Iran's parliament speaker Ghalibaf saying the Strait of Hormuz will never return to its pre-war status. Al Jazeera's Arabic service reports Centcom working to keep it open while Tehran awaits a US reply to its proposal. Masrawy in Egypt reports an estimate that the war has cost the Gulf states $790 billion.",
+              "articleIds": [
+                "n-17629c88d5199a",
+                "n-7b014d8cecc1ec",
+                "n-8018bda5286beb"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "Where the companies go",
+              "text": "LEADERSHIP reports QatarEnergy planning to buy 25% of the Chevron-operated PEL 82 block off Namibia. NPR reports that ExxonMobil, which left Venezuela years ago, is considering a return. Diário do Grande ABC reports Lula's first in-person meeting with Venezuela's interim president at COP31, a sign that the government in Caracas is now being received abroad.",
+              "articleIds": [
+                "n-e3f2f461b9bc3b",
+                "n-cfbcbf1e586c54",
+                "n-8fa1e50cad4c22"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Pricing the strait as a lasting risk",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "Two prices for one war",
+              "text": "The market price of crude now treats the war as nearly over in volumes. The investment decisions treat the strait as a risk that will last. QatarEnergy's move matters most, because all of Qatar's gas leaves through Hormuz: a Gulf supplier is buying acreage on the far side of Africa. ExxonMobil's interest in Venezuela fits the same reading, since a company that left after expropriation is now weighing that political risk against the risk at the strait.",
+              "articleIds": [
+                "n-e3f2f461b9bc3b",
+                "n-cfbcbf1e586c54",
+                "n-17629c88d5199a"
+              ],
+              "bookIds": [
+                "the-prize"
+              ],
+              "trajectoryIds": [
+                "oil-embargo-1973"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Ordinary business with its own reasons",
+              "text": "QatarEnergy has been buying exploration stakes abroad, Namibia included, for several years, and none of the headlines names Hormuz as a reason. ExxonMobil's interest in Venezuela follows a change of government in Caracas, which would matter whether or not the Gulf were at war. The falling price suggests traders do not believe the strait is a lasting risk. What these events do not share is a cause: one is exploration acreage, one is a political opening in Venezuela, one is a statement by an Iranian politician, and one is an airline's accounts.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "LNG / INVASION / RESERVES",
+          "text": "After Russia invaded Ukraine in February 2022, European governments replaced most Russian pipeline gas with liquefied gas shipped from the United States and Qatar, and Qatar signed long contracts with Germany, China and others on the strength of its North Field expansion. That made the Strait of Hormuz, through which all Qatari gas leaves, more important to Europe than it had been at any time in the cold war. New finds off Namibia by Shell and TotalEnergies in 2022 opened a basin far from any strait. By these headlines the war that followed the June 2025 strikes on Fordow put Hormuz under Iranian threat for months, cost the Gulf states $790 billion by one estimate reported in Egypt, and has ended with OPEC output back near pre-war levels. QatarEnergy's move into a Chevron block off Namibia joins the two halves of this decade: a Gulf supplier that Europe came to depend on after 2022 is now buying supply that does not have to pass the strait it sits behind.",
+          "trajectoryIds": [
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SHALE / CARTEL / SANCTIONS",
+          "text": "In 2008 the United States produced about five million barrels of oil a day; horizontal drilling and fracking in Texas and North Dakota took it past twelve million by 2019 and made it a net exporter of petroleum. Saudi Arabia's attempt to push shale out by raising output in 2014 failed, and in December 2016 OPEC brought Russia and others into the OPEC+ arrangement that still sets quotas, including the one Nigeria reports meeting for the sixth month. In 2015 ExxonMobil found oil off Guyana, now a large producer. In 2019 Washington sanctioned Venezuela's state oil company, and in September that year drones and missiles halved Saudi output for days at Abqaiq. The years after 2008 built a large supply outside the Gulf and showed that the Gulf's own plant could be hit cheaply. An ExxonMobil return to Venezuela, as NPR reports it is considering, would be a bet that the political risk in Caracas is now smaller than the physical risk at Hormuz.",
+          "trajectoryIds": [
+            "abqaiq-2019"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "SECURITY / LNG / NATIONALISATION",
+          "text": "When Iraq invaded Kuwait in August 1990, an American-led coalition expelled it within months, and the United States stayed: the Fifth Fleet was re-formed in Bahrain in 1995 and became the guarantee that tankers would pass Hormuz. On that guarantee Qatar shipped its first cargo of liquefied gas to Japan in 1997 and built an export industry that all leaves through the strait. In Venezuela the opening of the 1990s brought foreign companies, Exxon and Mobil among them, into the Orinoco belt; Hugo Chávez, elected in 1998, forced them into minority stakes in 2007, and ExxonMobil left and went to arbitration. The 2003 invasion of Iraq then removed Iran's main regional rival. The arrangement of these years assumed that the strait was an American responsibility. The NPR report on ExxonMobil and Al Jazeera's report that Centcom is still working to keep Hormuz open show both parts of that arrangement being reopened at the same time.",
+          "trajectoryIds": [
+            "iraq-2003"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OIL / PROTECTION / CHOKEPOINT",
+          "text": "In February 1945 Roosevelt met Ibn Saud on a cruiser in the Great Bitter Lake, and the unwritten bargain of oil for protection that followed governed the Gulf for eighty years. Its weakness showed in October 1973, when the Arab embargo quadrupled the price, and again in 1979, when the Shah fell and the Iran-Iraq war began. Consumers answered by developing the North Sea and Alaska, which came on stream in the late 1970s, and by building strategic stocks through the International Energy Agency, founded in 1974. Producers answered by building around the strait: Saudi Arabia's East-West pipeline to Yanbu opened in 1981. In 1987 the US navy reflagged Kuwaiti tankers to escort them through the tanker war. Daniel Yergin's account of the century is that each supply shock was followed by investment in supply somewhere else. Ghalibaf's statement that the strait will never return to its pre-war status is the kind of statement that started those earlier rounds.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "oil-embargo-1973",
+            "tehran-1979"
+          ],
+          "bookIds": [
+            "the-prize"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-7b96fed33cdfe2",
+        "n-73adec9a17d2d2",
+        "n-55875857af2391",
+        "n-a24f70957d8ea5",
+        "n-fcf454ab221fd9",
+        "n-17629c88d5199a",
+        "n-7b014d8cecc1ec",
+        "n-8018bda5286beb",
+        "n-e3f2f461b9bc3b",
+        "n-cfbcbf1e586c54",
+        "n-8fa1e50cad4c22"
+      ]
+    },
+    {
+      "id": "housing-fought-through-work",
+      "line": "Housing is now fought over at work, where unions strike over rents and employers and payroll funds are asked to supply homes.",
+      "kicker": "RENT / LABOUR / THE WAGE",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "A major Spanish party promises a national rent cap or a new tax on tourist or empty flats, naming the 11 November strike.",
+          "by": "2026-11-30",
+          "because": "If housing is now pressed through labour action, the strike's return should come as a housing measure in the campaign rather than as a wage gain.",
+          "id": "20261111T224126-housing-fought-through-work-1"
+        },
+        {
+          "what": "China's housing ministry or a city government limits or pauses withdrawals from the housing provident fund after the rush.",
+          "by": "2026-12-05",
+          "because": "If members treat the payroll fund as part of their pay rather than as housing money, the authorities will act to keep it tied to homes.",
+          "id": "20261111T224126-housing-fought-through-work-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is Glasgow in 1915, when tenants, mostly the wives of shipyard and munitions workers, refused rent rises and engineers threatened to strike; within weeks Parliament passed the Rent Restriction Act, which froze rents for the war. The present differs because Spain's strikers have no war production to hold back, and their leverage is an election three weeks away rather than the output of a factory.",
+        "paths": [
+          {
+            "name": "Rent caps decide the election",
+            "weight": "favoured",
+            "text": "In the three weeks to the vote the main Spanish parties compete on rent caps, taxes on empty and tourist flats and public building, and the next government extends the caps of the 2023 housing law beyond the regions that now use them. The strike points this way because it was timed to the campaign and has made housing the subject the parties must answer.",
+            "sign": "A major Spanish party promises a national rent cap or a new tax on tourist or empty flats in its programme."
+          },
+          {
+            "name": "Employers start housing their staff",
+            "weight": "possible",
+            "text": "Over the next year hospitals, councils and large employers in Spanish cities begin building or leasing flats for staff they cannot otherwise hire, as Chinese firms do with talent housing. Less likely soon because Spanish employers have no payroll housing scheme to work through and the state is the party the strike addressed.",
+            "sign": "A Spanish region or large employer announces housing for its own workers and names rents as the reason."
+          },
+          {
+            "name": "Housing strikes spread abroad",
+            "weight": "unlikely",
+            "text": "Union federations in Portugal, Ireland or the Netherlands call national strikes over rents before the spring. Unlikely because the Spanish strike rests on an election campaign and on unions with a habit of political strikes that most countries lack.",
+            "sign": "A national union federation outside Spain calls a strike with rents as its main demand."
+          }
+        ],
+        "decade": "Over ten years housing is likely to become a standing item in wage bargaining and in how employers recruit, as rent takes a larger share of pay for people under forty, and some European governments will look at payroll housing schemes of the Chinese or Singaporean kind."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Millions of Spaniards struck on 11 November over housing costs, three weeks before a general election, while in China a new housing fund rule set off a rush of withdrawals from the payroll savings that pay for homes, employer-linked talent housing was advertised at 260,000 a unit in Tianhe, and a Taiwanese candidate offered cheap homes to couples who marry and have children. In each case the cost of a home is being argued over through work: a strike, a payroll fund, a company flat, a benefit tied to family. Housing has moved out of the household budget and into the terms people ask of their employer and their state as workers.",
+      "events": [
+        {
+          "label": "Spain's general strike over housing",
+          "articleIds": [
+            "n-4297ebd709b818",
+            "n-3444ea2f6c6caa",
+            "n-520ab695a9d7cb",
+            "n-121d0e5d44a1a3",
+            "n-e96c115141e737"
+          ]
+        },
+        {
+          "label": "Young Spaniards on rent and leaving",
+          "articleIds": [
+            "n-4a5dcfc03cfa28",
+            "n-a87f44c46d2a47"
+          ]
+        },
+        {
+          "label": "Rush to withdraw from China's housing fund",
+          "articleIds": [
+            "n-f533ecc629cb2d"
+          ]
+        },
+        {
+          "label": "Talent housing for staff in Tianhe",
+          "articleIds": [
+            "n-19bd0be0783541"
+          ]
+        },
+        {
+          "label": "Taiwan candidate's homes for new parents",
+          "articleIds": [
+            "n-f422aea191c2e7"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "A general strike for housing",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "The strike",
+              "text": "CBC reports millions of workers striking across Spain as citizens protest soaring housing costs. Est Républicain counts 120,000 protesters in Madrid three weeks before the legislative elections, and El Mundo reports thousands in Palma over a strike called on the eve of the campaign. El País calls it the first general strike of an entire generation and describes an atypical stoppage in Madrid's health and education services.",
+              "articleIds": [
+                "n-4297ebd709b818",
+                "n-3444ea2f6c6caa",
+                "n-121d0e5d44a1a3",
+                "n-520ab695a9d7cb",
+                "n-e96c115141e737"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "The people behind it",
+              "text": "El Mundo quotes the footballer Nico Williams saying his parents sometimes could not pay the rent and the problem must be fixed. MARCA interviews a young Spaniard living in Switzerland who warns that nobody there will give you anything. One stays and names rent as the problem; the other has left to earn a wage that covers it.",
+              "articleIds": [
+                "n-4a5dcfc03cfa28",
+                "n-a87f44c46d2a47"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Homes through pay in China and Taiwan",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Payroll fund and company flat",
+              "text": "163.com reports that a new housing fund policy set off a withdrawal wave, with some members taking out 140,000 yuan and the system reported to have crashed. The same site examines talent housing linked to the carmaker Xiaopeng in Tianhe at 260,000 per unit. Both are housing that comes through the job: the fund is paid from salary, the flat is offered to staff.",
+              "articleIds": [
+                "n-f533ecc629cb2d",
+                "n-19bd0be0783541"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "A home for having children",
+              "text": "ETtoday reports the Taiwanese candidate Hsieh Lung-chieh promising a single four-year term, a NT$3,000 senior allowance and housing at NT$150,000 per ping for those who marry and have children. The home is offered as a reward for a family decision, through the local state rather than the market.",
+              "articleIds": [
+                "n-f422aea191c2e7"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Rent as part of the wage",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "The same question in four forms",
+              "text": "In Spain workers used the strike, the tool unions keep for pay and pensions, to press a housing demand on the state. In China the payroll fund is the housing instrument, and members are treating it as wages they want in hand. Employers house the staff they want to keep, and a Taiwanese candidate ties housing to births. The shared shape is that a wage no longer covers a home, so the demand for one is made to employers and governments through the channels of work.",
+              "articleIds": [
+                "n-4297ebd709b818",
+                "n-f533ecc629cb2d",
+                "n-19bd0be0783541",
+                "n-f422aea191c2e7"
+              ],
+              "bookIds": [
+                "great-transformation"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Opposite markets, older habits",
+              "text": "Spain's problem is prices that are too high; China's is prices that have fallen for years, and members pulling money from the housing fund may simply not want to buy into a falling market. Company housing in China is an old practice of the work unit, not a new one, and Taiwanese candidates have long offered housing subsidies. The Spanish strike was called by unions on the eve of an election, which makes it a political strike of a familiar Spanish kind; a Finnish paper even reported it as a strike against unemployment. What these events do not share is the direction of the market: one is a shortage, one is a slump, and one is a campaign promise.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "RATES / TOURISM / GENERATION",
+          "text": "The pandemic lowered Spanish rents briefly and then raised them: remote workers, returning tourists and a shortage of new building pushed city rents up through 2021 and 2022, while the European Central Bank's rate rises from July 2022 made mortgages dearer for those trying to buy. Spain's housing law of May 2023 let regions cap rents in declared stressed areas, and Barcelona announced in 2024 that it would end licences for tourist flats by 2028. In China the opposite happened: after the three red lines on developer borrowing in August 2020, Evergrande defaulted in 2021 and prices fell for years, so the housing provident fund became savings that members now want to take out rather than spend on a flat, as 163.com's report of a withdrawal rush shows. El País calls the 11 November stoppage the first general strike of a generation, the age group that in Kathmandu in 2025 forced a government out.",
+          "trajectoryIds": [
+            "kathmandu-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "FORECLOSURE / PROTEST / FUNDS",
+          "text": "The 2008 crash ended a Spanish building boom and left hundreds of thousands of households facing foreclosure, many still owing their banks after losing their homes. In 2009 Ada Colau and others founded the Platform for People Affected by Mortgages to stop evictions at the door; on 15 May 2011 the indignados camped in Puerta del Sol; Podemos followed, and Colau became mayor of Barcelona in 2015. From 2013 investment funds, Blackstone the largest, bought tens of thousands of repossessed and public flats and rented them out. Adam Tooze describes how the crisis became a decade of politics in each country it touched; in Spain it became a politics of housing, and the protest moved from the bank to the landlord. The 11 November strike, which CBC reports as millions striking across Spain, is the first time that politics has used a general strike, the instrument unions had kept for wages and pensions.",
+          "trajectoryIds": [
+            "lehman-2008",
+            "sol-2011"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "REFORM / CREDIT / OWNERSHIP",
+          "text": "After 1989, and Deng Xiaoping's southern tour of 1992, China turned the flat from a benefit of the job into a commodity. Shanghai set up a housing provident fund in 1991, the scheme went national in the mid-1990s, and in 1998 the State Council ended the allocation of homes by work units. Employer and employee each still pay a share of salary into the fund, which is why a change to its withdrawal rules, reported by 163.com, sent members to take their money out. Spain reached a similar end by another road: after it joined the euro in 1999, interest rates fell to German levels and Spanish banks lent on property until the country was building more homes a year than France, Germany and Italy together. In both countries the home was financed by credit tied to a pay packet. The talent housing offered at 260,000 per unit in Tianhe is the work unit's flat returning in a company form.",
+          "trajectoryIds": [
+            "tiananmen-1989"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OWNERSHIP / WELFARE / THE WORK UNIT",
+          "text": "In 1957 Franco's housing minister José Luis Arrese said Spain should be a country of owners, not proletarians, and the regime built and subsidised homes for sale; by the 2000s more than eighty per cent of Spanish households owned their home, and the rented and social stock stayed small. Much of western Europe chose the other way after 1945, building council and cooperative housing as part of the welfare state Tony Judt describes. In the People's Republic from the 1950s the work unit gave its staff a flat with the job, on a Soviet pattern. Karl Polanyi argued that land, like labour, cannot be left wholly to the market without society moving to take it back. Each postwar model put housing either in the market or in the employment relationship. A general strike for housing in Spain, and a candidate in Taiwan's local elections offering cheap homes to couples who have children, are attempts to bring it back into public provision through the two channels that remain, the vote and the job.",
+          "trajectoryIds": [
+            "russian-revolution-1917"
+          ],
+          "bookIds": [
+            "great-transformation",
+            "postwar"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-4297ebd709b818",
+        "n-3444ea2f6c6caa",
+        "n-121d0e5d44a1a3",
+        "n-520ab695a9d7cb",
+        "n-e96c115141e737",
+        "n-4a5dcfc03cfa28",
+        "n-a87f44c46d2a47",
+        "n-f533ecc629cb2d",
+        "n-19bd0be0783541",
+        "n-f422aea191c2e7"
+      ]
+    },
+    {
+      "id": "pope-leo-politics-and-restraint",
+      "line": "Eighteen months in, the first pope from the Americas takes sides in South American politics and holds back German reform.",
+      "kicker": "THE CHURCH / POPULISM / DOCTRINE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "During his Peru visit Leo XIV or the Vatican spokesman criticises a named Peruvian government policy, law or official.",
+          "by": "2026-11-20",
+          "because": "If the papacy is using its authority in South American politics, the Argentine criticism should be repeated on the second stage of the same tour.",
+          "id": "20261111T224126-pope-leo-politics-and-restraint-1"
+        },
+        {
+          "what": "The Vatican issues a ruling, letter or appointment limiting lay councils or synodal bodies in a German diocese or in the German bishops' conference.",
+          "by": "2026-12-09",
+          "because": "If the same office is restraining reform at home while speaking out abroad, the Speyer halt should be followed by a wider instruction to the German church.",
+          "id": "20261111T224126-pope-leo-politics-and-restraint-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The nearest case is John Paul II's first visit home to Poland in June 1979, when crowds of millions and his sermons helped prepare the strikes that produced Solidarity in August 1980, while in Rome he was restraining liberation theologians. The difference is that Leo is speaking to elected governments, not to a one-party state, and his home is Peru by adoption rather than birth.",
+        "paths": [
+          {
+            "name": "Political pulpit, doctrinal restraint",
+            "weight": "favoured",
+            "text": "Over the next year Leo continues to criticise governments on poverty and migration, in the Americas and in the United States, while the Vatican refuses German bishops a council with lay members and appoints a bishop of Speyer who accepts that. The join points this way because both moves were made in the same week by the same office, and neither has cost it support among the crowds it addresses.",
+            "sign": "The Vatican names a new bishop of Speyer or issues a letter on lay councils in Germany."
+          },
+          {
+            "name": "Milei seeks terms with Rome",
+            "weight": "possible",
+            "text": "Isolated after the Mass, Milei asks for a Vatican audience before the year ends and softens cuts to social programmes. Less likely because his government's programme rests on the cuts the Pope criticised, and he has gained before from quarrels with Rome.",
+            "sign": "Milei announces a visit to the Vatican or a meeting with the Pope."
+          },
+          {
+            "name": "Rome concedes to German reformers",
+            "weight": "unlikely",
+            "text": "The Vatican approves a standing German council of bishops and lay people with decision-making powers. Unlikely because Rome has refused this several times since 2022 and has now halted a single diocese's process.",
+            "sign": "The Vatican approves statutes for a German synodal council."
+          }
+        ],
+        "decade": "Over ten years the papacy is likely to act more as a political voice in the global south, where most Catholics now live, and less as a sponsor of reform in the shrinking churches of northern Europe."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Pope Leo XIV left Argentina after a Mass for three million, with Die Welt reporting that Javier Milei is on his own after the Pope's criticism, and arrived in Peru, where the government declared non-working days and Keiko Fujimori invited guests to meet him; in the same days the Vatican halted the reform process in the German diocese of Speyer. One office is acting in two directions: outward, as a political voice against a government's policy in South America, and inward, as a limit on lay-led reform in Germany. The first pope from the Americas is using his authority more freely in politics than in church doctrine.",
+      "events": [
+        {
+          "label": "Leo XIV's Mass and farewell in Argentina",
+          "articleIds": [
+            "n-8d4d7f609f6475",
+            "n-54102485548f21",
+            "n-c0129f80b94212",
+            "n-7e08a22a38ad04"
+          ]
+        },
+        {
+          "label": "Milei isolated after the Pope's criticism",
+          "articleIds": [
+            "n-96c2e42c20269b"
+          ]
+        },
+        {
+          "label": "Peru's holidays and politicians for the visit",
+          "articleIds": [
+            "n-2fc12541a0199f",
+            "n-f6b08f1486a890",
+            "n-23aa64cccaf59e",
+            "n-8f44be032d22dd"
+          ]
+        },
+        {
+          "label": "Vatican halts the Speyer reform process",
+          "articleIds": [
+            "n-fff1f3381cd17b"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "A tour of Argentina and Peru",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Argentina",
+              "text": "Tribuna do Norte reports three million faithful at the Pope's Mass in Argentina. Minuto Uno reports him given a vestment in honour of the Virgin at Luján and his messages afterwards paying tribute to Francis and calling for charity. El Comercio quotes his farewell: he has felt at home.",
+              "articleIds": [
+                "n-8d4d7f609f6475",
+                "n-54102485548f21",
+                "n-c0129f80b94212",
+                "n-7e08a22a38ad04"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Peru",
+              "text": "Cadena 3 reports his arrival in Peru after the three-day tour, and El País describes Peru as the country that was his home and where he formed his mission. El Comercio lists the non-working days declared in the cities he visits. Pulzo reports that the Colombian Ana Lucía Pineda travels to Peru at Keiko Fujimori's invitation for a protocol event with the Pope.",
+              "articleIds": [
+                "n-23aa64cccaf59e",
+                "n-8f44be032d22dd",
+                "n-2fc12541a0199f",
+                "n-f6b08f1486a890"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "A president and a diocese",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Milei on his own",
+              "text": "Die Welt reports that after the Pope's criticism Javier Milei is on his own in Argentina. The headline does not give the words of the criticism, only its effect on the president's standing.",
+              "articleIds": [
+                "n-96c2e42c20269b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "An empty chair in Speyer",
+              "text": "The same paper reports that with the bishop's chair empty, the Vatican has halted the Speyer reform process. A German diocese's own plan for how it is governed has been stopped from Rome while the man who would lead it is still to be named.",
+              "articleIds": [
+                "n-fff1f3381cd17b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "One papacy, two directions",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "Outward and inward",
+              "text": "The shared actor is the papacy, and it uses its authority differently by place. In Argentina it speaks against a government before crowds of millions, and in Peru politicians arrange to be seen with it. In Germany it stops a reform that would give lay Catholics a share in decisions. Leo has taken up Francis's public voice on the poor while keeping Rome's hold on how local churches govern themselves.",
+              "articleIds": [
+                "n-96c2e42c20269b",
+                "n-fff1f3381cd17b",
+                "n-8d4d7f609f6475",
+                "n-f6b08f1486a890"
+              ],
+              "bookIds": [
+                "media-events"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Routine on both sides",
+              "text": "Popes have criticised Argentine economic policy for a decade, and Francis did so more sharply; a German paper's reading that Milei is isolated may say more about German coverage than about Buenos Aires. A diocese without a bishop cannot normally change its own structures, so halting Speyer's process may be canon-law routine rather than a policy. Host governments always declare holidays for papal visits. What these events do not share is a decision: one is a sermon to a nation, one is a rule applied to a vacant see, and one is a state's calendar.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "SUCCESSION / SYNOD / AUSTERITY",
+          "text": "Pope Francis died in April 2025, and in May the cardinals elected Robert Prevost, born in Chicago, a missionary in Peru from the 1980s and later bishop of Chiclayo, who took the name Leo XIV. In Argentina, Javier Milei won the presidency in November 2023 after insulting Francis during the campaign, and in office cut public spending sharply. In Germany the Synodal Way, the reform assembly of bishops and lay Catholics, held its last session in March 2023, voting for blessings of same-sex couples and for a standing council with lay members, and Rome told the bishops several times that they could not set up such a council on their own. Minuto Uno reports Leo's messages after Luján paying tribute to Francis; Die Welt reports Milei on his own after the Pope's criticism and the Vatican halting Speyer's reform. The new papacy has taken up both of Francis's disputes, with a president and with German reformers, and has kept his position in each.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "ABUSE / REFORM / DEBT",
+          "text": "Benedict XVI resigned in February 2013 and the conclave chose Jorge Mario Bergoglio of Buenos Aires, the first pope from the Americas, who put the poor and migrants at the centre of his teaching in Laudato si' in 2015 and Fratelli tutti in 2020. In Argentina those years ran from a default in 2014 through Mauricio Macri's IMF loan of 2018, enlarged to $57 billion, to inflation above 200 per cent in 2023, which is why a papal criticism of austerity is heard there as a political act. In Germany a study commissioned by the bishops and published in 2018 counted 3,677 victims of abuse by clergy between 1946 and 2014, and the Synodal Way was launched in 2019 as the bishops' answer, on the argument that the abuse came from how power was held in the church. The halt in Speyer, reported by Die Welt, belongs to a dispute that began with that study and is now decided by a pope from the other side of the Atlantic.",
+          "trajectoryIds": [
+            "metoo-2017"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "MISSION / ADJUSTMENT / DISCIPLINE",
+          "text": "Prevost arrived in Peru in 1985 and spent most of the following decades there, through the war with Shining Path and the presidency of Alberto Fujimori from 1990 to 2000, whose government ended hyperinflation with a shock programme and closed Congress in 1992. In Argentina, Carlos Menem's peg of the peso to the dollar in 1991 ended in the collapse of December 2001, when Bergoglio was archbishop of Buenos Aires and parishes ran soup kitchens in the suburbs. The same years in Rome were John Paul II's, when the Congregation for the Doctrine of the Faith under Joseph Ratzinger set the limits of what local churches could decide for themselves. Pulzo's report that Keiko Fujimori, daughter of that president, invited guests to an event with Leo XIV shows how near the church and the politics of the 1990s still are in Lima. A pope formed in that decade knew both adjustment programmes and a church governed from the centre.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "COUNCIL / DICTATORSHIP / LAITY",
+          "text": "The Second Vatican Council of 1962 to 1965 gave bishops and lay people more say, and in 1968 the Latin American bishops meeting at Medellín turned that into a commitment to the poor that became liberation theology. The dictatorships that followed, in Brazil from 1964 and Argentina from 1976, divided the church between bishops who accepted the generals and priests who were killed by them; Argentina's trial of its juntas in 1985 opened the question of what the hierarchy had known. In West Germany after 1945 the church became one of the richest in the world through the state-collected church tax, with strong lay organisations of its own, which is why German lay Catholics expected a share in decisions that Rome has refused. The Mass for three million reported by Tribuna do Norte stands in the Latin American tradition of the church as a public force; the Speyer halt stands in Rome's tradition of refusing a rich national church the right to decide for itself.",
+          "trajectoryIds": [
+            "brazil-1964",
+            "juntas-1985"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-8d4d7f609f6475",
+        "n-54102485548f21",
+        "n-c0129f80b94212",
+        "n-7e08a22a38ad04",
+        "n-23aa64cccaf59e",
+        "n-8f44be032d22dd",
+        "n-2fc12541a0199f",
+        "n-f6b08f1486a890",
+        "n-96c2e42c20269b",
+        "n-fff1f3381cd17b"
+      ]
+    },
+    {
+      "id": "seats-withdrawn-as-pressure",
+      "line": "Membership of alliances and talks is now a tool of pressure, withdrawn from members who turn away and offered to others on conditions.",
+      "kicker": "MEMBERSHIP / EXCLUSION / LEVERAGE",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "The EU, or a group of European governments, names a single envoy or negotiator for the Ukraine talks with the US and Russia.",
+          "by": "2026-12-09",
+          "because": "If access is now offered on conditions, Europe should meet the condition rather than stay outside a negotiation about its own frontier.",
+          "id": "20261111T224126-seats-withdrawn-as-pressure-1"
+        },
+        {
+          "what": "A second state is barred or suspended from an international body or summit over its conduct in a war.",
+          "by": "2026-12-09",
+          "because": "If withdrawing seats has become a common way to apply pressure, the CSTO and COP31 cases should not be the only ones in a month.",
+          "id": "20261111T224126-seats-withdrawn-as-pressure-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The nearest case is March 2014, when the G8 suspended Russia over Crimea; Russia never returned and the G7 carried on. The difference is that in 2014 the excluded party was the aggressor and the excluders were allies acting together, while now an ally, the United States, sets terms with Russia for Europe's place at the table.",
+        "paths": [
+          {
+            "name": "Europe accepts one negotiator",
+            "weight": "favoured",
+            "text": "By January EU governments, or France, Germany, Britain and Italy together, name one envoy to the talks, accepting the condition in order to keep a seat. The join points this way because in these cases the party offered access on conditions has usually complied or left, and Europe cannot leave a settlement of a war on its own border.",
+            "sign": "The EU names a special envoy for the Ukraine talks."
+          },
+          {
+            "name": "Armenia leaves the CSTO",
+            "weight": "possible",
+            "text": "Within months Armenia's government or parliament announces withdrawal from the treaty, turning the loss of its vote into exit. Less likely soon because Russia keeps a base at Gyumri and supplies Armenia's gas, which makes a formal break costly.",
+            "sign": "Armenia announces that it will leave the CSTO or stop paying its dues."
+          },
+          {
+            "name": "The exclusions are reversed",
+            "weight": "unlikely",
+            "text": "Turkey admits Israeli delegates to COP31 sessions, or the CSTO restores Armenia's vote. Unlikely because both decisions follow wars that have not ended and political positions their makers have campaigned on.",
+            "sign": "Israel's delegation is reported taking part in COP31 negotiations."
+          }
+        ],
+        "decade": "Over ten years more of the world's bargaining is likely to take place in small formats chosen by the strongest parties, with universal bodies keeping the vote but losing control of the agenda."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "The CSTO stripped Armenia of its vote at a summit Putin attended, Turkey excluded Israel from the COP31 climate summit in Antalya, Washington and Moscow asked Europe to choose one negotiator for the Ukraine talks, and India's Tribune reports Nepal and Bhutan's Himalayan agenda snubbed at the same summit. Each decides the same question, who sits in the room, and each answers it by using access as pressure: taking a seat from a member that has turned away, refusing one to a state at war, or offering one on conditions. The bodies meant to include their members are being used to manage them.",
+      "events": [
+        {
+          "label": "CSTO strips Armenia of its vote",
+          "articleIds": [
+            "n-94a91e890be14e",
+            "n-f54ecc9f676df2",
+            "n-d941d937652110"
+          ]
+        },
+        {
+          "label": "Israel excluded from COP31 over Gaza",
+          "articleIds": [
+            "n-600992beda119c"
+          ]
+        },
+        {
+          "label": "Europe asked to pick one negotiator",
+          "articleIds": [
+            "n-84545d8ae23fea",
+            "n-1a261413d68abb",
+            "n-f97547955881b7",
+            "n-1880c922df6de1"
+          ]
+        },
+        {
+          "label": "Nepal and Bhutan's agenda snubbed at COP31",
+          "articleIds": [
+            "n-1127b138be4ea4"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Members removed or refused",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Armenia and the CSTO",
+              "text": "Xinhua reports that the CSTO has removed Armenia's voting rights and its right to nominate people to the organisation's posts. Kommersant reports Putin taking part in the CSTO summit on 11 November, and Izvestia quotes him on the praise member states gave Russia's chairmanship. The alliance's leader presides over the meeting that takes a member's vote away.",
+              "articleIds": [
+                "n-94a91e890be14e",
+                "n-f54ecc9f676df2",
+                "n-d941d937652110"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Israel and COP31",
+              "text": "The Jerusalem Post reports that Israel has been excluded from COP31 in Turkey over the Gaza war. The host of a United Nations climate summit has decided which state may not attend, for a reason unrelated to climate.",
+              "articleIds": [
+                "n-600992beda119c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Seats offered on conditions",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Europe and Abu Dhabi",
+              "text": "Observador reports that the US and Russia ask Europe to elect a negotiator, and quotes Rutte saying the US, Ukraine and Europe are united after Abu Dhabi. Die Welt explains why the Abu Dhabi negotiations make Europe nervous. ANSA reports Meloni attending a meeting convened by Burnham and Zelensky on the sidelines of the European Political Community.",
+              "articleIds": [
+                "n-84545d8ae23fea",
+                "n-f97547955881b7",
+                "n-1a261413d68abb",
+                "n-1880c922df6de1"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "Small states at a large summit",
+              "text": "The Tribune reports that Nepal's and Bhutan's Himalayan agenda was snubbed at COP31. They are in the room but their subject is not on the table.",
+              "articleIds": [
+                "n-1127b138be4ea4"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Access used as the sanction",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "Who decides the room",
+              "text": "In each case the stronger party or the host decides who may take part, and uses that decision to punish or to discipline. Armenia froze its own participation after the CSTO did not defend it, and the alliance now formalises the penalty. Turkey uses its hosting of COP31 against Israel. Washington and Moscow set the form in which Europe may join a negotiation about Europe's own frontier, and Europe's leaders meet on the sidelines of their own forum to form a table of their own.",
+              "articleIds": [
+                "n-94a91e890be14e",
+                "n-600992beda119c",
+                "n-84545d8ae23fea",
+                "n-1880c922df6de1"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "karabakh-2020"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Separate reasons, old practice",
+              "text": "Armenia stopped taking part in the CSTO in 2024, so removing its vote records a fact rather than applying new pressure. Turkey cut trade with Israel over Gaza in 2024, and its exclusion of Israel is a host's bilateral policy, not a rule of the climate talks. Asking Europe to send one negotiator may be a request for efficiency, and the Nepal and Bhutan complaint concerns an agenda, not a seat. Excluding states is old diplomatic practice, from South Africa in 1974 to Russia in 2014. What the events do not share is the body acting: one is a treaty organisation's vote, one is a host's guest list, one is a request by two powers, and one is an agenda set by a presidency.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "ALLIANCE / WAR / HOSTING",
+          "text": "In the 44-day war of autumn 2020 Azerbaijan, using Turkish and Israeli drones, retook most of the land around Nagorno-Karabakh, and Russian peacekeepers arrived under a truce. When Azerbaijan attacked Armenian territory in September 2022, Armenia asked the CSTO for help and received none; in September 2023 Azerbaijan took the rest of Karabakh and its Armenian population left. In February 2024 Prime Minister Nikol Pashinyan froze Armenia's participation in the alliance, and in August 2025 he signed a peace framework with Azerbaijan at the White House. The CSTO decision reported by Xinhua turns that freeze into a formal penalty. In the same years Russia was expelled from the Council of Europe in March 2022, and in November 2025 the Belém summit agreed that Turkey would host COP31 with Australia leading the negotiations, which put the guest list for Antalya in Ankara's hands and made possible the exclusion of Israel that the Jerusalem Post reports.",
+          "trajectoryIds": [
+            "karabakh-2020"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SUSPENSION / FORMATS / MEDIATION",
+          "text": "In August 2008 Russia fought Georgia, and the ceasefire was brokered by France as holder of the EU presidency. After Russia annexed Crimea in March 2014 the G8 suspended it and became the G7 again; Russia did not return. In June 2014 France, Germany, Russia and Ukraine formed the Normandy format, which produced the Minsk agreements of 2014 and 2015 without the United States at the table. For a decade European governments were the negotiators and Washington the outside power. The Abu Dhabi talks reverse that arrangement: the envoys are American, and Observador reports Washington and Moscow together asking Europe to choose one person to speak for it. Die Welt's report of European nervousness and Rutte's statement that the allies are united are the reaction of governments that have lost the seat they held since 2014. Meloni's attendance at a meeting called by Burnham and Zelensky is Europe arranging its own format beside the one it has been offered.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "TREATIES / CONSENSUS / SMALL STATES",
+          "text": "After the Soviet Union dissolved, six former republics signed the Collective Security Treaty in Tashkent in May 1992; Armenia joined because it was at war with Azerbaijan and needed Russia's guarantee, and the treaty became an organisation in 2002. In the same year, 1992, the OSCE created the Minsk Group, chaired by France, Russia and the United States, to mediate over Karabakh, and in 2025 its members decided to wind it up. The Rio summit of 1992 produced the climate convention, whose decisions are taken by consensus and whose agenda is shaped by the presidency, which is how a small state's issue can be left aside. The Tribune's report that Nepal's and Bhutan's Himalayan agenda was snubbed at COP31 is a complaint about that arrangement. The settlements after 1989 gave every member a vote in bodies where a few set the agenda, and the CSTO's removal of Armenia's vote shows what the vote was worth to a member its alliance no longer protected.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "CHARTER / CREDENTIALS / RECOGNITION",
+          "text": "The League of Nations expelled the Soviet Union in December 1939 for invading Finland, one of its last acts, and the authors of the United Nations Charter in 1945 kept a power to suspend or expel members but made it depend on the Security Council, so the UN has never expelled a state. Exclusion has gone instead through credentials and seats: in 1971 the General Assembly gave China's seat to the People's Republic, and in 1974 it refused to seat South Africa's delegation over apartheid. From Suez in 1956 to the end of the cold war, the settlement of a region's wars was decided by which outside powers were in the room. Israel's exclusion from COP31, reported by the Jerusalem Post, belongs to the credentials tradition, decided this time by a host rather than a vote. The request that Europe send one negotiator belongs to the other tradition, in which the powers running a settlement decide who else may sit with them.",
+          "trajectoryIds": [
+            "versailles-1919",
+            "suez-1956"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-94a91e890be14e",
+        "n-f54ecc9f676df2",
+        "n-d941d937652110",
+        "n-600992beda119c",
+        "n-84545d8ae23fea",
+        "n-f97547955881b7",
+        "n-1a261413d68abb",
+        "n-1880c922df6de1",
+        "n-1127b138be4ea4"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
- "day": "2026-11-10",
- "attempts": 2,
+ "day": "2026-11-11",
+ "attempts": 1,
  "history": [
   {
    "at": "2026-10-28T01:18:16Z",
@@ -194,6 +194,19 @@
    "usage": {
     "input": 39006,
     "output": 28627,
+    "tier": "standard"
+   }
+  },
+  {
+   "at": "2026-11-11T22:53:49Z",
+   "note": "revising for edition 20261111T224126"
+  },
+  {
+   "at": "2026-11-11T22:57:40Z",
+   "note": "ok",
+   "usage": {
+    "input": 39607,
+    "output": 30034,
     "tier": "standard"
    }
   }
