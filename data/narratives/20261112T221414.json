@@ -1,0 +1,2144 @@
+{
+  "schemaVersion": 5,
+  "generatedAt": "2026-11-12T22:27:57Z",
+  "newsGeneratedAt": "2026-11-12T22:14:14Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-7",
+  "previousNewsGeneratedAt": "2026-11-11T22:41:26Z",
+  "usage": {
+    "input": 77994,
+    "output": 75663,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-ba5af01a20a574",
+      "title": "Global AI stocks sink as Nvidia CEO's exit deepens sector concerns",
+      "titleEnglish": "Global AI stocks sink as Nvidia CEO's exit deepens sector concerns",
+      "url": "https://www.bangkokpost.com/business/general/3353540/global-ai-stocks-sink-as-nvidia-ceos-exit-deepens-sector-concerns",
+      "publisher": "https://www.bangkokpost.com",
+      "publisherDomain": "bangkokpost.com",
+      "publishedAt": "2026-11-12T16:02:00Z",
+      "seenAt": "2026-11-12T16:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Thailand",
+      "sourceCountryCode": "TH",
+      "sourceRegion": "Asia",
+      "sourceLat": 15,
+      "sourceLon": 101,
+      "language": "en"
+    },
+    {
+      "id": "n-ebb572044f8441",
+      "title": "Bolsas de NY fecham em queda com crise da Nvidia e ataques ao Irã; Corteva tomba com agro - Jornal de Brasília",
+      "titleEnglish": "NY stocks close lower amid Nvidia crisis and attacks on Iran; Corteva falls with agriculture - Jornal de Brasilia",
+      "url": "https://jornaldebrasilia.com.br/noticias/mundo/bolsas-de-ny-fecham-em-queda-com-crise-da-nvidia-e-ataques-ao-ira-corteva-tomba-com-agro/",
+      "publisher": "Jornal de Brasília",
+      "publisherDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-11-12T22:02:00Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-326aa6d6ba0c71",
+      "title": "Jensen Huang is out and Nvidia stock is down—what market pros say about buying dips",
+      "titleEnglish": "Jensen Huang is out and Nvidia stock is down—what market pros say about buying dips",
+      "url": "https://www.cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-12T19:34:31Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-a8520fa59d2198",
+      "title": "Nvidia's Jensen Huang resignation a big moment for AI sector",
+      "titleEnglish": "Nvidia's Jensen Huang resignation a big moment for AI sector",
+      "url": "https://www.rnz.co.nz/news/business/2571927/nvidia-s-jensen-huang-resignation-a-big-moment-for-ai-sector",
+      "publisher": "RNZ",
+      "publisherDomain": "rnz.co.nz",
+      "publishedAt": "2026-11-12T21:02:00Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-30f70a8192c611",
+      "title": "হুয়াংয়ের বিদায়ে যে প্রভাব পড়তে পারে চিপ শিল্পের বাইরেও",
+      "titleEnglish": "Impact on the chip industry beyond the departure of Huang may be felt",
+      "url": "https://bangla.bdnews24.com/tech/0x7zylchgz",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bangla.bdnews24.com",
+      "publishedAt": "2026-11-12T21:34:29Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "bn"
+    },
+    {
+      "id": "n-e38d9c694229fe",
+      "title": "Jensen Huang renuncia como director ejecutivo de Nvidia - BBC News Mundo",
+      "titleEnglish": "Jensen Huang steps down as chief executive of Nvidia - BBC News Mundo",
+      "url": "https://www.bbc.com/mundo/watch/c5y4jdmdwrlzo",
+      "publisher": "BBC News Mundo",
+      "publisherDomain": "bbc.com",
+      "publishedAt": "2026-11-12T21:05:19Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "es"
+    },
+    {
+      "id": "n-f4271663ec79ad",
+      "title": "黃仁勳請辭…他的下台引爆兩大焦慮 台鏈短期恐受衝擊 | 聯合新聞網",
+      "titleEnglish": "Jensen Huang resigns... his downfall triggers two major anxieties, Taiwan's supply chain may face short-term shock | United Daily News",
+      "url": "https://udn.com/news/story/7238/9875584",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-11-12T19:35:15Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-cfd0697fd1c725",
+      "title": "黃仁勳請辭前，花旗未砍獲利預估、目標價卻先下修！台灣AI供應鏈怕什麼？資金、擴產與出口成三大考驗 | 魏鑫陽 | 財經",
+      "titleEnglish": "Before Jensen Huang's resignation, Citi did not cut profit forecasts but lowered target prices first! What worries Taiwan's AI supply chain? Funding, capacity expansion and exports are three major tests | Wei Xinyang | Finance",
+      "url": "https://www.storm.mg/article/11181109",
+      "publisher": "storm.mg",
+      "publisherDomain": "storm.mg",
+      "publishedAt": "2026-11-12T15:21:00Z",
+      "seenAt": "2026-11-12T16:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-b082f3b8260621",
+      "title": "黃仁勳若下台 龔明鑫霸氣喊「只有台灣能」：輝達仍需台廠合作 | ETtoday財經雲 | ETtoday新聞雲",
+      "titleEnglish": "If Jensen Huang steps down, Gong Ming-xin declares \"Only Taiwan can\": Nvidia still needs Taiwanese manufacturer cooperation | ETtoday Finance Cloud | ETtoday News Cloud",
+      "url": "https://finance.ettoday.net/news/3271203",
+      "publisher": "ETtoday財經雲",
+      "publisherDomain": "finance.ettoday.net",
+      "publishedAt": "2026-11-12T13:02:00Z",
+      "seenAt": "2026-11-12T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-39fe12599a47e0",
+      "title": "黃仁勳請辭 台新投顧：恐影響自身競爭力，競爭對手有望得利 | 陳怡慈 | 新聞",
+      "titleEnglish": "Jensen Huang resigns: Taishin Investment Advisory says it may affect his own competitiveness, rivals likely to benefit | Chen Yici | News",
+      "url": "https://www.storm.mg/article/11181112",
+      "publisher": "storm.mg",
+      "publisherDomain": "storm.mg",
+      "publishedAt": "2026-11-12T15:41:00Z",
+      "seenAt": "2026-11-12T16:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-9d7f8dc7fef901",
+      "title": "Microsoft blames server outages for widespread Microsoft 365 disruptions",
+      "titleEnglish": "Microsoft blames server outages for widespread Microsoft 365 disruptions",
+      "url": "https://aa.com.tr/en/americas/microsoft-blames-server-outages-for-widespread-microsoft-365-disruptions/4123460",
+      "publisher": "Anadolu",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-11-12T23:31:11Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-4ff58f7210d53e",
+      "title": "Global outage hits Microsoft's Outlook, 365 services",
+      "titleEnglish": "Global outage hits Microsoft's Outlook, 365 services",
+      "url": "https://www.rnz.co.nz/news/business/2569444/global-outage-hits-microsoft-s-outlook-365-services",
+      "publisher": "RNZ",
+      "publisherDomain": "rnz.co.nz",
+      "publishedAt": "2026-11-12T22:02:00Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-3dfe80ac04fcc0",
+      "title": "【速報】「アウトルック」などで大規模障害とMS",
+      "titleEnglish": "[Breaking] Major outage affecting Outlook and other Microsoft services",
+      "url": "https://www.47news.jp/15222288.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-11-12T22:02:00Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-0a0e1007cc6686",
+      "title": "E-Mail-Probleme: Störung bei Microsofts Cloud-E-Mail",
+      "titleEnglish": "E-mail problems: Disruption to Microsoft's cloud e-mail",
+      "url": "https://www.handelsblatt.com/technik/it-internet/e-mail-probleme-stoerung-bei-microsofts-cloud-e-mail/100269542.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-12T21:32:38Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-ce69c1aad86f0a",
+      "title": "תקלה נרחבת במיקרוסופט: משתמשים דיווחו על שיבושים ב-Outlook",
+      "titleEnglish": "Widespread Microsoft outage: users report disruptions in Outlook",
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001563323",
+      "publisher": "גלובס",
+      "publisherDomain": "globes.co.il",
+      "publishedAt": "2026-11-12T18:49:00Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
+    },
+    {
+      "id": "n-3fc4534f6a7b6c",
+      "title": "Microsoft outage hits Outlook. AWS and Google users also report issues",
+      "titleEnglish": "Microsoft outage hits Outlook. AWS and Google users also report issues",
+      "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-12T20:54:22Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-7831dde83a9e35",
+      "title": "Caída masiva impide iniciar sesión en Facebook, Outlook, Google y X",
+      "titleEnglish": "Massive outage prevents login to Facebook, Outlook, Google and X",
+      "url": "https://www.eluniversal.com.co/mundo/2026/11/12/caida-masiva-impide-iniciar-sesion-en-facebook-outlook-google-y-x/",
+      "publisher": "www.eluniversal.com.co",
+      "publisherDomain": "eluniversal.com.co",
+      "publishedAt": "2026-11-12T20:28:13Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-8c95fae9905581",
+      "title": "Caixa Seguridade: dados de 7,6 milhões de clientes são expostos após ataque cibernético",
+      "titleEnglish": "Caixa Seguridade: data of 7.6 million customers exposed after cyberattack",
+      "url": "https://extra.globo.com/economia/noticia/2026/11/caixa-seguridade-dados-de-76-milhoes-de-clientes-sao-expostos-apos-ataque-cibernetico.ghtml",
+      "publisher": "extra",
+      "publisherDomain": "extra.globo.com",
+      "publishedAt": "2026-11-12T22:02:00Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-ce32cca5f5e348",
+      "title": "Unimed Natal apura incidente de segurança cibernética e mantém atendimentos com plano de contingência - Tribuna do Norte",
+      "titleEnglish": "Unimed Natal investigates cybersecurity incident and maintains services with contingency plan - Tribuna do Norte",
+      "url": "https://tribunadonorte.com.br/natal/unimed-natal-apura-incidente-de-seguranca-cibernetica-e-mantem-atendimentos-com-plano-de-contingencia/",
+      "publisher": "Tribuna do Norte",
+      "publisherDomain": "tribunadonorte.com.br",
+      "publishedAt": "2026-11-12T20:15:11Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-8115b726255a0e",
+      "title": "“AI央行”大地震，冲击会沿融资链传多远？",
+      "titleEnglish": "\"AI central bank\" earthquake: how far will the shock travel along the financing chain?",
+      "url": "https://www.163.com/dy/article/LBJ4M31P05198CJN.html",
+      "publisher": "163.com",
+      "publisherDomain": "163.com",
+      "publishedAt": "2026-11-12T18:28:38Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-629af3da8d2710",
+      "title": "تحركات صينية لحجز أنظمة إنفيديا خوفا من القيود الأمريكية",
+      "titleEnglish": "Chinese moves to secure Nvidia systems over fear of US restrictions",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/12/%D8%A3%D8%B2%D9%85%D8%A9-%D9%87%D9%88%D8%A7%D9%86%D8%BA-%D8%AA%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%B5%D9%8A%D9%86%D9%8A%D8%A9-%D9%84%D8%AD%D8%AC%D8%B2-%D8%A3%D9%86%D8%B8%D9%85%D8%A9",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-12T10:02:00Z",
+      "seenAt": "2026-11-12T10:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-95bc7d2fb07a11",
+      "title": "Who will replace Jensen Huang? Here's our early thoughts on the search for Nvidia's next CEO",
+      "titleEnglish": "Who will replace Jensen Huang? Here's our early thoughts on the search for Nvidia's next CEO",
+      "url": "https://www.cnbc.com/investingclub/2026/11/12/jensen-huang-ceo-replacement-jim-cramer.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-12T20:00:42Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-0d60c6496425ff",
+      "title": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+      "titleEnglish": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-12T19:58:11Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-2e389c5901c321",
+      "title": "黃仁勳下台懶人包》4天前董事會還說「不會中斷」！兩段婚外情、共諜疑雲終結33年輝達王朝 | 江勳紘 | 風生活",
+      "titleEnglish": "Jensen Huang steps down explainer: four days ago the board said it \"would not be interrupted\"! Two extramarital affairs and spy suspicions end Nvidia's 33-year dynasty | Jiang Xunhong | Wind Life",
+      "url": "https://www.storm.mg/lifestyle/11181104",
+      "publisher": "storm.mg",
+      "publisherDomain": "storm.mg",
+      "publishedAt": "2026-11-12T14:57:00Z",
+      "seenAt": "2026-11-12T16:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-e23b31497989e5",
+      "title": "Prabowo Terima Pengunduran Diri Gibran, Ini Rekam Jejak 2 Tahun Wapres Dampingi Pemerintahan",
+      "titleEnglish": "Prabowo Accepts Gibran's Resignation, Here Is the 2-Year Track Record of the Vice President Who Served the Government",
+      "url": "https://purwasuka.viva.co.id/nasional/22252-prabowo-terima-pengunduran-diri-gibran-ini-rekam-jejak-2-tahun-wapres-dampingi-pemerintahan",
+      "publisher": "purwasuka.viva.co.id",
+      "publisherDomain": "purwasuka.viva.co.id",
+      "publishedAt": "2026-11-12T20:18:00Z",
+      "seenAt": "2026-11-12T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-8cbd65d09f813d",
+      "title": "Pernyataan Lengkap Gibran Terkait Pengunduran Diri sebagai Wapres - merdeka.com",
+      "titleEnglish": "Gibran's full statement on resignation as Vice President - merdeka.com",
+      "url": "https://www.merdeka.com/peristiwa/read/8334227/pernyataan-lengkap-gibran-terkait-pengunduran-diri-sebagai-wapres",
+      "publisher": "merdeka.com",
+      "publisherDomain": "merdeka.com",
+      "publishedAt": "2026-11-12T13:02:54Z",
+      "seenAt": "2026-11-12T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-5151ae4911a093",
+      "title": "الأصغر في تاريخ البلاد.. فضيحة \"الشهادة\" تطيح بنائب رئيس إندونيسيا",
+      "titleEnglish": "The youngest in the country's history... \"certificate\" scandal topples Indonesia's deputy president",
+      "url": "https://www.aljazeera.net/news/2026/11/12/%D8%A7%D9%84%D8%A3%D8%B5%D8%BA%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D9%81%D8%B6%D9%8A%D8%AD%D8%A9-%D8%A7%D9%84%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%D8%AA%D8%B7%D9%8A%D8%AD",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-12T10:02:00Z",
+      "seenAt": "2026-11-12T10:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-2b003e3a815d05",
+      "title": "VP Sara trial, itutuloy pagkatapos ng ASEAN Summit",
+      "titleEnglish": "VP Sara trial to continue after ASEAN Summit",
+      "url": "https://www.philstar.com/pang-masa/police-metro/2026/11/13/2569795/vp-sara-trial-itutuloy-pagkatapos-ng-asean-summit",
+      "publisher": "Philstar.com",
+      "publisherDomain": "philstar.com",
+      "publishedAt": "2026-11-12T21:02:00Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Philippines",
+      "sourceCountryCode": "PH",
+      "sourceRegion": "Asia",
+      "sourceLat": 12,
+      "sourceLon": 122,
+      "language": "tl"
+    },
+    {
+      "id": "n-2bc7cf33fd62a9",
+      "title": "‘VP Sara tumanggap ng P2.1 milyong sa ‘loose investment’ sa GenCorp’",
+      "titleEnglish": "'VP Sara received P2.1 million over 'loose investment' in GenCorp'",
+      "url": "https://www.philstar.com/pang-masa/police-metro/2026/11/12/2569544/vp-sara-tumanggap-ng-p21-milyong-sa-loose-investment-sa-gencorp-",
+      "publisher": "Philstar.com",
+      "publisherDomain": "philstar.com",
+      "publishedAt": "2026-11-12T21:02:00Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Philippines",
+      "sourceCountryCode": "PH",
+      "sourceRegion": "Asia",
+      "sourceLat": 12,
+      "sourceLon": 122,
+      "language": "tl"
+    },
+    {
+      "id": "n-161db40f4a6f0b",
+      "title": "Impeachment lang ni Sara ang pag-asa ng makabagong sakdalista",
+      "titleEnglish": "Sara's impeachment alone is the hope of the modern plunderer",
+      "url": "https://www.philstar.com/pang-masa/punto-mo/2026/11/13/2569804/impeachment-lang-ni-sara-ang-pag-asa-ng-makabagong-sakdalista",
+      "publisher": "Philstar.com",
+      "publisherDomain": "philstar.com",
+      "publishedAt": "2026-11-12T21:02:00Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Philippines",
+      "sourceCountryCode": "PH",
+      "sourceRegion": "Asia",
+      "sourceLat": 12,
+      "sourceLon": 122,
+      "language": "tl"
+    },
+    {
+      "id": "n-4e9598b0d96e85",
+      "title": "Trump Jr. steps down as adviser to prediction market Kalshi: Report",
+      "titleEnglish": "Trump Jr. steps down as adviser to prediction market Kalshi: Report",
+      "url": "https://aa.com.tr/en/americas/trump-jr-steps-down-as-adviser-to-prediction-market-kalshi-report/4123470",
+      "publisher": "Anadolu",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-11-12T23:46:06Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-2b811713c0e045",
+      "title": "Donald Trump Jr Cut Loose by $40 Billion Kalshi as Rival Investment Sparks Conflict of Interest",
+      "titleEnglish": "Donald Trump Jr Cut Loose by $40 Billion Kalshi as Rival Investment Sparks Conflict of Interest",
+      "url": "https://www.ibtimes.co.uk/donald-trump-jr-kalshi-polymarket-conflict-1831954",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-11-12T21:45:22Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-416588e2dfc794",
+      "title": "Tinubu Congratulates Son, Seyi, On Turbaning As Dan Zaki Gwandu",
+      "titleEnglish": "Tinubu Congratulates Son, Seyi, On Turbaning As Dan Zaki Gwandu",
+      "url": "https://leadership.ng/tinubu-congratulates-son-seyi-on-turbaning-as-dan-zaki-gwandu/",
+      "publisher": "LEADERSHIP Newspapers",
+      "publisherDomain": "leadership.ng",
+      "publishedAt": "2026-11-12T13:20:49Z",
+      "seenAt": "2026-11-12T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-75d8a10fb05c98",
+      "title": "Drama As Seyi Tinubu Climbs Vehicle's Roof, Dances To Hail Father's Supporters In Kebbi",
+      "titleEnglish": "Drama As Seyi Tinubu Climbs Vehicle's Roof, Dances To Hail Father's Supporters In Kebbi",
+      "url": "https://leadership.ng/drama-as-seyi-tinubu-climbs-vehicles-roof-dances-to-hail-fathers-supporters-in-kebbi/",
+      "publisher": "LEADERSHIP Newspapers",
+      "publisherDomain": "leadership.ng",
+      "publishedAt": "2026-11-12T13:06:12Z",
+      "seenAt": "2026-11-12T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-0f8f349db435f2",
+      "title": "2027: Tinubu support group targets 20 million votes",
+      "titleEnglish": "2027: Tinubu support group targets 20 million votes",
+      "url": "https://punchng.com/2027-tinubu-support-group-targets-20-million-votes/",
+      "publisher": "Punch Newspapers",
+      "publisherDomain": "punchng.com",
+      "publishedAt": "2026-11-12T09:40:24Z",
+      "seenAt": "2026-11-12T10:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-2444eb28cd4d91",
+      "title": "ناقلة نفط تتعرض لهجوم بمقذوف مجهول في مضيق هرمز",
+      "titleEnglish": "Oil tanker hit by unidentified projectile in Strait of Hormuz",
+      "url": "https://www.khaberni.com/news/866509-%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%86%D9%81%D8%B7-%D8%AA%D8%AA%D8%B9%D8%B1%D8%B6-%D9%84%D9%87%D8%AC%D9%88%D9%85-%D8%A8%D9%85%D9%82%D8%B0%D9%88%D9%81-%D9%85%D8%AC%D9%87%D9%88%D9%84-%D9%81%D9%8A-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-11-12T21:02:00Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-bae831bba28ad1",
+      "title": "Iran says four tankers on fire in Hormuz",
+      "titleEnglish": "Iran says four tankers on fire in Hormuz",
+      "url": "https://www.arabnews.com/middle-east/iran-says-four-tankers-on-fire-in-hormuz-3011491",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-12T15:39:40Z",
+      "seenAt": "2026-11-12T16:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-34fda3fa466020",
+      "title": "التحالف: تدمير مسيرة بمنطقة الرياض أطلقتها ميليشيا الحوثي",
+      "titleEnglish": "Coalition: drone launched by the Houthi militia destroyed in Riyadh region",
+      "url": "https://www.okaz.com.sa/local/saudi-arabia/2275291",
+      "publisher": "عكاظ",
+      "publisherDomain": "okaz.com.sa",
+      "publishedAt": "2026-11-12T22:21:41Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "ar"
+    },
+    {
+      "id": "n-a5fe34b0025e38",
+      "title": "Cheonghae Unit would answer to on-site commander in multinational operations near Hormuz",
+      "titleEnglish": "Cheonghae Unit would answer to on-site commander in multinational operations near Hormuz",
+      "url": "https://english.hani.co.kr/arti/english_edition/e_national/1287006.html",
+      "publisher": "Hankyoreh",
+      "publisherDomain": "english.hani.co.kr",
+      "publishedAt": "2026-11-12T10:32:00Z",
+      "seenAt": "2026-11-12T10:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "en"
+    },
+    {
+      "id": "n-e9fcd45b748e9d",
+      "title": "NY原油続伸、終値88ドル台 フーシ派攻撃で買い優勢",
+      "titleEnglish": "NY crude extends gains, closes in the $88 range as Houthi attacks boost buying",
+      "url": "https://www.47news.jp/15222368.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-11-12T22:02:00Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-5e816a505ab669",
+      "title": "Petróleo sobe após declarações de Trump sobre Irã - Jornal de Brasília",
+      "titleEnglish": "Oil rises after Trump's statements on Iran - Jornal de Brasilia",
+      "url": "https://jornaldebrasilia.com.br/noticias/economia/petroleo-sobe-apos-declaracoes-de-trump-sobre-ira/",
+      "publisher": "Jornal de Brasília",
+      "publisherDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-11-12T22:02:00Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-0dc4072164b9bd",
+      "title": "Govt slashes petrol price by Rs3 per litre, diesel by Rs4",
+      "titleEnglish": "Govt slashes petrol price by Rs3 per litre, diesel by Rs4",
+      "url": "https://www.geo.tv/latest/673967-petroleum-rates-in-pakistan-today",
+      "publisher": "Geo News",
+      "publisherDomain": "geo.tv",
+      "publishedAt": "2026-11-12T17:19:00Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Pakistan",
+      "sourceCountryCode": "PK",
+      "sourceRegion": "Asia",
+      "sourceLat": 30,
+      "sourceLon": 69,
+      "language": "en"
+    },
+    {
+      "id": "n-2ac84bd864908e",
+      "title": "Gobierno reingresa proyecto que congela precio de combustibles hasta febrero - La Tercera",
+      "titleEnglish": "Government resubmits bill freezing fuel prices until February - La Tercera",
+      "url": "https://www.latercera.com/politica/noticia/gobierno-reingresa-proyecto-que-congela-precio-de-combustibles-hasta-febrero/",
+      "publisher": "La Tercera",
+      "publisherDomain": "latercera.com",
+      "publishedAt": "2026-11-12T12:58:22Z",
+      "seenAt": "2026-11-12T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-4dbfd5486d9bd8",
+      "title": "Κικίλιας: Νέα παρέμβαση 32 εκατ. ευρώ για τη συγκράτηση του κόστους της ακτοπλοΐας και τη στήριξη των νησιωτών - iefimerida.gr",
+      "titleEnglish": "Kikilias: New intervention of €32 million to contain coastal shipping costs and support islanders - iefimerida.gr",
+      "url": "https://www.iefimerida.gr/politiki/kikilias-32-ekat-eyro-kostos-aktoploias-stirixi-nisioton",
+      "publisher": "iefimerida.gr",
+      "publisherDomain": "iefimerida.gr",
+      "publishedAt": "2026-11-12T12:24:14Z",
+      "seenAt": "2026-11-12T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-0e864573c63b83",
+      "title": "Soroti Elektrifikasi Kapal, GAPASDAP Minta Penyesuaian Tarif Penyeberangan",
+      "titleEnglish": "Highlighting Vessel Electrification, GAPASDAP Asks for Adjustment of Ferry Tariffs",
+      "url": "https://jatim.viva.co.id/kabar/28930-soroti-elektrifikasi-kapal-gapasdap-minta-penyesuaian-tarif-penyeberangan",
+      "publisher": "jatim.viva.co.id",
+      "publisherDomain": "jatim.viva.co.id",
+      "publishedAt": "2026-11-12T22:54:00Z",
+      "seenAt": "2026-11-12T16:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-287063bab69f20",
+      "title": "Witkoff e Kushner da Putin, poi da Zelensky: 'Fissati nuovi colloqui, ci saranno gli europei' - Notizie - Ansa.it",
+      "titleEnglish": "Witkoff and Kushner from Putin, then from Zelensky: 'New talks set, Europeans will be there' - News - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/12/witkoff-e-kushner-da-putin-poi-da-zelensky-fissati-nuovi-colloqui-ci-saranno-gli_3b13b03e-1348-4fd1-9b1f-f2a129c504cd.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-12T21:23:56Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-bda7d1f5c43865",
+      "title": "European representatives to join Ukraine-US talks in Dublin",
+      "titleEnglish": "European representatives to join Ukraine-US talks in Dublin",
+      "url": "https://www.arabnews.com/world/european-representatives-to-join-ukraine-us-talks-in-dublin-3011509",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-12T18:49:12Z",
+      "seenAt": "2026-11-12T19:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-aba3571d39a076",
+      "title": "特朗普女婿库什纳称俄乌问题多边谈判将于下周举行",
+      "titleEnglish": "Trump's son-in-law Kushner says multilateral talks on Russia-Ukraine issue will be held next week",
+      "url": "https://www.yicai.com/news/103438947.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-11-12T19:02:00Z",
+      "seenAt": "2026-11-12T19:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-30faed3baf192a",
+      "title": "Уиткофф: согласован новый раунд трехсторонних переговоров по Украине",
+      "titleEnglish": "Witkoff: new round of trilateral talks on Ukraine agreed",
+      "url": "https://www.kommersant.ru/doc/9095834",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-12T15:57:34Z",
+      "seenAt": "2026-11-12T16:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-da99fb7ab0ff92",
+      "title": "Ukraine-Gespräche: In einer Frage sieht Merz jetzt Putin am Zug – Kreml vergleicht Europäer mit „Spinnen in einem Glas“ - WELT",
+      "titleEnglish": "Ukraine talks: On one question Merz now sees Putin on the move – Kremlin compares Europeans to \"spiders in a jar\" - WELT",
+      "url": "https://www.welt.de/politik/ausland/article6af61a9450175c81de7a45e2/ukraine-gespraeche-in-einer-frage-sieht-merz-jetzt-putin-am-zug-kreml-vergleicht-europaeer-mit-spinnen-in-einem-glas.html",
+      "publisher": "DIE WELT",
+      "publisherDomain": "welt.de",
+      "publishedAt": "2026-11-12T21:02:00Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-9d9903eb01d93b",
+      "title": "Gipfel in Dublin: Europäer benennen vorerst keinen Ukraine-Chefverhandler",
+      "titleEnglish": "Summit in Dublin: Europeans do not name a Ukraine chief negotiator for now",
+      "url": "https://www.handelsblatt.com/politik/international/gipfel-in-dublin-europaeer-benennen-vorerst-keinen-ukraine-chefverhandler/100269283.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-12T20:34:33Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-008572b43bdcb0",
+      "title": "В Европарламенте рассказали о вероятном кандидате на роль переговорщика от ЕС",
+      "titleEnglish": "European Parliament discusses a likely candidate for the role of EU negotiator",
+      "url": "https://iz.ru/2200895/2026-11-13/v-evroparlamente-rasskazali-o-veroiatnom-kandidate-na-rol-peregovorshchika-ot-es",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-11-12T21:45:00Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-4f00d9af28ccc5",
+      "title": "Россия потребовала документального закрепления обещания НАТО",
+      "titleEnglish": "Russia demanded documented commitment to NATO's promise",
+      "url": "https://lenta.ru/news/2026/11/12/rossiya-potrebovala-dokumentalnogo-zakrepleniya-obeschaniya-nato/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-11-12T21:02:00Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-a4184706126769",
+      "title": "Дмитриев назвал важным обсуждение с США системы безопасности в Европе",
+      "titleEnglish": "Dmitriev says discussion with the US on European security system is important",
+      "url": "https://www.kommersant.ru/doc/9095826",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-12T15:51:46Z",
+      "seenAt": "2026-11-12T16:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-9ade1604dcee5e",
+      "title": "Israel says will ban French hard-left leader Melenchon from entry",
+      "titleEnglish": "Israel says will ban French hard-left leader Melenchon from entry",
+      "url": "https://www.arabnews.com/middle-east/israel-says-will-ban-french-hard-left-leader-melenchon-from-entry-3011508",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-12T18:24:10Z",
+      "seenAt": "2026-11-12T19:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-93602c15f7d6c7",
+      "title": "تعهد بمرافقة سفن للنشطاء إلى غزة.. إسرائيل تحظر دخول مرشح للرئاسة الفرنسية",
+      "titleEnglish": "Pledge to escort ships carrying activists to Gaza.. Israel bans French presidential candidate from entering",
+      "url": "https://www.aljazeera.net/news/2026/11/13/%D8%AA%D8%B9%D9%87%D8%AF-%D8%A8%D9%85%D8%B1%D8%A7%D9%81%D9%82%D8%A9-%D8%B3%D9%81%D9%86-%D9%84%D9%84%D9%86%D8%B4%D8%B7%D8%A7%D8%A1-%D8%A5%D9%84%D9%89-%D8%BA%D8%B2%D8%A9",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-12T22:02:00Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-c3cc826a513aaa",
+      "title": "Γαλλία: «Δημαγωγική απόφαση» του Ισραήλ να απαγορεύσει στον Μελανσόν την είσοδο στη χώρα",
+      "titleEnglish": "France: Israel's \"demagogic decision\" to ban Mélenchon from entering the country",
+      "url": "https://www.enikos.gr/international/gallia-dimagogiki-apofasi-tou-israil-na-apagorefsei-ston-melanson-tin-eisodo-sti-chora/2675815/",
+      "publisher": "ENIKOS",
+      "publisherDomain": "enikos.gr",
+      "publishedAt": "2026-11-12T21:27:11Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-0d5d39c7550f15",
+      "title": "Путин рассказал о причинах бойкотов матчей с Россией со стороны европейских стран",
+      "titleEnglish": "Putin describes the reasons for boycotts of matches with Russia by European countries",
+      "url": "https://lenta.ru/news/2026/11/12/putin-rasskazal-o-prichinah-boykotov-matchey-s-rossiey-so-storony-evropeyskih-stran/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-11-12T21:02:00Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-f96e40a613b8b1",
+      "title": "Путин пообещал проработать получение виз США российскими олимпийцами",
+      "titleEnglish": "Putin promises to work on US visas for Russian Olympians",
+      "url": "https://lenta.ru/news/2026/11/12/putin-poobeschal-prorabotat-poluchenie-viz-ssha-rossiyskimi-olimpiytsami/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-11-12T21:02:00Z",
+      "seenAt": "2026-11-12T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    }
+  ],
+  "settled": [
+    {
+      "id": "20261104T215151-us-vote-read-through-own-disputes-2",
+      "status": "kept",
+      "how": "headline"
+    }
+  ],
+  "readings": [
+    {
+      "id": "few-suppliers-stop-many",
+      "line": "Four years into the AI boom, one firm's chief or one firm's servers can move markets and stop office work on several continents.",
+      "kicker": "CONCENTRATION / SUPPLIERS / FAILURE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A financial regulator or central bank in Europe or Asia names reliance on Nvidia or on a single cloud provider as a risk to markets or banks.",
+          "by": "2026-12-10",
+          "because": "If the join is right, the chip chief's exit and the cloud outage are read together as one exposure to a few suppliers, which is the kind of risk stability reports name.",
+          "id": "20261112T221414-few-suppliers-stop-many-1"
+        },
+        {
+          "what": "A government or public body in Europe or Asia announces a review of its dependence on Microsoft after the 12 November outage.",
+          "by": "2026-12-08",
+          "because": "An outage leads to a formal review only if it is seen, as this join reads it, as a problem of depending on one supplier rather than a one-off fault.",
+          "id": "20261112T221414-few-suppliers-stop-many-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is July 2024, when a faulty CrowdStrike update stopped about 8.5 million Windows computers and grounded flights and hospital systems; within months it was treated as a software bug, though the EU's DORA rules on banks' reliance on outside IT suppliers took effect in January 2025. Nvidia's change at the top resembles Apple in August 2011, when Steve Jobs stepped down and the shares dipped only briefly. The difference now is that both kinds of failure came on the same day, and the departure is tied to an espionage allegation rather than illness.",
+        "paths": [
+          {
+            "name": "Regulators name supplier concentration",
+            "weight": "favoured",
+            "text": "Over the next three months financial regulators and some governments cite Huang's exit and the Microsoft outage as evidence of dependence on a few US suppliers, adding them to existing work such as DORA and Britain's critical third parties regime. Little changes in what companies buy, because no rival can yet match Nvidia's chips or Microsoft's office software at scale. Nvidia names a permanent chief and its shares recover most of the fall.",
+            "sign": "A central bank financial stability report cites Nvidia's leadership change or the Microsoft outage as a risk."
+          },
+          {
+            "name": "Buyers spread their orders",
+            "weight": "possible",
+            "text": "Large customers, especially Chinese firms and the big cloud companies, speed up their own chip designs and move orders to AMD or Huawei, citing Nvidia's instability, and some European governments fund alternatives to Microsoft for public offices. This would take a year or more to show in sales figures.",
+            "sign": "A large cloud or Chinese firm announces it is moving AI chip orders away from Nvidia, citing the leadership change."
+          },
+          {
+            "name": "AI spending is cut back",
+            "weight": "unlikely",
+            "text": "Investors treat Huang's exit as the end of the boom's leadership and data-centre budgets are cut early next year. Unlikely in the coming months because orders already placed run for years and buyers in China are still trying to secure more Nvidia systems, not fewer.",
+            "sign": "A major cloud company lowers its capital spending plan and names the Nvidia leadership change."
+          }
+        ],
+        "decade": "The trajectory points to more of the world's computing and office work running on fewer suppliers, with regulators treating the largest as utilities by the mid-2030s, as large banks were treated after 2008."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Jensen Huang's resignation from Nvidia sent AI shares down from Bangkok to New York and set Taiwan's suppliers counting the cost, on the same day a Microsoft server fault stopped Outlook and 365 for users in Japan, New Zealand, Germany, Colombia and Israel. One is a governance scandal and the other a technical failure, but both show how much ordinary economic life now runs through a handful of American suppliers. When one of them falters the effect arrives everywhere at the same hour, because no second supplier stands ready to take the load. A Chinese commentary in this collection calls Nvidia an 'AI central bank' and asks how far the shock will travel along its financing chain.",
+      "events": [
+        {
+          "label": "Huang resigns and AI shares fall",
+          "articleIds": [
+            "n-e38d9c694229fe",
+            "n-ba5af01a20a574",
+            "n-326aa6d6ba0c71",
+            "n-ebb572044f8441",
+            "n-a8520fa59d2198",
+            "n-30f70a8192c611"
+          ]
+        },
+        {
+          "label": "Nvidia investigates and seeks a successor",
+          "articleIds": [
+            "n-95bc7d2fb07a11",
+            "n-0d60c6496425ff",
+            "n-2e389c5901c321"
+          ]
+        },
+        {
+          "label": "Taiwan's suppliers weigh the shock",
+          "articleIds": [
+            "n-f4271663ec79ad",
+            "n-cfd0697fd1c725",
+            "n-b082f3b8260621",
+            "n-39fe12599a47e0"
+          ]
+        },
+        {
+          "label": "Chinese buyers and lenders assess exposure",
+          "articleIds": [
+            "n-8115b726255a0e",
+            "n-629af3da8d2710"
+          ]
+        },
+        {
+          "label": "Microsoft 365 outage across continents",
+          "articleIds": [
+            "n-9d7f8dc7fef901",
+            "n-4ff58f7210d53e",
+            "n-3dfe80ac04fcc0",
+            "n-0a0e1007cc6686",
+            "n-3fc4534f6a7b6c",
+            "n-7831dde83a9e35",
+            "n-ce69c1aad86f0a"
+          ]
+        },
+        {
+          "label": "Cyberattacks on a Brazilian insurer and health plan",
+          "articleIds": [
+            "n-8c95fae9905581",
+            "n-ce32cca5f5e348"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "a-obs-1",
+          "kind": "observation",
+          "label": "Markets after Huang's exit",
+          "fragments": [
+            {
+              "id": "a-obs-1-f1",
+              "label": "AI shares fall worldwide",
+              "text": "The Bangkok Post reports that AI stocks sank globally as the Nvidia chief's exit deepened concerns about the sector, and Jornal de Brasília reports New York shares closing lower amid what it calls the Nvidia crisis. CNBC asks whether to buy the dip after the stock fell, RNZ calls the resignation a big moment for the AI sector, and bdnews24 in Bangladesh says the effect on the chip industry may go beyond the departure itself. BBC News Mundo reports the resignation.",
+              "articleIds": [
+                "n-ba5af01a20a574",
+                "n-ebb572044f8441",
+                "n-326aa6d6ba0c71",
+                "n-a8520fa59d2198",
+                "n-30f70a8192c611",
+                "n-e38d9c694229fe"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-obs-1-f2",
+              "label": "Taiwan's suppliers",
+              "text": "United Daily News writes that Huang's fall triggers two anxieties and that Taiwan's supply chain may face a short-term shock. Storm Media reports that Citi lowered target prices for Taiwan's AI suppliers before the resignation and names funding, capacity expansion and exports as the tests ahead. ETtoday quotes an industry figure saying Nvidia still needs Taiwanese manufacturers, and Taishin Investment Advisory tells Storm Media that rivals are likely to benefit.",
+              "articleIds": [
+                "n-f4271663ec79ad",
+                "n-cfd0697fd1c725",
+                "n-b082f3b8260621",
+                "n-39fe12599a47e0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-obs-2",
+          "kind": "observation",
+          "label": "One outage and two breaches",
+          "fragments": [
+            {
+              "id": "a-obs-2-f1",
+              "label": "Microsoft's outage",
+              "text": "Anadolu reports Microsoft blaming server outages for widespread 365 disruption, and RNZ calls it a global outage. 47NEWS in Japan, Handelsblatt in Germany and Globes in Israel report e-mail failures for their readers. CNBC adds that AWS and Google users also reported problems, and El Universal in Colombia reports an outage that stopped log-ins to Facebook, Outlook, Google and X.",
+              "articleIds": [
+                "n-9d7f8dc7fef901",
+                "n-4ff58f7210d53e",
+                "n-3dfe80ac04fcc0",
+                "n-0a0e1007cc6686",
+                "n-ce69c1aad86f0a",
+                "n-3fc4534f6a7b6c",
+                "n-7831dde83a9e35"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-obs-2-f2",
+              "label": "Two Brazilian breaches",
+              "text": "Extra reports that data on 7.6 million Caixa Seguridade customers were exposed after a cyberattack. Tribuna do Norte reports that the Unimed Natal health plan is running services on a contingency plan while it investigates a security incident. Neither headline names the attackers or how they got in.",
+              "articleIds": [
+                "n-8c95fae9905581",
+                "n-ce32cca5f5e348"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-int-1",
+          "kind": "interpretation",
+          "label": "What the failures share",
+          "fragments": [
+            {
+              "id": "a-int-1-f1",
+              "label": "Few suppliers, no fallback",
+              "text": "The join is concentration. Nvidia sells most of the chips the AI build runs on, and Microsoft hosts the mail and documents of a large share of the world's offices, so a fault at either is felt in every country at once. The Chinese portal 163.com calls Nvidia an 'AI central bank' and asks how far the shock will travel along the financing chain, which treats one company's leadership as a question of system risk. Al Jazeera reports Chinese firms moving to secure Nvidia systems for fear of US restrictions, which shows buyers already treating dependence on one supplier as a weakness.",
+              "articleIds": [
+                "n-8115b726255a0e",
+                "n-629af3da8d2710",
+                "n-9d7f8dc7fef901",
+                "n-ba5af01a20a574"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-int-1-f2",
+              "label": "One person at the top",
+              "text": "The same concentration applies to people. Storm Media calls Huang's time at Nvidia a 33-year dynasty, and CNBC's pieces on the search for his successor and on the former prosecutor and law firm running the investigation describe a company with no tested second leader. A firm on which a supply chain and a share index depend has had its succession decided by a scandal rather than a plan.",
+              "articleIds": [
+                "n-95bc7d2fb07a11",
+                "n-0d60c6496425ff",
+                "n-2e389c5901c321",
+                "n-30f70a8192c611"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "a-break-f1",
+              "label": "Different failures",
+              "text": "Huang left over reported affairs and an espionage allegation, Microsoft's fault was a server failure, and the Brazilian breaches are criminal attacks on two local firms. They share a day, not a cause, and none of them was produced by the others. Outages of this size are not new: the CrowdStrike failure of July 2024 was larger, and the market's dependence on a few suppliers did not change afterwards.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-break-f2",
+              "label": "A scandal crowds the sample",
+              "text": "The Huang story fills this collection because it carries sex and spying as well as money; outlets in Greece, Italy and Korea lead on the affairs rather than on supply chains, and eleven Wikipedia language editions put him among their most-viewed pages. A share fall after a founder leaves is ordinary and often short. The concentration this narrative describes may be a standing condition that this week merely made visible, not something that changed.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "PANDEMIC / CLOUD / AI",
+          "text": "The pandemic moved office life onto rented software. In the spring of 2020 schools, ministries and firms that had kept their own mail servers moved to Microsoft 365, Teams and Google Workspace within weeks, and few moved back. Two and a half years later ChatGPT made the graphics chip the scarcest input in the economy, and Nvidia, which sold most of the chips that train such models, became one of the most valuable companies in the world. In July 2024 a faulty CrowdStrike update showed what one supplier's error can do, grounding flights and stopping hospital systems in dozens of countries. The outage reported this week by RNZ, 47NEWS and Handelsblatt, and the global fall in AI shares reported by the Bangkok Post after Huang's exit, are products of these years: the decade put the world's office work and its AI build on a few American firms faster than anyone wrote rules for that dependence.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CAPITAL / CLOUD / FOUNDRIES",
+          "text": "After Lehman failed in September 2008, near-zero interest rates made it cheap to build at scale and costly to own infrastructure. Amazon Web Services, launched in 2006, was joined by Microsoft's Azure in 2010 and Office 365 in 2011, and companies cutting costs after the crisis rented computing instead of buying it. Manufacturing moved the same way: chip designers such as Nvidia and Apple relied on TSMC in Taiwan, which by the 2020s made almost all of the most advanced chips. That is why United Daily News and Storm Media now read an American executive's resignation as a test of Taiwan's own growth. Adam Tooze describes how a shock in one American market became a decade of politics everywhere; the design that spread after 2008, many users on one platform, now carries computing risk the way bank balance sheets once carried mortgage risk, and with less oversight.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "INTERNET / LISTINGS / FOUNDERS",
+          "text": "Nvidia was founded in April 1993 and listed in 1999, in the years when the end of the Cold War opened global markets and investors first put a price on the internet. Netscape's listing in August 1995 taught them to value a technology company on what it might become, and the crash of March 2000 taught them that the story could fail. The survivors, Microsoft among them, came out dominant and identified with founders or long-serving chiefs. A US court ordered Microsoft broken up in 2000, and an appeals court reversed the order in 2001; the decision not to split dominant software firms is part of why one company's server fault now reaches Colombia and Japan in the same hour. Storm Media's phrase for Huang's tenure, a 33-year dynasty, and CNBC's pieces on finding a successor describe a company built in that era around one person.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE / RESEARCH / EXPORT CONTROL",
+          "text": "Computing began as a state project. The Dartmouth workshop named artificial intelligence in 1956, and after Sputnik in 1957 the US government created ARPA, whose network became the internet. For decades governments commissioned the technologies that could change everything and treated single suppliers of essential services as things to own or regulate: the Bell telephone system ran as a regulated monopoly until its breakup in 1984. The same period produced export control, beginning in 1949 with the CoCom lists that kept Western technology from the Soviet bloc. Al Jazeera's report of Chinese firms moving to secure Nvidia systems before new US restrictions belongs to that older habit. What has changed is that the essential supplier is now a private company governed by its board, so a change at the top that a ministry would once have managed is reported as a share price.",
+          "trajectoryIds": [
+            "dartmouth-1956",
+            "sputnik-1957"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-ba5af01a20a574",
+        "n-ebb572044f8441",
+        "n-326aa6d6ba0c71",
+        "n-a8520fa59d2198",
+        "n-30f70a8192c611",
+        "n-e38d9c694229fe",
+        "n-f4271663ec79ad",
+        "n-cfd0697fd1c725",
+        "n-b082f3b8260621",
+        "n-39fe12599a47e0",
+        "n-9d7f8dc7fef901",
+        "n-4ff58f7210d53e",
+        "n-3dfe80ac04fcc0",
+        "n-0a0e1007cc6686",
+        "n-ce69c1aad86f0a",
+        "n-3fc4534f6a7b6c",
+        "n-7831dde83a9e35",
+        "n-8c95fae9905581",
+        "n-ce32cca5f5e348",
+        "n-8115b726255a0e",
+        "n-629af3da8d2710",
+        "n-95bc7d2fb07a11",
+        "n-0d60c6496425ff",
+        "n-2e389c5901c321"
+      ]
+    },
+    {
+      "id": "leaders-children-judged",
+      "line": "Leaders' children who took office or business roles on a parent's name now face resignations, trials and conflict-of-interest rows.",
+      "kicker": "DYNASTY / OFFICE / SCRUTINY",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "Indonesian police, prosecutors or the election body open an inquiry into Gibran's education certificate after his resignation.",
+          "by": "2026-12-03",
+          "because": "If the join holds, the resignation begins an examination of the child's own record rather than ending it, as a negotiated exit would.",
+          "id": "20261112T221414-leaders-children-judged-1"
+        },
+        {
+          "what": "Another child of a current or former head of government resigns a post or is charged over their own conduct in office or business.",
+          "by": "2026-12-10",
+          "because": "The join reads these cases as one change in how leaders' children are judged, so it should recur beyond the four countries here.",
+          "id": "20261112T221414-leaders-children-judged-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is Park Geun-hye, daughter of Park Chung-hee, elected South Korea's president in 2012, impeached in December 2016 and removed in March 2017 over an aide's influence and company donations; she was jailed and pardoned in 2021. Her fall came through parliament, the courts and the street together. The present cases differ because none of the children is a head of state, and their parents remain politically active.",
+        "paths": [
+          {
+            "name": "Scrutiny continues after the exits",
+            "weight": "favoured",
+            "text": "Over the coming months Gibran's resignation is followed by a formal inquiry into his certificate, and Sara Duterte's Senate trial resumes after the ASEAN summit with more witnesses on money linked to her. The families stay powerful but the children lose posts or roles. This is favoured because the institutions now involved, a Senate sitting as a court and a resignation already accepted, have their own reasons to finish what has started.",
+            "sign": "Indonesian authorities open a case on Gibran's certificate."
+          },
+          {
+            "name": "Heirs regroup for the next vote",
+            "weight": "possible",
+            "text": "The cases stall and the children reappear as candidates: Sara Duterte for the 2028 presidential election, Seyi Tinubu in his father's 2027 campaign, Gibran in a regional race. Ferdinand Marcos Jr's election in 2022, 36 years after his father fled, shows voters can restore a family name.",
+            "sign": "Sara Duterte's trial is dismissed or fails to reach the two-thirds vote needed to convict."
+          },
+          {
+            "name": "A law on family succession",
+            "weight": "unlikely",
+            "text": "A parliament passes a law barring close relatives of sitting leaders from high office. The Philippine constitution has called for an anti-dynasty law since 1987 and Congress has never passed one, which is why this is unlikely within a year.",
+            "sign": "The Philippine Congress advances an anti-dynasty bill out of committee."
+          }
+        ],
+        "decade": "Political families will keep supplying candidates in large democracies over the next ten years, but their children's qualifications and business holdings will be checked more often by courts, legislatures and the press than by voters."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Gibran Rakabuming Raka has resigned as Indonesia's vice-president over a certificate scandal, Sara Duterte's impeachment trial in the Philippines is to resume after the ASEAN summit, Donald Trump Jr has left an adviser's role at the prediction market Kalshi over a conflict with a rival investment, and Nigeria's president has congratulated his son Seyi on a traditional title in Kebbi. Each is the child of a sitting or former head of state who gained a post or a platform through a parent. Three are now being judged on their own conduct, by a president's decision, a Senate court or a company, while the fourth is being raised up before his father's 2027 campaign. The question decided in all four is what a leader's name entitles a child to hold.",
+      "events": [
+        {
+          "label": "Gibran resigns as Indonesia's vice-president",
+          "articleIds": [
+            "n-e23b31497989e5",
+            "n-8cbd65d09f813d",
+            "n-5151ae4911a093"
+          ]
+        },
+        {
+          "label": "Sara Duterte's impeachment trial continues",
+          "articleIds": [
+            "n-2b003e3a815d05",
+            "n-2bc7cf33fd62a9",
+            "n-161db40f4a6f0b"
+          ]
+        },
+        {
+          "label": "Trump Jr leaves his Kalshi role",
+          "articleIds": [
+            "n-4e9598b0d96e85",
+            "n-2b811713c0e045"
+          ]
+        },
+        {
+          "label": "Seyi Tinubu titled and campaigning in Kebbi",
+          "articleIds": [
+            "n-416588e2dfc794",
+            "n-75d8a10fb05c98",
+            "n-0f8f349db435f2"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "b-obs-1",
+          "kind": "observation",
+          "label": "Two vice-presidents",
+          "fragments": [
+            {
+              "id": "b-obs-1-f1",
+              "label": "Gibran leaves office",
+              "text": "Viva reports that President Prabowo has accepted Gibran's resignation and reviews his two years as vice-president, and Merdeka publishes his full statement. Al Jazeera describes him as the youngest vice-president in Indonesia's history and says a 'certificate' scandal brought him down. None of the headlines says whether a criminal inquiry will follow.",
+              "articleIds": [
+                "n-e23b31497989e5",
+                "n-8cbd65d09f813d",
+                "n-5151ae4911a093"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-obs-1-f2",
+              "label": "Sara Duterte's trial",
+              "text": "Philstar reports that Vice-President Sara Duterte's trial will continue after the ASEAN summit, and that a witness said she received 2.1 million pesos over a 'loose investment' in GenCorp. A Philstar opinion piece argues that her impeachment is the only hope against what it calls the modern plunderer.",
+              "articleIds": [
+                "n-2b003e3a815d05",
+                "n-2bc7cf33fd62a9",
+                "n-161db40f4a6f0b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-obs-2",
+          "kind": "observation",
+          "label": "Two sons",
+          "fragments": [
+            {
+              "id": "b-obs-2-f1",
+              "label": "Trump Jr and Kalshi",
+              "text": "Anadolu, citing a report, says Donald Trump Jr has stepped down as an adviser to Kalshi. International Business Times UK says the $40 billion prediction market cut him loose after a rival investment raised a conflict of interest.",
+              "articleIds": [
+                "n-4e9598b0d96e85",
+                "n-2b811713c0e045"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-obs-2-f2",
+              "label": "Seyi Tinubu in Kebbi",
+              "text": "Leadership reports President Tinubu congratulating his son Seyi on being turbaned as Dan Zaki Gwandu, and in a second story describes Seyi climbing onto a vehicle's roof to dance for his father's supporters in Kebbi. Punch reports a support group targeting 20 million votes for Tinubu in 2027.",
+              "articleIds": [
+                "n-416588e2dfc794",
+                "n-75d8a10fb05c98",
+                "n-0f8f349db435f2"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-int-1",
+          "kind": "interpretation",
+          "label": "What a parent's name buys",
+          "fragments": [
+            {
+              "id": "b-int-1-f1",
+              "label": "Fast entry, later audit",
+              "text": "The shared shape is a fast entry followed by an audit. Gibran reached the vice-presidency in his thirties after Indonesia's Constitutional Court changed the age rule in 2023; Sara Duterte won the vice-presidency on a following built by her father; Trump Jr took advisory roles in a sector his father's government regulates. The parent's name opened the door in each case, and the scrutiny now comes from looking at the child's own papers, payments and holdings. Seyi Tinubu's title in Kebbi is the earlier stage of the same process, where a name is still being turned into standing before an election.",
+              "articleIds": [
+                "n-5151ae4911a093",
+                "n-2bc7cf33fd62a9",
+                "n-2b811713c0e045",
+                "n-416588e2dfc794"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-int-1-f2",
+              "label": "Who does the judging",
+              "text": "The judging is not being done by voters. Gibran's resignation came between elections and was accepted by the president; Sara Duterte is being tried by the Senate; Trump Jr's departure was a company's decision. Voters in all three countries have returned these families to power before, so the check on their children now comes from institutions and the press rather than the ballot.",
+              "articleIds": [
+                "n-e23b31497989e5",
+                "n-2b003e3a815d05",
+                "n-4e9598b0d96e85"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "b-break-f1",
+              "label": "Four different matters",
+              "text": "The four cases share a family relationship and little else. Gibran's is about a qualification, Sara Duterte's about money and a private investment, Trump Jr's about a business conflict in a role with no public office, and Seyi Tinubu faces no allegation at all. Political families have run the Philippines, Indonesia and Nigeria for decades, and children of presidents have been investigated before, so this may be an ordinary week rather than a change.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-break-f2",
+              "label": "Timing and coverage",
+              "text": "Two of the four stories come from South-East Asia during the ASEAN summit, which raises their coverage, and the Indonesian Wikipedia's most-viewed pages were Gibran and Prabowo, a sign of how heavily one story fills Indonesian outlets in this collection. Trump Jr's departure may be a commercial decision with no wider meaning.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "SUCCESSION / COURTS / PROTEST",
+          "text": "This decade turned leaders' children from heirs into office-holders. In May 2022 Ferdinand Marcos Jr, son of the dictator ousted in 1986, won the Philippine presidency with Sara Duterte, daughter of his predecessor, as vice-president. In October 2023 Indonesia's Constitutional Court, then led by Joko Widodo's brother-in-law Anwar Usman, allowed people under forty who had held regional office to run for vice-president; an ethics panel removed Usman as chief justice weeks later, and Gibran took office in October 2024. The Marcos-Duterte alliance broke, and the House impeached Sara Duterte in February 2025. In September 2025 young protesters in Nepal targeted politicians' children, the 'nepo kids' who displayed their wealth online, and brought down the government. Al Jazeera's description of Gibran as the youngest vice-president in Indonesia's history, and Philstar's account of the GenCorp money, mark the end of this decade's run of fast promotions.",
+          "trajectoryIds": [
+            "kathmandu-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "MEDIA / POPULISM / FAMILY FIRMS",
+          "text": "After 2008 leaders who won as outsiders built family operations around them. Rodrigo Duterte, mayor of Davao for two decades, handed the city to his daughter and won the presidency in 2016. Joko Widodo, a furniture seller from Solo, became president in 2014 and later saw his son become Solo's mayor. Donald Trump won in 2016 and his adult sons ran the family business while he governed. The Egyptian uprising of 2011 had shown the risk: anger at Hosni Mubarak preparing his son Gamal to succeed him was one of the grievances that filled Tahrir Square. Social media made these families easier to follow. Steven Levitsky and Daniel Ziblatt describe how unwritten rules on such conduct wear away; the report in International Business Times UK that Trump Jr held a role at one prediction market while a rival investment existed is a case where a company, not a rule, drew the line.",
+          "trajectoryIds": [
+            "tahrir-2011"
+          ],
+          "bookIds": [
+            "how-democracies-die"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "TRANSITION / ELECTIONS / NETWORKS",
+          "text": "The wave of new democracies after 1989 did not end family rule; it gave it elections. In Indonesia, Suharto resigned in May 1998 after thirty-one years, and his children became the first test of accountability: his son Tommy was convicted in 2002 of ordering a judge's murder. Megawati Sukarnoputri, the founding president's daughter, became president in 2001, and in the Philippines Gloria Macapagal Arroyo, a former president's daughter, took office the same year. Nigeria returned to civilian rule in 1999, and Bola Tinubu, governor of Lagos from 1999 to 2007, built a state network into a national machine. Samuel Huntington counted the countries that learned to vote in these decades; many learned that a family name was a campaign asset. Leadership's report of Seyi Tinubu receiving a traditional title in Kebbi belongs to this way of building electoral power out of a governor's network.",
+          "trajectoryIds": [
+            "jakarta-1998"
+          ],
+          "bookIds": [
+            "third-wave"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "INDEPENDENCE / FOUNDERS / HEIRS",
+          "text": "The states that became independent after 1945 made their founders' families into national institutions. Sukarno's daughter led Indonesia's largest party for decades; the Nehru-Gandhi family supplied three Indian prime ministers; the Bhuttos, Kenyattas and Aquinos followed. In South Korea, Park Chung-hee, shot by his intelligence chief in October 1979, was succeeded thirty-three years later by his daughter Park Geun-hye, who was impeached in 2016. The Philippine constitution of 1987 bans political dynasties 'as may be defined by law', and Congress has never defined them, which is why a Philstar columnist in this collection treats impeachment as the only remaining check on Sara Duterte. The order built after 1945 gave voters the right to choose, but in many former colonies the founding families were the best-known names on the ballot, and their children inherited that recognition.",
+          "trajectoryIds": [
+            "seoul-1979"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-e23b31497989e5",
+        "n-8cbd65d09f813d",
+        "n-5151ae4911a093",
+        "n-2b003e3a815d05",
+        "n-2bc7cf33fd62a9",
+        "n-161db40f4a6f0b",
+        "n-4e9598b0d96e85",
+        "n-2b811713c0e045",
+        "n-416588e2dfc794",
+        "n-75d8a10fb05c98",
+        "n-0f8f349db435f2"
+      ]
+    },
+    {
+      "id": "fuel-prices-set-by-states",
+      "line": "With crude below $90, governments still set what drivers and ferry passengers pay for fuel and cover the gap from budgets.",
+      "kicker": "OIL / PRICE CONTROL / PUBLIC MONEY",
+      "firmness": "firm",
+      "watch": [
+        {
+          "what": "Indonesia announces fuel support or a subsidy for ferry operators instead of approving the full fare rise they asked for.",
+          "by": "2026-12-08",
+          "because": "The join says governments are choosing to carry fuel costs themselves while the Gulf attacks continue, so the state should pay rather than pass the cost to passengers.",
+          "id": "20261112T221414-fuel-prices-set-by-states-1"
+        },
+        {
+          "what": "A second government in Asia or Latin America extends a fuel price freeze or subsidy into next year, citing oil volatility or the Gulf attacks.",
+          "by": "2026-12-10",
+          "because": "If the join holds, Chile's freeze is one case of a general choice to keep prices administered despite cheaper crude, not a local decision.",
+          "id": "20261112T221414-fuel-prices-set-by-states-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the oil price fall of late 2014, when Brent dropped from over $100 to under $50 in six months and governments used it to scrap controls: India freed diesel prices in October 2014 and Indonesia ended its petrol subsidy in January 2015. After Russia's invasion in 2022, most European fuel tax cuts were ended within a year as prices fell. The difference now is that crude has fallen while attacks on tankers and on Saudi Arabia continue, so finance ministers treat the fall as temporary.",
+        "paths": [
+          {
+            "name": "Controls kept into next year",
+            "weight": "favoured",
+            "text": "Through December and January importing governments extend freezes and subsidies rather than end them, because the Hormuz attacks keep the risk of another spike. Chile's Congress passes the freeze to February and Indonesia pays ferry operators rather than lifting fares. The cost shows in budget deficits in the first half of next year.",
+            "sign": "Chile's Congress approves the fuel price freeze to February."
+          },
+          {
+            "name": "Cheaper crude used to end subsidies",
+            "weight": "possible",
+            "text": "If a US-Iran agreement holds and crude falls toward $70, finance ministers follow the 2014 pattern and remove caps while the fall hides the effect at the pump. Pakistan's formula already passes falls through, and IMF programmes push others the same way.",
+            "sign": "A government announces the end of a fuel price cap, citing lower world crude prices."
+          },
+          {
+            "name": "A new spike forces rationing",
+            "weight": "unlikely",
+            "text": "A renewed closure of Hormuz sends crude back above $110, and governments holding prices fixed cannot pay the difference, leading to queues and limits on purchases as in Sri Lanka in 2022. Unlikely in the coming months because crude has fallen even as the attacks continue.",
+            "sign": "A government limits fuel purchases per vehicle, citing supply from the Gulf."
+          }
+        ],
+        "decade": "Over the next ten years fuel prices in most importing countries will stay a government decision, and electric ferries, buses and cars will be argued for as a way to cut subsidy bills as much as emissions."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Pakistan's government cut petrol and diesel prices, Chile's government resubmitted a bill freezing fuel prices until February, Greece announced €32 million to hold down sea transport costs for islanders, and Indonesian ferry operators asked the state to let them raise fares, on a day when tankers burned in the Strait of Hormuz and New York crude rose into the $88 range. In each case the price a driver or passenger pays is a government decision, not a market one. Crude is cheaper than it was earlier in the war, but the attacks continue, and governments are keeping fuel prices in their own hands rather than handing them back to the market.",
+      "events": [
+        {
+          "label": "Attacks and naval missions near Hormuz",
+          "articleIds": [
+            "n-2444eb28cd4d91",
+            "n-bae831bba28ad1",
+            "n-34fda3fa466020",
+            "n-a5fe34b0025e38"
+          ]
+        },
+        {
+          "label": "Crude rises on Houthi attacks and Trump",
+          "articleIds": [
+            "n-e9fcd45b748e9d",
+            "n-5e816a505ab669"
+          ]
+        },
+        {
+          "label": "Pakistan cuts petrol and diesel prices",
+          "articleIds": [
+            "n-0dc4072164b9bd"
+          ]
+        },
+        {
+          "label": "Chile resubmits fuel price freeze",
+          "articleIds": [
+            "n-2ac84bd864908e"
+          ]
+        },
+        {
+          "label": "Greece pays toward island shipping costs",
+          "articleIds": [
+            "n-4dbfd5486d9bd8"
+          ]
+        },
+        {
+          "label": "Indonesian ferry operators seek higher fares",
+          "articleIds": [
+            "n-0e864573c63b83"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "c-obs-1",
+          "kind": "observation",
+          "label": "Attacks and the crude price",
+          "fragments": [
+            {
+              "id": "c-obs-1-f1",
+              "label": "Hormuz and Saudi Arabia",
+              "text": "Khaberni in Jordan reports an oil tanker hit by an unidentified projectile in the Strait of Hormuz, and Arab News reports Iran saying four tankers are on fire there. Okaz reports the Saudi-led coalition destroying a Houthi drone in the Riyadh region. Hankyoreh reports that South Korea's Cheonghae naval unit would answer to an on-site commander in multinational operations near Hormuz.",
+              "articleIds": [
+                "n-2444eb28cd4d91",
+                "n-bae831bba28ad1",
+                "n-34fda3fa466020",
+                "n-a5fe34b0025e38"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-obs-1-f2",
+              "label": "Crude climbs",
+              "text": "47NEWS reports New York crude extending gains and closing in the $88 range as Houthi attacks encouraged buying. Jornal de Brasília reports oil rising after Trump's statements on Iran.",
+              "articleIds": [
+                "n-e9fcd45b748e9d",
+                "n-5e816a505ab669"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c-obs-2",
+          "kind": "observation",
+          "label": "Four fuel decisions",
+          "fragments": [
+            {
+              "id": "c-obs-2-f1",
+              "label": "Pakistan and Chile",
+              "text": "Geo News reports that Pakistan's government cut the petrol price by 3 rupees a litre and diesel by 4. La Tercera reports that Chile's government has resubmitted a bill freezing fuel prices until February.",
+              "articleIds": [
+                "n-0dc4072164b9bd",
+                "n-2ac84bd864908e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-obs-2-f2",
+              "label": "Islands and ferries",
+              "text": "Iefimerida reports Greece's shipping minister Kikilias announcing a new €32 million to contain coastal shipping costs and support islanders. Viva reports that GAPASDAP, Indonesia's ferry operators' association, is asking for ferry tariffs to be adjusted while pointing to the cost of electrifying vessels.",
+              "articleIds": [
+                "n-4dbfd5486d9bd8",
+                "n-0e864573c63b83"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c-int-1",
+          "kind": "interpretation",
+          "label": "Who pays for fuel",
+          "fragments": [
+            {
+              "id": "c-int-1-f1",
+              "label": "Prices kept in the state's hands",
+              "text": "In all four countries the cost of fuel to the user is set by a minister. Pakistan passes a fall to drivers by decision, Chile holds the price still through the southern summer, Greece pays from its budget for islanders' sea transport, and Indonesia must decide whether ferry passengers or the state pay. Earlier editions of this site reported oil near $118 at the end of October; with crude now in the high $80s a government could hand pricing back to the market, and none of these four does. The tanker fires and drone attacks reported the same day explain why: a minister who frees prices now risks another spike before the season ends.",
+              "articleIds": [
+                "n-0dc4072164b9bd",
+                "n-2ac84bd864908e",
+                "n-4dbfd5486d9bd8",
+                "n-e9fcd45b748e9d",
+                "n-bae831bba28ad1"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-int-1-f2",
+              "label": "Where fuel is the fare",
+              "text": "Two of the four decisions concern ships. In an archipelago such as Indonesia or the Greek islands, fuel is most of what a ferry ticket costs, so the fuel price decides whether islanders can reach the mainland at a price they can pay. GAPASDAP pairs its fare request with electrification, which suggests operators see the state either paying for fuel now or paying for new vessels later.",
+              "articleIds": [
+                "n-4dbfd5486d9bd8",
+                "n-0e864573c63b83"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "c-break-f1",
+              "label": "Routine, and in different directions",
+              "text": "These are four routine decisions moving in different directions. Pakistan's cut follows a fixed pricing schedule agreed with the IMF and passes a fall on; Chile's freeze runs through a stabilisation mechanism its governments renew regularly; Greek support for island transport predates the war; and the Indonesian request is about electrification and old tariffs as much as oil. One lowers a price, one freezes it, one pays a subsidy and one asks for an increase. These countries set fuel prices before the war and will afterwards.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-break-f2",
+              "label": "The attacks may be incidental",
+              "text": "A one-day rise in crude says little about the trend, and none of the four fuel headlines names Hormuz or the Houthis as a reason. The decisions may follow budgets, holiday seasons and domestic politics more than the Gulf, and the join with the tanker fires is this narrative's reading rather than anything the ministers said.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "WAR / INFLATION / PRICE CAPS",
+          "text": "In April 2020 US crude briefly traded below zero as the pandemic emptied the roads; two years later Russia's invasion of Ukraine sent Brent above $120, and governments across Europe and Asia cut fuel taxes or capped prices to hold back inflation. Germany's three-month fuel tax cut in 2022 and Pakistan's fuel price freeze that spring, which helped stall its IMF programme, showed both sides of the choice. In June 2025 American bombers struck Fordow and ended a twelve-day Israel-Iran war, and by these headlines the conflict that followed has put the Strait of Hormuz itself at risk. The decade taught finance ministers that a price freed in a calm month can double in a bad one. That is the background to Geo's report of a cut decided by the government and La Tercera's report of a freeze resubmitted to February: both governments keep the pump price as an administrative decision because the last six years gave them reason to.",
+          "trajectoryIds": [
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "BOOM / BUST / SUBSIDY REFORM",
+          "text": "Oil reached $147 in July 2008 and fell to about $35 by the end of that year, and governments learned to fear both directions. Chile created its fuel price stabilisation mechanism, MEPCO, in 2014 to spread price swings over time, the kind of instrument behind the freeze La Tercera reports. The collapse of 2014 to 2016 let India and Indonesia remove much of their fuel subsidies. Greece cut spending under its bailout programmes after 2010 but kept support for island transport, later formalised as a payment for islanders, which Kikilias's €32 million now adds to. In September 2019 drones and missiles struck Abqaiq and halved Saudi output for days; prices jumped about 15 per cent in a day and fell back within weeks, which taught markets to treat Gulf attacks as brief. The Houthi attacks that 47NEWS says lifted crude this week test whether that lesson still holds.",
+          "trajectoryIds": [
+            "abqaiq-2019"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "IMF / CABOTAGE / DEREGULATION",
+          "text": "After 1989 the advice to poorer importers was to let fuel prices float, and the IMF made it a condition of its loans. Pakistan has had more than a dozen IMF programmes since 1988, most with fuel pricing among the terms, which is why its government now adjusts petrol prices on a fixed schedule. Chile set up a fuel price stabilisation fund in 1991 as it returned to democracy, an early sign that even a liberalising government would not leave the pump price to the market. The EU's 1992 regulation opening coastal shipping to competition gave Greece an exemption for island services until 2004, because a ferry to a small island does not pay without public money. The invasion of Iraq in March 2003 began the climb that took oil from about $25 to $147 in five years. The GAPASDAP request in Indonesia, an archipelago of thousands of islands, is the problem Greece met: fuel is the fare.",
+          "trajectoryIds": [
+            "iraq-2003"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OIL / EMBARGO / NATIONAL PRICES",
+          "text": "The postwar economy ran on Gulf oil priced in dollars, under the bargain Roosevelt and Ibn Saud struck in February 1945. Cheap oil let governments treat low fuel prices as a public good, and many founded state oil companies to deliver it: Chile's ENAP in 1950, Indonesia's Pertamina in 1968. The Arab embargo of October 1973 quadrupled the price and showed that a regional war becomes a pump price in every importing country. Rich importers answered by founding the International Energy Agency in 1974 and building strategic stocks; poorer ones answered with price controls and subsidies. Daniel Yergin's history traces how one fuel became the organising fact of the century's wars. The tankers reported burning in Hormuz this week sit on the route that mattered in 1973, and the decisions in Pakistan, Chile, Greece and Indonesia continue the habit of state pricing that 1973 fixed in place.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "oil-embargo-1973"
+          ],
+          "bookIds": [
+            "the-prize"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-2444eb28cd4d91",
+        "n-bae831bba28ad1",
+        "n-34fda3fa466020",
+        "n-a5fe34b0025e38",
+        "n-e9fcd45b748e9d",
+        "n-5e816a505ab669",
+        "n-0dc4072164b9bd",
+        "n-2ac84bd864908e",
+        "n-4dbfd5486d9bd8",
+        "n-0e864573c63b83"
+      ]
+    },
+    {
+      "id": "entry-traded-in-wartime",
+      "line": "With two wars unsettled, entry to a country, a competition or peace talks is granted or refused as a bargaining move in them.",
+      "kicker": "ADMISSION / LEVERAGE / ALLEGIANCE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A report on the next round of Ukraine talks says Russia's return to international sport or visas for its athletes is on the agenda.",
+          "by": "2026-12-06",
+          "because": "If entry is being traded in these wars, admission to competitions should enter the bargain alongside territory and security.",
+          "id": "20261112T221414-entry-traded-in-wartime-1"
+        },
+        {
+          "what": "Another government bars a foreign elected politician or candidate from entry over their stance on Gaza or Ukraine.",
+          "by": "2026-12-10",
+          "because": "The join says entry is now used as pressure in both wars, so Israel's ban on Mélenchon should not stay a single case.",
+          "id": "20261112T221414-entry-traded-in-wartime-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the Cold War Olympics: the US-led boycott of Moscow in 1980 over Afghanistan and the Soviet reply at Los Angeles in 1984, when access to a competition was traded for political position. In Ukraine itself, the Minsk talks of 2014 and 2015 were run by France and Germany with Washington outside; now Washington runs the talks and admits the Europeans. The difference is that the 2028 Games are again in Los Angeles, which gives the US a door Moscow wants opened.",
+        "paths": [
+          {
+            "name": "Sport and visas enter the deal",
+            "weight": "favoured",
+            "text": "Over the coming months US negotiators treat the return of Russian athletes and visas for Los Angeles 2028 as concessions in the Ukraine talks, while European federations and the IOC resist. Europeans attend the next round but still have no single negotiator at the end of the year. This is favoured because Putin has already raised the visas in public and the US controls both the talks and the host country's border.",
+            "sign": "A US official says visas for Russian athletes are being discussed with Moscow."
+          },
+          {
+            "name": "Europe gets its own seat",
+            "weight": "possible",
+            "text": "The EU names a single negotiator in December and wins a defined role in talks on security guarantees and reconstruction, which it would pay for. This would follow from the European Parliament discussions reported by Izvestia.",
+            "sign": "The European Council names a chief negotiator for the Ukraine talks."
+          },
+          {
+            "name": "Doors closed on all sides",
+            "weight": "unlikely",
+            "text": "The talks break down, Russia's exclusion from sport is extended and more entry bans follow. Unlikely in the weeks ahead because all three parties have announced a further round.",
+            "sign": "The next round of Ukraine talks is cancelled or postponed without a date."
+          }
+        ],
+        "decade": "Over ten years, access to borders, competitions and alliances will be used more openly as reward and penalty in conflicts, with Washington and Beijing controlling more of those doors than the EU does."
+      },
+      "continues": "seats-withdrawn-as-pressure",
+      "change": "The previous edition expected the EU to name a single negotiator for the Ukraine talks; the Dublin summit did not, though Washington's envoys now say Europeans will attend the next round. The same tool has since been applied to a person and to athletes: Israel will bar a French presidential candidate, and Putin has spoken about European sport boycotts and US visas for Russian Olympians.",
+      "claim": "Israel said it will bar Jean-Luc Mélenchon, a French presidential candidate who pledged to escort ships carrying activists to Gaza; Washington's envoys said Europeans will join the next round of Ukraine talks after a Dublin summit that named no EU negotiator; Putin spoke about European boycotts of matches with Russia and promised to work on US visas for Russian Olympians; and Moscow demanded a documented commitment on what it calls NATO's promise. In each case what is granted or refused is entry: to a country, a competition, an alliance or a negotiating room. In both the Gaza and Ukraine wars, the side that controls a door now offers it as a reward and closes it as a penalty.",
+      "events": [
+        {
+          "label": "Israel to bar Mélenchon over Gaza pledge",
+          "articleIds": [
+            "n-93602c15f7d6c7",
+            "n-9ade1604dcee5e",
+            "n-c3cc826a513aaa"
+          ]
+        },
+        {
+          "label": "Europeans admitted to next Ukraine talks",
+          "articleIds": [
+            "n-287063bab69f20",
+            "n-bda7d1f5c43865",
+            "n-aba3571d39a076",
+            "n-30faed3baf192a",
+            "n-da99fb7ab0ff92"
+          ]
+        },
+        {
+          "label": "EU names no negotiator of its own",
+          "articleIds": [
+            "n-9d9903eb01d93b",
+            "n-008572b43bdcb0"
+          ]
+        },
+        {
+          "label": "Russian sport boycotts and US visas",
+          "articleIds": [
+            "n-0d5d39c7550f15",
+            "n-f96e40a613b8b1"
+          ]
+        },
+        {
+          "label": "Russia demands written NATO commitment",
+          "articleIds": [
+            "n-4f00d9af28ccc5",
+            "n-a4184706126769"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "d-obs-1",
+          "kind": "observation",
+          "label": "Who sits in the Ukraine talks",
+          "fragments": [
+            {
+              "id": "d-obs-1-f1",
+              "label": "Europeans brought in",
+              "text": "ANSA reports Witkoff and Kushner meeting Putin and then Zelensky, with new talks set and 'Europeans will be there'. Arab News reports European representatives joining the Ukraine-US talks in Dublin, Yicai quotes Kushner saying multilateral talks will be held next week, and Kommersant quotes Witkoff on a new trilateral round. Die Welt reports Merz seeing Putin move on one question while the Kremlin compares Europeans to 'spiders in a jar'.",
+              "articleIds": [
+                "n-287063bab69f20",
+                "n-bda7d1f5c43865",
+                "n-aba3571d39a076",
+                "n-30faed3baf192a",
+                "n-da99fb7ab0ff92"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-obs-1-f2",
+              "label": "No negotiator, and a demand on NATO",
+              "text": "Handelsblatt reports that the Europeans at the Dublin summit did not name a chief negotiator for now, and Izvestia reports the European Parliament discussing a likely candidate. Lenta reports Russia demanding a documented commitment to NATO's promise, and Kommersant quotes Kirill Dmitriev saying talks with the US on a European security system are important.",
+              "articleIds": [
+                "n-9d9903eb01d93b",
+                "n-008572b43bdcb0",
+                "n-4f00d9af28ccc5",
+                "n-a4184706126769"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "d-obs-2",
+          "kind": "observation",
+          "label": "A border and a stadium",
+          "fragments": [
+            {
+              "id": "d-obs-2-f1",
+              "label": "Mélenchon barred",
+              "text": "Arab News reports that Israel will ban the French hard-left leader Mélenchon from entry. Al Jazeera links the ban to his pledge to escort ships carrying activists to Gaza, and ENIKOS reports France calling it a 'demagogic decision'.",
+              "articleIds": [
+                "n-9ade1604dcee5e",
+                "n-93602c15f7d6c7",
+                "n-c3cc826a513aaa"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-obs-2-f2",
+              "label": "Russian athletes",
+              "text": "Lenta reports Putin describing the reasons European countries boycott matches with Russia, and in a second report promising to work on US visas for Russian Olympians.",
+              "articleIds": [
+                "n-0d5d39c7550f15",
+                "n-f96e40a613b8b1"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "d-int-1",
+          "kind": "interpretation",
+          "label": "Entry as a bargaining tool",
+          "fragments": [
+            {
+              "id": "d-int-1-f1",
+              "label": "One party holds each door",
+              "text": "In each case one party controls a door and opens it on conditions. Washington decides whether Europeans sit in talks about a war they largely pay for; Moscow wants a written promise that the NATO door stays closed to Ukraine; Israel uses its border against a candidate's plan for Gaza; and Russia asks the US for visas to compete while European federations keep its teams out. The previous edition read membership of alliances as a tool of pressure; this collection shows the same tool applied to one politician and to a country's athletes.",
+              "articleIds": [
+                "n-287063bab69f20",
+                "n-4f00d9af28ccc5",
+                "n-93602c15f7d6c7",
+                "n-f96e40a613b8b1",
+                "n-0d5d39c7550f15"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-int-1-f2",
+              "label": "Who holds the most doors",
+              "text": "Washington holds most of them: the talks, the host country's border for the next Olympics, and the decision to admit Europeans. Europe controls its own sport and the choice of its negotiator, and Handelsblatt's report shows it has not yet used the second. That imbalance explains why Russia directs its requests on sport to the US and its scorn to the Europeans.",
+              "articleIds": [
+                "n-9d9903eb01d93b",
+                "n-f96e40a613b8b1",
+                "n-da99fb7ab0ff92"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "d-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "d-break-f1",
+              "label": "Different doors, different reasons",
+              "text": "Israel's ban is an immigration decision about one politician, prompted by a flotilla, not a move in the terms of any war settlement. Russia's exclusion from sport was decided by federations in 2022 and has not changed this week. Attendance at peace talks has always reflected power, so Europeans being admitted by Washington is ordinary diplomacy. What the cases do not share is a common decision-maker or a common war: one is about Gaza, the rest about Ukraine.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-break-f2",
+              "label": "Whose framing",
+              "text": "The sport items come from Lenta reporting Putin's own explanations, and the Kremlin has an interest in presenting sport bans as politics and visas as a bargain. Without those two reports the join rests on one entry ban and one diplomatic format, which is thin.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "INVASION / EXCLUSION / SPORT",
+          "text": "In February 2022, days after Russia's full invasion of Ukraine, FIFA and UEFA suspended Russian teams and the IOC recommended excluding Russian athletes; the Council of Europe expelled Russia in March. Paris 2024 admitted a small number of Russians as neutrals. In October 2023 the Gaza war began, and governments on both sides of it began refusing entry to activists, officials and candidates. In June 2025 Ukraine showed, with drones launched from lorries against bombers far inside Russia, that it could hurt Moscow on its own terms, and in 2025 Washington began direct talks with Moscow from which Europeans were absent. Putin's remarks on boycotts and visas, reported by Lenta, are the Russian side of four years of exclusion; the Arab News report that Europeans will join the Dublin talks is the European side of a year spent asking to be let in.",
+          "trajectoryIds": [
+            "spiderweb-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "ALLIANCE / EXPULSION / FORMATS",
+          "text": "In April 2008 NATO's Bucharest summit declared that Ukraine and Georgia 'will become members' without setting a date, and in August Russia fought Georgia. That was a promise of entry left open, and Lenta's report of Moscow demanding a documented commitment is the reverse request: a written promise that the door stays shut. After Russia annexed Crimea in 2014, the G8 became the G7 again, the first large expulsion of Russia from a Western forum. The Minsk talks of 2014 and 2015 were held with France and Germany at the table and Washington outside. The Iran nuclear agreement of July 2015 was the last large negotiation in which Europe sat as a full party, and the US withdrawal in 2018 showed how little that seat guaranteed. Handelsblatt's report that the Dublin summit named no negotiator belongs to this long decline in Europe's place at the table.",
+          "trajectoryIds": [
+            "jcpoa-2015"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "ENLARGEMENT / PROMISES / REVOLUTIONS",
+          "text": "In February 1990 US Secretary of State James Baker told Mikhail Gorbachev that NATO would not move 'one inch eastward', a spoken assurance never written into a treaty. Russia has argued about it since. In the 1990s doors opened the other way: Russia joined the Council of Europe in 1996 and the G7 became the G8 in 1997, admissions offered as rewards for reform. NATO took in Poland, Hungary and the Czech Republic in 1999 and seven more states in 2004. The Rose Revolution in Georgia in November 2003 persuaded Moscow that Western openness to new members came with Western support for the crowds that produced them. The Kremlin's demand this week, reported by Lenta, for a documented commitment is the unwritten 1990 assurance being asked for on paper thirty-six years later, at talks where the US rather than Europe decides who attends.",
+          "trajectoryIds": [
+            "tbilisi-2003"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "BLOCS / BOYCOTTS / BORDERS",
+          "text": "After 1945 admission became an instrument of the new order: seats at the United Nations, membership of NATO and the Warsaw Pact, and recognition of new states all divided who was let in. Sport followed. After the Soweto uprising of June 1976, more than twenty African countries walked out of the Montreal Olympics over a New Zealand rugby tour of South Africa, and in 1977 the Commonwealth's Gleneagles Agreement committed governments to discourage sporting contact with apartheid; South Africa stayed outside the Olympics until 1992. The US boycott of Moscow in 1980 and the Soviet reply in 1984 made the Games a tool of bloc politics. Putin's complaint about European boycotts, reported by Lenta, relies on the claim that sport stands apart from politics, a claim the record since 1945 does not support, and his request for US visas treats the next Games as part of a negotiation.",
+          "trajectoryIds": [
+            "soweto-1976"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-287063bab69f20",
+        "n-bda7d1f5c43865",
+        "n-aba3571d39a076",
+        "n-30faed3baf192a",
+        "n-da99fb7ab0ff92",
+        "n-9d9903eb01d93b",
+        "n-008572b43bdcb0",
+        "n-4f00d9af28ccc5",
+        "n-a4184706126769",
+        "n-9ade1604dcee5e",
+        "n-93602c15f7d6c7",
+        "n-c3cc826a513aaa",
+        "n-0d5d39c7550f15",
+        "n-f96e40a613b8b1"
+      ]
+    }
+  ]
+}

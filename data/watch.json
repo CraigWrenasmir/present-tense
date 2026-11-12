@@ -828,8 +828,31 @@
    "what": "The White House announces a new tariff or tariff threat against an allied country.",
    "by": "2026-11-28",
    "because": "If the readings that call the vote a general turn are wrong outside the war, pressure on allies over trade continues whatever Congress looks like.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261112T221414",
+    "asOf": "2026-11-12T22:14:14Z",
+    "how": "headline",
+    "note": "Trump threatens to double tariffs on Mexico, a US treaty partner and neighbour, if it does not stop migrant caravans.",
+    "headlines": [
+     {
+      "id": "n-b8f45f0ac2c3b6",
+      "title": "Trump ameaça dobrar tarifas sobre México caso país não interrompa caravanas de imigrantes - Diário do Grande ABC",
+      "titleEnglish": "Trump threatens to double tariffs on Mexico if country does not stop migrant caravans - Diário do Grande ABC",
+      "url": "https://www.dgabc.com.br/Noticia/4368356/trump-ameaca-dobrar-tarifas-sobre-mexico-caso-pais-nao-interrompa-caravanas-de-imigrantes",
+      "publisher": "Jornal Diário do Grande ABC",
+      "sourceCountry": "Brazil"
+     },
+     {
+      "id": "n-2f3afaa7760114",
+      "title": "Tổng thống Mỹ cảnh báo tăng thuế gấp đôi với Mexico",
+      "titleEnglish": "US president warns of doubling tariffs on Mexico",
+      "url": "https://dantri.com.vn/the-gioi/tong-thong-my-canh-bao-tang-thue-gap-doi-voi-mexico-20261112212212653.htm",
+      "publisher": "Báo điện tử Dân trí",
+      "sourceCountry": "Vietnam"
+     }
+    ]
+   }
   },
   {
    "id": "20261104T215151-ai-errors-fall-on-adopters-1",
@@ -1642,6 +1665,118 @@
    "what": "A second state is barred or suspended from an international body or summit over its conduct in a war.",
    "by": "2026-12-09",
    "because": "If withdrawing seats has become a common way to apply pressure, the CSTO and COP31 cases should not be the only ones in a month.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261112T221414-few-suppliers-stop-many-1",
+   "stamp": "20261112T221414",
+   "asOf": "2026-11-12T22:14:14Z",
+   "narrativeId": "few-suppliers-stop-many",
+   "kicker": "CONCENTRATION / SUPPLIERS / FAILURE",
+   "line": "Four years into the AI boom, one firm's chief or one firm's servers can move markets and stop office work on several continents.",
+   "firmness": "plausible",
+   "what": "A financial regulator or central bank in Europe or Asia names reliance on Nvidia or on a single cloud provider as a risk to markets or banks.",
+   "by": "2026-12-10",
+   "because": "If the join is right, the chip chief's exit and the cloud outage are read together as one exposure to a few suppliers, which is the kind of risk stability reports name.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261112T221414-few-suppliers-stop-many-2",
+   "stamp": "20261112T221414",
+   "asOf": "2026-11-12T22:14:14Z",
+   "narrativeId": "few-suppliers-stop-many",
+   "kicker": "CONCENTRATION / SUPPLIERS / FAILURE",
+   "line": "Four years into the AI boom, one firm's chief or one firm's servers can move markets and stop office work on several continents.",
+   "firmness": "plausible",
+   "what": "A government or public body in Europe or Asia announces a review of its dependence on Microsoft after the 12 November outage.",
+   "by": "2026-12-08",
+   "because": "An outage leads to a formal review only if it is seen, as this join reads it, as a problem of depending on one supplier rather than a one-off fault.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261112T221414-leaders-children-judged-1",
+   "stamp": "20261112T221414",
+   "asOf": "2026-11-12T22:14:14Z",
+   "narrativeId": "leaders-children-judged",
+   "kicker": "DYNASTY / OFFICE / SCRUTINY",
+   "line": "Leaders' children who took office or business roles on a parent's name now face resignations, trials and conflict-of-interest rows.",
+   "firmness": "tentative",
+   "what": "Indonesian police, prosecutors or the election body open an inquiry into Gibran's education certificate after his resignation.",
+   "by": "2026-12-03",
+   "because": "If the join holds, the resignation begins an examination of the child's own record rather than ending it, as a negotiated exit would.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261112T221414-leaders-children-judged-2",
+   "stamp": "20261112T221414",
+   "asOf": "2026-11-12T22:14:14Z",
+   "narrativeId": "leaders-children-judged",
+   "kicker": "DYNASTY / OFFICE / SCRUTINY",
+   "line": "Leaders' children who took office or business roles on a parent's name now face resignations, trials and conflict-of-interest rows.",
+   "firmness": "tentative",
+   "what": "Another child of a current or former head of government resigns a post or is charged over their own conduct in office or business.",
+   "by": "2026-12-10",
+   "because": "The join reads these cases as one change in how leaders' children are judged, so it should recur beyond the four countries here.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261112T221414-fuel-prices-set-by-states-1",
+   "stamp": "20261112T221414",
+   "asOf": "2026-11-12T22:14:14Z",
+   "narrativeId": "fuel-prices-set-by-states",
+   "kicker": "OIL / PRICE CONTROL / PUBLIC MONEY",
+   "line": "With crude below $90, governments still set what drivers and ferry passengers pay for fuel and cover the gap from budgets.",
+   "firmness": "firm",
+   "what": "Indonesia announces fuel support or a subsidy for ferry operators instead of approving the full fare rise they asked for.",
+   "by": "2026-12-08",
+   "because": "The join says governments are choosing to carry fuel costs themselves while the Gulf attacks continue, so the state should pay rather than pass the cost to passengers.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261112T221414-fuel-prices-set-by-states-2",
+   "stamp": "20261112T221414",
+   "asOf": "2026-11-12T22:14:14Z",
+   "narrativeId": "fuel-prices-set-by-states",
+   "kicker": "OIL / PRICE CONTROL / PUBLIC MONEY",
+   "line": "With crude below $90, governments still set what drivers and ferry passengers pay for fuel and cover the gap from budgets.",
+   "firmness": "firm",
+   "what": "A second government in Asia or Latin America extends a fuel price freeze or subsidy into next year, citing oil volatility or the Gulf attacks.",
+   "by": "2026-12-10",
+   "because": "If the join holds, Chile's freeze is one case of a general choice to keep prices administered despite cheaper crude, not a local decision.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261112T221414-entry-traded-in-wartime-1",
+   "stamp": "20261112T221414",
+   "asOf": "2026-11-12T22:14:14Z",
+   "narrativeId": "entry-traded-in-wartime",
+   "kicker": "ADMISSION / LEVERAGE / ALLEGIANCE",
+   "line": "With two wars unsettled, entry to a country, a competition or peace talks is granted or refused as a bargaining move in them.",
+   "firmness": "plausible",
+   "what": "A report on the next round of Ukraine talks says Russia's return to international sport or visas for its athletes is on the agenda.",
+   "by": "2026-12-06",
+   "because": "If entry is being traded in these wars, admission to competitions should enter the bargain alongside territory and security.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261112T221414-entry-traded-in-wartime-2",
+   "stamp": "20261112T221414",
+   "asOf": "2026-11-12T22:14:14Z",
+   "narrativeId": "entry-traded-in-wartime",
+   "kicker": "ADMISSION / LEVERAGE / ALLEGIANCE",
+   "line": "With two wars unsettled, entry to a country, a competition or peace talks is granted or refused as a bargaining move in them.",
+   "firmness": "plausible",
+   "what": "Another government bars a foreign elected politician or candidate from entry over their stance on Gaza or Ukraine.",
+   "by": "2026-12-10",
+   "because": "The join says entry is now used as pressure in both wars, so Israel's ban on Mélenchon should not stay a single case.",
    "status": "open",
    "resolved": null
   }

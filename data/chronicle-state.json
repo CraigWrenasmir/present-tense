@@ -1,20 +1,7 @@
 {
- "day": "2026-11-11",
+ "day": "2026-11-12",
  "attempts": 1,
  "history": [
-  {
-   "at": "2026-10-28T01:18:16Z",
-   "note": "revising for edition 20261027T201945"
-  },
-  {
-   "at": "2026-10-28T01:19:46Z",
-   "note": "ok",
-   "usage": {
-    "input": 7139,
-    "output": 10009,
-    "tier": "standard"
-   }
-  },
   {
    "at": "2026-10-29T05:03:21Z",
    "note": "revising for edition 20261029T045403"
@@ -207,6 +194,19 @@
    "usage": {
     "input": 39607,
     "output": 30034,
+    "tier": "standard"
+   }
+  },
+  {
+   "at": "2026-11-12T22:28:05Z",
+   "note": "revising for edition 20261112T221414"
+  },
+  {
+   "at": "2026-11-12T22:31:06Z",
+   "note": "ok",
+   "usage": {
+    "input": 41168,
+    "output": 24485,
     "tier": "standard"
    }
   }
