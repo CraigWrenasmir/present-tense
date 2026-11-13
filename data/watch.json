@@ -1651,8 +1651,31 @@
    "what": "The EU, or a group of European governments, names a single envoy or negotiator for the Ukraine talks with the US and Russia.",
    "by": "2026-12-09",
    "because": "If access is now offered on conditions, Europe should meet the condition rather than stay outside a negotiation about its own frontier.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261113T215832",
+    "asOf": "2026-11-13T21:58:32Z",
+    "how": "headline",
+    "note": "The EU agreed to be represented in the Ukraine negotiations by a team of five countries and EU institutions, joined by the coalition of the willing, rather than by a single envoy.",
+    "headlines": [
+     {
+      "id": "n-36ce4dfbf7335f",
+      "title": "AB, Ukrayna müzakerelerinde Avrupa'yı temsil edecek 5 ülke ve AB kurumlarından oluşan ekip üzerinde anlaştı",
+      "titleEnglish": "EU agrees on team of 5 countries and EU institutions to represent Europe in Ukraine negotiations",
+      "url": "https://www.aa.com.tr/tr/dunya/ab-ukrayna-muzakerelerinde-avrupayi-temsil-edecek-5-ulke-ve-ab-kurumlarindan-olusan-ekip-uzerinde-anlasti/4124715",
+      "publisher": "Anadolu Ajansı",
+      "sourceCountry": "Turkey"
+     },
+     {
+      "id": "n-1ddb9d68e02ed7",
+      "title": "Кошта: в делегацию для переговоров по Украине от Европы войдет «коалиция желающих»",
+      "titleEnglish": "Costa: \"coalition of the willing\" will join Europe's delegation for Ukraine negotiations",
+      "url": "https://www.kommersant.ru/doc/9109491",
+      "publisher": "Коммерсантъ",
+      "sourceCountry": "Russia"
+     }
+    ]
+   }
   },
   {
    "id": "20261111T224126-seats-withdrawn-as-pressure-2",
@@ -1777,6 +1800,90 @@
    "what": "Another government bars a foreign elected politician or candidate from entry over their stance on Gaza or Ukraine.",
    "by": "2026-12-10",
    "because": "The join says entry is now used as pressure in both wars, so Israel's ban on Mélenchon should not stay a single case.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261113T215832-chip-scandal-becomes-enforcement-dispute-1",
+   "stamp": "20261113T215832",
+   "asOf": "2026-11-13T21:58:32Z",
+   "narrativeId": "chip-scandal-becomes-enforcement-dispute",
+   "kicker": "EXPORT CONTROLS / BLAME / TRANSIT STATES",
+   "line": "With Nvidia's chief gone, the scandal is a dispute over which US department and which Asian hub let chips reach China.",
+   "firmness": "firm",
+   "what": "The Commerce Department adds Megaspeed or another Singapore- or Malaysia-based firm to the Entity List over AI chip diversion.",
+   "by": "2026-12-04",
+   "because": "If the scandal has become a question of which department failed to enforce, Commerce has the strongest reason to act on the very case Bessent named.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261113T215832-chip-scandal-becomes-enforcement-dispute-2",
+   "stamp": "20261113T215832",
+   "asOf": "2026-11-13T21:58:32Z",
+   "narrativeId": "chip-scandal-becomes-enforcement-dispute",
+   "kicker": "EXPORT CONTROLS / BLAME / TRANSIT STATES",
+   "line": "With Nvidia's chief gone, the scandal is a dispute over which US department and which Asian hub let chips reach China.",
+   "firmness": "firm",
+   "what": "Malaysia or Singapore announces new permit, inspection or prosecution measures for AI chip shipments.",
+   "by": "2026-12-11",
+   "because": "The join says responsibility is moving to the transit states, which will act to avoid being named as the gap.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261113T215832-one-system-no-fallback-1",
+   "stamp": "20261113T215832",
+   "asOf": "2026-11-13T21:58:32Z",
+   "narrativeId": "one-system-no-fallback",
+   "kicker": "DEPENDENCE / REDUNDANCY / PUBLIC SERVICE",
+   "line": "Public services from air traffic to police email now run on single systems, and stop entirely when one of them fails.",
+   "firmness": "plausible",
+   "what": "A government or regulator in Europe, Asia or Australia orders public bodies to keep a working backup for email or records outside Microsoft.",
+   "by": "2026-12-04",
+   "because": "If the problem is single systems rather than one bad day at one firm, the official response should be to require a second system rather than to punish Microsoft.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261113T215832-one-system-no-fallback-2",
+   "stamp": "20261113T215832",
+   "asOf": "2026-11-13T21:58:32Z",
+   "narrativeId": "one-system-no-fallback",
+   "kicker": "DEPENDENCE / REDUNDANCY / PUBLIC SERVICE",
+   "line": "Public services from air traffic to police email now run on single systems, and stop entirely when one of them fails.",
+   "firmness": "plausible",
+   "what": "The FAA or US transport department names one equipment or software fault as the cause of the 13 November nationwide ground stop.",
+   "by": "2026-11-27",
+   "because": "The join treats the halt as one shared system failing without an attacker; a cause of weather, staffing or sabotage would take it out of the pattern.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261113T215832-strikes-run-alongside-talks-1",
+   "stamp": "20261113T215832",
+   "asOf": "2026-11-13T21:58:32Z",
+   "narrativeId": "strikes-run-alongside-talks",
+   "kicker": "NEGOTIATION / LEVERAGE / RANGE",
+   "line": "Talks to end the wars with Russia and Iran now run alongside strikes on bases, ships and oil sites far from any front.",
+   "firmness": "plausible",
+   "what": "A Russian or Iranian official cites a named long-range strike as a reason to delay talks or harden its terms.",
+   "by": "2026-11-27",
+   "because": "If the strikes are moves in the negotiation rather than separate military events, the other side will answer them at the table.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261113T215832-strikes-run-alongside-talks-2",
+   "stamp": "20261113T215832",
+   "asOf": "2026-11-13T21:58:32Z",
+   "narrativeId": "strikes-run-alongside-talks",
+   "kicker": "NEGOTIATION / LEVERAGE / RANGE",
+   "line": "Talks to end the wars with Russia and Iran now run alongside strikes on bases, ships and oil sites far from any front.",
+   "firmness": "plausible",
+   "what": "A ceasefire proposal in either war is reported to include a ban on strikes on ports, energy sites or targets outside the war zone.",
+   "by": "2026-12-11",
+   "because": "If distant strikes are the lever in both wars, negotiators will try to bargain over them directly rather than over front lines alone.",
    "status": "open",
    "resolved": null
   }

@@ -1,0 +1,1693 @@
+{
+  "schemaVersion": 5,
+  "generatedAt": "2026-11-13T22:09:58Z",
+  "newsGeneratedAt": "2026-11-13T21:58:32Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-7",
+  "previousNewsGeneratedAt": "2026-11-12T22:14:14Z",
+  "usage": {
+    "input": 78851,
+    "output": 71704,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads.",
+    "One or more narratives in this edition were refused by the site's own rules (a tile line that listed its evidence or named a publisher, no stated firmness, no usable expectation or no favoured path ahead) and are not shown; the ids and reasons are kept in this file under 'refused'."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-0eb4731b7f899e",
+      "title": "Scott Bessent says Treasury wanted to blacklist Megaspeed 'for months,' blaming Howard Lutnick as Nvidia fallout widens: 'Commerce has the pen' | Fortune",
+      "titleEnglish": "Scott Bessent says Treasury wanted to blacklist Megaspeed 'for months,' blaming Howard Lutnick as Nvidia fallout widens: 'Commerce has the pen' | Fortune",
+      "url": "https://fortune.com/2026/11/13/scott-bessent-treasury-blacklist-megaspeed-howard-lutnick-nvidia-jensen-huang/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-11-13T20:47:00Z",
+      "seenAt": "2026-11-13T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-159332a91e8d44",
+      "title": "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
+      "titleEnglish": "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
+      "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-13T18:32:47Z",
+      "seenAt": "2026-11-13T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-4a074e253e6780",
+      "title": "كيف تضع فضيحة جنسية في إنفيديا ضغوطاً على البيت الأبيض؟ - BBC News عربي",
+      "titleEnglish": "How is a sex scandal at Nvidia putting pressure on the White House? - BBC News Arabic",
+      "url": "https://www.bbc.com/arabic/articles/cwe891n227q5o",
+      "publisher": "BBC News عربي",
+      "publisherDomain": "bbc.com",
+      "publishedAt": "2026-11-13T20:01:43Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "ar"
+    },
+    {
+      "id": "n-0faba75374da03",
+      "title": "Nvidia’s Huang, Lutnick summoned to testify to US Senate",
+      "titleEnglish": "Nvidia’s Huang, Lutnick summoned to testify to US Senate",
+      "url": "https://www.aljazeera.com/news/2026/11/13/nvidias-huang-lutnick-summoned-to-testify-to-us-senate",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-11-13T10:17:00Z",
+      "seenAt": "2026-11-13T10:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-6a5ea552cb65ce",
+      "title": "Congreso de EU cita a ex CEO de Nvidia por relación con presunta espía china",
+      "titleEnglish": "US Congress cites former Nvidia CEO over relationship with alleged Chinese spy",
+      "url": "https://www.excelsior.com.mx/internacional/congreso-eu-cita-ex-ceo-nvidia-por-relacion-espia-china",
+      "publisher": "Excélsior",
+      "publisherDomain": "excelsior.com.mx",
+      "publishedAt": "2026-11-13T09:41:45Z",
+      "seenAt": "2026-11-13T09:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Mexico",
+      "sourceCountryCode": "MX",
+      "sourceRegion": "Latin America",
+      "sourceLat": 23,
+      "sourceLon": -102,
+      "language": "es"
+    },
+    {
+      "id": "n-c777368da79a69",
+      "title": "Singapore says it found insufficient evidence to prosecute Alice Huang, the alleged spy in Nvidia scandal",
+      "titleEnglish": "Singapore says it found insufficient evidence to prosecute Alice Huang, the alleged spy in Nvidia scandal",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/13/singapore-says-it-found-insufficient-evidence-to-prosecute-alice-huang-the-alleged-spy-in-nvidia-scandal",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-11-13T17:49:00Z",
+      "seenAt": "2026-11-13T10:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
+    },
+    {
+      "id": "n-61e962539dd62d",
+      "title": "Malaysia working with S’pore, US against chip smuggling as local AI sector braces itself for impact",
+      "titleEnglish": "Malaysia working with S’pore, US against chip smuggling as local AI sector braces itself for impact",
+      "url": "https://www.straitstimes.com/asia/se-asia/malaysia-working-with-singapore-us-against-chip-smuggling-as-local-ai-sector-braces-for-impact",
+      "publisher": "The Straits Times",
+      "publisherDomain": "straitstimes.com",
+      "publishedAt": "2026-11-13T11:55:00Z",
+      "seenAt": "2026-11-13T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-88fb00187f1b6f",
+      "title": "黃仁勳小三是內鬼？黃樂爆「暗助華為」 背後持股網恐涉走私機密",
+      "titleEnglish": "Is Jensen Huang's mistress an insider? Huang Le reveals \"covert support for Huawei\"; shareholding network may involve smuggling secrets",
+      "url": "https://news.tvbs.com.tw/world/4049960",
+      "publisher": "TVBS新聞網",
+      "publisherDomain": "news.tvbs.com.tw",
+      "publishedAt": "2026-11-13T03:36:08Z",
+      "seenAt": "2026-11-13T03:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-47729066832ad8",
+      "title": "Would Jensen Huang’s fall dent China’s AI ambitions?",
+      "titleEnglish": "Would Jensen Huang’s fall dent China’s AI ambitions?",
+      "url": "https://www.straitstimes.com/asia/east-asia/would-jensen-huangs-fall-dent-chinas-ai-ambitions",
+      "publisher": "The Straits Times",
+      "publisherDomain": "straitstimes.com",
+      "publishedAt": "2026-11-13T14:05:00Z",
+      "seenAt": "2026-11-13T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-bdf337d1bc653b",
+      "title": "美股半导体板块跌幅扩大：费城半导体指数跌6% AMD跌10%",
+      "titleEnglish": "US semiconductor stocks fall further: Philadelphia Semiconductor Index down 6%, AMD down 10%",
+      "url": "https://www.nbd.com.cn/articles/2026-11-13/4647541.html",
+      "publisher": "nbd.com.cn",
+      "publisherDomain": "nbd.com.cn",
+      "publishedAt": "2026-11-13T15:47:00Z",
+      "seenAt": "2026-11-13T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-a64b9dc711a721",
+      "title": "מניות השבבים מעיבות על וול סטריט, אנבידיה שוב יורדת",
+      "titleEnglish": "Chip stocks cloud Wall Street, Nvidia falls again",
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001563339",
+      "publisher": "גלובס",
+      "publisherDomain": "globes.co.il",
+      "publishedAt": "2026-11-13T12:53:00Z",
+      "seenAt": "2026-11-13T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
+    },
+    {
+      "id": "n-f69d8b645e6121",
+      "title": "技嘉超猛！Q3、前三季獲利雙雙創高 「與輝達緊密合作不變」 | 聯合新聞網",
+      "titleEnglish": "Gigabyte very strong: Q3 and first-three-quarter profits both hit records; \"close cooperation with Nvidia remains unchanged\" | UDN",
+      "url": "https://udn.com/news/story/7252/9877865",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-11-13T18:35:42Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-cb2b3fcdc7e698",
+      "title": "台股外資轉買！結束連11賣 多頭戰黑天鵝 | 聯合新聞網",
+      "titleEnglish": "Taiwan stocks: foreign investors turn to buying, ending 11 straight days of selling; bulls fight the black swan | UDN",
+      "url": "https://udn.com/news/story/7251/9877902",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-11-13T19:03:39Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-8a5e13f4bf6ae8",
+      "title": "纳斯达克综合指数向下跌破25000点，最新报24918.71点，日内下跌1.76%。",
+      "titleEnglish": "Nasdaq Composite falls below 25,000 points, last reported at 24,918.71, down 1.76% intraday.",
+      "url": "https://www.nbd.com.cn/articles/2026-11-13/4647535.html",
+      "publisher": "nbd.com.cn",
+      "publisherDomain": "nbd.com.cn",
+      "publishedAt": "2026-11-13T15:47:00Z",
+      "seenAt": "2026-11-13T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-1971d4280a837e",
+      "title": "微軟大當機原因曝光！大量伺服器「集體失效」 暫未發現駭客攻擊",
+      "titleEnglish": "Cause of Microsoft major outage revealed: large number of servers \"failed collectively\"; no hacker attack detected yet",
+      "url": "https://news.tvbs.com.tw/world/4049978",
+      "publisher": "TVBS新聞網",
+      "publisherDomain": "news.tvbs.com.tw",
+      "publishedAt": "2026-11-13T03:35:10Z",
+      "seenAt": "2026-11-13T03:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-19cde5ca44eaaf",
+      "title": "Microsoft: Παρατεταμένο μπλακάουτ παγκοσμίως- 20 ώρες αναστάτωσης και email σε αναμονή παράδοσης",
+      "titleEnglish": "Microsoft: Prolonged Global Blackout - 20 Hours of Disruption and Emails Awaiting Delivery",
+      "url": "https://www.thebest.gr/article/852496-microsoft-paratetameno-mplakaout-pagkosmios-20-ores-anastatosis-kai-email-se-anamoni-paradosis",
+      "publisher": "THE BEST",
+      "publisherDomain": "thebest.gr",
+      "publishedAt": "2026-11-13T11:53:57Z",
+      "seenAt": "2026-11-13T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-c4077818c50d93",
+      "title": "Councils and public services hit by global Microsoft outage",
+      "titleEnglish": "Councils and public services hit by global Microsoft outage",
+      "url": "https://www.bournemouthecho.co.uk/news/national/26726389.councils-public-services-hit-global-microsoft-outage/",
+      "publisher": "Bournemouth Echo",
+      "publisherDomain": "bournemouthecho.co.uk",
+      "publishedAt": "2026-11-13T13:17:00Z",
+      "seenAt": "2026-11-13T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-f1e0556ec3a579",
+      "title": "Australia's spy agency, federal police hit by Microsoft outage",
+      "titleEnglish": "Australia's spy agency, federal police hit by Microsoft outage",
+      "url": "https://www.channelnewsasia.com/world/australia-spy-agency-federal-police-microsoft-outage-6548446",
+      "publisher": "CNA",
+      "publisherDomain": "channelnewsasia.com",
+      "publishedAt": "2026-11-13T10:17:00Z",
+      "seenAt": "2026-11-13T10:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-ee7595c6609733",
+      "title": "Caída de Microsoft también afectó a las bolsas europeas",
+      "titleEnglish": "Microsoft Outage Also Hit European Stock Exchanges",
+      "url": "https://www.eluniversal.com.co/mundo/2026/11/13/caida-de-microsoft-tambien-afecto-a-las-bolsas-europeas/",
+      "publisher": "www.eluniversal.com.co",
+      "publisherDomain": "eluniversal.com.co",
+      "publishedAt": "2026-11-13T12:13:57Z",
+      "seenAt": "2026-11-13T12:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-65813b82fd8918",
+      "title": "Extra medewerkers bij Oranje-duel door Microsoft-storing",
+      "titleEnglish": "Extra staff at Netherlands match due to Microsoft outage",
+      "url": "https://nieuws.nl/voetbal/extra-medewerkers-bij-duel-van-oranje-vanwege-storing-microsoft",
+      "publisher": "Nieuws.nl",
+      "publisherDomain": "nieuws.nl",
+      "publishedAt": "2026-11-13T15:00:06Z",
+      "seenAt": "2026-11-13T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-24f1a95fcabf7a",
+      "title": "ABD Federal Havacılık İdaresi, ABD genelindeki tüm havalimanlarında uçuşların durdurulması kararı aldı",
+      "titleEnglish": "US Federal Aviation Administration orders halt to flights at all airports across the US",
+      "url": "https://www.aa.com.tr/tr/dunya/abd-federal-havacilik-idaresi-abd-genelindeki-tum-havalimanlarinda-ucuslarin-durdurulmasi-karari-aldi/4124785",
+      "publisher": "Anadolu Ajansı",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-11-14T00:41:28Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-877f371a61a1c1",
+      "title": "Kommunikationsproblem stoppar flyg i hela USA",
+      "titleEnglish": "Communication problem halts flights across USA",
+      "url": "https://yle.fi/a/7-10108708",
+      "publisher": "Svenska Yle",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-13T21:35:56Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "sv"
+    },
+    {
+      "id": "n-e7fa147d60dd9f",
+      "title": "Breaking: US aviation administration orders grounding of all flights",
+      "titleEnglish": "Breaking: US aviation administration orders grounding of all flights",
+      "url": "https://www.abc.net.au/news/2026-11-14/us-aviation-admin-orders-grounding-of-all-flights/107385702",
+      "publisher": "abc.net.au",
+      "publisherDomain": "abc.net.au",
+      "publishedAt": "2026-11-13T21:23:28Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-205bf612d82da6",
+      "title": "États-Unis : l'ensemble des vols suspendus, le contrôle aérien ordonne l'arrêt de tout le trafic à cause d'un problème de communication",
+      "titleEnglish": "United States: all flights suspended, air traffic control orders halt of all traffic due to a communication problem",
+      "url": "https://www.ladepeche.fr/2026/11/13/etats-unis-lensemble-des-vols-suspendus-le-controle-aerien-ordonne-larret-de-tout-le-trafic-a-cause-dun-probleme-de-communication-13651640.php",
+      "publisher": "ladepeche.fr",
+      "publisherDomain": "ladepeche.fr",
+      "publishedAt": "2026-11-13T21:47:00Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-7038306be88560",
+      "title": "Flights grounded across the US due to ‘extraordinary circumstance’",
+      "titleEnglish": "Flights grounded across the US due to ‘extraordinary circumstance’",
+      "url": "https://www.arabnews.com/world/flights-grounded-across-the-us-due-to-extraordinary-circumstance-3011738",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-13T21:27:21Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-53c5eb28ce034b",
+      "title": "Tesouro suspende serviços após ataque exponer chaves Pix - Jornal de Brasília",
+      "titleEnglish": "Treasury suspends services after attack exposes Pix keys - Jornal de Brasília",
+      "url": "https://jornaldebrasilia.com.br/noticias/economia/tesouro-suspende-servicos-apos-ataque-exponer-chaves-pix/",
+      "publisher": "Jornal de Brasília",
+      "publisherDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-11-13T20:47:00Z",
+      "seenAt": "2026-11-13T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-5d83f1be9b094b",
+      "title": "“API 보안 강화했다더니 또”…‘모두의 창업’ 5개월 만에 개인정보 유출",
+      "titleEnglish": "\"Said API security was strengthened, yet again\"…'Everyone's Startup' personal data leak after five months",
+      "url": "https://biz.heraldcorp.com/article/10936795",
+      "publisher": "헤럴드경제",
+      "publisherDomain": "biz.heraldcorp.com",
+      "publishedAt": "2026-11-13T13:05:03Z",
+      "seenAt": "2026-11-13T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-5da260faa75b1f",
+      "title": "2차 모두의창업 정보 유출, 1차 사고 판박이…'취약한 API' 타깃(종합)",
+      "titleEnglish": "Second Modu-ui Startup Data Leak, Repeat of First Incident, Targets 'Vulnerable API' (Comprehensive)",
+      "url": "https://www.fnnews.com/news/202611132125594748",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-13T12:26:00Z",
+      "seenAt": "2026-11-13T12:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-98064924d9fad7",
+      "title": "Singapore's healthcare cyber breaches expose growing risks beyond hospitals, warn experts",
+      "titleEnglish": "Singapore's healthcare cyber breaches expose growing risks beyond hospitals, warn experts",
+      "url": "https://www.channelnewsasia.com/singapore/healthcare-cybersecurity-data-breaches-hackers-6548821",
+      "publisher": "CNA",
+      "publisherDomain": "channelnewsasia.com",
+      "publishedAt": "2026-11-13T10:17:00Z",
+      "seenAt": "2026-11-13T10:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-fde4bb225e03ea",
+      "title": "マイクロソフト障害 利用者は「日頃から代替手段を」 専門家が提言：朝日新聞",
+      "titleEnglish": "Microsoft Outage: Users Told \"Always Have Alternatives Ready\", Experts Recommend: Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVCF3411VCFUTIL026M.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-11-13T10:00:00Z",
+      "seenAt": "2026-11-13T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-f91fcceb8ba83e",
+      "title": "ERR: Ukrainan drooni-isku Suomenlahdella vaati kuolonuhreja venäläisellä sotalaivalla",
+      "titleEnglish": "ERR: Ukrainian drone strike in the Gulf of Finland caused deaths on a Russian warship",
+      "url": "https://yle.fi/a/74-20010573/64-3-313226",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-13T18:49:08Z",
+      "seenAt": "2026-11-13T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-0151c9c81ef5c5",
+      "title": "ERR: Miehistön jäseniä kuoli iskussa Venäjän sota-alukseen Suomenlahdella",
+      "titleEnglish": "ERR: Crew members killed in strike on Russian warship in the Gulf of Finland",
+      "url": "https://yle.fi/a/74-20256928",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-13T18:41:43Z",
+      "seenAt": "2026-11-13T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-b0fd266893bd02",
+      "title": "Ukraine fires nearly 1,200 drones at Russia as US-led talks consider wider European security",
+      "titleEnglish": "Ukraine fires nearly 1,200 drones at Russia as US-led talks consider wider European security",
+      "url": "https://www.wsls.com/news/world/2026/11/13/ukraine-fires-nearly-1200-drones-at-russia-as-us-led-talks-consider-wider-european-security/",
+      "publisher": "WSLS",
+      "publisherDomain": "wsls.com",
+      "publishedAt": "2026-11-13T12:01:33Z",
+      "seenAt": "2026-11-13T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-1f3e9c10a9e41f",
+      "title": "Autobomba a Mosca contro il portavoce dell'ex premier filorusso ucraino Azarov - Notizie - Ansa.it",
+      "titleEnglish": "Car bomb in Moscow against spokesman of former pro-Russian Ukrainian prime minister Azarov - News - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/13/autobomba-a-mosca-contro-il-portavoce-dellex-premier-filorusso-ucraino-azarov_1585989d-5070-4886-97b3-d52768e816d2.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-13T18:27:01Z",
+      "seenAt": "2026-11-13T18:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-81bd80a553af4b",
+      "title": "Bombings in Russia kill a military officer and injure an adviser to Ukraine's former prime minister",
+      "titleEnglish": "Bombings in Russia kill a military officer and injure an adviser to Ukraine's former prime minister",
+      "url": "https://www.wsls.com/news/world/2026/11/13/bombings-in-russia-kill-a-military-officer-and-injure-an-adviser-to-ukraines-former-prime-minister/",
+      "publisher": "WSLS",
+      "publisherDomain": "wsls.com",
+      "publishedAt": "2026-11-13T12:58:13Z",
+      "seenAt": "2026-11-13T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-4fe4cd2359c75b",
+      "title": "Φρουροί της Επανάστασης: Ανακοίνωσαν πλήγμα κατά αμερικανικού ραντάρ στο Μπαχρέιν",
+      "titleEnglish": "Islamic Revolutionary Guard Corps: announced strike on American radar in Bahrain",
+      "url": "https://www.enikos.gr/international/frouroi-tis-epanastasis-anakoinosan-pligma-kata-amerikanikou-rantar-sto-bachrein/2675896/",
+      "publisher": "ENIKOS",
+      "publisherDomain": "enikos.gr",
+      "publishedAt": "2026-11-13T02:56:27Z",
+      "seenAt": "2026-11-13T03:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-d4890723caa6bb",
+      "title": "VS ontkennen vernietiging radar in Bahrein",
+      "titleEnglish": "US denies destruction of radar in Bahrain",
+      "url": "https://nieuws.nl/buitenland/vs-ontkennen-vernietiging-radar-in-bahrein",
+      "publisher": "Nieuws.nl",
+      "publisherDomain": "nieuws.nl",
+      "publishedAt": "2026-11-13T14:26:52Z",
+      "seenAt": "2026-11-13T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-1e9baddfecc04b",
+      "title": "إيران.. انفجار ناقلة غاز بهرمز وواشنطن تعلن إحباط هجوم بمسيرتين على البحرين",
+      "titleEnglish": "Iran: gas tanker explodes in Hormuz as Washington announces foiled drone attack on Bahrain",
+      "url": "https://www.aljazeera.net/news/liveblog/2026/11/13/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%AA%D8%B1%D9%85%D8%A8-%D9%8A%D9%87%D8%AF%D8%AF-%D8%A8%D8%A7%D9%84%D9%82%D9%88%D8%A9-%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9?update=10085895",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-13T13:17:00Z",
+      "seenAt": "2026-11-13T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-67cee5f430fc70",
+      "title": "Tanker hits mine in Strait of Hormuz, IRGC says it followed 'dangerous' route | The Jerusalem Post",
+      "titleEnglish": "Tanker hits mine in Strait of Hormuz, IRGC says it followed 'dangerous' route | The Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-914804",
+      "publisher": "The Jerusalem Post | JPost.com",
+      "publisherDomain": "jpost.com",
+      "publishedAt": "2026-11-13T13:17:00Z",
+      "seenAt": "2026-11-13T13:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-f2cccc2cada26c",
+      "title": "الحوثيون يعلنون استهداف محطة ضخ في الرياض | مصراوي",
+      "titleEnglish": "Houthis announce targeting of a pumping station in Riyadh | Masrawy",
+      "url": "https://www.masrawy.com/news/news_publicaffairs/details/2026/11/13/3078355/%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%88%D9%86-%D9%8A%D8%B9%D9%84%D9%86%D9%88%D9%86-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%88%D9%85%D8%AD%D8%B7%D8%A9-%D8%B6%D8%AE-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-",
+      "publisher": "مصراوي.كوم",
+      "publisherDomain": "masrawy.com",
+      "publishedAt": "2026-11-13T21:47:00Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-203ed56e27ac87",
+      "title": "На авиабазе США в Великобритании объявили тревогу из-за налета неизвестных БПЛА",
+      "titleEnglish": "Alert declared at US air base in UK after attack by unidentified drones",
+      "url": "https://www.kommersant.ru/doc/9109492",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-13T21:22:53Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-ce62a77e050660",
+      "title": "US air force responds to suspected drone activity over UK base",
+      "titleEnglish": "US air force responds to suspected drone activity over UK base",
+      "url": "https://www.arabnews.com/world/us-air-force-responds-to-suspected-drone-activity-over-uk-base-3011728",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-13T21:06:17Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-36ce4dfbf7335f",
+      "title": "AB, Ukrayna müzakerelerinde Avrupa'yı temsil edecek 5 ülke ve AB kurumlarından oluşan ekip üzerinde anlaştı",
+      "titleEnglish": "EU agrees on team of 5 countries and EU institutions to represent Europe in Ukraine negotiations",
+      "url": "https://www.aa.com.tr/tr/dunya/ab-ukrayna-muzakerelerinde-avrupayi-temsil-edecek-5-ulke-ve-ab-kurumlarindan-olusan-ekip-uzerinde-anlasti/4124715",
+      "publisher": "Anadolu Ajansı",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-11-13T23:17:02Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-6198612b87b925",
+      "title": "ウクライナ侵攻の協議「欧州も参加へ」とゼレンスキー氏 課題は多く：朝日新聞",
+      "titleEnglish": "Talks on Ukraine invasion: Zelensky says \"Europe to join\"; many challenges ahead: Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVCF30RMVCFUHBI01BM.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-11-13T09:30:00Z",
+      "seenAt": "2026-11-13T10:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-10d68b1d3a9b02",
+      "title": "В Кремле рассказали о контактах США и России после встречи Уиткоффа и Кушнера с Зеленским",
+      "titleEnglish": "Kremlin Describes Contacts Between US and Russia After Witkoff and Kushner Meeting with Zelensky",
+      "url": "https://lenta.ru/news/2026/11/14/v-kremle-rasskazali-o-kontaktah-ssha-i-rossii-posle-vstrechi-uitkoffa-i-kushnera-s-zelenskim/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-11-13T21:47:00Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-25e7e87c9e0efd",
+      "title": "BM: Hürmüz ve Babulmendeb boğazlarındaki gerilim küresel güvenliği tehdit ediyor",
+      "titleEnglish": "UN: Tensions in Strait of Hormuz and Bab al-Mandab threaten global security",
+      "url": "https://www.aa.com.tr/tr/dunya/bm-hurmuz-ve-babulmendeb-bogazlarindaki-gerilim-kuresel-guvenligi-tehdit-ediyor/4124767",
+      "publisher": "Anadolu Ajansı",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-11-13T23:56:56Z",
+      "seenAt": "2026-11-13T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-e8beec2d2ffc4d",
+      "title": "Iran rejects IAEA bid for talks on nuclear inspections",
+      "titleEnglish": "Iran rejects IAEA bid for talks on nuclear inspections",
+      "url": "https://www.westernadvocate.com.au/story/9391493/iran-rejects-iaea-bid-for-talks-on-nuclear-inspections/",
+      "publisher": "westernadvocate.com.au",
+      "publisherDomain": "westernadvocate.com.au",
+      "publishedAt": "2026-11-13T10:26:52Z",
+      "seenAt": "2026-11-13T12:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-b1456e20adb80f",
+      "title": "Trump Redirects JD Vance From Iran Diplomacy to Investigating Democratic States After VP Blames War for GOP Defeat",
+      "titleEnglish": "Trump Redirects JD Vance From Iran Diplomacy to Investigating Democratic States After VP Blames War for GOP Defeat",
+      "url": "https://www.ibtimes.co.uk/trump-redirects-vance-iran-diplomacy-state-corruption-probes-1832088",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-11-13T15:26:51Z",
+      "seenAt": "2026-11-13T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    }
+  ],
+  "settled": [
+    {
+      "id": "20261111T224126-seats-withdrawn-as-pressure-1",
+      "status": "failed",
+      "how": "headline"
+    }
+  ],
+  "readings": [
+    {
+      "id": "chip-scandal-becomes-enforcement-dispute",
+      "line": "With Nvidia's chief gone, the scandal is a dispute over which US department and which Asian hub let chips reach China.",
+      "kicker": "EXPORT CONTROLS / BLAME / TRANSIT STATES",
+      "firmness": "firm",
+      "watch": [
+        {
+          "what": "The Commerce Department adds Megaspeed or another Singapore- or Malaysia-based firm to the Entity List over AI chip diversion.",
+          "by": "2026-12-04",
+          "because": "If the scandal has become a question of which department failed to enforce, Commerce has the strongest reason to act on the very case Bessent named.",
+          "id": "20261113T215832-chip-scandal-becomes-enforcement-dispute-1"
+        },
+        {
+          "what": "Malaysia or Singapore announces new permit, inspection or prosecution measures for AI chip shipments.",
+          "by": "2026-12-11",
+          "because": "The join says responsibility is moving to the transit states, which will act to avoid being named as the gap.",
+          "id": "20261113T215832-chip-scandal-becomes-enforcement-dispute-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the Toshiba-Kongsberg affair of 1987, when Toshiba Machine and Norway's Kongsberg were found to have sold propeller-milling machines to the Soviet Union against COCOM rules. Toshiba's chairman and president resigned, members of Congress smashed a Toshiba radio outside the Capitol, and Japan and Norway tightened their export laws within a year. The difference now is that the company is American and among the most valuable listed firms, the US cabinet is divided over who failed, and the transit states are in Southeast Asia.",
+        "paths": [
+          {
+            "name": "Tighter rules on Asian transit",
+            "weight": "favoured",
+            "text": "Within one to three months Commerce adds Southeast Asian intermediaries to the Entity List, and Malaysia and Singapore tighten permits and prosecutions, while Nvidia keeps selling. Each government gains more from visible enforcement than from defending past gaps, and Singapore's decision not to prosecute leaves it under pressure to show it is not the weak point.",
+            "sign": "Commerce announces Entity List additions in Singapore or Malaysia tied to diverted Nvidia chips."
+          },
+          {
+            "name": "Lutnick leaves Commerce",
+            "weight": "possible",
+            "text": "The Senate hearing and his sons' ties to Nvidia make Lutnick the official who carries the blame, and he steps down or is moved before the spring. Bessent's public charge makes this more likely than it would be in a united cabinet.",
+            "sign": "Reports say Lutnick will resign or recuse himself from export decisions."
+          },
+          {
+            "name": "Nvidia itself is penalised",
+            "weight": "unlikely",
+            "text": "The Bureau of Industry and Security opens an enforcement case against Nvidia over chips that reached China. Unlikely because the administration's AI policy rests on Nvidia's sales, and the blame in these headlines runs to officials and intermediaries, not to the company.",
+            "sign": "BIS announces a penalty or formal investigation of Nvidia over diverted chips."
+          }
+        ],
+        "decade": "Over the decade the control of AI chips is likely to look like the Cold War control of machine tools: administered trade, with transit states in Southeast Asia and the Gulf licensing and inspecting on Washington's behalf."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Treasury Secretary Scott Bessent says his department wanted to blacklist Megaspeed for months and blames Commerce Secretary Howard Lutnick, whose sons' firm CNBC reports has deep ties to Nvidia; the Senate has summoned Jensen Huang and Lutnick; Singapore says it lacks the evidence to prosecute Alice Huang, the alleged spy; and Malaysia says it is working with Singapore and the US against chip smuggling. Days ago this was a story about one chief executive's private life. It is now a dispute about who in Washington and which Asian jurisdiction was responsible for keeping Nvidia's chips from China, and chip shares keep falling while it runs.",
+      "events": [
+        {
+          "label": "Treasury and Commerce blame each other",
+          "articleIds": [
+            "n-0eb4731b7f899e",
+            "n-159332a91e8d44",
+            "n-4a074e253e6780"
+          ]
+        },
+        {
+          "label": "Senate summons Huang and Lutnick",
+          "articleIds": [
+            "n-0faba75374da03",
+            "n-6a5ea552cb65ce"
+          ]
+        },
+        {
+          "label": "Singapore declines to prosecute alleged spy",
+          "articleIds": [
+            "n-c777368da79a69"
+          ]
+        },
+        {
+          "label": "Malaysia joins chip smuggling crackdown",
+          "articleIds": [
+            "n-61e962539dd62d"
+          ]
+        },
+        {
+          "label": "Taiwan and Singapore press ask about Huawei and China",
+          "articleIds": [
+            "n-88fb00187f1b6f",
+            "n-47729066832ad8"
+          ]
+        },
+        {
+          "label": "Chip shares fall, Taiwan suppliers hold up",
+          "articleIds": [
+            "n-bdf337d1bc653b",
+            "n-a64b9dc711a721",
+            "n-8a5e13f4bf6ae8",
+            "n-f69d8b645e6121",
+            "n-cb2b3fcdc7e698"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "e-obs-1",
+          "kind": "observation",
+          "label": "The dispute in Washington",
+          "fragments": [
+            {
+              "id": "e-f1",
+              "label": "Bessent against Lutnick",
+              "text": "Fortune reports Scott Bessent saying Treasury wanted to blacklist Megaspeed 'for months' and that 'Commerce has the pen', placing the delay on Howard Lutnick. CNBC reports that Lutnick faces questions because his sons' firm has deep ties to Nvidia. BBC News Arabic asks how a sex scandal at Nvidia is putting pressure on the White House.",
+              "articleIds": [
+                "n-0eb4731b7f899e",
+                "n-159332a91e8d44",
+                "n-4a074e253e6780"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "e-f2",
+              "label": "Congress calls both men",
+              "text": "Al Jazeera reports that Huang and Lutnick have been summoned to testify to the US Senate, and Mexico's Excélsior reports Congress citing Nvidia's former chief over his relationship with an alleged Chinese spy. The chief executive and the minister meant to police his exports are called to the same hearing.",
+              "articleIds": [
+                "n-0faba75374da03",
+                "n-6a5ea552cb65ce"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "e-obs-2",
+          "kind": "observation",
+          "label": "Singapore, Malaysia and Taiwan",
+          "fragments": [
+            {
+              "id": "e-f3",
+              "label": "The hubs respond",
+              "text": "Malaysia's The Star reports that Singapore found insufficient evidence to prosecute Alice Huang. The Straits Times reports Malaysia working with Singapore and the US against chip smuggling as its own AI sector braces for impact. Both states are now being asked whether chips passed through them.",
+              "articleIds": [
+                "n-c777368da79a69",
+                "n-61e962539dd62d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "e-f4",
+              "label": "Huawei named in Taipei",
+              "text": "TVBS in Taiwan reports a claim that the woman at the centre of the case gave covert support to Huawei and that a shareholding network may involve smuggling. The Straits Times asks whether Huang's fall dents China's AI ambitions. Both read the affair as a question about China's access, not about Huang's private life.",
+              "articleIds": [
+                "n-88fb00187f1b6f",
+                "n-47729066832ad8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "e-int-1",
+          "kind": "interpretation",
+          "label": "Blame moves to the enforcers",
+          "fragments": [
+            {
+              "id": "e-f5",
+              "label": "From one man to the system",
+              "text": "Every new headline moves the question away from Huang and onto the people and places that were supposed to stop chips going to China: Commerce, Treasury, Singapore's prosecutors, Malaysia's customs. That is the shape of an export-control failure rather than a corporate scandal. Singapore's decision not to prosecute shows its limit: suspicion is not evidence, and a hub that declines to charge becomes the next place blame is placed.",
+              "articleIds": [
+                "n-0eb4731b7f899e",
+                "n-c777368da79a69",
+                "n-61e962539dd62d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "chatgpt-2022"
+              ]
+            },
+            {
+              "id": "e-f6",
+              "label": "What the markets are pricing",
+              "text": "China's nbd reports the Philadelphia semiconductor index down 6% and AMD down 10%, and Globes reports Nvidia falling again. In Taiwan, UDN reports Gigabyte's record profits and its 'unchanged' cooperation with Nvidia, and foreign investors buying Taiwanese shares after 11 days of selling. Investors are selling the US names exposed to rules and hearings, not the Asian factories that build the hardware.",
+              "articleIds": [
+                "n-bdf337d1bc653b",
+                "n-a64b9dc711a721",
+                "n-f69d8b645e6121",
+                "n-cb2b3fcdc7e698"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "e-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "e-f7",
+              "label": "Three different quarrels",
+              "text": "The events share a company, not a cause. Bessent's attack on Lutnick is a cabinet rivalry with a family business inside it; Singapore's decision is a prosecutor finding the spy allegation unsupported; Malaysia's cooperation follows its own permit rules of 2025 and US pressure that came before this scandal. The Huawei claim in TVBS comes from a commentator, not an investigator.",
+              "articleIds": [
+                "n-88fb00187f1b6f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "e-f8",
+              "label": "A rival reading of the sell-off",
+              "text": "nbd also reports the Nasdaq below 25,000, so the fall in chip shares may be a wider retreat from AI valuations that would have happened without any dispute over enforcement. And the sheer volume of coverage, with Huang among the most-read Wikipedia pages in 21 language editions, may make a celebrity story look like a policy story.",
+              "articleIds": [
+                "n-8a5e13f4bf6ae8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "CHIPS / LICENSING / AI DEMAND",
+          "text": "On 7 October 2022, seven weeks before ChatGPT was released, the US Commerce Department barred exports of the most advanced AI chips and chipmaking tools to China. Each tightening since was answered by a new route. Nvidia designed lower-power chips for China, Washington closed them off in October 2023 and required a licence for the H20 in April 2025, and chips moved through third countries. Singapore charged three men with fraud in February 2025 in a case over servers that may have held Nvidia chips, and Malaysia began requiring permits for exports of US AI chips in July 2025. As AI demand made Nvidia's chips the scarcest good in the industry, enforcement moved from the factory to the shipping hub. The Straits Times report that Malaysia is working with Singapore and the US against smuggling, and The Star's report that Singapore found too little evidence to prosecute, are the latest steps in a contest that began in 2022.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CHINA / SANCTIONS / SUPPLY CHAINS",
+          "text": "In 2010 China passed Japan as the world's second economy, and in May 2015 Beijing's Made in China 2025 plan named semiconductors as an industry it meant to master. Washington's answer was to use access to American technology as a weapon. In April 2018 the Commerce Department cut ZTE off from US suppliers, and in May 2019 it put Huawei on the Entity List, which turned sales to it into a matter of licence rather than trade. After 2008 manufacturing had concentrated in the most advanced fabs in Taiwan and South Korea, so every export rule became a question about Asian supply chains. The TVBS report from Taiwan that a figure in the Nvidia case gave covert support to Huawei, and Fortune's report that Treasury wanted Megaspeed blacklisted for months, are read through the Huawei listing of 2019. The question is no longer whether to restrict China but who in Washington signs the order.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "TRADE / TRANSIT / ENFORCEMENT",
+          "text": "After the army cleared Tiananmen Square in June 1989, the United States and Europe imposed arms embargoes on China that remain in force. The wider Cold War control system was dismantled at the same time: COCOM was wound up in March 1994 and replaced in 1996 by the Wassenaar Arrangement, which left each member to enforce its own lists. China joined the WTO in 2001, and Singapore and Malaysia became the transhipment and assembly hubs of Asian electronics. The design of that period was open trade with national, voluntary controls, and it placed enforcement in the countries goods passed through rather than those that made them. That is why the alleged spy in the Nvidia case was a matter for Singapore's prosecutors, and why Malaysia's AI sector, in the Straits Times' words, braces for impact as the country joins the effort against chip smuggling.",
+          "trajectoryIds": [
+            "tiananmen-1989"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "COLD WAR / EMBARGO / RESEARCH",
+          "text": "In 1949 the United States and its allies set up COCOM in Paris to keep strategic goods from the Soviet bloc, and for forty years advanced machinery was traded under lists. In 1987 Toshiba Machine and Norway's Kongsberg were found to have sold propeller-milling machines to the Soviet Union; Toshiba's chairman and president resigned and members of Congress smashed a Toshiba radio outside the Capitol. In those decades the technologies that mattered most were paid for by states: artificial intelligence was named at a 1956 workshop at Dartmouth, and ARPA was founded after Sputnik in 1957. The difference now is that the decisive technology is built and sold by a company, so its former chief, as Al Jazeera reports, is summoned to the Senate alongside the minister meant to police his exports. On the same day 47NEWS in Japan asks what the Toshiba brand means after its purchase by a Chinese company.",
+          "trajectoryIds": [
+            "dartmouth-1956",
+            "sputnik-1957"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-0eb4731b7f899e",
+        "n-159332a91e8d44",
+        "n-4a074e253e6780",
+        "n-0faba75374da03",
+        "n-6a5ea552cb65ce",
+        "n-c777368da79a69",
+        "n-61e962539dd62d",
+        "n-88fb00187f1b6f",
+        "n-47729066832ad8",
+        "n-bdf337d1bc653b",
+        "n-a64b9dc711a721",
+        "n-f69d8b645e6121",
+        "n-cb2b3fcdc7e698",
+        "n-8a5e13f4bf6ae8"
+      ]
+    },
+    {
+      "id": "one-system-no-fallback",
+      "line": "Public services from air traffic to police email now run on single systems, and stop entirely when one of them fails.",
+      "kicker": "DEPENDENCE / REDUNDANCY / PUBLIC SERVICE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A government or regulator in Europe, Asia or Australia orders public bodies to keep a working backup for email or records outside Microsoft.",
+          "by": "2026-12-04",
+          "because": "If the problem is single systems rather than one bad day at one firm, the official response should be to require a second system rather than to punish Microsoft.",
+          "id": "20261113T215832-one-system-no-fallback-1"
+        },
+        {
+          "what": "The FAA or US transport department names one equipment or software fault as the cause of the 13 November nationwide ground stop.",
+          "by": "2026-11-27",
+          "because": "The join treats the halt as one shared system failing without an attacker; a cause of weather, staffing or sabotage would take it out of the pattern.",
+          "id": "20261113T215832-one-system-no-fallback-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is 19 July 2024, when a faulty CrowdStrike update crashed about 8.5 million Windows computers and grounded airlines and hospital systems for a day; there were hearings and reviews, but few customers left Microsoft or CrowdStrike. Before that, the FAA's notice system failed on 11 January 2023 and halted all US departures, and the promised modernisation was funded slowly. This time the failure is in the cloud provider itself, it lasted about 20 hours, and a second national system stopped the next day.",
+        "paths": [
+          {
+            "name": "Reviews but no switch",
+            "weight": "favoured",
+            "text": "In the next month several governments and regulators in Europe and Australia announce reviews of their reliance on Microsoft, and the FAA publishes a cause. Within a year contracts are renewed with added backup clauses. The cost of moving thousands of staff and the logic that put them there in 2020 keep public bodies on one supplier.",
+            "sign": "A national government or audit office announces a review of its reliance on Microsoft 365."
+          },
+          {
+            "name": "Europe moves public email off",
+            "weight": "possible",
+            "text": "Following Schleswig-Holstein's 2024 decision to move to open-source software, one or more EU national ministries commit to move staff email and documents to European or open-source providers during 2027. The outage gives an argument that sovereignty campaigners lacked.",
+            "sign": "A European ministry announces it will move its staff email away from Microsoft."
+          },
+          {
+            "name": "Regulators fine the supplier",
+            "weight": "unlikely",
+            "text": "EU supervisors use the Digital Operational Resilience Act or the NIS2 directive to open a formal case against Microsoft over the outage within the year. Unlikely because oversight of critical cloud suppliers is new and its first steps are designation and inspection, not penalties.",
+            "sign": "EU financial supervisors open a formal inquiry into Microsoft under DORA."
+          }
+        ],
+        "decade": "Over ten years the number of public services resting on three or four cloud providers is more likely to grow than shrink, so day-long stoppages will recur and the argument will move to whether law can require a second system."
+      },
+      "continues": "few-suppliers-stop-many",
+      "change": "Yesterday's narrative joined Nvidia's leadership crisis and the Microsoft outage as two cases of dependence on a few firms. Today Microsoft says the outage was a mass server failure rather than an attack, the reports list the public bodies it stopped, and a separate halt of every US flight over a communication fault adds a state system to the pattern. Nvidia now has a narrative of its own.",
+      "claim": "Microsoft's outage, which Greek and Taiwanese outlets report ran about 20 hours, stopped email at British councils, Australia's spy agency and federal police and European stock exchanges; on Friday evening the US Federal Aviation Administration halted every flight in the country over a communication problem; Brazil's Treasury suspended services after an attack exposed Pix keys; and a Korean startup platform leaked data a second time through the same weak API. Each is a public or near-public service that runs on one system with nothing behind it, so a single fault stops the whole service. Microsoft and the FAA both point to faults rather than attackers, which puts the design of these systems, not an enemy, at the centre.",
+      "events": [
+        {
+          "label": "Microsoft outage stops public bodies",
+          "articleIds": [
+            "n-1971d4280a837e",
+            "n-19cde5ca44eaaf",
+            "n-c4077818c50d93",
+            "n-f1e0556ec3a579",
+            "n-ee7595c6609733",
+            "n-65813b82fd8918",
+            "n-fde4bb225e03ea"
+          ]
+        },
+        {
+          "label": "All US flights halted",
+          "articleIds": [
+            "n-24f1a95fcabf7a",
+            "n-205bf612d82da6",
+            "n-877f371a61a1c1",
+            "n-7038306be88560",
+            "n-e7fa147d60dd9f"
+          ]
+        },
+        {
+          "label": "Brazil's Treasury suspends services over Pix",
+          "articleIds": [
+            "n-53c5eb28ce034b"
+          ]
+        },
+        {
+          "label": "Korean startup platform leaks data again",
+          "articleIds": [
+            "n-5d83f1be9b094b",
+            "n-5da260faa75b1f"
+          ]
+        },
+        {
+          "label": "Singapore health breaches spread",
+          "articleIds": [
+            "n-98064924d9fad7"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "a-obs-1",
+          "kind": "observation",
+          "label": "Two national-scale stoppages",
+          "fragments": [
+            {
+              "id": "a-f1",
+              "label": "Microsoft's twenty hours",
+              "text": "TVBS in Taiwan reports that a large number of Microsoft servers 'failed collectively' with no hacker detected, and THE BEST in Greece counts 20 hours of disruption with emails still awaiting delivery. The Bournemouth Echo reports British councils and public services hit, CNA reports Australia's spy agency and federal police hit, El Universal in Colombia reports European stock exchanges affected, and Nieuws.nl says a Netherlands football match needed extra staff.",
+              "articleIds": [
+                "n-1971d4280a837e",
+                "n-19cde5ca44eaaf",
+                "n-c4077818c50d93",
+                "n-f1e0556ec3a579",
+                "n-ee7595c6609733",
+                "n-65813b82fd8918"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-f2",
+              "label": "Every US flight stopped",
+              "text": "Anadolu, Kommersant's peers, Svenska Yle and ABC in Australia report that the FAA ordered a halt to flights at all US airports. La Dépêche in France gives the reason as a communication problem in air traffic control, and Arab News quotes an 'extraordinary circumstance'. None of the headlines reports an attack.",
+              "articleIds": [
+                "n-24f1a95fcabf7a",
+                "n-877f371a61a1c1",
+                "n-e7fa147d60dd9f",
+                "n-205bf612d82da6",
+                "n-7038306be88560"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-obs-2",
+          "kind": "observation",
+          "label": "Payments and data elsewhere",
+          "fragments": [
+            {
+              "id": "a-f3",
+              "label": "Brazil, Korea, Singapore",
+              "text": "Jornal de Brasília reports Brazil's Treasury suspending services after an attack exposed Pix keys. Herald Economy and Financial News in South Korea report a second data leak at the Modu-ui Startup platform through the same vulnerable API, five months after it said security had been strengthened. CNA reports experts warning that Singapore's healthcare breaches now reach beyond hospitals.",
+              "articleIds": [
+                "n-53c5eb28ce034b",
+                "n-5d83f1be9b094b",
+                "n-5da260faa75b1f",
+                "n-98064924d9fad7"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-int-1",
+          "kind": "interpretation",
+          "label": "What the stoppages share",
+          "fragments": [
+            {
+              "id": "a-f4",
+              "label": "One system, no second path",
+              "text": "Asahi Shimbun reports Japanese experts telling users to 'always have alternatives ready', which is advice that only makes sense where alternatives were removed. The services that stopped this week each depend on one provider or one national system: one email supplier for a whole public sector, one air traffic messaging system, one payment key directory, one exposed API. The second path was given up for cost or convenience, so an ordinary fault becomes a national event.",
+              "articleIds": [
+                "n-fde4bb225e03ea",
+                "n-1971d4280a837e",
+                "n-205bf612d82da6"
+              ],
+              "bookIds": [
+                "shock-of-the-old"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "a-f5",
+              "label": "Different systems, different causes",
+              "text": "The FAA runs a government network, Microsoft a commercial cloud; the Pix exposure was an attack and the Korean leak was a startup repeating a security error. They share no supplier and no cause, only the same two days. A narrative about attacks, or about public underinvestment in air traffic control, would explain each of them better on its own terms.",
+              "articleIds": [
+                "n-53c5eb28ce034b",
+                "n-205bf612d82da6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-f6",
+              "label": "Outages are not new",
+              "text": "A nationwide US ground stop happened in January 2023, CrowdStrike grounded flights in July 2024, and AT&T's long-distance network fell over in 1990. Each was followed by talk of fragility and little change. The weight of Microsoft coverage here also reflects that the outlets in this collection use Outlook themselves, which makes the outage feel larger than a flood or strike of similar cost.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "WORK / CLOUD / CONTINUITY",
+          "text": "In March 2020 offices emptied and public bodies moved meetings, mail and files to rented cloud services within weeks, because it was the fastest way to keep working. Microsoft Teams went from about 20 million daily users in November 2019 to 75 million by April 2020, and many councils and police forces that had run their own mail servers moved to Microsoft 365 in the same period. The cost of that choice showed early: on 11 January 2023 a failed FAA notice system stopped all US departures, and on 19 July 2024 a faulty CrowdStrike update crashed about 8.5 million Windows computers, grounding airlines and stopping hospital systems. The EU's Digital Operational Resilience Act, applying from 17 January 2025, put cloud suppliers to banks under oversight, an admission that one supplier's fault is a public risk. The councils in the Bournemouth Echo's report and the Australian police in CNA's work inside the choice made in 2020, and the AI build since 2022 has put more computing in the same few providers' buildings.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CAPITAL / PLATFORMS / SCALE",
+          "text": "Amazon began renting out computing in 2006, but it was the crisis of 2008 that made renting the default. Budgets were cut, money was cheap, and owning servers looked like a cost that could be removed. The US government adopted a 'cloud first' policy in December 2010, Britain opened its G-Cloud purchasing framework in 2012, and Microsoft launched Office 365 in June 2011 and moved its customers onto it over the decade. Each contract made sense on its own: one supplier, no machines to maintain, fewer IT staff. Together they produced a market in which Amazon, Microsoft and Google hold roughly two thirds of rented computing. The same years made the platform company the most valuable kind of firm, so an outage is now a market event as well: Nieuws.nl reports Microsoft's shares falling on Wall Street, and El Universal reports European exchanges hit. What was bought as a saving after 2008 is the single point these headlines describe.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "NETWORKS / DEREGULATION / STANDARDS",
+          "text": "On 15 January 1990 a software fault in AT&T's switches cut much of the United States' long-distance telephone service for about nine hours, an early sign of what a shared standard could do. The decade that followed opened telecoms to private carriers, retired the publicly funded NSFNET backbone in April 1995 and listed Netscape that August. Windows 95 made one company's software the office standard across most of the world, and the US antitrust case against Microsoft, filed in 1998, ended in a 2001 settlement that left the company whole. The WTO's 1997 telecommunications agreement opened national networks to foreign firms. A common standard bought compatibility and cheap software, and it gave up variety. That is why, as Asahi Shimbun reports, Microsoft's mail fault was felt in 74 countries at once, including by India's government, rather than in one office or one country.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE / RESEARCH / REDUNDANCY",
+          "text": "The networks of the postwar state were built on the opposite principle. Paul Baran at RAND, working between 1960 and 1964, designed a distributed network that could lose any part of itself and keep working after a nuclear strike, and ARPA, founded after Sputnik, built the ARPANET on that idea from 1969. Air traffic followed the same logic: after two airliners collided over the Grand Canyon in 1956, the Federal Aviation Act of 1958 created one federal agency for all US airspace, with duplicate radars, radios and staff paid for from taxes. Redundancy was treated as part of the public good rather than as waste. The halt of all US flights over a communication problem, reported by Anadolu and La Dépêche, is a stop in a system designed to have a second path. These headlines test how much of that design survived decades of budget limits, outsourcing and the move to shared commercial systems.",
+          "trajectoryIds": [
+            "sputnik-1957"
+          ],
+          "bookIds": [
+            "shock-of-the-old"
+          ]
+        }
+      ],
+      "articleIds": [
+        "n-1971d4280a837e",
+        "n-19cde5ca44eaaf",
+        "n-c4077818c50d93",
+        "n-f1e0556ec3a579",
+        "n-ee7595c6609733",
+        "n-65813b82fd8918",
+        "n-24f1a95fcabf7a",
+        "n-877f371a61a1c1",
+        "n-e7fa147d60dd9f",
+        "n-205bf612d82da6",
+        "n-7038306be88560",
+        "n-53c5eb28ce034b",
+        "n-5d83f1be9b094b",
+        "n-5da260faa75b1f",
+        "n-98064924d9fad7",
+        "n-fde4bb225e03ea"
+      ]
+    },
+    {
+      "id": "strikes-run-alongside-talks",
+      "line": "Talks to end the wars with Russia and Iran now run alongside strikes on bases, ships and oil sites far from any front.",
+      "kicker": "NEGOTIATION / LEVERAGE / RANGE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A Russian or Iranian official cites a named long-range strike as a reason to delay talks or harden its terms.",
+          "by": "2026-11-27",
+          "because": "If the strikes are moves in the negotiation rather than separate military events, the other side will answer them at the table.",
+          "id": "20261113T215832-strikes-run-alongside-talks-1"
+        },
+        {
+          "what": "A ceasefire proposal in either war is reported to include a ban on strikes on ports, energy sites or targets outside the war zone.",
+          "by": "2026-12-11",
+          "because": "If distant strikes are the lever in both wars, negotiators will try to bargain over them directly rather than over front lines alone.",
+          "id": "20261113T215832-strikes-run-alongside-talks-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the Paris talks on Vietnam, opened in May 1968, during which the United States bombed Hanoi and Haiphong in the Linebacker II raids of 18 to 29 December 1972, a month before the accords were signed on 27 January 1973. The bombing was meant to set terms, and the final text largely restated the October draft. The present differs in that strikes now reach third countries' soil at low cost, and two wars are being negotiated through the same US envoys at once.",
+        "paths": [
+          {
+            "name": "Talks go on, strikes widen",
+            "weight": "favoured",
+            "text": "Through the winter both negotiations continue without a general ceasefire, and long-range strikes on ports, energy and bases keep pace with each round. Neither side in these headlines pays a diplomatic price for striking, so each has reason to keep doing it. Any deal that emerges comes with lists of excluded targets.",
+            "sign": "A strike on a port, refinery or base is reported on the day of a negotiating round."
+          },
+          {
+            "name": "A pause on energy targets",
+            "weight": "possible",
+            "text": "As in March 2025, when Russia and Ukraine agreed a 30-day halt on strikes on energy facilities that each then said the other broke, the parties agree a partial pause on energy or shipping. It would come before any general ceasefire and would be hard to verify.",
+            "sign": "Both sides announce a halt to strikes on energy sites or ports for a fixed period."
+          },
+          {
+            "name": "A delegation walks out",
+            "weight": "unlikely",
+            "text": "One side ends a round of talks after a strike on its territory. Unlikely because both Moscow and Tehran gain from talks with Washington being under way, and the headlines show them describing contacts rather than ending them.",
+            "sign": "Russia or Iran suspends talks, naming a specific strike."
+          }
+        ],
+        "decade": "Over the next decade cheap long-range drones make strikes on rear areas and third countries a normal part of every negotiation, so ceasefires will have to name ports, pipelines and bases as well as front lines."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "On the day the EU named a five-country team for the Ukraine talks and the Kremlin described new US contacts, a Ukrainian drone killed crew on a Russian warship in the Gulf of Finland, bombs went off in Moscow, Iran's Revolutionary Guards claimed a strike on a US radar in Bahrain, a tanker hit a mine in the Strait of Hormuz, the Houthis said they hit a pumping station in Riyadh and drones put a US air base in Britain on alert. In both wars the parties are negotiating and striking at once, and the strikes land far from the front lines, on ports, bases, pipelines and capitals. The strikes are being used to change the terms while the talks run, and they place the risk on third countries such as Bahrain, Britain and Saudi Arabia.",
+      "events": [
+        {
+          "label": "Drones put US base in Britain on alert",
+          "articleIds": [
+            "n-203ed56e27ac87",
+            "n-ce62a77e050660"
+          ]
+        },
+        {
+          "label": "IRGC claims strike on Bahrain radar",
+          "articleIds": [
+            "n-4fe4cd2359c75b",
+            "n-d4890723caa6bb",
+            "n-1e9baddfecc04b"
+          ]
+        },
+        {
+          "label": "Attacks on Gulf tankers and a Saudi pumping station",
+          "articleIds": [
+            "n-67cee5f430fc70",
+            "n-f2cccc2cada26c",
+            "n-25e7e87c9e0efd"
+          ]
+        },
+        {
+          "label": "Drone and bomb attacks inside Russia",
+          "articleIds": [
+            "n-f91fcceb8ba83e",
+            "n-0151c9c81ef5c5",
+            "n-b0fd266893bd02",
+            "n-1f3e9c10a9e41f",
+            "n-81bd80a553af4b"
+          ]
+        },
+        {
+          "label": "Europe joins the Ukraine talks",
+          "articleIds": [
+            "n-36ce4dfbf7335f",
+            "n-10d68b1d3a9b02",
+            "n-6198612b87b925"
+          ]
+        },
+        {
+          "label": "Iran diplomacy stalls",
+          "articleIds": [
+            "n-e8beec2d2ffc4d",
+            "n-b1456e20adb80f"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "b-obs-1",
+          "kind": "observation",
+          "label": "Strikes far from the front",
+          "fragments": [
+            {
+              "id": "b-f1",
+              "label": "Inside Russia",
+              "text": "Yle in Finland, citing Estonia's ERR, reports crew killed when a Ukrainian drone hit a Russian warship in the Gulf of Finland. WSLS in the US reports Ukraine firing nearly 1,200 drones at Russia as US-led talks consider wider European security. ANSA in Italy and WSLS report bombings in Russia that killed a military officer and injured an adviser to Ukraine's former prime minister Azarov, one of them a car bomb in Moscow.",
+              "articleIds": [
+                "n-f91fcceb8ba83e",
+                "n-0151c9c81ef5c5",
+                "n-b0fd266893bd02",
+                "n-1f3e9c10a9e41f",
+                "n-81bd80a553af4b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-f2",
+              "label": "The Gulf and Britain",
+              "text": "ENIKOS in Greece reports the Revolutionary Guards announcing a strike on an American radar in Bahrain, which Nieuws.nl says the US denies destroying; Al Jazeera reports a gas tanker exploding in Hormuz as Washington says it foiled a drone attack on Bahrain. The Jerusalem Post reports a tanker hitting a mine, with the Guards saying it took a 'dangerous' route, and Masrawy reports the Houthis targeting a pumping station in Riyadh. Kommersant and Arab News report an alert at a US air base in Britain after unidentified drones.",
+              "articleIds": [
+                "n-4fe4cd2359c75b",
+                "n-d4890723caa6bb",
+                "n-1e9baddfecc04b",
+                "n-67cee5f430fc70",
+                "n-f2cccc2cada26c",
+                "n-203ed56e27ac87",
+                "n-ce62a77e050660"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-obs-2",
+          "kind": "observation",
+          "label": "The talks on the same day",
+          "fragments": [
+            {
+              "id": "b-f3",
+              "label": "Seats at the table",
+              "text": "Anadolu reports the EU agreeing a team of five countries and EU institutions to represent Europe in the Ukraine negotiations, and Asahi Shimbun quotes Zelensky saying Europe will join. Lenta.RU reports the Kremlin describing contacts with the US after Witkoff and Kushner met Zelensky. Anadolu also carries a UN warning that tensions in the Strait of Hormuz and Bab al-Mandab threaten global security.",
+              "articleIds": [
+                "n-36ce4dfbf7335f",
+                "n-6198612b87b925",
+                "n-10d68b1d3a9b02",
+                "n-25e7e87c9e0efd"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-int-1",
+          "kind": "interpretation",
+          "label": "Striking to set the terms",
+          "fragments": [
+            {
+              "id": "b-f4",
+              "label": "Reach as a bargaining position",
+              "text": "The WSLS headline puts 1,200 drones and the talks in one sentence, and that is the join: the strikes show the other side what can be reached while terms are being drafted. The Guards' statement that a mined tanker took a 'dangerous' route is a claim to control passage through Hormuz, which is a negotiating position stated as a warning. Each side is pricing what it can hit into what it will accept.",
+              "articleIds": [
+                "n-b0fd266893bd02",
+                "n-67cee5f430fc70"
+              ],
+              "bookIds": [
+                "theory-of-the-drone"
+              ],
+              "trajectoryIds": [
+                "spiderweb-2025",
+                "abqaiq-2019"
+              ]
+            },
+            {
+              "id": "b-f5",
+              "label": "Third countries carry the risk",
+              "text": "Bahrain, Britain and Saudi Arabia are not parties to the talks, yet the radar, the air base and the pumping station are on their soil. Long-range strikes during negotiation spread the cost of the war to hosts and neighbours, which gives those governments a reason to press for a deal on the parties' terms.",
+              "articleIds": [
+                "n-4fe4cd2359c75b",
+                "n-203ed56e27ac87",
+                "n-f2cccc2cada26c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "b-f6",
+              "label": "Different authors, different aims",
+              "text": "Ukraine's strikes are by a state defending itself; the Bahrain claim is disputed by the US; the drones over the British base are unidentified and may be nothing hostile; no one has claimed the Moscow bombs; the Houthis have struck Saudi targets for a decade; and a mine can lie in the water long after it was laid. These events do not share a planner or a purpose, only the fact that they happened during talks.",
+              "articleIds": [
+                "n-d4890723caa6bb",
+                "n-203ed56e27ac87"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-f7",
+              "label": "Are there Iran talks at all",
+              "text": "The westernadvocate reports Iran rejecting an IAEA bid for talks on inspections, and International Business Times reports Trump moving JD Vance from Iran diplomacy to investigating Democratic states. If the US-Iran track has stalled, the Gulf strikes are ordinary war, not moves in a negotiation, and only the Ukraine half of the join stands. Fighting during talks is also normal in most wars, from Korea to Vietnam.",
+              "articleIds": [
+                "n-e8beec2d2ffc4d",
+                "n-b1456e20adb80f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "DRONES / RANGE / PRICE",
+          "text": "The war over Nagorno-Karabakh in autumn 2020 was decided in forty-four days by Turkish and Israeli drones, and defence ministries rewrote their plans around cheap aircraft with long range. Ukraine, invaded in February 2022, built its own long-range drone industry, and in June 2025 it hit Russian bombers thousands of kilometres from the front from lorries parked inside Russia. The same month American bombers struck Fordow and ended a twelve-day war between Israel and Iran. What this decade put in place is the ability of a side that cannot win at the front to reach the other side's capital, ports and bases cheaply. The WSLS report of nearly 1,200 Ukrainian drones fired at Russia while US-led talks consider wider European security, and Yle's report of crew killed on a Russian warship in the Gulf of Finland, show that capacity used during negotiation rather than instead of it.",
+          "trajectoryIds": [
+            "karabakh-2020",
+            "spiderweb-2025",
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "PROXIES / MISSILES / SHIPPING",
+          "text": "After the Arab uprisings of 2011, Iran built up the Houthis in Yemen, and a Saudi-led coalition went to war against them in March 2015. The Houthis answered with missiles and drones on Saudi cities and oil plants, and on 14 September 2019 an attack on Abqaiq halved Saudi output for days. The Vienna nuclear agreement of July 2015 and the US withdrawal from it in May 2018 set the rhythm since: talks, then pressure, then attacks on shipping. In May and June 2019 tankers were damaged off Fujairah and in the Gulf of Oman, and in July 2019 Iran seized the British-flagged Stena Impero near Hormuz. Using a strike on oil transport as a message to Washington dates from those years. The Jerusalem Post's report that the Guards say a mined tanker followed a 'dangerous' route, and Masrawy's report of a Houthi strike on a Riyadh pumping station, continue it.",
+          "trajectoryIds": [
+            "abqaiq-2019",
+            "jcpoa-2015"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "PRECISION / AIR POWER / COERCION",
+          "text": "The 1991 Gulf War made precision bombing a televised fact, and the 1990s turned it into a tool of diplomacy. In 1999 NATO bombed Yugoslavia for 78 days after the Rambouillet talks failed, until Belgrade accepted terms; air power had become a way of negotiating without sending ground troops. In May 2000 Washington switched off the deliberate error in civilian GPS, which later put accurate navigation into cheap drones, and in October 2001 the first armed Predator strike in Afghanistan joined surveillance to a weapon. Grégoire Chamayou's account of the drone describes war in which one side can strike without being exposed, and that ability has since spread to sides with far fewer resources. The Iranian claim, reported by ENIKOS in Greece, of a strike on a US radar in Bahrain, which Washington denies according to Nieuws.nl, is a statement about reach aimed at the negotiating table.",
+          "trajectoryIds": [
+            "gps-2000",
+            "predator-2001"
+          ],
+          "bookIds": [
+            "theory-of-the-drone"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "ARMISTICE / TANKER WAR / LAW",
+          "text": "Fighting while negotiating is older than the drone. The Korean armistice talks opened in July 1951 and ran for two years at Kaesong and Panmunjom while the armies fought over hills whose value lay in the bargaining. In the Gulf, Iran and Iraq attacked each other's tankers from 1984; the United States reflagged Kuwaiti tankers in 1987, the frigate Samuel B. Roberts struck an Iranian mine in April 1988, and Iran accepted UN Resolution 598 only in July 1988, a year after it was passed. The Geneva Conventions of 1949 and the 1977 Protocol I, with its ban on attacking what civilians need to survive, were written to limit such strikes. What has changed is who can strike and how far. A tanker hitting a mine in Hormuz, reported by the Jerusalem Post, belongs to the 1980s tanker war; drones over a US base in Britain, reported by Kommersant and Arab News, do not.",
+          "trajectoryIds": [
+            "geneva-1949",
+            "protocol-1977"
+          ],
+          "bookIds": []
+        }
+      ],
+      "articleIds": [
+        "n-f91fcceb8ba83e",
+        "n-0151c9c81ef5c5",
+        "n-b0fd266893bd02",
+        "n-1f3e9c10a9e41f",
+        "n-81bd80a553af4b",
+        "n-4fe4cd2359c75b",
+        "n-d4890723caa6bb",
+        "n-1e9baddfecc04b",
+        "n-67cee5f430fc70",
+        "n-f2cccc2cada26c",
+        "n-203ed56e27ac87",
+        "n-ce62a77e050660",
+        "n-36ce4dfbf7335f",
+        "n-6198612b87b925",
+        "n-10d68b1d3a9b02",
+        "n-25e7e87c9e0efd",
+        "n-e8beec2d2ffc4d",
+        "n-b1456e20adb80f"
+      ]
+    }
+  ],
+  "refused": [
+    {
+      "id": "fuel-cap-bills-handed-back",
+      "reasons": [
+        "line is a list; it should say what the join shows, not list the evidence"
+      ]
+    }
+  ]
+}
