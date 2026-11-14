@@ -161,6 +161,39 @@
       el.addEventListener('click', hide);
     });
   }
+  /* ---------- what has been building: the notebook's open subjects, each with the days it was seen on ---------- */
+  function renderBuilding(b) {
+    const body = $('#building-body'), meta = $('#building-meta');
+    const subjects = (b && b.subjects || []);
+    const open = subjects.filter(s => s.status === 'open'), written = subjects.filter(s => s.status === 'written');
+    const end = new Date(((b && b.asOf) || new Date().toISOString()).slice(0, 10) + 'T00:00:00Z');
+    const day = n => new Date(end - n * 864e5).toISOString().slice(0, 10);
+    const fmtDay = iso => new Date(iso + 'T00:00:00Z').toLocaleString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' });
+    meta.textContent = open.length ? `${open.length} SUBJECT${open.length === 1 ? '' : 'S'} HELD · ${written.length} WRITTEN UP SO FAR` : '';
+    if (!open.length) body.append(create('p', 'board-intro', 'Nothing is being held at the moment.'));
+    open.forEach(s => {
+      const seen = new Set((s.sightings || []).map(x => x.date)), recent = [...Array(14).keys()].map(n => day(13 - n));
+      const n = recent.filter(d => seen.has(d)).length;
+      const heads = (s.sightings || []).slice().sort((a, c) => c.date.localeCompare(a.date)).flatMap(x => (x.headlines || []).map(h => [x.date, h]));
+      const countries = [...new Set(heads.map(([, h]) => h.sourceCountry).filter(Boolean))].sort();
+      const art = create('article', 'bld');
+      art.append(create('h2', 'bld-subject', s.subject));
+      const strip = create('div', 'bld-days'); strip.setAttribute('role', 'img'); strip.setAttribute('aria-label', `Seen on ${n} of the last 14 days`);
+      recent.forEach(d => { const dot = create('span', 'bld-day' + (seen.has(d) ? ' on' : '')); dot.title = `${fmtDay(d)}${seen.has(d) ? ': seen' : ''}`; strip.append(dot); });
+      art.append(strip, create('p', 'bld-meta mono', `SEEN ON ${n} OF THE LAST 14 DAYS · FIRST ${fmtDay(s.firstSeen).toUpperCase()} · ${countries.length} PUBLISHER COUNTR${countries.length === 1 ? 'Y' : 'IES'}`));
+      const last = (s.sightings || []).slice().sort((a, c) => a.date.localeCompare(c.date)).pop();
+      if (last && last.note) art.append(create('p', 'bld-note', last.note));
+      const det = create('details', 'bld-heads'), sum = create('summary', 'mono', `${heads.length} HEADLINE${heads.length === 1 ? '' : 'S'}`);
+      det.append(sum);
+      heads.forEach(([d, h]) => { const a = create('a', 'wl-h'); a.href = h.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.append(create('span', 'w mono', `${fmtDay(d)} · ${h.sourceCountry || ''} · ${h.publisher || ''}`), create('span', 'q', (h.titleEnglish || h.title || '') + ' ↗')); det.append(a); });
+      art.append(det); body.append(art);
+    });
+    if (written.length) {
+      body.append(create('p', 'sect bld-sect', 'WRITTEN UP'));
+      written.forEach(s => { const a = create('a', 'bld-written'); a.href = `./#edition=${s.written.stamp}&reading=${encodeURIComponent(s.written.id)}&open=1`; a.append(create('span', 'w mono', `${fmtDay(s.written.asOf.slice(0, 10))} · held since ${fmtDay(s.firstSeen)}`), create('span', 'q', s.subject + ' →')); body.append(a); });
+    }
+  }
+
   async function init() {
     bindTips();
     try { if (localStorage.getItem('pt-night') === '1') setNight(true); } catch {}
@@ -171,6 +204,8 @@
     const open = items.filter(w => w.status === 'open').length;
     $('#ahead-edition').textContent = `AHEAD · ${open} TO WATCH FOR · ${items.filter(w => w.status === 'kept').length} KEPT · ${items.filter(w => w.status === 'failed').length} FAILED`;
     renderBoard(items); renderPaths(readings, items); renderRecord(ledger, items);
+    try { renderBuilding(await getJSON('data/building.json')); } catch { $('#building').hidden = true; }
+    if (location.hash === '#building') $('#building').scrollIntoView();
     if (location.hash === '#watch' || location.hash === '#record') { const el = $(location.hash === '#watch' ? '#board' : '#record'); if (el) el.scrollIntoView(); }
   }
   init();

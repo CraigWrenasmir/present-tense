@@ -62,7 +62,7 @@ The Chronicle has:
 
 Rules:
 - The ledger of expectations is evidence about the threads. Where an expectation was kept or failed, say so in the thread's text or in moved, dated, with what the headline reported; a failed expectation is a reason to doubt the thread's direction and to say so. Do not total the ledger or give a score; the site counts it.
-- A narrative whose "continues" names an earlier narrative belongs to that narrative's thread. A narrative that continues nothing starts a new thread, unless it plainly belongs to a silent thread, in which case revive that thread and keep its key.
+- A narrative whose "continues" names an earlier narrative belongs to that narrative's thread. So does one whose "resumes" names an older narrative (given as edition stamp, a slash, and the id): the writer has taken that story up again after a gap, so revive its thread, keep its key and say how long it was silent. A narrative marked "builds" was written from a subject the site's notebook had been keeping for some days before any narrative; say so in its thread's paragraph, since the story is older than its first narrative. A narrative that continues nothing starts a new thread, unless it plainly belongs to a silent thread, in which case revive that thread and keep its key.
 - Every narrative in today's edition appears in exactly one thread. Earlier narratives keep their threads.
 - A thread with no narrative in the last three editions is "silent". Keep silent threads, with their text left as it was or shortened; they are pruned later by the site, not by you.
 - At most twelve live threads. If more would be live, merge the ones that are genuinely one thread and say so in revision.
@@ -135,10 +135,10 @@ def build_request(index, readings, previous):
     for e in reversed(editions):
         brief_lines.append(f"EDITION {e['stamp']} (headlines of {e['newsGeneratedAt']}):")
         for n in e["narratives"]:
-            brief_lines.append(f"  {n['id']} | {n['kicker']} | {n['line']} | continues: {n.get('continues') or '-'}")
+            brief_lines.append(f"  {n['id']} | {n['kicker']} | {n['line']} | continues: {n.get('continues') or '-'}" + (f" | resumes: {n['resumes']}" if n.get("resumes") else ""))
     today = []
     for r in readings["readings"]:
-        today.append(f"id: {r['id']}\nkicker: {r['kicker']}\nline: {r['line']}\nfirmness: {r.get('firmness') or '-'}\ncontinues: {r.get('continues') or '-'}\nchange: {r.get('change') or '-'}\nevents: " + "; ".join(e["label"] for e in r.get("events", [])) + f"\nclaim: {r['claim']}")
+        today.append(f"id: {r['id']}\nkicker: {r['kicker']}\nline: {r['line']}\nfirmness: {r.get('firmness') or '-'}\ncontinues: {r.get('continues') or '-'}\nresumes: {r.get('resumes') or '-'}\nbuilds: {r.get('builds') or '-'}\nchange: {r.get('change') or '-'}\nevents: " + "; ".join(e["label"] for e in r.get("events", [])) + f"\nclaim: {r['claim']}")
         if r.get("watch"):
             today.append("to watch for: " + "; ".join(f"{w['what']} (by {w['by']})" for w in r["watch"]))
         fav = next((p for p in (r.get("ahead") or {}).get("paths", []) if p.get("weight") == "favoured"), None)

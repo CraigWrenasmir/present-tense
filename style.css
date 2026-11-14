@@ -794,3 +794,18 @@ body.scrolls { overflow: auto; }  /* the field page is fixed; the reading pages 
   .ppath .pt, .ppath .ps { font-size: 16px; }
   .pcard-watch, .pcard-text { font-size: 16px; }
 }
+
+/* Ahead: what has been building. One entry per subject the notebook holds: fourteen day marks, filled where it was seen. */
+.building .bld { padding: 16px 0 14px; border-top: 1px solid var(--ink); }
+.building .bld-subject { font-family: var(--serif); font-size: 20px; line-height: 1.25; font-weight: 400; margin: 0 0 10px; }
+.building .bld-days { display: flex; gap: 5px; margin: 0 0 8px; }
+.building .bld-day { width: 11px; height: 11px; border: 1px solid var(--ink); border-radius: 50%; box-sizing: border-box; }
+.building .bld-day.on { background: var(--ink); }
+.building .bld-meta { font-size: 9px; letter-spacing: .14em; color: var(--ink-3); margin: 0 0 8px; }
+.building .bld-note { font-size: 15px; line-height: 1.45; color: var(--ink-2); margin: 0 0 8px; }
+.building .bld-heads summary { font-size: 9px; letter-spacing: .14em; color: var(--ink-3); cursor: pointer; padding: 2px 0 6px; }
+.building .bld-heads a, .building .bld-written { display: block; padding: 4px 0; text-decoration: none; color: var(--ink); }
+.building .bld-heads a .w, .building .bld-written .w { display: block; font-size: 9px; letter-spacing: .1em; color: var(--ink-3); text-transform: uppercase; }
+.building .bld-heads a .q, .building .bld-written .q { font-family: var(--serif); font-size: 15px; line-height: 1.35; }
+.building .bld-heads a:hover .q, .building .bld-written:hover .q { text-decoration: underline; }
+.building .bld-sect { margin: 22px 0 6px; }

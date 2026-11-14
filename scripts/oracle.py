@@ -64,6 +64,13 @@ WATCH_NOTES = [
     "What to watch for: each narrative sets one or two expectations, things that should follow if its join is right, each with a date. Every later edition's writer checks the open ones against that day's headlines: kept or failed only with a headline behind it, otherwise open. Past its date an open expectation is closed by the site as failed.",
     "Items are added and settled, never removed or reworded. Read the count beside each narrative's stated firmness: it is the site's own record of whether its confidence means anything.",
 ]
+BUILDING = DATA / "building.json"
+BUILDING_DAYS = 14   # a subject stays open while it has been seen within this many days
+RESUME_DAYS = 28     # a stopped narrative can be resumed for this long
+BUILDING_NOTES = [
+    "What has been building: subjects the writer noticed in a day's headlines and did not write a narrative about, kept from edition to edition with the headlines that showed them. Some things never lead a day; this is where they are held until the days add up.",
+    "A subject is open while it has been seen in the last fourteen days. When a narrative is written from it, it is marked written with that narrative; when it goes fourteen days unseen it lapses. Sightings are added, never reworded.",
+]
 KEEP = ("id", "title", "titleEnglish", "url", "publisher", "publisherDomain", "publishedAt", "seenAt",
         "dateBasis", "sourceCountry", "sourceCountryCode", "sourceRegion", "sourceLat", "sourceLon", "language")
 MAX_INPUT_CHARS = 140_000
@@ -93,12 +100,18 @@ Compose an edition of narratives. Each narrative has:
 - watch: one or two things to watch for, each a test of the join. If the join is right, something should follow that this collection, or a later one, would report. Each has what: one plain sentence of at most 160 characters saying what a headline would report, specific enough that a reader could say yes or no on seeing it ("A central bank outside the G7 names the war in a rate decision", "A second European country pauses data centre approvals over power or water"); by: the date, written as YYYY-MM-DD, by which it should have appeared if the join holds, between four and twenty-eight days after the collection's date given at the top; and because: one sentence saying why the join, rather than any one of its events on its own, predicts it. An expectation that would be met even if the events were unrelated tests nothing. A scheduled event (a vote on a known date) is not an expectation unless the expectation is about its outcome. "Prices will move" and "pressure will grow" are not expectations, because no headline could fail them. The site checks every expectation against later collections and records, beside the narrative's firmness, whether it was kept, failed, or ran out of time. Write them as you would want to be judged: a firm narrative should expect more than a tentative one. The expectations are the earliest dated signs of the path you favour in ahead, below: if they fail, the path they stood for is in doubt, and the site will show that.
 - ahead: where this goes. This is the one place you are asked to anticipate, and to draw on everything you know of history, politics and economics, not only on the headlines. It has three parts. precedent: two to four sentences naming the past case this join most resembles, with its dates, how it went, and where the present differs from it ("The last time the Gulf states and Russia cut output into a slowing world economy was 2016; the price recovered within a year, but then China was still growing at seven per cent"). Name the case; do not gesture at "history shows". paths: two or three ways this could go over the coming weeks to a year, each with name (two to six plain words naming the outcome, not an image: "Subsidies return before the vote", "The strikes spread to ports"), weight ("favoured", "possible" or "unlikely"; exactly one path is favoured, and you must choose), text (two to four sentences saying what happens, roughly when, and why this join points that way), and sign (one sentence saying the first thing a headline would report if this path is under way). Commit to the favoured path and say why the others are less likely; a set of paths that hedges across every outcome tells the reader nothing. decade: one or two sentences saying where the trajectory in the horizons points over the next ten years, at the scale of the line. If the narrative continues one whose expectations failed, do not favour the same path again without saying what has changed. Plain words throughout, dates and institutions named, no metaphor. The reader is shown this as the writer's anticipation, apart from the evidence, and the site checks it only through the expectations above.
 - continues: the id of the narrative in the previous edition that this one carries forward, if any; otherwise an empty string. A narrative continues an earlier one when it follows the same join or the same events a day later, not merely the same topic.
-- change: if continues is set, one to three plain sentences saying what has changed since that narrative: what moved, what was confirmed, what fell away. If continues is empty, an empty string. This is shown to the reader as "Since the previous edition", so write it for them.
+- resumes: you will also receive EARLIER NARRATIVES THAT HAVE STOPPED: narratives from the last four weeks that no later edition carried forward, each with a reference (the edition's stamp, a slash, the narrative's id), the date it last ran, its kicker and line, and the thread the site's Chronicle files it under where there is one. A story does not end because one day's collection was quiet about it. If a narrative of yours takes up the same join or the same events again after a gap, set resumes to that reference exactly as given; otherwise an empty string. Never set both: continues is for the previous edition's narrative, resumes for an older one. Resume only when today's headlines carry the story further, not to keep a narrative alive, and not merely because the topic is the same.
+- builds: the key of the subject in WHAT HAS BEEN BUILDING that this narrative is written from, if any; otherwise an empty string. See "What has been building" below.
+- change: if continues or resumes is set, one to three plain sentences saying what has changed since that narrative: what moved, what was confirmed, what fell away. For a resumed narrative, cover the gap: say what has happened since the date it last ran. If both are empty, an empty string. This is shown to the reader as "Since the previous edition" or "Since" the date of the resumed narrative, so write it for them.
 - claim: two to four sentences, read first when the narrative is opened. The first sentence names the joined events: who, what, where, so that a reader knows at once what has been connected. The rest states the idea and why the join matters. Written for an intelligent general reader in plain descriptive prose. Commit to the interpretation. No disclaimers, and no closing flourish: do not end a paragraph on an epigram or a line designed to be quoted.
 - rungs: three to five rungs, in this order: one or two of kind "observation" (what the headlines say, event by event, across countries), one or two of kind "interpretation" (what joins them: the cause, mechanism, actor or shape, and what it might mean), and always, last, exactly one of kind "break" labelled "The case against" that makes the strongest honest case against the narrative: that the events are not in fact connected, a rival explanation, a sampling objection, a reason the pattern is an artefact of the collection or of English, or a reason you have mistaken a normal thing for a new thing. The break rung must be substantive and specific, not a generic caveat, and it must say, in plain words, what the joined events do not share: the difference that survives the join (one is fraud, one is a flood of applicants, one is the state itself). A narrative that cannot say where its events part is not ready. Observation and interpretation rungs have plain descriptive labels of two to six words saying what they cover ("Four workplace deaths", "Where the money is going"), not titles or images ("Two doors", "The counter goes quiet").
 - each rung has one to three fragments. A fragment has a short plain label, a text of two to five sentences, and the ids of the headlines it rests on (observation and interpretation fragments cite at least one; break fragments may cite none). The text names publishers and countries and quotes headlines in paraphrase. Facts about events come only from the headlines; do not invent them. The connection between events is yours, so state it as an idea, not as a reported fact. A fragment may notice what a headline withholds.
 - bookIds and trajectoryIds: cite a book or a trajectory only when it changes how the fragment reads. Most fragments should cite none. Never more than two per fragment.
 - horizons: after the rungs, "How we got here". Four, in this order, each anchored to the start of a regime most of the world is still living inside: span "since-2020" (the pandemic, the inflation that followed it, the war in Ukraine, the AI wave: the conditions of this decade), "since-2008" (the financial crisis, the smartphone and the platforms, China as the second economy, the end of the belief that globalisation ran itself), "since-1989" (the end of the Cold War, the openings of India and China, the internet, the WTO, the long peace that 2008 and 2022 ended) and "since-1945" (decolonisation, the institutions, the dollar, the welfare state: the order the other three are chapters of). Each horizon answers the same question in the same shape: what did the regime that began then put in place that these headlines are now living inside? Its label is "Since 2020", "Since 2008", "Since 1989" or "Since 1945"; its from field is an empty string. A fifth horizon, span "longer", may be added after the four only when the join is about something older than 1945 and the past genuinely offers better context: water, land, a border, a religion, an empire, a trade route. It names its own starting point: from is a four-digit year ("1916"), its label is "Since" followed by that year or the moment ("Since 1916, the Sykes-Picot line"), and its text explains why that is where this join begins. Most narratives should not have one. Each horizon has a lens of two or three capitalised words separated by " / " naming the kinds of history it draws on (for example "OIL / REVOLUTION / ALLIANCE", "DEMOGRAPHY / HOUSING / PROTEST", "CAPITAL / DISCLOSURE / WATER"), and a text of 130 to 200 words. A horizon places the idea, the join itself, on a longer trajectory: sociological, economic, demographic, migratory, environmental, technological, legal or intellectual, whichever genuinely explain how these different things came to have this in common. Name dates, laws, prices, flows of people, institutions, books and the people who wrote them. Be concrete and specific to the narrative's countries and events; connect at least once in each horizon back to a specific headline in the narrative. Do not write a general history of the period, and do not let the horizons overlap: what belongs to the years since 2020 is said once, there, and the since-2008 horizon begins where that one stops. Do not claim authority: a horizon is a trajectory, not a verdict, and it may say where the trajectory is contested. Each horizon cites one to four trajectories and zero to two books from the library, chosen because they are the moments and arguments the text actually stands on; if the library lacks the moment you need, name it in the text and cite nothing (the longer horizon will often have to). Use only facts you are confident of; where the decade's recent events are known to you only from the headlines, say "by these headlines".
+
+What has been building. Some of what matters most never leads a day. A run of protests, a shortage, a change in how courts or employers behave arrives as three or four headlines a day from different countries, and each day something louder takes the narratives. So the site keeps a notebook between editions, and you are the one who keeps it. You will receive WHAT HAS BEEN BUILDING: subjects earlier editions noticed and did not write, each with its key, a plain description, how many of the last fourteen days it was seen on, its publisher countries, the latest note, and the earlier headlines themselves with their ids, dates and countries. Do two things with it.
+First, keep it. Return building: up to eight subjects that are present in today's collection, are not the subject of a narrative in this edition, and are either in the notebook already or look to you like the start of something that recurs across countries. For each give key (the notebook's key exactly when it is the same subject, a new kebab-case key otherwise), subject (one plain phrase of at most 120 characters naming what recurs: "Weekend protests over living costs in western European cities", not "unrest"), articleIds (one to eight of today's headlines that show it) and note (one plain sentence saying what today added and what would make it a narrative). A subject is a recurring kind of event or a slow development seen from several countries. It is not a single event, a person, a fixture or a genre of news: "murders", "football" and "the weather" are not subjects. Leave out a notebook subject with nothing in today's collection; the site keeps its earlier days. When nothing qualifies, return an empty list.
+Second, write it when it is ready. When a subject has been seen on enough days and from enough countries that the accumulation is itself the news, make it a narrative in this edition, set builds to its key and leave it out of building. Such a narrative may cite the earlier headlines listed in the notebook as well as today's, and must cite at least three of today's. Give the date of every earlier headline you describe ("on 8 November a fifth Saturday of protests was reported in France"), and let time be part of the idea: the line and the claim should say how long this has been going on and what the fortnight shows that no single day did. Do not write a subject up early in order to use it, and do not leave one sitting because no day made room for it: a narrative about something that has built for ten days is worth more to the reader than a further join from the day's loudest story.
 
 Checking earlier expectations. You will also receive OPEN EXPECTATIONS set by earlier editions, each with its id, the date it was set, the line of the narrative that set it, the date it runs to, and what it expects. Return a check for each one with a verdict: "kept" if a headline in this collection reports the thing itself (cite the ids); "failed" if a headline in this collection reports the opposite or rules it out (cite the ids); otherwise "open". Be strict: a headline on the same subject is not the thing itself, and a kept or failed verdict with no headline behind it is discarded by the site. Give a note of one plain sentence saying what the headline reports when the verdict is kept or failed, and an empty note otherwise. An expectation past its date is closed by the site, not by you; check it like the others. When there are no open expectations, return an empty list.
 
@@ -112,12 +125,12 @@ Rules of the game:
 - Each narrative joins at least three different events, reported from at least four countries, and cites between six and twenty-five headlines. Prefer joins that cross registers: a market story with a church story, a sport story with a protest story, a court case with a harvest.
 - Vary the kinds of join across the edition. Not five shared causes; not five shapes.
 - Commit. The structure already contains the doubt (the break rung). Do not write "this does not establish" or "may or may not" inside fragments.
-- Use only headline ids from the collection. Use only book and trajectory ids from the library.
+- Use only headline ids from the collection, or, in a narrative that builds on a notebook subject, from the earlier headlines listed under that subject. Use only book and trajectory ids from the library.
 - Do not repeat the previous edition's lines or claims. If a join continues from a previous edition, set continues to that narrative's id and say in change what has changed. The site keeps every edition, and readers can step back to the one you continue, so the edition as a whole should read as where we are today against where we were yesterday: some narratives continue, some are new, and change says which is which.
 - Write in plain British English. Use hyphens, never dashes. Capitalise proper nouns only.
 - Across the edition the horizons must not repeat each other: if two narratives share a decade, they must read it through different lenses and different moments.
 
-Return JSON matching the schema (its top-level key is still called "readings"; each item is one narrative; "checks" holds the verdicts on the open expectations). Compose three to five narratives: only the joins that hold. If three hold, write three; an edition that reaches for a fourth to fill the page is worse than one that stops, and a quiet day is itself a finding. Fewer, fuller and better evidenced rather than more."""
+Return JSON matching the schema (its top-level key is still called "readings"; each item is one narrative; "checks" holds the verdicts on the open expectations; "building" holds the notebook's subjects for today). Compose three to five narratives: only the joins that hold. If three hold, write three; an edition that reaches for a fourth to fill the page is worse than one that stops, and a quiet day is itself a finding. Fewer, fuller and better evidenced rather than more."""
 
 
 def now_iso():
@@ -173,6 +186,8 @@ SCHEMA = {
                         "additionalProperties": False,
                     },
                     "continues": {"type": "string", "description": "id of the previous edition's narrative this continues, or empty"},
+                    "resumes": {"type": "string", "description": "reference (stamp/id) of the stopped earlier narrative this resumes, or empty"},
+                    "builds": {"type": "string", "description": "key of the notebook subject this narrative is written from, or empty"},
                     "change": {"type": "string", "description": "what has changed since that narrative, or empty"},
                     "claim": {"type": "string"},
                     "events": {
@@ -234,7 +249,7 @@ SCHEMA = {
                     },
                 },
                 },
-                "required": ["id", "line", "kicker", "firmness", "watch", "ahead", "continues", "change", "claim", "events", "rungs", "horizons"],
+                "required": ["id", "line", "kicker", "firmness", "watch", "ahead", "continues", "resumes", "builds", "change", "claim", "events", "rungs", "horizons"],
                 "additionalProperties": False,
             },
         },
@@ -252,8 +267,22 @@ SCHEMA = {
                 "additionalProperties": False,
             },
         },
+        "building": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "key": {"type": "string", "description": "the notebook's key for this subject, or a new kebab-case key"},
+                    "subject": {"type": "string", "description": "one plain phrase naming what recurs"},
+                    "articleIds": {"type": "array", "items": {"type": "string"}},
+                    "note": {"type": "string"},
+                },
+                "required": ["key", "subject", "articleIds", "note"],
+                "additionalProperties": False,
+            },
+        },
     },
-    "required": ["readings", "checks"],
+    "required": ["readings", "checks", "building"],
     "additionalProperties": False,
 }
 
@@ -300,7 +329,184 @@ def watch_block(watch):
     return "OPEN EXPECTATIONS set by earlier editions (id | set on, by which narrative | runs to | what):\n" + "\n".join(lines) + "\n\n"
 
 
-def build_request(news, library, previous, watch=None):
+def stamp_of(iso):
+    return re.sub(r"[^\dT]", "", iso or "")[:15]
+
+
+def day_gap(a, b):
+    """Whole days from date a to date b (YYYY-MM-DD...)."""
+    return (datetime.fromisoformat(b[:10]) - datetime.fromisoformat(a[:10])).days
+
+
+def load_building():
+    if BUILDING.exists():
+        try:
+            return json.loads(BUILDING.read_text())
+        except ValueError:
+            pass
+    return {"schemaVersion": 1, "notes": BUILDING_NOTES, "subjects": []}
+
+
+def open_subjects(building, as_of):
+    """Open subjects with the sightings of the last BUILDING_DAYS days before as_of, most recently seen first."""
+    out = []
+    for s in (building or {}).get("subjects", []):
+        if s.get("status") != "open":
+            continue
+        seen = [x for x in s.get("sightings", []) if 0 <= day_gap(x["date"], as_of) <= BUILDING_DAYS]
+        if seen:
+            out.append((s, sorted(seen, key=lambda x: x["date"])))
+    return sorted(out, key=lambda p: (p[1][-1]["date"], len(p[1])), reverse=True)
+
+
+def subject_rows(sightings, per_day=3, limit=24):
+    """The headlines shown to the writer for one subject: up to three from each day it was seen, newest day first,
+    so that the spread over days is visible and not only the latest day."""
+    rows = []
+    for x in sorted(sightings, key=lambda x: (x["date"], x.get("stamp", "")), reverse=True):
+        rows.extend((x["date"], a) for a in x.get("headlines", [])[:per_day])
+    return rows[:limit]
+
+
+def building_articles(building, as_of, today_ids=()):
+    """The earlier headlines a narrative may cite: those listed to the writer under each open subject."""
+    out, seen = [], set(today_ids)
+    for s, sightings in open_subjects(building, as_of)[:14]:
+        for _, a in subject_rows(sightings):
+            if a["id"] not in seen:
+                seen.add(a["id"])
+                out.append(a)
+    return out
+
+
+def building_block(building, as_of, today_ids=()):
+    subjects = open_subjects(building, as_of)[:14]
+    if not subjects:
+        return "WHAT HAS BEEN BUILDING: (the notebook is empty; start it)\n\n"
+    today = set(today_ids)
+    lines = []
+    for s, sightings in subjects:
+        days = sorted({x["date"] for x in sightings})
+        countries = sorted({a.get("sourceCountry") or "?" for x in sightings for a in x.get("headlines", [])})
+        lines.append(f"{s['key']} | {s['subject']} | seen on {len(days)} of the last {BUILDING_DAYS} days, first {days[0]}, last {days[-1]} | "
+                     f"{len(countries)} publisher countries: {', '.join(countries)} | latest note: {sightings[-1].get('note') or '-'}")
+        for date, a in subject_rows(sightings):
+            t = (a.get("titleEnglish") or a["title"]).replace("\n", " ").strip()
+            mark = " (also in today's collection)" if a["id"] in today else ""
+            lines.append(f"    {a['id']} | {date} | {a.get('sourceCountry')} | {a.get('publisher')} | {t}{mark}")
+    return ("WHAT HAS BEEN BUILDING (the notebook: subjects earlier editions noticed and did not write; key | subject | days seen | "
+            "countries | latest note, then the earlier headlines as id | date | publisher country | publisher | headline):\n" + "\n".join(lines) + "\n\n")
+
+
+def stopped_narratives(previous, as_of):
+    """Narratives of the last RESUME_DAYS days that no later edition continued or resumed, newest first, one per
+    Chronicle thread. Each is (ref, date, kicker, line, thread label)."""
+    index = DATA / "narratives" / "index.json"
+    if not index.exists():
+        return []
+    editions = sorted(json.loads(index.read_text()).get("editions", []), key=lambda e: e["stamp"])
+    prev_stamp = stamp_of((previous or {}).get("newsGeneratedAt") or "")
+    carried = set()
+    for i, e in enumerate(editions):
+        for n in e["narratives"]:
+            if n.get("continues") and i:
+                carried.add(f"{editions[i - 1]['stamp']}/{n['continues']}")
+            if n.get("resumes"):
+                carried.add(n["resumes"])
+    threads = {}
+    try:
+        for t in json.loads((DATA / "chronicle.json").read_text()).get("threads", []):
+            for n in t.get("narratives", []):
+                threads[f"{n['stamp']}/{n['id']}"] = (t.get("key"), t.get("label") or t.get("key"))
+    except (OSError, ValueError):
+        pass
+    out, seen_threads = [], set()
+    for e in reversed(editions):
+        date = (e.get("newsGeneratedAt") or "")[:10]
+        if not date or e["stamp"] >= prev_stamp > "" or not 0 <= day_gap(date, as_of) <= RESUME_DAYS:
+            continue
+        for n in e["narratives"]:
+            ref = f"{e['stamp']}/{n['id']}"
+            if ref in carried:
+                continue
+            key, label = threads.get(ref, (None, ""))
+            if key:
+                if key in seen_threads:
+                    continue
+                seen_threads.add(key)
+            out.append((ref, date, n.get("kicker", ""), n.get("line", ""), label))
+    return out[:45]
+
+
+def stopped_block(previous, as_of):
+    rows = stopped_narratives(previous, as_of)
+    if not rows:
+        return "EARLIER NARRATIVES THAT HAVE STOPPED: (none)\n\n"
+    lines = [f"{ref} | last ran {date} | {kicker} | {line}" + (f" | thread: {label}" if label else "") for ref, date, kicker, line, label in rows]
+    return "EARLIER NARRATIVES THAT HAVE STOPPED (reference | last ran | kicker | line | Chronicle thread):\n" + "\n".join(lines) + "\n\n"
+
+
+def update_building(building, edition, by_id, today_ids, as_of, stamp):
+    """Enter today's sightings in the notebook, mark subjects a narrative was written from, and lapse the unseen.
+    Sightings of the same stamp are replaced, so a recovered edition does not enter them twice."""
+    subjects = {s["key"]: s for s in building.get("subjects", [])}
+    today = as_of[:10]
+    for s in subjects.values():
+        s["sightings"] = [x for x in s.get("sightings", []) if x.get("stamp") != stamp]
+    written = {}
+    for r in edition["readings"]:
+        key = (r.get("builds") or "").strip()
+        if key and key in subjects and subjects[key].get("status") == "open":
+            written[key] = r["id"]
+        else:
+            r["builds"] = ""
+    added = 0
+    for b in (edition.get("building") or [])[:8]:
+        key = re.sub(r"[^a-z0-9]+", "-", (b.get("key") or "").lower()).strip("-")[:60]
+        ids = [x for x in dict.fromkeys(b.get("articleIds") or []) if x in today_ids][:8]
+        subject = (b.get("subject") or "").strip()[:140]
+        if not key or not ids or not subject or key in written:
+            continue
+        s = subjects.get(key)
+        if s is None:
+            s = subjects[key] = {"key": key, "subject": subject, "status": "open", "firstSeen": today, "lastSeen": today, "sightings": [], "written": None}
+        elif s.get("status") == "written":
+            continue  # it has a narrative now; the thread carries it from here
+        s["status"] = "open"
+        s["subject"] = subject
+        s["sightings"].append({"date": today, "stamp": stamp, "note": (b.get("note") or "").strip()[:300],
+                               "headlines": [{k: by_id[x][k] for k in KEEP if k in by_id[x]} for x in ids]})
+        added += 1
+    for key, rid in written.items():
+        subjects[key]["status"] = "written"
+        subjects[key]["written"] = {"stamp": stamp, "id": rid, "asOf": as_of}
+    for s in subjects.values():
+        dates = [x["date"] for x in s["sightings"]]
+        if dates:
+            s["firstSeen"], s["lastSeen"] = min(s.get("firstSeen") or min(dates), min(dates)), max(dates)
+        if s.get("status") == "open" and day_gap(s.get("lastSeen") or today, today) > BUILDING_DAYS:
+            s["status"] = "lapsed"
+    kept = sorted(subjects.values(), key=lambda s: s.get("lastSeen") or "", reverse=True)
+    live = [s for s in kept if s.get("status") == "open"]
+    rest = [s for s in kept if s.get("status") != "open"][:40]  # the record of what was written or lapsed, bounded
+    building["schemaVersion"] = 1
+    building["notes"] = BUILDING_NOTES
+    building["asOf"] = as_of
+    building["subjects"] = live + rest
+    return added, written
+
+
+def cited_ids(reading):
+    out = []
+    for rung in reading.get("rungs", []):
+        for f in rung.get("fragments", []):
+            for x in f.get("articleIds", []):
+                if x not in out:
+                    out.append(x)
+    return out
+
+
+def build_request(news, library, previous, watch=None, building=None):
     lines = []
     for a in news["articles"]:
         t = (a.get("titleEnglish") or a["title"]).replace("\n", " ").strip()
@@ -315,9 +521,11 @@ def build_request(news, library, previous, watch=None):
         f"THE COLLECTION, gathered {news['generatedAt']} ({len(news['articles'])} headlines):\n{collection}\n\n"
         + attention_block() +
         f"THE LIBRARY, books:\n{books}\n\nTHE LIBRARY, trajectories:\n{trajs}\n\n"
+        + building_block(building, news["generatedAt"], {a["id"] for a in news["articles"]}) +
         f"THE PREVIOUS EDITION'S NARRATIVES (id | line):\n{prev}\n\n"
+        + stopped_block(previous, news["generatedAt"])
         + watch_block(watch) +
-        "Compose this edition, and check the open expectations."
+        "Compose this edition, check the open expectations, and keep the notebook."
     )
     return user
 
@@ -420,7 +628,7 @@ def check_horizon_spans(horizons, allow_old=False):
     return out
 
 
-def refuse_narratives(edition, by):
+def refuse_narratives(edition, by, today_ids=None):
     """A narrative that breaks the tile rules (a line that lists its evidence or names a publisher, a missing
     firmness, no usable expectation to watch for, no favoured path ahead) is refused on its own; the edition stands with the rest as long as three remain. Returns the reasons."""
     readings = edition.get("readings", [])
@@ -431,6 +639,8 @@ def refuse_narratives(edition, by):
             reasons.append("no firmness")
         reasons.extend(check_watch(r))
         reasons.extend(check_ahead(r))
+        if today_ids is not None and sum(1 for x in cited_ids(r) if x in today_ids) < 3:
+            reasons.append("cites fewer than three of today's headlines")
         if reasons:
             bad[r.get("id", "?")] = reasons
     if not bad or len(readings) - len(bad) < 3:
@@ -635,7 +845,8 @@ def submit(client, state, news, library, previous, model, effort):
     if state["attempts"] >= cap:
         print(f"oracle already submitted {state['attempts']} time(s) today; nothing sent", file=sys.stderr)
         return None
-    user = build_request(news, library, previous, load_watch())
+    building = load_building()
+    user = build_request(news, library, previous, load_watch(), building)
     try:
         batch = client.messages.batches.create(requests=[{"custom_id": "edition", "params": request_params(model, effort, user)}])
     except anthropic.APIError as error:
@@ -650,6 +861,7 @@ def submit(client, state, news, library, previous, model, effort):
         "effort": effort,
         "newsGeneratedAt": news["generatedAt"],
         "articles": [{k: a[k] for k in KEEP if k in a} for a in news["articles"]],
+        "earlier": building_articles(building, news["generatedAt"], {a["id"] for a in news["articles"]}),
     }
     PENDING.write_text(json.dumps(pending, ensure_ascii=False) + "\n")
     state["attempts"] += 1
@@ -690,12 +902,14 @@ def collect(client, state, pending, library):
         edition = json.loads(text)
     except ValueError as error:
         return fail(state, f"response was not JSON: {error}")
-    snapshot_news = {"generatedAt": pending["newsGeneratedAt"], "articles": pending["articles"]}
-    by_id = {a["id"]: a for a in pending["articles"]}
+    today_ids = {a["id"] for a in pending["articles"]}
+    earlier = [a for a in pending.get("earlier") or [] if a["id"] not in today_ids]
+    snapshot_news = {"generatedAt": pending["newsGeneratedAt"], "articles": pending["articles"] + earlier}
+    by_id = {a["id"]: a for a in snapshot_news["articles"]}
     moved = normalise_watch(edition, pending["newsGeneratedAt"])
     if moved:
         note(state, "expectation dates moved into range: " + "; ".join(moved))
-    refused = refuse_narratives(edition, by_id)
+    refused = refuse_narratives(edition, by_id, today_ids)
     if refused:
         note(state, "narratives refused: " + "; ".join(refused))
         print("oracle: narratives refused, the edition stands without them: " + "; ".join(refused), file=sys.stderr)
@@ -710,12 +924,27 @@ def collect(client, state, pending, library):
     WATCH.write_text(json.dumps(watch, ensure_ascii=False, indent=1) + "\n")
     edition.pop("checks", None)
     previous = json.loads((DATA / "readings.json").read_text()) if (DATA / "readings.json").exists() else {}
+    if previous.get("newsGeneratedAt") == as_of:  # a recovered edition replaces itself: look one further back
+        previous = previous_edition(stamp) or {}
     prev_ids = {r["id"] for r in previous.get("readings", [])}
+    stopped = {row[0] for row in stopped_narratives(previous, as_of)}
+    building = load_building()
+    noted, written = update_building(building, edition, by_id, today_ids, as_of, stamp)
+    BUILDING.write_text(json.dumps(building, ensure_ascii=False, indent=1) + "\n")
+    edition.pop("building", None)
+    held = {s["key"]: s for s in building["subjects"]}
+    for r in edition["readings"]:
+        s = held.get(r.get("builds") or "")
+        if s:
+            earlier = sorted({x["date"] for x in s.get("sightings", [])})
+            r["built"] = {"key": s["key"], "subject": s["subject"], "firstSeen": s.get("firstSeen") or as_of[:10], "days": len(earlier)}
     cited = []
     for r in edition["readings"]:
         if r.get("continues") and r["continues"] not in prev_ids:
             r["continues"] = ""
-        if not r.get("continues"):
+        if r.get("continues") or (r.get("resumes") or "") not in stopped:
+            r["resumes"] = ""
+        if not r.get("continues") and not r.get("resumes"):
             r["change"] = ""
         ids = []
         for rung in r["rungs"]:
@@ -727,18 +956,19 @@ def collect(client, state, pending, library):
         cited.extend(i for i in ids if i not in cited)
     usage = {"input": message.usage.input_tokens, "output": message.usage.output_tokens, "tier": "batch"}
     out = {
-        "schemaVersion": 5,
+        "schemaVersion": 6,
         "generatedAt": now_iso(),
         "newsGeneratedAt": pending["newsGeneratedAt"],
         "method": "claude-api-batch",
         "model": message.model,
-        "promptVersion": "narrative-8",
+        "promptVersion": "narrative-9",
         "previousNewsGeneratedAt": previous.get("newsGeneratedAt"),
         "usage": usage,
         "notes": [
             "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
             "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
             "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+            "A narrative may also resume one that stopped in the last four weeks ('resumes' gives that edition's stamp and the narrative's id), and may be written from a subject the site's notebook has been keeping ('builds'); such a narrative can cite headlines from earlier days, each shown with its date, beside at least three of the day's own.",
             "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
             "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
             "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
@@ -756,8 +986,15 @@ def collect(client, state, pending, library):
     note(state, "ok", batchId=pending["batchId"], usage=usage)
     n_watch = sum(len(r.get("watch") or []) for r in out["readings"])
     print(f"composed {len(out['readings'])} readings with {message.model} (batch); {usage['input']} in / {usage['output']} out tokens; "
-          f"{n_watch} expectations set, {len(settled)} settled ({sum(1 for x in settled if x['status'] == 'kept')} kept)")
+          f"{n_watch} expectations set, {len(settled)} settled ({sum(1 for x in settled if x['status'] == 'kept')} kept); "
+          f"notebook: {noted} subjects noted, {len(written)} written up")
     return True
+
+
+def previous_edition(stamp):
+    """The archived edition before the one with this stamp, if any."""
+    files = sorted(p for p in (DATA / "narratives").glob("2*.json") if p.stem < stamp)
+    return json.loads(files[-1].read_text()) if files else None
 
 
 def describe_error(res):
@@ -806,7 +1043,9 @@ def main():
     effort = os.environ.get("ORACLE_EFFORT") or "high"
     wait = float(os.environ.get("ORACLE_WAIT_MINUTES") or "25")
     if args.dry_run:
-        user = build_request(news, library, previous, load_watch())
+        user = build_request(news, library, previous, load_watch(), load_building())
+        if os.environ.get("ORACLE_SHOW"):
+            print(user[user.index("WHAT HAS BEEN BUILDING"):user.index("OPEN EXPECTATIONS")])
         print(f"dry run: {len(user):,} characters of input for {model} via the batch API; no request made")
         return 0
     if not os.environ.get("ANTHROPIC_API_KEY"):
@@ -827,6 +1066,7 @@ def main():
             "batchId": args.recover, "submittedAt": now_iso(), "model": model, "effort": effort,
             "newsGeneratedAt": news["generatedAt"],
             "articles": [{k: a[k] for k in KEEP if k in a} for a in news["articles"]],
+            "earlier": building_articles(load_building(), news["generatedAt"], {a["id"] for a in news["articles"]}),
         }
         note(state, f"recovering batch {args.recover} against the collection of {news['generatedAt']}")
         done = collect(client, state, pending, library)

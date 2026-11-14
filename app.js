@@ -1065,11 +1065,25 @@
     const i = editions.findIndex(e => e.stamp === currentStamp());
     const prev = i >= 0 ? editions[i + 1] : null, prevN = prev && r.continues ? prev.narratives.find(n => n.id === r.continues) : null;
     let next = null, nextN = null;
-    for (let j = i - 1; j >= 0 && !nextN; j--) { const n = editions[j].narratives.find(n => n.continues === r.id); if (n) { next = editions[j]; nextN = n; } }
-    if (!prevN && !nextN && !r.change) return null;
+    const here = `${currentStamp()}/${r.id}`;
+    for (let j = i - 1; j >= 0 && !nextN; j--) { const n = editions[j].narratives.find(n => (j === i - 1 && n.continues === r.id) || n.resumes === here); if (n) { next = editions[j]; nextN = n; } }
+    /* a narrative can take up one that stopped some editions back (resumes: "stamp/id"), and can be written from a
+       subject the notebook had been keeping (built: what it was, since when, on how many days) */
+    const ref = r.resumes ? r.resumes.split('/') : null, res = ref ? editions.find(e => e.stamp === ref[0]) : null, resN = res ? res.narratives.find(n => n.id === ref[1]) : null;
+    if (!prevN && !nextN && !r.change && !resN && !r.built) return null;
     const wrap = create('section', 'since');
-    wrap.append(create('p', 'sect', 'SINCE THE PREVIOUS EDITION'));
+    if (r.built) {
+      wrap.append(create('p', 'sect', `BUILDING SINCE ${fmtDay(r.built.firstSeen).toUpperCase()}`));
+      wrap.append(create('p', 'since-text', `No single day made this a narrative. The site noted it on ${r.built.days} day${r.built.days === 1 ? '' : 's'} from ${fmtDay(r.built.firstSeen)} before writing it: ${r.built.subject}. Headlines from those days are cited below with their dates.`));
+    }
+    if (prevN || resN || nextN || r.change) wrap.append(create('p', 'sect', resN ? `SINCE ${fmtDay(res.newsGeneratedAt).toUpperCase()}` : 'SINCE THE PREVIOUS EDITION'));
     if (r.change) wrap.append(create('p', 'since-text', r.change));
+    if (resN) {
+      const b = create('button', 'text since-link'); b.type = 'button';
+      b.append(create('span', 'arrow', '← '), create('span', 'w', `resumes, from ${fmt(res.newsGeneratedAt)}: `), create('span', 'q', resN.line));
+      b.addEventListener('click', () => showEdition(res.stamp, resN.id));
+      wrap.append(b);
+    }
     if (prevN) {
       const b = create('button', 'text since-link'); b.type = 'button';
       b.append(create('span', 'arrow', '← '), create('span', 'w', `continues, from ${fmt(prev.newsGeneratedAt)}: `), create('span', 'q', prevN.line));
@@ -1078,7 +1092,7 @@
     }
     if (nextN) {
       const b = create('button', 'text since-link'); b.type = 'button';
-      b.append(create('span', 'w', `continued on ${fmt(next.newsGeneratedAt)}: `), create('span', 'q', nextN.line), create('span', 'arrow', ' →'));
+      b.append(create('span', 'w', `${nextN.resumes === here ? 'resumed' : 'continued'} on ${fmt(next.newsGeneratedAt)}: `), create('span', 'q', nextN.line), create('span', 'arrow', ' →'));
       b.addEventListener('click', () => showEdition(next.stamp, nextN.id));
       wrap.append(b);
     }
@@ -1474,7 +1488,7 @@
       e.narratives.forEach((n, i) => {
         const li = create('li');
         const btn = create('button', 'edition-narrative' + (e.stamp === currentStamp() && n.id === state.reading ? ' open' : '')); btn.type = 'button';
-        btn.append(create('span', 'k', `${String(i + 1).padStart(2, '0')} · ${n.kicker}${n.continues ? ' · CONTINUES' : ''}`), create('span', 'n', n.line));
+        btn.append(create('span', 'k', `${String(i + 1).padStart(2, '0')} · ${n.kicker}${n.continues ? ' · CONTINUES' : n.resumes ? ' · RESUMES' : n.builds ? ' · BUILT OVER DAYS' : ''}`), create('span', 'n', n.line));
         btn.addEventListener('click', () => { openPanel('editions'); showEdition(e.stamp, n.id); });
         li.append(btn); ol.append(li);
       });

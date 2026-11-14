@@ -24,6 +24,12 @@
         if (p && me) { p.next.push(me); me.prev = p; }
       });
     });
+    // a narrative that takes up one that stopped some editions back: the same thread, across the gap
+    editions.forEach(e => e.narratives.forEach(n => {
+      if (!n.resumes) return;
+      const p = nodes.get(n.resumes.replace('/', '|')), me = nodes.get(`${e.stamp}|${n.id}`);
+      if (p && me && !me.prev && p.col < me.col) { p.next.push(me); me.prev = p; }
+    }));
     // the Chronicle's own grouping: where it runs narratives together that do not declare a continuation, draw that too, dotted
     (chronicle && chronicle.threads || []).forEach(t => {
       const members = t.narratives.map(r => nodes.get(`${r.stamp}|${r.id}`)).filter(Boolean).sort((a, b) => a.col - b.col);
