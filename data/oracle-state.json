@@ -1,32 +1,7 @@
 {
- "day": "2026-11-13",
+ "day": "2026-11-14",
  "attempts": 1,
  "history": [
-  {
-   "at": "2026-10-30T02:08:50Z",
-   "note": "ok",
-   "batchId": "msgbatch_01Bc9aAcyMsTEmRXTZSFPHBC",
-   "usage": {
-    "input": 63659,
-    "output": 45843,
-    "tier": "batch"
-   }
-  },
-  {
-   "at": "2026-10-31T01:36:58Z",
-   "note": "submitted",
-   "batchId": "msgbatch_01651fFD5eqW3cD2E9G9QXzM"
-  },
-  {
-   "at": "2026-10-31T01:44:31Z",
-   "note": "ok",
-   "batchId": "msgbatch_01651fFD5eqW3cD2E9G9QXzM",
-   "usage": {
-    "input": 63774,
-    "output": 52254,
-    "tier": "batch"
-   }
-  },
   {
    "at": "2026-11-01T01:09:15Z",
    "note": "submitted",
@@ -242,6 +217,21 @@
    "usage": {
     "input": 78851,
     "output": 71704,
+    "tier": "batch"
+   }
+  },
+  {
+   "at": "2026-11-14T20:44:23Z",
+   "note": "submitted",
+   "batchId": "msgbatch_01CX7c8nKJxXFE8DXcHjzAr9"
+  },
+  {
+   "at": "2026-11-14T20:52:41Z",
+   "note": "ok",
+   "batchId": "msgbatch_01CX7c8nKJxXFE8DXcHjzAr9",
+   "usage": {
+    "input": 64579,
+    "output": 72466,
     "tier": "batch"
    }
   }

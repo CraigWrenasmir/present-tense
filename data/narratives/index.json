@@ -1,6 +1,61 @@
 {
  "editions": [
   {
+   "stamp": "20261114T204311",
+   "file": "data/narratives/20261114T204311.json",
+   "newsGeneratedAt": "2026-11-14T20:43:11Z",
+   "generatedAt": "2026-11-14T20:52:41Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-7",
+   "narratives": [
+    {
+     "id": "backup-left-to-households",
+     "kicker": "OUTAGES / CONTINGENCY / THE PUBLIC",
+     "line": "After this week's Microsoft and air traffic failures, the fallback for shared digital systems is left to households and staff.",
+     "events": 6,
+     "headlines": 14,
+     "countries": 11,
+     "continues": "one-system-no-fallback",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "europe-security-bargained-elsewhere",
+     "kicker": "ALLIANCE / NUCLEAR COVER / GREAT POWERS",
+     "line": "Five years after Russia's 2021 draft treaties, NATO's shape is bargained in talks Europe does not lead.",
+     "events": 6,
+     "headlines": 13,
+     "countries": 10,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "rule-set-incomes-fall-behind",
+     "kicker": "PAY / INDEXATION / LIVING COSTS",
+     "line": "Five years into the price rise, incomes set by formula or grant have fallen furthest behind, and their holders now protest or close.",
+     "events": 6,
+     "headlines": 8,
+     "countries": 5,
+     "continues": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "food-supply-returns-to-the-state",
+     "kicker": "FERTILISER / RETAIL / THE STATE",
+     "line": "Five years of high food prices and cut supply routes have put governments back into selling food and choosing which crops are grown.",
+     "events": 6,
+     "headlines": 7,
+     "countries": 5,
+     "continues": "",
+     "firmness": "tentative",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261113T215832",
    "file": "data/narratives/20261113T215832.json",
    "newsGeneratedAt": "2026-11-13T21:58:32Z",
