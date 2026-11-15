@@ -1,22 +1,7 @@
 {
- "day": "2026-11-14",
+ "day": "2026-11-15",
  "attempts": 1,
  "history": [
-  {
-   "at": "2026-11-01T01:09:15Z",
-   "note": "submitted",
-   "batchId": "msgbatch_016whhFRFQnBMyxTy914RN87"
-  },
-  {
-   "at": "2026-11-01T01:18:18Z",
-   "note": "ok",
-   "batchId": "msgbatch_016whhFRFQnBMyxTy914RN87",
-   "usage": {
-    "input": 34263,
-    "output": 55858,
-    "tier": "batch"
-   }
-  },
   {
    "at": "2026-11-02T01:30:48Z",
    "note": "submitted",
@@ -234,6 +219,15 @@
     "output": 72466,
     "tier": "batch"
    }
+  },
+  {
+   "at": "2026-11-15T21:03:06Z",
+   "note": "submitted",
+   "batchId": "msgbatch_01WXdy7nxtwuDqJzSq3mfWxd"
+  },
+  {
+   "at": "2026-11-15T21:04:37Z",
+   "note": "batch errored: {\"error\": {\"message\": \"The compiled grammar is too large, which would cause performance issues. Simplify your tool schemas or reduce the number of strict tools.\", \"type\": \"invalid_request_error\", \"details\": null}, \"request_id\": \"req_011Ch5PdHxcJ8bjsnCNPUrwB\", \"type\": \"error\"}"
   }
  ]
 }
