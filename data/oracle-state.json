@@ -1,6 +1,6 @@
 {
  "day": "2026-11-17",
- "attempts": 1,
+ "attempts": 2,
  "history": [
   {
    "at": "2026-11-04T21:53:24Z",
@@ -210,6 +210,15 @@
   {
    "at": "2026-11-17T00:16:48Z",
    "note": "batch errored: {\"error\": {\"message\": \"The compiled grammar is too large, which would cause performance issues. Simplify your tool schemas or reduce the number of strict tools.\", \"type\": \"invalid_request_error\", \"details\": null}, \"request_id\": \"req_011Ch7Y6ckQVwiLsiBY5kPxC\", \"type\": \"error\"}"
+  },
+  {
+   "at": "2026-11-17T13:24:30Z",
+   "note": "submitted",
+   "batchId": "msgbatch_016J7pYhCyQrTqvjZXYm3GRi"
+  },
+  {
+   "at": "2026-11-17T13:26:47Z",
+   "note": "batch errored: {\"error\": {\"message\": \"The compiled grammar is too large, which would cause performance issues. Simplify your tool schemas or reduce the number of strict tools.\", \"type\": \"invalid_request_error\", \"details\": null}, \"request_id\": \"req_011Ch8aHxrAtXHBRjgzH9kh4\", \"type\": \"error\"}"
   }
  ]
 }
