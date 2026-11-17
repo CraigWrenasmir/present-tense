@@ -163,3 +163,8 @@ jobs:
             echo
             echo "A failed step keeps the previous edition. The page shows its own timestamps."
           } >> "$GITHUB_STEP_SUMMARY"
+      - name: Fail the run when no edition could be written
+        if: steps.oracle.outcome == 'failure' || steps.collect-oracle.outcome == 'failure'
+        run: |
+          echo "::error::The writer step failed, so the site still shows the previous edition. See data/oracle-state.json for the reason."
+          exit 1
