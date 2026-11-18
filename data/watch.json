@@ -1371,8 +1371,31 @@
    "what": "A US bill or Commerce Department rule to tighten Chinese access to AI chips is introduced, with the Nvidia spy allegation named as a reason.",
    "by": "2026-12-05",
    "because": "If the affair is treated as a security matter because Nvidia carries the AI build, its first lasting result should be law, not only a share price.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261117T232955",
+    "asOf": "2026-11-17T23:29:55Z",
+    "how": "headline",
+    "note": "Handelsblatt reports Trump's new chip rules under the heading of the Nvidia affair, and Fortune reports the US proposing to extend AI chip controls to Southeast Asia.",
+    "headlines": [
+     {
+      "id": "n-00415e2fd71e29",
+      "title": "Nvidia-Affäre: Trumps neue Chipregeln verunsichern Verbündete",
+      "titleEnglish": "Nvidia affair: Trump's new chip rules unsettle allies",
+      "url": "https://www.handelsblatt.com/politik/international/nvidia-affaere-trumps-neue-chipregeln-verunsichern-verbuendete/100270446.html",
+      "publisher": "handelsblatt.com",
+      "sourceCountry": "Germany"
+     },
+     {
+      "id": "n-6c4c7a7f93aeed",
+      "title": "Singapore defends status as a ‘trusted business hub’ after the U.S. proposes extending AI chip controls to Southeast Asia | Fortune",
+      "titleEnglish": "Singapore defends status as a ‘trusted business hub’ after the U.S. proposes extending AI chip controls to Southeast Asia | Fortune",
+      "url": "https://fortune.com/2026/11/17/sg-us-ai-chip-controls-southeast-asia/",
+      "publisher": "Fortune",
+      "sourceCountry": "United States"
+     }
+    ]
+   }
   },
   {
    "id": "20261110T001511-one-chip-firm-carries-ai-risk-2",
@@ -1525,8 +1548,31 @@
    "what": "Anthropic cuts the size or price range of its IPO, or delays it, before listing.",
    "by": "2026-12-08",
    "because": "If lab valuations rest on suppliers' money, public buyers will price them lower, as they already price CoreWeave 65% below its peak despite strong results.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261117T232955",
+    "asOf": "2026-11-17T23:29:55Z",
+    "how": "headline",
+    "note": "Anthropic is reported pushing its IPO price to the upper end of the range or higher, with several subscription orders of $10bn or more, the opposite of a cut.",
+    "headlines": [
+     {
+      "id": "n-286e00cf1eb189",
+      "title": "Anthropic据悉将把IPO定价推向区间上限或更高水平",
+      "titleEnglish": "Anthropic reportedly to push IPO pricing to upper end of range or higher",
+      "url": "https://www.nbd.com.cn/articles/2026-11-17/4650662.html",
+      "publisher": "nbd.com.cn",
+      "sourceCountry": "China"
+     },
+     {
+      "id": "n-3da903c2153baf",
+      "title": "Anthropic已获得多笔规模达到100亿美元或以上的IPO认购订单",
+      "titleEnglish": "Anthropic has received multiple IPO subscription orders of $10 billion or more",
+      "url": "https://www.yicai.com/brief/103444281.html",
+      "publisher": "yicai.com",
+      "sourceCountry": "China"
+     }
+    ]
+   }
   },
   {
    "id": "20261110T214741-secrets-reached-through-people-1",
@@ -1996,6 +2042,118 @@
    "what": "Another city or national government outside Egypt and the United States announces publicly run or publicly subsidised food shops.",
    "by": "2026-12-12",
    "because": "The join holds that public authorities are taking back the selling of food, so New York's stores should not stay an isolated case.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261117T232955-chip-rules-fall-on-transit-states-1",
+   "stamp": "20261117T232955",
+   "asOf": "2026-11-17T23:29:55Z",
+   "narrativeId": "chip-rules-fall-on-transit-states",
+   "kicker": "ENFORCEMENT / ALLIES / LIABILITY",
+   "line": "The chip scandal has not cut the chipmaker's sales, and the burden of proof now falls on the countries its chips pass through.",
+   "firmness": "plausible",
+   "what": "A Southeast Asian government or business group says the US chip proposal would cost it data-centre investment or projects.",
+   "by": "2026-12-01",
+   "because": "If the cost of the scandal is being moved onto transit states rather than the seller, those states will be the first to count and protest it.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261117T232955-chip-rules-fall-on-transit-states-2",
+   "stamp": "20261117T232955",
+   "asOf": "2026-11-17T23:29:55Z",
+   "narrativeId": "chip-rules-fall-on-transit-states",
+   "kicker": "ENFORCEMENT / ALLIES / LIABILITY",
+   "line": "The chip scandal has not cut the chipmaker's sales, and the burden of proof now falls on the countries its chips pass through.",
+   "firmness": "plausible",
+   "what": "Reports of Huang's 1 December hearing say lawmakers pressed Nvidia on sales routed through Singapore, Malaysia or other Southeast Asian hubs.",
+   "by": "2026-12-03",
+   "because": "The join holds that the scandal is now about the places chips pass through, so the hearing should turn on routes and hubs rather than on one man's conduct.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261117T232955-crossings-struck-before-summit-1",
+   "stamp": "20261117T232955",
+   "asOf": "2026-11-17T23:29:55Z",
+   "narrativeId": "crossings-struck-before-summit",
+   "kicker": "LEVERAGE / INFRASTRUCTURE / TALKS",
+   "line": "Before leaders meet over two wars, each side strikes bridges and islands, the crossings a settlement would have to assign.",
+   "firmness": "tentative",
+   "what": "Reports from the Shenzhen meeting say Crimea, the Kerch crossing or shipping through the Strait of Hormuz was discussed by the leaders.",
+   "by": "2026-11-26",
+   "because": "If the bridges and islands are struck as bargaining positions, they should appear on the agenda the strikes were meant to shape.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261117T232955-crossings-struck-before-summit-2",
+   "stamp": "20261117T232955",
+   "asOf": "2026-11-17T23:29:55Z",
+   "narrativeId": "crossings-struck-before-summit",
+   "kicker": "LEVERAGE / INFRASTRUCTURE / TALKS",
+   "line": "Before leaders meet over two wars, each side strikes bridges and islands, the crossings a settlement would have to assign.",
+   "firmness": "tentative",
+   "what": "Russia or Ukraine proposes a mutual halt to strikes on bridges or energy sites as part of the talks.",
+   "by": "2026-12-05",
+   "because": "Targets chosen for their value at the table are the ones each side will offer to stop hitting in exchange for something.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261117T232955-europe-weekly-protests-living-costs-1",
+   "stamp": "20261117T232955",
+   "asOf": "2026-11-17T23:29:55Z",
+   "narrativeId": "europe-weekly-protests-living-costs",
+   "kicker": "COST OF LIVING / THE STREET / COMPENSATION",
+   "line": "Two weeks of protest over prices and rents have been met with wage and pension top-ups, while the energy shock behind prices goes on.",
+   "firmness": "plausible",
+   "what": "France's interior ministry reports a further national protest day with fewer than 146,000 taking part.",
+   "by": "2026-12-01",
+   "because": "If concessions compensate incomes without touching the cause, the protests should keep shrinking without stopping.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261117T232955-europe-weekly-protests-living-costs-2",
+   "stamp": "20261117T232955",
+   "asOf": "2026-11-17T23:29:55Z",
+   "narrativeId": "europe-weekly-protests-living-costs",
+   "kicker": "COST OF LIVING / THE STREET / COMPENSATION",
+   "line": "Two weeks of protest over prices and rents have been met with wage and pension top-ups, while the energy shock behind prices goes on.",
+   "firmness": "plausible",
+   "what": "Spain or Portugal announces a wage, benefit or tax relief measure, rather than a rent limit, in answer to the housing protests.",
+   "by": "2026-12-08",
+   "because": "The join holds that governments answer this wave by adding to incomes, not by acting on what sets rents and prices.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261117T232955-failures-hard-to-tell-apart-1",
+   "stamp": "20261117T232955",
+   "asOf": "2026-11-17T23:29:55Z",
+   "narrativeId": "failures-hard-to-tell-apart",
+   "kicker": "FAULTS / SABOTAGE / ATTRIBUTION",
+   "line": "Outages from updates, flaws and attacks now come in the same week, and users cannot tell which kind has hit them.",
+   "firmness": "tentative",
+   "what": "A company or agency revises its stated cause of an outage, from a fault to an attack or from an attack to a fault.",
+   "by": "2026-12-08",
+   "because": "If faults and attacks look alike at first, some first explanations given this month will turn out to be wrong.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261117T232955-failures-hard-to-tell-apart-2",
+   "stamp": "20261117T232955",
+   "asOf": "2026-11-17T23:29:55Z",
+   "narrativeId": "failures-hard-to-tell-apart",
+   "kicker": "FAULTS / SABOTAGE / ATTRIBUTION",
+   "line": "Outages from updates, flaws and attacks now come in the same week, and users cannot tell which kind has hit them.",
+   "firmness": "tentative",
+   "what": "A government or regulator issues public guidance on checking whether an outage notice, alert or warning message is genuine.",
+   "by": "2026-12-10",
+   "because": "When users cannot tell a real failure or warning from a false one, the first official response should be advice on telling them apart.",
    "status": "open",
    "resolved": null
   }

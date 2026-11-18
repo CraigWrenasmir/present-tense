@@ -1,6 +1,69 @@
 {
  "editions": [
   {
+   "stamp": "20261117T232955",
+   "file": "data/narratives/20261117T232955.json",
+   "newsGeneratedAt": "2026-11-17T23:29:55Z",
+   "generatedAt": "2026-11-18T00:11:23Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-10",
+   "narratives": [
+    {
+     "id": "chip-rules-fall-on-transit-states",
+     "kicker": "ENFORCEMENT / ALLIES / LIABILITY",
+     "line": "The chip scandal has not cut the chipmaker's sales, and the burden of proof now falls on the countries its chips pass through.",
+     "events": 6,
+     "headlines": 19,
+     "countries": 12,
+     "continues": "",
+     "resumes": "20261113T215832/chip-scandal-becomes-enforcement-dispute",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "crossings-struck-before-summit",
+     "kicker": "LEVERAGE / INFRASTRUCTURE / TALKS",
+     "line": "Before leaders meet over two wars, each side strikes bridges and islands, the crossings a settlement would have to assign.",
+     "events": 6,
+     "headlines": 22,
+     "countries": 14,
+     "continues": "",
+     "resumes": "20261113T215832/strikes-run-alongside-talks",
+     "builds": "",
+     "firmness": "tentative",
+     "watch": 2
+    },
+    {
+     "id": "europe-weekly-protests-living-costs",
+     "kicker": "COST OF LIVING / THE STREET / COMPENSATION",
+     "line": "Two weeks of protest over prices and rents have been met with wage and pension top-ups, while the energy shock behind prices goes on.",
+     "events": 6,
+     "headlines": 18,
+     "countries": 12,
+     "continues": "",
+     "resumes": "",
+     "builds": "europe-weekly-protests-living-costs",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "failures-hard-to-tell-apart",
+     "kicker": "FAULTS / SABOTAGE / ATTRIBUTION",
+     "line": "Outages from updates, flaws and attacks now come in the same week, and users cannot tell which kind has hit them.",
+     "events": 6,
+     "headlines": 16,
+     "countries": 15,
+     "continues": "backup-left-to-households",
+     "resumes": "",
+     "builds": "",
+     "firmness": "tentative",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261114T204311",
    "file": "data/narratives/20261114T204311.json",
    "newsGeneratedAt": "2026-11-14T20:43:11Z",

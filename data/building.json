@@ -2,15 +2,1286 @@
  "schemaVersion": 1,
  "notes": [
   "What has been building: subjects the writer noticed in a day's headlines and did not write a narrative about, kept from edition to edition with the headlines that showed them. Some things never lead a day; this is where they are held until the days add up.",
-  "A subject is open while it has been seen in the last fourteen days. When a narrative is written from it, it is marked written with that narrative; when it goes fourteen days unseen it lapses. Sightings are added, never reworded.",
-  "The subjects first entered on 15 November 2026 were drawn by hand from the stored collections of 1 to 14 November, to start the notebook; every later sighting is the writer's."
+  "A subject is open while it has been seen in the last fourteen days. When a narrative is written from it, it is marked written with that narrative; when it goes fourteen days unseen it lapses. Sightings are added, never reworded."
  ],
- "asOf": "2026-11-14T20:43:11Z",
+ "asOf": "2026-11-17T23:29:55Z",
  "subjects": [
+  {
+   "key": "students-blockades-and-arrests",
+   "subject": "School and university students blockading, occupying and being arrested or suspended",
+   "status": "open",
+   "firstSeen": "2026-11-02",
+   "lastSeen": "2026-11-17",
+   "sightings": [
+    {
+     "date": "2026-11-02",
+     "stamp": "seed-2026-11-02",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-4bb09772882f29",
+       "title": "Estudantes fazem ato em 9 estados contra Flávio Bolsonaro e de apoio à reeleição de Lula - Jornal de Brasília",
+       "titleEnglish": "Students hold protests in 9 states against Flávio Bolsonaro and in support of Lula's re-election - Jornal de Brasília",
+       "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/estudantes-fazem-ato-em-9-estados-contra-flavio-bolsonaro-e-de-apoio-a-reeleicao-de-lula/",
+       "publisher": "Jornal de Brasília",
+       "publisherDomain": "jornaldebrasilia.com.br",
+       "publishedAt": "2026-11-01T16:17:00Z",
+       "seenAt": "2026-11-01T16:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Brazil",
+       "sourceCountryCode": "BR",
+       "sourceRegion": "Latin America",
+       "sourceLat": -14,
+       "sourceLon": -52,
+       "language": "pt"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-03",
+     "stamp": "seed-2026-11-03",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-ce410ac053b0aa",
+       "title": "Students blockade dozens of French schools and universities",
+       "titleEnglish": "Students blockade dozens of French schools and universities",
+       "url": "https://www.nzherald.co.nz/world/students-blockade-dozens-of-french-schools-and-universities/6YTEI5KZ3NFKBBGBZDPK3JKPLM/",
+       "publisher": "NZ Herald",
+       "publisherDomain": "nzherald.co.nz",
+       "publishedAt": "2026-11-03T20:32:00Z",
+       "seenAt": "2026-11-03T20:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "New Zealand",
+       "sourceCountryCode": "NZ",
+       "sourceRegion": "Oceania",
+       "sourceLat": -41,
+       "sourceLon": 174,
+       "language": "en"
+      },
+      {
+       "id": "n-9881690b42d595",
+       "title": "Students blockade dozens of high schools in France",
+       "titleEnglish": "Students blockade dozens of high schools in France",
+       "url": "https://www.arabnews.com/world/students-blockade-dozens-of-high-schools-in-france-3009573",
+       "publisher": "arabnews.com",
+       "publisherDomain": "arabnews.com",
+       "publishedAt": "2026-11-03T11:32:59Z",
+       "seenAt": "2026-11-03T11:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Saudi Arabia",
+       "sourceCountryCode": "SA",
+       "sourceRegion": "Middle East",
+       "sourceLat": 24,
+       "sourceLon": 45,
+       "language": "en"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-07",
+     "stamp": "seed-2026-11-07",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-4371641901a135",
+       "title": "Sanskrit varsity suspension row: Prakash Raj says protesting students ‘are not Savarkars’ to tender apology",
+       "titleEnglish": "Sanskrit varsity suspension row: Prakash Raj says protesting students ‘are not Savarkars’ to tender apology",
+       "url": "https://www.thehindu.com/news/national/kerala/suspension-row-at-sanskrit-varsity-prakash-raj-says-protesting-students-are-not-savarkars-to-tender-apology/article71677687.ece",
+       "publisher": "The Hindu",
+       "publisherDomain": "thehindu.com",
+       "publishedAt": "2026-11-07T09:41:20Z",
+       "seenAt": "2026-11-07T09:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "India",
+       "sourceCountryCode": "IN",
+       "sourceRegion": "Asia",
+       "sourceLat": 22,
+       "sourceLon": 79,
+       "language": "en"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-10",
+     "stamp": "seed-2026-11-10",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-391553bb6731d1",
+       "title": "Blocage des lycées : des enseignants toulousains font classe dehors par solidarité avec leurs élèves, \"Les mobilisations ne sont pas un conflit entre prof et élèves\"",
+       "titleEnglish": "High school blockades: Toulouse teachers hold class outside in solidarity with their students, \"Protests are not a conflict between teachers and students\"",
+       "url": "https://www.ladepeche.fr/2026/11/10/blocage-des-lycees-des-enseignants-toulousains-font-classe-dehors-par-solidarite-avec-leurs-eleves-les-mobilisations-ne-sont-pas-un-conflit-entre-prof-13645346.php",
+       "publisher": "ladepeche.fr",
+       "publisherDomain": "ladepeche.fr",
+       "publishedAt": "2026-11-10T11:32:00Z",
+       "seenAt": "2026-11-10T11:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "France",
+       "sourceCountryCode": "FR",
+       "sourceRegion": "Europe",
+       "sourceLat": 46,
+       "sourceLon": 2,
+       "language": "fr"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-11",
+     "stamp": "seed-2026-11-11",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-25a5703478f70e",
+       "title": "Fransa'da okullardaki protestolar nedeniyle özel ders talebi arttı",
+       "titleEnglish": "In France, demand for private tutoring rises due to protests at schools",
+       "url": "https://www.aa.com.tr/tr/dunya/fransada-okullardaki-protestolar-nedeniyle-ozel-ders-talebi-artti/4120182",
+       "publisher": "Anadolu Ajansı",
+       "publisherDomain": "aa.com.tr",
+       "publishedAt": "2026-11-11T14:01:42Z",
+       "seenAt": "2026-11-11T11:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Turkey",
+       "sourceCountryCode": "TR",
+       "sourceRegion": "Middle East",
+       "sourceLat": 39,
+       "sourceLon": 35,
+       "language": "tr"
+      },
+      {
+       "id": "n-922c6d58e991c3",
+       "title": "HC asks SSUS why it persists with demand for apology from protesting students who were already under suspension",
+       "titleEnglish": "HC asks SSUS why it persists with demand for apology from protesting students who were already under suspension",
+       "url": "https://www.thehindu.com/news/national/kerala/hc-asks-ssus-why-it-persists-with-demand-for-apology-from-protesting-students-who-were-already-under-suspension/article71689276.ece",
+       "publisher": "The Hindu",
+       "publisherDomain": "thehindu.com",
+       "publishedAt": "2026-11-11T11:34:51Z",
+       "seenAt": "2026-11-11T11:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "India",
+       "sourceCountryCode": "IN",
+       "sourceRegion": "Asia",
+       "sourceLat": 22,
+       "sourceLon": 79,
+       "language": "en"
+      },
+      {
+       "id": "n-008bfbfdf299f0",
+       "title": "Polisi Jelaskan Kronologi Demo Berujung Kericuhan di Bundaran UGM - merdeka.com",
+       "titleEnglish": "Police explain chronology of demonstration that ended in chaos at UGM Roundabout - merdeka.com",
+       "url": "https://www.merdeka.com/peristiwa/read/8333433/polisi-jelaskan-kronologi-demo-berujung-kericuhan-di-bundaran-ugm",
+       "publisher": "merdeka.com",
+       "publisherDomain": "merdeka.com",
+       "publishedAt": "2026-11-11T13:17:18Z",
+       "seenAt": "2026-11-11T13:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Indonesia",
+       "sourceCountryCode": "ID",
+       "sourceRegion": "Asia",
+       "sourceLat": -2,
+       "sourceLon": 118,
+       "language": "id"
+      },
+      {
+       "id": "n-4976bddad77a3f",
+       "title": "Dua Pemuda Ditangkap Terkait Dugaan Rencana Kerusuhan di Demo 10 November",
+       "titleEnglish": "Two youths arrested over alleged plot to riot at 10 November demonstration",
+       "url": "https://www.liputan6.com/regional/read/8332721/dua-pemuda-ditangkap-terkait-dugaan-rencana-kerusuhan-di-demo-10-november",
+       "publisher": "liputan6.com",
+       "publisherDomain": "liputan6.com",
+       "publishedAt": "2026-11-10T22:33:31Z",
+       "seenAt": "2026-11-10T22:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Indonesia",
+       "sourceCountryCode": "ID",
+       "sourceRegion": "Asia",
+       "sourceLat": -2,
+       "sourceLon": 118,
+       "language": "id"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-12",
+     "stamp": "seed-2026-11-12",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-ed249926d2cc22",
+       "title": "Béarn. « À Pau, on pense que ce quota explose » : un appel à manifester contre la répression judiciaire des mineurs dans le mouvement lycéen ce vendredi 13 novembre",
+       "titleEnglish": "Béarn. \"In Pau, we think this quota is exploding\": call to protest judicial repression of minors in the high school movement this Friday 13 November",
+       "url": "https://www.sudouest.fr/pyrenees-atlantiques/pau/bearn-a-pau-on-pense-que-ce-quota-explose-un-appel-a-manifester-contre-la-repression-judiciaire-des-mineurs-dans-le-mouvement-lyceen-ce-vendredi-13-novembre-31498875.php",
+       "publisher": "SudOuest.fr",
+       "publisherDomain": "sudouest.fr",
+       "publishedAt": "2026-11-12T22:02:00Z",
+       "seenAt": "2026-11-12T22:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "France",
+       "sourceCountryCode": "FR",
+       "sourceRegion": "Europe",
+       "sourceLat": 46,
+       "sourceLon": 2,
+       "language": "fr"
+      },
+      {
+       "id": "n-b35efda52469c3",
+       "title": "BNN Buka Suara Terkait Dua Orang Positif Narkoba Saat Demo Ricuh Jogja - merdeka.com",
+       "titleEnglish": "BNN speaks out on two people testing positive for narcotics during violent Jogja demonstration - merdeka.com",
+       "url": "https://www.merdeka.com/peristiwa/read/8334235/bnn-buka-suara-terkait-dua-orang-positif-narkoba-saat-demo-ricuh-jogja",
+       "publisher": "merdeka.com",
+       "publisherDomain": "merdeka.com",
+       "publishedAt": "2026-11-12T13:17:39Z",
+       "seenAt": "2026-11-12T13:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Indonesia",
+       "sourceCountryCode": "ID",
+       "sourceRegion": "Asia",
+       "sourceLat": -2,
+       "sourceLon": 118,
+       "language": "id"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-13",
+     "stamp": "seed-2026-11-13",
+     "note": "Entered by hand on 15 November from the stored collections. French school blockades ran from 3 to 12 November with a call against the prosecution of minors; Yogyakarta students were arrested on 10 November. It would be a narrative if a third country's courts or police treated school protest as a criminal matter.",
+     "headlines": [
+      {
+       "id": "n-16b8f9f563c05d",
+       "title": "UGM Kecam Penangkapan Mahasiswa dalam Kericuhan Demo Yogyakarta",
+       "titleEnglish": "UGM condemns arrest of students in Yogyakarta demonstration chaos",
+       "url": "https://enamplus.liputan6.com/tv/read/8334273/ugm-kecam-penangkapan-mahasiswa-dalam-kericuhan-demo-yogyakarta",
+       "publisher": "Enamplus Liputan6",
+       "publisherDomain": "enamplus.liputan6.com",
+       "publishedAt": "2026-11-12T15:02:00Z",
+       "seenAt": "2026-11-12T15:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Indonesia",
+       "sourceCountryCode": "ID",
+       "sourceRegion": "Asia",
+       "sourceLat": -2,
+       "sourceLon": 118,
+       "language": "id"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-17",
+     "stamp": "20261117T232955",
+     "note": "Chile's teachers asked Carabineros for a protocol on police entering schools, Bangladesh opened an inquiry after a vice-chancellor was blockaded and Athens police detained six at the Polytechnic march; a third country charging school pupils over protest would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-a88ecfd2b2bd6c",
+       "title": "Colegio de Profesores se reúne con Carabineros y solicita protocolo para procedimientos policiales en recintos educacionales - La Tercera",
+       "titleEnglish": "Teachers' College meets Carabineros and requests protocol for police procedures in educational premises - La Tercera",
+       "url": "https://www.latercera.com/nacional/noticia/colegio-de-profesores-solicita-a-carabineros-protocolo-para-procedimientos-policiales-en-establecimientos-educacionales/",
+       "publisher": "La Tercera",
+       "publisherDomain": "latercera.com",
+       "publishedAt": "2026-11-17T19:47:51Z",
+       "seenAt": "2026-11-17T20:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Chile",
+       "sourceCountryCode": "CL",
+       "sourceRegion": "Latin America",
+       "sourceLat": -33,
+       "sourceLon": -71,
+       "language": "es"
+      },
+      {
+       "id": "n-29c1a101fe501d",
+       "title": "জাতীয় বিশ্ববিদ্যালয়ের উপাচার্যকে অবরুদ্ধের ঘটনায় তদন্ত কমিটি",
+       "titleEnglish": "Inquiry committee formed over incident of university vice-chancellor being blockaded",
+       "url": "https://bangla.bdnews24.com/campus/85zjhnkpdv",
+       "publisher": "bdnews24.com",
+       "publisherDomain": "bangla.bdnews24.com",
+       "publishedAt": "2026-11-17T16:51:37Z",
+       "seenAt": "2026-11-17T17:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Bangladesh",
+       "sourceCountryCode": "BD",
+       "sourceRegion": "Asia",
+       "sourceLat": 24,
+       "sourceLon": 90,
+       "language": "bn"
+      },
+      {
+       "id": "n-3c74e2d94b7a00",
+       "title": "Πορεία για την 53η επέτειο του Πολυτεχνείου: Αστυνομικοί πραγματοποίησαν έξι προσαγωγές",
+       "titleEnglish": "March for the 53rd anniversary of the Polytechnic uprising: police carried out six detentions",
+       "url": "https://www.enikos.gr/society/poreia-gia-tin-53i-epeteio-tou-polytechneiou-astynomikoi-pragmatopoiisan-exi-prosagoges/2678131/",
+       "publisher": "ENIKOS",
+       "publisherDomain": "enikos.gr",
+       "publishedAt": "2026-11-17T14:05:43Z",
+       "seenAt": "2026-11-17T14:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Greece",
+       "sourceCountryCode": "GR",
+       "sourceRegion": "Europe",
+       "sourceLat": 39,
+       "sourceLon": 23,
+       "language": "el"
+      },
+      {
+       "id": "n-769e2aae218403",
+       "title": "\"Depurando la institución\": De la Espriella se refirió a situación en Sena, en medio de presiones por marchas - Pulzo",
+       "titleEnglish": "\"Depurando la institución\": De la Espriella referred to the situation at Sena, amid pressure from marches - Pulzo",
+       "url": "https://www.pulzo.com/nacion/abelardo-espriella-denuncia-corrupcion-sena-durante-gobierno-petro-PP5357481A",
+       "publisher": "pulzo.com",
+       "publisherDomain": "pulzo.com",
+       "publishedAt": "2026-11-17T20:17:00Z",
+       "seenAt": "2026-11-17T20:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Colombia",
+       "sourceCountryCode": "CO",
+       "sourceRegion": "Latin America",
+       "sourceLat": 4,
+       "sourceLon": -73,
+       "language": "es"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "pay-strikes-outside-europe",
+   "subject": "Strikes and worker protests over pay and arrears outside Europe",
+   "status": "open",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-17",
+   "sightings": [
+    {
+     "date": "2026-11-01",
+     "stamp": "seed-2026-11-01",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-690fd2f79ee493",
+       "title": "শ্রমিক বিক্ষোভ: গাজীপুরে কারখানার গুদাম, পুলিশের গাড়িতে অগ্নিসংযোগ",
+       "titleEnglish": "Workers' protest: Factory warehouse in Gazipur, police vehicle set on fire",
+       "url": "https://bangla.bdnews24.com/samagrabangladesh/bfgaaxhxsd",
+       "publisher": "bdnews24.com",
+       "publisherDomain": "bangla.bdnews24.com",
+       "publishedAt": "2026-11-01T08:36:49Z",
+       "seenAt": "2026-11-01T08:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Bangladesh",
+       "sourceCountryCode": "BD",
+       "sourceRegion": "Asia",
+       "sourceLat": 24,
+       "sourceLon": 90,
+       "language": "bn"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-03",
+     "stamp": "seed-2026-11-03",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-f588642f05a260",
+       "title": "Hundreds of food delivery drivers protest downtown to demand dignity, fair pay from companies | CBC News",
+       "titleEnglish": "Hundreds of food delivery drivers protest downtown to demand dignity, fair pay from companies | CBC News",
+       "url": "https://www.cbc.ca/news/canada/toronto/hundreds-of-food-delivery-drivers-protest-downtown-to-demand-dignity-fair-pay-from-companies-9.7406695",
+       "publisher": "CBC",
+       "publisherDomain": "cbc.ca",
+       "publishedAt": "2026-11-03T18:32:00Z",
+       "seenAt": "2026-11-03T18:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Canada",
+       "sourceCountryCode": "CA",
+       "sourceRegion": "North America",
+       "sourceLat": 56,
+       "sourceLon": -106,
+       "language": "en"
+      },
+      {
+       "id": "n-49460e5b3b9684",
+       "title": "Текстильные производства в Бангладеш остановили работу из-за протестов",
+       "titleEnglish": "Textile production in Bangladesh halted due to protests",
+       "url": "https://www.kommersant.ru/doc/9079468",
+       "publisher": "Коммерсантъ",
+       "publisherDomain": "kommersant.ru",
+       "publishedAt": "2026-11-03T02:41:40Z",
+       "seenAt": "2026-11-03T02:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Russia",
+       "sourceCountryCode": "RU",
+       "sourceRegion": "Europe",
+       "sourceLat": 61,
+       "sourceLon": 100,
+       "language": "und"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-04",
+     "stamp": "seed-2026-11-04",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-a2d10965cba6aa",
+       "title": "Police fire tear gas at Bangladesh garment worker demo",
+       "titleEnglish": "Police fire tear gas at Bangladesh garment worker demo",
+       "url": "https://www.westernadvocate.com.au/story/9385453/police-fire-tear-gas-at-bangladesh-garment-worker-demo/",
+       "publisher": "westernadvocate.com.au",
+       "publisherDomain": "westernadvocate.com.au",
+       "publishedAt": "2026-11-03T16:18:18Z",
+       "seenAt": "2026-11-03T17:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Australia",
+       "sourceCountryCode": "AU",
+       "sourceRegion": "Oceania",
+       "sourceLat": -25,
+       "sourceLon": 134,
+       "language": "en"
+      },
+      {
+       "id": "n-71506726d4f357",
+       "title": "CUT se va a paro nacional contra Ley de Rescate Económico: advierte riesgo para 700.000 empleos",
+       "titleEnglish": "CUT heads to national strike against Economic Rescue Law, warns of risk to 700,000 jobs",
+       "url": "https://www.elcolombiano.com/inicio/cut-convoca-paro-nacional-19-noviembre-reforma-tributaria-OO43093863",
+       "publisher": "El Colombiano",
+       "publisherDomain": "elcolombiano.com",
+       "publishedAt": "2026-11-03T18:04:09Z",
+       "seenAt": "2026-11-03T18:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Colombia",
+       "sourceCountryCode": "CO",
+       "sourceRegion": "Latin America",
+       "sourceLat": 4,
+       "sourceLon": -73,
+       "language": "es"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-05",
+     "stamp": "seed-2026-11-05",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-66b8cae9917385",
+       "title": "টানা ৩ দিনের বিক্ষোভ শেষে নারায়ণগঞ্জের শিল্পাঞ্চলে স্বস্তি, উৎপাদন শুরু",
+       "titleEnglish": "Relief in Narayanganj industrial area after three days of protests, production resumes",
+       "url": "https://www.dhakatoday.com/news/93133/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%AB%E0%A7%81%E0%A6%9F%E0%A6%AC%E0%A6%B2-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%85%E0%A6%AC%E0%A6%B8%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%A8%E0%A7%8B-%E0%A6%B0%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A6%A6%E0%A7%8B%E0%A6%B0",
+       "publisher": "dhakaToday.com",
+       "publisherDomain": "dhakatoday.com",
+       "publishedAt": "2026-11-05T12:47:00Z",
+       "seenAt": "2026-11-05T12:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Bangladesh",
+       "sourceCountryCode": "BD",
+       "sourceRegion": "Asia",
+       "sourceLat": 24,
+       "sourceLon": 90,
+       "language": "bn"
+      },
+      {
+       "id": "n-380d47f2eaa857",
+       "title": "철도노조 임금·단체교섭 결렬…12월 총파업 예고",
+       "titleEnglish": "Rail union wage and collective bargaining talks break down; general strike announced for December",
+       "url": "https://biz.heraldcorp.com/article/10927685",
+       "publisher": "헤럴드경제",
+       "publisherDomain": "biz.heraldcorp.com",
+       "publishedAt": "2026-11-05T10:46:04Z",
+       "seenAt": "2026-11-05T11:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Korea",
+       "sourceCountryCode": "KR",
+       "sourceRegion": "Asia",
+       "sourceLat": 36,
+       "sourceLon": 128,
+       "language": "ko"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-07",
+     "stamp": "seed-2026-11-07",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-e2fe03d7eaeadb",
+       "title": "Protestas de trabajadores del PJF paralizan vialidades en centro de Monterrey",
+       "titleEnglish": "PJF workers' protests paralyze roads in downtown Monterrey",
+       "url": "https://www.excelsior.com.mx/nacional/trabajadores-poder-judicial-paralizan-monterrey",
+       "publisher": "Excélsior",
+       "publisherDomain": "excelsior.com.mx",
+       "publishedAt": "2026-11-06T22:32:13Z",
+       "seenAt": "2026-11-06T22:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Mexico",
+       "sourceCountryCode": "MX",
+       "sourceRegion": "Latin America",
+       "sourceLat": 23,
+       "sourceLon": -102,
+       "language": "es"
+      },
+      {
+       "id": "n-8ce5e3b174cb60",
+       "title": "Ration dealers to protest Centre’s cash transfer plan",
+       "titleEnglish": "Ration dealers to protest Centre’s cash transfer plan",
+       "url": "https://www.thehindu.com/news/national/kerala/ration-dealers-to-protest-centres-cash-transfer-plan/article71678235.ece",
+       "publisher": "The Hindu",
+       "publisherDomain": "thehindu.com",
+       "publishedAt": "2026-11-07T13:49:47Z",
+       "seenAt": "2026-11-07T14:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "India",
+       "sourceCountryCode": "IN",
+       "sourceRegion": "Asia",
+       "sourceLat": 22,
+       "sourceLon": 79,
+       "language": "en"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-12",
+     "stamp": "seed-2026-11-12",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-9fb0f3eacf59c7",
+       "title": "NOTSUP Threatens Nationwide Strike Over Unpaid CONTTA, Unimplemented Agreement",
+       "titleEnglish": "NOTSUP Threatens Nationwide Strike Over Unpaid CONTTA, Unimplemented Agreement",
+       "url": "https://leadership.ng/notsup-threatens-nationwide-strike-over-unpaid-contta-unimplemented-agreement/",
+       "publisher": "LEADERSHIP Newspapers",
+       "publisherDomain": "leadership.ng",
+       "publishedAt": "2026-11-12T09:11:00Z",
+       "seenAt": "2026-11-12T09:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Nigeria",
+       "sourceCountryCode": "NG",
+       "sourceRegion": "Africa",
+       "sourceLat": 9,
+       "sourceLon": 8,
+       "language": "en"
+      },
+      {
+       "id": "n-94f9e915071222",
+       "title": "UNILAG VC promises intervention as health workers protest arrears",
+       "titleEnglish": "UNILAG VC promises intervention as health workers protest arrears",
+       "url": "https://punchng.com/unilag-vc-promises-intervention-as-health-workers-protest-arrears/",
+       "publisher": "Punch Newspapers",
+       "publisherDomain": "punchng.com",
+       "publishedAt": "2026-11-12T00:56:57Z",
+       "seenAt": "2026-11-12T01:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Nigeria",
+       "sourceCountryCode": "NG",
+       "sourceRegion": "Africa",
+       "sourceLat": 9,
+       "sourceLon": 8,
+       "language": "en"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-13",
+     "stamp": "seed-2026-11-13",
+     "note": "Entered by hand on 15 November from the stored collections. Bangladesh's garment protests ran from 1 to 5 November; since then Colombian unions, Korean rail workers, Nigerian health staff, Chilean truckers and Turkish miners have each appeared once. It would be a narrative if the same cause, such as prices or unpaid wages, were named in several of them.",
+     "headlines": [
+      {
+       "id": "n-f2f934c4ea46bc",
+       "title": "Gobierno advierte que aplicará Ley de Seguridad del Estado si camioneros descolgados del acuerdo mantienen bloqueos | Puranoticia.cl",
+       "titleEnglish": "Government warns it will apply the State Security Law if truckers who broke off the agreement maintain blockades | Puranoticia.cl",
+       "url": "https://puranoticia.pnt.cl/nacional/gobierno-advierte-que-aplicara-ley-de-seguridad-del-estado-si-camioneros",
+       "publisher": "puranoticia.pnt.cl",
+       "publisherDomain": "puranoticia.pnt.cl",
+       "publishedAt": "2026-11-13T11:02:00Z",
+       "seenAt": "2026-11-13T11:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Chile",
+       "sourceCountryCode": "CL",
+       "sourceRegion": "Latin America",
+       "sourceLat": -33,
+       "sourceLon": -71,
+       "language": "es"
+      },
+      {
+       "id": "n-e08e4c8dfbceb2",
+       "title": "Amasra'da maden ocağına kendilerini kapatan işçilerin eylemi sürüyor",
+       "titleEnglish": "Protest by workers who locked themselves in an Amasra mine shaft continues",
+       "url": "https://www.hurriyet.com.tr/gundem/amasrada-maden-ocagina-kendilerini-kapatan-iscilerin-eylemi-suruyor-43376787",
+       "publisher": "Hürriyet",
+       "publisherDomain": "hurriyet.com.tr",
+       "publishedAt": "2026-11-13T09:02:00Z",
+       "seenAt": "2026-11-13T09:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Turkey",
+       "sourceCountryCode": "TR",
+       "sourceRegion": "Middle East",
+       "sourceLat": 39,
+       "sourceLon": 35,
+       "language": "tr"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-17",
+     "stamp": "20261117T232955",
+     "note": "A British Columbia mine was ordered to stop using replacement workers in a strike, Bangladesh's government said it has not backed off raising wages and Luxor's labour office recovered a worker's dues; the same named cause, such as prices or arrears, in several countries would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-d87b771237d2d8",
+       "title": "B.C. mine ordered to cease and desist using ineligible replacement workers during strike | CBC News",
+       "titleEnglish": "B.C. mine ordered to cease and desist using ineligible replacement workers during strike | CBC News",
+       "url": "https://www.cbc.ca/news/canada/british-columbia/highland-valley-copper-replacement-workers-9.7424245",
+       "publisher": "CBC",
+       "publisherDomain": "cbc.ca",
+       "publishedAt": "2026-11-17T17:17:00Z",
+       "seenAt": "2026-11-17T17:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Canada",
+       "sourceCountryCode": "CA",
+       "sourceRegion": "North America",
+       "sourceLat": 56,
+       "sourceLon": -106,
+       "language": "en"
+      },
+      {
+       "id": "n-4f48bc3fc7e863",
+       "title": "মজুরি বাড়ানোর উদ্যোগ থেকে সরকার পিছিয়ে যায়নি: জোনায়েদ সাকি",
+       "titleEnglish": "Government has not backed off from raising wages: Zunaid Saki",
+       "url": "https://bangla.bdnews24.com/samagrabangladesh/8xmf8pyujy",
+       "publisher": "bdnews24.com",
+       "publisherDomain": "bangla.bdnews24.com",
+       "publishedAt": "2026-11-17T16:33:43Z",
+       "seenAt": "2026-11-17T17:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Bangladesh",
+       "sourceCountryCode": "BD",
+       "sourceRegion": "Asia",
+       "sourceLat": 24,
+       "sourceLon": 90,
+       "language": "bn"
+      },
+      {
+       "id": "n-8f69f38bc388ff",
+       "title": "مديرية العمل بالأقصر تكثف حملاتها التفتيشية وتعمل على تسوية نزاع عمالي واسترداد مستحقات موظفة - الوطن",
+       "titleEnglish": "Luxor labour directorate intensifies inspection campaigns and works to settle labour dispute and recover an employee's dues - Al-Watan",
+       "url": "https://www.elwatannews.com/news/details/8398485",
+       "publisher": "الوطن",
+       "publisherDomain": "elwatannews.com",
+       "publishedAt": "2026-11-17T15:36:32Z",
+       "seenAt": "2026-11-17T14:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Egypt",
+       "sourceCountryCode": "EG",
+       "sourceRegion": "Africa",
+       "sourceLat": 27,
+       "sourceLon": 30,
+       "language": "ar"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "retirement-saving-and-pension-age",
+   "subject": "Governments setting rules for private retirement saving while the public pension age is fought over",
+   "status": "open",
+   "firstSeen": "2026-11-17",
+   "lastSeen": "2026-11-17",
+   "sightings": [
+    {
+     "date": "2026-11-17",
+     "stamp": "20261117T232955",
+     "note": "The US Treasury issued automatic retirement plan rules, Australia changed super, Handelsblatt measured the German pension gap and Hyundai's union demanded retirement at 65; a second government raising the pension age or mandating saving would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-5b19b69534362a",
+       "title": "US treasury finally issues rules for automatic retirement plan",
+       "titleEnglish": "US treasury finally issues rules for automatic retirement plan",
+       "url": "https://www.businessday.co.za/world/2026-11-17-us-treasury-finally-issues-rules-for-automatic-retirement-plan/",
+       "publisher": "Business Day",
+       "publisherDomain": "businessday.co.za",
+       "publishedAt": "2026-11-17T17:17:00Z",
+       "seenAt": "2026-11-17T17:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Africa",
+       "sourceCountryCode": "ZA",
+       "sourceRegion": "Africa",
+       "sourceLat": -30,
+       "sourceLon": 25,
+       "language": "en"
+      },
+      {
+       "id": "n-cf2f91a9df28ac",
+       "title": "Is the government's super shakeup good for members' retirement savings? - ABC listen",
+       "titleEnglish": "Is the government's super shakeup good for members' retirement savings? - ABC listen",
+       "url": "https://www.abc.net.au/listen/programs/abc-news-top-stories/australia-super-fund-reform-housing-energy-chalmers-asfa/107397192",
+       "publisher": "ABC listen",
+       "publisherDomain": "abc.net.au",
+       "publishedAt": "2026-11-17T17:00:00Z",
+       "seenAt": "2026-11-17T20:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Australia",
+       "sourceCountryCode": "AU",
+       "sourceRegion": "Oceania",
+       "sourceLat": -25,
+       "sourceLon": 134,
+       "language": "en"
+      },
+      {
+       "id": "n-c6b1149fd42760",
+       "title": "Altersvorsorge: Wie viel Sie sparen müssen, um Ihre Rentenlücke zu schließen",
+       "titleEnglish": "Retirement provision: How much you need to save to close your pension gap",
+       "url": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/altersvorsorge-wie-viel-sie-sparen-muessen-um-ihre-rentenluecke-zu-schliessen/100268809.html",
+       "publisher": "handelsblatt.com",
+       "publisherDomain": "handelsblatt.com",
+       "publishedAt": "2026-11-17T14:31:32Z",
+       "seenAt": "2026-11-17T14:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Germany",
+       "sourceCountryCode": "DE",
+       "sourceRegion": "Europe",
+       "sourceLat": 51,
+       "sourceLon": 10,
+       "language": "de"
+      },
+      {
+       "id": "n-48d58b067d4745",
+       "title": "현대차그룹 노조, 65세 정년연장 요구…공동투쟁 수위 높이나",
+       "titleEnglish": "Hyundai Motor Group union demands retirement age extension to 65; considers raising level of joint struggle",
+       "url": "https://www.ddaily.co.kr:443/page/view/2026111714211730421",
+       "publisher": "디지털데일리",
+       "publisherDomain": "ddaily.co.kr",
+       "publishedAt": "2026-11-17T08:17:00Z",
+       "seenAt": "2026-11-17T08:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Korea",
+       "sourceCountryCode": "KR",
+       "sourceRegion": "Asia",
+       "sourceLat": 36,
+       "sourceLon": 128,
+       "language": "ko"
+      },
+      {
+       "id": "n-5e4ac70c87174a",
+       "title": "新NISAで買っていい？企業診断｜日刊ゲンダイDIGITAL",
+       "titleEnglish": "Should you buy under the new NISA? Corporate diagnosis | Nikkan Gendai DIGITAL",
+       "url": "https://www.nikkan-gendai.com/articles/columns/5193",
+       "publisher": "nikkan-gendai.com",
+       "publisherDomain": "nikkan-gendai.com",
+       "publishedAt": "2026-11-17T11:17:00Z",
+       "seenAt": "2026-11-17T11:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Japan",
+       "sourceCountryCode": "JP",
+       "sourceRegion": "Asia",
+       "sourceLat": 36,
+       "sourceLon": 138,
+       "language": "ja"
+      },
+      {
+       "id": "n-91a7942b9eaba7",
+       "title": "Más de 3.400 jubilados argentinos cobran más diez millones por mes: quiénes son",
+       "titleEnglish": "More than 3,400 Argentine retirees collect over ten million per month: who they are",
+       "url": "https://www.lv12.com.ar/jubilados/mas-3400-jubilados-argentinos-cobran-mas-diez-millones-mes-quienes-son-n206761",
+       "publisher": "www.lv12.com.ar",
+       "publisherDomain": "lv12.com.ar",
+       "publishedAt": "2026-11-17T20:17:00Z",
+       "seenAt": "2026-11-17T20:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Argentina",
+       "sourceCountryCode": "AR",
+       "sourceRegion": "Latin America",
+       "sourceLat": -35,
+       "sourceLon": -64,
+       "language": "es"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "reservoirs-and-rivers-contested",
+   "subject": "Reservoirs and rivers contested between power, farming and drinking water",
+   "status": "open",
+   "firstSeen": "2026-11-17",
+   "lastSeen": "2026-11-17",
+   "sightings": [
+    {
+     "date": "2026-11-17",
+     "stamp": "20261117T232955",
+     "note": "Taipei's mayor fought the central government over solar panels on the Feicui reservoir, Karnataka faced falling inflows and a Sharavathi report to the Supreme Court, and Thailand and Waikato tightened pollution checks; a ruling or ban in a third country trading water use against energy would make it",
+     "headlines": [
+      {
+       "id": "n-980d27ab8953d9",
+       "title": "翡翠水庫蓋光電爭議 蔣萬安嗆中央「問心酸的嗎？」 | 2026九合一選舉",
+       "titleEnglish": "Feicui reservoir solar panel dispute: Chiang Wan-an hits back at central government, \"Is your conscience troubled?\" | 2026 nine-in-one elections",
+       "url": "https://udn.com/vote2026/story/124652/9885253",
+       "publisher": "2026九合一選舉",
+       "publisherDomain": "udn.com",
+       "publishedAt": "2026-11-17T23:17:00Z",
+       "seenAt": "2026-11-17T23:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Taiwan",
+       "sourceCountryCode": "TW",
+       "sourceRegion": "Asia",
+       "sourceLat": 23.7,
+       "sourceLon": 121,
+       "language": "zh-Hant"
+      },
+      {
+       "id": "n-39fc45b45e75e0",
+       "title": "水庫設光電板熱議 蔣萬安問沈伯洋：手中寶劍是捍衛民進黨利益？ | ETtoday政治新聞 | ETtoday新聞雲",
+       "titleEnglish": "Reservoir solar panels debated; Chiang Wan-an asks Shen Boyang: is the sword in your hand meant to defend DPP interests? | ETtoday Political News | ETtoday News Cloud",
+       "url": "https://www.ettoday.net/news/20261117/3273885.htm",
+       "publisher": "ETtoday新聞雲",
+       "publisherDomain": "ettoday.net",
+       "publishedAt": "2026-11-17T10:52:00Z",
+       "seenAt": "2026-11-17T11:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Taiwan",
+       "sourceCountryCode": "TW",
+       "sourceRegion": "Asia",
+       "sourceLat": 23.7,
+       "sourceLon": 121,
+       "language": "zh-Hant"
+      },
+      {
+       "id": "n-a751eeb0c1c9a5",
+       "title": "Sharavathi submergence: Official report will be submitted to SC in next 10 days | Mysuru News - The Times of India",
+       "titleEnglish": "Sharavathi submergence: Official report will be submitted to SC in next 10 days | Mysuru News - The Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/mysuru/sharavathi-submergence-official-report-will-be-submitted-to-sc-in-next-10-days/articleshow/135935560.cms",
+       "publisher": "The Times of India",
+       "publisherDomain": "timesofindia.indiatimes.com",
+       "publishedAt": "2026-11-17T22:17:00Z",
+       "seenAt": "2026-11-17T22:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "India",
+       "sourceCountryCode": "IN",
+       "sourceRegion": "Asia",
+       "sourceLat": 22,
+       "sourceLon": 79,
+       "language": "en"
+      },
+      {
+       "id": "n-48c9ae5441d245",
+       "title": "Judicious water use key as KRS, Kabini inflows dip | Mysuru News - The Times of India",
+       "titleEnglish": "Judicious water use key as KRS, Kabini inflows dip | Mysuru News - The Times of India",
+       "url": "https://timesofindia.indiatimes.com/city/mysuru/judicious-water-use-key-as-krs-kabini-inflows-dip/articleshow/135935597.cms",
+       "publisher": "The Times of India",
+       "publisherDomain": "timesofindia.indiatimes.com",
+       "publishedAt": "2026-11-17T22:17:00Z",
+       "seenAt": "2026-11-17T22:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "India",
+       "sourceCountryCode": "IN",
+       "sourceRegion": "Asia",
+       "sourceLat": 22,
+       "sourceLon": 79,
+       "language": "en"
+      },
+      {
+       "id": "n-fb85b8c825802d",
+       "title": "PM orders action on toxic river pollution",
+       "titleEnglish": "PM orders action on toxic river pollution",
+       "url": "https://www.bangkokpost.com/thailand/general/3356529/pm-orders-action-on-toxic-river-pollution",
+       "publisher": "https://www.bangkokpost.com",
+       "publisherDomain": "bangkokpost.com",
+       "publishedAt": "2026-11-17T23:17:00Z",
+       "seenAt": "2026-11-17T23:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Thailand",
+       "sourceCountryCode": "TH",
+       "sourceRegion": "Asia",
+       "sourceLat": 15,
+       "sourceLon": 101,
+       "language": "pt"
+      },
+      {
+       "id": "n-86fb3189a88a06",
+       "title": "Up to 300 Waikato dairy farms face closer environmental checks",
+       "titleEnglish": "Up to 300 Waikato dairy farms face closer environmental checks",
+       "url": "https://www.nzherald.co.nz/the-country/news/hundreds-of-waikato-dairy-farms-at-higher-risk-of-environmental-non-compliance/JENKRZ5JXZAUHJXZNFZUXTYUPY/",
+       "publisher": "NZ Herald",
+       "publisherDomain": "nzherald.co.nz",
+       "publishedAt": "2026-11-17T20:17:00Z",
+       "seenAt": "2026-11-17T20:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "New Zealand",
+       "sourceCountryCode": "NZ",
+       "sourceRegion": "Oceania",
+       "sourceLat": -41,
+       "sourceLon": 174,
+       "language": "en"
+      },
+      {
+       "id": "n-cee763dcafbbaf",
+       "title": "Asa Warga Dusun Peso Menanti Aliran Air Bersih",
+       "titleEnglish": "Hope of Peso Hamlet residents awaiting clean water flow",
+       "url": "https://ntt.viva.co.id/news/4206-asa-warga-dusun-peso-menanti-aliran-air-bersih",
+       "publisher": "ntt.viva.co.id",
+       "publisherDomain": "ntt.viva.co.id",
+       "publishedAt": "2026-11-17T20:59:50Z",
+       "seenAt": "2026-11-17T14:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Indonesia",
+       "sourceCountryCode": "ID",
+       "sourceRegion": "Asia",
+       "sourceLat": -2,
+       "sourceLon": 118,
+       "language": "id"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "controlled-diseases-return",
+   "subject": "Diseases once controlled spreading again, from measles in North America to Ebola in Congo",
+   "status": "open",
+   "firstSeen": "2026-11-17",
+   "lastSeen": "2026-11-17",
+   "sightings": [
+    {
+     "date": "2026-11-17",
+     "stamp": "20261117T232955",
+     "note": "The US and Mexico lost measles elimination status and Congo's Ebola outbreak is spreading at a record pace; a third country losing elimination status or declaring an emergency would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-c60c1baa35409b",
+       "title": "US loses measles-free status as cases, deaths mount",
+       "titleEnglish": "US loses measles-free status as cases, deaths mount",
+       "url": "https://www.nzherald.co.nz/world/us-loses-measles-free-status-as-cases-deaths-mount/S5BWHBORCRBC7KTAHXSE3GEGGM/",
+       "publisher": "NZ Herald",
+       "publisherDomain": "nzherald.co.nz",
+       "publishedAt": "2026-11-17T22:17:00Z",
+       "seenAt": "2026-11-17T22:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "New Zealand",
+       "sourceCountryCode": "NZ",
+       "sourceRegion": "Oceania",
+       "sourceLat": -41,
+       "sourceLon": 174,
+       "language": "en"
+      },
+      {
+       "id": "n-d0dd4208bc4f95",
+       "title": "What's behind the US and Mexico losing measles elimination status? - ABC listen",
+       "titleEnglish": "What's behind the US and Mexico losing measles elimination status? - ABC listen",
+       "url": "https://www.abc.net.au/listen/programs/abc-news-top-stories/us-loses-measles-elimination-status-vaccination-australia/107397068",
+       "publisher": "ABC listen",
+       "publisherDomain": "abc.net.au",
+       "publishedAt": "2026-11-17T18:00:00Z",
+       "seenAt": "2026-11-17T20:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Australia",
+       "sourceCountryCode": "AU",
+       "sourceRegion": "Oceania",
+       "sourceLat": -25,
+       "sourceLon": 134,
+       "language": "en"
+      },
+      {
+       "id": "n-49f934359d4db0",
+       "title": "DRC’s Ebola outbreak is spreading and killing at a record pace - Channel Africa",
+       "titleEnglish": "DRC’s Ebola outbreak is spreading and killing at a record pace - Channel Africa",
+       "url": "https://www.channelafrica.co.za/channelafrica/news/drcs-ebola-outbreak-is-spreading-and-killing-at-a-record-pace/",
+       "publisher": "Channel Africa",
+       "publisherDomain": "channelafrica.co.za",
+       "publishedAt": "2026-11-17T14:47:00Z",
+       "seenAt": "2026-11-17T14:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Africa",
+       "sourceCountryCode": "ZA",
+       "sourceRegion": "Africa",
+       "sourceLat": -30,
+       "sourceLon": 25,
+       "language": "en"
+      },
+      {
+       "id": "n-16903cc748056e",
+       "title": "В ФМБА назвали свиной грипп возможным возбудителем будущей пандемии",
+       "titleEnglish": "FMBA names swine flu as possible agent of future pandemic",
+       "url": "https://www.kommersant.ru/doc/9111196",
+       "publisher": "Коммерсантъ",
+       "publisherDomain": "kommersant.ru",
+       "publishedAt": "2026-11-17T04:55:20Z",
+       "seenAt": "2026-11-17T08:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Russia",
+       "sourceCountryCode": "RU",
+       "sourceRegion": "Europe",
+       "sourceLat": 61,
+       "sourceLon": 100,
+       "language": "ru"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "data-centres-absorb-investment",
+   "subject": "Data centres taking a growing share of national investment",
+   "status": "open",
+   "firstSeen": "2026-11-17",
+   "lastSeen": "2026-11-17",
+   "sightings": [
+    {
+     "date": "2026-11-17",
+     "stamp": "20261117T232955",
+     "note": "Brussels said investment in Portugal is concentrating in data centres and India's tech spending growth is led by data centres and cloud; an official warning elsewhere that data centres crowd out other investment would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-4722aebdb02563",
+       "title": "Bruxelas. Investimento em Portugal está a ficar “concentrado” nos centros de dados",
+       "titleEnglish": "Brussels. Investment in Portugal is becoming \"concentrated\" in data centres",
+       "url": "https://sapo.pt/artigo/bruxelas-investimento-em-portugal-esta-a-ficar-concentrado-nos-centros-de-dados-6afcce9afaafdbf5ced82d05",
+       "publisher": "SAPO",
+       "publisherDomain": "sapo.pt",
+       "publishedAt": "2026-11-17T21:58:01Z",
+       "seenAt": "2026-11-17T22:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Portugal",
+       "sourceCountryCode": "PT",
+       "sourceRegion": "Europe",
+       "sourceLat": 39.5,
+       "sourceLon": -8,
+       "language": "pt"
+      },
+      {
+       "id": "n-1b83fe17ba950c",
+       "title": "Data centres, cloud lead India’s technology spending growth as AI reshapes investments",
+       "titleEnglish": "Data centres, cloud lead India’s technology spending growth as AI reshapes investments",
+       "url": "https://www.thehindubusinessline.com/info-tech/data-centres-cloud-lead-indias-technology-spending-growth-as-ai-reshapes-investments/article71711424.ece",
+       "publisher": "BusinessLine",
+       "publisherDomain": "thehindubusinessline.com",
+       "publishedAt": "2026-11-17T11:00:02Z",
+       "seenAt": "2026-11-17T11:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "India",
+       "sourceCountryCode": "IN",
+       "sourceRegion": "Asia",
+       "sourceLat": 22,
+       "sourceLon": 79,
+       "language": "en"
+      },
+      {
+       "id": "n-9b14b080b21eb3",
+       "title": "我国日均词元调用量已突破500万亿",
+       "titleEnglish": "China's average daily token calls have exceeded 5 quadrillion",
+       "url": "https://www.yicai.com/news/103444266.html",
+       "publisher": "yicai.com",
+       "publisherDomain": "yicai.com",
+       "publishedAt": "2026-11-17T17:17:00Z",
+       "seenAt": "2026-11-17T17:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "China",
+       "sourceCountryCode": "CN",
+       "sourceRegion": "Asia",
+       "sourceLat": 35,
+       "sourceLon": 104,
+       "language": "zh"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "israel-policy-protests-and-bans",
+   "subject": "Protests over governments' Israel policy and the arrests and bans that answer them, in Britain and the Netherlands",
+   "status": "open",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-11",
+   "sightings": [
+    {
+     "date": "2026-11-01",
+     "stamp": "seed-2026-11-01",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-40ff4570e6fa7e",
+       "title": "İngiltere'de yasaklanan Palestine Action'a destek eyleminde gözaltı sayısı 139'a çıktı",
+       "titleEnglish": "Detentions at pro-Palestine Action support protest in Britain, banned there, rise to 139",
+       "url": "https://www.aa.com.tr/tr/dunya/ingilterede-yasaklanan-palestine-actiona-destek-eyleminde-gozalti-sayisi-139a-cikti/4107695",
+       "publisher": "Anadolu Ajansı",
+       "publisherDomain": "aa.com.tr",
+       "publishedAt": "2026-11-01T03:41:05Z",
+       "seenAt": "2026-11-01T02:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Turkey",
+       "sourceCountryCode": "TR",
+       "sourceRegion": "Middle East",
+       "sourceLat": 39,
+       "sourceLon": 35,
+       "language": "tr"
+      },
+      {
+       "id": "n-50aa63ce3f297b",
+       "title": "20 منظمة بتايلند تتظاهر ضد الوجود الإسرائيلي في البلاد",
+       "titleEnglish": "20 organisations in Thailand protest against the Israeli presence in the country",
+       "url": "https://www.khaberni.com/news/862629-20-%D9%85%D9%86%D8%B8%D9%85%D8%A9-%D8%A8%D8%AA%D8%A7%D9%8A%D9%84%D9%86%D8%AF-%D8%AA%D8%AA%D8%B8%D8%A7%D9%87%D8%B1-%D8%B6%D8%AF-%D8%A7%D9%84%D9%88%D8%AC%D9%88%D8%AF-%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%AF",
+       "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+       "publisherDomain": "khaberni.com",
+       "publishedAt": "2026-10-31T16:32:00Z",
+       "seenAt": "2026-10-31T16:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Jordan",
+       "sourceCountryCode": "JO",
+       "sourceRegion": "Middle East",
+       "sourceLat": 31,
+       "sourceLon": 36,
+       "language": "ar"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-04",
+     "stamp": "seed-2026-11-04",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-1dbed7bb5e8975",
+       "title": "Maand celstraf voor pro-Palestijnse demonstrant die anderen met plank sloeg",
+       "titleEnglish": "One month in prison for pro-Palestinian demonstrator who beat others with a plank",
+       "url": "https://nos.nl/artikel/2637871-maand-celstraf-voor-pro-palestijnse-demonstrant-die-anderen-met-plank-sloeg",
+       "publisher": "nos.nl",
+       "publisherDomain": "nos.nl",
+       "publishedAt": "2026-11-03T14:17:00Z",
+       "seenAt": "2026-11-03T14:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Netherlands",
+       "sourceCountryCode": "NL",
+       "sourceRegion": "Europe",
+       "sourceLat": 52,
+       "sourceLon": 5,
+       "language": "nl"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-05",
+     "stamp": "seed-2026-11-05",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-23ec588df8fcf8",
+       "title": "UK ban on Palestine Action is challenged at top court, some protesters arrested",
+       "titleEnglish": "UK ban on Palestine Action is challenged at top court, some protesters arrested",
+       "url": "https://www.arabnews.com/world/uk-ban-on-palestine-action-is-challenged-at-top-court-some-protesters-arrested-3009787",
+       "publisher": "arabnews.com",
+       "publisherDomain": "arabnews.com",
+       "publishedAt": "2026-11-04T14:37:56Z",
+       "seenAt": "2026-11-04T14:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Saudi Arabia",
+       "sourceCountryCode": "SA",
+       "sourceRegion": "Middle East",
+       "sourceLat": 24,
+       "sourceLon": 45,
+       "language": "en"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-08",
+     "stamp": "seed-2026-11-08",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-330a52a069756e",
+       "title": "Incidente al campione europeo di Superbike: al via la gara di aiuti per il pilota carabiniere Salvo Sallustro caduto in pista",
+       "titleEnglish": "Red Line demonstration in Amsterdam: four arrests",
+       "url": "https://corrieredelveneto.corriere.it/notizie/vicenza/cronaca/26_novembre_08/incidente-al-campione-europeo-di-superbike-al-via-la-gara-di-aiuti-per-il-pilota-carabiniere-salvo-sallustro-caduto-in-pista-c3ed3da1-0381-4aff-bcf8-a16ed2b2fxlk.shtml",
+       "publisher": "Corriere della sera",
+       "publisherDomain": "corrieredelveneto.corriere.it",
+       "publishedAt": "2026-11-08T16:57:17Z",
+       "seenAt": "2026-11-08T20:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Italy",
+       "sourceCountryCode": "IT",
+       "sourceRegion": "Europe",
+       "sourceLat": 42,
+       "sourceLon": 12,
+       "language": "it"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-09",
+     "stamp": "seed-2026-11-09",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-62ff55da1a6f5e",
+       "title": "Pro-Hamas activists join protests in Amsterdam against Dutch Israel policy | The Jerusalem Post",
+       "titleEnglish": "Pro-Hamas activists join protests in Amsterdam against Dutch Israel policy | The Jerusalem Post",
+       "url": "https://www.jpost.com/diaspora/antisemitism/article-914320",
+       "publisher": "The Jerusalem Post | JPost.com",
+       "publisherDomain": "jpost.com",
+       "publishedAt": "2026-11-09T11:47:00Z",
+       "seenAt": "2026-11-09T11:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Israel",
+       "sourceCountryCode": "IL",
+       "sourceRegion": "Middle East",
+       "sourceLat": 31.5,
+       "sourceLon": 35,
+       "language": "en"
+      },
+      {
+       "id": "n-6918442c7ee6ce",
+       "title": "Amsterdam’da dördüncü “Kırmızı Çizgi” gösterisine 200 binden fazla kişi katıldı",
+       "titleEnglish": "More than 200,000 people join fourth \"Red Line\" protest in Amsterdam",
+       "url": "https://www.aa.com.tr/tr/dunya/amsterdam-da-dorduncu-kirmizi-cizgi-gosterisine-200-binden-fazla-kisi-katildi/4116280",
+       "publisher": "Anadolu Ajansı",
+       "publisherDomain": "aa.com.tr",
+       "publishedAt": "2026-11-08T21:57:15Z",
+       "seenAt": "2026-11-08T19:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Turkey",
+       "sourceCountryCode": "TR",
+       "sourceRegion": "Middle East",
+       "sourceLat": 39,
+       "sourceLon": 35,
+       "language": "tr"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-11",
+     "stamp": "seed-2026-11-11",
+     "note": "Entered by hand on 15 November from the stored collections. Arrests at protests for the banned Palestine Action reached 139 on 1 November and the ban went to Britain's top court on 5 November; Amsterdam's fourth Red Line march drew more than 200,000 on 8 November. Last seen 11 November.",
+     "headlines": [
+      {
+       "id": "n-7861915f33ba4e",
+       "title": "أنزل علم بلاده ورفع الفلسطيني أمام البوندستاغ.. شاب ألماني يروي للجزيرة تفاصيل احتجاجه",
+       "titleEnglish": "He lowered his country's flag and raised a Palestinian one in front of the Bundestag: German young man tells Al Jazeera about his protest",
+       "url": "https://www.aljazeera.net/news/2026/11/11/%D8%A3%D9%86%D8%B2%D9%84-%D8%B9%D9%84%D9%85-%D8%A8%D9%84%D8%A7%D8%AF%D9%87-%D9%88%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A-%D8%A3%D9%85%D8%A7%D9%85",
+       "publisher": "الجزيرة نت",
+       "publisherDomain": "aljazeera.net",
+       "publishedAt": "2026-11-10T22:47:00Z",
+       "seenAt": "2026-11-10T22:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Qatar",
+       "sourceCountryCode": "QA",
+       "sourceRegion": "Middle East",
+       "sourceLat": 25.3,
+       "sourceLon": 51.2,
+       "language": "ar"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
   {
    "key": "europe-weekly-protests-living-costs",
    "subject": "Weekly protests and strikes over living costs and housing in France, Germany, Spain, Portugal and Italy",
-   "status": "open",
+   "status": "written",
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-14",
    "sightings": [
@@ -1051,738 +2322,11 @@
      ]
     }
    ],
-   "written": null
-  },
-  {
-   "key": "students-blockades-and-arrests",
-   "subject": "School and university students blockading, occupying and being arrested or suspended, in France, Indonesia, India and Brazil",
-   "status": "open",
-   "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-13",
-   "sightings": [
-    {
-     "date": "2026-11-02",
-     "stamp": "seed-2026-11-02",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-4bb09772882f29",
-       "title": "Estudantes fazem ato em 9 estados contra Flávio Bolsonaro e de apoio à reeleição de Lula - Jornal de Brasília",
-       "titleEnglish": "Students hold protests in 9 states against Flávio Bolsonaro and in support of Lula's re-election - Jornal de Brasília",
-       "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/estudantes-fazem-ato-em-9-estados-contra-flavio-bolsonaro-e-de-apoio-a-reeleicao-de-lula/",
-       "publisher": "Jornal de Brasília",
-       "publisherDomain": "jornaldebrasilia.com.br",
-       "publishedAt": "2026-11-01T16:17:00Z",
-       "seenAt": "2026-11-01T16:17:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Brazil",
-       "sourceCountryCode": "BR",
-       "sourceRegion": "Latin America",
-       "sourceLat": -14,
-       "sourceLon": -52,
-       "language": "pt"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-03",
-     "stamp": "seed-2026-11-03",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-ce410ac053b0aa",
-       "title": "Students blockade dozens of French schools and universities",
-       "titleEnglish": "Students blockade dozens of French schools and universities",
-       "url": "https://www.nzherald.co.nz/world/students-blockade-dozens-of-french-schools-and-universities/6YTEI5KZ3NFKBBGBZDPK3JKPLM/",
-       "publisher": "NZ Herald",
-       "publisherDomain": "nzherald.co.nz",
-       "publishedAt": "2026-11-03T20:32:00Z",
-       "seenAt": "2026-11-03T20:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "New Zealand",
-       "sourceCountryCode": "NZ",
-       "sourceRegion": "Oceania",
-       "sourceLat": -41,
-       "sourceLon": 174,
-       "language": "en"
-      },
-      {
-       "id": "n-9881690b42d595",
-       "title": "Students blockade dozens of high schools in France",
-       "titleEnglish": "Students blockade dozens of high schools in France",
-       "url": "https://www.arabnews.com/world/students-blockade-dozens-of-high-schools-in-france-3009573",
-       "publisher": "arabnews.com",
-       "publisherDomain": "arabnews.com",
-       "publishedAt": "2026-11-03T11:32:59Z",
-       "seenAt": "2026-11-03T11:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Saudi Arabia",
-       "sourceCountryCode": "SA",
-       "sourceRegion": "Middle East",
-       "sourceLat": 24,
-       "sourceLon": 45,
-       "language": "en"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-07",
-     "stamp": "seed-2026-11-07",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-4371641901a135",
-       "title": "Sanskrit varsity suspension row: Prakash Raj says protesting students ‘are not Savarkars’ to tender apology",
-       "titleEnglish": "Sanskrit varsity suspension row: Prakash Raj says protesting students ‘are not Savarkars’ to tender apology",
-       "url": "https://www.thehindu.com/news/national/kerala/suspension-row-at-sanskrit-varsity-prakash-raj-says-protesting-students-are-not-savarkars-to-tender-apology/article71677687.ece",
-       "publisher": "The Hindu",
-       "publisherDomain": "thehindu.com",
-       "publishedAt": "2026-11-07T09:41:20Z",
-       "seenAt": "2026-11-07T09:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "India",
-       "sourceCountryCode": "IN",
-       "sourceRegion": "Asia",
-       "sourceLat": 22,
-       "sourceLon": 79,
-       "language": "en"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-10",
-     "stamp": "seed-2026-11-10",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-391553bb6731d1",
-       "title": "Blocage des lycées : des enseignants toulousains font classe dehors par solidarité avec leurs élèves, \"Les mobilisations ne sont pas un conflit entre prof et élèves\"",
-       "titleEnglish": "High school blockades: Toulouse teachers hold class outside in solidarity with their students, \"Protests are not a conflict between teachers and students\"",
-       "url": "https://www.ladepeche.fr/2026/11/10/blocage-des-lycees-des-enseignants-toulousains-font-classe-dehors-par-solidarite-avec-leurs-eleves-les-mobilisations-ne-sont-pas-un-conflit-entre-prof-13645346.php",
-       "publisher": "ladepeche.fr",
-       "publisherDomain": "ladepeche.fr",
-       "publishedAt": "2026-11-10T11:32:00Z",
-       "seenAt": "2026-11-10T11:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "France",
-       "sourceCountryCode": "FR",
-       "sourceRegion": "Europe",
-       "sourceLat": 46,
-       "sourceLon": 2,
-       "language": "fr"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-11",
-     "stamp": "seed-2026-11-11",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-25a5703478f70e",
-       "title": "Fransa'da okullardaki protestolar nedeniyle özel ders talebi arttı",
-       "titleEnglish": "In France, demand for private tutoring rises due to protests at schools",
-       "url": "https://www.aa.com.tr/tr/dunya/fransada-okullardaki-protestolar-nedeniyle-ozel-ders-talebi-artti/4120182",
-       "publisher": "Anadolu Ajansı",
-       "publisherDomain": "aa.com.tr",
-       "publishedAt": "2026-11-11T14:01:42Z",
-       "seenAt": "2026-11-11T11:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Turkey",
-       "sourceCountryCode": "TR",
-       "sourceRegion": "Middle East",
-       "sourceLat": 39,
-       "sourceLon": 35,
-       "language": "tr"
-      },
-      {
-       "id": "n-922c6d58e991c3",
-       "title": "HC asks SSUS why it persists with demand for apology from protesting students who were already under suspension",
-       "titleEnglish": "HC asks SSUS why it persists with demand for apology from protesting students who were already under suspension",
-       "url": "https://www.thehindu.com/news/national/kerala/hc-asks-ssus-why-it-persists-with-demand-for-apology-from-protesting-students-who-were-already-under-suspension/article71689276.ece",
-       "publisher": "The Hindu",
-       "publisherDomain": "thehindu.com",
-       "publishedAt": "2026-11-11T11:34:51Z",
-       "seenAt": "2026-11-11T11:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "India",
-       "sourceCountryCode": "IN",
-       "sourceRegion": "Asia",
-       "sourceLat": 22,
-       "sourceLon": 79,
-       "language": "en"
-      },
-      {
-       "id": "n-008bfbfdf299f0",
-       "title": "Polisi Jelaskan Kronologi Demo Berujung Kericuhan di Bundaran UGM - merdeka.com",
-       "titleEnglish": "Police explain chronology of demonstration that ended in chaos at UGM Roundabout - merdeka.com",
-       "url": "https://www.merdeka.com/peristiwa/read/8333433/polisi-jelaskan-kronologi-demo-berujung-kericuhan-di-bundaran-ugm",
-       "publisher": "merdeka.com",
-       "publisherDomain": "merdeka.com",
-       "publishedAt": "2026-11-11T13:17:18Z",
-       "seenAt": "2026-11-11T13:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Indonesia",
-       "sourceCountryCode": "ID",
-       "sourceRegion": "Asia",
-       "sourceLat": -2,
-       "sourceLon": 118,
-       "language": "id"
-      },
-      {
-       "id": "n-4976bddad77a3f",
-       "title": "Dua Pemuda Ditangkap Terkait Dugaan Rencana Kerusuhan di Demo 10 November",
-       "titleEnglish": "Two youths arrested over alleged plot to riot at 10 November demonstration",
-       "url": "https://www.liputan6.com/regional/read/8332721/dua-pemuda-ditangkap-terkait-dugaan-rencana-kerusuhan-di-demo-10-november",
-       "publisher": "liputan6.com",
-       "publisherDomain": "liputan6.com",
-       "publishedAt": "2026-11-10T22:33:31Z",
-       "seenAt": "2026-11-10T22:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Indonesia",
-       "sourceCountryCode": "ID",
-       "sourceRegion": "Asia",
-       "sourceLat": -2,
-       "sourceLon": 118,
-       "language": "id"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-12",
-     "stamp": "seed-2026-11-12",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-ed249926d2cc22",
-       "title": "Béarn. « À Pau, on pense que ce quota explose » : un appel à manifester contre la répression judiciaire des mineurs dans le mouvement lycéen ce vendredi 13 novembre",
-       "titleEnglish": "Béarn. \"In Pau, we think this quota is exploding\": call to protest judicial repression of minors in the high school movement this Friday 13 November",
-       "url": "https://www.sudouest.fr/pyrenees-atlantiques/pau/bearn-a-pau-on-pense-que-ce-quota-explose-un-appel-a-manifester-contre-la-repression-judiciaire-des-mineurs-dans-le-mouvement-lyceen-ce-vendredi-13-novembre-31498875.php",
-       "publisher": "SudOuest.fr",
-       "publisherDomain": "sudouest.fr",
-       "publishedAt": "2026-11-12T22:02:00Z",
-       "seenAt": "2026-11-12T22:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "France",
-       "sourceCountryCode": "FR",
-       "sourceRegion": "Europe",
-       "sourceLat": 46,
-       "sourceLon": 2,
-       "language": "fr"
-      },
-      {
-       "id": "n-b35efda52469c3",
-       "title": "BNN Buka Suara Terkait Dua Orang Positif Narkoba Saat Demo Ricuh Jogja - merdeka.com",
-       "titleEnglish": "BNN speaks out on two people testing positive for narcotics during violent Jogja demonstration - merdeka.com",
-       "url": "https://www.merdeka.com/peristiwa/read/8334235/bnn-buka-suara-terkait-dua-orang-positif-narkoba-saat-demo-ricuh-jogja",
-       "publisher": "merdeka.com",
-       "publisherDomain": "merdeka.com",
-       "publishedAt": "2026-11-12T13:17:39Z",
-       "seenAt": "2026-11-12T13:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Indonesia",
-       "sourceCountryCode": "ID",
-       "sourceRegion": "Asia",
-       "sourceLat": -2,
-       "sourceLon": 118,
-       "language": "id"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-13",
-     "stamp": "seed-2026-11-13",
-     "note": "Entered by hand on 15 November from the stored collections. French school blockades ran from 3 to 12 November with a call against the prosecution of minors; Yogyakarta students were arrested on 10 November. It would be a narrative if a third country's courts or police treated school protest as a criminal matter.",
-     "headlines": [
-      {
-       "id": "n-16b8f9f563c05d",
-       "title": "UGM Kecam Penangkapan Mahasiswa dalam Kericuhan Demo Yogyakarta",
-       "titleEnglish": "UGM condemns arrest of students in Yogyakarta demonstration chaos",
-       "url": "https://enamplus.liputan6.com/tv/read/8334273/ugm-kecam-penangkapan-mahasiswa-dalam-kericuhan-demo-yogyakarta",
-       "publisher": "Enamplus Liputan6",
-       "publisherDomain": "enamplus.liputan6.com",
-       "publishedAt": "2026-11-12T15:02:00Z",
-       "seenAt": "2026-11-12T15:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Indonesia",
-       "sourceCountryCode": "ID",
-       "sourceRegion": "Asia",
-       "sourceLat": -2,
-       "sourceLon": 118,
-       "language": "id"
-      }
-     ]
-    }
-   ],
-   "written": null
-  },
-  {
-   "key": "pay-strikes-outside-europe",
-   "subject": "Strikes and worker protests over pay and arrears outside Europe, from Bangladesh's garment factories to Korean rail",
-   "status": "open",
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
-   "sightings": [
-    {
-     "date": "2026-11-01",
-     "stamp": "seed-2026-11-01",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-690fd2f79ee493",
-       "title": "শ্রমিক বিক্ষোভ: গাজীপুরে কারখানার গুদাম, পুলিশের গাড়িতে অগ্নিসংযোগ",
-       "titleEnglish": "Workers' protest: Factory warehouse in Gazipur, police vehicle set on fire",
-       "url": "https://bangla.bdnews24.com/samagrabangladesh/bfgaaxhxsd",
-       "publisher": "bdnews24.com",
-       "publisherDomain": "bangla.bdnews24.com",
-       "publishedAt": "2026-11-01T08:36:49Z",
-       "seenAt": "2026-11-01T08:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Bangladesh",
-       "sourceCountryCode": "BD",
-       "sourceRegion": "Asia",
-       "sourceLat": 24,
-       "sourceLon": 90,
-       "language": "bn"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-03",
-     "stamp": "seed-2026-11-03",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-f588642f05a260",
-       "title": "Hundreds of food delivery drivers protest downtown to demand dignity, fair pay from companies | CBC News",
-       "titleEnglish": "Hundreds of food delivery drivers protest downtown to demand dignity, fair pay from companies | CBC News",
-       "url": "https://www.cbc.ca/news/canada/toronto/hundreds-of-food-delivery-drivers-protest-downtown-to-demand-dignity-fair-pay-from-companies-9.7406695",
-       "publisher": "CBC",
-       "publisherDomain": "cbc.ca",
-       "publishedAt": "2026-11-03T18:32:00Z",
-       "seenAt": "2026-11-03T18:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Canada",
-       "sourceCountryCode": "CA",
-       "sourceRegion": "North America",
-       "sourceLat": 56,
-       "sourceLon": -106,
-       "language": "en"
-      },
-      {
-       "id": "n-49460e5b3b9684",
-       "title": "Текстильные производства в Бангладеш остановили работу из-за протестов",
-       "titleEnglish": "Textile production in Bangladesh halted due to protests",
-       "url": "https://www.kommersant.ru/doc/9079468",
-       "publisher": "Коммерсантъ",
-       "publisherDomain": "kommersant.ru",
-       "publishedAt": "2026-11-03T02:41:40Z",
-       "seenAt": "2026-11-03T02:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Russia",
-       "sourceCountryCode": "RU",
-       "sourceRegion": "Europe",
-       "sourceLat": 61,
-       "sourceLon": 100,
-       "language": "und"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-04",
-     "stamp": "seed-2026-11-04",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-a2d10965cba6aa",
-       "title": "Police fire tear gas at Bangladesh garment worker demo",
-       "titleEnglish": "Police fire tear gas at Bangladesh garment worker demo",
-       "url": "https://www.westernadvocate.com.au/story/9385453/police-fire-tear-gas-at-bangladesh-garment-worker-demo/",
-       "publisher": "westernadvocate.com.au",
-       "publisherDomain": "westernadvocate.com.au",
-       "publishedAt": "2026-11-03T16:18:18Z",
-       "seenAt": "2026-11-03T17:17:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Australia",
-       "sourceCountryCode": "AU",
-       "sourceRegion": "Oceania",
-       "sourceLat": -25,
-       "sourceLon": 134,
-       "language": "en"
-      },
-      {
-       "id": "n-71506726d4f357",
-       "title": "CUT se va a paro nacional contra Ley de Rescate Económico: advierte riesgo para 700.000 empleos",
-       "titleEnglish": "CUT heads to national strike against Economic Rescue Law, warns of risk to 700,000 jobs",
-       "url": "https://www.elcolombiano.com/inicio/cut-convoca-paro-nacional-19-noviembre-reforma-tributaria-OO43093863",
-       "publisher": "El Colombiano",
-       "publisherDomain": "elcolombiano.com",
-       "publishedAt": "2026-11-03T18:04:09Z",
-       "seenAt": "2026-11-03T18:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Colombia",
-       "sourceCountryCode": "CO",
-       "sourceRegion": "Latin America",
-       "sourceLat": 4,
-       "sourceLon": -73,
-       "language": "es"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-05",
-     "stamp": "seed-2026-11-05",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-66b8cae9917385",
-       "title": "টানা ৩ দিনের বিক্ষোভ শেষে নারায়ণগঞ্জের শিল্পাঞ্চলে স্বস্তি, উৎপাদন শুরু",
-       "titleEnglish": "Relief in Narayanganj industrial area after three days of protests, production resumes",
-       "url": "https://www.dhakatoday.com/news/93133/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%AB%E0%A7%81%E0%A6%9F%E0%A6%AC%E0%A6%B2-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%85%E0%A6%AC%E0%A6%B8%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%A8%E0%A7%8B-%E0%A6%B0%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A6%A6%E0%A7%8B%E0%A6%B0",
-       "publisher": "dhakaToday.com",
-       "publisherDomain": "dhakatoday.com",
-       "publishedAt": "2026-11-05T12:47:00Z",
-       "seenAt": "2026-11-05T12:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Bangladesh",
-       "sourceCountryCode": "BD",
-       "sourceRegion": "Asia",
-       "sourceLat": 24,
-       "sourceLon": 90,
-       "language": "bn"
-      },
-      {
-       "id": "n-380d47f2eaa857",
-       "title": "철도노조 임금·단체교섭 결렬…12월 총파업 예고",
-       "titleEnglish": "Rail union wage and collective bargaining talks break down; general strike announced for December",
-       "url": "https://biz.heraldcorp.com/article/10927685",
-       "publisher": "헤럴드경제",
-       "publisherDomain": "biz.heraldcorp.com",
-       "publishedAt": "2026-11-05T10:46:04Z",
-       "seenAt": "2026-11-05T11:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "South Korea",
-       "sourceCountryCode": "KR",
-       "sourceRegion": "Asia",
-       "sourceLat": 36,
-       "sourceLon": 128,
-       "language": "ko"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-07",
-     "stamp": "seed-2026-11-07",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-e2fe03d7eaeadb",
-       "title": "Protestas de trabajadores del PJF paralizan vialidades en centro de Monterrey",
-       "titleEnglish": "PJF workers' protests paralyze roads in downtown Monterrey",
-       "url": "https://www.excelsior.com.mx/nacional/trabajadores-poder-judicial-paralizan-monterrey",
-       "publisher": "Excélsior",
-       "publisherDomain": "excelsior.com.mx",
-       "publishedAt": "2026-11-06T22:32:13Z",
-       "seenAt": "2026-11-06T22:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Mexico",
-       "sourceCountryCode": "MX",
-       "sourceRegion": "Latin America",
-       "sourceLat": 23,
-       "sourceLon": -102,
-       "language": "es"
-      },
-      {
-       "id": "n-8ce5e3b174cb60",
-       "title": "Ration dealers to protest Centre’s cash transfer plan",
-       "titleEnglish": "Ration dealers to protest Centre’s cash transfer plan",
-       "url": "https://www.thehindu.com/news/national/kerala/ration-dealers-to-protest-centres-cash-transfer-plan/article71678235.ece",
-       "publisher": "The Hindu",
-       "publisherDomain": "thehindu.com",
-       "publishedAt": "2026-11-07T13:49:47Z",
-       "seenAt": "2026-11-07T14:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "India",
-       "sourceCountryCode": "IN",
-       "sourceRegion": "Asia",
-       "sourceLat": 22,
-       "sourceLon": 79,
-       "language": "en"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-12",
-     "stamp": "seed-2026-11-12",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-9fb0f3eacf59c7",
-       "title": "NOTSUP Threatens Nationwide Strike Over Unpaid CONTTA, Unimplemented Agreement",
-       "titleEnglish": "NOTSUP Threatens Nationwide Strike Over Unpaid CONTTA, Unimplemented Agreement",
-       "url": "https://leadership.ng/notsup-threatens-nationwide-strike-over-unpaid-contta-unimplemented-agreement/",
-       "publisher": "LEADERSHIP Newspapers",
-       "publisherDomain": "leadership.ng",
-       "publishedAt": "2026-11-12T09:11:00Z",
-       "seenAt": "2026-11-12T09:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Nigeria",
-       "sourceCountryCode": "NG",
-       "sourceRegion": "Africa",
-       "sourceLat": 9,
-       "sourceLon": 8,
-       "language": "en"
-      },
-      {
-       "id": "n-94f9e915071222",
-       "title": "UNILAG VC promises intervention as health workers protest arrears",
-       "titleEnglish": "UNILAG VC promises intervention as health workers protest arrears",
-       "url": "https://punchng.com/unilag-vc-promises-intervention-as-health-workers-protest-arrears/",
-       "publisher": "Punch Newspapers",
-       "publisherDomain": "punchng.com",
-       "publishedAt": "2026-11-12T00:56:57Z",
-       "seenAt": "2026-11-12T01:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Nigeria",
-       "sourceCountryCode": "NG",
-       "sourceRegion": "Africa",
-       "sourceLat": 9,
-       "sourceLon": 8,
-       "language": "en"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-13",
-     "stamp": "seed-2026-11-13",
-     "note": "Entered by hand on 15 November from the stored collections. Bangladesh's garment protests ran from 1 to 5 November; since then Colombian unions, Korean rail workers, Nigerian health staff, Chilean truckers and Turkish miners have each appeared once. It would be a narrative if the same cause, such as prices or unpaid wages, were named in several of them.",
-     "headlines": [
-      {
-       "id": "n-f2f934c4ea46bc",
-       "title": "Gobierno advierte que aplicará Ley de Seguridad del Estado si camioneros descolgados del acuerdo mantienen bloqueos | Puranoticia.cl",
-       "titleEnglish": "Government warns it will apply the State Security Law if truckers who broke off the agreement maintain blockades | Puranoticia.cl",
-       "url": "https://puranoticia.pnt.cl/nacional/gobierno-advierte-que-aplicara-ley-de-seguridad-del-estado-si-camioneros",
-       "publisher": "puranoticia.pnt.cl",
-       "publisherDomain": "puranoticia.pnt.cl",
-       "publishedAt": "2026-11-13T11:02:00Z",
-       "seenAt": "2026-11-13T11:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Chile",
-       "sourceCountryCode": "CL",
-       "sourceRegion": "Latin America",
-       "sourceLat": -33,
-       "sourceLon": -71,
-       "language": "es"
-      },
-      {
-       "id": "n-e08e4c8dfbceb2",
-       "title": "Amasra'da maden ocağına kendilerini kapatan işçilerin eylemi sürüyor",
-       "titleEnglish": "Protest by workers who locked themselves in an Amasra mine shaft continues",
-       "url": "https://www.hurriyet.com.tr/gundem/amasrada-maden-ocagina-kendilerini-kapatan-iscilerin-eylemi-suruyor-43376787",
-       "publisher": "Hürriyet",
-       "publisherDomain": "hurriyet.com.tr",
-       "publishedAt": "2026-11-13T09:02:00Z",
-       "seenAt": "2026-11-13T09:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Turkey",
-       "sourceCountryCode": "TR",
-       "sourceRegion": "Middle East",
-       "sourceLat": 39,
-       "sourceLon": 35,
-       "language": "tr"
-      }
-     ]
-    }
-   ],
-   "written": null
-  },
-  {
-   "key": "israel-policy-protests-and-bans",
-   "subject": "Protests over governments' Israel policy and the arrests and bans that answer them, in Britain and the Netherlands",
-   "status": "open",
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-11",
-   "sightings": [
-    {
-     "date": "2026-11-01",
-     "stamp": "seed-2026-11-01",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-40ff4570e6fa7e",
-       "title": "İngiltere'de yasaklanan Palestine Action'a destek eyleminde gözaltı sayısı 139'a çıktı",
-       "titleEnglish": "Detentions at pro-Palestine Action support protest in Britain, banned there, rise to 139",
-       "url": "https://www.aa.com.tr/tr/dunya/ingilterede-yasaklanan-palestine-actiona-destek-eyleminde-gozalti-sayisi-139a-cikti/4107695",
-       "publisher": "Anadolu Ajansı",
-       "publisherDomain": "aa.com.tr",
-       "publishedAt": "2026-11-01T03:41:05Z",
-       "seenAt": "2026-11-01T02:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Turkey",
-       "sourceCountryCode": "TR",
-       "sourceRegion": "Middle East",
-       "sourceLat": 39,
-       "sourceLon": 35,
-       "language": "tr"
-      },
-      {
-       "id": "n-50aa63ce3f297b",
-       "title": "20 منظمة بتايلند تتظاهر ضد الوجود الإسرائيلي في البلاد",
-       "titleEnglish": "20 organisations in Thailand protest against the Israeli presence in the country",
-       "url": "https://www.khaberni.com/news/862629-20-%D9%85%D9%86%D8%B8%D9%85%D8%A9-%D8%A8%D8%AA%D8%A7%D9%8A%D9%84%D9%86%D8%AF-%D8%AA%D8%AA%D8%B8%D8%A7%D9%87%D8%B1-%D8%B6%D8%AF-%D8%A7%D9%84%D9%88%D8%AC%D9%88%D8%AF-%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%AF",
-       "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
-       "publisherDomain": "khaberni.com",
-       "publishedAt": "2026-10-31T16:32:00Z",
-       "seenAt": "2026-10-31T16:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Jordan",
-       "sourceCountryCode": "JO",
-       "sourceRegion": "Middle East",
-       "sourceLat": 31,
-       "sourceLon": 36,
-       "language": "ar"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-04",
-     "stamp": "seed-2026-11-04",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-1dbed7bb5e8975",
-       "title": "Maand celstraf voor pro-Palestijnse demonstrant die anderen met plank sloeg",
-       "titleEnglish": "One month in prison for pro-Palestinian demonstrator who beat others with a plank",
-       "url": "https://nos.nl/artikel/2637871-maand-celstraf-voor-pro-palestijnse-demonstrant-die-anderen-met-plank-sloeg",
-       "publisher": "nos.nl",
-       "publisherDomain": "nos.nl",
-       "publishedAt": "2026-11-03T14:17:00Z",
-       "seenAt": "2026-11-03T14:17:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Netherlands",
-       "sourceCountryCode": "NL",
-       "sourceRegion": "Europe",
-       "sourceLat": 52,
-       "sourceLon": 5,
-       "language": "nl"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-05",
-     "stamp": "seed-2026-11-05",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-23ec588df8fcf8",
-       "title": "UK ban on Palestine Action is challenged at top court, some protesters arrested",
-       "titleEnglish": "UK ban on Palestine Action is challenged at top court, some protesters arrested",
-       "url": "https://www.arabnews.com/world/uk-ban-on-palestine-action-is-challenged-at-top-court-some-protesters-arrested-3009787",
-       "publisher": "arabnews.com",
-       "publisherDomain": "arabnews.com",
-       "publishedAt": "2026-11-04T14:37:56Z",
-       "seenAt": "2026-11-04T14:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Saudi Arabia",
-       "sourceCountryCode": "SA",
-       "sourceRegion": "Middle East",
-       "sourceLat": 24,
-       "sourceLon": 45,
-       "language": "en"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-08",
-     "stamp": "seed-2026-11-08",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-330a52a069756e",
-       "title": "Incidente al campione europeo di Superbike: al via la gara di aiuti per il pilota carabiniere Salvo Sallustro caduto in pista",
-       "titleEnglish": "Red Line demonstration in Amsterdam: four arrests",
-       "url": "https://corrieredelveneto.corriere.it/notizie/vicenza/cronaca/26_novembre_08/incidente-al-campione-europeo-di-superbike-al-via-la-gara-di-aiuti-per-il-pilota-carabiniere-salvo-sallustro-caduto-in-pista-c3ed3da1-0381-4aff-bcf8-a16ed2b2fxlk.shtml",
-       "publisher": "Corriere della sera",
-       "publisherDomain": "corrieredelveneto.corriere.it",
-       "publishedAt": "2026-11-08T16:57:17Z",
-       "seenAt": "2026-11-08T20:17:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Italy",
-       "sourceCountryCode": "IT",
-       "sourceRegion": "Europe",
-       "sourceLat": 42,
-       "sourceLon": 12,
-       "language": "it"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-09",
-     "stamp": "seed-2026-11-09",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-62ff55da1a6f5e",
-       "title": "Pro-Hamas activists join protests in Amsterdam against Dutch Israel policy | The Jerusalem Post",
-       "titleEnglish": "Pro-Hamas activists join protests in Amsterdam against Dutch Israel policy | The Jerusalem Post",
-       "url": "https://www.jpost.com/diaspora/antisemitism/article-914320",
-       "publisher": "The Jerusalem Post | JPost.com",
-       "publisherDomain": "jpost.com",
-       "publishedAt": "2026-11-09T11:47:00Z",
-       "seenAt": "2026-11-09T11:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Israel",
-       "sourceCountryCode": "IL",
-       "sourceRegion": "Middle East",
-       "sourceLat": 31.5,
-       "sourceLon": 35,
-       "language": "en"
-      },
-      {
-       "id": "n-6918442c7ee6ce",
-       "title": "Amsterdam’da dördüncü “Kırmızı Çizgi” gösterisine 200 binden fazla kişi katıldı",
-       "titleEnglish": "More than 200,000 people join fourth \"Red Line\" protest in Amsterdam",
-       "url": "https://www.aa.com.tr/tr/dunya/amsterdam-da-dorduncu-kirmizi-cizgi-gosterisine-200-binden-fazla-kisi-katildi/4116280",
-       "publisher": "Anadolu Ajansı",
-       "publisherDomain": "aa.com.tr",
-       "publishedAt": "2026-11-08T21:57:15Z",
-       "seenAt": "2026-11-08T19:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Turkey",
-       "sourceCountryCode": "TR",
-       "sourceRegion": "Middle East",
-       "sourceLat": 39,
-       "sourceLon": 35,
-       "language": "tr"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-11",
-     "stamp": "seed-2026-11-11",
-     "note": "Entered by hand on 15 November from the stored collections. Arrests at protests for the banned Palestine Action reached 139 on 1 November and the ban went to Britain's top court on 5 November; Amsterdam's fourth Red Line march drew more than 200,000 on 8 November. Last seen 11 November.",
-     "headlines": [
-      {
-       "id": "n-7861915f33ba4e",
-       "title": "أنزل علم بلاده ورفع الفلسطيني أمام البوندستاغ.. شاب ألماني يروي للجزيرة تفاصيل احتجاجه",
-       "titleEnglish": "He lowered his country's flag and raised a Palestinian one in front of the Bundestag: German young man tells Al Jazeera about his protest",
-       "url": "https://www.aljazeera.net/news/2026/11/11/%D8%A3%D9%86%D8%B2%D9%84-%D8%B9%D9%84%D9%85-%D8%A8%D9%84%D8%A7%D8%AF%D9%87-%D9%88%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A-%D8%A3%D9%85%D8%A7%D9%85",
-       "publisher": "الجزيرة نت",
-       "publisherDomain": "aljazeera.net",
-       "publishedAt": "2026-11-10T22:47:00Z",
-       "seenAt": "2026-11-10T22:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Qatar",
-       "sourceCountryCode": "QA",
-       "sourceRegion": "Middle East",
-       "sourceLat": 25.3,
-       "sourceLon": 51.2,
-       "language": "ar"
-      }
-     ]
-    }
-   ],
-   "written": null
+   "written": {
+    "stamp": "20261117T232955",
+    "id": "europe-weekly-protests-living-costs",
+    "asOf": "2026-11-17T23:29:55Z"
+   }
   }
  ]
 }
