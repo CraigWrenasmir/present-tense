@@ -513,8 +513,14 @@
    "what": "The Trump administration or a federal agency asks a court to stop or delay the counting or certification of ballots in a second state.",
    "by": "2026-11-17",
    "because": "The join says acting on the count in advance is now a method for the side in office, not a dispute about California alone.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261118T225647",
+    "asOf": "2026-11-18T22:56:47Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-18 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261102T232930-incumbents-act-before-polling-2",
@@ -1790,8 +1796,23 @@
    "what": "Another child of a current or former head of government resigns a post or is charged over their own conduct in office or business.",
    "by": "2026-12-10",
    "because": "The join reads these cases as one change in how leaders' children are judged, so it should recur beyond the four countries here.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261118T225647",
+    "asOf": "2026-11-18T22:56:47Z",
+    "how": "headline",
+    "note": "Brazil's prosecutor-general filed a criminal complaint against Senator Flávio Bolsonaro, son of the former president, for slandering Lula in a post about Maduro.",
+    "headlines": [
+     {
+      "id": "n-75bf0bebdfad53",
+      "title": "PGR denuncia Flávio Bolsonaro por calúnia contra Lula em publicação sobre Maduro",
+      "titleEnglish": "PGR files complaint against Flávio Bolsonaro for slander against Lula in post about Maduro",
+      "url": "https://noticias.r7.com/brasilia/pgr-denuncia-flavio-bolsonaro-por-calunia-contra-lula-em-publicacao-sobre-maduro-18112026/",
+      "publisher": "R7 Notícias",
+      "sourceCountry": "Brazil"
+     }
+    ]
+   }
   },
   {
    "id": "20261112T221414-fuel-prices-set-by-states-1",
@@ -2154,6 +2175,118 @@
    "what": "A government or regulator issues public guidance on checking whether an outage notice, alert or warning message is genuine.",
    "by": "2026-12-10",
    "because": "When users cannot tell a real failure or warning from a false one, the first official response should be advice on telling them apart.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261118T225647-ai-boom-sold-before-profit-1",
+   "stamp": "20261118T225647",
+   "asOf": "2026-11-18T22:56:47Z",
+   "narrativeId": "ai-boom-sold-before-profit",
+   "kicker": "FLOTATION / COLLECTORS / HIDDEN DEBT",
+   "line": "The AI boom is now being sold to the public before it makes a profit, while those already rich from it buy older assets.",
+   "firmness": "plausible",
+   "what": "A second AI lab or data-centre operator files for, or announces, a US share listing.",
+   "by": "2026-12-16",
+   "because": "If the gains are being turned into cash while public demand lasts, Anthropic's demand should draw others to list quickly rather than wait for profits.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261118T225647-ai-boom-sold-before-profit-2",
+   "stamp": "20261118T225647",
+   "asOf": "2026-11-18T22:56:47Z",
+   "narrativeId": "ai-boom-sold-before-profit",
+   "kicker": "FLOTATION / COLLECTORS / HIDDEN DEBT",
+   "line": "The AI boom is now being sold to the public before it makes a profit, while those already rich from it buy older assets.",
+   "firmness": "plausible",
+   "what": "A central bank or financial regulator other than the ECB warns about debt behind AI or data-centre building held off company balance sheets.",
+   "by": "2026-12-16",
+   "because": "If the risk is passing from the builders to lenders and the public, regulators besides Frankfurt should start counting the same debt.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261118T225647-interceptors-used-faster-than-made-1",
+   "stamp": "20261118T225647",
+   "asOf": "2026-11-18T22:56:47Z",
+   "narrativeId": "interceptors-used-faster-than-made",
+   "kicker": "INTERCEPTORS / FACTORIES / ENDURANCE",
+   "line": "Countries relying on missile defence are protected only as long as stocks last, and refilling them takes years.",
+   "firmness": "plausible",
+   "what": "The US or an allied government announces a contract or new money to expand production of Patriot or other air-defence interceptors.",
+   "by": "2026-12-16",
+   "because": "If stocks rather than will now limit defence, governments should be seen paying for production lines, not only for more launchers.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261118T225647-interceptors-used-faster-than-made-2",
+   "stamp": "20261118T225647",
+   "asOf": "2026-11-18T22:56:47Z",
+   "narrativeId": "interceptors-used-faster-than-made",
+   "kicker": "INTERCEPTORS / FACTORIES / ENDURANCE",
+   "line": "Countries relying on missile defence are protected only as long as stocks last, and refilling them takes years.",
+   "firmness": "plausible",
+   "what": "A Gulf state, Israel or Ukraine is reported to have received fewer interceptors than it asked for, or to be rationing them.",
+   "by": "2026-12-16",
+   "because": "A shortfall that takes years to close should show up as rationing among the countries drawing on the same stock while the Gulf strikes continue.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261118T225647-trade-deals-while-powers-bargain-1",
+   "stamp": "20261118T225647",
+   "asOf": "2026-11-18T22:56:47Z",
+   "narrativeId": "trade-deals-while-powers-bargain",
+   "kicker": "HEDGING / MARKET ACCESS / SPHERES",
+   "line": "While three powers bargain over two wars, other governments sign trade deals among themselves rather than wait on the result.",
+   "firmness": "plausible",
+   "what": "A government outside the US, China and Russia concludes or signs a trade agreement and names US tariffs or great-power rivalry as a reason.",
+   "by": "2026-12-16",
+   "because": "If the deals are a hedge against what the three powers decide, the motive should start to be stated openly, not only implied by timing.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261118T225647-trade-deals-while-powers-bargain-2",
+   "stamp": "20261118T225647",
+   "asOf": "2026-11-18T22:56:47Z",
+   "narrativeId": "trade-deals-while-powers-bargain",
+   "kicker": "HEDGING / MARKET ACCESS / SPHERES",
+   "line": "While three powers bargain over two wars, other governments sign trade deals among themselves rather than wait on the result.",
+   "firmness": "plausible",
+   "what": "Canada announces the start or conclusion of trade talks with ASEAN or one of its members.",
+   "by": "2026-12-16",
+   "because": "Carney's stated aim of cutting dependencies is the same hedging, and the APEC week is when it would be turned into a named negotiation.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261118T225647-ai-found-flaws-patched-into-outages-1",
+   "stamp": "20261118T225647",
+   "asOf": "2026-11-18T22:56:47Z",
+   "narrativeId": "ai-found-flaws-patched-into-outages",
+   "kicker": "VULNERABILITIES / PATCHING / ATTRIBUTION",
+   "line": "Flaws found by AI now arrive faster than fixes can be tested, so the repairs themselves are taking systems down.",
+   "firmness": "plausible",
+   "what": "A software vendor or US agency attributes one of the November outages to a security patch or emergency update.",
+   "by": "2026-12-09",
+   "because": "If the patch flood is the mechanism, post-incident reports should name fixes rather than attackers as the cause.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261118T225647-ai-found-flaws-patched-into-outages-2",
+   "stamp": "20261118T225647",
+   "asOf": "2026-11-18T22:56:47Z",
+   "narrativeId": "ai-found-flaws-patched-into-outages",
+   "kicker": "VULNERABILITIES / PATCHING / ATTRIBUTION",
+   "line": "Flaws found by AI now arrive faster than fixes can be tested, so the repairs themselves are taking systems down.",
+   "firmness": "plausible",
+   "what": "A government or regulator issues guidance to stage, test or slow the rollout of security patches on critical systems.",
+   "by": "2026-12-16",
+   "because": "If fixes are causing the failures, the official answer should target the pace of patching rather than only hunting hackers.",
    "status": "open",
    "resolved": null
   }

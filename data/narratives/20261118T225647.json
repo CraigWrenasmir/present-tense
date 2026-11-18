@@ -1,0 +1,2066 @@
+{
+  "schemaVersion": 6,
+  "generatedAt": "2026-11-18T23:10:43Z",
+  "newsGeneratedAt": "2026-11-18T22:56:47Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-10",
+  "previousNewsGeneratedAt": "2026-11-17T23:29:55Z",
+  "usage": {
+    "input": 95368,
+    "output": 70335,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "A narrative may also resume one that stopped in the last four weeks ('resumes' gives that edition's stamp and the narrative's id), and may be written from a subject the site's notebook has been keeping ('builds'); such a narrative can cite headlines from earlier days, each shown with its date, beside at least three of the day's own.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-a3c28b9544e068",
+      "title": "Anthropic desbanca a SpaceX como la mayor salida a Bolsa de la historia y fija su valoración en 1,5 billones de dólares",
+      "url": "https://elpais.com/economia/2026-11-18/anthropic-desbanca-a-spacex-y-protagoniza-la-mayor-salida-a-bolsa-de-la-historia.html",
+      "publisher": "El País",
+      "publisherDomain": "elpais.com",
+      "publishedAt": "2026-11-18T21:41:11Z",
+      "seenAt": "2026-11-18T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-7e0aadc3fab52a",
+      "title": "Anthropic fija el precio de su salida a Bolsa en 83 dólares por acción",
+      "titleEnglish": "Anthropic sets IPO price at $83 per share",
+      "url": "https://www.elmundo.es/economia/2026/11/18/6afe137ce85ece22728b4584.html",
+      "publisher": "El Mundo",
+      "publisherDomain": "elmundo.es",
+      "publishedAt": "2026-11-18T21:25:17Z",
+      "seenAt": "2026-11-18T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-0b2301f58d0020",
+      "title": "Anthropic IPO: AI lab considers increasing the offering as investor demand surges",
+      "titleEnglish": "Anthropic IPO: AI lab considers increasing the offering as investor demand surges",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-18T15:15:54Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-341d4121a66255",
+      "title": "Hendrik Leber: „Ich will bei Anthropic mit dabei sein“",
+      "titleEnglish": "Hendrik Leber: \"I want to be part of Anthropic\"",
+      "url": "https://www.handelsblatt.com/finanzen/maerkte/aktien/hendrik-leber-ich-will-bei-anthropic-mit-dabei-sein/100269164.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-18T11:09:02Z",
+      "seenAt": "2026-11-18T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-a071b801121320",
+      "title": "Kevin O'Leary Warns Anthropic Investors It May Not Turn a Profit Until 2030 Despite IPO Backing",
+      "titleEnglish": "Kevin O'Leary Warns Anthropic Investors It May Not Turn a Profit Until 2030 Despite IPO Backing",
+      "url": "https://www.ibtimes.co.uk/kevin-oleary-anthropic-ipo-profitability-2030-1833078",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-11-18T16:42:08Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-d76869844e318a",
+      "title": "Investor Kevin Simpson urges caution on Nvidia, says one quarter doesn’t mean ‘all systems go'",
+      "titleEnglish": "Investor Kevin Simpson urges caution on Nvidia, says one quarter doesn’t mean ‘all systems go'",
+      "url": "https://www.cnbc.com/2026/11/18/kevin-simpson-urges-caution-on-nvidia-says-one-quarter-doesnt-mean-all-systems-go.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-18T16:30:29Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-10596da3f86822",
+      "title": "美 증시, 엔비디아 호실적에도 혼조…나스닥 0.4%↑·다우 1.1%↓",
+      "titleEnglish": "US stocks mixed despite Nvidia's strong results: Nasdaq up 0.4%, Dow down 1.1%",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026111906334464646",
+      "publisher": "디지털데일리",
+      "publisherDomain": "ddaily.co.kr",
+      "publishedAt": "2026-11-18T21:47:00Z",
+      "seenAt": "2026-11-18T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-3c1e41a5acc086",
+      "title": "Acciones de Nvidia suben con fuerza tras alza de ingresos que superaron las proyecciones de Wall Street - La Tercera",
+      "titleEnglish": "Nvidia shares rise sharply after revenue growth beat Wall Street projections - La Tercera",
+      "url": "https://www.latercera.com/pulso/noticia/acciones-de-nvidia-suben-tras-sus-resultados/",
+      "publisher": "La Tercera",
+      "publisherDomain": "latercera.com",
+      "publishedAt": "2026-11-18T10:53:07Z",
+      "seenAt": "2026-11-18T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-29778bd124ce15",
+      "title": "NY株続落、561ドル安 エヌビディア混乱を懸念",
+      "titleEnglish": "NY stocks fall for a second day, down $561; concerns over Nvidia turmoil",
+      "url": "https://www.47news.jp/15252492p2.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-11-18T22:47:00Z",
+      "seenAt": "2026-11-18T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-e350a2d14c7015",
+      "title": "ECB \"AI 투자 붐, 2008년 서브프라임 모기지 버블 닮았다… 대차대조표 밖 부채 4조달러\"",
+      "titleEnglish": "ECB: \"AI investment boom resembles 2008 subprime mortgage bubble… off-balance-sheet debt of 4 trillion dollars\"",
+      "url": "https://www.newspim.com/news/view/20261119000018",
+      "publisher": "뉴스핌",
+      "publisherDomain": "newspim.com",
+      "publishedAt": "2026-11-18T16:44:00Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-f2cbd590f405ca",
+      "title": "'Supersubasta' de arte contemporáneo en Nueva York: los nuevos ricos de la IA disparan la compra de piezas de grandes maestros",
+      "titleEnglish": "'Super auction' of contemporary art in New York: AI's new rich drive up purchases of old masters' works",
+      "url": "https://www.elmundo.es/papel/2026/11/18/6afdc40b21efa056198b4575.html",
+      "publisher": "El Mundo",
+      "publisherDomain": "elmundo.es",
+      "publishedAt": "2026-11-18T21:39:05Z",
+      "seenAt": "2026-11-18T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-aa8e33649fe3a2",
+      "title": "IMF raises Korea’s 2026 growth forecast to 3.9% on AI chip boom",
+      "titleEnglish": "IMF raises Korea’s 2026 growth forecast to 3.9% on AI chip boom",
+      "url": "https://english.hani.co.kr/arti/english_edition/e_business/1287973.html",
+      "publisher": "Hankyoreh",
+      "publisherDomain": "english.hani.co.kr",
+      "publishedAt": "2026-11-18T11:17:00Z",
+      "seenAt": "2026-11-18T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "en"
+    },
+    {
+      "id": "n-cd683c566a5590",
+      "title": "Softer oil, global AI reset to boost India’s growth and FDI in FY28: CEA Nageswaran",
+      "titleEnglish": "Softer oil, global AI reset to boost India’s growth and FDI in FY28: CEA Nageswaran",
+      "url": "https://www.thehindubusinessline.com/economy/softer-oil-global-ai-reset-to-boost-indias-growth-and-fdi-in-fy28-cea-nageswaran/article71716888.ece",
+      "publisher": "BusinessLine",
+      "publisherDomain": "thehindubusinessline.com",
+      "publishedAt": "2026-11-18T16:15:04Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-e4fcb34aa08a74",
+      "title": "خبير عسكري: سد فجوة إنتاج صواريخ باتريوت الأمريكية يستغرق سنوات - الوطن",
+      "titleEnglish": "Military expert: closing the gap in US Patriot missile production will take years - Al-Watan",
+      "url": "https://www.elwatannews.com/news/details/8399386",
+      "publisher": "الوطن",
+      "publisherDomain": "elwatannews.com",
+      "publishedAt": "2026-11-18T21:20:32Z",
+      "seenAt": "2026-11-18T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-67055423b8f3fb",
+      "title": "Critical rayon shortage threatens US Patriot missile production | The Jerusalem Post",
+      "titleEnglish": "Critical rayon shortage threatens US Patriot missile production | The Jerusalem Post",
+      "url": "https://www.jpost.com/defense-and-tech/article-915307",
+      "publisher": "The Jerusalem Post | JPost.com",
+      "publisherDomain": "jpost.com",
+      "publishedAt": "2026-11-18T14:17:00Z",
+      "seenAt": "2026-11-18T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-a438fe3a66e055",
+      "title": "Iran says strikes on US military assets were in self-defense",
+      "titleEnglish": "Iran says strikes on US military assets were in self-defense",
+      "url": "https://aa.com.tr/en/middle-east/iran-says-strikes-on-us-military-assets-were-in-self-defense/4129884",
+      "publisher": "Anadolu",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-11-19T01:06:49Z",
+      "seenAt": "2026-11-18T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-6545263f284d69",
+      "title": "米・イラン、ホルムズ海峡めぐる報復合戦が激化 クウェートも標的に：朝日新聞",
+      "titleEnglish": "US and Iran Escalate Tit-for-Tat Retaliation Over Strait of Hormuz, Kuwait Also Targeted - Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVCL327VVCLUHBI018M.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-11-18T09:56:11Z",
+      "seenAt": "2026-11-18T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-aa41346935a86e",
+      "title": "Saudi Arabia condemns Iranian attacks on Kuwait and Bahrain, strike on UAE tanker",
+      "titleEnglish": "Saudi Arabia condemns Iranian attacks on Kuwait and Bahrain, strike on UAE tanker",
+      "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-condemns-iranian-attacks-on-kuwait-and-bahrain-strike-on-uae-tanker-3012695",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-18T11:10:56Z",
+      "seenAt": "2026-11-18T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-64ac4d11c2ada3",
+      "title": "Military coalition carries out wave of strikes on Houthi targets",
+      "titleEnglish": "Military coalition carries out wave of strikes on Houthi targets",
+      "url": "https://www.arabnews.com/middle-east/military-coalition-carries-out-wave-of-strikes-on-houthi-targets-3012714",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-18T14:13:13Z",
+      "seenAt": "2026-11-18T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-dc13e9ca0043aa",
+      "title": "حمایت رئیس موساد از حمله مشترک اسرائیل و آمریکا به ایران",
+      "titleEnglish": "Mossad chief supports joint Israeli and American attack on Iran",
+      "url": "https://www.dw.com/fa-ir/%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D8%B1%D8%A6%DB%8C%D8%B3-%D9%85%D9%88%D8%B3%D8%A7%D8%AF-%D8%A7%D8%B2-%D8%AD%D9%85%D9%84%D9%87-%D9%85%D8%B4%D8%AA%D8%B1%DA%A9-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%DB%8C%D9%84-%D9%88-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D8%A8%D9%87-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/live-79976443",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-18T21:47:00Z",
+      "seenAt": "2026-11-18T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "fa"
+    },
+    {
+      "id": "n-935f507008ac8a",
+      "title": "בגלל המלחמה באיראן: טראמפ מאבד סבלנות כלפי ואנס | דיווח | וואלה חדשות",
+      "titleEnglish": "Because of the war in Iran: Trump losing patience with Vance | Report | Walla News",
+      "url": "https://www.walla.co.il:443/news/world/383962029",
+      "publisher": "walla.co.il",
+      "publisherDomain": "walla.co.il",
+      "publishedAt": "2026-11-18T19:47:00Z",
+      "seenAt": "2026-11-18T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
+    },
+    {
+      "id": "n-a70af8d5091e85",
+      "title": "Italia quiere un 'ciberejército' con 5.000 expertos para luchar contra la guerra híbrida | El Comercio: Diario de Asturias",
+      "titleEnglish": "Italy wants a 'cyber army' of 5,000 experts to fight hybrid war | El Comercio: Diario de Asturias",
+      "url": "https://www.elcomercio.es/internacional/europa/italia-quiere-ciberejercito-5000-expertos-luchar-guerra-20261118173622-ntrc.html",
+      "publisher": "El Comercio: Diario de Asturias",
+      "publisherDomain": "elcomercio.es",
+      "publishedAt": "2026-11-18T16:39:45Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-5368ab16e3628a",
+      "title": "IDF recruits first female tank combatants as pilot program launches | The Jerusalem Post",
+      "titleEnglish": "IDF recruits first female tank combatants as pilot program launches | The Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-915283",
+      "publisher": "The Jerusalem Post | JPost.com",
+      "publisherDomain": "jpost.com",
+      "publishedAt": "2026-11-18T13:47:00Z",
+      "seenAt": "2026-11-18T13:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-800368b473276e",
+      "title": "Salon La Base 2026 : une journée et deux publics pour la filière aéro spatiale défense",
+      "titleEnglish": "La Base 2026 fair: one day and two audiences for the aerospace and defence sector",
+      "url": "https://www.sudouest.fr:443/economie/eco-et-entreprises/salon-la-base-2026-une-journee-et-deux-publics-pour-la-filiere-aero-spatiale-defense-31559700.php",
+      "publisher": "SudOuest.fr",
+      "publisherDomain": "sudouest.fr",
+      "publishedAt": "2026-11-18T21:47:00Z",
+      "seenAt": "2026-11-18T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-c759c0b0f57de5",
+      "title": "Iran's war comes at a growing cost",
+      "titleEnglish": "Iran's war comes at a growing cost",
+      "url": "https://www.arabnews.com/middle-east/irans-war-comes-at-a-growing-cost-3012665",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-18T11:14:12Z",
+      "seenAt": "2026-11-18T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-27c3a2593f9149",
+      "title": "Bajo la mirada mundial, así fue el primer encuentro entre Donald Trump, Xi Jinping y Vladimir Putin",
+      "titleEnglish": "Under global gaze, this is how the first meeting between Donald Trump, Xi Jinping and Vladimir Putin went",
+      "url": "https://www.minutouno.com/mundo/bajo-la-mirada-mundial-asi-fue-el-primer-encuentro-donald-trump-xi-jinping-y-vladimir-putin-n6346865",
+      "publisher": "Minuto Uno",
+      "publisherDomain": "minutouno.com",
+      "publishedAt": "2026-11-18T22:47:00Z",
+      "seenAt": "2026-11-18T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-f75e0ae2a12d5f",
+      "title": "EXPLAINER - What was the Yalta Conference, and why is it being compared to the Trump-Xi-Putin summit?",
+      "titleEnglish": "EXPLAINER - What was the Yalta Conference, and why is it being compared to the Trump-Xi-Putin summit?",
+      "url": "https://aa.com.tr/en/world/explainer-what-was-the-yalta-conference-and-why-is-it-being-compared-to-the-trump-xi-putin-summit/4129804",
+      "publisher": "Anadolu",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-11-18T23:44:53Z",
+      "seenAt": "2026-11-18T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-b772f8c25668a0",
+      "title": "Apel Ukrainy przed spotkaniem Trump-Putin-Xi. Padło ostrzeżenie",
+      "titleEnglish": "Ukraine's appeal ahead of Trump-Putin-Xi meeting. A warning was issued",
+      "url": "https://wiadomosci.onet.pl/swiat/ukraina-apeluje-do-trumpa-i-xi-przed-rozmowa-z-putinem-tego-oczekujemy/zb64nzs",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-11-18T16:47:00Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-f2d5d39f7eea22",
+      "title": "Главный стратег Пентагона ушел с встречи по Украине",
+      "titleEnglish": "Pentagon's chief strategist walks out of meeting on Ukraine",
+      "url": "https://lenta.ru/news/2026/11/19/glavnyy-strateg-pentagona-ushel-s-vstrechi-po-ukraine/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-11-18T22:47:00Z",
+      "seenAt": "2026-11-18T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-61c5b2359a4411",
+      "title": "Het economische APEC gaat vooral over geopolitiek – en Europa is heel ver weg",
+      "titleEnglish": "The economic APEC is mostly about geopolitics – and Europe is very far away",
+      "url": "https://nos.nl/artikel/2640018-het-economische-apec-gaat-vooral-over-geopolitiek-en-europa-is-heel-ver-weg",
+      "publisher": "nos.nl",
+      "publisherDomain": "nos.nl",
+      "publishedAt": "2026-11-18T14:17:00Z",
+      "seenAt": "2026-11-18T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-921f8057db939f",
+      "title": "Europejczycy obawiają się, że Putin zwodzi Trumpa. \"To jest podstawowy problem\"",
+      "titleEnglish": "Europeans fear Putin is misleading Trump. \"This is the basic problem\"",
+      "url": "https://wiadomosci.onet.pl/swiat/europejczycy-obawiaja-sie-ze-putin-zwodzi-trumpa-biora-udzial-w-teatralnym/gc1rzsg",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-11-18T16:47:00Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-7d30edac17eb15",
+      "title": "Країни ЄС схвалили підписання торговельної угоди з Індонезією",
+      "titleEnglish": "EU countries approve signing of trade agreement with Indonesia",
+      "url": "https://lb.ua/world/2026/11/18/782136_krayini_ies_shvalili_pidpisannya.html",
+      "publisher": "LB.ua",
+      "publisherDomain": "lb.ua",
+      "publishedAt": "2026-11-18T21:47:00Z",
+      "seenAt": "2026-11-18T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "uk"
+    },
+    {
+      "id": "n-4e4ad3d8721637",
+      "title": "Carney aposta na Ásia-Pacífico para diversificar e reduzir dependências do Canadá",
+      "titleEnglish": "Carney bets on Asia-Pacific to diversify and reduce Canada's dependencies",
+      "url": "https://observador.pt/2026/11/18/carney-aposta-na-asia-pacifico-para-diversificar-e-reduzir-dependencias-do-canada/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-11-18T11:17:00Z",
+      "seenAt": "2026-11-18T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-14f3936c38c341",
+      "title": "Vietnamese leader calls for joint efforts to advance Free Trade Area of Asia-Pacific",
+      "titleEnglish": "Vietnamese leader calls for joint efforts to advance Free Trade Area of Asia-Pacific",
+      "url": "https://english.news.cn/20261118/2f6f40f8335e49cdbc12c2a12853ef01/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-11-18T19:47:00Z",
+      "seenAt": "2026-11-18T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-811c1ec6e9091c",
+      "title": "Australian PM calls for cooperation to strengthen regional prosperity",
+      "titleEnglish": "Australian PM calls for cooperation to strengthen regional prosperity",
+      "url": "https://english.news.cn/20261118/3f2a71728acb48f79f9cfcb9082b29e5/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-11-18T19:47:00Z",
+      "seenAt": "2026-11-18T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-276dd421eeaccf",
+      "title": "Malaysia focuses on trade expansion, friendly relations to drive economic growth",
+      "titleEnglish": "Malaysia focuses on trade expansion, friendly relations to drive economic growth",
+      "url": "https://www.thestar.com.my/business/business-news/2026/11/18/malaysia-focuses-on-trade-expansion-friendly-relations-to-drive-economic-growth",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-11-18T21:12:00Z",
+      "seenAt": "2026-11-18T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
+    },
+    {
+      "id": "n-12a7d1125eff4b",
+      "title": "Forum Bisnis Indonesia-Australia Bahas Tantangan Perdagangan Digital Lintas Negara",
+      "titleEnglish": "Indonesia-Australia Business Forum Discusses Challenges of Cross-Border Digital Trade",
+      "url": "https://news.republika.co.id/berita/topc87370/forum-bisnis-indonesiaaustralia-bahas-tantangan-perdagangan-digital-lintas-negara",
+      "publisher": "Republika Online",
+      "publisherDomain": "news.republika.co.id",
+      "publishedAt": "2026-11-18T16:25:00Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-ad5d64c67af07b",
+      "title": "شي يدعو الصين وتشيلي إلى العمل معا لتطوير العلاقات الثنائية",
+      "titleEnglish": "Xi calls on China and Chile to work together to develop bilateral relations",
+      "url": "https://alanbatnews.net/article/486565",
+      "publisher": "الأنباط",
+      "publisherDomain": "alanbatnews.net",
+      "publishedAt": "2026-11-18T16:49:12Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-f38a2d73346cdf",
+      "title": "Video: KEIKO FUJIMORI BUSCA ATRAER INVERSIONES CHINAS CON PUERTO DE CHANCAY Y AEROPUERTOS HORA PUNTA por Bethel Noticias",
+      "titleEnglish": "Video: KEIKO FUJIMORI SEEKS TO ATTRACT CHINESE INVESTMENT WITH CHANCAY PORT AND RUSH-HOUR AIRPORTS by Bethel Noticias",
+      "url": "https://www.deperu.com/tv/7OzNX6_nTDQ.renovacion-popular-denuncia-constitucionalmente-a-roberto-burneo-bethel-noticias.UCG0lLqXlvd3QsemIzmMOSiw.html",
+      "publisher": "deperu.com",
+      "publisherDomain": "deperu.com",
+      "publishedAt": "2026-11-18T19:47:00Z",
+      "seenAt": "2026-11-18T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Peru",
+      "sourceCountryCode": "PE",
+      "sourceRegion": "Latin America",
+      "sourceLat": -10,
+      "sourceLon": -76,
+      "language": "es"
+    },
+    {
+      "id": "n-1c354bb424851c",
+      "title": "صادرات البوتاس العربية إلى أوروبا ارتفعت من 80 ألفاً إلى 650 ألف طن سنوياً خلال أربع سنوات",
+      "titleEnglish": "Arab potash exports to Europe rose from 80,000 to 650,000 tonnes annually over four years",
+      "url": "https://alanbatnews.net/article/486561",
+      "publisher": "الأنباط",
+      "publisherDomain": "alanbatnews.net",
+      "publishedAt": "2026-11-18T16:49:11Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-caf70a35ab4b2d",
+      "title": "حجازي يستعرض فرص الشراكة بين المشاريع الأردنية والأوروبية في مؤتمر الاستثمار الأردني–الأوروبي",
+      "titleEnglish": "Hijazi reviews partnership opportunities between Jordanian and European projects at Jordanian-European Investment Conference",
+      "url": "https://alanbatnews.net/article/486558",
+      "publisher": "الأنباط",
+      "publisherDomain": "alanbatnews.net",
+      "publishedAt": "2026-11-18T16:49:11Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-e6cc1f7738bccb",
+      "title": "اتفاق مصري هندي لتعزيز التعاون الصناعي وتوسيع فرص الاستثمار | مصراوي",
+      "titleEnglish": "Egyptian-Indian agreement to strengthen industrial cooperation and expand investment opportunities | Masrawy",
+      "url": "https://www.masrawy.com/news/news_economy/details/2026/11/18/3080826/%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%85%D8%B5%D8%B1%D9%8A-%D9%87%D9%86%D8%AF%D9%8A-%D9%84%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A-%D9%88%D8%AA%D9%88%D8%B3%D9%8A%D8%B9-%D9%81%D8%B1%D8%B5-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83",
+      "publisher": "مصراوي.كوم",
+      "publisherDomain": "masrawy.com",
+      "publishedAt": "2026-11-18T16:47:00Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-fb268b34307c6e",
+      "title": "AI가 찾은 보안 취약점 '패치 폭주'…미국 NSA·금융·항공 연쇄 장애 원인으로 지목",
+      "titleEnglish": "'Patch flood' from AI-found security vulnerabilities blamed for chain failures at US NSA, finance and aviation",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026111906095673069",
+      "publisher": "디지털데일리",
+      "publisherDomain": "ddaily.co.kr",
+      "publishedAt": "2026-11-18T21:47:00Z",
+      "seenAt": "2026-11-18T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-899d3282faca6e",
+      "title": "As criticism mounts, Trump administration says tech outages not coordinated",
+      "titleEnglish": "As criticism mounts, Trump administration says tech outages not coordinated",
+      "url": "https://www.rnz.co.nz/news/world/2673905/as-criticism-mounts-trump-administration-says-tech-outages-not-coordinated",
+      "publisher": "RNZ",
+      "publisherDomain": "rnz.co.nz",
+      "publishedAt": "2026-11-18T21:47:00Z",
+      "seenAt": "2026-11-18T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-9d3ca36f0f90ab",
+      "title": "Масштабные технологические сбои в мире: Рубио ответил, причастны ли хакеры",
+      "titleEnglish": "Large-scale technology outages worldwide: Rubio responds on whether hackers are involved",
+      "url": "https://www.unian.net/world/masshtabnye-tehnologicheskie-sboi-v-mire-rubio-otvetil-prichastny-li-hakery-13563591.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-11-18T11:17:00Z",
+      "seenAt": "2026-11-18T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-0282a81b48a054",
+      "title": "What's going on with all the tech outages?",
+      "titleEnglish": "What's going on with all the tech outages?",
+      "url": "https://www.ideastream.org/2026-11-18/whats-going-on-with-all-the-tech-outages",
+      "publisher": "Ideastream Public Media",
+      "publisherDomain": "ideastream.org",
+      "publishedAt": "2026-11-18T17:03:42Z",
+      "seenAt": "2026-11-18T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-735add12a41ac5",
+      "title": "¿Qué hay detrás de la serie de caídas tecnológicas que afectan a empresas y viajeros?",
+      "titleEnglish": "What lies behind the series of technology outages affecting companies and travelers?",
+      "url": "https://www.elmundo.es/economia/2026/11/18/6afda0ede4d4d8672b8b4572.html",
+      "publisher": "El Mundo",
+      "publisherDomain": "elmundo.es",
+      "publishedAt": "2026-11-18T13:33:49Z",
+      "seenAt": "2026-11-18T13:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-02b333e125b9a2",
+      "title": "\"إف بي آي\" يحذر: أداة اختراق بالذكاء الاصطناعي تنفذ الهجمات خلال ثلاث ساعات",
+      "titleEnglish": "\"FBI\" warns: AI-powered hacking tool carries out attacks within three hours",
+      "url": "https://www.aljazeera.net/tech/2026/11/18/%D8%A7%D9%84%D8%A5%D9%81-%D8%A8%D9%8A-%D8%A2%D9%8A-%D8%AA%D8%AD%D8%B0%D8%B1-%D8%A3%D8%AF%D8%A7%D8%A9-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D9%82-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-18T13:47:00Z",
+      "seenAt": "2026-11-18T13:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-ead2189778d57a",
+      "title": "ביקשו מ-ChatGPT וממתחריו לתכנן פיגועים - והתוצאות מטרידות | וואלה טכנולוגיה",
+      "titleEnglish": "They asked ChatGPT and its rivals to plan attacks - and the results are disturbing | Walla Technology",
+      "url": "https://www.walla.co.il:443/tech/tech-news/383962058",
+      "publisher": "walla.co.il",
+      "publisherDomain": "walla.co.il",
+      "publishedAt": "2026-11-18T22:47:00Z",
+      "seenAt": "2026-11-18T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
+    },
+    {
+      "id": "n-ccb78b75641b89",
+      "title": "'Experimental science': firms warned on AI safety risk",
+      "titleEnglish": "'Experimental science': firms warned on AI safety risk",
+      "url": "https://www.irrigator.com.au/story/9393838/experimental-science-firms-warned-on-ai-safety-risk/",
+      "publisher": "irrigator.com.au",
+      "publisherDomain": "irrigator.com.au",
+      "publishedAt": "2026-11-18T06:25:38Z",
+      "seenAt": "2026-11-18T07:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-692bde1b9749a6",
+      "title": "The Latest: Mullin faces Congress over flight disruptions, football trip and immigration",
+      "titleEnglish": "The Latest: Mullin faces Congress over flight disruptions, football trip and immigration",
+      "url": "https://www.click2houston.com/news/politics/2026/11/18/the-latest-trump-arrives-in-china-seeking-to-reinforce-uss-status-as-worlds-leading-tech-power/",
+      "publisher": "KPRC",
+      "publisherDomain": "click2houston.com",
+      "publishedAt": "2026-11-18T14:27:14Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-98da2cd9a2e99b",
+      "title": "Bandara Bali Jelaskan soal Listrik Padam di Terminal Internasional - merdeka.com",
+      "titleEnglish": "Bali Airport explains power outage at International Terminal - merdeka.com",
+      "url": "https://www.merdeka.com/peristiwa/read/8337902/bandara-bali-jelaskan-soal-listrik-padam-di-terminal-internasional",
+      "publisher": "merdeka.com",
+      "publisherDomain": "merdeka.com",
+      "publishedAt": "2026-11-18T11:54:04Z",
+      "seenAt": "2026-11-18T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-eda6d5065826e6",
+      "title": "PlayStation Network reports service disruptions ahead of Grand Theft Auto VI launch",
+      "titleEnglish": "PlayStation Network reports service disruptions ahead of Grand Theft Auto VI launch",
+      "url": "https://aa.com.tr/en/world/playstation-network-reports-service-disruptions-ahead-of-grand-theft-auto-vi-launch/4129840",
+      "publisher": "Anadolu",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-11-18T23:54:14Z",
+      "seenAt": "2026-11-18T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-88c0675a5b7d62",
+      "title": "GTA 6 Update: PS5 Players Who Preloaded 200+ GB Must Still Download a 1.267 GB Firmware Update First",
+      "titleEnglish": "GTA 6 Update: PS5 Players Who Preloaded 200+ GB Must Still Download a 1.267 GB Firmware Update First",
+      "url": "https://www.ibtimes.co.uk/gta-6-update-ps5-players-who-preloaded-200-gb-must-still-download-1267-gb-firmware-update-first-1833205",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-11-18T14:13:47Z",
+      "seenAt": "2026-11-18T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    }
+  ],
+  "settled": [
+    {
+      "id": "20261112T221414-leaders-children-judged-2",
+      "status": "kept",
+      "how": "headline"
+    },
+    {
+      "id": "20261102T232930-incumbents-act-before-polling-1",
+      "status": "failed",
+      "how": "expired"
+    }
+  ],
+  "readings": [
+    {
+      "id": "ai-boom-sold-before-profit",
+      "line": "The AI boom is now being sold to the public before it makes a profit, while those already rich from it buy older assets.",
+      "kicker": "FLOTATION / COLLECTORS / HIDDEN DEBT",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A second AI lab or data-centre operator files for, or announces, a US share listing.",
+          "by": "2026-12-16",
+          "because": "If the gains are being turned into cash while public demand lasts, Anthropic's demand should draw others to list quickly rather than wait for profits.",
+          "id": "20261118T225647-ai-boom-sold-before-profit-1"
+        },
+        {
+          "what": "A central bank or financial regulator other than the ECB warns about debt behind AI or data-centre building held off company balance sheets.",
+          "by": "2026-12-16",
+          "because": "If the risk is passing from the builders to lenders and the public, regulators besides Frankfurt should start counting the same debt.",
+          "id": "20261118T225647-ai-boom-sold-before-profit-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "Netscape's listing on 9 August 1995 opened five years in which loss-making internet firms sold shares to a public eager for them; the Nasdaq peaked in March 2000 and fell about 78% by October 2002, while the network those firms built kept growing. Facebook's listing in May 2012 lost half its value within months and recovered once profits came. The present differs in scale, a $1.5 trillion valuation for a firm not yet in profit, and in the ECB's point that much of the building is debt held off balance sheets, which is closer to 2007 than to 1999.",
+        "paths": [
+          {
+            "name": "More listings while demand lasts",
+            "weight": "favoured",
+            "text": "Within six months other AI labs and data-centre builders file to list or sell large blocks of shares, using Anthropic's demand as their benchmark, and early holders sell when lock-up periods end in 2027. The join points this way because the people holding the gains act while the window is open, before profits are tested.",
+            "sign": "A second AI lab or data-centre operator files for a US listing citing investor demand."
+          },
+          {
+            "name": "A debt scare before profits",
+            "weight": "possible",
+            "text": "A data-centre borrower or one of its lenders reports losses or a missed payment in 2027, and regulators act on the ECB's comparison with subprime. Share prices of listed AI firms fall with it even if their revenue keeps growing.",
+            "sign": "A rating agency or central bank flags or downgrades a data-centre debt vehicle."
+          },
+          {
+            "name": "Profits arrive early",
+            "weight": "unlikely",
+            "text": "Anthropic or another listed lab reports an operating profit well before 2030, settling the doubts O'Leary and others raise. This is less likely because computing costs are rising as fast as revenue in the reports available.",
+            "sign": "A listed AI lab's quarterly results show an operating profit."
+          }
+        ],
+        "decade": "Over ten years the AI build will be owned less by its founders and more by pension funds and savers who bought at listing, and whether that was a fair trade depends on profits not yet earned."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Anthropic priced its share listing at $83 a share, displacing SpaceX as the largest in history at a $1.5 trillion valuation, in the same days that the European Central Bank compared the AI investment boom to the 2008 subprime bubble and counted $4 trillion of off-balance-sheet debt behind it, and that buyers enriched by AI drove up prices for old masters at a New York auction. Nvidia beat forecasts while US shares fell, and the IMF raised South Korea's growth forecast on AI chip demand. Together they show the boom passing from private hands into public markets and into older stores of value before the firms at its centre make money, so the risk is moving to the new shareholders and to the economies whose growth depends on chip orders.",
+      "events": [
+        {
+          "label": "Anthropic prices record share listing",
+          "articleIds": [
+            "n-a3c28b9544e068",
+            "n-7e0aadc3fab52a",
+            "n-0b2301f58d0020",
+            "n-341d4121a66255"
+          ]
+        },
+        {
+          "label": "Investors warn on AI profits",
+          "articleIds": [
+            "n-a071b801121320",
+            "n-d76869844e318a"
+          ]
+        },
+        {
+          "label": "Nvidia beats forecasts, shares still fall",
+          "articleIds": [
+            "n-10596da3f86822",
+            "n-3c1e41a5acc086",
+            "n-29778bd124ce15"
+          ]
+        },
+        {
+          "label": "ECB likens AI build to subprime",
+          "articleIds": [
+            "n-e350a2d14c7015"
+          ]
+        },
+        {
+          "label": "AI fortunes bid up old masters",
+          "articleIds": [
+            "n-f2cbd590f405ca"
+          ]
+        },
+        {
+          "label": "IMF and India count on AI chips",
+          "articleIds": [
+            "n-aa8e33649fe3a2",
+            "n-cd683c566a5590"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "The listing and its doubters",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "A record listing",
+              "text": "El País reports that Anthropic has overtaken SpaceX as the largest stock market listing in history, at a valuation of $1.5 trillion, and El Mundo gives the price as $83 a share. CNBC says the lab is considering enlarging the offering as investor demand surges. Handelsblatt quotes the fund manager Hendrik Leber saying he wants to be part of it.",
+              "articleIds": [
+                "n-a3c28b9544e068",
+                "n-7e0aadc3fab52a",
+                "n-0b2301f58d0020",
+                "n-341d4121a66255"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Warnings on profit",
+              "text": "International Business Times UK reports Kevin O'Leary warning Anthropic's buyers that it may not turn a profit until 2030. On CNBC the investor Kevin Simpson says one strong Nvidia quarter does not mean all systems go. Digital Daily and La Tercera report Nvidia's results beating forecasts, yet 47NEWS reports New York stocks falling for a second day on concern over Nvidia's turmoil.",
+              "articleIds": [
+                "n-a071b801121320",
+                "n-d76869844e318a",
+                "n-10596da3f86822",
+                "n-3c1e41a5acc086",
+                "n-29778bd124ce15"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "The debt, the paintings, the forecasts",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "The ECB's comparison",
+              "text": "Newspim in South Korea reports the European Central Bank saying the AI investment boom resembles the 2008 subprime mortgage bubble, with $4 trillion of debt held off balance sheets. The warning comes from a central bank, not a commentator, and it is about borrowing rather than share prices.",
+              "articleIds": [
+                "n-e350a2d14c7015"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "New money, old masters",
+              "text": "El Mundo reports a 'super auction' of art in New York at which AI's new rich drove up purchases of works by old masters. The headline does not name the buyers, only where their money came from.",
+              "articleIds": [
+                "n-f2cbd590f405ca"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f5",
+              "label": "Economies tied to the boom",
+              "text": "Hankyoreh reports the IMF raising South Korea's 2026 growth forecast to 3.9% on the AI chip boom. BusinessLine quotes India's chief economic adviser expecting softer oil and a 'global AI reset' to lift India's growth and foreign investment.",
+              "articleIds": [
+                "n-aa8e33649fe3a2",
+                "n-cd683c566a5590"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Who now holds the risk",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Gains turned into cash and things",
+              "text": "A listing turns private holdings into shares that can be sold, and enlarging the offer passes more of the firm to the public at the price demand sets. The auction shows some gains already moved into assets whose value does not depend on AI. The ECB's figure says much of the building was paid for with debt that does not appear on the users' accounts. The order is the point: the conversion to cash and paintings comes before the profit O'Leary dates to 2030.",
+              "articleIds": [
+                "n-0b2301f58d0020",
+                "n-f2cbd590f405ca",
+                "n-e350a2d14c7015",
+                "n-a071b801121320"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "netscape-1995"
+              ]
+            },
+            {
+              "id": "f7",
+              "label": "Countries as holders",
+              "text": "Korea's raised forecast and India's hopes put national growth on the same bet as a share buyer's. A fall in Nvidia's shares on a day its results beat forecasts shows how much of that bet rests on expectation rather than on what has been earned.",
+              "articleIds": [
+                "n-aa8e33649fe3a2",
+                "n-cd683c566a5590",
+                "n-29778bd124ce15"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f8",
+              "label": "A raise, not a sale",
+              "text": "A listing raises new money for the company to spend on computing, and none of these headlines says early holders are selling; Leber is buying. Rich people buying paintings is ordinary in every boom and says nothing about whether this one will pay.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f9",
+              "label": "Where the events part",
+              "text": "The ECB warning concerns debt taken on by data-centre builders, not Anthropic's shares; the auction concerns collectors; the Korean forecast rests on chip exports with real orders behind them; Nvidia's results were strong. What they share may only be that AI is now so large that any day's financial news touches it, which is a fact about size, not a mechanism.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "CHATGPT / RATES / PRIVATE ROUNDS",
+          "text": "The regime that began in 2020 gave the AI firms their customers and their money. ChatGPT reached a hundred million users within two months of its release on 30 November 2022, and the labs that followed raised money in private rounds from cloud companies and chipmakers rather than from the public. Interest rates rose sharply in 2022 and 2023, which closed the market for new listings for two years, so value built up privately with nowhere to be sold. In May 2023 the heads of the main laboratories signed a one-sentence statement that extinction from AI should be a global priority; the risk they described now sits in a prospectus. By these headlines Anthropic prices at $83 a share and a $1.5 trillion valuation, the largest listing yet, and Kevin O'Leary puts its first profit at 2030. The listing is the point at which five years of private valuation meets public buyers for the first time.",
+          "trajectoryIds": [
+            "chatgpt-2022",
+            "extinction-statement-2023"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CREDIT / ZERO RATES / OFF THE BOOKS",
+          "text": "After Lehman Brothers failed on 15 September 2008, central banks held rates near zero for most of a decade, and money that could not earn interest went into private equity and venture funds. Companies stayed private longer: Uber listed in 2019, ten years after its founding. The crisis also left a vocabulary. The structured investment vehicles of 2007 kept mortgage debt off banks' balance sheets until it came back onto them at the worst moment, and Adam Tooze's Crashed traces how that debt became a decade of politics. When the ECB, as Newspim reports, compares the AI build to the subprime bubble and counts $4 trillion of debt off balance sheets, it points at that mechanism: data centres built by special-purpose companies and financed by loans that do not appear on the accounts of the firms that use them. The comparison is contested, since data centres have tenants and the empty housing estates of 2008 did not.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "LISTINGS / DISCLOSURE / MEMORY CHIPS",
+          "text": "The years after 1989 taught markets to buy technology firms on promise. Netscape listed on 9 August 1995 with no profit and its shares doubled on the first day; dozens of firms followed through 1999, and when the Nasdaq broke in March 2000 it lost most of its value over two and a half years. The Sarbanes-Oxley Act of 2002 answered with rules on disclosure, which is why a listing now carries long lists of risk factors and why O'Leary can read in Anthropic's that profit is years away. The same period built the countries now tied to the boom. South Korea came out of the 1997 Asian crisis and its IMF programme with an economy led by memory chips, and Hankyoreh's report that the IMF has raised Korea's growth forecast to 3.9% on AI chip demand shows that dependence still in place, now on a single kind of customer.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE RESEARCH / COLLECTING / NEW FORTUNES",
+          "text": "For most of the period since 1945 the technologies expected to change everything were paid for by governments. The workshop that named artificial intelligence met at Dartmouth in 1956 on foundation money, and after Sputnik in 1957 the US created ARPA, whose network became the internet. The gains from that public research were spread over decades and taxed as they arrived. The AI wave reverses the order: the builder is a company, and the first large gains go to its early holders when it lists. The postwar art market shows where such gains have gone before. New York replaced Paris as the centre of the trade after the war, and each new fortune, from oil, then finance, then software, has bought paintings older than itself. El Mundo's report of AI's new rich bidding up old masters at a New York sale is the latest of these, arriving before the firms that made them rich have shown a profit.",
+          "trajectoryIds": [
+            "dartmouth-1956",
+            "sputnik-1957"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-a3c28b9544e068",
+        "n-7e0aadc3fab52a",
+        "n-0b2301f58d0020",
+        "n-341d4121a66255",
+        "n-a071b801121320",
+        "n-d76869844e318a",
+        "n-10596da3f86822",
+        "n-3c1e41a5acc086",
+        "n-29778bd124ce15",
+        "n-e350a2d14c7015",
+        "n-f2cbd590f405ca",
+        "n-aa8e33649fe3a2",
+        "n-cd683c566a5590"
+      ]
+    },
+    {
+      "id": "interceptors-used-faster-than-made",
+      "line": "Countries relying on missile defence are protected only as long as stocks last, and refilling them takes years.",
+      "kicker": "INTERCEPTORS / FACTORIES / ENDURANCE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "The US or an allied government announces a contract or new money to expand production of Patriot or other air-defence interceptors.",
+          "by": "2026-12-16",
+          "because": "If stocks rather than will now limit defence, governments should be seen paying for production lines, not only for more launchers.",
+          "id": "20261118T225647-interceptors-used-faster-than-made-1"
+        },
+        {
+          "what": "A Gulf state, Israel or Ukraine is reported to have received fewer interceptors than it asked for, or to be rationing them.",
+          "by": "2026-12-16",
+          "because": "A shortfall that takes years to close should show up as rationing among the countries drawing on the same stock while the Gulf strikes continue.",
+          "id": "20261118T225647-interceptors-used-faster-than-made-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the EU's pledge in March 2023 to send Ukraine a million artillery shells within a year; by the deadline about half had been delivered, and European output reached that rate only in 2024 and 2025. The present differs in that shells are simple and made by many firms, while interceptors come from a handful of contractors at a few hundred a year and depend on specialised materials, as the rayon report shows.",
+        "paths": [
+          {
+            "name": "Contracts signed, deliveries slow",
+            "weight": "favoured",
+            "text": "Within months Washington and its allies announce multi-year interceptor contracts and new production lines, but deliveries do not rise much before 2028. Meanwhile the countries under fire queue for what exists. The join points here because the gap is in factories and materials, which money can order quickly but not build quickly.",
+            "sign": "A multi-year contract for Patriot or similar interceptors is announced with a delivery date two or more years away."
+          },
+          {
+            "name": "Allies rationed by Washington",
+            "weight": "possible",
+            "text": "The US keeps interceptors for its own bases and for Israel and tells Gulf states or Ukraine to wait, opening a dispute among allies early next year. This follows if the Iranian strikes continue at their present rate.",
+            "sign": "A report that a promised delivery of interceptors to an ally has been deferred."
+          },
+          {
+            "name": "A ceasefire eases the drain",
+            "weight": "unlikely",
+            "text": "A US-Iran deal or a pause in the Gulf cuts launch rates enough that stocks recover. This is less likely because, by these headlines, both sides are still striking and Israeli officials are urging further attacks.",
+            "sign": "A ceasefire announced that covers missile and drone strikes on Gulf states."
+          }
+        ],
+        "decade": "Over ten years the value of an air-defence system will be judged by how many interceptors its makers can turn out a year, and specialised materials will enter alliance talks beside the weapons."
+      },
+      "continues": "",
+      "change": "When this narrative last ran on 30 October it was about cheap drones making defence a matter of quantity, with states financing arms factories and widening conscription. Since then the US-Iran war has moved into exchanges around the Strait of Hormuz and Gulf bases, and today two reports put a limit on the defending side: the Patriot production gap will take years to close and a rayon shortage threatens that production.",
+      "claim": "An Egyptian military expert tells Al-Watan that closing the gap in US Patriot missile production will take years, and the Jerusalem Post reports a rayon shortage threatening that production, in the same days that Iran strikes US military assets around the Gulf, hitting Kuwait, Bahrain and a UAE tanker, and a coalition launches a wave of strikes on the Houthis. Italy plans a 5,000-strong cyber force and Israel puts its first women into tank crews. The war is using interceptors faster than factories can replace them, so how long a state can defend its cities now depends on supply lines for parts and materials more than on its willingness to fight.",
+      "events": [
+        {
+          "label": "Patriot output gap and rayon shortage",
+          "articleIds": [
+            "n-e4fcb34aa08a74",
+            "n-67055423b8f3fb"
+          ]
+        },
+        {
+          "label": "Iran strikes US assets around the Gulf",
+          "articleIds": [
+            "n-a438fe3a66e055",
+            "n-6545263f284d69",
+            "n-aa41346935a86e",
+            "n-c759c0b0f57de5"
+          ]
+        },
+        {
+          "label": "Coalition strikes on the Houthis",
+          "articleIds": [
+            "n-64ac4d11c2ada3"
+          ]
+        },
+        {
+          "label": "Israel and Washington weigh further attacks",
+          "articleIds": [
+            "n-dc13e9ca0043aa",
+            "n-935f507008ac8a"
+          ]
+        },
+        {
+          "label": "Italy and Israel widen who serves",
+          "articleIds": [
+            "n-a70af8d5091e85",
+            "n-5368ab16e3628a"
+          ]
+        },
+        {
+          "label": "French aerospace and defence fair",
+          "articleIds": [
+            "n-800368b473276e"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Interceptors and the strikes using them",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Years to close the gap",
+              "text": "Al-Watan in Egypt quotes a military expert saying the gap in US Patriot missile production will take years to close. The Jerusalem Post reports that a critical shortage of rayon threatens Patriot production. Neither headline says how many interceptors are left, only that replacing them is slow.",
+              "articleIds": [
+                "n-e4fcb34aa08a74",
+                "n-67055423b8f3fb"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "The demand on the stock",
+              "text": "Anadolu reports Iran calling its strikes on US military assets self-defence, and Asahi describes a tit-for-tat over the Strait of Hormuz in which Kuwait was also targeted. Arab News reports Saudi condemnation of Iranian attacks on Kuwait, Bahrain and a UAE tanker, and a coalition wave of strikes on Houthi targets. DW's Persian service reports Mossad's chief backing a joint Israeli-American attack on Iran, and Walla reports Trump losing patience with Vance over the war.",
+              "articleIds": [
+                "n-a438fe3a66e055",
+                "n-6545263f284d69",
+                "n-aa41346935a86e",
+                "n-64ac4d11c2ada3",
+                "n-dc13e9ca0043aa",
+                "n-935f507008ac8a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Widening people and industry",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "More people, new roles",
+              "text": "El Comercio reports Italy wanting a 'cyber army' of 5,000 experts to fight hybrid war. The Jerusalem Post reports the IDF recruiting its first female tank combatants in a pilot programme. SudOuest reports La Base 2026, a fair for the aerospace and defence sector in south-west France.",
+              "articleIds": [
+                "n-a70af8d5091e85",
+                "n-5368ab16e3628a",
+                "n-800368b473276e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Endurance set by supply",
+          "fragments": [
+            {
+              "id": "f4",
+              "label": "A finite stock",
+              "text": "Every Iranian salvo at a Gulf base and every Houthi launch draws on interceptors that, by the Egyptian and Israeli reports, cannot be replaced for years. That means the coming months are fought with stocks that already exist. Arab News's headline on the war's growing cost for Iran describes one side's bill; the Patriot reports describe the other's, paid in time rather than money.",
+              "articleIds": [
+                "n-e4fcb34aa08a74",
+                "n-67055423b8f3fb",
+                "n-c759c0b0f57de5"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "spiderweb-2025"
+              ]
+            },
+            {
+              "id": "f5",
+              "label": "The same count applied to people",
+              "text": "Italy's cyber force and Israel's women in tanks apply the same arithmetic to staff that the Patriot gap applies to missiles: states are widening the pool because the existing one is too small for the rate of use. The defence fair in France is where that demand meets the firms meant to supply it.",
+              "articleIds": [
+                "n-a70af8d5091e85",
+                "n-5368ab16e3628a",
+                "n-800368b473276e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "An old shortage, thinly sourced",
+              "text": "The Patriot shortfall has been discussed since Ukraine began receiving batteries in 2023, so it is not new to this week. One report is an expert's commentary in an Egyptian paper and the other may reflect an industry's case for more funding; neither comes from a ministry. The Gulf strikes do not say whether Patriots were used at all.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f7",
+              "label": "Where the events part",
+              "text": "The rayon story is about a supply chain, the Gulf strikes are a battle, and Italy's cyber plan and the IDF pilot are staffing decisions with domestic causes, including Israel's long dispute over who is drafted. The Houthi strikes are offensive, not defensive. What survives is a shared pressure on quantity, not a shared decision.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "DRONES / INTERCEPTORS / RED SEA",
+          "text": "The war over Nagorno-Karabakh in autumn 2020 showed that cheap drones could beat a conventional army, and defence ministries rewrote their lists. After Russia invaded Ukraine in February 2022, Ukraine received its first Patriot batteries in 2023 and used their interceptors against Russian missiles faster than they could be replaced, while the EU's 2023 pledge of a million shells in a year reached about half by its deadline. From late 2023 American warships in the Red Sea fired missiles costing millions of dollars at Houthi drones costing tens of thousands. In June 2025 Ukrainian drones launched from lorries hit Russian bombers far from the front. By these headlines Iran is striking US assets around the Gulf and a coalition is striking the Houthis, while Al-Watan's expert says the Patriot gap will take years to close. The decade made the defender's sums the harder ones.",
+          "trajectoryIds": [
+            "karabakh-2020",
+            "spiderweb-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "AUSTERITY / STOCKPILES / SINGLE SOURCES",
+          "text": "After 2008 European governments cut spending, and defence budgets were among the first to fall; munitions stocks were run down because they cost money to hold and seemed unlikely to be needed. At Wales in 2014, after Crimea was annexed, NATO members pledged to move toward two per cent of output on defence within a decade, and most did not get there until the 2020s. Defence industry followed the rest of manufacturing after the crisis: lean stocks, few suppliers and specialised materials from single sources. The Jerusalem Post's report that a rayon shortage threatens Patriot production is that logic coming due, a material most readers connect with clothing turning out to limit air defence. In September 2019 drones and missiles halved Saudi oil output at Abqaiq for days, a warning that cheap weapons could reach costly targets, which the stockpiling of the following years did not answer.",
+          "trajectoryIds": [
+            "abqaiq-2019"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "PEACE DIVIDEND / CONSOLIDATION / PRECISION",
+          "text": "The Patriot became famous in the Gulf War of 1991, sent against Iraqi Scud missiles over Saudi Arabia and Israel. Its record there was later disputed, but the name stayed. With the Cold War over, the Pentagon told contractors in 1993 that it would not keep them all in business, and the mergers that followed left a handful of firms making missiles at low annual rates suited to peacetime. Meanwhile the tools of precision spread to everyone else. In May 2000 Washington switched off the deliberate error in civilian GPS, and in October 2001 the first armed Predator flew over Afghanistan; within two decades guided drones were cheap enough for militias such as the Houthis. The result, by these headlines, is an attacker able to launch many cheap guided weapons against a defender whose interceptors come from production lines sized for the 1990s.",
+          "trajectoryIds": [
+            "gps-2000",
+            "predator-2001"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "AIR DEFENCE / CITIES / INDUSTRY",
+          "text": "The idea that a city can be defended by shooting down what is sent at it began in the summer of 1944, when Germany launched V-1s at London and British guns with proximity fuses learned to bring most of them down. In the 1950s the US ringed its cities with Nike missile batteries, then dismantled most of them in the 1970s, judging that deterrence by retaliation was cheaper than defence. In June 1982 Israel used drones and decoys to find and destroy Syria's missile batteries in the Bekaa Valley in an afternoon. The postwar pattern has been that air defence costs more than attack and is affordable only when the attacker fires few. The Iranian strikes on Kuwait, Bahrain and a UAE tanker reported by Arab News and Asahi test that condition on Gulf states that host the bases under attack.",
+          "trajectoryIds": [
+            "v1-1944",
+            "bekaa-1982"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "20261030T015732/drones-and-the-return-of-mass",
+      "builds": "",
+      "articleIds": [
+        "n-e4fcb34aa08a74",
+        "n-67055423b8f3fb",
+        "n-a438fe3a66e055",
+        "n-6545263f284d69",
+        "n-aa41346935a86e",
+        "n-64ac4d11c2ada3",
+        "n-dc13e9ca0043aa",
+        "n-935f507008ac8a",
+        "n-a70af8d5091e85",
+        "n-5368ab16e3628a",
+        "n-800368b473276e",
+        "n-c759c0b0f57de5"
+      ]
+    },
+    {
+      "id": "trade-deals-while-powers-bargain",
+      "line": "While three powers bargain over two wars, other governments sign trade deals among themselves rather than wait on the result.",
+      "kicker": "HEDGING / MARKET ACCESS / SPHERES",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A government outside the US, China and Russia concludes or signs a trade agreement and names US tariffs or great-power rivalry as a reason.",
+          "by": "2026-12-16",
+          "because": "If the deals are a hedge against what the three powers decide, the motive should start to be stated openly, not only implied by timing.",
+          "id": "20261118T225647-trade-deals-while-powers-bargain-1"
+        },
+        {
+          "what": "Canada announces the start or conclusion of trade talks with ASEAN or one of its members.",
+          "by": "2026-12-16",
+          "because": "Carney's stated aim of cutting dependencies is the same hedging, and the APEC week is when it would be turned into a named negotiation.",
+          "id": "20261118T225647-trade-deals-while-powers-bargain-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "After the US left the Trans-Pacific Partnership in January 2017, the other eleven signed a revised pact in Santiago in March 2018, and the EU and Japan signed their agreement in July 2018. Middle-sized economies showed then that they could make trade rules without Washington. The present differs in that the US has not left a table but is bargaining directly with China and Russia, and the subject at that table is security in Ukraine and the Gulf rather than trade.",
+        "paths": [
+          {
+            "name": "Deals signed, wars unsettled",
+            "weight": "favoured",
+            "text": "Over the next six months more regional and bilateral agreements are concluded, including the signature of the EU-Indonesia agreement and new Canadian talks in Asia, while the trilateral meeting produces statements but no settlement in Ukraine or the Gulf. The join points here because each government is acting on what it controls.",
+            "sign": "A signing date is set for the EU-Indonesia agreement or Canada opens a trade round in Southeast Asia."
+          },
+          {
+            "name": "Washington forces a choice",
+            "weight": "possible",
+            "text": "US tariffs or export rules, such as the chip rules Malaysia now applies to data centres, push partners to pick between US and Chinese supply in the first half of next year. Hedging then becomes harder for Chile, Peru and Southeast Asia.",
+            "sign": "A government cancels or suspends a Chinese contract citing US pressure."
+          },
+          {
+            "name": "A great-power bargain sets terms",
+            "weight": "unlikely",
+            "text": "The three leaders agree a framework that includes tariffs or sanctions relief that others must follow. This is unlikely because the reports from the meeting stress division over Ukraine, including a Pentagon walkout.",
+            "sign": "A joint statement from the three leaders names tariffs, sanctions or trade terms."
+          }
+        ],
+        "decade": "Over ten years trade rules will be written mostly in overlapping deals among middle-sized economies, while security in Europe and the Gulf is argued over among the three largest military powers."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "As Donald Trump, Xi Jinping and Vladimir Putin met together for the first time in China, with Anadolu explaining the comparison with Yalta and the NOS writing that Europe is very far away, EU governments approved signing their trade agreement with Indonesia, Mark Carney bet on Asia-Pacific trade to reduce Canada's dependencies, Vietnam's leader called for a Free Trade Area of the Asia-Pacific, Xi asked Chile to deepen ties and Keiko Fujimori pitched Peru's Chancay port to Chinese investors. Jordan reports potash exports to Europe up eightfold in four years and Egypt signs an industrial deal with India. The three leaders are bargaining over security; the governments outside the room are not waiting for that bargain and are fixing their trade with each other and with whichever large buyer will take their goods.",
+      "events": [
+        {
+          "label": "Trump, Xi and Putin meet in China",
+          "articleIds": [
+            "n-27c3a2593f9149",
+            "n-f75e0ae2a12d5f",
+            "n-61c5b2359a4411",
+            "n-921f8057db939f",
+            "n-b772f8c25668a0",
+            "n-f2d5d39f7eea22"
+          ]
+        },
+        {
+          "label": "EU approves Indonesia trade agreement",
+          "articleIds": [
+            "n-7d30edac17eb15"
+          ]
+        },
+        {
+          "label": "Canada turns to Asia-Pacific trade",
+          "articleIds": [
+            "n-4e4ad3d8721637"
+          ]
+        },
+        {
+          "label": "APEC members press regional trade",
+          "articleIds": [
+            "n-14f3936c38c341",
+            "n-811c1ec6e9091c",
+            "n-276dd421eeaccf",
+            "n-12a7d1125eff4b"
+          ]
+        },
+        {
+          "label": "Chile and Peru court Chinese ties",
+          "articleIds": [
+            "n-ad5d64c67af07b",
+            "n-f38a2d73346cdf"
+          ]
+        },
+        {
+          "label": "Jordan and Egypt widen trade partners",
+          "articleIds": [
+            "n-1c354bb424851c",
+            "n-caf70a35ab4b2d",
+            "n-e6cc1f7738bccb"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Three leaders in one room",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "The meeting and its comparison",
+              "text": "Minuto Uno reports how the first meeting between Trump, Xi and Putin went under the world's gaze, and Anadolu runs an explainer on why it is compared to the Yalta Conference. LB.ua's neighbour in the collection, Onet, reports Ukraine issuing a warning before the meeting, and Lenta reports the Pentagon's chief strategist walking out of a meeting on Ukraine.",
+              "articleIds": [
+                "n-27c3a2593f9149",
+                "n-f75e0ae2a12d5f",
+                "n-b772f8c25668a0",
+                "n-f2d5d39f7eea22"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Europe at a distance",
+              "text": "The NOS writes that the economic APEC summit is mostly about geopolitics and that Europe is very far away. Onet reports Europeans' fear that Putin is misleading Trump, which it calls the basic problem.",
+              "articleIds": [
+                "n-61c5b2359a4411",
+                "n-921f8057db939f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Trade deals signed elsewhere",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Europe, Canada and the Pacific",
+              "text": "LB.ua reports EU states approving the signing of a trade agreement with Indonesia, and Observador reports Carney betting on the Asia-Pacific to diversify and reduce Canada's dependencies. Xinhua reports Vietnam's leader urging a Free Trade Area of the Asia-Pacific and Australia's prime minister calling for regional cooperation. The Star reports Malaysia focusing on trade expansion, and Republika an Indonesia-Australia forum on cross-border digital trade.",
+              "articleIds": [
+                "n-7d30edac17eb15",
+                "n-4e4ad3d8721637",
+                "n-14f3936c38c341",
+                "n-811c1ec6e9091c",
+                "n-276dd421eeaccf",
+                "n-12a7d1125eff4b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "Latin America and the Middle East",
+              "text": "Al-Anbat reports Xi calling on China and Chile to develop relations, and Bethel Noticias via deperu reports Keiko Fujimori seeking Chinese investment with the Chancay port. Al-Anbat also reports Arab Potash exports to Europe rising from 80,000 to 650,000 tonnes a year over four years, and a Jordanian-European investment conference. Masrawy reports an Egyptian-Indian agreement on industrial cooperation.",
+              "articleIds": [
+                "n-ad5d64c67af07b",
+                "n-f38a2d73346cdf",
+                "n-1c354bb424851c",
+                "n-caf70a35ab4b2d",
+                "n-e6cc1f7738bccb"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Security above, trade below",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "Acting on what they control",
+              "text": "The reported business of the three leaders is security: Ukraine, and behind it the Gulf. Governments not at that table treat that as decided elsewhere and act where they can act alone, in market access. A trade agreement needs no permission from the three. Canada's own wording, reducing dependencies, names the motive the others leave implicit.",
+              "articleIds": [
+                "n-4e4ad3d8721637",
+                "n-7d30edac17eb15",
+                "n-61c5b2359a4411"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f6",
+              "label": "Hedging in both directions",
+              "text": "Some of these moves are toward China, as in Chile and Peru, and others spread exposure away from any single partner, as with Canada, the EU and Indonesia, and Jordan's sales to Europe. The common shape is spreading risk across buyers, not choosing a side.",
+              "articleIds": [
+                "n-ad5d64c67af07b",
+                "n-f38a2d73346cdf",
+                "n-1c354bb424851c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f7",
+              "label": "The calendar, not a choice",
+              "text": "APEC is a trade forum, so leaders talk trade there every November whatever the great powers do. The EU-Indonesia agreement has been negotiated since 2016, Jordan's potash figures are a four-year trend, and Fujimori is pitching to investors as a campaigner. The timing may be the calendar's, and the summit only made it visible.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f8",
+              "label": "Where the events part",
+              "text": "The deals point in different directions: Chile and Peru are drawing closer to China, Canada is trying to depend less on the US, and Egypt and India are building industry. 'Hedging' may be a name broad enough to cover any trade news, and none of these governments has said it is acting because of the trilateral meeting.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "TARIFFS / SANCTIONS / DIVERSIFICATION",
+          "text": "The years since 2020 taught governments that trade can be cut off at short notice. The pandemic closed factories and ports in 2020 and 2021; the sanctions that followed Russia's invasion in 2022 removed a large economy from Western trade within weeks; and from April 2025 the US imposed broad tariffs on allies and rivals alike. Each lesson pushed governments to spread their trade. The Regional Comprehensive Economic Partnership, signed in November 2020, joined China, Japan, South Korea, Australia, New Zealand and the ten ASEAN states. The EU and Indonesia concluded their partnership agreement in 2025 after nine years of talks, and LB.ua's report that EU governments have approved signing it is the end of that process. Carney's turn to the Asia-Pacific, as Observador reports it, is Canada's version: a country that sends most of its exports to one neighbour looking for others. The trilateral meeting sits on top of these choices rather than causing them.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CHINA'S RISE / PORTS / PLURILATERAL PACTS",
+          "text": "After 2008 China became the second economy and the largest trading partner of most of South America and Southeast Asia. Belt and Road, announced in 2013, financed ports and railways from Pakistan to Peru; Chancay, north of Lima, opened in November 2024 with Chinese capital, and Keiko Fujimori's pitch to Chinese investors builds on it. The US first answered with the Trans-Pacific Partnership in 2016 and then left it in January 2017; the other eleven signed a revised version in March 2018 without it. Britain, which voted to leave the EU in June 2016, joined that pact in December 2024 as one way of finding trade elsewhere. The lesson for middle-sized states was that agreements can be built without the largest economy and survive its departure. Xinhua's report of Vietnam's leader calling for a Free Trade Area of the Asia-Pacific is the longer version of that idea.",
+          "trajectoryIds": [
+            "lehman-2008",
+            "brexit-2016"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "WTO / APEC / OPEN REGIONALISM",
+          "text": "APEC's leaders first met at Blake Island near Seattle in 1993, when the US expected open trade to carry its own rules across the Pacific. The WTO opened in 1995 and China joined in December 2001, which made a single set of global rules look like the natural end point. Regional agreements were then described as steps toward it: NAFTA in 1994, ASEAN's free trade area, Mercosur. Chile signed agreements with the US, the EU and China in the following years, and Xi's call for China and Chile to deepen relations, reported by Al-Anbat, rests on their 2005 agreement, China's first with a Latin American country. When the WTO's appeals body stopped working in December 2019, the global rulebook stalled, and the regional deals meant to lead toward it became the main way trade rules are made. The Jordanian potash figures in Al-Anbat show a smaller exporter doing the same on its own scale.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "YALTA / SPHERES / NON-ALIGNMENT",
+          "text": "At Yalta in February 1945 three leaders discussed the shape of postwar Europe, and on the way home Roosevelt met Ibn Saud on the Great Bitter Lake and traded protection for oil in a bargain never written down. Anadolu's explainer asks why the Trump-Xi-Putin meeting is compared to Yalta; the comparison rests on a fear that three powers will divide responsibility for regions that are not present. The postwar answer of smaller states was not to wait. India, Indonesia and Egypt met at Bandung in 1955 and helped form the Non-Aligned Movement in 1961, and after Suez in 1956 the Middle East learned that outside guarantees can change hands. Egypt's industrial agreement with India, reported by Masrawy, joins two founders of that movement. What differs now is that the same independence is sought through trade agreements and investment conferences rather than through declarations.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "suez-1956"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-27c3a2593f9149",
+        "n-f75e0ae2a12d5f",
+        "n-b772f8c25668a0",
+        "n-f2d5d39f7eea22",
+        "n-61c5b2359a4411",
+        "n-921f8057db939f",
+        "n-7d30edac17eb15",
+        "n-4e4ad3d8721637",
+        "n-14f3936c38c341",
+        "n-811c1ec6e9091c",
+        "n-276dd421eeaccf",
+        "n-12a7d1125eff4b",
+        "n-ad5d64c67af07b",
+        "n-f38a2d73346cdf",
+        "n-1c354bb424851c",
+        "n-caf70a35ab4b2d",
+        "n-e6cc1f7738bccb"
+      ]
+    },
+    {
+      "id": "ai-found-flaws-patched-into-outages",
+      "line": "Flaws found by AI now arrive faster than fixes can be tested, so the repairs themselves are taking systems down.",
+      "kicker": "VULNERABILITIES / PATCHING / ATTRIBUTION",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A software vendor or US agency attributes one of the November outages to a security patch or emergency update.",
+          "by": "2026-12-09",
+          "because": "If the patch flood is the mechanism, post-incident reports should name fixes rather than attackers as the cause.",
+          "id": "20261118T225647-ai-found-flaws-patched-into-outages-1"
+        },
+        {
+          "what": "A government or regulator issues guidance to stage, test or slow the rollout of security patches on critical systems.",
+          "by": "2026-12-16",
+          "because": "If fixes are causing the failures, the official answer should target the pace of patching rather than only hunting hackers.",
+          "id": "20261118T225647-ai-found-flaws-patched-into-outages-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is 19 July 2024, when a faulty update from the security firm CrowdStrike crashed about 8.5 million Windows computers and stopped airlines, banks and hospitals for a day; the firm moved to staged releases within weeks. Log4Shell in December 2021 produced a similar rush of emergency patches, over weeks rather than hours. The present differs in that machines are finding flaws across many vendors at once, and attackers are said to use the same tools, so no single firm's change of practice ends it.",
+        "paths": [
+          {
+            "name": "Staged patching becomes the rule",
+            "weight": "favoured",
+            "text": "Over the next two to three months US agencies and the largest vendors publish incident reports naming patches and move critical systems to slower, staged rollouts. This follows from the join: if the fix is the cause, the remedy is in its pace.",
+            "sign": "A vendor or the US cyber agency announces staged or delayed security updates for critical infrastructure."
+          },
+          {
+            "name": "A known flaw is exploited",
+            "weight": "possible",
+            "text": "Slower patching leaves gaps, and early next year a large breach is traced to a flaw found by AI and disclosed but not yet fixed. The FBI's three-hour warning makes this the cost of the favoured path.",
+            "sign": "A breach report names a flaw disclosed within the previous month as the way in."
+          },
+          {
+            "name": "The outages traced to an attacker",
+            "weight": "unlikely",
+            "text": "Investigators attribute the failures to a state hacking group after all. The US government's statement that the outages were not coordinated makes this less likely.",
+            "sign": "A formal US attribution of the outages to a named state."
+          }
+        ],
+        "decade": "Over ten years machines will set the pace of software maintenance on both sides, and regulators will decide how fast critical systems may change, as they already do for aircraft."
+      },
+      "continues": "failures-hard-to-tell-apart",
+      "change": "Yesterday the week's outages had several possible causes and users could not tell an update from an attack. Today a Korean report names a link between the two: a flood of patches for flaws found by AI, blamed for failures at the NSA, in finance and in aviation. The US government says the outages were not coordinated, and the FBI warns that an AI hacking tool can complete an attack in three hours.",
+      "claim": "Digital Daily in South Korea reports a 'patch flood', set off by security flaws found by AI, being blamed for chains of failures at the US National Security Agency, in finance and in aviation, while the Trump administration and Marco Rubio say the outages were not coordinated and the FBI warns that an AI-powered hacking tool can complete attacks within three hours. In the same days Mullin is questioned in Congress over flight disruptions, Bali's airport terminal loses power and PlayStation's network strains as players must install a firmware update before GTA VI. The week's failures now have a named mechanism: AI finds flaws faster, defenders push out fixes faster than they can test them, and attackers using the same tools shorten the time defenders have.",
+      "events": [
+        {
+          "label": "Report blames patch flood from AI-found flaws",
+          "articleIds": [
+            "n-fb268b34307c6e"
+          ]
+        },
+        {
+          "label": "Washington denies outages were coordinated",
+          "articleIds": [
+            "n-899d3282faca6e",
+            "n-9d3ca36f0f90ab",
+            "n-0282a81b48a054",
+            "n-735add12a41ac5"
+          ]
+        },
+        {
+          "label": "Warnings that AI speeds up attackers",
+          "articleIds": [
+            "n-02b333e125b9a2",
+            "n-ead2189778d57a",
+            "n-ccb78b75641b89"
+          ]
+        },
+        {
+          "label": "Flight and airport systems disrupted",
+          "articleIds": [
+            "n-692bde1b9749a6",
+            "n-98da2cd9a2e99b"
+          ]
+        },
+        {
+          "label": "PlayStation strain and forced update",
+          "articleIds": [
+            "n-eda6d5065826e6",
+            "n-88c0675a5b7d62"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "A named cause and a denial",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "The patch flood",
+              "text": "Digital Daily reports that a 'patch flood' from security vulnerabilities found by AI is blamed for chain failures at the US NSA, in finance and in aviation. It is the first report in these collections to name one mechanism behind the month's outages.",
+              "articleIds": [
+                "n-fb268b34307c6e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Not coordinated",
+              "text": "RNZ reports the Trump administration saying, as criticism mounts, that the tech outages were not coordinated, and UNIAN reports Rubio answering whether hackers were involved. Ideastream and El Mundo both run pieces asking what lies behind the series of outages hitting companies and travellers.",
+              "articleIds": [
+                "n-899d3282faca6e",
+                "n-9d3ca36f0f90ab",
+                "n-0282a81b48a054",
+                "n-735add12a41ac5"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Faster attackers, fragile services",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Attack time in hours",
+              "text": "Al Jazeera reports an FBI warning that an AI-powered hacking tool carries out attacks within three hours. Walla reports researchers asking ChatGPT and its rivals to plan attacks with disturbing results, and the Australian Associated Press copy in irrigator.com.au reports firms warned that AI safety is 'experimental science'.",
+              "articleIds": [
+                "n-02b333e125b9a2",
+                "n-ead2189778d57a",
+                "n-ccb78b75641b89"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "Services that stop",
+              "text": "KPRC reports Mullin facing Congress over flight disruptions, and merdeka.com reports Bali airport explaining a power outage at its international terminal. Anadolu reports PlayStation Network disruptions before the GTA VI launch, and International Business Times UK reports players who preloaded over 200 GB must still install a firmware update first.",
+              "articleIds": [
+                "n-692bde1b9749a6",
+                "n-98da2cd9a2e99b",
+                "n-eda6d5065826e6",
+                "n-88c0675a5b7d62"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Faster finding, faster fixing",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "The defender's squeeze",
+              "text": "If AI tools find flaws in bulk and the FBI is right that attacks can follow within hours, the safe course for a vendor is to ship the fix at once. Shipping at once means testing less, and an untested fix on a shared system can stop it everywhere on the same day. That would explain why the government finds no coordination: none is needed when every vendor faces the same pressure.",
+              "articleIds": [
+                "n-fb268b34307c6e",
+                "n-02b333e125b9a2",
+                "n-899d3282faca6e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f6",
+              "label": "Update before use",
+              "text": "The PlayStation case shows the same rule in an ordinary home: a device will not run until it has taken the latest update. When updates are compulsory and frequent, their faults reach users with no choice about timing.",
+              "articleIds": [
+                "n-88c0675a5b7d62",
+                "n-eda6d5065826e6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f7",
+              "label": "One report, not a finding",
+              "text": "The patch-flood explanation comes from one Korean technology outlet, not from a vendor's incident report or a US agency. The government's denial concerns coordination, not cause, and is consistent with ordinary faults, staffing gaps or several unrelated attacks.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f8",
+              "label": "Where the events part",
+              "text": "Bali's outage is a power failure, PlayStation's strain comes from millions of players arriving at once for a game launch, and US flight disruptions may have causes in staffing and equipment. Only the NSA, finance and aviation failures in the Korean report are said to share the patch cause. The rest may be the normal background of failures that a newsworthy week makes visible.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "SUPPLY-CHAIN HACKS / UPDATES / AI TOOLS",
+          "text": "In December 2020 the SolarWinds breach showed that a routine software update could carry an attacker into US government departments. A year later, in December 2021, the Log4Shell flaw in a widely used Java logging library forced emergency patches across much of the world's software within days. On 19 July 2024 a faulty CrowdStrike update crashed about 8.5 million Windows computers and grounded flights, the clearest case of a security fix causing the outage it was meant to prevent. ChatGPT's release in November 2022 began the spread of language models into programming, and in 2024 Google reported that an AI agent had found an exploitable flaw in widely used database software. By these headlines that capacity is now general: Digital Daily blames a flood of patches for flaws found by AI, and the FBI says an AI tool can complete an attack in three hours. The decade made both finding and fixing faster than checking.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CLOUD / CONCENTRATION / AUTOMATIC UPDATES",
+          "text": "After 2008 the cloud became the cheapest place to run software, and a few providers came to host much of the world's computing. Smartphones and then laptops moved to automatic updates, so fixes arrived without a user deciding to install them. The rule that patches must go out fast was fixed in May 2017, when WannaCry used a Windows flaw taken from leaked US agency tools to lock computers in Britain's NHS and dozens of countries; Microsoft had issued the fix two months earlier and many had not applied it. From then on delay was treated as negligence. The price was concentration: one update from one provider reaches millions of machines at once. When the Trump administration says, as RNZ reports, that the outages were not coordinated, it describes a system that does not need coordination to fail in many places on the same day.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "THE INTERNET / MAINTENANCE / DISCLOSURE",
+          "text": "The internet that opened to commerce in the early 1990s ran on software written to work, not to resist attack, and the response took a decade to settle into routine. A public catalogue of known flaws, the CVE list, began in 1999. Microsoft's chairman told the company in a 2002 memo to put security first, and from October 2003 it released fixes on a set day each month so companies could test them before installing. That monthly rhythm assumed flaws were found by people, at a pace people could handle. David Edgerton's The Shock of the Old argues that the history of technology is mostly a history of maintenance, of keeping old machines running, and the outages of this month fit his view: what fails is upkeep, done at a speed that no longer leaves time to check it. The Korean report in Digital Daily describes that monthly rhythm breaking.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "shock-of-the-old"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE COMPUTING / RISK / RESPONSIBILITY",
+          "text": "After Sputnik in October 1957 the US founded ARPA, and the network it paid for from 1969 became the internet; for decades the state commissioned large systems and answered for them. Their builders admitted the difficulty early: a NATO conference at Garmisch in 1968 coined 'software engineering' because large programs were already failing in ways no one could predict. Ulrich Beck's Risk Society, published in 1986, described societies that produce risks they cannot insure and then argue over who should bear them. The present outages are such a risk, produced by tools meant to make systems safer. The arguments reported this week, from Rubio's answer on hackers to Congress questioning Mullin on flight disruptions, are about who answers when a fix rather than an enemy stops a service. The state that once built these systems is now one of their users, asking vendors what went wrong.",
+          "trajectoryIds": [
+            "sputnik-1957"
+          ],
+          "bookIds": [
+            "risk-society"
+          ]
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-fb268b34307c6e",
+        "n-899d3282faca6e",
+        "n-9d3ca36f0f90ab",
+        "n-0282a81b48a054",
+        "n-735add12a41ac5",
+        "n-02b333e125b9a2",
+        "n-ead2189778d57a",
+        "n-ccb78b75641b89",
+        "n-692bde1b9749a6",
+        "n-98da2cd9a2e99b",
+        "n-eda6d5065826e6",
+        "n-88c0675a5b7d62"
+      ]
+    }
+  ]
+}

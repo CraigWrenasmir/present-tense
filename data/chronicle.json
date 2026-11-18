@@ -1,32 +1,31 @@
 {
   "schemaVersion": 1,
-  "editionStamp": "20261117T232955",
-  "asOf": "2026-11-17T23:29:55Z",
-  "generatedAt": "2026-11-18T00:15:50Z",
+  "editionStamp": "20261118T225647",
+  "asOf": "2026-11-18T22:56:47Z",
+  "generatedAt": "2026-11-18T23:14:59Z",
   "model": "claude-opus-5-5",
   "promptVersion": "chronicle-2",
   "usage": {
-    "input": 46397,
-    "output": 32335,
+    "input": 47042,
+    "output": 33009,
     "tier": "standard"
   },
-  "previousVersion": "20261114T204311",
+  "previousVersion": "20261117T232955",
   "notes": [
     "A running account of where things stand by these headlines, revised after each edition rather than added to. Every version is kept.",
     "Written by the model from the narratives, not from the headlines. It is a reading, not a record."
   ],
-  "standing": "On 17 November Nvidia reported revenue up 103% and a further $150bn buyback, while its board refused Jensen Huang's return and set up an export-control committee, Washington proposed extending AI chip controls to Southeast Asia, Singapore defended its standing and the Singaporean firm Megaspeed is under US inquiry. In the two days before Trump, Putin and Xi meet in Shenzhen on 19 November, Ukraine struck the Crimean Bridge twice, Russia hit Kyiv's Yuzhny and Severny bridges and left 700,000 households without power and heating, and the US struck Iran's Qeshm Island after Iranian attacks on Bahrain. France counted 146,000 at a new protest round against living costs on 17 November, after 270,000 on 6 November, and France has brought forward a minimum wage rise while Italy's coalition argues over 300 euros for pensioners. Apple blamed an outage on its own update, the NSA's classified network went down, South Korea's National Security Office met over a critical Java flaw and a cyberattack hit 178 brands including HSBC, Zoom and IKEA. Anthropic is reported pricing its share listing at the top of its range or higher, with several orders of $10 billion or more.",
+  "standing": "By headlines of 18 November, Trump, Xi and Putin were meeting together in China, while EU governments approved signing their trade agreement with Indonesia, Mark Carney turned Canada towards Asia-Pacific trade and Iran struck US assets in Kuwait, Bahrain and a UAE tanker. Anthropic priced its share listing at $83 a share, a $1.5 trillion valuation and the largest listing on record, as the European Central Bank compared the AI build to the subprime bubble and counted $4 trillion of debt behind it held off balance sheets. South Korea's Digital Daily blamed a flood of patches for flaws found by AI for failures at the NSA, in finance and in aviation, while Washington said the outages were not coordinated. An Egyptian military expert said the gap in US Patriot production will take years to close, and the Jerusalem Post reported a rayon shortage threatening that production. Nvidia's board has refused Jensen Huang's return before his House testimony on 1 December, and France counted 146,000 at protests over living costs on 17 November.",
   "moved": [
-    "The Nvidia thread was resumed on 17 November after one edition without a narrative, and moved from a dispute between Treasury and Commerce to new duties on the states the chips pass through, as Nvidia reported its best quarter. A 10 November expectation of a US chip rule with the Nvidia affair named was kept, by Handelsblatt and Fortune; separately, the expectation that Anthropic would cut or delay its listing failed.",
-    "The strikes thread was resumed on 17 November and moved from bases, ships and oil sites to crossings: the Crimean Bridge, Kyiv's bridges, a rail line to Hungary and Iran's Qeshm Island. The US strike on Qeshm reverses the Chronicle's reading that the Iran war had moved from fighting to talks.",
-    "The outage thread widened on 17 November to Apple, the NSA's classified network, a Java flaw and a cyberattack on 178 brands, and turned from who keeps the backup to whether a fault can be told from an attack. Its own case against says Apple named its cause within the day.",
-    "A thread began on Europe's weekly protests over prices and rents, built from a subject the site's notebook had kept for some days. It takes in the same French protest rounds as the incomes thread, read as met by income top-ups."
+    "Anthropic priced its listing on 18 November at $83 a share and a $1.5 trillion valuation, the largest on record, beside an ECB warning likening the AI build to subprime. The Chronicle revived the thread on AI labs' financing for it after five editions; the record price bears out the 17 November failure of the expectation that Anthropic would cut or delay its listing.",
+    "The outage thread turned from telling a fault from an attack to a named cause: a Korean report blames a flood of patches for AI-found flaws for failures at the NSA, in finance and in aviation, while Washington says the outages were not coordinated.",
+    "With Trump, Xi and Putin reported meeting in China, a thread began on other governments signing trade deals meanwhile, from the EU-Indonesia agreement to Peru's Chancay port. A 30 October narrative on defence by quantity returned after seventeen editions, now as Patriot stocks that take years to refill.",
+    "On 18 November the leaders' children expectation was kept by a criminal complaint against Senator Flávio Bolsonaro for slandering Lula, and the contested-count expectation of a federal request to halt counting in a second state failed with nothing reported."
   ],
   "silent": [
-    "Governments setting pump prices turned silent on 17 November, with no narrative since 12 November; its expectations on Indonesian ferries and fuel freezes run to 8 and 10 December, so the quiet is more likely the editions' choice than governments letting go of prices.",
-    "Seats and entry used as pressure turned silent on 17 November. Its single-negotiator expectation failed on 13 November and its ground passed to the thread on Europe's security bargained elsewhere, so the quiet is partly the reading failing, not only the sample.",
-    "Leaders' children judged turned silent on 17 November; no headline here has carried Gibran or Sara Duterte since 12 November, which may be the sample after the ASEAN summit coverage.",
-    "The Iran war thread stays silent, though its events came on 17 November in the strikes thread: the US struck Qeshm after Iranian attacks on Bahrain and Kuwait intercepted drones. That is the editions' division, not the war ending."
+    "Contested vote counts has had no narrative since 4 November, and its expectation of a federal court request in a second state failed on 18 November; the quiet looks more like the reading not being borne out than the sample.",
+    "Leaders' children stays silent, though its expectation was kept on 18 November by Brazil's prosecutor-general filing a complaint against Flávio Bolsonaro, so the ground is still reported without a narrative taking it up.",
+    "The Iran war thread stays silent while its events continue elsewhere: on 18 November Iran struck US assets in Kuwait, Bahrain and a UAE tanker, carried in the interceptors thread. That is the editions' division, not the war ending."
   ],
   "threads": [
     {
@@ -101,8 +100,8 @@
           "id": "hormuz-risk-moves-supply-elsewhere"
         }
       ],
-      "text": "On 26 October the join was the Gulf running talks and strike preparations. From 27 October to 5 November it followed the Hormuz price shock to jet fuel, mortgages, wages and rates, though no midterm report by 10 November named fuel prices. The war was reported paused on 8 November; on 10 November oil fell on talk of talks; on 11 November producers invested as if Hormuz would stay unsafe. Since then its events have come in other threads: a mine and a claimed strike on a US radar in Bahrain on 13 November, a Dutch fertiliser shortage blamed on the blockade on 14 November, and on 17 November a US strike on Iran's Qeshm Island after Iranian attacks on Bahrain. It is silent by the editions' division, not by the war's end.",
-      "direction": "After a pause reported on 8 November and a turn to talks and a falling price, by 17 November the US and Iran were reported striking each other again, at Bahrain and Qeshm, while talks were said to continue."
+      "text": "On 26 October the join was the Gulf running talks and strike preparations. From 27 October to 5 November it followed the Hormuz price shock to jet fuel, mortgages, wages and rates, though no midterm report by 10 November named fuel prices. The war was reported paused on 8 November; on 10 November oil fell on talk of talks; on 11 November producers invested as if Hormuz would stay unsafe. Since then its events have come in other threads: a claimed strike on a US radar in Bahrain on 13 November, a Dutch fertiliser shortage on 14 November, a US strike on Qeshm on 17 November, and on 18 November Iranian strikes on US assets in Kuwait, Bahrain and a UAE tanker, with coalition strikes on the Houthis. It is silent by the editions' division, not by the war's end.",
+      "direction": "After a pause reported on 8 November and a turn to talks and a falling price, by 17 and 18 November the US and Iran were reported striking each other again, at Qeshm, Bahrain, Kuwait and a UAE tanker, while talks were said to continue."
     },
     {
       "key": "fuel-tax-relief-ends",
@@ -120,7 +119,7 @@
           "id": "fuel-prices-set-by-states"
         }
       ],
-      "text": "Begun on 7 November: Italy would not extend its diesel excise cut, Portugal adjusted its fuel tax discount and Taiwan's CPC held pump prices after absorbing NT$34.07 billion, joined as governments handing the war's fuel price back to drivers. After four editions without a narrative the Chronicle revived it on 12 November with an unlinked narrative marked firm: Pakistan cut petrol and diesel prices, Chile resubmitted a bill freezing fuel prices until February, Greece set €32 million for islanders' sea transport and Indonesian ferry operators asked to raise fares, with crude below $90. Its case against says the decisions move in different directions and none names Hormuz. No narrative carried it on 13, 14 or 17 November, so it is silent; its expectations run to early December.",
+      "text": "Begun on 7 November: Italy would not extend its diesel excise cut, Portugal adjusted its fuel tax discount and Taiwan's CPC held pump prices after absorbing NT$34.07 billion, joined as governments handing the war's fuel price back to drivers. After four editions without a narrative the Chronicle revived it on 12 November with an unlinked narrative marked firm: Pakistan cut petrol and diesel prices, Chile resubmitted a bill freezing fuel prices until February, Greece set €32 million for islanders' sea transport and Indonesian ferry operators asked to raise fares, with crude below $90. Its case against says the decisions move in different directions and none names Hormuz. No narrative carried it on 13, 14, 17 or 18 November, so it is silent; its expectations run to early December.",
       "direction": "It has moved from governments ending fuel tax cuts to governments keeping pump prices in their own hands and paying the gap from budgets as crude fell below $90."
     },
     {
@@ -163,10 +162,10 @@
     },
     {
       "key": "data-centres-profit-and-objection",
-      "label": "AI spending, then shared systems failing",
+      "label": "Shared systems failing, from outages to patches",
       "status": "live",
       "since": "20261029T045403",
-      "lastSeen": "20261117T232955",
+      "lastSeen": "20261118T225647",
       "narratives": [
         {
           "stamp": "20261029T045403",
@@ -215,25 +214,33 @@
         {
           "stamp": "20261117T232955",
           "id": "failures-hard-to-tell-apart"
+        },
+        {
+          "stamp": "20261118T225647",
+          "id": "ai-found-flaws-patched-into-outages"
         }
       ],
-      "text": "Begun on 29 October with Samsung and CHPT profits on data centre demand. It ran through AI-led US growth, Taiwan's state buying, borrowing and a Nasdaq fall on 5 November, then the Nvidia case from 10 to 12 November, which moved to its own thread on 13 November. On 12 and 13 November a Microsoft outage stopped email at British councils and Australia's federal police, beside the FAA halting every US flight; on 14 November the fallback was reported left to households, with the Bank of Portugal advising cash at home. On 17 November, marked tentative, it widened to an Apple outage blamed on Apple's own update, the NSA's classified network going down, a Java flaw patched as an emergency in Seoul and Washington, and a cyberattack on 178 brands, read as faults and attacks hard to tell apart. Its own case against says Apple named its cause within the day.",
-      "direction": "It has moved from profit and borrowing to Nvidia's weight, then to public services stopping when one system fails, to who holds the backup, and by 17 November to whether a fault can be told from an attack."
+      "text": "Begun on 29 October with Samsung and CHPT profits on data centre demand, it ran through AI-led US growth, borrowing and the Nvidia case to 12 November. From 12 November it followed shared systems stopping: a Microsoft outage at British councils and Australia's federal police, the FAA's nationwide halt, the fallback left to households on 14 November, and on 17 November an Apple update, the NSA's network, a Java flaw and an attack on 178 brands, read as faults hard to tell from attacks. On 18 November it named a cause: South Korea's Digital Daily blamed a flood of patches for AI-found flaws for failures at the NSA, in finance and in aviation, Washington said the outages were not coordinated and the FBI warned that an AI tool can finish an attack in three hours. Its case against says the patch cause rests on one outlet.",
+      "direction": "It has moved from profit and borrowing to public services stopping when one system fails, to who holds the backup, to telling a fault from an attack, and by 18 November to patches for AI-found flaws named as a cause."
     },
     {
       "key": "chip-suppliers-fund-ai-labs",
-      "label": "Chip suppliers buying stakes in AI labs",
-      "status": "silent",
+      "label": "AI labs financed by suppliers, then public shareholders",
+      "status": "live",
       "since": "20261110T214741",
-      "lastSeen": "20261110T214741",
+      "lastSeen": "20261118T225647",
       "narratives": [
         {
           "stamp": "20261110T214741",
           "id": "chipmakers-fund-their-customers"
+        },
+        {
+          "stamp": "20261118T225647",
+          "id": "ai-boom-sold-before-profit"
         }
       ],
-      "text": "Begun on the evening of 10 November and not linked by its edition to the AI spending thread, whose ground it shares. TSMC is reported investing NT$32 billion in OpenAI and Anthropic as Anthropic's draft prospectus shows a listing of up to $64.4 billion, and CoreWeave's shares stand 65% below their peak. The join is a supplier buying into the customers whose spending fills its order book. Its case against says NT$32 billion is about $1 billion and chipmakers have long run venture arms. On 17 November its expectation that Anthropic would cut or delay its listing failed: nbd.com.cn and Yicai reported pricing at the upper end of the range or higher, with several orders of $10 billion or more. That is a reason to doubt the narrative's picture of labs turning to markets under strain. It is silent.",
-      "direction": ""
+      "text": "Begun on the evening of 10 November: TSMC was reported investing NT$32 billion in OpenAI and Anthropic as Anthropic's draft prospectus showed a listing of up to $64.4 billion, read as suppliers buying into their customers. Its expectation that Anthropic would cut or delay its listing failed on 17 November, a reason to doubt its picture of labs turning to markets under strain. After five editions without a narrative the Chronicle revived it on 18 November for an unlinked narrative marked plausible: Anthropic priced at $83 a share, a $1.5 trillion valuation and the largest listing on record, the ECB compared the AI build to the subprime bubble with $4 trillion of debt off balance sheets, Nvidia beat forecasts as US shares fell, and buyers rich from AI bid up old masters in New York. Its case against says no headline reports early holders selling.",
+      "direction": "It has moved from chip suppliers funding the AI labs to the labs selling shares to the public at record prices while a central bank warns about the debt behind the build."
     },
     {
       "key": "contested-vote-counts",
@@ -259,7 +266,7 @@
           "id": "electoral-bodies-become-the-contest"
         }
       ],
-      "text": "Begun on 30 October with Flávio Bolsonaro declaring himself Brazil's president, Eisenkot accusing Netanyahu of delegitimising Israel's result and deletion forms in Delhi. On 2 November it took in Likud's doubt over the Knesset result, then moved before the vote: the Justice Department asked the Supreme Court to halt California's count of 20,000 mail ballots, and India's roll revision removed more than 90,000 names in Chamarajanagar. On 4 November a narrative placed here by the Chronicle moved it to election bodies in Mexico, Nigeria, South Africa and Israel. On 6 November, with no narrative, Trump was reported calling the US election rigged and demanding victory in Alaska's Senate race. No narrative has carried it since 4 November; the expectation of a court request over a second state ran to 17 November and is not reported kept by these headlines.",
+      "text": "Begun on 30 October with Flávio Bolsonaro declaring himself Brazil's president, Eisenkot accusing Netanyahu of delegitimising Israel's result and deletion forms in Delhi. On 2 November it took in Likud's doubt over the Knesset result, then moved before the vote: the Justice Department asked the Supreme Court to halt California's count of 20,000 mail ballots, and India's roll revision removed more than 90,000 names in Chamarajanagar. On 4 November a narrative placed here by the Chronicle moved it to election bodies in Mexico, Nigeria, South Africa and Israel. On 6 November, with no narrative, Trump was reported calling the US election rigged and demanding victory in Alaska's Senate race. No narrative has carried it since 4 November, and on 18 November the expectation of a federal request to halt counting in a second state failed, with nothing reported.",
       "direction": "It moved from disputing results to acting before polling and to who runs the commissions, and after the US vote a disputed result returned, by these headlines, without a narrative."
     },
     {
@@ -297,7 +304,7 @@
           "id": "breaches-start-with-suppliers-and-staff"
         }
       ],
-      "text": "Begun late on 2 November with attacks on shop refrigeration hitting 17 Dutch businesses, which the EU called an attack on food supply, and North Korea denying the $6.3 billion Binance theft. On 3 November the join moved to how attackers get in: a fake job interview behind the Binance theft, Singapore Airlines records reached through Amadeus, and Italian advice to check supplier contacts as the attacks reached Belgium and Greece. On 10 November France was reported officially accusing Iran of the refrigeration attacks, and that evening the attacks were carried in the Iran thread. Later attacks came in the outage thread: a Brazilian insurer and Pix keys on 12 and 13 November, and a cyberattack on 178 brands on 17 November. The contractor expectation is open to 24 November.",
+      "text": "Begun late on 2 November with attacks on shop refrigeration hitting 17 Dutch businesses, which the EU called an attack on food supply, and North Korea denying the $6.3 billion Binance theft. On 3 November the join moved to how attackers get in: a fake job interview behind the Binance theft, Singapore Airlines records reached through Amadeus, and Italian advice to check supplier contacts as the attacks reached Belgium and Greece. On 10 November France was reported officially accusing Iran of the refrigeration attacks, and that evening the attacks were carried in the Iran thread. Later attacks came in the outage thread: a Brazilian insurer and Pix keys on 12 and 13 November, a cyberattack on 178 brands on 17 November and an FBI warning about an AI hacking tool on 18 November. The contractor expectation is open to 24 November.",
       "direction": "It moved from what was hit, freezers and wallets, to the suppliers and staff through whom attackers got in, then fell silent as its refrigeration attacks passed to the Iran thread."
     },
     {
@@ -523,7 +530,7 @@
           "id": "entry-traded-in-wartime"
         }
       ],
-      "text": "Begun on 11 November and marked tentative: the CSTO stripped Armenia of its vote, Turkey excluded Israel from COP31 in Antalya, and Washington and Moscow asked Europe to choose one negotiator for the Ukraine talks. On 12 November it was carried on as entry of every kind: Israel will bar Jean-Luc Mélenchon, Washington's envoys said Europeans would join the next round, and Putin spoke of US visas for Russian Olympians. On 13 November the single-negotiator expectation failed when the EU agreed a team of five countries and EU institutions, which weakens the reading of entry as a bargaining move. Its ground passed on 14 November to the thread on Europe's security bargained elsewhere. No narrative carried it on 13, 14 or 17 November, so it is silent.",
+      "text": "Begun on 11 November and marked tentative: the CSTO stripped Armenia of its vote, Turkey excluded Israel from COP31 in Antalya, and Washington and Moscow asked Europe to choose one negotiator for the Ukraine talks. On 12 November it was carried on as entry of every kind: Israel will bar Jean-Luc Mélenchon, Washington's envoys said Europeans would join the next round, and Putin spoke of US visas for Russian Olympians. On 13 November the single-negotiator expectation failed when the EU agreed a team of five countries and EU institutions, which weakens the reading of entry as a bargaining move. Its ground passed on 14 November to the thread on Europe's security bargained elsewhere. No narrative carried it on 13, 14, 17 or 18 November, so it is silent.",
       "direction": "It moved from seats in alliances and summits to entry of every kind, and on 13 November Europe was admitted to the Ukraine talks on its own terms, against the thread's reading."
     },
     {
@@ -538,7 +545,7 @@
           "id": "leaders-children-judged"
         }
       ],
-      "text": "Begun on 12 November and marked tentative by its own edition. Gibran Rakabuming Raka resigned as Indonesia's vice-president over a certificate scandal, Sara Duterte's impeachment trial in the Philippines is to resume after the ASEAN summit, Donald Trump Jr left an adviser's role at the prediction market Kalshi over a conflict with a rival investment, and Nigeria's president congratulated his son Seyi on a traditional title in Kebbi before his own 2027 campaign. The join is what a leader's name entitles a child to hold. Its case against says the cases share a family tie and little else, Seyi Tinubu faces no allegation, and two stories come from South-East Asia during the ASEAN summit. No narrative carried it on 13, 14 or 17 November, so it is silent.",
+      "text": "Begun on 12 November and marked tentative by its own edition. Gibran Rakabuming Raka resigned as Indonesia's vice-president over a certificate scandal, Sara Duterte's impeachment trial is to resume after the ASEAN summit, Donald Trump Jr left an adviser's role at Kalshi over a conflict with a rival investment, and Nigeria's president congratulated his son Seyi on a traditional title. The join is what a leader's name entitles a child to hold. Its case against says the cases share a family tie and little else. No narrative has carried it since 12 November, but on 18 November its expectation was kept when R7 reported Brazil's prosecutor-general filing a criminal complaint against Senator Flávio Bolsonaro for slandering Lula in a post about Maduro. A slander complaint fits the expectation more loosely than a resignation would.",
       "direction": ""
     },
     {
@@ -557,7 +564,7 @@
           "id": "chip-rules-fall-on-transit-states"
         }
       ],
-      "text": "Begun on 13 November with a narrative marked firm that continues nothing, though the Nvidia case ran in the AI spending thread from 10 to 12 November: Bessent blamed Lutnick for Megaspeed not being blacklisted, and the Senate summoned Huang and Lutnick. After no narrative on 14 November it was resumed on 17 November, marked plausible. Nvidia reported revenue up 103% and a $150bn buyback, its board refused Huang's return and set up an export-control committee, and Huang will testify to the House on 1 December. Washington proposed extending AI chip controls to Southeast Asia, Singapore defended its standing and Megaspeed is under US inquiry, keeping a 10 November expectation of a US chip rule with the Nvidia affair named. Its case against says diversion through Singapore and Malaysia was known before, and Nvidia's quarter reflects old orders.",
+      "text": "Begun on 13 November with a narrative marked firm that continues nothing, though the Nvidia case ran in the AI spending thread from 10 to 12 November: Bessent blamed Lutnick for Megaspeed not being blacklisted, and the Senate summoned Huang and Lutnick. Resumed on 17 November, marked plausible: Nvidia reported revenue up 103% and a $150bn buyback, its board refused Huang's return and set up an export-control committee, and Huang will testify to the House on 1 December. Washington proposed extending chip controls to Southeast Asia, Singapore defended its standing and Megaspeed is under US inquiry, keeping a 10 November expectation of a chip rule naming the Nvidia affair. On 18 November, in the AI financing thread, Nvidia was reported beating forecasts while US shares fell. Its case against says diversion through Singapore and Malaysia was known before.",
       "direction": "It has moved from a dispute between two US departments over who let chips reach China to new duties on the states and firms the chips pass through, while Nvidia's sales grew."
     },
     {
@@ -576,8 +583,8 @@
           "id": "crossings-struck-before-summit"
         }
       ],
-      "text": "Begun on 13 November with a narrative marked plausible that continues nothing: as the EU named its team for the Ukraine talks, a Ukrainian drone hit a Russian warship in the Gulf of Finland, bombs went off in Moscow and Iran's Revolutionary Guards claimed a strike on a US radar in Bahrain. After no narrative on 14 November it was resumed on 17 November, marked tentative, with crossings as the targets: Ukraine struck the Crimean Bridge two days running, Russia hit Kyiv's Yuzhny and Severny bridges and left 700,000 households without power, a strike on Transcarpathia led Hungary to restrict trains to Mukachevo, and the US struck Qeshm after Iranian attacks on Bahrain, two days before Trump, Putin and Xi meet in Shenzhen. Its case against says Russia has hit Ukraine's heating every winter since 2022 and the US called Qeshm self-defence.",
-      "direction": "It has moved from strikes on bases, ships and oil sites far from the fronts to strikes on bridges and islands in the days before the 19 November meeting."
+      "text": "Begun on 13 November with a narrative marked plausible: as the EU named its team for the Ukraine talks, a Ukrainian drone hit a Russian warship in the Gulf of Finland, bombs went off in Moscow and Iran's Revolutionary Guards claimed a strike on a US radar in Bahrain. Resumed on 17 November, marked tentative, with crossings as targets: the Crimean Bridge twice, Kyiv's Yuzhny and Severny bridges with 700,000 households left without power, a rail line to Hungary and Iran's Qeshm Island. On 18 November, with no narrative here, Iran struck US assets in Kuwait, Bahrain and a UAE tanker, carried in the thread on interceptors, and Trump, Xi and Putin were reported meeting in China. Its case against says Russia hits Ukraine's heating every winter and the US called Qeshm self-defence. Its expectations on the meeting run to 26 November.",
+      "direction": "It has moved from strikes on bases, ships and oil sites far from the fronts to strikes on bridges and islands in the days before the three-power meeting."
     },
     {
       "key": "europe-security-bargained-elsewhere",
@@ -591,7 +598,7 @@
           "id": "europe-security-bargained-elsewhere"
         }
       ],
-      "text": "Begun on 14 November with a narrative marked plausible that continues nothing, sharing ground with the seats thread, whose expectation of a single EU negotiator failed on 13 November, and with the strikes thread. Zelensky said Washington floated Ukraine giving up Donbas in return for NATO membership, the Kremlin announced that Putin, Xi and Trump will meet on 19 November, and Russian officials demanded that Britain give up its nuclear cover for Europe. The join is that the subjects of Moscow's December 2021 draft treaties are raised in a format led by the US, Russia and China. Its case against says the US idea is known only from Zelensky. No narrative carried it on 17 November, when the meeting was reported fixed for Shenzhen in the strikes thread's narrative; its expectations on the meeting run to 24 and 25 November.",
+      "text": "Begun on 14 November with a narrative marked plausible that continues nothing, sharing ground with the seats thread, whose expectation of a single EU negotiator failed on 13 November, and with the strikes thread. Zelensky said Washington floated Ukraine giving up Donbas for NATO membership, the Kremlin announced the Putin, Xi and Trump meeting, and Russian officials demanded that Britain give up its nuclear cover for Europe. The join is the subjects of Moscow's December 2021 draft treaties raised in a format led by the US, Russia and China; its case against says the US idea is known only from Zelensky. On 18 November the three were reported meeting in China, in the new trade deals thread, with Anadolu explaining the Yalta comparison and the NOS writing that Europe is very far away. No headline here yet reports what was discussed; its expectations run to 24 and 25 November.",
       "direction": ""
     },
     {
@@ -621,7 +628,7 @@
           "id": "food-supply-returns-to-the-state"
         }
       ],
-      "text": "Begun on 14 November with a narrative marked tentative that continues nothing. Nieuws.nl reports a fertiliser shortage caused by the Hormuz blockade threatening Dutch food security, Marib's farmers in Yemen have harvests and no open markets, Senegal calls rice a pillar of food sovereignty, New York is spending $70 million on five city-run grocery stores, Egypt's prime minister inspects a permanent state food fair, and Fortune reports nearby shops losing sales when Walmart leaves a town. The join is public authorities taking back choosing what is grown, securing inputs and selling food. Its case against says only the fertiliser story is new, Egypt's outlets date from the 1940s and New York's stores were a 2025 election promise. No narrative carried it on 17 November; its expectations run to 5 and 12 December.",
+      "text": "Begun on 14 November with a narrative marked tentative that continues nothing. Nieuws.nl reports a fertiliser shortage caused by the Hormuz blockade threatening Dutch food security, Marib's farmers in Yemen have harvests and no open markets, Senegal calls rice a pillar of food sovereignty, New York is spending $70 million on five city-run grocery stores, Egypt's prime minister inspects a permanent state food fair, and Fortune reports nearby shops losing sales when Walmart leaves a town. The join is public authorities taking back choosing what is grown, securing inputs and selling food. Its case against says only the fertiliser story is new, Egypt's outlets date from the 1940s and New York's stores were a 2025 election promise. No narrative carried it on 17 or 18 November; its expectations run to 5 and 12 December.",
       "direction": ""
     },
     {
@@ -636,7 +643,41 @@
           "id": "europe-weekly-protests-living-costs"
         }
       ],
-      "text": "Begun on 17 November with a narrative marked plausible, built from a subject the site's notebook had kept for some days before any narrative, so the story is older than its first narrative. It counts two weeks of protest over living costs and housing: 270,000 marched outside Paris on 6 November, Porto's housing camp put up tents on 8 November, Spain held its first general strike in 14 years on 11 November, Italy carried out searches in 13 cities on 14 November, and France counted 146,000 at a new round on 17 November. France brought forward a minimum wage rise and Italy's coalition argues over 300 euros for pensioners, while the Commission says the energy shock still raises prices. Its case against says Spanish rents and French wages have different causes. It shares France with the incomes thread and Spain with the silent housing thread.",
+      "text": "Begun on 17 November with a narrative marked plausible, built from a subject the site's notebook had kept for some days before any narrative, so the story is older than its first narrative. It counts two weeks of protest over living costs and housing: 270,000 marched outside Paris on 6 November, Porto's housing camp put up tents on 8 November, Spain held its first general strike in 14 years on 11 November, Italy carried out searches in 13 cities on 14 November, and France counted 146,000 at a new round on 17 November. France brought forward a minimum wage rise and Italy's coalition argues over 300 euros for pensioners, while the Commission says the energy shock still raises prices. Its case against says Spanish rents and French wages have different causes. No narrative carried it on 18 November.",
+      "direction": ""
+    },
+    {
+      "key": "defence-by-quantity",
+      "label": "Defence decided by numbers of drones and interceptors",
+      "status": "live",
+      "since": "20261030T015732",
+      "lastSeen": "20261118T225647",
+      "narratives": [
+        {
+          "stamp": "20261030T015732",
+          "id": "drones-and-the-return-of-mass"
+        },
+        {
+          "stamp": "20261118T225647",
+          "id": "interceptors-used-faster-than-made"
+        }
+      ],
+      "text": "Begun on 30 October with a narrative the Chronicle had not given a thread: cheap drones had made defence a matter of quantity again, so states were financing arms factories and widening conscription. After seventeen editions without a narrative it was resumed on 18 November, marked plausible, from the defending side: an Egyptian military expert told Al-Watan that closing the gap in US Patriot production will take years, the Jerusalem Post reported a rayon shortage threatening that production, Iran struck US assets in Kuwait, Bahrain and a UAE tanker, a coalition struck the Houthis, Italy plans a 5,000-strong cyber force and Israel put its first women into tank crews. Its case against says the Patriot shortfall has been discussed since 2023, neither report comes from a ministry, and the Gulf reports do not say whether Patriots were used.",
+      "direction": "It has moved from cheap drones driving arms production and conscription to interceptor stocks that factories cannot refill quickly."
+    },
+    {
+      "key": "trade-deals-beside-three-power-talks",
+      "label": "Others' trade deals while three powers meet",
+      "status": "live",
+      "since": "20261118T225647",
+      "lastSeen": "20261118T225647",
+      "narratives": [
+        {
+          "stamp": "20261118T225647",
+          "id": "trade-deals-while-powers-bargain"
+        }
+      ],
+      "text": "Begun on 18 November with a narrative marked plausible that continues nothing, as Trump, Xi and Putin were reported meeting together in China for the first time. EU governments approved signing their trade agreement with Indonesia, Mark Carney bet on Asia-Pacific trade to reduce Canada's dependencies, Vietnam's leader called for a Free Trade Area of the Asia-Pacific, Xi asked Chile to deepen ties, Keiko Fujimori pitched Peru's Chancay port to Chinese investors, Jordan reported potash exports to Europe up eightfold in four years and Egypt signed an industrial deal with India. The join is governments outside the meeting fixing their trade without waiting on it. Its case against says APEC leaders talk trade every November, the EU-Indonesia talks date from 2016 and no government says it acted because of the meeting. It shares the meeting with the thread on Europe's security.",
       "direction": ""
     }
   ],
@@ -750,9 +791,14 @@
       "held": "Since 8 November the Iran war had moved from fighting between the US and Iran to talks and a falling price.",
       "undone": "On 13 November Iran's Revolutionary Guards claimed a strike on a US radar in Bahrain, and on 17 November the US struck Iran's Qeshm Island after Iranian attacks on Bahrain. The US and Iran are reported striking each other again while talks are said to continue.",
       "stamp": "20261117T232955"
+    },
+    {
+      "held": "The AI spending thread carried both the money behind the AI build and the failures of shared systems, as one run from 29 October.",
+      "undone": "On 18 November the edition carried the outages on alone, as patches for AI-found flaws, and gave Anthropic's record listing and the ECB's subprime comparison a narrative linked to neither. The Chronicle now keeps the money side in the thread on AI labs' financing.",
+      "stamp": "20261118T225647"
     }
   ],
-  "caseAgainst": "This Chronicle rests on twenty-four editions over about three weeks, with none stamped 28 October, 9 November, 15 or 16 November, drawn from whichever publishers the collection reads and capped in how many headlines each may supply, with four narratives today. Two of today's four narratives resume threads after a single missing edition, and a third continues the outage thread, so continuity is again partly produced by a brief that asks each edition to say what it carries on; the protests narrative was built from a notebook subject, so its two-week run was assembled by the site before any narrative tested it. I kept that narrative apart from the incomes thread, though both count the same French protest rounds, and a reader could fairly call them one. The withdrawal of the Iran thread's turn to talks rests on two strikes, one of which the US called self-defence. The crossings narrative's own case against says two wars produce strikes every day and only timing before Shenzhen joins them; the outage narrative's says Apple named its cause within the day; and Nvidia's quarter reflects orders placed before the scandal. The pull of my own earlier framing of single systems failing shaped how I carried the outage thread into attribution, and the one kept expectation today, on chip rules, was set by a narrative the Chronicle has since moved out of the thread it now confirms.",
-  "line": "On 17 November 2026, two days before Trump, Putin and Xi meet in Shenzhen, Ukraine strikes the Crimean Bridge again and the US strikes Iran's Qeshm Island.",
-  "revision": "One thread began, on Europe's weekly protests over prices and rents, built from a notebook subject; the Nvidia and strikes threads were revived after one edition without a narrative, and the fuel price, seats and leaders' children threads turned silent under the three-edition rule. The Iran thread's direction from fighting to talks was withdrawn after the US strike on Qeshm, the outage thread was relabelled as it turned to telling faults from attacks, and the standing was rewritten around chips, crossings struck before Shenzhen, protests and outages."
+  "caseAgainst": "This Chronicle rests on the editions since 26 October, with none stamped 28 October, 9 November or 15 and 16 November, drawn from whichever publishers the collection reads and capped in how many headlines each may supply. Of today's four narratives only one continues an earlier one by its edition's own link; one resumes a 30 October narrative the Chronicle had never placed in a thread, and I revived the AI financing thread for an unlinked narrative by my own judgment and split it from the outage thread, so much of today's continuity is the brief's or mine rather than the headlines'. The outage thread's new cause rests on one Korean outlet, the interceptors narrative's Gulf strikes do not say whether Patriots were used, and the trade deals thread may be APEC's calendar more than the meeting. The meeting in China was set for 19 November and appears in headlines stamped late on 18 November UTC, and no report yet says what the leaders discussed. The one kept expectation, a slander complaint against Flávio Bolsonaro, fits the leaders' children reading loosely, and the pull of my earlier frame of three powers bargaining over Europe shaped how I placed the meeting.",
+  "line": "On 18 November 2026, as Trump, Xi and Putin meet in China, Anthropic prices the largest share listing on record, at a $1.5 trillion valuation.",
+  "revision": "Two threads began or returned: defence by quantity, resumed from a 30 October narrative the Chronicle had not threaded, and trade deals among governments outside the three-power meeting. The Chronicle revived the AI labs' financing thread for an unlinked narrative on Anthropic's listing, relabelled the outage thread and withdrew its reading that one thread carried both AI money and outages. The standing was rewritten around the meeting in China, the listing, patches and interceptors."
 }

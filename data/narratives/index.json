@@ -1,6 +1,69 @@
 {
  "editions": [
   {
+   "stamp": "20261118T225647",
+   "file": "data/narratives/20261118T225647.json",
+   "newsGeneratedAt": "2026-11-18T22:56:47Z",
+   "generatedAt": "2026-11-18T23:10:43Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-10",
+   "narratives": [
+    {
+     "id": "ai-boom-sold-before-profit",
+     "kicker": "FLOTATION / COLLECTORS / HIDDEN DEBT",
+     "line": "The AI boom is now being sold to the public before it makes a profit, while those already rich from it buy older assets.",
+     "events": 6,
+     "headlines": 13,
+     "countries": 8,
+     "continues": "",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "interceptors-used-faster-than-made",
+     "kicker": "INTERCEPTORS / FACTORIES / ENDURANCE",
+     "line": "Countries relying on missile defence are protected only as long as stocks last, and refilling them takes years.",
+     "events": 6,
+     "headlines": 12,
+     "countries": 8,
+     "continues": "",
+     "resumes": "20261030T015732/drones-and-the-return-of-mass",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "trade-deals-while-powers-bargain",
+     "kicker": "HEDGING / MARKET ACCESS / SPHERES",
+     "line": "While three powers bargain over two wars, other governments sign trade deals among themselves rather than wait on the result.",
+     "events": 6,
+     "headlines": 17,
+     "countries": 13,
+     "continues": "",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "ai-found-flaws-patched-into-outages",
+     "kicker": "VULNERABILITIES / PATCHING / ATTRIBUTION",
+     "line": "Flaws found by AI now arrive faster than fixes can be tested, so the repairs themselves are taking systems down.",
+     "events": 5,
+     "headlines": 12,
+     "countries": 11,
+     "continues": "failures-hard-to-tell-apart",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261117T232955",
    "file": "data/narratives/20261117T232955.json",
    "newsGeneratedAt": "2026-11-17T23:29:55Z",
