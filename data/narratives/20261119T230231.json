@@ -1,0 +1,2318 @@
+{
+  "schemaVersion": 6,
+  "generatedAt": "2026-11-19T23:17:06Z",
+  "newsGeneratedAt": "2026-11-19T23:02:31Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-10",
+  "previousNewsGeneratedAt": "2026-11-18T22:56:47Z",
+  "usage": {
+    "input": 99598,
+    "output": 83460,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "A narrative may also resume one that stopped in the last four weeks ('resumes' gives that edition's stamp and the narrative's id), and may be written from a subject the site's notebook has been keeping ('builds'); such a narrative can cite headlines from earlier days, each shown with its date, beside at least three of the day's own.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-eb8c8a7df390a3",
+      "title": "Full text: China-Russia-U.S. Heads of State Declaration toward Peace",
+      "titleEnglish": "Full text: China-Russia-U.S. Heads of State Declaration toward Peace",
+      "url": "https://english.news.cn/20261119/f54674416ffb46a68734353f2b1bc0ea/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-11-19T14:17:00Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-faf3bdb58cb503",
+      "title": "Le sommet de Shenzhen aboutit à un \"déclaration de paix\" et place la Russie parmi les grandes puissances",
+      "titleEnglish": "Shenzhen summit ends with a \"declaration of peace\" and places Russia among the great powers",
+      "url": "https://www.dw.com/fr/sommet-shenzhen-xi-trump-poutine/a-79995829",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-19T19:47:00Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "fr"
+    },
+    {
+      "id": "n-154b39c0ec4366",
+      "title": "Trump, Xi, Putin pledge ‘stable energy flows’, nuclear talks",
+      "titleEnglish": "Trump, Xi, Putin pledge ‘stable energy flows’, nuclear talks",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit?update=5167516",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-11-19T11:17:00Z",
+      "seenAt": "2026-11-19T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-51649716dde6a8",
+      "title": "12h. Reunião de Trump, Jinping e Putin já terminou e deixa de fora guerras na Ucrânia e no Médio Oriente",
+      "titleEnglish": "12h. Meeting of Trump, Jinping and Putin has ended and leaves out wars in Ukraine and the Middle East",
+      "url": "https://observador.pt/programas/noticiario/as-noticias-das-12h-2501/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-11-19T14:17:00Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-0c51e4f2ce055b",
+      "title": "美中俄峰會結束 紐時與CNN稱習近平和普亭是贏家 | 聯合新聞網",
+      "titleEnglish": "US-China-Russia summit ends; NYT and CNN say Xi Jinping and Putin are winners | UDN",
+      "url": "https://udn.com/news/story/125069/9889946",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-11-19T13:59:50Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-9de1139ae238cd",
+      "title": "史上初の米中ロ会談「最大の勝者」は誰か トランプ氏は罠に落ちた？：朝日新聞",
+      "titleEnglish": "First-ever US-China-Russia talks: who is the 'biggest winner'? Did Trump fall into a trap? - Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVCM3DZ4VCMUHBI01XM.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-11-19T11:13:17Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-7ae18a8b65453b",
+      "title": "트럼프, 미중러 회담 마치고 전용기 탑승…김정은 못만나고 귀국길",
+      "titleEnglish": "Trump boards his plane after US-China-Russia talks, heads home without meeting Kim Jong Un",
+      "url": "https://www.fnnews.com/news/202611192006478682",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-19T11:06:48Z",
+      "seenAt": "2026-11-19T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-d043d42a48d597",
+      "title": "European leaders unite in Berlin to reaffirm support for Ukraine",
+      "titleEnglish": "European leaders unite in Berlin to reaffirm support for Ukraine",
+      "url": "https://www.aljazeera.com/news/2026/11/19/european-leaders-unite-in-berlin-to-reaffirm-support-for-ukraine",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-11-19T21:47:00Z",
+      "seenAt": "2026-11-19T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-81e3aa163788a6",
+      "title": "Après le sommet Trump-Xi-Poutine en Chine, les alliés de l'Ukraine sont réunis à Berlin",
+      "titleEnglish": "After the Trump-Xi-Putin summit in China, Ukraine's allies meet in Berlin",
+      "url": "https://www.dw.com/fr/sommet-allies-ukraine-berlin/a-79993555",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-19T19:47:00Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "fr"
+    },
+    {
+      "id": "n-f297960efd7132",
+      "title": "Rozpoczęło się spotkanie koalicji chętnych w Berlinie. Polskę reprezentuje Tusk",
+      "titleEnglish": "Meeting of the coalition of the willing begins in Berlin. Tusk represents Poland",
+      "url": "https://wiadomosci.onet.pl/swiat/ruszylo-spotkanie-koalicji-chetnych-w-berlinie-polske-reprezentuje-premier/xceyc17",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-11-19T13:47:00Z",
+      "seenAt": "2026-11-19T13:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-2194913035de6a",
+      "title": "Tensa llamada de Donald Trump a los líderes europeos reunidos en Berlín: criticó la ayuda a Ucrania y aseguró que Vladimir Putin \"desea la paz\"",
+      "titleEnglish": "Tense call from Donald Trump to European leaders meeting in Berlin: he criticized aid to Ukraine and claimed Vladimir Putin \"wants peace\"",
+      "url": "https://www.clarin.com/mundo/tensa-llamada-donald-trump-lideres-europeos-reunidos-berlin-critico-ayuda-ucrania-aseguro-vladimir-putin-desea-paz_0_ve8RWfp798.html",
+      "publisher": "Clarín",
+      "publisherDomain": "clarin.com",
+      "publishedAt": "2026-11-19T18:55:12Z",
+      "seenAt": "2026-11-19T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-926c60122afb1d",
+      "title": "Кушнер заявил о сближении позиций США и «коалиции желающих» на встрече в Берлине",
+      "titleEnglish": "Kushner says US and the \"coalition of the willing\" positions converged at Berlin meeting",
+      "url": "https://www.kommersant.ru/doc/9114195",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-19T19:42:51Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-0a5148783878d6",
+      "title": "Trump chce Europy przy stole negocjacyjnym. Ważna deklaracja Kushnera",
+      "titleEnglish": "Trump wants Europe at the negotiating table. Important declaration from Kushner",
+      "url": "https://wiadomosci.radiozet.pl/swiat/trump-chce-europy-przy-stole-negocjacyjnym-wazna-deklaracja-kushnera",
+      "publisher": "wiadomosci.radiozet.pl",
+      "publisherDomain": "wiadomosci.radiozet.pl",
+      "publishedAt": "2026-11-19T21:49:09Z",
+      "seenAt": "2026-11-19T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-67304e60e3ce5c",
+      "title": "Макрон раскрыл планы Европы по урегулированию на Украине",
+      "titleEnglish": "Macron reveals Europe's plans for settling the conflict in Ukraine",
+      "url": "https://lenta.ru/news/2026/11/19/makron-raskryl-plany-evropy-po-uregulirovaniyu-na-ukraine/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-11-19T19:47:00Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-1f344cdba2a7f7",
+      "title": "Мерц назвал условие для завершения конфликта на Украине",
+      "titleEnglish": "Merz names condition for ending the conflict in Ukraine",
+      "url": "https://lenta.ru/news/2026/11/19/merts-nazval-uslovie-dlya-zaversheniya-konflikta-na-ukraine/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-11-19T19:47:00Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-3d806cf1c4b1cf",
+      "title": "Europe strong, organised and ready to enter Ukraine peace talks, says Burnham",
+      "titleEnglish": "Europe strong, organised and ready to enter Ukraine peace talks, says Burnham",
+      "url": "https://www.bournemouthecho.co.uk/news/national/26746599.europe-strong-organised-ready-enter-ukraine-peace-talks-says-burnham/",
+      "publisher": "Bournemouth Echo",
+      "publisherDomain": "bournemouthecho.co.uk",
+      "publishedAt": "2026-11-19T21:47:00Z",
+      "seenAt": "2026-11-19T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-934bd7f0205b8c",
+      "title": "\"Czerwone linie\". Austria i Norwegia mogą wysadzić plan Europy",
+      "titleEnglish": "\"Red lines\". Austria and Norway could sink Europe's plan",
+      "url": "https://wiadomosci.onet.pl/swiat/czerwone-linie-austria-i-norwegia-moga-wysadzic-misterny-plan-europy/4cpfbvn",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-11-19T13:47:00Z",
+      "seenAt": "2026-11-19T13:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-881c537d5e3a85",
+      "title": "Putin invites Europeans to Moscow to discuss them joining Ukraine talks",
+      "titleEnglish": "Putin invites Europeans to Moscow to discuss them joining Ukraine talks",
+      "url": "https://www.arabnews.com/world/putin-invites-europeans-to-moscow-to-discuss-them-joining-ukraine-talks-3012957",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-19T13:47:34Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-2b269c174ea86a",
+      "title": "高市首相への「冷遇」、政権に広がる不満 日中両国の距離感が表面化：朝日新聞",
+      "titleEnglish": "Cold treatment of PM Takaichi, growing dissatisfaction in government; distance between Japan and China surfaces - Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVCM3GMKVCMUTFK006M.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-11-19T11:08:10Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-67963a21365798",
+      "title": "対日圧力強まるなか、模索した対話 日ロ首脳、7年ぶり接触の背景は：朝日新聞",
+      "titleEnglish": "Dialogue sought amid mounting pressure on Japan: Japan-Russia leaders' first contact in seven years, what's behind it - Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVCM2VL0VCMUTFK003M.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-11-19T11:03:25Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-836151fbe24a53",
+      "title": "自衛隊、インドでミサイル発射訓練可能に 日印2プラス2で合意：朝日新聞",
+      "titleEnglish": "Self-Defense Forces to be allowed missile launch training in India; agreed at Japan-India 2+2 - Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVCM3RYZVCMUQIP05QM.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-11-19T11:45:30Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-14f2a489d8cbbb",
+      "title": "Sheinbaum celebra posible acuerdo de estabilidad tras reunión entre Trump, Putin y Jinping",
+      "titleEnglish": "Sheinbaum welcomes possible stability agreement after meeting between Trump, Putin and Jinping",
+      "url": "https://www.razon.com.mx/mexico/2026/11/19/sheinbaum-celebra-posible-acuerdo-de-estabilidad-tras-reunion-entre-trump-putin-y-jinping/",
+      "publisher": "La Razón de México",
+      "publisherDomain": "razon.com.mx",
+      "publishedAt": "2026-11-19T13:10:10Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Mexico",
+      "sourceCountryCode": "MX",
+      "sourceRegion": "Latin America",
+      "sourceLat": 23,
+      "sourceLon": -102,
+      "language": "es"
+    },
+    {
+      "id": "n-8287289b1db4f8",
+      "title": "Єврокомісія про тристоронню зустріч Трампа Сі та Путіна: Загалом ми не коментуємо дружбу",
+      "titleEnglish": "European Commission on trilateral meeting of Trump, Xi and Putin: overall, we do not comment on friendship",
+      "url": "https://lb.ua/news/2026/11/19/782300_ievrokomisiya_pro_tristoronnyu.html",
+      "publisher": "LB.ua",
+      "publisherDomain": "lb.ua",
+      "publishedAt": "2026-11-19T14:17:00Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "uk"
+    },
+    {
+      "id": "n-dcb35e61afe464",
+      "title": "Anthropic IPO: AI firm about to make US stock market debut with valuation of $1.5tn",
+      "titleEnglish": "Anthropic IPO: AI firm about to make US stock market debut with valuation of $1.5tn",
+      "url": "https://www.bbc.co.uk/news/live/c933xxm82mr8t",
+      "publisher": "BBC News",
+      "publisherDomain": "bbc.co.uk",
+      "publishedAt": "2026-11-19T14:17:00Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-035ae2867bacbe",
+      "title": "Anthropic soars past $3 trillion in stock market debut, eclipsing SpaceX",
+      "titleEnglish": "Anthropic soars past $3 trillion in stock market debut, eclipsing SpaceX",
+      "url": "https://www.abc.net.au/news/2026-11-20/anthropic-ipo-three-trillion/107407020",
+      "publisher": "abc.net.au",
+      "publisherDomain": "abc.net.au",
+      "publishedAt": "2026-11-19T19:02:29Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-f2f0c435f7e400",
+      "title": "刚刚，Anthropic敲钟！史上最大IPO，AI科技巨头举世瞩目",
+      "titleEnglish": "Just in: Anthropic rings the bell! Largest IPO in history, AI tech giant draws global attention",
+      "url": "https://k.sina.com.cn/article_5953189932_162d6782c067054q76.html",
+      "publisher": "新浪网",
+      "publisherDomain": "k.sina.com.cn",
+      "publishedAt": "2026-11-20T00:29:36Z",
+      "seenAt": "2026-11-19T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-c03e21eecc805b",
+      "title": "Anthropic, Ipo da 81,3 miliardi di dollari: debutto a Wall Street",
+      "titleEnglish": "Anthropic, IPO worth 81.3 billion dollars: debut on Wall Street",
+      "url": "https://tg24.sky.it/economia/2026/11/19/anthropic-ipo-borsa-wall-street-spacex",
+      "publisher": "tg24.sky.it",
+      "publisherDomain": "tg24.sky.it",
+      "publishedAt": "2026-11-19T07:47:00Z",
+      "seenAt": "2026-11-19T07:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-f40233796b2a0d",
+      "title": "Anthropicin osakkeen hinnan ennakoitiin kiipeävän yli sataan dollariin",
+      "titleEnglish": "Anthropic's share price was expected to climb above one hundred dollars",
+      "url": "https://yle.fi/a/74-20258013",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-19T16:32:32Z",
+      "seenAt": "2026-11-19T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-31809072a05aab",
+      "title": "Por la salida a Bolsa de Anthropic, el actor Ashton Kutcher está cerca de ser multimillonario",
+      "titleEnglish": "With Anthropic's stock market listing, actor Ashton Kutcher is close to becoming a billionaire",
+      "url": "https://www.elcolombiano.com/negocios/ashton-kutcher-millonario-anthropic-salida-bolsa-inversion-ia-LP43804179",
+      "publisher": "El Colombiano",
+      "publisherDomain": "elcolombiano.com",
+      "publishedAt": "2026-11-19T19:49:08Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-4248599b06ab1a",
+      "title": "With $4.5b acquisition, Palo Alto provides big returns for Casspi",
+      "titleEnglish": "With $4.5b acquisition, Palo Alto provides big returns for Casspi",
+      "url": "https://en.globes.co.il/en/article-with-45b-acquisition-palo-alto-provides-big-returns-for-casspi-1001564102",
+      "publisher": "en.globes.co.il",
+      "publisherDomain": "en.globes.co.il",
+      "publishedAt": "2026-11-19T05:26:00Z",
+      "seenAt": "2026-11-19T07:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-f69dd5b81c93fc",
+      "title": "뉴욕증시 개장 전 특징주...앤스로픽 IPO 기대에 반도체주↑ VS 월마트·테이크투↓",
+      "titleEnglish": "Pre-market US stocks: chip stocks up on Anthropic IPO hopes vs Walmart and Take-Two down",
+      "url": "https://www.newspim.com/news/view/20261119001471",
+      "publisher": "뉴스핌",
+      "publisherDomain": "newspim.com",
+      "publishedAt": "2026-11-19T13:51:00Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-1af643688879ab",
+      "title": "Wall Street ends sharply lower as Anthropic’s debut fails to revive AI fervour",
+      "titleEnglish": "Wall Street ends sharply lower as Anthropic’s debut fails to revive AI fervour",
+      "url": "https://www.thehindu.com/business/markets/wall-street-ends-sharply-lower-as-anthropics-debut-fails-to-revive-ai-fervour/article71721814.ece",
+      "publisher": "The Hindu",
+      "publisherDomain": "thehindu.com",
+      "publishedAt": "2026-11-19T21:35:18Z",
+      "seenAt": "2026-11-19T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-7d5ee279cc02d4",
+      "title": "The stock market could be headed for more turbulence. How one investor is preparing",
+      "titleEnglish": "The stock market could be headed for more turbulence. How one investor is preparing",
+      "url": "https://www.cnbc.com/2026/11/19/the-stock-market-could-be-headed-for-more-turbulence-how-one-investor-is-preparing.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-19T19:12:12Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-6aa5d1578ca683",
+      "title": "Bill Ackman is asking the wrong question about Nvidia | Fortune",
+      "titleEnglish": "Bill Ackman is asking the wrong question about Nvidia | Fortune",
+      "url": "https://fortune.com/2026/11/19/bill-ackman-nvidia-jensen-huang-reinstatement-board/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-11-19T21:47:00Z",
+      "seenAt": "2026-11-19T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-c22cc006e149df",
+      "title": "台股失守4萬點，上市櫃違約交割累計45起：投資人資金鏈拉警報 | 財經中心 | 新聞",
+      "titleEnglish": "Taiwan stocks lose the 40,000-point level, cumulative delivery defaults on listed and OTC markets reach 45: investor capital chain raises alarm | Finance Center | News",
+      "url": "https://www.storm.mg/article/11183297",
+      "publisher": "storm.mg",
+      "publisherDomain": "storm.mg",
+      "publishedAt": "2026-11-19T15:23:00Z",
+      "seenAt": "2026-11-19T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-78d3fd8391b6b0",
+      "title": "Geldanlage: Indische Aktien werden als KI Hedge zu Gewinnern der Tech-Sorgen",
+      "titleEnglish": "Investing: Indian stocks become winners as AI hedge amid tech worries",
+      "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-indische-aktien-werden-als-ki-hedge-zu-gewinnern-der-tech-sorgen/100269738.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-19T16:32:14Z",
+      "seenAt": "2026-11-19T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-c6b1b93ebeca95",
+      "title": "Kenya tech startup funding hits 6-year low as fallen firms dent investor trust",
+      "titleEnglish": "Kenya tech startup funding hits 6-year low as fallen firms dent investor trust",
+      "url": "https://www.businessdailyafrica.com/bd/corporate/technology/kenya-tech-startup-funding-hits-6-year-low-5677318",
+      "publisher": "Business Daily",
+      "publisherDomain": "businessdailyafrica.com",
+      "publishedAt": "2026-11-19T16:47:00Z",
+      "seenAt": "2026-11-19T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Kenya",
+      "sourceCountryCode": "KE",
+      "sourceRegion": "Africa",
+      "sourceLat": 0.1,
+      "sourceLon": 38,
+      "language": "en"
+    },
+    {
+      "id": "n-156ecd4ed1c5d5",
+      "title": "'Toughest in my lifetime': Rod Duke on how Briscoes succeeds where others fail",
+      "titleEnglish": "'Toughest in my lifetime': Rod Duke on how Briscoes succeeds where others fail",
+      "url": "https://www.nzherald.co.nz/nz/rod-dukes-secret-to-briscoe-groups-success-amid-toughest-era-for-retail/4LUW7BFI2VCJ7F6UUHJ5BPLLCY/",
+      "publisher": "NZ Herald",
+      "publisherDomain": "nzherald.co.nz",
+      "publishedAt": "2026-11-19T19:47:00Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-f01219e7acede5",
+      "title": "Heavy fighting erupts in Haiti as armed forces fight gangs to regain control of key corridor",
+      "titleEnglish": "Heavy fighting erupts in Haiti as armed forces fight gangs to regain control of key corridor",
+      "url": "https://www.wsls.com/news/world/2026/11/19/heavy-fighting-erupts-in-haiti-as-armed-forces-fight-gangs-to-regain-control-of-key-corridor/",
+      "publisher": "WSLS",
+      "publisherDomain": "wsls.com",
+      "publishedAt": "2026-11-19T17:47:26Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-5fcf7dd6aba328",
+      "title": "Why are Bukele’s Salvadoran troops in Haiti and what have they achieved?",
+      "titleEnglish": "Why are Bukele’s Salvadoran troops in Haiti and what have they achieved?",
+      "url": "https://www.aljazeera.com/news/2026/11/19/why-are-bukeles-salvadoran-troops-in-haiti-and-what-have-they-achieved",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-11-19T21:47:00Z",
+      "seenAt": "2026-11-19T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-e7f0a02ab57d78",
+      "title": "Amnistia Internacional alerta para risco de morte, raptos e violações no Haiti",
+      "titleEnglish": "Amnesty International warns of risk of death, kidnappings and rapes in Haiti",
+      "url": "https://observador.pt/2026/11/19/amnistia-internacional-alerta-para-risco-de-morte-raptos-e-violacoes-no-haiti/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-11-19T14:17:00Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-9774f73594f259",
+      "title": "Presidente Abelardo de la Espriella confirma décimo bombardeo militar en Valle del Cauca durante su gobierno - Pulzo",
+      "titleEnglish": "President Abelardo de la Espriella confirms tenth military bombing in Valle del Cauca during his government - Pulzo",
+      "url": "https://www.pulzo.com/nacion/bombardeos-en-colombia-abelardo-de-la-espriella-eleva-a-diez-las-operaciones-militares-PP5359303A",
+      "publisher": "pulzo.com",
+      "publisherDomain": "pulzo.com",
+      "publishedAt": "2026-11-19T14:17:00Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-3e733d85bdead1",
+      "title": "Gobierno evalúa solicitar al Congreso autorización para presencia de tropas estadounidenses en Colombia - Pulzo",
+      "titleEnglish": "Government considers asking Congress for authorisation for US troop presence in Colombia - Pulzo",
+      "url": "https://www.pulzo.com/nacion/presencia-de-tropas-de-ee-uu-en-colombia-congreso-evalua-propuesta-de-de-la-espriella-PP5359292A",
+      "publisher": "pulzo.com",
+      "publisherDomain": "pulzo.com",
+      "publishedAt": "2026-11-19T14:17:00Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-dd7906a54b7085",
+      "title": "De la Espriella desmiente al New York Times sobre operaciones militares con EE. UU.",
+      "titleEnglish": "De la Espriella denies New York Times report about military operations with the US",
+      "url": "https://www.eluniversal.com.co/colombia/2026/11/18/de-la-espriella-desmiente-al-new-york-times-sobre-operaciones-militares-con-ee-uu/",
+      "publisher": "www.eluniversal.com.co",
+      "publisherDomain": "eluniversal.com.co",
+      "publishedAt": "2026-11-19T04:30:00Z",
+      "seenAt": "2026-11-19T04:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-66df452fd5ae1b",
+      "title": "Fishermen sue Trump administration over 'drone strike and torture' at sea",
+      "titleEnglish": "Fishermen sue Trump administration over 'drone strike and torture' at sea",
+      "url": "https://www.abc.net.au/news/2026-11-20/ecuador-fishermen-sue-us-government-over-drone-strike/107397866",
+      "publisher": "abc.net.au",
+      "publisherDomain": "abc.net.au",
+      "publishedAt": "2026-11-19T18:00:00Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-d10409dd1fb0a5",
+      "title": "La OEA convoca una sesión extraordinaria para abordar medidas colectivas contra el crimen organizado - La Tercera",
+      "titleEnglish": "OAS calls extraordinary session to address collective measures against organized crime - La Tercera",
+      "url": "https://www.latercera.com/mundo/noticia/la-oea-convoca-una-sesion-extraordinaria-para-abordar-medidas-colectivas-contra-el-crimen-organizado/",
+      "publisher": "La Tercera",
+      "publisherDomain": "latercera.com",
+      "publishedAt": "2026-11-19T19:19:44Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-c53721cff27b10",
+      "title": "Nigeria, US Deepen Maritime Security Ties, Target Illegal Movement Of Strategic Goods",
+      "titleEnglish": "Nigeria, US Deepen Maritime Security Ties, Target Illegal Movement Of Strategic Goods",
+      "url": "https://leadership.ng/nigeria-us-deepen-maritime-security-ties-target-illegal-movement-of-strategic-goods/",
+      "publisher": "LEADERSHIP Newspapers",
+      "publisherDomain": "leadership.ng",
+      "publishedAt": "2026-11-19T19:23:15Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-d3fd71111cbd29",
+      "title": "US reacts as Nigerian military rescues 125 kidnap victims",
+      "titleEnglish": "US reacts as Nigerian military rescues 125 kidnap victims",
+      "url": "https://dailypost.ng/2026/11/19/us-reacts-as-nigerian-military-rescues-125-kidnap-victims/",
+      "publisher": "Daily Post Nigeria",
+      "publisherDomain": "dailypost.ng",
+      "publishedAt": "2026-11-19T05:30:30Z",
+      "seenAt": "2026-11-19T07:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-ad8cfa38693527",
+      "title": "Troops recover 85,000 litres of suspected stolen crude oil in Rivers",
+      "titleEnglish": "Troops recover 85,000 litres of suspected stolen crude oil in Rivers",
+      "url": "https://dailypost.ng/2026/11/19/troops-recover-85000-litres-of-suspected-stolen-crude-oil-in-rivers/",
+      "publisher": "Daily Post Nigeria",
+      "publisherDomain": "dailypost.ng",
+      "publishedAt": "2026-11-19T06:55:19Z",
+      "seenAt": "2026-11-19T07:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-93fc0cd0b8707b",
+      "title": "القبض على مدير عام شركة خطوط الأنابيب النفطية بتهمة تهريب النفط في جرف النصر",
+      "titleEnglish": "Arrest of general manager of oil pipeline company on charges of oil smuggling in Jurf al-Nasr",
+      "url": "https://almadapaper.net/461801/",
+      "publisher": "جريدة المدى",
+      "publisherDomain": "almadapaper.net",
+      "publishedAt": "2026-11-19T13:23:19Z",
+      "seenAt": "2026-11-19T13:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Iraq",
+      "sourceCountryCode": "IQ",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33,
+      "sourceLon": 44,
+      "language": "ar"
+    },
+    {
+      "id": "n-7940bd758c2290",
+      "title": "أمر ديواني بتشكيل المقر المسيطر في جرف النصر برئاسة الفريق الركن أحمد حاتم",
+      "titleEnglish": "Decree forming the controlling headquarters in Jurf al-Nasr chaired by Lieutenant General Ahmed Hatem",
+      "url": "https://almadapaper.net/461787/",
+      "publisher": "جريدة المدى",
+      "publisherDomain": "almadapaper.net",
+      "publishedAt": "2026-11-19T11:24:26Z",
+      "seenAt": "2026-11-19T13:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Iraq",
+      "sourceCountryCode": "IQ",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33,
+      "sourceLon": 44,
+      "language": "ar"
+    },
+    {
+      "id": "n-32a28a57fefe04",
+      "title": "Defensa arresta a ‘Beto Zacualpan’, integrante de ‘Los Rusos’, por homicidio de líder amuzgo en Costa Chica, Guerrero",
+      "titleEnglish": "Defense arrests 'Beto Zacualpan', member of 'Los Rusos', over homicide of Amuzgo leader in Costa Chica, Guerrero",
+      "url": "https://www.razon.com.mx/mexico/2026/11/19/defensa-arresta-a-beto-zacualpan-integrante-de-los-rusos-por-homicidio-de-lider-amuzgo-en-costa-chica-guerrero/",
+      "publisher": "La Razón de México",
+      "publisherDomain": "razon.com.mx",
+      "publishedAt": "2026-11-19T13:54:35Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Mexico",
+      "sourceCountryCode": "MX",
+      "sourceRegion": "Latin America",
+      "sourceLat": 23,
+      "sourceLon": -102,
+      "language": "es"
+    },
+    {
+      "id": "n-9fb0f3eacf59c7",
+      "title": "NOTSUP Threatens Nationwide Strike Over Unpaid CONTTA, Unimplemented Agreement",
+      "titleEnglish": "NOTSUP Threatens Nationwide Strike Over Unpaid CONTTA, Unimplemented Agreement",
+      "url": "https://leadership.ng/notsup-threatens-nationwide-strike-over-unpaid-contta-unimplemented-agreement/",
+      "publisher": "LEADERSHIP Newspapers",
+      "publisherDomain": "leadership.ng",
+      "publishedAt": "2026-11-12T09:11:00Z",
+      "seenAt": "2026-11-12T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-94f9e915071222",
+      "title": "UNILAG VC promises intervention as health workers protest arrears",
+      "titleEnglish": "UNILAG VC promises intervention as health workers protest arrears",
+      "url": "https://punchng.com/unilag-vc-promises-intervention-as-health-workers-protest-arrears/",
+      "publisher": "Punch Newspapers",
+      "publisherDomain": "punchng.com",
+      "publishedAt": "2026-11-12T00:56:57Z",
+      "seenAt": "2026-11-12T01:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-74ff5927747371",
+      "title": "Investors must also respect rights of workers – Cross River attorney general",
+      "titleEnglish": "Investors must also respect rights of workers – Cross River attorney general",
+      "url": "https://dailypost.ng/2026/11/18/investors-must-also-respect-rights-of-workers-criver-attorney-general/",
+      "publisher": "Daily Post Nigeria",
+      "publisherDomain": "dailypost.ng",
+      "publishedAt": "2026-11-18T15:59:04Z",
+      "seenAt": "2026-11-18T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-bd93913721c1f2",
+      "title": "ASUU demands immediate payment of withheld salaries",
+      "titleEnglish": "ASUU demands immediate payment of withheld salaries",
+      "url": "https://punchng.com/asuu-demands-immediate-payment-of-withheld-salaries/",
+      "publisher": "Punch Newspapers",
+      "publisherDomain": "punchng.com",
+      "publishedAt": "2026-11-19T19:37:21Z",
+      "seenAt": "2026-11-19T19:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-8f69f38bc388ff",
+      "title": "مديرية العمل بالأقصر تكثف حملاتها التفتيشية وتعمل على تسوية نزاع عمالي واسترداد مستحقات موظفة - الوطن",
+      "titleEnglish": "Luxor labour directorate intensifies inspection campaigns and works to settle labour dispute and recover an employee's dues - Al-Watan",
+      "url": "https://www.elwatannews.com/news/details/8398485",
+      "publisher": "الوطن",
+      "publisherDomain": "elwatannews.com",
+      "publishedAt": "2026-11-17T15:36:32Z",
+      "seenAt": "2026-11-17T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-a8cbd322e26601",
+      "title": "غضب بين لاعبي الزمالك المصريين بسبب تأخر صرف مستحقاتهم - الوطن",
+      "titleEnglish": "Anger among Egyptian Zamalek players over delayed payment of their dues - Al Watan",
+      "url": "https://www.elwatannews.com/news/details/8400107",
+      "publisher": "الوطن",
+      "publisherDomain": "elwatannews.com",
+      "publishedAt": "2026-11-19T23:17:43Z",
+      "seenAt": "2026-11-19T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-66b8cae9917385",
+      "title": "টানা ৩ দিনের বিক্ষোভ শেষে নারায়ণগঞ্জের শিল্পাঞ্চলে স্বস্তি, উৎপাদন শুরু",
+      "titleEnglish": "Relief in Narayanganj industrial area after three days of protests, production resumes",
+      "url": "https://www.dhakatoday.com/news/93133/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%AB%E0%A7%81%E0%A6%9F%E0%A6%AC%E0%A6%B2-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%85%E0%A6%AC%E0%A6%B8%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%A8%E0%A7%8B-%E0%A6%B0%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A6%A6%E0%A7%8B%E0%A6%B0",
+      "publisher": "dhakaToday.com",
+      "publisherDomain": "dhakatoday.com",
+      "publishedAt": "2026-11-05T12:47:00Z",
+      "seenAt": "2026-11-05T12:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "bn"
+    },
+    {
+      "id": "n-4f48bc3fc7e863",
+      "title": "মজুরি বাড়ানোর উদ্যোগ থেকে সরকার পিছিয়ে যায়নি: জোনায়েদ সাকি",
+      "titleEnglish": "Government has not backed off from raising wages: Zunaid Saki",
+      "url": "https://bangla.bdnews24.com/samagrabangladesh/8xmf8pyujy",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bangla.bdnews24.com",
+      "publishedAt": "2026-11-17T16:33:43Z",
+      "seenAt": "2026-11-17T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "bn"
+    },
+    {
+      "id": "n-811cecfc37b7bb",
+      "title": "Garment workers, police clash repeatedly on Dhaka-Mymensingh highway",
+      "titleEnglish": "Garment workers, police clash repeatedly on Dhaka-Mymensingh highway",
+      "url": "https://www.thedailystar.net/news/news/garment-workers-police-clash-repeatedly-dhaka-mymensingh-highway-4328066",
+      "publisher": "The Daily Star",
+      "publisherDomain": "thedailystar.net",
+      "publishedAt": "2026-11-19T11:17:00Z",
+      "seenAt": "2026-11-19T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-5d43ab82df1bd9",
+      "title": "Revenue shortfall squeezes Bangladesh’s development investment: World Bank",
+      "titleEnglish": "Revenue shortfall squeezes Bangladesh’s development investment: World Bank",
+      "url": "https://www.thedailystar.net/business/news/revenue-shortfall-squeezes-bangladeshs-development-investment-world-bank-4328156",
+      "publisher": "The Daily Star",
+      "publisherDomain": "thedailystar.net",
+      "publishedAt": "2026-11-19T11:17:00Z",
+      "seenAt": "2026-11-19T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "en"
+    },
+    {
+      "id": "n-380d47f2eaa857",
+      "title": "철도노조 임금·단체교섭 결렬…12월 총파업 예고",
+      "titleEnglish": "Rail union wage and collective bargaining talks break down; general strike announced for December",
+      "url": "https://biz.heraldcorp.com/article/10927685",
+      "publisher": "헤럴드경제",
+      "publisherDomain": "biz.heraldcorp.com",
+      "publishedAt": "2026-11-05T10:46:04Z",
+      "seenAt": "2026-11-05T11:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-e2fe03d7eaeadb",
+      "title": "Protestas de trabajadores del PJF paralizan vialidades en centro de Monterrey",
+      "titleEnglish": "PJF workers' protests paralyze roads in downtown Monterrey",
+      "url": "https://www.excelsior.com.mx/nacional/trabajadores-poder-judicial-paralizan-monterrey",
+      "publisher": "Excélsior",
+      "publisherDomain": "excelsior.com.mx",
+      "publishedAt": "2026-11-06T22:32:13Z",
+      "seenAt": "2026-11-06T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Mexico",
+      "sourceCountryCode": "MX",
+      "sourceRegion": "Latin America",
+      "sourceLat": 23,
+      "sourceLon": -102,
+      "language": "es"
+    },
+    {
+      "id": "n-f2f934c4ea46bc",
+      "title": "Gobierno advierte que aplicará Ley de Seguridad del Estado si camioneros descolgados del acuerdo mantienen bloqueos | Puranoticia.cl",
+      "titleEnglish": "Government warns it will apply the State Security Law if truckers who broke off the agreement maintain blockades | Puranoticia.cl",
+      "url": "https://puranoticia.pnt.cl/nacional/gobierno-advierte-que-aplicara-ley-de-seguridad-del-estado-si-camioneros",
+      "publisher": "puranoticia.pnt.cl",
+      "publisherDomain": "puranoticia.pnt.cl",
+      "publishedAt": "2026-11-13T11:02:00Z",
+      "seenAt": "2026-11-13T11:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-d87b771237d2d8",
+      "title": "B.C. mine ordered to cease and desist using ineligible replacement workers during strike | CBC News",
+      "titleEnglish": "B.C. mine ordered to cease and desist using ineligible replacement workers during strike | CBC News",
+      "url": "https://www.cbc.ca/news/canada/british-columbia/highland-valley-copper-replacement-workers-9.7424245",
+      "publisher": "CBC",
+      "publisherDomain": "cbc.ca",
+      "publishedAt": "2026-11-17T17:17:00Z",
+      "seenAt": "2026-11-17T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
+    },
+    {
+      "id": "n-f66d5944d28939",
+      "title": "Ontario government pressed to help avert Niagara paramedics strike",
+      "titleEnglish": "Ontario government pressed to help avert Niagara paramedics strike",
+      "url": "https://www.niagarafallsreview.ca/news/niagara-region/niagara-paramedics-poised-to-strike-queens-park-mpps/article_73b82e68-bfe4-521c-8fed-8fa1515ec173.html",
+      "publisher": "Niagara Falls Review",
+      "publisherDomain": "niagarafallsreview.ca",
+      "publishedAt": "2026-11-19T11:17:00Z",
+      "seenAt": "2026-11-19T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
+    },
+    {
+      "id": "n-a9b3d9ca62fcae",
+      "title": "Colombia: los sindicatos y la oposición protestan contra la reforma tributaria de Abelardo de la Espriella",
+      "titleEnglish": "Colombia: unions and opposition protest against Abelardo de la Espriella's tax reform",
+      "url": "https://www.clarin.com/mundo/colombia-sindicatos-oposicion-protestan-reforma-tributaria-abelardo-espriella_0_bBP7EZxrJx.html",
+      "publisher": "Clarín",
+      "publisherDomain": "clarin.com",
+      "publishedAt": "2026-11-19T17:54:50Z",
+      "seenAt": "2026-11-19T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    }
+  ],
+  "settled": [
+    {
+      "id": "20261101T010841-constitutions-and-courts-contested-1",
+      "status": "kept",
+      "how": "headline"
+    },
+    {
+      "id": "20261117T232955-crossings-struck-before-summit-1",
+      "status": "kept",
+      "how": "headline"
+    }
+  ],
+  "readings": [
+    {
+      "id": "allies-seek-own-talks",
+      "line": "Allies left out of the three-power meeting now seek their own talks with Moscow rather than wait for Washington to speak for them.",
+      "kicker": "ALLIANCE / REPRESENTATION / DETENTE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A European head of government holds a call with Putin or announces a trip to Moscow about joining the Ukraine talks.",
+          "by": "2026-12-10",
+          "because": "If allies are arranging their own entry instead of relying on Washington, Putin's invitation should be followed by direct European contact with him.",
+          "id": "20261119T230231-allies-seek-own-talks-1"
+        },
+        {
+          "what": "Japan and Russia announce leaders' or foreign ministers' talks, or set a date for them.",
+          "by": "2026-12-17",
+          "because": "If Tokyo's call to Moscow is part of the same move by left-out allies, it should lead to further talks, not stay a single courtesy contact.",
+          "id": "20261119T230231-allies-seek-own-talks-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is 1971 to 1972. Nixon announced his Beijing visit in July 1971 without warning Tokyo, and in September 1972 Kakuei Tanaka went to Beijing and normalised relations, seven years before Washington did; West Germany had already signed its own Moscow Treaty in August 1970. Both moves came in peacetime and towards a power the United States was itself approaching. Now the allies approach Russia while it fights a war in Europe, and the invitation comes from Moscow.",
+        "paths": [
+          {
+            "name": "Europeans open a direct channel",
+            "weight": "favoured",
+            "text": "Within weeks a European leader or an EU envoy speaks to Putin or goes to Moscow about the Ukraine talks, carrying the plans and conditions Macron and Merz set out this week, and Japan schedules further talks with Russia. Washington tolerates it because Kushner already says positions have converged. The join points this way because each ally's offer this week was framed as its own plan, not as a US one.",
+            "sign": "A European leader holds a call with Putin or announces a visit to Moscow to discuss the Ukraine talks."
+          },
+          {
+            "name": "Europe sits under US terms",
+            "weight": "possible",
+            "text": "Europeans join the next round inside a US-led format and keep no separate line to Moscow, with the coalition of the willing becoming the body that carries out the US plan. This would follow from Trump's wish to have Europe at the table, but it leaves Japan's separate move unexplained.",
+            "sign": "The next round of Ukraine talks is announced with European officials seated at a US-chaired table."
+          },
+          {
+            "name": "Allies refuse and wait",
+            "weight": "unlikely",
+            "text": "European governments treat the Shenzhen declaration as void and refuse contact with Moscow until a ceasefire. This is less likely because Austria's and Norway's red lines already divide the European plan and Japan has already moved.",
+            "sign": "EU leaders jointly reject Putin's invitation and say no member will talk to Moscow before a ceasefire."
+          }
+        ],
+        "decade": "Over ten years the alliances built after 1945 become looser, with allies keeping their own lines to Moscow and Beijing and treating the US guarantee as one support among several, as Japan did after 1972."
+      },
+      "continues": "",
+      "change": "Since 14 November the meeting has taken place: on 19 November Trump, Xi and Putin issued a declaration toward peace that, by Observador's account, left out both wars. Europeans met separately in Berlin, Putin invited them to Moscow, and Japan made its first leaders' contact with Russia in seven years. No report yet says NATO or nuclear weapons in Europe were on the table.",
+      "claim": "Trump, Xi and Putin ended their Shenzhen meeting with a 'declaration toward peace' that left out the wars in Ukraine and the Middle East, while European leaders met separately in Berlin, took a critical call from Trump and were invited by Putin to Moscow, and Japan's prime minister made the first leaders' contact with Russia in seven years. The allies who were not in the room are now seeking their own entry, through plans and conditions of their own and in Japan's case a direct call, rather than relying on Washington to carry their interests. The route offered to them runs through Moscow, which can then deal with each of them separately.",
+      "events": [
+        {
+          "label": "Shenzhen declaration leaves out both wars",
+          "articleIds": [
+            "n-eb8c8a7df390a3",
+            "n-faf3bdb58cb503",
+            "n-51649716dde6a8",
+            "n-0c51e4f2ce055b",
+            "n-154b39c0ec4366",
+            "n-9de1139ae238cd"
+          ]
+        },
+        {
+          "label": "Europeans meet in Berlin, Trump calls them",
+          "articleIds": [
+            "n-d043d42a48d597",
+            "n-f297960efd7132",
+            "n-2194913035de6a",
+            "n-926c60122afb1d",
+            "n-0a5148783878d6",
+            "n-81e3aa163788a6"
+          ]
+        },
+        {
+          "label": "European plans and Putin's Moscow invitation",
+          "articleIds": [
+            "n-67304e60e3ce5c",
+            "n-1f344cdba2a7f7",
+            "n-3d806cf1c4b1cf",
+            "n-934bd7f0205b8c",
+            "n-881c537d5e3a85"
+          ]
+        },
+        {
+          "label": "Japan's first leader contact with Russia",
+          "articleIds": [
+            "n-67963a21365798",
+            "n-2b269c174ea86a",
+            "n-836151fbe24a53"
+          ]
+        },
+        {
+          "label": "Mexico, Korea and Brussels react",
+          "articleIds": [
+            "n-14f2a489d8cbbb",
+            "n-7ae18a8b65453b",
+            "n-8287289b1db4f8"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "What the Shenzhen meeting produced",
+          "fragments": [
+            {
+              "id": "r1f1",
+              "label": "A declaration without the wars",
+              "text": "Xinhua published the full text of a China-Russia-U.S. 'Heads of State Declaration toward Peace'. Deutsche Welle's French service says the meeting ended with a 'declaration of peace' that places Russia among the great powers, and Al Jazeera reports pledges of 'stable energy flows' and nuclear talks. Portugal's Observador says the meeting left out the wars in Ukraine and the Middle East.",
+              "articleIds": [
+                "n-eb8c8a7df390a3",
+                "n-faf3bdb58cb503",
+                "n-154b39c0ec4366",
+                "n-51649716dde6a8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r1f2",
+              "label": "Read as a win for two",
+              "text": "Taiwan's UDN reports that the New York Times and CNN named Xi and Putin the winners, and Japan's Asahi Shimbun asks whether Trump fell into a trap. South Korea's Financial News notes that Trump flew home without meeting Kim Jong Un.",
+              "articleIds": [
+                "n-0c51e4f2ce055b",
+                "n-9de1139ae238cd",
+                "n-7ae18a8b65453b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Allies outside the room",
+          "fragments": [
+            {
+              "id": "r2f1",
+              "label": "Berlin and a phone call",
+              "text": "Al Jazeera and Deutsche Welle report Ukraine's European allies meeting in Berlin after the summit, with Poland represented by Tusk according to Onet. Clarín describes a tense call in which Trump criticised their aid to Ukraine and said Putin 'wants peace'. Kommersant quotes Kushner saying US and 'coalition of the willing' positions converged, and Radio ZET says Trump wants Europe at the negotiating table.",
+              "articleIds": [
+                "n-d043d42a48d597",
+                "n-81e3aa163788a6",
+                "n-f297960efd7132",
+                "n-2194913035de6a",
+                "n-926c60122afb1d",
+                "n-0a5148783878d6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r2f2",
+              "label": "Plans and an invitation",
+              "text": "Lenta reports Macron setting out Europe's plans and Merz naming a condition for ending the war, and the Bournemouth Echo quotes Burnham saying Europe is ready to enter the peace talks. Onet warns that Austria's and Norway's red lines could sink Europe's plan. Arab News reports that Putin has invited Europeans to Moscow to discuss joining the talks.",
+              "articleIds": [
+                "n-67304e60e3ce5c",
+                "n-1f344cdba2a7f7",
+                "n-3d806cf1c4b1cf",
+                "n-934bd7f0205b8c",
+                "n-881c537d5e3a85"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r2f3",
+              "label": "Tokyo's own contact",
+              "text": "The Asahi Shimbun reports a cold reception for Prime Minister Takaichi and a growing distance between Japan and China, and describes the first Japan-Russia leaders' contact in seven years as dialogue sought amid mounting pressure on Japan. The same paper reports that Japan's forces will be allowed missile training in India under a new 2+2 agreement.",
+              "articleIds": [
+                "n-2b269c174ea86a",
+                "n-67963a21365798",
+                "n-836151fbe24a53"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Entry sought, not delegated",
+          "fragments": [
+            {
+              "id": "r3f1",
+              "label": "From representation to entry",
+              "text": "For most of the postwar period Europe and Japan expected Washington to carry their interests into any bargain with Moscow or Beijing. This week each is arranging its own way in: a European plan with its own conditions, a Japanese call to Moscow, and in Mexico a president welcoming the declaration as a stability agreement already made. The question being decided is who speaks for an ally, and the answer this week is the ally itself.",
+              "articleIds": [
+                "n-67304e60e3ce5c",
+                "n-67963a21365798",
+                "n-14f2a489d8cbbb",
+                "n-0a5148783878d6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r3f2",
+              "label": "Why Moscow invites them",
+              "text": "Putin's invitation offers Europeans a route he controls, at a moment when Onet reports that two governments' red lines could split their plan and the European Commission declines to 'comment on friendship' between the three leaders. Separate channels let Russia deal with Europeans one government at a time, which is the risk in the move the allies are making.",
+              "articleIds": [
+                "n-881c537d5e3a85",
+                "n-934bd7f0205b8c",
+                "n-8287289b1db4f8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "r4f1",
+              "label": "Washington is still the way in",
+              "text": "Kushner's statement that positions converged, and Trump's wish to have Europe at the table, suggest Europeans are entering through Washington, not around it. No headline reports a European leader accepting Putin's invitation or calling him. Japan's contact with Russia may concern fisheries, the islands or its quarrel with China rather than Shenzhen. What the cases do not share: Europe is a party to a war on its own continent, Japan's pressure comes from China, and Mexico has no alliance stake at all; and much of the evidence is one summit reported in many countries.",
+              "articleIds": [
+                "n-926c60122afb1d",
+                "n-0a5148783878d6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "INVASION / DRAFT TREATIES / BILATERALISM",
+          "text": "In December 2021 Moscow published two draft treaties, one addressed to Washington and one to NATO, asking for limits on the alliance's eastern members, and chose to negotiate them with the United States rather than with the Europeans whose territory they concerned. After the invasion of February 2022 most European governments cut leaders' contact with the Kremlin, and Japan joined the sanctions, ending its habit of regular meetings with Putin. Trump's return in January 2025 restored the bilateral channel: the Anchorage meeting of August 2025 was followed within days by European leaders flying to Washington to be briefed. By these headlines the pattern has widened to three powers meeting in Shenzhen, with a declaration Deutsche Welle says places Russia among the great powers, while Europeans gathered in Berlin. The lesson allies drew from these years is that the channel to Moscow reopened without them, and Putin's invitation to come to Moscow now offers them a way in on his terms.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "GEORGIA / NORMANDY FORMAT / ABE",
+          "text": "The years after 2008 already showed allies running their own Russia policy. After the war in Georgia in August 2008 it was Nicolas Sarkozy, holding the EU presidency, who negotiated the ceasefire. After the annexation of Crimea in 2014 the talks on Donbas ran in the Normandy format, France and Germany with Russia and Ukraine, and the Minsk agreements of 2014 and 2015 were signed without the United States at the table. In Asia, Shinzo Abe met Putin more than twenty times between 2012 and 2020, seeking a peace treaty and the return of islands taken in 1945, and offered an eight-point economic plan in 2016. None of these channels delivered what was hoped, and Minsk collapsed in 2022. That record is why the Asahi Shimbun presents a leaders' contact after seven years as a response to pressure: Tokyo and Paris both know what a separate channel to Moscow has bought before, and what it has not.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "UNIFICATION / GUARANTEES / ENLARGEMENT",
+          "text": "The settlement after 1989 was written with Europeans inside the room. The Two Plus Four Treaty of September 1990 united Germany with both German states signing beside the four wartime powers. The Budapest Memorandum of December 1994 gave Ukraine assurances from the United States, Britain and Russia in exchange for its nuclear weapons. Russia joined the G7 to make the G8 in 1997 and was suspended in 2014. NATO took in former Warsaw Pact states in 1999 and 2004, and the EU followed in 2004. For thirty years governments such as Poland's, which Tusk represented in Berlin this week, expected European security to be settled in forums where they had a vote. Ivan Krastev and Stephen Holmes describe the same years as an age in which the East imitated the West and expected to be included in its institutions. A three-power declaration from Shenzhen with no European signature is the clearest break with that expectation so far.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "light-that-failed"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "YALTA / ALLIANCE / OSTPOLITIK",
+          "text": "Allies have been left out before, and the precedents are what they now reach for. At Yalta in February 1945 three leaders settled Poland's borders without a Polish government present, and Roosevelt went on to meet Ibn Saud at the Great Bitter Lake on his way home. The alliances built afterwards, NATO in 1949 and the US-Japan security treaty of 1951, were meant to ensure allies would be represented by Washington in any such bargain. When that did not match their interests they made their own channels: Willy Brandt signed the Moscow Treaty in August 1970, and after Nixon announced his China visit in July 1971 without telling Tokyo, Kakuei Tanaka normalised relations with Beijing in September 1972, years ahead of the United States. Tony Judt's history of postwar Europe shows how much of the continent's security was guaranteed from outside it. Japan's contact with Moscow this week, and the talk of Europeans going there, follow these older moves.",
+          "trajectoryIds": [
+            "quincy-1945"
+          ],
+          "bookIds": [
+            "postwar"
+          ]
+        }
+      ],
+      "resumes": "20261114T204311/europe-security-bargained-elsewhere",
+      "builds": "",
+      "articleIds": [
+        "n-eb8c8a7df390a3",
+        "n-faf3bdb58cb503",
+        "n-154b39c0ec4366",
+        "n-51649716dde6a8",
+        "n-0c51e4f2ce055b",
+        "n-9de1139ae238cd",
+        "n-7ae18a8b65453b",
+        "n-d043d42a48d597",
+        "n-81e3aa163788a6",
+        "n-f297960efd7132",
+        "n-2194913035de6a",
+        "n-926c60122afb1d",
+        "n-0a5148783878d6",
+        "n-67304e60e3ce5c",
+        "n-1f344cdba2a7f7",
+        "n-3d806cf1c4b1cf",
+        "n-934bd7f0205b8c",
+        "n-881c537d5e3a85",
+        "n-2b269c174ea86a",
+        "n-67963a21365798",
+        "n-836151fbe24a53",
+        "n-14f2a489d8cbbb",
+        "n-8287289b1db4f8"
+      ]
+    },
+    {
+      "id": "ai-listing-gains-before-savers",
+      "line": "Ordinary savers could buy an AI lab only after its first-day doubling, while the shares they already held fell that day.",
+      "kicker": "LISTINGS / ALLOCATION / CONCENTRATION",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "An index provider announces Anthropic's entry to a major US share index, or a fast-entry rule that allows it.",
+          "by": "2026-12-17",
+          "because": "If the public is being let into the AI boom one very large company at a time, index funds are the main route by which ordinary savings will be moved into it.",
+          "id": "20261119T230231-ai-listing-gains-before-savers-1"
+        },
+        {
+          "what": "Taiwan's exchange or Financial Supervisory Commission tightens margin or settlement rules, or reports further delivery defaults.",
+          "by": "2026-12-10",
+          "because": "The join says money for the one big listing came out of other technology holdings, which should show first where small investors trade on borrowed money.",
+          "id": "20261119T230231-ai-listing-gains-before-savers-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "Netscape's listing on 9 August 1995 more than doubled on its first day and opened five years of rising technology shares before the crash of March 2000. Facebook's listing in May 2012 went the other way and fell below its offer price within days. Anthropic differs from both in size: at $3 trillion it is worth more than most national stock markets on its first afternoon, so its price moves are moves in the savings of anyone holding a broad fund.",
+        "paths": [
+          {
+            "name": "Index money holds it up",
+            "weight": "favoured",
+            "text": "Over the next three months index providers add the shares, so passive funds buy them while selling other technology holdings, and Anthropic holds its level while smaller AI-linked shares and retail-heavy markets such as Taiwan stay weak. The join points this way because the first day already showed money moving into one name rather than into the sector.",
+            "sign": "An index provider announces Anthropic's inclusion in a major US index ahead of its normal schedule."
+          },
+          {
+            "name": "The first-day price gives way",
+            "weight": "possible",
+            "text": "As with Facebook in 2012, the shares fall back below the first-day close within weeks while doubts about AI spending persist on Wall Street, and the savers who bought on the market carry the loss. This is held back by the absence of lock-up expiries for some months.",
+            "sign": "Anthropic shares are reported trading below their first-day closing price."
+          },
+          {
+            "name": "The whole sector rallies",
+            "weight": "unlikely",
+            "text": "The listing restarts a broad AI rally that lifts chip and software shares together. The fall on Wall Street on the day of the debut makes this the least likely course.",
+            "sign": "The Nasdaq closes at a record high with chip and software shares leading."
+          }
+        ],
+        "decade": "Over the decade the gains from AI reach most savers through a few very large listed firms bought after private holders took the early rise, so household wealth will rest on a handful of share prices."
+      },
+      "continues": "ai-boom-sold-before-profit",
+      "change": "Yesterday the listing was still to come. It has now happened: valued at $1.5 trillion beforehand, Anthropic passed $3 trillion on its first day, while Wall Street closed sharply lower and Taiwan's market reported 45 settlement defaults.",
+      "claim": "Anthropic was valued at $1.5 trillion before its first trade and passed $3 trillion by the end of the day, the largest listing on record, while Wall Street closed sharply lower, Taiwan's index fell below 40,000 with 45 settlement defaults, and German and Kenyan papers reported money moving to Indian shares and away from young technology firms. The first-day doubling went to the funds allotted shares and to early private backers; savers who could only buy on the market paid the doubled price while the rest of their technology holdings fell. The public is being let into the AI boom one very large company at a time, and the money is coming out of other holdings rather than arriving new.",
+      "events": [
+        {
+          "label": "Anthropic lists and doubles its value",
+          "articleIds": [
+            "n-dcb35e61afe464",
+            "n-035ae2867bacbe",
+            "n-f2f0c435f7e400",
+            "n-c03e21eecc805b",
+            "n-f40233796b2a0d"
+          ]
+        },
+        {
+          "label": "Early backers cash in",
+          "articleIds": [
+            "n-31809072a05aab",
+            "n-4248599b06ab1a"
+          ]
+        },
+        {
+          "label": "Wall Street falls on debut day",
+          "articleIds": [
+            "n-1af643688879ab",
+            "n-7d5ee279cc02d4",
+            "n-f69dd5b81c93fc",
+            "n-6aa5d1578ca683"
+          ]
+        },
+        {
+          "label": "Taiwan index drops amid settlement defaults",
+          "articleIds": [
+            "n-c22cc006e149df"
+          ]
+        },
+        {
+          "label": "Money turns to India, away from Kenyan start-ups",
+          "articleIds": [
+            "n-78d3fd8391b6b0",
+            "n-c6b1b93ebeca95"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "The listing and its backers",
+          "fragments": [
+            {
+              "id": "r1f1",
+              "label": "From $1.5 trillion to $3 trillion",
+              "text": "BBC News reported a debut valuation of $1.5 trillion before trading began; by the close Australia's ABC said Anthropic had passed $3 trillion, eclipsing SpaceX. Sina called it the largest listing in history and Sky TG24 put the offering at $81.3 billion. Finland's Yle notes the share price had been expected to climb above one hundred dollars.",
+              "articleIds": [
+                "n-dcb35e61afe464",
+                "n-035ae2867bacbe",
+                "n-f2f0c435f7e400",
+                "n-c03e21eecc805b",
+                "n-f40233796b2a0d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r1f2",
+              "label": "Early holders",
+              "text": "El Colombiano reports that the listing brings the actor Ashton Kutcher, an early investor, close to becoming a billionaire. Israel's Globes reports a $4.5 billion acquisition by Palo Alto returning large sums to another early backer, Casspi. The gains in both stories were made before any public buyer could take part.",
+              "articleIds": [
+                "n-31809072a05aab",
+                "n-4248599b06ab1a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "The rest of the market",
+          "fragments": [
+            {
+              "id": "r2f1",
+              "label": "Wall Street and Taiwan",
+              "text": "South Korea's Newspim reported chip stocks rising before the open on Anthropic hopes; by the close The Hindu reported Wall Street ending sharply lower as the debut 'fails to revive AI fervour'. CNBC warns of more turbulence and Fortune argues over Nvidia. Taiwan's storm.mg reports the index below 40,000 and cumulative delivery defaults on listed and over-the-counter markets reaching 45, with alarm over investors' funding.",
+              "articleIds": [
+                "n-f69dd5b81c93fc",
+                "n-1af643688879ab",
+                "n-7d5ee279cc02d4",
+                "n-6aa5d1578ca683",
+                "n-c22cc006e149df"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r2f2",
+              "label": "Where other money went",
+              "text": "Handelsblatt reports Indian shares becoming winners as a hedge against AI, amid worries about technology. Kenya's Business Daily reports start-up funding at a six-year low as failed firms damage investors' trust.",
+              "articleIds": [
+                "n-78d3fd8391b6b0",
+                "n-c6b1b93ebeca95"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Who took the first-day rise",
+          "fragments": [
+            {
+              "id": "r3f1",
+              "label": "The doubling and who got it",
+              "text": "The difference between the $1.5 trillion valuation at which shares were allotted and the $3 trillion close went to the funds that received allocations and to private backers such as those El Colombiano describes. A saver buying through an ordinary broker could enter only at the higher price. The listing opened the AI boom to the public at the point where the largest single-day gain had already been taken.",
+              "articleIds": [
+                "n-dcb35e61afe464",
+                "n-035ae2867bacbe",
+                "n-31809072a05aab"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r3f2",
+              "label": "Money moved, not added",
+              "text": "Chip shares that rose before the open on hopes of the listing ended a day on which the wider market fell sharply, which fits buyers paying for Anthropic by selling other AI-linked holdings. Taiwan's defaults show small investors already trading on credit, and the move to Indian shares and away from Kenyan start-ups shows money concentrating in fewer, larger places.",
+              "articleIds": [
+                "n-f69dd5b81c93fc",
+                "n-1af643688879ab",
+                "n-c22cc006e149df",
+                "n-78d3fd8391b6b0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "r4f1",
+              "label": "Other reasons for a bad day",
+              "text": "Wall Street's fall may have had other causes: Newspim notes Walmart and Take-Two down before the open, and Fortune discusses Nvidia's leadership. Taiwan's defaults come from local margin trading in Taiwanese chip shares, which predates the listing, and Business Daily blames Kenya's funding drought on local firms that failed. Large first-day rises are normal for new listings, and some retail brokers do receive allocations. What the cases do not share: one is a public listing, one a settlement failure among local traders, one a venture-capital drought.",
+              "articleIds": [
+                "n-f69dd5b81c93fc",
+                "n-6aa5d1578ca683"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "RETAIL TRADING / PRIVATE ROUNDS / AI",
+          "text": "Two developments of the early 2020s meet in this listing. The first is the return of the small investor: lockdown savings and commission-free apps brought millions of new trading accounts in 2020 and 2021, from Robinhood in the United States to margin accounts in Taiwan, and the GameStop squeeze of January 2021 showed how quickly that money could crowd into one name. The second is the length of the private boom after ChatGPT reached a hundred million users in two months at the start of 2023. AI labs raised money privately for three years, from cloud providers, chipmakers and funds, and the largest rises in their value happened before any public shareholder could take part. By these headlines Anthropic was valued at $1.5 trillion before its first trade and above $3 trillion at the end of it, and storm.mg reports 45 delivery defaults among Taiwanese investors on the same day. The saver arrives late, and often on borrowed money.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "ZERO RATES / STAYING PRIVATE / INDEX FUNDS",
+          "text": "After Lehman Brothers failed in 2008 central banks held rates near zero for most of a decade, and that money went looking for growth in private companies. The JOBS Act of 2012 raised the number of shareholders an American company could have before it had to publish full accounts, so firms such as Uber stayed private for a decade and listed in 2019 at prices set by venture funds. Over the same years the share of US shares held through index funds overtook that of active managers, so a very large new listing draws money from every other holding once it enters an index. Facebook's listing in May 2012, then the largest in technology, fell below its offer price within days. The Hindu's report that Wall Street ended sharply lower on Anthropic's first day fits a market in which new money for one giant is often old money taken from others.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "NASDAQ / FIRST-DAY GAINS / DISCLOSURE",
+          "text": "The modern technology listing begins with Netscape in August 1995, whose shares more than doubled on their first day before the company had earned a profit. Through the late 1990s large first-day rises became normal, and the economist Jay Ritter's studies of those listings showed that the gap between the offer price and the first-day close was money left with the investors who received allocations, mostly institutions. When the bubble burst in March 2000 the Nasdaq lost close to four fifths of its value by October 2002, and the Sarbanes-Oxley Act of 2002 and later rules added the long risk sections now in every prospectus. Taiwan's market grew in the same decade around contract chipmakers and became one where retail investors trade heavily on margin. A first-day doubling like Anthropic's, which the ABC says took it past SpaceX, repeats the 1995 pattern at a far larger scale.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE SCIENCE / SAVINGS / OWNERSHIP",
+          "text": "For most of the postwar period the technologies expected to change everything were paid for by taxpayers. The workshop that named artificial intelligence met at Dartmouth in 1956 on foundation money, and after Sputnik in 1957 the US government created ARPA, whose network became the internet. The public carried the risk and shared the result through the state. Household savings went elsewhere: into homes, pensions and, after the 401(k) rules of 1978, into the shares of established firms. Anthropic's listing reverses that order. The research was paid for privately, the early gains went to private holders such as the investors El Colombiano says brought Ashton Kutcher close to a billion dollars, and the public is offered ownership only once the first day's trading has set the price. Shoshana Zuboff asked what is being sold when a company that collects data goes public; the same question applies to a company that sells reasoning.",
+          "trajectoryIds": [
+            "dartmouth-1956",
+            "sputnik-1957"
+          ],
+          "bookIds": [
+            "surveillance-capitalism"
+          ]
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-dcb35e61afe464",
+        "n-035ae2867bacbe",
+        "n-f2f0c435f7e400",
+        "n-c03e21eecc805b",
+        "n-f40233796b2a0d",
+        "n-31809072a05aab",
+        "n-4248599b06ab1a",
+        "n-f69dd5b81c93fc",
+        "n-1af643688879ab",
+        "n-7d5ee279cc02d4",
+        "n-6aa5d1578ca683",
+        "n-c22cc006e149df",
+        "n-78d3fd8391b6b0",
+        "n-c6b1b93ebeca95"
+      ]
+    },
+    {
+      "id": "crime-fought-as-war",
+      "line": "Gangs and smugglers are now fought by armies and foreign troops, so suspects are killed as enemies rather than charged in court.",
+      "kicker": "ORGANISED CRIME / MILITARY FORCE / DUE PROCESS",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "Colombia's government formally asks Congress to authorise US troops on Colombian soil.",
+          "by": "2026-12-17",
+          "because": "If governments are bringing foreign militaries into their fight against armed criminal groups, Colombia's talk of a request should become a formal one.",
+          "id": "20261119T230231-crime-fought-as-war-1"
+        },
+        {
+          "what": "The OAS extraordinary session ends with a resolution backing joint or foreign forces against organised crime in a member state.",
+          "by": "2026-12-10",
+          "because": "The join says crime is being moved into the language and tools of collective security, which the OAS session's 'collective measures' would confirm.",
+          "id": "20261119T230231-crime-fought-as-war-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "Plan Colombia, launched in 2000, put US money, aircraft and advisers behind Colombia's army against guerrillas financed by cocaine; it weakened the FARC and helped bring the 2016 peace deal, but coca output later recovered. Mexico's army deployment from December 2006 was followed by a sharp rise in homicides and no fall in drug flows. The present differs in that foreign troops now operate across borders, Salvadorans in Haiti and possibly Americans in Colombia, and strikes at sea are made without any attempt at arrest.",
+        "paths": [
+          {
+            "name": "Foreign forces gain mandates",
+            "weight": "favoured",
+            "text": "Over the coming months Colombia's Congress is asked to authorise US troops, the OAS backs collective action and the Haiti force widens, so the military approach becomes the regional default. The join points this way because governments as different as Colombia's and Nigeria's are already inviting a US role.",
+            "sign": "Colombia's government sends Congress a request to authorise US troops on its territory."
+          },
+          {
+            "name": "Courts limit the strikes",
+            "weight": "possible",
+            "text": "US or Colombian courts take up the fishermen's case or the bombings and require evidence, warnings or arrests before force is used. Rulings would take months and appeals longer, so the effect within a year is limited.",
+            "sign": "A US federal judge allows the fishermen's lawsuit over the strike at sea to proceed."
+          },
+          {
+            "name": "Return to policing and trials",
+            "weight": "unlikely",
+            "text": "After civilian deaths, governments hand operations back to police and prosecutors. This is unlikely within a year because governments are reporting their results as numbers of gang members killed and strikes made.",
+            "sign": "A government withdraws troops from an anti-gang operation and hands it to police under judicial oversight."
+          }
+        ],
+        "decade": "Over the decade organised crime in the Americas and West Africa will be handled more as an armed conflict with foreign partners, and fewer of those targeted will ever see a court."
+      },
+      "continues": "",
+      "change": "Since 5 November the soldiers in these stories have moved from keeping order on home streets to fighting gangs with aircraft and foreign help: Haiti's forces fight for a corridor with Salvadoran troops in the country, Colombia's president counts a tenth bombing and talks of US troops, and fishermen sue Washington over a drone strike at sea. The OAS has called an extraordinary session on organised crime.",
+      "claim": "Haiti's armed forces fought gangs for a key corridor and a security operation left 34 gang members dead, with Salvadoran troops in the country; Colombia's president reported a tenth military bombing and weighed asking Congress for US troops; fishermen sued Washington over a drone strike at sea; Nigeria deepened maritime security ties with the US; Iraq put a general over a smuggling zone; and the OAS called a session on collective measures against organised crime. In each, gangs, smugglers and kidnappers are handled by soldiers and aircraft, often with a foreign partner, and results are reported as deaths and strikes rather than charges. Crime is being moved from the law of policing into the law of war, where the suspect is treated as an enemy.",
+      "events": [
+        {
+          "label": "Haiti's army and foreign troops fight gangs",
+          "articleIds": [
+            "n-156ecd4ed1c5d5",
+            "n-f01219e7acede5",
+            "n-5fcf7dd6aba328",
+            "n-e7f0a02ab57d78"
+          ]
+        },
+        {
+          "label": "Colombia bombs and weighs US troops",
+          "articleIds": [
+            "n-9774f73594f259",
+            "n-3e733d85bdead1",
+            "n-dd7906a54b7085"
+          ]
+        },
+        {
+          "label": "OAS session and a lawsuit over a sea strike",
+          "articleIds": [
+            "n-d10409dd1fb0a5",
+            "n-66df452fd5ae1b"
+          ]
+        },
+        {
+          "label": "Nigeria's army and a US maritime pact",
+          "articleIds": [
+            "n-c53721cff27b10",
+            "n-d3fd71111cbd29",
+            "n-ad8cfa38693527"
+          ]
+        },
+        {
+          "label": "Soldiers over smuggling and murder in Iraq and Mexico",
+          "articleIds": [
+            "n-93fc0cd0b8707b",
+            "n-7940bd758c2290",
+            "n-32a28a57fefe04"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Haiti and Colombia",
+          "fragments": [
+            {
+              "id": "r1f1",
+              "label": "Fighting for a corridor",
+              "text": "Brazil's G1 reports a security operation in Haiti that left 34 gang members dead, and WSLS reports heavy fighting as the armed forces try to regain a key corridor. Al Jazeera asks why Bukele's Salvadoran troops are in Haiti and what they have achieved, and Portugal's Observador carries Amnesty International's warning of deaths, kidnappings and rapes.",
+              "articleIds": [
+                "n-156ecd4ed1c5d5",
+                "n-f01219e7acede5",
+                "n-5fcf7dd6aba328",
+                "n-e7f0a02ab57d78"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r1f2",
+              "label": "A tenth bombing",
+              "text": "Pulzo reports President Abelardo de la Espriella confirming the tenth military bombing in Valle del Cauca of his government, and the government considering asking Congress to authorise a US troop presence. El Universal reports him denying a New York Times account of military operations with the United States.",
+              "articleIds": [
+                "n-9774f73594f259",
+                "n-3e733d85bdead1",
+                "n-dd7906a54b7085"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "At sea, in Nigeria, Iraq and Mexico",
+          "fragments": [
+            {
+              "id": "r2f1",
+              "label": "A strike at sea and a regional session",
+              "text": "Australia's ABC reports fishermen suing the Trump administration over a 'drone strike and torture' at sea. Chile's La Tercera reports the OAS calling an extraordinary session to address 'collective measures' against organised crime.",
+              "articleIds": [
+                "n-66df452fd5ae1b",
+                "n-d10409dd1fb0a5"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r2f2",
+              "label": "Soldiers on criminal cases",
+              "text": "Nigeria's Leadership reports deeper maritime security ties with the US aimed at illegal movement of strategic goods, and the Daily Post reports US reaction to a military rescue of 125 kidnap victims and troops recovering 85,000 litres of stolen crude in Rivers. Iraq's Al-Mada reports an oil pipeline company's general manager arrested for smuggling in Jurf al-Nasr and a decree putting a lieutenant general at the head of a command there. In Mexico, La Razón reports the defence ministry arresting a gang member over the murder of an Amuzgo leader.",
+              "articleIds": [
+                "n-c53721cff27b10",
+                "n-d3fd71111cbd29",
+                "n-ad8cfa38693527",
+                "n-93fc0cd0b8707b",
+                "n-7940bd758c2290",
+                "n-32a28a57fefe04"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Crime handled as war",
+          "fragments": [
+            {
+              "id": "r3f1",
+              "label": "The same treatment",
+              "text": "Gangs in Haiti, armed groups in Colombia, kidnappers and oil thieves in Nigeria and smugglers in Iraq are being handled by soldiers, under generals, with results reported as bodies counted, strikes made and goods recovered. The question being decided in each place is whether a suspect is someone to arrest or an enemy to defeat, and this week the answer is mostly the second.",
+              "articleIds": [
+                "n-156ecd4ed1c5d5",
+                "n-9774f73594f259",
+                "n-ad8cfa38693527",
+                "n-7940bd758c2290"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r3f2",
+              "label": "The foreign partner",
+              "text": "The United States appears in four of these stories: as a possible troop presence in Colombia, a maritime partner to Nigeria, an observer of Nigeria's rescue and the defendant over a strike at sea. Salvadoran troops in Haiti and the OAS's talk of collective measures show the same idea spreading among governments of the region.",
+              "articleIds": [
+                "n-3e733d85bdead1",
+                "n-c53721cff27b10",
+                "n-66df452fd5ae1b",
+                "n-5fcf7dd6aba328",
+                "n-d10409dd1fb0a5"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "r4f1",
+              "label": "Old wars with new names",
+              "text": "Haiti's state has lost most of its capital to gangs, which is close to a war by any definition. Colombia's targets are armed groups with a political history, and bombing their camps has been routine since Plan Colombia in 2000. Iraq's Jurf al-Nasr is held by militias, and the arrest there is a police act. Mexico's army made an arrest that leads to a charge, which runs against the line. What the cases do not share: one is a collapsed state, one a counter-insurgency, one a militia enclave, one oil theft, and the military role in each is decades old rather than new.",
+              "articleIds": [
+                "n-32a28a57fefe04",
+                "n-93fc0cd0b8707b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "GANG RULE / TERROR LISTS / STRIKES AT SEA",
+          "text": "The decade began with states losing ground to armed groups across the region. Haiti's president Jovenel Moïse was killed in July 2021 and gangs then took most of Port-au-Prince; a Kenyan-led police mission arrived in June 2024 and the UN Security Council approved a larger Gang Suppression Force in 2025. In El Salvador Nayib Bukele declared a state of exception in March 2022 and jailed tens of thousands, an approach Al Jazeera now finds exported as Salvadoran troops in Haiti. In February 2025 Washington designated several cartels as foreign terrorist organisations, and from September 2025 US forces struck boats in the Caribbean and Pacific that it said carried drugs. By the ABC's report fishermen are now suing the administration over a 'drone strike and torture' at sea. These steps moved the legal frame from crime towards armed conflict, and Colombia's talk of a congressional vote on US troops sits inside it.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "theory-of-the-drone"
+          ]
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "DRUG WAR / ARMED FORCES / MILITIAS",
+          "text": "Mexico's president Felipe Calderón sent soldiers to Michoacán in December 2006, and over the following years the army became the country's main force against cartels, a role later given to the National Guard created in 2019 and placed under the defence ministry in 2024. Homicides rose sharply after the deployment. Brazil used the army in Rio's favelas from 2010 and put the state's security under a general in 2018. In Nigeria the Boko Haram insurgency from 2009 grew into a wider economy of kidnapping and oil theft that the army now polices, as the Daily Post's report of 85,000 litres of crude recovered in Rivers shows. In Iraq the militias that fought the Islamic State after 2014 kept towns such as Jurf al-Nasr, where a general now heads a new command. Mary Kaldor's account of new wars, in which crime, politics and fighting run together, describes the ground these forces work on.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "new-and-old-wars"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "PANAMA / PLAN COLOMBIA / PEACEKEEPING",
+          "text": "The end of the Cold War moved Washington's security policy in the Americas from communism to drugs. In December 1989 US forces invaded Panama to arrest Manuel Noriega on drug charges, an invasion justified as an arrest. Plan Colombia, from 2000, sent US money, helicopters and advisers to Colombia's army against guerrillas financed by cocaine, and bombing their camps became a standard tool, the kind Colombia's president now counts in Valle del Cauca. In Haiti US troops restored Jean-Bertrand Aristide in 1994, and the UN mission MINUSTAH stayed from 2004 to 2017, leaving a cholera epidemic and lasting distrust of foreign forces. From October 2001 the armed drone made it possible to kill a suspect from far away without a soldier on the ground. Each step made it easier to treat a criminal network as an opposing army, and each was presented at the time as an exception.",
+          "trajectoryIds": [
+            "predator-2001"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "LAWS OF WAR / NON-INTERVENTION / POLICING",
+          "text": "The order built after 1945 kept two bodies of law apart. Policing governed the suspect, who had to be arrested, charged and tried; the law of armed conflict, codified in the Geneva Conventions of 1949, governed the enemy, who could be killed in battle. The UN Charter forbade a state to use force on another's territory without consent or a Security Council mandate, and the Organization of American States, founded in Bogotá in 1948, wrote non-intervention into its charter after decades of US landings, including the occupation of Haiti from 1915 to 1934. The OAS session La Tercera reports, called to discuss 'collective measures' against organised crime, borrows language that the system kept for attacks on states. When gangs are treated as enemies the protections of the first body of law no longer apply, and those of the second are hard to apply to a fishing boat or a city corridor.",
+          "trajectoryIds": [
+            "geneva-1949"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "20261105T215902/soldiers-do-police-work",
+      "builds": "",
+      "articleIds": [
+        "n-156ecd4ed1c5d5",
+        "n-f01219e7acede5",
+        "n-5fcf7dd6aba328",
+        "n-e7f0a02ab57d78",
+        "n-9774f73594f259",
+        "n-3e733d85bdead1",
+        "n-dd7906a54b7085",
+        "n-66df452fd5ae1b",
+        "n-d10409dd1fb0a5",
+        "n-c53721cff27b10",
+        "n-d3fd71111cbd29",
+        "n-ad8cfa38693527",
+        "n-93fc0cd0b8707b",
+        "n-7940bd758c2290",
+        "n-32a28a57fefe04"
+      ]
+    },
+    {
+      "id": "pay-strikes-outside-europe",
+      "line": "Outside Europe, strikes this fortnight have mostly been to collect pay already owed or promised, often by a state short of money.",
+      "kicker": "ARREARS / PUBLIC PAY / REVENUE",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "A government in Nigeria, Egypt, Bangladesh or Kenya announces a schedule to pay salary arrears after a strike or strike threat.",
+          "by": "2026-12-10",
+          "because": "If the fortnight's disputes are about money already owed by cash-short employers, they will be settled by payment timetables rather than by new pay rates.",
+          "id": "20261119T230231-pay-strikes-outside-europe-1"
+        }
+      ],
+      "ahead": {
+        "precedent": "Nigeria's university lecturers struck for eight months in 2022 over funding and an agreement signed in 2009; the strike ended in October 2022 after a court order, and the government refused to pay for the months on strike. In the debt crisis of the 1980s Latin American states paid public wages late and in devalued money for years. The present differs in that the arrears now run alongside IMF programmes that count the public wage bill as a main saving, from Cairo to Dhaka.",
+        "paths": [
+          {
+            "name": "Arrears paid in instalments",
+            "weight": "favoured",
+            "text": "Over the next months governments answer with payment schedules and partial releases rather than new pay scales, and strikes are suspended and resumed as each instalment falls due. The join points here because the claims are for money already owed, which a treasury can release in parts as revenue allows.",
+            "sign": "A government announces it has released part of the withheld salaries or allowances and sets a date for the rest."
+          },
+          {
+            "name": "Claims combine into general strikes",
+            "weight": "possible",
+            "text": "Unions in one country combine arrears claims into a national strike, as South Korea's rail union has set for December. This needs national labour centres to take up sector claims, which happens mostly before elections such as Nigeria's in 2027.",
+            "sign": "A national labour congress in Nigeria or Bangladesh calls a general strike naming unpaid wages."
+          },
+          {
+            "name": "Rises replace arrears as the issue",
+            "weight": "unlikely",
+            "text": "Revenue recovers, arrears are cleared and disputes move back to the size of rises. With the World Bank warning of revenue shortfalls and governments raising taxes, this is unlikely within a year.",
+            "sign": "A government outside Europe announces a funded public-sector pay rise together with full clearance of arrears."
+          }
+        ],
+        "decade": "Over the decade, as debt interest takes a larger share of revenue, late payment of public wages becomes a normal budget tool in indebted countries, and strikes become the way workers collect."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Since 5 November strikes and protests outside Europe have been reported from Nigeria, Egypt, Bangladesh, Canada, Chile, Mexico and South Korea, and today Nigeria's lecturers demanded withheld salaries, Zamalek's players complained of late dues, Bangladeshi garment workers clashed with police and Niagara's paramedics neared a strike. Most of the fortnight's disputes are over pay already earned or rises already promised rather than new claims, and the employer behind many of them is a state short of revenue, as the World Bank now says of Bangladesh. Over two weeks the dispute has moved from how much workers are paid to whether what was agreed is paid at all.",
+      "events": [
+        {
+          "label": "Nigerian staff demand withheld pay",
+          "articleIds": [
+            "n-bd93913721c1f2",
+            "n-9fb0f3eacf59c7",
+            "n-94f9e915071222",
+            "n-74ff5927747371"
+          ]
+        },
+        {
+          "label": "Egyptian dues paid late",
+          "articleIds": [
+            "n-a8cbd322e26601",
+            "n-8f69f38bc388ff"
+          ]
+        },
+        {
+          "label": "Bangladesh garment wage protests",
+          "articleIds": [
+            "n-811cecfc37b7bb",
+            "n-4f48bc3fc7e863",
+            "n-66b8cae9917385"
+          ]
+        },
+        {
+          "label": "Revenue shortfalls and a tax rise",
+          "articleIds": [
+            "n-5d43ab82df1bd9",
+            "n-a9b3d9ca62fcae"
+          ]
+        },
+        {
+          "label": "Canadian strikes and replacement workers",
+          "articleIds": [
+            "n-f66d5944d28939",
+            "n-d87b771237d2d8"
+          ]
+        },
+        {
+          "label": "Broken talks in Chile, Mexico, Korea",
+          "articleIds": [
+            "n-f2f934c4ea46bc",
+            "n-380d47f2eaa857",
+            "n-e2fe03d7eaeadb"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Pay owed in Nigeria and Egypt",
+          "fragments": [
+            {
+              "id": "r1f1",
+              "label": "Nigeria's arrears",
+              "text": "On 12 November Leadership reported a theatre and surgical nurses' union threatening a national strike over unpaid allowances and an unimplemented agreement, and Punch reported health workers at the University of Lagos protesting arrears. On 18 November Cross River's attorney general told investors to respect workers' rights. Today Punch reports the lecturers' union ASUU demanding immediate payment of withheld salaries.",
+              "articleIds": [
+                "n-9fb0f3eacf59c7",
+                "n-94f9e915071222",
+                "n-74ff5927747371",
+                "n-bd93913721c1f2"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r1f2",
+              "label": "Egypt's dues",
+              "text": "On 17 November Al-Watan reported Luxor's labour directorate working to settle a dispute and recover an employee's dues. Today the same paper reports anger among Zamalek's players over delayed payment of what they are owed.",
+              "articleIds": [
+                "n-8f69f38bc388ff",
+                "n-a8cbd322e26601"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Promises and agreements elsewhere",
+          "fragments": [
+            {
+              "id": "r2f1",
+              "label": "Bangladesh's garment belt",
+              "text": "On 5 November dhakaToday reported production resuming in Narayanganj after three days of protests. On 17 November bdnews24 quoted Zunaid Saki saying the government had not backed off raising wages. Today The Daily Star reports garment workers and police clashing repeatedly on the Dhaka-Mymensingh highway, and the World Bank warning that a revenue shortfall is squeezing development investment.",
+              "articleIds": [
+                "n-66b8cae9917385",
+                "n-4f48bc3fc7e863",
+                "n-811cecfc37b7bb",
+                "n-5d43ab82df1bd9"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r2f2",
+              "label": "The Americas and Korea",
+              "text": "On 5 November South Korea's rail union announced a December general strike after wage talks broke down; on 7 November federal judicial workers blocked roads in Monterrey; on 13 November Chile's government threatened the State Security Law against truckers who broke an agreement; and on 17 November a British Columbia mine was ordered to stop using ineligible replacement workers. Today Ontario is pressed to avert a Niagara paramedics' strike, and Colombian unions protest a tax reform.",
+              "articleIds": [
+                "n-380d47f2eaa857",
+                "n-e2fe03d7eaeadb",
+                "n-f2f934c4ea46bc",
+                "n-d87b771237d2d8",
+                "n-f66d5944d28939",
+                "n-a9b3d9ca62fcae"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Whether the deal is paid",
+          "fragments": [
+            {
+              "id": "r3f1",
+              "label": "Collecting, not bargaining",
+              "text": "Withheld salaries, unpaid allowances, late dues, an unimplemented agreement, a promised rise and a replacement-worker rule already in law: most of the fortnight's disputes are about something already agreed. The question being decided is whether an employer keeps its word, not how large the next rise should be, and the strike is used as a way to collect.",
+              "articleIds": [
+                "n-bd93913721c1f2",
+                "n-9fb0f3eacf59c7",
+                "n-a8cbd322e26601",
+                "n-4f48bc3fc7e863",
+                "n-d87b771237d2d8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r3f2",
+              "label": "The treasury behind the employer",
+              "text": "Many of the employers are public: Nigerian universities and hospitals, Egypt's labour system, Bangladesh's wage boards. The World Bank's warning about Bangladesh's revenue and Colombian unions marching against a tax reform show governments short of money on both sides, raising taxes and deferring their own bills. Deferred wages are the cheapest bill a short treasury can delay.",
+              "articleIds": [
+                "n-5d43ab82df1bd9",
+                "n-a9b3d9ca62fcae",
+                "n-94f9e915071222"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "r4f1",
+              "label": "Causes unstated, employers unlike",
+              "text": "Several headlines name no cause: the Dhaka highway clashes, the Niagara paramedics and the Monterrey blockades may be about new pay, conditions or politics. Chile's truckers are owner-drivers whom the government accuses of breaking the deal, the reverse of the pattern; Zamalek is a football club, not a state; Korea's rail dispute is an ordinary bargaining round. Dutch and Portuguese strikes today show Europe has pay disputes of its own. The sample leans on three English-language Nigerian papers, and what the cases do not share is an employer: a state, a club, a mine owner and a garment factory.",
+              "articleIds": [
+                "n-f2f934c4ea46bc",
+                "n-380d47f2eaa857"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "DEVALUATION / IMF / DEBT SERVICE",
+          "text": "The pandemic and the price rise after 2022 left the governments in these headlines with less money and more debt. Egypt devalued the pound several times from March 2022 and took an $8 billion IMF programme in March 2024. Nigeria ended its petrol subsidy in May 2023 and let the naira fall, cutting the value of every salary paid in it. Bangladesh agreed a $4.7 billion IMF loan in January 2023, and the student uprising of July and August 2024 removed Sheikh Hasina. Kenya withdrew a finance bill after protests in June 2024. In each case interest payments rose as a share of revenue, and the bills a treasury can delay quietly are its own wages and its transfers to universities and hospitals. The World Bank's warning this week that a revenue shortfall is squeezing Bangladesh's development spending, and Colombian unions marching against a tax reform, are the same squeeze seen from the treasury's side.",
+          "trajectoryIds": [
+            "dhaka-2024"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CHEAP CREDIT / OIL / GARMENTS",
+          "text": "After 2008 low interest rates in rich countries let governments in Africa and Asia borrow abroad on easy terms, through Eurobonds such as Nigeria's in 2011 and Kenya's in 2014, and to hire. The oil price collapse of 2014 to 2016 then cut Nigeria's revenue so far that many of its states could not pay salaries, and the federal government lent them money in 2015 and 2016 to clear arrears. The habit of paying late outlasted those bailouts, as the nurses' complaint on 12 November about unpaid allowances shows. In Bangladesh the collapse of Rana Plaza in April 2013, which killed more than 1,100 garment workers, produced an accord on building safety but left pay to periodic minimum-wage boards, each round followed by protests like those reported in Narayanganj on 5 November and on the Dhaka-Mymensingh highway today. Wages became something set by a board and then fought over in the street.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "ADJUSTMENT / AGREEMENTS / UNIONS",
+          "text": "The 1990s set the terms of these disputes. Structural adjustment programmes with the IMF and World Bank, Egypt's from 1991 among them, capped public wage bills, so rises were often granted by agreement and then left unfunded. Nigeria returned to civilian rule in 1999, and its 2009 agreement with ASUU on pay and university funding has been the subject of strikes ever since, the longest lasting eight months in 2022. Chile's transition from 1990 kept a labour code that restricts strikes, and the truckers who blocked roads this month are owner-drivers outside it. The quotas of the Multi Fibre Arrangement ended in 2005 under the WTO, and Bangladesh's garment industry grew into its main export on low wages. Karl Polanyi argued that when markets are set apart from social obligations, people organise to restore them; strikes that ask only for what was already signed are a narrow version of that.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "great-transformation"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "INDEPENDENCE / STATE EMPLOYMENT / THE WAGE",
+          "text": "After independence the state became the largest employer in most of these countries. Nigeria from 1960 and Bangladesh from 1971 built civil services, universities and teaching hospitals paid from the centre, and Egypt under Nasser from the early 1960s promised a public job to every graduate, a promise abandoned only in the 1990s. The International Labour Organization's Protection of Wages Convention of 1949 set the rule that wages be paid regularly and in full. The developmental state of the postwar decades rested on that monthly salary, which made public employees a middle class and gave governments their loyalty. When Nigeria's lecturers demand immediate payment of withheld salaries and Zamalek's players complain of dues paid late, they are asking for the oldest part of that bargain, the salary on the agreed day, rather than for a larger share of growth. The postwar promise is now being enforced one strike at a time.",
+          "trajectoryIds": [],
+          "bookIds": []
+        }
+      ],
+      "resumes": "",
+      "builds": "pay-strikes-outside-europe",
+      "built": {
+        "key": "pay-strikes-outside-europe",
+        "subject": "Strikes and worker protests over pay and arrears outside Europe",
+        "firstSeen": "2026-11-01",
+        "days": 9
+      },
+      "articleIds": [
+        "n-9fb0f3eacf59c7",
+        "n-94f9e915071222",
+        "n-74ff5927747371",
+        "n-bd93913721c1f2",
+        "n-8f69f38bc388ff",
+        "n-a8cbd322e26601",
+        "n-66b8cae9917385",
+        "n-4f48bc3fc7e863",
+        "n-811cecfc37b7bb",
+        "n-5d43ab82df1bd9",
+        "n-380d47f2eaa857",
+        "n-e2fe03d7eaeadb",
+        "n-f2f934c4ea46bc",
+        "n-d87b771237d2d8",
+        "n-f66d5944d28939",
+        "n-a9b3d9ca62fcae"
+      ]
+    }
+  ]
+}

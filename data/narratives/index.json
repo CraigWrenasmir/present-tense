@@ -1,6 +1,69 @@
 {
  "editions": [
   {
+   "stamp": "20261119T230231",
+   "file": "data/narratives/20261119T230231.json",
+   "newsGeneratedAt": "2026-11-19T23:02:31Z",
+   "generatedAt": "2026-11-19T23:17:06Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-10",
+   "narratives": [
+    {
+     "id": "allies-seek-own-talks",
+     "kicker": "ALLIANCE / REPRESENTATION / DETENTE",
+     "line": "Allies left out of the three-power meeting now seek their own talks with Moscow rather than wait for Washington to speak for them.",
+     "events": 5,
+     "headlines": 23,
+     "countries": 14,
+     "continues": "",
+     "resumes": "20261114T204311/europe-security-bargained-elsewhere",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "ai-listing-gains-before-savers",
+     "kicker": "LISTINGS / ALLOCATION / CONCENTRATION",
+     "line": "Ordinary savers could buy an AI lab only after its first-day doubling, while the shares they already held fell that day.",
+     "events": 5,
+     "headlines": 14,
+     "countries": 13,
+     "continues": "ai-boom-sold-before-profit",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "crime-fought-as-war",
+     "kicker": "ORGANISED CRIME / MILITARY FORCE / DUE PROCESS",
+     "line": "Gangs and smugglers are now fought by armies and foreign troops, so suspects are killed as enemies rather than charged in court.",
+     "events": 5,
+     "headlines": 15,
+     "countries": 10,
+     "continues": "",
+     "resumes": "20261105T215902/soldiers-do-police-work",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "pay-strikes-outside-europe",
+     "kicker": "ARREARS / PUBLIC PAY / REVENUE",
+     "line": "Outside Europe, strikes this fortnight have mostly been to collect pay already owed or promised, often by a state short of money.",
+     "events": 6,
+     "headlines": 16,
+     "countries": 8,
+     "continues": "",
+     "resumes": "",
+     "builds": "pay-strikes-outside-europe",
+     "firmness": "tentative",
+     "watch": 1
+    }
+   ]
+  },
+  {
    "stamp": "20261118T225647",
    "file": "data/narratives/20261118T225647.json",
    "newsGeneratedAt": "2026-11-18T22:56:47Z",

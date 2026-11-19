@@ -234,8 +234,23 @@
    "what": "A government or ruling party outside Poland proposes changing the membership or powers of a constitutional or supreme court.",
    "by": "2026-11-28",
    "because": "If the legal frame is the contested ground in several countries, Poland's fight over its Tribunal should not be the only move on a top court within a month.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261119T230231",
+    "asOf": "2026-11-19T23:02:31Z",
+    "how": "headline",
+    "note": "South Korea's ruling party says it will push to impeach Supreme Court Chief Justice Jo Hee-de, a proposal to remove a member of the court.",
+    "headlines": [
+     {
+      "id": "n-e723d6e6bc0209",
+      "title": "與, 조희대 대법원장 탄핵 추진키로…\"절차·내용 지도부 위임\"",
+      "titleEnglish": "Ruling party to push for impeachment of Supreme Court Chief Justice Jo Hee-de, procedure and content left to leadership",
+      "url": "https://www.fnnews.com/news/202611192006131430",
+      "publisher": "파이낸셜뉴스",
+      "sourceCountry": "South Korea"
+     }
+    ]
+   }
   },
   {
    "id": "20261101T010841-gen-z-protests-met-by-police-1",
@@ -2105,8 +2120,23 @@
    "what": "Reports from the Shenzhen meeting say Crimea, the Kerch crossing or shipping through the Strait of Hormuz was discussed by the leaders.",
    "by": "2026-11-26",
    "because": "If the bridges and islands are struck as bargaining positions, they should appear on the agenda the strikes were meant to shape.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261119T230231",
+    "asOf": "2026-11-19T23:02:31Z",
+    "how": "headline",
+    "note": "Lenta reports Trump describing Putin's reaction to the attack on the Crimean Bridge after their meeting, saying Putin is angry at Zelensky.",
+    "headlines": [
+     {
+      "id": "n-00957719212b59",
+      "title": "Трамп о реакции Путина на атаку по Крымскому мосту: Путин разозлен на Зеленского, критика помощи Киеву от Европы, Трамп о переговорах с Путиным",
+      "titleEnglish": "Trump on Putin's reaction to the attack on the Crimean Bridge: Putin is angry at Zelensky, criticism of Europe's aid to Kyiv, Trump on talks with Putin",
+      "url": "https://lenta.ru/news/2026/11/19/long-tramp-rasskazal-o-reaktsii-putina-na-ataku-po-krymskomu-mostu-prezident-ssha-raskritikoval-evropeytsev-za-prodolzhenie-pomoschi-kievu/",
+      "publisher": "Lenta.RU",
+      "sourceCountry": "Russia"
+     }
+    ]
+   }
   },
   {
    "id": "20261117T232955-crossings-struck-before-summit-2",
@@ -2287,6 +2317,104 @@
    "what": "A government or regulator issues guidance to stage, test or slow the rollout of security patches on critical systems.",
    "by": "2026-12-16",
    "because": "If fixes are causing the failures, the official answer should target the pace of patching rather than only hunting hackers.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261119T230231-allies-seek-own-talks-1",
+   "stamp": "20261119T230231",
+   "asOf": "2026-11-19T23:02:31Z",
+   "narrativeId": "allies-seek-own-talks",
+   "kicker": "ALLIANCE / REPRESENTATION / DETENTE",
+   "line": "Allies left out of the three-power meeting now seek their own talks with Moscow rather than wait for Washington to speak for them.",
+   "firmness": "plausible",
+   "what": "A European head of government holds a call with Putin or announces a trip to Moscow about joining the Ukraine talks.",
+   "by": "2026-12-10",
+   "because": "If allies are arranging their own entry instead of relying on Washington, Putin's invitation should be followed by direct European contact with him.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261119T230231-allies-seek-own-talks-2",
+   "stamp": "20261119T230231",
+   "asOf": "2026-11-19T23:02:31Z",
+   "narrativeId": "allies-seek-own-talks",
+   "kicker": "ALLIANCE / REPRESENTATION / DETENTE",
+   "line": "Allies left out of the three-power meeting now seek their own talks with Moscow rather than wait for Washington to speak for them.",
+   "firmness": "plausible",
+   "what": "Japan and Russia announce leaders' or foreign ministers' talks, or set a date for them.",
+   "by": "2026-12-17",
+   "because": "If Tokyo's call to Moscow is part of the same move by left-out allies, it should lead to further talks, not stay a single courtesy contact.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261119T230231-ai-listing-gains-before-savers-1",
+   "stamp": "20261119T230231",
+   "asOf": "2026-11-19T23:02:31Z",
+   "narrativeId": "ai-listing-gains-before-savers",
+   "kicker": "LISTINGS / ALLOCATION / CONCENTRATION",
+   "line": "Ordinary savers could buy an AI lab only after its first-day doubling, while the shares they already held fell that day.",
+   "firmness": "plausible",
+   "what": "An index provider announces Anthropic's entry to a major US share index, or a fast-entry rule that allows it.",
+   "by": "2026-12-17",
+   "because": "If the public is being let into the AI boom one very large company at a time, index funds are the main route by which ordinary savings will be moved into it.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261119T230231-ai-listing-gains-before-savers-2",
+   "stamp": "20261119T230231",
+   "asOf": "2026-11-19T23:02:31Z",
+   "narrativeId": "ai-listing-gains-before-savers",
+   "kicker": "LISTINGS / ALLOCATION / CONCENTRATION",
+   "line": "Ordinary savers could buy an AI lab only after its first-day doubling, while the shares they already held fell that day.",
+   "firmness": "plausible",
+   "what": "Taiwan's exchange or Financial Supervisory Commission tightens margin or settlement rules, or reports further delivery defaults.",
+   "by": "2026-12-10",
+   "because": "The join says money for the one big listing came out of other technology holdings, which should show first where small investors trade on borrowed money.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261119T230231-crime-fought-as-war-1",
+   "stamp": "20261119T230231",
+   "asOf": "2026-11-19T23:02:31Z",
+   "narrativeId": "crime-fought-as-war",
+   "kicker": "ORGANISED CRIME / MILITARY FORCE / DUE PROCESS",
+   "line": "Gangs and smugglers are now fought by armies and foreign troops, so suspects are killed as enemies rather than charged in court.",
+   "firmness": "plausible",
+   "what": "Colombia's government formally asks Congress to authorise US troops on Colombian soil.",
+   "by": "2026-12-17",
+   "because": "If governments are bringing foreign militaries into their fight against armed criminal groups, Colombia's talk of a request should become a formal one.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261119T230231-crime-fought-as-war-2",
+   "stamp": "20261119T230231",
+   "asOf": "2026-11-19T23:02:31Z",
+   "narrativeId": "crime-fought-as-war",
+   "kicker": "ORGANISED CRIME / MILITARY FORCE / DUE PROCESS",
+   "line": "Gangs and smugglers are now fought by armies and foreign troops, so suspects are killed as enemies rather than charged in court.",
+   "firmness": "plausible",
+   "what": "The OAS extraordinary session ends with a resolution backing joint or foreign forces against organised crime in a member state.",
+   "by": "2026-12-10",
+   "because": "The join says crime is being moved into the language and tools of collective security, which the OAS session's 'collective measures' would confirm.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261119T230231-pay-strikes-outside-europe-1",
+   "stamp": "20261119T230231",
+   "asOf": "2026-11-19T23:02:31Z",
+   "narrativeId": "pay-strikes-outside-europe",
+   "kicker": "ARREARS / PUBLIC PAY / REVENUE",
+   "line": "Outside Europe, strikes this fortnight have mostly been to collect pay already owed or promised, often by a state short of money.",
+   "firmness": "tentative",
+   "what": "A government in Nigeria, Egypt, Bangladesh or Kenya announces a schedule to pay salary arrears after a strike or strike threat.",
+   "by": "2026-12-10",
+   "because": "If the fortnight's disputes are about money already owed by cash-short employers, they will be settled by payment timetables rather than by new pay rates.",
    "status": "open",
    "resolved": null
   }
