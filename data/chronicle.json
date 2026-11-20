@@ -1,31 +1,32 @@
 {
   "schemaVersion": 1,
-  "editionStamp": "20261119T230231",
-  "asOf": "2026-11-19T23:02:31Z",
-  "generatedAt": "2026-11-19T23:20:57Z",
+  "editionStamp": "20261120T224019",
+  "asOf": "2026-11-20T22:40:19Z",
+  "generatedAt": "2026-11-20T22:51:23Z",
   "model": "claude-opus-5-5",
   "promptVersion": "chronicle-2",
   "usage": {
-    "input": 49390,
-    "output": 30214,
+    "input": 49647,
+    "output": 31688,
     "tier": "standard"
   },
-  "previousVersion": "20261118T225647",
+  "previousVersion": "20261119T230231",
   "notes": [
     "A running account of where things stand by these headlines, revised after each edition rather than added to. Every version is kept.",
     "Written by the model from the narratives, not from the headlines. It is a reading, not a record."
   ],
-  "standing": "By headlines of 19 November, Trump, Xi and Putin ended their Shenzhen meeting with a 'declaration toward peace' that, by Observador's account, left out the wars in Ukraine and the Middle East, while European leaders met separately in Berlin, Putin invited them to Moscow and Japan's prime minister made the first leaders' contact with Russia in seven years. Anthropic, valued at $1.5 trillion before its first trade, passed $3 trillion on its first day, while Wall Street closed sharply lower and Taiwan's index fell below 40,000 with 45 settlement defaults. Haiti's forces fought gangs for a corridor with Salvadoran troops in the country, Colombia's president counted a tenth military bombing and weighed asking Congress for US troops, and the OAS called an extraordinary session on organised crime. Nigeria's lecturers demanded withheld salaries and Bangladeshi garment workers clashed with police, and South Korea's ruling party said it would push to impeach Supreme Court Chief Justice Jo Hee-de.",
+  "standing": "By headlines of 20 November, a day after Trump, Xi and Putin issued their Shenzhen declaration, Estonia set 1 December to close its border crossings with Russia, Sweden scrambled jets over Poland after Russian projectiles fell there, and Japan's foreign minister said the declaration differs from Japan's view. The Nasdaq closed 5.37% lower, CoreWeave fell below its listing price and Google was reported to have cut a million TPU chips from its 2027 orders. In the same reports Trump threatened US firms building data centres abroad, Christine Lagarde proposed that EU funds take first losses on chip plants and data centres, and CNBC reported Anthropic raising $93.5 billion. German pupils struck against conscription, Gen Z protests returned to hundreds of European cities and France's parliament adopted a law presuming police use of weapons lawful. From the day before, Haiti's forces and Salvadoran troops were fighting gangs, Colombia's president was weighing asking Congress for US troops and Nigeria's lecturers were demanding withheld salaries.",
   "moved": [
-    "The Shenzhen meeting ended on 19 November with a declaration that, by Observador's account, left out both wars, and the Chronicle has withdrawn its reading that the three powers were bargaining over them. The thread on Europe's security returned after two editions, now as Europeans and Japan seeking their own talks with Moscow.",
-    "Anthropic doubled to more than $3 trillion on its first day as Wall Street fell and Taiwan reported 45 settlement defaults; the AI financing thread moved from selling shares to the public to who took the first-day gain.",
-    "The soldiers thread returned after eleven editions as crime fought as war: Haiti's forces with Salvadoran troops, Colombia's tenth bombing and talk of US troops, a lawsuit over a US drone strike at sea and an OAS session on organised crime.",
-    "A 17 November expectation of the strikes thread was kept when Lenta reported Trump saying after Shenzhen that Putin is angry at Zelensky over the Crimean Bridge attack. A new thread began on strikes outside Europe over pay already owed."
+    "The thread on Europe's security turned on 20 November: a day after allies were read as seeking their own talks with Moscow, its edition reported Estonia closing its Russian crossings from 1 December, Swedish jets over Poland, eleven European armies drilling in Poland and a new Self-Defence Force base approved in Kagoshima. The Chronicle has withdrawn the talks reading as the thread's direction.",
+    "A new thread began on states offering to site and underwrite data centres as private money sells: Trump's threat to US firms building abroad, Lagarde's first-loss proposal, Google's reported chip order cut and a 5.37% Nasdaq fall, though CNBC reported Anthropic raising $93.5 billion the same day.",
+    "The thread on young protesters returned after seventeen editions, with German pupils striking against conscription and court cases and arrests in France, Greece and Indonesia. A 31 October expectation of a shared protest date across Europe was kept when DW reported Gen Z protests in hundreds of European cities on 20 November.",
+    "A 5 November expectation of the soldiers thread was kept when La Dépêche reported France's parliament definitively adopting the law presuming police use of weapons lawful; the headline came in the youth protest narrative, not in the soldiers thread."
   ],
   "silent": [
-    "Incomes set by rule and governments' roles in food supply have had no narrative since 14 November and are now silent. Part of the first's ground came on 17 November in Europe's protests and on 19 November in strikes over pay owed, so that is more the editions' division than the world moving on; the food thread's expectations run to December.",
-    "Courts and heads of state has had no narrative since 7 November, but on 19 November its expectation was kept when South Korea's ruling party said it would push to impeach the Supreme Court's chief justice, so the ground is still reported.",
-    "The Iran war thread stays silent since 11 November. On 19 November no narrative carried the Gulf, and the Shenzhen declaration was reported to leave out the Middle East; whether that is quiet in the war or in the sample these headlines do not say."
+    "The Nvidia export thread has had no narrative since 17 November. On 20 November Financial News named US chip restrictions on China among the causes of the sell-off, in the data centre narrative, and Huang's House hearing is due on 1 December, so this looks like the editions' division more than the world moving on.",
+    "The thread on long-range strikes during talks has had no narrative since 17 November. Russian projectiles falling in Poland came on 20 November in the thread on Europe's security; whether strikes on crossings have stopped these headlines do not say.",
+    "Europe's living-cost protests have had no narrative since 17 November, but on 20 November Gen Z marches across Europe and Bologna's general strike day came in the thread on young protesters, so the ground is still reported.",
+    "The Iran war thread stays silent since 11 November. No narrative on 19 or 20 November carried the Gulf; whether that is quiet in the war or in the sample these headlines do not say."
   ],
   "threads": [
     {
@@ -220,7 +221,7 @@
           "id": "ai-found-flaws-patched-into-outages"
         }
       ],
-      "text": "Begun on 29 October with Samsung and CHPT profits on data centre demand, it ran through AI-led US growth, borrowing and the Nvidia case to 12 November. From 12 November it followed shared systems stopping: a Microsoft outage at British councils and Australia's federal police, the FAA's nationwide halt, the fallback left to households on 14 November, and on 17 November an Apple update, the NSA's network, a Java flaw and an attack on 178 brands, read as faults hard to tell from attacks. On 18 November it named a cause: South Korea's Digital Daily blamed a flood of patches for AI-found flaws for failures at the NSA, in finance and in aviation, Washington said the outages were not coordinated and the FBI warned that an AI tool can finish an attack in three hours. No narrative carried it on 19 November; its case against says the patch cause rests on one outlet.",
+      "text": "Begun on 29 October with Samsung and CHPT profits on data centre demand, it ran through AI-led US growth, borrowing and the Nvidia case to 12 November. From 12 November it followed shared systems stopping: a Microsoft outage at British councils and Australia's federal police, the FAA's nationwide halt, the fallback left to households on 14 November, and on 17 November faults hard to tell from attacks. On 18 November it named a cause: South Korea's Digital Daily blamed a flood of patches for AI-found flaws for failures at the NSA, in finance and in aviation, and the FBI warned that an AI tool can finish an attack in three hours. No narrative carried it on 19 or 20 November; on 20 November data centres returned in a thread of their own, as public money. Its case against says the patch cause rests on one outlet.",
       "direction": "It has moved from profit and borrowing to public services stopping when one system fails, to who holds the backup, to telling a fault from an attack, and by 18 November to patches for AI-found flaws named as a cause."
     },
     {
@@ -243,35 +244,8 @@
           "id": "ai-listing-gains-before-savers"
         }
       ],
-      "text": "Begun on the evening of 10 November: TSMC was reported investing NT$32 billion in OpenAI and Anthropic as Anthropic's draft prospectus showed a listing of up to $64.4 billion. Its expectation that Anthropic would cut or delay its listing failed on 17 November. The Chronicle revived it on 18 November for an unlinked narrative: Anthropic priced at $83 a share, a $1.5 trillion valuation, as the ECB compared the AI build to subprime. On 19 November its edition carried it on: Anthropic passed $3 trillion on its first day, early backers cashed in, Wall Street closed sharply lower, Taiwan's index fell below 40,000 with 45 settlement defaults, and German and Kenyan papers reported money moving to Indian shares and away from young technology firms. Its case against says Taiwan's defaults come from local margin trading and large first-day rises are normal for new listings.",
+      "text": "Begun on the evening of 10 November: TSMC was reported investing NT$32 billion in OpenAI and Anthropic as Anthropic's draft prospectus showed a listing of up to $64.4 billion. Its expectation that Anthropic would cut or delay its listing failed on 17 November. The Chronicle revived it on 18 November for an unlinked narrative: Anthropic priced at $83 a share, a $1.5 trillion valuation, as the ECB compared the AI build to subprime. On 19 November Anthropic passed $3 trillion on its first day, Wall Street closed sharply lower and Taiwan's index fell below 40,000 with 45 settlement defaults. On 20 November, in the new data centre thread and not here, the Nasdaq fell 5.37%, CoreWeave dropped below its listing price and CNBC reported Anthropic raising $93.5 billion. Its case against says large first-day rises are normal for new listings.",
       "direction": "It has moved from chip suppliers funding the AI labs, to the labs selling shares to the public at record prices, to who took the first-day gain while other technology shares fell."
-    },
-    {
-      "key": "contested-vote-counts",
-      "label": "Vote counts, rolls and election bodies contested",
-      "status": "silent",
-      "since": "20261030T015732",
-      "lastSeen": "20261104T215151",
-      "narratives": [
-        {
-          "stamp": "20261030T015732",
-          "id": "contesting-the-count"
-        },
-        {
-          "stamp": "20261102T013011",
-          "id": "incumbents-doubt-the-count"
-        },
-        {
-          "stamp": "20261102T232930",
-          "id": "incumbents-act-before-polling"
-        },
-        {
-          "stamp": "20261104T215151",
-          "id": "electoral-bodies-become-the-contest"
-        }
-      ],
-      "text": "Begun on 30 October with Flávio Bolsonaro declaring himself Brazil's president, Eisenkot accusing Netanyahu of delegitimising Israel's result and deletion forms in Delhi. On 2 November it took in Likud's doubt over the Knesset result, then moved before the vote: the Justice Department asked the Supreme Court to halt California's count of 20,000 mail ballots, and India's roll revision removed more than 90,000 names in Chamarajanagar. On 4 November a narrative placed here by the Chronicle moved it to election bodies in Mexico, Nigeria, South Africa and Israel. On 6 November, with no narrative, Trump was reported calling the US election rigged and demanding victory in Alaska's Senate race. No narrative has carried it since 4 November, and on 18 November the expectation of a federal request to halt counting in a second state failed, with nothing reported.",
-      "direction": "It moved from disputing results to acting before polling and to who runs the commissions, and after the US vote a disputed result returned, by these headlines, without a narrative."
     },
     {
       "key": "constitutions-and-courts-contested",
@@ -316,36 +290,6 @@
       "direction": "It moved from producers elsewhere merging or taxing to meet Chinese goods, to producers elsewhere retreating, and by 8 November to Chinese makers selling abroad at both the cheap and the luxury end."
     },
     {
-      "key": "us-midterms-read-abroad",
-      "label": "Foreign capitals reading the US midterm result",
-      "status": "silent",
-      "since": "20261104T215151",
-      "lastSeen": "20261104T215151",
-      "narratives": [
-        {
-          "stamp": "20261104T215151",
-          "id": "us-vote-read-through-own-disputes"
-        }
-      ],
-      "text": "Begun on 4 November, the day after the midterms. Iran's leaders called the result a rejection of Trump's war, while Khamenei said Washington's Iran policy would not change. Egyptian commentators named Netanyahu among the losers, Pedro Sánchez said it would help Spain's socialists, Canada's National Post asked whether Trump still wants a deal, and Polish analysts expected no change in foreign policy. The join is that each capital reads the vote through its own dispute with Washington, while the president still runs foreign policy. On 12 November, with no narrative, Diário do Grande ABC and Dân trí reported Trump threatening to double tariffs on Mexico if it does not stop migrant caravans, keeping the 4 November expectation of a tariff threat against an ally. No narrative has carried it since 4 November.",
-      "direction": ""
-    },
-    {
-      "key": "ai-errors-and-liability",
-      "label": "Who answers for AI systems' errors",
-      "status": "silent",
-      "since": "20261104T215151",
-      "lastSeen": "20261104T215151",
-      "narratives": [
-        {
-          "stamp": "20261104T215151",
-          "id": "ai-errors-fall-on-adopters"
-        }
-      ],
-      "text": "Begun on 4 November and marked tentative by its own edition. Sina reports Accenture accused of publishing papers full of AI hallucinations after dismissing staff who would not use AI. Google has switched AI tools off by default for school pupils, and an Italian trial of AI found it not chargeable but socially dangerous. Portuguese firms adopt AI faster than they train staff, Anthropic's IPO filing sets out the risks of its build, and NTT adds AI defences as attacks rise sevenfold. The join is that the consequences of errors land on whoever took a system up. Its case against says the Italian trial may be a staged debate and the Accenture item is an accusation. No narrative has carried it since 4 November, so it is silent.",
-      "direction": ""
-    },
-    {
       "key": "parliaments-refuse-budgets",
       "label": "Parliaments refusing governments' budgets",
       "status": "silent",
@@ -376,7 +320,7 @@
           "id": "crime-fought-as-war"
         }
       ],
-      "text": "Begun on 5 November, marked tentative: Indonesia's troops in Jakarta, the army's account of a deadly riot in Aceh, Pakistan's army and Rangers for Punjab by-elections, a Bangladeshi soldier killed raiding traffickers at Teknaf, Lebanese army raids and a French bill widening when police may fire. After eleven editions without a narrative it was resumed on 19 November, marked plausible, as crime fought as war: Haiti's forces fought gangs for a corridor with Salvadoran troops in the country and an operation left 34 gang members dead, Colombia's president counted a tenth bombing and weighed asking Congress for US troops, fishermen sued Washington over a drone strike at sea, Nigeria deepened maritime ties with the US and the OAS called a session on organised crime. Its case against says the military role in each is decades old and Mexico's army made an arrest leading to a charge.",
+      "text": "Begun on 5 November, marked tentative: Indonesia's troops in Jakarta, the army's account of a riot in Aceh, Pakistan's army for Punjab by-elections, a Bangladeshi soldier killed raiding traffickers at Teknaf, Lebanese army raids and a French bill widening when police may fire. After eleven editions without a narrative it was resumed on 19 November, marked plausible, as crime fought as war: Haiti's forces fought gangs for a corridor with Salvadoran troops in the country, Colombia's president counted a tenth bombing and weighed asking Congress for US troops, fishermen sued Washington over a drone strike at sea and the OAS called a session on organised crime. On 20 November La Dépêche reported France's parliament definitively adopting the law presuming police use of weapons lawful, keeping the 5 November expectation; the headline came in the youth protest thread. Its case against says the military role in each is decades old.",
       "direction": "It has moved from soldiers keeping order on home streets to armies, aircraft and foreign troops fighting gangs and smugglers, with results counted as deaths and strikes."
     },
     {
@@ -504,7 +448,7 @@
           "id": "entry-traded-in-wartime"
         }
       ],
-      "text": "Begun on 11 November and marked tentative: the CSTO stripped Armenia of its vote, Turkey excluded Israel from COP31 in Antalya, and Washington and Moscow asked Europe to choose one negotiator for the Ukraine talks. On 12 November it was carried on as entry of every kind: Israel will bar Jean-Luc Mélenchon, Washington's envoys said Europeans would join the next round, and Putin spoke of US visas for Russian Olympians. On 13 November the single-negotiator expectation failed when the EU agreed a team of five countries and EU institutions, which weakens the reading of entry as a bargaining move. Its ground passed on 14 November to the thread on Europe's security bargained elsewhere, which on 19 November followed allies seeking their own talks with Moscow. No narrative has carried it since 12 November, so it is silent.",
+      "text": "Begun on 11 November and marked tentative: the CSTO stripped Armenia of its vote, Turkey excluded Israel from COP31 in Antalya, and Washington and Moscow asked Europe to choose one negotiator for the Ukraine talks. On 12 November it was carried on as entry of every kind: Israel will bar Jean-Luc Mélenchon, Washington's envoys said Europeans would join the next round, and Putin spoke of US visas for Russian Olympians. On 13 November the single-negotiator expectation failed when the EU agreed a team of five countries and EU institutions, which weakens the reading of entry as a bargaining move. Its ground passed on 14 November to the thread on Europe's security bargained elsewhere, which on 19 and 20 November followed allies seeking talks and then fortifying. No narrative has carried it since 12 November, so it is silent.",
       "direction": "It moved from seats in alliances and summits to entry of every kind, and on 13 November Europe was admitted to the Ukraine talks on its own terms, against the thread's reading."
     },
     {
@@ -525,7 +469,7 @@
     {
       "key": "nvidia-chips-reaching-china",
       "label": "Nvidia scandal as a chip export enforcement dispute",
-      "status": "live",
+      "status": "silent",
       "since": "20261113T215832",
       "lastSeen": "20261117T232955",
       "narratives": [
@@ -538,13 +482,13 @@
           "id": "chip-rules-fall-on-transit-states"
         }
       ],
-      "text": "Begun on 13 November with a narrative marked firm that continues nothing, though the Nvidia case ran in the AI spending thread from 10 to 12 November: Bessent blamed Lutnick for Megaspeed not being blacklisted, and the Senate summoned Huang and Lutnick. Resumed on 17 November, marked plausible: Nvidia reported revenue up 103% and a $150bn buyback, its board refused Huang's return and set up an export-control committee, and Huang will testify to the House on 1 December. Washington proposed extending chip controls to Southeast Asia, Singapore defended its standing and Megaspeed is under US inquiry, keeping a 10 November expectation of a chip rule naming the Nvidia affair. On 18 and 19 November Nvidia's results and leadership came only in the AI financing thread. Its case against says diversion through Singapore and Malaysia was known before.",
+      "text": "Begun on 13 November with a narrative marked firm that continues nothing, though the Nvidia case ran in the AI spending thread from 10 to 12 November: Bessent blamed Lutnick for Megaspeed not being blacklisted, and the Senate summoned Huang and Lutnick. Resumed on 17 November, marked plausible: Nvidia reported revenue up 103% and a $150bn buyback, its board refused Huang's return, and Huang will testify to the House on 1 December. Washington proposed extending chip controls to Southeast Asia and Megaspeed is under US inquiry, keeping a 10 November expectation of a chip rule naming the Nvidia affair. No narrative has carried it since 17 November, so it is silent; on 20 November Financial News named US chip restrictions on China among the causes of the sell-off, in the data centre thread. Its case against says diversion through Singapore and Malaysia was known before.",
       "direction": "It has moved from a dispute between two US departments over who let chips reach China to new duties on the states and firms the chips pass through, while Nvidia's sales grew."
     },
     {
       "key": "strikes-alongside-talks",
       "label": "Long-range strikes during Russia and Iran talks",
-      "status": "live",
+      "status": "silent",
       "since": "20261113T215832",
       "lastSeen": "20261117T232955",
       "narratives": [
@@ -557,15 +501,15 @@
           "id": "crossings-struck-before-summit"
         }
       ],
-      "text": "Begun on 13 November, marked plausible: as the EU named its team for the Ukraine talks, a Ukrainian drone hit a Russian warship in the Gulf of Finland, bombs went off in Moscow and Iran's Revolutionary Guards claimed a strike on a US radar in Bahrain. Resumed on 17 November, marked tentative, with crossings as targets: the Crimean Bridge twice, Kyiv's bridges with 700,000 households left without power, a rail line to Hungary and Iran's Qeshm Island. On 18 November Iranian strikes on US assets in Kuwait, Bahrain and a UAE tanker came in the interceptors thread. On 19 November, with no narrative here, Lenta reported Trump saying after Shenzhen that Putin is angry at Zelensky over the Crimean Bridge attack, keeping the 17 November expectation that a crossing would come up at the meeting. Its case against says Russia hits Ukraine's heating every winter.",
+      "text": "Begun on 13 November, marked plausible: as the EU named its team for the Ukraine talks, a Ukrainian drone hit a Russian warship in the Gulf of Finland, bombs went off in Moscow and Iran's Revolutionary Guards claimed a strike on a US radar in Bahrain. Resumed on 17 November, marked tentative, with crossings as targets: the Crimean Bridge twice, Kyiv's bridges with 700,000 households left without power, a rail line to Hungary and Iran's Qeshm Island. On 18 November Iranian strikes on US assets came in the interceptors thread. On 19 November Lenta reported Trump saying Putin is angry at Zelensky over the Crimean Bridge attack, keeping the 17 November expectation. No narrative has carried it since 17 November, so it is silent; on 20 November Russian projectiles falling in Poland came in the thread on Europe's security.",
       "direction": "It has moved from strikes on bases, ships and oil sites far from the fronts to strikes on bridges and islands in the days before the three-power meeting, one of which came up after it."
     },
     {
       "key": "europe-security-bargained-elsewhere",
-      "label": "Europe's security and allies outside three-power talks",
+      "label": "Frontier states and allies after the three-power declaration",
       "status": "live",
       "since": "20261114T204311",
-      "lastSeen": "20261119T230231",
+      "lastSeen": "20261120T224019",
       "narratives": [
         {
           "stamp": "20261114T204311",
@@ -574,10 +518,14 @@
         {
           "stamp": "20261119T230231",
           "id": "allies-seek-own-talks"
+        },
+        {
+          "stamp": "20261120T224019",
+          "id": "neighbours-fortify-after-declaration"
         }
       ],
-      "text": "Begun on 14 November, marked plausible and sharing ground with the seats and strikes threads: Zelensky said Washington floated Ukraine giving up Donbas for NATO membership, the Kremlin announced the Putin, Xi and Trump meeting, and Russian officials demanded Britain give up its nuclear cover for Europe. On 18 November the meeting came in the trade deals thread. After two editions without a narrative it was resumed on 19 November: the Shenzhen meeting ended with a 'declaration toward peace' that by Observador's account left out both wars, Europeans met in Berlin and took a critical call from Trump, Putin invited them to Moscow, and Japan's prime minister made the first leaders' contact with Russia in seven years. No report yet says NATO or nuclear weapons in Europe were discussed. Its case against says Kushner's talk of converged positions points to Europeans entering through Washington.",
-      "direction": "It has moved from Europe's security bargained in a format Europe does not lead to allies left out of that meeting seeking their own talks with Moscow."
+      "text": "Begun on 14 November, marked plausible: Zelensky said Washington floated Ukraine giving up Donbas for NATO membership, the Kremlin announced the Putin, Xi and Trump meeting, and Russian officials demanded Britain give up its nuclear cover for Europe. Resumed on 19 November: the Shenzhen 'declaration toward peace' by Observador's account left out both wars, Europeans met in Berlin, Putin invited them to Moscow and Japan's prime minister made the first leaders' contact with Russia in seven years. On 20 November its edition carried it on, marked tentative, the other way: Estonia set 1 December to close its Russian crossings, Sweden scrambled jets over Poland after Trump called Russian projectiles there a mistake, eleven European armies drilled in Poland, Kagoshima approved landfill for a Self-Defence Force base and Japan's foreign minister said the declaration differs from Japan's view. Its case against says most of these steps were under way before the meeting.",
+      "direction": "It has moved from Europe's security bargained in a format Europe does not lead, through allies seeking their own talks with Moscow on 19 November, to frontier states closing borders and building bases on 20 November."
     },
     {
       "key": "rule-set-incomes-fall-behind",
@@ -612,7 +560,7 @@
     {
       "key": "europe-living-cost-protests",
       "label": "Europe's protests over prices, met by top-ups",
-      "status": "live",
+      "status": "silent",
       "since": "20261117T232955",
       "lastSeen": "20261117T232955",
       "narratives": [
@@ -621,7 +569,7 @@
           "id": "europe-weekly-protests-living-costs"
         }
       ],
-      "text": "Begun on 17 November with a narrative marked plausible, built from a subject the site's notebook had kept for some days before any narrative, so the story is older than its first narrative. It counts two weeks of protest over living costs and housing: 270,000 marched outside Paris on 6 November, Porto's housing camp put up tents on 8 November, Spain held its first general strike in 14 years on 11 November, and France counted 146,000 at a new round on 17 November. France brought forward a minimum wage rise and Italy's coalition argues over 300 euros for pensioners, while the Commission says the energy shock still raises prices. Its case against says Spanish rents and French wages have different causes. No narrative carried it on 18 or 19 November; on 19 November the new thread on pay strikes outside Europe noted Dutch and Portuguese strikes that day.",
+      "text": "Begun on 17 November with a narrative marked plausible, built from a subject the site's notebook had kept for some days before any narrative, so the story is older than its first narrative. It counts two weeks of protest over living costs and housing: 270,000 marched outside Paris on 6 November, Porto's housing camp put up tents on 8 November, Spain held its first general strike in 14 years on 11 November, and France counted 146,000 at a new round on 17 November. France brought forward a minimum wage rise and Italy's coalition argued over 300 euros for pensioners. Its case against says Spanish rents and French wages have different causes. No narrative has carried it since 17 November, so it is silent; on 20 November Gen Z marches across Europe and Bologna's general strike day came in the thread on young protesters.",
       "direction": ""
     },
     {
@@ -640,7 +588,7 @@
           "id": "interceptors-used-faster-than-made"
         }
       ],
-      "text": "Begun on 30 October with a narrative the Chronicle had not given a thread: cheap drones had made defence a matter of quantity again, so states were financing arms factories and widening conscription. After seventeen editions without a narrative it was resumed on 18 November, marked plausible, from the defending side: an Egyptian military expert told Al-Watan that closing the gap in US Patriot production will take years, the Jerusalem Post reported a rayon shortage threatening that production, Iran struck US assets in Kuwait, Bahrain and a UAE tanker, a coalition struck the Houthis, Italy plans a 5,000-strong cyber force and Israel put its first women into tank crews. Its case against says the Patriot shortfall has been discussed since 2023, neither report comes from a ministry, and the Gulf reports do not say whether Patriots were used. No narrative carried it on 19 November.",
+      "text": "Begun on 30 October with a narrative the Chronicle had not given a thread: cheap drones had made defence a matter of quantity again, so states were financing arms factories and widening conscription. After seventeen editions without a narrative it was resumed on 18 November, marked plausible, from the defending side: an Egyptian military expert told Al-Watan that closing the gap in US Patriot production will take years, the Jerusalem Post reported a rayon shortage threatening that production, Iran struck US assets in Kuwait, Bahrain and a UAE tanker, and a coalition struck the Houthis. Its case against says the Patriot shortfall has been discussed since 2023. No narrative carried it on 19 or 20 November; on 20 November Swedish jets over Poland and German pupils striking against conscription came in other threads.",
       "direction": "It has moved from cheap drones driving arms production and conscription to interceptor stocks that factories cannot refill quickly."
     },
     {
@@ -655,7 +603,7 @@
           "id": "trade-deals-while-powers-bargain"
         }
       ],
-      "text": "Begun on 18 November with a narrative marked plausible that continues nothing, as Trump, Xi and Putin were reported meeting in China. EU governments approved signing their trade agreement with Indonesia, Mark Carney bet on Asia-Pacific trade to reduce Canada's dependencies, Vietnam's leader called for a Free Trade Area of the Asia-Pacific, Xi asked Chile to deepen ties, Keiko Fujimori pitched Peru's Chancay port to Chinese investors and Egypt signed an industrial deal with India. The join is governments outside the meeting fixing their trade without waiting on it. Its case against says APEC leaders talk trade every November and no government says it acted because of the meeting. On 19 November the meeting ended in Shenzhen with a declaration that, by Observador's account, left out both wars, which weakens the narrative's picture of three powers bargaining over them; no narrative carried trade that day.",
+      "text": "Begun on 18 November with a narrative marked plausible that continues nothing, as Trump, Xi and Putin were reported meeting in China. EU governments approved signing their trade agreement with Indonesia, Mark Carney bet on Asia-Pacific trade to reduce Canada's dependencies, Vietnam's leader called for a Free Trade Area of the Asia-Pacific, Xi asked Chile to deepen ties, Keiko Fujimori pitched Peru's Chancay port to Chinese investors and Egypt signed an industrial deal with India. The join is governments outside the meeting fixing their trade without waiting on it. Its case against says APEC leaders talk trade every November. On 19 November the meeting ended with a declaration that, by Observador's account, left out both wars, which weakens the picture of three powers bargaining over them. No narrative carried trade on 19 or 20 November.",
       "direction": ""
     },
     {
@@ -670,8 +618,46 @@
           "id": "pay-strikes-outside-europe"
         }
       ],
-      "text": "Begun on 19 November with a narrative marked tentative, built from a subject the site's notebook had kept for some days before any narrative, so the story is older than its first narrative. It counts strikes and protests outside Europe since 5 November in Nigeria, Egypt, Bangladesh, Canada, Chile, Mexico and South Korea: on 19 November Nigeria's lecturers demanded withheld salaries, Zamalek's players complained of late dues, Bangladeshi garment workers clashed with police and Niagara's paramedics neared a strike, while the World Bank said Bangladesh is short of revenue. The join is pay already earned or promised and not paid, often by a state short of money. Its case against says several headlines name no cause, Chile's truckers and Korea's rail round run the other way, and the sample leans on three Nigerian papers. The Chronicle keeps it apart from the threads on rule-set incomes and Europe's protests.",
+      "text": "Begun on 19 November with a narrative marked tentative, built from a subject the site's notebook had kept for some days before any narrative, so the story is older than its first narrative. It counts strikes and protests outside Europe since 5 November in Nigeria, Egypt, Bangladesh, Canada, Chile, Mexico and South Korea: on 19 November Nigeria's lecturers demanded withheld salaries, Zamalek's players complained of late dues, Bangladeshi garment workers clashed with police and Niagara's paramedics neared a strike, while the World Bank said Bangladesh is short of revenue. The join is pay already earned or promised and not paid, often by a state short of money. Its case against says several headlines name no cause and the sample leans on three Nigerian papers. No narrative carried it on 20 November.",
       "direction": ""
+    },
+    {
+      "key": "data-centres-public-underwriting",
+      "label": "States offering to site and underwrite data centres",
+      "status": "live",
+      "since": "20261120T224019",
+      "lastSeen": "20261120T224019",
+      "narratives": [
+        {
+          "stamp": "20261120T224019",
+          "id": "data-centres-absorb-investment"
+        }
+      ],
+      "text": "Begun on 20 November with a narrative marked plausible, built from a subject the site's notebook had kept for some days, so the story is older than its first narrative. Trump threatened to tax or sanction US firms that build data centres abroad, Lagarde said EU funds should take first losses on chip plants and data centres, Google was reported to have cut a million TPU chips from its 2027 orders, CoreWeave fell below its listing price and the Nasdaq closed 5.37% lower. Over the fortnight Brussels warned that Portugal's investment was concentrating in data centres and Texas counted $18 billion of data tax at stake. The join is governments offering to locate and carry the build as private investors sell. It continues nothing, though it takes up ground the systems thread held from 29 October to 5 November. Its case against says CNBC reported Anthropic raising $93.5 billion the same day.",
+      "direction": ""
+    },
+    {
+      "key": "young-protesters-met-by-police",
+      "label": "Young protesters met by police and courts",
+      "status": "live",
+      "since": "20261031T013540",
+      "lastSeen": "20261120T224019",
+      "narratives": [
+        {
+          "stamp": "20261031T013540",
+          "id": "one-weekend-of-protest-bans-and-talks"
+        },
+        {
+          "stamp": "20261101T010841",
+          "id": "gen-z-protests-met-by-police"
+        },
+        {
+          "stamp": "20261120T224019",
+          "id": "students-blockades-and-arrests"
+        }
+      ],
+      "text": "Begun on 31 October with protests called for the same weekend in several European countries, met with bans in some cities and talks in others; on 1 November its edition read them as Europe's governments meeting young protesters mainly with police numbers. The previous Chronicle did not carry it. After seventeen editions without a narrative it was resumed on 20 November, marked plausible and built from the site's notebook: pupils in Schleswig-Holstein struck against conscription, DW reported Gen Z protests in hundreds of European cities, keeping a 31 October expectation of a shared protest date, a Lormont pupil went before the courts and France adopted its police weapons law, after a fortnight of arrests in Yogyakarta and Athens. Its case against says the protests share an age group, not a cause, and Germany's strikes passed without bans, so the 1 November expectation of a German ban is unmet.",
+      "direction": "It has moved from police numbers set against young protesters to courts, arrests and suspensions, and in Germany to a plan for military service."
     }
   ],
   "withdrawn": [
@@ -794,9 +780,14 @@
       "held": "At the meeting in China, Trump, Xi and Putin were bargaining over the wars in Ukraine and the Middle East and over Europe's security, with Europe outside the room.",
       "undone": "On 19 November Observador reported that the Shenzhen 'declaration toward peace' left out both wars, and no report yet says NATO or nuclear weapons in Europe were discussed; Europeans met in Berlin and Putin invited them to Moscow. Lenta's report of Trump on the Crimean Bridge shows Ukraine came up, but not that it was bargained over.",
       "stamp": "20261119T230231"
+    },
+    {
+      "held": "By 19 November the thread on Europe's security was moving towards allies left out of the three-power meeting seeking their own talks with Moscow.",
+      "undone": "On 20 November the same thread's narrative reported Estonia closing its Russian crossings from 1 December, Swedish jets over Poland, eleven armies drilling in Poland and a Japanese base approved, and no European call with Putin or trip to Moscow was reported. Talking and fortifying may run together, but the talks reading is not carried as the direction.",
+      "stamp": "20261120T224019"
     }
   ],
-  "caseAgainst": "This Chronicle rests on the editions since 26 October, with none stamped 28 October, 9 November or 15 and 16 November, drawn from whichever publishers the collection reads and capped in how many headlines each may supply. Of today's four narratives only one continues an earlier one by its own link; two resume older narratives at the writer's choice, one after eleven editions with a different reading, and one was built from the site's notebook, so today's continuity is largely produced by the brief and the site, not by the headlines. The Shenzhen declaration's leaving out both wars rests on Observador's account, the kept expectation on the Crimean Bridge rests on Lenta reporting Trump's words, and the Korean impeachment push removes a judge rather than changing a court's membership or powers, so it fits its expectation loosely. Anthropic's first-day figures sit beside a market fall that Newspim and Fortune tie partly to other causes. I withdrew my reading of the meeting as bargaining over the wars, but the trade deals thread still rests on that frame, and the pull of my earlier versions may keep it live longer than the headlines support. The pay strikes thread leans on three Nigerian papers.",
-  "line": "On 19 November 2026 Trump, Xi and Putin end their Shenzhen meeting with a declaration reported to omit both wars, and Anthropic doubles on its first day.",
-  "revision": "The thread on Europe's security was resumed after two editions, now as allies seeking their own talks with Moscow, and the soldiers thread after eleven, now as crime fought as war; a thread began on strikes outside Europe over pay owed, and the incomes and food supply threads fell silent. The standing was rewritten around the Shenzhen declaration, Anthropic's first day, armies against gangs and pay arrears, and the reading that the three powers were bargaining over both wars was withdrawn."
+  "caseAgainst": "This Chronicle rests on the editions since 26 October, with none stamped 28 October, 9 November or 15 and 16 November, drawn from whichever publishers the collection reads and capped in how many headlines each may supply. Of today's three narratives only one continues an earlier one by its own link, and it is marked tentative and its own case against says most of the frontier steps were under way before the Shenzhen meeting; one resumes, after seventeen editions, a pair of narratives this Chronicle had stopped carrying, and two were built from the site's notebook, so today's continuity is again largely produced by the brief and the site. I turned the Europe security thread's direction after a single day, and may be over-reading one day's reports as I over-read the day before. The data centre thread is kept apart from the AI financing thread by the rule on unlinked narratives, not by a difference in the events, and it rests on one day's sell-off on a day CNBC reported Anthropic raising $93.5 billion. The kept protest-date expectation fits loosely, since Gen Z marches are called repeatedly, and the trade deals thread still rests on a bargaining frame I withdrew on 19 November.",
+  "line": "On 20 November 2026, a day after the Shenzhen declaration, Estonia sets a date to close its Russian crossings and the Nasdaq falls 5.37% as AI chip orders are cut.",
+  "revision": "Two threads were begun: states offering to site and underwrite data centres, and young protesters met by police and courts, the second reviving narratives of 31 October and 1 November that the Chronicle had not carried. The Europe security thread's direction was turned from allies seeking talks with Moscow to frontier states fortifying, and the talks reading was withdrawn; the threads on the Nvidia case, long-range strikes and Europe's living-cost protests fell silent, and the standing was rewritten."
 }

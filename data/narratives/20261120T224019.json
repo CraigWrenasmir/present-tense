@@ -1,0 +1,1964 @@
+{
+  "schemaVersion": 6,
+  "generatedAt": "2026-11-20T22:47:20Z",
+  "newsGeneratedAt": "2026-11-20T22:40:19Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-10",
+  "previousNewsGeneratedAt": "2026-11-19T23:02:31Z",
+  "usage": {
+    "input": 92048,
+    "output": 64192,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "A narrative may also resume one that stopped in the last four weeks ('resumes' gives that edition's stamp and the narrative's id), and may be written from a subject the site's notebook has been keeping ('builds'); such a narrative can cite headlines from earlier days, each shown with its date, beside at least three of the day's own.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-839addb95726d8",
+      "title": "Trump ameaça taxar empresas que construírem data centers fora dos EUA",
+      "titleEnglish": "Trump threatens to tax companies that build data centers outside the US",
+      "url": "https://oglobo.globo.com/economia/negocios/noticia/2026/11/20/trump-ameaca-taxar-empresas-que-construirem-data-centers-fora-dos-eua.ghtml",
+      "publisher": "O Globo",
+      "publisherDomain": "oglobo.globo.com",
+      "publishedAt": "2026-11-20T22:32:00Z",
+      "seenAt": "2026-11-20T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-0453d03bf26e3d",
+      "title": "Τραμπ: «Τεράστιες» οικονομικές κυρώσεις σε αμερικανικές εταιρείες που κατασκευάζουν data centers στο εξωτερικό",
+      "titleEnglish": "Trump: \"Huge\" Economic Sanctions on American Companies Building Data Centers Abroad",
+      "url": "https://www.enikos.gr/international/trab-terasties-oikonomikes-kyroseis-se-amerikanikes-etaireies-pou-kataskevazoun-data-centers-sto-exoteriko/2680239/",
+      "publisher": "ENIKOS",
+      "publisherDomain": "enikos.gr",
+      "publishedAt": "2026-11-20T21:50:29Z",
+      "seenAt": "2026-11-20T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-f52b67542413df",
+      "title": "Donald Trump: \"No vamos a permitir que nuestras empresas construyan centros de datos fuera de EEUU\"",
+      "titleEnglish": "Donald Trump: \"We will not allow our companies to build data centers outside the US\"",
+      "url": "https://www.elmundo.es/economia/2026/11/20/6b009d0cfc6c835a588b459e.html",
+      "publisher": "El Mundo",
+      "publisherDomain": "elmundo.es",
+      "publishedAt": "2026-11-20T19:18:41Z",
+      "seenAt": "2026-11-20T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-2eb6048268a8cf",
+      "title": "KI-Industrie: Trump warnt US-Konzerne vor Bau von KI-Rechenzentren im Ausland",
+      "titleEnglish": "AI industry: Trump warns US companies against building AI data centers abroad",
+      "url": "https://www.handelsblatt.com/politik/international/ki-industrie-trump-warnt-us-konzerne-vor-bau-von-ki-rechenzentren-im-ausland/100271667.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-20T19:15:12Z",
+      "seenAt": "2026-11-20T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-d13019a13948ea",
+      "title": "Künstliche Intelligenz: Trump droht US-Firmen wegen Rechenzentren im Ausland",
+      "titleEnglish": "Artificial intelligence: Trump threatens US companies over data centres abroad",
+      "url": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-trump-droht-us-firmen-wegen-rechenzentren-im-ausland/100271664.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-20T18:52:18Z",
+      "seenAt": "2026-11-20T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-ab4143403d22dc",
+      "title": "USA: Trump will Bau von US-Rechenzentren im Ausland verbieten",
+      "titleEnglish": "USA: Trump wants to ban construction of US data centres abroad",
+      "url": "https://www.handelsblatt.com/politik/international/usa-trump-will-bau-von-us-rechenzentren-im-ausland-verbieten/29669594.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-20T18:24:00Z",
+      "seenAt": "2026-11-20T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-fc386b314a8b6c",
+      "title": "Lagarde says EU funds should take first losses on chip plants, data centers",
+      "titleEnglish": "Lagarde says EU funds should take first losses on chip plants, data centers",
+      "url": "https://www.cnbc.com/2026/11/20/lagarde-eu-data-center-funding.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-20T12:52:15Z",
+      "seenAt": "2026-11-20T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-91ed07b3e4e4ce",
+      "title": "郭明錤：谷歌已削减了2027年博通设计的TPU 8i系列出货量约100万台",
+      "titleEnglish": "Ming-Chi Kuo: Google has cut 2027 shipments of Broadcom-designed TPU 8i series by about 1 million units",
+      "url": "https://k.sina.com.cn/article_5953190046_162d6789e06703xzd2.html",
+      "publisher": "新浪网",
+      "publisherDomain": "k.sina.com.cn",
+      "publishedAt": "2026-11-21T00:23:33Z",
+      "seenAt": "2026-11-20T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-bbcbf5f8d22410",
+      "title": "CoreWeave跌幅一度达10%，跌破40美元的IPO发行价",
+      "titleEnglish": "CoreWeave falls as much as 10%, dropping below its $40 IPO price",
+      "url": "https://www.nbd.com.cn/articles/2026-11-20/4654612.html",
+      "publisher": "nbd.com.cn",
+      "publisherDomain": "nbd.com.cn",
+      "publishedAt": "2026-11-20T16:32:00Z",
+      "seenAt": "2026-11-20T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-dce263e968aff0",
+      "title": "Property Play: Data center construction costs soar 13% in 2026",
+      "titleEnglish": "Property Play: Data center construction costs soar 13% in 2026",
+      "url": "https://www.cnbc.com/2026/11/20/data-center-construction-costs-soar-13-percent-in-2026.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-20T16:00:01Z",
+      "seenAt": "2026-11-20T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-add5310231f65b",
+      "title": "Wall Street chiude in forte calo. Dj -2,03%, Nasdaq -5,37% - Nord America - Ansa.it",
+      "titleEnglish": "Wall Street Closes Sharply Lower. Dow -2.03%, Nasdaq -5.37% - North America - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/20/wall-street-chiude-in-forte-calo.-dj-203-nasdaq-537_2c113fa1-01eb-4131-adfa-0de0775416b0.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-20T21:15:00Z",
+      "seenAt": "2026-11-20T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-2074a18bcb21d5",
+      "title": "Taiwan stocks record third-largest single-day decline",
+      "titleEnglish": "Taiwan stocks record third-largest single-day decline",
+      "url": "https://english.news.cn/20261120/0057f7814961434293e295fc13fd3d9a/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-11-20T19:32:00Z",
+      "seenAt": "2026-11-20T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-1751a451739e61",
+      "title": "“외국인·기관 반도체주 매도 집중”…코스피 5.21%·코스닥 5.71% 급락",
+      "titleEnglish": "\"Foreign and institutional investors concentrate selling on semiconductor stocks\": KOSPI plunges 5.21%, KOSDAQ 5.71%",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026112016041528880",
+      "publisher": "디지털데일리",
+      "publisherDomain": "ddaily.co.kr",
+      "publishedAt": "2026-11-20T07:32:00Z",
+      "seenAt": "2026-11-20T07:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-ef942e7178ff39",
+      "title": "유럽증시, 기술주 약세 경기민감주로 확산…이번 주 5.7% 급락, 20개월 만 최대 낙폭",
+      "titleEnglish": "European stocks, tech weakness spreads to cyclical stocks; down 5.7% this week, biggest drop in 20 months",
+      "url": "https://www.newspim.com/news/view/20261121000013",
+      "publisher": "뉴스핌",
+      "publisherDomain": "newspim.com",
+      "publishedAt": "2026-11-20T18:26:00Z",
+      "seenAt": "2026-11-20T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-178b2f8efd33a7",
+      "title": "هبوط الأسهم في اليابان وأوروبا في ظل الفتور تجاه الذكاء الاصطناعي",
+      "titleEnglish": "Stocks fall in Japan and Europe amid cooling enthusiasm for artificial intelligence",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/20/%D9%87%D8%A8%D9%88%D8%B7-%D8%A7%D9%84%D8%A3%D8%B3%D9%87%D9%85-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D8%A7%D8%A8%D8%A7%D9%86-%D9%88%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D9%81%D9%8A-%D8%B8%D9%84",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-20T19:32:00Z",
+      "seenAt": "2026-11-20T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-4722aebdb02563",
+      "title": "Bruxelas. Investimento em Portugal está a ficar “concentrado” nos centros de dados",
+      "titleEnglish": "Brussels. Investment in Portugal is becoming \"concentrated\" in data centres",
+      "url": "https://sapo.pt/artigo/bruxelas-investimento-em-portugal-esta-a-ficar-concentrado-nos-centros-de-dados-6afcce9afaafdbf5ced82d05",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-11-17T21:58:01Z",
+      "seenAt": "2026-11-17T22:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-1b83fe17ba950c",
+      "title": "Data centres, cloud lead India’s technology spending growth as AI reshapes investments",
+      "titleEnglish": "Data centres, cloud lead India’s technology spending growth as AI reshapes investments",
+      "url": "https://www.thehindubusinessline.com/info-tech/data-centres-cloud-lead-indias-technology-spending-growth-as-ai-reshapes-investments/article71711424.ece",
+      "publisher": "BusinessLine",
+      "publisherDomain": "thehindubusinessline.com",
+      "publishedAt": "2026-11-17T11:00:02Z",
+      "seenAt": "2026-11-17T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-bfe32a39e6ab42",
+      "title": "Malaysia says data centres must comply with US AI chip rules",
+      "titleEnglish": "Malaysia says data centres must comply with US AI chip rules",
+      "url": "https://www.channelnewsasia.com/asia/malaysia-says-data-centres-must-comply-us-ai-chip-rules-6562711",
+      "publisher": "CNA",
+      "publisherDomain": "channelnewsasia.com",
+      "publishedAt": "2026-11-18T14:17:00Z",
+      "seenAt": "2026-11-18T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-9141ebcfcc8175",
+      "title": "US AI chip export curbs: Indonesia reviews potential effects as analysts warn of investment, operational impact",
+      "titleEnglish": "US AI chip export curbs: Indonesia reviews potential effects as analysts warn of investment, operational impact",
+      "url": "https://www.channelnewsasia.com/asia/us-ai-chip-restrictions-indonesia-investment-6562091",
+      "publisher": "CNA",
+      "publisherDomain": "channelnewsasia.com",
+      "publishedAt": "2026-11-19T04:47:00Z",
+      "seenAt": "2026-11-19T04:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-7ad9f2cf74eaf7",
+      "title": "Huffines’ limit on data tax will cost Texas $18 billion, comptroller’s office projects",
+      "titleEnglish": "Huffines’ limit on data tax will cost Texas $18 billion, comptroller’s office projects",
+      "url": "https://www.click2houston.com/news/texas/2026/11/19/huffines-limit-on-data-tax-will-cost-texas-18-billion-comptrollers-office-projects/",
+      "publisher": "KPRC",
+      "publisherDomain": "click2houston.com",
+      "publishedAt": "2026-11-19T21:11:37Z",
+      "seenAt": "2026-11-19T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-18a2b19eb85933",
+      "title": "Trump diz que convenceu Filipinas a abandonar produtos agrícolas do Brasil",
+      "titleEnglish": "Trump says he convinced the Philippines to abandon agricultural products from Brazil",
+      "url": "https://www.dw.com/pt-br/trump-diz-que-filipinas-trocar%C3%A3o-produtos-agr%C3%ADcolas-do-brasil-pelos-dos-eua/a-80007345",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-20T22:32:00Z",
+      "seenAt": "2026-11-20T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "pt"
+    },
+    {
+      "id": "n-01bd13e8120fc8",
+      "title": "美 대중 반도체 규제에 반도체株 조정…반등 버팀목은 'AI 수요'",
+      "titleEnglish": "Chip stocks adjust after US chip restrictions on China; AI demand is the rebound anchor",
+      "url": "https://www.fnnews.com/news/202611201802392678",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-20T09:02:08Z",
+      "seenAt": "2026-11-20T10:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-0528070dcb296d",
+      "title": "Bitcoin 60 bin doların altına geriledi",
+      "titleEnglish": "Bitcoin falls below $60,000",
+      "url": "https://www.aa.com.tr/tr/ekonomi/bitcoin-60-bin-dolarin-altina-geriledi/4132534",
+      "publisher": "Anadolu Ajansı",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-11-20T22:26:25Z",
+      "seenAt": "2026-11-20T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-389ac93073d8ed",
+      "title": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
+      "titleEnglish": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-20T13:11:10Z",
+      "seenAt": "2026-11-20T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-6c365026e8331c",
+      "title": "\"Gen Z regelt\" und Schulstreik gegen Wehrpflicht: Viele Demos in SH",
+      "titleEnglish": "\"Gen Z sorts it out\" and school strike against conscription: many demonstrations in Schleswig-Holstein",
+      "url": "https://www.ndr.de/nachrichten/schleswig-holstein/kiel_neumuenster_ploen_rendsburg-eckernfoerde/kiel-verkehrsbehinderungen-durch-zwei-demonstrationen,schulstreik-184.html",
+      "publisher": "ndr.de",
+      "publisherDomain": "ndr.de",
+      "publishedAt": "2026-11-20T16:32:00Z",
+      "seenAt": "2026-11-20T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-fc8b36f8cd7e08",
+      "title": "Schulstreik und \"Gen-Z-regelt\"-Proteste: Was in Hamburg geplant ist",
+      "titleEnglish": "School strike and \"Gen Z regelt\" protests: what is planned in Hamburg",
+      "url": "https://www.ndr.de/nachrichten/hamburg/schulstreik-und-gen-z-regelt-proteste-was-in-hamburg-geplant-ist,genz-284.html",
+      "publisher": "ndr.de",
+      "publisherDomain": "ndr.de",
+      "publishedAt": "2026-11-19T13:47:00Z",
+      "seenAt": "2026-11-19T13:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-e916c668dce357",
+      "title": "\"Gen Z regelt\": Viele Demos am Freitag in Niedersachsen und Bremen",
+      "titleEnglish": "\"Gen Z regelt\": Many demonstrations on Friday in Lower Saxony and Bremen",
+      "url": "https://www.ndr.de/nachrichten/niedersachsen/gen-z-regelt-wieder-zahlreiche-demos-am-freitag,genz-282.html",
+      "publisher": "ndr.de",
+      "publisherDomain": "ndr.de",
+      "publishedAt": "2026-11-18T13:47:00Z",
+      "seenAt": "2026-11-18T13:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-5a9ac90407be86",
+      "title": "Geração Z volta a protestar em centenas de cidades da Europa",
+      "titleEnglish": "Gen Z protests again in hundreds of cities across Europe",
+      "url": "https://www.dw.com/pt-br/gera%C3%A7%C3%A3o-z-volta-a-protestar-em-centenas-de-cidades-da-europa/a-80006746",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-20T22:32:00Z",
+      "seenAt": "2026-11-20T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "pt"
+    },
+    {
+      "id": "n-d5acb578475088",
+      "title": "Bologna, la Gen Z sfila (anche) da sola: «Vogliamo una vita bella». Tensione in via Castiglione e disagi alla mobilità",
+      "titleEnglish": "Bologna, Gen Z marches (also) on its own: \"We want a beautiful life\". Tension in via Castiglione and mobility disruptions",
+      "url": "https://corrieredibologna.corriere.it/notizie/cronaca/26_novembre_20/bologna-la-gen-z-sfila-anche-da-sola-vogliamo-una-vita-bella-tensione-in-via-castiglione-e-disagi-alla-mobilita-09bc5fc0-798d-4bec-b634-e3e408ce3xlk.shtml",
+      "publisher": "Corriere della sera",
+      "publisherDomain": "corrieredibologna.corriere.it",
+      "publishedAt": "2026-11-20T20:42:37Z",
+      "seenAt": "2026-11-20T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-966ff444ef6302",
+      "title": "Italia vivió una jornada de protestas con reclamos salariales y rechazo al gasto militar",
+      "titleEnglish": "Italy sees a day of protests with wage demands and rejection of military spending",
+      "url": "https://www.ellitoral.com/internacionales/italia-huelgageneral-giorgiameloni-protestas-salarios-gastomilitar-roma_0_14vLVP138Z.html",
+      "publisher": "El Litoral",
+      "publisherDomain": "ellitoral.com",
+      "publishedAt": "2026-11-20T18:43:22Z",
+      "seenAt": "2026-11-20T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-29809cb7cd3e16",
+      "title": "Colère des lycéens : l’un des auteurs présumés du saccage du lycée des Iris à Lormont face à la justice",
+      "titleEnglish": "Anger of High School Students: One of the Alleged Perpetrators of the Vandalism at Lycée des Iris in Lormont Faces Justice",
+      "url": "https://www.sudouest.fr:443/faits-divers/colere-des-lyceens-l-un-des-auteurs-presumes-du-saccage-du-lycee-des-iris-a-lormont-face-a-la-justice-31600479.php",
+      "publisher": "SudOuest.fr",
+      "publisherDomain": "sudouest.fr",
+      "publishedAt": "2026-11-20T21:32:00Z",
+      "seenAt": "2026-11-20T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-e2423a4ff11444",
+      "title": "Le Parlement adopte définitivement la loi sur la présomption d’usage légal des armes par les forces de l’ordre",
+      "titleEnglish": "Parliament definitively adopts law on presumption of lawful use of weapons by law enforcement",
+      "url": "https://www.ladepeche.fr/2026/11/20/le-parlement-adopte-definitivement-la-loi-sur-la-presomption-dusage-legal-des-armes-par-les-forces-de-lordre-13663589.php",
+      "publisher": "ladepeche.fr",
+      "publisherDomain": "ladepeche.fr",
+      "publishedAt": "2026-11-20T19:32:00Z",
+      "seenAt": "2026-11-20T19:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-86298d24aa8310",
+      "title": "Οργή στη Γαλλία: «Πράσινο» φως της Γερουσίας στα πυρά από αστυνομικούς -«Έχουν πλέον την άδεια να μας σκοτώνουν» - iefimerida.gr",
+      "titleEnglish": "Outrage in France: Senate Gives Green Light to Police Fire - \"They Now Have Licence to Kill Us\" - iefimerida.gr",
+      "url": "https://www.iefimerida.gr/kosmos/gallia-geroysias-pyra-astynomikoys",
+      "publisher": "iefimerida.gr",
+      "publisherDomain": "iefimerida.gr",
+      "publishedAt": "2026-11-20T21:17:24Z",
+      "seenAt": "2026-11-20T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-391553bb6731d1",
+      "title": "Blocage des lycées : des enseignants toulousains font classe dehors par solidarité avec leurs élèves, \"Les mobilisations ne sont pas un conflit entre prof et élèves\"",
+      "titleEnglish": "High school blockades: Toulouse teachers hold class outside in solidarity with their students, \"Protests are not a conflict between teachers and students\"",
+      "url": "https://www.ladepeche.fr/2026/11/10/blocage-des-lycees-des-enseignants-toulousains-font-classe-dehors-par-solidarite-avec-leurs-eleves-les-mobilisations-ne-sont-pas-un-conflit-entre-prof-13645346.php",
+      "publisher": "ladepeche.fr",
+      "publisherDomain": "ladepeche.fr",
+      "publishedAt": "2026-11-10T11:32:00Z",
+      "seenAt": "2026-11-10T11:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-25a5703478f70e",
+      "title": "Fransa'da okullardaki protestolar nedeniyle özel ders talebi arttı",
+      "titleEnglish": "In France, demand for private tutoring rises due to protests at schools",
+      "url": "https://www.aa.com.tr/tr/dunya/fransada-okullardaki-protestolar-nedeniyle-ozel-ders-talebi-artti/4120182",
+      "publisher": "Anadolu Ajansı",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-11-11T14:01:42Z",
+      "seenAt": "2026-11-11T11:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-ed249926d2cc22",
+      "title": "Béarn. « À Pau, on pense que ce quota explose » : un appel à manifester contre la répression judiciaire des mineurs dans le mouvement lycéen ce vendredi 13 novembre",
+      "titleEnglish": "Béarn. \"In Pau, we think this quota is exploding\": call to protest judicial repression of minors in the high school movement this Friday 13 November",
+      "url": "https://www.sudouest.fr/pyrenees-atlantiques/pau/bearn-a-pau-on-pense-que-ce-quota-explose-un-appel-a-manifester-contre-la-repression-judiciaire-des-mineurs-dans-le-mouvement-lyceen-ce-vendredi-13-novembre-31498875.php",
+      "publisher": "SudOuest.fr",
+      "publisherDomain": "sudouest.fr",
+      "publishedAt": "2026-11-12T22:02:00Z",
+      "seenAt": "2026-11-12T22:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-3c74e2d94b7a00",
+      "title": "Πορεία για την 53η επέτειο του Πολυτεχνείου: Αστυνομικοί πραγματοποίησαν έξι προσαγωγές",
+      "titleEnglish": "March for the 53rd anniversary of the Polytechnic uprising: police carried out six detentions",
+      "url": "https://www.enikos.gr/society/poreia-gia-tin-53i-epeteio-tou-polytechneiou-astynomikoi-pragmatopoiisan-exi-prosagoges/2678131/",
+      "publisher": "ENIKOS",
+      "publisherDomain": "enikos.gr",
+      "publishedAt": "2026-11-17T14:05:43Z",
+      "seenAt": "2026-11-17T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-c355cc89f5824c",
+      "title": "Πολυτεχνείο: «Δέχθηκα ένα χτύπημα στο κεφάλι, αυτός ήταν πίσω μου» λέει η διαδηλώτρια που χτυπήθηκε από αστυνομικό",
+      "titleEnglish": "Polytechnic: «I was hit on the head, he was behind me», says protester who was struck by a police officer",
+      "url": "https://www.efsyn.gr/ellada/1513226/traymatias-tis-poreias-toy-polytehneioy-kataggellei-pisoplato-htypima-sto-kefali-apo-astynomiko-me-gklomp-vinteo/",
+      "publisher": "Η Εφημερίδα των Συντακτών",
+      "publisherDomain": "efsyn.gr",
+      "publishedAt": "2026-11-18T20:51:18Z",
+      "seenAt": "2026-11-18T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-008bfbfdf299f0",
+      "title": "Polisi Jelaskan Kronologi Demo Berujung Kericuhan di Bundaran UGM - merdeka.com",
+      "titleEnglish": "Police explain chronology of demonstration that ended in chaos at UGM Roundabout - merdeka.com",
+      "url": "https://www.merdeka.com/peristiwa/read/8333433/polisi-jelaskan-kronologi-demo-berujung-kericuhan-di-bundaran-ugm",
+      "publisher": "merdeka.com",
+      "publisherDomain": "merdeka.com",
+      "publishedAt": "2026-11-11T13:17:18Z",
+      "seenAt": "2026-11-11T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-16b8f9f563c05d",
+      "title": "UGM Kecam Penangkapan Mahasiswa dalam Kericuhan Demo Yogyakarta",
+      "titleEnglish": "UGM condemns arrest of students in Yogyakarta demonstration chaos",
+      "url": "https://enamplus.liputan6.com/tv/read/8334273/ugm-kecam-penangkapan-mahasiswa-dalam-kericuhan-demo-yogyakarta",
+      "publisher": "Enamplus Liputan6",
+      "publisherDomain": "enamplus.liputan6.com",
+      "publishedAt": "2026-11-12T15:02:00Z",
+      "seenAt": "2026-11-12T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-4371641901a135",
+      "title": "Sanskrit varsity suspension row: Prakash Raj says protesting students ‘are not Savarkars’ to tender apology",
+      "titleEnglish": "Sanskrit varsity suspension row: Prakash Raj says protesting students ‘are not Savarkars’ to tender apology",
+      "url": "https://www.thehindu.com/news/national/kerala/suspension-row-at-sanskrit-varsity-prakash-raj-says-protesting-students-are-not-savarkars-to-tender-apology/article71677687.ece",
+      "publisher": "The Hindu",
+      "publisherDomain": "thehindu.com",
+      "publishedAt": "2026-11-07T09:41:20Z",
+      "seenAt": "2026-11-07T09:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-922c6d58e991c3",
+      "title": "HC asks SSUS why it persists with demand for apology from protesting students who were already under suspension",
+      "titleEnglish": "HC asks SSUS why it persists with demand for apology from protesting students who were already under suspension",
+      "url": "https://www.thehindu.com/news/national/kerala/hc-asks-ssus-why-it-persists-with-demand-for-apology-from-protesting-students-who-were-already-under-suspension/article71689276.ece",
+      "publisher": "The Hindu",
+      "publisherDomain": "thehindu.com",
+      "publishedAt": "2026-11-11T11:34:51Z",
+      "seenAt": "2026-11-11T11:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-29c1a101fe501d",
+      "title": "জাতীয় বিশ্ববিদ্যালয়ের উপাচার্যকে অবরুদ্ধের ঘটনায় তদন্ত কমিটি",
+      "titleEnglish": "Inquiry committee formed over incident of university vice-chancellor being blockaded",
+      "url": "https://bangla.bdnews24.com/campus/85zjhnkpdv",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bangla.bdnews24.com",
+      "publishedAt": "2026-11-17T16:51:37Z",
+      "seenAt": "2026-11-17T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "bn"
+    },
+    {
+      "id": "n-a88ecfd2b2bd6c",
+      "title": "Colegio de Profesores se reúne con Carabineros y solicita protocolo para procedimientos policiales en recintos educacionales - La Tercera",
+      "titleEnglish": "Teachers' College meets Carabineros and requests protocol for police procedures in educational premises - La Tercera",
+      "url": "https://www.latercera.com/nacional/noticia/colegio-de-profesores-solicita-a-carabineros-protocolo-para-procedimientos-policiales-en-establecimientos-educacionales/",
+      "publisher": "La Tercera",
+      "publisherDomain": "latercera.com",
+      "publishedAt": "2026-11-17T19:47:51Z",
+      "seenAt": "2026-11-17T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-b06116acecb86c",
+      "title": "Estonia oficjalnie zamyka przejścia graniczne z Rosją. Ujawniono powód",
+      "titleEnglish": "Estonia Officially Closes Border Crossings With Russia. Reason Disclosed",
+      "url": "https://wiadomosci.onet.pl/swiat/estonia-podjela-decyzje-chodzi-o-przejscia-graniczne-z-rosja/kb6czk5",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-11-20T21:32:00Z",
+      "seenAt": "2026-11-20T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-396913cdf24a4f",
+      "title": "Уряд Естонії представив план закриття кордону з Росією з 1 грудня",
+      "titleEnglish": "Estonian government presents plan to close border with Russia from 1 December",
+      "url": "https://lb.ua/world/2026/11/20/782568_uryad_estoniyi_predstaviv_plan.html",
+      "publisher": "LB.ua",
+      "publisherDomain": "lb.ua",
+      "publishedAt": "2026-11-20T13:32:00Z",
+      "seenAt": "2026-11-20T13:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "uk"
+    },
+    {
+      "id": "n-b03049241ccfa2",
+      "title": "\"My również znajdujemy się na tej liście\". Sąsiad Polski ostrzega",
+      "titleEnglish": "\"We Are Also on This List.\" Poland's Neighbour Warns",
+      "url": "https://wiadomosci.onet.pl/kraj/prezydent-czech-ostrzega-po-upadku-rosyjskich-rakiet-w-polsce-jestesmy-na-liscie/l1m156w",
+      "publisher": "wiadomosci.onet.pl",
+      "publisherDomain": "wiadomosci.onet.pl",
+      "publishedAt": "2026-11-20T21:32:00Z",
+      "seenAt": "2026-11-20T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-d080729cfe57f5",
+      "title": "Trump afirma que los “pequeños” proyectiles rusos cayeron en Polonia “por error” - La Tercera",
+      "titleEnglish": "Trump says the \"small\" Russian projectiles fell in Poland \"by mistake\" - La Tercera",
+      "url": "https://www.latercera.com/mundo/noticia/trump-afirma-que-los-pequenos-proyectiles-rusos-cayeron-en-polonia-por-error/",
+      "publisher": "La Tercera",
+      "publisherDomain": "latercera.com",
+      "publishedAt": "2026-11-20T20:55:45Z",
+      "seenAt": "2026-11-20T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-74846f49249378",
+      "title": "Suécia confirma que ativou caças para defender espaço aéreo polaco",
+      "titleEnglish": "Sweden confirms it scrambled fighter jets to defend Polish airspace",
+      "url": "https://observador.pt/2026/11/20/suecia-confirma-que-ativou-cacas-para-defender-espaco-aereo-polaco/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-11-20T16:32:00Z",
+      "seenAt": "2026-11-20T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-6bdd277d17218f",
+      "title": "European troops from 11 countries drill in Poland for a potential postwar Ukraine mission",
+      "titleEnglish": "European troops from 11 countries drill in Poland for a potential postwar Ukraine mission",
+      "url": "https://www.niagarafallsreview.ca/news/world/europe/european-troops-from-11-countries-drill-in-poland-for-a-potential-postwar-ukraine-mission/article_8c3a56aa-4a01-53bb-975f-b69a0ff71c1f.html",
+      "publisher": "Niagara Falls Review",
+      "publisherDomain": "niagarafallsreview.ca",
+      "publishedAt": "2026-11-20T07:32:00Z",
+      "seenAt": "2026-11-20T07:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
+    },
+    {
+      "id": "n-2a4afb19422ad8",
+      "title": "自衛隊拠点整備、古仁屋港埋め立てを鹿児島県承認",
+      "titleEnglish": "Kagoshima Prefecture Approves Landfill of Kuniya Port for SDF Base Development",
+      "url": "https://373news.com/news/local/detail/243128/",
+      "publisher": "南日本新聞デジタル",
+      "publisherDomain": "373news.com",
+      "publishedAt": "2026-11-20T21:32:00Z",
+      "seenAt": "2026-11-20T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-85f1c4eb3195fe",
+      "title": "【写真】自衛隊拠点整備、古仁屋港埋め立てを鹿児島県承認",
+      "titleEnglish": "[Photos] Kagoshima Prefecture Approves Kuniya Port Landfill for SDF Base Development",
+      "url": "https://373news.com/news/local/photo/243128/",
+      "publisher": "南日本新聞デジタル",
+      "publisherDomain": "373news.com",
+      "publishedAt": "2026-11-20T21:32:00Z",
+      "seenAt": "2026-11-20T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-2be8aef425b374",
+      "title": "奄美大島、喜界島で島外避難訓練――武力攻撃想定、200人参加",
+      "titleEnglish": "Off-Island Evacuation Drill on Amami Oshima and Kikai Island; Armed Attack Scenario, 200 Participants",
+      "url": "https://373news.com/news/local/detail/243125/",
+      "publisher": "南日本新聞デジタル",
+      "publisherDomain": "373news.com",
+      "publishedAt": "2026-11-20T21:32:00Z",
+      "seenAt": "2026-11-20T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-1cf9d14b5b457e",
+      "title": "【写真】奄美大島、喜界島で島外避難訓練――武力攻撃想定、200人参加",
+      "titleEnglish": "[Photos] Off-Island Evacuation Drill on Amami Oshima and Kikai Island; Armed Attack Scenario, 200 Participants",
+      "url": "https://373news.com/news/local/photo/243125/",
+      "publisher": "南日本新聞デジタル",
+      "publisherDomain": "373news.com",
+      "publishedAt": "2026-11-20T21:32:00Z",
+      "seenAt": "2026-11-20T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-517e302d004e17",
+      "title": "外国の指示で活動は届け出、3要件で対象 政府案「スパイ防止法制」：朝日新聞",
+      "titleEnglish": "Activities at foreign direction must be reported, covered by three criteria; government plan on \"anti-espionage law system\": Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVCN3C2NVCNUTIL01XM.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-11-20T10:45:00Z",
+      "seenAt": "2026-11-20T11:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-0bd89d66f78899",
+      "title": "中, APEC 폐막 후에도 다카이치에 강경…\"대만 발언 바로잡아야\"",
+      "titleEnglish": "China stays tough on Takaichi even after APEC closes: \"Taiwan remarks must be corrected\"",
+      "url": "https://www.fnnews.com/news/202611201818320597",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-20T09:18:00Z",
+      "seenAt": "2026-11-20T10:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-53155a3921b479",
+      "title": "高市首相、ICC赤根所長と24日に面会 米中ロ牽制も「支持」表明：朝日新聞",
+      "titleEnglish": "Prime Minister Takaichi to Meet ICC President Akane on the 24th; Expresses Support Amid US, China, Russia Restraint - Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVCN3QJQVCNULFA022M.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-11-20T15:29:12Z",
+      "seenAt": "2026-11-20T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-fcb3872e9bdc1e",
+      "title": "茂木外相、ICC支持を強調 米中ロ宣言「日本の考えと違う」",
+      "titleEnglish": "Foreign Minister Motegi stresses support for ICC; US-China-Russia declaration \"differs from Japan's view\"",
+      "url": "https://www.47news.jp/15261646p2.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-11-20T07:32:00Z",
+      "seenAt": "2026-11-20T07:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-04d3f5bbe39d7d",
+      "title": "The new laws on 'defence security zones' threaten our civil rights",
+      "titleEnglish": "The new laws on 'defence security zones' threaten our civil rights",
+      "url": "https://www.irrigator.com.au/story/9395370/bennett-defence-security-zones-threaten-our-civil-rights/",
+      "publisher": "irrigator.com.au",
+      "publisherDomain": "irrigator.com.au",
+      "publishedAt": "2026-11-20T18:30:00Z",
+      "seenAt": "2026-11-20T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-b8689e3a8f2a9b",
+      "title": "Cuestionan la Declaración de Paz de Trump, Xi y Putin: \"Tiene una ambigüedad total\"",
+      "titleEnglish": "Trump, Xi and Putin's Peace Declaration Questioned: \"It Has Total Ambiguity\"",
+      "url": "https://www.cadena3.com/noticia/juntos-rosario/cuestionan-la-declaracion-de-paz-de-trump-xi-y-putin-tiene-una-ambiguedad-total_615126",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-11-20T16:32:00Z",
+      "seenAt": "2026-11-20T16:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-9b06bb375610c8",
+      "title": "“美일극체제 끝낸다”…트럼프·푸틴 양옆 세우고 ‘글로벌 키맨’ 과시한 시진핑 [더 비너저리-시진핑 中 국가주석]",
+      "titleEnglish": "\"Ending US Unipolar System\"… Xi Jinping Flaunts Global Key Man Status Flanked by Trump and Putin [The Vinerjury: Xi Jinping, China's President]",
+      "url": "https://biz.heraldcorp.com/article/10944534",
+      "publisher": "헤럴드경제",
+      "publisherDomain": "biz.heraldcorp.com",
+      "publishedAt": "2026-11-20T22:04:40Z",
+      "seenAt": "2026-11-20T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-833f549aaf806a",
+      "title": "США предлагают Украине членство в НАТО в обмен на Донбасс: есть 2 сценария, - WSJ",
+      "titleEnglish": "US offers Ukraine NATO membership in exchange for Donbas: 2 scenarios, WSJ reports",
+      "url": "https://www.unian.net/politics/vstuplenie-v-nato-v-obmen-na-donbass-ssha-predlagayut-ukraine-dva-scenariya-13565514.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-11-20T07:32:00Z",
+      "seenAt": "2026-11-20T07:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    }
+  ],
+  "settled": [
+    {
+      "id": "20261031T013540-one-weekend-of-protest-bans-and-talks-1",
+      "status": "kept",
+      "how": "headline"
+    },
+    {
+      "id": "20261105T215902-soldiers-do-police-work-2",
+      "status": "kept",
+      "how": "headline"
+    }
+  ],
+  "readings": [
+    {
+      "id": "data-centres-absorb-investment",
+      "line": "As private money pulls back from data centres, states now offer to decide where they are built and to carry their losses.",
+      "kicker": "SITING / SUBSIDY / RISK",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A government outside the US offers a guarantee, an equity stake or first-loss money for a named data-centre or AI chip project.",
+          "by": "2026-12-11",
+          "because": "If states are taking over the build's risk as private investors step back, Lagarde's first-loss proposal should not stay alone for long.",
+          "id": "20261120T224019-data-centres-absorb-investment-1"
+        },
+        {
+          "what": "A US cloud or AI company says it is delaying, cutting or moving a planned data centre outside the US.",
+          "by": "2026-12-15",
+          "because": "The White House threat and the market's retreat push the same way, so a firm citing either would show siting set by the state while spending comes under pressure.",
+          "id": "20261120T224019-data-centres-absorb-investment-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the fibre-optic build of 1998 to 2001, when private carriers laid far more cable than traffic needed and then failed after the dot-com crash, Global Crossing in January 2002 and WorldCom in July 2002 among them. Governments mostly stood aside and the cable was bought cheaply by others. The difference now is that governments are stepping in before any crash: Washington wants the build kept at home and the ECB's president proposes EU money take the first losses, so a fall in demand would land partly on public accounts.",
+        "paths": [
+          {
+            "name": "Public money backs the build",
+            "weight": "favoured",
+            "text": "Over the next six months EU, Gulf and Asian governments add guarantees, sovereign stakes and cheap power contracts to keep data-centre projects going, and Washington turns its threat into tax terms for US firms. This is favoured because the governments in these headlines are acting at the moment private appetite falls, not after a collapse, and the notebook shows several countries already counting on this investment.",
+            "sign": "A European or Gulf government announces a state guarantee or a stake in a data-centre campus."
+          },
+          {
+            "name": "Projects quietly shelved",
+            "weight": "possible",
+            "text": "If technology shares keep falling into the new year, operators postpone campuses, Google-style order cuts spread to other chip buyers, and governments' offers go unused. The concentration of investment that Brussels warned of in Portugal would then reverse within a year.",
+            "sign": "An operator cancels or postpones a large data-centre campus, citing cost or weak demand."
+          },
+          {
+            "name": "The ban is enforced abroad",
+            "weight": "unlikely",
+            "text": "Washington actually penalises a named US firm for building a data centre abroad. This is unlikely within a year because US cloud companies earn much of their revenue abroad and allies hosting their sites would retaliate.",
+            "sign": "The US Treasury or Commerce Department issues a rule or penalty aimed at a named firm's overseas data centre."
+          }
+        ],
+        "decade": "Over ten years data centres are likely to be sited and financed like power stations and ports, by state permission and with public money underneath, so their losses, when they come, become a budget question."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "On 20 November Donald Trump threatened to tax or sanction US companies that build data centres abroad, Christine Lagarde said EU funds should take the first losses on chip plants and data centres, Google was reported to have cut a million TPU chips from its 2027 orders, CoreWeave fell below its listing price and the Nasdaq closed 5.37% lower. Over the previous fortnight Brussels had warned that investment in Portugal was concentrating in data centres, India's technology spending was led by them, and Texas counted $18 billion of data tax at stake. A build that private investors treated as certain is now something governments compete to locate and offer to underwrite, at the moment those investors begin to sell. If the build disappoints, more of the loss will now sit with public budgets.",
+      "events": [
+        {
+          "label": "Trump threatens firms building data centres abroad",
+          "articleIds": [
+            "n-839addb95726d8",
+            "n-0453d03bf26e3d",
+            "n-f52b67542413df",
+            "n-2eb6048268a8cf",
+            "n-d13019a13948ea",
+            "n-ab4143403d22dc"
+          ]
+        },
+        {
+          "label": "Lagarde proposes EU funds take first losses",
+          "articleIds": [
+            "n-fc386b314a8b6c"
+          ]
+        },
+        {
+          "label": "Chip orders cut and costs rise",
+          "articleIds": [
+            "n-91ed07b3e4e4ce",
+            "n-bbcbf5f8d22410",
+            "n-dce263e968aff0"
+          ]
+        },
+        {
+          "label": "Technology shares fall across markets",
+          "articleIds": [
+            "n-add5310231f65b",
+            "n-2074a18bcb21d5",
+            "n-1751a451739e61",
+            "n-ef942e7178ff39",
+            "n-178b2f8efd33a7"
+          ]
+        },
+        {
+          "label": "A fortnight of countries counting on data centres",
+          "articleIds": [
+            "n-4722aebdb02563",
+            "n-1b83fe17ba950c",
+            "n-7ad9f2cf74eaf7",
+            "n-bfe32a39e6ab42",
+            "n-9141ebcfcc8175"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Two governments on siting and losses",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Washington wants the build at home",
+              "text": "O Globo (Brazil) reports Trump threatening to tax companies that build data centres outside the US, and ENIKOS (Greece) quotes him promising 'huge' economic sanctions on American firms that do so. El Mundo (Spain) carries his words: 'We will not allow our companies to build data centers outside the US'. Handelsblatt (Germany) reports it three times in one evening, as a warning, a threat and a wish to ban such construction.",
+              "articleIds": [
+                "n-839addb95726d8",
+                "n-0453d03bf26e3d",
+                "n-f52b67542413df",
+                "n-2eb6048268a8cf",
+                "n-d13019a13948ea",
+                "n-ab4143403d22dc"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Frankfurt offers to stand first in line",
+              "text": "CNBC (United States) reports Lagarde saying EU funds should take first losses on chip plants and data centres. A first-loss position means public money absorbs the early losses before private lenders lose anything. The headline does not say how large the funds would be or which projects she has in mind.",
+              "articleIds": [
+                "n-fc386b314a8b6c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Private money steps back",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Orders, listings and costs",
+              "text": "Sina (China) reports the analyst Ming-Chi Kuo saying Google has cut 2027 shipments of the Broadcom-designed TPU 8i by about a million units. NBD (China) reports CoreWeave, a data-centre operator, falling as much as 10% to below its $40 listing price. CNBC reports data-centre construction costs up 13% this year.",
+              "articleIds": [
+                "n-91ed07b3e4e4ce",
+                "n-bbcbf5f8d22410",
+                "n-dce263e968aff0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "Markets on four continents",
+              "text": "ANSA (Italy) reports the Nasdaq down 5.37% at the close. Xinhua reports Taiwan's third-largest one-day fall, Digital Daily (South Korea) the KOSPI down 5.21% with selling concentrated in semiconductor stocks, and Newspim European shares down 5.7% on the week, their worst in twenty months. Al Jazeera (Qatar) puts falls in Japan and Europe down to cooling enthusiasm for artificial intelligence.",
+              "articleIds": [
+                "n-add5310231f65b",
+                "n-2074a18bcb21d5",
+                "n-1751a451739e61",
+                "n-ef942e7178ff39",
+                "n-178b2f8efd33a7"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Where the risk now sits",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "What the fortnight recorded",
+              "text": "On 17 November SAPO (Portugal) reported Brussels warning that investment in Portugal was becoming concentrated in data centres, and BusinessLine (India) that data centres and cloud led India's technology spending growth. On 18 November CNA (Singapore) reported Malaysia requiring data centres to comply with US chip rules, and on 19 November that Indonesia was reviewing how US chip curbs affect investment; KPRC (United States) reported Texas's comptroller putting $18 billion on a proposed limit to the data tax. For two weeks the story was of national budgets and investment plans leaning on one kind of building.",
+              "articleIds": [
+                "n-4722aebdb02563",
+                "n-1b83fe17ba950c",
+                "n-bfe32a39e6ab42",
+                "n-9141ebcfcc8175",
+                "n-7ad9f2cf74eaf7"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f6",
+              "label": "From private bet to public charge",
+              "text": "The join is a change in who holds the risk. On the same day, the US government moved to decide where its firms build and the ECB's president proposed that EU money stand first in line for losses, while the market signalled less private appetite through a chip order cut and a listing under water. Whichever government wins the contest to host the build also takes on more of its downside.",
+              "articleIds": [
+                "n-fc386b314a8b6c",
+                "n-f52b67542413df",
+                "n-91ed07b3e4e4ce",
+                "n-bbcbf5f8d22410"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "dotcom-2000"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f7",
+              "label": "Three decisions with three causes",
+              "text": "Trump's threat is trade leverage and industrial policy, of a piece with his claim, reported by DW, to have talked the Philippines out of Brazilian farm goods, and it would have come whatever the Nasdaq did. Lagarde's first-loss idea belongs to a European argument about chip sovereignty that is years older than this sell-off. The sell-off has its own causes, among them US chip restrictions on China, which Financial News (South Korea) names, and a fall in Bitcoin below $60,000. What the events do not share is a decision-maker: one is a threat, one a proposal, one a supplier's order cut. And one bad day is not a retreat, since CNBC reports Anthropic raising $93.5 billion the same day.",
+              "articleIds": [
+                "n-18a2b19eb85933",
+                "n-01bd13e8120fc8",
+                "n-0528070dcb296d",
+                "n-389ac93073d8ed"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "AI / INDUSTRIAL POLICY / INTEREST RATES",
+          "text": "The conditions here were set between 2022 and 2024. ChatGPT, released on 30 November 2022, turned AI from a research field into a spending race, and the largest US cloud companies began committing tens of billions of dollars a year to data centres. In the same months governments returned to industrial policy: the US CHIPS and Science Act of August 2022 put about $52 billion of public money behind chip plants, and the EU Chips Act of 2023 loosened state-aid rules for semiconductor fabs. Interest rates rose sharply from 2022, which made long, power-hungry building projects dearer to finance and more sensitive to any doubt about demand. By these headlines the build has reached the point where construction costs rise 13% in a year and one lab's listing raises $93.5 billion. Lagarde's call for EU funds to take first losses extends the chip-plant subsidies of 2022 to the buildings that hold the chips.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CLOUD / CHEAP MONEY / STATE CAPITAL",
+          "text": "After Lehman Brothers failed in September 2008, central banks held rates near zero for most of a decade, and capital went to firms that could show growth without profit. Amazon Web Services, launched in 2006, Microsoft Azure and Google Cloud grew in those years into the main buyers of servers, land and power for data centres. The crisis also ended confidence that markets alone would place investment well. China's 2008 stimulus and its Made in China 2025 plan showed a state steering capital into chosen industries, and Western governments learned the same lesson more slowly. Ireland, the Netherlands and Singapore competed for data centres with tax terms and grid access, and Singapore and Amsterdam both paused approvals in 2019 over power. The concentration of Portuguese investment in data centres, which SAPO reported on 17 November, is the latest round of that contest for a place in the cloud.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "LIBERALISATION / TELECOMS / BUBBLES",
+          "text": "After 1989 most governments withdrew from owning and placing infrastructure. Britain had privatised BT in 1984, the EU opened its telecoms markets in 1998, and the WTO's Basic Telecommunications Agreement of 1997 let foreign capital build networks across borders. Investment followed returns, not flags. Netscape's listing in August 1995 showed that markets would price a technology before it earned, and the build that followed ended with the crash of March 2000; carriers such as Global Crossing and WorldCom had laid fibre far ahead of traffic and failed, and the losses fell on their shareholders and bondholders. That arrangement, private risk and open borders, is what the 20 November headlines reverse on both counts. Trump's threat to penalise US firms building abroad sets the location from Washington, and Lagarde's proposal sets aside part of any loss for public funds.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "THE STATE / RESEARCH / INFRASTRUCTURE",
+          "text": "For thirty years after 1945 the technologies expected to change everything were paid for by governments. American computing grew out of defence contracts; ARPA was founded in 1958 after Sputnik and paid for the network that became the internet; the 1956 Dartmouth workshop that named artificial intelligence ran on foundation money in that public climate. Across most of Europe electricity, ports and telephone networks were owned by the state, and losses on them were a budget line rather than a bankruptcy. The present return of state money is not a return to that order, because the builders are private firms with their own shareholders and listings. What is being rebuilt is the older idea that some infrastructure is too important to be placed by price alone. Trump's threat and Lagarde's first-loss proposal both treat the data centre as infrastructure of that kind, with the public carrying part of the bill.",
+          "trajectoryIds": [
+            "sputnik-1957",
+            "dartmouth-1956"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "",
+      "builds": "data-centres-absorb-investment",
+      "built": {
+        "key": "data-centres-absorb-investment",
+        "subject": "Data centres taking a growing share of national investment",
+        "firstSeen": "2026-11-17",
+        "days": 3
+      },
+      "articleIds": [
+        "n-839addb95726d8",
+        "n-0453d03bf26e3d",
+        "n-f52b67542413df",
+        "n-2eb6048268a8cf",
+        "n-d13019a13948ea",
+        "n-ab4143403d22dc",
+        "n-fc386b314a8b6c",
+        "n-91ed07b3e4e4ce",
+        "n-bbcbf5f8d22410",
+        "n-dce263e968aff0",
+        "n-add5310231f65b",
+        "n-2074a18bcb21d5",
+        "n-1751a451739e61",
+        "n-ef942e7178ff39",
+        "n-178b2f8efd33a7",
+        "n-4722aebdb02563",
+        "n-1b83fe17ba950c",
+        "n-bfe32a39e6ab42",
+        "n-9141ebcfcc8175",
+        "n-7ad9f2cf74eaf7",
+        "n-18a2b19eb85933",
+        "n-01bd13e8120fc8",
+        "n-0528070dcb296d",
+        "n-389ac93073d8ed"
+      ]
+    },
+    {
+      "id": "students-blockades-and-arrests",
+      "line": "Through a fortnight of school and campus protests, states have met the young with police and courts, and now with call-up plans.",
+      "kicker": "YOUTH / PUBLIC ORDER / MILITARY SERVICE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "German police or a school authority bans a pupils' protest, or disciplines pupils for joining the strike against conscription.",
+          "by": "2026-12-11",
+          "because": "If states answer the young mainly as a question of order, Germany's school strike should draw discipline rather than only debate.",
+          "id": "20261120T224019-students-blockades-and-arrests-1"
+        },
+        {
+          "what": "A court in France, Greece or Indonesia convicts or sentences a pupil or student over a protest held this November.",
+          "by": "2026-12-15",
+          "because": "The fortnight's arrests and charges should turn into sentences if courts, not negotiation, are the main reply to these protests.",
+          "id": "20261120T224019-students-blockades-and-arrests-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the French school and university movement against the CPE youth job contract in spring 2006, when weeks of blockades and clashes ended with the government withdrawing the law in April. In Greece in December 2008, after police shot fifteen-year-old Alexandros Grigoropoulos, weeks of school occupations were ridden out without concessions. The present differs in that the protests run in many countries at once with no single law to withdraw, and in that one government is asking the same age group to serve in its army.",
+        "paths": [
+          {
+            "name": "Protests fade into court cases",
+            "weight": "favoured",
+            "text": "Over the winter holidays the blockades thin out and the story moves into courts, disciplinary panels and the first uses of France's new weapons law. This is favoured because no government in these headlines has offered a concession that would end the protests, and the fortnight's record is of charges and suspensions rather than talks.",
+            "sign": "A court sentences pupils or students for blockades or damage during the autumn protests."
+          },
+          {
+            "name": "Conscription becomes the common cause",
+            "weight": "possible",
+            "text": "Pupils in Germany, joined by others in Europe where military spending is rising, make military service the shared demand and set a common protest day early in 2027. Italy's protests already named military spending, which makes this possible.",
+            "sign": "Pupils in two or more European countries call a shared protest day against conscription or military spending."
+          },
+          {
+            "name": "A government gives way",
+            "weight": "unlikely",
+            "text": "A government withdraws a measure in answer to the young, as France did with the CPE in 2006. This is unlikely because the demands differ from country to country and there is no single law to drop.",
+            "sign": "A minister withdraws or suspends a reform after school or university protests."
+          }
+        ],
+        "decade": "Over ten years the young in Europe and Asia are likely to meet the state more through police, courts and military service than through parties, which will shape how a generation already outnumbered at the ballot box regards it."
+      },
+      "continues": "",
+      "change": "When this last ran on 1 November the story was French police numbers set against young protesters. Since then school and university protests have been met by arrests in Indonesia and Greece, suspensions in India, an inquiry in Bangladesh and court cases for French minors. On 20 November German pupils struck against conscription, Gen Z protests returned to hundreds of European cities, and France's parliament adopted a law presuming police use of weapons lawful.",
+      "claim": "On 20 November pupils in Schleswig-Holstein struck against conscription, DW reported Gen Z protests in hundreds of European cities, Bologna's young marched on the day of a general strike, a pupil accused over vandalism at a lycée in Lormont went before the courts, and France's parliament adopted a law presuming police use of weapons lawful. These follow two weeks in which French minors were prosecuted over school blockades, Greek police detained marchers on the Polytechnic anniversary, Indonesian police arrested students in Yogyakarta, Indian and Bangladeshi universities suspended or investigated protesters, and Chilean teachers asked for rules on police inside schools. The grievances differ, but the state's reply in most of these places has been the same: the young meet the government first through its police and its courts. In Germany they now also meet it through its plan for military service.",
+      "events": [
+        {
+          "label": "German pupils strike against conscription",
+          "articleIds": [
+            "n-6c365026e8331c",
+            "n-fc8b36f8cd7e08",
+            "n-e916c668dce357"
+          ]
+        },
+        {
+          "label": "Gen Z marches across European cities",
+          "articleIds": [
+            "n-5a9ac90407be86",
+            "n-d5acb578475088",
+            "n-966ff444ef6302"
+          ]
+        },
+        {
+          "label": "French pupils brought before the courts",
+          "articleIds": [
+            "n-29809cb7cd3e16",
+            "n-ed249926d2cc22",
+            "n-391553bb6731d1",
+            "n-25a5703478f70e"
+          ]
+        },
+        {
+          "label": "France adopts police weapons law",
+          "articleIds": [
+            "n-e2423a4ff11444",
+            "n-86298d24aa8310"
+          ]
+        },
+        {
+          "label": "Detentions in Athens and Yogyakarta",
+          "articleIds": [
+            "n-3c74e2d94b7a00",
+            "n-c355cc89f5824c",
+            "n-16b8f9f563c05d",
+            "n-008bfbfdf299f0"
+          ]
+        },
+        {
+          "label": "Suspensions and inquiries in India, Bangladesh, Chile",
+          "articleIds": [
+            "n-922c6d58e991c3",
+            "n-4371641901a135",
+            "n-29c1a101fe501d",
+            "n-a88ecfd2b2bd6c"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "What happened on 20 November",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Germany and Italy",
+              "text": "NDR (Germany) reports many demonstrations in Schleswig-Holstein under the slogan 'Gen Z sorts it out' together with a school strike against conscription; NDR had listed the Hamburg plans on 19 November and those for Lower Saxony and Bremen on 18 November. DW's Portuguese service reports Gen Z protests again in hundreds of European cities. Corriere della Sera (Italy) reports Bologna's Gen Z march under 'We want a beautiful life', with tension in via Castiglione, and El Litoral (Argentina) reports Italy's day of protest over wages and against military spending.",
+              "articleIds": [
+                "n-6c365026e8331c",
+                "n-fc8b36f8cd7e08",
+                "n-e916c668dce357",
+                "n-5a9ac90407be86",
+                "n-d5acb578475088",
+                "n-966ff444ef6302"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "France",
+              "text": "SudOuest reports one of the alleged perpetrators of the vandalism at the Lycée des Iris in Lormont facing justice. La Dépêche reports parliament definitively adopting the law on a presumption of lawful use of weapons by police, and the Greek site iefimerida reports protesters in France saying 'they now have a licence to kill us'.",
+              "articleIds": [
+                "n-29809cb7cd3e16",
+                "n-e2423a4ff11444",
+                "n-86298d24aa8310"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "The fortnight before",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "France and Greece",
+              "text": "On 10 November La Dépêche reported Toulouse teachers holding class outside in solidarity with blockading pupils, and on 11 November Anadolu (Turkey) reported French demand for private tutoring rising because of school protests. On 12 November SudOuest reported a call in Pau to protest the 'judicial repression of minors' in the high-school movement. On 17 November ENIKOS reported six detentions at the Polytechnic anniversary march in Athens, and on 18 November Efsyn quoted a protester struck on the head by a police officer.",
+              "articleIds": [
+                "n-391553bb6731d1",
+                "n-25a5703478f70e",
+                "n-ed249926d2cc22",
+                "n-3c74e2d94b7a00",
+                "n-c355cc89f5824c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "Asia and Latin America",
+              "text": "On 11 November Merdeka (Indonesia) carried the police chronology of a demonstration at the UGM roundabout in Yogyakarta, and on 13 November Liputan6 reported the university condemning the arrest of its students. On 7 and 11 November The Hindu (India) reported a Sanskrit university demanding apologies from students it had already suspended. On 17 November bdnews24 (Bangladesh) reported an inquiry after a vice-chancellor was blockaded, and La Tercera (Chile) reported the teachers' college asking the Carabineros for a protocol on police in schools.",
+              "articleIds": [
+                "n-008bfbfdf299f0",
+                "n-16b8f9f563c05d",
+                "n-4371641901a135",
+                "n-922c6d58e991c3",
+                "n-29c1a101fe501d",
+                "n-a88ecfd2b2bd6c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "The same reply from the state",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "Order and defence",
+              "text": "Across nine publisher countries in fourteen days the grievances differ, from university discipline to living costs to a 1973 anniversary, but the reply reported is policing, prosecution or suspension, and rarely negotiation. Germany adds a second way the state reaches the young, through the military service plan that pupils struck against. In France the same week, a law widened the presumption that police shots are lawful. Taken together, governments are addressing people under twenty-five mainly as a matter of public order and of defence.",
+              "articleIds": [
+                "n-6c365026e8331c",
+                "n-e2423a4ff11444",
+                "n-ed249926d2cc22",
+                "n-922c6d58e991c3"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "paris-1968"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "An age group, not a cause",
+              "text": "The protests share an age group, not a cause. Indonesia's concern national politics, India's one university's discipline, Greece's an anniversary marched every year with detentions, and Germany's conscription, so a Polytechnic march ending in arrests is an annual event, not a new reply. The fortnight may also reflect the autumn term, when French school blockades cluster most years. And the German strikes were announced in advance and passed without bans, which cuts against a policing reading; the earlier expectation that German authorities would restrict a Gen Z protest has not been met.",
+              "articleIds": [
+                "n-3c74e2d94b7a00",
+                "n-6c365026e8331c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "PANDEMIC / REARMAMENT / GEN Z",
+          "text": "School closures in 2020 and 2021 cost pupils in most of these countries months of classroom time, and the cohort now in its last school years and first university years spent part of its adolescence online. Russia's full invasion of Ukraine in February 2022 brought rearmament back to European budgets: Germany created a 100 billion euro special defence fund that year, and by these headlines its plan for military service is now drawing school strikes in Schleswig-Holstein. The decade's model of youth protest came from Asia. Students in Dhaka forced Sheikh Hasina from office in August 2024, and in September 2025 Gen Z protests organised online brought down Nepal's government under a pirate flag taken from a Japanese comic. The 'Gen Z' banner over the marches in Bologna and Hamburg, and the blockades that put French minors before courts this month, borrow that label and its leaderless methods.",
+          "trajectoryIds": [
+            "dhaka-2024",
+            "kathmandu-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "AUSTERITY / YOUTH JOBS / EMERGENCY LAW",
+          "text": "After 2008 youth unemployment in Spain and Greece rose above 50 per cent, and the young became the generation of austerity in southern Europe. Greece's riots of December 2008 began when police shot fifteen-year-old Alexandros Grigoropoulos in Athens, and they shaped the annual Polytechnic march at which ENIKOS reported six detentions on 17 November. The squares of 2011, Tahrir in January and Puerta del Sol in May, showed that leaderless crowds could fill a city and then fail to hold power. Governments drew their own lesson. France governed under a state of emergency from November 2015 to November 2017, and police powers have widened in law since, the latest step being the presumption of lawful weapons use that La Dépêche reports adopted on 20 November. Policing the young protester became an expected part of a government's work rather than a sign that it had failed.",
+          "trajectoryIds": [
+            "tahrir-2011",
+            "sol-2011"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "UNIVERSITIES / DEMOCRATISATION / DISCIPLINE",
+          "text": "The years after 1989 were the high point of students ending governments by peaceful mass protest. Beijing's students lost in June 1989 while Prague's won that November; Jakarta's students occupied parliament and ended Suharto's thirty-one years in May 1998; Belgrade's Otpor helped remove Milošević in October 2000. University enrolment also grew fast in this period, in Indonesia, India and Chile above all, so that campuses became the largest gatherings of the young in many countries. The governments of the third wave learned to treat campus protest as a political force to be managed, through suspensions, disciplinary codes and inquiries rather than troops. The Sanskrit university in India demanding apologies from suspended students, and UGM in Yogyakarta condemning the arrest of its own students, are institutions of that expansion now placed between the police and the people they teach.",
+          "trajectoryIds": [
+            "tiananmen-1989",
+            "jakarta-1998"
+          ],
+          "bookIds": [
+            "third-wave"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "CONSCRIPTION / CITIZENSHIP / 1968",
+          "text": "After 1945 the citizen army was the main link between the young and the state across most of Europe, and its end changed what being young meant there. West Germany introduced conscription in 1956 and suspended it in 2011; France decided to end it in 1997 and Italy suspended it in 2005. In the decades of service, protest against the army and protest against the university ran together. In Paris in May 1968 a student dispute became a strike of ten million workers, and in Mexico City on 2 October the army fired on students at Tlatelolco. The replies of that year, reform, repression and absorption, are still the range governments choose from. The Schleswig-Holstein school strike against conscription, reported by NDR, returns German pupils to the question their grandparents faced, of whether to serve, at the same moment that France gives its police a wider presumption of lawful force.",
+          "trajectoryIds": [
+            "paris-1968",
+            "tlatelolco-1968"
+          ],
+          "bookIds": [
+            "postwar"
+          ]
+        }
+      ],
+      "resumes": "20261101T010841/gen-z-protests-met-by-police",
+      "builds": "students-blockades-and-arrests",
+      "built": {
+        "key": "students-blockades-and-arrests",
+        "subject": "School and university students blockading, occupying and being arrested or suspended",
+        "firstSeen": "2026-11-02",
+        "days": 10
+      },
+      "articleIds": [
+        "n-6c365026e8331c",
+        "n-fc8b36f8cd7e08",
+        "n-e916c668dce357",
+        "n-5a9ac90407be86",
+        "n-d5acb578475088",
+        "n-966ff444ef6302",
+        "n-29809cb7cd3e16",
+        "n-e2423a4ff11444",
+        "n-86298d24aa8310",
+        "n-391553bb6731d1",
+        "n-25a5703478f70e",
+        "n-ed249926d2cc22",
+        "n-3c74e2d94b7a00",
+        "n-c355cc89f5824c",
+        "n-008bfbfdf299f0",
+        "n-16b8f9f563c05d",
+        "n-4371641901a135",
+        "n-922c6d58e991c3",
+        "n-29c1a101fe501d",
+        "n-a88ecfd2b2bd6c"
+      ]
+    },
+    {
+      "id": "neighbours-fortify-after-declaration",
+      "line": "A peace declared by three powers has led the countries near them to build bases and close borders, not to stand down.",
+      "kicker": "GUARANTEES / FRONTIER STATES / SPHERES",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "Finland, Latvia, Lithuania or Poland announces closing or restricting further crossings on its border with Russia or Belarus.",
+          "by": "2026-12-11",
+          "because": "If the frontier states read the declaration as no guarantee, Estonia's closure should be copied by neighbours with the same exposure.",
+          "id": "20261120T224019-neighbours-fortify-after-declaration-1"
+        },
+        {
+          "what": "Japan signs or announces a new defence agreement or joint exercise with Australia, the Philippines or a European state.",
+          "by": "2026-12-15",
+          "because": "States hedging against an arrangement among the three powers should turn to each other rather than rely on Washington alone.",
+          "id": "20261120T224019-neighbours-fortify-after-declaration-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is July 1971, when Nixon announced his visit to China without telling Tokyo; Japan answered by recognising Beijing itself in September 1972. Another is Yalta in February 1945, where three leaders settled Poland's borders and government without the Polish government present. The present differs from 1972 in that Japan is arming rather than accommodating, and from 1945 in that the frontier states now sit in alliances and in the EU with their own forces and budgets.",
+        "paths": [
+          {
+            "name": "Frontier states rearm on their own",
+            "weight": "favoured",
+            "text": "Through the winter Baltic, Nordic and Polish governments add border closures and defence spending, and Japan takes its anti-espionage system and island bases through the Diet in early 2027. This is favoured because the declaration offers them no written guarantee and Washington's description of the projectiles over Poland as a mistake suggests none is coming.",
+            "sign": "Another Baltic or Nordic state closes crossings or raises its defence budget, naming Russia and the talks."
+          },
+          {
+            "name": "Separate deals with Moscow or Beijing",
+            "weight": "possible",
+            "text": "A European head of government or Tokyo opens its own channel to Moscow or Beijing, trading restraint for a voice in the settlement, as the previous edition anticipated. It is less likely than rearming because Beijing demands Takaichi retract her Taiwan remarks and Russia is still striking Kyiv.",
+            "sign": "A European leader holds a call with Putin, or Japan sets a date for leaders' talks with China."
+          },
+          {
+            "name": "The declaration becomes a guarantee",
+            "weight": "unlikely",
+            "text": "The three powers turn their declaration into a written arrangement that includes the security of the states around them. This is unlikely within a year while the terms for Ukraine remain unsettled.",
+            "sign": "A follow-up meeting invites European or Japanese leaders to sign security terms."
+          }
+        ],
+        "decade": "Over ten years the countries along Russia's and China's edges are likely to become more heavily armed and self-reliant, with closed crossings, civil-defence drills and secrecy laws ordinary again, as in the Cold War."
+      },
+      "continues": "allies-seek-own-talks",
+      "change": "Yesterday the countries left out of the three-power meeting were reported seeking their own talks with Moscow. Today the reports are of border closures, fighter flights and base building instead: Estonia set 1 December to close its Russian crossings, Sweden flew to defend Polish airspace, and Japan approved landfill for a new Self-Defence Force base while its foreign minister said the three powers' declaration differs from Japan's view.",
+      "claim": "On 20 November Estonia confirmed it will close its border crossings with Russia from 1 December, Sweden said it had scrambled jets to defend Polish airspace after Trump called Russian projectiles that fell in Poland a mistake, troops from eleven European countries drilled in Poland for a postwar Ukraine mission, and Kagoshima prefecture approved landfill at Kuniya port for a Self-Defence Force base while islanders on Amami and Kikai rehearsed evacuation from an armed attack. Japan's prime minister and foreign minister backed the International Criminal Court and said the US-China-Russia declaration differs from Japan's view, and in Australia new laws on defence security zones drew objections. A day after Trump, Xi and Putin issued a declaration on peace, the governments closest to their frontiers acted as if it gave them no protection. Their answer is to fortify their own ground rather than rely on the word of any of the three.",
+      "events": [
+        {
+          "label": "Estonia closes Russian border crossings",
+          "articleIds": [
+            "n-b06116acecb86c",
+            "n-396913cdf24a4f",
+            "n-b03049241ccfa2"
+          ]
+        },
+        {
+          "label": "Russian projectiles over Poland, Swedish jets",
+          "articleIds": [
+            "n-d080729cfe57f5",
+            "n-74846f49249378"
+          ]
+        },
+        {
+          "label": "Eleven European armies drill in Poland",
+          "articleIds": [
+            "n-6bdd277d17218f"
+          ]
+        },
+        {
+          "label": "Japan and Australia harden home ground",
+          "articleIds": [
+            "n-2a4afb19422ad8",
+            "n-85f1c4eb3195fe",
+            "n-2be8aef425b374",
+            "n-1cf9d14b5b457e",
+            "n-517e302d004e17",
+            "n-04d3f5bbe39d7d"
+          ]
+        },
+        {
+          "label": "Japan backs ICC against three-power line",
+          "articleIds": [
+            "n-53155a3921b479",
+            "n-fcb3872e9bdc1e",
+            "n-0bd89d66f78899"
+          ]
+        },
+        {
+          "label": "Declaration and Ukraine trade-off reported",
+          "articleIds": [
+            "n-b8689e3a8f2a9b",
+            "n-9b06bb375610c8",
+            "n-833f549aaf806a",
+            "n-9764632fea13c4"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Europe's eastern edge",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Estonia and Poland",
+              "text": "Onet (Poland) reports Estonia officially closing its border crossings with Russia, and LB.ua (Ukraine) that the plan runs from 1 December; Onet also carries a neighbour of Poland warning 'we are also on this list'. La Tercera (Chile) reports Trump saying the 'small' Russian projectiles fell in Poland 'by mistake', and Observador (Portugal) that Sweden confirmed scrambling fighter jets to defend Polish airspace.",
+              "articleIds": [
+                "n-b06116acecb86c",
+                "n-396913cdf24a4f",
+                "n-b03049241ccfa2",
+                "n-d080729cfe57f5",
+                "n-74846f49249378"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Eleven armies in Poland",
+              "text": "The Niagara Falls Review (Canada) reports troops from eleven European countries drilling in Poland for a possible postwar mission in Ukraine. The headline does not say which countries or whether the US takes part.",
+              "articleIds": [
+                "n-6bdd277d17218f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Japan and Australia",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Islands, bases and secrecy",
+              "text": "Minami-Nippon Shimbun (Japan) reports Kagoshima prefecture approving landfill at Kuniya port for a Self-Defence Force base, and an off-island evacuation drill for 200 people on Amami Oshima and Kikai under an armed-attack scenario. Asahi reports a government plan for an anti-espionage system under which activities directed by a foreign power must be reported. Financial News (South Korea) reports Beijing staying hard on Takaichi after APEC, demanding her Taiwan remarks be corrected.",
+              "articleIds": [
+                "n-2a4afb19422ad8",
+                "n-85f1c4eb3195fe",
+                "n-2be8aef425b374",
+                "n-1cf9d14b5b457e",
+                "n-517e302d004e17",
+                "n-0bd89d66f78899"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "A court and a zone",
+              "text": "Asahi reports Takaichi will meet the ICC president on 24 November and expresses support for the court 'amid US, China, Russia restraint', and 47NEWS has Motegi saying the three powers' declaration 'differs from Japan's view'. In Australia, a column carried by irrigator.com.au argues that new laws on defence security zones threaten civil rights.",
+              "articleIds": [
+                "n-53155a3921b479",
+                "n-fcb3872e9bdc1e",
+                "n-04d3f5bbe39d7d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Fortifying instead of relying",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "Who guarantees the frontier",
+              "text": "The shared question is who guarantees the security of countries next to the great powers. The declaration, which Cadena 3 (Argentina) reports criticised for 'total ambiguity', and Xi's talk of ending US unipolarity, reported by Herald Business (South Korea), leave the frontier states unsure that any of the three will stand behind them. UNIAN's account of a WSJ report that Washington is weighing NATO membership for Ukraine in exchange for Donbas shows territory being traded in talks they do not attend. Their reply has been to spend on their own ground: border posts, island bases, drills, secrecy rules and support for a court none of the three accepts.",
+              "articleIds": [
+                "n-b8689e3a8f2a9b",
+                "n-9b06bb375610c8",
+                "n-833f549aaf806a",
+                "n-53155a3921b479"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "suez-1956"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Already under way, for other reasons",
+              "text": "Most of these steps were in motion before the 19 November meeting. The Kuniya base and the Amami drill follow years of building on Japan's southwestern islands and Beijing's anger at Takaichi's Taiwan remarks; Estonia's closure answers Russian conduct on its own border; Australia's zones law ran on its parliament's timetable. The eleven-army drill in Poland prepares to police a settlement, not to resist one. What the events do not share is a trigger: one answers stray projectiles, one Chinese pressure, one domestic security policy. One day's headlines cannot show that the declaration changed anybody's plans.",
+              "articleIds": [
+                "n-0bd89d66f78899",
+                "n-6bdd277d17218f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "INVASION / DETERRENCE / CIVIL DEFENCE",
+          "text": "Russia's full invasion of Ukraine on 24 February 2022 moved the frontier states first. Finland joined NATO in April 2023 and Sweden in March 2024, ending two centuries of Swedish non-alignment, which is why Swedish jets now fly for Polish airspace. Estonia, Latvia and Lithuania stopped most Russian tourist entry from 2022 and barred Russian-registered cars in 2023, and Finland shut its whole eastern border in late 2023 over migrants it said Moscow had sent. In Japan, the December 2022 security strategy committed to raising defence spending to 2% of GDP by 2027 and to counterstrike missiles, building on garrisons placed on Amami and other southwestern islands from 2019. The Karabakh war of 2020 had already taught defence ministries what cheap drones could do. Estonia's full closure from 1 December, reported by Onet and LB.ua, and Kagoshima's approval of the Kuniya landfill carry those decisions further.",
+          "trajectoryIds": [
+            "karabakh-2020"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "RUSSIA / CHINA / ALLIANCE DOUBT",
+          "text": "The frontier states' doubts about outside guarantees began in 2008. Russia's war in Georgia that August drew no Western military answer, and its annexation of Crimea in 2014 led NATO to station rotating battalions in the Baltic states and Poland from 2017. China passed Japan as the second economy in 2010, and the 2012 dispute over the Senkaku islands began the build-up of Japan's island defences in the southwest. Trump's first term, from 2017, added a third doubt, about whether Washington would honour its commitments at all, and his questioning of NATO's mutual defence clause was heard in Tallinn and Tokyo alike. Trump calling the projectiles that fell in Poland a mistake, as La Tercera reports, reads in those capitals as the same doubt in a new form. The library has no entry for the Georgian war or Crimea, which are the moments this horizon stands on.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "ENLARGEMENT / OPEN BORDERS / THE LONG PEACE",
+          "text": "After 1989 the frontier states bet on membership as their protection. Estonia, Latvia and Lithuania regained independence in 1991, joined NATO and the EU in 2004 and opened their borders with Russia to trade and visitors; Poland joined NATO in 1999. Japan, after the Soviet Union ended, reduced its focus on the north and sent its forces into disaster relief and peacekeeping. Moscow read the colour revolutions, Georgia's in 2003 and Ukraine's in 2004, as Western projects, and its suspicion of its neighbours' turn west grew from there. The assumption of the 1990s was that borders in Europe and Asia would matter less each year. These headlines reverse it in both regions: Estonia is closing crossings it opened in the 1990s, and Japan is building on islands it left lightly defended for decades. A Polish neighbour saying 'we are also on this list' speaks for countries that joined the West to stop being on lists.",
+          "trajectoryIds": [
+            "tbilisi-2003"
+          ],
+          "bookIds": [
+            "light-that-failed"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "SPHERES / OCCUPATION / ALLIANCES",
+          "text": "The frontier states' position was set between 1945 and 1953. At Yalta in February 1945 Roosevelt, Churchill and Stalin settled Poland's borders and government without Poles at the table, and the Baltic states remained inside the Soviet Union for forty-six years. Japan surrendered in August 1945, and its 1951 security treaty with the US made American bases the guarantee of its safety; the Amami islands, where the evacuation drill was held, were under US administration until December 1953. NATO's founding in 1949 gave western Europe the same kind of guarantee from one outside power. That order assumed the underwriter would stay. Russian media proposing 'a new Yalta' for Ukraine, as Al Jazeera reports, and Motegi saying the three powers' declaration differs from Japan's view, show both regions remembering 1945 as a settlement made over their heads. The library has no entry for Yalta itself.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "postwar"
+          ]
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-b06116acecb86c",
+        "n-396913cdf24a4f",
+        "n-b03049241ccfa2",
+        "n-d080729cfe57f5",
+        "n-74846f49249378",
+        "n-6bdd277d17218f",
+        "n-2a4afb19422ad8",
+        "n-85f1c4eb3195fe",
+        "n-2be8aef425b374",
+        "n-1cf9d14b5b457e",
+        "n-517e302d004e17",
+        "n-0bd89d66f78899",
+        "n-53155a3921b479",
+        "n-fcb3872e9bdc1e",
+        "n-04d3f5bbe39d7d",
+        "n-b8689e3a8f2a9b",
+        "n-9b06bb375610c8",
+        "n-833f549aaf806a"
+      ]
+    }
+  ]
+}

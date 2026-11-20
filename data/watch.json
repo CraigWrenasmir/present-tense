@@ -114,8 +114,39 @@
    "what": "Organisers in two or more European countries announce a shared date for a further protest in November.",
    "by": "2026-11-21",
    "because": "If these are one wave rather than local grievances that happened to meet on a weekend, the next call should again be made across borders.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261120T224019",
+    "asOf": "2026-11-20T22:40:19Z",
+    "how": "headline",
+    "note": "DW reports Gen Z protests again in hundreds of European cities on 20 November, with marches the same day in German and Italian cities.",
+    "headlines": [
+     {
+      "id": "n-5a9ac90407be86",
+      "title": "Geração Z volta a protestar em centenas de cidades da Europa",
+      "titleEnglish": "Gen Z protests again in hundreds of cities across Europe",
+      "url": "https://www.dw.com/pt-br/gera%C3%A7%C3%A3o-z-volta-a-protestar-em-centenas-de-cidades-da-europa/a-80006746",
+      "publisher": "dw.com",
+      "sourceCountry": "Germany"
+     },
+     {
+      "id": "n-6c365026e8331c",
+      "title": "\"Gen Z regelt\" und Schulstreik gegen Wehrpflicht: Viele Demos in SH",
+      "titleEnglish": "\"Gen Z sorts it out\" and school strike against conscription: many demonstrations in Schleswig-Holstein",
+      "url": "https://www.ndr.de/nachrichten/schleswig-holstein/kiel_neumuenster_ploen_rendsburg-eckernfoerde/kiel-verkehrsbehinderungen-durch-zwei-demonstrationen,schulstreik-184.html",
+      "publisher": "ndr.de",
+      "sourceCountry": "Germany"
+     },
+     {
+      "id": "n-d5acb578475088",
+      "title": "Bologna, la Gen Z sfila (anche) da sola: «Vogliamo una vita bella». Tensione in via Castiglione e disagi alla mobilità",
+      "titleEnglish": "Bologna, Gen Z marches (also) on its own: \"We want a beautiful life\". Tension in via Castiglione and mobility disruptions",
+      "url": "https://corrieredibologna.corriere.it/notizie/cronaca/26_novembre_20/bologna-la-gen-z-sfila-anche-da-sola-vogliamo-una-vita-bella-tensione-in-via-castiglione-e-disagi-alla-mobilita-09bc5fc0-798d-4bec-b634-e3e408ce3xlk.shtml",
+      "publisher": "Corriere della sera",
+      "sourceCountry": "Italy"
+     }
+    ]
+   }
   },
   {
    "id": "20261031T013540-one-weekend-of-protest-bans-and-talks-2",
@@ -1012,8 +1043,31 @@
    "what": "France's National Assembly or Senate votes to pass the bill widening when police may use firearms.",
    "by": "2026-12-03",
    "because": "The join says domestic force is moving toward military rules from both directions, so the government should press the bill despite opposition from the left.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261120T224019",
+    "asOf": "2026-11-20T22:40:19Z",
+    "how": "headline",
+    "note": "La Dépêche reports France's parliament definitively adopted the law presuming police use of weapons lawful, after the Senate's approval.",
+    "headlines": [
+     {
+      "id": "n-e2423a4ff11444",
+      "title": "Le Parlement adopte définitivement la loi sur la présomption d’usage légal des armes par les forces de l’ordre",
+      "titleEnglish": "Parliament definitively adopts law on presumption of lawful use of weapons by law enforcement",
+      "url": "https://www.ladepeche.fr/2026/11/20/le-parlement-adopte-definitivement-la-loi-sur-la-presomption-dusage-legal-des-armes-par-les-forces-de-lordre-13663589.php",
+      "publisher": "ladepeche.fr",
+      "sourceCountry": "France"
+     },
+     {
+      "id": "n-86298d24aa8310",
+      "title": "Οργή στη Γαλλία: «Πράσινο» φως της Γερουσίας στα πυρά από αστυνομικούς -«Έχουν πλέον την άδεια να μας σκοτώνουν» - iefimerida.gr",
+      "titleEnglish": "Outrage in France: Senate Gives Green Light to Police Fire - \"They Now Have Licence to Kill Us\" - iefimerida.gr",
+      "url": "https://www.iefimerida.gr/kosmos/gallia-geroysias-pyra-astynomikoys",
+      "publisher": "iefimerida.gr",
+      "sourceCountry": "Greece"
+     }
+    ]
+   }
   },
   {
    "id": "20261106T212911-energy-shock-becomes-equipment-orders-1",
@@ -2415,6 +2469,90 @@
    "what": "A government in Nigeria, Egypt, Bangladesh or Kenya announces a schedule to pay salary arrears after a strike or strike threat.",
    "by": "2026-12-10",
    "because": "If the fortnight's disputes are about money already owed by cash-short employers, they will be settled by payment timetables rather than by new pay rates.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261120T224019-data-centres-absorb-investment-1",
+   "stamp": "20261120T224019",
+   "asOf": "2026-11-20T22:40:19Z",
+   "narrativeId": "data-centres-absorb-investment",
+   "kicker": "SITING / SUBSIDY / RISK",
+   "line": "As private money pulls back from data centres, states now offer to decide where they are built and to carry their losses.",
+   "firmness": "plausible",
+   "what": "A government outside the US offers a guarantee, an equity stake or first-loss money for a named data-centre or AI chip project.",
+   "by": "2026-12-11",
+   "because": "If states are taking over the build's risk as private investors step back, Lagarde's first-loss proposal should not stay alone for long.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261120T224019-data-centres-absorb-investment-2",
+   "stamp": "20261120T224019",
+   "asOf": "2026-11-20T22:40:19Z",
+   "narrativeId": "data-centres-absorb-investment",
+   "kicker": "SITING / SUBSIDY / RISK",
+   "line": "As private money pulls back from data centres, states now offer to decide where they are built and to carry their losses.",
+   "firmness": "plausible",
+   "what": "A US cloud or AI company says it is delaying, cutting or moving a planned data centre outside the US.",
+   "by": "2026-12-15",
+   "because": "The White House threat and the market's retreat push the same way, so a firm citing either would show siting set by the state while spending comes under pressure.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261120T224019-students-blockades-and-arrests-1",
+   "stamp": "20261120T224019",
+   "asOf": "2026-11-20T22:40:19Z",
+   "narrativeId": "students-blockades-and-arrests",
+   "kicker": "YOUTH / PUBLIC ORDER / MILITARY SERVICE",
+   "line": "Through a fortnight of school and campus protests, states have met the young with police and courts, and now with call-up plans.",
+   "firmness": "plausible",
+   "what": "German police or a school authority bans a pupils' protest, or disciplines pupils for joining the strike against conscription.",
+   "by": "2026-12-11",
+   "because": "If states answer the young mainly as a question of order, Germany's school strike should draw discipline rather than only debate.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261120T224019-students-blockades-and-arrests-2",
+   "stamp": "20261120T224019",
+   "asOf": "2026-11-20T22:40:19Z",
+   "narrativeId": "students-blockades-and-arrests",
+   "kicker": "YOUTH / PUBLIC ORDER / MILITARY SERVICE",
+   "line": "Through a fortnight of school and campus protests, states have met the young with police and courts, and now with call-up plans.",
+   "firmness": "plausible",
+   "what": "A court in France, Greece or Indonesia convicts or sentences a pupil or student over a protest held this November.",
+   "by": "2026-12-15",
+   "because": "The fortnight's arrests and charges should turn into sentences if courts, not negotiation, are the main reply to these protests.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261120T224019-neighbours-fortify-after-declaration-1",
+   "stamp": "20261120T224019",
+   "asOf": "2026-11-20T22:40:19Z",
+   "narrativeId": "neighbours-fortify-after-declaration",
+   "kicker": "GUARANTEES / FRONTIER STATES / SPHERES",
+   "line": "A peace declared by three powers has led the countries near them to build bases and close borders, not to stand down.",
+   "firmness": "tentative",
+   "what": "Finland, Latvia, Lithuania or Poland announces closing or restricting further crossings on its border with Russia or Belarus.",
+   "by": "2026-12-11",
+   "because": "If the frontier states read the declaration as no guarantee, Estonia's closure should be copied by neighbours with the same exposure.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261120T224019-neighbours-fortify-after-declaration-2",
+   "stamp": "20261120T224019",
+   "asOf": "2026-11-20T22:40:19Z",
+   "narrativeId": "neighbours-fortify-after-declaration",
+   "kicker": "GUARANTEES / FRONTIER STATES / SPHERES",
+   "line": "A peace declared by three powers has led the countries near them to build bases and close borders, not to stand down.",
+   "firmness": "tentative",
+   "what": "Japan signs or announces a new defence agreement or joint exercise with Australia, the Philippines or a European state.",
+   "by": "2026-12-15",
+   "because": "States hedging against an arrangement among the three powers should turn to each other rather than rely on Washington alone.",
    "status": "open",
    "resolved": null
   }
