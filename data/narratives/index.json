@@ -1,6 +1,69 @@
 {
  "editions": [
   {
+   "stamp": "20261121T213836",
+   "file": "data/narratives/20261121T213836.json",
+   "newsGeneratedAt": "2026-11-21T21:38:36Z",
+   "generatedAt": "2026-11-21T21:48:33Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-10",
+   "narratives": [
+    {
+     "id": "ships-struck-after-summit",
+     "kicker": "SHIPPING / CEASEFIRES / TERRITORY",
+     "line": "The talks after the summit are about lines on land, while both wars are now fought against ships, which no draft yet covers.",
+     "events": 6,
+     "headlines": 20,
+     "countries": 14,
+     "continues": "neighbours-fortify-after-declaration",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "personal-data-breaches",
+     "kicker": "OBLIGATION / CONSENT / EXPOSURE",
+     "line": "For four days running, data people must give the state has been breached as often as data they chose to give shops.",
+     "events": 6,
+     "headlines": 14,
+     "countries": 12,
+     "continues": "",
+     "resumes": "",
+     "builds": "personal-data-breaches",
+     "firmness": "firm",
+     "watch": 2
+    },
+    {
+     "id": "hedges-fall-with-shares",
+     "kicker": "LEVERAGE / SAFE HAVENS / MONETARY POLICY",
+     "line": "Gold and bitcoin now fall with tech shares, as high rates make every asset bought on borrowed money costly to keep.",
+     "events": 6,
+     "headlines": 11,
+     "countries": 8,
+     "continues": "",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "reservoirs-and-rivers-contested",
+     "kicker": "HYDROPOWER / IRRIGATION / ALLOCATION",
+     "line": "Clean power is being built on rivers and reservoirs already promised to farms and homes, so choosing energy now means rationing water.",
+     "events": 6,
+     "headlines": 17,
+     "countries": 10,
+     "continues": "",
+     "resumes": "",
+     "builds": "reservoirs-and-rivers-contested",
+     "firmness": "tentative",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261120T224019",
    "file": "data/narratives/20261120T224019.json",
    "newsGeneratedAt": "2026-11-20T22:40:19Z",

@@ -1,0 +1,2213 @@
+{
+  "schemaVersion": 6,
+  "generatedAt": "2026-11-21T21:48:33Z",
+  "newsGeneratedAt": "2026-11-21T21:38:36Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-10",
+  "previousNewsGeneratedAt": "2026-11-20T22:40:19Z",
+  "usage": {
+    "input": 81874,
+    "output": 80245,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "A narrative may also resume one that stopped in the last four weeks ('resumes' gives that edition's stamp and the narrative's id), and may be written from a subject the site's notebook has been keeping ('builds'); such a narrative can cite headlines from earlier days, each shown with its date, beside at least three of the day's own.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-9575d84242a36d",
+      "title": "Näin venäläisen Sparta II -aluksen matka eteni ja päättyi Suomenlahdella",
+      "titleEnglish": "How the journey of the Russian vessel Sparta II unfolded and ended in the Gulf of Finland",
+      "url": "https://yle.fi/uutiset/lyhyesti/74-20258293",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-21T17:38:32Z",
+      "seenAt": "2026-11-21T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-7d7c22a4c5591a",
+      "title": "Finske myndigheter bekrefter at russisk skip ble angrepet av droner",
+      "titleEnglish": "Finnish authorities confirm Russian ship was attacked by drones",
+      "url": "https://www.nrk.no/artikkel/finske-myndigheter-bekrefter-at-russisk-skip-ble-angrepet-av-droner-1533648",
+      "publisher": "nrk.no",
+      "publisherDomain": "nrk.no",
+      "publishedAt": "2026-11-21T11:00:55Z",
+      "seenAt": "2026-11-21T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Norway",
+      "sourceCountryCode": "NO",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 11,
+      "language": "no"
+    },
+    {
+      "id": "n-9f37e24b48c3b7",
+      "title": "Sparta II:n moottoreita ei voi käyttää, sanoo Viron merivoimien komentaja",
+      "titleEnglish": "Sparta II's engines cannot be used, says Estonian navy commander",
+      "url": "https://yle.fi/a/74-20258284/64-3-313875",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-21T14:51:38Z",
+      "seenAt": "2026-11-21T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-2cd0dd134ab0be",
+      "title": "Venäjän valtionmedia reagoi iskuun Suomenlahdella rauhoittelemalla kansaa: Kaliningradin huolto ei vaarannu",
+      "titleEnglish": "Russian state media responds to strike in Gulf of Finland by reassuring the public: Kaliningrad supplies not at risk",
+      "url": "https://yle.fi/a/74-20258295",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-21T18:20:38Z",
+      "seenAt": "2026-11-21T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-85a7211a5e1da0",
+      "title": "Häkkänen: Dagens händelser ett steg i farlig riktning",
+      "titleEnglish": "Häkkänen: Today's events a step in a dangerous direction",
+      "url": "https://yle.fi/a/7-10109155",
+      "publisher": "Svenska Yle",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-21T18:03:31Z",
+      "seenAt": "2026-11-21T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "sv"
+    },
+    {
+      "id": "n-fec288b2227a29",
+      "title": "两艘油轮接连在驶出霍尔木兹海峡时遇袭",
+      "titleEnglish": "Two oil tankers attacked in succession while leaving the Strait of Hormuz",
+      "url": "https://www.yicai.com/brief/103449037.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-11-21T12:32:00Z",
+      "seenAt": "2026-11-21T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-c7dabb8aca3ff2",
+      "title": "伊朗称一油轮在霍尔木兹海峡以东海域起火",
+      "titleEnglish": "Iran says an oil tanker caught fire in waters east of the Strait of Hormuz",
+      "url": "https://www.yicai.com/brief/103449075.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-11-21T12:32:00Z",
+      "seenAt": "2026-11-21T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-919c3da4e67d8d",
+      "title": "Two tankers hit by ‘unknown projectiles’ off Oman coast",
+      "titleEnglish": "Two tankers hit by ‘unknown projectiles’ off Oman coast",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?update=5173166",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-11-21T10:02:00Z",
+      "seenAt": "2026-11-21T10:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-e7d831b6823d70",
+      "title": "Βρετανός κολυμβητής διέσχισε 15 χιλιόμετρα στα Στενά του Ορμούζ ενώ τάνκερ δέχονταν επίθεση -«Το νερό καιγόταν» - iefimerida.gr",
+      "titleEnglish": "British swimmer crossed 15 kilometres in the Strait of Hormuz while a tanker was under attack - «The water was burning» - iefimerida.gr",
+      "url": "https://www.iefimerida.gr/kosmos/bretanos-dieshise-stena-ormoyz-tanker-epithesi",
+      "publisher": "iefimerida.gr",
+      "publisherDomain": "iefimerida.gr",
+      "publishedAt": "2026-11-21T17:20:00Z",
+      "seenAt": "2026-11-21T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-409acad4bae087",
+      "title": "Iran’s IRGC downs US drone over Hormuz as efforts to end war remain stalled",
+      "titleEnglish": "Iran’s IRGC downs US drone over Hormuz as efforts to end war remain stalled",
+      "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-11-21T10:02:00Z",
+      "seenAt": "2026-11-21T10:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-693cf8b7fdfcaa",
+      "title": "影音／美中俄峰會後狂炸！逾110枚飛彈猛轟烏國 澤倫斯基：開戰規模最大之一",
+      "titleEnglish": "Video: After US-China-Russia summit, over 110 missiles hit Ukraine; Zelensky: one of the largest attacks of the war",
+      "url": "https://news.tvbs.com.tw/world/4054041",
+      "publisher": "TVBS新聞網",
+      "publisherDomain": "news.tvbs.com.tw",
+      "publishedAt": "2026-11-21T09:19:32Z",
+      "seenAt": "2026-11-21T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-05150dd44522fb",
+      "title": "Rudal Rusia Menghantam Wilayah Polandia saat Gempur Ukraina",
+      "titleEnglish": "Russian Missile Hits Poland During Ukraine Offensive",
+      "url": "https://enamplus.liputan6.com/tv/read/8339752/rudal-rusia-menghantam-wilayah-polandia-saat-gempur-ukraina",
+      "publisher": "Enamplus Liputan6",
+      "publisherDomain": "enamplus.liputan6.com",
+      "publishedAt": "2026-11-21T10:02:00Z",
+      "seenAt": "2026-11-21T10:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "ms"
+    },
+    {
+      "id": "n-f2f54f4eb24d64",
+      "title": "Finlandia, 'elicottero russo sospettato di aver violato il nostro spazio aereo' - Notizie - Ansa.it",
+      "titleEnglish": "Finland, 'Russian helicopter suspected of violating our airspace' - News - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/21/finlandia-elicottero-russo-sospettato-di-aver-violato-il-nostro-spazio-aereo_cd01b40f-774f-4201-a5f1-d298887823ef.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-21T14:29:00Z",
+      "seenAt": "2026-11-21T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-5f6e7c3aa1eaf6",
+      "title": "Base Usa Sigonella, verifiche su presenza droni. Ipotesi volo privato",
+      "titleEnglish": "US Sigonella base, checks on presence of drones. Private flight hypothesis",
+      "url": "https://tg24.sky.it/cronaca/2026/11/21/base-usa-sigonella-droni-verifiche",
+      "publisher": "tg24.sky.it",
+      "publisherDomain": "tg24.sky.it",
+      "publishedAt": "2026-11-21T13:02:00Z",
+      "seenAt": "2026-11-21T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-aa775d852d9df7",
+      "title": "خلافات حول مصير اليورانيوم.. مفاوضات واشنطن وطهران «محلك سر»",
+      "titleEnglish": "Disputes over the fate of uranium: Washington-Tehran negotiations stuck in place",
+      "url": "https://www.okaz.com.sa/politics/na/2276598",
+      "publisher": "عكاظ",
+      "publisherDomain": "okaz.com.sa",
+      "publishedAt": "2026-11-21T12:07:50Z",
+      "seenAt": "2026-11-21T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "ar"
+    },
+    {
+      "id": "n-3366880ad03ce4",
+      "title": "مفاوضات واشنطن وطهران تراوح مكانها.. واليورانيوم جوهر الخلاف",
+      "titleEnglish": "Washington-Tehran negotiations stall; uranium is the core of the dispute",
+      "url": "https://www.khaberni.com/news/868975-%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%88%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D8%AA%D8%B1%D8%A7%D9%88%D8%AD-%D9%85%D9%83%D8%A7%D9%86%D9%87%D8%A7-%D9%88%D8%A7%D9%84%D9%8A%D9%88%D8%B1%D8%A7%D9%86%D9%8A%D9%88%D9%85-%D8%AC%D9%88%D9%87%D8%B1-%D8%A7%D9%84%D8%AE%D9%84%D8%A7%D9%81",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-11-21T09:32:00Z",
+      "seenAt": "2026-11-21T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-8b29d211c2bc89",
+      "title": "\"No fue una cumbre por la paz\": qué hay detrás del encuentro entre Trump, Putin y Xi Jinping",
+      "titleEnglish": "\"It was not a summit for peace\": what lies behind the meeting between Trump, Putin and Xi Jinping",
+      "url": "https://www.cadena3.com/noticia/buen-dia-argentina/no-fue-una-cumbre-por-la-paz-que-hay-detras-del-encuentro-entre-trump-putin-y-xi-jinping_615332",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-11-21T12:32:00Z",
+      "seenAt": "2026-11-21T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-b847119fe5f7d7",
+      "title": "Trilateral en Shenzhen: la cumbre donde Trump presumió, Putin volvió y Xi ganó",
+      "titleEnglish": "Trilateral in Shenzhen: the summit where Trump showed off, Putin returned and Xi won",
+      "url": "https://elpais.com/internacional/2026-11-21/trilateral-en-shenzhen-la-cumbre-donde-trump-presumio-putin-volvio-y-xi-gano.html",
+      "publisher": "El País",
+      "publisherDomain": "elpais.com",
+      "publishedAt": "2026-11-21T09:30:00Z",
+      "seenAt": "2026-11-21T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-9d88b58df321e5",
+      "title": "Зеленский о встрече Трампа, Си и Путина: \"Ялта-2\" у Путина не получилась",
+      "titleEnglish": "Zelensky on the meeting of Trump, Xi and Putin: \"Yalta-2\" did not work out for Putin",
+      "url": "https://www.unian.net/politics/zelenskiy-o-vstreche-trampa-si-i-putina-yalta-2-u-putina-ne-poluchilas-13566969.html",
+      "publisher": "unian.net",
+      "publisherDomain": "unian.net",
+      "publishedAt": "2026-11-21T13:02:00Z",
+      "seenAt": "2026-11-21T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Ukraine",
+      "sourceCountryCode": "UA",
+      "sourceRegion": "Europe",
+      "sourceLat": 49,
+      "sourceLon": 32,
+      "language": "ru"
+    },
+    {
+      "id": "n-48c71773597521",
+      "title": "Russia dusts off its prewar demands as the US raises discussing European security at Ukraine talks",
+      "titleEnglish": "Russia dusts off its prewar demands as the US raises discussing European security at Ukraine talks",
+      "url": "https://www.wsls.com/news/2026/11/20/russia-dusts-off-its-prewar-demands-as-the-us-raises-discussing-european-security-at-ukraine-talks/",
+      "publisher": "WSLS",
+      "publisherDomain": "wsls.com",
+      "publishedAt": "2026-11-20T22:12:23Z",
+      "seenAt": "2026-11-21T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-cc31962e86f0d1",
+      "title": "FBI investigating apparent hack of a key criminal justice information database, AP source says",
+      "titleEnglish": "FBI investigating apparent hack of a key criminal justice information database, AP source says",
+      "url": "https://www.niagarafallsreview.ca/news/world/united-states/fbi-investigating-apparent-hack-of-a-key-criminal-justice-information-database-ap-source-says/article_b7e82a3f-cbda-5fe4-aeaa-7b25e5588e87.html",
+      "publisher": "Niagara Falls Review",
+      "publisherDomain": "niagarafallsreview.ca",
+      "publishedAt": "2026-11-21T18:32:00Z",
+      "seenAt": "2026-11-21T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
+    },
+    {
+      "id": "n-a329459148aac6",
+      "title": "CNN: FBI-ja po heton një shkelje të mundshme të bazës së të dhënave të Qendrës Kombëtare të Informacionit për Krimet",
+      "titleEnglish": "CNN: FBI investigates a possible breach of the National Crime Information Center database",
+      "url": "https://www.aa.com.tr/sq/bota/cnn-fbi-ja-po-heton-nj%c3%ab-shkelje-t%c3%ab-mundshme-t%c3%ab-baz%c3%abs-s%c3%ab-t%c3%ab-dh%c3%abnave-t%c3%ab-qendr%c3%abs-komb%c3%abtare-t%c3%ab-informacionit-p%c3%abr-krimet/4132771",
+      "publisher": "Anadolu",
+      "publisherDomain": "aa.com.tr",
+      "publishedAt": "2026-11-21T11:35:56Z",
+      "seenAt": "2026-11-21T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "sq"
+    },
+    {
+      "id": "n-2083c73ee678a4",
+      "title": "قراصنة يستهدفون قاعدة بيانات FBI.. والسلطات الأميركية تحقق",
+      "titleEnglish": "Hackers target FBI database; US authorities investigating",
+      "url": "https://www.khaberni.com/news/868977-%D9%82%D8%B1%D8%A7%D8%B5%D9%86%D8%A9-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D9%88%D9%86-%D9%82%D8%A7%D8%B9%D8%AF%D8%A9-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-fbi-%D9%88%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%AA%D8%AD%D9%82%D9%82",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-11-21T09:32:00Z",
+      "seenAt": "2026-11-21T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-4e34659235e992",
+      "title": "Trump, 'attacco all'Fbi? Non è una cosa buona' - Notizie - Ansa.it",
+      "titleEnglish": "Trump, 'attack on the FBI? That's not a good thing' - News - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/21/trump-attacco-allfbi-non-e-una-cosa-buona_4df5015b-eb40-4c1f-86fb-bd541873cc95.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-21T15:29:00Z",
+      "seenAt": "2026-11-21T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-8beb1933ca54d2",
+      "title": "US Agriculture Department Hack Raises Fears Over Food Safety Data and Animal Disease Research",
+      "titleEnglish": "US Agriculture Department Hack Raises Fears Over Food Safety Data and Animal Disease Research",
+      "url": "https://www.ibtimes.co.uk/usda-cyberattack-disrupts-farmer-payment-systems-1833730",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-11-21T12:19:41Z",
+      "seenAt": "2026-11-21T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-1821469fca6473",
+      "title": "Un ciberataque con una herramienta de IA accede a los servidores internos de la Comisión Europea",
+      "titleEnglish": "A cyberattack using an AI tool accesses internal servers of the European Commission",
+      "url": "https://elpais.com/internacional/2026-11-19/un-ciberataque-con-una-herramienta-de-ia-accede-a-los-servidores-internos-de-la-comision-europea.html",
+      "publisher": "El País",
+      "publisherDomain": "elpais.com",
+      "publishedAt": "2026-11-19T13:26:59Z",
+      "seenAt": "2026-11-19T13:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-e5594770bb39e6",
+      "title": "هجوم إلكتروني يستهدف المفوضية الأوروبية ومخاوف من اختراق واسع للبيانات الشخصية",
+      "titleEnglish": "Cyberattack targets the European Commission and fears of a broad personal data breach",
+      "url": "https://www.aljazeera.net/news/2026/11/19/%D9%87%D8%AC%D9%88%D9%85-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%A7%D9%84%D9%85%D9%81%D9%88%D8%B6%D9%8A%D8%A9",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-19T14:17:00Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-2e1cd85b257cab",
+      "title": "European Commission targeted in an AI-assisted cyberattack, spokesperson confirms",
+      "titleEnglish": "European Commission targeted in an AI-assisted cyberattack, spokesperson confirms",
+      "url": "https://www.dw.com/en/eu-commission-confirms-it-was-targeted-in-cyberattack-using-ai-tools/a-79993016",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-21T13:02:00Z",
+      "seenAt": "2026-11-21T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "en"
+    },
+    {
+      "id": "n-3b7c9cda07bf1a",
+      "title": "Oyster photocard holders’ personal data accessed in TfL breach",
+      "titleEnglish": "Oyster photocard holders’ personal data accessed in TfL breach",
+      "url": "https://www.bbc.co.uk/news/articles/c6n4kz3lgdz5o",
+      "publisher": "BBC News",
+      "publisherDomain": "bbc.co.uk",
+      "publishedAt": "2026-11-18T21:47:00Z",
+      "seenAt": "2026-11-18T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-08a790baa0999d",
+      "title": "個資大外洩！日本DHC「逾千萬筆」資料流出 JINS、思夢樂也淪陷",
+      "titleEnglish": "Major personal data leak: Japan's DHC reports over 10 million records leaked; JINS and Shimamura also affected",
+      "url": "https://news.tvbs.com.tw/world/4052631",
+      "publisher": "TVBS新聞網",
+      "publisherDomain": "news.tvbs.com.tw",
+      "publishedAt": "2026-11-18T13:09:30Z",
+      "seenAt": "2026-11-18T13:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-8fc6a7913a95d1",
+      "title": "【速報】ZOZOTOWNも1518万人情報漏えい",
+      "titleEnglish": "[Breaking] ZOZOTOWN also leaks data of 15.18 million people",
+      "url": "https://www.47news.jp/15262906.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-11-20T11:02:00Z",
+      "seenAt": "2026-11-20T11:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-721b71d03906d6",
+      "title": "The Expedia breach shows why companies must stop holding data they do not need | Fortune",
+      "titleEnglish": "The Expedia breach shows why companies must stop holding data they do not need | Fortune",
+      "url": "https://fortune.com/2026/11/20/expedia-breach-data-minimization-identity-verification-trua-raj-ananthanpillai/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-11-20T14:02:00Z",
+      "seenAt": "2026-11-20T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-21f4951049ac8e",
+      "title": "4銀行爆盜轉56萬！5人存款遭轉走 金管會揭共同點 | ETtoday財經雲 | ETtoday新聞雲",
+      "titleEnglish": "Four banks hacked, 560,000 transferred; 5 people's deposits stolen; FSC reveals common point | ETtoday Finance Cloud | ETtoday News Cloud",
+      "url": "https://finance.ettoday.net/news/3275197",
+      "publisher": "ETtoday財經雲",
+      "publisherDomain": "finance.ettoday.net",
+      "publishedAt": "2026-11-19T14:17:00Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-38db427d191edd",
+      "title": "Singapore FinTech Festival: Binance hack raises concerns over crypto security",
+      "titleEnglish": "Singapore FinTech Festival: Binance hack raises concerns over crypto security",
+      "url": "https://www.channelnewsasia.com/watch/singapore-fintech-festival-binance-hack-raises-concerns-over-crypto-security-6562726",
+      "publisher": "CNA",
+      "publisherDomain": "channelnewsasia.com",
+      "publishedAt": "2026-11-18T14:17:00Z",
+      "seenAt": "2026-11-18T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-20b282f2e4792a",
+      "title": "שישי שחור בוול סטריט: הנאסד\"ק מחק את כל עליות השנה - וואלה כסף",
+      "titleEnglish": "Black Friday on Wall Street: Nasdaq erases all gains of the year - Walla Money",
+      "url": "https://finance.walla.co.il/item/3877075",
+      "publisher": "וואלה",
+      "publisherDomain": "finance.walla.co.il",
+      "publishedAt": "2026-11-21T09:32:00Z",
+      "seenAt": "2026-11-21T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
+    },
+    {
+      "id": "n-e137ecd65df125",
+      "title": "לא רק רומנים בעבודה: חמש צרות חדשות נחתו אתמול על אנבידיה",
+      "titleEnglish": "Not Just Romances at Work: Five New Troubles Hit Nvidia Yesterday",
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001564317",
+      "publisher": "גלובס",
+      "publisherDomain": "globes.co.il",
+      "publishedAt": "2026-11-21T09:00:00Z",
+      "seenAt": "2026-11-21T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
+    },
+    {
+      "id": "n-86f39c204fd7bd",
+      "title": "Il futuro dell'AI fra Nvidia e Anthropic: riassunto di una settimana di fuoco",
+      "titleEnglish": "The Future of AI Between Nvidia and Anthropic: Summary of a Fiery Week",
+      "url": "https://www.corriere.it/oriente-occidente-federico-rampini/26_novembre_21/futuro-nvidia-anthropic-riassunto-settimana-fuoco-40f4f3a6-6a80-4bb5-b31f-130ce8171xlk.shtml",
+      "publisher": "Corriere della sera",
+      "publisherDomain": "corriere.it",
+      "publishedAt": "2026-11-21T08:27:21Z",
+      "seenAt": "2026-11-21T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-7aa679074a5fa2",
+      "title": "Data centers full of U.S. chips are serving Chinese AI models–undermining Trump’s tech ambitions | Fortune",
+      "titleEnglish": "Data centers full of U.S. chips are serving Chinese AI models–undermining Trump’s tech ambitions | Fortune",
+      "url": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-11-21T12:32:00Z",
+      "seenAt": "2026-11-21T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-a0e49fe44d305c",
+      "title": "Giá vàng giảm hơn 2.000 USD/ounce từ đỉnh và kỳ vọng đảo chiều",
+      "titleEnglish": "Gold price falls more than $2,000 per ounce from peak, and expectations of a reversal",
+      "url": "https://dantri.com.vn/kinh-doanh/gia-vang-giam-hon-2000-usdounce-tu-dinh-va-ky-vong-dao-chieu-20261121183337523.htm",
+      "publisher": "Báo điện tử Dân trí",
+      "publisherDomain": "dantri.com.vn",
+      "publishedAt": "2026-11-21T13:02:00Z",
+      "seenAt": "2026-11-21T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Vietnam",
+      "sourceCountryCode": "VN",
+      "sourceRegion": "Asia",
+      "sourceLat": 16,
+      "sourceLon": 107,
+      "language": "vi"
+    },
+    {
+      "id": "n-a99bad631e7195",
+      "title": "接连失守5个关口！金价大跳水背后原因——",
+      "titleEnglish": "Five key levels lost in a row! Reasons behind gold's sharp plunge——",
+      "url": "https://news.bjd.com.cn/2026/11/21/12038929.shtml",
+      "publisher": "京报网",
+      "publisherDomain": "news.bjd.com.cn",
+      "publishedAt": "2026-11-21T09:50:37Z",
+      "seenAt": "2026-11-21T10:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-9e4079f3789c92",
+      "title": "Биткойн упал до $55 тыс. впервые с сентября 2024 года",
+      "titleEnglish": "Bitcoin falls to $55 thousand for the first time since September 2024",
+      "url": "https://www.kommersant.ru/doc/9127070",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-21T09:22:02Z",
+      "seenAt": "2026-11-21T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-2671b53e0eba51",
+      "title": "الذهب في 2027.. خريطة الأسعار والفرص الاستثمارية وسيناريوهات الحركة - الوطن",
+      "titleEnglish": "Gold in 2027: price map, investment opportunities and movement scenarios - Al Watan",
+      "url": "https://www.elwatannews.com/news/details/8400978",
+      "publisher": "الوطن",
+      "publisherDomain": "elwatannews.com",
+      "publishedAt": "2026-11-21T13:57:47Z",
+      "seenAt": "2026-11-21T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-1fe03f9951fcc3",
+      "title": "不只外資提款逾3兆！阮慕驊揭投信「這些股票想賣也沒人接」：中期難重返多頭 | 徐莉雯 | 新聞",
+      "titleEnglish": "Not just foreign investors withdrawing over 3 trillion! Juan Mu-hua reveals investment trusts: \"These stocks can't be sold, no one will take them\": hard to return to a bull market in the medium term | Xu Liwen | News",
+      "url": "https://www.storm.mg/article/11183750",
+      "publisher": "storm.mg",
+      "publisherDomain": "storm.mg",
+      "publishedAt": "2026-11-21T12:00:00Z",
+      "seenAt": "2026-11-21T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-bfff444f4fbbcf",
+      "title": "特朗普批美联储利率太高 美联储主席陷两难",
+      "titleEnglish": "Trump criticises Fed interest rates as too high; Fed chair caught in a dilemma",
+      "url": "https://www.yicai.com/brief/103449062.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-11-21T12:32:00Z",
+      "seenAt": "2026-11-21T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-79072ad2e4dd9f",
+      "title": "Mutui più cari, case più piccole: l’aumento dei tassi si è mangiato in due anni quasi il 10% del potere d’acquisto",
+      "titleEnglish": "Pricier Mortgages, Smaller Homes: Rate Rises Have Eaten Nearly 10% of Purchasing Power in Two Years",
+      "url": "https://www.corriere.it/economia/casa/26_novembre_21/mutui-piu-cari-case-piu-piccole-l-aumento-dei-tassi-si-e-mangiato-in-due-anni-quasi-il-10-del-potere-d-acquisto-53a69dfc-76e5-4458-94a3-384e74f96xlk.shtml",
+      "publisher": "Corriere della sera",
+      "publisherDomain": "corriere.it",
+      "publishedAt": "2026-11-21T08:04:25Z",
+      "seenAt": "2026-11-21T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-ab862af0c2dc1d",
+      "title": "Shah backs Siang dam, promises dialogue with protesters | Guwahati News - The Times of India",
+      "titleEnglish": "Shah backs Siang dam, promises dialogue with protesters | Guwahati News - The Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/guwahati/shah-backs-siang-dam-promises-dialogue-with-protesters/articleshow/136057339.cms",
+      "publisher": "The Times of India",
+      "publisherDomain": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-11-21T18:32:00Z",
+      "seenAt": "2026-11-21T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-a751eeb0c1c9a5",
+      "title": "Sharavathi submergence: Official report will be submitted to SC in next 10 days | Mysuru News - The Times of India",
+      "titleEnglish": "Sharavathi submergence: Official report will be submitted to SC in next 10 days | Mysuru News - The Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/mysuru/sharavathi-submergence-official-report-will-be-submitted-to-sc-in-next-10-days/articleshow/135935560.cms",
+      "publisher": "The Times of India",
+      "publisherDomain": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-11-17T22:17:00Z",
+      "seenAt": "2026-11-17T22:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-4c0407971eeefc",
+      "title": "Kemijoki oy tarjoaa Kemijärvelle vedenpinnan korotusta ja miljoonatuloja",
+      "titleEnglish": "Kemijoki Oy offers Kemijärvi a water level increase and millions in revenue",
+      "url": "https://yle.fi/a/74-20258008",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-19T16:07:21Z",
+      "seenAt": "2026-11-19T16:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-dec180ef85cdb2",
+      "title": "Orpon hallituksen suurin luonnosuojeluhanke epäonnistui – Pohjois-Karjalan Sähkö ei myy Palokin voimalaa",
+      "titleEnglish": "Orpo government's largest nature conservation project failed – Pohjois-Karjala Sähkö does not sell Palokki power plant",
+      "url": "https://yle.fi/a/74-20258090",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-20T13:53:02Z",
+      "seenAt": "2026-11-20T14:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-980d27ab8953d9",
+      "title": "翡翠水庫蓋光電爭議 蔣萬安嗆中央「問心酸的嗎？」 | 2026九合一選舉",
+      "titleEnglish": "Feicui reservoir solar panel dispute: Chiang Wan-an hits back at central government, \"Is your conscience troubled?\" | 2026 nine-in-one elections",
+      "url": "https://udn.com/vote2026/story/124652/9885253",
+      "publisher": "2026九合一選舉",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-11-17T23:17:00Z",
+      "seenAt": "2026-11-17T23:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-39fc45b45e75e0",
+      "title": "水庫設光電板熱議 蔣萬安問沈伯洋：手中寶劍是捍衛民進黨利益？ | ETtoday政治新聞 | ETtoday新聞雲",
+      "titleEnglish": "Reservoir solar panels debated; Chiang Wan-an asks Shen Boyang: is the sword in your hand meant to defend DPP interests? | ETtoday Political News | ETtoday News Cloud",
+      "url": "https://www.ettoday.net/news/20261117/3273885.htm",
+      "publisher": "ETtoday新聞雲",
+      "publisherDomain": "ettoday.net",
+      "publishedAt": "2026-11-17T10:52:00Z",
+      "seenAt": "2026-11-17T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-0a2ac1b87607e1",
+      "title": "桃園埤塘不種電 張善政喊話：認清他與黃世杰的差異 | 聯合新聞網",
+      "titleEnglish": "Taoyuan pond not used for electricity generation; Chang Shan-cheng urges: recognise the difference between him and Huang Shih-chieh | UDN",
+      "url": "https://udn.com/news/story/124652/9889932",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-11-19T13:46:07Z",
+      "seenAt": "2026-11-19T14:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-b8ce63cff22b5b",
+      "title": "Cauvery dispute: SC dismisses Tamil Nadu’s pleas for additional water release from Karnataka - The Tribune",
+      "titleEnglish": "Cauvery dispute: SC dismisses Tamil Nadu’s pleas for additional water release from Karnataka - The Tribune",
+      "url": "https://www.tribuneindia.com/news/india/cauvery-dispute-sc-dismisses-tamil-nadus-pleas-for-additional-water-release-from-karnataka/",
+      "publisher": "The Tribune",
+      "publisherDomain": "tribuneindia.com",
+      "publishedAt": "2026-11-20T09:32:15Z",
+      "seenAt": "2026-11-20T10:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-eb3686bbd5c477",
+      "title": "No hay tregua (hídrica) para Doñana: el acuífero que alimenta al parque está en \"muy mal estado\"",
+      "titleEnglish": "No water truce for Doñana: the aquifer that feeds the park is in \"very bad condition\"",
+      "url": "https://www.elmundo.es/andalucia/2026/11/19/6aff2e47fdddffaf418b45a5.html",
+      "publisher": "El Mundo",
+      "publisherDomain": "elmundo.es",
+      "publishedAt": "2026-11-19T17:41:01Z",
+      "seenAt": "2026-11-19T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-72728f824611a4",
+      "title": "Sec. de Estado compara impacto do Bloco de Rega de Reguengos de Monsaraz à transformação de Alqueva",
+      "titleEnglish": "Sec. of State compares impact of Reguengos de Monsaraz Irrigation Block to the transformation of Alqueva",
+      "url": "https://sapo.pt/artigo/sec-de-estado-compara-impacto-do-bloco-de-rega-de-reguengos-de-monsaraz-a-transformacao-de-alqueva-6afe225d8caa48e7be713a14",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-11-18T22:01:24Z",
+      "seenAt": "2026-11-18T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-db19b608636a39",
+      "title": "Cierre la llave: Galán advierte que Bogotá podría enfrentar racionamiento de agua y energía por El Niño",
+      "titleEnglish": "Turn off the tap: Galán warns Bogotá could face water and energy rationing due to El Niño",
+      "url": "https://www.elcolombiano.com/inicio/bogota-podria-enfrentar-racionamiento-agua-energia-por-que-BE43749778",
+      "publisher": "El Colombiano",
+      "publisherDomain": "elcolombiano.com",
+      "publishedAt": "2026-11-18T22:49:06Z",
+      "seenAt": "2026-11-18T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-c32e540c908e92",
+      "title": "Los indígenas Wayúu engordan a sus chivos y ovejos para enfrentar a ‘El Niño’ en la zona más seca de Colombia",
+      "titleEnglish": "The Wayúu indigenous people fatten their goats and sheep to face 'El Niño' in Colombia's driest zone",
+      "url": "https://elpais.com/america-colombia/2026-11-21/los-indigenas-wayuu-engordan-a-sus-chivos-y-ovejos-para-enfrentar-a-el-nino-en-la-zona-mas-seca-de-colombia.html",
+      "publisher": "El País América Colombia",
+      "publisherDomain": "elpais.com",
+      "publishedAt": "2026-11-21T09:30:00Z",
+      "seenAt": "2026-11-21T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-1db3880c177ad8",
+      "title": "«مياه الشرقية»: عقد ندوات لتوعية 250 ألف مواطن بترشيد استهلاك المياه - الوطن",
+      "titleEnglish": "'Sharqiya Water': holding seminars to raise awareness among 250,000 citizens on rationalising water consumption - Al Watan",
+      "url": "https://www.elwatannews.com/news/details/8400974",
+      "publisher": "الوطن",
+      "publisherDomain": "elwatannews.com",
+      "publishedAt": "2026-11-21T13:53:39Z",
+      "seenAt": "2026-11-21T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-4603ad1f652297",
+      "title": "ندوة لدعم جهود ترشيد استهلاك المياه وتعزيز المشاركة المجتمعية - اليوم السابع",
+      "titleEnglish": "Seminar to support efforts to rationalise water consumption and enhance community participation - Al Youm Al Sabea",
+      "url": "https://www.youm7.com/story/2026/11/21/%D9%86%D8%AF%D9%88%D8%A9-%D9%84%D8%AF%D8%B9%D9%85-%D8%AC%D9%87%D9%88%D8%AF-%D8%AA%D8%B1%D8%B4%D9%8A%D8%AF-%D8%A7%D8%B3%D8%AA%D9%87%D9%84%D8%A7%D9%83-%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9%D9%8A%D8%A9/7627031",
+      "publisher": "اليوم السابع",
+      "publisherDomain": "youm7.com",
+      "publishedAt": "2026-11-21T14:05:50Z",
+      "seenAt": "2026-11-21T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-52b42b6f481ccd",
+      "title": "الناقل الوطني الأمن القومي والمائي أولا ، والشفافية ضرورة",
+      "titleEnglish": "The national carrier: national security and water first, and transparency is a necessity",
+      "url": "https://alanbatnews.net/article/486706",
+      "publisher": "الأنباط",
+      "publisherDomain": "alanbatnews.net",
+      "publishedAt": "2026-11-21T13:04:06Z",
+      "seenAt": "2026-11-21T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-bad3fb9d050d72",
+      "title": "ارتفاع مناسيب \"الحبانية\" يغرق أراضي كريشان الزراعية ويدفع الأسماك نحو المنخفضات(صور)",
+      "titleEnglish": "Rising Water Levels in Al-Habbaniyah Flood Kurayshan Agricultural Lands and Push Fish Toward Low Areas (Photos)",
+      "url": "https://almadapaper.net/461913/",
+      "publisher": "جريدة المدى",
+      "publisherDomain": "almadapaper.net",
+      "publishedAt": "2026-11-21T08:43:23Z",
+      "seenAt": "2026-11-21T09:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Iraq",
+      "sourceCountryCode": "IQ",
+      "sourceRegion": "Middle East",
+      "sourceLat": 33,
+      "sourceLon": 44,
+      "language": "ar"
+    },
+    {
+      "id": "n-2a665f87c36add",
+      "title": "鹿児島市の甲突川流域水害対策計画素案 県が来月9日までパブコメ 中上流域の水田地帯を貯留機能区域に指定",
+      "titleEnglish": "Kagoshima City Kotsuki River Basin Flood Countermeasure Plan Draft; Prefecture Public Comment Until Next Month's 9th; Paddy Fields in Middle-Upper Basin Designated as Retention Zones",
+      "url": "https://373news.com/news/local/detail/243118/",
+      "publisher": "南日本新聞デジタル",
+      "publisherDomain": "373news.com",
+      "publishedAt": "2026-11-20T21:32:00Z",
+      "seenAt": "2026-11-20T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    }
+  ],
+  "settled": [
+    {
+      "id": "20261102T013011-iran-choice-timed-to-midterms-2",
+      "status": "failed",
+      "how": "expired"
+    },
+    {
+      "id": "20261102T232930-iran-talks-priced-before-the-fighting-stops-2",
+      "status": "failed",
+      "how": "expired"
+    },
+    {
+      "id": "20261104T215151-us-vote-read-through-own-disputes-1",
+      "status": "failed",
+      "how": "expired"
+    },
+    {
+      "id": "20261111T224126-pope-leo-politics-and-restraint-1",
+      "status": "failed",
+      "how": "expired"
+    }
+  ],
+  "readings": [
+    {
+      "id": "ships-struck-after-summit",
+      "line": "The talks after the summit are about lines on land, while both wars are now fought against ships, which no draft yet covers.",
+      "kicker": "SHIPPING / CEASEFIRES / TERRITORY",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "Finland or Estonia announces naval escorts, boarding checks or new rules for ships passing through the Gulf of Finland.",
+          "by": "2026-12-05",
+          "because": "If the fighting has moved to shipping that the talks do not cover, the coastal states that are not at war are the first who must act on it.",
+          "id": "20261121T213836-ships-struck-after-summit-1"
+        },
+        {
+          "what": "A proposal in the Ukraine or Iran talks is reported to include safe passage for merchant ships or a ban on attacking them.",
+          "by": "2026-12-19",
+          "because": "If attacks on ships have become the fighting that a settlement drawn on land misses, negotiators in both wars will have to add terms for the sea.",
+          "id": "20261121T213836-ships-struck-after-summit-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the Tanker War of 1984 to 1988 inside the Iran-Iraq war, when more than 400 merchant ships were attacked in the Gulf and the US began escorting reflagged Kuwaiti tankers in 1987; the attacks ended only with the ceasefire of August 1988. The Black Sea grain deal of July 2022 showed the other route, a sea agreement made apart from the land war, which Russia left in July 2023. The present differs because two wars are hitting ships at once, and one of the seas lies between two NATO members.",
+        "paths": [
+          {
+            "name": "Coastal states police the routes",
+            "weight": "favoured",
+            "text": "Over the next three months Finland, Estonia and Gulf states such as Oman add patrols, inspections and escorts, and insurers raise war-risk charges, while the talks stay on uranium, borders and alliances. This is favoured because coastal states can act within days, while adding sea terms to stalled talks needs both sides to agree. Attacks on ships go on at a lower rate.",
+            "sign": "Finland or Estonia announces navy escorts or boarding checks for ships in the Gulf of Finland."
+          },
+          {
+            "name": "A separate deal for shipping",
+            "weight": "possible",
+            "text": "As in July 2022, negotiators split off a maritime agreement covering tankers in Hormuz or traffic to Kaliningrad, brokered by Turkey, Oman or Qatar, before any wider settlement. It is less likely in the coming months because neither the Iran talks nor the Ukraine talks have produced even a first agreed text.",
+            "sign": "Oman, Turkey or Qatar announces talks on safe passage for merchant shipping."
+          },
+          {
+            "name": "Attacks at sea stop",
+            "weight": "unlikely",
+            "text": "The summit leads to a pause at sea along with the land talks within weeks. Unlikely because these attacks came after the summit, and the attacker in the Baltic case is not even named, so there is no one to hold to a pause.",
+            "sign": "A week passes with no reported attack on a merchant ship in the Gulf or the Baltic."
+          }
+        ],
+        "decade": "Over ten years, settlements of wars fought with cheap drones will need sea clauses written beside the land ones, and the Baltic and the Gulf will be escorted waters as the Gulf was in the late 1980s."
+      },
+      "continues": "neighbours-fortify-after-declaration",
+      "change": "Yesterday the countries near the summit's powers were building bases and closing borders. Since then a Russian cargo ship has been disabled by drones in the Gulf of Finland, two tankers have been hit leaving Hormuz and Iran has shot down a US drone, so the fighting the declaration left untouched is now reported mainly at sea.",
+      "claim": "A Russian cargo ship, Sparta II, was disabled by drones in the Gulf of Finland between Finland and Estonia; two tankers were hit by unknown projectiles as they left the Strait of Hormuz off Oman; Iran's Revolutionary Guard shot down a US drone over the strait; and more than 110 Russian missiles struck Ukraine, one reported to have hit Poland. All of this followed the Shenzhen meeting of Trump, Xi and Putin, and the talks since are reported as being about uranium, NATO and Russia's prewar demands. The fighting that continues is aimed increasingly at ships and at the routes that supply Kaliningrad and carry Gulf oil, which a settlement drawn on land does not reach.",
+      "events": [
+        {
+          "label": "Russian ship Sparta II disabled by drones",
+          "articleIds": [
+            "n-9575d84242a36d",
+            "n-7d7c22a4c5591a",
+            "n-9f37e24b48c3b7",
+            "n-2cd0dd134ab0be",
+            "n-85a7211a5e1da0"
+          ]
+        },
+        {
+          "label": "Two tankers hit leaving Hormuz",
+          "articleIds": [
+            "n-fec288b2227a29",
+            "n-c7dabb8aca3ff2",
+            "n-919c3da4e67d8d",
+            "n-e7d831b6823d70"
+          ]
+        },
+        {
+          "label": "US drone downed as Iran talks stall",
+          "articleIds": [
+            "n-409acad4bae087",
+            "n-aa775d852d9df7",
+            "n-3366880ad03ce4"
+          ]
+        },
+        {
+          "label": "Missile barrage on Ukraine reaches Poland",
+          "articleIds": [
+            "n-693cf8b7fdfcaa",
+            "n-05150dd44522fb"
+          ]
+        },
+        {
+          "label": "Airspace and base alerts in Finland and Sicily",
+          "articleIds": [
+            "n-f2f54f4eb24d64",
+            "n-5f6e7c3aa1eaf6"
+          ]
+        },
+        {
+          "label": "Summit read as a deal over land",
+          "articleIds": [
+            "n-8b29d211c2bc89",
+            "n-b847119fe5f7d7",
+            "n-9d88b58df321e5",
+            "n-48c71773597521"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Ships hit in two seas",
+          "fragments": [
+            {
+              "id": "r1f1",
+              "label": "Sparta II in the Gulf of Finland",
+              "text": "Finland's Yle followed the Russian vessel Sparta II from its voyage to its end in the Gulf of Finland, and Norway's NRK reports that Finnish authorities confirm it was attacked by drones. Yle quotes Estonia's navy commander saying its engines cannot be used. Yle also reports Russian state media telling its public that supplies to Kaliningrad are not at risk, and Svenska Yle quotes Finland's defence minister Antti Häkkänen calling the day's events a step in a dangerous direction.",
+              "articleIds": [
+                "n-9575d84242a36d",
+                "n-7d7c22a4c5591a",
+                "n-9f37e24b48c3b7",
+                "n-2cd0dd134ab0be",
+                "n-85a7211a5e1da0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r1f2",
+              "label": "Tankers leaving Hormuz",
+              "text": "China's Yicai reports two tankers attacked in succession as they left the Strait of Hormuz, and Iran's statement that one caught fire east of the strait. Al Jazeera describes two tankers hit by 'unknown projectiles' off the coast of Oman. Greece's iefimerida carries a British swimmer's account of crossing 15 kilometres of the strait while a tanker was under attack.",
+              "articleIds": [
+                "n-fec288b2227a29",
+                "n-c7dabb8aca3ff2",
+                "n-919c3da4e67d8d",
+                "n-e7d831b6823d70"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Air attacks and stalled talks",
+          "fragments": [
+            {
+              "id": "r2f1",
+              "label": "Drones and missiles near the talks",
+              "text": "Al Jazeera reports the Revolutionary Guard downing a US drone over Hormuz 'as efforts to end war remain stalled'. Taiwan's TVBS reports more than 110 missiles fired at Ukraine after the US-China-Russia meeting, which Zelensky called one of the largest attacks of the war, and a Malay-language Liputan6 report says a Russian missile hit Poland. ANSA reports Finland suspecting a Russian helicopter of entering its airspace, and Sky TG24 reports checks on drones over the US base at Sigonella in Sicily.",
+              "articleIds": [
+                "n-409acad4bae087",
+                "n-693cf8b7fdfcaa",
+                "n-05150dd44522fb",
+                "n-f2f54f4eb24d64",
+                "n-5f6e7c3aa1eaf6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r2f2",
+              "label": "What the talks are about",
+              "text": "Saudi Arabia's Okaz and Jordan's Khaberni describe the Washington-Tehran negotiations as stuck on the fate of Iran's uranium. Argentina's Cadena 3 says the Shenzhen meeting 'was not a summit for peace', El País says Xi won it, and Unian quotes Zelensky saying a 'Yalta-2' did not work out for Putin. None of these accounts mentions shipping.",
+              "articleIds": [
+                "n-aa775d852d9df7",
+                "n-3366880ad03ce4",
+                "n-8b29d211c2bc89",
+                "n-b847119fe5f7d7",
+                "n-9d88b58df321e5"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Why the sea is left out",
+          "fragments": [
+            {
+              "id": "r3f1",
+              "label": "Supply routes as targets",
+              "text": "The ships struck carry what each side needs to keep going: Gulf oil for importers, and the sea route Russia uses to supply Kaliningrad, which Moscow's state media were quick to call safe. A declaration about borders and alliances leaves those routes open, because no line on a map assigns them. The Hormuz and Baltic attacks share no attacker that the headlines name, but they share a target: cargo moving between countries that are not party to the talks.",
+              "articleIds": [
+                "n-2cd0dd134ab0be",
+                "n-919c3da4e67d8d",
+                "n-fec288b2227a29"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "oil-embargo-1973"
+              ]
+            },
+            {
+              "id": "r3f2",
+              "label": "Neutral waters drawn in",
+              "text": "The Gulf of Finland lies between two NATO members, and the tankers were hit off Oman, which is at war with no one. Finland's defence minister and Estonia's navy are now answering for a strike neither made. WSLS reports the US raising European security at the Ukraine talks, which widens the agenda toward Europe but not yet toward the sea.",
+              "articleIds": [
+                "n-85a7211a5e1da0",
+                "n-9f37e24b48c3b7",
+                "n-48c71773597521"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "r4f1",
+              "label": "Two wars, no shared attacker",
+              "text": "These are not one campaign. The Hormuz attacks belong to a US-Iran conflict with its own record of tanker strikes since 2019, while the Sparta II strike has no named attacker in these headlines and may be a single operation against a military supplier. The missiles on Ukraine and the reported hit on Poland are attacks on land, not at sea. What the events share is timing after one summit and the fact that ships were hit; they do not share a war, an attacker or a purpose, and attacks on shipping have run through both conflicts for years, so one day's cluster may say little about where the fighting is moving.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "DRONES / SHIPPING / SANCTIONS",
+          "text": "Three things in this decade made ships the easiest target in a war. The first was cheap long-range drones: Azerbaijan's in Karabakh in 2020, then Ukraine's sea drones, which from 2023 forced much of Russia's Black Sea Fleet to move from Sevastopol to Novorossiysk, and Ukraine's lorry-launched strike on Russian bombers in June 2025. The second was the Houthi campaign against Red Sea shipping from November 2023, which sent container lines around the Cape of Good Hope for more than a year. The third was the sanctions on Russia after February 2022, which made Russian ships and the old tankers of its so-called shadow fleet an object of policy in the Baltic. By these headlines, the Sparta II disabled in the Gulf of Finland and the tankers hit off Oman are the same cheap weapons used against the same kind of target, after a meeting presented as the end of both wars.",
+          "trajectoryIds": [
+            "karabakh-2020",
+            "spiderweb-2025"
+          ],
+          "bookIds": [
+            "theory-of-the-drone"
+          ]
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "PIRACY / ESCORTS / STRAITS",
+          "text": "The years after 2008 taught navies to protect merchant ships against attackers that were not states. Somali piracy peaked between 2008 and 2011, and the EU's first naval mission, Operation Atalanta, began in December 2008 to escort food aid and trade through the Gulf of Aden; it worked because many navies agreed on one enemy. Russia's seizure of Crimea in 2014, and of three Ukrainian navy boats in the Kerch Strait in November 2018, showed a state using a strait as leverage. In May and June 2019 tankers were damaged off Fujairah and in the Gulf of Oman, and in September drones and missiles hit Abqaiq. The difference in the present headlines is that the attackers at sea are states or their proxies again, so the Atalanta model, built on a shared enemy, cannot simply be copied to the Gulf of Finland, where Finland's defence minister calls the drone strike a step in a dangerous direction.",
+          "trajectoryIds": [
+            "abqaiq-2019"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "SEA LAW / EXCLAVES / NATO",
+          "text": "The end of the Cold War drew the map these ships now cross. When the Soviet Union broke up in 1991, Kaliningrad became a Russian exclave separated from Russia by Lithuania and Belarus, supplied by rail through Lithuania and by sea from St Petersburg and Ust-Luga through the Gulf of Finland. The UN Convention on the Law of the Sea came into force in 1994 and guaranteed transit passage through straits such as Hormuz. From the mid-1990s Finland and Estonia kept their territorial waters back from the middle of the Gulf of Finland, leaving a corridor of international water open to all shipping, Russia's included. Estonia joined NATO in 2004 and Finland in 2023. The corridor that was a sign of the post-1989 peace is where Sparta II was struck, and the Russian state media assurance about Kaliningrad, reported by Yle, shows how much rests on that one route.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OIL / STRAITS / ALLIANCE",
+          "text": "The Gulf half of this join rests on a postwar bargain. In February 1945 Roosevelt and Ibn Saud agreed, without a treaty, that American power would protect Saudi oil. Suez in 1956 showed that a passage itself could be seized, and the Arab embargo of 1973 showed a regional war becoming a world price. After the revolution in Tehran in 1979, President Carter declared in January 1980 that the US would use force to keep the Gulf open, and in 1987 it began escorting Kuwaiti tankers through the Tanker War. The Baltic half belongs to the Cold War order, in which Finland's neutrality kept its gulf quiet for four decades. Al Jazeera's report of a US drone shot down over Hormuz while talks stall over uranium is the 1980 commitment still being tested, now beside a Baltic that has lost the neutrality that once kept it out of other people's wars.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "oil-embargo-1973",
+            "tehran-1979"
+          ],
+          "bookIds": [
+            "the-prize"
+          ]
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-9575d84242a36d",
+        "n-7d7c22a4c5591a",
+        "n-9f37e24b48c3b7",
+        "n-2cd0dd134ab0be",
+        "n-85a7211a5e1da0",
+        "n-fec288b2227a29",
+        "n-c7dabb8aca3ff2",
+        "n-919c3da4e67d8d",
+        "n-e7d831b6823d70",
+        "n-409acad4bae087",
+        "n-693cf8b7fdfcaa",
+        "n-05150dd44522fb",
+        "n-f2f54f4eb24d64",
+        "n-5f6e7c3aa1eaf6",
+        "n-aa775d852d9df7",
+        "n-3366880ad03ce4",
+        "n-8b29d211c2bc89",
+        "n-b847119fe5f7d7",
+        "n-9d88b58df321e5",
+        "n-48c71773597521"
+      ]
+    },
+    {
+      "id": "personal-data-breaches",
+      "line": "For four days running, data people must give the state has been breached as often as data they chose to give shops.",
+      "kicker": "OBLIGATION / CONSENT / EXPOSURE",
+      "firmness": "firm",
+      "watch": [
+        {
+          "what": "A national government in Europe or Asia reports a breach of a population register, tax, health or police records system.",
+          "by": "2026-12-05",
+          "because": "If attackers are now working through the state's compulsory records rather than mainly through shops, the run should continue beyond Washington and Brussels.",
+          "id": "20261121T213836-personal-data-breaches-1"
+        },
+        {
+          "what": "A US or EU official attributes the FBI, Agriculture Department or European Commission breach to a named state or group.",
+          "by": "2026-12-12",
+          "because": "Public bodies breached in the same days by similar means point to one capable attacker, and governments name attackers of their own systems more readily than they do for firms.",
+          "id": "20261121T213836-personal-data-breaches-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the breach of the US Office of Personnel Management, disclosed in June 2015, in which the background-check files of 21.5 million people were taken; it was attributed informally to China, the agency's director resigned within weeks, and the government offered credit monitoring that did nothing for people whose fingerprints had been stolen. Little changed in what the state collects. The present differs because public bodies on both sides of the Atlantic are hit in the same week, and one attack is reported to have used AI.",
+        "paths": [
+          {
+            "name": "Attribution without less collection",
+            "weight": "favoured",
+            "text": "Within weeks US and EU officials name a foreign state or group for the FBI and Commission breaches, and sanctions or indictments follow, while the record systems stay as they are. This is favoured because attribution is the tool governments already use, and it asks nothing of their own record-keeping.",
+            "sign": "The FBI or the Commission names China, Russia, Iran or North Korea as behind the breach."
+          },
+          {
+            "name": "Limits on what states keep",
+            "weight": "possible",
+            "text": "The European Parliament or a national data authority uses the Commission breach to press for limits on how long public bodies keep personal records, matching the duty to hold less that firms already have under the GDPR. Possible because EU institutions already fall under their own data protection regulation, but slow within a year because security agencies resist any limit.",
+            "sign": "The European Data Protection Supervisor opens an inquiry into the Commission breach."
+          },
+          {
+            "name": "Citizens paid for state breaches",
+            "weight": "unlikely",
+            "text": "Courts or governments compensate people whose records a public body lost, as courts sometimes order firms to do. Unlikely because state immunity and the absence of any contract protect governments, as the small settlement years after the OPM breach showed.",
+            "sign": "A court orders a government agency to pay damages to people whose records were breached."
+          }
+        ],
+        "decade": "Over ten years states will hold more compulsory records, from digital identity to health files, while breaches of them become routine, and the argument will turn to whether citizens can demand that records be deleted."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Since 18 November attackers have reached Transport for London's photocard records, the European Commission's internal servers through an AI-assisted attack, the FBI's National Crime Information Center database and the US Agriculture Department, alongside leaks of over 10 million records at Japan's DHC and 15.18 million at ZOZOTOWN and thefts from four Taiwanese banks and the Binance exchange. The notebook has followed these leaks for four days, and what the four days show that no single day did is that public bodies now make up about half the list. A customer can leave a shop that lost their data, but nobody can withdraw a criminal record, a farm inspection file or a travel photocard from the body that holds it, so these breaches fall on people who never had a choice.",
+      "events": [
+        {
+          "label": "FBI crime records database breach investigated",
+          "articleIds": [
+            "n-cc31962e86f0d1",
+            "n-a329459148aac6",
+            "n-2083c73ee678a4",
+            "n-4e34659235e992"
+          ]
+        },
+        {
+          "label": "US Agriculture Department hacked",
+          "articleIds": [
+            "n-8beb1933ca54d2"
+          ]
+        },
+        {
+          "label": "AI-assisted attack on the European Commission",
+          "articleIds": [
+            "n-1821469fca6473",
+            "n-e5594770bb39e6",
+            "n-2e1cd85b257cab"
+          ]
+        },
+        {
+          "label": "London transport photocard data accessed",
+          "articleIds": [
+            "n-3b7c9cda07bf1a"
+          ]
+        },
+        {
+          "label": "Japanese retailers and Expedia leak customer records",
+          "articleIds": [
+            "n-08a790baa0999d",
+            "n-8fc6a7913a95d1",
+            "n-721b71d03906d6"
+          ]
+        },
+        {
+          "label": "Bank and crypto accounts emptied",
+          "articleIds": [
+            "n-21f4951049ac8e",
+            "n-38db427d191edd"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Public bodies breached",
+          "fragments": [
+            {
+              "id": "r1f1",
+              "label": "Crime records and farm data",
+              "text": "On 21 November Canada's Niagara Falls Review, citing an AP source, Anadolu, citing CNN, and Jordan's Khaberni reported that the FBI is investigating a breach of the National Crime Information Center database, and ANSA quoted Trump saying an attack on the FBI is 'not a good thing'. International Business Times UK reported a hack of the US Agriculture Department that raises fears over food safety data and animal disease research.",
+              "articleIds": [
+                "n-cc31962e86f0d1",
+                "n-a329459148aac6",
+                "n-2083c73ee678a4",
+                "n-4e34659235e992",
+                "n-8beb1933ca54d2"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r1f2",
+              "label": "Brussels and London",
+              "text": "On 19 November El País reported an attack using an AI tool on internal servers of the European Commission, and Al Jazeera reported fears of a broad personal data breach; on 21 November DW carried the Commission spokesperson's confirmation. On 18 November the BBC reported that Oyster photocard holders' personal data had been accessed in a Transport for London breach.",
+              "articleIds": [
+                "n-1821469fca6473",
+                "n-e5594770bb39e6",
+                "n-2e1cd85b257cab",
+                "n-3b7c9cda07bf1a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Shops, banks and exchanges",
+          "fragments": [
+            {
+              "id": "r2f1",
+              "label": "Retail and travel",
+              "text": "On 18 November Taiwan's TVBS reported that Japan's DHC had leaked over 10 million records, with JINS and Shimamura also affected, and on 20 November 47NEWS reported data on 15.18 million people leaked at ZOZOTOWN. The same day Fortune argued after the Expedia breach that companies must stop holding data they do not need.",
+              "articleIds": [
+                "n-08a790baa0999d",
+                "n-8fc6a7913a95d1",
+                "n-721b71d03906d6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r2f2",
+              "label": "Money accounts",
+              "text": "On 19 November ETtoday reported four Taiwanese banks hacked, 560,000 transferred and five people's deposits stolen, with the Financial Supervisory Commission revealing a common point. On 18 November Singapore's CNA reported that a Binance hack had raised concerns over crypto security at the city's FinTech Festival.",
+              "articleIds": [
+                "n-21f4951049ac8e",
+                "n-38db427d191edd"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Records nobody can opt out of",
+          "fragments": [
+            {
+              "id": "r3f1",
+              "label": "Compulsory against chosen",
+              "text": "The private leaks concern data people handed over to buy cosmetics, clothes or a holiday; the public ones concern data people had to give or had taken from them: a criminal record, an inspection file, an identity photo on a travel card, dealings with the EU executive. Fortune's argument that firms should hold less has no equivalent for the FBI, which keeps the NCIC database because police forces must check it. The same methods, including an AI tool in the Commission case, now reach both kinds of holder, but only one kind can be refused.",
+              "articleIds": [
+                "n-721b71d03906d6",
+                "n-2e1cd85b257cab",
+                "n-cc31962e86f0d1"
+              ],
+              "bookIds": [
+                "seeing-like-a-state"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r3f2",
+              "label": "The rule-makers breached",
+              "text": "The European Commission drafts the EU's data and cyber rules, and the FBI investigates other organisations' breaches. When they are breached in the same week as retailers, the bodies that would order a firm to notify, delete or compensate are in the firm's position. That is why the four days matter more than any one leak: the line between regulator and regulated has not held.",
+              "articleIds": [
+                "n-2e1cd85b257cab",
+                "n-a329459148aac6",
+                "n-8fc6a7913a95d1"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "r4f1",
+              "label": "A week, not an attacker",
+              "text": "These breaches share dates, not an attacker or a method. The Commission attack used an AI tool, the Taiwanese bank thefts went through a common point named by the regulator, the Japanese retail leaks may come from a shared vendor, and the NCIC case rests on an unconfirmed report from an AP source. Disclosure is uneven: Japan and Taiwan have strict notification rules and English-language outlets watch US agencies closely, so the balance between public and private victims may reflect who must disclose. Governments have been breached for decades, as the US personnel office was in 2015, so the public share of one fortnight's list may be ordinary rather than new.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "DIGITAL ID / AI / RANSOMWARE",
+          "text": "The pandemic moved public services online faster than any reform had: vaccination certificates, identity apps and contact-tracing registers were built in months in 2020 and 2021. The war in Ukraine from February 2022 made government networks a front, and the ransomware attack on the British Library in October 2023 showed a public institution unable to restore its catalogue for months. ChatGPT, released in November 2022, gave attackers tools to write code and convincing messages in any language; the Commission's confirmation to DW that its breach was AI-assisted is the first case in these headlines where a public body names the tool. In the same years travel cards and transport apps became identity documents in practice, which is why the Transport for London breach exposed photocard holders' names and photos. This decade added the records, and the attacks followed them.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CLOUD / DISCLOSURE / GDPR",
+          "text": "After 2008 governments and firms moved records to shared systems and rented clouds to cut costs, and the breaches that followed set the pattern. Edward Snowden's leak in June 2013 showed how much states held; the OPM breach of 2015 showed they could lose it. The EU answered for companies with the General Data Protection Regulation, adopted in 2016 and in force from May 2018, which made firms report breaches within 72 hours and keep no more data than they need, and Japan and Taiwan tightened their own notification rules. That duty to disclose is why DHC and ZOZOTOWN publish record counts, and why Fortune can argue that Expedia should hold less. EU institutions were put under a parallel regulation in 2018, but the agencies that hold criminal records largely sit outside such duties. Shoshana Zuboff argued that the platforms' business was the data itself; states have treated their records the same way.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "surveillance-capitalism"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "INTERNET / NETWORKS / DIRECTIVES",
+          "text": "The 1990s connected the state's records to networks. Netscape's listing in August 1995 marked the commercial internet, and the EU's Data Protection Directive of the same year set the first common European rules on personal data. The FBI replaced its crime database with a new national system, NCIC 2000, in 1999, making it searchable from patrol cars across the United States. London introduced the Oyster card in 2003, tying cheaper fares to registered identity. Japan's online retail grew with firms such as ZOZOTOWN, launched in 2004. Each of these made a record easier to use by making it reachable from more places, and that reach is what the headlines of 21 November describe: a criminal justice database investigated as hacked, and a photocard database accessed. The trade between use and exposure was set in that decade and has not been reopened.",
+          "trajectoryIds": [
+            "netscape-1995"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "REGISTERS / WELFARE STATE / POLICING",
+          "text": "The postwar state counted its citizens in order to serve and govern them: ration books, national insurance numbers, health records and tax files grew with the welfare state from 1945. James C. Scott called this making a society legible, the state's need to see its population in a form it can act on. In 1967 the FBI launched the National Crime Information Center, among the first national computerised police databases, so that any officer could check a name against warrants and stolen property. The US Agriculture Department's inspection and animal disease records grew from the same idea of a state that watches food on everyone's behalf. The bargain was that citizens gave information they could not refuse and the state kept it safe. The breaches of the NCIC and the Agriculture Department reported on 21 November test the second half of that bargain without changing the first.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "seeing-like-a-state"
+          ]
+        }
+      ],
+      "resumes": "",
+      "builds": "personal-data-breaches",
+      "built": {
+        "key": "personal-data-breaches",
+        "subject": "Large leaks of personal and account data from public bodies, banks, transport and retail",
+        "firstSeen": "2026-11-18",
+        "days": 3
+      },
+      "articleIds": [
+        "n-cc31962e86f0d1",
+        "n-a329459148aac6",
+        "n-2083c73ee678a4",
+        "n-4e34659235e992",
+        "n-8beb1933ca54d2",
+        "n-1821469fca6473",
+        "n-e5594770bb39e6",
+        "n-2e1cd85b257cab",
+        "n-3b7c9cda07bf1a",
+        "n-08a790baa0999d",
+        "n-8fc6a7913a95d1",
+        "n-721b71d03906d6",
+        "n-21f4951049ac8e",
+        "n-38db427d191edd"
+      ]
+    },
+    {
+      "id": "hedges-fall-with-shares",
+      "line": "Gold and bitcoin now fall with tech shares, as high rates make every asset bought on borrowed money costly to keep.",
+      "kicker": "LEVERAGE / SAFE HAVENS / MONETARY POLICY",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A regulator or exchange in Taiwan, Korea or Japan reports margin calls, forced selling or settlement defaults after the fall in tech shares.",
+          "by": "2026-12-05",
+          "because": "If borrowed money ties gold, crypto and tech shares together, the forced selling should show where retail borrowing for shares is heaviest.",
+          "id": "20261121T213836-hedges-fall-with-shares-1"
+        },
+        {
+          "what": "Gold and the Nasdaq are reported rising together on the day the Federal Reserve cuts its rate or signals a cut.",
+          "by": "2026-12-19",
+          "because": "If the cost of money is the common cause, easing it should lift the assets together, which the rival explanation of a fading war premium in gold would not predict.",
+          "id": "20261121T213836-hedges-fall-with-shares-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is March 2020, when gold fell about 12% in ten days and bitcoin lost about half its value in a single day while shares crashed, as investors sold whatever they could to raise cash. The Fed cut its rate to zero on 15 March and began buying bonds without limit, and by August gold was at a record. The present differs because inflation has not returned to target and the Fed is under open pressure from the president, so the cut that ended the 2020 sell-off is not automatic.",
+        "paths": [
+          {
+            "name": "Prices fall together until the Fed moves",
+            "weight": "favoured",
+            "text": "Gold, bitcoin and tech shares keep moving in the same direction into December, and the fall ends only when the Fed signals a cut, at its December or January meeting, under pressure from Trump. Favoured because the rate is the one thing all three positions share, and the president is pressing for exactly that move.",
+            "sign": "The Fed cuts or its chair signals a cut, and gold and the Nasdaq rise on the same day."
+          },
+          {
+            "name": "Forced selling hits Asian savers",
+            "weight": "possible",
+            "text": "Before any cut, margin calls in Taiwan and Korea, where retail investors borrowed heavily for AI shares, produce defaults and emergency measures by exchanges or state funds. Possible because storm.mg already reports Taiwanese shares that no one will buy.",
+            "sign": "Taiwan's National Stabilization Fund announces buying, or an exchange tightens margin rules."
+          },
+          {
+            "name": "Gold separates from shares",
+            "weight": "unlikely",
+            "text": "Gold recovers on new fighting in the Gulf or Ukraine while tech shares keep falling, restoring its usual role as protection. Unlikely in the coming weeks because the tanker attacks and missile strikes reported in the same days did not stop gold's fall.",
+            "sign": "Gold rises 3% or more on a day the Nasdaq falls."
+          }
+        ],
+        "decade": "Over ten years, as more savings sit in a few tech firms and in assets bought on the same borrowed money, a second asset will protect a saver in a fall less often, and central banks will be expected to act as buyer of last resort."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "On 20 and 21 November the Nasdaq erased all its gains for the year, gold fell more than $2,000 an ounce from its peak after breaking five price levels in a row, bitcoin dropped below $55,000 for the first time since September 2024, and foreign investors were reported to have pulled more than 3 trillion from Taiwan's stock market. In the same days Trump attacked the Federal Reserve for keeping rates too high, and Italian home buyers were reported to have lost nearly 10% of their purchasing power to dearer mortgages. The assets savers hold against a fall in shares, gold and crypto, fell with the shares, which points to a common cause in the cost of money rather than in the AI firms' troubles alone.",
+      "events": [
+        {
+          "label": "Nasdaq erases its gains amid Nvidia troubles",
+          "articleIds": [
+            "n-20b282f2e4792a",
+            "n-e137ecd65df125",
+            "n-86f39c204fd7bd",
+            "n-7aa679074a5fa2"
+          ]
+        },
+        {
+          "label": "Gold falls $2,000 from its peak",
+          "articleIds": [
+            "n-a0e49fe44d305c",
+            "n-a99bad631e7195",
+            "n-2671b53e0eba51"
+          ]
+        },
+        {
+          "label": "Bitcoin drops below $55,000",
+          "articleIds": [
+            "n-9e4079f3789c92"
+          ]
+        },
+        {
+          "label": "Foreign money leaves Taiwan's market",
+          "articleIds": [
+            "n-1fe03f9951fcc3"
+          ]
+        },
+        {
+          "label": "Trump presses the Fed on rates",
+          "articleIds": [
+            "n-bfff444f4fbbcf"
+          ]
+        },
+        {
+          "label": "Italian mortgages cut buying power",
+          "articleIds": [
+            "n-79072ad2e4dd9f"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Shares, gold and bitcoin",
+          "fragments": [
+            {
+              "id": "r1f1",
+              "label": "Tech shares",
+              "text": "Israel's Walla reports that a 'Black Friday on Wall Street' erased all of the Nasdaq's gains for the year. Globes counts five new troubles at Nvidia in a single day, Corriere della Sera sums up a 'fiery week' for Nvidia and Anthropic, and Fortune reports that data centres full of US chips are serving Chinese AI models.",
+              "articleIds": [
+                "n-20b282f2e4792a",
+                "n-e137ecd65df125",
+                "n-86f39c204fd7bd",
+                "n-7aa679074a5fa2"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r1f2",
+              "label": "The usual protection",
+              "text": "Vietnam's Dân trí reports gold down more than $2,000 an ounce from its peak, and Beijing's Jingbao explains a plunge through 'five key levels in a row'. Kommersant reports bitcoin below $55,000 for the first time since September 2024. Egypt's Al Watan sets out price scenarios for gold in 2027 for readers holding it.",
+              "articleIds": [
+                "n-a0e49fe44d305c",
+                "n-a99bad631e7195",
+                "n-9e4079f3789c92",
+                "n-2671b53e0eba51"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Rates and money leaving",
+          "fragments": [
+            {
+              "id": "r2f1",
+              "label": "Outflows and the cost of credit",
+              "text": "Taiwan's storm.mg reports foreign investors withdrawing more than 3 trillion from the island's market, with fund managers holding shares that 'no one will take'. Yicai reports Trump calling the Fed's rates too high and the Fed chair caught in a dilemma. Corriere della Sera calculates that rate rises have taken nearly 10% of Italian buyers' purchasing power in two years.",
+              "articleIds": [
+                "n-1fe03f9951fcc3",
+                "n-bfff444f4fbbcf",
+                "n-79072ad2e4dd9f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "One cost of money",
+          "fragments": [
+            {
+              "id": "r3f1",
+              "label": "Selling what can be sold",
+              "text": "When shares bought on credit fall, holders must sell something to cover the loss, and gold and bitcoin can be sold at any hour. Storm.mg's report that some Taiwanese holdings cannot be sold at all is the other side of the same pressure: what is easy to sell goes first. That would explain why gold, which usually rises when shares fall, dropped in the same days as the Nasdaq.",
+              "articleIds": [
+                "n-1fe03f9951fcc3",
+                "n-a99bad631e7195",
+                "n-20b282f2e4792a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r3f2",
+              "label": "Rates as the shared cause",
+              "text": "High rates make every position financed with debt dearer to keep, whether it is an AI share, bitcoin held through a fund or a home bought with a mortgage, as the Italian figures show for households. Trump's attack on the Fed is pressure to remove that shared cause. For a saver, the protection bought against a fall now depends on the same cost of money as the thing it was meant to protect against.",
+              "articleIds": [
+                "n-bfff444f4fbbcf",
+                "n-79072ad2e4dd9f",
+                "n-9e4079f3789c92"
+              ],
+              "bookIds": [
+                "crashed"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "r4f1",
+              "label": "Gold had its own reason",
+              "text": "Gold has a reason to fall that tech shares do not share: a war premium. It rose through the Iran war and the invasion of Ukraine, and the Shenzhen meeting of Trump, Xi and Putin was presented as a peace declaration, so part of gold's fall may be buyers dropping a war bet rather than selling to cover losses. Bitcoin has often fallen on its own, and the Nasdaq's slide has causes specific to Nvidia. No headline here reports margin calls or forced sales outside Taiwan, so the mechanism joining the three is inferred, and one bad week can make unrelated assets look tied.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "PANDEMIC MONEY / RETAIL TRADING / AI",
+          "text": "The pandemic years put cheap money into savers' hands and into markets. The Fed cut to zero in March 2020 and bought bonds without limit, US households received stimulus cheques, and trading apps drew millions of first-time investors, peaking with the GameStop episode in January 2021. Bitcoin rose to about $69,000 in November 2021. Then inflation, made worse by the invasion of Ukraine, led the Fed to raise rates from March 2022 to over 5% by July 2023, the fastest rise in forty years. ChatGPT in November 2022 turned the money that remained toward AI and Nvidia, and spot bitcoin funds approved in January 2024 put crypto into ordinary brokerage accounts beside tech shares. By these headlines, bitcoin, gold funds and AI shares now sit in the same accounts at the same borrowing cost, which is why Kommersant's bitcoin low and Walla's Nasdaq fall arrive on the same day.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "ZERO RATES / CRYPTO / RESCUE",
+          "text": "The crisis of 2008 taught markets that central banks would buy when prices fell. After Lehman Brothers failed in September 2008 the Fed cut to near zero and began quantitative easing, and rates stayed near zero for most of the next thirteen years. Gold rose from about $700 in late 2008 to about $1,900 in 2011 as investors protected themselves against the new money. On 31 October 2008 the pseudonymous Satoshi Nakamoto published the bitcoin paper, written as an answer to bank rescues. Adam Tooze shows how the Fed became lender of last resort to the world through dollar swap lines. The habit formed in those years, that a fall would be met by easier money, is why Trump's attack on the Fed, reported by Yicai, is read by investors as the expected remedy rather than as interference.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "DOT-COM / OPENING / THE FED",
+          "text": "The 1990s set the pattern of a technology boom carried by borrowed money and relieved by rate cuts. After the crash of 1987, and again after the collapse of Long-Term Capital Management in 1998, the Fed under Alan Greenspan cut rates, and markets came to rely on it. Netscape's listing in 1995 opened the boom; the Nasdaq's peak in March 2000 and its fall of almost 80% by 2002 closed it. In the same years Taiwan opened its stock market to foreign institutions from 1991 and became the centre of chip manufacturing, so foreign money now moves Taiwanese prices, as storm.mg's report of more than 3 trillion withdrawn shows. Gold, meanwhile, spent the 1990s falling as central banks sold their reserves. The idea that tech shares and safe assets move in opposite directions is younger than it seems.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "GOLD / DOLLAR / INFLATION",
+          "text": "From the Bretton Woods agreement of 1944 the dollar was fixed to gold at $35 an ounce, and Americans could not legally hold gold bullion until the end of 1974. Nixon ended the dollar's convertibility in August 1971, gold floated, and after the oil shock of 1973 it became what savers bought against inflation and war. It reached $850 in January 1980, then fell for two decades after Paul Volcker raised the Fed's rate to about 20% to stop inflation. That episode is the precedent under the present one: high rates made gold lose value even in a dangerous world. Dân trí's report of gold more than $2,000 below its peak, and Al Watan's scenarios for 2027, are written for savers in Vietnam and Egypt, where gold is still the household's protection against the local currency, which is why its fall reaches them more than the Nasdaq's does.",
+          "trajectoryIds": [
+            "oil-embargo-1973"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-20b282f2e4792a",
+        "n-e137ecd65df125",
+        "n-86f39c204fd7bd",
+        "n-7aa679074a5fa2",
+        "n-a0e49fe44d305c",
+        "n-a99bad631e7195",
+        "n-9e4079f3789c92",
+        "n-2671b53e0eba51",
+        "n-1fe03f9951fcc3",
+        "n-bfff444f4fbbcf",
+        "n-79072ad2e4dd9f"
+      ]
+    },
+    {
+      "id": "reservoirs-and-rivers-contested",
+      "line": "Clean power is being built on rivers and reservoirs already promised to farms and homes, so choosing energy now means rationing water.",
+      "kicker": "HYDROPOWER / IRRIGATION / ALLOCATION",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "A court or government ranks drinking water or irrigation above power generation in a ruling on a named dam or reservoir.",
+          "by": "2026-12-19",
+          "because": "If power is being added to water that is already allocated, the disputes must end in decisions that rank the uses, and courts already hold several of them.",
+          "id": "20261121T213836-reservoirs-and-rivers-contested-1"
+        },
+        {
+          "what": "A government delays, shrinks or moves a hydropower, pumped-storage or reservoir solar project after protests or a court case.",
+          "by": "2026-12-19",
+          "because": "If the energy choice is now settled as a water dispute, the new power projects rather than existing users should give way first where those users organise.",
+          "id": "20261121T213836-reservoirs-and-rivers-contested-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the Narmada dams in India: the Narmada Bachao Andolan fought the Sardar Sarovar dam from 1985 over submerged villages, the World Bank withdrew in 1993, and the Supreme Court in October 2000 let construction go on with resettlement conditions; the dam was finished in 2017. The present differs because the power now sought is presented as clean, so climate policy stands with the builders, and solar panels on reservoirs add a claimant the Narmada fight never had.",
+        "paths": [
+          {
+            "name": "Courts and voters rank the uses",
+            "weight": "favoured",
+            "text": "Over the next year these disputes go case by case to courts, tribunals and local elections, which put drinking water first, keep farms' existing shares and let power projects proceed with delays and conditions. Favoured because the Indian cases are already before the Supreme Court and Taiwan's will be judged in its 28 November local elections, and neither forum tends to cancel projects outright.",
+            "sign": "A court lets a dam or reservoir project proceed only with new conditions on water release or resettlement."
+          },
+          {
+            "name": "Drought forces rationing of both",
+            "weight": "possible",
+            "text": "El Niño's dry months from December to April lower reservoirs in Colombia and elsewhere until cities ration water and electricity together, as Bogotá did with water from April 2024 and Ecuador did with power cuts that year. Possible because officials already name the risk, but the first weeks of this El Niño have been wet.",
+            "sign": "Bogotá or another city announces scheduled water or power cuts."
+          },
+          {
+            "name": "National governments push dams through",
+            "weight": "unlikely",
+            "text": "Central governments override local and state claims to fast-track hydropower for energy security, as India might at Siang given China's dam upstream. Unlikely within a year because Shah has promised dialogue and the courts are already involved.",
+            "sign": "India's government approves construction on the Siang project without an agreement with the protesters."
+          }
+        ],
+        "decade": "Over ten years, as more electricity comes from water and from panels placed on it, dividing rivers and reservoirs will become the main local politics of the energy transition, decided by courts and elections rather than engineers."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "For five days the same kind of dispute has come from a dozen countries: on 21 November India's home minister Amit Shah backed the Siang dam and promised dialogue with protesters, after a report on the Sharavathi submergence was promised to the Supreme Court on 17 November and the court refused Tamil Nadu more Cauvery water on 20 November; Taipei's mayoral campaign has fought over solar panels on the Feicui reservoir since 17 November; Finland's largest conservation project failed on 20 November when a utility would not sell the Palokki power plant; and Bogotá warned on 18 November of water and power rationing under El Niño. On 21 November Egypt and Jordan also told households to save water and Iraq's Habbaniyah reservoir flooded farmland. Taken together, the fortnight shows new power, hydro and solar, being placed on water that farms, towns and nature already count on, so the choice of how to make electricity is being taken as a choice of who goes short.",
+      "events": [
+        {
+          "label": "Dams contested in India and Finland",
+          "articleIds": [
+            "n-ab862af0c2dc1d",
+            "n-a751eeb0c1c9a5",
+            "n-4c0407971eeefc",
+            "n-dec180ef85cdb2"
+          ]
+        },
+        {
+          "label": "Reservoir solar panels in Taiwan's campaign",
+          "articleIds": [
+            "n-980d27ab8953d9",
+            "n-39fc45b45e75e0",
+            "n-0a2ac1b87607e1"
+          ]
+        },
+        {
+          "label": "Courts and ministries divide river water",
+          "articleIds": [
+            "n-b8ce63cff22b5b",
+            "n-eb3686bbd5c477",
+            "n-72728f824611a4"
+          ]
+        },
+        {
+          "label": "El Niño rationing warnings in Colombia",
+          "articleIds": [
+            "n-db19b608636a39",
+            "n-c32e540c908e92"
+          ]
+        },
+        {
+          "label": "Egypt and Jordan tell households to save",
+          "articleIds": [
+            "n-1db3880c177ad8",
+            "n-4603ad1f652297",
+            "n-52b42b6f481ccd"
+          ]
+        },
+        {
+          "label": "Farmland used or flooded by stored water",
+          "articleIds": [
+            "n-2a665f87c36add",
+            "n-bad3fb9d050d72"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Power plants on contested water",
+          "fragments": [
+            {
+              "id": "r1f1",
+              "label": "Dams in India and Finland",
+              "text": "On 21 November the Times of India reported Amit Shah backing the Siang dam and promising dialogue with protesters against it. On 17 November the same paper reported that an official report on the Sharavathi submergence, land flooded for a hydropower reservoir decades ago, would go to the Supreme Court within ten days. In Finland Yle reported on 19 November that Kemijoki Oy offered Kemijärvi a higher water level and millions in revenue, and on 20 November that the Orpo government's largest conservation project failed because Pohjois-Karjala Sähkö would not sell the Palokki power plant.",
+              "articleIds": [
+                "n-ab862af0c2dc1d",
+                "n-a751eeb0c1c9a5",
+                "n-4c0407971eeefc",
+                "n-dec180ef85cdb2"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r1f2",
+              "label": "Solar on Taiwan's reservoirs",
+              "text": "On 17 November ETtoday and the election pages for Taiwan's local polls reported Taipei mayor Chiang Wan-an accusing the central government over solar panels on the Feicui reservoir, the city's drinking water source. On 19 November UDN reported a Taoyuan candidate stressing that a pond there was not used for generating electricity.",
+              "articleIds": [
+                "n-980d27ab8953d9",
+                "n-39fc45b45e75e0",
+                "n-0a2ac1b87607e1"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Farms, towns and floods",
+          "fragments": [
+            {
+              "id": "r2f1",
+              "label": "Courts and irrigation",
+              "text": "On 20 November the Tribune reported India's Supreme Court dismissing Tamil Nadu's pleas for more Cauvery water from Karnataka. On 19 November El Mundo reported the aquifer feeding Doñana in 'very bad condition', and on 18 November SAPO reported a Portuguese minister comparing a new irrigation block at Reguengos de Monsaraz to the change brought by Alqueva.",
+              "articleIds": [
+                "n-b8ce63cff22b5b",
+                "n-eb3686bbd5c477",
+                "n-72728f824611a4"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r2f2",
+              "label": "Shortage and surplus",
+              "text": "On 18 November El Colombiano reported Bogotá's mayor warning of water and energy rationing under El Niño, and on 21 November El País described Wayúu herders in Colombia's driest zone fattening goats ahead of it. On 21 November Egypt's Al Watan and Youm7 reported campaigns to get 250,000 people in Sharqiya to use less water, Jordan's Al Anbat called the national water carrier a matter of national security, and Iraq's Al Mada showed rising water at Habbaniyah flooding farmland. On 20 November Kagoshima proposed that paddy fields hold floodwater.",
+              "articleIds": [
+                "n-db19b608636a39",
+                "n-c32e540c908e92",
+                "n-1db3880c177ad8",
+                "n-4603ad1f652297",
+                "n-52b42b6f481ccd",
+                "n-bad3fb9d050d72",
+                "n-2a665f87c36add"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "One reservoir, several claims",
+          "fragments": [
+            {
+              "id": "r3f1",
+              "label": "Energy placed on existing water",
+              "text": "In the Indian, Finnish and Taiwanese cases a power project sits on water that already has a use: people's land along the Siang, a river the government wanted protected at Palokki, a city's drinking supply at Feicui. Hydropower and floating solar are favoured as low-carbon, which gives their backers an argument that earlier dam builders did not have. The decision about how to make electricity has become a decision about which existing user gives way.",
+              "articleIds": [
+                "n-ab862af0c2dc1d",
+                "n-dec180ef85cdb2",
+                "n-980d27ab8953d9"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "r3f2",
+              "label": "Where the decisions now go",
+              "text": "None of these is being settled by engineers or utilities alone: India's are before the Supreme Court and a minister promising dialogue, Taiwan's is in a mayoral campaign, Finland's failed in a sale negotiation, Bogotá's is a mayor's warning. Under El Niño the same reservoirs must also carry cities through drought, which leaves less room for power and farms at once. Over five days the decisions have moved to courts and votes.",
+              "articleIds": [
+                "n-b8ce63cff22b5b",
+                "n-39fc45b45e75e0",
+                "n-db19b608636a39"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "r4f1",
+              "label": "Water, but not always power",
+              "text": "Half of this evidence has nothing to do with power. Egypt's and Jordan's campaigns are about scarcity in dry countries with growing populations; Habbaniyah and Kagoshima are about floods; Doñana is about irrigation and an aquifer; and the Cauvery dispute goes back to agreements of 1892 and 1924 and is about farms in both states. The power cases are local stories with long histories of their own, and Taiwan's election coverage may make reservoir solar look larger than it is. What these events share is water; they do not share a cause, and only some share the energy question the line puts first.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "EL NIÑO / ENERGY SECURITY / SOLAR",
+          "text": "The energy shock that followed the invasion of Ukraine in 2022 made every domestic source of power more valuable, and hydropower and solar on reservoirs gained as ways to use water bodies the state already controls. In the same years drought hit grids and cities that depend on water: Bogotá rationed water for about a year from April 2024 as its Chingaza reservoirs ran low, and Ecuador cut power for hours a day in late 2024. The Panama Canal limited transits in 2023 and 2024 because the lake that feeds its locks also supplies drinking water. Taiwan pushed solar to meet its renewable targets and, short of flat land, put panels on ponds and reservoirs, which is how Feicui entered the Taipei mayor's campaign. By these headlines El Niño has returned, and Bogotá's mayor already warns of rationing water and power together.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "UPSTREAM DAMS / CLIMATE LAW / COURTS",
+          "text": "After 2008 the largest dams were built by upstream states. Ethiopia began the Grand Ethiopian Renaissance Dam on the Blue Nile in 2011 and filled it from 2020, and Egypt's campaigns to cut household use, such as the Sharqiya seminars reported on 21 November, belong to that change. China finished the Three Gorges in 2012 and in December 2024 approved a vast hydropower project on the Yarlung Tsangpo before it enters India as the Siang, which is a main reason India presses the Siang dam as a store against upstream control. The Paris Agreement of 2015 made low-carbon power a legal target in many countries and gave hydropower a new defence. Courts became the place these claims meet: India's Supreme Court gave its final Cauvery allocation in 2018, and its refusal to Tamil Nadu on 20 November applies that ruling.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "TRIBUNALS / DISPLACEMENT / EU WATER LAW",
+          "text": "The 1990s turned water into a matter for tribunals and directives. India set up the Cauvery Water Disputes Tribunal in 1990, and it took until 2007 to give its award. The World Bank left the Narmada project in 1993 after protests over submerged villages, and the World Commission on Dams reported in 2000 that large dams had displaced 40 to 80 million people. The EU's Water Framework Directive of 2000 required rivers to reach good ecological status, the law behind Spain's Doñana dispute and Finland's efforts to restore rivers such as the one at Palokki. Portugal closed the gates of the Alqueva dam in 2002, creating western Europe's largest reservoir, mainly for irrigation, which a Portuguese minister used on 18 November as the measure for a new irrigation block. Rob Nixon wrote of the people under such dams as victims of a harm too slow to make news.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "slow-violence"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "BIG DAMS / NATION-BUILDING / MEMORY",
+          "text": "The postwar state built big dams as proof of independence and growth. Nehru called them the temples of modern India while Bhakra was being built in the 1950s; Egypt's Aswan High Dam was financed by the Soviet Union after Britain and the US withdrew in 1956, the year Nasser nationalised the Suez Canal. Finland dammed the Kemijoki in the same decades to rebuild after the war, which is why Kemijoki Oy can now offer Kemijärvi a higher water level. The Linganamakki dam on the Sharavathi, finished in the 1960s, flooded the land whose owners still await the report due at India's Supreme Court. In Wales, Liverpool flooded the Tryweryn valley in 1965, and BBC Cymru Fyw's interview on 21 November with a 92-year-old who protested against it shows how long such losses are remembered. The dams were built for the nation; the people under them were asked to accept it.",
+          "trajectoryIds": [
+            "suez-1956"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "",
+      "builds": "reservoirs-and-rivers-contested",
+      "built": {
+        "key": "reservoirs-and-rivers-contested",
+        "subject": "Reservoirs and rivers contested between power, farming and drinking water",
+        "firstSeen": "2026-11-17",
+        "days": 4
+      },
+      "articleIds": [
+        "n-ab862af0c2dc1d",
+        "n-a751eeb0c1c9a5",
+        "n-4c0407971eeefc",
+        "n-dec180ef85cdb2",
+        "n-980d27ab8953d9",
+        "n-39fc45b45e75e0",
+        "n-0a2ac1b87607e1",
+        "n-b8ce63cff22b5b",
+        "n-eb3686bbd5c477",
+        "n-72728f824611a4",
+        "n-db19b608636a39",
+        "n-c32e540c908e92",
+        "n-1db3880c177ad8",
+        "n-4603ad1f652297",
+        "n-52b42b6f481ccd",
+        "n-bad3fb9d050d72",
+        "n-2a665f87c36add"
+      ]
+    }
+  ]
+}

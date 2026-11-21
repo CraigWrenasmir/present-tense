@@ -365,8 +365,14 @@
    "what": "Brent crude is reported below $105 a barrel on news of resumed US-Iran talks.",
    "by": "2026-11-20",
    "because": "The 2% fall on talk of talks shows the oil market pricing the same post-vote choice as Israel and Iran, so a confirmed round should move it further.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261121T213836",
+    "asOf": "2026-11-21T21:38:36Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-21 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261102T013011-incumbents-doubt-the-count-1",
@@ -630,8 +636,14 @@
    "what": "Oil is reported rising at least 5% in a day after the US vote on a Gulf incident, while talks are still said to be under way.",
    "by": "2026-11-20",
    "because": "If prices have run ahead of the fighting, a single incident should move them back sharply without the talks ending.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261121T213836",
+    "asOf": "2026-11-21T21:38:36Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-21 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261103T214619-hormuz-cost-to-buyers-gain-to-bypass-sellers-1",
@@ -866,8 +878,14 @@
    "what": "A European party leader other than Sánchez says the US result helps their own party in a coming election.",
    "by": "2026-11-20",
    "because": "The join holds that readers abroad turn the vote into material for their own disputes, so other leaders facing elections should do what Sánchez did.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261121T213836",
+    "asOf": "2026-11-21T21:38:36Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-21 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261104T215151-us-vote-read-through-own-disputes-2",
@@ -1744,8 +1762,14 @@
    "what": "During his Peru visit Leo XIV or the Vatican spokesman criticises a named Peruvian government policy, law or official.",
    "by": "2026-11-20",
    "because": "If the papacy is using its authority in South American politics, the Argentine criticism should be repeated on the second stage of the same tour.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261121T213836",
+    "asOf": "2026-11-21T21:38:36Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-21 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261111T224126-pope-leo-politics-and-restraint-2",
@@ -2553,6 +2577,118 @@
    "what": "Japan signs or announces a new defence agreement or joint exercise with Australia, the Philippines or a European state.",
    "by": "2026-12-15",
    "because": "States hedging against an arrangement among the three powers should turn to each other rather than rely on Washington alone.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261121T213836-ships-struck-after-summit-1",
+   "stamp": "20261121T213836",
+   "asOf": "2026-11-21T21:38:36Z",
+   "narrativeId": "ships-struck-after-summit",
+   "kicker": "SHIPPING / CEASEFIRES / TERRITORY",
+   "line": "The talks after the summit are about lines on land, while both wars are now fought against ships, which no draft yet covers.",
+   "firmness": "plausible",
+   "what": "Finland or Estonia announces naval escorts, boarding checks or new rules for ships passing through the Gulf of Finland.",
+   "by": "2026-12-05",
+   "because": "If the fighting has moved to shipping that the talks do not cover, the coastal states that are not at war are the first who must act on it.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261121T213836-ships-struck-after-summit-2",
+   "stamp": "20261121T213836",
+   "asOf": "2026-11-21T21:38:36Z",
+   "narrativeId": "ships-struck-after-summit",
+   "kicker": "SHIPPING / CEASEFIRES / TERRITORY",
+   "line": "The talks after the summit are about lines on land, while both wars are now fought against ships, which no draft yet covers.",
+   "firmness": "plausible",
+   "what": "A proposal in the Ukraine or Iran talks is reported to include safe passage for merchant ships or a ban on attacking them.",
+   "by": "2026-12-19",
+   "because": "If attacks on ships have become the fighting that a settlement drawn on land misses, negotiators in both wars will have to add terms for the sea.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261121T213836-personal-data-breaches-1",
+   "stamp": "20261121T213836",
+   "asOf": "2026-11-21T21:38:36Z",
+   "narrativeId": "personal-data-breaches",
+   "kicker": "OBLIGATION / CONSENT / EXPOSURE",
+   "line": "For four days running, data people must give the state has been breached as often as data they chose to give shops.",
+   "firmness": "firm",
+   "what": "A national government in Europe or Asia reports a breach of a population register, tax, health or police records system.",
+   "by": "2026-12-05",
+   "because": "If attackers are now working through the state's compulsory records rather than mainly through shops, the run should continue beyond Washington and Brussels.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261121T213836-personal-data-breaches-2",
+   "stamp": "20261121T213836",
+   "asOf": "2026-11-21T21:38:36Z",
+   "narrativeId": "personal-data-breaches",
+   "kicker": "OBLIGATION / CONSENT / EXPOSURE",
+   "line": "For four days running, data people must give the state has been breached as often as data they chose to give shops.",
+   "firmness": "firm",
+   "what": "A US or EU official attributes the FBI, Agriculture Department or European Commission breach to a named state or group.",
+   "by": "2026-12-12",
+   "because": "Public bodies breached in the same days by similar means point to one capable attacker, and governments name attackers of their own systems more readily than they do for firms.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261121T213836-hedges-fall-with-shares-1",
+   "stamp": "20261121T213836",
+   "asOf": "2026-11-21T21:38:36Z",
+   "narrativeId": "hedges-fall-with-shares",
+   "kicker": "LEVERAGE / SAFE HAVENS / MONETARY POLICY",
+   "line": "Gold and bitcoin now fall with tech shares, as high rates make every asset bought on borrowed money costly to keep.",
+   "firmness": "plausible",
+   "what": "A regulator or exchange in Taiwan, Korea or Japan reports margin calls, forced selling or settlement defaults after the fall in tech shares.",
+   "by": "2026-12-05",
+   "because": "If borrowed money ties gold, crypto and tech shares together, the forced selling should show where retail borrowing for shares is heaviest.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261121T213836-hedges-fall-with-shares-2",
+   "stamp": "20261121T213836",
+   "asOf": "2026-11-21T21:38:36Z",
+   "narrativeId": "hedges-fall-with-shares",
+   "kicker": "LEVERAGE / SAFE HAVENS / MONETARY POLICY",
+   "line": "Gold and bitcoin now fall with tech shares, as high rates make every asset bought on borrowed money costly to keep.",
+   "firmness": "plausible",
+   "what": "Gold and the Nasdaq are reported rising together on the day the Federal Reserve cuts its rate or signals a cut.",
+   "by": "2026-12-19",
+   "because": "If the cost of money is the common cause, easing it should lift the assets together, which the rival explanation of a fading war premium in gold would not predict.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261121T213836-reservoirs-and-rivers-contested-1",
+   "stamp": "20261121T213836",
+   "asOf": "2026-11-21T21:38:36Z",
+   "narrativeId": "reservoirs-and-rivers-contested",
+   "kicker": "HYDROPOWER / IRRIGATION / ALLOCATION",
+   "line": "Clean power is being built on rivers and reservoirs already promised to farms and homes, so choosing energy now means rationing water.",
+   "firmness": "tentative",
+   "what": "A court or government ranks drinking water or irrigation above power generation in a ruling on a named dam or reservoir.",
+   "by": "2026-12-19",
+   "because": "If power is being added to water that is already allocated, the disputes must end in decisions that rank the uses, and courts already hold several of them.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261121T213836-reservoirs-and-rivers-contested-2",
+   "stamp": "20261121T213836",
+   "asOf": "2026-11-21T21:38:36Z",
+   "narrativeId": "reservoirs-and-rivers-contested",
+   "kicker": "HYDROPOWER / IRRIGATION / ALLOCATION",
+   "line": "Clean power is being built on rivers and reservoirs already promised to farms and homes, so choosing energy now means rationing water.",
+   "firmness": "tentative",
+   "what": "A government delays, shrinks or moves a hydropower, pumped-storage or reservoir solar project after protests or a court case.",
+   "by": "2026-12-19",
+   "because": "If the energy choice is now settled as a water dispute, the new power projects rather than existing users should give way first where those users organise.",
    "status": "open",
    "resolved": null
   }
