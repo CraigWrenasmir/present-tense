@@ -1,0 +1,1892 @@
+{
+  "schemaVersion": 6,
+  "generatedAt": "2026-11-22T21:54:22Z",
+  "newsGeneratedAt": "2026-11-22T21:44:57Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-10",
+  "previousNewsGeneratedAt": "2026-11-21T21:38:36Z",
+  "usage": {
+    "input": 80285,
+    "output": 69228,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "A narrative may also resume one that stopped in the last four weeks ('resumes' gives that edition's stamp and the narrative's id), and may be written from a subject the site's notebook has been keeping ('builds'); such a narrative can cite headlines from earlier days, each shown with its date, beside at least three of the day's own.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-6aa2b35c1e1852",
+      "title": "COP31 climate talks collapse over fossil fuels and funding",
+      "titleEnglish": "COP31 climate talks collapse over fossil fuels and funding",
+      "url": "https://www.businessday.co.za/news/science-and-environment/2026-11-22-cop31-climate-talks-collapse-over-fossil-fuels-and-funding/",
+      "publisher": "Business Day",
+      "publisherDomain": "businessday.co.za",
+      "publishedAt": "2026-11-22T21:32:00Z",
+      "seenAt": "2026-11-22T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Africa",
+      "sourceCountryCode": "ZA",
+      "sourceRegion": "Africa",
+      "sourceLat": -30,
+      "sourceLon": 25,
+      "language": "en"
+    },
+    {
+      "id": "n-ac3feec18069f3",
+      "title": "Climate conference ends without agreement",
+      "titleEnglish": "Climate conference ends without agreement",
+      "url": "https://www.smh.com.au/national/climate-conference-ends-without-agreement-20261123-p61gcg.html",
+      "publisher": "The Sydney Morning Herald",
+      "publisherDomain": "smh.com.au",
+      "publishedAt": "2026-11-22T20:32:00Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-8daffd8dbaf05c",
+      "title": "ভেস্তে গেল কপ ৩১, চুক্তি ছাড়াই সমাপ্তি",
+      "titleEnglish": "COP31 collapses, ends without agreement",
+      "url": "https://www.dw.com/bn/%E0%A6%AD%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%87-%E0%A6%97%E0%A7%87%E0%A6%B2-%E0%A6%95%E0%A6%AA-%E0%A7%A9%E0%A7%A7-%E0%A6%9A%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%9B%E0%A6%BE%E0%A7%9C%E0%A6%BE%E0%A6%87-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF/a-80014443",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-22T20:32:00Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "bn"
+    },
+    {
+      "id": "n-1ce67815e27a5e",
+      "title": "Bez porozumienia na światowej konferencji klimatycznej COP31",
+      "titleEnglish": "No agreement at COP31 world climate conference",
+      "url": "https://www.dw.com/pl/fiasko-%C5%9Bwiatowej-konferencji-klimatycznej-sp%C3%B3r-o-paliwa-kopalne/a-80013523",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-22T15:32:00Z",
+      "seenAt": "2026-11-22T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "pl"
+    },
+    {
+      "id": "n-1460f9c3087017",
+      "title": "EU legt bom onder klimaattop Turkije en wijst inhoud van slotakkoord af",
+      "titleEnglish": "EU drops bomb on climate summit in Turkey and rejects content of final agreement",
+      "url": "https://nos.nl/artikel/2640550-eu-legt-bom-onder-klimaattop-turkije-en-wijst-inhoud-van-slotakkoord-af",
+      "publisher": "nos.nl",
+      "publisherDomain": "nos.nl",
+      "publishedAt": "2026-11-22T12:32:00Z",
+      "seenAt": "2026-11-22T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-baf2e4d7080649",
+      "title": "Analyysi: ”Kauhein ilmastokokous ikinä” kariutui lopulta omaan mahdottomuuteensa",
+      "titleEnglish": "Analysis: \"The worst climate summit ever\" ultimately failed on its own impossibility",
+      "url": "https://yle.fi/a/74-20258140",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-22T14:59:10Z",
+      "seenAt": "2026-11-22T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-dcf155863e8839",
+      "title": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
+      "titleEnglish": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
+      "url": "https://www.npr.org/transcripts/nx-s1-6047916",
+      "publisher": "NPR",
+      "publisherDomain": "npr.org",
+      "publishedAt": "2026-11-22T20:32:00Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-577bb861a928d4",
+      "title": "ICJ rules Myanmar responsible for genocide against Rohingya in 9‑6 verdict",
+      "titleEnglish": "ICJ rules Myanmar responsible for genocide against Rohingya in 9‑6 verdict",
+      "url": "https://kenya-today.com/report-icj-rules-myanmar-responsible-for-genocide-against-rohingya-in-96-verdict-31518/",
+      "publisher": "Kenya Today",
+      "publisherDomain": "kenya-today.com",
+      "publishedAt": "2026-11-22T17:24:45Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Kenya",
+      "sourceCountryCode": "KE",
+      "sourceRegion": "Africa",
+      "sourceLat": 0.1,
+      "sourceLon": 38,
+      "language": "en"
+    },
+    {
+      "id": "n-3b6f38535f809d",
+      "title": "Génocide des Rohingyas : La CIJ condamne le Myanmar, à l’initiative de la Gambie - Le Soleil",
+      "titleEnglish": "Rohingya genocide: ICJ condemns Myanmar, at the initiative of Gambia - Le Soleil",
+      "url": "https://lesoleil.sn/actualites/genocide-des-rohingyas-la-cij-condamne-le-myanmar-a-linitiative-de-la-gambie/",
+      "publisher": "Le Soleil",
+      "publisherDomain": "lesoleil.sn",
+      "publishedAt": "2026-11-22T15:27:11Z",
+      "seenAt": "2026-11-22T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Senegal",
+      "sourceCountryCode": "SN",
+      "sourceRegion": "Africa",
+      "sourceLat": 14,
+      "sourceLon": -14,
+      "language": "fr"
+    },
+    {
+      "id": "n-bc54dc23003c9f",
+      "title": "Migration en Afrique de l'ouest : Quinze États adoptent la Déclaration de Dakar - Le Soleil",
+      "titleEnglish": "Migration in West Africa: Fifteen States adopt the Dakar Declaration - Le Soleil",
+      "url": "https://lesoleil.sn/actualites/migration-en-afrique-de-louest-quinze-etats-adoptent-la-declaration-de-dakar/",
+      "publisher": "Le Soleil",
+      "publisherDomain": "lesoleil.sn",
+      "publishedAt": "2026-11-22T19:00:33Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Senegal",
+      "sourceCountryCode": "SN",
+      "sourceRegion": "Africa",
+      "sourceLat": 14,
+      "sourceLon": -14,
+      "language": "fr"
+    },
+    {
+      "id": "n-9e0a2489a1d7f9",
+      "title": "Emigration irrégulière : 1007 migrants secours par la Marine nationale en 72 heures - Le Soleil",
+      "titleEnglish": "Irregular emigration: 1,007 migrants rescued by the National Navy in 72 hours - Le Soleil",
+      "url": "https://lesoleil.sn/actualites/emigration-irreguliere-1007-migrants-secours-par-la-marine-nationale-en-72-heures/",
+      "publisher": "Le Soleil",
+      "publisherDomain": "lesoleil.sn",
+      "publishedAt": "2026-11-22T14:32:36Z",
+      "seenAt": "2026-11-22T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Senegal",
+      "sourceCountryCode": "SN",
+      "sourceRegion": "Africa",
+      "sourceLat": 14,
+      "sourceLon": -14,
+      "language": "fr"
+    },
+    {
+      "id": "n-9daa2ce6f602ea",
+      "title": "SCO Forum backs Joint UNESCO bids, steps against heritage trafficking",
+      "titleEnglish": "SCO Forum backs Joint UNESCO bids, steps against heritage trafficking",
+      "url": "https://economictimes.indiatimes.com/news/india/sco-forum-backs-joint-unesco-bids-steps-against-heritage-trafficking/articleshow/136082868.cms",
+      "publisher": "The Economic Times",
+      "publisherDomain": "economictimes.indiatimes.com",
+      "publishedAt": "2026-11-22T20:32:00Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-693bccc1f44083",
+      "title": "Ethiopië wil volgend jaar 'klimaattop van hoop' organiseren",
+      "titleEnglish": "Ethiopia wants to organise a 'climate summit of hope' next year",
+      "url": "https://nieuws.nl/buitenland/ethiopie-wil-volgend-jaar-klimaattop-van-hoop-organiseren",
+      "publisher": "Nieuws.nl",
+      "publisherDomain": "nieuws.nl",
+      "publishedAt": "2026-11-22T17:02:51Z",
+      "seenAt": "2026-11-22T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-45b8b9f6c433f7",
+      "title": "COP31. Nórdicos reafirmam importância do multilateralismo",
+      "titleEnglish": "COP31. Nordic countries reaffirm the importance of multilateralism",
+      "url": "https://sapo.pt/artigo/cop31-nordicos-reafirmam-importancia-do-multilateralismo-6b0348b4f92df73836821f22",
+      "publisher": "SAPO",
+      "publisherDomain": "sapo.pt",
+      "publishedAt": "2026-11-22T19:54:34Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-71d031cdce6712",
+      "title": "【独自】核被害救済の新枠組み提言 ICAN、支援国仲介",
+      "titleEnglish": "[Exclusive] ICAN proposes new framework for nuclear victim relief, mediated by supporting countries",
+      "url": "https://www.47news.jp/15271028p3.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-11-22T12:32:00Z",
+      "seenAt": "2026-11-22T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-c0fa8ba3fe94fe",
+      "title": "Una explosión hunde un barco de guerra ruso en la costa oriental de Libia",
+      "titleEnglish": "An explosion sinks a Russian warship off the eastern coast of Libya",
+      "url": "https://elpais.com/internacional/2026-11-22/una-explosion-hunde-un-barco-de-guerra-ruso-en-la-costa-oriental-de-libia.html",
+      "publisher": "El País",
+      "publisherDomain": "elpais.com",
+      "publishedAt": "2026-11-22T19:50:38Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Spain",
+      "sourceCountryCode": "ES",
+      "sourceRegion": "Europe",
+      "sourceLat": 40,
+      "sourceLon": -4,
+      "language": "es"
+    },
+    {
+      "id": "n-d8f9555bf620a1",
+      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "titleEnglish": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "url": "https://www.bbc.com/news/articles/cr894gjz0j0yo",
+      "publisher": "bbc.com",
+      "publisherDomain": "bbc.com",
+      "publishedAt": "2026-11-22T17:16:47Z",
+      "seenAt": "2026-11-22T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-19078edf38dd50",
+      "title": "Libya’s eastern government suspects drone attack caused explosion on Russian ship in Benghazi",
+      "titleEnglish": "Libya’s eastern government suspects drone attack caused explosion on Russian ship in Benghazi",
+      "url": "https://www.arabnews.com/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-on-russian-ship-in-benghazi-3013570",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-22T14:43:15Z",
+      "seenAt": "2026-11-22T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-3753612ec3d2a1",
+      "title": "أسلحة وتحركات روسية.. تفاصيل ما قبل الانفجار بقاعدة بنغازي شرقي ليبيا",
+      "titleEnglish": "Weapons and Russian movements: details before the explosion at Benghazi base in eastern Libya",
+      "url": "https://www.aljazeera.net/news/2026/11/22/%D8%A3%D8%B3%D9%84%D8%AD%D8%A9-%D9%88%D8%AA%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D9%85%D8%A7-%D9%82%D8%A8%D9%84",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-22T20:32:00Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-23cd0715505061",
+      "title": "Атакованное БПЛА российское судно Sparta II покинуло воды Финляндии",
+      "titleEnglish": "Russian vessel Sparta II, hit by a drone, has left Finnish waters",
+      "url": "https://www.kommersant.ru/doc/9127554",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-22T20:18:20Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-d15f80da3d409b",
+      "title": "Russia, panico sulla fregata: scontro con una nave cisterna. Un marinaio: «Portiamo l'ingegnere sull'eliporto e giustiziamolo davanti a tutti»",
+      "titleEnglish": "Russia, panic on the frigate: collision with a tanker. A sailor: \"We'll take the engineer to the helipad and execute him in front of everyone\"",
+      "url": "https://www.ilmessaggero.it/mondo/fregata_russa_scontro_nave_cisterna_marinaio_ingegnere_giustiziamolo_cosa_e_successo_ultime_notizie-9904533.html",
+      "publisher": "ilmessaggero.it",
+      "publisherDomain": "ilmessaggero.it",
+      "publishedAt": "2026-11-21T13:57:55Z",
+      "seenAt": "2026-11-22T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-3137f950beff9a",
+      "title": "Guerre en Ukraine : les objets volants tombés en Pologne étaient des missiles de croisière fabriqués en Russie",
+      "titleEnglish": "War in Ukraine: the flying objects that fell in Poland were Russian-made cruise missiles",
+      "url": "https://www.sudouest.fr:443/international/europe/ukraine/guerre-en-ukraine-les-objets-volants-tombes-en-pologne-etaient-des-missiles-de-croisiere-fabriques-en-russie-31616151.php",
+      "publisher": "SudOuest.fr",
+      "publisherDomain": "sudouest.fr",
+      "publishedAt": "2026-11-22T21:32:00Z",
+      "seenAt": "2026-11-22T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-f9c4ab9eea0d45",
+      "title": "Польская прокуратура заявила о российском происхождении упавших в стране ракет",
+      "titleEnglish": "Polish prosecutors say fallen missiles in the country were of Russian origin",
+      "url": "https://www.kommersant.ru/doc/9127539",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-22T18:18:24Z",
+      "seenAt": "2026-11-22T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-b4285b79afd541",
+      "title": "Πολωνία: Στρατηγός λέει ότι το ΝΑΤΟ είχε δώσει εντολή κατάρριψης ρωσικού πυραύλου - Ο πιλότος υποχώρησε λόγω κακοκαιρίας",
+      "titleEnglish": "Poland: General says NATO had ordered shoot-down of Russian missile - Pilot withdrew due to bad weather",
+      "url": "https://www.efsyn.gr/kosmos/1515474/polonia-stratigos-leei-oti-to-nato-eihe-dosei-entoli-katarripsis-rosikoy-pyrayloy-mataiothike-logo-kakokairias/",
+      "publisher": "Η Εφημερίδα των Συντακτών",
+      "publisherDomain": "efsyn.gr",
+      "publishedAt": "2026-11-22T18:41:02Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-283958d3ddaa1b",
+      "title": "Niemiecka armia w ostatniej chwili zmieniła plany. Obawy przed prowokowaniem Rosji",
+      "titleEnglish": "German army suddenly changes plans at the last minute. Concerns about provoking Russia",
+      "url": "https://www.dw.com/pl/bundeswehra-zmienia-plany-by-unikn%C4%85%C4%87-prowokowania-rosji/a-80013902",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-22T15:32:00Z",
+      "seenAt": "2026-11-22T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "pl"
+    },
+    {
+      "id": "n-864c383ce8395b",
+      "title": "«Коалицию желающих» назвали переоцененной",
+      "titleEnglish": "The 'Coalition of the Willing' has been called overrated",
+      "url": "https://lenta.ru/news/2026/11/23/koalitsiyu-zhelayuschih-nazvali-pereotsenennoy/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-11-22T21:32:00Z",
+      "seenAt": "2026-11-22T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-326bdd1bf3621b",
+      "title": "앤트로픽 상장 하루 만에 ‘147조원 증발’…업계 낙관에도 시장은 불안",
+      "titleEnglish": "Anthropic loses 147 trillion won in one day after listing; market uneasy despite industry optimism",
+      "url": "https://www.hani.co.kr/arti/international/globaleconomy/1288516.html",
+      "publisher": "한겨레",
+      "publisherDomain": "hani.co.kr",
+      "publishedAt": "2026-11-22T08:37:00Z",
+      "seenAt": "2026-11-22T10:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-85d2a31c01b0f9",
+      "title": "Биткойн обновил двухлетние минимумы из-за размещения акций компании Anthropic",
+      "titleEnglish": "Bitcoin hits two-year lows amid Anthropic share offering",
+      "url": "https://www.kommersant.ru/doc/9127512",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-22T16:22:46Z",
+      "seenAt": "2026-11-22T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-02bb1b2a6ae0ab",
+      "title": "马斯克：AI行业明年可能面临严重资金短缺",
+      "titleEnglish": "Musk: The AI industry may face a severe funding shortage next year",
+      "url": "https://k.sina.com.cn/article_6192937794_17120bb4202002wquu.html",
+      "publisher": "新浪网",
+      "publisherDomain": "k.sina.com.cn",
+      "publishedAt": "2026-11-22T23:21:51Z",
+      "seenAt": "2026-11-22T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-7e8507db6fdbef",
+      "title": "Oracle：已确保履行与OpenAI合同全部所需资金",
+      "titleEnglish": "Oracle: Has secured all funds needed to fulfil its OpenAI contract",
+      "url": "https://k.sina.com.cn/article_5952915720_162d249080670576ro.html",
+      "publisher": "新浪网",
+      "publisherDomain": "k.sina.com.cn",
+      "publishedAt": "2026-11-22T23:11:20Z",
+      "seenAt": "2026-11-22T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-df49bd2568887f",
+      "title": "Märkte Insight: Der unglaubliche Energiehunger der KI-Industrie",
+      "titleEnglish": "Markets Insight: The incredible energy appetite of the AI industry",
+      "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/maerkte-insight-der-unglaubliche-energiehunger-der-ki-industrie/100269633.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-22T15:19:12Z",
+      "seenAt": "2026-11-22T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-83099807fd4a8f",
+      "title": "주가 밀리자 상장사 퇴출 위기… 신규 관리종목 5배 늘었다[코스닥 '다산다사' 본격화]",
+      "titleEnglish": "As stock prices fall, listed companies face delisting risk; new managed stocks up fivefold [KOSDAQ 'Dasan Dasa' in earnest]",
+      "url": "https://www.fnnews.com/news/202611221826147644",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-22T09:25:23Z",
+      "seenAt": "2026-11-22T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-b6062e0b82aecf",
+      "title": "خبير أسواق مال: 3 أسباب رئيسية وراء هبوط البورصة المصرية | مصراوي",
+      "titleEnglish": "Market expert: 3 main reasons behind the decline of the Egyptian stock exchange | Masrawy",
+      "url": "https://www.masrawy.com/news/news_egypt/details/2026/11/22/3082887/%D8%AE%D8%A8%D9%8A%D8%B1-%D8%A3%D8%B3%D9%88%D8%A7%D9%82-%D9%85%D8%A7%D9%84-%D9%8A-%D8%B7%D8%A7%D9%84%D8%A8-%D8%A8%D8%AA%D8%A3%D8%AC%D9%8A%D9%84-%D8%B7%D8%B1%D8%AD-%D8%AA%D8%A3%D9%85%D9%8A%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9-%D9%88%D9%8A%D9%83%D8%B4%D9%81-%D8%A3%D8%B3%D8%A8%D8%A7%D8%A8-%D9%87%D8%A8%D9%88%D8%B7-%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%B5%D8%A9",
+      "publisher": "مصراوي.كوم",
+      "publisherDomain": "masrawy.com",
+      "publishedAt": "2026-11-22T20:32:00Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-16e47da18912fa",
+      "title": "هل خسرت شركات التكنولوجيا بسبب قرارات ترامب؟.. خبير يوضح | مصراوي",
+      "titleEnglish": "Did technology companies lose because of Trump's decisions? Expert explains | Masrawy",
+      "url": "https://www.masrawy.com/news/news_egypt/details/2026/11/22/3082899/%D9%85%D8%AD%D9%85%D8%AF-%D9%81%D8%A7%D8%B1%D9%88%D9%82-%D9%85%D8%A7-%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A3%D8%B3%D9%87%D9%85-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%AA%D8%B5%D8%AD%D9%8A%D8%AD-%D9%88%D9%84%D9%8A%D8%B3-%D9%81%D9%82%D8%A7%D8%B9%D8%A9",
+      "publisher": "مصراوي.كوم",
+      "publisherDomain": "masrawy.com",
+      "publishedAt": "2026-11-22T20:32:00Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-f7f09250ecc545",
+      "title": "“올해는 7500, 내년엔 9000”…월가 강세론자, 美증시 전망 수정",
+      "titleEnglish": "\"7500 this year, 9000 next year\"... Wall Street bull revises US stock outlook",
+      "url": "https://biz.heraldcorp.com/article/10945327",
+      "publisher": "헤럴드경제",
+      "publisherDomain": "biz.heraldcorp.com",
+      "publishedAt": "2026-11-22T21:25:22Z",
+      "seenAt": "2026-11-22T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-5b19b69534362a",
+      "title": "US treasury finally issues rules for automatic retirement plan",
+      "titleEnglish": "US treasury finally issues rules for automatic retirement plan",
+      "url": "https://www.businessday.co.za/world/2026-11-17-us-treasury-finally-issues-rules-for-automatic-retirement-plan/",
+      "publisher": "Business Day",
+      "publisherDomain": "businessday.co.za",
+      "publishedAt": "2026-11-17T17:17:00Z",
+      "seenAt": "2026-11-17T17:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Africa",
+      "sourceCountryCode": "ZA",
+      "sourceRegion": "Africa",
+      "sourceLat": -30,
+      "sourceLon": 25,
+      "language": "en"
+    },
+    {
+      "id": "n-c6b1149fd42760",
+      "title": "Altersvorsorge: Wie viel Sie sparen müssen, um Ihre Rentenlücke zu schließen",
+      "titleEnglish": "Retirement provision: How much you need to save to close your pension gap",
+      "url": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/altersvorsorge-wie-viel-sie-sparen-muessen-um-ihre-rentenluecke-zu-schliessen/100268809.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-17T14:31:32Z",
+      "seenAt": "2026-11-17T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-fdd8f0af7092ed",
+      "title": "Geldanlage: Was Sparer jetzt zum Altersvorsorgedepot wissen sollten",
+      "titleEnglish": "Investing: What savers should know now about the old-age provision deposit",
+      "url": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/geldanlage-was-sparer-jetzt-zum-altersvorsorgedepot-wissen-sollten/100265976.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-18T11:11:00Z",
+      "seenAt": "2026-11-18T11:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-53ecb3abaad761",
+      "title": "Geldanlage: Welche Sektoren vom demografischen Wandel profitieren",
+      "titleEnglish": "Investing: Which sectors benefit from demographic change",
+      "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-welche-sektoren-vom-demografischen-wandel-profitieren/100269798.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-22T14:59:37Z",
+      "seenAt": "2026-11-22T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-cf2f91a9df28ac",
+      "title": "Is the government's super shakeup good for members' retirement savings? - ABC listen",
+      "titleEnglish": "Is the government's super shakeup good for members' retirement savings? - ABC listen",
+      "url": "https://www.abc.net.au/listen/programs/abc-news-top-stories/australia-super-fund-reform-housing-energy-chalmers-asfa/107397192",
+      "publisher": "ABC listen",
+      "publisherDomain": "abc.net.au",
+      "publishedAt": "2026-11-17T17:00:00Z",
+      "seenAt": "2026-11-17T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-31258fdcebecfd",
+      "title": "Should all workers under 18 get super? Yes, but it’ll take time",
+      "titleEnglish": "Should all workers under 18 get super? Yes, but it’ll take time",
+      "url": "https://www.smh.com.au/business/banking-and-finance/should-all-workers-under-18-get-super-yes-but-it-ll-take-time-20261123-p61g05.html",
+      "publisher": "The Sydney Morning Herald",
+      "publisherDomain": "smh.com.au",
+      "publishedAt": "2026-11-22T18:01:00Z",
+      "seenAt": "2026-11-22T20:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-54b27c50d2c6b4",
+      "title": "KiwiSaver is not working for self-employed people, but what will?",
+      "titleEnglish": "KiwiSaver is not working for self-employed people, but what will?",
+      "url": "https://www.rnz.co.nz/news/personal-finance/2738945/kiwisaver-is-not-working-for-self-employed-people-but-what-will",
+      "publisher": "RNZ",
+      "publisherDomain": "rnz.co.nz",
+      "publishedAt": "2026-11-22T18:32:00Z",
+      "seenAt": "2026-11-22T18:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-047eec84dcdb6a",
+      "title": "Over 782,000 Singaporeans born in or before 1976 to get up to $1,500 CPF top-up",
+      "titleEnglish": "Over 782,000 Singaporeans born in or before 1976 to get up to $1,500 CPF top-up",
+      "url": "https://www.straitstimes.com/singapore/over-782000-singaporeans-born-in-or-before-1976-to-get-up-to-1500-cpf-top-up",
+      "publisher": "The Straits Times",
+      "publisherDomain": "straitstimes.com",
+      "publishedAt": "2026-11-20T03:37:06Z",
+      "seenAt": "2026-11-20T11:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-995e46fb274fbd",
+      "title": "Social Security is less than six years from a 22% cut. Sen. Ron Johnson’s fix: borrow $190 trillion and call it the ‘Stop Scaring Seniors Act’ | Fortune",
+      "titleEnglish": "Social Security is less than six years from a 22% cut. Sen. Ron Johnson’s fix: borrow $190 trillion and call it the ‘Stop Scaring Seniors Act’ | Fortune",
+      "url": "https://fortune.com/2026/11/19/social-security-22-percent-cut-ron-johnson-stop-scaring-seniors-act-borrow-190-trillion-crfb/",
+      "publisher": "Fortune",
+      "publisherDomain": "fortune.com",
+      "publishedAt": "2026-11-19T21:47:00Z",
+      "seenAt": "2026-11-19T21:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    }
+  ],
+  "settled": [
+    {
+      "id": "20261110T001511-gas-sought-in-the-hottest-years-1",
+      "status": "failed",
+      "how": "headline"
+    },
+    {
+      "id": "20261031T013540-ai-selloff-taiwan-state-buyers-1",
+      "status": "failed",
+      "how": "expired"
+    },
+    {
+      "id": "20261031T013540-war-prices-reach-wage-talks-1",
+      "status": "failed",
+      "how": "expired"
+    },
+    {
+      "id": "20261031T013540-russia-shunned-and-courted-2",
+      "status": "failed",
+      "how": "expired"
+    },
+    {
+      "id": "20261101T010841-gen-z-protests-met-by-police-2",
+      "status": "failed",
+      "how": "expired"
+    },
+    {
+      "id": "20261110T001511-oil-prices-follow-talk-not-the-gulf-1",
+      "status": "failed",
+      "how": "expired"
+    }
+  ],
+  "readings": [
+    {
+      "id": "consensus-talks-fail-courts-decide",
+      "line": "Talks that need every government's consent now fail, while courts that vote and groups that admit only the willing still decide.",
+      "kicker": "CONSENSUS / MAJORITY / CLUBS",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A named group of countries announces its own fossil fuel phase-out pact or climate finance deal outside the COP process.",
+          "by": "2026-12-20",
+          "because": "If consensus is what failed, the states that wanted a stronger COP31 text should move to an agreement among themselves, which one bad summit on its own would not require.",
+          "id": "20261122T214457-consensus-talks-fail-courts-decide-1"
+        },
+        {
+          "what": "Austria or another state announces talks on an autonomous weapons treaty outside the UN weapons convention.",
+          "by": "2026-12-20",
+          "because": "The join predicts the same move in weapons as in climate, as happened with landmines in 1996-97, not only in the forum that failed most loudly.",
+          "id": "20261122T214457-consensus-talks-fail-courts-decide-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is landmines: when the review of the Convention on Certain Conventional Weapons failed to agree a ban in 1996, Canada invited willing states to Ottawa and a ban treaty was signed in December 1997 without the United States, Russia or China. Copenhagen's climate collapse in 2009 went the other way, back into a universal process that produced the looser Paris Agreement in 2015. The present differs in that climate and weapons talks failed in the same week, and states have used courts far more since 2019.",
+        "paths": [
+          {
+            "name": "Willing states sign their own texts",
+            "weight": "favoured",
+            "text": "Within six to twelve months, groups of states that wanted more at COP31 and in Geneva sign climate and autonomous-weapons texts among themselves, with Ethiopia's proposed summit and an Austrian-led weapons process as likely venues. The join points here because every decision reached this weekend came from a body that did not need all governments to agree.",
+            "sign": "A group of governments announces a fossil fuel or autonomous-weapons agreement open only to those who sign it."
+          },
+          {
+            "name": "Back to the universal table",
+            "weight": "possible",
+            "text": "COP32 reconvenes with a weaker text that every state accepts, as Paris followed Copenhagen, and no breakaway group forms. This is less likely because the EU itself rejected the COP31 text, so the bloc that usually builds the compromise is the one that walked away.",
+            "sign": "The COP presidency announces resumed talks on a compromise text on finance."
+          },
+          {
+            "name": "The consensus rule is changed",
+            "weight": "unlikely",
+            "text": "States agree to adopt a voting rule for the climate process or the weapons convention. Unlikely because the producers who block consensus would also block the change.",
+            "sign": "Parties to the climate convention agree to adopt the voting rule in their rules of procedure."
+          }
+        ],
+        "decade": "Over ten years, binding international rules will come mostly from courts and from clubs of willing states, and meetings of all governments will record agreement only where it already exists."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "COP31 in Turkey ended without agreement after the EU rejected the final text, and UN talks on autonomous weapons ended without binding rules, while on the same weekend the International Court of Justice found Myanmar responsible for genocide against the Rohingya by nine votes to six and fifteen West African states adopted a migration declaration in Dakar. The forums that failed both decide by consensus, so one government or bloc can stop the text. The bodies that reached decisions either vote or admit only states that already agree. Rule-making is moving to courts and smaller groups, and away from the meetings every government attends.",
+      "events": [
+        {
+          "label": "COP31 ends without agreement",
+          "articleIds": [
+            "n-6aa2b35c1e1852",
+            "n-ac3feec18069f3",
+            "n-8daffd8dbaf05c",
+            "n-1ce67815e27a5e",
+            "n-1460f9c3087017",
+            "n-baf2e4d7080649"
+          ]
+        },
+        {
+          "label": "UN autonomous weapons talks fall short",
+          "articleIds": [
+            "n-dcf155863e8839"
+          ]
+        },
+        {
+          "label": "ICJ finds Myanmar responsible for genocide",
+          "articleIds": [
+            "n-577bb861a928d4",
+            "n-3b6f38535f809d"
+          ]
+        },
+        {
+          "label": "Fifteen states adopt Dakar migration declaration",
+          "articleIds": [
+            "n-bc54dc23003c9f",
+            "n-9e0a2489a1d7f9"
+          ]
+        },
+        {
+          "label": "Smaller groups offer their own forums",
+          "articleIds": [
+            "n-693bccc1f44083",
+            "n-45b8b9f6c433f7",
+            "n-71d031cdce6712",
+            "n-9daa2ce6f602ea"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Two consensus talks end empty",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "COP31 collapses",
+              "text": "Business Day in South Africa reports that the COP31 climate talks collapsed over fossil fuels and funding, and the Sydney Morning Herald that the conference ended without agreement. DW's Bengali and Polish services report no consensus. NOS in the Netherlands says the EU rejected the content of the final agreement, and Yle's analysis in Finland calls it the worst climate summit ever, one that failed on its own impossibility.",
+              "articleIds": [
+                "n-6aa2b35c1e1852",
+                "n-ac3feec18069f3",
+                "n-8daffd8dbaf05c",
+                "n-1ce67815e27a5e",
+                "n-1460f9c3087017",
+                "n-baf2e4d7080649"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Weapons talks",
+              "text": "NPR in the United States reports that UN talks on lethal autonomous weapons fell short of hopes for legally binding rules. These talks sit inside the Convention on Certain Conventional Weapons, where any state can block a text.",
+              "articleIds": [
+                "n-dcf155863e8839"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Decisions that were reached",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "A split court rules",
+              "text": "Kenya Today reports that the ICJ ruled Myanmar responsible for genocide against the Rohingya in a 9-6 verdict. Le Soleil in Senegal notes that the case was brought by Gambia, a state with no Rohingya of its own.",
+              "articleIds": [
+                "n-577bb861a928d4",
+                "n-3b6f38535f809d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "Regional texts adopted",
+              "text": "Le Soleil reports that fifteen states adopted the Dakar Declaration on migration in West Africa, in the same days that Senegal's navy rescued 1,007 migrants in 72 hours. The Economic Times reports that an SCO forum backed joint UNESCO bids and steps against heritage trafficking. Both texts bind only those who joined.",
+              "articleIds": [
+                "n-bc54dc23003c9f",
+                "n-9e0a2489a1d7f9",
+                "n-9daa2ce6f602ea"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "The decision rule decides",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "Consensus against majority",
+              "text": "What separates the failures from the decisions is how each body decides. The climate process has never adopted its voting rule and so works by consensus, and the weapons convention does the same; one objector, here the EU on climate, is enough. The ICJ decides by a majority of judges, so a 9-6 split still yields a finding, and the Dakar and SCO texts were signed only by states already willing.",
+              "articleIds": [
+                "n-1460f9c3087017",
+                "n-dcf155863e8839",
+                "n-577bb861a928d4",
+                "n-bc54dc23003c9f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "interpretation",
+          "label": "Where the willing go next",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Offers to smaller groups",
+              "text": "Nieuws.nl reports Ethiopia wants to host a climate summit of hope next year, and SAPO that the Nordic countries reaffirmed multilateralism after the collapse. 47NEWS reports ICAN proposing a framework for relief of nuclear victims mediated by supporting countries, not by all states. Each is an offer to work with those who agree, the method that produced the landmine and nuclear ban treaties.",
+              "articleIds": [
+                "n-693bccc1f44083",
+                "n-45b8b9f6c433f7",
+                "n-71d031cdce6712"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r5",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f7",
+              "label": "Consensus has failed before",
+              "text": "Climate talks collapsed at Copenhagen in 2009, and the autonomous weapons talks have produced no treaty since they began in 2014. A failed COP is not new, and the ICJ's timing is set by a case filed in 2019, not by this weekend. The coincidence of dates may be all that joins them.",
+              "articleIds": [
+                "n-dcf155863e8839",
+                "n-3b6f38535f809d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f8",
+              "label": "Different kinds of act",
+              "text": "What these events do not share: one is a bargain over money and fossil fuels, one over weapons, one a judgement on crimes already committed, one a non-binding declaration. A court finding about the past is not a rule for the future, and the ICJ cannot enforce its judgement on Myanmar. The contrast may be between judging and legislating, not between majority and consensus.",
+              "articleIds": [
+                "n-577bb861a928d4",
+                "n-bc54dc23003c9f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "CLIMATE / WEAPONS / LITIGATION",
+          "text": "This decade's climate meetings showed how far consensus could stretch. At Glasgow in 2021 a late Indian amendment turned a coal phase-out into a phase-down. At Dubai in 2023 the text agreed to transition away from fossil fuels, the first such words in a COP decision, but with no date. At Belém in 2025 a roadmap away from fossil fuels was left out of the final decision. By these headlines COP31 in Turkey went further and ended with nothing, after the EU rejected the text. Weapons followed the same route. The Nagorno-Karabakh war of 2020 and then Ukraine made loitering munitions ordinary, and the UN General Assembly, which votes, passed resolutions on autonomous weapons in 2023 and 2024 while the consensus talks in Geneva did not move, as NPR reports again today. Courts moved instead: the ICJ gave an advisory opinion on states' climate obligations in July 2025, and this weekend's Rohingya judgement closes a case Gambia filed in 2019.",
+          "trajectoryIds": [
+            "karabakh-2020"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CLUBS / PLEDGES / BLOCKING",
+          "text": "Copenhagen in December 2009 was the first collapse of a summit meant to produce a binding climate treaty; it ended with an accord the conference only took note of, because a handful of states objected. The answer was the Paris Agreement of 2015, which stopped trying to bind and asked each state for its own pledge. That kept everyone in the room at the cost of making the room a place for announcements. The same years saw clubs take work from universal bodies: the G20 became a leaders' summit in 2008, the WTO's Doha round stalled and regional trade deals replaced it, and the Shanghai Cooperation Organisation grew into a forum whose statements, like this weekend's on UNESCO bids, need only its members. The Iran nuclear deal of 2015 was itself a club text, six powers and one state. Talks on lethal autonomous weapons began informally in Geneva in 2014 and became a formal expert group in 2017, inside a forum where any state can block.",
+          "trajectoryIds": [
+            "jcpoa-2015"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "TREATIES / COALITIONS / INTERNATIONAL LAW",
+          "text": "The end of the Cold War produced the universal treaties these meetings still run on: the climate convention signed at Rio in 1992, the WTO in 1995 with its own consensus practice, the Kyoto Protocol in 1997. It also produced the first way around consensus. When the weapons convention failed to ban landmines in 1996, Canada invited willing states to Ottawa, and a ban was signed in December 1997 without the United States, Russia or China. The cluster munitions convention of 2008 repeated the method, and the nuclear weapons ban treaty of 2017, pushed by ICAN, did it again; ICAN's proposal reported by 47NEWS today, mediated by supporting countries, is the same habit. The Rome Statute of the International Criminal Court was adopted by a vote of 120 to 7 in 1998, and the court opened in 2002. Since then the choice has been between a weak text that all states sign and a stronger one that only some do.",
+          "trajectoryIds": [
+            "icc-2002"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "CHARTER / GENOCIDE / UNANIMITY",
+          "text": "The order of 1945 wrote both decision rules into its institutions. The UN Charter gave the General Assembly majority votes and the Security Council a veto for five powers, and the Statute of the International Court of Justice let fifteen judges decide by majority. The Genocide Convention of December 1948, drafted in the years of Nuremberg, let any party take another to that court, which is how Gambia came to win this weekend's 9-6 judgement against Myanmar. The Geneva Conventions of 1949 were negotiated towards universal acceptance, the model the autonomous weapons talks still aim at. Decolonisation then took UN membership from 51 states at its founding to more than 190, so a rule that needs every one of them became harder to reach with each decade. The climate process, born in 1992, inherited the most demanding version: it has never adopted its rule on voting, so it decides by consensus by default, and COP31 ended there.",
+          "trajectoryIds": [
+            "nuremberg-1945",
+            "geneva-1949"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-6aa2b35c1e1852",
+        "n-ac3feec18069f3",
+        "n-8daffd8dbaf05c",
+        "n-1ce67815e27a5e",
+        "n-1460f9c3087017",
+        "n-baf2e4d7080649",
+        "n-dcf155863e8839",
+        "n-577bb861a928d4",
+        "n-3b6f38535f809d",
+        "n-bc54dc23003c9f",
+        "n-9e0a2489a1d7f9",
+        "n-9daa2ce6f602ea",
+        "n-693bccc1f44083",
+        "n-45b8b9f6c433f7",
+        "n-71d031cdce6712"
+      ]
+    },
+    {
+      "id": "war-lands-on-third-countries",
+      "line": "The war's attacks now land in countries outside it, and those countries mostly respond by naming the weapon, not by firing back.",
+      "kicker": "ATTRIBUTION / RESTRAINT / HOST STATES",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "Poland or Finland summons a Russian diplomat or lodges a formal protest over the missiles or the ship, with no military response.",
+          "by": "2026-12-06",
+          "because": "If host states answer by naming rather than by force, their next step is diplomatic and legal, and the join predicts it in more than one country.",
+          "id": "20261122T214457-war-lands-on-third-countries-1"
+        },
+        {
+          "what": "Another country not at war reports a drone or missile strike on a Russian ship, base or cargo on its territory or in its waters.",
+          "by": "2026-12-20",
+          "because": "If the war's reach has moved to third territories, Benghazi should not be the last, which a one-off strike would not predict.",
+          "id": "20261122T214457-war-lands-on-third-countries-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is Przewodów on 15 November 2022, when a missile killed two people in eastern Poland; within a day Poland and NATO concluded it was a Ukrainian air-defence round, and the alliance chose investigation over escalation. The present differs in three ways: the missiles are now named as Russian, a NATO shoot-down was ordered and not carried out, and Russia's own ships are being struck in the ports and waters of third countries.",
+        "paths": [
+          {
+            "name": "Hosts protest, nobody retaliates",
+            "weight": "favoured",
+            "text": "Over the coming weeks Poland and Finland file protests and publish findings, Libya's eastern government keeps the Benghazi inquiry vague, and NATO consults without using force. Every host so far has stopped at naming, and the talks give each government a reason not to be the one that escalates.",
+            "sign": "Poland summons Russia's envoy and publishes a prosecutor's report naming the missile type."
+          },
+          {
+            "name": "Ports and waters close to Russian ships",
+            "weight": "possible",
+            "text": "Within months Finland or another coastal state restricts passage or port calls by Russian state vessels, citing the risk of attacks in its waters. This would turn naming into a rule without firing a shot.",
+            "sign": "Finland announces new inspection or entry rules for Russian state or shadow-fleet vessels."
+          },
+          {
+            "name": "A NATO jet fires on a missile",
+            "weight": "unlikely",
+            "text": "An allied aircraft shoots down a Russian missile over NATO territory in the coming months. Unlikely because this time the order was given and not carried out, and Washington's tone towards Moscow is softer.",
+            "sign": "NATO confirms an allied aircraft destroyed a Russian missile over a member state."
+          }
+        ],
+        "decade": "Over ten years, wars fought with long-range drones will be fought partly in the ports and airspace of countries not in them, and those countries' investigators will write much of the record."
+      },
+      "continues": "ships-struck-after-summit",
+      "change": "Yesterday's narrative said both wars were being fought against ships that no draft settlement covers. Today a Russian warship was sunk at Benghazi in Libya, a drone-hit Russian vessel left Finnish waters, and Polish prosecutors confirmed that Russian cruise missiles fell in Poland, so the question has moved to the countries where these attacks land.",
+      "claim": "A Russian warship was sunk by an explosion in eastern Libya that the Benghazi government suspects was a drone, the drone-damaged Russian vessel Sparta II left Finnish waters, and Polish prosecutors said the objects that fell in Poland were Russian-made cruise missiles, while a Polish general said NATO had ordered one shot down and the pilot turned back in bad weather. In each case the country where the attack landed is not a party to the war, and its first act has been to identify what hit it and to stop short of force. The German army's last-minute change of plans for fear of provoking Russia is the same choice made in advance. The war's damage is now spread across neutral and allied ground whose governments decide how much of it to acknowledge.",
+      "events": [
+        {
+          "label": "Russian warship sunk at Benghazi",
+          "articleIds": [
+            "n-c0fa8ba3fe94fe",
+            "n-d8f9555bf620a1",
+            "n-19078edf38dd50",
+            "n-3753612ec3d2a1"
+          ]
+        },
+        {
+          "label": "Drone-hit Sparta II leaves Finnish waters",
+          "articleIds": [
+            "n-23cd0715505061"
+          ]
+        },
+        {
+          "label": "Russian frigate collides with a tanker",
+          "articleIds": [
+            "n-d15f80da3d409b"
+          ]
+        },
+        {
+          "label": "Russian missiles confirmed in Poland",
+          "articleIds": [
+            "n-3137f950beff9a",
+            "n-f9c4ab9eea0d45",
+            "n-b4285b79afd541"
+          ]
+        },
+        {
+          "label": "German army changes plans over Russia",
+          "articleIds": [
+            "n-283958d3ddaa1b"
+          ]
+        },
+        {
+          "label": "Moscow calls Europe's coalition overrated",
+          "articleIds": [
+            "n-864c383ce8395b"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Russian ships hit far away",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Benghazi",
+              "text": "El País in Spain reports that an explosion sank a Russian warship off eastern Libya. The BBC and Arab News in Saudi Arabia report that Libya's eastern government suspects a drone attack. Al Jazeera, published in Qatar, sets out the weapons and Russian movements at the Benghazi base before the blast.",
+              "articleIds": [
+                "n-c0fa8ba3fe94fe",
+                "n-d8f9555bf620a1",
+                "n-19078edf38dd50",
+                "n-3753612ec3d2a1"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "The Baltic",
+              "text": "Kommersant in Russia reports that Sparta II, hit by a drone, has left Finnish waters. Il Messaggero in Italy reports panic aboard a Russian frigate after a collision with a tanker, with a sailor quoted threatening to execute the engineer.",
+              "articleIds": [
+                "n-23cd0715505061",
+                "n-d15f80da3d409b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Missiles over Poland",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Named but not shot down",
+              "text": "SudOuest in France and Kommersant report Polish prosecutors saying the objects that fell were Russian-made cruise missiles. Efimerida ton Syntakton in Greece quotes a Polish general saying NATO had ordered a shoot-down and the pilot withdrew because of bad weather. DW's Polish service reports the German army changed its plans at the last minute over concern about provoking Russia.",
+              "articleIds": [
+                "n-3137f950beff9a",
+                "n-f9c4ab9eea0d45",
+                "n-b4285b79afd541",
+                "n-283958d3ddaa1b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Hosts that name and wait",
+          "fragments": [
+            {
+              "id": "f4",
+              "label": "The same first step",
+              "text": "Libya, Finland and Poland are not at war with Russia or Ukraine, yet the war's weapons reached their ports, waters and land in the same days. Each government did the same thing: identified the weapon or its origin and stopped there. Libya's eastern authorities speak of a suspected drone without naming whose, Finland let the damaged ship go, and Poland names the missiles as Russian while its pilot did not fire.",
+              "articleIds": [
+                "n-19078edf38dd50",
+                "n-23cd0715505061",
+                "n-f9c4ab9eea0d45",
+                "n-b4285b79afd541"
+              ],
+              "bookIds": [
+                "theory-of-the-drone"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f5",
+              "label": "What it leaves the talks",
+              "text": "The talks between the powers draw lines on land. The incidents reported today happen in other countries' harbours and airspace, which no ceasefire line would cover, and the host governments' findings will be cited by both sides. Lenta's headline calling Europe's coalition of the willing overrated shows Moscow reading that caution as weakness.",
+              "articleIds": [
+                "n-3753612ec3d2a1",
+                "n-864c383ce8395b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Restraint is the old rule",
+              "text": "Missiles fell in Poland at Przewodów in 2022, and NATO members have avoided firing on Russian forces throughout the war. When Russian drones crossed into Poland in September 2025 they were shot down, which is the opposite of restraint. Caution by these states is the norm since 2022, not a new pattern.",
+              "articleIds": [
+                "n-b4285b79afd541"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f7",
+              "label": "Different hosts, different motives",
+              "text": "What the events do not share: Libya's eastern government is a Russian partner hosting its forces, so its vague account protects an ally rather than a neutral position; Finland and Poland are NATO members; the frigate collision was an accident; and the German decision concerns exercises, not an attack. The Benghazi blast is unclaimed, and the attacker may be neither Ukraine nor anyone the talks involve.",
+              "articleIds": [
+                "n-19078edf38dd50",
+                "n-d15f80da3d409b",
+                "n-283958d3ddaa1b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "DRONES / SEA / ATTRIBUTION",
+          "text": "Since February 2022 much of the war at sea has been fought by machines. The cruiser Moskva sank in April 2022, Ukrainian sea drones then pushed the Black Sea Fleet out of Sevastopol, and in June 2025 drones launched from lorries hit bombers at airfields thousands of kilometres inside Russia. The Nord Stream pipelines were blown up in the Baltic in September 2022, and Sweden, Denmark and Germany spent years on the question of who did it; Sweden closed its inquiry without naming anyone. In November 2022 a missile killed two farmers at Przewodów in Poland and within a day was found to be a Ukrainian air-defence round. In September 2025 Russian drones crossed into Poland and were shot down, and Warsaw asked for NATO consultations. Each case taught the countries near the war that their first task is forensic. By these headlines Poland's prosecutors are still doing that work, and the pilot who might have fired turned back.",
+          "trajectoryIds": [
+            "spiderweb-2025"
+          ],
+          "bookIds": [
+            "theory-of-the-drone"
+          ]
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "BASES / PROXIES / INVESTIGATION",
+          "text": "Russia's reach to the ports where its ships are now struck was built after 2008. The war with Georgia that August began the rebuilding of its armed forces, the annexation of Crimea in 2014 secured Sevastopol, and the intervention in Syria from September 2015 turned Tartus into a naval base. In Libya the Wagner group arrived around 2019 to back Khalifa Haftar's assault on Tripoli, and after Wagner's leader died in 2023 its units were folded into a ministry-run Africa Corps, which is why Al Jazeera's account of the Benghazi base speaks of Russian weapons and movements. The same years set the standard for a third country naming a weapon. After flight MH17 was shot down over eastern Ukraine in July 2014, a Dutch-led team identified a Russian Buk missile, and a Dutch court convicted three men in 2022. For smaller states, investigation rather than retaliation became the usual answer.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "ENLARGEMENT / NEUTRALITY / NAVIGATION",
+          "text": "The countries now receiving the war's debris took their present places after 1989. Poland joined NATO in 1999; Finland stayed outside for three decades and joined in April 2023 after the full invasion; Libya, a Soviet client in the Cold War, became after 2011 a country with two governments, the eastern one close to Moscow. The other change was in the weapons. In May 2000 Washington switched off the deliberate error in civilian GPS, and within a decade cheap satellite navigation and consumer quadcopters gave small armies long-range precision. That is why a drone can find a ship at Benghazi, more than two thousand kilometres from Ukraine, as El País and the BBC report, and why the country whose port it is must then decide what it saw. The Baltic, a quiet sea between neutrals and NATO through the 1990s, is now watched by both sides along its whole length.",
+          "trajectoryIds": [
+            "gps-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "NEUTRAL RIGHTS / ALLIANCE / CAUTION",
+          "text": "The rules these host countries are using are older than the war. The Hague conventions of 1907 obliged a neutral to keep belligerents from using its ports and waters, a duty Libya and Finland now face in practice. The UN Charter of 1945 limited force to self-defence, and the North Atlantic Treaty of 1949 gave members two steps, consultation under Article 4 and collective defence under Article 5; in seventy-seven years no member has treated a stray missile as grounds for the second. Finland spent the Cold War under its 1948 treaty with Moscow, careful not to provoke, and DW's report that the German army changed its plans for fear of provoking Russia shows that habit outliving its origin. The first weapon that let a state strike without being present, the V-1 launched at London in June 1944, made the question of who fired a matter of evidence rather than sight.",
+          "trajectoryIds": [
+            "v1-1944"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-c0fa8ba3fe94fe",
+        "n-d8f9555bf620a1",
+        "n-19078edf38dd50",
+        "n-3753612ec3d2a1",
+        "n-23cd0715505061",
+        "n-d15f80da3d409b",
+        "n-3137f950beff9a",
+        "n-f9c4ab9eea0d45",
+        "n-b4285b79afd541",
+        "n-283958d3ddaa1b",
+        "n-864c383ce8395b"
+      ]
+    },
+    {
+      "id": "ai-listings-draw-from-other-assets",
+      "line": "AI labs now raise money from the public, and the sums are large enough that other risky assets fall when they do.",
+      "kicker": "CAPITAL / LISTINGS / CROWDING OUT",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "Another AI lab or data-centre operator postpones or shrinks a planned share sale or bond, citing market conditions.",
+          "by": "2026-12-13",
+          "because": "If the pool of speculative money is the limit, the next issuer meets the same shortage, which a correction in one company's shares would not predict.",
+          "id": "20261122T214457-ai-listings-draw-from-other-assets-1"
+        },
+        {
+          "what": "Crypto funds or exchanges report a week of large outflows with an AI share sale named as a reason.",
+          "by": "2026-12-13",
+          "because": "The join says the listings draw on the same money as crypto, so the link Kommersant made for bitcoin should be made again in fund flows.",
+          "id": "20261122T214457-ai-listings-draw-from-other-assets-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The nearest case is the listing wave of 1999 to March 2000, when the volume of new technology shares coming to market helped turn the Nasdaq, which then lost nearly four fifths of its value by 2002. The difference is scale and number: then hundreds of small firms listed, now a handful of labs each seek tens of billions, and buyers reach them through apps in Seoul and Cairo as well as New York.",
+        "paths": [
+          {
+            "name": "Next listings wait, insiders fund",
+            "weight": "favoured",
+            "text": "Over the next three months the next AI issuers delay their listings, and the labs return to supplier deals, sovereign funds and loans of the kind Oracle describes. The join points this way because a falling first listing makes the second costlier, and the private channels are still open.",
+            "sign": "An AI or data-centre company says it has postponed a planned listing."
+          },
+          {
+            "name": "Savers keep buying, small markets drain",
+            "weight": "possible",
+            "text": "Retail investors keep buying AI shares on the dips into next year, and small-company and crypto markets keep losing money to them. This needs a steady flow of new household money, which the Korean delisting warnings suggest is thinning.",
+            "sign": "KOSDAQ or a crypto exchange reports record net selling by individual investors."
+          },
+          {
+            "name": "Funding stops, building halts",
+            "weight": "unlikely",
+            "text": "A failed raise forces a lab or cloud firm to cancel data centres within the year. Unlikely while suppliers such as Oracle say their funding is secured.",
+            "sign": "A major AI lab cancels a data-centre contract for lack of funds."
+          }
+        ],
+        "decade": "Over ten years, ordinary savers will hold the AI build directly through funds and apps, so its losses will reach households and compete with every other risky asset they own."
+      },
+      "continues": "",
+      "change": "On 19 November the lab's shares had doubled on their first day while savers' other holdings fell. Since then Anthropic has lost 147 trillion won of market value in a single day, Kommersant has tied bitcoin's two-year low to the share offering, and Musk has warned of an AI funding shortage next year.",
+      "claim": "Anthropic lost 147 trillion won of market value in one day after listing, bitcoin fell to a two-year low that Kommersant ties to the Anthropic share offering, Musk warned that the AI industry may face a severe funding shortage next year, and Korea's KOSDAQ reports a fivefold rise in companies placed under watch as prices fall. The join is that AI building now raises its money in public markets, and the amount it needs is large enough to pull money out of other speculative holdings at the same time. Oracle's statement the same day that it has all the funds for its OpenAI contract is a supplier answering the question of whether the money exists.",
+      "events": [
+        {
+          "label": "Anthropic shares fall after listing",
+          "articleIds": [
+            "n-326bdd1bf3621b"
+          ]
+        },
+        {
+          "label": "Bitcoin hits a two-year low",
+          "articleIds": [
+            "n-85d2a31c01b0f9"
+          ]
+        },
+        {
+          "label": "Musk and Oracle on AI funding",
+          "articleIds": [
+            "n-02bb1b2a6ae0ab",
+            "n-7e8507db6fdbef"
+          ]
+        },
+        {
+          "label": "KOSDAQ firms face delisting",
+          "articleIds": [
+            "n-83099807fd4a8f"
+          ]
+        },
+        {
+          "label": "Egypt's stock exchange falls",
+          "articleIds": [
+            "n-b6062e0b82aecf",
+            "n-16e47da18912fa"
+          ]
+        },
+        {
+          "label": "AI energy and index forecasts",
+          "articleIds": [
+            "n-df49bd2568887f",
+            "n-f7f09250ecc545"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "The listing and its fall",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "One day's loss",
+              "text": "Hankyoreh in South Korea reports that Anthropic lost 147 trillion won in one day after listing, with the market uneasy despite industry optimism. Kommersant in Russia reports bitcoin at two-year lows amid the Anthropic share offering.",
+              "articleIds": [
+                "n-326bdd1bf3621b",
+                "n-85d2a31c01b0f9"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Talk of money",
+              "text": "Sina in China carries Musk saying the AI industry may face a severe funding shortage next year, and Oracle saying it has secured all the funds it needs to fulfil its OpenAI contract. Handelsblatt in Germany writes on the industry's very large appetite for energy, the cost the money is raised to pay.",
+              "articleIds": [
+                "n-02bb1b2a6ae0ab",
+                "n-7e8507db6fdbef",
+                "n-df49bd2568887f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Elsewhere in the markets",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Small listings and Cairo",
+              "text": "Financial News in Korea reports that falling prices have pushed KOSDAQ companies towards delisting, with newly managed stocks up fivefold. Masrawy in Egypt carries an expert's three reasons for the Egyptian exchange's decline and asks whether technology companies lost because of Trump's decisions. Herald Economy in Korea carries a Wall Street bull setting US index targets of 7,500 this year and 9,000 next.",
+              "articleIds": [
+                "n-83099807fd4a8f",
+                "n-b6062e0b82aecf",
+                "n-16e47da18912fa",
+                "n-f7f09250ecc545"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "A limited pool of money",
+          "fragments": [
+            {
+              "id": "f4",
+              "label": "Selling one thing to buy another",
+              "text": "Money willing to take large risks is limited in any given week. When a lab sells tens of billions of dollars of new shares, buyers pay partly by selling other volatile holdings: bitcoin, small Korean listings, emerging-market shares. Kommersant makes that link for bitcoin directly, and the KOSDAQ and Egyptian falls in the same days fit it.",
+              "articleIds": [
+                "n-85d2a31c01b0f9",
+                "n-83099807fd4a8f",
+                "n-b6062e0b82aecf",
+                "n-326bdd1bf3621b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "dotcom-2000"
+              ]
+            },
+            {
+              "id": "f5",
+              "label": "Households as funders",
+              "text": "Musk's warning and Oracle's reassurance point the same way from opposite sides: the sums the labs need now exceed what chip suppliers and private funds provide. Selling shares to the public makes households the remaining source, and the first week of that arrangement has shown them a loss.",
+              "articleIds": [
+                "n-02bb1b2a6ae0ab",
+                "n-7e8507db6fdbef"
+              ],
+              "bookIds": [],
+              "trajectoryIds": [
+                "chatgpt-2022"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Rates explain it",
+              "text": "The previous edition's reading, that high interest rates make every asset bought on borrowed money fall together, fits the same headlines without any listing drawing money away. Anthropic's fall may simply be the reverse of its first-day doubling.",
+              "articleIds": [
+                "n-326bdd1bf3621b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f7",
+              "label": "Different markets",
+              "text": "What these events do not share: Egyptian shares move with the pound and domestic policy, KOSDAQ's watch list follows listing rules on earnings, and bitcoin has its own cycle. Only one headline names the listing, and Kommersant's word is amid, a link in time, not a stated cause. The Wall Street forecast of 9,000 points the other way.",
+              "articleIds": [
+                "n-85d2a31c01b0f9",
+                "n-b6062e0b82aecf",
+                "n-83099807fd4a8f",
+                "n-f7f09250ecc545"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "RETAIL / RATES / AI",
+          "text": "The money now being asked for was shaped by the pandemic. With rates near zero in 2020 and 2021, trading apps brought millions of first-time investors into shares and crypto; in Korea small investors bought domestic stocks and then American technology names. Bitcoin rose above $60,000 in 2021 and fell below $20,000 after the Federal Reserve began raising rates in March 2022. ChatGPT arrived in November 2022 and reached a hundred million users in two months. Within three years the companies building the models needed sums for chips and data centres that venture funds could not supply, and turned to suppliers, cloud partners and debt. By these headlines Anthropic's listing this month is the moment the public became a direct funder, and the fall of 147 trillion won in a day reported by Hankyoreh is the first time that public carried the loss. Musk's warning of a shortage next year comes from the same arithmetic.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "LIQUIDITY / CRYPTO / CLOUD",
+          "text": "Bitcoin's founding paper appeared in October 2008, weeks after Lehman Brothers failed, and the asset grew through a decade in which central banks bought bonds and held rates near zero. That decade made speculative assets move together: when money was cheap they all rose, and when it was withdrawn they fell together, which is the rival explanation for today's bitcoin low. The same years made the cloud the safest home for corporate investment. Amazon, Microsoft and Google built the data centres that AI now rents and paid for them from profits, not public offerings, and for fifteen years the largest technology firms bought back their own shares, returning cash to investors. Korea's KOSDAQ, where Financial News reports a fivefold rise in companies under watch, absorbed waves of retail money in those years. The AI listings reverse the direction of that flow: the labs now take money from the market instead of returning it.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "LISTINGS / BUBBLES / EMERGING MARKETS",
+          "text": "The template for selling an unprofitable technology to the public was set in August 1995, when Netscape listed and its shares more than doubled on the first day. The years to March 2000 brought hundreds of such listings, and the supply of new shares became one reason the market turned, as insiders and new issuers sold faster than buyers could absorb. The Nasdaq then lost nearly four fifths of its value by 2002. Korea opened KOSDAQ in 1996 as a market for young technology firms, and it rose and fell with the American one. Egypt's exchange, revived during the privatisations of the 1990s, has since moved with foreign money entering and leaving emerging markets, which is how a Masrawy expert can ask whether Trump's decisions reached Egyptian investors through technology shares. In size and in the hopes placed on it, Anthropic's listing is closer to Netscape's than to any listing since.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE SCIENCE / CAPITAL CONTROLS / RISK",
+          "text": "For three decades after 1945 the technologies expected to change everything were paid for by governments. The computer came out of wartime code-breaking and ballistics, the term artificial intelligence was coined at a foundation-funded workshop at Dartmouth in 1956, and after Sputnik in 1957 the United States created ARPA, which later funded the network that became the internet. Losses on those projects fell on taxpayers spread across a generation, not on savers in a week. The Bretton Woods system also limited the movement of money between countries until the early 1970s, so savings could not leave Seoul or Cairo for an American listing in a day. The AI build reverses both arrangements: private companies raise the money, and savers anywhere can buy in through an app. Musk's warning of a funding shortage, carried by Sina, is a question no government had to ask about its research programmes.",
+          "trajectoryIds": [
+            "dartmouth-1956",
+            "sputnik-1957"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "20261119T230231/ai-listing-gains-before-savers",
+      "builds": "",
+      "articleIds": [
+        "n-326bdd1bf3621b",
+        "n-85d2a31c01b0f9",
+        "n-02bb1b2a6ae0ab",
+        "n-7e8507db6fdbef",
+        "n-df49bd2568887f",
+        "n-83099807fd4a8f",
+        "n-b6062e0b82aecf",
+        "n-16e47da18912fa",
+        "n-f7f09250ecc545"
+      ]
+    },
+    {
+      "id": "retirement-saving-and-pension-age",
+      "line": "In one week, pension saving has been pushed to more workers, so more people's retirement rests on what their own account holds.",
+      "kicker": "OLD AGE / INDIVIDUAL ACCOUNTS / THE STATE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A government extends automatic enrolment or compulsory contributions to retirement accounts to a group not covered before, such as the self-employed.",
+          "by": "2026-12-20",
+          "because": "If the account is now the default instrument, the open argument is about who is outside it, and governments will close those gaps rather than enlarge the public pension.",
+          "id": "20261122T214457-retirement-saving-and-pension-age-1"
+        },
+        {
+          "what": "Australia's government commits to superannuation contributions for workers under 18 regardless of the hours they work.",
+          "by": "2026-12-20",
+          "because": "The join predicts the last exemptions in account schemes being removed, and Australia's under-18 rule is the one being argued over this week.",
+          "id": "20261122T214457-retirement-saving-and-pension-age-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the 1990s, when Chile's 1981 account system and the World Bank's 1994 three-pillar report led much of Latin America and Eastern Europe to move workers into individual accounts. After the 2008 crash several reversed course: Argentina in 2008, Hungary in 2010, Poland in 2014. The present differs because governments are not replacing the public pension but adding accounts beside it and paying into them, which makes the reversal those countries chose harder to make.",
+        "paths": [
+          {
+            "name": "Accounts widen, public pension held",
+            "weight": "favoured",
+            "text": "Over the next year more governments extend automatic enrolment to the self-employed, young and casual workers and add top-ups for older savers, while keeping the public pension where it is. The week's headlines point here because every action taken was on accounts, and none on the public pension itself.",
+            "sign": "A government extends automatic pension enrolment to the self-employed or to workers under 18."
+          },
+          {
+            "name": "Pension ages rise next",
+            "weight": "possible",
+            "text": "Governments facing trust-fund limits, the United States among them, raise the pension age or cut benefits within a year. This is possible but costly before elections, which is why accounts have been the easier step.",
+            "sign": "A government proposes raising the state pension age."
+          },
+          {
+            "name": "Private funds taken back",
+            "weight": "unlikely",
+            "text": "A government in a budget crisis moves private pension assets into the public system, as Argentina did in 2008. Unlikely while account balances are growing and governments are adding money to them.",
+            "sign": "A government transfers private pension fund assets to the public pension system."
+          }
+        ],
+        "decade": "Over ten years, workers who started after 2008 will retire on a basic public pension plus their own balance, so the gap between those with steady payrolls and those without will become the main inequality among the old."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "On 17 November Business Day reported US Treasury rules for automatic retirement plans and ABC asked about Australia's superannuation shake-up; on 17 and 18 November Handelsblatt explained Germany's new old-age provision deposit; on 20 November Singapore topped up the CPF accounts of more than 782,000 older citizens; and today the Sydney Morning Herald argues for super for workers under 18 while RNZ says KiwiSaver is failing the self-employed. Across five countries in six days, governments have acted on retirement by extending, regulating or paying into individual accounts rather than by changing the public pension, which in the US Fortune reports is under six years from a 22% cut. No single day showed this. The week shows the personal account becoming the default tool of pension policy, with the risk of a small balance left to each worker.",
+      "events": [
+        {
+          "label": "Australia debates super for under-18s",
+          "articleIds": [
+            "n-31258fdcebecfd",
+            "n-cf2f91a9df28ac"
+          ]
+        },
+        {
+          "label": "KiwiSaver fails the self-employed",
+          "articleIds": [
+            "n-54b27c50d2c6b4"
+          ]
+        },
+        {
+          "label": "US automatic plan rules and Social Security gap",
+          "articleIds": [
+            "n-5b19b69534362a",
+            "n-995e46fb274fbd"
+          ]
+        },
+        {
+          "label": "Germany's old-age provision deposit",
+          "articleIds": [
+            "n-fdd8f0af7092ed",
+            "n-c6b1149fd42760",
+            "n-53ecb3abaad761"
+          ]
+        },
+        {
+          "label": "Singapore tops up CPF accounts",
+          "articleIds": [
+            "n-047eec84dcdb6a"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Accounts extended and regulated",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "United States and Germany",
+              "text": "Business Day in South Africa reported on 17 November that the US Treasury had finally issued rules for automatic retirement plans. Handelsblatt in Germany explained on 17 and 18 November how much savers need to close their pension gap and what to know about the old-age provision deposit, and today writes on which sectors benefit from demographic change.",
+              "articleIds": [
+                "n-5b19b69534362a",
+                "n-c6b1149fd42760",
+                "n-fdd8f0af7092ed",
+                "n-53ecb3abaad761"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Australia, New Zealand, Singapore",
+              "text": "ABC asked on 17 November whether the government's super shake-up was good for members. Today the Sydney Morning Herald argues that all workers under 18 should get super, though it will take time, and RNZ says KiwiSaver is not working for the self-employed. The Straits Times reported on 20 November top-ups of up to $1,500 for over 782,000 Singaporeans born in or before 1976.",
+              "articleIds": [
+                "n-cf2f91a9df28ac",
+                "n-31258fdcebecfd",
+                "n-54b27c50d2c6b4",
+                "n-047eec84dcdb6a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "The public pension's limit",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "A promise near its end",
+              "text": "Fortune reported on 19 November that US Social Security is less than six years from a 22% cut, and that a senator's answer is to borrow $190 trillion. It is the only item of the week about a public pension, and it is about a shortfall.",
+              "articleIds": [
+                "n-995e46fb274fbd"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "One tool in five countries",
+          "fragments": [
+            {
+              "id": "f4",
+              "label": "Arguing over who is left out",
+              "text": "In each country the action is on the account, not on the pension the state pays. The arguments are over the people the accounts miss: workers under 18 in Australia, the self-employed in New Zealand, employees of firms without plans in the United States. Even Singapore's help for older citizens arrives as a deposit into their own balances.",
+              "articleIds": [
+                "n-31258fdcebecfd",
+                "n-54b27c50d2c6b4",
+                "n-5b19b69534362a",
+                "n-047eec84dcdb6a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f5",
+              "label": "Who carries the risk",
+              "text": "In a pension paid from current taxes the state bears the risk of long lives and bad markets; in an account the worker does. Handelsblatt now writes about retirement as a question of how much to save and which sectors to invest in, and that is what the shift looks like from the saver's side.",
+              "articleIds": [
+                "n-c6b1149fd42760",
+                "n-53ecb3abaad761",
+                "n-995e46fb274fbd"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Old schemes, routine news",
+              "text": "Australia's compulsory super dates from 1992, KiwiSaver from 2007 and Singapore's CPF from 1955, and US automatic enrolment comes from a 2022 law. These are adjustments in long-running systems, and two of today's three headlines are opinion and explainer pieces, not government decisions. Late November also brings a seasonal run of budget and year-end saving stories.",
+              "articleIds": [
+                "n-31258fdcebecfd",
+                "n-54b27c50d2c6b4",
+                "n-047eec84dcdb6a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f7",
+              "label": "Different acts, no cut",
+              "text": "What these events do not share: Singapore pays money in, the US writes rules for employers, Germany creates a tax-favoured product, and Australia and New Zealand are only debating. No government in the sample has cut a public pension; the US figure is a trust-fund projection, and Germany's government has pledged to hold its state pension level.",
+              "articleIds": [
+                "n-995e46fb274fbd",
+                "n-fdd8f0af7092ed"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "WITHDRAWALS / INFLATION / AUTO-ENROLMENT",
+          "text": "The pandemic showed what individual accounts become in a crisis: a reserve to be opened. Australia let people take up to A$20,000 out of superannuation in 2020, and more than A$36 billion left the system; Chile allowed three withdrawals from its private pension accounts in 2020 and 2021, emptying millions of them. The inflation of 2022 then cut the real value of balances and of fixed pensions alike. The policy answer in the United States was the SECURE 2.0 Act of December 2022, which requires most new workplace plans to enrol workers automatically; the Treasury rules reported on 17 November are its machinery. Germany's coalition, by these headlines, is building an old-age provision deposit of its own. The arguments this week over super for under-18s in Australia and KiwiSaver for the self-employed in New Zealand concern the workers these schemes still leave out: the young, the casual and those without an employer.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "MARKETS / AUTO-ENROLMENT / NATIONALISATION",
+          "text": "The crash of 2008 cut account balances sharply in many countries just as the baby-boom generation reached retirement, and governments answered in opposite directions. Argentina nationalised its private pension funds in November 2008 and folded their assets into the state system; Hungary did much the same in 2010, and Poland moved about half its funds' assets to the state in 2014. Britain went the other way and required employers to enrol workers automatically into workplace pensions from October 2012. New Zealand had launched KiwiSaver in July 2007 with automatic enrolment for new jobs, and the self-employed it fails to reach, as RNZ reports today, are those with no payroll to enrol them. A decade of low interest rates after 2009 made accounts harder to grow and pushed savers towards shares, which is why Handelsblatt now writes about retirement as an investing question.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "THREE PILLARS / PRIVATISATION / COMPULSION",
+          "text": "After 1989 the individual account became the recommended model. Chile had moved its workers into private accounts in 1981 under Pinochet, and the World Bank's 1994 report Averting the Old Age Crisis proposed three pillars: a small public pension, a compulsory funded account and voluntary saving. Much of Latin America and the former communist states of Eastern Europe followed in the 1990s. Australia made employer contributions compulsory in 1992 with the Superannuation Guarantee, starting at 3% of wages and now at 12%; the Sydney Morning Herald's case for super for workers under 18 is aimed at one of the last limits in that law, which covers them only above 30 hours a week. Germany added the subsidised Riester pension in 2001 while lowering the future level of its state pension. The United States moved from company pensions to 401(k) plans in the same years, so most private-sector Americans already depended on their own balance.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "WELFARE STATE / DEMOGRAPHY / PROVIDENT FUNDS",
+          "text": "The pension of the postwar order was a promise paid from current contributions. Beveridge's report of 1942 and Britain's National Insurance Act of 1946, West Germany's 1957 reform tying pensions to wages, and the growth of US Social Security, created in 1935 after the Depression, made old age a public charge. That model assumed many workers for each pensioner. In 1955 the colonial government of Singapore chose another path, the Central Provident Fund, a compulsory personal account; the top-ups reported on 20 November, paid into the balances of 782,000 people born in or before 1976, show a state helping the old by depositing into their own accounts. As birth rates fell from the 1970s the pay-as-you-go promise grew costlier, and the US trust fund that Fortune says is under six years from a 22% cut is the oldest such promise reaching its limit.",
+          "trajectoryIds": [
+            "great-depression-1929"
+          ],
+          "bookIds": [
+            "great-transformation"
+          ]
+        }
+      ],
+      "resumes": "",
+      "builds": "retirement-saving-and-pension-age",
+      "built": {
+        "key": "retirement-saving-and-pension-age",
+        "subject": "Governments setting rules for private retirement saving while the public pension age is fought over",
+        "firstSeen": "2026-11-17",
+        "days": 4
+      },
+      "articleIds": [
+        "n-5b19b69534362a",
+        "n-c6b1149fd42760",
+        "n-fdd8f0af7092ed",
+        "n-53ecb3abaad761",
+        "n-cf2f91a9df28ac",
+        "n-31258fdcebecfd",
+        "n-54b27c50d2c6b4",
+        "n-047eec84dcdb6a",
+        "n-995e46fb274fbd"
+      ]
+    }
+  ]
+}

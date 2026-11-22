@@ -15,8 +15,14 @@
    "what": "Taiwan's National Stabilization Fund or central bank reports further buying of shares or Taiwan dollars during November.",
    "by": "2026-11-21",
    "because": "If Taiwan's market is now tied to doubts about US AI spending, further falls in US tech should bring further Taiwanese state action, not a single week's support.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261122T214457",
+    "asOf": "2026-11-22T21:44:57Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-22 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261031T013540-ai-selloff-taiwan-state-buyers-2",
@@ -58,8 +64,14 @@
    "what": "A national strike or wage settlement in a European country is reported with fuel or energy prices named among its reasons.",
    "by": "2026-11-21",
    "because": "If the war's price rise has moved from the pump into pay, the next large pay disputes should cite it, which neither the oil price nor any single wage round predicts alone.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261122T214457",
+    "asOf": "2026-11-22T21:44:57Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-22 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261031T013540-war-prices-reach-wage-talks-2",
@@ -100,8 +112,14 @@
    "what": "A European government or the EU publicly objects to a US step to ease Russia sanctions or to the terms of the Abu Dhabi talks.",
    "by": "2026-11-21",
    "because": "The join predicts that the gap between European isolation and American bargaining becomes an open dispute between allies, not only a difference of tone.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261122T214457",
+    "asOf": "2026-11-22T21:44:57Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-22 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261031T013540-one-weekend-of-protest-bans-and-talks-1",
@@ -314,8 +332,14 @@
    "what": "German authorities ban or restrict a Gen Z protest in a German city, citing the violence in France.",
    "by": "2026-11-21",
    "because": "If the policing frame crosses borders ahead of the protests, Germany should adopt France's reply before seeing France's violence.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261122T214457",
+    "asOf": "2026-11-22T21:44:57Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-22 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261102T013011-iran-choice-timed-to-midterms-1",
@@ -1515,8 +1539,14 @@
    "what": "Brent is reported lower over a week in which a further strike on Saudi or Emirati oil infrastructure is also reported.",
    "by": "2026-11-21",
    "because": "If prices follow statements about talks rather than events around the Gulf, a strike on the bypass routes should not reverse the fall.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261122T214457",
+    "asOf": "2026-11-22T21:44:57Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-22 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261110T001511-oil-prices-follow-talk-not-the-gulf-2",
@@ -1543,8 +1573,47 @@
    "what": "The COP31 final text is adopted with electrification or grid targets but without a dated commitment to phase out or transition away from fossil fuels.",
    "by": "2026-11-27",
    "because": "If governments are securing gas while the summit plans electrification, the text should set power targets and leave gas untouched.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261122T214457",
+    "asOf": "2026-11-22T21:44:57Z",
+    "how": "headline",
+    "note": "COP31 ended without agreement after the EU rejected the final text, so no final text was adopted.",
+    "headlines": [
+     {
+      "id": "n-6aa2b35c1e1852",
+      "title": "COP31 climate talks collapse over fossil fuels and funding",
+      "titleEnglish": "COP31 climate talks collapse over fossil fuels and funding",
+      "url": "https://www.businessday.co.za/news/science-and-environment/2026-11-22-cop31-climate-talks-collapse-over-fossil-fuels-and-funding/",
+      "publisher": "Business Day",
+      "sourceCountry": "South Africa"
+     },
+     {
+      "id": "n-ac3feec18069f3",
+      "title": "Climate conference ends without agreement",
+      "titleEnglish": "Climate conference ends without agreement",
+      "url": "https://www.smh.com.au/national/climate-conference-ends-without-agreement-20261123-p61gcg.html",
+      "publisher": "The Sydney Morning Herald",
+      "sourceCountry": "Australia"
+     },
+     {
+      "id": "n-1ce67815e27a5e",
+      "title": "Bez porozumienia na światowej konferencji klimatycznej COP31",
+      "titleEnglish": "No agreement at COP31 world climate conference",
+      "url": "https://www.dw.com/pl/fiasko-%C5%9Bwiatowej-konferencji-klimatycznej-sp%C3%B3r-o-paliwa-kopalne/a-80013523",
+      "publisher": "dw.com",
+      "sourceCountry": "Germany"
+     },
+     {
+      "id": "n-1460f9c3087017",
+      "title": "EU legt bom onder klimaattop Turkije en wijst inhoud van slotakkoord af",
+      "titleEnglish": "EU drops bomb on climate summit in Turkey and rejects content of final agreement",
+      "url": "https://nos.nl/artikel/2640550-eu-legt-bom-onder-klimaattop-turkije-en-wijst-inhoud-van-slotakkoord-af",
+      "publisher": "nos.nl",
+      "sourceCountry": "Netherlands"
+     }
+    ]
+   }
   },
   {
    "id": "20261110T001511-gas-sought-in-the-hottest-years-2",
@@ -2689,6 +2758,118 @@
    "what": "A government delays, shrinks or moves a hydropower, pumped-storage or reservoir solar project after protests or a court case.",
    "by": "2026-12-19",
    "because": "If the energy choice is now settled as a water dispute, the new power projects rather than existing users should give way first where those users organise.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261122T214457-consensus-talks-fail-courts-decide-1",
+   "stamp": "20261122T214457",
+   "asOf": "2026-11-22T21:44:57Z",
+   "narrativeId": "consensus-talks-fail-courts-decide",
+   "kicker": "CONSENSUS / MAJORITY / CLUBS",
+   "line": "Talks that need every government's consent now fail, while courts that vote and groups that admit only the willing still decide.",
+   "firmness": "plausible",
+   "what": "A named group of countries announces its own fossil fuel phase-out pact or climate finance deal outside the COP process.",
+   "by": "2026-12-20",
+   "because": "If consensus is what failed, the states that wanted a stronger COP31 text should move to an agreement among themselves, which one bad summit on its own would not require.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261122T214457-consensus-talks-fail-courts-decide-2",
+   "stamp": "20261122T214457",
+   "asOf": "2026-11-22T21:44:57Z",
+   "narrativeId": "consensus-talks-fail-courts-decide",
+   "kicker": "CONSENSUS / MAJORITY / CLUBS",
+   "line": "Talks that need every government's consent now fail, while courts that vote and groups that admit only the willing still decide.",
+   "firmness": "plausible",
+   "what": "Austria or another state announces talks on an autonomous weapons treaty outside the UN weapons convention.",
+   "by": "2026-12-20",
+   "because": "The join predicts the same move in weapons as in climate, as happened with landmines in 1996-97, not only in the forum that failed most loudly.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261122T214457-war-lands-on-third-countries-1",
+   "stamp": "20261122T214457",
+   "asOf": "2026-11-22T21:44:57Z",
+   "narrativeId": "war-lands-on-third-countries",
+   "kicker": "ATTRIBUTION / RESTRAINT / HOST STATES",
+   "line": "The war's attacks now land in countries outside it, and those countries mostly respond by naming the weapon, not by firing back.",
+   "firmness": "plausible",
+   "what": "Poland or Finland summons a Russian diplomat or lodges a formal protest over the missiles or the ship, with no military response.",
+   "by": "2026-12-06",
+   "because": "If host states answer by naming rather than by force, their next step is diplomatic and legal, and the join predicts it in more than one country.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261122T214457-war-lands-on-third-countries-2",
+   "stamp": "20261122T214457",
+   "asOf": "2026-11-22T21:44:57Z",
+   "narrativeId": "war-lands-on-third-countries",
+   "kicker": "ATTRIBUTION / RESTRAINT / HOST STATES",
+   "line": "The war's attacks now land in countries outside it, and those countries mostly respond by naming the weapon, not by firing back.",
+   "firmness": "plausible",
+   "what": "Another country not at war reports a drone or missile strike on a Russian ship, base or cargo on its territory or in its waters.",
+   "by": "2026-12-20",
+   "because": "If the war's reach has moved to third territories, Benghazi should not be the last, which a one-off strike would not predict.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261122T214457-ai-listings-draw-from-other-assets-1",
+   "stamp": "20261122T214457",
+   "asOf": "2026-11-22T21:44:57Z",
+   "narrativeId": "ai-listings-draw-from-other-assets",
+   "kicker": "CAPITAL / LISTINGS / CROWDING OUT",
+   "line": "AI labs now raise money from the public, and the sums are large enough that other risky assets fall when they do.",
+   "firmness": "tentative",
+   "what": "Another AI lab or data-centre operator postpones or shrinks a planned share sale or bond, citing market conditions.",
+   "by": "2026-12-13",
+   "because": "If the pool of speculative money is the limit, the next issuer meets the same shortage, which a correction in one company's shares would not predict.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261122T214457-ai-listings-draw-from-other-assets-2",
+   "stamp": "20261122T214457",
+   "asOf": "2026-11-22T21:44:57Z",
+   "narrativeId": "ai-listings-draw-from-other-assets",
+   "kicker": "CAPITAL / LISTINGS / CROWDING OUT",
+   "line": "AI labs now raise money from the public, and the sums are large enough that other risky assets fall when they do.",
+   "firmness": "tentative",
+   "what": "Crypto funds or exchanges report a week of large outflows with an AI share sale named as a reason.",
+   "by": "2026-12-13",
+   "because": "The join says the listings draw on the same money as crypto, so the link Kommersant made for bitcoin should be made again in fund flows.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261122T214457-retirement-saving-and-pension-age-1",
+   "stamp": "20261122T214457",
+   "asOf": "2026-11-22T21:44:57Z",
+   "narrativeId": "retirement-saving-and-pension-age",
+   "kicker": "OLD AGE / INDIVIDUAL ACCOUNTS / THE STATE",
+   "line": "In one week, pension saving has been pushed to more workers, so more people's retirement rests on what their own account holds.",
+   "firmness": "plausible",
+   "what": "A government extends automatic enrolment or compulsory contributions to retirement accounts to a group not covered before, such as the self-employed.",
+   "by": "2026-12-20",
+   "because": "If the account is now the default instrument, the open argument is about who is outside it, and governments will close those gaps rather than enlarge the public pension.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261122T214457-retirement-saving-and-pension-age-2",
+   "stamp": "20261122T214457",
+   "asOf": "2026-11-22T21:44:57Z",
+   "narrativeId": "retirement-saving-and-pension-age",
+   "kicker": "OLD AGE / INDIVIDUAL ACCOUNTS / THE STATE",
+   "line": "In one week, pension saving has been pushed to more workers, so more people's retirement rests on what their own account holds.",
+   "firmness": "plausible",
+   "what": "Australia's government commits to superannuation contributions for workers under 18 regardless of the hours they work.",
+   "by": "2026-12-20",
+   "because": "The join predicts the last exemptions in account schemes being removed, and Australia's under-18 rule is the one being argued over this week.",
    "status": "open",
    "resolved": null
   }

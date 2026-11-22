@@ -1,6 +1,69 @@
 {
  "editions": [
   {
+   "stamp": "20261122T214457",
+   "file": "data/narratives/20261122T214457.json",
+   "newsGeneratedAt": "2026-11-22T21:44:57Z",
+   "generatedAt": "2026-11-22T21:54:22Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-10",
+   "narratives": [
+    {
+     "id": "consensus-talks-fail-courts-decide",
+     "kicker": "CONSENSUS / MAJORITY / CLUBS",
+     "line": "Talks that need every government's consent now fail, while courts that vote and groups that admit only the willing still decide.",
+     "events": 5,
+     "headlines": 15,
+     "countries": 11,
+     "continues": "",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "war-lands-on-third-countries",
+     "kicker": "ATTRIBUTION / RESTRAINT / HOST STATES",
+     "line": "The war's attacks now land in countries outside it, and those countries mostly respond by naming the weapon, not by firing back.",
+     "events": 6,
+     "headlines": 11,
+     "countries": 9,
+     "continues": "ships-struck-after-summit",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "ai-listings-draw-from-other-assets",
+     "kicker": "CAPITAL / LISTINGS / CROWDING OUT",
+     "line": "AI labs now raise money from the public, and the sums are large enough that other risky assets fall when they do.",
+     "events": 6,
+     "headlines": 9,
+     "countries": 5,
+     "continues": "",
+     "resumes": "20261119T230231/ai-listing-gains-before-savers",
+     "builds": "",
+     "firmness": "tentative",
+     "watch": 2
+    },
+    {
+     "id": "retirement-saving-and-pension-age",
+     "kicker": "OLD AGE / INDIVIDUAL ACCOUNTS / THE STATE",
+     "line": "In one week, pension saving has been pushed to more workers, so more people's retirement rests on what their own account holds.",
+     "events": 5,
+     "headlines": 9,
+     "countries": 6,
+     "continues": "",
+     "resumes": "",
+     "builds": "retirement-saving-and-pension-age",
+     "firmness": "plausible",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261121T213836",
    "file": "data/narratives/20261121T213836.json",
    "newsGeneratedAt": "2026-11-21T21:38:36Z",
