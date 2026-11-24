@@ -1,0 +1,1948 @@
+{
+  "schemaVersion": 6,
+  "generatedAt": "2026-11-24T03:02:15Z",
+  "newsGeneratedAt": "2026-11-24T02:53:50Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-10",
+  "previousNewsGeneratedAt": "2026-11-22T21:44:57Z",
+  "usage": {
+    "input": 96549,
+    "output": 94252,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "A narrative may also resume one that stopped in the last four weeks ('resumes' gives that edition's stamp and the narrative's id), and may be written from a subject the site's notebook has been keeping ('builds'); such a narrative can cite headlines from earlier days, each shown with its date, beside at least three of the day's own.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-1c61dd99b40a47",
+      "title": "Donald Trump says he 'convinced' Nvidia to reinstate Jensen Huang",
+      "titleEnglish": "Donald Trump says he 'convinced' Nvidia to reinstate Jensen Huang",
+      "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o",
+      "publisher": "BBC News",
+      "publisherDomain": "bbc.co.uk",
+      "publishedAt": "2026-11-23T18:17:00Z",
+      "seenAt": "2026-11-23T18:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-73ef3694b9d0ef",
+      "title": "Τραμπ για Χουάνγκ: «Εγώ έκανα το ντιλ για να επιστρέψει στη Nvidia - Είναι μεγάλος πατριώτης και εθνικός θησαυρός»",
+      "titleEnglish": "Trump on Huang: \"I made the deal for him to return to Nvidia - He is a great patriot and a national treasure\"",
+      "url": "https://www.efsyn.gr/kosmos/1516152/tramp-gia-hoyangk-einai-megalos-patriotis-kai-ethnikos-thisayros-i-paremvasi-toy-sto-ds-tis-nvidia/",
+      "publisher": "Η Εφημερίδα των Συντακτών",
+      "publisherDomain": "efsyn.gr",
+      "publishedAt": "2026-11-23T17:30:46Z",
+      "seenAt": "2026-11-23T18:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Greece",
+      "sourceCountryCode": "GR",
+      "sourceRegion": "Europe",
+      "sourceLat": 39,
+      "sourceLon": 23,
+      "language": "el"
+    },
+    {
+      "id": "n-2d2838e2499e16",
+      "title": "트럼프, 젠슨 황 엔비디아 CEO 복귀 환영…\"美 경제에 필요한 국가적 보물\"",
+      "titleEnglish": "Trump welcomes Jensen Huang's return as Nvidia CEO: \"a national treasure needed for the US economy\"",
+      "url": "https://www.newspim.com/news/view/20261123001208",
+      "publisher": "뉴스핌",
+      "publisherDomain": "newspim.com",
+      "publishedAt": "2026-11-23T14:37:00Z",
+      "seenAt": "2026-11-23T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-2ad588ff3ea6e4",
+      "title": "Nvidia board unanimously reinstates Jensen Huang as CEO",
+      "titleEnglish": "Nvidia board unanimously reinstates Jensen Huang as CEO",
+      "url": "https://www.wsls.com/news/2026/11/23/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo/",
+      "publisher": "WSLS",
+      "publisherDomain": "wsls.com",
+      "publishedAt": "2026-11-23T14:26:48Z",
+      "seenAt": "2026-11-23T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-9edcbeaad49873",
+      "title": "十一天，从闪辞到复职：黄仁勋事件全记录",
+      "titleEnglish": "Eleven days, from resignation to reinstatement: full record of the Jensen Huang incident",
+      "url": "https://www.163.com/dy/article/LCGAM7BO0511RIVP.html",
+      "publisher": "163.com",
+      "publisherDomain": "163.com",
+      "publishedAt": "2026-11-24T02:38:30Z",
+      "seenAt": "2026-11-24T02:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-bdf96f6e1a1024",
+      "title": "Regreso de Jensen Huang a Nvidia dispara acciones de la compañía: mejor valorización en 23 años",
+      "titleEnglish": "Jensen Huang's return to Nvidia sends company shares up: best valuation in 23 years",
+      "url": "https://www.eluniversal.com.co/mundo/2026/11/23/regreso-de-jensen-huang-a-nvidia-dispara-acciones-de-la-compania-mejor-valorizacion-en-23-anos/",
+      "publisher": "www.eluniversal.com.co",
+      "publisherDomain": "eluniversal.com.co",
+      "publishedAt": "2026-11-24T02:36:29Z",
+      "seenAt": "2026-11-24T02:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-cbcdc061a2de5f",
+      "title": "Borsa: l'Europa chiude in rally col ritorno di Huang, Francoforte +2,15% - Notizie - Ansa.it",
+      "titleEnglish": "Stocks: Europe closes in rally with Huang's return, Frankfurt +2.15% - News - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/11/23/borsa-leuropa-chiude-in-rally-col-ritorno-di-huang-francoforte-215_85f04872-7637-4f3a-93ec-b06462490b8f.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-23T21:08:00Z",
+      "seenAt": "2026-11-23T23:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-ae38492ed92a4a",
+      "title": "ETF大反攻！正2飆20%漲停 主動式ETF同步噴發 | 聯合新聞網",
+      "titleEnglish": "ETF major counterattack! Leveraged 2x ETF soars 20% to limit up; active ETFs surge too | UDN",
+      "url": "https://udn.com/news/story/123006/9898011",
+      "publisher": "聯合新聞網",
+      "publisherDomain": "udn.com",
+      "publishedAt": "2026-11-24T02:41:05Z",
+      "seenAt": "2026-11-24T02:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-a1e4e90c3e4224",
+      "title": "ثروة جنسن هوانغ تقفز 33 مليار دولار بعد عودته لقيادة إنفيديا",
+      "titleEnglish": "Jensen Huang's fortune jumps $33 billion after his return to lead Nvidia",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/23/%D8%AB%D8%B1%D9%88%D8%A9-%D8%AC%D9%86%D8%B3%D9%86-%D9%87%D9%88%D8%A7%D9%86%D8%BA-%D8%AA%D9%82%D9%81%D8%B2-33-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%A8%D8%B9%D8%AF",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-23T18:17:00Z",
+      "seenAt": "2026-11-23T18:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-907988dd1ba618",
+      "title": "Investigación al papel de Trump en la reincorporación de Huang a Nvidia, solicita Schumer",
+      "titleEnglish": "Schumer calls for investigation into Trump's role in Huang's return to Nvidia",
+      "url": "https://www.cadena3.com/noticia/mundo/investigacion-al-papel-de-trump-en-la-reincorporacion-de-huang-a-nvidia-solicita-schumer_615767",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-11-23T18:17:00Z",
+      "seenAt": "2026-11-23T18:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-d0198080f5b29f",
+      "title": "Trump enfrenta tempestade política por apoio ao retorno de Huang para a Nvidia - Jornal de Brasília",
+      "titleEnglish": "Trump Faces Political Storm Over Support for Huang's Return to Nvidia - Jornal de Brasília",
+      "url": "https://jornaldebrasilia.com.br/noticias/mundo/trump-enfrenta-tempestade-politica-por-apoio-ao-retorno-de-huang-para-a-nvidia/",
+      "publisher": "Jornal de Brasília",
+      "publisherDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-11-23T23:47:00Z",
+      "seenAt": "2026-11-23T23:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-3405a26f57010d",
+      "title": "Usa inseriscono Megaspeed nella lista nera commerciale - Nord America - Ansa.it",
+      "titleEnglish": "US adds Megaspeed to commercial blacklist - North America - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/23/usa-inseriscono-megaspeed-nella-lista-nera-commerciale_897c2169-5868-41f4-a546-e166ff83f25f.html",
+      "publisher": "Agenzia ANSA",
+      "publisherDomain": "ansa.it",
+      "publishedAt": "2026-11-23T21:30:00Z",
+      "seenAt": "2026-11-24T01:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-f0dfc3499e648b",
+      "title": "“해외 데이터센터 세금폭탄”…트럼프 경고에 관련주 폭락",
+      "titleEnglish": "\"Overseas data center tax bomb\"... related stocks plunge after Trump warning",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026112313112372671",
+      "publisher": "디지털데일리",
+      "publisherDomain": "ddaily.co.kr",
+      "publishedAt": "2026-11-23T08:47:00Z",
+      "seenAt": "2026-11-23T08:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-2fa69e7392fc0c",
+      "title": "La mujer vinculada a Nvidia y espionaje chino: ¿una agente encubierta en el sector tecnológico?",
+      "titleEnglish": "The woman linked to Nvidia and Chinese espionage: an undercover agent in the tech sector?",
+      "url": "https://www.cadena3.com/noticia/mundo/la-mujer-vinculada-a-nvidia-y-espionaje-chino-una-agente-encubierta-en-el-sector-tecnologico_615763",
+      "publisher": "Cadena 3 Argentina",
+      "publisherDomain": "cadena3.com",
+      "publishedAt": "2026-11-23T18:17:00Z",
+      "seenAt": "2026-11-23T18:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-7e2382626367be",
+      "title": "算力大軍只能靠輝達？「AI奇境」背後的中國垂直產業夢可行嗎 | 轉角國際 udn Global",
+      "titleEnglish": "Can China's vertical industry dream behind \"AI Wonderland\" work if computing power depends only on Nvidia? | Corner International, UDN Global",
+      "url": "https://global.udn.com/global_vision/story/8663/9896711",
+      "publisher": "轉角國際 udn Global",
+      "publisherDomain": "global.udn.com",
+      "publishedAt": "2026-11-24T02:25:30Z",
+      "seenAt": "2026-11-24T02:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-299ff7c655b734",
+      "title": "Ливия подаст на Украину в Международный суд ООН после ударов в порту Бенгази",
+      "titleEnglish": "Libya to file suit against Ukraine at the UN International Court of Justice after strikes on the port of Benghazi",
+      "url": "https://www.kommersant.ru/doc/9128562",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-23T20:01:00Z",
+      "seenAt": "2026-11-23T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-0abb01a0937602",
+      "title": "Regering Libië veroordeelt Oekraïense aanval op Russische schepen",
+      "titleEnglish": "Libyan government condemns Ukrainian attack on Russian ships",
+      "url": "https://nieuws.nl/buitenland/regering-libie-veroordeelt-oekraiense-aanval-op-russische-schepen",
+      "publisher": "Nieuws.nl",
+      "publisherDomain": "nieuws.nl",
+      "publishedAt": "2026-11-23T20:38:57Z",
+      "seenAt": "2026-11-23T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-eccd5cfa4a0610",
+      "title": "Ukraine says it sank Russian warship off Libya | CBC News",
+      "titleEnglish": "Ukraine says it sank Russian warship off Libya | CBC News",
+      "url": "https://www.cbc.ca/news/world/ukraine-attack-russian-warship-libya-merkury-9.7432215",
+      "publisher": "CBC",
+      "publisherDomain": "cbc.ca",
+      "publishedAt": "2026-11-23T14:47:00Z",
+      "seenAt": "2026-11-23T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
+    },
+    {
+      "id": "n-5e7d1eeb3e8ede",
+      "title": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe",
+      "titleEnglish": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe",
+      "url": "https://www.arabnews.com/middle-east/ukraine-sinks-russian-warship-in-libya-as-conflict-spreads-beyond-europe-3013640",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-23T00:43:07Z",
+      "seenAt": "2026-11-23T17:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-436bf2c07b3593",
+      "title": "Navi russe in Libia, perché l'Ucraina le ha attaccate? La flotta ombra, il porto di Bengasi e la nuova rotta del Lybian Express: la guerra arriva nel Mediterraneo",
+      "titleEnglish": "Russian ships in Libya, why did Ukraine attack them? The shadow fleet, the port of Benghazi and the new Lybian Express route: the war reaches the Mediterranean",
+      "url": "https://www.ilmessaggero.it:443/mondo/libia_navi_russe_perche_attacco_ucraino_flotta_ombra_bengasi_lybian_express_ultime_notizie-9908474.html",
+      "publisher": "ilmessaggero.it",
+      "publisherDomain": "ilmessaggero.it",
+      "publishedAt": "2026-11-23T19:08:47Z",
+      "seenAt": "2026-11-23T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-ee883026278e48",
+      "title": "Sparta II -rahtialus on hinattu pois Suomen talousvyöhykkeeltä",
+      "titleEnglish": "Sparta II cargo ship has been towed out of Finland's exclusive economic zone",
+      "url": "https://yle.fi/a/74-20258284",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-21T14:51:38Z",
+      "seenAt": "2026-11-23T08:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-bd577f5a62ba97",
+      "title": "Asiantuntijat odottavat lisää drooni-iskuja Suomenlahdelle – meriliikenne on silti turvallista",
+      "titleEnglish": "Experts expect more drone strikes on the Gulf of Finland – maritime traffic is nevertheless safe",
+      "url": "https://yle.fi/a/74-20258575",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-23T20:27:09Z",
+      "seenAt": "2026-11-23T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-3126b564adc746",
+      "title": "Rosyjski dron wleciał nad Polskę. W naszej przestrzeni powietrznej przebywał kilka minut",
+      "titleEnglish": "Russian Drone Flew Over Poland, Stayed in Our Airspace for Several Minutes",
+      "url": "https://wiadomosci.radiozet.pl/polska/rosyjski-dron-wlecial-nad-polske-w-naszej-przestrzeni-powietrznej-przebywal-kilka-minut",
+      "publisher": "wiadomosci.radiozet.pl",
+      "publisherDomain": "wiadomosci.radiozet.pl",
+      "publishedAt": "2026-11-23T23:49:06Z",
+      "seenAt": "2026-11-23T23:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Poland",
+      "sourceCountryCode": "PL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 20,
+      "language": "pl"
+    },
+    {
+      "id": "n-de2ada01c0b30a",
+      "title": "Ukraine-Krieg: Luftalarm in Polen - Anwohner sollen Schutzräume aufsuchen",
+      "titleEnglish": "Ukraine War: Air Raid Alarm in Poland - Residents Should Seek Shelters",
+      "url": "https://www.handelsblatt.com/politik/international/ukraine-krieg-luftalarm-in-polen-anwohner-sollen-schutzraeume-aufsuchen/100272202.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-23T23:01:07Z",
+      "seenAt": "2026-11-23T23:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-7e74020d6cff5a",
+      "title": "'Vliegend radarstation' NAVO naar Polen om Russische projectielen",
+      "titleEnglish": "'Flying radar station' NATO to Poland against Russian projectiles",
+      "url": "https://nieuws.nl/buitenland/vliegend-radarstation-navo-naar-polen-om-russische-projectielen",
+      "publisher": "Nieuws.nl",
+      "publisherDomain": "nieuws.nl",
+      "publishedAt": "2026-11-23T19:13:55Z",
+      "seenAt": "2026-11-23T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-dd877ab7b418ce",
+      "title": "Южная Корея подняла авиацию из-за российских самолетов",
+      "titleEnglish": "South Korea scrambles aircraft over Russian planes",
+      "url": "https://lenta.ru/news/2026/11/24/yuzhnaya-koreya-podnyala-aviatsiyu-iz-za-rossiyskih-samoletov/",
+      "publisher": "Lenta.RU",
+      "publisherDomain": "lenta.ru",
+      "publishedAt": "2026-11-24T01:47:00Z",
+      "seenAt": "2026-11-24T01:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-eb2d768a9a68f5",
+      "title": "Etelä-Korean mukaan Venäjä ja Pohjois-Korea loukkasivat maan ilmatilaa",
+      "titleEnglish": "According to South Korea, Russia and North Korea Violated the Country's Airspace",
+      "url": "https://yle.fi/uutiset/lyhyesti/74-20258584",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-23T23:23:38Z",
+      "seenAt": "2026-11-23T23:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-06c646b53af03e",
+      "title": "北비행체 영해침범 오인 경보 소동…軍 \"러 군용기, 영공 침범 없어\"",
+      "titleEnglish": "North Korean Aircraft Mistaken Alert Over Territorial Waters Causes Commotion; Military: \"Russian Military Aircraft Did Not Violate Airspace\"",
+      "url": "https://www.fnnews.com/news/202611240834351394",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-23T23:40:28Z",
+      "seenAt": "2026-11-23T23:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-6e5f71ebd02f17",
+      "title": "РФ направит почти 50 млрд рублей на паромы у Калининграда - против \"попыток транспортной блокады\"",
+      "titleEnglish": "Russian Federation to allocate nearly 50 billion rubles to ferries near Kaliningrad against 'attempts at transport blockade'",
+      "url": "https://www.dw.com/ru/rf-napravit-pocti-50-mlrd-rublej-na-paromy-u-kaliningrada/a-80022116",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-23T18:17:00Z",
+      "seenAt": "2026-11-23T18:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "ru"
+    },
+    {
+      "id": "n-2bf9633cf8f8d0",
+      "title": "Russia warns Ukraine of ‘dangerous trend’ after Libya and Baltic attacks",
+      "titleEnglish": "Russia warns Ukraine of ‘dangerous trend’ after Libya and Baltic attacks",
+      "url": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-11-23T18:17:00Z",
+      "seenAt": "2026-11-23T18:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-4648ae2e8d401b",
+      "title": "Gas prices plunge 66 cents in a month — the biggest drop since 2008",
+      "titleEnglish": "Gas prices plunge 66 cents in a month — the biggest drop since 2008",
+      "url": "https://www.click2houston.com/news/local/2026/11/23/gas-prices-plunge-66-cents-in-a-month-the-biggest-drop-since-2008/",
+      "publisher": "KPRC",
+      "publisherDomain": "click2houston.com",
+      "publishedAt": "2026-11-23T18:58:24Z",
+      "seenAt": "2026-11-23T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-b13c6065675a82",
+      "title": "金の価格、今年の最安値水準に「有事の金買い」失速が意味するもの：朝日新聞",
+      "titleEnglish": "Gold price at this year's lowest level: what the stalling of 'safe-haven gold buying' means - Asahi Shimbun",
+      "url": "https://www.asahi.com/articles/ASVCN4CD7VCNULFA01LM.html",
+      "publisher": "朝日新聞",
+      "publisherDomain": "asahi.com",
+      "publishedAt": "2026-11-23T21:00:00Z",
+      "seenAt": "2026-11-24T02:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-af2f6194363989",
+      "title": "خبير أسواق مال: ارتفاع عوائد سندات الخزانة الأمريكية يضغط على أسعار الذهب - الوطن",
+      "titleEnglish": "Money Markets Expert: Rising US Treasury Bond Yields Pressure Gold Prices - Al-Watan",
+      "url": "https://www.elwatannews.com/news/details/8402659",
+      "publisher": "الوطن",
+      "publisherDomain": "elwatannews.com",
+      "publishedAt": "2026-11-23T22:25:34Z",
+      "seenAt": "2026-11-23T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Egypt",
+      "sourceCountryCode": "EG",
+      "sourceRegion": "Africa",
+      "sourceLat": 27,
+      "sourceLon": 30,
+      "language": "ar"
+    },
+    {
+      "id": "n-639526ebe89ef0",
+      "title": "وزارة النقل الإسرائيلية تعلن السماح باستئناف رحلات",
+      "titleEnglish": "Israeli Transport Ministry announces permission to resume flights",
+      "url": "https://www.khaberni.com/news/869847-%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%86%D9%82%D9%84-%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%B3%D9%85%D8%A7%D8%AD-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81-%D8%B1%D8%AD%D9%84%D8%A7%D8%AA-%D9%81%D9%84%D8%A7%D9%8A-%D8%AF%D8%A8%D9%8A-%D8%A7%D9%84%D8%A7%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A%D8%A9",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-11-23T18:17:00Z",
+      "seenAt": "2026-11-23T18:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-c321c97be3965e",
+      "title": "صحيفة عمون : إعلام: إسرائيل لا تزال تضغط على إدارة ترامب لشن هجوم ضد إيران",
+      "titleEnglish": "Media: Israel still pressing Trump administration to launch attack on Iran",
+      "url": "https://www.ammonnews.net/article/1047196",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-11-23T08:47:00Z",
+      "seenAt": "2026-11-23T08:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-6192578c793640",
+      "title": "모사드 前국장 \"조건 갖춰지는 대로 이란 공격해야…대화 불가 정권\"",
+      "titleEnglish": "Former Mossad Chief: \"Iran Should Be Attacked as Soon as Conditions Are Met...Regime Cannot Be Negotiated With\"",
+      "url": "https://www.fnnews.com/news/202611240811098814",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-23T23:11:02Z",
+      "seenAt": "2026-11-23T23:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-d8867a2a6a6088",
+      "title": "ليبرمان يحذر نتنياهو من شن هجوم على إيران",
+      "titleEnglish": "Lieberman warns Netanyahu against attacking Iran",
+      "url": "https://www.khaberni.com/news/869853-%D9%84%D9%8A%D8%A8%D8%B1%D9%85%D8%A7%D9%86-%D9%8A%D8%AD%D8%B0%D8%B1-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%85%D9%86-%D8%B4%D9%86-%D9%87%D8%AC%D9%88%D9%85-%D8%B9%D9%84%D9%89-%D8%A7%D9%8A%D8%B1%D8%A7%D9%86",
+      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+      "publisherDomain": "khaberni.com",
+      "publishedAt": "2026-11-23T18:17:00Z",
+      "seenAt": "2026-11-23T18:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-eea1d63140dd5a",
+      "title": "إيران.. طهران تلوّح بكسر الحصار وواشنطن تشيد بجهود الوساطة القطرية",
+      "titleEnglish": "Iran: Tehran hints at breaking the blockade while Washington praises Qatari mediation efforts",
+      "url": "https://www.aljazeera.net/news/liveblog/2026/11/24/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%A7%D9%84%D9%85%D8%B1%D8%B4%D8%AF-%D9%8A%D8%B7%D8%A7%D9%84%D8%A8-%D8%A8%D8%A7%D9%84%D8%AD%D8%B3%D9%85?update=10143192",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-24T01:47:00Z",
+      "seenAt": "2026-11-24T01:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-8ba81e722bbaa6",
+      "title": "Аль Тани: Ближний Восток не выдержит новой эскалации между США и Ираном",
+      "titleEnglish": "Al Thani: Middle East Will Not Withstand New Escalation Between US and Iran",
+      "url": "https://iz.ru/2207179/2026-11-24/al-tani-blizhnii-vostok-ne-vyderzhit-novoi-eskalatcii-mezhdu-ssha-i-iranom",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-11-24T00:30:36Z",
+      "seenAt": "2026-11-24T01:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-1c77907c1c8ecf",
+      "title": "US targets Iranian 'shadow banking' financial institutes with sanctions | The Jerusalem Post",
+      "titleEnglish": "US targets Iranian 'shadow banking' financial institutes with sanctions | The Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-915890",
+      "publisher": "The Jerusalem Post | JPost.com",
+      "publisherDomain": "jpost.com",
+      "publishedAt": "2026-11-23T20:47:00Z",
+      "seenAt": "2026-11-23T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "en"
+    },
+    {
+      "id": "n-0d719102dbf65c",
+      "title": "آمریکا بیش از ۲۰ نهاد و فرد مرتبط با شبکه بانکی ایران را تحریم کرد",
+      "titleEnglish": "US sanctions more than 20 entities and individuals linked to Iran's banking network",
+      "url": "https://www.dw.com/fa-ir/%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D8%A8%DB%8C%D8%B4-%D8%A7%D8%B2-%DB%B2%DB%B0-%D9%86%D9%87%D8%A7%D8%AF-%D9%88-%D9%81%D8%B1%D8%AF-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A8%D8%A7%D9%86%DA%A9%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%B1%D8%A7-%D8%AA%D8%AD%D8%B1%DB%8C%D9%85-%DA%A9%D8%B1%D8%AF/live-80015606",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-23T20:47:00Z",
+      "seenAt": "2026-11-23T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "fa"
+    },
+    {
+      "id": "n-594c3e15a6c028",
+      "title": "胡塞武装称荷台达通信设施遭袭致15死21伤",
+      "titleEnglish": "Houthi forces say communications facilities at Ras Isa port hit, 15 dead and 21 injured",
+      "url": "https://www.yicai.com/brief/103451686.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-11-24T02:47:00Z",
+      "seenAt": "2026-11-24T02:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-824b389e0b89ae",
+      "title": "Détroit d’Ormuz : pétroliers en flamme, mines sous-marines… le nageur Lewis Pugh raconte son défi terrifiant au milieu des tensions militaires",
+      "titleEnglish": "Strait of Hormuz: burning tankers, sea mines… swimmer Lewis Pugh recounts his terrifying challenge amid military tensions",
+      "url": "https://www.sudouest.fr/international/detroit-d-ormuz-petroliers-en-flamme-mines-sous-marines-le-nageur-lewis-pugh-raconte-son-defi-terrifiant-au-milieu-des-tensions-militaires-31623260.php",
+      "publisher": "SudOuest.fr",
+      "publisherDomain": "sudouest.fr",
+      "publishedAt": "2026-11-23T18:17:00Z",
+      "seenAt": "2026-11-23T18:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "France",
+      "sourceCountryCode": "FR",
+      "sourceRegion": "Europe",
+      "sourceLat": 46,
+      "sourceLon": 2,
+      "language": "fr"
+    },
+    {
+      "id": "n-dd0e17f1f17a06",
+      "title": "Governors Reject Health Ministry Order to Remove Paybills from Public Hospitals",
+      "titleEnglish": "Governors Reject Health Ministry Order to Remove Paybills from Public Hospitals",
+      "url": "https://kenya-today.com/report-governors-reject-health-ministry-order-to-remove-paybills-from-public-hospitals-31814/",
+      "publisher": "Kenya Today",
+      "publisherDomain": "kenya-today.com",
+      "publishedAt": "2026-11-23T14:24:44Z",
+      "seenAt": "2026-11-23T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Kenya",
+      "sourceCountryCode": "KE",
+      "sourceRegion": "Africa",
+      "sourceLat": 0.1,
+      "sourceLon": 38,
+      "language": "en"
+    },
+    {
+      "id": "n-e355188d867958",
+      "title": "صحيفة عمون : البنك المركزي يحظر تسديد مستحقات مقدمي الخدمات الطبية نقدا",
+      "titleEnglish": "Ammon News: Central Bank bans cash payment of dues to medical service providers",
+      "url": "https://www.ammonnews.net/article/1047203",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-11-23T08:47:00Z",
+      "seenAt": "2026-11-23T08:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-0a9ea678db35c1",
+      "title": "Aditya Birla Group set to run Himachal’s new health insurance scheme - The Tribune",
+      "titleEnglish": "Aditya Birla Group set to run Himachal’s new health insurance scheme - The Tribune",
+      "url": "https://www.tribuneindia.com/news/himachal/aditya-birla-group-set-to-run-himachals-new-health-insurance-scheme/",
+      "publisher": "The Tribune",
+      "publisherDomain": "tribuneindia.com",
+      "publishedAt": "2026-11-23T11:30:34Z",
+      "seenAt": "2026-11-23T11:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-838c8e7da42820",
+      "title": "Medicare for All was once a long shot. Now, steps toward it are part of the Democratic agenda",
+      "titleEnglish": "Medicare for All was once a long shot. Now, steps toward it are part of the Democratic agenda",
+      "url": "https://www.wsls.com/business/2026/11/23/medicare-for-all-was-once-a-long-shot-now-steps-toward-it-are-part-of-the-democratic-agenda/",
+      "publisher": "WSLS",
+      "publisherDomain": "wsls.com",
+      "publishedAt": "2026-11-23T12:09:05Z",
+      "seenAt": "2026-11-23T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-4ad0f85b5f3b83",
+      "title": "Entidade denuncia atraso de pagamentos de cirurgias ortopédicas na rede pública no RN - Tribuna do Norte",
+      "titleEnglish": "Entity denounces delays in payments for orthopedic surgeries in the public network in RN - Tribuna do Norte",
+      "url": "https://tribunadonorte.com.br/rio-grande-do-norte/entidade-denuncia-atraso-de-pagamentos-de-cirurgias-ortopedicas-na-rede-publica-no-rn/",
+      "publisher": "Tribuna do Norte",
+      "publisherDomain": "tribunadonorte.com.br",
+      "publishedAt": "2026-11-23T18:14:52Z",
+      "seenAt": "2026-11-23T18:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Brazil",
+      "sourceCountryCode": "BR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -14,
+      "sourceLon": -52,
+      "language": "pt"
+    },
+    {
+      "id": "n-c4a88e8cababcb",
+      "title": "Tradie rejected by ACC feels it has broken its promise after decades of levies",
+      "titleEnglish": "Tradie rejected by ACC feels it has broken its promise after decades of levies",
+      "url": "https://www.rnz.co.nz/news/health/2754119/tradie-rejected-by-acc-feels-it-has-broken-its-promise-after-decades-of-levies",
+      "publisher": "RNZ",
+      "publisherDomain": "rnz.co.nz",
+      "publishedAt": "2026-11-23T18:17:00Z",
+      "seenAt": "2026-11-23T18:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-75d9d56d828f5d",
+      "title": "J&K doctors' strike hits hospital services as stipend hike demand grows louder",
+      "titleEnglish": "J&K doctors' strike hits hospital services as stipend hike demand grows louder",
+      "url": "https://economictimes.indiatimes.com/news/india/jk-doctors-strike-hits-hospital-services-as-stipend-hike-demand-grows-louder/articleshow/136117304.cms",
+      "publisher": "The Economic Times",
+      "publisherDomain": "economictimes.indiatimes.com",
+      "publishedAt": "2026-11-24T02:47:00Z",
+      "seenAt": "2026-11-24T02:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    }
+  ],
+  "settled": [
+    {
+      "id": "20261108T202834-iran-pressed-by-land-and-sea-2",
+      "status": "kept",
+      "how": "headline"
+    },
+    {
+      "id": "20261113T215832-chip-scandal-becomes-enforcement-dispute-1",
+      "status": "kept",
+      "how": "headline"
+    },
+    {
+      "id": "20261102T013011-incumbents-doubt-the-count-1",
+      "status": "failed",
+      "how": "expired"
+    },
+    {
+      "id": "20261102T232930-ai-build-needs-lenders-and-hosts-1",
+      "status": "failed",
+      "how": "expired"
+    }
+  ],
+  "readings": [
+    {
+      "id": "chip-penalties-land-abroad",
+      "line": "The chipmaker's chief returns with the president's support, and the penalties for chips reaching China fall on firms abroad.",
+      "kicker": "PRESIDENCY / EXPORT CONTROL / LIABILITY",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "The US Commerce Department adds another Asian or Gulf firm to its Entity List over Nvidia chips reaching China.",
+          "by": "2026-12-21",
+          "because": "If the scandal's costs are being placed on intermediaries rather than on Nvidia, enforcement should keep naming firms abroad while Nvidia faces nothing new.",
+          "id": "20261124T025350-chip-penalties-land-abroad-1"
+        },
+        {
+          "what": "A Korean, Malaysian or Indian government official says Trump's proposed tax on overseas data centres would hit projects in their country.",
+          "by": "2026-12-14",
+          "because": "The join holds that the countries hosting and passing on the chips carry the cost, so their governments should begin to answer for it in public.",
+          "id": "20261124T025350-chip-penalties-land-abroad-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is ZTE in 2018. The Commerce Department cut the Chinese firm off from American suppliers in April for breaking Iran sanctions; in May Trump said he would help it, and by July ZTE was trading again after a $1 billion fine and a compliance team. Then the president rescued a foreign firm as part of a trade bargain; now he says he restored an American chief while the penalties fall on firms outside the US.",
+        "paths": [
+          {
+            "name": "Enforcement aimed at intermediaries",
+            "weight": "favoured",
+            "text": "Over the coming months Commerce adds more distributors and cloud resellers in Southeast Asia and the Gulf to the Entity List, and questioning at Huang's 1 December hearing turns to how chips moved through those hubs rather than to Nvidia's own controls. Nvidia's sales and valuation hold. The president's public claim on Huang's return makes a penalty on the company itself awkward for his own administration.",
+            "sign": "A second Southeast Asian firm is added to the Entity List within weeks of Megaspeed."
+          },
+          {
+            "name": "Congress makes it about Trump",
+            "weight": "possible",
+            "text": "Democrats follow Schumer's call with requests for documents on the White House's contacts with Nvidia's board, and the story becomes one about political influence over a listed company. Without control of a chamber until January this stays a minority effort, but it keeps the question alive into the new Congress.",
+            "sign": "A congressional committee or group of senators formally requests documents from Nvidia's board about contacts with the White House."
+          },
+          {
+            "name": "Nvidia itself is penalised",
+            "weight": "unlikely",
+            "text": "Commerce or Justice fines Nvidia or restricts its licences over the diverted chips. This is unlikely within a year while the president calls Huang a national treasure and markets have rewarded his return.",
+            "sign": "Commerce or the Justice Department announces a settlement with or charge against Nvidia over chip diversion."
+          }
+        ],
+        "decade": "Over the next ten years the US will enforce its chip rules mainly through the countries where chips are shipped, resold and installed, and will treat its leading chipmakers as national assets whose leadership is a political matter."
+      },
+      "continues": "",
+      "change": "On 17 November the scandal had not cut Nvidia's sales and enforcement was falling on transit countries. Since then Jensen Huang has been reinstated by a unanimous board vote eleven days after resigning, with Donald Trump saying he made the deal; the US has added Megaspeed to its commercial blacklist; and Trump has warned of a tax on data centres built abroad. The burden on firms outside the US is clearer, and the pressure on Nvidia itself has eased.",
+      "claim": "Nvidia's board unanimously reinstated Jensen Huang eleven days after he resigned, and Donald Trump says he convinced it to; the same day the US added Megaspeed to its commercial blacklist, and a Trump warning of a tax on overseas data centres sent related shares down in Korea. Chuck Schumer wants Trump's role investigated, while shares rallied from Frankfurt to Taipei. Taken together, the scandal over Nvidia chips reaching China has been settled at the top in the company's favour, and its costs are being assigned to firms and places outside the United States: the distributor that is blacklisted and the host of the data centre that may be taxed.",
+      "events": [
+        {
+          "label": "Board reinstates Huang after Trump intervenes",
+          "articleIds": [
+            "n-1c61dd99b40a47",
+            "n-73ef3694b9d0ef",
+            "n-2d2838e2499e16",
+            "n-2ad588ff3ea6e4",
+            "n-9edcbeaad49873"
+          ]
+        },
+        {
+          "label": "Markets and Huang's fortune rise",
+          "articleIds": [
+            "n-bdf96f6e1a1024",
+            "n-cbcdc061a2de5f",
+            "n-ae38492ed92a4a",
+            "n-a1e4e90c3e4224"
+          ]
+        },
+        {
+          "label": "Democrats seek inquiry into Trump's role",
+          "articleIds": [
+            "n-907988dd1ba618",
+            "n-d0198080f5b29f"
+          ]
+        },
+        {
+          "label": "US blacklists Megaspeed",
+          "articleIds": [
+            "n-3405a26f57010d"
+          ]
+        },
+        {
+          "label": "Trump warns of overseas data centre tax",
+          "articleIds": [
+            "n-f0dfc3499e648b"
+          ]
+        },
+        {
+          "label": "Espionage suspect and China's chip dependence",
+          "articleIds": [
+            "n-2fa69e7392fc0c",
+            "n-7e2382626367be"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "The chief's return",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Reinstated after the president intervened",
+              "text": "BBC News reports Donald Trump saying he 'convinced' Nvidia to reinstate Jensen Huang, and Greece's Efimerida ton Syntakton quotes him: 'I made the deal for him to return', calling Huang a great patriot and a national treasure. Korea's Newspim carries the same words. WSLS in the US reports that the board's vote was unanimous, and China's 163.com publishes an account of the eleven days from resignation to reinstatement.",
+              "articleIds": [
+                "n-1c61dd99b40a47",
+                "n-73ef3694b9d0ef",
+                "n-2d2838e2499e16",
+                "n-2ad588ff3ea6e4",
+                "n-9edcbeaad49873"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Markets up, opposition alarmed",
+              "text": "Colombia's El Universal says the return gave Nvidia its best valuation in 23 years; ANSA reports Frankfurt closing 2.15% higher, and Taiwan's United Daily News reports leveraged ETFs rising 20% to their daily limit. Al Jazeera puts the rise in Huang's fortune at $33 billion. Argentina's Cadena 3 reports Chuck Schumer calling for an investigation of Trump's role, and Jornal de Brasília reports a political storm over it.",
+              "articleIds": [
+                "n-bdf96f6e1a1024",
+                "n-cbcdc061a2de5f",
+                "n-ae38492ed92a4a",
+                "n-a1e4e90c3e4224",
+                "n-907988dd1ba618",
+                "n-d0198080f5b29f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Measures aimed abroad",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "A blacklisting and a tax warning",
+              "text": "On the same day ANSA reports that the US added Megaspeed, a firm earlier coverage linked to chips reaching China through Southeast Asia, to its commercial blacklist. Korea's Digital Daily reports shares in data-centre firms falling after Trump warned of an 'overseas data centre tax'. Cadena 3 asks whether a woman linked to Nvidia and Chinese espionage was an undercover agent, and UDN's Corner International asks whether China's AI plans can work while its computing depends on Nvidia.",
+              "articleIds": [
+                "n-3405a26f57010d",
+                "n-f0dfc3499e648b",
+                "n-2fa69e7392fc0c",
+                "n-7e2382626367be"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Where the cost is placed",
+          "fragments": [
+            {
+              "id": "f4",
+              "label": "One firm restored, others listed",
+              "text": "The firm whose chips reached China has its chief back and its share price at a high, with the president taking credit. The enforcement reported the same day named another firm, and the new threat named another place: data centres built outside the US. The cost of the scandal is being assigned by where a firm sits, not by who designed and sold the chips. The president treats Nvidia as a national asset and its partners abroad as the leak.",
+              "articleIds": [
+                "n-1c61dd99b40a47",
+                "n-3405a26f57010d",
+                "n-f0dfc3499e648b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f5",
+              "label": "Asian markets on both sides",
+              "text": "Taiwanese funds rose on Huang's return, while Korean shares fell on a remark about taxing data centres abroad. The same economies are rewarded when the American firm is safe and charged when Washington wants the building done at home. That is the position of the countries in between: they gain from the firm's sales and carry the enforcement and the tax.",
+              "articleIds": [
+                "n-ae38492ed92a4a",
+                "n-f0dfc3499e648b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Three separate decisions",
+              "text": "These are decisions by different bodies. Megaspeed's listing comes out of a Commerce Department process that was under way before Huang came back; the data-centre tax is about moving building to the US, not about chips reaching China; and the reinstatement is a board vote that Trump says he influenced. Schumer's call shows Nvidia's own conduct is still a live question in Washington. What the events do not share: one is corporate governance, one is export enforcement, one is tax policy, and only this reading puts them on one ledger. The collection is also full of Huang coverage in many languages, which makes the market story look larger than the enforcement one.",
+              "articleIds": [
+                "n-3405a26f57010d",
+                "n-907988dd1ba618"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "EXPORT CONTROL / AI / INDUSTRIAL POLICY",
+          "text": "The rules at the centre of this scandal date from 7 October 2022, when the Commerce Department barred sales of the most advanced AI chips and chipmaking tools to China. Nvidia answered with slower chips made for the Chinese market, and Washington tightened the rules again in 2023. Seven weeks after the first rules, ChatGPT made those chips the most sought-after product in the world, and Nvidia's market value passed a trillion dollars in May 2023. The second Trump administration then treated the industry as a state concern in a new way: in August 2025 it agreed to take a share of Nvidia's and AMD's China chip revenue in return for export licences, and the same month it took a stake of about ten per cent in Intel. A president saying he 'made the deal' to bring back Nvidia's chief, as the BBC reports, follows from that. The decade's rule is that chips are policed as weapons and sold as the country's most valuable export, and the two aims are settled in the White House.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SUPPLY CHAINS / SANCTIONS / ASIA",
+          "text": "After 2008 chipmaking concentrated further in Asia. Firms outsourced production to the most advanced foundries, and by the late 2010s TSMC in Taiwan made almost all the world's leading-edge chips, while Singapore and Malaysia became the region's centres for packaging, testing and distribution. Washington first used this chain as a weapon in 2018, when it cut ZTE off from American components, and in May 2019, when it added Huawei to the Entity List. Those cases set the method used against Megaspeed this week, as ANSA reports: the US cannot follow a chip once it leaves an American firm, so it lists the firms abroad that pass it on. Adam Tooze describes how the dollar system after 2008 gave Washington reach over banks everywhere; the Entity List gives it similar reach over any firm that needs American technology. The hubs that grew rich on being in between are where enforcement now falls.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "TRADE / CONTROLS / HUBS",
+          "text": "When the Cold War ended, the Western export-control body CoCom was dissolved in 1994 and replaced in 1996 by the looser Wassenaar Arrangement, which left each member to enforce its own lists. The WTO, founded in 1995, and China's entry in 2001 made the free movement of components the norm. Singapore and Malaysia built their economies on that norm as free ports, assembly centres and later data-centre sites. Taiwan's TSMC, founded in 1987, became the foundry for American designers such as Nvidia, founded in 1993. The market's habit of valuing technology firms on what they will earn later took shape with the Netscape listing of 1995 and survived the crash of 2000. Both habits show in today's headlines: chips designed in California and made in Taiwan reach China through third countries, and a chief executive's return adds what Al Jazeera puts at $33 billion to his fortune in a day.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE SCIENCE / SECRECY / NATIONAL CHAMPIONS",
+          "text": "The idea that some technology is too important to be sold freely began with the bomb. The Trinity test of 1945 was a secret state project, and in 1949 the US passed the Export Control Act and set up CoCom with its allies to keep strategic goods from the Soviet bloc. For the next forty years the state paid for the technologies that mattered: the name artificial intelligence was coined at a Dartmouth workshop in 1956, and ARPA was founded after Sputnik in 1957. The first chip firms sold mainly to the Pentagon and NASA. What is different in the Nvidia story is the order of roles. The leading AI chips are now made by a private listed company, and the state that once commissioned such things now intervenes in who runs it; Trump calls Huang a national treasure, in the words Greece's Efimerida ton Syntakton and Korea's Newspim report. The company has become a national asset without becoming state property.",
+          "trajectoryIds": [
+            "trinity-1945",
+            "dartmouth-1956",
+            "sputnik-1957"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "20261117T232955/chip-rules-fall-on-transit-states",
+      "builds": "",
+      "articleIds": [
+        "n-1c61dd99b40a47",
+        "n-73ef3694b9d0ef",
+        "n-2d2838e2499e16",
+        "n-2ad588ff3ea6e4",
+        "n-9edcbeaad49873",
+        "n-bdf96f6e1a1024",
+        "n-cbcdc061a2de5f",
+        "n-ae38492ed92a4a",
+        "n-a1e4e90c3e4224",
+        "n-907988dd1ba618",
+        "n-d0198080f5b29f",
+        "n-3405a26f57010d",
+        "n-f0dfc3499e648b",
+        "n-2fa69e7392fc0c",
+        "n-7e2382626367be"
+      ]
+    },
+    {
+      "id": "bystanders-move-war-off-territory",
+      "line": "States outside the war now try to move it off their territory, by suing the side that struck or towing a damaged ship away.",
+      "kicker": "NEUTRALITY / JURISDICTION / DETERRENCE",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "Malta, Egypt, Tunisia, Turkey or another Mediterranean state restricts port calls by Russian warships or sanctioned tankers, citing the Benghazi strike.",
+          "by": "2026-12-21",
+          "because": "If states near the war answer by moving it off their territory, the next to act should be those whose ports could host the next target.",
+          "id": "20261124T025350-bystanders-move-war-off-territory-1"
+        },
+        {
+          "what": "Libya formally files its case against Ukraine at the International Court of Justice or asks the UN Security Council to meet on the Benghazi strike.",
+          "by": "2026-12-14",
+          "because": "The join says bystanders turn to legal and procedural answers rather than force, so the announced suit should be lodged rather than dropped.",
+          "id": "20261124T025350-bystanders-move-war-off-territory-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is Nicaragua v United States: in April 1984 Nicaragua took the US to the International Court of Justice over mines laid in its harbours, won in June 1986, and the US refused to accept the judgment. During the Tanker War of 1987 Kuwait, a bystander to the Iran-Iraq war, asked outside powers to reflag its tankers instead of fighting. Now the state going to court sues the weaker belligerent, which does accept the court, and the strikes reach ports far from the war.",
+        "paths": [
+          {
+            "name": "Ports and waters closed to the war",
+            "weight": "favoured",
+            "text": "Through the winter, states around the Mediterranean and the Baltic tighten rules on which warships and sanctioned tankers may call, anchor or wait in their zones, citing the risk of strikes. Port authorities and insurers move first, governments follow. This is the cheapest answer for countries that want neither side's war on their coast.",
+            "sign": "A Mediterranean or Baltic port authority bars or limits Russian naval or shadow-fleet calls."
+          },
+          {
+            "name": "A bystander shoots down a drone",
+            "weight": "possible",
+            "text": "Poland or Finland shoots down a drone over its own territory, as Poland did in September 2025, and NATO consults without wider escalation. That would mark a turn from moving the war away to defending against it directly.",
+            "sign": "Polish or Finnish forces report shooting down a Russian drone in their airspace."
+          },
+          {
+            "name": "Talks ban strikes outside the war",
+            "weight": "unlikely",
+            "text": "The Ukraine talks produce a mutual ban on attacks outside Ukraine and Russia. Each side gains too much from such strikes for this to come soon.",
+            "sign": "A draft from the Ukraine talks is reported to bar attacks outside the two countries."
+          }
+        ],
+        "decade": "Over the next ten years the countries around the war will write their own rules on which navies and fleets may use their ports, waters and airspace, and neutrality will be argued case by case in courts rather than declared."
+      },
+      "continues": "war-lands-on-third-countries",
+      "change": "The previous edition found that countries hit by the war mostly named the weapon rather than fired back. Since then Libya has said it will sue Ukraine at the International Court of Justice over the Benghazi strike, a Russian drone has stayed minutes in Polish airspace as NATO sends a radar aircraft, and Seoul's military has said Russian aircraft did not violate its airspace after all. The answers have moved from naming the weapon to legal and practical steps to keep the war elsewhere.",
+      "claim": "Libya says it will take Ukraine to the International Court of Justice after Ukrainian drones sank a Russian warship at Benghazi; Finland had the damaged Sparta II towed out of its economic zone and its experts expect more drone strikes in the Gulf of Finland; a Russian drone spent minutes over Poland, which sounded air raid alarms and is receiving a NATO radar aircraft; and South Korea scrambled jets over Russian and North Korean aircraft before its military said Russia had not violated its airspace. In each case a state outside the war chose the answer that keeps it out: a lawsuit against the side that struck, a tow beyond its waters, a radar plane, a correction. Russia meanwhile warns Ukraine of a 'dangerous trend' and pays for ferries to supply Kaliningrad.",
+      "events": [
+        {
+          "label": "Libya answers Benghazi sinking with court case",
+          "articleIds": [
+            "n-299ff7c655b734",
+            "n-0abb01a0937602",
+            "n-eccd5cfa4a0610",
+            "n-5e7d1eeb3e8ede",
+            "n-436bf2c07b3593"
+          ]
+        },
+        {
+          "label": "Finland tows damaged ship out of its zone",
+          "articleIds": [
+            "n-ee883026278e48",
+            "n-bd577f5a62ba97"
+          ]
+        },
+        {
+          "label": "Russian drone over Poland, NATO radar sent",
+          "articleIds": [
+            "n-3126b564adc746",
+            "n-de2ada01c0b30a",
+            "n-7e74020d6cff5a"
+          ]
+        },
+        {
+          "label": "Seoul scrambles jets, then corrects itself",
+          "articleIds": [
+            "n-dd877ab7b418ce",
+            "n-eb2d768a9a68f5",
+            "n-06c646b53af03e"
+          ]
+        },
+        {
+          "label": "Russia warns and funds Kaliningrad ferries",
+          "articleIds": [
+            "n-2bf9633cf8f8d0",
+            "n-6e5f71ebd02f17"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Strikes and intrusions near the war",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Benghazi and a lawsuit",
+              "text": "Kommersant reports that Libya will file suit against Ukraine at the UN International Court of Justice after strikes on the port of Benghazi, and Nieuws.nl that the Libyan government condemned the attack on Russian ships. CBC and Arab News report Ukraine's claim to have sunk a Russian warship there. Il Messaggero explains the strike through Russia's shadow fleet and a new 'Libyan Express' route, and says the war has reached the Mediterranean.",
+              "articleIds": [
+                "n-299ff7c655b734",
+                "n-0abb01a0937602",
+                "n-eccd5cfa4a0610",
+                "n-5e7d1eeb3e8ede",
+                "n-436bf2c07b3593"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "The Gulf of Finland and Poland",
+              "text": "Yle reported on 21 November that the cargo ship Sparta II had been towed out of Finland's exclusive economic zone, and now reports experts expecting more drone strikes in the Gulf of Finland while saying shipping is safe. Radio Zet reports a Russian drone staying in Polish airspace for several minutes; Handelsblatt reports an air raid alarm telling residents to seek shelter; Nieuws.nl reports NATO sending a 'flying radar station' to Poland against Russian projectiles.",
+              "articleIds": [
+                "n-ee883026278e48",
+                "n-bd577f5a62ba97",
+                "n-3126b564adc746",
+                "n-de2ada01c0b30a",
+                "n-7e74020d6cff5a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f3",
+              "label": "Korea and Kaliningrad",
+              "text": "Lenta.ru reports South Korea scrambling aircraft over Russian planes, and Yle that Seoul said Russia and North Korea violated its airspace; Financial News then reports the military saying the Russian aircraft did not violate it and that a North Korean alert was mistaken. DW's Russian service reports Moscow allocating nearly 50 billion roubles to ferries for Kaliningrad against 'attempts at a transport blockade', and Al Jazeera reports Russia warning Ukraine of a 'dangerous trend' after the Libya and Baltic attacks.",
+              "articleIds": [
+                "n-dd877ab7b418ce",
+                "n-eb2d768a9a68f5",
+                "n-06c646b53af03e",
+                "n-6e5f71ebd02f17",
+                "n-2bf9633cf8f8d0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "interpretation",
+          "label": "Keeping the war out",
+          "fragments": [
+            {
+              "id": "f4",
+              "label": "The answer that costs least",
+              "text": "Each state outside the war chose the answer that keeps it out. Libya's authorities, whose port hosted the Russian ships, take the side that struck to court rather than the side that brought warships there. Finland moved the damaged ship beyond its zone and told shippers the route was safe, Seoul corrected its own alarm, and Poland asked allies for detection rather than retaliation. The shared shape is a state treating the war as something to move off its territory, not something to join.",
+              "articleIds": [
+                "n-299ff7c655b734",
+                "n-ee883026278e48",
+                "n-06c646b53af03e",
+                "n-7e74020d6cff5a"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f5",
+              "label": "What it leaves to the belligerents",
+              "text": "When bystanders only push the war away, the belligerents keep choosing where it lands. Ukraine's reach to Benghazi and the Gulf of Finland costs it a lawsuit, not a new enemy; Russia reads the same events as a trend and pays to supply Kaliningrad by sea. Grégoire Chamayou's argument about weapons whose users cannot be hit back applies here to geography: a drone strike in a third country carries little risk for the side that launches it.",
+              "articleIds": [
+                "n-2bf9633cf8f8d0",
+                "n-6e5f71ebd02f17",
+                "n-436bf2c07b3593"
+              ],
+              "bookIds": [
+                "theory-of-the-drone"
+              ],
+              "trajectoryIds": [
+                "spiderweb-2025"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Not one kind of bystander",
+              "text": "These states are not alike. Libya has rival governments and Benghazi is held by eastern authorities allied with Moscow, so a suit against Ukraine may be a pro-Russian act rather than an effort to stay out; the headlines do not say which government spoke. Poland is a NATO member preparing for war, not a neutral, and North Korea is itself a party to the Ukraine war, so Seoul's incident belongs to another conflict. Finland's tow may simply follow salvage practice. What the events do not share: one host is a client of Moscow, one is a frontline ally, one is a distant democracy correcting a false alarm.",
+              "articleIds": [
+                "n-0abb01a0937602",
+                "n-eb2d768a9a68f5"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "DRONES / SHIPPING / SANCTIONS",
+          "text": "Russia's full invasion of February 2022 turned the Black Sea into a front and the seas beyond it into a supply problem. Ukraine sank the cruiser Moskva in April 2022 and then pushed the Russian fleet out of the western Black Sea with sea drones. The G7 price cap on Russian oil from December 2022 produced a fleet of old tankers with obscure owners, and Finland and the Baltic states have lived beside it since: in December 2024 Finland seized the Eagle S after the Estlink 2 cable was cut. When the Assad government fell that month, Russia looked to eastern Libya for a Mediterranean base. In June 2025 Ukrainian drones launched from lorries hit bombers deep inside Russia, and in September 2025 Poland shot down Russian drones over its own territory. The strike at Benghazi reported by CBC and Arab News carries that reach to a third continent, and the suit reported by Kommersant is the first answer in court from a host of such a strike in these headlines.",
+          "trajectoryIds": [
+            "spiderweb-2025",
+            "karabakh-2020"
+          ],
+          "bookIds": [
+            "theory-of-the-drone"
+          ]
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "LIBYA / PROXIES / EXCLAVES",
+          "text": "Libya's place in this story begins in 2011, when the uprising against Muammar Gaddafi and the NATO air campaign that followed ended his rule and left the country divided. From 2014 rival governments in Tripoli and the east competed for oil revenue and foreign backers; the eastern commander Khalifa Haftar received Russian support, including Wagner fighters from 2019. Benghazi's port lies in that eastern zone, which is why Russian warships could use it and why the Libyan government that Nieuws.nl says condemned the strike may not speak for all of Libya. In the north, Russia's annexation of Crimea in 2014 began the sanctions cycle that by June 2022 led Lithuania to restrict transit of sanctioned goods to Kaliningrad; the 50 billion roubles for ferries reported by DW is Moscow's answer to that isolation. Mary Kaldor's account of wars without fronts fits both places: the war is fought through ports and routes that belong to others.",
+          "trajectoryIds": [
+            "tahrir-2011"
+          ],
+          "bookIds": [
+            "new-and-old-wars"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "NATO / SEA LAW / AIRSPACE",
+          "text": "The end of the Cold War set the borders these incidents test. The Baltic states regained independence in 1991, Poland joined NATO in 1999 and the Baltic states in 2004; Lech Walesa, in a headline in Observador, now says Bill Clinton deserves the Nobel Peace Prize for that expansion, while NATO answers a Russian proposal to roll it back to the 1997 line. The UN Convention on the Law of the Sea entered into force in 1994 and gave coastal states economic zones of 200 nautical miles; Finland's tow of the Sparta II relies on that line, which gives a state rights over resources but little power to stop passage. South Korea opened relations with Moscow in 1990, and its air defence zone is where the scramble reported by Lenta took place. Cheap drones became possible after the US stopped degrading civilian GPS in May 2000, which is why one unmanned aircraft can now set off air raid alarms across a NATO country.",
+          "trajectoryIds": [
+            "gps-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "INTERNATIONAL LAW / NEUTRALITY / COURTS",
+          "text": "The International Court of Justice that Libya says it will use was set up under the UN Charter in 1945 to settle disputes between states that accept it. Its best-known case about harbours is Nicaragua v United States, brought in 1984 over mines in Nicaraguan ports and decided for Nicaragua in 1986; the US refused to comply. The Geneva Conventions of 1949 and the protocols of 1977 set what may be attacked, though not where a war may be carried. Neutrality was a postwar choice for Finland, Sweden, Austria and Ireland; Finland's balance with Moscow ended when it joined NATO in 2023, so its answer now is to move ships out of its zone rather than to declare itself outside the contest. Tony Judt describes postwar Europe as built on states agreeing what they would not fight over. The headlines from Benghazi, the Gulf of Finland and Polish airspace show that agreement being renegotiated by the countries that hoped to stay outside.",
+          "trajectoryIds": [
+            "geneva-1949",
+            "protocol-1977"
+          ],
+          "bookIds": [
+            "postwar"
+          ]
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-299ff7c655b734",
+        "n-0abb01a0937602",
+        "n-eccd5cfa4a0610",
+        "n-5e7d1eeb3e8ede",
+        "n-436bf2c07b3593",
+        "n-ee883026278e48",
+        "n-bd577f5a62ba97",
+        "n-3126b564adc746",
+        "n-de2ada01c0b30a",
+        "n-7e74020d6cff5a",
+        "n-dd877ab7b418ce",
+        "n-eb2d768a9a68f5",
+        "n-06c646b53af03e",
+        "n-6e5f71ebd02f17",
+        "n-2bf9633cf8f8d0"
+      ]
+    },
+    {
+      "id": "cheaper-fuel-on-a-contested-pause",
+      "line": "Cheaper fuel depends on a pause in the Iran war that Israel is openly lobbying Washington to end.",
+      "kicker": "OIL / MEDIATION / ESCALATION",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A new round of US-Iran talks mediated by Qatar or Oman is reported with a date or a venue.",
+          "by": "2026-12-14",
+          "because": "If markets are right to price the pause as holding, the mediation Washington praised this week should produce a scheduled round despite the Israeli pressure.",
+          "id": "20261124T025350-cheaper-fuel-on-a-contested-pause-1"
+        },
+        {
+          "what": "US or European fuel prices are reported at their lowest since the Iran war began.",
+          "by": "2026-12-10",
+          "because": "The join says prices are following the pause, so as long as no strike comes they should keep falling past this month's level.",
+          "id": "20261124T025350-cheaper-fuel-on-a-contested-pause-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "In March 2015 Netanyahu addressed the US Congress to argue against a nuclear deal with Iran; the deal was signed in Vienna that July, and oil, already falling with American shale output, went below $30 a barrel in January 2016 as Iranian barrels returned. Israel's lobbying failed and prices kept falling. Now a war has been fought and paused, Iran describes a blockade still in force, and the US president, not a negotiating team, is the one weighing strikes.",
+        "paths": [
+          {
+            "name": "The pause holds into spring",
+            "weight": "favoured",
+            "text": "Qatar-mediated contacts continue, Washington keeps adding sanctions rather than strikes, and fuel prices keep easing through the winter. A president whose party lost Congress on the war's price rise has reason to protect the fall, and the new sanctions on Iran's banking network show pressure being applied by means other than bombing.",
+            "sign": "A date is set for a further round of US-Iran talks in Doha or Muscat."
+          },
+          {
+            "name": "Strikes resume before a deal",
+            "weight": "possible",
+            "text": "Israel strikes Iranian targets, alone or with US support, in the first months of next year, as it did during talks in June 2025. Prices jump and Gulf shipping halts again within days.",
+            "sign": "Israel or the US is reported to have struck a target inside Iran."
+          },
+          {
+            "name": "A signed settlement by January",
+            "weight": "unlikely",
+            "text": "Iran and the US sign a framework that lifts the blockade and some sanctions within weeks. New sanctions announced this week make that unlikely so soon.",
+            "sign": "Iran and the US announce an agreement that reopens Hormuz to all shipping."
+          }
+        ],
+        "decade": "Over the next ten years the price households pay for fuel will keep depending on whether truces in the Gulf hold, decided in a few capitals, so importing countries will keep paying for stockpiles, subsidies and electric transport as insurance against them."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "US petrol prices have fallen 66 cents in a month, the biggest drop since 2008, gold is at its lowest this year as safe-haven buying stalls, and Israel has let flights resume; in the same headlines Israeli media and a former Mossad chief press for an attack on Iran, Avigdor Lieberman warns Netanyahu against one, Qatar's emir says the region cannot take another round, and Washington adds sanctions on Iran's banking network. Markets and airlines are treating the pause in the US-Iran war as its end, while the governments involved treat it as an interval. The relief at the pump rests on a decision that is being openly lobbied the other way.",
+      "events": [
+        {
+          "label": "US petrol prices fall fastest since 2008",
+          "articleIds": [
+            "n-4648ae2e8d401b"
+          ]
+        },
+        {
+          "label": "Gold slides as safe-haven buying stalls",
+          "articleIds": [
+            "n-b13c6065675a82",
+            "n-af2f6194363989"
+          ]
+        },
+        {
+          "label": "Israel lets flights resume",
+          "articleIds": [
+            "n-639526ebe89ef0"
+          ]
+        },
+        {
+          "label": "Israeli voices argue over striking Iran",
+          "articleIds": [
+            "n-c321c97be3965e",
+            "n-6192578c793640",
+            "n-d8867a2a6a6088"
+          ]
+        },
+        {
+          "label": "Qatar mediates and warns of escalation",
+          "articleIds": [
+            "n-eea1d63140dd5a",
+            "n-8ba81e722bbaa6"
+          ]
+        },
+        {
+          "label": "Sanctions and strikes continue around Iran",
+          "articleIds": [
+            "n-1c77907c1c8ecf",
+            "n-0d719102dbf65c",
+            "n-594c3e15a6c028",
+            "n-824b389e0b89ae"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Prices and flights",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Pump, gold and airspace",
+              "text": "KPRC in Houston reports petrol prices down 66 cents in a month, the biggest drop since 2008. Asahi Shimbun reports gold at its lowest this year as safe-haven buying stalls, and Egypt's Al-Watan quotes a money markets expert saying rising US Treasury yields are pushing it down. Khaberni in Jordan reports Israel's transport ministry allowing flights to resume.",
+              "articleIds": [
+                "n-4648ae2e8d401b",
+                "n-b13c6065675a82",
+                "n-af2f6194363989",
+                "n-639526ebe89ef0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Pressure to restart and restrain",
+          "fragments": [
+            {
+              "id": "f2",
+              "label": "Calls for a strike",
+              "text": "Ammon in Jordan reports that Israel is still pressing the Trump administration to attack Iran. Korea's Financial News quotes a former Mossad chief saying Iran should be attacked as soon as conditions allow and that the regime cannot be negotiated with. Khaberni reports Avigdor Lieberman warning Netanyahu against an attack.",
+              "articleIds": [
+                "n-c321c97be3965e",
+                "n-6192578c793640",
+                "n-d8867a2a6a6088"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f3",
+              "label": "Mediation, sanctions and strikes",
+              "text": "Al Jazeera reports Tehran hinting that it will break the blockade while Washington praises Qatari mediation, and Izvestia quotes Qatar's emir saying the Middle East will not withstand a new escalation. The Jerusalem Post and DW's Persian service report US sanctions on more than 20 entities in Iran's 'shadow banking' network. Yicai reports the Houthis saying 15 were killed at Ras Isa port, and Sud Ouest carries a swimmer's account of burning tankers and sea mines in the Strait of Hormuz.",
+              "articleIds": [
+                "n-eea1d63140dd5a",
+                "n-8ba81e722bbaa6",
+                "n-1c77907c1c8ecf",
+                "n-0d719102dbf65c",
+                "n-594c3e15a6c028",
+                "n-824b389e0b89ae"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "One pause, two readings",
+          "fragments": [
+            {
+              "id": "f4",
+              "label": "Priced as an ending",
+              "text": "The fall in petrol and gold and the reopening of Israeli airspace treat the pause in the US-Iran war as an end to it. The other headlines treat it as an interval: Iran describes a blockade still in force, Washington adds sanctions, the Yemeni front is still killing, and Israeli voices argue for the next strike. The join is the gap between these two readings of the same pause.",
+              "articleIds": [
+                "n-4648ae2e8d401b",
+                "n-639526ebe89ef0",
+                "n-eea1d63140dd5a",
+                "n-c321c97be3965e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f5",
+              "label": "Who decides the price",
+              "text": "The decision that would reverse the fall in fuel prices is being argued in Jerusalem and Washington, with Qatar the only government in these headlines arguing publicly for restraint and an Israeli opposition figure warning against a strike. The drivers who gain from the pause have no part in that argument. Daniel Yergin's history of oil describes a century in which prices were set by such decisions in a few capitals.",
+              "articleIds": [
+                "n-8ba81e722bbaa6",
+                "n-d8867a2a6a6088",
+                "n-4648ae2e8d401b"
+              ],
+              "bookIds": [
+                "the-prize"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Prices have their own causes",
+              "text": "US petrol prices usually fall in autumn as summer fuel blends end and driving drops, and a 66-cent fall may owe more to that and to American output than to the Gulf. Al-Watan attributes gold's fall to US bond yields, not to peace. Israeli talk of striking Iran has been heard for twenty years and is not by itself a sign of a decision. What the events do not share: one is a seasonal price, one is a bond-market move, one is political argument, and the join assumes the market is reading the war when it may be reading the calendar.",
+              "articleIds": [
+                "n-4648ae2e8d401b",
+                "n-af2f6194363989"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "OIL / WAR / PUMP PRICES",
+          "text": "This decade has taught drivers that fuel prices follow wars more than wells. Oil briefly traded below zero in April 2020, then passed $120 a barrel in June 2022 after Russia's invasion, and the US released 180 million barrels from its strategic reserve to bring petrol down before that year's midterms. In June 2025 Israel and Iran fought for twelve days and US bombers struck Fordow; prices jumped and fell back within a week. By earlier headlines the war of 2026 went much further, with the Strait of Hormuz closed, oil near $118 at the end of October and below $90 by mid-November. The 66-cent monthly fall reported by KPRC, the largest since 2008, is the market treating the present pause as lasting. The renewed Israeli lobbying reported by Ammon and Financial News is a reminder that the 2025 war also began while talks were under way.",
+          "trajectoryIds": [
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SHALE / SANCTIONS / NUCLEAR DEAL",
+          "text": "The 2008 comparison in KPRC's headline fits. That July oil reached $147 a barrel, and by December it was under $40 as the financial crisis cut demand. In the years after, horizontal drilling in Texas and North Dakota made the US the world's largest oil producer by 2018, which is why American pump prices now respond quickly to Gulf risk without the US depending on Gulf oil. Iran policy ran on two clocks. The nuclear deal signed in Vienna in July 2015 brought Iranian oil back; Trump left it in May 2018 and imposed 'maximum pressure' sanctions, including on the banks and exchange houses through which Iran is paid. The sanctions on its 'shadow banking' reported by The Jerusalem Post and DW are the latest turn of that clock. In September 2019 drones and missiles hit Abqaiq and halved Saudi output for days, the first proof that Gulf supply could be cut cheaply.",
+          "trajectoryIds": [
+            "lehman-2008",
+            "jcpoa-2015",
+            "abqaiq-2019"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "GULF WARS / MEDIATION / ISRAEL",
+          "text": "The Gulf War of 1991 set a pattern markets still follow. Oil doubled after Iraq invaded Kuwait in August 1990, then fell by about a third in a single day when the US air campaign began in January 1991, because traders priced the end of the risk rather than the fighting. Washington then tried to contain Iraq and Iran at once, a policy that ended with the invasion of Iraq in 2003, which removed Iran's main rival and widened its reach to the Mediterranean. Qatar's role as go-between dates from the same years: Al Jazeera was founded in Doha in 1996, and the emirate built its diplomacy on talking to parties others shunned, from the Taliban to Hamas to Iran. The emir's warning in Izvestia that the region cannot take another round, and the US praise for Qatari mediation reported by Al Jazeera, rest on thirty years of that position.",
+          "trajectoryIds": [
+            "iraq-2003"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OIL / PROTECTION / REVOLUTION",
+          "text": "The arrangement that makes a pause in a Gulf war a matter for drivers in Houston began on 14 February 1945, when Roosevelt met Ibn Saud on a cruiser in the Great Bitter Lake and protection was traded for oil. Daniel Yergin's history shows how that bargain made the Gulf the setter of the world's fuel price. The Arab embargo of October 1973 taught importers that a regional war becomes a global price within weeks, and the revolution in Tehran in 1979 made Iran the adversary of the US and of Israel. Every Israeli argument for striking Iran, from the former Mossad chief quoted by Financial News to the pressure on the Trump administration reported by Ammon, assumes that the cost in oil can be carried by others. Lieberman's warning, reported by Khaberni, is the counter-argument within Israel. Fuel bills far from the Gulf have been tied to that dispute since 1979.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "oil-embargo-1973",
+            "tehran-1979"
+          ],
+          "bookIds": [
+            "the-prize"
+          ]
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-4648ae2e8d401b",
+        "n-b13c6065675a82",
+        "n-af2f6194363989",
+        "n-639526ebe89ef0",
+        "n-c321c97be3965e",
+        "n-6192578c793640",
+        "n-d8867a2a6a6088",
+        "n-eea1d63140dd5a",
+        "n-8ba81e722bbaa6",
+        "n-1c77907c1c8ecf",
+        "n-0d719102dbf65c",
+        "n-594c3e15a6c028",
+        "n-824b389e0b89ae"
+      ]
+    },
+    {
+      "id": "health-payments-routed-through-state",
+      "line": "Governments want payments for health care to pass through channels they control, while they pay doctors and settle claims slowly.",
+      "kicker": "CASH / INSURANCE / ARREARS",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "A second government in Africa or Asia orders public hospitals or clinics to take payment only through a state platform or by electronic means.",
+          "by": "2026-12-21",
+          "because": "If the shared mechanism is the state drawing health payments into channels it controls, Kenya and Jordan should not stay the only orders of this kind.",
+          "id": "20261124T025350-health-payments-routed-through-state-1"
+        },
+        {
+          "what": "A hospital or doctors' association outside Brazil publicly complains of late payment by a state health insurer or public payer.",
+          "by": "2026-12-21",
+          "because": "The join treats slow payment as the other half of central control, so arrears complaints should appear wherever the state or its insurer holds the money.",
+          "id": "20261124T025350-health-payments-routed-through-state-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "Ghana replaced its 'cash and carry' hospital fees with a National Health Insurance Scheme in 2003; patients stopped paying at the door, and for most of the following two decades providers complained of claims paid months late. Now the change is mostly about the route payment takes, and in Kenya and Jordan patients still pay; the dispute is over who receives and holds the money.",
+        "paths": [
+          {
+            "name": "Central channels win, payments lag",
+            "weight": "favoured",
+            "text": "Over the next year Kenya's order survives in amended form, more governments route health payments through national platforms, electronic systems or contracted insurers, and complaints shift to delays in reimbursement. The states issuing these orders hold the legal powers, and counties and hospitals mostly bargain over shares rather than stop them.",
+            "sign": "Kenyan hospitals or providers report reimbursements from the national health authority arriving late."
+          },
+          {
+            "name": "Counties keep their collections",
+            "weight": "possible",
+            "text": "Kenya's governors win in court or in talks and the order is dropped, leaving hospital fees in county accounts. That would show devolved governments able to hold their revenue against the centre.",
+            "sign": "A Kenyan court suspends the health ministry's paybill order."
+          },
+          {
+            "name": "Single payer advances in the US",
+            "weight": "unlikely",
+            "text": "Steps towards Medicare for All become law within a year. Democrats do not hold the White House, so this stays a platform.",
+            "sign": "A Medicare buy-in or expansion bill passes a chamber of Congress."
+          }
+        ],
+        "decade": "Over the next ten years more of what patients and insurers pay hospitals will pass through state platforms and contracted insurers, and arguments in health care will turn on reimbursement terms and delays more than on fees at the door."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Kenya's health ministry has ordered public hospitals to stop taking payment through their own paybill numbers and the governors have refused; Jordan's central bank has banned cash payment of dues to medical providers; Himachal Pradesh has handed its new health insurance scheme to the Aditya Birla Group; and steps towards Medicare for All are now part of the US Democratic agenda. At the other end, public payers are slow: Rio Grande do Norte is late paying for orthopaedic surgeries, New Zealand's ACC has refused a tradesman after decades of levies, and doctors in Jammu and Kashmir strike over stipends. The money for health care is being drawn into channels the state runs or chooses, and the disputes are over who holds it and how fast it is paid out.",
+      "events": [
+        {
+          "label": "Kenya's governors reject hospital paybill order",
+          "articleIds": [
+            "n-dd0e17f1f17a06"
+          ]
+        },
+        {
+          "label": "Jordan bans cash payments to medical providers",
+          "articleIds": [
+            "n-e355188d867958"
+          ]
+        },
+        {
+          "label": "Himachal hands health scheme to private insurer",
+          "articleIds": [
+            "n-0a9ea678db35c1"
+          ]
+        },
+        {
+          "label": "US Democrats move towards a single payer",
+          "articleIds": [
+            "n-838c8e7da42820"
+          ]
+        },
+        {
+          "label": "Public payers delay or refuse what is owed",
+          "articleIds": [
+            "n-4ad0f85b5f3b83",
+            "n-c4a88e8cababcb"
+          ]
+        },
+        {
+          "label": "Kashmir doctors strike over stipends",
+          "articleIds": [
+            "n-75d9d56d828f5d"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "Orders on how hospitals are paid",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Kenya and Jordan",
+              "text": "Kenya Today reports county governors rejecting a Health Ministry order to remove paybill numbers, the mobile-money accounts patients pay into, from public hospitals. Ammon reports Jordan's central bank banning cash payment of dues to medical service providers. Both are orders from the centre about the route money takes from patient to provider.",
+              "articleIds": [
+                "n-dd0e17f1f17a06",
+                "n-e355188d867958"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Himachal and the US",
+              "text": "The Tribune reports that the Aditya Birla Group is set to run Himachal Pradesh's new health insurance scheme, so the state pays a private insurer to handle claims. WSLS reports that Medicare for All, once a long shot, now has steps towards it in the Democratic agenda, which would make the federal government the single payer.",
+              "articleIds": [
+                "n-0a9ea678db35c1",
+                "n-838c8e7da42820"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Public payers behind",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Owed, refused, underpaid",
+              "text": "Tribuna do Norte reports a professional body denouncing delays in payments for orthopaedic surgeries in Rio Grande do Norte's public network. RNZ reports a tradesman refused by New Zealand's Accident Compensation Corporation who says it broke its promise after decades of levies. The Economic Times reports a doctors' strike in Jammu and Kashmir hitting hospital services as demands for higher stipends grow.",
+              "articleIds": [
+                "n-4ad0f85b5f3b83",
+                "n-c4a88e8cababcb",
+                "n-75d9d56d828f5d"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "The state between patient and provider",
+          "fragments": [
+            {
+              "id": "f4",
+              "label": "One mechanism",
+              "text": "Each order moves payment away from the patient's hand and the single hospital's account into a channel the state runs or can see: a national route instead of a county paybill, a transfer instead of cash, a contracted insurer, a single public payer. James C. Scott described states making activity legible so that it can be counted and taxed; health payments are being made legible in the same way.",
+              "articleIds": [
+                "n-dd0e17f1f17a06",
+                "n-e355188d867958",
+                "n-0a9ea678db35c1",
+                "n-838c8e7da42820"
+              ],
+              "bookIds": [
+                "seeing-like-a-state"
+              ],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f5",
+              "label": "The other end of the channel",
+              "text": "Once the state or its contractor holds the money, the complaint of the provider or claimant is about the payer: surgeons waiting in Rio Grande do Norte, residents striking in Kashmir, a claimant refused after paying levies. Control of the channel and slowness at its far end are two halves of one arrangement, and Kenya's governors are fighting over which half they keep.",
+              "articleIds": [
+                "n-4ad0f85b5f3b83",
+                "n-75d9d56d828f5d",
+                "n-c4a88e8cababcb",
+                "n-dd0e17f1f17a06"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Different motives, one word",
+              "text": "The motives differ. Kenya's dispute is about county revenue under devolution; Jordan's ban may belong to a central bank policy against cash that covers many sectors; Himachal's choice of insurer is procurement; Medicare for All is a party platform with no near prospect of passing; Brazil's arrears follow a state budget shortfall; the ACC refusal is a no-fault insurer applying its rules. What they do not share: one is payments policy, one is a fight between levels of government, one is an election promise, and the word payment may be doing the joining. Seven headlines on one day are a thin base for a mechanism.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "PANDEMIC / DIGITAL PAYMENT / INSURANCE",
+          "text": "The pandemic made public hospitals the most visible part of the state and left many of them in debt, as governments paid for emergency care in 2020 and 2021 and then met rising wages and drug prices from 2022. In the same years cash gave way to phones: mobile money and instant transfers spread, and central banks began restricting cash for whole sectors, as Ammon reports Jordan's has now done for medical dues. Kenya replaced its National Hospital Insurance Fund with the Social Health Authority in October 2024, a national payer that the ministry's paybill order reported by Kenya Today appears to serve, though the headline does not say where the money is to go instead. In the US the enhanced subsidies under the Affordable Care Act, widened during the pandemic, were set to end after 2025, which helps explain why steps towards Medicare for All, reported by WSLS, have moved into the Democratic agenda.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "DEVOLUTION / MOBILE MONEY / PUBLIC INSURANCE",
+          "text": "M-Pesa launched in Kenya in March 2007, and within a few years a paybill number was how Kenyans paid schools, utilities and hospitals. Kenya's 2010 constitution devolved health to 47 counties from 2013, so fees collected through hospital paybills became county revenue; this is why governors, not hospital managers, are refusing the ministry's order. India took another route to central payment: the RSBY scheme of 2008 and Ayushman Bharat in 2018 paid for hospital care through insurers the state contracts, the model Himachal Pradesh now extends with the Aditya Birla Group, as The Tribune reports. The US Affordable Care Act of 2010 widened cover through private plans rather than a public one. After the 2008 crisis many states also delayed payments to providers to protect their budgets. James C. Scott's account of the state making things legible so it can count and tax them fits the push to see every payment.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "seeing-like-a-state"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "USER FEES / CONSTITUTIONS / ADJUSTMENT",
+          "text": "From the late 1980s many poor countries were advised to charge patients at the point of care. The Bamako Initiative of 1987 made clinic user fees standard across much of Africa, and Ghana's 'cash and carry' system became the example of what that meant for the poor. Ghana replaced it with a National Health Insurance Scheme in 2003, and providers there have complained of late reimbursement for much of the time since. Brazil went another way: its 1988 constitution made health a right and created the unified public system, the SUS, in 1990, which pays public and private hospitals for procedures. The delayed payments for orthopaedic surgery in Rio Grande do Norte, reported by Tribuna do Norte, are a recurring failure of that design. In each case a change of payment channel was meant to protect patients, and the risk passed to the providers waiting to be paid. The library holds none of these moments.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "WELFARE STATE / SOCIAL INSURANCE / LEVIES",
+          "text": "The postwar welfare state made the state the payer for much of health care. Britain's National Health Service opened in July 1948, paid for from taxes. The US kept insurance through employers and added Medicare and Medicaid in 1965; the Medicare for All proposals in the WSLS report would extend the 1965 programme to everyone. New Zealand built a third model: the Woodhouse Report of 1967 led to the Accident Compensation Corporation in 1974, a no-fault scheme funded by levies in return for giving up the right to sue. The tradesman in RNZ's story, refused after decades of levies, is living inside that bargain. Karl Polanyi argued that markets left alone provoke society to protect itself, and public insurance was the postwar form of that protection. The present arguments are not about whether the state pays but about how the money reaches it, who holds it on the way, and how long providers and claimants wait.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "great-transformation"
+          ]
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-dd0e17f1f17a06",
+        "n-e355188d867958",
+        "n-0a9ea678db35c1",
+        "n-838c8e7da42820",
+        "n-4ad0f85b5f3b83",
+        "n-c4a88e8cababcb",
+        "n-75d9d56d828f5d"
+      ]
+    }
+  ]
+}

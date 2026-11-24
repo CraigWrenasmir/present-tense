@@ -409,8 +409,14 @@
    "what": "Likud or a coalition partner asks an Israeli court to annul, recount or delay certification of part of the Knesset election result.",
    "by": "2026-11-23",
    "because": "If governing parties now treat a count as open to negotiation, a party that has already cast public doubt should move from statement to formal challenge.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261124T025350",
+    "asOf": "2026-11-24T02:53:50Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-24 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261102T013011-incumbents-doubt-the-count-2",
@@ -502,8 +508,14 @@
    "what": "Another AI or cloud company announces a bond, loan or share sale of $10 billion or more to pay for data centres.",
    "by": "2026-11-23",
    "because": "If the build has outgrown what profits can fund, Oracle and Meta are not the last to go to lenders, and the spending fears do not stop the raising.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261124T025350",
+    "asOf": "2026-11-24T02:53:50Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-24 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261102T232930-ai-build-needs-lenders-and-hosts-2",
@@ -1390,8 +1402,31 @@
    "what": "The US Treasury announces new sanctions on Iranian oil exports, tankers or a named Iranian company.",
    "by": "2026-11-30",
    "because": "Pressure by land and sea without strikes needs a financial part, and the join predicts it arrives while Trump still calls war unlikely.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261124T025350",
+    "asOf": "2026-11-24T02:53:50Z",
+    "how": "headline",
+    "note": "DW and The Jerusalem Post report new US sanctions on more than 20 entities and individuals in Iran's banking and 'shadow banking' network.",
+    "headlines": [
+     {
+      "id": "n-0d719102dbf65c",
+      "title": "آمریکا بیش از ۲۰ نهاد و فرد مرتبط با شبکه بانکی ایران را تحریم کرد",
+      "titleEnglish": "US sanctions more than 20 entities and individuals linked to Iran's banking network",
+      "url": "https://www.dw.com/fa-ir/%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D8%A8%DB%8C%D8%B4-%D8%A7%D8%B2-%DB%B2%DB%B0-%D9%86%D9%87%D8%A7%D8%AF-%D9%88-%D9%81%D8%B1%D8%AF-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A8%D8%A7%D9%86%DA%A9%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%B1%D8%A7-%D8%AA%D8%AD%D8%B1%DB%8C%D9%85-%DA%A9%D8%B1%D8%AF/live-80015606",
+      "publisher": "dw.com",
+      "sourceCountry": "Germany"
+     },
+     {
+      "id": "n-1c77907c1c8ecf",
+      "title": "US targets Iranian 'shadow banking' financial institutes with sanctions | The Jerusalem Post",
+      "titleEnglish": "US targets Iranian 'shadow banking' financial institutes with sanctions | The Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-915890",
+      "publisher": "The Jerusalem Post | JPost.com",
+      "sourceCountry": "Israel"
+     }
+    ]
+   }
   },
   {
    "id": "20261108T202834-presidents-pursued-through-assets-1",
@@ -2043,8 +2078,23 @@
    "what": "The Commerce Department adds Megaspeed or another Singapore- or Malaysia-based firm to the Entity List over AI chip diversion.",
    "by": "2026-12-04",
    "because": "If the scandal has become a question of which department failed to enforce, Commerce has the strongest reason to act on the very case Bessent named.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261124T025350",
+    "asOf": "2026-11-24T02:53:50Z",
+    "how": "headline",
+    "note": "ANSA reports that the US has added Megaspeed to its commercial blacklist.",
+    "headlines": [
+     {
+      "id": "n-3405a26f57010d",
+      "title": "Usa inseriscono Megaspeed nella lista nera commerciale - Nord America - Ansa.it",
+      "titleEnglish": "US adds Megaspeed to commercial blacklist - North America - Ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/23/usa-inseriscono-megaspeed-nella-lista-nera-commerciale_897c2169-5868-41f4-a546-e166ff83f25f.html",
+      "publisher": "Agenzia ANSA",
+      "sourceCountry": "Italy"
+     }
+    ]
+   }
   },
   {
    "id": "20261113T215832-chip-scandal-becomes-enforcement-dispute-2",
@@ -2870,6 +2920,118 @@
    "what": "Australia's government commits to superannuation contributions for workers under 18 regardless of the hours they work.",
    "by": "2026-12-20",
    "because": "The join predicts the last exemptions in account schemes being removed, and Australia's under-18 rule is the one being argued over this week.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261124T025350-chip-penalties-land-abroad-1",
+   "stamp": "20261124T025350",
+   "asOf": "2026-11-24T02:53:50Z",
+   "narrativeId": "chip-penalties-land-abroad",
+   "kicker": "PRESIDENCY / EXPORT CONTROL / LIABILITY",
+   "line": "The chipmaker's chief returns with the president's support, and the penalties for chips reaching China fall on firms abroad.",
+   "firmness": "plausible",
+   "what": "The US Commerce Department adds another Asian or Gulf firm to its Entity List over Nvidia chips reaching China.",
+   "by": "2026-12-21",
+   "because": "If the scandal's costs are being placed on intermediaries rather than on Nvidia, enforcement should keep naming firms abroad while Nvidia faces nothing new.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261124T025350-chip-penalties-land-abroad-2",
+   "stamp": "20261124T025350",
+   "asOf": "2026-11-24T02:53:50Z",
+   "narrativeId": "chip-penalties-land-abroad",
+   "kicker": "PRESIDENCY / EXPORT CONTROL / LIABILITY",
+   "line": "The chipmaker's chief returns with the president's support, and the penalties for chips reaching China fall on firms abroad.",
+   "firmness": "plausible",
+   "what": "A Korean, Malaysian or Indian government official says Trump's proposed tax on overseas data centres would hit projects in their country.",
+   "by": "2026-12-14",
+   "because": "The join holds that the countries hosting and passing on the chips carry the cost, so their governments should begin to answer for it in public.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261124T025350-bystanders-move-war-off-territory-1",
+   "stamp": "20261124T025350",
+   "asOf": "2026-11-24T02:53:50Z",
+   "narrativeId": "bystanders-move-war-off-territory",
+   "kicker": "NEUTRALITY / JURISDICTION / DETERRENCE",
+   "line": "States outside the war now try to move it off their territory, by suing the side that struck or towing a damaged ship away.",
+   "firmness": "plausible",
+   "what": "Malta, Egypt, Tunisia, Turkey or another Mediterranean state restricts port calls by Russian warships or sanctioned tankers, citing the Benghazi strike.",
+   "by": "2026-12-21",
+   "because": "If states near the war answer by moving it off their territory, the next to act should be those whose ports could host the next target.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261124T025350-bystanders-move-war-off-territory-2",
+   "stamp": "20261124T025350",
+   "asOf": "2026-11-24T02:53:50Z",
+   "narrativeId": "bystanders-move-war-off-territory",
+   "kicker": "NEUTRALITY / JURISDICTION / DETERRENCE",
+   "line": "States outside the war now try to move it off their territory, by suing the side that struck or towing a damaged ship away.",
+   "firmness": "plausible",
+   "what": "Libya formally files its case against Ukraine at the International Court of Justice or asks the UN Security Council to meet on the Benghazi strike.",
+   "by": "2026-12-14",
+   "because": "The join says bystanders turn to legal and procedural answers rather than force, so the announced suit should be lodged rather than dropped.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261124T025350-cheaper-fuel-on-a-contested-pause-1",
+   "stamp": "20261124T025350",
+   "asOf": "2026-11-24T02:53:50Z",
+   "narrativeId": "cheaper-fuel-on-a-contested-pause",
+   "kicker": "OIL / MEDIATION / ESCALATION",
+   "line": "Cheaper fuel depends on a pause in the Iran war that Israel is openly lobbying Washington to end.",
+   "firmness": "plausible",
+   "what": "A new round of US-Iran talks mediated by Qatar or Oman is reported with a date or a venue.",
+   "by": "2026-12-14",
+   "because": "If markets are right to price the pause as holding, the mediation Washington praised this week should produce a scheduled round despite the Israeli pressure.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261124T025350-cheaper-fuel-on-a-contested-pause-2",
+   "stamp": "20261124T025350",
+   "asOf": "2026-11-24T02:53:50Z",
+   "narrativeId": "cheaper-fuel-on-a-contested-pause",
+   "kicker": "OIL / MEDIATION / ESCALATION",
+   "line": "Cheaper fuel depends on a pause in the Iran war that Israel is openly lobbying Washington to end.",
+   "firmness": "plausible",
+   "what": "US or European fuel prices are reported at their lowest since the Iran war began.",
+   "by": "2026-12-10",
+   "because": "The join says prices are following the pause, so as long as no strike comes they should keep falling past this month's level.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261124T025350-health-payments-routed-through-state-1",
+   "stamp": "20261124T025350",
+   "asOf": "2026-11-24T02:53:50Z",
+   "narrativeId": "health-payments-routed-through-state",
+   "kicker": "CASH / INSURANCE / ARREARS",
+   "line": "Governments want payments for health care to pass through channels they control, while they pay doctors and settle claims slowly.",
+   "firmness": "tentative",
+   "what": "A second government in Africa or Asia orders public hospitals or clinics to take payment only through a state platform or by electronic means.",
+   "by": "2026-12-21",
+   "because": "If the shared mechanism is the state drawing health payments into channels it controls, Kenya and Jordan should not stay the only orders of this kind.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261124T025350-health-payments-routed-through-state-2",
+   "stamp": "20261124T025350",
+   "asOf": "2026-11-24T02:53:50Z",
+   "narrativeId": "health-payments-routed-through-state",
+   "kicker": "CASH / INSURANCE / ARREARS",
+   "line": "Governments want payments for health care to pass through channels they control, while they pay doctors and settle claims slowly.",
+   "firmness": "tentative",
+   "what": "A hospital or doctors' association outside Brazil publicly complains of late payment by a state health insurer or public payer.",
+   "by": "2026-12-21",
+   "because": "The join treats slow payment as the other half of central control, so arrears complaints should appear wherever the state or its insurer holds the money.",
    "status": "open",
    "resolved": null
   }
