@@ -1,6 +1,69 @@
 {
  "editions": [
   {
+   "stamp": "20261125T004245",
+   "file": "data/narratives/20261125T004245.json",
+   "newsGeneratedAt": "2026-11-25T00:42:45Z",
+   "generatedAt": "2026-11-25T00:51:45Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-10",
+   "narratives": [
+    {
+     "id": "trade-deals-among-middle-powers",
+     "kicker": "HEDGING / MARKET ACCESS / PROTECTION",
+     "line": "For a week, governments outside the three powers have made deals without Washington, whose tariffs hit allies as well as rivals.",
+     "events": 6,
+     "headlines": 16,
+     "countries": 11,
+     "continues": "",
+     "resumes": "20261118T225647/trade-deals-while-powers-bargain",
+     "builds": "trade-deals-among-middle-powers",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "favour-follows-the-president",
+     "kicker": "PATRONAGE / ENFORCEMENT / SELF-INTEREST",
+     "line": "A US firm's treatment by regulators now depends partly on its closeness to the president, who has money in some of them.",
+     "events": 6,
+     "headlines": 12,
+     "countries": 9,
+     "continues": "chip-penalties-land-abroad",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "civilian-places-readied-for-strikes",
+     "kicker": "RANGE / CIVIL DEFENCE / DISPERSAL",
+     "line": "Drones now reach far behind any front, so civilian buildings and roads in countries at peace are being prepared for strikes.",
+     "events": 6,
+     "headlines": 12,
+     "countries": 11,
+     "continues": "",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "spying-routed-through-firms",
+     "kicker": "INTELLIGENCE / CONTRACTORS / LIABILITY",
+     "line": "States spy on and sabotage each other through private firms, and governments now leave the firms to defend themselves.",
+     "events": 6,
+     "headlines": 10,
+     "countries": 9,
+     "continues": "",
+     "resumes": "",
+     "builds": "",
+     "firmness": "tentative",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261124T025350",
    "file": "data/narratives/20261124T025350.json",
    "newsGeneratedAt": "2026-11-24T02:53:50Z",

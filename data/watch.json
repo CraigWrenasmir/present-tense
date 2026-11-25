@@ -720,8 +720,14 @@
    "what": "An investigator, retailer or supplier says the European supermarket attacks entered through a refrigeration or maintenance contractor's remote access.",
    "by": "2026-11-24",
    "because": "The join holds that the way in is a party the victim trusts, so the supermarket attacks should trace to a supplier as the airline and city breaches did.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261125T004245",
+    "asOf": "2026-11-25T00:42:45Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-25 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261103T214619-breaches-start-with-suppliers-and-staff-2",
@@ -1013,8 +1019,23 @@
    "what": "The Nasdaq is reported to have recovered at least half of its post-election fall.",
    "by": "2026-11-27",
    "because": "The join says the fall priced a federal moratorium that cannot become law while Trump can veto it, so the national part of the fall should reverse while local limits remain.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261125T004245",
+    "asOf": "2026-11-25T00:42:45Z",
+    "how": "headline",
+    "note": "The Economic Times reports the S&P 500 and Nasdaq falling back after reaching historic highs, so the Nasdaq had more than recovered its post-election fall.",
+    "headlines": [
+     {
+      "id": "n-09da2c23bb7dfc",
+      "title": "Why are US Stock Market indexes S&P 500, Nasdaq down after historic highs?",
+      "titleEnglish": "Why are US Stock Market indexes S&P 500, Nasdaq down after historic highs?",
+      "url": "https://economictimes.indiatimes.com/world/us/why-are-us-stock-market-indexes-sp-500-nasdaq-down-after-historic-highs/articleshow/136144084.cms",
+      "publisher": "The Economic Times",
+      "sourceCountry": "India"
+     }
+    ]
+   }
   },
   {
    "id": "20261105T215902-war-oil-splits-rate-setters-1",
@@ -1560,8 +1581,14 @@
    "what": "Shares of TSMC, SK Hynix or another Nvidia supplier fall 5% or more in a day, with Nvidia's troubles named as the cause.",
    "by": "2026-11-24",
    "because": "Concentration means a fall at Nvidia should reach the firms whose revenue depends on it, which a stand-alone celebrity scandal would not.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261125T004245",
+    "asOf": "2026-11-25T00:42:45Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-25 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261110T001511-oil-prices-follow-talk-not-the-gulf-1",
@@ -2205,8 +2232,14 @@
    "what": "A European head of government or the EU says Europe's security or NATO membership cannot be settled at the 19 November meeting without Europeans.",
    "by": "2026-11-24",
    "because": "If NATO's terms are being raised in a format Europe does not lead, European governments should object to the format itself and not only to Russia's demands.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261125T004245",
+    "asOf": "2026-11-25T00:42:45Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-25 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261114T204311-europe-security-bargained-elsewhere-2",
@@ -3032,6 +3065,118 @@
    "what": "A hospital or doctors' association outside Brazil publicly complains of late payment by a state health insurer or public payer.",
    "by": "2026-12-21",
    "because": "The join treats slow payment as the other half of central control, so arrears complaints should appear wherever the state or its insurer holds the money.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261125T004245-trade-deals-among-middle-powers-1",
+   "stamp": "20261125T004245",
+   "asOf": "2026-11-25T00:42:45Z",
+   "narrativeId": "trade-deals-among-middle-powers",
+   "kicker": "HEDGING / MARKET ACCESS / PROTECTION",
+   "line": "For a week, governments outside the three powers have made deals without Washington, whose tariffs hit allies as well as rivals.",
+   "firmness": "plausible",
+   "what": "A government outside the US, China and Russia names the new US tariffs as a reason when it signs or speeds up a trade deal.",
+   "by": "2026-12-16",
+   "because": "If the week's deals are an answer to Washington rather than separate routine diplomacy, the tariff list should start appearing in the reasons governments give for them.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261125T004245-trade-deals-among-middle-powers-2",
+   "stamp": "20261125T004245",
+   "asOf": "2026-11-25T00:42:45Z",
+   "narrativeId": "trade-deals-among-middle-powers",
+   "kicker": "HEDGING / MARKET ACCESS / PROTECTION",
+   "line": "For a week, governments outside the three powers have made deals without Washington, whose tariffs hit allies as well as rivals.",
+   "firmness": "plausible",
+   "what": "Canada concludes trade talks with India, or signs a trade or investment agreement with Qatar or another Gulf state.",
+   "by": "2026-12-23",
+   "because": "Canada is both a likely target of US tariffs and a party to two of this week's talks, so if the deals are hedging it should be among the first to close one.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261125T004245-favour-follows-the-president-1",
+   "stamp": "20261125T004245",
+   "asOf": "2026-11-25T00:42:45Z",
+   "narrativeId": "favour-follows-the-president",
+   "kicker": "PATRONAGE / ENFORCEMENT / SELF-INTEREST",
+   "line": "A US firm's treatment by regulators now depends partly on its closeness to the president, who has money in some of them.",
+   "firmness": "plausible",
+   "what": "A US agency closes, settles or narrows its investigation of Nvidia with no charge against the company or its chief.",
+   "by": "2026-12-23",
+   "because": "If treatment follows closeness to the president, the investigation should end gently soon after he and the attorney general publicly backed the firm; ordinary enforcement would run on.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261125T004245-favour-follows-the-president-2",
+   "stamp": "20261125T004245",
+   "asOf": "2026-11-25T00:42:45Z",
+   "narrativeId": "favour-follows-the-president",
+   "kicker": "PATRONAGE / ENFORCEMENT / SELF-INTEREST",
+   "line": "A US firm's treatment by regulators now depends partly on its closeness to the president, who has money in some of them.",
+   "firmness": "plausible",
+   "what": "Reports of Huang's 1 December congressional hearing say lawmakers asked about Trump's personal gain from Nvidia's shares.",
+   "by": "2026-12-04",
+   "because": "If the president's own money is part of the story, his opponents should raise it at the first public hearing rather than ask only about chips reaching China.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261125T004245-civilian-places-readied-for-strikes-1",
+   "stamp": "20261125T004245",
+   "asOf": "2026-11-25T00:42:45Z",
+   "narrativeId": "civilian-places-readied-for-strikes",
+   "kicker": "RANGE / CIVIL DEFENCE / DISPERSAL",
+   "line": "Drones now reach far behind any front, so civilian buildings and roads in countries at peace are being prepared for strikes.",
+   "firmness": "plausible",
+   "what": "A European government outside Ukraine announces money or a rule for shelters in hospitals, schools or new housing and names drones as the reason.",
+   "by": "2026-12-20",
+   "because": "If range is the common cause, the planning NRK describes for hospitals should turn into civilian rules in a country not at war, not only into defence spending.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261125T004245-civilian-places-readied-for-strikes-2",
+   "stamp": "20261125T004245",
+   "asOf": "2026-11-25T00:42:45Z",
+   "narrativeId": "civilian-places-readied-for-strikes",
+   "kicker": "RANGE / CIVIL DEFENCE / DISPERSAL",
+   "line": "Drones now reach far behind any front, so civilian buildings and roads in countries at peace are being prepared for strikes.",
+   "firmness": "plausible",
+   "what": "A Gulf government orders new protection, evacuation drills or access limits for high-rise office towers after the Riyadh attacks.",
+   "by": "2026-12-16",
+   "because": "If strikes are now aimed at office districts rather than oil plants, the answer should move into the buildings themselves, as it is in Norway and Finland.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261125T004245-spying-routed-through-firms-1",
+   "stamp": "20261125T004245",
+   "asOf": "2026-11-25T00:42:45Z",
+   "narrativeId": "spying-routed-through-firms",
+   "kicker": "INTELLIGENCE / CONTRACTORS / LIABILITY",
+   "line": "States spy on and sabotage each other through private firms, and governments now leave the firms to defend themselves.",
+   "firmness": "tentative",
+   "what": "A European government publicly names a Russian, Iranian or Chinese service as behind an attack on a named private company.",
+   "by": "2026-12-20",
+   "because": "If states are now pursuing each other through firms, the attributions that follow should name companies as the victims, not only ministries or agencies.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261125T004245-spying-routed-through-firms-2",
+   "stamp": "20261125T004245",
+   "asOf": "2026-11-25T00:42:45Z",
+   "narrativeId": "spying-routed-through-firms",
+   "kicker": "INTELLIGENCE / CONTRACTORS / LIABILITY",
+   "line": "States spy on and sabotage each other through private firms, and governments now leave the firms to defend themselves.",
+   "firmness": "tentative",
+   "what": "Finland's security police or prosecutors name a suspect or a foreign state in the Laukaa gunpowder factory espionage case.",
+   "by": "2026-12-23",
+   "because": "If the Laukaa case belongs to the same pattern as the ships and the airline, it should turn out to involve a foreign service rather than an ordinary crime.",
    "status": "open",
    "resolved": null
   }

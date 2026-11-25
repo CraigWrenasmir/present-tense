@@ -1,32 +1,31 @@
 {
   "schemaVersion": 1,
-  "editionStamp": "20261124T025350",
-  "asOf": "2026-11-24T02:53:50Z",
-  "generatedAt": "2026-11-24T03:06:31Z",
+  "editionStamp": "20261125T004245",
+  "asOf": "2026-11-25T00:42:45Z",
+  "generatedAt": "2026-11-25T00:56:01Z",
   "model": "claude-opus-5-5",
   "promptVersion": "chronicle-2",
   "usage": {
-    "input": 53827,
-    "output": 31434,
+    "input": 54548,
+    "output": 34098,
     "tier": "standard"
   },
-  "previousVersion": "20261122T214457",
+  "previousVersion": "20261124T025350",
   "notes": [
     "A running account of where things stand by these headlines, revised after each edition rather than added to. Every version is kept.",
     "Written by the model from the narratives, not from the headlines. It is a reading, not a record."
   ],
-  "standing": "By headlines of 24 November, US petrol prices have fallen 66 cents in a month, the biggest drop since 2008, gold is at its lowest this year and Israel has let flights resume, while Washington added sanctions on more than 20 entities in Iran's banking network, a former Mossad chief pressed for an attack on Iran and Qatar's emir warned the region cannot take another round. Libya says it will sue Ukraine at the International Court of Justice over the Russian warship sunk at Benghazi, Finland had the drone-hit Sparta II towed out of its economic zone, and a Russian drone spent minutes over Poland, which is receiving a NATO radar aircraft. Nvidia's board unanimously reinstated Jensen Huang eleven days after he resigned, Trump says he made the deal, the US added Megaspeed to its commercial blacklist and Chuck Schumer wants Trump's role investigated. Kenya's governors have refused a health ministry order to stop public hospitals taking payment through their own paybill numbers, and Jordan's central bank has banned cash payment to medical providers. From 21 and 22 November stand COP31's collapse in Turkey, Anthropic's loss of 147 trillion won in market value, bitcoin's two-year low and the breaches of the FBI's crime records and the European Commission.",
+  "standing": "By headlines of 25 November, Trump is reported to have new tariffs ready for China, Europe and fourteen more countries, while the EU and Indonesia signed a trade agreement on 21 November, Iraq and Egypt dropped entry visas and Jordan signed agreements with Uzbekistan. The US attorney general called Nvidia a good corporate citizen while it is under investigation, outlets in France, New Zealand and Greece reported what Trump gains from Jensen Huang's return, a Kushner-backed bank won a US charter, GEO sold the administration a jail for $453 million and a US jury convicted Huawei of trade secret theft. A Houthi attack hit the tallest tower in Riyadh's financial district for the second time in a week, a drone entered Polish airspace, Iraq ordered military units out of its cities and Norway's NRK reports that hospitals now need bomb shelters. The US is investigating Iranian ties to as many as 50 hacked commercial vessels, Finland suspects espionage at the Laukaa gunpowder factory, and the CIA and the US intelligence director's office reported a breach after the FBI's. From 24 November stand US petrol 66 cents cheaper in a month with the Iran war paused, Libya's planned suit against Ukraine at the International Court of Justice, and Kenya's governors refusing to give up their hospitals' own paybill numbers.",
   "moved": [
-    "The Iran war thread was revived on 24 November after nine editions without a narrative, and it turned: US petrol fell 66 cents in a month, Israel let flights resume and Qatar mediated, while Israeli voices pressed for a strike. New US sanctions on Iran's banking network kept an 8 November expectation; the Chronicle's 21 November reading of escalation is withdrawn.",
-    "The thread on Europe's security moved on 24 November from naming the weapon to legal and practical steps: Libya says it will sue Ukraine at the ICJ over Benghazi, Finland had Sparta II towed out of its zone, Poland is receiving a NATO radar aircraft after a Russian drone crossed, and Seoul corrected a report of a Russian airspace violation.",
-    "The Nvidia thread was resumed after five editions: Huang was reinstated with Trump claiming the deal, and the US blacklisted Megaspeed, keeping a 13 November expectation, so the costs of chips reaching China were placed on firms and hosts abroad.",
-    "A thread on health payments drawn into state channels began on 24 November. The same day two older expectations failed with nothing reported: a Likud court challenge to part of the Knesset result, and another AI or cloud company raising $10 billion or more for data centres."
+    "The trade thread was resumed on 25 November after five editions without a narrative, and its join moved: the deals since 21 November, EU and Indonesia, Iraq and Egypt, Jordan and Uzbekistan, Qatar and Canada, are now read as an answer to US tariffs reported ready for China, Europe and fourteen more countries, not to the three-power meeting.",
+    "The Nvidia thread widened on 25 November from penalties on firms abroad to favour at home: the US attorney general praised Nvidia during its investigation, outlets put a figure on Trump's gain from Huang's return, and a Kushner-backed bank charter, a $453 million jail sale and a medal for Giuliani were joined to it.",
+    "Two threads began from narratives that continue nothing: civilian buildings and roads readied for drone strikes, from Norwegian hospitals to a Finnish motorway and Riyadh's financial district, and states spying and sabotaging through private firms, from 50 hacked vessels to a Finnish gunpowder plant.",
+    "On 25 November the Europe security thread's first expectation, that a European leader would say Europe's security could not be settled at the 19 November meeting without Europeans, failed with nothing reported, as did a 10 November expectation of an Nvidia supplier falling 5% on Nvidia's troubles; the Economic Times report of US indexes falling back after historic highs kept a 5 November Nasdaq expectation and sits poorly beside the 21 November report of the Nasdaq erasing its year's gains."
   ],
   "silent": [
-    "The thread on states underwriting data centres has had no narrative since 20 November; Trump's threatened tax on data centres built abroad came again on 24 November inside the Nvidia thread, so this looks like the editions' division more than the subject ending.",
-    "The thread on young protesters has had no narrative since 20 November, and its expectation of a German ban citing France failed on 22 November; its student protest expectations run to mid-December, so the silence may be the sample.",
-    "The thread on strikes over pay owed outside Europe has had no narrative since 19 November; on 24 November doctors in Jammu and Kashmir striking over stipends came in the new health payments thread, so part of its ground is still in the headlines.",
-    "The thread on soldiers against gangs and smugglers has had no narrative since 19 November; its Colombian and OAS expectations run to 10 and 17 December, so the silence is short."
+    "The thread on breaches of records people must give the state has had no narrative since 21 November; on 25 November the CIA and the US intelligence director's office reported a breach in the new thread on spying through firms, so the subject is still in the headlines and the silence looks like the editions' division.",
+    "The thread on gold, bitcoin and tech shares falling together has had no narrative since 21 November, and on 25 November the Economic Times reported US indexes falling back after historic highs, which may mean that week's fall has passed rather than the sample missing it.",
+    "The thread on power projects placed on water already promised has had no narrative since 21 November and nothing in the last two editions touches it; it was tentative and built from a notebook subject, so the silence is likely the sample."
   ],
   "threads": [
     {
@@ -210,7 +209,7 @@
           "id": "ai-found-flaws-patched-into-outages"
         }
       ],
-      "text": "Begun on 29 October with Samsung and CHPT profits on data centre demand, it ran through AI-led US growth, Taiwan's state buyers, borrowing and the Nvidia case to 12 November. From 12 November it followed shared systems stopping: a Microsoft outage at British councils and Australia's federal police, the FAA's nationwide halt, the fallback left to households and faults hard to tell from attacks. On 18 November South Korea's Digital Daily blamed patches for AI-found flaws for failures at the NSA, in finance and in aviation. No narrative has carried it since. Two of its early expectations failed with nothing reported: further buying by Taiwan's stabilisation fund in November, on 22 November, and another AI or cloud company raising $10 billion or more for data centres, on 24 November. Breaches of public records have had their own thread since 21 November.",
+      "text": "Begun on 29 October with Samsung and CHPT profits on data centre demand, it ran through AI-led US growth, Taiwan's state buyers, borrowing and the Nvidia case to 12 November, then followed shared systems stopping: a Microsoft outage at British councils and Australia's federal police, the FAA's nationwide halt, the fallback left to households and faults hard to tell from attacks. On 18 November South Korea's Digital Daily blamed patches for AI-found flaws for failures at the NSA, in finance and in aviation. No narrative has carried it since. Of its early expectations, further buying by Taiwan's stabilisation fund failed on 22 November, a $10 billion data centre raise on 24 November and a 5% fall in an Nvidia supplier blamed on Nvidia on 25 November; on 25 November the Economic Times reported the Nasdaq falling back from historic highs, keeping a 5 November expectation of its recovery.",
       "direction": "It has moved from profit and borrowing to public services stopping when one system fails, to who holds the backup, to telling a fault from an attack, and by 18 November to patches for AI-found flaws named as a cause."
     },
     {
@@ -237,31 +236,8 @@
           "id": "ai-listings-draw-from-other-assets"
         }
       ],
-      "text": "Begun on 10 November, when TSMC was reported investing NT$32 billion in OpenAI and Anthropic. Its expectation that Anthropic would cut or delay its listing failed on 17 November. On 18 November Anthropic priced at $83 a share as the ECB compared the AI build to subprime, and on 19 November it passed $3 trillion on its first day. After two editions without a narrative, while the Nasdaq's fall came in other threads, it was resumed on 22 November, marked tentative: Anthropic lost 147 trillion won of market value in one day, Kommersant tied bitcoin's two-year low to the share offering, Musk warned of an AI funding shortage next year and Oracle said it has the funds for its OpenAI contract. Its case against says the 21 November reading of high rates fits the same headlines.",
+      "text": "Begun on 10 November, when TSMC was reported investing NT$32 billion in OpenAI and Anthropic. Its expectation that Anthropic would cut or delay its listing failed on 17 November. On 18 November Anthropic priced at $83 a share as the ECB compared the AI build to subprime, and on 19 November it passed $3 trillion on its first day. After two editions without a narrative, while the Nasdaq's fall came in other threads, it was resumed on 22 November, marked tentative: Anthropic lost 147 trillion won of market value in one day, Kommersant tied bitcoin's two-year low to the share offering, Musk warned of an AI funding shortage next year and Oracle said it has the funds for its OpenAI contract. Its case against says the 21 November reading of high rates fits the same headlines. No narrative carried it on 24 or 25 November.",
       "direction": "It has moved from chip suppliers funding the AI labs, to the labs selling shares to the public at record prices, to the listing's own fall and the claim that its size draws money from other risky assets."
-    },
-    {
-      "key": "chinese-goods-merge-or-tax",
-      "label": "Chinese makers' gains and others' answers",
-      "status": "silent",
-      "since": "20261103T214619",
-      "lastSeen": "20261108T202834",
-      "narratives": [
-        {
-          "stamp": "20261103T214619",
-          "id": "chinese-goods-push-others-to-merge-or-tax"
-        },
-        {
-          "stamp": "20261107T201404",
-          "id": "chinese-makers-grow-as-others-retreat"
-        },
-        {
-          "stamp": "20261108T202834",
-          "id": "chinese-makers-sell-at-both-ends"
-        }
-      ],
-      "text": "Begun on 3 November: SCG's chief executive called China's cheap exports a fact of life, Thailand raised taxes on imported electric cars, and Tata Motors and Iveco formed a group. It was revived on 7 November, by judgment, when Musk said Tesla would stop making the Cybertruck and BYD's Yangwang opened pre-orders for a 2.08 million yuan car. On 8 November its own edition carried it on, with Tesla suspending orders for the Cybertruck's entry version, NIO claiming a car a minute and Yangwang launching in Abu Dhabi. On 10 November, with no narrative, The Independent reported Musk axing the Cybertruck with refunds, keeping the 7 November expectation of another US carmaker cutting an electric pickup, though by Tesla itself. No narrative has carried it since 8 November, and no headline here reports a sale lost to a Chinese maker.",
-      "direction": "It moved from producers elsewhere merging or taxing to meet Chinese goods, to producers elsewhere retreating, and by 8 November to Chinese makers selling abroad at both the cheap and the luxury end."
     },
     {
       "key": "soldiers-do-police-work",
@@ -281,40 +257,6 @@
       ],
       "text": "Begun on 5 November, marked tentative: Indonesia's troops in Jakarta, Pakistan's army for Punjab by-elections, a Bangladeshi soldier killed raiding traffickers at Teknaf and a French bill widening when police may fire. After eleven editions without a narrative it was resumed on 19 November as crime fought as war: Haiti's forces fought gangs with Salvadoran troops in the country, Colombia's president counted a tenth bombing and weighed asking Congress for US troops, fishermen sued Washington over a drone strike at sea and the OAS called a session on organised crime. On 20 November France's parliament definitively adopted the law presuming police use of weapons lawful, keeping the 5 November expectation, in the youth protest thread. Its case against says the military role in each is decades old. No narrative carried it on 20, 21 or 22 November, so it is silent.",
       "direction": "It has moved from soldiers keeping order on home streets to armies, aircraft and foreign troops fighting gangs and smugglers, with results counted as deaths and strikes."
-    },
-    {
-      "key": "failed-banks-and-office",
-      "label": "Failed banks and money cases reaching office",
-      "status": "silent",
-      "since": "20261106T212911",
-      "lastSeen": "20261108T202834",
-      "narratives": [
-        {
-          "stamp": "20261106T212911",
-          "id": "failed-banks-reach-the-top"
-        },
-        {
-          "stamp": "20261108T202834",
-          "id": "presidents-pursued-through-assets"
-        }
-      ],
-      "text": "Begun on 6 November. Paraguay's Congress resumed impeachment of President Santiago Peña over the Ueno bank crisis, Daniel Vorcaro's phone recorded 316 interactions with Justice Alexandre de Moraes in the Banco Master case, and UMNO's move to pay Najib Razak's RM50 million fine split Malaysia's coalition. On 8 November an unlinked narrative, placed here by the Chronicle, reported a court freezing the assets of Peña, described as former president, and his arrest over an estimated $809 million Ueno loss, with the Philippine vice-president answering wealth charges and opponents in Armenia and Egypt facing courts. No narrative has carried it since 8 November. On 12 November Sara Duterte's impeachment trial appeared in the new thread on leaders' children.",
-      "direction": "It moved from failed banks reaching people in office to courts reaching office-holders through money in general, with Peña going from impeachment proceedings to arrest in two days."
-    },
-    {
-      "key": "work-abroad-rationed",
-      "label": "Routes to work abroad rationed and deadly",
-      "status": "silent",
-      "since": "20261108T202834",
-      "lastSeen": "20261108T202834",
-      "narratives": [
-        {
-          "stamp": "20261108T202834",
-          "id": "work-abroad-rationed"
-        }
-      ],
-      "text": "Begun on 8 November and marked tentative by its own edition. Off Lompoul in northern Senegal a pirogue capsized and at least 21 people died. In Bangladesh a lottery shortlisted 300 applicants for 112 fee-free jobs in Malaysia. A testimony in Portugal's SAPO describes shared rooms and low pay ending a migrant's stay, and in West Bengal Suvendu Adhikari promised to deport every 'Bangladeshi infiltrator'. The join is that a person's attempt to work abroad is rationed by a draw, the sea, wages or expulsion. Its case against says the lottery may be meant to cut out recruitment agents, the shipwreck's destination is not given, and four of seven headlines come from bdnews24. No narrative has carried it since 8 November, so it is silent.",
-      "direction": ""
     },
     {
       "key": "gas-sought-beside-electrification",
@@ -397,10 +339,10 @@
     },
     {
       "key": "nvidia-chips-reaching-china",
-      "label": "Nvidia scandal as a chip export enforcement dispute",
+      "label": "Nvidia case: chip exports and the president's favour",
       "status": "live",
       "since": "20261113T215832",
-      "lastSeen": "20261124T025350",
+      "lastSeen": "20261125T004245",
       "narratives": [
         {
           "stamp": "20261113T215832",
@@ -413,10 +355,14 @@
         {
           "stamp": "20261124T025350",
           "id": "chip-penalties-land-abroad"
+        },
+        {
+          "stamp": "20261125T004245",
+          "id": "favour-follows-the-president"
         }
       ],
-      "text": "Begun on 13 November with a narrative marked firm, though the Nvidia case ran in the AI spending thread from 10 to 12 November: Bessent blamed Lutnick for Megaspeed not being blacklisted. On 17 November Nvidia reported revenue up 103%, its board refused Huang's return and Washington proposed extending chip controls to Southeast Asia. After five editions without a narrative it was resumed on 24 November, marked plausible: the board unanimously reinstated Huang eleven days after he resigned, Trump says he made the deal, shares rose from Frankfurt to Taipei and Schumer wants Trump's role investigated. The US added Megaspeed to its commercial blacklist, keeping the 13 November expectation, and Trump warned of a tax on data centres built abroad. Its case against says the decisions come from different bodies and only this reading puts them on one ledger.",
-      "direction": "It has moved from a dispute between US departments over who let chips reach China, to duties on transit states, to Huang's return with the president's backing while penalties fall on a distributor and on data centre hosts abroad."
+      "text": "Begun on 13 November, marked firm, though the Nvidia case ran in the AI spending thread from 10 to 12 November: Bessent blamed Lutnick for Megaspeed not being blacklisted. On 17 November Nvidia's board refused Huang's return and Washington proposed extending chip controls to Southeast Asia. Resumed on 24 November after five editions: the board reinstated Huang with Trump claiming the deal, and Megaspeed was blacklisted, keeping the 13 November expectation. On 25 November, marked plausible, it widened from chips to favour: Hankyoreh quoted the attorney general calling Nvidia a good corporate citizen during the investigation, outlets in France, New Zealand and Greece reported Trump's gain from Huang's return, a Kushner-backed bank won a charter, GEO sold the administration a jail for $453 million after valuing it at $67 million and Giuliani is to get the Medal of Freedom. Its case against says these share an actor, not a mechanism.",
+      "direction": "It has moved from a dispute between US departments over who let chips reach China, to penalties on firms and hosts abroad, to the firm's treatment at home read through its chief's closeness to the president."
     },
     {
       "key": "strikes-alongside-talks",
@@ -469,7 +415,7 @@
           "id": "bystanders-move-war-off-territory"
         }
       ],
-      "text": "Begun on 14 November, when Zelensky said Washington floated Ukraine giving up Donbas for NATO membership. On 19 November the Shenzhen declaration, by Observador's account, left out both wars; on 20 November Estonia set 1 December to close its Russian crossings; on 21 November drones disabled Sparta II in the Gulf of Finland; on 22 November a Russian warship was sunk at Benghazi and Polish prosecutors said Russian cruise missiles fell in Poland. On 24 November, marked plausible, the answers moved past naming the weapon: Libya says it will sue Ukraine at the International Court of Justice over Benghazi, Finland had Sparta II towed out of its economic zone, a Russian drone spent minutes over Poland, which is receiving a NATO radar aircraft, and Seoul scrambled jets then said Russia had not violated its airspace. Its case against says Benghazi is held by Moscow's allies.",
+      "text": "Begun on 14 November, when Zelensky said Washington floated Ukraine giving up Donbas for NATO membership. On 19 November the Shenzhen declaration, by Observador's account, left out both wars; on 20 November Estonia set 1 December to close its Russian crossings; on 21 November drones disabled Sparta II; on 22 November a Russian warship was sunk at Benghazi and Polish prosecutors said Russian cruise missiles fell in Poland. On 24 November Libya said it will sue Ukraine at the International Court of Justice, Finland had Sparta II towed out of its zone and Poland is receiving a NATO radar aircraft. On 25 November its first expectation, that a European leader would say Europe's security could not be settled at the 19 November meeting without Europeans, failed with nothing reported, which leaves its opening frame thinner; a drone over Poland came that day in a new thread.",
       "direction": "It has moved from Europe's security bargained in a format Europe does not lead, through allies fortifying and attacks on ships, to countries where attacks land answering first by naming the weapon and by 24 November by lawsuits, tows and radar aircraft."
     },
     {
@@ -533,23 +479,27 @@
           "id": "interceptors-used-faster-than-made"
         }
       ],
-      "text": "Begun on 30 October with a narrative the Chronicle had not given a thread: cheap drones had made defence a matter of quantity again, so states were financing arms factories and widening conscription. After seventeen editions without a narrative it was resumed on 18 November, marked plausible, from the defending side: an Egyptian military expert told Al-Watan that closing the gap in US Patriot production will take years, the Jerusalem Post reported a rayon shortage threatening that production, Iran struck US assets in Kuwait, Bahrain and a UAE tanker, and a coalition struck the Houthis. Its case against says the Patriot shortfall has been discussed since 2023. No narrative carried it from 19 to 22 November, so it is silent; on 22 November a Polish general said a pilot ordered to shoot down a Russian missile turned back, in the thread on Europe's security.",
+      "text": "Begun on 30 October with a narrative the Chronicle had not given a thread: cheap drones had made defence a matter of quantity again, so states were financing arms factories and widening conscription. After seventeen editions without a narrative it was resumed on 18 November, marked plausible, from the defending side: an Egyptian military expert told Al-Watan that closing the gap in US Patriot production will take years, the Jerusalem Post reported a rayon shortage threatening that production, Iran struck US assets in Kuwait, Bahrain and a UAE tanker, and a coalition struck the Houthis. Its case against says the Patriot shortfall has been discussed since 2023. No narrative has carried it since 18 November, so it is silent; on 25 November drone range came in a new thread on civilian places readied for strikes.",
       "direction": "It has moved from cheap drones driving arms production and conscription to interceptor stocks that factories cannot refill quickly."
     },
     {
       "key": "trade-deals-beside-three-power-talks",
-      "label": "Others' trade deals while three powers meet",
-      "status": "silent",
+      "label": "Middle powers' trade deals as US tariffs loom",
+      "status": "live",
       "since": "20261118T225647",
-      "lastSeen": "20261118T225647",
+      "lastSeen": "20261125T004245",
       "narratives": [
         {
           "stamp": "20261118T225647",
           "id": "trade-deals-while-powers-bargain"
+        },
+        {
+          "stamp": "20261125T004245",
+          "id": "trade-deals-among-middle-powers"
         }
       ],
-      "text": "Begun on 18 November with a narrative marked plausible that continues nothing, as Trump, Xi and Putin were reported meeting in China. EU governments approved signing their trade agreement with Indonesia, Mark Carney bet on Asia-Pacific trade to reduce Canada's dependencies, Vietnam's leader called for a Free Trade Area of the Asia-Pacific, Xi asked Chile to deepen ties, Keiko Fujimori pitched Peru's Chancay port to Chinese investors and Egypt signed an industrial deal with India. The join is governments outside the meeting fixing their trade without waiting on it. Its case against says APEC leaders talk trade every November. On 19 November the meeting ended with a declaration that, by Observador's account, left out both wars, which weakens the picture of three powers bargaining over them. No narrative has carried trade since, so it is silent.",
-      "direction": ""
+      "text": "Begun on 18 November, marked plausible, as Trump, Xi and Putin were reported meeting in China: EU governments approved signing their Indonesia agreement, Carney bet on Asia-Pacific trade and Vietnam, Chile, Peru and Egypt pressed their own deals, read as governments not waiting on the meeting. After five editions without a narrative it was resumed on 25 November, marked plausible and built from a subject the site's notebook had kept for a week, so the story is older than that narrative: the EU and Indonesia signed on 21 November, India held talks with Canada and Belarus, Iraq and Egypt dropped entry visas, Jordan signed with Uzbekistan and Qatar talked trade with Canada, while outlets in Italy, Israel and Qatar reported Trump readying tariffs on China, Europe and fourteen more countries. Its case against says the deals predate any tariff list and no government names the tariffs.",
+      "direction": "It has moved from deals made beside a three-power meeting to deals read as the answer to US tariffs, though no government is reported naming the tariffs as its reason."
     },
     {
       "key": "pay-owed-strikes-outside-europe",
@@ -607,7 +557,7 @@
     {
       "key": "personal-data-breaches",
       "label": "Breaches of records people must give the state",
-      "status": "live",
+      "status": "silent",
       "since": "20261121T213836",
       "lastSeen": "20261121T213836",
       "narratives": [
@@ -616,13 +566,13 @@
           "id": "personal-data-breaches"
         }
       ],
-      "text": "Begun on 21 November with a narrative marked firm, built from a subject the site's notebook had kept for four days, so the story is older than its first narrative. Since 18 November attackers reached Transport for London's photocard records, the European Commission's servers through an AI-assisted attack, the FBI's National Crime Information Center database and the US Agriculture Department, beside leaks of over 10 million records at Japan's DHC and 15.18 million at ZOZOTOWN and thefts from four Taiwanese banks and Binance. The join is that public bodies make up about half the list, and people cannot withdraw records the state requires. Its case against says the breaches share dates, not an attacker, the FBI case rests on one AP source, and disclosure rules shape the balance. No narrative carried it on 22 or 24 November.",
+      "text": "Begun on 21 November with a narrative marked firm, built from a subject the site's notebook had kept for four days, so the story is older than its first narrative. Since 18 November attackers reached Transport for London's photocard records, the European Commission's servers, the FBI's National Crime Information Center database and the US Agriculture Department, beside leaks at Japan's DHC and ZOZOTOWN and thefts from four Taiwanese banks and Binance. The join is that public bodies make up about half the list, and people cannot withdraw records the state requires. Its case against says the breaches share dates, not an attacker. No narrative carried it on 22, 24 or 25 November, so it is silent; on 25 November the CIA and the US intelligence director's office reported a breach, after the FBI's, in the new thread on spying through private firms.",
       "direction": ""
     },
     {
       "key": "safe-havens-fall-with-shares",
       "label": "Gold, bitcoin and tech shares falling together",
-      "status": "live",
+      "status": "silent",
       "since": "20261121T213836",
       "lastSeen": "20261121T213836",
       "narratives": [
@@ -631,13 +581,13 @@
           "id": "hedges-fall-with-shares"
         }
       ],
-      "text": "Begun on 21 November with a narrative marked plausible that continues nothing. On 20 and 21 November the Nasdaq erased its gains for the year, gold fell more than $2,000 an ounce from its peak, bitcoin dropped below $55,000 for the first time since September 2024 and foreign investors pulled more than 3 trillion from Taiwan's market, as Trump attacked the Federal Reserve over rates. The join is the cost of borrowed money. On 22 November the AI financing thread read bitcoin's low instead as money drawn into AI listings; the two stand as competing readings. On 24 November gold at its lowest this year came in the revived Iran thread, read there as safe-haven buying stalling, while Al-Watan put it down to US bond yields, which is this thread's reading.",
+      "text": "Begun on 21 November with a narrative marked plausible that continues nothing. On 20 and 21 November the Nasdaq erased its gains for the year, gold fell more than $2,000 an ounce from its peak, bitcoin dropped below $55,000 for the first time since September 2024 and foreign investors pulled more than 3 trillion from Taiwan's market, as Trump attacked the Federal Reserve over rates. The join is the cost of borrowed money. On 22 November the AI financing thread read bitcoin's low as money drawn into AI listings, and on 24 November Al-Watan put gold's low down to US bond yields, this thread's reading. No narrative carried it on 22, 24 or 25 November, so it is silent; on 25 November the Economic Times reported the S&P 500 and Nasdaq falling back after historic highs, which sits poorly beside the 21 November report.",
       "direction": ""
     },
     {
       "key": "water-for-power-contested",
       "label": "Power projects placed on water already promised",
-      "status": "live",
+      "status": "silent",
       "since": "20261121T213836",
       "lastSeen": "20261121T213836",
       "narratives": [
@@ -646,7 +596,7 @@
           "id": "reservoirs-and-rivers-contested"
         }
       ],
-      "text": "Begun on 21 November with a narrative marked tentative, built from a subject the site's notebook had kept for five days, so the story is older than its first narrative. On 21 November Amit Shah backed India's Siang dam and promised dialogue with protesters, after a Sharavathi submergence report was promised to the Supreme Court on 17 November and the court refused Tamil Nadu more Cauvery water on 20 November. Taipei's mayoral campaign has fought over solar panels on the Feicui reservoir, Finland's largest conservation project failed when a utility would not sell the Palokki plant, and Bogotá warned on 18 November of water and power rationing under El Niño. The join is new hydro and solar placed on water already counted on. Its case against says half the evidence has nothing to do with power. No narrative carried it on 22 or 24 November.",
+      "text": "Begun on 21 November with a narrative marked tentative, built from a subject the site's notebook had kept for five days, so the story is older than its first narrative. On 21 November Amit Shah backed India's Siang dam and promised dialogue with protesters, after a Sharavathi submergence report was promised to the Supreme Court and the court refused Tamil Nadu more Cauvery water. Taipei's mayoral campaign has fought over solar panels on the Feicui reservoir, Finland's largest conservation project failed when a utility would not sell the Palokki plant, and Bogotá warned on 18 November of water and power rationing under El Niño. The join is new hydro and solar placed on water already counted on. Its case against says half the evidence has nothing to do with power. No narrative carried it on 22, 24 or 25 November, so it is silent.",
       "direction": ""
     },
     {
@@ -661,7 +611,7 @@
           "id": "consensus-talks-fail-courts-decide"
         }
       ],
-      "text": "Begun on 22 November with a narrative marked plausible that continues nothing. COP31 in Turkey ended without agreement after the EU rejected the final text, and UN talks on autonomous weapons ended without binding rules, while the International Court of Justice found Myanmar responsible for genocide against the Rohingya by nine votes to six and fifteen West African states adopted a migration declaration in Dakar. The join is that forums deciding by consensus failed while bodies that vote or admit only the willing reached decisions. Its case against says climate talks collapsed at Copenhagen in 2009, the ICJ's timing follows a 2019 filing, and the contrast may be between judging and legislating. No narrative carried it on 24 November, when Libya's planned suit against Ukraine at the ICJ came in the thread on Europe's security.",
+      "text": "Begun on 22 November with a narrative marked plausible that continues nothing. COP31 in Turkey ended without agreement after the EU rejected the final text, and UN talks on autonomous weapons ended without binding rules, while the International Court of Justice found Myanmar responsible for genocide against the Rohingya by nine votes to six and fifteen West African states adopted a migration declaration in Dakar. The join is that forums deciding by consensus failed while bodies that vote or admit only the willing reached decisions. Its case against says climate talks collapsed at Copenhagen in 2009, the ICJ's timing follows a 2019 filing, and the contrast may be between judging and legislating. No narrative carried it on 24 or 25 November; on 24 November Libya's planned suit against Ukraine at the ICJ came in the thread on Europe's security.",
       "direction": ""
     },
     {
@@ -676,7 +626,7 @@
           "id": "retirement-saving-and-pension-age"
         }
       ],
-      "text": "Begun on 22 November with a narrative marked plausible, built from a subject the site's notebook had kept since 17 November, so the story is older than its first narrative. On 17 November the US Treasury set rules for automatic retirement plans and Australia debated a superannuation shake-up; on 17 and 18 November Handelsblatt explained Germany's old-age provision deposit; on 20 November Singapore topped up the CPF accounts of more than 782,000 older citizens; on 22 November the Sydney Morning Herald argued for super for workers under 18 and RNZ said KiwiSaver fails the self-employed. The join is governments acting through individual accounts rather than the public pension, which Fortune reports is under six years from a 22% US cut. Its case against says these are adjustments to systems dating from 1955 to 2022. No narrative carried it on 24 November.",
+      "text": "Begun on 22 November with a narrative marked plausible, built from a subject the site's notebook had kept since 17 November, so the story is older than its first narrative. On 17 November the US Treasury set rules for automatic retirement plans and Australia debated a superannuation shake-up; on 17 and 18 November Handelsblatt explained Germany's old-age provision deposit; on 20 November Singapore topped up the CPF accounts of more than 782,000 older citizens; on 22 November the Sydney Morning Herald argued for super for workers under 18 and RNZ said KiwiSaver fails the self-employed. The join is governments acting through individual accounts rather than the public pension, which Fortune reports is under six years from a 22% US cut. Its case against says these are adjustments to systems dating from 1955 to 2022. No narrative carried it on 24 or 25 November.",
       "direction": ""
     },
     {
@@ -691,7 +641,37 @@
           "id": "health-payments-routed-through-state"
         }
       ],
-      "text": "Begun on 24 November with a narrative marked tentative that continues nothing. Kenya's health ministry ordered public hospitals to stop taking payment through their own paybill numbers and the governors refused; Jordan's central bank banned cash payment of dues to medical providers; Himachal Pradesh handed its new health insurance scheme to the Aditya Birla Group; and steps towards Medicare for All are on the US Democratic agenda. Public payers are slow: Rio Grande do Norte is late paying for orthopaedic surgeries, New Zealand's ACC refused a tradesman after decades of levies, and doctors in Jammu and Kashmir strike over stipends. The join is health money drawn into channels the state runs or chooses, and paid out slowly. Its case against says the motives differ, from county revenue to procurement, and the word payment may be doing the joining.",
+      "text": "Begun on 24 November with a narrative marked tentative that continues nothing. Kenya's health ministry ordered public hospitals to stop taking payment through their own paybill numbers and the governors refused; Jordan's central bank banned cash payment of dues to medical providers; Himachal Pradesh handed its new health insurance scheme to the Aditya Birla Group; and steps towards Medicare for All are on the US Democratic agenda. Public payers are slow: Rio Grande do Norte is late paying for orthopaedic surgeries, New Zealand's ACC refused a tradesman after decades of levies, and doctors in Jammu and Kashmir strike over stipends. The join is health money drawn into channels the state runs or chooses, and paid out slowly. Its case against says the motives differ, from county revenue to procurement, and the word payment may be doing the joining. No narrative carried it on 25 November.",
+      "direction": ""
+    },
+    {
+      "key": "civilian-places-readied-for-strikes",
+      "label": "Civilian buildings and roads readied for drone strikes",
+      "status": "live",
+      "since": "20261125T004245",
+      "lastSeen": "20261125T004245",
+      "narratives": [
+        {
+          "stamp": "20261125T004245",
+          "id": "civilian-places-readied-for-strikes"
+        }
+      ],
+      "text": "Begun on 25 November with a narrative marked plausible that continues nothing. Norway's NRK reports that hospitals now need bomb shelters, Iraq's defence minister ordered military units out of cities, French and Dutch jets practised landing on a Finnish motorway and Finland's hazard warning test went better. In the same days a Houthi attack hit the tallest tower in Riyadh's financial district for the second time in a week, a drone entered Polish airspace and Ukraine published another day's power cut schedules. The join is range: drones and missiles reach places far from any front, and governments prepare those places. It touches the thread on Europe's security and the silent thread on interceptor stocks, but its subject is where people live and work. Its case against says Finland has built shelters for decades and Iraq's order may concern Kurdish oilfields.",
+      "direction": ""
+    },
+    {
+      "key": "spying-through-private-firms",
+      "label": "States' spying and sabotage through private firms",
+      "status": "live",
+      "since": "20261125T004245",
+      "lastSeen": "20261125T004245",
+      "narratives": [
+        {
+          "stamp": "20261125T004245",
+          "id": "spying-routed-through-firms"
+        }
+      ],
+      "text": "Begun on 25 November with a narrative marked tentative that continues nothing. NPR reports the US investigating Iranian ties to as many as 50 hacked commercial vessels, Walla describes Iranians using AI against an airline flying to Israel, Finnish media report suspected espionage at the Laukaa gunpowder factory and British firms supporting Ukraine were told to act against Russian sabotage; a US judge freed a Saudi engineer accused of listening in on OpenAI meetings, and the CIA reported a breach after the FBI's. The join is states contesting through private targets that are told to protect themselves. It covers ground from the 10 November narrative on espionage through people and the silent breaches thread. The same day a 3 November expectation, that the European supermarket attacks would be traced to a refrigeration contractor, failed with nothing reported. Its case against says the ship hacks may be criminal.",
       "direction": ""
     }
   ],
@@ -830,9 +810,14 @@
       "held": "By 21 November the US and Iran were striking each other again, with attacks on tankers and a drone over the strait while talks were said to stall.",
       "undone": "On 24 November the edition reported the US-Iran war as paused: Israel let flights resume, US petrol fell 66 cents in a month, Qatar's emir was mediating and Washington added sanctions on Iran's banking network rather than strikes. Israeli voices pressing for an attack show the pause is contested, not that the fighting has resumed.",
       "stamp": "20261124T025350"
+    },
+    {
+      "held": "Governments outside the three-power meeting in China were fixing their trade among themselves rather than wait on its result.",
+      "undone": "On 25 November the same thread's narrative read the deals as an answer to US tariffs reported ready for China, Europe and fourteen more countries, not to the meeting, which by Observador's account had ended on 19 November without naming either war. The meeting is no longer carried as the reason.",
+      "stamp": "20261125T004245"
     }
   ],
-  "caseAgainst": "This Chronicle rests on the editions since 26 October, with none stamped 28 October, 9 November, 15 and 16 November or 23 November, drawn from whichever publishers the collection reads and capped in how many headlines each may supply. Continuity between days is partly produced by the brief: today's Europe narrative carries on yesterday's by link and the Nvidia narrative resumes one from 17 November, so the writer was asked to find a thread and found one. I revived the Iran thread by my own judgment from a narrative that continues nothing, and then withdrew my 21 November reading of escalation on one edition; this thread has had more withdrawals than any other, and I may be turning with each day's headlines rather than with events. That narrative's own case against says US petrol falls every autumn and Al-Watan puts gold's fall down to bond yields, so the pause may be read into a seasonal price. In the Europe thread, Libya's suit may come from Benghazi's eastern authorities, who are allied with Moscow, and the headlines do not say which government spoke. The Nvidia narrative draws on a collection crowded with Huang coverage in many languages. The health narrative is tentative and rests on seven headlines from one day. I have read the Shenzhen declaration as the hinge of the Europe thread for five days, and that framing pulls on how I place each new attack.",
-  "line": "On 24 November 2026 Nvidia reinstates Jensen Huang with Trump's backing, Libya says it will sue Ukraine over Benghazi and US petrol falls most in a month since 2008.",
-  "revision": "The Iran war thread was revived by judgment after nine editions and its direction reversed from renewed strikes to a contested pause, recorded in withdrawn; the Nvidia thread was resumed after five editions, and a thread on health payments through state channels was begun. The threads on states underwriting data centres and on young protesters fell silent, and the standing was rewritten."
+  "caseAgainst": "This Chronicle rests on the editions since 26 October, with none stamped 28 October, 9 November, 15 and 16 November or 23 November, drawn from whichever publishers the collection reads and capped in how many headlines each may supply. Continuity between days is partly produced by the brief: today the Nvidia narrative carries on yesterday's by link and the trade narrative resumes one from 18 November and was built from a notebook subject, so the writer was asked to find a thread and found one; I then relabelled both threads to fit today's reading, which lets the latest edition rewrite the account. The two new threads come from narratives that continue nothing, and I chose not to place them in the threads on Europe's security, interceptor stocks or data breaches; that choice could have gone the other way. The trade narrative's own case says no government names US tariffs and its sample leans on papers from Jordan, Qatar and Saudi Arabia; the favour narrative's events share an actor but not a mechanism, and Huawei's conviction is a jury's. The Economic Times report of US indexes falling back after historic highs, counted as keeping a 5 November expectation, does not sit with the 21 November report of the Nasdaq erasing its year's gains, and I cannot tell from these headlines which date it describes. I still read the Europe thread through the Shenzhen declaration, though its first expectation failed today.",
+  "line": "On 25 November 2026 the US attorney general praises Nvidia mid-investigation and Trump is reported to have tariffs ready for China, Europe and 14 more countries.",
+  "revision": "The trade thread was resumed after five editions and relabelled, its join moved from the three-power meeting to US tariffs and recorded in withdrawn; the Nvidia thread was relabelled as it widened to the president's favour. Threads began on civilian places readied for drone strikes and on spying through private firms, the threads on data breaches, safe havens and water for power fell silent, and the standing was rewritten."
 }
