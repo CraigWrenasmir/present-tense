@@ -1,14 +1,14 @@
 {
   "schemaVersion": 6,
-  "generatedAt": "2026-11-25T00:51:45Z",
-  "newsGeneratedAt": "2026-11-25T00:42:45Z",
+  "generatedAt": "2026-11-26T00:30:28Z",
+  "newsGeneratedAt": "2026-11-26T00:19:03Z",
   "method": "claude-api-batch",
   "model": "claude-opus-5-5",
   "promptVersion": "narrative-10",
-  "previousNewsGeneratedAt": "2026-11-24T02:53:50Z",
+  "previousNewsGeneratedAt": "2026-11-25T00:42:45Z",
   "usage": {
-    "input": 94960,
-    "output": 83403,
+    "input": 100926,
+    "output": 75627,
     "tier": "batch"
   },
   "notes": [
@@ -24,14 +24,31 @@
   ],
   "sourceArticles": [
     {
-      "id": "n-3712eb133c5bd5",
-      "title": "União Europeia e Indonésia assinam acordo de comércio livre após década de negociações",
-      "titleEnglish": "European Union and Indonesia sign free trade agreement after a decade of negotiations",
-      "url": "https://sapo.pt/artigo/uniao-europeia-e-indonesia-assinam-acordo-de-comercio-livre-apos-decada-de-negociacoes-6b018eb4d249e245722229ad",
-      "publisher": "SAPO",
-      "publisherDomain": "sapo.pt",
-      "publishedAt": "2026-11-21T12:25:09Z",
-      "seenAt": "2026-11-21T13:02:00Z",
+      "id": "n-d5c93c20f77d43",
+      "title": "Trump’s accounts traded Nvidia shares 44 times this year, records show",
+      "titleEnglish": "Trump’s accounts traded Nvidia shares 44 times this year, records show",
+      "url": "https://www.bbc.com/news/articles/cq772vk664yvo",
+      "publisher": "bbc.com",
+      "publisherDomain": "bbc.com",
+      "publishedAt": "2026-11-25T16:42:11Z",
+      "seenAt": "2026-11-25T18:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-d64abf05493ae4",
+      "title": "Trump admite que admite indulto a Jensen Huang se houver necessidade. E pede que CEO da Nvidia não recorra à quinta emenda no Congresso",
+      "titleEnglish": "Trump admits he would pardon Jensen Huang if necessary, and urges Nvidia CEO not to invoke the Fifth Amendment in Congress",
+      "url": "https://observador.pt/2026/11/25/trump-admite-que-admite-indulto-a-jensen-huang-se-houver-necessidade-e-pede-que-ceo-da-nvidia-nao-recorra-a-quinta-emenda-no-congresso/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-11-25T12:32:00Z",
+      "seenAt": "2026-11-25T12:32:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Portugal",
       "sourceCountryCode": "PT",
@@ -41,660 +58,14 @@
       "language": "pt"
     },
     {
-      "id": "n-7c4d564a15cf02",
-      "title": "India, Canada conclude sixth round of trade agreement negotiations",
-      "titleEnglish": "India, Canada conclude sixth round of trade agreement negotiations",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-canada-conclude-sixth-round-of-trade-agreement-negotiations/articleshow/136060836.cms",
-      "publisher": "The Economic Times",
-      "publisherDomain": "economictimes.indiatimes.com",
-      "publishedAt": "2026-11-21T18:32:00Z",
-      "seenAt": "2026-11-21T18:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "India",
-      "sourceCountryCode": "IN",
-      "sourceRegion": "Asia",
-      "sourceLat": 22,
-      "sourceLon": 79,
-      "language": "en"
-    },
-    {
-      "id": "n-7518497511e7c8",
-      "title": "Industry, defence in focus as India & Belarus decide to deepen ties",
-      "titleEnglish": "Industry, defence in focus as India & Belarus decide to deepen ties",
-      "url": "https://economictimes.indiatimes.com/news/india/industry-defence-in-focus-as-india-belarus-decide-to-deepen-ties/articleshow/136082886.cms",
-      "publisher": "The Economic Times",
-      "publisherDomain": "economictimes.indiatimes.com",
-      "publishedAt": "2026-11-22T20:32:00Z",
-      "seenAt": "2026-11-22T20:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "India",
-      "sourceCountryCode": "IN",
-      "sourceRegion": "Asia",
-      "sourceLat": 22,
-      "sourceLon": 79,
-      "language": "en"
-    },
-    {
-      "id": "n-52eada8b5ee023",
-      "title": "الأردن والاتحاد الأوروبي يعززان شراكتهما الاقتصادية عبر مسارين",
-      "titleEnglish": "Jordan and the European Union strengthen their economic partnership through two tracks",
-      "url": "https://www.khaberni.com/news/868973-%D8%A7%D9%84%D8%A7%D8%B1%D8%AF%D9%86-%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A7%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%8A%D8%B9%D8%B2%D8%B2%D8%A7%D9%86-%D8%B4%D8%B1%D8%A7%D9%83%D8%AA%D9%87%D9%85%D8%A7-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A%D8%A9-%D8%B9%D8%A8%D8%B1-%D9%85%D8%B3%D8%A7%D8%B1%D9%8A%D9%86",
-      "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
-      "publisherDomain": "khaberni.com",
-      "publishedAt": "2026-11-21T09:32:00Z",
-      "seenAt": "2026-11-21T09:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Jordan",
-      "sourceCountryCode": "JO",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31,
-      "sourceLon": 36,
-      "language": "ar"
-    },
-    {
-      "id": "n-17a228f65df6d7",
-      "title": "اتفاق عراقي مصري على إلغاء تأشيرات الدخول وتعزيز التعاون المشترك",
-      "titleEnglish": "Iraqi-Egyptian agreement to cancel entry visas and strengthen joint cooperation",
-      "url": "https://almadapaper.net/462332/",
-      "publisher": "جريدة المدى",
-      "publisherDomain": "almadapaper.net",
-      "publishedAt": "2026-11-23T16:55:41Z",
-      "seenAt": "2026-11-23T17:47:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Iraq",
-      "sourceCountryCode": "IQ",
-      "sourceRegion": "Middle East",
-      "sourceLat": 33,
-      "sourceLon": 44,
-      "language": "ar"
-    },
-    {
-      "id": "n-de30b185f6e704",
-      "title": "Saudi EXIM seals 5 agreements at Berne Union meetings in Tokyo",
-      "titleEnglish": "Saudi EXIM seals 5 agreements at Berne Union meetings in Tokyo",
-      "url": "https://www.arabnews.com/business/saudi-exim-seals-5-agreements-at-berne-union-meetings-in-tokyo-3013746",
-      "publisher": "arabnews.com",
-      "publisherDomain": "arabnews.com",
-      "publishedAt": "2026-11-23T14:36:43Z",
-      "seenAt": "2026-11-23T15:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Saudi Arabia",
-      "sourceCountryCode": "SA",
-      "sourceRegion": "Middle East",
-      "sourceLat": 24,
-      "sourceLon": 45,
-      "language": "en"
-    },
-    {
-      "id": "n-c72f46aa3781c4",
-      "title": "الملك ورئيس جمهورية أوزبكستان يشهدان تبادل اتفاقيات ومذكرات تفاهم بين البلدين",
-      "titleEnglish": "The King and the President of Uzbekistan witness exchange of agreements and memoranda of understanding between the two countries",
-      "url": "https://alanbatnews.net/article/486897",
-      "publisher": "الأنباط",
-      "publisherDomain": "alanbatnews.net",
-      "publishedAt": "2026-11-24T16:04:12Z",
-      "seenAt": "2026-11-24T16:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Jordan",
-      "sourceCountryCode": "JO",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31,
-      "sourceLon": 36,
-      "language": "ar"
-    },
-    {
-      "id": "n-cee88fe67b6b92",
-      "title": "صحيفة عمون : بيان أردني أوزبكي مشترك: تنفيذ حل الدولتين وأهمية الوصاية الهاشمية ودعم وحدة أراضي سوريا",
-      "titleEnglish": "Ammon newspaper: Joint Jordanian-Uzbek statement: implementing the two-state solution, importance of the Hashemite custodianship, and support for Syria's territorial unity",
-      "url": "https://www.ammonnews.net/article/1047618",
-      "publisher": "وكالة عمون الاخبارية",
-      "publisherDomain": "ammonnews.net",
-      "publishedAt": "2026-11-24T16:02:00Z",
-      "seenAt": "2026-11-24T16:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Jordan",
-      "sourceCountryCode": "JO",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31,
-      "sourceLon": 36,
-      "language": "ar"
-    },
-    {
-      "id": "n-25a0bc4804cd8b",
-      "title": "بدء التشغيل التجريبي لربط الكهرباء مع السعودية الأسبوع المقبل.. واتصالات النواب\" يكشف سبب حجب GTA6 | مصراوي",
-      "titleEnglish": "Trial operation of electricity interconnection with Saudi Arabia next week; Parliament communications reveals reason for GTA6 block | Masrawy",
-      "url": "https://www.masrawy.com/news/news_egypt/details/2026/11/25/3084086/%D9%86%D8%B4%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D9%83-%D8%B4%D9%88-%D8%A8%D8%AF%D8%A1-%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%8A-%D9%84%D8%B1%D8%A8%D8%B7-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D9%85%D8%B9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%A8%D9%88%D8%B9-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84-%D9%88%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D9%88%D8%A7%D8%A8-%D9%8A%D9%83%D8%B4%D9%81-%D8%B3%D8%A8%D8%A8-%D8%AD%D8%AC%D8%A8-gta6",
-      "publisher": "مصراوي.كوم",
-      "publisherDomain": "masrawy.com",
-      "publishedAt": "2026-11-24T23:32:00Z",
-      "seenAt": "2026-11-24T23:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Egypt",
-      "sourceCountryCode": "EG",
-      "sourceRegion": "Africa",
-      "sourceLat": 27,
-      "sourceLon": 30,
-      "language": "ar"
-    },
-    {
-      "id": "n-9ba35640570e79",
-      "title": "قطر وكندا تبحثان تعزيز الشراكة الإستراتيجية وتوسيع التعاون التجاري والاستثماري",
-      "titleEnglish": "Qatar and Canada discuss strengthening strategic partnership and expanding trade and investment cooperation",
-      "url": "https://www.aljazeera.net/news/2026/11/25/%D9%82%D8%B7%D8%B1-%D9%88%D9%83%D9%86%D8%AF%D8%A7-%D8%AA%D8%A8%D8%AD%D8%AB%D8%A7%D9%86-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A9",
-      "publisher": "الجزيرة نت",
-      "publisherDomain": "aljazeera.net",
-      "publishedAt": "2026-11-25T00:32:00Z",
-      "seenAt": "2026-11-25T00:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Qatar",
-      "sourceCountryCode": "QA",
-      "sourceRegion": "Middle East",
-      "sourceLat": 25.3,
-      "sourceLon": 51.2,
-      "language": "ar"
-    },
-    {
-      "id": "n-461aca0994d5ca",
-      "title": "Milei viaja a Paraguay para reunirse con Pedro Alliana en medio de la reconfiguración política regional",
-      "titleEnglish": "Milei travels to Paraguay to meet Pedro Alliana amid regional political reconfiguration",
-      "url": "https://www.minutouno.com/politica/milei-viaja-paraguay-reunirse-pedro-alliana-medio-la-reconfiguracion-regional-n6348942",
-      "publisher": "Minuto Uno",
-      "publisherDomain": "minutouno.com",
-      "publishedAt": "2026-11-24T23:32:00Z",
-      "seenAt": "2026-11-24T23:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Argentina",
-      "sourceCountryCode": "AR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -35,
-      "sourceLon": -64,
-      "language": "es"
-    },
-    {
-      "id": "n-a042c84fcc6840",
-      "title": "بيرنهام يشيد باتفاق التجارة مع أوروبا وينتقد رؤساء وزراء سابقين",
-      "titleEnglish": "Burnham praises trade deal with Europe and criticises former prime ministers",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/23/%D8%A8%D9%8A%D8%B1%D9%86%D9%87%D8%A7%D9%85-%D9%8A%D8%B4%D9%8A%D8%AF-%D8%A8%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D9%85%D8%B9-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7",
-      "publisher": "الجزيرة نت",
-      "publisherDomain": "aljazeera.net",
-      "publishedAt": "2026-11-23T18:17:00Z",
-      "seenAt": "2026-11-23T18:17:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Qatar",
-      "sourceCountryCode": "QA",
-      "sourceRegion": "Middle East",
-      "sourceLat": 25.3,
-      "sourceLon": 51.2,
-      "language": "ar"
-    },
-    {
-      "id": "n-3a78f9352917da",
-      "title": "Dazi, la scure di Trump su Cina ed Europa: «Pronte nuove tariffe»",
-      "titleEnglish": "Tariffs: Trump's axe on China and Europe: \"New tariffs are ready\"",
-      "url": "https://www.ilmessaggero.it:443/economia/news/dazi_trump_cina_europa_ultime_notizie-9910706.html",
-      "publisher": "ilmessaggero.it",
-      "publisherDomain": "ilmessaggero.it",
-      "publishedAt": "2026-11-25T00:30:03Z",
-      "seenAt": "2026-11-25T00:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Italy",
-      "sourceCountryCode": "IT",
-      "sourceRegion": "Europe",
-      "sourceLat": 42,
-      "sourceLon": 12,
-      "language": "it"
-    },
-    {
-      "id": "n-e26bf069344373",
-      "title": "טראמפ מכין מכה לכלכלה העולמית: מכסים חדשים על סין, אירופה - ו-14 מדינות נוספות - וואלה כסף",
-      "titleEnglish": "Trump prepares blow to global economy: new tariffs on China, Europe - and 14 more countries - Walla Money",
-      "url": "https://finance.walla.co.il/item/3877488",
-      "publisher": "וואלה",
-      "publisherDomain": "finance.walla.co.il",
-      "publishedAt": "2026-11-24T15:32:00Z",
-      "seenAt": "2026-11-24T15:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Israel",
-      "sourceCountryCode": "IL",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31.5,
-      "sourceLon": 35,
-      "language": "he"
-    },
-    {
-      "id": "n-6d600f87331757",
-      "title": "ناسداك يتراجع 1.45% مع انحسار مكاسب التكنولوجيا وترقب رسوم جمركية أمريكية جديدة",
-      "titleEnglish": "Nasdaq falls 1.45% as tech gains fade and new US tariffs awaited",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/25/%D9%86%D8%A7%D8%B3%D8%AF%D8%A7%D9%83-%D9%8A%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-1-45-%D9%85%D8%B9-%D8%A7%D9%86%D8%AD%D8%B3%D8%A7%D8%B1-%D9%85%D9%83%D8%A7%D8%B3%D8%A8",
-      "publisher": "الجزيرة نت",
-      "publisherDomain": "aljazeera.net",
-      "publishedAt": "2026-11-25T00:32:00Z",
-      "seenAt": "2026-11-25T00:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Qatar",
-      "sourceCountryCode": "QA",
-      "sourceRegion": "Middle East",
-      "sourceLat": 25.3,
-      "sourceLon": 51.2,
-      "language": "ar"
-    },
-    {
-      "id": "n-cd2bcf73815182",
-      "title": "EU introduces import restrictions amid pressure on domestic hybrid carmakers",
-      "titleEnglish": "EU introduces import restrictions amid pressure on domestic hybrid carmakers",
-      "url": "https://aa.com.tr/en/europe/eu-introduces-import-restrictions-amid-pressure-on-domestic-hybrid-carmakers/4135814",
-      "publisher": "Anadolu",
-      "publisherDomain": "aa.com.tr",
-      "publishedAt": "2026-11-24T15:33:26Z",
-      "seenAt": "2026-11-24T13:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Turkey",
-      "sourceCountryCode": "TR",
-      "sourceRegion": "Middle East",
-      "sourceLat": 39,
-      "sourceLon": 35,
-      "language": "en"
-    },
-    {
-      "id": "n-2fab8070a70ace",
-      "title": "Donald Trump s'est-il enrichi avec le retour surprise de Jensen Huang à la tête de Nvidia ?",
-      "titleEnglish": "Did Donald Trump get richer with Jensen Huang's surprise return to the helm of Nvidia?",
-      "url": "https://www.radiofrance.fr/franceinfo/podcasts/les-documents-franceinfo/donald-trump-s-est-il-enrichi-avec-le-retour-surprise-de-jensen-huang-a-la-tete-de-nvidia-8303551",
-      "publisher": "franceinfo",
-      "publisherDomain": "radiofrance.fr",
-      "publishedAt": "2026-11-24T17:30:00Z",
-      "seenAt": "2026-11-24T18:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "France",
-      "sourceCountryCode": "FR",
-      "sourceRegion": "Europe",
-      "sourceLat": 46,
-      "sourceLon": 2,
-      "language": "fr"
-    },
-    {
-      "id": "n-13ef3c73f3f438",
-      "title": "How much Trump stands to make from Huang's return to Nvidia",
-      "titleEnglish": "How much Trump stands to make from Huang's return to Nvidia",
-      "url": "https://www.nzherald.co.nz/technology/trump-gains-possibly-millions-from-nvidia-shares-after-huangs-return-financial-times/WGZWGBIDENEB5HSDAV7RW3ORS4/",
-      "publisher": "NZ Herald",
-      "publisherDomain": "nzherald.co.nz",
-      "publishedAt": "2026-11-24T15:32:00Z",
-      "seenAt": "2026-11-24T15:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "New Zealand",
-      "sourceCountryCode": "NZ",
-      "sourceRegion": "Oceania",
-      "sourceLat": -41,
-      "sourceLon": 174,
-      "language": "en"
-    },
-    {
-      "id": "n-265c349369dba4",
-      "title": "Ανάλυση CNN: Το μεγάλο ρίσκο του Τραμπ με την επιστροφή Χουάνγκ στην Nvidia - Προβληματισμός στους Ρεπουμπλικανούς",
-      "titleEnglish": "CNN analysis: Trump's big risk with Huang's return to Nvidia - Concern among Republicans",
-      "url": "https://www.efsyn.gr/kosmos/1516597/analysi-cnn-to-megalo-risko-toy-tramp-me-tin-epistrofi-hoyangk-sti-nvidia-provlimatismos-stoys-repoymplikanoys/",
-      "publisher": "Η Εφημερίδα των Συντακτών",
-      "publisherDomain": "efsyn.gr",
-      "publishedAt": "2026-11-24T12:04:23Z",
-      "seenAt": "2026-11-24T13:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Greece",
-      "sourceCountryCode": "GR",
-      "sourceRegion": "Europe",
-      "sourceLat": 39,
-      "sourceLon": 23,
-      "language": "el"
-    },
-    {
-      "id": "n-0c9fa32d17cb8b",
-      "title": "Nvidia's Huang confessed to more affairs and the board took him back anyway | Fortune",
-      "titleEnglish": "Nvidia's Huang confessed to more affairs and the board took him back anyway | Fortune",
-      "url": "https://fortune.com/2026/11/24/nvidia-huang-confessed-to-affairs-and-the-board-took-him-back-anyway/",
-      "publisher": "Fortune",
-      "publisherDomain": "fortune.com",
-      "publishedAt": "2026-11-24T12:32:00Z",
-      "seenAt": "2026-11-24T12:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "United States",
-      "sourceCountryCode": "US",
-      "sourceRegion": "North America",
-      "sourceLat": 39,
-      "sourceLon": -98,
-      "language": "en"
-    },
-    {
-      "id": "n-0b26f554d4c0fc",
-      "title": "엔비디아 조사에 말 아끼는 미 법무장관…“엔비디아는 선량한 기업 시민”",
-      "titleEnglish": "US Attorney General, reticent on Nvidia investigation: \"Nvidia is a good corporate citizen\"",
-      "url": "https://www.hani.co.kr/arti/international/international_general/1288960.html",
-      "publisher": "한겨레",
-      "publisherDomain": "hani.co.kr",
-      "publishedAt": "2026-11-24T23:08:00Z",
-      "seenAt": "2026-11-24T23:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "South Korea",
-      "sourceCountryCode": "KR",
-      "sourceRegion": "Asia",
-      "sourceLat": 36,
-      "sourceLon": 128,
-      "language": "ko"
-    },
-    {
-      "id": "n-27b5dfe9654a1f",
-      "title": "Kushner-backed OakNorth secures U.S. bank charter as global digital banks push into America",
-      "titleEnglish": "Kushner-backed OakNorth secures U.S. bank charter as global digital banks push into America",
-      "url": "https://www.cnbc.com/2026/11/24/oaknorth-us-bank-charter.html",
-      "publisher": "CNBC",
-      "publisherDomain": "cnbc.com",
-      "publishedAt": "2026-11-24T15:34:10Z",
-      "seenAt": "2026-11-24T16:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "United States",
-      "sourceCountryCode": "US",
-      "sourceRegion": "North America",
-      "sourceLat": 39,
-      "sourceLon": -98,
-      "language": "en"
-    },
-    {
-      "id": "n-3f41a46a57678a",
-      "title": "GEO Valued ICE Jail at $67M Before Selling It to the Trump Administration for $453M",
-      "titleEnglish": "GEO Valued ICE Jail at $67M Before Selling It to the Trump Administration for $453M",
-      "url": "https://www.ibtimes.co.uk/geo-group-ice-tacoma-detention-centre-453-million-sale-1834338",
-      "publisher": "International Business Times UK",
-      "publisherDomain": "ibtimes.co.uk",
-      "publishedAt": "2026-11-24T18:11:40Z",
-      "seenAt": "2026-11-24T18:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "United Kingdom",
-      "sourceCountryCode": "GB",
-      "sourceRegion": "Europe",
-      "sourceLat": 54,
-      "sourceLon": -2,
-      "language": "en"
-    },
-    {
-      "id": "n-9e3dfe1adc39b8",
-      "title": "Trump will give Medal of Freedom to Giuliani, a fierce political ally who led New York through 9/11",
-      "titleEnglish": "Trump will give Medal of Freedom to Giuliani, a fierce political ally who led New York through 9/11",
-      "url": "https://www.niagarafallsreview.ca/news/world/united-states/trump-will-give-medal-of-freedom-to-giuliani-a-fierce-political-ally-who-led-city-through-9-11/article_cfacd6db-a6a6-55ad-801f-c35d6981dddc.html",
-      "publisher": "Niagara Falls Review",
-      "publisherDomain": "niagarafallsreview.ca",
-      "publishedAt": "2026-11-24T16:02:00Z",
-      "seenAt": "2026-11-24T16:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Canada",
-      "sourceCountryCode": "CA",
-      "sourceRegion": "North America",
-      "sourceLat": 56,
-      "sourceLon": -106,
-      "language": "en"
-    },
-    {
-      "id": "n-e6b1661c4eaa5e",
-      "title": "US-Geschworene sprechen Huawei der Geldwäsche schuldig - WELT",
-      "titleEnglish": "US jurors find Huawei guilty of money laundering - WELT",
-      "url": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/netzwelt/article6b06144acd4642ba2eb17986/us-geschworene-sprechen-huawei-der-geldwaesche-schuldig.html",
-      "publisher": "DIE WELT",
-      "publisherDomain": "welt.de",
-      "publishedAt": "2026-11-25T00:32:00Z",
-      "seenAt": "2026-11-25T00:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "de"
-    },
-    {
-      "id": "n-acba7212eee870",
-      "title": "Jahrelanges Verfahren: US-Geschworene sprechen Huawei der Geldwäsche schuldig",
-      "titleEnglish": "After lengthy proceedings: US jurors find Huawei guilty of money laundering",
-      "url": "https://www.handelsblatt.com/technik/it-internet/jahrelanges-verfahren-us-geschworene-sprechen-huawei-der-geldwaesche-schuldig/100272536.html",
-      "publisher": "handelsblatt.com",
-      "publisherDomain": "handelsblatt.com",
-      "publishedAt": "2026-11-24T22:46:40Z",
-      "seenAt": "2026-11-24T23:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "de"
-    },
-    {
-      "id": "n-1ef7e117024b1c",
-      "title": "Tribunal de EE.UU. declara culpable a Huawei por fraude bancario y robo de secretos comerciales - La Tercera",
-      "titleEnglish": "US court finds Huawei guilty of bank fraud and trade secret theft - La Tercera",
-      "url": "https://www.latercera.com/mundo/noticia/tribunal-de-eeuu-declara-culpable-a-huawei-por-fraude-bancario-y-robo-de-secretos-comerciales/",
-      "publisher": "La Tercera",
-      "publisherDomain": "latercera.com",
-      "publishedAt": "2026-11-25T00:17:38Z",
-      "seenAt": "2026-11-25T00:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Chile",
-      "sourceCountryCode": "CL",
-      "sourceRegion": "Latin America",
-      "sourceLat": -33,
-      "sourceLon": -71,
-      "language": "es"
-    },
-    {
-      "id": "n-2e49d368c72076",
-      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "titleEnglish": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "url": "https://www.bbc.com/news/articles/cmy49ngydqzpo",
-      "publisher": "bbc.com",
-      "publisherDomain": "bbc.com",
-      "publishedAt": "2026-11-24T22:24:23Z",
-      "seenAt": "2026-11-24T23:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "United Kingdom",
-      "sourceCountryCode": "GB",
-      "sourceRegion": "Europe",
-      "sourceLat": 54,
-      "sourceLon": -2,
-      "language": "en"
-    },
-    {
-      "id": "n-7283aa604f9c7c",
-      "title": "11 injured after Houthi attack on tower in Riyadh’s financial district",
-      "titleEnglish": "11 injured after Houthi attack on tower in Riyadh’s financial district",
-      "url": "https://www.arabnews.com/saudi-arabia/11-injured-after-houthi-attack-on-tower-in-riyadhs-financial-district-3013857",
-      "publisher": "arabnews.com",
-      "publisherDomain": "arabnews.com",
-      "publishedAt": "2026-11-24T13:08:51Z",
-      "seenAt": "2026-11-24T15:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Saudi Arabia",
-      "sourceCountryCode": "SA",
-      "sourceRegion": "Middle East",
-      "sourceLat": 24,
-      "sourceLon": 45,
-      "language": "en"
-    },
-    {
-      "id": "n-d085f81dfa7f80",
-      "title": "סעודיה: 11 פצועים בתקיפת החות'ים במרכז ריאד | וואלה חדשות",
-      "titleEnglish": "Saudi Arabia: 11 injured in Houthi attack in central Riyadh | Walla News",
-      "url": "https://www.walla.co.il:443/news/breaking-news/383962932",
-      "publisher": "walla.co.il",
-      "publisherDomain": "walla.co.il",
-      "publishedAt": "2026-11-24T16:02:00Z",
-      "seenAt": "2026-11-24T16:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Israel",
-      "sourceCountryCode": "IL",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31.5,
-      "sourceLon": 35,
-      "language": "he"
-    },
-    {
-      "id": "n-f61dcb42abd52e",
-      "title": "沙烏地首都最高摩天大樓被擊中 一週內2度遇襲 | 聯合新聞網",
-      "titleEnglish": "Saudi capital's tallest skyscraper hit, attacked twice in one week | UDN",
-      "url": "https://udn.com/news/story/6809/9899772",
-      "publisher": "聯合新聞網",
-      "publisherDomain": "udn.com",
-      "publishedAt": "2026-11-24T15:30:52Z",
-      "seenAt": "2026-11-24T16:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Taiwan",
-      "sourceCountryCode": "TW",
-      "sourceRegion": "Asia",
-      "sourceLat": 23.7,
-      "sourceLon": 121,
-      "language": "zh-Hant"
-    },
-    {
-      "id": "n-e1e4c60c75741f",
-      "title": "Ukraine-Krieg: Drohne dringt in Luftraum über Polen ein",
-      "titleEnglish": "Ukraine war: Drone enters airspace over Poland",
-      "url": "https://www.handelsblatt.com/politik/international/ukraine-krieg-drohne-dringt-in-luftraum-ueber-polen-ein/100272258.html",
-      "publisher": "handelsblatt.com",
-      "publisherDomain": "handelsblatt.com",
-      "publishedAt": "2026-11-24T06:09:44Z",
-      "seenAt": "2026-11-24T06:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Germany",
-      "sourceCountryCode": "DE",
-      "sourceRegion": "Europe",
-      "sourceLat": 51,
-      "sourceLon": 10,
-      "language": "de"
-    },
-    {
-      "id": "n-8d82087a44b792",
-      "title": "Графики отключений электроэнергии: когда не будет электричества 25 ноября",
-      "titleEnglish": "Power outage schedules: when there will be no electricity on 25 November",
-      "url": "https://www.unian.net/economics/energetics/grafiki-na-25-noyabrya-u-kogo-v-sredu-ne-budet-sveta-13570257.html",
-      "publisher": "unian.net",
-      "publisherDomain": "unian.net",
-      "publishedAt": "2026-11-24T18:32:00Z",
-      "seenAt": "2026-11-24T18:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Ukraine",
-      "sourceCountryCode": "UA",
-      "sourceRegion": "Europe",
-      "sourceLat": 49,
-      "sourceLon": 32,
-      "language": "ru"
-    },
-    {
-      "id": "n-86b45510cff564",
-      "title": "Зеленский пожаловался на большие проблемы в регионах после ударов ВС России",
-      "titleEnglish": "Zelensky complains of major problems in regions after Russian Armed Forces strikes",
-      "url": "https://lenta.ru/news/2026/11/24/zelenskiy-pozhalovalsya-na-bolshie-problemy-v-regionah-posle-udarov-vs-rossii/",
-      "publisher": "Lenta.RU",
-      "publisherDomain": "lenta.ru",
-      "publishedAt": "2026-11-24T16:02:00Z",
-      "seenAt": "2026-11-24T16:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Russia",
-      "sourceCountryCode": "RU",
-      "sourceRegion": "Europe",
-      "sourceLat": 61,
-      "sourceLon": 100,
-      "language": "ru"
-    },
-    {
-      "id": "n-03a0f9d228a0ac",
-      "title": "Украина создала ракету для нового комплекса ПВО, который будет сбивать дроны",
-      "titleEnglish": "Ukraine has created a missile for a new air defence system that will shoot down drones",
-      "url": "https://www.unian.net/weapons/sily-pvo-ukrainy-ukrepilis-za-schet-novogo-kompleksa-desna-s-ukrainskimi-raketami-13570287.html",
-      "publisher": "unian.net",
-      "publisherDomain": "unian.net",
-      "publishedAt": "2026-11-24T18:32:00Z",
-      "seenAt": "2026-11-24T18:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Ukraine",
-      "sourceCountryCode": "UA",
-      "sourceRegion": "Europe",
-      "sourceLat": 49,
-      "sourceLon": 32,
-      "language": "ru"
-    },
-    {
-      "id": "n-59bf07e7a03c5c",
-      "title": "Dronekrigen øker verden over – nå trenger sykehusene bomberom",
-      "titleEnglish": "Drone warfare spreads worldwide – now hospitals need bomb shelters",
-      "url": "https://www.nrk.no/artikkel/dronekrigen-oker-verden-over-na-trenger-sykehusene-bomberom-1533187",
-      "publisher": "nrk.no",
-      "publisherDomain": "nrk.no",
-      "publishedAt": "2026-11-24T04:30:43Z",
-      "seenAt": "2026-11-24T06:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Norway",
-      "sourceCountryCode": "NO",
-      "sourceRegion": "Europe",
-      "sourceLat": 64,
-      "sourceLon": 11,
-      "language": "no"
-    },
-    {
-      "id": "n-60318c8e56d165",
-      "title": "Sisäministeri Rantanen: Vaaratiedotekokeilu onnistui nyt paremmin – ihmetteli ”presidenttitason ilmoitusta”",
-      "titleEnglish": "Interior Minister Rantanen: Hazard information test succeeded better this time – wondered at “presidential-level announcement”",
-      "url": "https://yle.fi/a/74-20258706",
-      "publisher": "Yle Uutiset",
-      "publisherDomain": "yle.fi",
-      "publishedAt": "2026-11-24T12:23:20Z",
-      "seenAt": "2026-11-24T12:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Finland",
-      "sourceCountryCode": "FI",
-      "sourceRegion": "Europe",
-      "sourceLat": 64,
-      "sourceLon": 26,
-      "language": "fi"
-    },
-    {
-      "id": "n-848f3ac40b00ed",
-      "title": "إخلاء المدن من القطعات العسكرية.. توجيهات جديدة من وزير الدفاع",
-      "titleEnglish": "Evacuating cities of military units... new directives from the Defence Minister",
-      "url": "https://almadapaper.net/462475/",
-      "publisher": "جريدة المدى",
-      "publisherDomain": "almadapaper.net",
-      "publishedAt": "2026-11-24T12:16:19Z",
-      "seenAt": "2026-11-24T12:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Iraq",
-      "sourceCountryCode": "IQ",
-      "sourceRegion": "Middle East",
-      "sourceLat": 33,
-      "sourceLon": 44,
-      "language": "ar"
-    },
-    {
-      "id": "n-af0b82f55b341c",
-      "title": "Scène spectaculaire mais bien réelle : des Rafale de l'Armée de l'air s'entraînent à se poser sur une route nationale en Finlande",
-      "titleEnglish": "Spectacular but very real scene: Air Force Rafale jets train to land on a national road in Finland",
-      "url": "https://www.ladepeche.fr/2026/11/24/scene-spectaculaire-mais-bien-reelle-des-rafale-de-larmee-de-lair-sentrainent-a-se-poser-sur-une-route-nationale-en-finlande-13668655.php",
-      "publisher": "ladepeche.fr",
-      "publisherDomain": "ladepeche.fr",
-      "publishedAt": "2026-11-24T16:02:00Z",
-      "seenAt": "2026-11-24T16:02:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "France",
-      "sourceCountryCode": "FR",
-      "sourceRegion": "Europe",
-      "sourceLat": 46,
-      "sourceLon": 2,
-      "language": "fr"
-    },
-    {
-      "id": "n-c6fe199903569e",
-      "title": "F-35 Hà Lan hạ cánh trên đường cao tốc Phần Lan, NATO thử nghiệm phương án sống sót trước đòn tập kích",
-      "titleEnglish": "Dutch F-35 lands on Finnish motorway; NATO tests survival plan against strike",
-      "url": "https://anninhthudo.vn/f-35-ha-lan-ha-canh-tren-duong-cao-toc-phan-lan-nato-thu-nghiem-phuong-an-song-sot-truoc-don-tap-kich-post676556.antd",
+      "id": "n-4ddf7864b7b451",
+      "title": "Phe Dân chủ mở cuộc điều tra việc ông Trump vận động đưa CEO Nvidia trở lại",
+      "titleEnglish": "Democratic Party opens investigation into Trump's lobbying to bring Nvidia CEO back",
+      "url": "https://anninhthudo.vn/phe-dan-chu-mo-cuoc-dieu-tra-viec-ong-trump-van-dong-dua-ceo-nvidia-tro-lai-post676863.antd",
       "publisher": "Báo Điện tử An ninh Thủ đô",
       "publisherDomain": "anninhthudo.vn",
-      "publishedAt": "2026-11-24T06:02:29Z",
-      "seenAt": "2026-11-24T06:32:00Z",
+      "publishedAt": "2026-11-25T22:10:31Z",
+      "seenAt": "2026-11-26T00:02:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Vietnam",
       "sourceCountryCode": "VN",
@@ -704,65 +75,99 @@
       "language": "vi"
     },
     {
-      "id": "n-8d87b7e066a3c9",
-      "title": "The U.S. government is investigating Iranian ties to as many as 50 hacked commercial vessels",
-      "titleEnglish": "The U.S. government is investigating Iranian ties to as many as 50 hacked commercial vessels",
-      "url": "https://www.npr.org/2026/11/24/nx-s1-6052994/hack-commercial-vessels-iran",
-      "publisher": "NPR",
-      "publisherDomain": "npr.org",
-      "publishedAt": "2026-11-24T23:32:00Z",
-      "seenAt": "2026-11-24T23:32:00Z",
+      "id": "n-8007d582b6f80b",
+      "title": "Jensen Huang is back, but China’s AI chip crunch is far from over",
+      "titleEnglish": "Jensen Huang is back, but China’s AI chip crunch is far from over",
+      "url": "https://www.straitstimes.com/asia/east-asia/jensen-huang-is-back-but-chinas-ai-chip-crunch-is-far-from-over",
+      "publisher": "The Straits Times",
+      "publisherDomain": "straitstimes.com",
+      "publishedAt": "2026-11-25T13:40:00Z",
+      "seenAt": "2026-11-25T15:02:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "United States",
-      "sourceCountryCode": "US",
-      "sourceRegion": "North America",
-      "sourceLat": 39,
-      "sourceLon": -98,
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
       "language": "en"
     },
     {
-      "id": "n-59011f8fd52fa7",
-      "title": "מרגלת AI: כך ניסו האיראנים לתקוף חברת תעופה שטסה לישראל | וואלה טכנולוגיה",
-      "titleEnglish": "AI spy: how Iranians tried to attack an airline flying to Israel | Walla Tech",
-      "url": "https://www.walla.co.il:443/tech/privacy-and-security/383962743",
-      "publisher": "walla.co.il",
-      "publisherDomain": "walla.co.il",
-      "publishedAt": "2026-11-24T16:02:00Z",
-      "seenAt": "2026-11-24T16:02:00Z",
+      "id": "n-07637a8798b26e",
+      "title": "Podcast De Dag: wat is de waarde van Jensen Huang?",
+      "titleEnglish": "Podcast De Dag: what is the value of Jensen Huang?",
+      "url": "https://nos.nl/artikel/2640979-podcast-de-dag-wat-is-de-waarde-van-jensen-huang",
+      "publisher": "nos.nl",
+      "publisherDomain": "nos.nl",
+      "publishedAt": "2026-11-25T15:02:00Z",
+      "seenAt": "2026-11-25T15:02:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Israel",
-      "sourceCountryCode": "IL",
-      "sourceRegion": "Middle East",
-      "sourceLat": 31.5,
-      "sourceLon": 35,
-      "language": "he"
-    },
-    {
-      "id": "n-de3f8e4bdded71",
-      "title": "Yle: Epäilty vakoilu Laukaan ruutitehtaalla",
-      "titleEnglish": "Yle: Suspected espionage at Laukaa gunpowder factory",
-      "url": "https://www.lansi-savo.fi/uutissuomalainen/9983236",
-      "publisher": "Länsi-Savo",
-      "publisherDomain": "lansi-savo.fi",
-      "publishedAt": "2026-11-24T16:39:19Z",
-      "seenAt": "2026-11-24T18:32:00Z",
-      "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Finland",
-      "sourceCountryCode": "FI",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
       "sourceRegion": "Europe",
-      "sourceLat": 64,
-      "sourceLon": 26,
-      "language": "fi"
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
     },
     {
-      "id": "n-b3990ccb372194",
-      "title": "Businesses supporting Ukraine told to 'act now' to protect against Russian sabotage",
-      "titleEnglish": "Businesses supporting Ukraine told to 'act now' to protect against Russian sabotage",
-      "url": "https://www.bbc.com/news/articles/ckpdw4d0z2dwo",
-      "publisher": "bbc.com",
-      "publisherDomain": "bbc.com",
-      "publishedAt": "2026-11-24T17:39:32Z",
-      "seenAt": "2026-11-24T23:32:00Z",
+      "id": "n-afb7a5879bc83c",
+      "title": "美股、黄金，上演V字大反弹！原油大涨！中概股爆发，英伟达市值一夜蒸发近1万亿元",
+      "titleEnglish": "US stocks and gold stage a V-shaped rebound! Crude oil surges! Chinese concept stocks explode, Nvidia's market value evaporates by nearly 1 trillion yuan overnight",
+      "url": "https://www.nbd.com.cn/articles/2026-11-26/4659238.html",
+      "publisher": "nbd.com.cn",
+      "publisherDomain": "nbd.com.cn",
+      "publishedAt": "2026-11-26T00:02:00Z",
+      "seenAt": "2026-11-26T00:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-d493331af67eaa",
+      "title": "Huawei says US conviction ‘without legal or factual merit’",
+      "titleEnglish": "Huawei says US conviction ‘without legal or factual merit’",
+      "url": "https://www.bangkokpost.com/business/general/3360969/huawei-says-us-conviction-without-legal-or-factual-merit",
+      "publisher": "https://www.bangkokpost.com",
+      "publisherDomain": "bangkokpost.com",
+      "publishedAt": "2026-11-25T12:32:00Z",
+      "seenAt": "2026-11-25T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Thailand",
+      "sourceCountryCode": "TH",
+      "sourceRegion": "Asia",
+      "sourceLat": 15,
+      "sourceLon": 101,
+      "language": "en"
+    },
+    {
+      "id": "n-d7bb2f562b246c",
+      "title": "欧盟对15家俄罗斯实体收紧出口限制",
+      "titleEnglish": "EU tightens export restrictions on 15 Russian entities",
+      "url": "https://www.yicai.com/news/103454236.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-11-25T12:32:00Z",
+      "seenAt": "2026-11-25T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-22b0a6a9ec0888",
+      "title": "Defence Contractor Secured Up to $980M in Military Deals Months After Trump Jr.'s Investment Firm Bought a Stake",
+      "titleEnglish": "Defence Contractor Secured Up to $980M in Military Deals Months After Trump Jr.'s Investment Firm Bought a Stake",
+      "url": "https://www.ibtimes.co.uk/hadrian-automation-military-deals-trump-jr-investment-1834661",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-11-25T15:28:31Z",
+      "seenAt": "2026-11-25T15:32:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "United Kingdom",
       "sourceCountryCode": "GB",
@@ -772,48 +177,65 @@
       "language": "en"
     },
     {
-      "id": "n-f0c65da201e31a",
-      "title": "قاض أمريكي يأمر بالإفراج عن مهندس سعودي متهم بالتنصت على اجتماعات لشركة \"أوبن إيه آي\"",
-      "titleEnglish": "US judge orders release of Saudi engineer accused of eavesdropping on OpenAI meetings",
-      "url": "https://www.aljazeera.net/news/2026/11/25/%D9%82%D8%A7%D8%B6-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A-%D9%8A%D8%A3%D9%85%D8%B1-%D8%A8%D8%A7%D9%84%D8%A5%D9%81%D8%B1%D8%A7%D8%AC-%D8%B9%D9%86-%D9%85%D9%87%D9%86%D8%AF%D8%B3",
-      "publisher": "الجزيرة نت",
-      "publisherDomain": "aljazeera.net",
-      "publishedAt": "2026-11-25T00:32:00Z",
-      "seenAt": "2026-11-25T00:32:00Z",
+      "id": "n-8472f2167742b8",
+      "title": "빗썸 해킹 피해 더 컸다…보름 넘게 뚫리고도 몰랐다",
+      "titleEnglish": "Bithumb hack damage was greater: breached for over two weeks without detection",
+      "url": "https://www.fnnews.com/news/202611252106063665",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-25T12:10:19Z",
+      "seenAt": "2026-11-25T12:32:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Qatar",
-      "sourceCountryCode": "QA",
-      "sourceRegion": "Middle East",
-      "sourceLat": 25.3,
-      "sourceLon": 51.2,
-      "language": "ar"
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
     },
     {
-      "id": "n-23cfad18af1ec6",
-      "title": "CIA e gabinete que coordena informações dos EUA atingidos por ciberataque",
-      "titleEnglish": "CIA and office coordinating US intelligence hit by cyberattack",
-      "url": "https://sapo.pt/artigo/cia-e-gabinete-que-coordena-informacoes-dos-eua-atingidos-por-ciberataque-6b0628807a9ccdad1edcd8b4",
-      "publisher": "SAPO",
-      "publisherDomain": "sapo.pt",
-      "publishedAt": "2026-11-25T00:12:44Z",
-      "seenAt": "2026-11-25T00:32:00Z",
+      "id": "n-a7fa8fa5517a41",
+      "title": "빗썸, 개인정보 추가 유출 확인…주민등록번호·거래내역 등 포함",
+      "titleEnglish": "Bithumb confirms further personal data leak, including resident registration numbers and transaction records",
+      "url": "https://www.newspim.com/news/view/20261125001302",
+      "publisher": "뉴스핌",
+      "publisherDomain": "newspim.com",
+      "publishedAt": "2026-11-25T11:33:00Z",
+      "seenAt": "2026-11-25T12:32:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Portugal",
-      "sourceCountryCode": "PT",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-1cf21174163b24",
+      "title": "US Treasury's FinCEN Investigates Unauthorised Access to Some Systems and Extends Certain Filing Deadlines",
+      "titleEnglish": "US Treasury's FinCEN Investigates Unauthorised Access to Some Systems and Extends Certain Filing Deadlines",
+      "url": "https://www.ibtimes.co.uk/fincen-investigates-unauthorised-access-filing-deadlines-1834803",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-11-25T14:49:14Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
       "sourceRegion": "Europe",
-      "sourceLat": 39.5,
-      "sourceLon": -8,
-      "language": "pt"
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
     },
     {
-      "id": "n-c0b261e4a27bcc",
-      "title": "NYT: ЦРУ и Нацразведка США обнаружили взлом электронной системы",
-      "titleEnglish": "NYT: CIA and US National Intelligence discover breach of electronic system",
-      "url": "https://www.kommersant.ru/doc/9129771",
-      "publisher": "Коммерсантъ",
-      "publisherDomain": "kommersant.ru",
-      "publishedAt": "2026-11-24T23:21:09Z",
-      "seenAt": "2026-11-24T23:32:00Z",
+      "id": "n-04801262fa42b8",
+      "title": "Хакер получил доступ к данным клиентов сервиса 1Password",
+      "titleEnglish": "Hacker gained access to client data of 1Password service",
+      "url": "https://iz.ru/2208434/khaker-poluchil-dostup-k-dannym-klientov-servisa-1password-izi",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-11-25T22:31:52Z",
+      "seenAt": "2026-11-25T23:02:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "Russia",
       "sourceCountryCode": "RU",
@@ -823,48 +245,48 @@
       "language": "ru"
     },
     {
-      "id": "n-fb11cff443bcd4",
-      "title": "Un ciberataque vulnera un sistema no clasificado de la CIA",
-      "titleEnglish": "A cyberattack breaches an unclassified CIA system",
-      "url": "https://elpais.com/us/2026-11-24/un-ciberataque-vulnera-un-sistema-no-clasificado-de-la-cia.html",
-      "publisher": "El País US",
-      "publisherDomain": "elpais.com",
-      "publishedAt": "2026-11-24T22:35:21Z",
-      "seenAt": "2026-11-24T23:32:00Z",
+      "id": "n-7700f64f48a5f6",
+      "title": "ফিশিং লিংকের ফাঁদে ফোনের নিয়ন্ত্রণ বেহাত, খালি হচ্ছে ব্যাংক হিসাব",
+      "titleEnglish": "Phone control lost to phishing link trap, bank accounts being emptied",
+      "url": "https://bangla.bdnews24.com/ctg/ujl5dhqp7t",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bangla.bdnews24.com",
+      "publishedAt": "2026-11-25T19:24:14Z",
+      "seenAt": "2026-11-25T21:02:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Spain",
-      "sourceCountryCode": "ES",
-      "sourceRegion": "Europe",
-      "sourceLat": 40,
-      "sourceLon": -4,
-      "language": "es"
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "bn"
     },
     {
-      "id": "n-796666fac31484",
-      "title": "Crece la preocupación en Estados Unidos: tras el ataque al FBI, ahora detectan un hackeo a la CIA",
-      "titleEnglish": "Concern grows in the United States: after the attack on the FBI, now a hack of the CIA is detected",
-      "url": "https://www.clarin.com/mundo/crece-preocupacion-estados-unidos-ataque-fbi-ahora-detectan-hackeo-cia_0_JfHDgBQZFP.html",
-      "publisher": "Clarín",
-      "publisherDomain": "clarin.com",
-      "publishedAt": "2026-11-24T21:07:31Z",
-      "seenAt": "2026-11-25T00:32:00Z",
+      "id": "n-ce95e6acd48911",
+      "title": "Waspada Gamer Roblox, Ada Bahaya Curi Password hingga Mengakses Webcam Mengancam!",
+      "titleEnglish": "Beware Roblox Gamers: Danger of Password Theft and Webcam Access Threats!",
+      "url": "https://www.viva.co.id/gaya-hidup/games/1946421-waspada-gamer-roblox-ada-bahaya-curi-password-hingga-mengakses-webcam-mengancam",
+      "publisher": "viva.co.id",
+      "publisherDomain": "viva.co.id",
+      "publishedAt": "2026-11-25T22:04:00Z",
+      "seenAt": "2026-11-25T23:02:00Z",
       "dateBasis": "published-or-first-seen",
-      "sourceCountry": "Argentina",
-      "sourceCountryCode": "AR",
-      "sourceRegion": "Latin America",
-      "sourceLat": -35,
-      "sourceLon": -64,
-      "language": "es"
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
     },
     {
-      "id": "n-b395ed19d1869e",
-      "title": "China-linked network using AI fakes to smear Taiwan election candidates, BBC Verify finds",
-      "titleEnglish": "China-linked network using AI fakes to smear Taiwan election candidates, BBC Verify finds",
-      "url": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o",
-      "publisher": "BBC News",
-      "publisherDomain": "bbc.co.uk",
-      "publishedAt": "2026-11-24T23:32:00Z",
-      "seenAt": "2026-11-24T23:32:00Z",
+      "id": "n-f2240ae1823381",
+      "title": "US stocks fall further as fears over AI intensify",
+      "titleEnglish": "US stocks fall further as fears over AI intensify",
+      "url": "https://www.bbc.com/news/articles/cq0md8g14zryo",
+      "publisher": "bbc.com",
+      "publisherDomain": "bbc.com",
+      "publishedAt": "2026-11-25T17:48:09Z",
+      "seenAt": "2026-11-25T18:02:00Z",
       "dateBasis": "published-or-first-seen",
       "sourceCountry": "United Kingdom",
       "sourceCountryCode": "GB",
@@ -872,166 +294,348 @@
       "sourceLat": 54,
       "sourceLon": -2,
       "language": "en"
+    },
+    {
+      "id": "n-e0c6e900d13f41",
+      "title": "美股收盤／逢低買盤進場！道瓊狂瀉千點逆轉收紅 費半跌0.65%",
+      "titleEnglish": "US stocks close / Bargain buying enters! Dow plunges by 1,000 points then reverses to close higher, Philadelphia Semiconductor index falls 0.65%",
+      "url": "https://news.tvbs.com.tw/money/4056227",
+      "publisher": "TVBS新聞網",
+      "publisherDomain": "news.tvbs.com.tw",
+      "publishedAt": "2026-11-25T23:10:00Z",
+      "seenAt": "2026-11-26T00:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-7637d02d6b800a",
+      "title": "Wall Street recorta sus pérdidas y el Dow Jones borra caída de más de 1.100 puntos en una volátil sesión - La Tercera",
+      "titleEnglish": "Wall Street trims losses and Dow Jones erases drop of more than 1,100 points in volatile session - La Tercera",
+      "url": "https://www.latercera.com/pulso/noticia/wall-street-repunta-volatil-sesion/",
+      "publisher": "La Tercera",
+      "publisherDomain": "latercera.com",
+      "publishedAt": "2026-11-25T20:48:42Z",
+      "seenAt": "2026-11-25T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-b61a6ba521776f",
+      "title": "Wall Street zet verliesreeks voort, Anthropic verder omlaag",
+      "titleEnglish": "Wall Street extends losing streak, Anthropic falls further",
+      "url": "https://nieuws.nl/economie/wall-street-zet-verliesreeks-voort-anthropic-verder-omlaag",
+      "publisher": "Nieuws.nl",
+      "publisherDomain": "nieuws.nl",
+      "publishedAt": "2026-11-25T15:07:30Z",
+      "seenAt": "2026-11-25T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-af3f8ff55ef0e1",
+      "title": "“3~4일 계속 울었다” 주식에 3억 날린 투자전문가…폭락장에 꺼낸 조언",
+      "titleEnglish": "\"I cried for 3-4 days\" Investment expert who lost 300 million on stocks offers advice amid market crash",
+      "url": "https://biz.heraldcorp.com/article/10949516",
+      "publisher": "헤럴드경제",
+      "publisherDomain": "biz.heraldcorp.com",
+      "publishedAt": "2026-11-25T14:59:14Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-7d4fec1274fa89",
+      "title": "SuperX AI Technology收跌18.44%，成交额293.2万美元",
+      "titleEnglish": "SuperX AI Technology shares fall 18.44%, turnover at $2.932 million",
+      "url": "https://finance.sina.com.cn/stock/usstock/notice/2026-11-26/doc-inizzftq8240553.shtml",
+      "publisher": "finance.sina.com.cn",
+      "publisherDomain": "finance.sina.com.cn",
+      "publishedAt": "2026-11-25T23:54:18Z",
+      "seenAt": "2026-11-26T00:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-b0f99841aae046",
+      "title": "This robotics stock lost half its value. Here's why Citi says it's a buy",
+      "titleEnglish": "This robotics stock lost half its value. Here's why Citi says it's a buy",
+      "url": "https://www.cnbc.com/2026/11/25/a-robotics-stock-lost-half-its-value-heres-why-citi-says-its-a-buy-.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-25T14:27:03Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-d580db8c1d13c3",
+      "title": "华泰证券：AI产业内部更重交付与回报质量",
+      "titleEnglish": "Huatai Securities: AI industry places more weight on delivery and quality of returns",
+      "url": "https://finance.sina.com.cn/jjxw/2026-11-26/doc-inizzftm9076132.shtml",
+      "publisher": "finance.sina.com.cn",
+      "publisherDomain": "finance.sina.com.cn",
+      "publishedAt": "2026-11-25T23:56:20Z",
+      "seenAt": "2026-11-26T00:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-8d9aa989f1b2f4",
+      "title": "Govt exploring setting up AI wealth fund for Malaysians, says PM Anwar",
+      "titleEnglish": "Govt exploring setting up AI wealth fund for Malaysians, says PM Anwar",
+      "url": "https://www.thestar.com.my/news/nation/2026/11/25/govt-exploring-setting-up-ai-wealth-fund-for-malaysians-says-pm-anwar",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-11-25T22:16:00Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
+    },
+    {
+      "id": "n-1b3a9f2f5d82ad",
+      "title": "EU plans 50 billion euro investment in AI, quantum computing",
+      "titleEnglish": "EU plans 50 billion euro investment in AI, quantum computing",
+      "url": "https://www.channelnewsasia.com/world/eu-plans-50-billion-euro-investment-in-ai-quantum-computing-6581386",
+      "publisher": "CNA",
+      "publisherDomain": "channelnewsasia.com",
+      "publishedAt": "2026-11-25T15:02:00Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-4199e26225677e",
+      "title": "EU: EU will bei Quantentechnologie weltweit führend werden",
+      "titleEnglish": "EU: EU wants to become global leader in quantum technology",
+      "url": "https://www.handelsblatt.com/politik/international/eu-eu-will-bei-quantentechnologie-weltweit-fuehrend-werden/100272667.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-25T10:30:53Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-628861c26d465f",
+      "title": "EE.UU. aprueba el plan de Elon Musk de lanzar un millón de satélites para crear centros de datos espaciales - La Tercera",
+      "titleEnglish": "US approves Elon Musk's plan to launch one million satellites to create space data centres - La Tercera",
+      "url": "https://www.latercera.com/mundo/noticia/eeuu-aprueba-el-plan-de-elon-musk-de-lanzar-un-millon-de-satelites-para-crear-centros-de-datos-espaciales/",
+      "publisher": "La Tercera",
+      "publisherDomain": "latercera.com",
+      "publishedAt": "2026-11-25T22:52:08Z",
+      "seenAt": "2026-11-25T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-c7c3a326a745fa",
+      "title": "Kalshi traders say the odds of states imposing data center moratoriums is more likely than not",
+      "titleEnglish": "Kalshi traders say the odds of states imposing data center moratoriums is more likely than not",
+      "url": "https://www.cnbc.com/2026/11/25/kalshi-traders-say-the-odds-of-states-imposing-data-center-moratoriums-is-more-likely-than-not.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-25T15:18:29Z",
+      "seenAt": "2026-11-25T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
     }
   ],
   "settled": [
     {
-      "id": "20261105T215902-ai-build-vote-sells-asia-2",
+      "id": "20261110T214741-iran-war-reaches-europe-during-talks-1",
       "status": "kept",
       "how": "headline"
     },
     {
-      "id": "20261103T214619-breaches-start-with-suppliers-and-staff-1",
-      "status": "failed",
-      "how": "expired"
+      "id": "20261113T215832-strikes-run-alongside-talks-2",
+      "status": "kept",
+      "how": "headline"
     },
     {
-      "id": "20261110T001511-one-chip-firm-carries-ai-risk-2",
-      "status": "failed",
-      "how": "expired"
+      "id": "20261119T230231-allies-seek-own-talks-1",
+      "status": "kept",
+      "how": "headline"
     },
     {
-      "id": "20261114T204311-europe-security-bargained-elsewhere-1",
+      "id": "20261114T204311-europe-security-bargained-elsewhere-2",
       "status": "failed",
       "how": "expired"
     }
   ],
   "readings": [
     {
-      "id": "trade-deals-among-middle-powers",
-      "line": "For a week, governments outside the three powers have made deals without Washington, whose tariffs hit allies as well as rivals.",
-      "kicker": "HEDGING / MARKET ACCESS / PROTECTION",
+      "id": "trade-controls-by-nationality",
+      "line": "For breaking US trade controls, a Chinese firm is convicted, while the American chief under suspicion is offered a pardon in advance.",
+      "kicker": "SANCTIONS / NATIONALITY / CLEMENCY",
       "firmness": "plausible",
       "watch": [
         {
-          "what": "A government outside the US, China and Russia names the new US tariffs as a reason when it signs or speeds up a trade deal.",
-          "by": "2026-12-16",
-          "because": "If the week's deals are an answer to Washington rather than separate routine diplomacy, the tariff list should start appearing in the reasons governments give for them.",
-          "id": "20261125T004245-trade-deals-among-middle-powers-1"
+          "what": "The US charges or fines another Chinese or Asian company over chips or goods reaching China or Iran in breach of US controls.",
+          "by": "2026-12-20",
+          "because": "If enforcement now depends on whose firm it is, cases against foreign firms go on at full pace while the American firm's case stays a political matter.",
+          "id": "20261126T001903-trade-controls-by-nationality-1"
         },
         {
-          "what": "Canada concludes trade talks with India, or signs a trade or investment agreement with Qatar or another Gulf state.",
-          "by": "2026-12-23",
-          "because": "Canada is both a likely target of US tariffs and a party to two of this week's talks, so if the deals are hedging it should be among the first to close one.",
-          "id": "20261125T004245-trade-deals-among-middle-powers-2"
+          "what": "Trump publicly offers or grants a pardon to another US executive or company under federal investigation.",
+          "by": "2026-12-24",
+          "because": "The join says clemency offered in advance is a tool for firms near the president, so it should be used again and not only for Huang.",
+          "id": "20261126T001903-trade-controls-by-nationality-2"
         }
       ],
       "ahead": {
-        "precedent": "The closest case is 2017 to 2019. After the US left the Trans-Pacific Partnership in January 2017 and put tariffs on allies' steel in 2018, the other eleven members signed a revised pact in March 2018 and the EU and Japan signed their own agreement in July 2018. Those deals held and grew, but the US market stayed open to most of their members on old terms. This time the reported list taxes Europe and fourteen more countries at once, so there is no group of allies left outside it.",
+        "precedent": "The closest case is ZTE in 2018. In April the Commerce Department banned US firms from supplying ZTE for breaking a sanctions settlement, and in July Trump lifted the ban after a call with Xi Jinping, in return for a $1 billion fine and new managers, while Congress failed to restore it. Enforcement was traded for a deal. The difference now is that the firm being spared is American, its shares are in the president's own accounts, and the offer comes before any charge rather than after a penalty.",
         "paths": [
           {
-            "name": "More deals, few named reasons",
+            "name": "No charge before January",
             "weight": "favoured",
-            "text": "Through the first half of 2027 more bilateral and regional agreements are concluded, including India's talks with Canada and the EU's with partners in Asia and the Gulf, while most governments avoid naming Washington so as to keep talks with it open. The new tariffs take effect for most of the list. The week's mix of small steps, visas, a power link, investment talks, continues because each costs little and provokes no one.",
-            "sign": "Two governments that are both on the new US tariff list sign a trade or investment agreement with each other."
+            "text": "No federal charge is brought against Nvidia or Huang before the new Congress sits in January, and the 1 December hearing produces questions about Trump's trades but no referral. The Democratic inquiry becomes a formal committee investigation in the new year. This is favoured because the executive controls prosecutions and the president has said publicly where he stands.",
+            "sign": "Reports of Huang's hearing say he answered lawmakers' questions and no Justice Department case was announced."
           },
           {
-            "name": "Exemptions bought in Washington",
+            "name": "Commerce settles with a fine",
             "weight": "possible",
-            "text": "Several governments on the list buy lower rates with promises to purchase US energy, aircraft or arms, as Japan and the EU did in the summer of 2025, and slow their other talks. That would show the week's deals were a bargaining position rather than a change of direction.",
-            "sign": "A government on the list announces purchases of US energy, arms or aircraft alongside a tariff exemption."
+            "text": "The Commerce Department closes the export case with a civil penalty paid by Nvidia and new compliance duties, as it did with ZTE, so the company pays and no person is charged. This would end the matter quickly and suits both the firm and the White House.",
+            "sign": "The Commerce Department announces a settlement or civil penalty with Nvidia over chips reaching China."
           },
           {
-            "name": "Tariffs postponed after market falls",
+            "name": "Huang charged, then pardoned",
             "weight": "unlikely",
-            "text": "The fall in the Nasdaq and warnings of recession lead the White House to delay the list. This is unlikely because tariffs have been announced through earlier market falls since 2025.",
-            "sign": "The White House delays the new tariffs and names market conditions or ongoing talks."
+            "text": "Prosecutors charge Huang and Trump pardons him, as he said he would. This is unlikely because a charge is the step that an advance pardon offer is meant to make pointless.",
+            "sign": "A grand jury indictment naming Jensen Huang is reported."
           }
         ],
-        "decade": "Over ten years the share of middle powers' trade that runs under their own agreements is likely to keep rising, and the US market becomes one large customer among several rather than the one every deal is built around."
+        "decade": "Over ten years US trade controls are likely to work less as law than as permissions granted from the White House, so firms abroad will plan for penalties and firms at home for access."
       },
-      "continues": "",
-      "change": "Since 18 November the deals have kept coming: the EU and Indonesia signed a free trade agreement on 21 November, India and Belarus agreed closer ties on 22 November, Iraq and Egypt dropped entry visas on 24 November, and today Jordan signed agreements with Uzbekistan and Qatar talked trade with Canada. What is new is the other side: Washington is reported to have tariffs ready for China, Europe and fourteen more countries.",
-      "claim": "Since 21 November the EU and Indonesia have signed a trade agreement, India has held talks with Canada and Belarus, Iraq and Egypt have dropped entry visas, Egypt has prepared to switch on a power link with Saudi Arabia, Qatar and Canada have discussed more trade and investment, and Jordan's king has signed agreements with Uzbekistan's president. On the day of the last two, outlets in Italy, Israel and Qatar reported that Trump has new tariffs ready for China, Europe and fourteen more countries. Read together, the deals are the slow answer and the tariffs the reason for it: governments that can no longer count on cheap access to the US market are building access to each other's, one small agreement at a time.",
+      "continues": "favour-follows-the-president",
+      "change": "Yesterday's narrative rested on how regulators treat firms close to the president. Today the president himself is on the record: his accounts traded Nvidia shares 44 times this year, he says he would pardon Huang if necessary, and Democrats have opened an inquiry into his lobbying for Huang's return. On the same day Huawei rejected its US conviction.",
+      "claim": "The BBC reports records showing Trump's accounts traded Nvidia shares 44 times this year; Portugal's Observador reports he would pardon Jensen Huang 'if necessary'; Democrats have opened an inquiry into his lobbying to bring Huang back; and Huawei, in the same day's news, called its US conviction without legal or factual merit. Nvidia's scandal is about its chips reaching China against US export rules, and Huawei's prosecution grew from charges of evading US sanctions on Iran: both are cases of breaking US trade controls. One ends in conviction for a Chinese company, the other, before any charge, in an offer of clemency from a president who trades the company's shares. A firm's exposure to US trade law now depends on whose firm it is and how close it stands to the White House.",
       "events": [
         {
-          "label": "EU signs with Indonesia, deepens Jordan ties",
+          "label": "Trump's 44 trades in Nvidia shares",
           "articleIds": [
-            "n-3712eb133c5bd5",
-            "n-52eada8b5ee023"
+            "n-d5c93c20f77d43"
           ]
         },
         {
-          "label": "India's talks with Canada and Belarus",
+          "label": "Trump says he would pardon Huang",
           "articleIds": [
-            "n-7c4d564a15cf02",
-            "n-7518497511e7c8"
+            "n-d64abf05493ae4"
           ]
         },
         {
-          "label": "Jordan and Uzbekistan sign agreements",
+          "label": "Democrats investigate Trump's lobbying for Huang",
           "articleIds": [
-            "n-c72f46aa3781c4",
-            "n-cee88fe67b6b92"
+            "n-4ddf7864b7b451"
           ]
         },
         {
-          "label": "Iraq, Egypt and Saudi Arabia open links",
+          "label": "Trade controls enforced on foreign firms",
           "articleIds": [
-            "n-17a228f65df6d7",
-            "n-25a0bc4804cd8b",
-            "n-de30b185f6e704"
+            "n-d493331af67eaa",
+            "n-d7bb2f562b246c"
           ]
         },
         {
-          "label": "Canada, Qatar, Argentina and Britain seek partners",
+          "label": "Trump Jr stake precedes defence contracts",
           "articleIds": [
-            "n-9ba35640570e79",
-            "n-461aca0994d5ca",
-            "n-a042c84fcc6840"
+            "n-22b0a6a9ec0888"
           ]
         },
         {
-          "label": "US readies tariffs, EU restricts imports",
+          "label": "Nvidia's value and China's chip shortage",
           "articleIds": [
-            "n-3a78f9352917da",
-            "n-e26bf069344373",
-            "n-6d600f87331757",
-            "n-cd2bcf73815182"
+            "n-8007d582b6f80b",
+            "n-07637a8798b26e",
+            "n-afb7a5879bc83c"
           ]
         }
       ],
       "rungs": [
         {
-          "id": "n1-r1",
+          "id": "r1",
           "kind": "observation",
-          "label": "Deals made in five days",
+          "label": "The president and Nvidia",
           "fragments": [
             {
-              "id": "n1-r1-f1",
-              "label": "Europe and Asia",
-              "text": "On 21 November Portugal's SAPO reported the EU and Indonesia signing a free trade agreement after a decade of negotiation, and India's Economic Times reported the sixth round of India-Canada trade talks concluded. On 22 November the same paper reported India and Belarus deciding to deepen ties in industry and defence. Jordan's Khaberni reported on 21 November that Jordan and the EU were strengthening their economic partnership on two tracks.",
+              "id": "f1",
+              "label": "Trades, a pardon, an inquiry",
+              "text": "The BBC (United Kingdom) reports records showing that Trump's accounts traded Nvidia shares 44 times this year. Observador (Portugal) reports Trump saying he would pardon Jensen Huang if necessary and urging him not to invoke the Fifth Amendment before Congress. An ninh Thủ đô (Vietnam) reports that Democrats have opened an investigation into Trump's lobbying to bring Huang back to run Nvidia.",
               "articleIds": [
-                "n-3712eb133c5bd5",
-                "n-7c4d564a15cf02",
-                "n-7518497511e7c8",
-                "n-52eada8b5ee023"
+                "n-d5c93c20f77d43",
+                "n-d64abf05493ae4",
+                "n-4ddf7864b7b451"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "n1-r1-f2",
-              "label": "The Arab world and Central Asia",
-              "text": "On 24 November Iraq's al-Mada reported an Iraqi-Egyptian agreement to cancel entry visas, and Arab News reported Saudi EXIM sealing five agreements at Berne Union meetings in Tokyo. Today Al-Anbat and Ammon in Jordan report King Abdullah and Uzbekistan's president witnessing an exchange of agreements and issuing a joint statement. Egypt's Masrawy reports trial operation of the electricity link with Saudi Arabia beginning next week.",
+              "id": "f2",
+              "label": "The company and the market",
+              "text": "The Straits Times (Singapore) says Huang is back but China's shortage of AI chips is far from over, so the demand that drew Nvidia's chips into China is still there. NOS (Netherlands) runs a podcast asking what Huang is worth to the company. nbd.com.cn (China) reports Nvidia losing close to a trillion yuan of market value overnight.",
               "articleIds": [
-                "n-17a228f65df6d7",
-                "n-de30b185f6e704",
-                "n-c72f46aa3781c4",
-                "n-cee88fe67b6b92",
-                "n-25a0bc4804cd8b"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "n1-r1-f3",
-              "label": "The Americas and Britain",
-              "text": "Al Jazeera Net reports Qatar and Canada discussing a wider strategic partnership with more trade and investment. Argentina's Minuto Uno reports Milei travelling to Paraguay amid what it calls a regional political reconfiguration. On 24 November Al Jazeera Net carried Andy Burnham praising a trade deal with Europe.",
-              "articleIds": [
-                "n-9ba35640570e79",
-                "n-461aca0994d5ca",
-                "n-a042c84fcc6840"
+                "n-8007d582b6f80b",
+                "n-07637a8798b26e",
+                "n-afb7a5879bc83c"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1039,19 +643,27 @@
           ]
         },
         {
-          "id": "n1-r2",
+          "id": "r2",
           "kind": "observation",
-          "label": "The tariff list",
+          "label": "Other firms, other treatment",
           "fragments": [
             {
-              "id": "n1-r2-f1",
-              "label": "New duties by name",
-              "text": "Italy's Il Messaggero reports Trump saying new tariffs on China and Europe are ready, and Israel's Walla Money says the list covers China, Europe and fourteen more countries. Al Jazeera Net reports the Nasdaq down 1.45% as the tariffs are awaited. Anadolu reports the EU itself introducing import restrictions under pressure from its hybrid carmakers.",
+              "id": "f3",
+              "label": "Foreign firms penalised",
+              "text": "The Bangkok Post (Thailand) carries Huawei's statement that its US conviction is without legal or factual merit. No offer of clemency appears anywhere near it. Yicai (China) reports the EU tightening export restrictions on 15 Russian entities, the ordinary working of trade controls against foreign companies.",
               "articleIds": [
-                "n-3a78f9352917da",
-                "n-e26bf069344373",
-                "n-6d600f87331757",
-                "n-cd2bcf73815182"
+                "n-d493331af67eaa",
+                "n-d7bb2f562b246c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "A stake, then contracts",
+              "text": "International Business Times UK reports that a defence contractor won up to $980 million in military deals months after Donald Trump Jr's investment firm bought a stake in it. The headline does not say the stake caused the contracts, only the order in which they came.",
+              "articleIds": [
+                "n-22b0a6a9ec0888"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1059,31 +671,29 @@
           ]
         },
         {
-          "id": "n1-r3",
+          "id": "r3",
           "kind": "interpretation",
-          "label": "Building access around Washington",
+          "label": "Same law, two outcomes",
           "fragments": [
             {
-              "id": "n1-r3-f1",
-              "label": "What the deals share",
-              "text": "None of these agreements is large on its own, and most were long in preparation. What they share is that each widens a country's access to a market other than the American one, through visas, a power link, investment talks or tariff cuts. Beside a US list that taxes allies by name, they read as insurance bought slowly by governments that expect selling to the US to cost more and cannot change that.",
+              "id": "f5",
+              "label": "Treatment follows ownership",
+              "text": "Both cases concern goods or money moving to countries Washington has put off limits. What differs is not the offence but the owner: the Chinese firm is convicted, the American chief is told in advance that a case against him would end in a pardon. A pardon promised before any charge tells prosecutors that bringing one would be wasted work.",
               "articleIds": [
-                "n-3712eb133c5bd5",
-                "n-17a228f65df6d7",
-                "n-9ba35640570e79",
-                "n-e26bf069344373"
+                "n-d64abf05493ae4",
+                "n-d493331af67eaa",
+                "n-d5c93c20f77d43"
               ],
               "bookIds": [],
               "trajectoryIds": []
             },
             {
-              "id": "n1-r3-f2",
-              "label": "What five days show",
-              "text": "One day of such headlines is ordinary diplomacy. Five days of them, from at least nine governments on three continents while a tariff list is drawn up, is a pattern that a single day hides. The EU's own import restrictions show these governments also close doors where their industries are hurt, so the movement is towards chosen partners rather than towards open trade.",
+              "id": "f6",
+              "label": "Family money on both sides",
+              "text": "The president's own and his family's holdings now sit on both sides of decisions his administration makes: Nvidia shares while its export case is open, a stake in a contractor before it won defence work. That puts the outcome of trade enforcement inside the household accounts of the person who directs it.",
               "articleIds": [
-                "n-cd2bcf73815182",
-                "n-c72f46aa3781c4",
-                "n-7518497511e7c8"
+                "n-22b0a6a9ec0888",
+                "n-d5c93c20f77d43"
               ],
               "bookIds": [],
               "trajectoryIds": []
@@ -1091,27 +701,18 @@
           ]
         },
         {
-          "id": "n1-r4",
+          "id": "r4",
           "kind": "break",
           "label": "The case against",
           "fragments": [
             {
-              "id": "n1-r4-f1",
-              "label": "Long talks, not new answers",
-              "text": "The EU-Indonesia agreement took a decade and India and Canada are only in a sixth round, so these deals began long before any tariff list and would have been signed anyway. No headline quotes a government naming US tariffs as its reason. A state visit from Uzbekistan and a Saudi-Egyptian power link planned for years are diplomacy that any week contains.",
+              "id": "f7",
+              "label": "Different offences, different stages",
+              "text": "Huawei's conviction ends a prosecution brought in 2019 by career prosecutors in Brooklyn, and it concerns bank fraud and Iran sanctions as much as technology. Nvidia has not been charged with anything in these headlines, and Trump's pardon remark is conditional. One is a finished court case against a company, the other a political statement about a person. Trump has also spared a Chinese firm before, lifting the ZTE ban in 2018, so the pattern may be deals with whoever is useful rather than nationality.",
               "articleIds": [
-                "n-3712eb133c5bd5",
-                "n-7c4d564a15cf02",
-                "n-25a0bc4804cd8b"
+                "n-d493331af67eaa",
+                "n-d64abf05493ae4"
               ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "n1-r4-f2",
-              "label": "Where the events part",
-              "text": "The events do not share a form. EU-Indonesia is a binding treaty, Iraq-Egypt is a visa rule, Qatar-Canada is a conversation, Milei's trip is about regional politics, and the US list is a reported threat with no decree yet. A sample with many papers from Jordan, Qatar and Saudi Arabia will also over-report Arab and Gulf diplomacy, which those outlets cover every day.",
-              "articleIds": [],
               "bookIds": [],
               "trajectoryIds": []
             }
@@ -1123,291 +724,8 @@
           "span": "since-2020",
           "from": "",
           "label": "Since 2020",
-          "lens": "SUPPLY CHAINS / ALLIES / TARIFFS",
-          "text": "The pandemic of 2020 taught governments that one foreign supplier could stop a factory or a hospital, and the invasion of Ukraine in 2022 taught them that trade could be cut for political reasons. Washington's first answer was to bring production home and trade with friends, the policy Janet Yellen called friend-shoring in April 2022. The second Trump administration then taxed friends as well: on 2 April 2025 it announced duties on almost every trading partner, allies included, and Japan and the EU bought lower rates that summer with promises of investment and energy purchases. That removed the distinction friend-shoring rested on. The deals in these headlines, from the EU and Indonesia on 21 November to Jordan and Uzbekistan this week, are made in a world where being a US ally no longer exempts a country from US tariffs. Walla's report of a new list naming Europe and fourteen more countries shows the 2025 settlements did not close the matter.",
-          "trajectoryIds": [],
-          "bookIds": []
-        },
-        {
-          "span": "since-2008",
-          "from": "",
-          "label": "Since 2008",
-          "lens": "CRISIS / MULTILATERALISM / EXIT",
-          "text": "The 2008 crisis ended the last attempt at a single global trade round. The Doha talks broke down in Geneva in July 2008, weeks before Lehman Brothers failed, and were never revived; governments turned to deals between pairs and blocs. The United States led that turn with the Trans-Pacific Partnership and then left it in January 2017. The other eleven signatories went ahead and signed a revised pact in Santiago in March 2018, and the EU and Japan signed their own agreement that July. Britain's vote to leave the EU in 2016 added a large country in search of partners; it joined the Pacific pact in December 2024, and Andy Burnham's praise of a trade deal with Europe, carried by Al Jazeera Net on 24 November, shows the question is still argued at home. The habit this week's deals rely on, middle powers finishing agreements without waiting for Washington, was learned between 2017 and 2019.",
-          "trajectoryIds": [
-            "lehman-2008",
-            "brexit-2016"
-          ],
-          "bookIds": []
-        },
-        {
-          "span": "since-1989",
-          "from": "",
-          "label": "Since 1989",
-          "lens": "WTO / OPENING / SINGLE MARKET",
-          "text": "The end of the Cold War folded most of the world into one trading system. The World Trade Organization opened on 1 January 1995, Jordan joined it in 2000 and China in December 2001, and the five Central Asian republics, Uzbekistan among them, became independent states able to sign their own agreements in 1991. The system rested on two things: a tariff cut for one member was a cut for all, and the United States was the largest open market. Jordan's path shows the change. In 2000 it signed the first US free trade agreement with an Arab country, and for two decades its trade policy was built around American buyers. This week Al-Anbat and Ammon report its king signing agreements with Uzbekistan's president, three days after Khaberni reported closer ties with the EU. A country that once tied its trade to one partner is spreading it, which is what the WTO's decline as a place to negotiate has left most middle-sized economies to do.",
-          "trajectoryIds": [],
-          "bookIds": []
-        },
-        {
-          "span": "since-1945",
-          "from": "",
-          "label": "Since 1945",
-          "lens": "GATT / RECIPROCITY / THE DOLLAR",
-          "text": "The order these deals still sit inside was built after 1945 by people who remembered the 1930s. The US Smoot-Hawley tariff of 1930 and the retaliation it drew helped cut world trade by about two thirds, and governments retreated into closed blocs such as the imperial preference Britain agreed at Ottawa in 1932. The General Agreement on Tariffs and Trade, signed at Geneva in 1947 by twenty-three countries, answered with one rule above the others: a tariff cut for one member must be given to all. The United States opened its market as part of the Cold War, and the dollar fixed at Bretton Woods financed the trade. Karl Polanyi argued in 1944 that markets pulled loose from society provoke a move to pull them back. The list reported by Il Messaggero and Walla charges countries different rates by name, the opposite of the 1947 rule, and the week's bilateral deals are how others recover part of what that rule used to give them.",
-          "trajectoryIds": [
-            "great-depression-1929"
-          ],
-          "bookIds": [
-            "great-transformation"
-          ]
-        }
-      ],
-      "resumes": "20261118T225647/trade-deals-while-powers-bargain",
-      "builds": "trade-deals-among-middle-powers",
-      "built": {
-        "key": "trade-deals-among-middle-powers",
-        "subject": "Trade agreements signed between governments outside the US, China and Russia",
-        "firstSeen": "2026-11-21",
-        "days": 3
-      },
-      "articleIds": [
-        "n-3712eb133c5bd5",
-        "n-7c4d564a15cf02",
-        "n-7518497511e7c8",
-        "n-52eada8b5ee023",
-        "n-17a228f65df6d7",
-        "n-de30b185f6e704",
-        "n-c72f46aa3781c4",
-        "n-cee88fe67b6b92",
-        "n-25a0bc4804cd8b",
-        "n-9ba35640570e79",
-        "n-461aca0994d5ca",
-        "n-a042c84fcc6840",
-        "n-3a78f9352917da",
-        "n-e26bf069344373",
-        "n-6d600f87331757",
-        "n-cd2bcf73815182"
-      ]
-    },
-    {
-      "id": "favour-follows-the-president",
-      "line": "A US firm's treatment by regulators now depends partly on its closeness to the president, who has money in some of them.",
-      "kicker": "PATRONAGE / ENFORCEMENT / SELF-INTEREST",
-      "firmness": "plausible",
-      "watch": [
-        {
-          "what": "A US agency closes, settles or narrows its investigation of Nvidia with no charge against the company or its chief.",
-          "by": "2026-12-23",
-          "because": "If treatment follows closeness to the president, the investigation should end gently soon after he and the attorney general publicly backed the firm; ordinary enforcement would run on.",
-          "id": "20261125T004245-favour-follows-the-president-1"
-        },
-        {
-          "what": "Reports of Huang's 1 December congressional hearing say lawmakers asked about Trump's personal gain from Nvidia's shares.",
-          "by": "2026-12-04",
-          "because": "If the president's own money is part of the story, his opponents should raise it at the first public hearing rather than ask only about chips reaching China.",
-          "id": "20261125T004245-favour-follows-the-president-2"
-        }
-      ],
-      "ahead": {
-        "precedent": "The closest case is Teapot Dome. In 1921 and 1922 Interior Secretary Albert Fall leased naval oil reserves in Wyoming and California to Harry Sinclair and Edward Doheny without competitive bidding and took about $400,000 from them; a Senate inquiry exposed it, and in 1929 Fall became the first cabinet member convicted for crimes in office. The present differs in that the favours reported run through agencies answering to the president, and the gain described is to the president's own holdings, which the main federal conflict-of-interest law does not cover.",
-        "paths": [
-          {
-            "name": "Hearings, not penalties",
-            "weight": "favoured",
-            "text": "From January the new Congress holds hearings on Nvidia, the GEO jail sale and the OakNorth charter, but the agencies close or narrow their own cases and no firm close to the president faces a large fine in 2027. The week points this way because the attorney general has already given Nvidia a public character reference while the investigation is open.",
-            "sign": "A US agency closes or narrows its Nvidia investigation without charges."
-          },
-          {
-            "name": "Huawei verdict becomes a bargaining chip",
-            "weight": "possible",
-            "text": "Huawei's sentencing or penalties are delayed or softened as part of tariff talks with China, as Trump said in May 2019 that Huawei could be included in a trade deal. That would confirm that outcomes for foreign firms are also set by the president's interests rather than by the verdict.",
-            "sign": "A report links Huawei's sentencing or penalties to US-China trade talks."
-          },
-          {
-            "name": "An inspector reverses a favour",
-            "weight": "unlikely",
-            "text": "An inspector general or federal judge finds the GEO price or the OakNorth charter improper and it is reversed. Unlikely within a year, because such reviews are slow and the agencies involved are led by the president's appointees.",
-            "sign": "An inspector general opens a review of the GEO jail purchase or the OakNorth charter."
-          }
-        ],
-        "decade": "Over the decade the likely result is a law, passed after this administration, that extends conflict-of-interest rules to a president's holdings, as Watergate produced the 1978 Ethics in Government Act; until then closeness to the president will keep showing in outcomes."
-      },
-      "continues": "chip-penalties-land-abroad",
-      "change": "Yesterday's narrative had Nvidia's chief returning with the president's support while penalties fell on firms abroad. Today the US attorney general called Nvidia a good corporate citizen while saying little about the investigation, outlets put a figure on what Trump gains from Huang's return, and a US jury convicted Huawei. The pattern now reaches beyond chips, to a bank charter, a jail sale and a medal.",
-      "claim": "Outlets in France, New Zealand and Greece reported on what Trump stands to gain from Jensen Huang's return to Nvidia, while Korea's Hankyoreh quoted the US attorney general calling Nvidia a good corporate citizen and saying little about the investigation into it. In the same day's news a Kushner-backed bank won a US charter, GEO was reported to have sold the administration a jail for $453 million after valuing it at $67 million, Trump announced the Medal of Freedom for Giuliani, and a US jury convicted Huawei of trade secret theft and fraud. The joining fact is one actor: the federal government's decisions about firms and people line up with their closeness to the president. In Nvidia's case the outlets describe the president's own gain, which turns an investigation of the firm into a decision that touches his money.",
-      "events": [
-        {
-          "label": "Trump's gain from Huang's return",
-          "articleIds": [
-            "n-2fab8070a70ace",
-            "n-13ef3c73f3f438",
-            "n-265c349369dba4",
-            "n-0c9fa32d17cb8b"
-          ]
-        },
-        {
-          "label": "Attorney general praises Nvidia during probe",
-          "articleIds": [
-            "n-0b26f554d4c0fc"
-          ]
-        },
-        {
-          "label": "US jury convicts Huawei",
-          "articleIds": [
-            "n-e6b1661c4eaa5e",
-            "n-1ef7e117024b1c",
-            "n-acba7212eee870",
-            "n-2e49d368c72076"
-          ]
-        },
-        {
-          "label": "Kushner-backed bank wins US charter",
-          "articleIds": [
-            "n-27b5dfe9654a1f"
-          ]
-        },
-        {
-          "label": "GEO sells jail to the administration",
-          "articleIds": [
-            "n-3f41a46a57678a"
-          ]
-        },
-        {
-          "label": "Medal of Freedom for Giuliani",
-          "articleIds": [
-            "n-9e3dfe1adc39b8"
-          ]
-        }
-      ],
-      "rungs": [
-        {
-          "id": "n2-r1",
-          "kind": "observation",
-          "label": "Nvidia and the president",
-          "fragments": [
-            {
-              "id": "n2-r1-f1",
-              "label": "What the president gains",
-              "text": "franceinfo asks whether Trump got richer from Huang's surprise return to the head of Nvidia, and the NZ Herald estimates how much he stands to make. Greece's EfSyn carries a CNN analysis of Trump's big risk and of concern among Republicans. Fortune reports that Huang confessed to more affairs and the board took him back anyway.",
-              "articleIds": [
-                "n-2fab8070a70ace",
-                "n-13ef3c73f3f438",
-                "n-265c349369dba4",
-                "n-0c9fa32d17cb8b"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "n2-r1-f2",
-              "label": "What the attorney general said",
-              "text": "Korea's Hankyoreh reports the US attorney general declining to say much about the Nvidia investigation beyond calling the company a good corporate citizen. That is a character reference from the official in charge of the prosecutors, given while the case is open.",
-              "articleIds": [
-                "n-0b26f554d4c0fc"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "n2-r2",
-          "kind": "observation",
-          "label": "A bank, a jail, a medal, a verdict",
-          "fragments": [
-            {
-              "id": "n2-r2-f1",
-              "label": "Decisions at home",
-              "text": "CNBC reports that OakNorth, backed by Jared Kushner, has secured a US bank charter. IBT UK reports that GEO valued an immigration jail at $67 million before selling it to the administration for $453 million. Canada's Niagara Falls Review reports that Trump will give the Medal of Freedom to Giuliani, described as a fierce political ally.",
-              "articleIds": [
-                "n-27b5dfe9654a1f",
-                "n-3f41a46a57678a",
-                "n-9e3dfe1adc39b8"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "n2-r2-f2",
-              "label": "A foreign rival in court",
-              "text": "WELT and Handelsblatt in Germany, La Tercera in Chile and the BBC report a US jury finding Huawei guilty after lengthy proceedings. The German and Chilean versions stress money laundering and bank fraud; the BBC reports guilt for stealing trade secrets and acquittal on racketeering.",
-              "articleIds": [
-                "n-e6b1661c4eaa5e",
-                "n-acba7212eee870",
-                "n-1ef7e117024b1c",
-                "n-2e49d368c72076"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "n2-r3",
-          "kind": "interpretation",
-          "label": "One actor, two standards",
-          "fragments": [
-            {
-              "id": "n2-r3-f1",
-              "label": "Closeness decides the tone",
-              "text": "The joining actor is the federal government under one president. Where a firm or person is close to him, the reported outcomes are soft: praise for Nvidia from the attorney general, a charter for a bank tied to his son-in-law, a price for a jail nearly seven times its earlier valuation, a medal for an ally. Where the firm is a foreign rival, the outcome is a jury verdict.",
-              "articleIds": [
-                "n-0b26f554d4c0fc",
-                "n-27b5dfe9654a1f",
-                "n-3f41a46a57678a",
-                "n-2e49d368c72076"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "n2-r3-f2",
-              "label": "When the president holds the stake",
-              "text": "Favour for allies is old in Washington. The new element is that the outlets in France and New Zealand are writing about the president's own gain from a firm his attorney general is investigating, so an enforcement decision is also a decision about his money.",
-              "articleIds": [
-                "n-2fab8070a70ace",
-                "n-13ef3c73f3f438"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "n2-r4",
-          "kind": "break",
-          "label": "The case against",
-          "fragments": [
-            {
-              "id": "n2-r4-f1",
-              "label": "Different institutions decided",
-              "text": "The Huawei case was brought by prosecutors years ago and decided by a jury, which acquitted on racketeering; it shows something about US courts, not about the president's favour. A bank charter comes from a regulator after a long application, and CNBC frames OakNorth as part of a wider push by foreign digital banks. A medal is an honour, not a regulatory act, and the GEO price may reflect contract terms the headline does not give.",
-              "articleIds": [
-                "n-2e49d368c72076",
-                "n-27b5dfe9654a1f"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "n2-r4-f2",
-              "label": "Where the events part",
-              "text": "The events share an actor but not a mechanism: one is a criminal verdict, one a licence, one a purchase, one an honour and one a remark about an open case. Closeness to a president can be found after the fact for almost any large firm, and no headline shows a decision that went against the evidence before it.",
-              "articleIds": [],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        }
-      ],
-      "horizons": [
-        {
-          "span": "since-2020",
-          "from": "",
-          "label": "Since 2020",
-          "lens": "AI / EXPORT CONTROLS / MARKET VALUE",
-          "text": "ChatGPT's release in November 2022 turned Nvidia's chips into the scarce input of a new industry. The company's market value passed a trillion dollars in May 2023 and kept rising, so that by these headlines Huang's return moves Korea's main index and a fall in Nvidia shares moves Wall Street. In the same years Washington made the chips an instrument of policy: export controls on advanced chips to China in October 2022 and October 2023 meant that what Nvidia could sell, and to whom, was settled in the Commerce Department. A firm whose sales depend on government licences, and whose share price sits in millions of retirement accounts, is a firm whose relations with the White House matter to both sides. That is the setting for franceinfo and the NZ Herald asking what Trump gains from Huang's return, and for the attorney general's choice, reported by Hankyoreh, to praise the company rather than discuss the case against it.",
+          "lens": "EXPORT CONTROLS / AI CHIPS / MARKET VALUE",
+          "text": "On 7 October 2022 the Commerce Department's Bureau of Industry and Security barred sales of the most advanced AI chips to China, and tightened the rules again in October 2023 and December 2024. Nvidia answered each round with chips cut down to pass under the line, the A800 and later the H20, because China was then roughly a fifth of its data-centre sales. Seven weeks after the first rule, ChatGPT's launch made Nvidia the supplier every AI lab depended on, and within two years one of the most valuable companies in the world. That turned the export rule into the most valuable line in US trade law, and its enforcement into a stock-market question as well as a China question. By these headlines Trump's accounts traded the shares 44 times this year while the case over chips reaching China was open, and the Straits Times reports China's shortage unresolved. The decade built a rule whose breach pays, around a company the president holds.",
           "trajectoryIds": [
             "chatgpt-2022"
           ],
@@ -1417,8 +735,506 @@
           "span": "since-2008",
           "from": "",
           "label": "Since 2008",
-          "lens": "BAILOUTS / BANK CHARTERS / PROXIMITY",
-          "text": "In September 2008 the US government let Lehman Brothers fail and two days later rescued AIG. Congress passed a $700 billion rescue fund in October, and for the first time in decades Washington decided, firm by firm, which large companies would survive. Adam Tooze's account of the decade shows how that crisis made the relation between governments and particular firms a lasting political question rather than an emergency measure. One effect shows in the CNBC headline about OakNorth: after 2008 regulators granted very few new bank charters, so winning one became a sign of official acceptance as much as a licence to lend. OakNorth's charter, with Jared Kushner's backing, comes as foreign digital banks push into the US market. The same period made the federal government a large buyer of private services, including detention, which is the background to GEO, a private prison operator, selling a jail to the administration at a large gain.",
+          "lens": "HUAWEI / SANCTIONS / BARGAINING",
+          "text": "The years after the 2008 crash made China the world's second economy and Huawei its largest maker of telecoms equipment. Washington's suspicion was set down early: a House Intelligence Committee report in October 2012 called Huawei and ZTE a security risk. In 2017 ZTE pleaded guilty to shipping US technology to Iran and North Korea and agreed to pay up to $1.19 billion; in 2018 Trump lifted a new Commerce ban on ZTE after a call with Xi Jinping, the first open trade of export enforcement for something else. Huawei's finance chief Meng Wanzhou was arrested in Vancouver on 1 December 2018 on US charges of deceiving banks about Iran, the company went on the Entity List in May 2019, and Meng went home in 2021 under a deferred prosecution agreement. The conviction Huawei rejects in today's Bangkok Post closes that line. Both governments learned in these years that a firm's legal fate could be a bargaining chip.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "EMBARGO / OPENING / WTO",
+          "text": "After the army cleared Tiananmen Square in June 1989, the United States and the European Community banned arms sales to China, and both bans still stand. Yet the Cold War system of export control, CoCom, was wound up in 1994 and replaced in 1996 by the looser Wassenaar Arrangement, and the 1990s were spent licensing more technology to China, not less. China joined the WTO in December 2001 on the argument that trade would change it. That bet produced two kinds of firm: Chinese companies such as Huawei, built partly on access to Western parts and markets, and American firms such as Nvidia, whose chips were made in Taiwan and sold heavily into China. The trade controls at issue in the Nvidia scandal and in Huawei's conviction are the reversal of that thirty-year opening, applied to companies the opening created.",
+          "trajectoryIds": [
+            "tiananmen-1989"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "COCOM / EMERGENCY POWERS / PARDON",
+          "text": "Trade control as a weapon belongs to the postwar order. The United States and its allies set up CoCom in 1949 to keep strategic goods from the Soviet bloc, and the International Emergency Economic Powers Act of 1977 let presidents bar trade by declaring an emergency. The same constitution gives the president a pardon power with almost no limit, used by Ford for Nixon in 1974 and by Clinton in January 2001 for Marc Rich, a commodity trader indicted for tax evasion and for trading with Iran during the hostage crisis. The Rich pardon brought Senate hearings and was widely held to break an unwritten rule, the restraint Levitsky and Ziblatt call forbearance. The office that declares a trade emergency and the office that can forgive its breach are the same. Observador's headline today, a pardon offered before any charge, is that power used in advance.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "how-democracies-die"
+          ]
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-d5c93c20f77d43",
+        "n-d64abf05493ae4",
+        "n-4ddf7864b7b451",
+        "n-8007d582b6f80b",
+        "n-07637a8798b26e",
+        "n-afb7a5879bc83c",
+        "n-d493331af67eaa",
+        "n-d7bb2f562b246c",
+        "n-22b0a6a9ec0888"
+      ]
+    },
+    {
+      "id": "id-stores-breached",
+      "line": "Rules against fraud make banks and exchanges collect ID and report it to regulators, and both ends are now being breached.",
+      "kicker": "IDENTITY / COMPLIANCE / CUSTODY",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "Korea's financial regulator or privacy commission fines Bithumb or orders exchanges to change how they store resident registration numbers.",
+          "by": "2026-12-24",
+          "because": "If the store that the anti-money-laundering law created is the weak point, the regulators' answer will be aimed at the store, not only at the hackers.",
+          "id": "20261126T001903-id-stores-breached-1"
+        },
+        {
+          "what": "Another financial regulator, tax office or bank supervisor in Europe or Asia reports unauthorised access to its systems.",
+          "by": "2026-12-20",
+          "because": "The join says the receiving end of compliance reporting is now a target, so the US agency should not be the only one.",
+          "id": "20261126T001903-id-stores-breached-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "In January 2014 a contractor at a credit bureau stole personal data on about 20 million customers of three Korean card companies, KB Kookmin, Lotte and NH. The government answered by restricting the collection of resident registration numbers by law from August 2014, and collection fell where it had been optional. The difference now is that crypto exchanges are required to verify and keep customers' identities under the 2021 real-name rules, so the law limiting the store and the law demanding it point in opposite directions.",
+        "paths": [
+          {
+            "name": "Fines, with the store kept",
+            "weight": "favoured",
+            "text": "Korea's Personal Information Protection Commission and Financial Services Commission inspect and fine Bithumb over the coming months and tighten security rules, but exchanges go on holding ID numbers because the anti-money-laundering law requires it. FinCEN restores its filing systems and says little about what was reached. This is favoured because both duties are in force and neither regulator can drop its own.",
+            "sign": "A Korean regulator announces an inspection or fine of Bithumb over the leak."
+          },
+          {
+            "name": "Verify without keeping a copy",
+            "weight": "possible",
+            "text": "Korea or the US moves to checks against a government source, such as Korea's mobile ID, so firms confirm identity without storing it. Possible within a year because Korea has already built the means.",
+            "sign": "A Korean ministry proposes letting exchanges verify customers without storing resident registration numbers."
+          },
+          {
+            "name": "Reporting duties eased",
+            "weight": "unlikely",
+            "text": "Governments reduce what banks and exchanges must collect because the stores are too risky. Unlikely, because the FATF rules behind these duties are being tightened, not relaxed.",
+            "sign": "A government cuts a customer identification or reporting requirement and names breach risk as the reason."
+          }
+        ],
+        "decade": "Over the decade the duty to identify customers will reach more payments and platforms, so the stores will grow, and the question will be whether identity is checked against a state source or copied into every firm."
+      },
+      "continues": "",
+      "change": "On 21 November the breaches were of state records and shop data side by side. Since then they have reached both ends of the anti-fraud system: Bithumb, a Korean exchange obliged to verify every customer, says resident registration numbers and transaction records were taken in an intrusion that ran over two weeks unseen, and the US office that receives banks' reports is investigating unauthorised access. None of the breaches named on 21 November has been attributed in this collection.",
+      "claim": "Bithumb, the Korean crypto exchange, says hackers were inside for more than two weeks and took customers' resident registration numbers and transaction records; FinCEN, the US Treasury office that receives banks' reports on suspicious money, is investigating unauthorised access and has extended filing deadlines; a hacker reached client data at the password manager 1Password; and in Bangladesh phishing links are taking over phones and emptying bank accounts. The exchange and the agency hold what anti-money-laundering rules demand: customers' identities on one side, reports about them on the other. Rules written to stop fraud have built stores of what fraudsters most want, while the fraud itself still arrives through people's phones.",
+      "events": [
+        {
+          "label": "Bithumb breach ran two weeks unseen",
+          "articleIds": [
+            "n-8472f2167742b8",
+            "n-a7fa8fa5517a41"
+          ]
+        },
+        {
+          "label": "FinCEN investigates access to its systems",
+          "articleIds": [
+            "n-1cf21174163b24"
+          ]
+        },
+        {
+          "label": "Hacker reaches 1Password client data",
+          "articleIds": [
+            "n-04801262fa42b8"
+          ]
+        },
+        {
+          "label": "Phishing empties Bangladeshi bank accounts",
+          "articleIds": [
+            "n-7700f64f48a5f6"
+          ]
+        },
+        {
+          "label": "Roblox players warned of password theft",
+          "articleIds": [
+            "n-ce95e6acd48911"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "An exchange and a regulator",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Bithumb's widening leak",
+              "text": "Financial News (South Korea) reports that the Bithumb hack did more damage than first said and went undetected for over two weeks. Newspim (South Korea) reports Bithumb confirming a further leak that includes resident registration numbers and transaction records.",
+              "articleIds": [
+                "n-8472f2167742b8",
+                "n-a7fa8fa5517a41"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "The reporting office",
+              "text": "International Business Times UK reports that FinCEN, the US Treasury's financial crimes network, is investigating unauthorised access to some of its systems and has extended certain filing deadlines. The headline does not say what was read.",
+              "articleIds": [
+                "n-1cf21174163b24"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Vaults, phones and games",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Credentials and accounts",
+              "text": "Izvestia (Russia) reports a hacker gaining access to client data at 1Password, a service people pay to keep their passwords safe. bdnews24 (Bangladesh) reports phones taken over through a phishing link and bank accounts emptied. Viva (Indonesia) warns Roblox players of password theft and webcam access.",
+              "articleIds": [
+                "n-04801262fa42b8",
+                "n-7700f64f48a5f6",
+                "n-ce95e6acd48911"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "What the stores hold and why",
+          "fragments": [
+            {
+              "id": "f4",
+              "label": "Data held by legal duty",
+              "text": "Korean exchanges may operate only with verified real-name accounts, so Bithumb held resident registration numbers because the law required it. FinCEN holds what US banks are obliged to report. Both stores exist because of rules against money laundering and fraud, and customers had no choice about filling them. The extended deadlines show that when the store is in doubt, the reporting system itself pauses.",
+              "articleIds": [
+                "n-a7fa8fa5517a41",
+                "n-1cf21174163b24"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f5",
+              "label": "Fraud goes around the stores",
+              "text": "The Bangladeshi and Roblox cases show theft still running through the person's own device, where no identity check reaches. The rules add a large store that must be defended without closing the route thieves use most. People are exposed twice: through the record they were made to hand over and through the phone they carry.",
+              "articleIds": [
+                "n-7700f64f48a5f6",
+                "n-ce95e6acd48911",
+                "n-04801262fa42b8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Most of this is not compelled data",
+              "text": "1Password holds data people chose to give it, Roblox accounts are game logins, and the Bangladeshi phishing breached no store at all. Bithumb was hacked in 2017 and 2018 for its coins, and the attackers may again have wanted wallets, with ID numbers taken on the way. FinCEN's headline says only 'some systems'. What these events share may be no more than that breaches are reported every day, and only two of the six fit the claim about compliance rules.",
+              "articleIds": [
+                "n-04801262fa42b8",
+                "n-1cf21174163b24"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "CRYPTO / REAL NAMES / REPORTING",
+          "text": "Korea's amended Act on Reporting and Using Specified Financial Transaction Information took effect in March 2021, and from September that year crypto exchanges could operate only with real-name bank accounts and registration with the Financial Intelligence Unit. Dozens of small exchanges closed; the survivors, Upbit and Bithumb among them, became stores of verified identities. In the United States the Corporate Transparency Act of January 2021 required companies to report their real owners to FinCEN from 2024, before the Treasury exempted domestic firms in March 2025. The FATF's travel rule asked exchanges to pass customers' names along with each transfer. The decade's answer to crypto fraud and shell companies was to collect more names in more places. By today's headlines, the Korean exchange's store of resident registration numbers and the US office that receives the reports are both reported breached.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SMARTPHONES / MOBILE MONEY / LEAKS",
+          "text": "After 2008 banking moved onto the phone. In Bangladesh bKash, launched in 2011, put money accounts on basic handsets, and the phone number became both account and identity. Korea had repeated leaks in the same years: Auction in 2008, Nate and Cyworld in 2011 with 35 million users' data, the card companies in 2014. In the United States the Office of Personnel Management lost 21.5 million security clearance files in 2015 and Equifax the data of about 147 million people in 2017, a credit agency holding data consumers never chose to give it. Shoshana Zuboff describes platforms built on collecting more than any service needs; compliance collects for a different reason but ends in the same large stores. The bdnews24 report of phones taken over by a link is the other half of this: when the phone is the identity, thieves go to the phone.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "surveillance-capitalism"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "FATF / KNOW YOUR CUSTOMER / ONLINE BANKING",
+          "text": "The Financial Action Task Force was created at the G7's Paris summit in July 1989 to fight drug money, and its forty recommendations of 1990 made knowing the customer a duty for banks everywhere. After September 2001, section 326 of the USA PATRIOT Act turned it into a formal customer identification programme in US law, and FATF extended its rules to terrorist finance. The same years put banking online, so the documents banks were now obliged to keep sat in computers reachable from anywhere. A rule written for bank counters and paper files was carried unchanged into databases. The FinCEN breach reported by International Business Times UK is a breach of the office where thirty-five years of those duties send their reports.",
+          "trajectoryIds": [
+            "netscape-1995"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "REGISTRATION / LEGIBILITY / BANK SECRECY",
+          "text": "South Korea introduced resident registration cards in 1968 under Park Chung-hee, after North Korean commandos came close to the presidential Blue House that January; the thirteen-digit number every citizen carries dates from 1975. A security measure became the key to every bank, phone and shop account. The US Bank Secrecy Act of 1970, despite its name, required banks to keep records and report large cash transactions to the government. Both belong to the postwar state's effort to make its population countable, what James C. Scott calls legibility. The numbers and reports were made for the state to read. Fifty years on, the Bithumb leak shows them read by whoever gets into the store, and a number fixed at birth cannot easily be changed the way a password can.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "seeing-like-a-state"
+          ]
+        }
+      ],
+      "resumes": "20261121T213836/personal-data-breaches",
+      "builds": "",
+      "articleIds": [
+        "n-8472f2167742b8",
+        "n-a7fa8fa5517a41",
+        "n-1cf21174163b24",
+        "n-04801262fa42b8",
+        "n-7700f64f48a5f6",
+        "n-ce95e6acd48911"
+      ]
+    },
+    {
+      "id": "public-money-enters-ai-selloff",
+      "line": "Governments are offering public money to AI in the same weeks that shareholders sell it, so citizens take on what markets now doubt.",
+      "kicker": "RISK / THE STATE / VALUATION",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "A government outside the US announces an equity stake, loan guarantee or public fund for a named AI company or data-centre project.",
+          "by": "2026-12-20",
+          "because": "The join predicts public money keeps arriving while prices fall; if states followed markets, offers would stop during a sell-off.",
+          "id": "20261126T001903-public-money-enters-ai-selloff-1"
+        },
+        {
+          "what": "A pension or sovereign wealth fund is reported buying AI shares, AI bonds or data-centre debt during the sell-off.",
+          "by": "2026-12-24",
+          "because": "If the risk is moving from shareholders to the public, publicly owned funds are where it would show first.",
+          "id": "20261126T001903-public-money-enters-ai-selloff-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "In 1982 Japan's trade ministry launched the Fifth Generation Computer project, ten years and about ¥54 billion of public money for AI machines, at a time when private interest was cooling; it closed in 1992 with little commercial use, and Britain answered with its own public Alvey programme in 1983. The state carried what investors would not. The difference now is that AI already earns large sums for a few firms, and public money is arriving after a private boom rather than in place of one.",
+        "paths": [
+          {
+            "name": "Funds announced, little spent",
+            "weight": "favoured",
+            "text": "Governments announce funds and approvals through early 2027, but little is paid out before budgets pass, and the sums are small beside private spending. The sell-off and the public plans run side by side without one rescuing the other. Favoured because announcements cost nothing until the money is spent.",
+            "sign": "A government names the size of an AI fund but no first investment."
+          },
+          {
+            "name": "States buy in directly",
+            "weight": "possible",
+            "text": "If the sell-off deepens in the new year, a government or state fund takes a direct stake in a struggling AI or data-centre firm, as Washington did with Intel in August 2025. Possible because the strategic case for owning AI does not weaken when prices fall.",
+            "sign": "A state fund announces it has bought a stake in an AI or data-centre company whose shares have fallen."
+          },
+          {
+            "name": "Plans shelved as prices fall",
+            "weight": "unlikely",
+            "text": "Governments cut AI plans when markets turn. Unlikely, because the plans rest on sovereignty and industrial policy set out before the fall.",
+            "sign": "A government withdraws or shrinks an announced AI investment plan, naming market conditions."
+          }
+        ],
+        "decade": "Over ten years a large share of AI infrastructure is likely to be owned, licensed or guaranteed by states, as railways and grids once were, so its losses will run through budgets as well as share prices."
+      },
+      "continues": "",
+      "change": "On 20 November states were offering to choose sites for data centres and carry their losses. Since then the selling of AI shares has continued: today the Dow fell more than 1,000 points before recovering, Anthropic fell further and small investors in Korea and China report heavy losses. The new public offers are broader: Malaysia is exploring an AI wealth fund for its citizens and the EU plans €50 billion for AI and quantum computing.",
+      "claim": "On a day Wall Street swung by more than 1,000 points on fears about AI, Anthropic's shares fell further and the AI firm SuperX lost 18%, Malaysia's prime minister said his government is exploring an AI wealth fund for Malaysians, the EU set out €50 billion for AI and quantum computing, and the United States approved Elon Musk's plan for a million satellites hosting data centres in space. Private investors are marking AI down because they doubt the returns will come soon; governments are committing money and licences to it for reasons of strategy that do not depend on price. When public money comes in as private buyers pull back, the people who carry the loss if the returns do not arrive shift from shareholders to taxpayers.",
+      "events": [
+        {
+          "label": "Wall Street swings on AI fears",
+          "articleIds": [
+            "n-f2240ae1823381",
+            "n-e0c6e900d13f41",
+            "n-7637d02d6b800a",
+            "n-b61a6ba521776f"
+          ]
+        },
+        {
+          "label": "Losses for smaller AI holders and firms",
+          "articleIds": [
+            "n-af3f8ff55ef0e1",
+            "n-7d4fec1274fa89",
+            "n-b0f99841aae046",
+            "n-d580db8c1d13c3"
+          ]
+        },
+        {
+          "label": "Malaysia explores an AI wealth fund",
+          "articleIds": [
+            "n-8d9aa989f1b2f4"
+          ]
+        },
+        {
+          "label": "EU plans €50bn for AI and quantum",
+          "articleIds": [
+            "n-1b3a9f2f5d82ad",
+            "n-4199e26225677e"
+          ]
+        },
+        {
+          "label": "US approves orbital data centres",
+          "articleIds": [
+            "n-628861c26d465f"
+          ]
+        },
+        {
+          "label": "Bets on state data-centre moratoriums",
+          "articleIds": [
+            "n-c7c3a326a745fa"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "A day of selling",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Wall Street",
+              "text": "The BBC (United Kingdom) reports US stocks falling further as fears over AI intensify. TVBS (Taiwan) and La Tercera (Chile) report the Dow dropping more than 1,000 points before closing higher. Nieuws.nl (Netherlands) reports Wall Street extending its losing streak as Anthropic falls further.",
+              "articleIds": [
+                "n-f2240ae1823381",
+                "n-e0c6e900d13f41",
+                "n-7637d02d6b800a",
+                "n-b61a6ba521776f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Smaller holders",
+              "text": "Herald Business (South Korea) carries an investment expert who lost 300 million won in the crash. Sina (China) reports SuperX AI Technology shares down 18.44%, and CNBC (United States) a robotics stock that has lost half its value. Huatai Securities, quoted by Sina, says the AI industry now puts more weight on delivery and the quality of returns.",
+              "articleIds": [
+                "n-af3f8ff55ef0e1",
+                "n-7d4fec1274fa89",
+                "n-b0f99841aae046",
+                "n-d580db8c1d13c3"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Public commitments the same day",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Funds",
+              "text": "The Star (Malaysia) reports Anwar Ibrahim saying the government is exploring an AI wealth fund for Malaysians. CNA (Singapore) reports an EU plan for €50 billion of investment in AI and quantum computing, and Handelsblatt (Germany) that the EU wants to lead the world in quantum technology.",
+              "articleIds": [
+                "n-8d9aa989f1b2f4",
+                "n-1b3a9f2f5d82ad",
+                "n-4199e26225677e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "Licences and limits",
+              "text": "La Tercera (Chile) reports the United States approving Musk's plan to launch a million satellites for data centres in space. CNBC reports Kalshi traders putting the odds of US states imposing data-centre moratoriums above even.",
+              "articleIds": [
+                "n-628861c26d465f",
+                "n-c7c3a326a745fa"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Who holds the risk",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "Opposite reasons, same asset",
+              "text": "Investors sell because they are asking, in Huatai's words, about delivery and returns. Governments commit for reasons a share price does not measure: control of the technology in Europe, a share of the gains for citizens in Malaysia, a lead in orbit for the United States. Those reasons do not change when prices fall, which is why public commitments keep coming during a sell-off, and why the public ends up holding more of the risk.",
+              "articleIds": [
+                "n-d580db8c1d13c3",
+                "n-8d9aa989f1b2f4",
+                "n-1b3a9f2f5d82ad"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f6",
+              "label": "Permission as well as money",
+              "text": "The state's other contribution is permission. Approving a million satellites hands over orbit and radio spectrum worth more than most subsidies, while state moratoriums would withhold sites. Whether AI's machinery gets built is now decided by public bodies on one side and private prices on the other.",
+              "articleIds": [
+                "n-628861c26d465f",
+                "n-c7c3a326a745fa"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f7",
+              "label": "Timing, not a transfer",
+              "text": "The EU and Malaysian plans were prepared long before this week, and the EU announced an AI investment drive in February 2025. A day when the Dow ended higher is not a collapse, and a wealth fund for Malaysians may be meant to share AI's gains with citizens, not to support the industry. The selling is in US and Chinese markets and the public money in Europe and Malaysia: no government here is buying the shares being sold. The events share a date and a subject, and the transfer of risk is an inference.",
+              "articleIds": [
+                "n-8d9aa989f1b2f4",
+                "n-1b3a9f2f5d82ad",
+                "n-e0c6e900d13f41"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "INDUSTRIAL POLICY / SOVEREIGNTY / SUBSIDY",
+          "text": "The governments of this decade treated computing power as a matter of sovereignty before AI became a market story. The US CHIPS and Science Act of August 2022 gave $52 billion for chip plants; the EU adopted its AI Act in 2024 and in February 2025 the Commission announced InvestAI, aiming to mobilise €200 billion; Johor in Malaysia became one of Asia's fastest-growing data-centre sites from 2023, built on land, water and power the state allocated. In August 2025 Washington took a stake of about 10% in Intel. When ChatGPT's launch in November 2022 brought private money in, it arrived on top of public plans already running. By these headlines AI labs have since gone to public share markets, and today their prices fall on doubts about returns while the EU's €50 billion plan reported by CNA and Malaysia's AI wealth fund go ahead: two reasons for owning AI pulling apart.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CHEAP MONEY / SOVEREIGN FUNDS / BAILOUT",
+          "text": "After Lehman failed in September 2008, central banks held rates near zero and bought bonds for most of a decade, and the cheap money flowed into technology shares and private funds. State wealth funds became the largest backers of private technology: Saudi Arabia's Public Investment Fund put $45 billion into SoftBank's Vision Fund in 2017, and Gulf and Asian funds later backed AI labs. Adam Tooze shows how the rescue of 2008 tied states and markets more closely than before, and left the habit that public money is the buyer of last resort when private money withdraws. When rates rose from 2022, expensive bets became costly to hold, which is part of why AI shares now fall on fear, as the BBC reports. The Malaysian fund and the EU plan come from governments that learned after 2008 to step in when markets pull back.",
           "trajectoryIds": [
             "lehman-2008"
           ],
@@ -1430,17 +1246,20 @@
           "span": "since-1989",
           "from": "",
           "label": "Since 1989",
-          "lens": "CHINA / TELECOMS / TRADE SECRETS",
-          "text": "Huawei was founded in Shenzhen in 1987 and grew with the opening that followed China's entry to the WTO in 2001, selling network equipment across Africa, Europe and Latin America at prices Western firms could not match. Its conflict with US law began as commercial: Cisco sued it in 2003 over copied router software and settled in 2004. Washington then recast the dispute as one of security. In December 2018 Canada arrested Huawei's finance chief, Meng Wanzhou, on a US warrant, and federal prosecutors in New York later charged the company with bank fraud, trade secret theft and racketeering. By these headlines a jury has now convicted on theft and fraud but not racketeering. The years after 1989 made Chinese firms direct competitors of American ones in the same markets, which is why outlets in Germany, Chile and Britain read a verdict against a foreign firm beside leniency towards a domestic one.",
-          "trajectoryIds": [],
+          "lens": "DOT-COM / MULTIMEDIA CORRIDOR / LEFTOVER NETWORKS",
+          "text": "Netscape's listing in August 1995 was the first time public markets priced a technology that had not yet earned anything, and the Nasdaq rose about fivefold before it fell from March 2000. Asian governments copied the build-out with public money: Malaysia's Multimedia Super Corridor, launched by Mahathir Mohamad in 1996 with the new town of Cyberjaya, was a state plan to place the country inside the internet economy. After the crash, fibre and data centres built by failed companies were bought cheaply and used for decades. Private investors lost the money, the infrastructure stayed, and states often ended up owning or subsidising what was left. Anwar's AI wealth fund, reported by The Star, stands in the same line as the Corridor, with a share in the gains offered to citizens rather than a new town.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
           "bookIds": []
         },
         {
           "span": "since-1945",
           "from": "",
           "label": "Since 1945",
-          "lens": "SCIENCE / STATE / ETHICS LAW",
-          "text": "After 1945 the American state paid for most of the technology that mattered. The workshop that named artificial intelligence at Dartmouth in 1956 was foundation-funded, and after Sputnik in 1957 the Pentagon set up the research agency that later built the internet. Firms built what the state commissioned, and the rules for that relation were written for contractors and officials. After Watergate the Ethics in Government Act of 1978 required senior officials to disclose their finances, but the federal criminal conflict-of-interest statute has never applied to the president, a gap covered for decades by the custom of blind trusts. Seventy years after Dartmouth the builder of the decisive technology is a private company, and the headlines from France and New Zealand about Trump's gains from Nvidia describe a president with a stake in a firm his own administration is investigating. The postwar rules dealt with officials who bought from firms, not with a president who holds shares in them.",
+          "lens": "STATE SCIENCE / ARPA / ORBIT",
+          "text": "For forty years after 1945 the technologies expected to change everything were commissioned by governments: the computer grew from wartime code-breaking and ballistics, the 1956 Dartmouth workshop that named artificial intelligence ran on foundation money, and ARPA, founded in 1958 after Sputnik, paid for much early AI research and the network that became the internet. Space was a state monopoly into the 1980s, and orbit and radio spectrum are still allotted by national regulators and the International Telecommunication Union. The present boom reversed this: the builders are companies and the funding private. The US approval of a million satellites for data centres in space, reported by La Tercera, shows the state's older role returning through permission rather than ownership, while Europe and Malaysia return to it through funds.",
           "trajectoryIds": [
             "dartmouth-1956",
             "sputnik-1957"
@@ -1448,538 +1267,22 @@
           "bookIds": []
         }
       ],
-      "resumes": "",
+      "resumes": "20261120T224019/data-centres-absorb-investment",
       "builds": "",
       "articleIds": [
-        "n-2fab8070a70ace",
-        "n-13ef3c73f3f438",
-        "n-265c349369dba4",
-        "n-0c9fa32d17cb8b",
-        "n-0b26f554d4c0fc",
-        "n-27b5dfe9654a1f",
-        "n-3f41a46a57678a",
-        "n-9e3dfe1adc39b8",
-        "n-e6b1661c4eaa5e",
-        "n-acba7212eee870",
-        "n-1ef7e117024b1c",
-        "n-2e49d368c72076"
-      ]
-    },
-    {
-      "id": "civilian-places-readied-for-strikes",
-      "line": "Drones now reach far behind any front, so civilian buildings and roads in countries at peace are being prepared for strikes.",
-      "kicker": "RANGE / CIVIL DEFENCE / DISPERSAL",
-      "firmness": "plausible",
-      "watch": [
-        {
-          "what": "A European government outside Ukraine announces money or a rule for shelters in hospitals, schools or new housing and names drones as the reason.",
-          "by": "2026-12-20",
-          "because": "If range is the common cause, the planning NRK describes for hospitals should turn into civilian rules in a country not at war, not only into defence spending.",
-          "id": "20261125T004245-civilian-places-readied-for-strikes-1"
-        },
-        {
-          "what": "A Gulf government orders new protection, evacuation drills or access limits for high-rise office towers after the Riyadh attacks.",
-          "by": "2026-12-16",
-          "because": "If strikes are now aimed at office districts rather than oil plants, the answer should move into the buildings themselves, as it is in Norway and Finland.",
-          "id": "20261125T004245-civilian-places-readied-for-strikes-2"
-        }
-      ],
-      "ahead": {
-        "precedent": "The closest case is the Cold War in Sweden and Switzerland. From the late 1950s Sweden dispersed its air force to road strips, and from 1963 Swiss law required a shelter place for every resident; both were built against an attack that never came, and both were run down after 1991. The present differs in that the strikes are already landing, Riyadh's tallest tower twice in one week, and the weapon costs far less than the defence against it.",
-        "paths": [
-          {
-            "name": "Shelters written into building rules",
-            "weight": "favoured",
-            "text": "Through 2027 the Nordic and Baltic states and Poland add protection requirements for hospitals and new public buildings and fund more reserve road strips, while Gulf states add hardening and drills for office towers. The week points this way because the preparations come from health and interior ministries as well as defence ones, which is how a measure becomes part of a building code.",
-            "sign": "A government publishes a shelter or protection requirement for new hospitals or public buildings, naming drones."
-          },
-          {
-            "name": "Money goes to interceptors instead",
-            "weight": "possible",
-            "text": "Governments put the money into cheaper interceptors, like the missile unian says Ukraine has built for a new air defence system, and leave buildings as they are. That is quicker and more visible, and could stall the civilian measures for several years.",
-            "sign": "A European government announces a large counter-drone or interceptor purchase while delaying a civil defence plan."
-          },
-          {
-            "name": "Ceasefires take the urgency away",
-            "weight": "unlikely",
-            "text": "If the Russia and Iran wars both reach ceasefires by spring, shelter and dispersal plans are shelved as they were after 1991. Unlikely in that time, because strikes on Riyadh and on Ukraine's towns continued through this month's talks.",
-            "sign": "A government delays or cuts a civil defence budget, citing a ceasefire."
-          }
-        ],
-        "decade": "Within ten years protection against strikes is likely to be a normal part of building codes and hospital standards across northern Europe and the Gulf, paid for from civilian budgets rather than defence ones."
-      },
-      "continues": "",
-      "change": "",
-      "claim": "Norway's NRK reports that hospitals now need bomb shelters as drone warfare spreads, Iraq's defence minister has ordered military units out of cities, French and Dutch jets have practised landing on a Finnish motorway, and Finland's interior minister says its public hazard warning test went better this time. In the same days a Houthi attack hit the tallest tower in Riyadh's financial district for the second time in a week, a drone entered Polish airspace, and Ukraine published another day's power cut schedules after Russian strikes. The joining cause is range: cheap drones and missiles now reach offices, grids and towns hundreds of kilometres from any fighting. Governments are answering by moving defence into the places people live and work, and by moving soldiers out of them.",
-      "events": [
-        {
-          "label": "Hospitals and public warnings prepared",
-          "articleIds": [
-            "n-59bf07e7a03c5c",
-            "n-60318c8e56d165"
-          ]
-        },
-        {
-          "label": "Iraq moves military units out of cities",
-          "articleIds": [
-            "n-848f3ac40b00ed"
-          ]
-        },
-        {
-          "label": "Jets practise landing on Finnish motorway",
-          "articleIds": [
-            "n-c6fe199903569e",
-            "n-af0b82f55b341c"
-          ]
-        },
-        {
-          "label": "Riyadh tower hit twice in a week",
-          "articleIds": [
-            "n-7283aa604f9c7c",
-            "n-d085f81dfa7f80",
-            "n-f61dcb42abd52e"
-          ]
-        },
-        {
-          "label": "Drone enters Polish airspace",
-          "articleIds": [
-            "n-e1e4c60c75741f"
-          ]
-        },
-        {
-          "label": "Ukraine's towns under strike and outage",
-          "articleIds": [
-            "n-8d82087a44b792",
-            "n-86b45510cff564",
-            "n-03a0f9d228a0ac"
-          ]
-        }
-      ],
-      "rungs": [
-        {
-          "id": "n3-r1",
-          "kind": "observation",
-          "label": "Strikes far from any front",
-          "fragments": [
-            {
-              "id": "n3-r1-f1",
-              "label": "Riyadh and Poland",
-              "text": "Arab News reports 11 people injured after a Houthi attack on a tower in Riyadh's financial district, and Walla reports the same attack. Taiwan's UDN reports that the Saudi capital's tallest skyscraper has been hit twice in one week. Handelsblatt reports a drone entering Polish airspace.",
-              "articleIds": [
-                "n-7283aa604f9c7c",
-                "n-d085f81dfa7f80",
-                "n-f61dcb42abd52e",
-                "n-e1e4c60c75741f"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "n3-r1-f2",
-              "label": "Ukraine's towns",
-              "text": "unian publishes the power outage schedules for 25 November, and Lenta reports Zelensky complaining of major problems in the regions after Russian strikes. unian also reports that Ukraine has built a missile for a new air defence system meant to shoot down drones.",
-              "articleIds": [
-                "n-8d82087a44b792",
-                "n-86b45510cff564",
-                "n-03a0f9d228a0ac"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "n3-r2",
-          "kind": "observation",
-          "label": "Preparations at home",
-          "fragments": [
-            {
-              "id": "n3-r2-f1",
-              "label": "Hospitals, warnings, barracks",
-              "text": "Norway's NRK reports that as drone warfare spreads worldwide, hospitals need bomb shelters. Yle reports Finland's interior minister saying the public hazard information test succeeded better this time. Iraq's al-Mada reports new directives from the defence minister to evacuate military units from cities.",
-              "articleIds": [
-                "n-59bf07e7a03c5c",
-                "n-60318c8e56d165",
-                "n-848f3ac40b00ed"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "n3-r2-f2",
-              "label": "Roads as runways",
-              "text": "France's La Dépêche reports Rafale jets training to land on a national road in Finland. Vietnam's An ninh Thủ đô reports a Dutch F-35 landing on a Finnish motorway as NATO tests a plan for its aircraft to survive a strike on their bases.",
-              "articleIds": [
-                "n-af0b82f55b341c",
-                "n-c6fe199903569e"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "n3-r3",
-          "kind": "interpretation",
-          "label": "Defence moved into civilian places",
-          "fragments": [
-            {
-              "id": "n3-r3-f1",
-              "label": "Two answers to one cause",
-              "text": "The common cause is range. When a drone can reach an office tower or a power station hundreds of kilometres from a front, defence stops being something done at a border. Governments answer in two directions at once: they harden civilian places, with shelters under hospitals and warning tests, and they move military targets away from people, by sending jets to roads or units out of cities. Both bring the civilian landscape into military planning, in countries at war and at peace.",
-              "articleIds": [
-                "n-59bf07e7a03c5c",
-                "n-848f3ac40b00ed",
-                "n-c6fe199903569e",
-                "n-f61dcb42abd52e"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "n3-r4",
-          "kind": "break",
-          "label": "The case against",
-          "fragments": [
-            {
-              "id": "n3-r4-f1",
-              "label": "Most of this is old",
-              "text": "Sweden and Finland practised road landings throughout the Cold War, Finland has built shelters under its cities for decades, and Riyadh has been under Houthi fire since 2015. NRK's piece is a feature, not a policy, and Iraq's order comes in the same week Baghdad moves to take over Kurdish oilfields, which may be its real reason.",
-              "articleIds": [
-                "n-59bf07e7a03c5c",
-                "n-848f3ac40b00ed"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "n3-r4-f2",
-              "label": "Where the events part",
-              "text": "The Riyadh tower, Ukraine's towns and the Polish incursion are attacks; the Norwegian and Finnish items are planning and drills; the Iraqi order is an administrative step with no stated cause. Grouping a war's targets with a peacetime exercise may make ordinary readiness look like a new trend.",
-              "articleIds": [],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        }
-      ],
-      "horizons": [
-        {
-          "span": "since-2020",
-          "from": "",
-          "label": "Since 2020",
-          "lens": "DRONES / POWER GRIDS / RANGE",
-          "text": "The war over Nagorno-Karabakh in autumn 2020 showed that Turkish and Israeli drones could decide a war in forty-four days, and defence ministries rewrote their plans. Russia's invasion of Ukraine in February 2022 turned the lesson against cities: from October 2022 Russian missiles and Iranian-designed Shahed drones struck Ukraine's power stations, which is why unian still publishes daily outage schedules. Ukraine answered with drones reaching refineries and airfields deep in Russia, and on 1 June 2025 it launched them from lorries against bombers thousands of kilometres from the front. In the Gulf the Houthis kept up strikes on Saudi Arabia, and by these headlines they have now hit Riyadh's tallest tower twice in one week. The change in this decade is that strikes no longer stop at a front line, so the distance a country keeps from a war no longer tells it how safe its hospitals are, the point NRK makes from Norway.",
-          "trajectoryIds": [
-            "karabakh-2020",
-            "spiderweb-2025"
-          ],
-          "bookIds": []
-        },
-        {
-          "span": "since-2008",
-          "from": "",
-          "label": "Since 2008",
-          "lens": "ASYMMETRY / OIL / CHEAP WEAPONS",
-          "text": "The Houthi movement took Sanaa in September 2014, and a Saudi-led coalition went to war against it in March 2015. Unable to match Saudi air power, the Houthis acquired and built cheap missiles and drones and aimed them at Saudi cities, airports and oil sites. On 14 September 2019 drones and missiles hit the Abqaiq processing plant and halved Saudi oil output for several days, the first time a cheap weapon reached one of the most expensive targets in the world economy. Grégoire Chamayou argued in 2013 that the drone changes war by letting one side strike without being exposed; the Houthi campaign shows that a side with little money can use the same advantage against a rich state. The coalition statements reported from Lebanon and Saudi Arabia promise a firm response, as they have since 2015, while the attacks on Riyadh's financial district show the target moving from oil plants to office towers.",
-          "trajectoryIds": [
-            "abqaiq-2019"
-          ],
-          "bookIds": [
-            "theory-of-the-drone"
-          ]
-        },
-        {
-          "span": "since-1989",
-          "from": "",
-          "label": "Since 1989",
-          "lens": "PEACE DIVIDEND / GPS / DISPERSAL",
-          "text": "After 1991 European governments cut what they had kept for a war at home. Sweden closed most of the road bases its air force had used since the 1950s, and civil defence budgets across NATO shrank. At the same time the means of long-range strike spread beyond states. On 1 May 2000 Washington switched off the deliberate error in civilian GPS, and cheap navigation made small drones possible for almost anyone. In October 2001 the United States made the first armed Predator strike in Afghanistan, and the drone became a weapon. Mary Kaldor described the wars of the period as wars without fronts, fought among civilians. The French and Dutch jets landing on a Finnish motorway, reported by La Dépêche and An ninh Thủ đô, are practising what Sweden largely dropped after 1991: keeping aircraft away from bases an enemy can locate. What has changed is that the threat is a weapon a militia can afford.",
-          "trajectoryIds": [
-            "gps-2000",
-            "predator-2001"
-          ],
-          "bookIds": [
-            "new-and-old-wars"
-          ]
-        },
-        {
-          "span": "since-1945",
-          "from": "",
-          "label": "Since 1945",
-          "lens": "LAWS OF WAR / CIVIL DEFENCE / AIR POWER",
-          "text": "The rules on how strikes may touch civilians were written after the bombing of Dresden, Tokyo and Hiroshima. The Geneva Conventions of 1949 protected hospitals, and Additional Protocol I of 1977 went further: article 54 protects what civilians need to survive, and article 58 asks states to avoid placing military objectives within or near densely populated areas. The Iraqi defence minister's order to move military units out of cities, reported by al-Mada, is article 58 in practice, whatever its immediate motive. The Cold War added civil defence: Switzerland required a shelter place for every resident from the 1960s, and Finland built shelters under its cities. In June 1982 Israel used drones over the Bekaa Valley to locate and blind Syria's air defences, the beginning of the drone as a weapon of war. The Norwegian hospitals that NRK says need shelters are protected by the 1949 rules and within reach of the weapon first proved in 1982.",
-          "trajectoryIds": [
-            "geneva-1949",
-            "protocol-1977",
-            "bekaa-1982"
-          ],
-          "bookIds": []
-        }
-      ],
-      "resumes": "",
-      "builds": "",
-      "articleIds": [
-        "n-7283aa604f9c7c",
-        "n-d085f81dfa7f80",
-        "n-f61dcb42abd52e",
-        "n-e1e4c60c75741f",
-        "n-8d82087a44b792",
-        "n-86b45510cff564",
-        "n-03a0f9d228a0ac",
-        "n-59bf07e7a03c5c",
-        "n-60318c8e56d165",
-        "n-848f3ac40b00ed",
-        "n-af0b82f55b341c",
-        "n-c6fe199903569e"
-      ]
-    },
-    {
-      "id": "spying-routed-through-firms",
-      "line": "States spy on and sabotage each other through private firms, and governments now leave the firms to defend themselves.",
-      "kicker": "INTELLIGENCE / CONTRACTORS / LIABILITY",
-      "firmness": "tentative",
-      "watch": [
-        {
-          "what": "A European government publicly names a Russian, Iranian or Chinese service as behind an attack on a named private company.",
-          "by": "2026-12-20",
-          "because": "If states are now pursuing each other through firms, the attributions that follow should name companies as the victims, not only ministries or agencies.",
-          "id": "20261125T004245-spying-routed-through-firms-1"
-        },
-        {
-          "what": "Finland's security police or prosecutors name a suspect or a foreign state in the Laukaa gunpowder factory espionage case.",
-          "by": "2026-12-23",
-          "because": "If the Laukaa case belongs to the same pattern as the ships and the airline, it should turn out to involve a foreign service rather than an ordinary crime.",
-          "id": "20261125T004245-spying-routed-through-firms-2"
-        }
-      ],
-      "ahead": {
-        "precedent": "On 30 July 1916 German agents blew up the Black Tom munitions depot in New York harbour while the United States was still neutral, because the shells were bound for Britain and France; a shell plant at Kingsland, New Jersey, burned in January 1917. A claims commission found Germany liable only in 1939. The present differs in that most attacks now come from abroad over networks, the targets include shipping software and an AI laboratory, and governments answer with advice to firms rather than with war.",
-        "paths": [
-          {
-            "name": "Security costs moved onto firms",
-            "weight": "favoured",
-            "text": "Over the next year Britain, Finland and other European governments set binding security and reporting duties for firms in defence supply, shipping and energy, and Washington tightens rules for AI labs, while attributions to named states stay rare. The week points this way because the official response in each case is advice to the target or an investigation, not action against the attacker.",
-            "sign": "A government orders firms in a named sector to meet new security or reporting rules, citing sabotage or espionage."
-          },
-          {
-            "name": "Named attribution and expulsions",
-            "weight": "possible",
-            "text": "A European government names a Russian or Iranian service for an attack on a firm and expels diplomats, as Britain and its allies did after the Salisbury poisoning in March 2018. Possible because Britain and Finland have attributed attacks before, but the evidence usually takes months.",
-            "sign": "A European government expels diplomats after attributing an attack on a company."
-          },
-          {
-            "name": "A truce on sabotage in talks",
-            "weight": "unlikely",
-            "text": "The Ukraine or Iran talks include commitments to stop attacks on civilian companies and ships. Unlikely because no reported draft covers sabotage, and neither side admits to carrying it out.",
-            "sign": "A reported draft in the Ukraine or Iran talks includes a clause on cyberattacks or sabotage against companies."
-          }
-        ],
-        "decade": "Over the decade firms in defence supply, shipping, energy and AI are likely to carry security duties close to those of state agencies, with vetting, reporting and insurance costs that their smaller suppliers will struggle to meet."
-      },
-      "continues": "",
-      "change": "",
-      "claim": "NPR reports the US government investigating Iranian ties to as many as 50 hacked commercial vessels, Israel's Walla describes Iranians using AI in an attempt to attack an airline flying to Israel, Finnish media report suspected espionage at the Laukaa gunpowder factory, and the BBC reports British businesses that support Ukraine being told to act now against Russian sabotage. In the same news a US judge freed a Saudi engineer accused of listening in on OpenAI meetings, BBC Verify traced a China-linked network smearing Taiwanese candidates with AI fakes, and the CIA and the US intelligence director's office reported a breach, after one at the FBI. The shared mechanism is that states pursue their contests through private targets, shipowners, an airline, a munitions plant, suppliers and an AI lab. The public response is to tell those targets to protect themselves, while the agencies that would protect them are breached as well.",
-      "events": [
-        {
-          "label": "CIA and intelligence office breached",
-          "articleIds": [
-            "n-23cfad18af1ec6",
-            "n-c0b261e4a27bcc",
-            "n-fb11cff443bcd4",
-            "n-796666fac31484"
-          ]
-        },
-        {
-          "label": "Iran-linked attacks on ships and an airline",
-          "articleIds": [
-            "n-8d87b7e066a3c9",
-            "n-59011f8fd52fa7"
-          ]
-        },
-        {
-          "label": "Suspected espionage at Finnish gunpowder plant",
-          "articleIds": [
-            "n-de3f8e4bdded71"
-          ]
-        },
-        {
-          "label": "British firms told to guard against sabotage",
-          "articleIds": [
-            "n-b3990ccb372194"
-          ]
-        },
-        {
-          "label": "Engineer accused of spying on OpenAI freed",
-          "articleIds": [
-            "n-f0c65da201e31a"
-          ]
-        },
-        {
-          "label": "AI fakes against Taiwan candidates",
-          "articleIds": [
-            "n-b395ed19d1869e"
-          ]
-        }
-      ],
-      "rungs": [
-        {
-          "id": "n4-r1",
-          "kind": "observation",
-          "label": "Private targets",
-          "fragments": [
-            {
-              "id": "n4-r1-f1",
-              "label": "Ships, an airline, a factory",
-              "text": "NPR reports the US government investigating Iranian ties to as many as 50 hacked commercial vessels. Walla's technology section describes how Iranians tried to use AI to attack an airline flying to Israel. Finland's Länsi-Savo, citing Yle, reports suspected espionage at the gunpowder factory in Laukaa.",
-              "articleIds": [
-                "n-8d87b7e066a3c9",
-                "n-59011f8fd52fa7",
-                "n-de3f8e4bdded71"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "n4-r1-f2",
-              "label": "Suppliers and a laboratory",
-              "text": "The BBC reports businesses supporting Ukraine being told to act now to protect themselves against Russian sabotage. Al Jazeera Net reports a US judge ordering the release of a Saudi engineer accused of eavesdropping on OpenAI meetings.",
-              "articleIds": [
-                "n-b3990ccb372194",
-                "n-f0c65da201e31a"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "n4-r2",
-          "kind": "observation",
-          "label": "The state's own systems",
-          "fragments": [
-            {
-              "id": "n4-r2-f1",
-              "label": "Breaches and fakes",
-              "text": "Portugal's SAPO, Russia's Kommersant citing the New York Times, and El País report a cyberattack on an unclassified CIA system and on the office of the director of national intelligence. Argentina's Clarín frames it as concern growing in the United States after the attack on the FBI. BBC Verify reports a China-linked network using AI fakes to smear candidates in Taiwan's elections.",
-              "articleIds": [
-                "n-23cfad18af1ec6",
-                "n-c0b261e4a27bcc",
-                "n-fb11cff443bcd4",
-                "n-796666fac31484",
-                "n-b395ed19d1869e"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "n4-r3",
-          "kind": "interpretation",
-          "label": "Who does the defending",
-          "fragments": [
-            {
-              "id": "n4-r3-f1",
-              "label": "The target carries the burden",
-              "text": "In each case a foreign state, by the headlines' own attributions, pursues its contest with other states by reaching private bodies: shipowners, an airline, an ammunition plant, suppliers to Ukraine, an AI lab, candidates' reputations. The public response reported is advice and investigation: British firms are told to act, and the US investigates after the ships are already hacked. Meanwhile the intelligence agencies that would warn those firms report breaches of their own, so the practical defence falls to the targets.",
-              "articleIds": [
-                "n-b3990ccb372194",
-                "n-8d87b7e066a3c9",
-                "n-fb11cff443bcd4"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        },
-        {
-          "id": "n4-r4",
-          "kind": "break",
-          "label": "The case against",
-          "fragments": [
-            {
-              "id": "n4-r4-f1",
-              "label": "Old practice, weak cases",
-              "text": "Industrial espionage and sabotage are as old as industry; German agents blew up a New Jersey munitions depot in 1916. The ship hacks may be criminal ransomware with an Iranian link rather than a state operation, the Saudi engineer was released and is only accused, and the Laukaa case is a suspicion. The CIA breach touched an unclassified system and is state against state, not against a firm.",
-              "articleIds": [
-                "n-f0c65da201e31a",
-                "n-de3f8e4bdded71",
-                "n-fb11cff443bcd4"
-              ],
-              "bookIds": [],
-              "trajectoryIds": []
-            },
-            {
-              "id": "n4-r4-f2",
-              "label": "Where the events part",
-              "text": "What these share is a hostile foreign hand. What they do not share is a kind of target or a method: the Taiwan fakes aim at voters, the airline story is a feature about a failed attempt, the factory case may involve a person on site, and the ships are a network attack. Three of the strongest items come from countries at war with Iran or Russia, whose press reports such attacks more readily.",
-              "articleIds": [],
-              "bookIds": [],
-              "trajectoryIds": []
-            }
-          ]
-        }
-      ],
-      "horizons": [
-        {
-          "span": "since-2020",
-          "from": "",
-          "label": "Since 2020",
-          "lens": "RANSOMWARE / PIPELINES / SABOTAGE",
-          "text": "This decade's attacks on private infrastructure showed governments how much of national security sits in company hands. In December 2020 the SolarWinds breach, attributed by Washington to Russian intelligence, entered US government departments through a private software supplier. In May 2021 a ransomware attack shut Colonial Pipeline, which carries much of the fuel for the US east coast. On 24 February 2022, the day of the invasion, a hack of the Viasat satellite network cut modems across Europe. Since 2024 European governments have accused Russia of arson and sabotage against firms supplying Ukraine. The BBC's report that such businesses are told to act now comes at the end of this sequence: the state has identified the firms as targets and handed them much of the work of defending themselves. The breach at the CIA and the intelligence director's office, following one at the FBI, shows the agencies that would otherwise help under the same pressure.",
-          "trajectoryIds": [],
-          "bookIds": []
-        },
-        {
-          "span": "since-2008",
-          "from": "",
-          "label": "Since 2008",
-          "lens": "STUXNET / SHIPPING / ATTRIBUTION",
-          "text": "The idea that code could do physical damage became public in 2010, when Stuxnet, later attributed to the United States and Israel, was found to have wrecked centrifuges at Iran's Natanz plant. Iran's reply reached a company rather than a state: in August 2012 the Shamoon malware wiped some thirty thousand computers at Saudi Aramco. In June 2017 NotPetya, attributed to Russian military intelligence, spread from a Ukrainian accounting program to Maersk, the world's largest container line, and to Merck and others, costing billions. The pattern since 2010 is that states strike each other through companies and that attribution comes months or years later, if at all. NPR's report of a US investigation into Iranian ties to as many as fifty hacked commercial vessels follows the same route: shipping is where both the Iran war and the Ukraine war meet the world economy, and the ships belong to private owners.",
-          "trajectoryIds": [],
-          "bookIds": []
-        },
-        {
-          "span": "since-1989",
-          "from": "",
-          "label": "Since 1989",
-          "lens": "INTERNET / TRADE SECRETS / DATA",
-          "text": "When the Cold War ended, intelligence services that had watched armies turned towards economies. The US Economic Espionage Act of 1996 made theft of trade secrets for a foreign government a federal crime, an admission that the contest between states had moved into companies. Netscape's listing in August 1995 began the commercial internet, and with it the move of a society's information from state archives to company servers. Shoshana Zuboff describes the business that followed as one built on watching users; for foreign services it meant the most valuable information now sat in firms. The OpenAI case reported by Al Jazeera Net, a Saudi engineer accused of listening in on the laboratory's meetings and then released by a US judge, belongs to this line: the most sought-after technical secrets of the decade are held by a private lab, and their first defence is its own security staff.",
-          "trajectoryIds": [
-            "netscape-1995"
-          ],
-          "bookIds": [
-            "surveillance-capitalism"
-          ]
-        },
-        {
-          "span": "since-1945",
-          "from": "",
-          "label": "Since 1945",
-          "lens": "ATOMIC SECRETS / CONTRACTORS / VETTING",
-          "text": "The model of a state secret held partly in private hands began with the Manhattan Project. The bomb tested in New Mexico in July 1945 was built by the army with firms such as DuPont, and Klaus Fuchs, a physicist at Los Alamos, passed its design to the Soviet Union; he was convicted in Britain in 1950. The Cold War answer was vetting: security clearances for contractors' staff and secrecy rules that bound firms working on defence. Finland's gunpowder plant at Laukaa, where Yle reports suspected espionage, is the kind of site that system was built to protect, a factory supplying ammunition that European armies now need in quantity. What has changed is how many private sites now hold something another state wants: munitions makers, shipping lines, airlines and software firms are all reported as targets in a single day's headlines, far more than the vetting system was designed to cover.",
-          "trajectoryIds": [
-            "trinity-1945"
-          ],
-          "bookIds": []
-        }
-      ],
-      "resumes": "",
-      "builds": "",
-      "articleIds": [
-        "n-8d87b7e066a3c9",
-        "n-59011f8fd52fa7",
-        "n-de3f8e4bdded71",
-        "n-b3990ccb372194",
-        "n-f0c65da201e31a",
-        "n-23cfad18af1ec6",
-        "n-c0b261e4a27bcc",
-        "n-fb11cff443bcd4",
-        "n-796666fac31484",
-        "n-b395ed19d1869e"
+        "n-f2240ae1823381",
+        "n-e0c6e900d13f41",
+        "n-7637d02d6b800a",
+        "n-b61a6ba521776f",
+        "n-af3f8ff55ef0e1",
+        "n-7d4fec1274fa89",
+        "n-b0f99841aae046",
+        "n-d580db8c1d13c3",
+        "n-8d9aa989f1b2f4",
+        "n-1b3a9f2f5d82ad",
+        "n-4199e26225677e",
+        "n-628861c26d465f",
+        "n-c7c3a326a745fa"
       ]
     }
   ]

@@ -1,22 +1,7 @@
 {
- "day": "2026-11-25",
+ "day": "2026-11-26",
  "attempts": 1,
  "history": [
-  {
-   "at": "2026-11-12T22:27:57Z",
-   "note": "ok",
-   "batchId": "msgbatch_018BV1G1nUAgm9HHRZBgtybn",
-   "usage": {
-    "input": 77994,
-    "output": 75663,
-    "tier": "batch"
-   }
-  },
-  {
-   "at": "2026-11-13T22:00:09Z",
-   "note": "submitted",
-   "batchId": "msgbatch_013fnsHN4iNqNJfj9EumQkCH"
-  },
   {
    "at": "2026-11-13T22:09:58Z",
    "note": "narratives refused: fuel-cap-bills-handed-back: line is a list; it should say what the join shows, not list the evidence"
@@ -208,6 +193,21 @@
    "usage": {
     "input": 94960,
     "output": 83403,
+    "tier": "batch"
+   }
+  },
+  {
+   "at": "2026-11-26T00:20:40Z",
+   "note": "submitted",
+   "batchId": "msgbatch_01PkLgjEUm72DLCJZMfStwot"
+  },
+  {
+   "at": "2026-11-26T00:30:28Z",
+   "note": "ok",
+   "batchId": "msgbatch_01PkLgjEUm72DLCJZMfStwot",
+   "usage": {
+    "input": 100926,
+    "output": 75627,
     "tier": "batch"
    }
   }

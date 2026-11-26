@@ -1,6 +1,56 @@
 {
  "editions": [
   {
+   "stamp": "20261126T001903",
+   "file": "data/narratives/20261126T001903.json",
+   "newsGeneratedAt": "2026-11-26T00:19:03Z",
+   "generatedAt": "2026-11-26T00:30:28Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-10",
+   "narratives": [
+    {
+     "id": "trade-controls-by-nationality",
+     "kicker": "SANCTIONS / NATIONALITY / CLEMENCY",
+     "line": "For breaking US trade controls, a Chinese firm is convicted, while the American chief under suspicion is offered a pardon in advance.",
+     "events": 6,
+     "headlines": 9,
+     "countries": 7,
+     "continues": "favour-follows-the-president",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "id-stores-breached",
+     "kicker": "IDENTITY / COMPLIANCE / CUSTODY",
+     "line": "Rules against fraud make banks and exchanges collect ID and report it to regulators, and both ends are now being breached.",
+     "events": 5,
+     "headlines": 6,
+     "countries": 5,
+     "continues": "",
+     "resumes": "20261121T213836/personal-data-breaches",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "public-money-enters-ai-selloff",
+     "kicker": "RISK / THE STATE / VALUATION",
+     "line": "Governments are offering public money to AI in the same weeks that shareholders sell it, so citizens take on what markets now doubt.",
+     "events": 6,
+     "headlines": 13,
+     "countries": 10,
+     "continues": "",
+     "resumes": "20261120T224019/data-centres-absorb-investment",
+     "builds": "",
+     "firmness": "tentative",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261125T004245",
    "file": "data/narratives/20261125T004245.json",
    "newsGeneratedAt": "2026-11-25T00:42:45Z",

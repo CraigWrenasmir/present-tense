@@ -4,14 +4,14 @@
   "What has been building: subjects the writer noticed in a day's headlines and did not write a narrative about, kept from edition to edition with the headlines that showed them. Some things never lead a day; this is where they are held until the days add up.",
   "A subject is open while it has been seen in the last fourteen days. When a narrative is written from it, it is marked written with that narrative; when it goes fourteen days unseen it lapses. Sightings are added, never reworded."
  ],
- "asOf": "2026-11-25T00:42:45Z",
+ "asOf": "2026-11-26T00:19:03Z",
  "subjects": [
   {
    "key": "ai-and-hiring",
    "subject": "Reports of AI changing which jobs exist and who is hired, across countries",
    "status": "open",
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
+   "lastSeen": "2026-11-26",
    "sightings": [
     {
      "date": "2026-11-21",
@@ -242,6 +242,1400 @@
        "sourceLat": 36,
        "sourceLon": 128,
        "language": "ko"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-26",
+     "stamp": "20261126T001903",
+     "note": "DW's Polish service reports employers saying AI will take some jobs and create others; a government or large employer naming AI in job cuts or a hiring freeze would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-9a75cc247a54ee",
+       "title": "Sztuczna inteligencja zabierze część miejsc pracy. Pracodawcy: powstaną nowe",
+       "titleEnglish": "Artificial intelligence will take some jobs. Employers: new ones will be created",
+       "url": "https://www.dw.com/pl/ai-zmieni-rynek-pracy-niekt%C3%B3re-miejsca-znikn%C4%85-ale-powstan%C4%85-inne/a-80054649",
+       "publisher": "dw.com",
+       "publisherDomain": "dw.com",
+       "publishedAt": "2026-11-25T21:02:00Z",
+       "seenAt": "2026-11-25T21:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Germany",
+       "sourceCountryCode": "DE",
+       "sourceRegion": "Europe",
+       "sourceLat": 51,
+       "sourceLon": 10,
+       "language": "pl"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "pre-election-political-violence",
+   "subject": "Political violence rising in countries heading towards national elections",
+   "status": "open",
+   "firstSeen": "2026-11-20",
+   "lastSeen": "2026-11-26",
+   "sightings": [
+    {
+     "date": "2026-11-20",
+     "stamp": "20261120T224019",
+     "note": "Afenifere warned of rising violence before Nigeria's 2027 vote and Bangladesh reported renewed petrol-bomb attacks; an electoral body postponing or relocating a poll over violence would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-4468f9843aa36e",
+       "title": "2027: Afenifere warns against rising political violence",
+       "titleEnglish": "2027: Afenifere warns against rising political violence",
+       "url": "https://punchng.com/2027-afenifere-warns-against-rising-political-violence/",
+       "publisher": "Punch Newspapers",
+       "publisherDomain": "punchng.com",
+       "publishedAt": "2026-11-20T21:04:16Z",
+       "seenAt": "2026-11-20T21:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Nigeria",
+       "sourceCountryCode": "NG",
+       "sourceRegion": "Africa",
+       "sourceLat": 9,
+       "sourceLon": 8,
+       "language": "en"
+      },
+      {
+       "id": "n-0701783a8f40b3",
+       "title": "‘राजनीतिक हिंसा की आग में’ फिर झुलसने लगा बंगलादेश!",
+       "titleEnglish": "\"Amid the Fire of Political Violence,\" Bangladesh Begins to Burn Again!",
+       "url": "https://www.punjabkesari.in/article/news/bangladesh-is-again-burning-in-the-fire-of-political-violence-2401556",
+       "publisher": "punjabkesari",
+       "publisherDomain": "punjabkesari.in",
+       "publishedAt": "2026-11-20T21:27:38Z",
+       "seenAt": "2026-11-20T22:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "India",
+       "sourceCountryCode": "IN",
+       "sourceRegion": "Asia",
+       "sourceLat": 22,
+       "sourceLon": 79,
+       "language": "hi"
+      },
+      {
+       "id": "n-7898964ad26c07",
+       "title": "Petrol bombs will not bring ‘fugitive criminal’ back to Bangladesh, says Humaiun Kobir",
+       "titleEnglish": "Petrol bombs will not bring ‘fugitive criminal’ back to Bangladesh, says Humaiun Kobir",
+       "url": "https://bdnews24.com/bangladesh/0i0cinysyx",
+       "publisher": "bdnews24.com",
+       "publisherDomain": "bdnews24.com",
+       "publishedAt": "2026-11-20T09:30:47Z",
+       "seenAt": "2026-11-20T10:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Bangladesh",
+       "sourceCountryCode": "BD",
+       "sourceRegion": "Asia",
+       "sourceLat": 24,
+       "sourceLon": 90,
+       "language": "en"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-21",
+     "stamp": "20261121T213836",
+     "note": "Bangladesh's Narail saw dozens of homes and shops of Awami League leaders torched after two BNP men were killed and Poland detained a man for threatening a woman MP; an electoral body postponing or moving a poll over violence would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-27712d9008d3d1",
+       "title": "Houses of AL leaders set on fire in Narail after killing of two BNP men",
+       "titleEnglish": "Houses of AL leaders set on fire in Narail after killing of two BNP men",
+       "url": "https://www.thedailystar.net/news/crime-justice/news/houses-al-leaders-set-fire-narail-after-killing-two-bnp-men-4329451",
+       "publisher": "The Daily Star",
+       "publisherDomain": "thedailystar.net",
+       "publishedAt": "2026-11-21T09:32:00Z",
+       "seenAt": "2026-11-21T09:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Bangladesh",
+       "sourceCountryCode": "BD",
+       "sourceRegion": "Asia",
+       "sourceLat": 24,
+       "sourceLon": 90,
+       "language": "en"
+      },
+      {
+       "id": "n-a31954eebc5cc8",
+       "title": "Dozens of homes, shops torched amid tensions in Narail's Kalia",
+       "titleEnglish": "Dozens of homes, shops torched amid tensions in Narail's Kalia",
+       "url": "https://bdnews24.com/bangladesh/u1hpp02vxw",
+       "publisher": "bdnews24.com",
+       "publisherDomain": "bdnews24.com",
+       "publishedAt": "2026-11-21T06:41:35Z",
+       "seenAt": "2026-11-21T10:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Bangladesh",
+       "sourceCountryCode": "BD",
+       "sourceRegion": "Asia",
+       "sourceLat": 24,
+       "sourceLon": 90,
+       "language": "en"
+      },
+      {
+       "id": "n-4f31170d60de32",
+       "title": "What happened in Narail's Kalia? Here's what police say",
+       "titleEnglish": "What happened in Narail's Kalia? Here's what police say",
+       "url": "https://bdnews24.com/bangladesh/7k2e4f9ast",
+       "publisher": "bdnews24.com",
+       "publisherDomain": "bdnews24.com",
+       "publishedAt": "2026-11-21T09:37:04Z",
+       "seenAt": "2026-11-21T10:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Bangladesh",
+       "sourceCountryCode": "BD",
+       "sourceRegion": "Asia",
+       "sourceLat": 24,
+       "sourceLon": 90,
+       "language": "en"
+      },
+      {
+       "id": "n-0e343de1a14c98",
+       "title": "Burnt-out car at former MP Mamun's Sitakunda home set ablaze again",
+       "titleEnglish": "Burnt-out car at former MP Mamun's Sitakunda home set ablaze again",
+       "url": "https://bdnews24.com/bangladesh/adfkg76xbc",
+       "publisher": "bdnews24.com",
+       "publisherDomain": "bdnews24.com",
+       "publishedAt": "2026-11-21T08:29:52Z",
+       "seenAt": "2026-11-21T10:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Bangladesh",
+       "sourceCountryCode": "BD",
+       "sourceRegion": "Asia",
+       "sourceLat": 24,
+       "sourceLon": 90,
+       "language": "en"
+      },
+      {
+       "id": "n-04a08d5b6b0860",
+       "title": "„Jesteś do odstrzału”. Groźby wobec posłanki, służby zatrzymały 42-latka",
+       "titleEnglish": "\"You are fair game\". Threats against a female MP, security services detain 42-year-old man",
+       "url": "https://wiadomosci.radiozet.pl/polska/jestes-do-odstrzalu-grozby-wobec-poslanki-sluzby-zatrzymaly-42-latka",
+       "publisher": "wiadomosci.radiozet.pl",
+       "publisherDomain": "wiadomosci.radiozet.pl",
+       "publishedAt": "2026-11-21T10:04:06Z",
+       "seenAt": "2026-11-21T10:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Poland",
+       "sourceCountryCode": "PL",
+       "sourceRegion": "Europe",
+       "sourceLat": 52,
+       "sourceLon": 20,
+       "language": "pl"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-22",
+     "stamp": "20261122T214457",
+     "note": "The EU warned of online attacks on female candidates before Nigeria's 2027 vote and a Bangladeshi adviser said the home minister's strategy had trapped the Awami League; a poll moved or postponed over violence would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-44b0034e4c943f",
+       "title": "2027: EU warns of online attacks against female candidates",
+       "titleEnglish": "2027: EU warns of online attacks against female candidates",
+       "url": "https://punchng.com/2027-eu-warns-of-online-attacks-against-female-candidates/",
+       "publisher": "Punch Newspapers",
+       "publisherDomain": "punchng.com",
+       "publishedAt": "2026-11-22T19:52:27Z",
+       "seenAt": "2026-11-22T21:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Nigeria",
+       "sourceCountryCode": "NG",
+       "sourceRegion": "Africa",
+       "sourceLat": 9,
+       "sourceLon": 8,
+       "language": "en"
+      },
+      {
+       "id": "n-d1b86d0d524975",
+       "title": "স্বরাষ্ট্রমন্ত্রীর রাজনৈতিক কৌশলে ফাঁদে পড়েছে আওয়ামী লীগ: শফিকুল আলম",
+       "titleEnglish": "Awami League trapped by home minister's political strategy: Shafiqul Alam",
+       "url": "https://www.dhakatoday.com/news/94916/%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A8%E0%A7%88%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%B2%E0%A7%87-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A6%A6%E0%A7%87-%E0%A6%AA%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%86%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%B2%E0%A7%80%E0%A6%97:-%E0%A6%B6%E0%A6%AB%E0%A6%BF%E0%A6%95%E0%A7%81%E0%A6%B2-%E0%A6%86%E0%A6%B2%E0%A6%AE",
+       "publisher": "dhakaToday.com",
+       "publisherDomain": "dhakatoday.com",
+       "publishedAt": "2026-11-22T18:32:00Z",
+       "seenAt": "2026-11-22T18:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Bangladesh",
+       "sourceCountryCode": "BD",
+       "sourceRegion": "Asia",
+       "sourceLat": 24,
+       "sourceLon": 90,
+       "language": "bn"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-25",
+     "stamp": "20261125T004245",
+     "note": "Nigeria's INEC chairman and police chief warned against violence before 2027 after four opposition supporters were killed in Delta, Bangladesh froze accounts over Gopalganj violence and French deputies reported death threats; a poll moved or postponed over violence would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-013e5233914f61",
+       "title": "Don’t turn 2027 elections into battlefield, INEC chairman warns politicians",
+       "titleEnglish": "Don’t turn 2027 elections into battlefield, INEC chairman warns politicians",
+       "url": "https://punchng.com/dont-turn-2027-elections-into-battlefield-inec-chairman-warns-politicians/",
+       "publisher": "Punch Newspapers",
+       "publisherDomain": "punchng.com",
+       "publishedAt": "2026-11-24T17:45:35Z",
+       "seenAt": "2026-11-24T18:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Nigeria",
+       "sourceCountryCode": "NG",
+       "sourceRegion": "Africa",
+       "sourceLat": 9,
+       "sourceLon": 8,
+       "language": "en"
+      },
+      {
+       "id": "n-98d06603bb78e4",
+       "title": "2027 elections: IGP directs Police PROs to protect women",
+       "titleEnglish": "2027 elections: IGP directs Police PROs to protect women",
+       "url": "https://dailypost.ng/2026/11/24/2027-elections-igp-directs-police-pros-to-protect-women-warns-against-politicising-gender-based-violence-cases/",
+       "publisher": "Daily Post Nigeria",
+       "publisherDomain": "dailypost.ng",
+       "publishedAt": "2026-11-24T11:12:50Z",
+       "seenAt": "2026-11-24T13:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Nigeria",
+       "sourceCountryCode": "NG",
+       "sourceRegion": "Africa",
+       "sourceLat": 9,
+       "sourceLon": 8,
+       "language": "en"
+      },
+      {
+       "id": "n-348721840792fa",
+       "title": "Delta killings: Obi demands justice for four NDC supporters",
+       "titleEnglish": "Delta killings: Obi demands justice for four NDC supporters",
+       "url": "https://punchng.com/delta-killings-obi-demands-justice-for-four-ndc-supporters/",
+       "publisher": "Punch Newspapers",
+       "publisherDomain": "punchng.com",
+       "publishedAt": "2026-11-24T05:35:17Z",
+       "seenAt": "2026-11-24T06:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Nigeria",
+       "sourceCountryCode": "NG",
+       "sourceRegion": "Africa",
+       "sourceLat": 9,
+       "sourceLon": 8,
+       "language": "en"
+      },
+      {
+       "id": "n-0ec2a2172e5280",
+       "title": "গোপালগঞ্জে সহিংসতা: সাবেক স্বাস্থ্যসচিব, আওয়ামী লীগ নেতাসহ ৯৭ জনের ব্যাংক হিসাব অবরুদ্ধ",
+       "titleEnglish": "Violence in Gopalganj: Bank accounts of 97 people, including former health secretary and Awami League leader, frozen",
+       "url": "https://bangla.bdnews24.com/bangladesh/f4g5kwa1n3",
+       "publisher": "bdnews24.com",
+       "publisherDomain": "bangla.bdnews24.com",
+       "publishedAt": "2026-11-24T15:59:04Z",
+       "seenAt": "2026-11-24T16:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Bangladesh",
+       "sourceCountryCode": "BD",
+       "sourceRegion": "Asia",
+       "sourceLat": 24,
+       "sourceLon": 90,
+       "language": "bn"
+      },
+      {
+       "id": "n-a69a0dc2719300",
+       "title": "Six députés de La France Insoumise portent plainte pour des menaces de mort anonymes",
+       "titleEnglish": "Six deputies of La France Insoumise file complaint over anonymous death threats",
+       "url": "https://www.franceinfo.fr/politique/la-france-insoumise/six-deputes-de-la-france-insoumise-portent-plainte-pour-des-menaces-de-mort-anonymes_8298216.html",
+       "publisher": "franceinfo",
+       "publisherDomain": "franceinfo.fr",
+       "publishedAt": "2026-11-24T17:42:21Z",
+       "seenAt": "2026-11-24T18:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "France",
+       "sourceCountryCode": "FR",
+       "sourceRegion": "Europe",
+       "sourceLat": 46,
+       "sourceLon": 2,
+       "language": "fr"
+      },
+      {
+       "id": "n-8c32e87ee85717",
+       "title": "Edomex garantiza comicios seguros en el proceso 2027",
+       "titleEnglish": "Edomex guarantees safe elections in the 2027 process",
+       "url": "https://www.razon.com.mx:443/estados/2026/11/23/horacio-duarte-anuncia-mapas-de-riesgo-y-mesa-politica-en-edomex-rumbo-a-eleccion-2027/",
+       "publisher": "La Razón de México",
+       "publisherDomain": "razon.com.mx",
+       "publishedAt": "2026-11-24T06:11:04Z",
+       "seenAt": "2026-11-24T16:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Mexico",
+       "sourceCountryCode": "MX",
+       "sourceRegion": "Latin America",
+       "sourceLat": 23,
+       "sourceLon": -102,
+       "language": "es"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-26",
+     "stamp": "20261126T001903",
+     "note": "Delta State monarchs condemned political killings and an NDC governorship candidate suspended his campaign for a week; a poll moved or postponed over violence, or killings before a vote outside Nigeria and Bangladesh, would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-34c32dbb182706",
+       "title": "Delta monarchs condemn political killings, demand justice",
+       "titleEnglish": "Delta monarchs condemn political killings, demand justice",
+       "url": "https://punchng.com/delta-monarchs-condemn-political-killings-demand-justice/",
+       "publisher": "Punch Newspapers",
+       "publisherDomain": "punchng.com",
+       "publishedAt": "2026-11-25T20:22:25Z",
+       "seenAt": "2026-11-25T21:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Nigeria",
+       "sourceCountryCode": "NG",
+       "sourceRegion": "Africa",
+       "sourceLat": 9,
+       "sourceLon": 8,
+       "language": "en"
+      },
+      {
+       "id": "n-f7e68a3e43a76e",
+       "title": "Delta killings: NDC gov candidate suspends campaign for seven days",
+       "titleEnglish": "Delta killings: NDC gov candidate suspends campaign for seven days",
+       "url": "https://punchng.com/delta-killings-ndc-gov-candidate-suspends-campaign-for-seven-days/",
+       "publisher": "Punch Newspapers",
+       "publisherDomain": "punchng.com",
+       "publishedAt": "2026-11-25T19:46:57Z",
+       "seenAt": "2026-11-25T21:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Nigeria",
+       "sourceCountryCode": "NG",
+       "sourceRegion": "Africa",
+       "sourceLat": 9,
+       "sourceLon": 8,
+       "language": "en"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "controlled-diseases-return",
+   "subject": "Diseases once controlled spreading again, from measles in North America to meningitis in Gaza",
+   "status": "open",
+   "firstSeen": "2026-11-17",
+   "lastSeen": "2026-11-26",
+   "sightings": [
+    {
+     "date": "2026-11-17",
+     "stamp": "20261117T232955",
+     "note": "The US and Mexico lost measles elimination status and Congo's Ebola outbreak is spreading at a record pace; a third country losing elimination status or declaring an emergency would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-c60c1baa35409b",
+       "title": "US loses measles-free status as cases, deaths mount",
+       "titleEnglish": "US loses measles-free status as cases, deaths mount",
+       "url": "https://www.nzherald.co.nz/world/us-loses-measles-free-status-as-cases-deaths-mount/S5BWHBORCRBC7KTAHXSE3GEGGM/",
+       "publisher": "NZ Herald",
+       "publisherDomain": "nzherald.co.nz",
+       "publishedAt": "2026-11-17T22:17:00Z",
+       "seenAt": "2026-11-17T22:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "New Zealand",
+       "sourceCountryCode": "NZ",
+       "sourceRegion": "Oceania",
+       "sourceLat": -41,
+       "sourceLon": 174,
+       "language": "en"
+      },
+      {
+       "id": "n-d0dd4208bc4f95",
+       "title": "What's behind the US and Mexico losing measles elimination status? - ABC listen",
+       "titleEnglish": "What's behind the US and Mexico losing measles elimination status? - ABC listen",
+       "url": "https://www.abc.net.au/listen/programs/abc-news-top-stories/us-loses-measles-elimination-status-vaccination-australia/107397068",
+       "publisher": "ABC listen",
+       "publisherDomain": "abc.net.au",
+       "publishedAt": "2026-11-17T18:00:00Z",
+       "seenAt": "2026-11-17T20:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Australia",
+       "sourceCountryCode": "AU",
+       "sourceRegion": "Oceania",
+       "sourceLat": -25,
+       "sourceLon": 134,
+       "language": "en"
+      },
+      {
+       "id": "n-49f934359d4db0",
+       "title": "DRC’s Ebola outbreak is spreading and killing at a record pace - Channel Africa",
+       "titleEnglish": "DRC’s Ebola outbreak is spreading and killing at a record pace - Channel Africa",
+       "url": "https://www.channelafrica.co.za/channelafrica/news/drcs-ebola-outbreak-is-spreading-and-killing-at-a-record-pace/",
+       "publisher": "Channel Africa",
+       "publisherDomain": "channelafrica.co.za",
+       "publishedAt": "2026-11-17T14:47:00Z",
+       "seenAt": "2026-11-17T14:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Africa",
+       "sourceCountryCode": "ZA",
+       "sourceRegion": "Africa",
+       "sourceLat": -30,
+       "sourceLon": 25,
+       "language": "en"
+      },
+      {
+       "id": "n-16903cc748056e",
+       "title": "В ФМБА назвали свиной грипп возможным возбудителем будущей пандемии",
+       "titleEnglish": "FMBA names swine flu as possible agent of future pandemic",
+       "url": "https://www.kommersant.ru/doc/9111196",
+       "publisher": "Коммерсантъ",
+       "publisherDomain": "kommersant.ru",
+       "publishedAt": "2026-11-17T04:55:20Z",
+       "seenAt": "2026-11-17T08:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Russia",
+       "sourceCountryCode": "RU",
+       "sourceRegion": "Europe",
+       "sourceLat": 61,
+       "sourceLon": 100,
+       "language": "ru"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-20",
+     "stamp": "20261120T224019",
+     "note": "DW reports childhood vaccination rising but still below its pre-COVID level; a third country losing measles elimination status or declaring an emergency would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-6213475cfd9917",
+       "title": "Vacinação infantil cresce, mas não recupera nível pré-covid",
+       "titleEnglish": "Childhood vaccination grows, but does not recover pre-COVID level",
+       "url": "https://www.dw.com/pt-br/vacina%C3%A7%C3%A3o-infantil-cresce-mas-n%C3%A3o-recupera-n%C3%ADvel-pr%C3%A9-covid/a-77971580",
+       "publisher": "dw.com",
+       "publisherDomain": "dw.com",
+       "publishedAt": "2026-11-20T22:32:00Z",
+       "seenAt": "2026-11-20T22:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Germany",
+       "sourceCountryCode": "DE",
+       "sourceRegion": "Europe",
+       "sourceLat": 51,
+       "sourceLon": 10,
+       "language": "pt"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-22",
+     "stamp": "20261122T214457",
+     "note": "The WHO chief pleaded for peace in Congo's Ebola zone and Argentina reported a more contagious Covid variant; a third country losing measles elimination status or declaring an emergency would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-210897a4457c62",
+       "title": "WHO chief pleads for peace in Ebola-hit DR Congo area",
+       "titleEnglish": "WHO chief pleads for peace in Ebola-hit DR Congo area",
+       "url": "https://punchng.com/who-chief-pleads-for-peace-in-ebola-hit-dr-congo-area/",
+       "publisher": "Punch Newspapers",
+       "publisherDomain": "punchng.com",
+       "publishedAt": "2026-11-22T20:32:45Z",
+       "seenAt": "2026-11-22T21:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Nigeria",
+       "sourceCountryCode": "NG",
+       "sourceRegion": "Africa",
+       "sourceLat": 9,
+       "sourceLon": 8,
+       "language": "en"
+      },
+      {
+       "id": "n-dfd4bc687bc65d",
+       "title": "Llegó a la Argentina una nueva variante de Covid más contagiosa: qué se sabe y cuáles son los síntomas",
+       "titleEnglish": "A new, more contagious Covid variant has arrived in Argentina: what is known and what are the symptoms",
+       "url": "https://www.ellitoral.com/salud/covid-argentina-nuevavariante-pj21-coronavirus-omicron-salud_0_0vLNRAKx1a.html",
+       "publisher": "El Litoral",
+       "publisherDomain": "ellitoral.com",
+       "publishedAt": "2026-11-22T14:19:42Z",
+       "seenAt": "2026-11-22T15:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Argentina",
+       "sourceCountryCode": "AR",
+       "sourceRegion": "Latin America",
+       "sourceLat": -35,
+       "sourceLon": -64,
+       "language": "es"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-25",
+     "stamp": "20261125T004245",
+     "note": "Mexico reported 12 active measles cases, Gaza 272 meningitis cases in a month and the US four human bird flu infections with one death; a third country losing measles elimination status or declaring an emergency would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-b20fdbf631fc73",
+       "title": "Mexico has 12 active measles cases, says health minister",
+       "titleEnglish": "Mexico has 12 active measles cases, says health minister",
+       "url": "https://www.arabnews.com/world/mexico-has-12-active-measles-cases-says-health-minister-3013874",
+       "publisher": "arabnews.com",
+       "publisherDomain": "arabnews.com",
+       "publishedAt": "2026-11-24T15:13:00Z",
+       "seenAt": "2026-11-24T15:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Saudi Arabia",
+       "sourceCountryCode": "SA",
+       "sourceRegion": "Middle East",
+       "sourceLat": 24,
+       "sourceLon": 45,
+       "language": "en"
+      },
+      {
+       "id": "n-61fc30ee5dc68a",
+       "title": "272 إصابة بالتهاب السحايا في غزة الشهر الماضي وتحذيرات من تفاقم التفشي الوبائي",
+       "titleEnglish": "272 meningitis cases in Gaza last month and warnings of worsening outbreak",
+       "url": "https://alanbatnews.net/article/486881",
+       "publisher": "الأنباط",
+       "publisherDomain": "alanbatnews.net",
+       "publishedAt": "2026-11-24T13:04:08Z",
+       "seenAt": "2026-11-24T13:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Jordan",
+       "sourceCountryCode": "JO",
+       "sourceRegion": "Middle East",
+       "sourceLat": 31,
+       "sourceLon": 36,
+       "language": "ar"
+      },
+      {
+       "id": "n-26726a4c7bc17c",
+       "title": "Israeli air strikes in Gaza kill 7 as doctors warn of meningitis outbreak",
+       "titleEnglish": "Israeli air strikes in Gaza kill 7 as doctors warn of meningitis outbreak",
+       "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strikes-in-gaza-kill-7-as-doctors-warn-of-meningitis-outbreak",
+       "publisher": "Al Jazeera",
+       "publisherDomain": "aljazeera.com",
+       "publishedAt": "2026-11-24T12:32:00Z",
+       "seenAt": "2026-11-24T12:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Qatar",
+       "sourceCountryCode": "QA",
+       "sourceRegion": "Middle East",
+       "sourceLat": 25.3,
+       "sourceLon": 51.2,
+       "language": "en"
+      },
+      {
+       "id": "n-de1a8963bed730",
+       "title": "Vier mensen besmet met vogelgriep in VS, één persoon overleden",
+       "titleEnglish": "Four people infected with bird flu in US, one person died",
+       "url": "https://nos.nl/artikel/2640849-vier-mensen-besmet-met-vogelgriep-in-vs-een-persoon-overleden",
+       "publisher": "nos.nl",
+       "publisherDomain": "nos.nl",
+       "publishedAt": "2026-11-24T18:32:00Z",
+       "seenAt": "2026-11-24T18:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Netherlands",
+       "sourceCountryCode": "NL",
+       "sourceRegion": "Europe",
+       "sourceLat": 52,
+       "sourceLon": 5,
+       "language": "nl"
+      },
+      {
+       "id": "n-50283a343da5fd",
+       "title": "תן נגוע בכלבת אותר ביישוב ניר יפה שבגלבוע | וואלה חדשות",
+       "titleEnglish": "Rabies-infected animal found in Nir Yafe in the Gilboa | Walla News",
+       "url": "https://www.walla.co.il:443/news/breaking-news/383962929",
+       "publisher": "walla.co.il",
+       "publisherDomain": "walla.co.il",
+       "publishedAt": "2026-11-24T16:02:00Z",
+       "seenAt": "2026-11-24T16:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Israel",
+       "sourceCountryCode": "IL",
+       "sourceRegion": "Middle East",
+       "sourceLat": 31.5,
+       "sourceLon": 35,
+       "language": "he"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-26",
+     "stamp": "20261126T001903",
+     "note": "Arab News reports an infant caught in Gaza's meningitis wave, Jordan sets an Ebola protocol, Peru counts dengue deaths and France enters a flu pre-epidemic phase; a third country losing measles elimination or declaring a health emergency would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-d432d1649416af",
+       "title": "Two months old, and Gaza’s meningitis wave has found him",
+       "titleEnglish": "Two months old, and Gaza’s meningitis wave has found him",
+       "url": "https://www.arabnews.com/middle-east/two-months-old-and-gazas-meningitis-wave-has-found-him-3013977",
+       "publisher": "arabnews.com",
+       "publisherDomain": "arabnews.com",
+       "publishedAt": "2026-11-25T12:16:03Z",
+       "seenAt": "2026-11-25T12:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Saudi Arabia",
+       "sourceCountryCode": "SA",
+       "sourceRegion": "Middle East",
+       "sourceLat": 24,
+       "sourceLon": 45,
+       "language": "en"
+      },
+      {
+       "id": "n-3a2cce0b16c433",
+       "title": "مكافحة الأوبئة: الأردن لم يسجل إصابات بإيبولا ويضع بروتوكولا للتعامل مع أي حالة",
+       "titleEnglish": "Epidemic control: Jordan has recorded no Ebola cases and is setting a protocol to handle any case",
+       "url": "https://www.khaberni.com/news/870585-%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%A7%D9%88%D8%A8%D8%A6%D8%A9-%D8%A7%D9%84%D8%A7%D8%B1%D8%AF%D9%86-%D9%84%D9%85-%D9%8A%D8%B3%D8%AC%D9%84-%D8%A7%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A8%D8%A7%D9%8A%D8%A8%D9%88%D9%84%D8%A7-%D9%88%D9%8A%D8%B6%D8%B9-%D8%A8%D8%B1%D9%88%D8%AA%D9%88%D9%83%D9%88%D9%84%D8%A7-%D9%84%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D9%85%D8%B9-%D8%A7%D9%8A-%D8%AD%D8%A7%D9%84%D8%A9",
+       "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+       "publisherDomain": "khaberni.com",
+       "publishedAt": "2026-11-25T18:02:00Z",
+       "seenAt": "2026-11-25T18:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Jordan",
+       "sourceCountryCode": "JO",
+       "sourceRegion": "Middle East",
+       "sourceLat": 31,
+       "sourceLon": 36,
+       "language": "ar"
+      },
+      {
+       "id": "n-b515ede3fa315a",
+       "title": "Santé. Grippe : sept régions de l'Hexagone désormais en pré-épidémie",
+       "titleEnglish": "Health. Flu: seven regions of metropolitan France now in pre-epidemic phase",
+       "url": "https://www.estrepublicain.fr/sante/2026/11/25/grippe-sept-regions-de-l-hexagone-desormais-en-pre-epidemie",
+       "publisher": "estrepublicain.fr",
+       "publisherDomain": "estrepublicain.fr",
+       "publishedAt": "2026-11-25T17:33:00Z",
+       "seenAt": "2026-11-25T18:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "France",
+       "sourceCountryCode": "FR",
+       "sourceRegion": "Europe",
+       "sourceLat": 46,
+       "sourceLon": 2,
+       "language": "fr"
+      },
+      {
+       "id": "n-f6bcf2e2045b05",
+       "title": "Video: CRÍMENES AUMENTARON 16, MUEREN POR DENGUE Y CONGRESO ALISTA BONO NAVIDEÑO ARDE TROYA por RTV - La República",
+       "titleEnglish": "Video: CRIMES UP 16, DEATHS FROM DENGUE, AND CONGRESS PREPARES CHRISTMAS BONUS, TROUBLE BREWS by RTV - La República",
+       "url": "https://www.deperu.com/tv/PJs99vTwgJo.crimenes-aumentaron-16-mueren-por-dengue-y-congreso-alista-bono-navideno-arde-troya.UC-B7Xv56uNRDkj0vC3QW8Cg.html",
+       "publisher": "deperu.com",
+       "publisherDomain": "deperu.com",
+       "publishedAt": "2026-11-25T21:02:00Z",
+       "seenAt": "2026-11-25T21:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Peru",
+       "sourceCountryCode": "PE",
+       "sourceRegion": "Latin America",
+       "sourceLat": -10,
+       "sourceLon": -76,
+       "language": "es"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "ai-cheating-and-false-alarms",
+   "subject": "Exam halls, schools and police adjusting to AI used to cheat, to watch or as evidence",
+   "status": "open",
+   "firstSeen": "2026-11-19",
+   "lastSeen": "2026-11-26",
+   "sightings": [
+    {
+     "date": "2026-11-19",
+     "stamp": "20261119T230231",
+     "note": "Korea's exam halls restrict clothing and glasses after an AI cheating admission and a US school AI flagged a crisp bag as a gun; a second country changing exam or school-security rules over AI would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-77ccc50635bcee",
+       "title": "단추 없는 옷에 투명테 안경…‘AI 부정행위’에 긴장감 흐른 수능 시험장",
+       "titleEnglish": "Buttonless clothes and clear-framed glasses: tension at the college entrance exam venue over AI cheating",
+       "url": "https://www.hani.co.kr/arti/society/society_general/1288244.html",
+       "publisher": "한겨레",
+       "publisherDomain": "hani.co.kr",
+       "publishedAt": "2026-11-19T13:51:00Z",
+       "seenAt": "2026-11-19T14:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Korea",
+       "sourceCountryCode": "KR",
+       "sourceRegion": "Asia",
+       "sourceLat": 36,
+       "sourceLon": 128,
+       "language": "ko"
+      },
+      {
+       "id": "n-2c631aca40c70e",
+       "title": "AI cheating admission prompts scrutiny of other top scorers in Korea",
+       "titleEnglish": "AI cheating admission prompts scrutiny of other top scorers in Korea",
+       "url": "https://english.hani.co.kr/arti/english_edition/e_national/1288119.html",
+       "publisher": "Hankyoreh",
+       "publisherDomain": "english.hani.co.kr",
+       "publishedAt": "2026-11-19T10:47:00Z",
+       "seenAt": "2026-11-19T10:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Korea",
+       "sourceCountryCode": "KR",
+       "sourceRegion": "Asia",
+       "sourceLat": 36,
+       "sourceLon": 128,
+       "language": "en"
+      },
+      {
+       "id": "n-1ab47ed7a08a89",
+       "title": "AI Flags Bag of Doritos as Gun, Sending Armed Police After Four Black Students as Officials Laugh in Texts",
+       "titleEnglish": "AI Flags Bag of Doritos as Gun, Sending Armed Police After Four Black Students as Officials Laugh in Texts",
+       "url": "https://www.ibtimes.co.uk/maryland-school-ai-flags-doritos-bag-gun-1833256",
+       "publisher": "International Business Times UK",
+       "publisherDomain": "ibtimes.co.uk",
+       "publishedAt": "2026-11-19T03:22:05Z",
+       "seenAt": "2026-11-19T04:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "United Kingdom",
+       "sourceCountryCode": "GB",
+       "sourceRegion": "Europe",
+       "sourceLat": 54,
+       "sourceLon": -2,
+       "language": "en"
+      },
+      {
+       "id": "n-5d8d9559ef131a",
+       "title": "שיתף את ChatGPT בכוונתו לרצוח את אשתו - ונעצר | וואלה חדשות",
+       "titleEnglish": "Shared with ChatGPT his intention to murder his wife - and arrested | Walla News",
+       "url": "https://www.walla.co.il:443/news/israel/383962196",
+       "publisher": "walla.co.il",
+       "publisherDomain": "walla.co.il",
+       "publishedAt": "2026-11-19T13:47:00Z",
+       "seenAt": "2026-11-19T13:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Israel",
+       "sourceCountryCode": "IL",
+       "sourceRegion": "Middle East",
+       "sourceLat": 31.5,
+       "sourceLon": 35,
+       "language": "he"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-21",
+     "stamp": "20261121T213836",
+     "note": "Korea's Financial News argued that a thinking-skills assessment free of AI cheating needs classrooms to change first; a second country changing exam or school-security rules over AI would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-ba1c943d4fc3cc",
+       "title": "커닝 걱정 없는 사고력 평가…교실부터 바꿔야[평가 시험대③]",
+       "titleEnglish": "Thinking-skills assessment with no cheating worries… classrooms must change first [Assessment on the Test Bench ③]",
+       "url": "https://www.fnnews.com/news/202611220603312310",
+       "publisher": "파이낸셜뉴스",
+       "publisherDomain": "fnnews.com",
+       "publishedAt": "2026-11-21T21:03:32Z",
+       "seenAt": "2026-11-21T21:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Korea",
+       "sourceCountryCode": "KR",
+       "sourceRegion": "Asia",
+       "sourceLat": 36,
+       "sourceLon": 128,
+       "language": "ko"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-22",
+     "stamp": "20261122T214457",
+     "note": "South Korea's education minister resigned over the AI-assisted exam cheating crisis, reported from Kenya; a second country changing exam or school rules over AI would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-d84eb540521df6",
+       "title": "South Korea’s Education Minister Resigns Amid AI‑Assisted Exam Cheating Crisis",
+       "titleEnglish": "South Korea’s Education Minister Resigns Amid AI‑Assisted Exam Cheating Crisis",
+       "url": "https://kenya-today.com/report-south-koreas-education-minister-resigns-amid-aiassisted-exam-cheating-crisis-31376/",
+       "publisher": "Kenya Today",
+       "publisherDomain": "kenya-today.com",
+       "publishedAt": "2026-11-22T17:44:37Z",
+       "seenAt": "2026-11-22T20:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Kenya",
+       "sourceCountryCode": "KE",
+       "sourceRegion": "Africa",
+       "sourceLat": 0.1,
+       "sourceLon": 38,
+       "language": "en"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-24",
+     "stamp": "20261124T025350",
+     "note": "BBC Urdu reports Lahore police arresting a first-year student over an alleged plan to attack an educational institution 'using AI'; a school or exam authority outside Korea changing its rules over AI would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-6f6f9282d228f3",
+       "title": "لاہور میں ’اے آئی کے ذریعے‘ تعلیمی ادارے پر حملے کی منصوبہ بندی کا الزام، فرسٹ ایئر کا طالب علم گرفتار - BBC News اردو",
+       "titleEnglish": "Plan to attack educational institution in Lahore 'using AI' alleged, first-year student arrested - BBC News Urdu",
+       "url": "https://www.bbc.com/urdu/articles/cm75231v1v70o",
+       "publisher": "BBC News اردو",
+       "publisherDomain": "bbc.com",
+       "publishedAt": "2026-11-23T17:25:47Z",
+       "seenAt": "2026-11-23T17:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "United Kingdom",
+       "sourceCountryCode": "GB",
+       "sourceRegion": "Europe",
+       "sourceLat": 54,
+       "sourceLon": -2,
+       "language": "ur"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-26",
+     "stamp": "20261126T001903",
+     "note": "Hankyoreh reports Korean schools in confusion over where to keep pupils' bags under anti-AI-cheating rules for final exams; a school or exam authority outside Korea changing its rules over AI would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-50df97c309fa39",
+       "title": "“그 많은 가방 어디다 보관하란 거냐”…기말고사 AI커닝 대책에 학교 혼란",
+       "titleEnglish": "“Where are we supposed to store all those bags?”… Schools in chaos over AI cheating measures for final exams",
+       "url": "https://www.hani.co.kr/arti/society/schooling/1289154.html",
+       "publisher": "한겨레",
+       "publisherDomain": "hani.co.kr",
+       "publishedAt": "2026-11-25T20:01:00Z",
+       "seenAt": "2026-11-25T21:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Korea",
+       "sourceCountryCode": "KR",
+       "sourceRegion": "Asia",
+       "sourceLat": 36,
+       "sourceLon": 128,
+       "language": "ko"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "return-hubs-abroad",
+   "subject": "Governments sending rejected or deported migrants to third countries rather than home",
+   "status": "open",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-26",
+   "sightings": [
+    {
+     "date": "2026-11-18",
+     "stamp": "20261118T225647",
+     "note": "Germany and four other EU states want a Rwanda deportation agreement and Greece's migration minister discussed a 'return hub' with Rwanda's minister; a signed agreement or a court ruling on one would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-8bf7e48b5a193e",
+       "title": "Njemačka i još četiri članice EU žele sporazum sa Ruandom o deportovanju odbijenih tražilaca azila",
+       "titleEnglish": "Germany and four other EU members want agreement with Rwanda on deporting rejected asylum seekers",
+       "url": "https://www.dw.com/bs/deportacija-odbijenih-tra%C5%BEilaca-azila-iz-nema%C4%8Dke-i-jo%C5%A1-%C4%8Detiri-zemlje-%C4%8Dlanice-eu-u-ruandu-ve%C4%87-od-2027/a-79968376",
+       "publisher": "dw.com",
+       "publisherDomain": "dw.com",
+       "publishedAt": "2026-11-18T21:47:00Z",
+       "seenAt": "2026-11-18T21:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Germany",
+       "sourceCountryCode": "DE",
+       "sourceRegion": "Europe",
+       "sourceLat": 51,
+       "sourceLon": 10,
+       "language": "bs"
+      },
+      {
+       "id": "n-9ee6680c282017",
+       "title": "Μεταναστευτικό: Συνάντηση Πλεύρη με τον υπουργό της Ρουάντα – Στο τραπέζι η δημιουργία «κόμβου επιστροφής»",
+       "titleEnglish": "Migration: Meeting of Plevris with the Rwandan minister – On the table the creation of a \"return hub\"",
+       "url": "https://www.enikos.gr/politics/metanasteftiko-synantisi-plevri-me-ton-ypourgo-tis-rouanta-sto-trapezi-i-dimiourgia-komvou-epistrofis/2678796/",
+       "publisher": "ENIKOS",
+       "publisherDomain": "enikos.gr",
+       "publishedAt": "2026-11-18T13:54:24Z",
+       "seenAt": "2026-11-18T14:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Greece",
+       "sourceCountryCode": "GR",
+       "sourceRegion": "Europe",
+       "sourceLat": 39,
+       "sourceLon": 23,
+       "language": "el"
+      },
+      {
+       "id": "n-80432faa5c94c7",
+       "title": "Bicester MoD asylum centre for 1,256 men to open in just five months",
+       "titleEnglish": "Bicester MoD asylum centre for 1,256 men to open in just five months",
+       "url": "https://www.thisisoxfordshire.co.uk/news/26740204.bicester-mod-asylum-seeker-centre-open-five-months/",
+       "publisher": "This is Oxfordshire",
+       "publisherDomain": "thisisoxfordshire.co.uk",
+       "publishedAt": "2026-11-18T11:17:00Z",
+       "seenAt": "2026-11-18T11:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "United Kingdom",
+       "sourceCountryCode": "GB",
+       "sourceRegion": "Europe",
+       "sourceLat": 54,
+       "sourceLon": -2,
+       "language": "en"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-22",
+     "stamp": "20261122T214457",
+     "note": "Austria said it will seek a net outflow of asylum seekers; a signed third-country return agreement or a court ruling on one would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-f1826cbfdaafad",
+       "title": "Austria to seek net outflow of asylum seekers",
+       "titleEnglish": "Austria to seek net outflow of asylum seekers",
+       "url": "https://english.news.cn/20261123/a6595b9b35344372b42da5bbee700cd9/c.html",
+       "publisher": "english.news.cn",
+       "publisherDomain": "english.news.cn",
+       "publishedAt": "2026-11-22T20:32:00Z",
+       "seenAt": "2026-11-22T20:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "China",
+       "sourceCountryCode": "CN",
+       "sourceRegion": "Asia",
+       "sourceLat": 35,
+       "sourceLon": 104,
+       "language": "en"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-24",
+     "stamp": "20261124T025350",
+     "note": "France Inter carried an analyst's view that a return hub in Rwanda will not stop migration to Europe; a signed return agreement or a court ruling on one would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-6b4c741e9e6f39",
+       "title": "Un hub de retour au Rwanda \"ne va pas empêcher\" l'immigration en Europe, affirme Camille Le Coz",
+       "titleEnglish": "A return hub to Rwanda \"will not prevent\" immigration to Europe, says Camille Le Coz",
+       "url": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-d-un-jour-dans-le-monde/l-invite-d-un-jour-dans-le-monde-du-lundi-23-novembre-2026-6535290",
+       "publisher": "France Inter",
+       "publisherDomain": "radiofrance.fr",
+       "publishedAt": "2026-11-23T17:23:05Z",
+       "seenAt": "2026-11-23T20:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "France",
+       "sourceCountryCode": "FR",
+       "sourceRegion": "Europe",
+       "sourceLat": 46,
+       "sourceLon": 2,
+       "language": "fr"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-26",
+     "stamp": "20261126T001903",
+     "note": "Nieuws.nl reports Kilmar Ábrego García sent on to Spain, NOS a record 2,100 arrivals in the Canaries in a day and Onet a new deadly route to Europe; a signed return-hub agreement or a court ruling on one would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-f31773d111975e",
+       "title": "Salvadoraanse migrant Ábrego García aangekomen in Spanje",
+       "titleEnglish": "Salvadoran migrant Ábrego García arrives in Spain",
+       "url": "https://nieuws.nl/buitenland/salvadoraanse-migrant-abrego-garcia-aangekomen-in-spanje",
+       "publisher": "Nieuws.nl",
+       "publisherDomain": "nieuws.nl",
+       "publishedAt": "2026-11-25T15:03:21Z",
+       "seenAt": "2026-11-25T15:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Netherlands",
+       "sourceCountryCode": "NL",
+       "sourceRegion": "Europe",
+       "sourceLat": 52,
+       "sourceLon": 5,
+       "language": "nl"
+      },
+      {
+       "id": "n-91d8c1847f7446",
+       "title": "Meer dan 2100 migranten bereiken Canarische Eilanden, nieuw dagrecord",
+       "titleEnglish": "More than 2100 migrants reach Canary Islands, new daily record",
+       "url": "https://nos.nl/artikel/2640978-meer-dan-2100-migranten-bereiken-canarische-eilanden-nieuw-dagrecord",
+       "publisher": "nos.nl",
+       "publisherDomain": "nos.nl",
+       "publishedAt": "2026-11-25T15:02:00Z",
+       "seenAt": "2026-11-25T15:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Netherlands",
+       "sourceCountryCode": "NL",
+       "sourceRegion": "Europe",
+       "sourceLat": 52,
+       "sourceLon": 5,
+       "language": "nl"
+      },
+      {
+       "id": "n-70a17b5faa7bc9",
+       "title": "Śmiercionośna droga do Europy. Oto nowe epicentrum migracyjnego problemu",
+       "titleEnglish": "Deadly route to Europe. Here is the new epicentre of the migration problem",
+       "url": "https://wiadomosci.onet.pl/swiat/2-tys-osob-w-dzien-tak-kwitnie-nowy-szlak-nielegalnej-migracji-do-ue/4qprd0v",
+       "publisher": "wiadomosci.onet.pl",
+       "publisherDomain": "wiadomosci.onet.pl",
+       "publishedAt": "2026-11-25T15:32:00Z",
+       "seenAt": "2026-11-25T15:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Poland",
+       "sourceCountryCode": "PL",
+       "sourceRegion": "Europe",
+       "sourceLat": 52,
+       "sourceLon": 20,
+       "language": "pl"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "factory-fires-and-compensation",
+   "subject": "Deadly fires and accidents, and who is blamed and who compensates the victims",
+   "status": "open",
+   "firstSeen": "2026-11-22",
+   "lastSeen": "2026-11-26",
+   "sightings": [
+    {
+     "date": "2026-11-22",
+     "stamp": "20261122T214457",
+     "note": "Indonesia's Cikande candy factory fire filled 24 body bags and brought a promise of BPJS benefits, a young Italian worker was crushed and a Finnish sawmill burned; an official finding of safety failures in a second country would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-1eeef98a345c50",
+       "title": "Bupati Serang Pastikan Korban Kebakaran Pabrik Cikande Dapat Santunan BPJS Ketenagakerjaan",
+       "titleEnglish": "Serang Regent ensures victims of Cikande factory fire receive BPJS Ketenagakerjaan benefits",
+       "url": "https://www.viva.co.id/berita/nasional/1945643-bupati-serang-pastikan-korban-kebakaran-pabrik-cikande-dapat-santunan-bpjs-ketenagakerjaan",
+       "publisher": "viva.co.id",
+       "publisherDomain": "viva.co.id",
+       "publishedAt": "2026-11-22T17:40:00Z",
+       "seenAt": "2026-11-22T18:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Indonesia",
+       "sourceCountryCode": "ID",
+       "sourceRegion": "Asia",
+       "sourceLat": -2,
+       "sourceLon": 118,
+       "language": "id"
+      },
+      {
+       "id": "n-e7606b4f6ae17f",
+       "title": "24 Kantong Jenazah Korban Kebakaran Pabrik Permen Cikande Serang Dievakuasi ke RS Bhayangkara",
+       "titleEnglish": "24 body bags of victims of Cikande Serang candy factory fire evacuated to Bhayangkara Hospital",
+       "url": "https://www.jawapos.com/nasional/2611220355/24-kantong-jenazah-korban-kebakaran-pabrik-permen-cikande-serang-dievakuasi-ke-rs-bhayangkara",
+       "publisher": "www.jawapos.com",
+       "publisherDomain": "jawapos.com",
+       "publishedAt": "2026-11-22T12:25:12Z",
+       "seenAt": "2026-11-22T13:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Indonesia",
+       "sourceCountryCode": "ID",
+       "sourceRegion": "Asia",
+       "sourceLat": -2,
+       "sourceLon": 118,
+       "language": "id"
+      },
+      {
+       "id": "n-9c04f8fb2fcf5f",
+       "title": "Un incendio en una fábrica de dulces de Indonesia dejó tres muertos y 36 desaparecidos",
+       "titleEnglish": "A fire at a candy factory in Indonesia left three dead and 36 missing",
+       "url": "https://www.ellitoral.com/internacionales/indonesia-incendio-fabrica-dulces-serang-banten-yakarta-trabajadores-desaparecidos-milkita_0_T0hakTtHGa.html",
+       "publisher": "El Litoral",
+       "publisherDomain": "ellitoral.com",
+       "publishedAt": "2026-11-22T14:21:03Z",
+       "seenAt": "2026-11-22T15:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Argentina",
+       "sourceCountryCode": "AR",
+       "sourceRegion": "Latin America",
+       "sourceLat": -35,
+       "sourceLon": -64,
+       "language": "es"
+      },
+      {
+       "id": "n-c160e51b968861",
+       "title": "Incidenti sul lavoro, giovane operaio schiacciato in fabbrica: è grave",
+       "titleEnglish": "Workplace accidents: young worker crushed in factory, condition serious",
+       "url": "https://tg24.sky.it/cronaca/2026/11/22/udine-incidente-lavoro-operaio-fabbrica",
+       "publisher": "tg24.sky.it",
+       "publisherDomain": "tg24.sky.it",
+       "publishedAt": "2026-11-22T20:32:00Z",
+       "seenAt": "2026-11-22T20:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Italy",
+       "sourceCountryCode": "IT",
+       "sourceRegion": "Europe",
+       "sourceLat": 42,
+       "sourceLon": 12,
+       "language": "it"
+      },
+      {
+       "id": "n-7df39a19e40414",
+       "title": "Lappeenrannan sahapalon syttymissyy on yhä mysteeri – sahanjohtajan mukaan tuotantoon vaikutukset ovat vähäisiä",
+       "titleEnglish": "The cause of the Lappeenranta sawmill fire remains a mystery – according to the sawmill manager, the production impact is minor",
+       "url": "https://yle.fi/a/74-20258359",
+       "publisher": "Yle Uutiset",
+       "publisherDomain": "yle.fi",
+       "publishedAt": "2026-11-22T15:03:27Z",
+       "seenAt": "2026-11-22T15:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Finland",
+       "sourceCountryCode": "FI",
+       "sourceRegion": "Europe",
+       "sourceLat": 64,
+       "sourceLon": 26,
+       "language": "fi"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-26",
+     "stamp": "20261126T001903",
+     "note": "Indonesia identified 24 of 26 candy factory victims, Egypt's prosecutor set up a team on the Cairo fuel truck fire, Turkey ruled on a building where 41 died in the 2023 quake and Indian bus crash families demanded state jobs; an official finding of fault or a compensation scheme in a second country ",
+     "headlines": [
+      {
+       "id": "n-dbdef6b42765b6",
+       "title": "24 dari 26 Jenazah Korban Kebakaran Pabrik Permen Teridentifikasi",
+       "titleEnglish": "24 of 26 Victims of Candy Factory Fire Identified",
+       "url": "https://enamplus.liputan6.com/tv/read/8342606/24-dari-26-jenazah-korban-kebakaran-pabrik-permen-teridentifikasi",
+       "publisher": "Enamplus Liputan6",
+       "publisherDomain": "enamplus.liputan6.com",
+       "publishedAt": "2026-11-25T15:32:00Z",
+       "seenAt": "2026-11-25T15:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Indonesia",
+       "sourceCountryCode": "ID",
+       "sourceRegion": "Asia",
+       "sourceLat": -2,
+       "sourceLon": 118,
+       "language": "id"
+      },
+      {
+       "id": "n-e8c4f508f1ddc7",
+       "title": "النيابة تعلن التقديرات المبدئية لحريق سيارة المواد البترولية بالوراق.. مصرع 30 شخصا وإصابة 25 وتفحم 27 مركبة.. وتنتدب الطب الشرعي لإجراء تحليل DNA لمعرفة هوية الجثامين المجهولة.. وتشكل فريق لمعرفة سبب الحادث - اليوم السابع",
+       "titleEnglish": "Prosecution announces preliminary estimates for the petroleum products vehicle fire in Al-Warraq: 30 people killed, 25 injured and 27 vehicles charred. It appoints forensic medicine to conduct DNA analysis to identify the unidentified bodies, and forms a team to determine the cause of the accident - Al Youm Al Sabea",
+       "url": "https://www.youm7.com/story/2026/11/25/%D8%A7%D9%84%D9%86%D9%8A%D8%A7%D8%A8%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%A8%D8%AF%D8%A6%D9%8A%D8%A9-%D9%84%D8%AD%D8%B1%D9%8A%D9%82-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF-%D8%A7%D9%84%D8%A8%D8%AA%D8%B1%D9%88%D9%84%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%88%D8%B1%D8%A7%D9%82-%D9%85%D8%B5%D8%B1%D8%B9/7632653",
+       "publisher": "اليوم السابع",
+       "publisherDomain": "youm7.com",
+       "publishedAt": "2026-11-25T22:50:02Z",
+       "seenAt": "2026-11-25T21:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Egypt",
+       "sourceCountryCode": "EG",
+       "sourceRegion": "Africa",
+       "sourceLat": 27,
+       "sourceLon": 30,
+       "language": "ar"
+      },
+      {
+       "id": "n-4112fe6882518c",
+       "title": "وزير الصحة يكشف حالة مصابي حادث الدائري: خروج بعضهم خلال ساعات | مصراوي",
+       "titleEnglish": "Health minister reveals condition of Ring Road accident injured: some to be discharged within hours | Masrawy",
+       "url": "https://www.masrawy.com/news/news_egypt/details/2026/11/26/3084676/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D9%86%D9%85%D8%AA%D9%84%D9%83-%D8%A5%D9%85%D9%83%D8%A7%D9%86%D8%A7%D8%AA-%D9%85%D8%AA%D9%82%D8%AF%D9%85%D8%A9-%D9%84%D8%B9%D9%84%D8%A7%D8%AC-%D8%A7%D9%84%D8%AD%D8%B1%D9%88%D9%82-%D9%88%D9%84%D8%A7-%D9%86%D8%AD%D8%AA%D8%A7%D8%AC-%D9%84%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A7%D8%AA-%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9",
+       "publisher": "مصراوي.كوم",
+       "publisherDomain": "masrawy.com",
+       "publishedAt": "2026-11-25T23:02:00Z",
+       "seenAt": "2026-11-25T23:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Egypt",
+       "sourceCountryCode": "EG",
+       "sourceRegion": "Africa",
+       "sourceLat": 27,
+       "sourceLon": 30,
+       "language": "ar"
+      },
+      {
+       "id": "n-00bbb6a805860e",
+       "title": "Depremde 41 kişinin öldüğü Pınar Apartmanı'na ilişkin davada karar çıktı",
+       "titleEnglish": "Verdict reached in case over Pınar Apartment, where 41 people died in the earthquake",
+       "url": "https://www.aa.com.tr/tr/gundem/depremde-41-kisinin-oldugu-pinar-apartmanina-iliskin-davada-karar-cikti/4137865",
+       "publisher": "Anadolu Ajansı",
+       "publisherDomain": "aa.com.tr",
+       "publishedAt": "2026-11-25T20:42:56Z",
+       "seenAt": "2026-11-25T18:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Turkey",
+       "sourceCountryCode": "TR",
+       "sourceRegion": "Middle East",
+       "sourceLat": 39,
+       "sourceLon": 35,
+       "language": "tr"
+      },
+      {
+       "id": "n-66fc522e029440",
+       "title": "Bus crash victims’ kin demand govt jobs - The Tribune",
+       "titleEnglish": "Bus crash victims’ kin demand govt jobs - The Tribune",
+       "url": "https://www.tribuneindia.com/news/amritsar/bus-crash-victims-kin-demand-govt-jobs/",
+       "publisher": "The Tribune",
+       "publisherDomain": "tribuneindia.com",
+       "publishedAt": "2026-11-25T20:36:06Z",
+       "seenAt": "2026-11-25T21:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "India",
+       "sourceCountryCode": "IN",
+       "sourceRegion": "Asia",
+       "sourceLat": 22,
+       "sourceLon": 79,
+       "language": "en"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "removal-powers-contested",
+   "subject": "Parliaments' powers to remove judges and presidents contested in courts and committees",
+   "status": "open",
+   "firstSeen": "2026-11-26",
+   "lastSeen": "2026-11-26",
+   "sightings": [
+    {
+     "date": "2026-11-26",
+     "stamp": "20261126T001903",
+     "note": "Korean judges oppose impeaching Chief Justice Cho Hee-dae over rulings, South Africa's High Court set aside the Phala Phala Section 89 report and Chile's committee backed tighter rules for constitutional accusations; a second ruling or vote limiting removal powers would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-ad4992d956d78e",
+       "title": "\"법관 탄핵, 사법권 독립 침해\" 판사들 집단성명",
+       "titleEnglish": "\"Impeachment of judges infringes judicial independence\" judges issue collective statement",
+       "url": "https://www.fnnews.com/news/202611252124596933",
+       "publisher": "파이낸셜뉴스",
+       "publisherDomain": "fnnews.com",
+       "publishedAt": "2026-11-25T12:25:00Z",
+       "seenAt": "2026-11-25T12:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Korea",
+       "sourceCountryCode": "KR",
+       "sourceRegion": "Asia",
+       "sourceLat": 36,
+       "sourceLon": 128,
+       "language": "ko"
+      },
+      {
+       "id": "n-328ee920286153",
+       "title": "창원 판사회의 ‘조희대 탄핵’ 반대…“재판 이유 법관 탄핵 헌법 가치 훼손”",
+       "titleEnglish": "Changwon judges' meeting opposes 'Cho Hee-dae impeachment': \"Impeaching judges over their rulings undermines constitutional values\"",
+       "url": "https://www.hani.co.kr/arti/society/society_general/1289141.html",
+       "publisher": "한겨레",
+       "publisherDomain": "hani.co.kr",
+       "publishedAt": "2026-11-25T12:16:00Z",
+       "seenAt": "2026-11-25T12:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Korea",
+       "sourceCountryCode": "KR",
+       "sourceRegion": "Asia",
+       "sourceLat": 36,
+       "sourceLon": 128,
+       "language": "ko"
+      },
+      {
+       "id": "n-756ce9193dc021",
+       "title": "SA High Court sets aside Phala Phala Section 89 report - Channel Africa",
+       "titleEnglish": "SA High Court sets aside Phala Phala Section 89 report - Channel Africa",
+       "url": "https://www.channelafrica.co.za/channelafrica/news/sa-high-court-sets-aside-phala-phala-section-89-report/",
+       "publisher": "Channel Africa",
+       "publisherDomain": "channelafrica.co.za",
+       "publishedAt": "2026-11-25T12:02:00Z",
+       "seenAt": "2026-11-25T12:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Africa",
+       "sourceCountryCode": "ZA",
+       "sourceRegion": "Africa",
+       "sourceLat": -30,
+       "sourceLon": 25,
+       "language": "en"
+      },
+      {
+       "id": "n-c67ddf8de5accd",
+       "title": "Ramaphosa cleared again as high court scraps Phala Phala report",
+       "titleEnglish": "Ramaphosa cleared again as high court scraps Phala Phala report",
+       "url": "https://sundayworld.co.za/politics/ramaphosa-cleared-again-as-high-court-scraps-phala-phala-report/",
+       "publisher": "Sunday World",
+       "publisherDomain": "sundayworld.co.za",
+       "publishedAt": "2026-11-25T10:09:39Z",
+       "seenAt": "2026-11-25T12:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "South Africa",
+       "sourceCountryCode": "ZA",
+       "sourceRegion": "Africa",
+       "sourceLat": -30,
+       "sourceLon": 25,
+       "language": "en"
+      },
+      {
+       "id": "n-9906f9d35b426c",
+       "title": "Con respaldo transversal: comisión de Constitución de la Cámara aprueba en general reforma que eleva exigencias para las acusaciones constitucionales - La Tercera",
+       "titleEnglish": "With cross-party support: Chamber of Deputies Constitution committee approves in general reform raising requirements for constitutional accusations - La Tercera",
+       "url": "https://www.latercera.com/nacional/noticia/con-respaldo-transversal-comision-de-constitucion-de-la-camara-aprueba-en-general-reforma-que-eleva-exigencias-para-las-acusaciones-constitucionales/",
+       "publisher": "La Tercera",
+       "publisherDomain": "latercera.com",
+       "publishedAt": "2026-11-25T22:44:57Z",
+       "seenAt": "2026-11-25T23:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Chile",
+       "sourceCountryCode": "CL",
+       "sourceRegion": "Latin America",
+       "sourceLat": -33,
+       "sourceLon": -71,
+       "language": "es"
+      }
+     ]
+    }
+   ],
+   "written": null
+  },
+  {
+   "key": "economic-abuse-named",
+   "subject": "Control of money counted as violence against women in surveys, laws and awareness days",
+   "status": "open",
+   "firstSeen": "2026-11-26",
+   "lastSeen": "2026-11-26",
+   "sightings": [
+    {
+     "date": "2026-11-26",
+     "stamp": "20261126T001903",
+     "note": "Asturias reports one in five women has suffered economic violence from a partner and New Zealand marked an economic abuse awareness day; a law or court case treating financial control as abuse would make it a narrative.",
+     "headlines": [
+      {
+       "id": "n-00d3eba8c50a91",
+       "title": "Una de cada cinco asturianas mayores de 16 años ha sufrido violencia económica por parte de su pareja o expareja | El Comercio: Diario de Asturias",
+       "titleEnglish": "One in five Asturian women over 16 has suffered economic violence from their partner or ex-partner | El Comercio: Diario de Asturias",
+       "url": "https://www.elcomercio.es/asturias/25-n-violencia-economica-mujer-asturias-20261124132706-nt.html",
+       "publisher": "El Comercio: Diario de Asturias",
+       "publisherDomain": "elcomercio.es",
+       "publishedAt": "2026-11-24T12:27:41Z",
+       "seenAt": "2026-11-25T15:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Spain",
+       "sourceCountryCode": "ES",
+       "sourceRegion": "Europe",
+       "sourceLat": 40,
+       "sourceLon": -4,
+       "language": "es"
+      },
+      {
+       "id": "n-d8158cb481278c",
+       "title": "International Economic Abuse Awareness Day",
+       "titleEnglish": "International Economic Abuse Awareness Day",
+       "url": "https://www.scoop.co.nz/stories/AK2611/S00791/international-economic-abuse-awareness-day.htm",
+       "publisher": "scoop.co.nz",
+       "publisherDomain": "scoop.co.nz",
+       "publishedAt": "2026-11-25T21:02:00Z",
+       "seenAt": "2026-11-25T21:02:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "New Zealand",
+       "sourceCountryCode": "NZ",
+       "sourceRegion": "Oceania",
+       "sourceLat": -41,
+       "sourceLon": 174,
+       "language": "en"
       }
      ]
     }
@@ -545,558 +1939,6 @@
        "sourceLat": 52,
        "sourceLon": 5,
        "language": "en"
-      }
-     ]
-    }
-   ],
-   "written": null
-  },
-  {
-   "key": "pre-election-political-violence",
-   "subject": "Political violence rising in countries heading towards national elections",
-   "status": "open",
-   "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-25",
-   "sightings": [
-    {
-     "date": "2026-11-20",
-     "stamp": "20261120T224019",
-     "note": "Afenifere warned of rising violence before Nigeria's 2027 vote and Bangladesh reported renewed petrol-bomb attacks; an electoral body postponing or relocating a poll over violence would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-4468f9843aa36e",
-       "title": "2027: Afenifere warns against rising political violence",
-       "titleEnglish": "2027: Afenifere warns against rising political violence",
-       "url": "https://punchng.com/2027-afenifere-warns-against-rising-political-violence/",
-       "publisher": "Punch Newspapers",
-       "publisherDomain": "punchng.com",
-       "publishedAt": "2026-11-20T21:04:16Z",
-       "seenAt": "2026-11-20T21:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Nigeria",
-       "sourceCountryCode": "NG",
-       "sourceRegion": "Africa",
-       "sourceLat": 9,
-       "sourceLon": 8,
-       "language": "en"
-      },
-      {
-       "id": "n-0701783a8f40b3",
-       "title": "‘राजनीतिक हिंसा की आग में’ फिर झुलसने लगा बंगलादेश!",
-       "titleEnglish": "\"Amid the Fire of Political Violence,\" Bangladesh Begins to Burn Again!",
-       "url": "https://www.punjabkesari.in/article/news/bangladesh-is-again-burning-in-the-fire-of-political-violence-2401556",
-       "publisher": "punjabkesari",
-       "publisherDomain": "punjabkesari.in",
-       "publishedAt": "2026-11-20T21:27:38Z",
-       "seenAt": "2026-11-20T22:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "India",
-       "sourceCountryCode": "IN",
-       "sourceRegion": "Asia",
-       "sourceLat": 22,
-       "sourceLon": 79,
-       "language": "hi"
-      },
-      {
-       "id": "n-7898964ad26c07",
-       "title": "Petrol bombs will not bring ‘fugitive criminal’ back to Bangladesh, says Humaiun Kobir",
-       "titleEnglish": "Petrol bombs will not bring ‘fugitive criminal’ back to Bangladesh, says Humaiun Kobir",
-       "url": "https://bdnews24.com/bangladesh/0i0cinysyx",
-       "publisher": "bdnews24.com",
-       "publisherDomain": "bdnews24.com",
-       "publishedAt": "2026-11-20T09:30:47Z",
-       "seenAt": "2026-11-20T10:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Bangladesh",
-       "sourceCountryCode": "BD",
-       "sourceRegion": "Asia",
-       "sourceLat": 24,
-       "sourceLon": 90,
-       "language": "en"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-21",
-     "stamp": "20261121T213836",
-     "note": "Bangladesh's Narail saw dozens of homes and shops of Awami League leaders torched after two BNP men were killed and Poland detained a man for threatening a woman MP; an electoral body postponing or moving a poll over violence would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-27712d9008d3d1",
-       "title": "Houses of AL leaders set on fire in Narail after killing of two BNP men",
-       "titleEnglish": "Houses of AL leaders set on fire in Narail after killing of two BNP men",
-       "url": "https://www.thedailystar.net/news/crime-justice/news/houses-al-leaders-set-fire-narail-after-killing-two-bnp-men-4329451",
-       "publisher": "The Daily Star",
-       "publisherDomain": "thedailystar.net",
-       "publishedAt": "2026-11-21T09:32:00Z",
-       "seenAt": "2026-11-21T09:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Bangladesh",
-       "sourceCountryCode": "BD",
-       "sourceRegion": "Asia",
-       "sourceLat": 24,
-       "sourceLon": 90,
-       "language": "en"
-      },
-      {
-       "id": "n-a31954eebc5cc8",
-       "title": "Dozens of homes, shops torched amid tensions in Narail's Kalia",
-       "titleEnglish": "Dozens of homes, shops torched amid tensions in Narail's Kalia",
-       "url": "https://bdnews24.com/bangladesh/u1hpp02vxw",
-       "publisher": "bdnews24.com",
-       "publisherDomain": "bdnews24.com",
-       "publishedAt": "2026-11-21T06:41:35Z",
-       "seenAt": "2026-11-21T10:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Bangladesh",
-       "sourceCountryCode": "BD",
-       "sourceRegion": "Asia",
-       "sourceLat": 24,
-       "sourceLon": 90,
-       "language": "en"
-      },
-      {
-       "id": "n-4f31170d60de32",
-       "title": "What happened in Narail's Kalia? Here's what police say",
-       "titleEnglish": "What happened in Narail's Kalia? Here's what police say",
-       "url": "https://bdnews24.com/bangladesh/7k2e4f9ast",
-       "publisher": "bdnews24.com",
-       "publisherDomain": "bdnews24.com",
-       "publishedAt": "2026-11-21T09:37:04Z",
-       "seenAt": "2026-11-21T10:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Bangladesh",
-       "sourceCountryCode": "BD",
-       "sourceRegion": "Asia",
-       "sourceLat": 24,
-       "sourceLon": 90,
-       "language": "en"
-      },
-      {
-       "id": "n-0e343de1a14c98",
-       "title": "Burnt-out car at former MP Mamun's Sitakunda home set ablaze again",
-       "titleEnglish": "Burnt-out car at former MP Mamun's Sitakunda home set ablaze again",
-       "url": "https://bdnews24.com/bangladesh/adfkg76xbc",
-       "publisher": "bdnews24.com",
-       "publisherDomain": "bdnews24.com",
-       "publishedAt": "2026-11-21T08:29:52Z",
-       "seenAt": "2026-11-21T10:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Bangladesh",
-       "sourceCountryCode": "BD",
-       "sourceRegion": "Asia",
-       "sourceLat": 24,
-       "sourceLon": 90,
-       "language": "en"
-      },
-      {
-       "id": "n-04a08d5b6b0860",
-       "title": "„Jesteś do odstrzału”. Groźby wobec posłanki, służby zatrzymały 42-latka",
-       "titleEnglish": "\"You are fair game\". Threats against a female MP, security services detain 42-year-old man",
-       "url": "https://wiadomosci.radiozet.pl/polska/jestes-do-odstrzalu-grozby-wobec-poslanki-sluzby-zatrzymaly-42-latka",
-       "publisher": "wiadomosci.radiozet.pl",
-       "publisherDomain": "wiadomosci.radiozet.pl",
-       "publishedAt": "2026-11-21T10:04:06Z",
-       "seenAt": "2026-11-21T10:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Poland",
-       "sourceCountryCode": "PL",
-       "sourceRegion": "Europe",
-       "sourceLat": 52,
-       "sourceLon": 20,
-       "language": "pl"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-22",
-     "stamp": "20261122T214457",
-     "note": "The EU warned of online attacks on female candidates before Nigeria's 2027 vote and a Bangladeshi adviser said the home minister's strategy had trapped the Awami League; a poll moved or postponed over violence would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-44b0034e4c943f",
-       "title": "2027: EU warns of online attacks against female candidates",
-       "titleEnglish": "2027: EU warns of online attacks against female candidates",
-       "url": "https://punchng.com/2027-eu-warns-of-online-attacks-against-female-candidates/",
-       "publisher": "Punch Newspapers",
-       "publisherDomain": "punchng.com",
-       "publishedAt": "2026-11-22T19:52:27Z",
-       "seenAt": "2026-11-22T21:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Nigeria",
-       "sourceCountryCode": "NG",
-       "sourceRegion": "Africa",
-       "sourceLat": 9,
-       "sourceLon": 8,
-       "language": "en"
-      },
-      {
-       "id": "n-d1b86d0d524975",
-       "title": "স্বরাষ্ট্রমন্ত্রীর রাজনৈতিক কৌশলে ফাঁদে পড়েছে আওয়ামী লীগ: শফিকুল আলম",
-       "titleEnglish": "Awami League trapped by home minister's political strategy: Shafiqul Alam",
-       "url": "https://www.dhakatoday.com/news/94916/%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A8%E0%A7%88%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%B2%E0%A7%87-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A6%A6%E0%A7%87-%E0%A6%AA%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%86%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%B2%E0%A7%80%E0%A6%97:-%E0%A6%B6%E0%A6%AB%E0%A6%BF%E0%A6%95%E0%A7%81%E0%A6%B2-%E0%A6%86%E0%A6%B2%E0%A6%AE",
-       "publisher": "dhakaToday.com",
-       "publisherDomain": "dhakatoday.com",
-       "publishedAt": "2026-11-22T18:32:00Z",
-       "seenAt": "2026-11-22T18:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Bangladesh",
-       "sourceCountryCode": "BD",
-       "sourceRegion": "Asia",
-       "sourceLat": 24,
-       "sourceLon": 90,
-       "language": "bn"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-25",
-     "stamp": "20261125T004245",
-     "note": "Nigeria's INEC chairman and police chief warned against violence before 2027 after four opposition supporters were killed in Delta, Bangladesh froze accounts over Gopalganj violence and French deputies reported death threats; a poll moved or postponed over violence would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-013e5233914f61",
-       "title": "Don’t turn 2027 elections into battlefield, INEC chairman warns politicians",
-       "titleEnglish": "Don’t turn 2027 elections into battlefield, INEC chairman warns politicians",
-       "url": "https://punchng.com/dont-turn-2027-elections-into-battlefield-inec-chairman-warns-politicians/",
-       "publisher": "Punch Newspapers",
-       "publisherDomain": "punchng.com",
-       "publishedAt": "2026-11-24T17:45:35Z",
-       "seenAt": "2026-11-24T18:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Nigeria",
-       "sourceCountryCode": "NG",
-       "sourceRegion": "Africa",
-       "sourceLat": 9,
-       "sourceLon": 8,
-       "language": "en"
-      },
-      {
-       "id": "n-98d06603bb78e4",
-       "title": "2027 elections: IGP directs Police PROs to protect women",
-       "titleEnglish": "2027 elections: IGP directs Police PROs to protect women",
-       "url": "https://dailypost.ng/2026/11/24/2027-elections-igp-directs-police-pros-to-protect-women-warns-against-politicising-gender-based-violence-cases/",
-       "publisher": "Daily Post Nigeria",
-       "publisherDomain": "dailypost.ng",
-       "publishedAt": "2026-11-24T11:12:50Z",
-       "seenAt": "2026-11-24T13:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Nigeria",
-       "sourceCountryCode": "NG",
-       "sourceRegion": "Africa",
-       "sourceLat": 9,
-       "sourceLon": 8,
-       "language": "en"
-      },
-      {
-       "id": "n-348721840792fa",
-       "title": "Delta killings: Obi demands justice for four NDC supporters",
-       "titleEnglish": "Delta killings: Obi demands justice for four NDC supporters",
-       "url": "https://punchng.com/delta-killings-obi-demands-justice-for-four-ndc-supporters/",
-       "publisher": "Punch Newspapers",
-       "publisherDomain": "punchng.com",
-       "publishedAt": "2026-11-24T05:35:17Z",
-       "seenAt": "2026-11-24T06:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Nigeria",
-       "sourceCountryCode": "NG",
-       "sourceRegion": "Africa",
-       "sourceLat": 9,
-       "sourceLon": 8,
-       "language": "en"
-      },
-      {
-       "id": "n-0ec2a2172e5280",
-       "title": "গোপালগঞ্জে সহিংসতা: সাবেক স্বাস্থ্যসচিব, আওয়ামী লীগ নেতাসহ ৯৭ জনের ব্যাংক হিসাব অবরুদ্ধ",
-       "titleEnglish": "Violence in Gopalganj: Bank accounts of 97 people, including former health secretary and Awami League leader, frozen",
-       "url": "https://bangla.bdnews24.com/bangladesh/f4g5kwa1n3",
-       "publisher": "bdnews24.com",
-       "publisherDomain": "bangla.bdnews24.com",
-       "publishedAt": "2026-11-24T15:59:04Z",
-       "seenAt": "2026-11-24T16:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Bangladesh",
-       "sourceCountryCode": "BD",
-       "sourceRegion": "Asia",
-       "sourceLat": 24,
-       "sourceLon": 90,
-       "language": "bn"
-      },
-      {
-       "id": "n-a69a0dc2719300",
-       "title": "Six députés de La France Insoumise portent plainte pour des menaces de mort anonymes",
-       "titleEnglish": "Six deputies of La France Insoumise file complaint over anonymous death threats",
-       "url": "https://www.franceinfo.fr/politique/la-france-insoumise/six-deputes-de-la-france-insoumise-portent-plainte-pour-des-menaces-de-mort-anonymes_8298216.html",
-       "publisher": "franceinfo",
-       "publisherDomain": "franceinfo.fr",
-       "publishedAt": "2026-11-24T17:42:21Z",
-       "seenAt": "2026-11-24T18:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "France",
-       "sourceCountryCode": "FR",
-       "sourceRegion": "Europe",
-       "sourceLat": 46,
-       "sourceLon": 2,
-       "language": "fr"
-      },
-      {
-       "id": "n-8c32e87ee85717",
-       "title": "Edomex garantiza comicios seguros en el proceso 2027",
-       "titleEnglish": "Edomex guarantees safe elections in the 2027 process",
-       "url": "https://www.razon.com.mx:443/estados/2026/11/23/horacio-duarte-anuncia-mapas-de-riesgo-y-mesa-politica-en-edomex-rumbo-a-eleccion-2027/",
-       "publisher": "La Razón de México",
-       "publisherDomain": "razon.com.mx",
-       "publishedAt": "2026-11-24T06:11:04Z",
-       "seenAt": "2026-11-24T16:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Mexico",
-       "sourceCountryCode": "MX",
-       "sourceRegion": "Latin America",
-       "sourceLat": 23,
-       "sourceLon": -102,
-       "language": "es"
-      }
-     ]
-    }
-   ],
-   "written": null
-  },
-  {
-   "key": "controlled-diseases-return",
-   "subject": "Diseases once controlled spreading again, from measles in North America to meningitis in Gaza",
-   "status": "open",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-25",
-   "sightings": [
-    {
-     "date": "2026-11-17",
-     "stamp": "20261117T232955",
-     "note": "The US and Mexico lost measles elimination status and Congo's Ebola outbreak is spreading at a record pace; a third country losing elimination status or declaring an emergency would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-c60c1baa35409b",
-       "title": "US loses measles-free status as cases, deaths mount",
-       "titleEnglish": "US loses measles-free status as cases, deaths mount",
-       "url": "https://www.nzherald.co.nz/world/us-loses-measles-free-status-as-cases-deaths-mount/S5BWHBORCRBC7KTAHXSE3GEGGM/",
-       "publisher": "NZ Herald",
-       "publisherDomain": "nzherald.co.nz",
-       "publishedAt": "2026-11-17T22:17:00Z",
-       "seenAt": "2026-11-17T22:17:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "New Zealand",
-       "sourceCountryCode": "NZ",
-       "sourceRegion": "Oceania",
-       "sourceLat": -41,
-       "sourceLon": 174,
-       "language": "en"
-      },
-      {
-       "id": "n-d0dd4208bc4f95",
-       "title": "What's behind the US and Mexico losing measles elimination status? - ABC listen",
-       "titleEnglish": "What's behind the US and Mexico losing measles elimination status? - ABC listen",
-       "url": "https://www.abc.net.au/listen/programs/abc-news-top-stories/us-loses-measles-elimination-status-vaccination-australia/107397068",
-       "publisher": "ABC listen",
-       "publisherDomain": "abc.net.au",
-       "publishedAt": "2026-11-17T18:00:00Z",
-       "seenAt": "2026-11-17T20:17:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Australia",
-       "sourceCountryCode": "AU",
-       "sourceRegion": "Oceania",
-       "sourceLat": -25,
-       "sourceLon": 134,
-       "language": "en"
-      },
-      {
-       "id": "n-49f934359d4db0",
-       "title": "DRC’s Ebola outbreak is spreading and killing at a record pace - Channel Africa",
-       "titleEnglish": "DRC’s Ebola outbreak is spreading and killing at a record pace - Channel Africa",
-       "url": "https://www.channelafrica.co.za/channelafrica/news/drcs-ebola-outbreak-is-spreading-and-killing-at-a-record-pace/",
-       "publisher": "Channel Africa",
-       "publisherDomain": "channelafrica.co.za",
-       "publishedAt": "2026-11-17T14:47:00Z",
-       "seenAt": "2026-11-17T14:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "South Africa",
-       "sourceCountryCode": "ZA",
-       "sourceRegion": "Africa",
-       "sourceLat": -30,
-       "sourceLon": 25,
-       "language": "en"
-      },
-      {
-       "id": "n-16903cc748056e",
-       "title": "В ФМБА назвали свиной грипп возможным возбудителем будущей пандемии",
-       "titleEnglish": "FMBA names swine flu as possible agent of future pandemic",
-       "url": "https://www.kommersant.ru/doc/9111196",
-       "publisher": "Коммерсантъ",
-       "publisherDomain": "kommersant.ru",
-       "publishedAt": "2026-11-17T04:55:20Z",
-       "seenAt": "2026-11-17T08:17:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Russia",
-       "sourceCountryCode": "RU",
-       "sourceRegion": "Europe",
-       "sourceLat": 61,
-       "sourceLon": 100,
-       "language": "ru"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-20",
-     "stamp": "20261120T224019",
-     "note": "DW reports childhood vaccination rising but still below its pre-COVID level; a third country losing measles elimination status or declaring an emergency would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-6213475cfd9917",
-       "title": "Vacinação infantil cresce, mas não recupera nível pré-covid",
-       "titleEnglish": "Childhood vaccination grows, but does not recover pre-COVID level",
-       "url": "https://www.dw.com/pt-br/vacina%C3%A7%C3%A3o-infantil-cresce-mas-n%C3%A3o-recupera-n%C3%ADvel-pr%C3%A9-covid/a-77971580",
-       "publisher": "dw.com",
-       "publisherDomain": "dw.com",
-       "publishedAt": "2026-11-20T22:32:00Z",
-       "seenAt": "2026-11-20T22:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Germany",
-       "sourceCountryCode": "DE",
-       "sourceRegion": "Europe",
-       "sourceLat": 51,
-       "sourceLon": 10,
-       "language": "pt"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-22",
-     "stamp": "20261122T214457",
-     "note": "The WHO chief pleaded for peace in Congo's Ebola zone and Argentina reported a more contagious Covid variant; a third country losing measles elimination status or declaring an emergency would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-210897a4457c62",
-       "title": "WHO chief pleads for peace in Ebola-hit DR Congo area",
-       "titleEnglish": "WHO chief pleads for peace in Ebola-hit DR Congo area",
-       "url": "https://punchng.com/who-chief-pleads-for-peace-in-ebola-hit-dr-congo-area/",
-       "publisher": "Punch Newspapers",
-       "publisherDomain": "punchng.com",
-       "publishedAt": "2026-11-22T20:32:45Z",
-       "seenAt": "2026-11-22T21:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Nigeria",
-       "sourceCountryCode": "NG",
-       "sourceRegion": "Africa",
-       "sourceLat": 9,
-       "sourceLon": 8,
-       "language": "en"
-      },
-      {
-       "id": "n-dfd4bc687bc65d",
-       "title": "Llegó a la Argentina una nueva variante de Covid más contagiosa: qué se sabe y cuáles son los síntomas",
-       "titleEnglish": "A new, more contagious Covid variant has arrived in Argentina: what is known and what are the symptoms",
-       "url": "https://www.ellitoral.com/salud/covid-argentina-nuevavariante-pj21-coronavirus-omicron-salud_0_0vLNRAKx1a.html",
-       "publisher": "El Litoral",
-       "publisherDomain": "ellitoral.com",
-       "publishedAt": "2026-11-22T14:19:42Z",
-       "seenAt": "2026-11-22T15:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Argentina",
-       "sourceCountryCode": "AR",
-       "sourceRegion": "Latin America",
-       "sourceLat": -35,
-       "sourceLon": -64,
-       "language": "es"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-25",
-     "stamp": "20261125T004245",
-     "note": "Mexico reported 12 active measles cases, Gaza 272 meningitis cases in a month and the US four human bird flu infections with one death; a third country losing measles elimination status or declaring an emergency would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-b20fdbf631fc73",
-       "title": "Mexico has 12 active measles cases, says health minister",
-       "titleEnglish": "Mexico has 12 active measles cases, says health minister",
-       "url": "https://www.arabnews.com/world/mexico-has-12-active-measles-cases-says-health-minister-3013874",
-       "publisher": "arabnews.com",
-       "publisherDomain": "arabnews.com",
-       "publishedAt": "2026-11-24T15:13:00Z",
-       "seenAt": "2026-11-24T15:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Saudi Arabia",
-       "sourceCountryCode": "SA",
-       "sourceRegion": "Middle East",
-       "sourceLat": 24,
-       "sourceLon": 45,
-       "language": "en"
-      },
-      {
-       "id": "n-61fc30ee5dc68a",
-       "title": "272 إصابة بالتهاب السحايا في غزة الشهر الماضي وتحذيرات من تفاقم التفشي الوبائي",
-       "titleEnglish": "272 meningitis cases in Gaza last month and warnings of worsening outbreak",
-       "url": "https://alanbatnews.net/article/486881",
-       "publisher": "الأنباط",
-       "publisherDomain": "alanbatnews.net",
-       "publishedAt": "2026-11-24T13:04:08Z",
-       "seenAt": "2026-11-24T13:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Jordan",
-       "sourceCountryCode": "JO",
-       "sourceRegion": "Middle East",
-       "sourceLat": 31,
-       "sourceLon": 36,
-       "language": "ar"
-      },
-      {
-       "id": "n-26726a4c7bc17c",
-       "title": "Israeli air strikes in Gaza kill 7 as doctors warn of meningitis outbreak",
-       "titleEnglish": "Israeli air strikes in Gaza kill 7 as doctors warn of meningitis outbreak",
-       "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strikes-in-gaza-kill-7-as-doctors-warn-of-meningitis-outbreak",
-       "publisher": "Al Jazeera",
-       "publisherDomain": "aljazeera.com",
-       "publishedAt": "2026-11-24T12:32:00Z",
-       "seenAt": "2026-11-24T12:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Qatar",
-       "sourceCountryCode": "QA",
-       "sourceRegion": "Middle East",
-       "sourceLat": 25.3,
-       "sourceLon": 51.2,
-       "language": "en"
-      },
-      {
-       "id": "n-de1a8963bed730",
-       "title": "Vier mensen besmet met vogelgriep in VS, één persoon overleden",
-       "titleEnglish": "Four people infected with bird flu in US, one person died",
-       "url": "https://nos.nl/artikel/2640849-vier-mensen-besmet-met-vogelgriep-in-vs-een-persoon-overleden",
-       "publisher": "nos.nl",
-       "publisherDomain": "nos.nl",
-       "publishedAt": "2026-11-24T18:32:00Z",
-       "seenAt": "2026-11-24T18:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Netherlands",
-       "sourceCountryCode": "NL",
-       "sourceRegion": "Europe",
-       "sourceLat": 52,
-       "sourceLon": 5,
-       "language": "nl"
-      },
-      {
-       "id": "n-50283a343da5fd",
-       "title": "תן נגוע בכלבת אותר ביישוב ניר יפה שבגלבוע | וואלה חדשות",
-       "titleEnglish": "Rabies-infected animal found in Nir Yafe in the Gilboa | Walla News",
-       "url": "https://www.walla.co.il:443/news/breaking-news/383962929",
-       "publisher": "walla.co.il",
-       "publisherDomain": "walla.co.il",
-       "publishedAt": "2026-11-24T16:02:00Z",
-       "seenAt": "2026-11-24T16:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Israel",
-       "sourceCountryCode": "IL",
-       "sourceRegion": "Middle East",
-       "sourceLat": 31.5,
-       "sourceLon": 35,
-       "language": "he"
       }
      ]
     }
@@ -1468,279 +2310,6 @@
    "written": null
   },
   {
-   "key": "ai-cheating-and-false-alarms",
-   "subject": "Exam halls, schools and police adjusting to AI used to cheat, to watch or as evidence",
-   "status": "open",
-   "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-24",
-   "sightings": [
-    {
-     "date": "2026-11-19",
-     "stamp": "20261119T230231",
-     "note": "Korea's exam halls restrict clothing and glasses after an AI cheating admission and a US school AI flagged a crisp bag as a gun; a second country changing exam or school-security rules over AI would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-77ccc50635bcee",
-       "title": "단추 없는 옷에 투명테 안경…‘AI 부정행위’에 긴장감 흐른 수능 시험장",
-       "titleEnglish": "Buttonless clothes and clear-framed glasses: tension at the college entrance exam venue over AI cheating",
-       "url": "https://www.hani.co.kr/arti/society/society_general/1288244.html",
-       "publisher": "한겨레",
-       "publisherDomain": "hani.co.kr",
-       "publishedAt": "2026-11-19T13:51:00Z",
-       "seenAt": "2026-11-19T14:17:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "South Korea",
-       "sourceCountryCode": "KR",
-       "sourceRegion": "Asia",
-       "sourceLat": 36,
-       "sourceLon": 128,
-       "language": "ko"
-      },
-      {
-       "id": "n-2c631aca40c70e",
-       "title": "AI cheating admission prompts scrutiny of other top scorers in Korea",
-       "titleEnglish": "AI cheating admission prompts scrutiny of other top scorers in Korea",
-       "url": "https://english.hani.co.kr/arti/english_edition/e_national/1288119.html",
-       "publisher": "Hankyoreh",
-       "publisherDomain": "english.hani.co.kr",
-       "publishedAt": "2026-11-19T10:47:00Z",
-       "seenAt": "2026-11-19T10:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "South Korea",
-       "sourceCountryCode": "KR",
-       "sourceRegion": "Asia",
-       "sourceLat": 36,
-       "sourceLon": 128,
-       "language": "en"
-      },
-      {
-       "id": "n-1ab47ed7a08a89",
-       "title": "AI Flags Bag of Doritos as Gun, Sending Armed Police After Four Black Students as Officials Laugh in Texts",
-       "titleEnglish": "AI Flags Bag of Doritos as Gun, Sending Armed Police After Four Black Students as Officials Laugh in Texts",
-       "url": "https://www.ibtimes.co.uk/maryland-school-ai-flags-doritos-bag-gun-1833256",
-       "publisher": "International Business Times UK",
-       "publisherDomain": "ibtimes.co.uk",
-       "publishedAt": "2026-11-19T03:22:05Z",
-       "seenAt": "2026-11-19T04:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "United Kingdom",
-       "sourceCountryCode": "GB",
-       "sourceRegion": "Europe",
-       "sourceLat": 54,
-       "sourceLon": -2,
-       "language": "en"
-      },
-      {
-       "id": "n-5d8d9559ef131a",
-       "title": "שיתף את ChatGPT בכוונתו לרצוח את אשתו - ונעצר | וואלה חדשות",
-       "titleEnglish": "Shared with ChatGPT his intention to murder his wife - and arrested | Walla News",
-       "url": "https://www.walla.co.il:443/news/israel/383962196",
-       "publisher": "walla.co.il",
-       "publisherDomain": "walla.co.il",
-       "publishedAt": "2026-11-19T13:47:00Z",
-       "seenAt": "2026-11-19T13:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Israel",
-       "sourceCountryCode": "IL",
-       "sourceRegion": "Middle East",
-       "sourceLat": 31.5,
-       "sourceLon": 35,
-       "language": "he"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-21",
-     "stamp": "20261121T213836",
-     "note": "Korea's Financial News argued that a thinking-skills assessment free of AI cheating needs classrooms to change first; a second country changing exam or school-security rules over AI would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-ba1c943d4fc3cc",
-       "title": "커닝 걱정 없는 사고력 평가…교실부터 바꿔야[평가 시험대③]",
-       "titleEnglish": "Thinking-skills assessment with no cheating worries… classrooms must change first [Assessment on the Test Bench ③]",
-       "url": "https://www.fnnews.com/news/202611220603312310",
-       "publisher": "파이낸셜뉴스",
-       "publisherDomain": "fnnews.com",
-       "publishedAt": "2026-11-21T21:03:32Z",
-       "seenAt": "2026-11-21T21:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "South Korea",
-       "sourceCountryCode": "KR",
-       "sourceRegion": "Asia",
-       "sourceLat": 36,
-       "sourceLon": 128,
-       "language": "ko"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-22",
-     "stamp": "20261122T214457",
-     "note": "South Korea's education minister resigned over the AI-assisted exam cheating crisis, reported from Kenya; a second country changing exam or school rules over AI would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-d84eb540521df6",
-       "title": "South Korea’s Education Minister Resigns Amid AI‑Assisted Exam Cheating Crisis",
-       "titleEnglish": "South Korea’s Education Minister Resigns Amid AI‑Assisted Exam Cheating Crisis",
-       "url": "https://kenya-today.com/report-south-koreas-education-minister-resigns-amid-aiassisted-exam-cheating-crisis-31376/",
-       "publisher": "Kenya Today",
-       "publisherDomain": "kenya-today.com",
-       "publishedAt": "2026-11-22T17:44:37Z",
-       "seenAt": "2026-11-22T20:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Kenya",
-       "sourceCountryCode": "KE",
-       "sourceRegion": "Africa",
-       "sourceLat": 0.1,
-       "sourceLon": 38,
-       "language": "en"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-24",
-     "stamp": "20261124T025350",
-     "note": "BBC Urdu reports Lahore police arresting a first-year student over an alleged plan to attack an educational institution 'using AI'; a school or exam authority outside Korea changing its rules over AI would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-6f6f9282d228f3",
-       "title": "لاہور میں ’اے آئی کے ذریعے‘ تعلیمی ادارے پر حملے کی منصوبہ بندی کا الزام، فرسٹ ایئر کا طالب علم گرفتار - BBC News اردو",
-       "titleEnglish": "Plan to attack educational institution in Lahore 'using AI' alleged, first-year student arrested - BBC News Urdu",
-       "url": "https://www.bbc.com/urdu/articles/cm75231v1v70o",
-       "publisher": "BBC News اردو",
-       "publisherDomain": "bbc.com",
-       "publishedAt": "2026-11-23T17:25:47Z",
-       "seenAt": "2026-11-23T17:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "United Kingdom",
-       "sourceCountryCode": "GB",
-       "sourceRegion": "Europe",
-       "sourceLat": 54,
-       "sourceLon": -2,
-       "language": "ur"
-      }
-     ]
-    }
-   ],
-   "written": null
-  },
-  {
-   "key": "return-hubs-abroad",
-   "subject": "European governments seeking to send rejected asylum seekers to third countries such as Rwanda",
-   "status": "open",
-   "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-24",
-   "sightings": [
-    {
-     "date": "2026-11-18",
-     "stamp": "20261118T225647",
-     "note": "Germany and four other EU states want a Rwanda deportation agreement and Greece's migration minister discussed a 'return hub' with Rwanda's minister; a signed agreement or a court ruling on one would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-8bf7e48b5a193e",
-       "title": "Njemačka i još četiri članice EU žele sporazum sa Ruandom o deportovanju odbijenih tražilaca azila",
-       "titleEnglish": "Germany and four other EU members want agreement with Rwanda on deporting rejected asylum seekers",
-       "url": "https://www.dw.com/bs/deportacija-odbijenih-tra%C5%BEilaca-azila-iz-nema%C4%8Dke-i-jo%C5%A1-%C4%8Detiri-zemlje-%C4%8Dlanice-eu-u-ruandu-ve%C4%87-od-2027/a-79968376",
-       "publisher": "dw.com",
-       "publisherDomain": "dw.com",
-       "publishedAt": "2026-11-18T21:47:00Z",
-       "seenAt": "2026-11-18T21:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Germany",
-       "sourceCountryCode": "DE",
-       "sourceRegion": "Europe",
-       "sourceLat": 51,
-       "sourceLon": 10,
-       "language": "bs"
-      },
-      {
-       "id": "n-9ee6680c282017",
-       "title": "Μεταναστευτικό: Συνάντηση Πλεύρη με τον υπουργό της Ρουάντα – Στο τραπέζι η δημιουργία «κόμβου επιστροφής»",
-       "titleEnglish": "Migration: Meeting of Plevris with the Rwandan minister – On the table the creation of a \"return hub\"",
-       "url": "https://www.enikos.gr/politics/metanasteftiko-synantisi-plevri-me-ton-ypourgo-tis-rouanta-sto-trapezi-i-dimiourgia-komvou-epistrofis/2678796/",
-       "publisher": "ENIKOS",
-       "publisherDomain": "enikos.gr",
-       "publishedAt": "2026-11-18T13:54:24Z",
-       "seenAt": "2026-11-18T14:17:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Greece",
-       "sourceCountryCode": "GR",
-       "sourceRegion": "Europe",
-       "sourceLat": 39,
-       "sourceLon": 23,
-       "language": "el"
-      },
-      {
-       "id": "n-80432faa5c94c7",
-       "title": "Bicester MoD asylum centre for 1,256 men to open in just five months",
-       "titleEnglish": "Bicester MoD asylum centre for 1,256 men to open in just five months",
-       "url": "https://www.thisisoxfordshire.co.uk/news/26740204.bicester-mod-asylum-seeker-centre-open-five-months/",
-       "publisher": "This is Oxfordshire",
-       "publisherDomain": "thisisoxfordshire.co.uk",
-       "publishedAt": "2026-11-18T11:17:00Z",
-       "seenAt": "2026-11-18T11:17:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "United Kingdom",
-       "sourceCountryCode": "GB",
-       "sourceRegion": "Europe",
-       "sourceLat": 54,
-       "sourceLon": -2,
-       "language": "en"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-22",
-     "stamp": "20261122T214457",
-     "note": "Austria said it will seek a net outflow of asylum seekers; a signed third-country return agreement or a court ruling on one would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-f1826cbfdaafad",
-       "title": "Austria to seek net outflow of asylum seekers",
-       "titleEnglish": "Austria to seek net outflow of asylum seekers",
-       "url": "https://english.news.cn/20261123/a6595b9b35344372b42da5bbee700cd9/c.html",
-       "publisher": "english.news.cn",
-       "publisherDomain": "english.news.cn",
-       "publishedAt": "2026-11-22T20:32:00Z",
-       "seenAt": "2026-11-22T20:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "China",
-       "sourceCountryCode": "CN",
-       "sourceRegion": "Asia",
-       "sourceLat": 35,
-       "sourceLon": 104,
-       "language": "en"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-24",
-     "stamp": "20261124T025350",
-     "note": "France Inter carried an analyst's view that a return hub in Rwanda will not stop migration to Europe; a signed return agreement or a court ruling on one would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-6b4c741e9e6f39",
-       "title": "Un hub de retour au Rwanda \"ne va pas empêcher\" l'immigration en Europe, affirme Camille Le Coz",
-       "titleEnglish": "A return hub to Rwanda \"will not prevent\" immigration to Europe, says Camille Le Coz",
-       "url": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-d-un-jour-dans-le-monde/l-invite-d-un-jour-dans-le-monde-du-lundi-23-novembre-2026-6535290",
-       "publisher": "France Inter",
-       "publisherDomain": "radiofrance.fr",
-       "publishedAt": "2026-11-23T17:23:05Z",
-       "seenAt": "2026-11-23T20:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "France",
-       "sourceCountryCode": "FR",
-       "sourceRegion": "Europe",
-       "sourceLat": 46,
-       "sourceLon": 2,
-       "language": "fr"
-      }
-     ]
-    }
-   ],
-   "written": null
-  },
-  {
    "key": "officials-forged-credentials",
    "subject": "Elected officials found to hold forged degrees or professional cards",
    "status": "open",
@@ -2088,108 +2657,6 @@
        "sourceLat": 39,
        "sourceLon": 23,
        "language": "el"
-      }
-     ]
-    }
-   ],
-   "written": null
-  },
-  {
-   "key": "factory-fires-and-compensation",
-   "subject": "Deadly factory fires and workplace accidents, and who compensates the victims",
-   "status": "open",
-   "firstSeen": "2026-11-22",
-   "lastSeen": "2026-11-22",
-   "sightings": [
-    {
-     "date": "2026-11-22",
-     "stamp": "20261122T214457",
-     "note": "Indonesia's Cikande candy factory fire filled 24 body bags and brought a promise of BPJS benefits, a young Italian worker was crushed and a Finnish sawmill burned; an official finding of safety failures in a second country would make it a narrative.",
-     "headlines": [
-      {
-       "id": "n-1eeef98a345c50",
-       "title": "Bupati Serang Pastikan Korban Kebakaran Pabrik Cikande Dapat Santunan BPJS Ketenagakerjaan",
-       "titleEnglish": "Serang Regent ensures victims of Cikande factory fire receive BPJS Ketenagakerjaan benefits",
-       "url": "https://www.viva.co.id/berita/nasional/1945643-bupati-serang-pastikan-korban-kebakaran-pabrik-cikande-dapat-santunan-bpjs-ketenagakerjaan",
-       "publisher": "viva.co.id",
-       "publisherDomain": "viva.co.id",
-       "publishedAt": "2026-11-22T17:40:00Z",
-       "seenAt": "2026-11-22T18:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Indonesia",
-       "sourceCountryCode": "ID",
-       "sourceRegion": "Asia",
-       "sourceLat": -2,
-       "sourceLon": 118,
-       "language": "id"
-      },
-      {
-       "id": "n-e7606b4f6ae17f",
-       "title": "24 Kantong Jenazah Korban Kebakaran Pabrik Permen Cikande Serang Dievakuasi ke RS Bhayangkara",
-       "titleEnglish": "24 body bags of victims of Cikande Serang candy factory fire evacuated to Bhayangkara Hospital",
-       "url": "https://www.jawapos.com/nasional/2611220355/24-kantong-jenazah-korban-kebakaran-pabrik-permen-cikande-serang-dievakuasi-ke-rs-bhayangkara",
-       "publisher": "www.jawapos.com",
-       "publisherDomain": "jawapos.com",
-       "publishedAt": "2026-11-22T12:25:12Z",
-       "seenAt": "2026-11-22T13:02:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Indonesia",
-       "sourceCountryCode": "ID",
-       "sourceRegion": "Asia",
-       "sourceLat": -2,
-       "sourceLon": 118,
-       "language": "id"
-      },
-      {
-       "id": "n-9c04f8fb2fcf5f",
-       "title": "Un incendio en una fábrica de dulces de Indonesia dejó tres muertos y 36 desaparecidos",
-       "titleEnglish": "A fire at a candy factory in Indonesia left three dead and 36 missing",
-       "url": "https://www.ellitoral.com/internacionales/indonesia-incendio-fabrica-dulces-serang-banten-yakarta-trabajadores-desaparecidos-milkita_0_T0hakTtHGa.html",
-       "publisher": "El Litoral",
-       "publisherDomain": "ellitoral.com",
-       "publishedAt": "2026-11-22T14:21:03Z",
-       "seenAt": "2026-11-22T15:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Argentina",
-       "sourceCountryCode": "AR",
-       "sourceRegion": "Latin America",
-       "sourceLat": -35,
-       "sourceLon": -64,
-       "language": "es"
-      },
-      {
-       "id": "n-c160e51b968861",
-       "title": "Incidenti sul lavoro, giovane operaio schiacciato in fabbrica: è grave",
-       "titleEnglish": "Workplace accidents: young worker crushed in factory, condition serious",
-       "url": "https://tg24.sky.it/cronaca/2026/11/22/udine-incidente-lavoro-operaio-fabbrica",
-       "publisher": "tg24.sky.it",
-       "publisherDomain": "tg24.sky.it",
-       "publishedAt": "2026-11-22T20:32:00Z",
-       "seenAt": "2026-11-22T20:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Italy",
-       "sourceCountryCode": "IT",
-       "sourceRegion": "Europe",
-       "sourceLat": 42,
-       "sourceLon": 12,
-       "language": "it"
-      },
-      {
-       "id": "n-7df39a19e40414",
-       "title": "Lappeenrannan sahapalon syttymissyy on yhä mysteeri – sahanjohtajan mukaan tuotantoon vaikutukset ovat vähäisiä",
-       "titleEnglish": "The cause of the Lappeenranta sawmill fire remains a mystery – according to the sawmill manager, the production impact is minor",
-       "url": "https://yle.fi/a/74-20258359",
-       "publisher": "Yle Uutiset",
-       "publisherDomain": "yle.fi",
-       "publishedAt": "2026-11-22T15:03:27Z",
-       "seenAt": "2026-11-22T15:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Finland",
-       "sourceCountryCode": "FI",
-       "sourceRegion": "Europe",
-       "sourceLat": 64,
-       "sourceLon": 26,
-       "language": "fi"
       }
      ]
     }
@@ -2663,194 +3130,6 @@
        "sourceLat": 46,
        "sourceLon": 2,
        "language": "fr"
-      }
-     ]
-    }
-   ],
-   "written": null
-  },
-  {
-   "key": "israel-policy-protests-and-bans",
-   "subject": "Protests over governments' Israel policy and the arrests and bans that answer them, in Britain and the Netherlands",
-   "status": "open",
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-11",
-   "sightings": [
-    {
-     "date": "2026-11-01",
-     "stamp": "seed-2026-11-01",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-40ff4570e6fa7e",
-       "title": "İngiltere'de yasaklanan Palestine Action'a destek eyleminde gözaltı sayısı 139'a çıktı",
-       "titleEnglish": "Detentions at pro-Palestine Action support protest in Britain, banned there, rise to 139",
-       "url": "https://www.aa.com.tr/tr/dunya/ingilterede-yasaklanan-palestine-actiona-destek-eyleminde-gozalti-sayisi-139a-cikti/4107695",
-       "publisher": "Anadolu Ajansı",
-       "publisherDomain": "aa.com.tr",
-       "publishedAt": "2026-11-01T03:41:05Z",
-       "seenAt": "2026-11-01T02:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Turkey",
-       "sourceCountryCode": "TR",
-       "sourceRegion": "Middle East",
-       "sourceLat": 39,
-       "sourceLon": 35,
-       "language": "tr"
-      },
-      {
-       "id": "n-50aa63ce3f297b",
-       "title": "20 منظمة بتايلند تتظاهر ضد الوجود الإسرائيلي في البلاد",
-       "titleEnglish": "20 organisations in Thailand protest against the Israeli presence in the country",
-       "url": "https://www.khaberni.com/news/862629-20-%D9%85%D9%86%D8%B8%D9%85%D8%A9-%D8%A8%D8%AA%D8%A7%D9%8A%D9%84%D9%86%D8%AF-%D8%AA%D8%AA%D8%B8%D8%A7%D9%87%D8%B1-%D8%B6%D8%AF-%D8%A7%D9%84%D9%88%D8%AC%D9%88%D8%AF-%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%AF",
-       "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
-       "publisherDomain": "khaberni.com",
-       "publishedAt": "2026-10-31T16:32:00Z",
-       "seenAt": "2026-10-31T16:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Jordan",
-       "sourceCountryCode": "JO",
-       "sourceRegion": "Middle East",
-       "sourceLat": 31,
-       "sourceLon": 36,
-       "language": "ar"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-04",
-     "stamp": "seed-2026-11-04",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-1dbed7bb5e8975",
-       "title": "Maand celstraf voor pro-Palestijnse demonstrant die anderen met plank sloeg",
-       "titleEnglish": "One month in prison for pro-Palestinian demonstrator who beat others with a plank",
-       "url": "https://nos.nl/artikel/2637871-maand-celstraf-voor-pro-palestijnse-demonstrant-die-anderen-met-plank-sloeg",
-       "publisher": "nos.nl",
-       "publisherDomain": "nos.nl",
-       "publishedAt": "2026-11-03T14:17:00Z",
-       "seenAt": "2026-11-03T14:17:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Netherlands",
-       "sourceCountryCode": "NL",
-       "sourceRegion": "Europe",
-       "sourceLat": 52,
-       "sourceLon": 5,
-       "language": "nl"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-05",
-     "stamp": "seed-2026-11-05",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-23ec588df8fcf8",
-       "title": "UK ban on Palestine Action is challenged at top court, some protesters arrested",
-       "titleEnglish": "UK ban on Palestine Action is challenged at top court, some protesters arrested",
-       "url": "https://www.arabnews.com/world/uk-ban-on-palestine-action-is-challenged-at-top-court-some-protesters-arrested-3009787",
-       "publisher": "arabnews.com",
-       "publisherDomain": "arabnews.com",
-       "publishedAt": "2026-11-04T14:37:56Z",
-       "seenAt": "2026-11-04T14:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Saudi Arabia",
-       "sourceCountryCode": "SA",
-       "sourceRegion": "Middle East",
-       "sourceLat": 24,
-       "sourceLon": 45,
-       "language": "en"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-08",
-     "stamp": "seed-2026-11-08",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-330a52a069756e",
-       "title": "Incidente al campione europeo di Superbike: al via la gara di aiuti per il pilota carabiniere Salvo Sallustro caduto in pista",
-       "titleEnglish": "Red Line demonstration in Amsterdam: four arrests",
-       "url": "https://corrieredelveneto.corriere.it/notizie/vicenza/cronaca/26_novembre_08/incidente-al-campione-europeo-di-superbike-al-via-la-gara-di-aiuti-per-il-pilota-carabiniere-salvo-sallustro-caduto-in-pista-c3ed3da1-0381-4aff-bcf8-a16ed2b2fxlk.shtml",
-       "publisher": "Corriere della sera",
-       "publisherDomain": "corrieredelveneto.corriere.it",
-       "publishedAt": "2026-11-08T16:57:17Z",
-       "seenAt": "2026-11-08T20:17:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Italy",
-       "sourceCountryCode": "IT",
-       "sourceRegion": "Europe",
-       "sourceLat": 42,
-       "sourceLon": 12,
-       "language": "it"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-09",
-     "stamp": "seed-2026-11-09",
-     "note": "",
-     "headlines": [
-      {
-       "id": "n-62ff55da1a6f5e",
-       "title": "Pro-Hamas activists join protests in Amsterdam against Dutch Israel policy | The Jerusalem Post",
-       "titleEnglish": "Pro-Hamas activists join protests in Amsterdam against Dutch Israel policy | The Jerusalem Post",
-       "url": "https://www.jpost.com/diaspora/antisemitism/article-914320",
-       "publisher": "The Jerusalem Post | JPost.com",
-       "publisherDomain": "jpost.com",
-       "publishedAt": "2026-11-09T11:47:00Z",
-       "seenAt": "2026-11-09T11:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Israel",
-       "sourceCountryCode": "IL",
-       "sourceRegion": "Middle East",
-       "sourceLat": 31.5,
-       "sourceLon": 35,
-       "language": "en"
-      },
-      {
-       "id": "n-6918442c7ee6ce",
-       "title": "Amsterdam’da dördüncü “Kırmızı Çizgi” gösterisine 200 binden fazla kişi katıldı",
-       "titleEnglish": "More than 200,000 people join fourth \"Red Line\" protest in Amsterdam",
-       "url": "https://www.aa.com.tr/tr/dunya/amsterdam-da-dorduncu-kirmizi-cizgi-gosterisine-200-binden-fazla-kisi-katildi/4116280",
-       "publisher": "Anadolu Ajansı",
-       "publisherDomain": "aa.com.tr",
-       "publishedAt": "2026-11-08T21:57:15Z",
-       "seenAt": "2026-11-08T19:32:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Turkey",
-       "sourceCountryCode": "TR",
-       "sourceRegion": "Middle East",
-       "sourceLat": 39,
-       "sourceLon": 35,
-       "language": "tr"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-11",
-     "stamp": "seed-2026-11-11",
-     "note": "Entered by hand on 15 November from the stored collections. Arrests at protests for the banned Palestine Action reached 139 on 1 November and the ban went to Britain's top court on 5 November; Amsterdam's fourth Red Line march drew more than 200,000 on 8 November. Last seen 11 November.",
-     "headlines": [
-      {
-       "id": "n-7861915f33ba4e",
-       "title": "أنزل علم بلاده ورفع الفلسطيني أمام البوندستاغ.. شاب ألماني يروي للجزيرة تفاصيل احتجاجه",
-       "titleEnglish": "He lowered his country's flag and raised a Palestinian one in front of the Bundestag: German young man tells Al Jazeera about his protest",
-       "url": "https://www.aljazeera.net/news/2026/11/11/%D8%A3%D9%86%D8%B2%D9%84-%D8%B9%D9%84%D9%85-%D8%A8%D9%84%D8%A7%D8%AF%D9%87-%D9%88%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A-%D8%A3%D9%85%D8%A7%D9%85",
-       "publisher": "الجزيرة نت",
-       "publisherDomain": "aljazeera.net",
-       "publishedAt": "2026-11-10T22:47:00Z",
-       "seenAt": "2026-11-10T22:47:00Z",
-       "dateBasis": "published-or-first-seen",
-       "sourceCountry": "Qatar",
-       "sourceCountryCode": "QA",
-       "sourceRegion": "Middle East",
-       "sourceLat": 25.3,
-       "sourceLon": 51.2,
-       "language": "ar"
       }
      ]
     }
@@ -5769,6 +6048,194 @@
     "id": "europe-weekly-protests-living-costs",
     "asOf": "2026-11-17T23:29:55Z"
    }
+  },
+  {
+   "key": "israel-policy-protests-and-bans",
+   "subject": "Protests over governments' Israel policy and the arrests and bans that answer them, in Britain and the Netherlands",
+   "status": "lapsed",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-11",
+   "sightings": [
+    {
+     "date": "2026-11-01",
+     "stamp": "seed-2026-11-01",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-40ff4570e6fa7e",
+       "title": "İngiltere'de yasaklanan Palestine Action'a destek eyleminde gözaltı sayısı 139'a çıktı",
+       "titleEnglish": "Detentions at pro-Palestine Action support protest in Britain, banned there, rise to 139",
+       "url": "https://www.aa.com.tr/tr/dunya/ingilterede-yasaklanan-palestine-actiona-destek-eyleminde-gozalti-sayisi-139a-cikti/4107695",
+       "publisher": "Anadolu Ajansı",
+       "publisherDomain": "aa.com.tr",
+       "publishedAt": "2026-11-01T03:41:05Z",
+       "seenAt": "2026-11-01T02:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Turkey",
+       "sourceCountryCode": "TR",
+       "sourceRegion": "Middle East",
+       "sourceLat": 39,
+       "sourceLon": 35,
+       "language": "tr"
+      },
+      {
+       "id": "n-50aa63ce3f297b",
+       "title": "20 منظمة بتايلند تتظاهر ضد الوجود الإسرائيلي في البلاد",
+       "titleEnglish": "20 organisations in Thailand protest against the Israeli presence in the country",
+       "url": "https://www.khaberni.com/news/862629-20-%D9%85%D9%86%D8%B8%D9%85%D8%A9-%D8%A8%D8%AA%D8%A7%D9%8A%D9%84%D9%86%D8%AF-%D8%AA%D8%AA%D8%B8%D8%A7%D9%87%D8%B1-%D8%B6%D8%AF-%D8%A7%D9%84%D9%88%D8%AC%D9%88%D8%AF-%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%AF",
+       "publisher": "خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز",
+       "publisherDomain": "khaberni.com",
+       "publishedAt": "2026-10-31T16:32:00Z",
+       "seenAt": "2026-10-31T16:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Jordan",
+       "sourceCountryCode": "JO",
+       "sourceRegion": "Middle East",
+       "sourceLat": 31,
+       "sourceLon": 36,
+       "language": "ar"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-04",
+     "stamp": "seed-2026-11-04",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-1dbed7bb5e8975",
+       "title": "Maand celstraf voor pro-Palestijnse demonstrant die anderen met plank sloeg",
+       "titleEnglish": "One month in prison for pro-Palestinian demonstrator who beat others with a plank",
+       "url": "https://nos.nl/artikel/2637871-maand-celstraf-voor-pro-palestijnse-demonstrant-die-anderen-met-plank-sloeg",
+       "publisher": "nos.nl",
+       "publisherDomain": "nos.nl",
+       "publishedAt": "2026-11-03T14:17:00Z",
+       "seenAt": "2026-11-03T14:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Netherlands",
+       "sourceCountryCode": "NL",
+       "sourceRegion": "Europe",
+       "sourceLat": 52,
+       "sourceLon": 5,
+       "language": "nl"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-05",
+     "stamp": "seed-2026-11-05",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-23ec588df8fcf8",
+       "title": "UK ban on Palestine Action is challenged at top court, some protesters arrested",
+       "titleEnglish": "UK ban on Palestine Action is challenged at top court, some protesters arrested",
+       "url": "https://www.arabnews.com/world/uk-ban-on-palestine-action-is-challenged-at-top-court-some-protesters-arrested-3009787",
+       "publisher": "arabnews.com",
+       "publisherDomain": "arabnews.com",
+       "publishedAt": "2026-11-04T14:37:56Z",
+       "seenAt": "2026-11-04T14:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Saudi Arabia",
+       "sourceCountryCode": "SA",
+       "sourceRegion": "Middle East",
+       "sourceLat": 24,
+       "sourceLon": 45,
+       "language": "en"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-08",
+     "stamp": "seed-2026-11-08",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-330a52a069756e",
+       "title": "Incidente al campione europeo di Superbike: al via la gara di aiuti per il pilota carabiniere Salvo Sallustro caduto in pista",
+       "titleEnglish": "Red Line demonstration in Amsterdam: four arrests",
+       "url": "https://corrieredelveneto.corriere.it/notizie/vicenza/cronaca/26_novembre_08/incidente-al-campione-europeo-di-superbike-al-via-la-gara-di-aiuti-per-il-pilota-carabiniere-salvo-sallustro-caduto-in-pista-c3ed3da1-0381-4aff-bcf8-a16ed2b2fxlk.shtml",
+       "publisher": "Corriere della sera",
+       "publisherDomain": "corrieredelveneto.corriere.it",
+       "publishedAt": "2026-11-08T16:57:17Z",
+       "seenAt": "2026-11-08T20:17:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Italy",
+       "sourceCountryCode": "IT",
+       "sourceRegion": "Europe",
+       "sourceLat": 42,
+       "sourceLon": 12,
+       "language": "it"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-09",
+     "stamp": "seed-2026-11-09",
+     "note": "",
+     "headlines": [
+      {
+       "id": "n-62ff55da1a6f5e",
+       "title": "Pro-Hamas activists join protests in Amsterdam against Dutch Israel policy | The Jerusalem Post",
+       "titleEnglish": "Pro-Hamas activists join protests in Amsterdam against Dutch Israel policy | The Jerusalem Post",
+       "url": "https://www.jpost.com/diaspora/antisemitism/article-914320",
+       "publisher": "The Jerusalem Post | JPost.com",
+       "publisherDomain": "jpost.com",
+       "publishedAt": "2026-11-09T11:47:00Z",
+       "seenAt": "2026-11-09T11:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Israel",
+       "sourceCountryCode": "IL",
+       "sourceRegion": "Middle East",
+       "sourceLat": 31.5,
+       "sourceLon": 35,
+       "language": "en"
+      },
+      {
+       "id": "n-6918442c7ee6ce",
+       "title": "Amsterdam’da dördüncü “Kırmızı Çizgi” gösterisine 200 binden fazla kişi katıldı",
+       "titleEnglish": "More than 200,000 people join fourth \"Red Line\" protest in Amsterdam",
+       "url": "https://www.aa.com.tr/tr/dunya/amsterdam-da-dorduncu-kirmizi-cizgi-gosterisine-200-binden-fazla-kisi-katildi/4116280",
+       "publisher": "Anadolu Ajansı",
+       "publisherDomain": "aa.com.tr",
+       "publishedAt": "2026-11-08T21:57:15Z",
+       "seenAt": "2026-11-08T19:32:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Turkey",
+       "sourceCountryCode": "TR",
+       "sourceRegion": "Middle East",
+       "sourceLat": 39,
+       "sourceLon": 35,
+       "language": "tr"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-11",
+     "stamp": "seed-2026-11-11",
+     "note": "Entered by hand on 15 November from the stored collections. Arrests at protests for the banned Palestine Action reached 139 on 1 November and the ban went to Britain's top court on 5 November; Amsterdam's fourth Red Line march drew more than 200,000 on 8 November. Last seen 11 November.",
+     "headlines": [
+      {
+       "id": "n-7861915f33ba4e",
+       "title": "أنزل علم بلاده ورفع الفلسطيني أمام البوندستاغ.. شاب ألماني يروي للجزيرة تفاصيل احتجاجه",
+       "titleEnglish": "He lowered his country's flag and raised a Palestinian one in front of the Bundestag: German young man tells Al Jazeera about his protest",
+       "url": "https://www.aljazeera.net/news/2026/11/11/%D8%A3%D9%86%D8%B2%D9%84-%D8%B9%D9%84%D9%85-%D8%A8%D9%84%D8%A7%D8%AF%D9%87-%D9%88%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A-%D8%A3%D9%85%D8%A7%D9%85",
+       "publisher": "الجزيرة نت",
+       "publisherDomain": "aljazeera.net",
+       "publishedAt": "2026-11-10T22:47:00Z",
+       "seenAt": "2026-11-10T22:47:00Z",
+       "dateBasis": "published-or-first-seen",
+       "sourceCountry": "Qatar",
+       "sourceCountryCode": "QA",
+       "sourceRegion": "Middle East",
+       "sourceLat": 25.3,
+       "sourceLon": 51.2,
+       "language": "ar"
+      }
+     ]
+    }
+   ],
+   "written": null
   }
  ]
 }

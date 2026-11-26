@@ -1702,8 +1702,23 @@
    "what": "France, Britain or the EU announces sanctions, expulsions or a formal attribution to Iran over the supermarket attack or the Fairford plot.",
    "by": "2026-12-01",
    "because": "If Iran is carrying the war into Europe while the US talks cover only the Gulf, European governments will answer on a track of their own rather than wait for Washington.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261126T001903",
+    "asOf": "2026-11-26T00:19:03Z",
+    "how": "headline",
+    "note": "French intelligence is reported to have named Iran's Revolutionary Guard as behind the recent nationwide supermarket hacking.",
+    "headlines": [
+     {
+      "id": "n-45e171a58ae237",
+      "title": "\"佛 정보기관, 최근 전국 슈퍼마켓 해킹 사건 배후로 이란의 혁명수비대 지목\"",
+      "titleEnglish": "\"French intelligence names Iran's Revolutionary Guard behind recent nationwide supermarket hacking\"",
+      "url": "https://www.newspim.com/news/view/20261125001317",
+      "publisher": "뉴스핌",
+      "sourceCountry": "South Korea"
+     }
+    ]
+   }
   },
   {
    "id": "20261110T214741-iran-war-reaches-europe-during-talks-2",
@@ -2190,8 +2205,31 @@
    "what": "A ceasefire proposal in either war is reported to include a ban on strikes on ports, energy sites or targets outside the war zone.",
    "by": "2026-12-11",
    "because": "If distant strikes are the lever in both wars, negotiators will try to bargain over them directly rather than over front lines alone.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261126T001903",
+    "asOf": "2026-11-26T00:19:03Z",
+    "how": "headline",
+    "note": "Von der Leyen proposed an energy ceasefire in Ukraine, a halt to strikes on energy sites, as a test of whether Russia wants to negotiate.",
+    "headlines": [
+     {
+      "id": "n-10df29fd4b2dc8",
+      "title": "Von der Leyen desafia Rússia a cessar-fogo energético na Ucrânia para provar que quer negociar",
+      "titleEnglish": "Von der Leyen challenges Russia to an energy ceasefire in Ukraine to prove it wants to negotiate",
+      "url": "https://observador.pt/2026/11/25/von-der-leyen-desafia-russia-a-cessar-fogo-energetico-na-ucrania-para-provar-que-quer-negociar/",
+      "publisher": "Observador",
+      "sourceCountry": "Portugal"
+     },
+     {
+      "id": "n-33e92b5a5bef3c",
+      "title": "Von der Leyen: rozejm energetyczny pokazałby, że Putin poważnie podchodzi do rozmów pokojowych",
+      "titleEnglish": "Von der Leyen: an energy truce would show that Putin is serious about peace talks",
+      "url": "https://wiadomosci.onet.pl/swiat/von-der-leyen-rozejm-energetyczny-pokazalby-ze-putin-powaznie-podchodzi-do-rozmow/2lkwh2y",
+      "publisher": "wiadomosci.onet.pl",
+      "sourceCountry": "Poland"
+     }
+    ]
+   }
   },
   {
    "id": "20261114T204311-backup-left-to-households-1",
@@ -2252,8 +2290,14 @@
    "what": "Reports from the 19 November Putin-Xi-Trump meeting say nuclear weapons in Europe, NATO enlargement or Ukraine's membership were discussed.",
    "by": "2026-11-25",
    "because": "The join holds that Moscow's 2021 subjects have moved into this three-way format, so they should appear on its agenda and not only in Russian statements.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261126T001903",
+    "asOf": "2026-11-26T00:19:03Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-26 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261114T204311-rule-set-incomes-fall-behind-1",
@@ -2561,8 +2605,23 @@
    "what": "A European head of government holds a call with Putin or announces a trip to Moscow about joining the Ukraine talks.",
    "by": "2026-12-10",
    "because": "If allies are arranging their own entry instead of relying on Washington, Putin's invitation should be followed by direct European contact with him.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261126T001903",
+    "asOf": "2026-11-26T00:19:03Z",
+    "how": "headline",
+    "note": "Lenta reports a call to Putin by Finland's Stubb with another European leader, aimed at reducing tensions and at talks with Russia.",
+    "headlines": [
+     {
+      "id": "n-db8f08c1880eae",
+      "title": "Звонок Стубба и Стере Путину: цель звонка, снижение напряженности, Стубб о переговорах с Россией",
+      "titleEnglish": "Stubb and Sther's call to Putin: purpose of the call, reducing tensions, Stubb on talks with Russia",
+      "url": "https://lenta.ru/news/2026/11/25/long-srochnaya-zadacha-na-zapade-raskryli-chto-volnovalo-liderov-norvegii-i-finlyandii-pered-zvonkom-putinu/",
+      "publisher": "Lenta.RU",
+      "sourceCountry": "Russia"
+     }
+    ]
+   }
   },
   {
    "id": "20261119T230231-allies-seek-own-talks-2",
@@ -3177,6 +3236,90 @@
    "what": "Finland's security police or prosecutors name a suspect or a foreign state in the Laukaa gunpowder factory espionage case.",
    "by": "2026-12-23",
    "because": "If the Laukaa case belongs to the same pattern as the ships and the airline, it should turn out to involve a foreign service rather than an ordinary crime.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261126T001903-trade-controls-by-nationality-1",
+   "stamp": "20261126T001903",
+   "asOf": "2026-11-26T00:19:03Z",
+   "narrativeId": "trade-controls-by-nationality",
+   "kicker": "SANCTIONS / NATIONALITY / CLEMENCY",
+   "line": "For breaking US trade controls, a Chinese firm is convicted, while the American chief under suspicion is offered a pardon in advance.",
+   "firmness": "plausible",
+   "what": "The US charges or fines another Chinese or Asian company over chips or goods reaching China or Iran in breach of US controls.",
+   "by": "2026-12-20",
+   "because": "If enforcement now depends on whose firm it is, cases against foreign firms go on at full pace while the American firm's case stays a political matter.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261126T001903-trade-controls-by-nationality-2",
+   "stamp": "20261126T001903",
+   "asOf": "2026-11-26T00:19:03Z",
+   "narrativeId": "trade-controls-by-nationality",
+   "kicker": "SANCTIONS / NATIONALITY / CLEMENCY",
+   "line": "For breaking US trade controls, a Chinese firm is convicted, while the American chief under suspicion is offered a pardon in advance.",
+   "firmness": "plausible",
+   "what": "Trump publicly offers or grants a pardon to another US executive or company under federal investigation.",
+   "by": "2026-12-24",
+   "because": "The join says clemency offered in advance is a tool for firms near the president, so it should be used again and not only for Huang.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261126T001903-id-stores-breached-1",
+   "stamp": "20261126T001903",
+   "asOf": "2026-11-26T00:19:03Z",
+   "narrativeId": "id-stores-breached",
+   "kicker": "IDENTITY / COMPLIANCE / CUSTODY",
+   "line": "Rules against fraud make banks and exchanges collect ID and report it to regulators, and both ends are now being breached.",
+   "firmness": "plausible",
+   "what": "Korea's financial regulator or privacy commission fines Bithumb or orders exchanges to change how they store resident registration numbers.",
+   "by": "2026-12-24",
+   "because": "If the store that the anti-money-laundering law created is the weak point, the regulators' answer will be aimed at the store, not only at the hackers.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261126T001903-id-stores-breached-2",
+   "stamp": "20261126T001903",
+   "asOf": "2026-11-26T00:19:03Z",
+   "narrativeId": "id-stores-breached",
+   "kicker": "IDENTITY / COMPLIANCE / CUSTODY",
+   "line": "Rules against fraud make banks and exchanges collect ID and report it to regulators, and both ends are now being breached.",
+   "firmness": "plausible",
+   "what": "Another financial regulator, tax office or bank supervisor in Europe or Asia reports unauthorised access to its systems.",
+   "by": "2026-12-20",
+   "because": "The join says the receiving end of compliance reporting is now a target, so the US agency should not be the only one.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261126T001903-public-money-enters-ai-selloff-1",
+   "stamp": "20261126T001903",
+   "asOf": "2026-11-26T00:19:03Z",
+   "narrativeId": "public-money-enters-ai-selloff",
+   "kicker": "RISK / THE STATE / VALUATION",
+   "line": "Governments are offering public money to AI in the same weeks that shareholders sell it, so citizens take on what markets now doubt.",
+   "firmness": "tentative",
+   "what": "A government outside the US announces an equity stake, loan guarantee or public fund for a named AI company or data-centre project.",
+   "by": "2026-12-20",
+   "because": "The join predicts public money keeps arriving while prices fall; if states followed markets, offers would stop during a sell-off.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261126T001903-public-money-enters-ai-selloff-2",
+   "stamp": "20261126T001903",
+   "asOf": "2026-11-26T00:19:03Z",
+   "narrativeId": "public-money-enters-ai-selloff",
+   "kicker": "RISK / THE STATE / VALUATION",
+   "line": "Governments are offering public money to AI in the same weeks that shareholders sell it, so citizens take on what markets now doubt.",
+   "firmness": "tentative",
+   "what": "A pension or sovereign wealth fund is reported buying AI shares, AI bonds or data-centre debt during the sell-off.",
+   "by": "2026-12-24",
+   "because": "If the risk is moving from shareholders to the public, publicly owned funds are where it would show first.",
    "status": "open",
    "resolved": null
   }

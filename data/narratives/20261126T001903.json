@@ -1,0 +1,1289 @@
+{
+  "schemaVersion": 6,
+  "generatedAt": "2026-11-26T00:30:28Z",
+  "newsGeneratedAt": "2026-11-26T00:19:03Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-10",
+  "previousNewsGeneratedAt": "2026-11-25T00:42:45Z",
+  "usage": {
+    "input": 100926,
+    "output": 75627,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "A narrative may also resume one that stopped in the last four weeks ('resumes' gives that edition's stamp and the narrative's id), and may be written from a subject the site's notebook has been keeping ('builds'); such a narrative can cite headlines from earlier days, each shown with its date, beside at least three of the day's own.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-d5c93c20f77d43",
+      "title": "Trump’s accounts traded Nvidia shares 44 times this year, records show",
+      "titleEnglish": "Trump’s accounts traded Nvidia shares 44 times this year, records show",
+      "url": "https://www.bbc.com/news/articles/cq772vk664yvo",
+      "publisher": "bbc.com",
+      "publisherDomain": "bbc.com",
+      "publishedAt": "2026-11-25T16:42:11Z",
+      "seenAt": "2026-11-25T18:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-d64abf05493ae4",
+      "title": "Trump admite que admite indulto a Jensen Huang se houver necessidade. E pede que CEO da Nvidia não recorra à quinta emenda no Congresso",
+      "titleEnglish": "Trump admits he would pardon Jensen Huang if necessary, and urges Nvidia CEO not to invoke the Fifth Amendment in Congress",
+      "url": "https://observador.pt/2026/11/25/trump-admite-que-admite-indulto-a-jensen-huang-se-houver-necessidade-e-pede-que-ceo-da-nvidia-nao-recorra-a-quinta-emenda-no-congresso/",
+      "publisher": "Observador",
+      "publisherDomain": "observador.pt",
+      "publishedAt": "2026-11-25T12:32:00Z",
+      "seenAt": "2026-11-25T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Portugal",
+      "sourceCountryCode": "PT",
+      "sourceRegion": "Europe",
+      "sourceLat": 39.5,
+      "sourceLon": -8,
+      "language": "pt"
+    },
+    {
+      "id": "n-4ddf7864b7b451",
+      "title": "Phe Dân chủ mở cuộc điều tra việc ông Trump vận động đưa CEO Nvidia trở lại",
+      "titleEnglish": "Democratic Party opens investigation into Trump's lobbying to bring Nvidia CEO back",
+      "url": "https://anninhthudo.vn/phe-dan-chu-mo-cuoc-dieu-tra-viec-ong-trump-van-dong-dua-ceo-nvidia-tro-lai-post676863.antd",
+      "publisher": "Báo Điện tử An ninh Thủ đô",
+      "publisherDomain": "anninhthudo.vn",
+      "publishedAt": "2026-11-25T22:10:31Z",
+      "seenAt": "2026-11-26T00:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Vietnam",
+      "sourceCountryCode": "VN",
+      "sourceRegion": "Asia",
+      "sourceLat": 16,
+      "sourceLon": 107,
+      "language": "vi"
+    },
+    {
+      "id": "n-8007d582b6f80b",
+      "title": "Jensen Huang is back, but China’s AI chip crunch is far from over",
+      "titleEnglish": "Jensen Huang is back, but China’s AI chip crunch is far from over",
+      "url": "https://www.straitstimes.com/asia/east-asia/jensen-huang-is-back-but-chinas-ai-chip-crunch-is-far-from-over",
+      "publisher": "The Straits Times",
+      "publisherDomain": "straitstimes.com",
+      "publishedAt": "2026-11-25T13:40:00Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-07637a8798b26e",
+      "title": "Podcast De Dag: wat is de waarde van Jensen Huang?",
+      "titleEnglish": "Podcast De Dag: what is the value of Jensen Huang?",
+      "url": "https://nos.nl/artikel/2640979-podcast-de-dag-wat-is-de-waarde-van-jensen-huang",
+      "publisher": "nos.nl",
+      "publisherDomain": "nos.nl",
+      "publishedAt": "2026-11-25T15:02:00Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-afb7a5879bc83c",
+      "title": "美股、黄金，上演V字大反弹！原油大涨！中概股爆发，英伟达市值一夜蒸发近1万亿元",
+      "titleEnglish": "US stocks and gold stage a V-shaped rebound! Crude oil surges! Chinese concept stocks explode, Nvidia's market value evaporates by nearly 1 trillion yuan overnight",
+      "url": "https://www.nbd.com.cn/articles/2026-11-26/4659238.html",
+      "publisher": "nbd.com.cn",
+      "publisherDomain": "nbd.com.cn",
+      "publishedAt": "2026-11-26T00:02:00Z",
+      "seenAt": "2026-11-26T00:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-d493331af67eaa",
+      "title": "Huawei says US conviction ‘without legal or factual merit’",
+      "titleEnglish": "Huawei says US conviction ‘without legal or factual merit’",
+      "url": "https://www.bangkokpost.com/business/general/3360969/huawei-says-us-conviction-without-legal-or-factual-merit",
+      "publisher": "https://www.bangkokpost.com",
+      "publisherDomain": "bangkokpost.com",
+      "publishedAt": "2026-11-25T12:32:00Z",
+      "seenAt": "2026-11-25T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Thailand",
+      "sourceCountryCode": "TH",
+      "sourceRegion": "Asia",
+      "sourceLat": 15,
+      "sourceLon": 101,
+      "language": "en"
+    },
+    {
+      "id": "n-d7bb2f562b246c",
+      "title": "欧盟对15家俄罗斯实体收紧出口限制",
+      "titleEnglish": "EU tightens export restrictions on 15 Russian entities",
+      "url": "https://www.yicai.com/news/103454236.html",
+      "publisher": "yicai.com",
+      "publisherDomain": "yicai.com",
+      "publishedAt": "2026-11-25T12:32:00Z",
+      "seenAt": "2026-11-25T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-22b0a6a9ec0888",
+      "title": "Defence Contractor Secured Up to $980M in Military Deals Months After Trump Jr.'s Investment Firm Bought a Stake",
+      "titleEnglish": "Defence Contractor Secured Up to $980M in Military Deals Months After Trump Jr.'s Investment Firm Bought a Stake",
+      "url": "https://www.ibtimes.co.uk/hadrian-automation-military-deals-trump-jr-investment-1834661",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-11-25T15:28:31Z",
+      "seenAt": "2026-11-25T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-8472f2167742b8",
+      "title": "빗썸 해킹 피해 더 컸다…보름 넘게 뚫리고도 몰랐다",
+      "titleEnglish": "Bithumb hack damage was greater: breached for over two weeks without detection",
+      "url": "https://www.fnnews.com/news/202611252106063665",
+      "publisher": "파이낸셜뉴스",
+      "publisherDomain": "fnnews.com",
+      "publishedAt": "2026-11-25T12:10:19Z",
+      "seenAt": "2026-11-25T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-a7fa8fa5517a41",
+      "title": "빗썸, 개인정보 추가 유출 확인…주민등록번호·거래내역 등 포함",
+      "titleEnglish": "Bithumb confirms further personal data leak, including resident registration numbers and transaction records",
+      "url": "https://www.newspim.com/news/view/20261125001302",
+      "publisher": "뉴스핌",
+      "publisherDomain": "newspim.com",
+      "publishedAt": "2026-11-25T11:33:00Z",
+      "seenAt": "2026-11-25T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-1cf21174163b24",
+      "title": "US Treasury's FinCEN Investigates Unauthorised Access to Some Systems and Extends Certain Filing Deadlines",
+      "titleEnglish": "US Treasury's FinCEN Investigates Unauthorised Access to Some Systems and Extends Certain Filing Deadlines",
+      "url": "https://www.ibtimes.co.uk/fincen-investigates-unauthorised-access-filing-deadlines-1834803",
+      "publisher": "International Business Times UK",
+      "publisherDomain": "ibtimes.co.uk",
+      "publishedAt": "2026-11-25T14:49:14Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-04801262fa42b8",
+      "title": "Хакер получил доступ к данным клиентов сервиса 1Password",
+      "titleEnglish": "Hacker gained access to client data of 1Password service",
+      "url": "https://iz.ru/2208434/khaker-poluchil-dostup-k-dannym-klientov-servisa-1password-izi",
+      "publisher": "Известия",
+      "publisherDomain": "iz.ru",
+      "publishedAt": "2026-11-25T22:31:52Z",
+      "seenAt": "2026-11-25T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-7700f64f48a5f6",
+      "title": "ফিশিং লিংকের ফাঁদে ফোনের নিয়ন্ত্রণ বেহাত, খালি হচ্ছে ব্যাংক হিসাব",
+      "titleEnglish": "Phone control lost to phishing link trap, bank accounts being emptied",
+      "url": "https://bangla.bdnews24.com/ctg/ujl5dhqp7t",
+      "publisher": "bdnews24.com",
+      "publisherDomain": "bangla.bdnews24.com",
+      "publishedAt": "2026-11-25T19:24:14Z",
+      "seenAt": "2026-11-25T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Bangladesh",
+      "sourceCountryCode": "BD",
+      "sourceRegion": "Asia",
+      "sourceLat": 24,
+      "sourceLon": 90,
+      "language": "bn"
+    },
+    {
+      "id": "n-ce95e6acd48911",
+      "title": "Waspada Gamer Roblox, Ada Bahaya Curi Password hingga Mengakses Webcam Mengancam!",
+      "titleEnglish": "Beware Roblox Gamers: Danger of Password Theft and Webcam Access Threats!",
+      "url": "https://www.viva.co.id/gaya-hidup/games/1946421-waspada-gamer-roblox-ada-bahaya-curi-password-hingga-mengakses-webcam-mengancam",
+      "publisher": "viva.co.id",
+      "publisherDomain": "viva.co.id",
+      "publishedAt": "2026-11-25T22:04:00Z",
+      "seenAt": "2026-11-25T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-f2240ae1823381",
+      "title": "US stocks fall further as fears over AI intensify",
+      "titleEnglish": "US stocks fall further as fears over AI intensify",
+      "url": "https://www.bbc.com/news/articles/cq0md8g14zryo",
+      "publisher": "bbc.com",
+      "publisherDomain": "bbc.com",
+      "publishedAt": "2026-11-25T17:48:09Z",
+      "seenAt": "2026-11-25T18:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-e0c6e900d13f41",
+      "title": "美股收盤／逢低買盤進場！道瓊狂瀉千點逆轉收紅 費半跌0.65%",
+      "titleEnglish": "US stocks close / Bargain buying enters! Dow plunges by 1,000 points then reverses to close higher, Philadelphia Semiconductor index falls 0.65%",
+      "url": "https://news.tvbs.com.tw/money/4056227",
+      "publisher": "TVBS新聞網",
+      "publisherDomain": "news.tvbs.com.tw",
+      "publishedAt": "2026-11-25T23:10:00Z",
+      "seenAt": "2026-11-26T00:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Taiwan",
+      "sourceCountryCode": "TW",
+      "sourceRegion": "Asia",
+      "sourceLat": 23.7,
+      "sourceLon": 121,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "n-7637d02d6b800a",
+      "title": "Wall Street recorta sus pérdidas y el Dow Jones borra caída de más de 1.100 puntos en una volátil sesión - La Tercera",
+      "titleEnglish": "Wall Street trims losses and Dow Jones erases drop of more than 1,100 points in volatile session - La Tercera",
+      "url": "https://www.latercera.com/pulso/noticia/wall-street-repunta-volatil-sesion/",
+      "publisher": "La Tercera",
+      "publisherDomain": "latercera.com",
+      "publishedAt": "2026-11-25T20:48:42Z",
+      "seenAt": "2026-11-25T21:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-b61a6ba521776f",
+      "title": "Wall Street zet verliesreeks voort, Anthropic verder omlaag",
+      "titleEnglish": "Wall Street extends losing streak, Anthropic falls further",
+      "url": "https://nieuws.nl/economie/wall-street-zet-verliesreeks-voort-anthropic-verder-omlaag",
+      "publisher": "Nieuws.nl",
+      "publisherDomain": "nieuws.nl",
+      "publishedAt": "2026-11-25T15:07:30Z",
+      "seenAt": "2026-11-25T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-af3f8ff55ef0e1",
+      "title": "“3~4일 계속 울었다” 주식에 3억 날린 투자전문가…폭락장에 꺼낸 조언",
+      "titleEnglish": "\"I cried for 3-4 days\" Investment expert who lost 300 million on stocks offers advice amid market crash",
+      "url": "https://biz.heraldcorp.com/article/10949516",
+      "publisher": "헤럴드경제",
+      "publisherDomain": "biz.heraldcorp.com",
+      "publishedAt": "2026-11-25T14:59:14Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Korea",
+      "sourceCountryCode": "KR",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 128,
+      "language": "ko"
+    },
+    {
+      "id": "n-7d4fec1274fa89",
+      "title": "SuperX AI Technology收跌18.44%，成交额293.2万美元",
+      "titleEnglish": "SuperX AI Technology shares fall 18.44%, turnover at $2.932 million",
+      "url": "https://finance.sina.com.cn/stock/usstock/notice/2026-11-26/doc-inizzftq8240553.shtml",
+      "publisher": "finance.sina.com.cn",
+      "publisherDomain": "finance.sina.com.cn",
+      "publishedAt": "2026-11-25T23:54:18Z",
+      "seenAt": "2026-11-26T00:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-b0f99841aae046",
+      "title": "This robotics stock lost half its value. Here's why Citi says it's a buy",
+      "titleEnglish": "This robotics stock lost half its value. Here's why Citi says it's a buy",
+      "url": "https://www.cnbc.com/2026/11/25/a-robotics-stock-lost-half-its-value-heres-why-citi-says-its-a-buy-.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-25T14:27:03Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-d580db8c1d13c3",
+      "title": "华泰证券：AI产业内部更重交付与回报质量",
+      "titleEnglish": "Huatai Securities: AI industry places more weight on delivery and quality of returns",
+      "url": "https://finance.sina.com.cn/jjxw/2026-11-26/doc-inizzftm9076132.shtml",
+      "publisher": "finance.sina.com.cn",
+      "publisherDomain": "finance.sina.com.cn",
+      "publishedAt": "2026-11-25T23:56:20Z",
+      "seenAt": "2026-11-26T00:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "zh"
+    },
+    {
+      "id": "n-8d9aa989f1b2f4",
+      "title": "Govt exploring setting up AI wealth fund for Malaysians, says PM Anwar",
+      "titleEnglish": "Govt exploring setting up AI wealth fund for Malaysians, says PM Anwar",
+      "url": "https://www.thestar.com.my/news/nation/2026/11/25/govt-exploring-setting-up-ai-wealth-fund-for-malaysians-says-pm-anwar",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-11-25T22:16:00Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
+    },
+    {
+      "id": "n-1b3a9f2f5d82ad",
+      "title": "EU plans 50 billion euro investment in AI, quantum computing",
+      "titleEnglish": "EU plans 50 billion euro investment in AI, quantum computing",
+      "url": "https://www.channelnewsasia.com/world/eu-plans-50-billion-euro-investment-in-ai-quantum-computing-6581386",
+      "publisher": "CNA",
+      "publisherDomain": "channelnewsasia.com",
+      "publishedAt": "2026-11-25T15:02:00Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-4199e26225677e",
+      "title": "EU: EU will bei Quantentechnologie weltweit führend werden",
+      "titleEnglish": "EU: EU wants to become global leader in quantum technology",
+      "url": "https://www.handelsblatt.com/politik/international/eu-eu-will-bei-quantentechnologie-weltweit-fuehrend-werden/100272667.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-25T10:30:53Z",
+      "seenAt": "2026-11-25T15:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-628861c26d465f",
+      "title": "EE.UU. aprueba el plan de Elon Musk de lanzar un millón de satélites para crear centros de datos espaciales - La Tercera",
+      "titleEnglish": "US approves Elon Musk's plan to launch one million satellites to create space data centres - La Tercera",
+      "url": "https://www.latercera.com/mundo/noticia/eeuu-aprueba-el-plan-de-elon-musk-de-lanzar-un-millon-de-satelites-para-crear-centros-de-datos-espaciales/",
+      "publisher": "La Tercera",
+      "publisherDomain": "latercera.com",
+      "publishedAt": "2026-11-25T22:52:08Z",
+      "seenAt": "2026-11-25T23:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Chile",
+      "sourceCountryCode": "CL",
+      "sourceRegion": "Latin America",
+      "sourceLat": -33,
+      "sourceLon": -71,
+      "language": "es"
+    },
+    {
+      "id": "n-c7c3a326a745fa",
+      "title": "Kalshi traders say the odds of states imposing data center moratoriums is more likely than not",
+      "titleEnglish": "Kalshi traders say the odds of states imposing data center moratoriums is more likely than not",
+      "url": "https://www.cnbc.com/2026/11/25/kalshi-traders-say-the-odds-of-states-imposing-data-center-moratoriums-is-more-likely-than-not.html",
+      "publisher": "CNBC",
+      "publisherDomain": "cnbc.com",
+      "publishedAt": "2026-11-25T15:18:29Z",
+      "seenAt": "2026-11-25T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    }
+  ],
+  "settled": [
+    {
+      "id": "20261110T214741-iran-war-reaches-europe-during-talks-1",
+      "status": "kept",
+      "how": "headline"
+    },
+    {
+      "id": "20261113T215832-strikes-run-alongside-talks-2",
+      "status": "kept",
+      "how": "headline"
+    },
+    {
+      "id": "20261119T230231-allies-seek-own-talks-1",
+      "status": "kept",
+      "how": "headline"
+    },
+    {
+      "id": "20261114T204311-europe-security-bargained-elsewhere-2",
+      "status": "failed",
+      "how": "expired"
+    }
+  ],
+  "readings": [
+    {
+      "id": "trade-controls-by-nationality",
+      "line": "For breaking US trade controls, a Chinese firm is convicted, while the American chief under suspicion is offered a pardon in advance.",
+      "kicker": "SANCTIONS / NATIONALITY / CLEMENCY",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "The US charges or fines another Chinese or Asian company over chips or goods reaching China or Iran in breach of US controls.",
+          "by": "2026-12-20",
+          "because": "If enforcement now depends on whose firm it is, cases against foreign firms go on at full pace while the American firm's case stays a political matter.",
+          "id": "20261126T001903-trade-controls-by-nationality-1"
+        },
+        {
+          "what": "Trump publicly offers or grants a pardon to another US executive or company under federal investigation.",
+          "by": "2026-12-24",
+          "because": "The join says clemency offered in advance is a tool for firms near the president, so it should be used again and not only for Huang.",
+          "id": "20261126T001903-trade-controls-by-nationality-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is ZTE in 2018. In April the Commerce Department banned US firms from supplying ZTE for breaking a sanctions settlement, and in July Trump lifted the ban after a call with Xi Jinping, in return for a $1 billion fine and new managers, while Congress failed to restore it. Enforcement was traded for a deal. The difference now is that the firm being spared is American, its shares are in the president's own accounts, and the offer comes before any charge rather than after a penalty.",
+        "paths": [
+          {
+            "name": "No charge before January",
+            "weight": "favoured",
+            "text": "No federal charge is brought against Nvidia or Huang before the new Congress sits in January, and the 1 December hearing produces questions about Trump's trades but no referral. The Democratic inquiry becomes a formal committee investigation in the new year. This is favoured because the executive controls prosecutions and the president has said publicly where he stands.",
+            "sign": "Reports of Huang's hearing say he answered lawmakers' questions and no Justice Department case was announced."
+          },
+          {
+            "name": "Commerce settles with a fine",
+            "weight": "possible",
+            "text": "The Commerce Department closes the export case with a civil penalty paid by Nvidia and new compliance duties, as it did with ZTE, so the company pays and no person is charged. This would end the matter quickly and suits both the firm and the White House.",
+            "sign": "The Commerce Department announces a settlement or civil penalty with Nvidia over chips reaching China."
+          },
+          {
+            "name": "Huang charged, then pardoned",
+            "weight": "unlikely",
+            "text": "Prosecutors charge Huang and Trump pardons him, as he said he would. This is unlikely because a charge is the step that an advance pardon offer is meant to make pointless.",
+            "sign": "A grand jury indictment naming Jensen Huang is reported."
+          }
+        ],
+        "decade": "Over ten years US trade controls are likely to work less as law than as permissions granted from the White House, so firms abroad will plan for penalties and firms at home for access."
+      },
+      "continues": "favour-follows-the-president",
+      "change": "Yesterday's narrative rested on how regulators treat firms close to the president. Today the president himself is on the record: his accounts traded Nvidia shares 44 times this year, he says he would pardon Huang if necessary, and Democrats have opened an inquiry into his lobbying for Huang's return. On the same day Huawei rejected its US conviction.",
+      "claim": "The BBC reports records showing Trump's accounts traded Nvidia shares 44 times this year; Portugal's Observador reports he would pardon Jensen Huang 'if necessary'; Democrats have opened an inquiry into his lobbying to bring Huang back; and Huawei, in the same day's news, called its US conviction without legal or factual merit. Nvidia's scandal is about its chips reaching China against US export rules, and Huawei's prosecution grew from charges of evading US sanctions on Iran: both are cases of breaking US trade controls. One ends in conviction for a Chinese company, the other, before any charge, in an offer of clemency from a president who trades the company's shares. A firm's exposure to US trade law now depends on whose firm it is and how close it stands to the White House.",
+      "events": [
+        {
+          "label": "Trump's 44 trades in Nvidia shares",
+          "articleIds": [
+            "n-d5c93c20f77d43"
+          ]
+        },
+        {
+          "label": "Trump says he would pardon Huang",
+          "articleIds": [
+            "n-d64abf05493ae4"
+          ]
+        },
+        {
+          "label": "Democrats investigate Trump's lobbying for Huang",
+          "articleIds": [
+            "n-4ddf7864b7b451"
+          ]
+        },
+        {
+          "label": "Trade controls enforced on foreign firms",
+          "articleIds": [
+            "n-d493331af67eaa",
+            "n-d7bb2f562b246c"
+          ]
+        },
+        {
+          "label": "Trump Jr stake precedes defence contracts",
+          "articleIds": [
+            "n-22b0a6a9ec0888"
+          ]
+        },
+        {
+          "label": "Nvidia's value and China's chip shortage",
+          "articleIds": [
+            "n-8007d582b6f80b",
+            "n-07637a8798b26e",
+            "n-afb7a5879bc83c"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "The president and Nvidia",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Trades, a pardon, an inquiry",
+              "text": "The BBC (United Kingdom) reports records showing that Trump's accounts traded Nvidia shares 44 times this year. Observador (Portugal) reports Trump saying he would pardon Jensen Huang if necessary and urging him not to invoke the Fifth Amendment before Congress. An ninh Thủ đô (Vietnam) reports that Democrats have opened an investigation into Trump's lobbying to bring Huang back to run Nvidia.",
+              "articleIds": [
+                "n-d5c93c20f77d43",
+                "n-d64abf05493ae4",
+                "n-4ddf7864b7b451"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "The company and the market",
+              "text": "The Straits Times (Singapore) says Huang is back but China's shortage of AI chips is far from over, so the demand that drew Nvidia's chips into China is still there. NOS (Netherlands) runs a podcast asking what Huang is worth to the company. nbd.com.cn (China) reports Nvidia losing close to a trillion yuan of market value overnight.",
+              "articleIds": [
+                "n-8007d582b6f80b",
+                "n-07637a8798b26e",
+                "n-afb7a5879bc83c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Other firms, other treatment",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Foreign firms penalised",
+              "text": "The Bangkok Post (Thailand) carries Huawei's statement that its US conviction is without legal or factual merit. No offer of clemency appears anywhere near it. Yicai (China) reports the EU tightening export restrictions on 15 Russian entities, the ordinary working of trade controls against foreign companies.",
+              "articleIds": [
+                "n-d493331af67eaa",
+                "n-d7bb2f562b246c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "A stake, then contracts",
+              "text": "International Business Times UK reports that a defence contractor won up to $980 million in military deals months after Donald Trump Jr's investment firm bought a stake in it. The headline does not say the stake caused the contracts, only the order in which they came.",
+              "articleIds": [
+                "n-22b0a6a9ec0888"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Same law, two outcomes",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "Treatment follows ownership",
+              "text": "Both cases concern goods or money moving to countries Washington has put off limits. What differs is not the offence but the owner: the Chinese firm is convicted, the American chief is told in advance that a case against him would end in a pardon. A pardon promised before any charge tells prosecutors that bringing one would be wasted work.",
+              "articleIds": [
+                "n-d64abf05493ae4",
+                "n-d493331af67eaa",
+                "n-d5c93c20f77d43"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f6",
+              "label": "Family money on both sides",
+              "text": "The president's own and his family's holdings now sit on both sides of decisions his administration makes: Nvidia shares while its export case is open, a stake in a contractor before it won defence work. That puts the outcome of trade enforcement inside the household accounts of the person who directs it.",
+              "articleIds": [
+                "n-22b0a6a9ec0888",
+                "n-d5c93c20f77d43"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f7",
+              "label": "Different offences, different stages",
+              "text": "Huawei's conviction ends a prosecution brought in 2019 by career prosecutors in Brooklyn, and it concerns bank fraud and Iran sanctions as much as technology. Nvidia has not been charged with anything in these headlines, and Trump's pardon remark is conditional. One is a finished court case against a company, the other a political statement about a person. Trump has also spared a Chinese firm before, lifting the ZTE ban in 2018, so the pattern may be deals with whoever is useful rather than nationality.",
+              "articleIds": [
+                "n-d493331af67eaa",
+                "n-d64abf05493ae4"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "EXPORT CONTROLS / AI CHIPS / MARKET VALUE",
+          "text": "On 7 October 2022 the Commerce Department's Bureau of Industry and Security barred sales of the most advanced AI chips to China, and tightened the rules again in October 2023 and December 2024. Nvidia answered each round with chips cut down to pass under the line, the A800 and later the H20, because China was then roughly a fifth of its data-centre sales. Seven weeks after the first rule, ChatGPT's launch made Nvidia the supplier every AI lab depended on, and within two years one of the most valuable companies in the world. That turned the export rule into the most valuable line in US trade law, and its enforcement into a stock-market question as well as a China question. By these headlines Trump's accounts traded the shares 44 times this year while the case over chips reaching China was open, and the Straits Times reports China's shortage unresolved. The decade built a rule whose breach pays, around a company the president holds.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "HUAWEI / SANCTIONS / BARGAINING",
+          "text": "The years after the 2008 crash made China the world's second economy and Huawei its largest maker of telecoms equipment. Washington's suspicion was set down early: a House Intelligence Committee report in October 2012 called Huawei and ZTE a security risk. In 2017 ZTE pleaded guilty to shipping US technology to Iran and North Korea and agreed to pay up to $1.19 billion; in 2018 Trump lifted a new Commerce ban on ZTE after a call with Xi Jinping, the first open trade of export enforcement for something else. Huawei's finance chief Meng Wanzhou was arrested in Vancouver on 1 December 2018 on US charges of deceiving banks about Iran, the company went on the Entity List in May 2019, and Meng went home in 2021 under a deferred prosecution agreement. The conviction Huawei rejects in today's Bangkok Post closes that line. Both governments learned in these years that a firm's legal fate could be a bargaining chip.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "EMBARGO / OPENING / WTO",
+          "text": "After the army cleared Tiananmen Square in June 1989, the United States and the European Community banned arms sales to China, and both bans still stand. Yet the Cold War system of export control, CoCom, was wound up in 1994 and replaced in 1996 by the looser Wassenaar Arrangement, and the 1990s were spent licensing more technology to China, not less. China joined the WTO in December 2001 on the argument that trade would change it. That bet produced two kinds of firm: Chinese companies such as Huawei, built partly on access to Western parts and markets, and American firms such as Nvidia, whose chips were made in Taiwan and sold heavily into China. The trade controls at issue in the Nvidia scandal and in Huawei's conviction are the reversal of that thirty-year opening, applied to companies the opening created.",
+          "trajectoryIds": [
+            "tiananmen-1989"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "COCOM / EMERGENCY POWERS / PARDON",
+          "text": "Trade control as a weapon belongs to the postwar order. The United States and its allies set up CoCom in 1949 to keep strategic goods from the Soviet bloc, and the International Emergency Economic Powers Act of 1977 let presidents bar trade by declaring an emergency. The same constitution gives the president a pardon power with almost no limit, used by Ford for Nixon in 1974 and by Clinton in January 2001 for Marc Rich, a commodity trader indicted for tax evasion and for trading with Iran during the hostage crisis. The Rich pardon brought Senate hearings and was widely held to break an unwritten rule, the restraint Levitsky and Ziblatt call forbearance. The office that declares a trade emergency and the office that can forgive its breach are the same. Observador's headline today, a pardon offered before any charge, is that power used in advance.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "how-democracies-die"
+          ]
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-d5c93c20f77d43",
+        "n-d64abf05493ae4",
+        "n-4ddf7864b7b451",
+        "n-8007d582b6f80b",
+        "n-07637a8798b26e",
+        "n-afb7a5879bc83c",
+        "n-d493331af67eaa",
+        "n-d7bb2f562b246c",
+        "n-22b0a6a9ec0888"
+      ]
+    },
+    {
+      "id": "id-stores-breached",
+      "line": "Rules against fraud make banks and exchanges collect ID and report it to regulators, and both ends are now being breached.",
+      "kicker": "IDENTITY / COMPLIANCE / CUSTODY",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "Korea's financial regulator or privacy commission fines Bithumb or orders exchanges to change how they store resident registration numbers.",
+          "by": "2026-12-24",
+          "because": "If the store that the anti-money-laundering law created is the weak point, the regulators' answer will be aimed at the store, not only at the hackers.",
+          "id": "20261126T001903-id-stores-breached-1"
+        },
+        {
+          "what": "Another financial regulator, tax office or bank supervisor in Europe or Asia reports unauthorised access to its systems.",
+          "by": "2026-12-20",
+          "because": "The join says the receiving end of compliance reporting is now a target, so the US agency should not be the only one.",
+          "id": "20261126T001903-id-stores-breached-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "In January 2014 a contractor at a credit bureau stole personal data on about 20 million customers of three Korean card companies, KB Kookmin, Lotte and NH. The government answered by restricting the collection of resident registration numbers by law from August 2014, and collection fell where it had been optional. The difference now is that crypto exchanges are required to verify and keep customers' identities under the 2021 real-name rules, so the law limiting the store and the law demanding it point in opposite directions.",
+        "paths": [
+          {
+            "name": "Fines, with the store kept",
+            "weight": "favoured",
+            "text": "Korea's Personal Information Protection Commission and Financial Services Commission inspect and fine Bithumb over the coming months and tighten security rules, but exchanges go on holding ID numbers because the anti-money-laundering law requires it. FinCEN restores its filing systems and says little about what was reached. This is favoured because both duties are in force and neither regulator can drop its own.",
+            "sign": "A Korean regulator announces an inspection or fine of Bithumb over the leak."
+          },
+          {
+            "name": "Verify without keeping a copy",
+            "weight": "possible",
+            "text": "Korea or the US moves to checks against a government source, such as Korea's mobile ID, so firms confirm identity without storing it. Possible within a year because Korea has already built the means.",
+            "sign": "A Korean ministry proposes letting exchanges verify customers without storing resident registration numbers."
+          },
+          {
+            "name": "Reporting duties eased",
+            "weight": "unlikely",
+            "text": "Governments reduce what banks and exchanges must collect because the stores are too risky. Unlikely, because the FATF rules behind these duties are being tightened, not relaxed.",
+            "sign": "A government cuts a customer identification or reporting requirement and names breach risk as the reason."
+          }
+        ],
+        "decade": "Over the decade the duty to identify customers will reach more payments and platforms, so the stores will grow, and the question will be whether identity is checked against a state source or copied into every firm."
+      },
+      "continues": "",
+      "change": "On 21 November the breaches were of state records and shop data side by side. Since then they have reached both ends of the anti-fraud system: Bithumb, a Korean exchange obliged to verify every customer, says resident registration numbers and transaction records were taken in an intrusion that ran over two weeks unseen, and the US office that receives banks' reports is investigating unauthorised access. None of the breaches named on 21 November has been attributed in this collection.",
+      "claim": "Bithumb, the Korean crypto exchange, says hackers were inside for more than two weeks and took customers' resident registration numbers and transaction records; FinCEN, the US Treasury office that receives banks' reports on suspicious money, is investigating unauthorised access and has extended filing deadlines; a hacker reached client data at the password manager 1Password; and in Bangladesh phishing links are taking over phones and emptying bank accounts. The exchange and the agency hold what anti-money-laundering rules demand: customers' identities on one side, reports about them on the other. Rules written to stop fraud have built stores of what fraudsters most want, while the fraud itself still arrives through people's phones.",
+      "events": [
+        {
+          "label": "Bithumb breach ran two weeks unseen",
+          "articleIds": [
+            "n-8472f2167742b8",
+            "n-a7fa8fa5517a41"
+          ]
+        },
+        {
+          "label": "FinCEN investigates access to its systems",
+          "articleIds": [
+            "n-1cf21174163b24"
+          ]
+        },
+        {
+          "label": "Hacker reaches 1Password client data",
+          "articleIds": [
+            "n-04801262fa42b8"
+          ]
+        },
+        {
+          "label": "Phishing empties Bangladeshi bank accounts",
+          "articleIds": [
+            "n-7700f64f48a5f6"
+          ]
+        },
+        {
+          "label": "Roblox players warned of password theft",
+          "articleIds": [
+            "n-ce95e6acd48911"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "An exchange and a regulator",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Bithumb's widening leak",
+              "text": "Financial News (South Korea) reports that the Bithumb hack did more damage than first said and went undetected for over two weeks. Newspim (South Korea) reports Bithumb confirming a further leak that includes resident registration numbers and transaction records.",
+              "articleIds": [
+                "n-8472f2167742b8",
+                "n-a7fa8fa5517a41"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "The reporting office",
+              "text": "International Business Times UK reports that FinCEN, the US Treasury's financial crimes network, is investigating unauthorised access to some of its systems and has extended certain filing deadlines. The headline does not say what was read.",
+              "articleIds": [
+                "n-1cf21174163b24"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Vaults, phones and games",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Credentials and accounts",
+              "text": "Izvestia (Russia) reports a hacker gaining access to client data at 1Password, a service people pay to keep their passwords safe. bdnews24 (Bangladesh) reports phones taken over through a phishing link and bank accounts emptied. Viva (Indonesia) warns Roblox players of password theft and webcam access.",
+              "articleIds": [
+                "n-04801262fa42b8",
+                "n-7700f64f48a5f6",
+                "n-ce95e6acd48911"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "What the stores hold and why",
+          "fragments": [
+            {
+              "id": "f4",
+              "label": "Data held by legal duty",
+              "text": "Korean exchanges may operate only with verified real-name accounts, so Bithumb held resident registration numbers because the law required it. FinCEN holds what US banks are obliged to report. Both stores exist because of rules against money laundering and fraud, and customers had no choice about filling them. The extended deadlines show that when the store is in doubt, the reporting system itself pauses.",
+              "articleIds": [
+                "n-a7fa8fa5517a41",
+                "n-1cf21174163b24"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f5",
+              "label": "Fraud goes around the stores",
+              "text": "The Bangladeshi and Roblox cases show theft still running through the person's own device, where no identity check reaches. The rules add a large store that must be defended without closing the route thieves use most. People are exposed twice: through the record they were made to hand over and through the phone they carry.",
+              "articleIds": [
+                "n-7700f64f48a5f6",
+                "n-ce95e6acd48911",
+                "n-04801262fa42b8"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f6",
+              "label": "Most of this is not compelled data",
+              "text": "1Password holds data people chose to give it, Roblox accounts are game logins, and the Bangladeshi phishing breached no store at all. Bithumb was hacked in 2017 and 2018 for its coins, and the attackers may again have wanted wallets, with ID numbers taken on the way. FinCEN's headline says only 'some systems'. What these events share may be no more than that breaches are reported every day, and only two of the six fit the claim about compliance rules.",
+              "articleIds": [
+                "n-04801262fa42b8",
+                "n-1cf21174163b24"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "CRYPTO / REAL NAMES / REPORTING",
+          "text": "Korea's amended Act on Reporting and Using Specified Financial Transaction Information took effect in March 2021, and from September that year crypto exchanges could operate only with real-name bank accounts and registration with the Financial Intelligence Unit. Dozens of small exchanges closed; the survivors, Upbit and Bithumb among them, became stores of verified identities. In the United States the Corporate Transparency Act of January 2021 required companies to report their real owners to FinCEN from 2024, before the Treasury exempted domestic firms in March 2025. The FATF's travel rule asked exchanges to pass customers' names along with each transfer. The decade's answer to crypto fraud and shell companies was to collect more names in more places. By today's headlines, the Korean exchange's store of resident registration numbers and the US office that receives the reports are both reported breached.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SMARTPHONES / MOBILE MONEY / LEAKS",
+          "text": "After 2008 banking moved onto the phone. In Bangladesh bKash, launched in 2011, put money accounts on basic handsets, and the phone number became both account and identity. Korea had repeated leaks in the same years: Auction in 2008, Nate and Cyworld in 2011 with 35 million users' data, the card companies in 2014. In the United States the Office of Personnel Management lost 21.5 million security clearance files in 2015 and Equifax the data of about 147 million people in 2017, a credit agency holding data consumers never chose to give it. Shoshana Zuboff describes platforms built on collecting more than any service needs; compliance collects for a different reason but ends in the same large stores. The bdnews24 report of phones taken over by a link is the other half of this: when the phone is the identity, thieves go to the phone.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "surveillance-capitalism"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "FATF / KNOW YOUR CUSTOMER / ONLINE BANKING",
+          "text": "The Financial Action Task Force was created at the G7's Paris summit in July 1989 to fight drug money, and its forty recommendations of 1990 made knowing the customer a duty for banks everywhere. After September 2001, section 326 of the USA PATRIOT Act turned it into a formal customer identification programme in US law, and FATF extended its rules to terrorist finance. The same years put banking online, so the documents banks were now obliged to keep sat in computers reachable from anywhere. A rule written for bank counters and paper files was carried unchanged into databases. The FinCEN breach reported by International Business Times UK is a breach of the office where thirty-five years of those duties send their reports.",
+          "trajectoryIds": [
+            "netscape-1995"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "REGISTRATION / LEGIBILITY / BANK SECRECY",
+          "text": "South Korea introduced resident registration cards in 1968 under Park Chung-hee, after North Korean commandos came close to the presidential Blue House that January; the thirteen-digit number every citizen carries dates from 1975. A security measure became the key to every bank, phone and shop account. The US Bank Secrecy Act of 1970, despite its name, required banks to keep records and report large cash transactions to the government. Both belong to the postwar state's effort to make its population countable, what James C. Scott calls legibility. The numbers and reports were made for the state to read. Fifty years on, the Bithumb leak shows them read by whoever gets into the store, and a number fixed at birth cannot easily be changed the way a password can.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "seeing-like-a-state"
+          ]
+        }
+      ],
+      "resumes": "20261121T213836/personal-data-breaches",
+      "builds": "",
+      "articleIds": [
+        "n-8472f2167742b8",
+        "n-a7fa8fa5517a41",
+        "n-1cf21174163b24",
+        "n-04801262fa42b8",
+        "n-7700f64f48a5f6",
+        "n-ce95e6acd48911"
+      ]
+    },
+    {
+      "id": "public-money-enters-ai-selloff",
+      "line": "Governments are offering public money to AI in the same weeks that shareholders sell it, so citizens take on what markets now doubt.",
+      "kicker": "RISK / THE STATE / VALUATION",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "A government outside the US announces an equity stake, loan guarantee or public fund for a named AI company or data-centre project.",
+          "by": "2026-12-20",
+          "because": "The join predicts public money keeps arriving while prices fall; if states followed markets, offers would stop during a sell-off.",
+          "id": "20261126T001903-public-money-enters-ai-selloff-1"
+        },
+        {
+          "what": "A pension or sovereign wealth fund is reported buying AI shares, AI bonds or data-centre debt during the sell-off.",
+          "by": "2026-12-24",
+          "because": "If the risk is moving from shareholders to the public, publicly owned funds are where it would show first.",
+          "id": "20261126T001903-public-money-enters-ai-selloff-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "In 1982 Japan's trade ministry launched the Fifth Generation Computer project, ten years and about ¥54 billion of public money for AI machines, at a time when private interest was cooling; it closed in 1992 with little commercial use, and Britain answered with its own public Alvey programme in 1983. The state carried what investors would not. The difference now is that AI already earns large sums for a few firms, and public money is arriving after a private boom rather than in place of one.",
+        "paths": [
+          {
+            "name": "Funds announced, little spent",
+            "weight": "favoured",
+            "text": "Governments announce funds and approvals through early 2027, but little is paid out before budgets pass, and the sums are small beside private spending. The sell-off and the public plans run side by side without one rescuing the other. Favoured because announcements cost nothing until the money is spent.",
+            "sign": "A government names the size of an AI fund but no first investment."
+          },
+          {
+            "name": "States buy in directly",
+            "weight": "possible",
+            "text": "If the sell-off deepens in the new year, a government or state fund takes a direct stake in a struggling AI or data-centre firm, as Washington did with Intel in August 2025. Possible because the strategic case for owning AI does not weaken when prices fall.",
+            "sign": "A state fund announces it has bought a stake in an AI or data-centre company whose shares have fallen."
+          },
+          {
+            "name": "Plans shelved as prices fall",
+            "weight": "unlikely",
+            "text": "Governments cut AI plans when markets turn. Unlikely, because the plans rest on sovereignty and industrial policy set out before the fall.",
+            "sign": "A government withdraws or shrinks an announced AI investment plan, naming market conditions."
+          }
+        ],
+        "decade": "Over ten years a large share of AI infrastructure is likely to be owned, licensed or guaranteed by states, as railways and grids once were, so its losses will run through budgets as well as share prices."
+      },
+      "continues": "",
+      "change": "On 20 November states were offering to choose sites for data centres and carry their losses. Since then the selling of AI shares has continued: today the Dow fell more than 1,000 points before recovering, Anthropic fell further and small investors in Korea and China report heavy losses. The new public offers are broader: Malaysia is exploring an AI wealth fund for its citizens and the EU plans €50 billion for AI and quantum computing.",
+      "claim": "On a day Wall Street swung by more than 1,000 points on fears about AI, Anthropic's shares fell further and the AI firm SuperX lost 18%, Malaysia's prime minister said his government is exploring an AI wealth fund for Malaysians, the EU set out €50 billion for AI and quantum computing, and the United States approved Elon Musk's plan for a million satellites hosting data centres in space. Private investors are marking AI down because they doubt the returns will come soon; governments are committing money and licences to it for reasons of strategy that do not depend on price. When public money comes in as private buyers pull back, the people who carry the loss if the returns do not arrive shift from shareholders to taxpayers.",
+      "events": [
+        {
+          "label": "Wall Street swings on AI fears",
+          "articleIds": [
+            "n-f2240ae1823381",
+            "n-e0c6e900d13f41",
+            "n-7637d02d6b800a",
+            "n-b61a6ba521776f"
+          ]
+        },
+        {
+          "label": "Losses for smaller AI holders and firms",
+          "articleIds": [
+            "n-af3f8ff55ef0e1",
+            "n-7d4fec1274fa89",
+            "n-b0f99841aae046",
+            "n-d580db8c1d13c3"
+          ]
+        },
+        {
+          "label": "Malaysia explores an AI wealth fund",
+          "articleIds": [
+            "n-8d9aa989f1b2f4"
+          ]
+        },
+        {
+          "label": "EU plans €50bn for AI and quantum",
+          "articleIds": [
+            "n-1b3a9f2f5d82ad",
+            "n-4199e26225677e"
+          ]
+        },
+        {
+          "label": "US approves orbital data centres",
+          "articleIds": [
+            "n-628861c26d465f"
+          ]
+        },
+        {
+          "label": "Bets on state data-centre moratoriums",
+          "articleIds": [
+            "n-c7c3a326a745fa"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "r1",
+          "kind": "observation",
+          "label": "A day of selling",
+          "fragments": [
+            {
+              "id": "f1",
+              "label": "Wall Street",
+              "text": "The BBC (United Kingdom) reports US stocks falling further as fears over AI intensify. TVBS (Taiwan) and La Tercera (Chile) report the Dow dropping more than 1,000 points before closing higher. Nieuws.nl (Netherlands) reports Wall Street extending its losing streak as Anthropic falls further.",
+              "articleIds": [
+                "n-f2240ae1823381",
+                "n-e0c6e900d13f41",
+                "n-7637d02d6b800a",
+                "n-b61a6ba521776f"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f2",
+              "label": "Smaller holders",
+              "text": "Herald Business (South Korea) carries an investment expert who lost 300 million won in the crash. Sina (China) reports SuperX AI Technology shares down 18.44%, and CNBC (United States) a robotics stock that has lost half its value. Huatai Securities, quoted by Sina, says the AI industry now puts more weight on delivery and the quality of returns.",
+              "articleIds": [
+                "n-af3f8ff55ef0e1",
+                "n-7d4fec1274fa89",
+                "n-b0f99841aae046",
+                "n-d580db8c1d13c3"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "observation",
+          "label": "Public commitments the same day",
+          "fragments": [
+            {
+              "id": "f3",
+              "label": "Funds",
+              "text": "The Star (Malaysia) reports Anwar Ibrahim saying the government is exploring an AI wealth fund for Malaysians. CNA (Singapore) reports an EU plan for €50 billion of investment in AI and quantum computing, and Handelsblatt (Germany) that the EU wants to lead the world in quantum technology.",
+              "articleIds": [
+                "n-8d9aa989f1b2f4",
+                "n-1b3a9f2f5d82ad",
+                "n-4199e26225677e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f4",
+              "label": "Licences and limits",
+              "text": "La Tercera (Chile) reports the United States approving Musk's plan to launch a million satellites for data centres in space. CNBC reports Kalshi traders putting the odds of US states imposing data-centre moratoriums above even.",
+              "articleIds": [
+                "n-628861c26d465f",
+                "n-c7c3a326a745fa"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "interpretation",
+          "label": "Who holds the risk",
+          "fragments": [
+            {
+              "id": "f5",
+              "label": "Opposite reasons, same asset",
+              "text": "Investors sell because they are asking, in Huatai's words, about delivery and returns. Governments commit for reasons a share price does not measure: control of the technology in Europe, a share of the gains for citizens in Malaysia, a lead in orbit for the United States. Those reasons do not change when prices fall, which is why public commitments keep coming during a sell-off, and why the public ends up holding more of the risk.",
+              "articleIds": [
+                "n-d580db8c1d13c3",
+                "n-8d9aa989f1b2f4",
+                "n-1b3a9f2f5d82ad"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "f6",
+              "label": "Permission as well as money",
+              "text": "The state's other contribution is permission. Approving a million satellites hands over orbit and radio spectrum worth more than most subsidies, while state moratoriums would withhold sites. Whether AI's machinery gets built is now decided by public bodies on one side and private prices on the other.",
+              "articleIds": [
+                "n-628861c26d465f",
+                "n-c7c3a326a745fa"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "f7",
+              "label": "Timing, not a transfer",
+              "text": "The EU and Malaysian plans were prepared long before this week, and the EU announced an AI investment drive in February 2025. A day when the Dow ended higher is not a collapse, and a wealth fund for Malaysians may be meant to share AI's gains with citizens, not to support the industry. The selling is in US and Chinese markets and the public money in Europe and Malaysia: no government here is buying the shares being sold. The events share a date and a subject, and the transfer of risk is an inference.",
+              "articleIds": [
+                "n-8d9aa989f1b2f4",
+                "n-1b3a9f2f5d82ad",
+                "n-e0c6e900d13f41"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "INDUSTRIAL POLICY / SOVEREIGNTY / SUBSIDY",
+          "text": "The governments of this decade treated computing power as a matter of sovereignty before AI became a market story. The US CHIPS and Science Act of August 2022 gave $52 billion for chip plants; the EU adopted its AI Act in 2024 and in February 2025 the Commission announced InvestAI, aiming to mobilise €200 billion; Johor in Malaysia became one of Asia's fastest-growing data-centre sites from 2023, built on land, water and power the state allocated. In August 2025 Washington took a stake of about 10% in Intel. When ChatGPT's launch in November 2022 brought private money in, it arrived on top of public plans already running. By these headlines AI labs have since gone to public share markets, and today their prices fall on doubts about returns while the EU's €50 billion plan reported by CNA and Malaysia's AI wealth fund go ahead: two reasons for owning AI pulling apart.",
+          "trajectoryIds": [
+            "chatgpt-2022"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "CHEAP MONEY / SOVEREIGN FUNDS / BAILOUT",
+          "text": "After Lehman failed in September 2008, central banks held rates near zero and bought bonds for most of a decade, and the cheap money flowed into technology shares and private funds. State wealth funds became the largest backers of private technology: Saudi Arabia's Public Investment Fund put $45 billion into SoftBank's Vision Fund in 2017, and Gulf and Asian funds later backed AI labs. Adam Tooze shows how the rescue of 2008 tied states and markets more closely than before, and left the habit that public money is the buyer of last resort when private money withdraws. When rates rose from 2022, expensive bets became costly to hold, which is part of why AI shares now fall on fear, as the BBC reports. The Malaysian fund and the EU plan come from governments that learned after 2008 to step in when markets pull back.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "DOT-COM / MULTIMEDIA CORRIDOR / LEFTOVER NETWORKS",
+          "text": "Netscape's listing in August 1995 was the first time public markets priced a technology that had not yet earned anything, and the Nasdaq rose about fivefold before it fell from March 2000. Asian governments copied the build-out with public money: Malaysia's Multimedia Super Corridor, launched by Mahathir Mohamad in 1996 with the new town of Cyberjaya, was a state plan to place the country inside the internet economy. After the crash, fibre and data centres built by failed companies were bought cheaply and used for decades. Private investors lost the money, the infrastructure stayed, and states often ended up owning or subsidising what was left. Anwar's AI wealth fund, reported by The Star, stands in the same line as the Corridor, with a share in the gains offered to citizens rather than a new town.",
+          "trajectoryIds": [
+            "netscape-1995",
+            "dotcom-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE SCIENCE / ARPA / ORBIT",
+          "text": "For forty years after 1945 the technologies expected to change everything were commissioned by governments: the computer grew from wartime code-breaking and ballistics, the 1956 Dartmouth workshop that named artificial intelligence ran on foundation money, and ARPA, founded in 1958 after Sputnik, paid for much early AI research and the network that became the internet. Space was a state monopoly into the 1980s, and orbit and radio spectrum are still allotted by national regulators and the International Telecommunication Union. The present boom reversed this: the builders are companies and the funding private. The US approval of a million satellites for data centres in space, reported by La Tercera, shows the state's older role returning through permission rather than ownership, while Europe and Malaysia return to it through funds.",
+          "trajectoryIds": [
+            "dartmouth-1956",
+            "sputnik-1957"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "20261120T224019/data-centres-absorb-investment",
+      "builds": "",
+      "articleIds": [
+        "n-f2240ae1823381",
+        "n-e0c6e900d13f41",
+        "n-7637d02d6b800a",
+        "n-b61a6ba521776f",
+        "n-af3f8ff55ef0e1",
+        "n-7d4fec1274fa89",
+        "n-b0f99841aae046",
+        "n-d580db8c1d13c3",
+        "n-8d9aa989f1b2f4",
+        "n-1b3a9f2f5d82ad",
+        "n-4199e26225677e",
+        "n-628861c26d465f",
+        "n-c7c3a326a745fa"
+      ]
+    }
+  ]
+}
