@@ -1,6 +1,56 @@
 {
  "editions": [
   {
+   "stamp": "20261127T003426",
+   "file": "data/narratives/20261127T003426.json",
+   "newsGeneratedAt": "2026-11-27T00:34:26Z",
+   "generatedAt": "2026-11-27T00:44:18Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-10",
+   "narratives": [
+    {
+     "id": "blockades-outlast-ceasefires",
+     "kicker": "SIEGE / TRUCE / BYSTANDERS",
+     "line": "Talks and truces cover the shooting but not the blockades, so the new attacks are aimed at breaking or enforcing a blockade.",
+     "events": 5,
+     "headlines": 20,
+     "countries": 13,
+     "continues": "",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "factory-fires-and-compensation",
+     "kicker": "LIABILITY / CHARITY / NEGLIGENCE",
+     "line": "Families of those killed in this week's fires and blasts are being paid by donors and state funds, rarely by whoever was at fault.",
+     "events": 6,
+     "headlines": 15,
+     "countries": 6,
+     "continues": "",
+     "resumes": "",
+     "builds": "factory-fires-and-compensation",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "officials-forged-credentials",
+     "kicker": "QUALIFICATIONS / CANDIDACY / LAW",
+     "line": "Nine days of diploma cases show that where office requires a degree, the university and court that judge it can decide who runs.",
+     "events": 6,
+     "headlines": 12,
+     "countries": 6,
+     "continues": "",
+     "resumes": "",
+     "builds": "officials-forged-credentials",
+     "firmness": "plausible",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261126T001903",
    "file": "data/narratives/20261126T001903.json",
    "newsGeneratedAt": "2026-11-26T00:19:03Z",
