@@ -1,6 +1,69 @@
 {
  "editions": [
   {
+   "stamp": "20261128T000158",
+   "file": "data/narratives/20261128T000158.json",
+   "newsGeneratedAt": "2026-11-28T00:01:58Z",
+   "generatedAt": "2026-11-28T00:12:28Z",
+   "method": "claude-api-batch",
+   "model": "claude-opus-5-5",
+   "promptVersion": "narrative-10",
+   "narratives": [
+    {
+     "id": "oil-sellers-chosen-by-blockade",
+     "kicker": "SANCTIONS / CARTELS / ROUTES",
+     "line": "Sanctions on oil sellers are old. Washington now also presses friendly producers to leave OPEC and reroute their exports.",
+     "events": 5,
+     "headlines": 10,
+     "countries": 7,
+     "continues": "blockades-outlast-ceasefires",
+     "resumes": "",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "fuel-first-after-talks-collapse",
+     "kicker": "SUPPLY / SUBSIDY / CONSENSUS",
+     "line": "With the climate talks collapsed, governments secure their own fuel first, and the cost of switching falls on buyers and donors.",
+     "events": 6,
+     "headlines": 9,
+     "countries": 7,
+     "continues": "",
+     "resumes": "20261110T001511/gas-sought-in-the-hottest-years",
+     "builds": "",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "controlled-diseases-return",
+     "kicker": "UPKEEP / OUTBREAKS / AID",
+     "line": "Over two weeks, old diseases have returned where war, aid cuts or refusal stopped the routine work that had held them back.",
+     "events": 6,
+     "headlines": 16,
+     "countries": 11,
+     "continues": "",
+     "resumes": "",
+     "builds": "controlled-diseases-return",
+     "firmness": "plausible",
+     "watch": 2
+    },
+    {
+     "id": "militaries-on-rented-systems",
+     "kicker": "OUTSOURCING / ESPIONAGE / DISCLOSURE",
+     "line": "Militaries now rent clouds and satellites from companies, so hostile states attack the companies, which mostly stay silent.",
+     "events": 6,
+     "headlines": 9,
+     "countries": 7,
+     "continues": "",
+     "resumes": "20261125T004245/spying-routed-through-firms",
+     "builds": "",
+     "firmness": "tentative",
+     "watch": 2
+    }
+   ]
+  },
+  {
    "stamp": "20261127T003426",
    "file": "data/narratives/20261127T003426.json",
    "newsGeneratedAt": "2026-11-27T00:34:26Z",

@@ -1,27 +1,7 @@
 {
- "day": "2026-11-27",
+ "day": "2026-11-28",
  "attempts": 1,
  "history": [
-  {
-   "at": "2026-11-14T20:44:23Z",
-   "note": "submitted",
-   "batchId": "msgbatch_01CX7c8nKJxXFE8DXcHjzAr9"
-  },
-  {
-   "at": "2026-11-14T20:52:41Z",
-   "note": "ok",
-   "batchId": "msgbatch_01CX7c8nKJxXFE8DXcHjzAr9",
-   "usage": {
-    "input": 64579,
-    "output": 72466,
-    "tier": "batch"
-   }
-  },
-  {
-   "at": "2026-11-15T21:03:06Z",
-   "note": "submitted",
-   "batchId": "msgbatch_01WXdy7nxtwuDqJzSq3mfWxd"
-  },
   {
    "at": "2026-11-15T21:04:37Z",
    "note": "batch errored: {\"error\": {\"message\": \"The compiled grammar is too large, which would cause performance issues. Simplify your tool schemas or reduce the number of strict tools.\", \"type\": \"invalid_request_error\", \"details\": null}, \"request_id\": \"req_011Ch5PdHxcJ8bjsnCNPUrwB\", \"type\": \"error\"}"
@@ -213,6 +193,21 @@
    "usage": {
     "input": 101554,
     "output": 78793,
+    "tier": "batch"
+   }
+  },
+  {
+   "at": "2026-11-28T00:03:25Z",
+   "note": "submitted",
+   "batchId": "msgbatch_01NF9HfkTA55gwUrCYoQcVQT"
+  },
+  {
+   "at": "2026-11-28T00:12:28Z",
+   "note": "ok",
+   "batchId": "msgbatch_01NF9HfkTA55gwUrCYoQcVQT",
+   "usage": {
+    "input": 98187,
+    "output": 76074,
     "tier": "batch"
    }
   }

@@ -692,8 +692,23 @@
    "what": "A Gulf producer announces new or larger export capacity by pipeline or port that avoids the Strait of Hormuz.",
    "by": "2026-12-01",
    "because": "If the war's gains go to oil that avoids the strait, other Gulf producers should move to buy the position Aramco is now enlarging.",
-   "status": "open",
-   "resolved": null
+   "status": "kept",
+   "resolved": {
+    "stamp": "20261128T000158",
+    "asOf": "2026-11-28T00:01:58Z",
+    "how": "headline",
+    "note": "Ammon reports Iraq resuming its oil pipeline to Turkey at 300,000 barrels a day, an export route that avoids the Strait of Hormuz.",
+    "headlines": [
+     {
+      "id": "n-4072a90c1972d5",
+      "title": "صحيفة عمون : العراق يعيد تشغيل أنبوب النفط مع تركيا بطاقة 300 ألف برميل يومياً",
+      "titleEnglish": "Ammon newspaper: Iraq resumes oil pipeline with Turkey at 300,000 barrels per day",
+      "url": "https://www.ammonnews.net/article/1048325",
+      "publisher": "وكالة عمون الاخبارية",
+      "sourceCountry": "Jordan"
+     }
+    ]
+   }
   },
   {
    "id": "20261103T214619-hormuz-cost-to-buyers-gain-to-bypass-sellers-2",
@@ -1155,8 +1170,14 @@
    "what": "A maker of gas turbines, transformers or grid batteries reports a record order backlog or longer delivery times and names energy security or the Gulf war.",
    "by": "2026-11-27",
    "because": "If the shock is turning into equipment purchases across many buyers at once, it will show first in the suppliers' order books rather than in any one country's fuel bill.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261128T000158",
+    "asOf": "2026-11-28T00:01:58Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-28 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261106T212911-energy-shock-becomes-equipment-orders-2",
@@ -2177,8 +2198,14 @@
    "what": "The FAA or US transport department names one equipment or software fault as the cause of the 13 November nationwide ground stop.",
    "by": "2026-11-27",
    "because": "The join treats the halt as one shared system failing without an attacker; a cause of weather, staffing or sabotage would take it out of the pattern.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261128T000158",
+    "asOf": "2026-11-28T00:01:58Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-28 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261113T215832-strikes-run-alongside-talks-1",
@@ -2191,8 +2218,14 @@
    "what": "A Russian or Iranian official cites a named long-range strike as a reason to delay talks or harden its terms.",
    "by": "2026-11-27",
    "because": "If the strikes are moves in the negotiation rather than separate military events, the other side will answer them at the table.",
-   "status": "open",
-   "resolved": null
+   "status": "failed",
+   "resolved": {
+    "stamp": "20261128T000158",
+    "asOf": "2026-11-28T00:01:58Z",
+    "how": "expired",
+    "note": "Nothing in the collections up to 2026-11-28 reported it.",
+    "headlines": []
+   }
   },
   {
    "id": "20261113T215832-strikes-run-alongside-talks-2",
@@ -3404,6 +3437,118 @@
    "what": "Colombian prosecutors, the Council of State or Congress open a degree or professional card case against a third lawmaker.",
    "by": "2026-12-15",
    "because": "If credential checks have become a regular route rather than one scandal, they will reach further members of Congress.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261128T000158-oil-sellers-chosen-by-blockade-1",
+   "stamp": "20261128T000158",
+   "asOf": "2026-11-28T00:01:58Z",
+   "narrativeId": "oil-sellers-chosen-by-blockade",
+   "kicker": "SANCTIONS / CARTELS / ROUTES",
+   "line": "Sanctions on oil sellers are old. Washington now also presses friendly producers to leave OPEC and reroute their exports.",
+   "firmness": "plausible",
+   "what": "Iraq reports oil flows through the Kirkuk-Ceyhan pipeline to Turkey rising above 300,000 barrels a day.",
+   "by": "2026-12-26",
+   "because": "If Washington is steering friendly producers away from the strait and from Iranian channels, Iraq's bypass route should grow rather than stay a one-off restart.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261128T000158-oil-sellers-chosen-by-blockade-2",
+   "stamp": "20261128T000158",
+   "asOf": "2026-11-28T00:01:58Z",
+   "narrativeId": "oil-sellers-chosen-by-blockade",
+   "kicker": "SANCTIONS / CARTELS / ROUTES",
+   "line": "Sanctions on oil sellers are old. Washington now also presses friendly producers to leave OPEC and reroute their exports.",
+   "firmness": "plausible",
+   "what": "The US Treasury approves a buyer for Lukoil's foreign assets, or Teboil stations reopen in Finland under new ownership.",
+   "by": "2026-12-22",
+   "because": "If one government is deciding who may sell oil, the Lukoil sale should move on a US licence in the same weeks as the pressure on Iraq and Venezuela.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261128T000158-fuel-first-after-talks-collapse-1",
+   "stamp": "20261128T000158",
+   "asOf": "2026-11-28T00:01:58Z",
+   "narrativeId": "fuel-first-after-talks-collapse",
+   "kicker": "SUPPLY / SUBSIDY / CONSENSUS",
+   "line": "With the climate talks collapsed, governments secure their own fuel first, and the cost of switching falls on buyers and donors.",
+   "firmness": "plausible",
+   "what": "A second government restricts fuel or gas exports or reserves supply for its home market, naming security of supply.",
+   "by": "2026-12-22",
+   "because": "If the collapse of the talks has left governments putting their own supply first, Australia's scheme should not stay alone for a month.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261128T000158-fuel-first-after-talks-collapse-2",
+   "stamp": "20261128T000158",
+   "asOf": "2026-11-28T00:01:58Z",
+   "narrativeId": "fuel-first-after-talks-collapse",
+   "kicker": "SUPPLY / SUBSIDY / CONSENSUS",
+   "line": "With the climate talks collapsed, governments secure their own fuel first, and the cost of switching falls on buyers and donors.",
+   "firmness": "plausible",
+   "what": "A government in Asia, Africa or Latin America cuts an electric-car tax break or raises a tax on electric cars.",
+   "by": "2026-12-26",
+   "because": "If the cost of switching is being moved from budgets to buyers, Colombia's measure should be repeated by another government short of revenue.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261128T000158-controlled-diseases-return-1",
+   "stamp": "20261128T000158",
+   "asOf": "2026-11-28T00:01:58Z",
+   "narrativeId": "controlled-diseases-return",
+   "kicker": "UPKEEP / OUTBREAKS / AID",
+   "line": "Over two weeks, old diseases have returned where war, aid cuts or refusal stopped the routine work that had held them back.",
+   "firmness": "plausible",
+   "what": "Another country in the Americas or Europe is reported losing measles elimination status, or declares a measles outbreak emergency.",
+   "by": "2026-12-26",
+   "because": "If control is failing through vaccination that lapsed after the pandemic rather than by local accident, the loss should not stop at the US and Mexico.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261128T000158-controlled-diseases-return-2",
+   "stamp": "20261128T000158",
+   "asOf": "2026-11-28T00:01:58Z",
+   "narrativeId": "controlled-diseases-return",
+   "kicker": "UPKEEP / OUTBREAKS / AID",
+   "line": "Over two weeks, old diseases have returned where war, aid cuts or refusal stopped the routine work that had held them back.",
+   "firmness": "plausible",
+   "what": "WHO or Congo's health ministry reports Ebola cases in a new province or in a neighbouring country.",
+   "by": "2026-12-20",
+   "because": "If tracing stops where responders are evacuated from fighting, the outbreak should spread beyond its area rather than be contained.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261128T000158-militaries-on-rented-systems-1",
+   "stamp": "20261128T000158",
+   "asOf": "2026-11-28T00:01:58Z",
+   "narrativeId": "militaries-on-rented-systems",
+   "kicker": "OUTSOURCING / ESPIONAGE / DISCLOSURE",
+   "line": "Militaries now rent clouds and satellites from companies, so hostile states attack the companies, which mostly stay silent.",
+   "firmness": "tentative",
+   "what": "A report names the company whose cloud service was involved in the US Air Force breach, or identifies a contractor as its source.",
+   "by": "2026-12-19",
+   "because": "If attacks on states now arrive through companies' systems, the Air Force breach should turn out to run through a firm's service.",
+   "status": "open",
+   "resolved": null
+  },
+  {
+   "id": "20261128T000158-militaries-on-rented-systems-2",
+   "stamp": "20261128T000158",
+   "asOf": "2026-11-28T00:01:58Z",
+   "narrativeId": "militaries-on-rented-systems",
+   "kicker": "OUTSOURCING / ESPIONAGE / DISCLOSURE",
+   "line": "Militaries now rent clouds and satellites from companies, so hostile states attack the companies, which mostly stay silent.",
+   "firmness": "tentative",
+   "what": "Another commercial satellite operator reports a close approach, jamming or interference by a Russian or Chinese satellite.",
+   "by": "2026-12-26",
+   "because": "If firms serving militaries are now targets in their own right, Iceye should not be the only operator to report it.",
    "status": "open",
    "resolved": null
   }

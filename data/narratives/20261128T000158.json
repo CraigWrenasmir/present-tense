@@ -1,0 +1,1816 @@
+{
+  "schemaVersion": 6,
+  "generatedAt": "2026-11-28T00:12:28Z",
+  "newsGeneratedAt": "2026-11-28T00:01:58Z",
+  "method": "claude-api-batch",
+  "model": "claude-opus-5-5",
+  "promptVersion": "narrative-10",
+  "previousNewsGeneratedAt": "2026-11-27T00:34:26Z",
+  "usage": {
+    "input": 98187,
+    "output": 76074,
+    "tier": "batch"
+  },
+  "notes": [
+    "Edition composed by Claude from the collected headlines, reading titles and metadata only.",
+    "Each narrative is an idea that joins several different events; what it joins is listed at the top. It commits to a claim, and the last rung of every narrative is the case against it. Read both.",
+    "Where a narrative continues one from the previous edition it says what has changed since; every edition is kept, so the reader can step back to where we were.",
+    "A narrative may also resume one that stopped in the last four weeks ('resumes' gives that edition's stamp and the narrative's id), and may be written from a subject the site's notebook has been keeping ('builds'); such a narrative can cite headlines from earlier days, each shown with its date, beside at least three of the day's own.",
+    "Each narrative ends with 'How we got here': four horizons, since 2020, since 2008, since 1989 and since 1945, each the start of a regime the headlines are living inside, and sometimes a fifth that reaches further back and names its own starting year. They are a trajectory, not a verdict.",
+    "Each narrative sets one or two things to watch for: what should follow, by when, if its join is right. Later editions check them against their headlines; the ledger is data/watch.json and the count stands beside the narrative's firmness.",
+    "Each narrative looks ahead: the precedent its join most resembles, two or three paths with one favoured, and where the trajectory points over a decade. That is the writer's anticipation, drawn on what it knows of history and not only on the headlines; the expectations are the earliest dated signs of the favoured path, and are how the site checks it.",
+    "The connections are made by the model, not by the publishers. Follow any headline to the original report before repeating it.",
+    "Books and trajectories appear only where they change how a fragment or a horizon reads."
+  ],
+  "sourceArticles": [
+    {
+      "id": "n-2090038ff4e6ff",
+      "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
+      "titleEnglish": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
+      "url": "https://www.channelnewsasia.com/world/us-disable-ship-iran-blockade-hormuz-6588546",
+      "publisher": "CNA",
+      "publisherDomain": "channelnewsasia.com",
+      "publishedAt": "2026-11-27T22:47:00Z",
+      "seenAt": "2026-11-27T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Singapore",
+      "sourceCountryCode": "SG",
+      "sourceRegion": "Asia",
+      "sourceLat": 1.35,
+      "sourceLon": 103.8,
+      "language": "en"
+    },
+    {
+      "id": "n-73ca95aaba2797",
+      "title": "U.S. military says it disabled commercial ship trying to run Iran blockade",
+      "titleEnglish": "U.S. military says it disabled commercial ship trying to run Iran blockade",
+      "url": "https://www.thehindu.com/news/international/us-military-says-it-disabled-commercial-ship-trying-to-run-iran-blockade/article71752214.ece",
+      "publisher": "The Hindu",
+      "publisherDomain": "thehindu.com",
+      "publishedAt": "2026-11-27T17:35:21Z",
+      "seenAt": "2026-11-27T17:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "India",
+      "sourceCountryCode": "IN",
+      "sourceRegion": "Asia",
+      "sourceLat": 22,
+      "sourceLon": 79,
+      "language": "en"
+    },
+    {
+      "id": "n-1025a936ad017d",
+      "title": "إيران.. طهران تلوّح بكسر الحصار وترمب يمنحها “فرصة أخيرة”",
+      "titleEnglish": "Iran: Tehran Hints at Breaking the Blockade as Trump Gives It a \"Last Chance\"",
+      "url": "https://www.aljazeera.net/news/liveblog/2026/11/27/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D8%AA%D9%86%D9%81%D9%8A-%D8%B6%D9%84%D9%88%D8%B9%D9%87%D8%A7-%D8%A8%D9%87%D8%AC%D9%88%D9%85?update=10162009",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-27T14:47:00Z",
+      "seenAt": "2026-11-27T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-518fe367c4d61c",
+      "title": "إيران.. الحرس الثوري يستهدف مقاتلة أمريكية وترمب يمنح طهران “فرصة أخيرة”",
+      "titleEnglish": "Iran: Revolutionary Guard targets US fighter jet and Trump gives Tehran “last chance”",
+      "url": "https://www.aljazeera.net/news/liveblog/2026/11/27/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D8%AA%D9%86%D9%81%D9%8A-%D8%B6%D9%84%D9%88%D8%B9%D9%87%D8%A7-%D8%A8%D9%87%D8%AC%D9%88%D9%85?update=10161394",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-27T12:17:00Z",
+      "seenAt": "2026-11-27T12:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-b781c2b24889e6",
+      "title": "Devrim Muhafızları duyurdu: Hürmüz Boğazı'nda bir tanker patladı",
+      "titleEnglish": "Revolutionary Guards announced: a tanker exploded in the Strait of Hormuz",
+      "url": "https://www.hurriyet.com.tr/dunya/devrim-muhafizlari-duyurdu-hurmuz-bogazinda-bir-tanker-patladi-43393259",
+      "publisher": "Hürriyet",
+      "publisherDomain": "hurriyet.com.tr",
+      "publishedAt": "2026-11-27T12:17:00Z",
+      "seenAt": "2026-11-27T12:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Turkey",
+      "sourceCountryCode": "TR",
+      "sourceRegion": "Middle East",
+      "sourceLat": 39,
+      "sourceLon": 35,
+      "language": "tr"
+    },
+    {
+      "id": "n-78ec7c920cd33c",
+      "title": "رويترز: أمريكا حثت فنزويلا والعراق على الانسحاب من أوبك",
+      "titleEnglish": "Reuters: US urged Venezuela and Iraq to withdraw from OPEC",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/27/%D8%B1%D9%88%D9%8A%D8%AA%D8%B1%D8%B2-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7-%D8%AD%D8%AB%D8%AA-%D9%81%D9%86%D8%B2%D9%88%D9%8A%D9%84%D8%A7-%D9%88%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D8%B9%D9%84%D9%89",
+      "publisher": "الجزيرة نت",
+      "publisherDomain": "aljazeera.net",
+      "publishedAt": "2026-11-27T12:17:00Z",
+      "seenAt": "2026-11-27T12:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "ar"
+    },
+    {
+      "id": "n-cc229b760a2d42",
+      "title": "Trump backs Iraqi PM’s oil smuggling crackdown",
+      "titleEnglish": "Trump backs Iraqi PM’s oil smuggling crackdown",
+      "url": "https://www.aljazeera.com/news/2026/11/27/trump-backs-iraqi-pms-oil-smuggling-crackdown",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-11-27T17:47:00Z",
+      "seenAt": "2026-11-27T17:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-4072a90c1972d5",
+      "title": "صحيفة عمون : العراق يعيد تشغيل أنبوب النفط مع تركيا بطاقة 300 ألف برميل يومياً",
+      "titleEnglish": "Ammon newspaper: Iraq resumes oil pipeline with Turkey at 300,000 barrels per day",
+      "url": "https://www.ammonnews.net/article/1048325",
+      "publisher": "وكالة عمون الاخبارية",
+      "publisherDomain": "ammonnews.net",
+      "publishedAt": "2026-11-27T20:47:00Z",
+      "seenAt": "2026-11-27T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-22aebe59d419f9",
+      "title": "Lukoil sigla un accordo per vendere le sue attività internazionali",
+      "titleEnglish": "Lukoil signs agreement to sell its international assets",
+      "url": "https://tg24.sky.it/mondo/2026/11/27/lukoil-usa-acquisto",
+      "publisher": "tg24.sky.it",
+      "publisherDomain": "tg24.sky.it",
+      "publishedAt": "2026-11-27T12:17:00Z",
+      "seenAt": "2026-11-27T12:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Italy",
+      "sourceCountryCode": "IT",
+      "sourceRegion": "Europe",
+      "sourceLat": 42,
+      "sourceLon": 12,
+      "language": "it"
+    },
+    {
+      "id": "n-a54f2004c149e0",
+      "title": "Teboil voi palata Suomen polttoainemarkkinoille, jos Lukoil-kauppa toteutuu",
+      "titleEnglish": "Teboil Could Return to the Finnish Fuel Market If the Lukoil Deal Goes Ahead",
+      "url": "https://yle.fi/a/74-20259459",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-27T14:00:19Z",
+      "seenAt": "2026-11-27T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-caed3d58812ee4",
+      "title": "The Climate Question - COP collapses: What is the future for climate action? - BBC Sounds",
+      "titleEnglish": "The Climate Question - COP collapses: What is the future for climate action? - BBC Sounds",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct99k5",
+      "publisher": "BBC",
+      "publisherDomain": "bbc.co.uk",
+      "publishedAt": "2026-11-27T12:17:00Z",
+      "seenAt": "2026-11-27T12:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United Kingdom",
+      "sourceCountryCode": "GB",
+      "sourceRegion": "Europe",
+      "sourceLat": 54,
+      "sourceLon": -2,
+      "language": "en"
+    },
+    {
+      "id": "n-8fbce242e32bfd",
+      "title": "Reasons to hope after climate talks collapse",
+      "titleEnglish": "Reasons to hope after climate talks collapse",
+      "url": "https://www.rnz.co.nz/news/environment_climate/2844740/reasons-to-hope-after-climate-talks-collapse",
+      "publisher": "RNZ",
+      "publisherDomain": "rnz.co.nz",
+      "publishedAt": "2026-11-27T17:47:00Z",
+      "seenAt": "2026-11-27T17:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-85921b72eb1248",
+      "title": "The 'f-word' threatening future global climate talks",
+      "titleEnglish": "The 'f-word' threatening future global climate talks",
+      "url": "https://www.irrigator.com.au/story/9399790/the-f-word-threatening-future-global-climate-talks/",
+      "publisher": "irrigator.com.au",
+      "publisherDomain": "irrigator.com.au",
+      "publishedAt": "2026-11-27T20:30:01Z",
+      "seenAt": "2026-11-27T23:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-68fa802a84609c",
+      "title": "Klimawandel: Globale Temperatur erstmals eine Woche über Zwei-Grad-Marke",
+      "titleEnglish": "Climate change: global temperature exceeds two-degree mark for first time for a week",
+      "url": "https://www.handelsblatt.com/politik/international/klimawandel-globale-temperatur-erstmals-eine-woche-ueber-zwei-grad-marke/100273282.html",
+      "publisher": "handelsblatt.com",
+      "publisherDomain": "handelsblatt.com",
+      "publishedAt": "2026-11-27T11:24:25Z",
+      "seenAt": "2026-11-27T12:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "de"
+    },
+    {
+      "id": "n-c8aec298a244ac",
+      "title": "Domestic gas reservation scheme passes parliament - ABC listen",
+      "titleEnglish": "Domestic gas reservation scheme passes parliament - ABC listen",
+      "url": "https://www.abc.net.au/listen/programs/worldtoday/domestic-gas-reservation-scheme-passes-parliament/107434952",
+      "publisher": "ABC listen",
+      "publisherDomain": "abc.net.au",
+      "publishedAt": "2026-11-27T01:00:00Z",
+      "seenAt": "2026-11-27T05:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-4c418e003404c2",
+      "title": "Más allá de Vaca Muerta, las petroleras y las provincias buscan frenar la caída del convencional",
+      "titleEnglish": "Beyond Vaca Muerta, Oil Companies and Provinces Seek to Halt the Decline of Conventional Oil",
+      "url": "https://www.clarin.com/energia-y-mineria/alla-vaca-muerta-petroleras-provincias-buscan-frenar-caida-convencional_0_S2k3POeuf8.html",
+      "publisher": "Clarín",
+      "publisherDomain": "clarin.com",
+      "publishedAt": "2026-11-27T14:14:36Z",
+      "seenAt": "2026-11-27T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Argentina",
+      "sourceCountryCode": "AR",
+      "sourceRegion": "Latin America",
+      "sourceLat": -35,
+      "sourceLon": -64,
+      "language": "es"
+    },
+    {
+      "id": "n-ad64b46d0f8b8c",
+      "title": "Carros eléctricos subirían 14% de precio por Ley de Rescate, advierten Aconauto y Andemos",
+      "titleEnglish": "Electric cars would rise 14% in price due to Rescue Law, warn Aconauto and Andemos",
+      "url": "https://www.elcolombiano.com/inicio/carros-electricos-hibridos-alza-iva-ley-rescate-andemos-aconauto-ME44150905",
+      "publisher": "El Colombiano",
+      "publisherDomain": "elcolombiano.com",
+      "publishedAt": "2026-11-27T20:49:07Z",
+      "seenAt": "2026-11-27T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Colombia",
+      "sourceCountryCode": "CO",
+      "sourceRegion": "Latin America",
+      "sourceLat": 4,
+      "sourceLon": -73,
+      "language": "es"
+    },
+    {
+      "id": "n-5d3a7f6d5f7912",
+      "title": "OECD Soroti Subsidi Energi, Ini Respons Pemerintah",
+      "titleEnglish": "OECD Highlights Energy Subsidies, Here Is the Government's Response",
+      "url": "https://www.liputan6.com/bisnis/read/8344078/oecd-soroti-subsidi-energi-ini-respons-pemerintah",
+      "publisher": "liputan6.com",
+      "publisherDomain": "liputan6.com",
+      "publishedAt": "2026-11-27T14:52:39Z",
+      "seenAt": "2026-11-27T15:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-aeaae0e7778b59",
+      "title": "Inovasi Filantropi Islam, GJI dan Al Washliyah Medan Luncurkan Sedekah Energi - Ajak Umat Wakaf Energi Bersih",
+      "titleEnglish": "Islamic Philanthropy Innovation, GJI and Al Washliyah Medan launch Energy Almsgiving - Inviting the Ummah to Clean Energy Waqf",
+      "url": "https://medan.viva.co.id/medan/15961-inovasi-filantropi-islam-gji-dan-al-washliyah-medan-luncurkan-sedekah-energi-ajak-umat-wakaf-energi-bersih",
+      "publisher": "medan.viva.co.id",
+      "publisherDomain": "medan.viva.co.id",
+      "publishedAt": "2026-11-27T19:00:00Z",
+      "seenAt": "2026-11-27T12:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Indonesia",
+      "sourceCountryCode": "ID",
+      "sourceRegion": "Asia",
+      "sourceLat": -2,
+      "sourceLon": 118,
+      "language": "id"
+    },
+    {
+      "id": "n-49f934359d4db0",
+      "title": "DRC’s Ebola outbreak is spreading and killing at a record pace - Channel Africa",
+      "titleEnglish": "DRC’s Ebola outbreak is spreading and killing at a record pace - Channel Africa",
+      "url": "https://www.channelafrica.co.za/channelafrica/news/drcs-ebola-outbreak-is-spreading-and-killing-at-a-record-pace/",
+      "publisher": "Channel Africa",
+      "publisherDomain": "channelafrica.co.za",
+      "publishedAt": "2026-11-17T14:47:00Z",
+      "seenAt": "2026-11-17T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Africa",
+      "sourceCountryCode": "ZA",
+      "sourceRegion": "Africa",
+      "sourceLat": -30,
+      "sourceLon": 25,
+      "language": "en"
+    },
+    {
+      "id": "n-210897a4457c62",
+      "title": "WHO chief pleads for peace in Ebola-hit DR Congo area",
+      "titleEnglish": "WHO chief pleads for peace in Ebola-hit DR Congo area",
+      "url": "https://punchng.com/who-chief-pleads-for-peace-in-ebola-hit-dr-congo-area/",
+      "publisher": "Punch Newspapers",
+      "publisherDomain": "punchng.com",
+      "publishedAt": "2026-11-22T20:32:45Z",
+      "seenAt": "2026-11-22T21:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Nigeria",
+      "sourceCountryCode": "NG",
+      "sourceRegion": "Africa",
+      "sourceLat": 9,
+      "sourceLon": 8,
+      "language": "en"
+    },
+    {
+      "id": "n-0b7b281c5663c7",
+      "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
+      "titleEnglish": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
+      "url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
+      "publisher": "NPR",
+      "publisherDomain": "npr.org",
+      "publishedAt": "2026-11-26T15:47:00Z",
+      "seenAt": "2026-11-26T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "United States",
+      "sourceCountryCode": "US",
+      "sourceRegion": "North America",
+      "sourceLat": 39,
+      "sourceLon": -98,
+      "language": "en"
+    },
+    {
+      "id": "n-af41785b70f493",
+      "title": "Ebola cases surpass 12,000 in DR Congo as outbreak remains acute",
+      "titleEnglish": "Ebola cases surpass 12,000 in DR Congo as outbreak remains acute",
+      "url": "https://english.news.cn/20261126/123ee4cbd47844b28316bebd73b2b8d7/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-11-26T15:47:00Z",
+      "seenAt": "2026-11-26T15:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-da35054d496732",
+      "title": "UN peacekeepers rescue Ebola teams as Ituri fighting displaces thousands - Channel Africa",
+      "titleEnglish": "UN peacekeepers rescue Ebola teams as Ituri fighting displaces thousands - Channel Africa",
+      "url": "https://www.channelafrica.co.za/channelafrica/news/un-peacekeepers-rescue-ebola-teams-as-ituri-fighting-displaces-thousands/",
+      "publisher": "Channel Africa",
+      "publisherDomain": "channelafrica.co.za",
+      "publishedAt": "2026-11-27T05:47:00Z",
+      "seenAt": "2026-11-27T05:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Africa",
+      "sourceCountryCode": "ZA",
+      "sourceRegion": "Africa",
+      "sourceLat": -30,
+      "sourceLon": 25,
+      "language": "en"
+    },
+    {
+      "id": "n-c60c1baa35409b",
+      "title": "US loses measles-free status as cases, deaths mount",
+      "titleEnglish": "US loses measles-free status as cases, deaths mount",
+      "url": "https://www.nzherald.co.nz/world/us-loses-measles-free-status-as-cases-deaths-mount/S5BWHBORCRBC7KTAHXSE3GEGGM/",
+      "publisher": "NZ Herald",
+      "publisherDomain": "nzherald.co.nz",
+      "publishedAt": "2026-11-17T22:17:00Z",
+      "seenAt": "2026-11-17T22:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "New Zealand",
+      "sourceCountryCode": "NZ",
+      "sourceRegion": "Oceania",
+      "sourceLat": -41,
+      "sourceLon": 174,
+      "language": "en"
+    },
+    {
+      "id": "n-d0dd4208bc4f95",
+      "title": "What's behind the US and Mexico losing measles elimination status? - ABC listen",
+      "titleEnglish": "What's behind the US and Mexico losing measles elimination status? - ABC listen",
+      "url": "https://www.abc.net.au/listen/programs/abc-news-top-stories/us-loses-measles-elimination-status-vaccination-australia/107397068",
+      "publisher": "ABC listen",
+      "publisherDomain": "abc.net.au",
+      "publishedAt": "2026-11-17T18:00:00Z",
+      "seenAt": "2026-11-17T20:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Australia",
+      "sourceCountryCode": "AU",
+      "sourceRegion": "Oceania",
+      "sourceLat": -25,
+      "sourceLon": 134,
+      "language": "en"
+    },
+    {
+      "id": "n-b20fdbf631fc73",
+      "title": "Mexico has 12 active measles cases, says health minister",
+      "titleEnglish": "Mexico has 12 active measles cases, says health minister",
+      "url": "https://www.arabnews.com/world/mexico-has-12-active-measles-cases-says-health-minister-3013874",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-24T15:13:00Z",
+      "seenAt": "2026-11-24T15:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-6213475cfd9917",
+      "title": "Vacinação infantil cresce, mas não recupera nível pré-covid",
+      "titleEnglish": "Childhood vaccination grows, but does not recover pre-COVID level",
+      "url": "https://www.dw.com/pt-br/vacina%C3%A7%C3%A3o-infantil-cresce-mas-n%C3%A3o-recupera-n%C3%ADvel-pr%C3%A9-covid/a-77971580",
+      "publisher": "dw.com",
+      "publisherDomain": "dw.com",
+      "publishedAt": "2026-11-20T22:32:00Z",
+      "seenAt": "2026-11-20T22:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Germany",
+      "sourceCountryCode": "DE",
+      "sourceRegion": "Europe",
+      "sourceLat": 51,
+      "sourceLon": 10,
+      "language": "pt"
+    },
+    {
+      "id": "n-61fc30ee5dc68a",
+      "title": "272 إصابة بالتهاب السحايا في غزة الشهر الماضي وتحذيرات من تفاقم التفشي الوبائي",
+      "titleEnglish": "272 meningitis cases in Gaza last month and warnings of worsening outbreak",
+      "url": "https://alanbatnews.net/article/486881",
+      "publisher": "الأنباط",
+      "publisherDomain": "alanbatnews.net",
+      "publishedAt": "2026-11-24T13:04:08Z",
+      "seenAt": "2026-11-24T13:02:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Jordan",
+      "sourceCountryCode": "JO",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31,
+      "sourceLon": 36,
+      "language": "ar"
+    },
+    {
+      "id": "n-26726a4c7bc17c",
+      "title": "Israeli air strikes in Gaza kill 7 as doctors warn of meningitis outbreak",
+      "titleEnglish": "Israeli air strikes in Gaza kill 7 as doctors warn of meningitis outbreak",
+      "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strikes-in-gaza-kill-7-as-doctors-warn-of-meningitis-outbreak",
+      "publisher": "Al Jazeera",
+      "publisherDomain": "aljazeera.com",
+      "publishedAt": "2026-11-24T12:32:00Z",
+      "seenAt": "2026-11-24T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Qatar",
+      "sourceCountryCode": "QA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 25.3,
+      "sourceLon": 51.2,
+      "language": "en"
+    },
+    {
+      "id": "n-d432d1649416af",
+      "title": "Two months old, and Gaza’s meningitis wave has found him",
+      "titleEnglish": "Two months old, and Gaza’s meningitis wave has found him",
+      "url": "https://www.arabnews.com/middle-east/two-months-old-and-gazas-meningitis-wave-has-found-him-3013977",
+      "publisher": "arabnews.com",
+      "publisherDomain": "arabnews.com",
+      "publishedAt": "2026-11-25T12:16:03Z",
+      "seenAt": "2026-11-25T12:32:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Saudi Arabia",
+      "sourceCountryCode": "SA",
+      "sourceRegion": "Middle East",
+      "sourceLat": 24,
+      "sourceLon": 45,
+      "language": "en"
+    },
+    {
+      "id": "n-1d74dfa28baefc",
+      "title": "כלב נגוע בכלבת אותר במרר: המקרה ה-122 מתחילת השנה | וואלה חדשות",
+      "titleEnglish": "Rabid dog found in Marr: the 122nd case since the start of the year | Walla News",
+      "url": "https://www.walla.co.il:443/news/breaking-news/383963404",
+      "publisher": "walla.co.il",
+      "publisherDomain": "walla.co.il",
+      "publishedAt": "2026-11-27T12:17:00Z",
+      "seenAt": "2026-11-27T12:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
+    },
+    {
+      "id": "n-8eb8481fdb3d7f",
+      "title": "Uganda launches Africa's 1st trial of mRNA vaccine against Bundibugyo Ebola",
+      "titleEnglish": "Uganda launches Africa's 1st trial of mRNA vaccine against Bundibugyo Ebola",
+      "url": "https://english.news.cn/20261128/9b0526a0ec404d65acd5a03275f2edc8/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-11-27T22:47:00Z",
+      "seenAt": "2026-11-27T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-6066e91b70c494",
+      "title": "Uganda launches Africa's first trial of an mRNA Bundibugyo Ebola vaccine - Channel Africa",
+      "titleEnglish": "Uganda launches Africa's first trial of an mRNA Bundibugyo Ebola vaccine - Channel Africa",
+      "url": "https://www.channelafrica.co.za/channelafrica/news/uganda-launches-africas-first-trial-of-an-mrna-bundibugyo-ebola-vaccine/",
+      "publisher": "Channel Africa",
+      "publisherDomain": "channelafrica.co.za",
+      "publishedAt": "2026-11-27T20:47:00Z",
+      "seenAt": "2026-11-27T20:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "South Africa",
+      "sourceCountryCode": "ZA",
+      "sourceRegion": "Africa",
+      "sourceLat": -30,
+      "sourceLon": 25,
+      "language": "en"
+    },
+    {
+      "id": "n-c68dfad4a9ebb9",
+      "title": "Experts urge domestic HIV funding for 20 mln Africans",
+      "titleEnglish": "Experts urge domestic HIV funding for 20 mln Africans",
+      "url": "https://english.news.cn/20261128/cb823ca7275f40b7be62b1977d8b480c/c.html",
+      "publisher": "english.news.cn",
+      "publisherDomain": "english.news.cn",
+      "publishedAt": "2026-11-27T22:47:00Z",
+      "seenAt": "2026-11-27T22:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "China",
+      "sourceCountryCode": "CN",
+      "sourceRegion": "Asia",
+      "sourceLat": 35,
+      "sourceLon": 104,
+      "language": "en"
+    },
+    {
+      "id": "n-484989e9f55a95",
+      "title": "米空軍システム侵入と報道 ハッカー、情報流出に懸念",
+      "titleEnglish": "Reports of intrusion into US Air Force systems; hackers, concerns over information leak",
+      "url": "https://www.47news.jp/15298387p2.html",
+      "publisher": "47NEWS",
+      "publisherDomain": "47news.jp",
+      "publishedAt": "2026-11-27T23:47:00Z",
+      "seenAt": "2026-11-27T23:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Japan",
+      "sourceCountryCode": "JP",
+      "sourceRegion": "Asia",
+      "sourceLat": 36,
+      "sourceLon": 138,
+      "language": "ja"
+    },
+    {
+      "id": "n-f5e1a06a29a1ee",
+      "title": "'Hackers breken in bij clouddienst Amerikaanse luchtmacht'",
+      "titleEnglish": "'Hackers break into US Air Force cloud service'",
+      "url": "https://nos.nl/artikel/2641242-hackers-breken-in-bij-clouddienst-amerikaanse-luchtmacht",
+      "publisher": "nos.nl",
+      "publisherDomain": "nos.nl",
+      "publishedAt": "2026-11-27T15:17:00Z",
+      "seenAt": "2026-11-27T15:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-9bc3be6c8f4775",
+      "title": "פרצת ענק: האקרים חדרו למערכת הענן של חיל האוויר האמריקני | וואלה חדשות",
+      "titleEnglish": "Huge Breach: Hackers Penetrated the US Air Force Cloud System | Walla News",
+      "url": "https://www.walla.co.il:443/news/world/383963400",
+      "publisher": "walla.co.il",
+      "publisherDomain": "walla.co.il",
+      "publishedAt": "2026-11-27T12:17:00Z",
+      "seenAt": "2026-11-27T12:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
+    },
+    {
+      "id": "n-28971b76de1f3e",
+      "title": "דיווח: האקרים פרצו למערכת הענן של חיל האוויר האמריקני | וואלה חדשות",
+      "titleEnglish": "Report: Hackers breached the cloud system of the US Air Force | Walla News",
+      "url": "https://www.walla.co.il:443/news/breaking-news/383963399",
+      "publisher": "walla.co.il",
+      "publisherDomain": "walla.co.il",
+      "publishedAt": "2026-11-27T12:17:00Z",
+      "seenAt": "2026-11-27T12:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Israel",
+      "sourceCountryCode": "IL",
+      "sourceRegion": "Middle East",
+      "sourceLat": 31.5,
+      "sourceLon": 35,
+      "language": "he"
+    },
+    {
+      "id": "n-a32dddbab0745d",
+      "title": "Tutkimus vahvistaa: venäläinen satelliitti lähestyi Iceyen tutkasatelliittia tahallaan – yhtiö ei kommentoi",
+      "titleEnglish": "Study Confirms: Russian Satellite Deliberately Approached Iceye's Radar Satellite - Company Does Not Comment",
+      "url": "https://yle.fi/a/74-20259426",
+      "publisher": "Yle Uutiset",
+      "publisherDomain": "yle.fi",
+      "publishedAt": "2026-11-27T14:12:02Z",
+      "seenAt": "2026-11-27T14:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Finland",
+      "sourceCountryCode": "FI",
+      "sourceRegion": "Europe",
+      "sourceLat": 64,
+      "sourceLon": 26,
+      "language": "fi"
+    },
+    {
+      "id": "n-f8b30b93a3ef34",
+      "title": "'Meer Russische sabotage in Europa, brandstichting en explosieven vaker ingezet'",
+      "titleEnglish": "'More Russian sabotage in Europe, arson and explosives used more often'",
+      "url": "https://nos.nl/artikel/2641236-meer-russische-sabotage-in-europa-brandstichting-en-explosieven-vaker-ingezet",
+      "publisher": "nos.nl",
+      "publisherDomain": "nos.nl",
+      "publishedAt": "2026-11-27T12:17:00Z",
+      "seenAt": "2026-11-27T12:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Netherlands",
+      "sourceCountryCode": "NL",
+      "sourceRegion": "Europe",
+      "sourceLat": 52,
+      "sourceLon": 5,
+      "language": "nl"
+    },
+    {
+      "id": "n-6ccd8baeb5ddc5",
+      "title": "Польша заключила с Palantir оборонный контракт на $300 млн",
+      "titleEnglish": "Poland signs $300 million defense contract with Palantir",
+      "url": "https://www.kommersant.ru/doc/9144475",
+      "publisher": "Коммерсантъ",
+      "publisherDomain": "kommersant.ru",
+      "publishedAt": "2026-11-27T15:03:45Z",
+      "seenAt": "2026-11-27T15:17:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Russia",
+      "sourceCountryCode": "RU",
+      "sourceRegion": "Europe",
+      "sourceLat": 61,
+      "sourceLon": 100,
+      "language": "ru"
+    },
+    {
+      "id": "n-76da498063ebbd",
+      "title": "Despite new powers, industry minister hasn't forced telecoms to remove Huawei equipment | CBC News",
+      "titleEnglish": "Despite new powers, industry minister hasn't forced telecoms to remove Huawei equipment | CBC News",
+      "url": "https://www.cbc.ca/news/politics/huawei-zte-china-cell-phone-towers-9.7435692",
+      "publisher": "CBC",
+      "publisherDomain": "cbc.ca",
+      "publishedAt": "2026-11-27T08:47:00Z",
+      "seenAt": "2026-11-27T08:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Canada",
+      "sourceCountryCode": "CA",
+      "sourceRegion": "North America",
+      "sourceLat": 56,
+      "sourceLon": -106,
+      "language": "en"
+    },
+    {
+      "id": "n-027816667a5825",
+      "title": "1Password says hacker accessed user data, passwords remain safe",
+      "titleEnglish": "1Password says hacker accessed user data, passwords remain safe",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/11/27/1password-says-hacker-accessed-user-data-passwords-remain-safe",
+      "publisher": "The Star",
+      "publisherDomain": "thestar.com.my",
+      "publishedAt": "2026-11-27T16:00:00Z",
+      "seenAt": "2026-11-27T08:47:00Z",
+      "dateBasis": "published-or-first-seen",
+      "sourceCountry": "Malaysia",
+      "sourceCountryCode": "MY",
+      "sourceRegion": "Asia",
+      "sourceLat": 4,
+      "sourceLon": 109,
+      "language": "en"
+    }
+  ],
+  "settled": [
+    {
+      "id": "20261103T214619-hormuz-cost-to-buyers-gain-to-bypass-sellers-1",
+      "status": "kept",
+      "how": "headline"
+    },
+    {
+      "id": "20261106T212911-energy-shock-becomes-equipment-orders-1",
+      "status": "failed",
+      "how": "expired"
+    },
+    {
+      "id": "20261113T215832-one-system-no-fallback-2",
+      "status": "failed",
+      "how": "expired"
+    },
+    {
+      "id": "20261113T215832-strikes-run-alongside-talks-1",
+      "status": "failed",
+      "how": "expired"
+    }
+  ],
+  "readings": [
+    {
+      "id": "oil-sellers-chosen-by-blockade",
+      "line": "Sanctions on oil sellers are old. Washington now also presses friendly producers to leave OPEC and reroute their exports.",
+      "kicker": "SANCTIONS / CARTELS / ROUTES",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "Iraq reports oil flows through the Kirkuk-Ceyhan pipeline to Turkey rising above 300,000 barrels a day.",
+          "by": "2026-12-26",
+          "because": "If Washington is steering friendly producers away from the strait and from Iranian channels, Iraq's bypass route should grow rather than stay a one-off restart.",
+          "id": "20261128T000158-oil-sellers-chosen-by-blockade-1"
+        },
+        {
+          "what": "The US Treasury approves a buyer for Lukoil's foreign assets, or Teboil stations reopen in Finland under new ownership.",
+          "by": "2026-12-22",
+          "because": "If one government is deciding who may sell oil, the Lukoil sale should move on a US licence in the same weeks as the pressure on Iraq and Venezuela.",
+          "id": "20261128T000158-oil-sellers-chosen-by-blockade-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is 2012, when US and EU sanctions cut Iran's oil exports by about half, Washington granted country-by-country waivers to buyers, and Saudi Arabia raised output to cover the loss; OPEC stayed intact and its quotas still held. The present differs in two ways: the US is enforcing at sea by disabling ships rather than through banks, and it is reported asking members to leave OPEC rather than to pump more inside it.",
+        "paths": [
+          {
+            "name": "Friendly oil rerouted, OPEC kept",
+            "weight": "favoured",
+            "text": "Over the next three to six months Iraq and Venezuela stay formally in OPEC but export more by routes and to buyers Washington approves, including the Turkish pipeline, while their quotas are quietly exceeded. The blockade of Iran stays until a deal. This is favoured because leaving OPEC would cost Baghdad its seat beside its neighbours and Russia, while rerouting gives Washington most of what it wants at lower cost to Iraq.",
+            "sign": "OPEC figures show Iraq or Venezuela producing above its quota with no penalty or public dispute."
+          },
+          {
+            "name": "Iraq or Venezuela quits OPEC",
+            "weight": "possible",
+            "text": "Within a year one of the two announces it is leaving, as Qatar did in 2019, and presents it as a matter of national capacity. This becomes likely if the blockade lasts and Washington ties security guarantees or debt relief to the decision.",
+            "sign": "Iraq's or Venezuela's oil minister announces a date for leaving OPEC."
+          },
+          {
+            "name": "Blockade lifted in a deal",
+            "weight": "unlikely",
+            "text": "A US-Iran agreement lifts the blockade within weeks and the pressure on other producers eases with it. Unlikely because Trump's 'last chance' and the Revolutionary Guard's attacks show both sides raising their terms, not lowering them.",
+            "sign": "A date and venue are announced for US-Iran talks with the blockade on the agenda."
+          }
+        ],
+        "decade": "Over ten years, more of the world's oil will move along routes and to buyers that the US navy and Treasury approve, and OPEC's quotas will bind only members without a security tie to Washington."
+      },
+      "continues": "blockades-outlast-ceasefires",
+      "change": "Yesterday's narrative read the new attacks as fights to break or enforce blockades. Today the US military disabled a commercial ship trying to leave Iran, and the same day's reports show Washington pressing Iraq and Venezuela to quit OPEC and backing Baghdad's crackdown on oil smuggling, so the blockade now looks like one part of a wider US effort over who sells oil.",
+      "claim": "On the day US forces disabled a commercial ship trying to leave Iran and Tehran vowed to confront the blockade, Reuters reported Washington urging Iraq and Venezuela to leave OPEC, Trump backed the Iraqi prime minister's crackdown on oil smuggling, Iraq restarted its pipeline to Turkey at 300,000 barrels a day and Lukoil agreed to sell its foreign assets. Each is a US decision, or a response to one, about which barrels reach the market and by which route. The blockade keeps Iran's oil off the sea, while the other moves steer the oil of friendly or pressured producers into channels Washington accepts. Supply that OPEC once set by quota among its members is increasingly set by one government through its navy, its sanctions lists and its pressure on allies.",
+      "events": [
+        {
+          "label": "US enforces naval blockade of Iran",
+          "articleIds": [
+            "n-2090038ff4e6ff",
+            "n-73ca95aaba2797",
+            "n-1025a936ad017d",
+            "n-518fe367c4d61c",
+            "n-b781c2b24889e6"
+          ]
+        },
+        {
+          "label": "US urges Iraq and Venezuela to quit OPEC",
+          "articleIds": [
+            "n-78ec7c920cd33c"
+          ]
+        },
+        {
+          "label": "Trump backs Iraq's oil smuggling crackdown",
+          "articleIds": [
+            "n-cc229b760a2d42"
+          ]
+        },
+        {
+          "label": "Iraq restarts its pipeline to Turkey",
+          "articleIds": [
+            "n-4072a90c1972d5"
+          ]
+        },
+        {
+          "label": "Lukoil sells its foreign assets",
+          "articleIds": [
+            "n-22aebe59d419f9",
+            "n-a54f2004c149e0"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "a-obs-1",
+          "kind": "observation",
+          "label": "The blockade at sea",
+          "fragments": [
+            {
+              "id": "a-obs-1-f1",
+              "label": "Ship disabled, threats exchanged",
+              "text": "Singapore's CNA and India's The Hindu report that the US military disabled a commercial ship trying to leave Iran in breach of the blockade. Al Jazeera's Arabic site reports Tehran hinting it will break the blockade as Trump gives it a 'last chance', and separately that the Revolutionary Guard targeted a US fighter jet. Turkey's Hürriyet carries the Guard's announcement that a tanker exploded in the Strait of Hormuz.",
+              "articleIds": [
+                "n-2090038ff4e6ff",
+                "n-73ca95aaba2797",
+                "n-1025a936ad017d",
+                "n-518fe367c4d61c",
+                "n-b781c2b24889e6"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-obs-2",
+          "kind": "observation",
+          "label": "Other producers, other routes",
+          "fragments": [
+            {
+              "id": "a-obs-2-f1",
+              "label": "OPEC, smuggling and a pipeline",
+              "text": "Al Jazeera's Arabic service, citing Reuters, reports that the US urged Venezuela and Iraq to withdraw from OPEC. Al Jazeera in English reports Trump backing the Iraqi prime minister's crackdown on oil smuggling. Jordan's Ammon reports Iraq resuming its pipeline to Turkey at 300,000 barrels a day, a route to the Mediterranean that does not pass Hormuz.",
+              "articleIds": [
+                "n-78ec7c920cd33c",
+                "n-cc229b760a2d42",
+                "n-4072a90c1972d5"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-obs-2-f2",
+              "label": "Lukoil's foreign assets",
+              "text": "Sky TG24 in Italy reports that Lukoil has signed an agreement to sell its international assets. Finland's Yle reports that Teboil, Lukoil's Finnish fuel chain, could return to the market if the deal goes ahead. Teboil has been out of the Finnish market since the US sanctioned Lukoil, so whether its stations reopen depends on who buys them and whether Washington accepts the buyer.",
+              "articleIds": [
+                "n-22aebe59d419f9",
+                "n-a54f2004c149e0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-int-1",
+          "kind": "interpretation",
+          "label": "One state choosing the sellers",
+          "fragments": [
+            {
+              "id": "a-int-1-f1",
+              "label": "Who decides supply",
+              "text": "The join is a single actor. In each story the decision about whose oil moves, and through which pipe or port, is taken or pushed by the US government rather than by OPEC's quota meetings or by buyers. Iran's oil is stopped at sea; Iraq is pressed both to leave the cartel and to close the smuggling channels through which Iranian crude has been sold as Iraqi; Lukoil's stations reopen only under a buyer Washington accepts. The Kirkuk-Ceyhan restart gives Iraq an exit that does not depend on the strait the blockade has made dangerous.",
+              "articleIds": [
+                "n-cc229b760a2d42",
+                "n-78ec7c920cd33c",
+                "n-4072a90c1972d5",
+                "n-a54f2004c149e0"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "a-int-1-f2",
+              "label": "Why the OPEC request is new",
+              "text": "Sanctions remove a seller; leaving OPEC frees a friendly seller from the quota that limits how much it can pump. Together the two let one government raise supply from producers it has influence over while cutting it from those it is fighting. That is the job OPEC's quota meetings have done for their members since the cartel set formal quotas in 1982.",
+              "articleIds": [
+                "n-78ec7c920cd33c",
+                "n-2090038ff4e6ff"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "a-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "a-break-f1",
+              "label": "Separate stories with separate causes",
+              "text": "The pipeline restart has its own history: the Kirkuk-Ceyhan line has been shut and reopened more than once since an arbitration ruling against Turkey in March 2023, and its flows turn on disputes between Baghdad, the Kurdish region and Ankara as much as on Washington. Lukoil's sale is the slow end of sanctions imposed over Ukraine, not Iran. The OPEC report rests on one Reuters account that neither government has confirmed, and Qatar in 2019 and Angola in 2024 left OPEC with no American pressure. What the events do not share is a war: one is a blockade, one a sanctions sale, one a domestic pipeline dispute and one an unconfirmed diplomatic request.",
+              "articleIds": [
+                "n-4072a90c1972d5",
+                "n-22aebe59d419f9",
+                "n-78ec7c920cd33c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "WAR / SANCTIONS / ENFORCEMENT",
+          "text": "Since 2020 the tools that decide who sells oil have moved from banks to ships. Russia's invasion of Ukraine in February 2022 brought the G7 price cap of December 2022, under which Western insurers and shippers could carry Russian crude only below $60 a barrel, and a shadow fleet grew to carry it outside that rule. In October 2025 the US Treasury sanctioned Rosneft and Lukoil directly, which is why Sky TG24 can now report Lukoil selling its foreign assets and Yle can ask whether Teboil returns to Finland. The twelve-day Israel-Iran war of June 2025 ended with American bombers over Fordow; by these headlines the war that followed closed Hormuz and has become a naval blockade, enforced by disabling a ship rather than by freezing a payment. Each step made the US government, more than the market or OPEC, the body that decides which tankers sail.",
+          "trajectoryIds": [
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "SHALE / CARTEL / SANCTIONS",
+          "text": "The financial crisis was followed by the American shale boom. Horizontal drilling and cheap credit took US crude output from about five million barrels a day in 2008 to more than twelve million by 2019, making the United States the largest producer. That changed what Washington could afford to do: it could sanction big exporters without fearing a shortage at home, and it did, against Iran with the banking sanctions of 2012, again after leaving the 2015 nuclear deal in 2018, and against Venezuela in 2019. OPEC answered in 2016 by forming OPEC+ with Russia, widening the quota system rather than letting the US set supply. Qatar left the cartel in 2019. The report that Washington is now urging Iraq and Venezuela to follow is the shale era's position taken one step further: a producer that no longer needs the cartel's restraint asking others to drop it too.",
+          "trajectoryIds": [
+            "lehman-2008",
+            "jcpoa-2015"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "IRAQ / PIPELINES / OCCUPATION",
+          "text": "After the Cold War, Iraq became the place where Washington first ran another country's oil sales. Saddam Hussein's invasion of Kuwait in August 1990 led to a UN embargo, and from 1996 the oil-for-food programme let Iraq sell crude only into a UN-controlled account. The 2003 invasion ended that and installed a government whose oil revenue is still paid into an account at the Federal Reserve Bank of New York, a lever every Iraqi prime minister knows. The Kirkuk-Ceyhan pipeline, built in the 1970s, became a three-way dispute between Baghdad, the Kurdish region and Ankara, settled in Iraq's favour by an arbitration court in 2023. Trump's backing for the Iraqi prime minister's smuggling crackdown, reported by Al Jazeera, rests on this thirty-five-year arrangement, in which Iraq's oil is sovereign in law and supervised in practice.",
+          "trajectoryIds": [
+            "iraq-2003"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "OIL / PROTECTION / CARTEL",
+          "text": "The order of 1945 tied oil to American protection. On the Great Bitter Lake in February 1945 Roosevelt and Ibn Saud traded security for access, a bargain never written down, as Daniel Yergin describes in The Prize. Producers answered by founding OPEC in Baghdad in September 1960, with Iraq, Iran, Saudi Arabia, Kuwait and Venezuela as its five members, to take pricing back from the Western companies. The embargo of October 1973 showed that a cartel could turn a regional war into a world price, and the revolution in Tehran in 1979 turned Iran from the West's partner into the producer it has sanctioned ever since. Two of OPEC's five founders, Iraq and Venezuela, are the two now reported being urged to leave it. The cartel built to take control from outsiders is being asked to shrink by the outsider whose protection several of its members still rely on.",
+          "trajectoryIds": [
+            "quincy-1945",
+            "oil-embargo-1973",
+            "tehran-1979"
+          ],
+          "bookIds": [
+            "the-prize"
+          ]
+        }
+      ],
+      "resumes": "",
+      "builds": "",
+      "articleIds": [
+        "n-2090038ff4e6ff",
+        "n-73ca95aaba2797",
+        "n-1025a936ad017d",
+        "n-518fe367c4d61c",
+        "n-b781c2b24889e6",
+        "n-78ec7c920cd33c",
+        "n-cc229b760a2d42",
+        "n-4072a90c1972d5",
+        "n-22aebe59d419f9",
+        "n-a54f2004c149e0"
+      ]
+    },
+    {
+      "id": "fuel-first-after-talks-collapse",
+      "line": "With the climate talks collapsed, governments secure their own fuel first, and the cost of switching falls on buyers and donors.",
+      "kicker": "SUPPLY / SUBSIDY / CONSENSUS",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "A second government restricts fuel or gas exports or reserves supply for its home market, naming security of supply.",
+          "by": "2026-12-22",
+          "because": "If the collapse of the talks has left governments putting their own supply first, Australia's scheme should not stay alone for a month.",
+          "id": "20261128T000158-fuel-first-after-talks-collapse-1"
+        },
+        {
+          "what": "A government in Asia, Africa or Latin America cuts an electric-car tax break or raises a tax on electric cars.",
+          "by": "2026-12-26",
+          "because": "If the cost of switching is being moved from budgets to buyers, Colombia's measure should be repeated by another government short of revenue.",
+          "id": "20261128T000158-fuel-first-after-talks-collapse-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The nearest case is Copenhagen in December 2009, when the summit ended without a binding deal and the following years brought a coal boom in Asia. It took six years to reach the Paris agreement of 2015, which replaced a negotiated sharing of cuts with national pledges. The present differs because the world is already passing two degrees in some weeks, and because a war has made fuel security the first concern of energy ministers, as it was after 1973.",
+        "paths": [
+          {
+            "name": "Supply first until next summit",
+            "weight": "favoured",
+            "text": "Through the next year governments add reservation schemes, extend fuel subsidies and tax electric cars for revenue, and no new global text is agreed before the next summit in late 2027. Favoured because the war's price shock is still in budgets and nothing in the collapse gives finance ministers a reason to take on costs now.",
+            "sign": "A second government announces a gas or fuel reservation, an export curb or a subsidy extension and names supply security."
+          },
+          {
+            "name": "Willing states form their own pact",
+            "weight": "possible",
+            "text": "Within three to six months a group such as the EU, Britain, Colombia and Pacific island states announces a fossil fuel phase-out or finance pact outside the UN process. Possible because such coalitions were forming before the collapse, but they would cover a minority of emissions.",
+            "sign": "A named group of countries signs a fossil fuel phase-out or climate finance agreement outside the COP."
+          },
+          {
+            "name": "Talks revived within weeks",
+            "weight": "unlikely",
+            "text": "The UN reconvenes the parties and a text is agreed before the spring. Unlikely because the consensus rule lets any one producer block it again.",
+            "sign": "The UN announces a resumed session of the climate talks with a date."
+          }
+        ],
+        "decade": "Over ten years, without a shared plan, the switch will go fastest where electricity is cheaper than imported fuel and slowest where fuel subsidies and exports pay for governments, so producers and importers will drift apart."
+      },
+      "continues": "",
+      "change": "On 10 November this narrative noted governments seeking new gas while the climate summit planned electrification. Since then the summit has collapsed, by the BBC's and RNZ's accounts, global temperature has stayed above two degrees for a week, and Australia's parliament has passed a scheme to reserve gas for its home market.",
+      "claim": "In the week the BBC and RNZ reported the collapse of the UN climate talks and Handelsblatt reported global temperature above two degrees for a week, Australia's parliament passed a domestic gas reservation scheme, Argentine oil firms and provinces sought to halt the decline of old oil fields, Colombia's new tax law was forecast to raise electric car prices by 14%, and Indonesia answered the OECD on its energy subsidies while Islamic charities in Medan launched a clean-energy waqf. Without an agreed global plan, each government is putting its own fuel supply and its own budget first. The cost of moving to cleaner energy is then carried by whoever buys the car or gives the donation, rather than shared through a treaty.",
+      "events": [
+        {
+          "label": "Climate talks collapse in a two-degree week",
+          "articleIds": [
+            "n-caed3d58812ee4",
+            "n-8fbce242e32bfd",
+            "n-85921b72eb1248",
+            "n-68fa802a84609c"
+          ]
+        },
+        {
+          "label": "Australia reserves gas for its home market",
+          "articleIds": [
+            "n-c8aec298a244ac"
+          ]
+        },
+        {
+          "label": "Argentina tries to slow old oilfield decline",
+          "articleIds": [
+            "n-4c418e003404c2"
+          ]
+        },
+        {
+          "label": "Colombian tax law raises electric car prices",
+          "articleIds": [
+            "n-ad64b46d0f8b8c"
+          ]
+        },
+        {
+          "label": "Indonesia answers OECD on energy subsidies",
+          "articleIds": [
+            "n-5d3a7f6d5f7912"
+          ]
+        },
+        {
+          "label": "Medan charities launch a clean-energy waqf",
+          "articleIds": [
+            "n-aeaae0e7778b59"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "b-obs-1",
+          "kind": "observation",
+          "label": "Talks fail as heat rises",
+          "fragments": [
+            {
+              "id": "b-obs-1-f1",
+              "label": "The collapse",
+              "text": "BBC Sounds' Climate Question asks what is left for climate action after the COP collapsed, and RNZ in New Zealand looks for reasons to hope after the talks fell apart. Australia's irrigator.com.au reports an 'f-word' threatening future climate talks, most likely 'fossil', the word that has divided recent summits. Handelsblatt reports that global temperature passed two degrees above pre-industrial levels for a full week for the first time.",
+              "articleIds": [
+                "n-caed3d58812ee4",
+                "n-8fbce242e32bfd",
+                "n-85921b72eb1248",
+                "n-68fa802a84609c"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-obs-2",
+          "kind": "observation",
+          "label": "Fuel kept, costs moved",
+          "fragments": [
+            {
+              "id": "b-obs-2-f1",
+              "label": "Supply protected",
+              "text": "ABC listen reports that Australia's domestic gas reservation scheme has passed parliament, holding gas back from export for local users. Clarín reports Argentine oil companies and provinces looking for ways to halt the decline of conventional oil outside the Vaca Muerta shale field.",
+              "articleIds": [
+                "n-c8aec298a244ac",
+                "n-4c418e003404c2"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-obs-2-f2",
+              "label": "Who pays for switching",
+              "text": "El Colombiano reports car dealers' associations warning that electric cars would rise 14% in price under the government's Rescue Law, a revenue measure. Liputan6 reports Indonesia's government responding to the OECD's criticism of its energy subsidies. Viva Medan reports Islamic philanthropy groups launching an energy almsgiving and a clean-energy waqf.",
+              "articleIds": [
+                "n-ad64b46d0f8b8c",
+                "n-5d3a7f6d5f7912",
+                "n-aeaae0e7778b59"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-int-1",
+          "kind": "interpretation",
+          "label": "Who pays without a treaty",
+          "fragments": [
+            {
+              "id": "b-int-1-f1",
+              "label": "The shape",
+              "text": "The question being settled in each country is who pays for the energy transition once no treaty spreads the cost. Governments with fuel keep it for their own voters, as in Australia, or try to extend old fields for royalties, as Argentina's provinces do. Governments short of revenue tax the new technology, as Colombia does, or keep paying for the old one, as Indonesia does. What remains of the switch is paid by the household that buys the dearer electric car or the believer who gives to a waqf.",
+              "articleIds": [
+                "n-c8aec298a244ac",
+                "n-4c418e003404c2",
+                "n-ad64b46d0f8b8c",
+                "n-aeaae0e7778b59"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "b-int-1-f2",
+              "label": "Why the collapse matters",
+              "text": "A treaty pays for nothing by itself, but it gives finance ministers a reason to accept costs now: a commitment others are also keeping. With the talks broken that reason weakens, while the Iran war's fuel price shock gives the opposite reason, to secure supply. The two-degree week reported the same day shows how far the budgets now being set are from what the warming is doing.",
+              "articleIds": [
+                "n-68fa802a84609c",
+                "n-caed3d58812ee4"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "b-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "b-break-f1",
+              "label": "These policies predate the collapse",
+              "text": "Australia's reservation scheme has been argued over since gas exports from Queensland raised east-coast prices in 2017; Colombia's Rescue Law is a revenue bill in which electric cars are one item; Indonesia has defended fuel subsidies against the OECD for decades. None was decided in response to the summit. The events do not share a decision-maker or a cause: one is an export policy, one a provincial royalty problem, one a tax bill and one a charity drive. Since pledges under the Paris agreement were always national, a failed COP may change nothing, and the pattern may be ordinary budget politics read through a climate headline.",
+              "articleIds": [
+                "n-c8aec298a244ac",
+                "n-ad64b46d0f8b8c",
+                "n-5d3a7f6d5f7912"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "PLEDGES / WAR / PRICES",
+          "text": "Since 2020 the climate talks have been held inside an energy crisis. Glasgow in 2021 agreed to 'phase down' rather than phase out coal after India and China objected to the wording. Russia's invasion in 2022 sent European gas prices to records, and governments that had pledged to cut fuel use spent hundreds of billions subsidising it. Dubai in 2023 agreed to 'transition away from fossil fuels', the first time the word fossil appeared in a COP decision, which is likely the 'f-word' irrigator.com.au says now threatens future talks. Baku in 2024 set a finance goal of $300 billion a year that poorer countries called too small, and the United States began leaving the Paris agreement again in January 2025. By these headlines the Iran war's oil shock has followed, and the talks have now collapsed in the week Handelsblatt reports a full week above two degrees.",
+          "trajectoryIds": [
+            "fordow-2025"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "LNG / PLEDGES / AUSTERITY",
+          "text": "The years after 2008 made gas the fuel governments called a bridge. New export plants around Gladstone in Queensland, opened from 2015, turned Australia into one of the largest LNG exporters, and the same exports pushed east-coast gas prices so high that Canberra brought in an export control mechanism in 2017. The reservation scheme ABC reports passing now descends from that fight. Copenhagen in 2009 failed; Paris in 2015 succeeded by letting each country set its own target, which also left each free to protect its own exporters and subsidies. After the crisis, budgets became the limit on climate policy: Indonesia cut fuel subsidies in 2015 under Joko Widodo, rebuilt them when oil prices rose again, and is now defending them to the OECD in the exchange Liputan6 reports. The bridge fuel turned out to be a matter of national budgets rather than a shared plan.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "crashed"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "CONSENSUS / DEVELOPMENT / TREATY",
+          "text": "The framework now failing was built in the optimism after the Cold War. The UN Framework Convention on Climate Change was signed at Rio in 1992 and divided the world into developed countries with obligations and developing ones without, a line India, China and Indonesia have defended ever since. The parties never adopted voting rules, so every decision has needed consensus, which lets a single oil producer block a text. The Kyoto protocol of 1997 set binding cuts for rich countries only, and the US Senate rejected the approach in advance. Argentina's 1994 constitution gave provinces ownership of the oil and gas beneath them, which is why Clarín reports provinces as well as companies trying to slow the decline of conventional wells: their budgets depend on royalties that no climate treaty has offered to replace.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "DEVELOPMENT / SOVEREIGNTY / RESOURCES",
+          "text": "The postwar settlement gave newly independent states a claim that still shapes the climate talks: that a country's resources are its own to use. The UN General Assembly's resolution 1803 of 1962 declared permanent sovereignty over natural resources, and the call for a New International Economic Order in 1974 asked for fairer prices for commodity exporters. Indonesia, which declared independence in 1945, formed its state oil company Pertamina in 1968 and under Suharto made cheap fuel a promise to its citizens; that is the subsidy the OECD now questions in Liputan6's report. Argentina had founded YPF in 1922, the first state oil company outside the Soviet Union. The first UN environment conference, at Stockholm in 1972, already split along this line, between those asking for limits and those asking for development first.",
+          "trajectoryIds": [],
+          "bookIds": []
+        }
+      ],
+      "resumes": "20261110T001511/gas-sought-in-the-hottest-years",
+      "builds": "",
+      "articleIds": [
+        "n-caed3d58812ee4",
+        "n-8fbce242e32bfd",
+        "n-85921b72eb1248",
+        "n-68fa802a84609c",
+        "n-c8aec298a244ac",
+        "n-4c418e003404c2",
+        "n-ad64b46d0f8b8c",
+        "n-5d3a7f6d5f7912",
+        "n-aeaae0e7778b59"
+      ]
+    },
+    {
+      "id": "controlled-diseases-return",
+      "line": "Over two weeks, old diseases have returned where war, aid cuts or refusal stopped the routine work that had held them back.",
+      "kicker": "UPKEEP / OUTBREAKS / AID",
+      "firmness": "plausible",
+      "watch": [
+        {
+          "what": "Another country in the Americas or Europe is reported losing measles elimination status, or declares a measles outbreak emergency.",
+          "by": "2026-12-26",
+          "because": "If control is failing through vaccination that lapsed after the pandemic rather than by local accident, the loss should not stop at the US and Mexico.",
+          "id": "20261128T000158-controlled-diseases-return-1"
+        },
+        {
+          "what": "WHO or Congo's health ministry reports Ebola cases in a new province or in a neighbouring country.",
+          "by": "2026-12-20",
+          "because": "If tracing stops where responders are evacuated from fighting, the outbreak should spread beyond its area rather than be contained.",
+          "id": "20261128T000158-controlled-diseases-return-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is the Ebola epidemic in North Kivu and Ituri from 2018 to 2020, which reached about 3,470 cases because armed groups attacked treatment centres and responders had to withdraw; it ended only after more than 300,000 people were vaccinated. The present outbreak is already more than three times as large, and it comes after US foreign aid was cut and the US left the WHO, so the money and staff that ended the last one are thinner.",
+        "paths": [
+          {
+            "name": "More places lose control",
+            "weight": "favoured",
+            "text": "Over the next three to six months Ebola reaches new areas or a neighbouring country, and at least one more country in the Americas or Europe loses measles elimination. Favoured because the causes, fighting in Ituri, reduced aid and low vaccination since Covid, will not change within months.",
+            "sign": "Ebola is reported in a new Congolese province or across a border."
+          },
+          {
+            "name": "Contained at higher cost",
+            "weight": "possible",
+            "text": "Vaccination teams with peacekeeping escorts contain Ebola by mid-2027, as in 2020, while measles stays endemic in North America. Possible if the existing vaccine and the Ugandan trial reach the affected zones.",
+            "sign": "WHO reports weekly Ebola cases falling for a month."
+          },
+          {
+            "name": "Donors restore the money",
+            "weight": "unlikely",
+            "text": "Governments and foundations announce new funding that replaces the US cuts within the year. Unlikely while European budgets are moving towards defence.",
+            "sign": "A donors' conference pledges new money for HIV or vaccination programmes in Africa."
+          }
+        ],
+        "decade": "Over ten years, elimination will become a status countries lose and regain, and the map of controlled disease will follow the map of peace and funded clinics more closely than the map of wealth."
+      },
+      "continues": "",
+      "change": "",
+      "claim": "Over the fortnight since 17 November, the US and Mexico have been reported losing measles elimination, Congo's Ebola outbreak has passed 12,000 cases while UN peacekeepers rescue Ebola teams from fighting in Ituri, Gaza's doctors have warned of a meningitis wave, experts have urged African governments to fund HIV treatment for 20 million people themselves, and Israel has recorded its 122nd rabies case of the year. None of these diseases is new, and for most a vaccine or treatment exists; Uganda this week began Africa's first trial of an mRNA vaccine against the Bundibugyo strain of Ebola. What the cases share is a mechanism: control depended on routine work repeated year after year, and where war, withdrawn aid or refusal interrupted that work, the disease came back. The fortnight shows this on four continents at once, which no single day's report did.",
+      "events": [
+        {
+          "label": "Ebola spreads in Congo amid Ituri fighting",
+          "articleIds": [
+            "n-49f934359d4db0",
+            "n-210897a4457c62",
+            "n-0b7b281c5663c7",
+            "n-af41785b70f493",
+            "n-da35054d496732"
+          ]
+        },
+        {
+          "label": "Uganda starts mRNA Ebola vaccine trial",
+          "articleIds": [
+            "n-8eb8481fdb3d7f",
+            "n-6066e91b70c494"
+          ]
+        },
+        {
+          "label": "Measles returns as vaccination lags",
+          "articleIds": [
+            "n-c60c1baa35409b",
+            "n-d0dd4208bc4f95",
+            "n-b20fdbf631fc73",
+            "n-6213475cfd9917"
+          ]
+        },
+        {
+          "label": "Meningitis spreads in Gaza",
+          "articleIds": [
+            "n-61fc30ee5dc68a",
+            "n-26726a4c7bc17c",
+            "n-d432d1649416af"
+          ]
+        },
+        {
+          "label": "Africa told to fund its own HIV care",
+          "articleIds": [
+            "n-c68dfad4a9ebb9"
+          ]
+        },
+        {
+          "label": "Israel records 122nd rabies case",
+          "articleIds": [
+            "n-1d74dfa28baefc"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "c-obs-1",
+          "kind": "observation",
+          "label": "Outbreaks over the fortnight",
+          "fragments": [
+            {
+              "id": "c-obs-1-f1",
+              "label": "Ebola in eastern Congo",
+              "text": "Channel Africa reported on 17 November that Congo's Ebola outbreak was spreading and killing at a record pace, and Punch reported on 22 November the WHO chief pleading for peace in the affected area. On 27 November NPR and Xinhua reported cases passing 12,000, NPR adding that some responders were evacuating. The same day Channel Africa reported UN peacekeepers rescuing Ebola teams as fighting in Ituri displaced thousands.",
+              "articleIds": [
+                "n-49f934359d4db0",
+                "n-210897a4457c62",
+                "n-0b7b281c5663c7",
+                "n-af41785b70f493",
+                "n-da35054d496732"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-obs-1-f2",
+              "label": "Measles, meningitis, rabies",
+              "text": "On 17 November NZ Herald and ABC listen reported the US losing its measles-free status, with Mexico also losing it, and on 25 November Arab News reported Mexico with 12 active cases. On 20 November DW reported childhood vaccination in Germany still below its pre-Covid level. On 25 November Jordan's Al-Anbat reported 272 meningitis cases in Gaza in a month and Al Jazeera reported doctors warning of an outbreak; Arab News followed a two-month-old infant on 26 November. Today Walla reports Israel's 122nd rabies case since January.",
+              "articleIds": [
+                "n-c60c1baa35409b",
+                "n-d0dd4208bc4f95",
+                "n-b20fdbf631fc73",
+                "n-6213475cfd9917",
+                "n-61fc30ee5dc68a",
+                "n-26726a4c7bc17c",
+                "n-d432d1649416af",
+                "n-1d74dfa28baefc"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c-obs-2",
+          "kind": "observation",
+          "label": "This week's responses",
+          "fragments": [
+            {
+              "id": "c-obs-2-f1",
+              "label": "A vaccine trial and an HIV appeal",
+              "text": "Xinhua and Channel Africa report Uganda launching Africa's first trial of an mRNA vaccine against Bundibugyo Ebola, a strain the licensed Ebola vaccine does not cover. Xinhua also reports experts urging African governments to pay for HIV treatment for 20 million people from their own budgets. The appeal shows that the outside money which paid for that treatment is no longer assumed.",
+              "articleIds": [
+                "n-8eb8481fdb3d7f",
+                "n-6066e91b70c494",
+                "n-c68dfad4a9ebb9"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c-int-1",
+          "kind": "interpretation",
+          "label": "Control as repeated work",
+          "fragments": [
+            {
+              "id": "c-int-1-f1",
+              "label": "The mechanism",
+              "text": "Each of these diseases had been held down by work that must be repeated: two doses of measles vaccine for every child born, daily antiretroviral pills, tracing every contact of an Ebola case, safe water and space for displaced families. The return comes where that repetition stopped. In Ituri the cause is fighting, in Gaza war and crowding, in Africa's HIV programmes a cut in donor money, and in the US and Mexico parents declining vaccines.",
+              "articleIds": [
+                "n-da35054d496732",
+                "n-61fc30ee5dc68a",
+                "n-c68dfad4a9ebb9",
+                "n-c60c1baa35409b"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "c-int-1-f2",
+              "label": "What the fortnight adds",
+              "text": "A single report of measles or Ebola is routine news. Taken together over fourteen days and sixteen publisher countries, the reports show systems of control failing for different reasons at the same time, which matters because the same responders, budgets and vaccine makers serve all of them. Uganda's trial is the kind of response the system still delivers; the evacuated tracing teams in Ituri are what it is losing.",
+              "articleIds": [
+                "n-8eb8481fdb3d7f",
+                "n-0b7b281c5663c7"
+              ],
+              "bookIds": [
+                "slow-violence"
+              ],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "c-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "c-break-f1",
+              "label": "Separate diseases, separate causes",
+              "text": "These outbreaks have nothing in common biologically and may be joined only by the season and the sample. Measles in North America comes from choices made by parents in rich countries, Ebola in Ituri from a war that has run for decades, meningitis in Gaza from a war of two years, and Israel's rabies from wildlife, with nothing in Walla's headline saying any programme stopped. Today's seasonal influenza rise in Chile and the Covid uptick the Dutch health institute calls no cause for concern show how easily ordinary news fits the pattern. The sample also reflects which outbreaks get covered: tuberculosis and cholera, which kill more people, do not appear in it.",
+              "articleIds": [
+                "n-1d74dfa28baefc"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "PANDEMIC / TRUST / AID",
+          "text": "The pandemic interrupted routine immunisation everywhere. WHO and UNICEF counted 25 million children who missed basic vaccines in 2021, the most in a generation, and DW's report that German childhood vaccination has still not regained its pre-Covid level shows the gap persisting five years on. The pandemic also turned vaccination into a political identity in the United States, and the measles outbreak that began in Texas in early 2025, with the first US measles deaths in a decade, led to the loss of elimination status reported on 17 November. In 2025 the US government dismantled USAID and began withdrawing from the WHO, cutting money for HIV treatment, vaccination and outbreak response across Africa; the call Xinhua reports for African governments to fund HIV care themselves follows from that. The same years proved mRNA vaccines against Covid, the technology Uganda is now trialling against Ebola.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "EPIDEMICS / RESPONSE / VACCINES",
+          "text": "The years after 2008 were when outbreak response became an international system with a known weakness. The West African Ebola epidemic of 2014 to 2016 infected about 28,600 people and killed more than 11,000, mostly in Liberia, Sierra Leone and Guinea, where clinics had been weakened by war and debt. It ended partly through a ring vaccination trial in Guinea in 2015, which led to the Ervebo vaccine being licensed in 2019; that vaccine covers the Zaire strain, not Bundibugyo, which is why Uganda's trial matters. The North Kivu and Ituri outbreak of 2018 to 2020 then showed what armed conflict does to tracing, the problem Channel Africa reports again today. In 2010 The Lancet retracted Andrew Wakefield's 1998 paper linking the MMR vaccine to autism, but the doubt it started travelled through social platforms over the following decade.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "AID / WARS / ELIMINATION",
+          "text": "The 1990s and 2000s built the programmes now being cut. Gavi was founded in 2000, the Global Fund in 2002 and the US President's Emergency Plan for AIDS Relief in 2003, which by the 2020s paid for treatment for around twenty million people, much of it in Africa. The US declared measles eliminated in 2000, and the Americas as a whole in 2016. In the same years the wars that followed the Rwandan genocide of 1994 drew Uganda, Rwanda and others into eastern Congo, and Ituri saw ethnic killings from 1999 to 2003 that left armed groups still fighting there. Mary Kaldor's New and Old Wars describes this kind of conflict, without fronts and aimed at civilians, and it is why the Ebola teams Channel Africa reports in Ituri now need UN peacekeepers to reach their patients.",
+          "trajectoryIds": [],
+          "bookIds": [
+            "new-and-old-wars"
+          ]
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "WHO / ERADICATION / LAW",
+          "text": "The idea that diseases can be held down by public work dates from the postwar institutions. The WHO was founded in 1948, and its campaign eradicated smallpox, with the last natural case recorded in Somalia in 1977. The Expanded Programme on Immunization of 1974 made routine childhood vaccination a duty of states, and the first Ebola outbreak, at Yambuku in what was then Zaire in 1976, was contained by the isolation and tracing that the same system paid for. The Geneva Conventions of 1949 and the Additional Protocol of 1977, whose Article 54 protects what civilians need to survive, set rules for war that bear directly on Gaza, where Al-Anbat reports 272 meningitis cases in a month among people displaced by the fighting. The outbreaks of this fortnight test how much of that postwar machinery still runs.",
+          "trajectoryIds": [
+            "geneva-1949",
+            "protocol-1977"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "",
+      "builds": "controlled-diseases-return",
+      "built": {
+        "key": "controlled-diseases-return",
+        "subject": "Diseases once controlled spreading again, from measles in North America to meningitis in Gaza",
+        "firstSeen": "2026-11-17",
+        "days": 6
+      },
+      "articleIds": [
+        "n-49f934359d4db0",
+        "n-210897a4457c62",
+        "n-0b7b281c5663c7",
+        "n-af41785b70f493",
+        "n-da35054d496732",
+        "n-c60c1baa35409b",
+        "n-d0dd4208bc4f95",
+        "n-b20fdbf631fc73",
+        "n-6213475cfd9917",
+        "n-61fc30ee5dc68a",
+        "n-26726a4c7bc17c",
+        "n-d432d1649416af",
+        "n-1d74dfa28baefc",
+        "n-8eb8481fdb3d7f",
+        "n-6066e91b70c494",
+        "n-c68dfad4a9ebb9"
+      ]
+    },
+    {
+      "id": "militaries-on-rented-systems",
+      "line": "Militaries now rent clouds and satellites from companies, so hostile states attack the companies, which mostly stay silent.",
+      "kicker": "OUTSOURCING / ESPIONAGE / DISCLOSURE",
+      "firmness": "tentative",
+      "watch": [
+        {
+          "what": "A report names the company whose cloud service was involved in the US Air Force breach, or identifies a contractor as its source.",
+          "by": "2026-12-19",
+          "because": "If attacks on states now arrive through companies' systems, the Air Force breach should turn out to run through a firm's service.",
+          "id": "20261128T000158-militaries-on-rented-systems-1"
+        },
+        {
+          "what": "Another commercial satellite operator reports a close approach, jamming or interference by a Russian or Chinese satellite.",
+          "by": "2026-12-26",
+          "because": "If firms serving militaries are now targets in their own right, Iceye should not be the only operator to report it.",
+          "id": "20261128T000158-militaries-on-rented-systems-2"
+        }
+      ],
+      "ahead": {
+        "precedent": "The closest case is 24 February 2022, when a Russian cyberattack disabled tens of thousands of modems on Viasat's KA-SAT network, used by Ukraine's forces, and also cut remote control of about 5,800 wind turbines in Germany. The US, EU and Britain attributed it to Russia only in May 2022, three months later, and Viasat bore the repair. The present differs because the target is the US military's own data on a hosted service, and because the firms involved serve several governments at once.",
+        "paths": [
+          {
+            "name": "Firms absorb, states attribute late",
+            "weight": "favoured",
+            "text": "Over the coming months more breaches and satellite approaches are disclosed by firms or researchers first, governments attribute them weeks or months later if at all, and no new reporting duty is imposed. Favoured because governments are still signing contracts like Poland's and avoiding costly orders like the one Canada has not enforced.",
+            "sign": "A government attributes an attack on a named company more than a month after the company disclosed it."
+          },
+          {
+            "name": "Duties placed on suppliers",
+            "weight": "possible",
+            "text": "Within a year the US or the EU requires cloud and satellite firms serving militaries to report incidents within days and meet set security standards. Possible if the Air Force breach proves serious enough for Congress to hold hearings.",
+            "sign": "The Pentagon or the European Commission announces mandatory incident reporting for defence cloud or space suppliers."
+          },
+          {
+            "name": "Systems taken back in-house",
+            "weight": "unlikely",
+            "text": "Militaries move data and imagery back to government-run systems. Unlikely because the cost and lost speed would be large and the contracts run for years.",
+            "sign": "A defence ministry cancels a cloud or satellite contract and announces its own system."
+          }
+        ],
+        "decade": "Over ten years, more of what armed forces see and store will sit with a few firms, and the opening moves of a conflict will be attacks on those firms and their customers in countries not party to it."
+      },
+      "continues": "",
+      "change": "On 25 November this narrative found states spying and sabotaging through private firms and leaving the firms to defend themselves. Since then a breach of a US Air Force cloud service has been reported in Japan, the Netherlands and Israel, a study has confirmed that a Russian satellite deliberately approached a Finnish firm's radar satellite, and Dutch reporting finds Russian sabotage in Europe using arson and explosives more often.",
+      "claim": "Reports from Japan, the Netherlands and Israel say hackers broke into a US Air Force cloud service; Yle reports a study confirming that a Russian satellite deliberately approached a radar satellite owned by the Finnish firm Iceye, which would not comment; NOS reports Russian sabotage in Europe using arson and explosives more often; Kommersant reports Poland signing a $300 million defence contract with Palantir; CBC reports Canada's industry minister has not used new powers to make telecoms remove Huawei equipment; and 1Password says a hacker reached user data. In each case part of a state's security runs through a company's system, and the attack or the risk lands on the company. Governments buy the service and keep the contracts, while disclosure, and much of the defence, is left to firms that say as little as they can.",
+      "events": [
+        {
+          "label": "Hackers breach US Air Force cloud service",
+          "articleIds": [
+            "n-484989e9f55a95",
+            "n-f5e1a06a29a1ee",
+            "n-9bc3be6c8f4775",
+            "n-28971b76de1f3e"
+          ]
+        },
+        {
+          "label": "Russian satellite approaches Iceye radar satellite",
+          "articleIds": [
+            "n-a32dddbab0745d"
+          ]
+        },
+        {
+          "label": "Russian sabotage in Europe grows",
+          "articleIds": [
+            "n-f8b30b93a3ef34"
+          ]
+        },
+        {
+          "label": "Poland buys Palantir defence software",
+          "articleIds": [
+            "n-6ccd8baeb5ddc5"
+          ]
+        },
+        {
+          "label": "Canada leaves Huawei gear in networks",
+          "articleIds": [
+            "n-76da498063ebbd"
+          ]
+        },
+        {
+          "label": "1Password reports hacker access",
+          "articleIds": [
+            "n-027816667a5825"
+          ]
+        }
+      ],
+      "rungs": [
+        {
+          "id": "d-obs-1",
+          "kind": "observation",
+          "label": "Attacks on hosted systems",
+          "fragments": [
+            {
+              "id": "d-obs-1-f1",
+              "label": "The Air Force cloud",
+              "text": "47NEWS in Japan reports an intrusion into US Air Force systems and concern about leaked information. NOS in the Netherlands and Walla in Israel, twice, report hackers breaking into the Air Force's cloud service, Walla calling it a huge breach. None of the headlines names the company whose cloud it is.",
+              "articleIds": [
+                "n-484989e9f55a95",
+                "n-f5e1a06a29a1ee",
+                "n-9bc3be6c8f4775",
+                "n-28971b76de1f3e"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-obs-1-f2",
+              "label": "Satellites and sabotage",
+              "text": "Yle reports a study confirming that a Russian satellite deliberately approached a radar satellite of Iceye, a Finnish company whose satellites supply imagery to governments including Ukraine's; the company does not comment. NOS reports that Russian sabotage in Europe now uses arson and explosives more often.",
+              "articleIds": [
+                "n-a32dddbab0745d",
+                "n-f8b30b93a3ef34"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "d-obs-2",
+          "kind": "observation",
+          "label": "Buying in, leaving alone",
+          "fragments": [
+            {
+              "id": "d-obs-2-f1",
+              "label": "Contracts and unused powers",
+              "text": "Kommersant reports Poland signing a $300 million defence contract with Palantir, the US data firm. CBC reports that Canada's industry minister, despite new legal powers, has not forced telecoms to remove Huawei equipment. Malaysia's The Star reports 1Password saying a hacker accessed user data while passwords stayed safe.",
+              "articleIds": [
+                "n-6ccd8baeb5ddc5",
+                "n-76da498063ebbd",
+                "n-027816667a5825"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "d-int-1",
+          "kind": "interpretation",
+          "label": "Security held by firms",
+          "fragments": [
+            {
+              "id": "d-int-1-f1",
+              "label": "The common object",
+              "text": "The join is an object: the commercial system on which some of a state's security now runs, whether a cloud, a satellite, a telecom network, a data platform or a password store. States buy these because firms build them faster than ministries can, as Poland's Palantir contract shows. The cost is that a hostile state can reach a military by attacking a firm, as the Air Force breach and the satellite approach suggest, and the firm then decides what to say. Iceye's silence and 1Password's careful statement are what disclosure looks like when it is left to a company protecting its customers and its value.",
+              "articleIds": [
+                "n-6ccd8baeb5ddc5",
+                "n-28971b76de1f3e",
+                "n-a32dddbab0745d",
+                "n-027816667a5825"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            },
+            {
+              "id": "d-int-1-f2",
+              "label": "Governments holding back",
+              "text": "Canada's unused powers over Huawei show the other side of the arrangement. A government that could order firms to remove a risk chooses not to, because the cost of replacing equipment falls on the telecoms and their customers and then on the government that ordered it. Responsibility stays with whoever owns the asset.",
+              "articleIds": [
+                "n-76da498063ebbd"
+              ],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        },
+        {
+          "id": "d-break",
+          "kind": "break",
+          "label": "The case against",
+          "fragments": [
+            {
+              "id": "d-break-f1",
+              "label": "Different threats, different owners",
+              "text": "Nothing in the headlines says a contractor's cloud was involved in the Air Force breach; it may be an intrusion into a system the Air Force runs itself. Militaries have practised close approaches on each other's government satellites for decades, so the Iceye case may be an old practice meeting a new owner rather than a new policy. 1Password is a consumer product with no stated tie to any military, and the Huawei story is about Canada's inaction, not an attack. What the events do not share is an attacker or a victim: one is an unnamed hacker, one the Russian state, one a criminal, one a supplier nobody has accused of anything, and the join may rest on Finnish and Dutch reporting about Russia.",
+              "articleIds": [],
+              "bookIds": [],
+              "trajectoryIds": []
+            }
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "span": "since-2020",
+          "from": "",
+          "label": "Since 2020",
+          "lens": "SPACE / CLOUD / WAR",
+          "text": "Since 2020 the war in Ukraine has made commercial systems part of the battlefield. SpaceX's Starlink terminals reached Ukraine days after the invasion, and the Viasat hack came on its first morning. In August 2022 a crowdfunding campaign led by the Ukrainian presenter Serhiy Prytula bought Ukraine the use of an Iceye radar satellite, the kind of satellite Yle now reports a Russian satellite deliberately approached. Palantir's software has been used by Ukraine's forces, part of what Poland is buying in the $300 million contract Kommersant reports. In December 2022 the Pentagon split a $9 billion cloud contract between Amazon, Google, Microsoft and Oracle, so military data now sits on the same commercial clouds as everyone else's. Canada announced in May 2022 that Huawei and ZTE equipment would be removed from its 5G networks, the order CBC reports has still not been enforced.",
+          "trajectoryIds": [],
+          "bookIds": []
+        },
+        {
+          "span": "since-2008",
+          "from": "",
+          "label": "Since 2008",
+          "lens": "PLATFORMS / SURVEILLANCE / OUTSOURCING",
+          "text": "After 2008 the cloud became where states and firms alike put their data. The CIA signed a $600 million contract with Amazon Web Services in 2013, the same year Edward Snowden showed how much the NSA collected through private telecoms and internet companies. Shoshana Zuboff's account of surveillance capitalism describes firms whose business is holding other people's data, and governments became their customers as well as their regulators. The argument over Huawei began in the same period: a US House intelligence committee report in 2012 called the company a security risk, and Western governments spent the next decade deciding whether to make their telecoms pay to remove its equipment. The Air Force breach reported by NOS and Walla happened in a system built on this model, in which the state rents capacity and relies on the firm's defences and the firm's account of what went wrong.",
+          "trajectoryIds": [
+            "lehman-2008"
+          ],
+          "bookIds": [
+            "surveillance-capitalism"
+          ]
+        },
+        {
+          "span": "since-1989",
+          "from": "",
+          "label": "Since 1989",
+          "lens": "PRIVATISATION / SATELLITES / NAVIGATION",
+          "text": "The end of the Cold War cut defence budgets and pushed governments to buy from the market what they had once built for themselves. Defence services were contracted out through the 1990s, and in May 2000 Washington switched off the deliberate error in GPS, opening precise satellite navigation to anyone. The first commercial high-resolution imaging satellite, Ikonos, was launched in 1999. Within two decades the views from orbit that had belonged only to superpowers could be bought from a Finnish company founded in 2014 out of Aalto University, which is what Iceye is. Russia's practice of parking inspection satellites close to other spacecraft, reported by Yle, was first aimed at American government satellites; it now reaches companies because companies now own a large share of what is in orbit and sell its output to several governments at once.",
+          "trajectoryIds": [
+            "gps-2000"
+          ],
+          "bookIds": []
+        },
+        {
+          "span": "since-1945",
+          "from": "",
+          "label": "Since 1945",
+          "lens": "STATE SCIENCE / SECRECY / SPACE",
+          "text": "In the postwar order the technologies of war and surveillance were state property. The bomb was a secret state project from Los Alamos to the Trinity test in July 1945, and Sputnik's launch in October 1957 led Washington to found ARPA, which paid for what became the internet, and NASA. For decades satellites were almost all military or governmental, and the Outer Space Treaty of 1967 made states responsible for their national activities in space, including those of companies. That clause is the legal tie between Iceye's satellite and Finland's government. The postwar arrangement assumed the state would build what it needed and keep its own secrets. The breach of an Air Force cloud service reported this week shows the building passed to companies while responsibility stayed, on paper, with states.",
+          "trajectoryIds": [
+            "trinity-1945",
+            "sputnik-1957"
+          ],
+          "bookIds": []
+        }
+      ],
+      "resumes": "20261125T004245/spying-routed-through-firms",
+      "builds": "",
+      "articleIds": [
+        "n-484989e9f55a95",
+        "n-f5e1a06a29a1ee",
+        "n-9bc3be6c8f4775",
+        "n-28971b76de1f3e",
+        "n-a32dddbab0745d",
+        "n-f8b30b93a3ef34",
+        "n-6ccd8baeb5ddc5",
+        "n-76da498063ebbd",
+        "n-027816667a5825"
+      ]
+    }
+  ]
+}

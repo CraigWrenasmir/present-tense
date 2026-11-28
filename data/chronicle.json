@@ -1,31 +1,32 @@
 {
   "schemaVersion": 1,
-  "editionStamp": "20261127T003426",
-  "asOf": "2026-11-27T00:34:26Z",
-  "generatedAt": "2026-11-27T00:48:19Z",
+  "editionStamp": "20261128T000158",
+  "asOf": "2026-11-28T00:01:58Z",
+  "generatedAt": "2026-11-28T00:16:31Z",
   "model": "claude-opus-5-5",
   "promptVersion": "chronicle-2",
   "usage": {
-    "input": 53064,
-    "output": 31370,
+    "input": 55554,
+    "output": 31938,
     "tier": "standard"
   },
-  "previousVersion": "20261126T001903",
+  "previousVersion": "20261127T003426",
   "notes": [
     "A running account of where things stand by these headlines, revised after each edition rather than added to. Every version is kept.",
     "Written by the model from the narratives, not from the headlines. It is a reading, not a record."
   ],
-  "standing": "By headlines of 27 November, Iranian drones are reported to have killed two Italian Rheinmetall technicians in Kuwait, which Iran denies, the Houthis struck Saudi Arabia's Jazan refinery, Iraq closed its crossings with Iran and Syria to cut oil smuggling, Hamas says Gaza's blockade continues under the ceasefire, and Russia and Poland are arguing over what Russia calls a Baltic blockade. In Cairo the Al-Warraq fuel tanker fire killed 31 and families are being paid from a Saudi official's EGP 43 million and an Egyptian ministry account for business donors, while a candy factory fire in Indonesia killed 26 and Sindh suspended its building control chief after a collapse in Karachi. A Turkish court on 26 November upheld the stripping of Ekrem İmamoğlu's university degree, ending his chance to run for president, and Colombia's National University denied that congresswoman Luz Verónica Estrada graduated. From the day before stand the BBC's report that Trump's accounts traded Nvidia shares 44 times this year and his offer to pardon Jensen Huang 'if necessary', the Bithumb and FinCEN breaches, and the EU's €50 billion for AI and quantum computing as AI shares were sold.",
+  "standing": "By headlines of 28 November, US forces disabled a commercial ship trying to leave Iran and Tehran vowed to confront the blockade, Reuters reported Washington urging Iraq and Venezuela to leave OPEC, Iraq restarted its pipeline to Turkey at 300,000 barrels a day and Lukoil agreed to sell its foreign assets. After the BBC and RNZ reported the UN climate talks' collapse and Handelsblatt a week of global temperature above two degrees, Australia's parliament passed a scheme reserving gas for its home market and Colombia's tax law was forecast to raise electric car prices by 14%. Congo's Ebola outbreak has passed 12,000 cases amid fighting in Ituri, the US and Mexico are reported losing measles elimination and Gaza's doctors warn of a meningitis wave. Hackers were reported inside a US Air Force cloud service, a study confirmed that a Russian satellite deliberately approached a radar satellite of the Finnish firm Iceye, and Poland signed a $300 million contract with Palantir. From earlier days stand the reported Iranian drone deaths of two Italians in Kuwait, which Iran denies, the Turkish ruling that ended Ekrem İmamoğlu's presidential bid, the Cairo tanker fire that killed 31, and Jensen Huang's hearing due on 1 December after reports of Trump's Nvidia trades.",
   "moved": [
-    "On 27 November a narrative that continues nothing joined Iranian drone deaths in Kuwait, the Houthi strike on Jazan, Iraq's closing of its crossings with Iran, Gaza's continuing blockade and the Baltic dispute as blockades left in place by truces; the Chronicle gave it a new thread, and with it withdrew the 24 November reading of the Iran war as a pause.",
-    "Iraq closing its crossings with Iran was the step whose absence led the Chronicle on 10 November to withdraw the reading of Iran contained by land; the closure is reported as aimed at oil smugglers, not at Iran, so that reading is not restored.",
-    "Two threads began from subjects the site's notebook had kept for days: deaths in fires, blasts and collapses paid for by donors and the state, since 22 November, and degrees and records deciding who may run for office, since 19 November.",
-    "No expectation in the ledger was settled against 27 November's headlines, and none of the three threads carried on 26 November, Nvidia, breaches and public money for AI, had a narrative on 27 November."
+    "The blockades thread turned on 28 November: its continuation read the US disabling a ship leaving Iran beside reported US pressure on Iraq and Venezuela to leave OPEC, Iraq's pipeline restart and Lukoil's sale as Washington deciding who sells oil, and dropped Gaza and the Baltic, so the reason for keeping it apart from the Iran thread was withdrawn.",
+    "A 3 November expectation from the Iran war thread was kept on 28 November, when Ammon reported Iraq resuming its oil pipeline to Turkey at 300,000 barrels a day, a route that avoids Hormuz; the line's own history of disputes between Baghdad, Erbil and Ankara means it says less about Hormuz than it seems.",
+    "The 10 November narrative on gas sought in the hottest years, never given a thread, was resumed after fifteen editions as governments securing their own fuel after the climate talks failed; a thread on old diseases returning was built from the notebook; and the spying thread was revived after two editions as militaries renting clouds and satellites.",
+    "Three expectations failed on 28 November with nothing reported: the FAA naming one fault for its 13 November ground stop, a Russian or Iranian official citing a named strike to delay talks, and a turbine, transformer or battery maker reporting a record backlog tied to the Gulf war, set by a 6 November narrative the Chronicle never gave a thread."
   ],
   "silent": [
-    "The Iran war thread has had no narrative since 24 November; on 27 November its events, the Kuwait deaths, the Jazan strike and Iraq's closed crossings, came in the new thread on blockades, so the silence is the editions' division, not the war going quiet.",
-    "The thread on frontiers, ships and host states has had no narrative since 24 November; on 27 November the Russian-Polish argument over a Baltic blockade came in the blockades thread, so the subject is still reported.",
-    "The thread on health payments drawn into state channels has rested on one narrative since 24 November and nothing since has touched Kenya's paybill order or Jordan's cash ban, which may be the sample as much as the world."
+    "The Iran war thread has had no narrative since 24 November; on 27 and 28 November its events, the Kuwait deaths and the ship disabled leaving Iran, came in the blockades thread, and its own 3 November expectation was kept on 28 November, so the silence is the editions' division, not the war going quiet.",
+    "The thread on middle powers' trade deals has had no narrative on 26, 27 or 28 November, and no new report of the US tariff list has come in any narrative since 25 November; that may be the sample as much as the world.",
+    "The thread on civilian places readied for drone strikes has had no narrative since 25 November; the Houthi strike on Jazan came in the blockades thread on 27 November, so its subject is still reported in part.",
+    "The thread on health payments drawn into state channels still rests on one narrative from 24 November, with nothing since on Kenya's paybill order or Jordan's cash ban."
   ],
   "threads": [
     {
@@ -104,8 +105,8 @@
           "id": "cheaper-fuel-on-a-contested-pause"
         }
       ],
-      "text": "From 26 October it followed the Gulf talks and the Hormuz price shock to jet fuel, mortgages, wages and rates; the war was reported paused on 8 November. From 13 to 21 November strikes on Bahrain and Qeshm, tankers hit off Hormuz and a downed US drone came in other threads, and four of its price expectations failed. Revived by judgment on 24 November: US petrol fell 66 cents in a month, Israel let flights resume and Qatar's emir mediated, while new sanctions kept an 8 November expectation. On 26 November French intelligence was reported naming the Revolutionary Guard behind the supermarket hacking. On 27 November Iranian drones were reported killing two Italian technicians in Kuwait, which Iran denies, and Iraq closed its crossings with Iran; both came in a new thread on blockades. No narrative carried this thread on 25, 26 or 27 November, so it is silent.",
-      "direction": "After strikes resumed from 13 November and a pause was reported on 24 November, by 27 November attacks on Kuwait and Saudi Arabia were reported again, carried in another thread."
+      "text": "From 26 October it followed the Gulf talks and the Hormuz price shock to jet fuel, mortgages, wages and rates; the war was reported paused on 8 November. From 13 to 21 November strikes on Bahrain and Qeshm, tankers hit off Hormuz and a downed US drone came in other threads, and four of its price expectations failed. Revived by judgment on 24 November: US petrol fell 66 cents in a month and Qatar's emir mediated. On 27 November Iranian drones were reported killing two Italian technicians in Kuwait, which Iran denies, and on 28 November US forces disabled a commercial ship leaving Iran; both came in the blockades thread. On 28 November its 3 November expectation of a Gulf export route avoiding Hormuz was kept, as Ammon reported Iraq resuming its pipeline to Turkey at 300,000 barrels a day. No narrative has carried it since 24 November.",
+      "direction": "After a pause was reported on 24 November, by 28 November attacks around the Gulf and a US naval blockade of Iran were reported again, carried in the blockades thread."
     },
     {
       "key": "fuel-tax-relief-ends",
@@ -125,29 +126,6 @@
       ],
       "text": "Begun on 7 November: Italy would not extend its diesel excise cut, Portugal adjusted its fuel tax discount and Taiwan's CPC held pump prices after absorbing NT$34.07 billion, joined as governments handing the war's fuel price back to drivers. After four editions without a narrative the Chronicle revived it on 12 November with an unlinked narrative marked firm: Pakistan cut petrol and diesel prices, Chile resubmitted a bill freezing fuel prices until February, Greece set €32 million for islanders' sea transport and Indonesian ferry operators asked to raise fares, with crude below $90. Its case against says the decisions move in different directions and none names Hormuz. No narrative has carried it since 12 November, so it is silent; its expectations run to early December.",
       "direction": "It has moved from governments ending fuel tax cuts to governments keeping pump prices in their own hands and paying the gap from budgets as crude fell below $90."
-    },
-    {
-      "key": "housing-states-and-protest",
-      "label": "Housing: state drives, outside money and work",
-      "status": "silent",
-      "since": "20261027T075302",
-      "lastSeen": "20261111T224126",
-      "narratives": [
-        {
-          "stamp": "20261027T075302",
-          "id": "housing-states-employers-protests"
-        },
-        {
-          "stamp": "20261106T212911",
-          "id": "homes-priced-by-money-from-elsewhere"
-        },
-        {
-          "stamp": "20261111T224126",
-          "id": "housing-fought-through-work"
-        }
-      ],
-      "text": "On 27 October one narrative joined Egypt, Indonesia and Tamil Nadu expanding housing with Portugal investigating police at housing protests. On 6 November the Chronicle revived it, by judgment, when foreign buyers made 16% of Portuguese purchases as prices hit records. On 11 November it was revived again, by judgment, with a narrative marked tentative: millions of Spaniards struck over housing three weeks before a general election, a rush of withdrawals hit China's payroll housing fund, and employer-linked homes were offered in Tianhe and Taiwan. Its case against says Spain has a shortage and China a slump. On 17 November Spain's strike and Porto's housing camp came in a new thread on Europe's weekly protests, which joins them with wages and prices; the Chronicle has not revived this thread for it.",
-      "direction": "It has moved from states building homes, to prices set by buyers from outside, to housing argued over through strikes, payroll funds and employers."
     },
     {
       "key": "data-centres-profit-and-objection",
@@ -209,7 +187,7 @@
           "id": "ai-found-flaws-patched-into-outages"
         }
       ],
-      "text": "Begun on 29 October with Samsung and CHPT profits on data centre demand, it ran through AI-led US growth, Taiwan's state buyers, borrowing and the Nvidia case to 12 November, then followed shared systems stopping: a Microsoft outage at British councils and Australia's federal police, the FAA's nationwide halt, the fallback left to households and faults hard to tell from attacks. On 18 November South Korea's Digital Daily blamed patches for AI-found flaws for failures at the NSA, in finance and in aviation. No narrative has carried it since. Of its early expectations, further buying by Taiwan's stabilisation fund failed on 22 November, a $10 billion data centre raise on 24 November and a 5% fall in an Nvidia supplier blamed on Nvidia on 25 November; on 25 November the Economic Times reported the Nasdaq falling back from historic highs, keeping a 5 November expectation of its recovery.",
+      "text": "Begun on 29 October with Samsung and CHPT profits on data centre demand, it ran through AI-led US growth, Taiwan's state buyers, borrowing and the Nvidia case to 12 November, then followed shared systems stopping: a Microsoft outage at British councils and Australia's federal police, the FAA's nationwide halt, the fallback left to households and faults hard to tell from attacks. On 18 November South Korea's Digital Daily blamed patches for AI-found flaws for failures at the NSA, in finance and in aviation. No narrative has carried it since. Three of its early market expectations failed between 22 and 25 November, while the Nasdaq's fall from historic highs on 25 November kept one. On 28 November its expectation that the FAA would name one fault for the 13 November ground stop failed, with nothing reported.",
       "direction": "It has moved from profit and borrowing to public services stopping when one system fails, to who holds the backup, to telling a fault from an attack, and by 18 November to patches for AI-found flaws named as a cause."
     },
     {
@@ -257,21 +235,6 @@
       ],
       "text": "Begun on 5 November, marked tentative: Indonesia's troops in Jakarta, Pakistan's army for Punjab by-elections, a Bangladeshi soldier killed raiding traffickers at Teknaf and a French bill widening when police may fire. After eleven editions without a narrative it was resumed on 19 November as crime fought as war: Haiti's forces fought gangs with Salvadoran troops in the country, Colombia's president counted a tenth bombing and weighed asking Congress for US troops, fishermen sued Washington over a drone strike at sea and the OAS called a session on organised crime. On 20 November France's parliament definitively adopted the law presuming police use of weapons lawful, keeping the 5 November expectation, in the youth protest thread. Its case against says the military role in each is decades old. No narrative carried it on 20, 21 or 22 November, so it is silent.",
       "direction": "It has moved from soldiers keeping order on home streets to armies, aircraft and foreign troops fighting gangs and smugglers, with results counted as deaths and strikes."
-    },
-    {
-      "key": "pope-leo-politics-and-restraint",
-      "label": "Pope Leo in politics, restraint on reform",
-      "status": "silent",
-      "since": "20261111T224126",
-      "lastSeen": "20261111T224126",
-      "narratives": [
-        {
-          "stamp": "20261111T224126",
-          "id": "pope-leo-politics-and-restraint"
-        }
-      ],
-      "text": "Begun on 11 November. Pope Leo XIV left Argentina after a Mass for three million, with Die Welt reporting that Javier Milei is on his own after the Pope's criticism, and arrived in Peru, where the government declared non-working days and Keiko Fujimori invited guests to meet him. In the same days the Vatican halted the reform process in the German diocese of Speyer. The join is one office speaking against a government's policy in South America while limiting lay-led reform in Germany. Its case against says popes have criticised Argentine economic policy for a decade and host governments always declare holidays for papal visits. No narrative has carried it since 11 November, so it is silent; on 21 November its Peru expectation failed, with no report of Leo XIV or the Vatican criticising a named Peruvian policy or official.",
-      "direction": ""
     },
     {
       "key": "seats-withdrawn-as-pressure",
@@ -335,7 +298,7 @@
           "id": "trade-controls-by-nationality"
         }
       ],
-      "text": "Begun on 13 November, marked firm, as Bessent blamed Lutnick for Megaspeed not being blacklisted. On 17 November Washington proposed extending chip controls to Southeast Asia. On 24 November the board reinstated Huang with Trump claiming the deal, and Megaspeed was blacklisted. On 25 November it widened to favour, as the attorney general called Nvidia a good corporate citizen during the investigation. On 26 November, marked plausible, the BBC reported Trump's accounts traded Nvidia shares 44 times this year, Observador that he would pardon Huang 'if necessary', and Democrats opened an inquiry into his lobbying, while Huawei rejected its US conviction; the join became exposure to US trade law by nationality and closeness. Its case against says Nvidia has not been charged and the pardon remark is conditional. No narrative carried it on 27 November; Huang's hearing is due on 1 December.",
+      "text": "Begun on 13 November, marked firm, as Bessent blamed Lutnick for Megaspeed not being blacklisted. On 17 November Washington proposed extending chip controls to Southeast Asia. On 24 November the board reinstated Huang with Trump claiming the deal, and Megaspeed was blacklisted. On 25 November it widened to favour, as the attorney general called Nvidia a good corporate citizen during the investigation. On 26 November, marked plausible, the BBC reported Trump's accounts traded Nvidia shares 44 times this year, Observador that he would pardon Huang 'if necessary', and Democrats opened an inquiry into his lobbying, while Huawei rejected its US conviction; the join became exposure to US trade law by nationality and closeness. Its case against says Nvidia has not been charged and the pardon remark is conditional. No narrative carried it on 27 or 28 November; Huang's hearing is due on 1 December.",
       "direction": "It has moved from a dispute between US departments over chips reaching China, to penalties on firms abroad, to the firm's treatment set beside its chief's closeness to the president, and by 26 November to the president's own trades and an offered pardon."
     },
     {
@@ -354,7 +317,7 @@
           "id": "crossings-struck-before-summit"
         }
       ],
-      "text": "Begun on 13 November, marked plausible: as the EU named its team for the Ukraine talks, a Ukrainian drone hit a Russian warship in the Gulf of Finland, bombs went off in Moscow and Iran's Revolutionary Guards claimed a strike on a US radar in Bahrain. Resumed on 17 November, marked tentative, with crossings as targets: the Crimean Bridge twice, Kyiv's bridges with 700,000 households left without power, a rail line to Hungary and Iran's Qeshm Island. On 19 November Lenta reported Trump saying Putin is angry at Zelensky over the Crimean Bridge attack, keeping the 17 November expectation. No narrative has carried it since 17 November, so it is silent. On 26 November Observador and Onet reported von der Leyen proposing an energy ceasefire in Ukraine, keeping its 13 November expectation of a ceasefire proposal banning strikes on energy sites.",
+      "text": "Begun on 13 November, marked plausible: as the EU named its team for the Ukraine talks, a Ukrainian drone hit a Russian warship, bombs went off in Moscow and Iran's Revolutionary Guards claimed a strike on a US radar in Bahrain. Resumed on 17 November, marked tentative, with crossings as targets: the Crimean Bridge twice, Kyiv's bridges, a rail line to Hungary and Iran's Qeshm Island. On 19 November Lenta reported Trump saying Putin is angry at Zelensky over the Crimean Bridge attack, keeping the 17 November expectation, and on 26 November von der Leyen was reported proposing an energy ceasefire, keeping a 13 November one. On 28 November its other 13 November expectation, that a Russian or Iranian official would cite a named strike as a reason to delay talks or harden terms, failed with nothing reported. No narrative has carried it since 17 November.",
       "direction": "It has moved from strikes on bases, ships and oil sites far from the fronts to strikes on bridges and islands in the days before the three-power meeting, and by 26 November to a proposal to halt strikes on energy sites."
     },
     {
@@ -459,7 +422,7 @@
     {
       "key": "trade-deals-beside-three-power-talks",
       "label": "Middle powers' trade deals as US tariffs loom",
-      "status": "live",
+      "status": "silent",
       "since": "20261118T225647",
       "lastSeen": "20261125T004245",
       "narratives": [
@@ -472,7 +435,7 @@
           "id": "trade-deals-among-middle-powers"
         }
       ],
-      "text": "Begun on 18 November, marked plausible, as Trump, Xi and Putin were reported meeting in China: EU governments approved signing their Indonesia agreement, Carney bet on Asia-Pacific trade and Vietnam, Chile, Peru and Egypt pressed their own deals, read as governments not waiting on the meeting. After five editions without a narrative it was resumed on 25 November, marked plausible and built from a subject the site's notebook had kept for a week: the EU and Indonesia signed on 21 November, India held talks with Canada and Belarus, Iraq and Egypt dropped entry visas, Jordan signed with Uzbekistan and Qatar talked trade with Canada, while outlets in Italy, Israel and Qatar reported Trump readying tariffs on China, Europe and fourteen more countries. Its case against says the deals predate any tariff list and no government names the tariffs. No narrative carried it on 26 or 27 November.",
+      "text": "Begun on 18 November, marked plausible, as Trump, Xi and Putin were reported meeting in China: EU governments approved signing their Indonesia agreement, Carney bet on Asia-Pacific trade and Vietnam, Chile, Peru and Egypt pressed their own deals, read as governments not waiting on the meeting. After five editions without a narrative it was resumed on 25 November, marked plausible and built from a subject the site's notebook had kept for a week: the EU and Indonesia signed on 21 November, India held talks with Canada and Belarus, Iraq and Egypt dropped entry visas, Jordan signed with Uzbekistan and Qatar talked trade with Canada, while outlets in Italy, Israel and Qatar reported Trump readying tariffs on China, Europe and fourteen more countries. Its case against says the deals predate any tariff list. No narrative carried it on 26, 27 or 28 November, so it is silent.",
       "direction": "It has moved from deals made beside a three-power meeting to deals read as the answer to US tariffs, though no government is reported naming the tariffs as its reason."
     },
     {
@@ -506,7 +469,7 @@
           "id": "public-money-enters-ai-selloff"
         }
       ],
-      "text": "Begun on 20 November, marked plausible and built from the site's notebook, so the story is older than its first narrative: Trump threatened to tax or sanction US firms building data centres abroad, Lagarde said EU funds should take first losses on chip plants and data centres, and CoreWeave fell below its listing price. After four editions without a narrative it was resumed on 26 November, marked tentative: the Dow swung more than 1,000 points on AI fears before recovering, Anthropic fell further and SuperX lost 18%, while Malaysia is exploring an AI wealth fund for citizens, the EU set out €50 billion for AI and quantum computing and the US approved Musk's plan for a million satellites hosting data centres. Its case against says the plans predate the sell-off and no government is buying the shares being sold. No narrative carried it on 27 November.",
+      "text": "Begun on 20 November, marked plausible and built from the site's notebook, so the story is older than its first narrative: Trump threatened to tax or sanction US firms building data centres abroad, Lagarde said EU funds should take first losses on chip plants and data centres, and CoreWeave fell below its listing price. After four editions without a narrative it was resumed on 26 November, marked tentative: the Dow swung more than 1,000 points on AI fears before recovering, Anthropic fell further and SuperX lost 18%, while Malaysia is exploring an AI wealth fund for citizens, the EU set out €50 billion for AI and quantum computing and the US approved Musk's plan for a million satellites hosting data centres. Its case against says the plans predate the sell-off and no government is buying the shares being sold. No narrative carried it on 27 or 28 November.",
       "direction": "It has moved from states offering to site and underwrite data centres to governments committing funds and licences to AI while private holders sell, with the shift of risk to taxpayers an inference."
     },
     {
@@ -548,7 +511,7 @@
           "id": "id-stores-breached"
         }
       ],
-      "text": "Begun on 21 November, marked firm and built from a subject the site's notebook had kept for four days, so the story is older than its first narrative: attackers reached Transport for London's photocard records, the European Commission, the FBI's crime database and the US Agriculture Department, joined as records people must give the state. After three editions without a narrative it was resumed on 26 November, marked plausible: Bithumb says hackers sat unseen for more than two weeks and took resident registration numbers and transaction records, FinCEN is investigating unauthorised access and extended filing deadlines, and a hacker reached 1Password client data. The join moved to stores that anti-money-laundering rules require, at the exchange and at the regulator. Its case against says only two of six events fit. None of the 21 November breaches has been attributed in these headlines. No narrative carried it on 27 November.",
+      "text": "Begun on 21 November, marked firm and built from a subject the site's notebook had kept for four days, so the story is older than its first narrative: attackers reached Transport for London's photocard records, the European Commission, the FBI's crime database and the US Agriculture Department, joined as records people must give the state. After three editions without a narrative it was resumed on 26 November, marked plausible: Bithumb says hackers sat unseen for more than two weeks and took resident registration numbers and transaction records, FinCEN is investigating unauthorised access and extended filing deadlines, and a hacker reached 1Password client data. The join moved to stores that anti-money-laundering rules require. Its case against says only two of six events fit. None of the 21 November breaches has been attributed in these headlines. No narrative carried it on 27 or 28 November; on 28 November 1Password's report came again in the spying thread.",
       "direction": "It has moved from breaches of records the state requires to breaches of identity stores that anti-fraud rules oblige firms and regulators to keep."
     },
     {
@@ -593,7 +556,7 @@
           "id": "consensus-talks-fail-courts-decide"
         }
       ],
-      "text": "Begun on 22 November with a narrative marked plausible that continues nothing. COP31 in Turkey ended without agreement after the EU rejected the final text, and UN talks on autonomous weapons ended without binding rules, while the International Court of Justice found Myanmar responsible for genocide against the Rohingya by nine votes to six and fifteen West African states adopted a migration declaration in Dakar. The join is that forums deciding by consensus failed while bodies that vote or admit only the willing reached decisions. Its case against says climate talks collapsed at Copenhagen in 2009, the ICJ's timing follows a 2019 filing, and the contrast may be between judging and legislating. No narrative carried it on 24, 25 or 26 November, so it is silent; on 24 November Libya's planned suit against Ukraine at the ICJ came in the thread on Europe's security.",
+      "text": "Begun on 22 November with a narrative marked plausible that continues nothing. COP31 in Turkey ended without agreement after the EU rejected the final text, and UN talks on autonomous weapons ended without binding rules, while the International Court of Justice found Myanmar responsible for genocide against the Rohingya by nine votes to six and fifteen West African states adopted a migration declaration in Dakar. The join is that forums deciding by consensus failed while bodies that vote or admit only the willing decided. Its case against says climate talks collapsed at Copenhagen in 2009 and the contrast may be between judging and legislating. No narrative carried it on 24, 25 or 26 November, so it is silent; on 28 November the climate talks' collapse came in the revived thread on governments securing their own fuel.",
       "direction": ""
     },
     {
@@ -623,13 +586,13 @@
           "id": "health-payments-routed-through-state"
         }
       ],
-      "text": "Begun on 24 November with a narrative marked tentative that continues nothing. Kenya's health ministry ordered public hospitals to stop taking payment through their own paybill numbers and the governors refused; Jordan's central bank banned cash payment of dues to medical providers; Himachal Pradesh handed its new health insurance scheme to the Aditya Birla Group. Public payers are slow: Rio Grande do Norte is late paying for orthopaedic surgeries, New Zealand's ACC refused a tradesman after decades of levies, and doctors in Jammu and Kashmir strike over stipends. The join is health money drawn into channels the state runs or chooses, and paid out slowly. Its case against says the motives differ, from county revenue to procurement, and the word payment may be doing the joining. No narrative carried it on 25, 26 or 27 November, so it is silent.",
+      "text": "Begun on 24 November with a narrative marked tentative that continues nothing. Kenya's health ministry ordered public hospitals to stop taking payment through their own paybill numbers and the governors refused; Jordan's central bank banned cash payment of dues to medical providers; Himachal Pradesh handed its new health insurance scheme to the Aditya Birla Group. Public payers are slow: Rio Grande do Norte is late paying for orthopaedic surgeries, New Zealand's ACC refused a tradesman after decades of levies, and doctors in Jammu and Kashmir strike over stipends. The join is health money drawn into channels the state runs or chooses, and paid out slowly. Its case against says the motives differ, from county revenue to procurement, and the word payment may be doing the joining. No narrative carried it on 25, 26, 27 or 28 November, so it is silent.",
       "direction": ""
     },
     {
       "key": "civilian-places-readied-for-strikes",
       "label": "Civilian buildings and roads readied for drone strikes",
-      "status": "live",
+      "status": "silent",
       "since": "20261125T004245",
       "lastSeen": "20261125T004245",
       "narratives": [
@@ -638,7 +601,7 @@
           "id": "civilian-places-readied-for-strikes"
         }
       ],
-      "text": "Begun on 25 November with a narrative marked plausible that continues nothing. Norway's NRK reports that hospitals now need bomb shelters, Iraq's defence minister ordered military units out of cities, French and Dutch jets practised landing on a Finnish motorway and Finland's hazard warning test went better. In the same days a Houthi attack hit the tallest tower in Riyadh's financial district for the second time in a week, a drone entered Polish airspace and Ukraine published another day's power cut schedules. The join is range: drones and missiles reach places far from any front, and governments prepare those places. Its case against says Finland has built shelters for decades and Iraq's order may concern Kurdish oilfields. No narrative carried it on 26 or 27 November; on 27 November the Houthi strike on Saudi Arabia's Jazan refinery came in the new thread on blockades.",
+      "text": "Begun on 25 November with a narrative marked plausible that continues nothing. Norway's NRK reports that hospitals now need bomb shelters, Iraq's defence minister ordered military units out of cities, French and Dutch jets practised landing on a Finnish motorway and Finland's hazard warning test went better. In the same days a Houthi attack hit the tallest tower in Riyadh's financial district for the second time in a week, a drone entered Polish airspace and Ukraine published another day's power cut schedules. The join is range: drones and missiles reach places far from any front, and governments prepare those places. Its case against says Finland has built shelters for decades and Iraq's order may concern Kurdish oilfields. No narrative carried it on 26, 27 or 28 November, so it is silent; on 27 November the Houthi strike on Saudi Arabia's Jazan refinery came in the blockades thread.",
       "direction": ""
     },
     {
@@ -646,30 +609,38 @@
       "label": "States' spying and sabotage through private firms",
       "status": "live",
       "since": "20261125T004245",
-      "lastSeen": "20261125T004245",
+      "lastSeen": "20261128T000158",
       "narratives": [
         {
           "stamp": "20261125T004245",
           "id": "spying-routed-through-firms"
+        },
+        {
+          "stamp": "20261128T000158",
+          "id": "militaries-on-rented-systems"
         }
       ],
-      "text": "Begun on 25 November with a narrative marked tentative that continues nothing. NPR reports the US investigating Iranian ties to as many as 50 hacked commercial vessels, Finnish media report suspected espionage at the Laukaa gunpowder factory and British firms supporting Ukraine were told to act against Russian sabotage; the CIA reported a breach after the FBI's. The join is states contesting through private targets that are told to protect themselves. The same day a 3 November expectation tracing the European supermarket attacks to a refrigeration contractor failed. On 26 November Newspim reported French intelligence naming Iran's Revolutionary Guard behind the supermarket hacking, which fits this thread though the ledger counted it in the Iran thread. Its case against says the ship hacks may be criminal. No narrative carried it on 26 or 27 November.",
-      "direction": ""
+      "text": "Begun on 25 November, marked tentative: NPR reported the US investigating Iranian ties to as many as 50 hacked commercial vessels, Finnish media suspected espionage at the Laukaa gunpowder factory and British firms supporting Ukraine were told to act against Russian sabotage. On 26 November French intelligence was reported naming Iran's Revolutionary Guard behind the supermarket hacking. Resumed on 28 November after two editions without a narrative, again tentative: outlets in Japan, the Netherlands and Israel report hackers inside a US Air Force cloud service, Yle a study confirming a Russian satellite deliberately approached a radar satellite of the Finnish firm Iceye, which would not comment, and NOS more Russian arson and explosives in Europe, while Poland signed a $300 million Palantir contract and Canada has not made telecoms remove Huawei equipment. Its case against says nothing names a contractor in the Air Force breach.",
+      "direction": "It has moved from states spying and sabotaging through private firms told to defend themselves to militaries running parts of their security on firms' clouds and satellites, with disclosure left to the firms."
     },
     {
       "key": "blockades-outlast-ceasefires",
-      "label": "Blockades left in place by truces and talks",
+      "label": "Blockades, and Washington choosing who sells oil",
       "status": "live",
       "since": "20261127T003426",
-      "lastSeen": "20261127T003426",
+      "lastSeen": "20261128T000158",
       "narratives": [
         {
           "stamp": "20261127T003426",
           "id": "blockades-outlast-ceasefires"
+        },
+        {
+          "stamp": "20261128T000158",
+          "id": "oil-sellers-chosen-by-blockade"
         }
       ],
-      "text": "Begun on 27 November with a narrative marked plausible that continues nothing. Iranian drones were reported killing two Italian Rheinmetall technicians in Kuwait, which Iran denies, and the Houthis struck Saudi Arabia's Jazan refinery, while Iraq closed its crossings with Iran and Syria to cut oil smuggling, Hamas said Gaza's blockade continues under the ceasefire, and Russia and Poland argued over what Russia calls a Baltic blockade. The join is that talks and truces cover the shooting and leave the blockade, around which new attacks gather, often killing people from countries outside the war. Its case against says the blockades differ in kind and age, the Baltic one is Russia's word for inspections of its tankers, and the siege framing is a Saudi outlet's opinion. The Chronicle gave it its own thread rather than the Iran thread, since it reaches Gaza and the Baltic.",
-      "direction": ""
+      "text": "Begun on 27 November, marked plausible: Iranian drones were reported killing two Italian technicians in Kuwait, which Iran denies, the Houthis struck Saudi Arabia's Jazan refinery, Iraq closed its crossings with Iran and Syria against oil smuggling, Hamas said Gaza's blockade continues and Russia and Poland argued over a Baltic blockade, joined as truces leaving blockades in place. On 28 November it was carried on, marked plausible: US forces disabled a commercial ship trying to leave Iran and Tehran vowed to confront the blockade, Reuters reported Washington urging Iraq and Venezuela to leave OPEC, Trump backed Iraq's smuggling crackdown, Iraq restarted its pipeline to Turkey at 300,000 barrels a day and Lukoil agreed to sell its foreign assets. Gaza and the Baltic dropped out. Its case against says the OPEC report is one unconfirmed Reuters account and Lukoil's sale follows Ukraine sanctions.",
+      "direction": "It has moved from blockades left in place by truces in the Gulf, Gaza and the Baltic to a US blockade of Iran read as one part of Washington deciding which producers sell oil and by which route."
     },
     {
       "key": "disaster-deaths-paid-by-donors",
@@ -683,7 +654,7 @@
           "id": "factory-fires-and-compensation"
         }
       ],
-      "text": "Begun on 27 November with a narrative marked plausible, built from a subject the site's notebook had kept since 22 November, so the story is older than its first narrative. The Al-Warraq fuel tanker fire in Cairo killed 31, a candy factory fire in Indonesia killed 26, a building collapsed in Karachi and an explosion hit Lanús near Buenos Aires. Payment has come from a Saudi official's EGP 43 million, an Egyptian ministry account for business donors, an airline paying a bride after a newspaper story and a charity festival in Lanús, with Indonesia's state social insurer the exception; Sindh suspended its building control chief rather than naming an owner. The join is that where liability cover is thin, deaths are paid for by gift or the state. Its case against says donations are reported and insurance payouts are not, and Helsinki's convictions show courts working.",
+      "text": "Begun on 27 November with a narrative marked plausible, built from a subject the site's notebook had kept since 22 November, so the story is older than its first narrative. The Al-Warraq fuel tanker fire in Cairo killed 31, a candy factory fire in Indonesia killed 26, a building collapsed in Karachi and an explosion hit Lanús near Buenos Aires. Payment has come from a Saudi official's EGP 43 million, an Egyptian ministry account for business donors, an airline paying a bride after a newspaper story and a charity festival in Lanús, with Indonesia's state social insurer the exception; Sindh suspended its building control chief rather than naming an owner. The join is that where liability cover is thin, deaths are paid for by gift or the state. Its case against says donations are reported and insurance payouts are not. No narrative carried it on 28 November.",
       "direction": ""
     },
     {
@@ -698,7 +669,41 @@
           "id": "officials-forged-credentials"
         }
       ],
-      "text": "Begun on 27 November with a narrative marked plausible, built from a subject the site's notebook had kept since 19 November, so the story is older than its first narrative. Colombia's National University denied that congresswoman Luz Verónica Estrada graduated, prosecutors suspended her and two more Historic Pact lawmakers face questions; on 26 November a Turkish court upheld the stripping of Ekrem İmamoğlu's degree, ending his chance to run for president; Indonesia withholds two vice-presidential contenders' health results, Tinubu's records are disputed and Peru's electoral board halted López Aliaga. The join is that the body issuing or judging a required document holds a veto on candidacy. Its case against says Colombia requires no degree for Congress and the cases may share only paper. Gibran's resignation over a certificate on 12 November sits in the leaders' children thread.",
+      "text": "Begun on 27 November with a narrative marked plausible, built from a subject the site's notebook had kept since 19 November, so the story is older than its first narrative. Colombia's National University denied that congresswoman Luz Verónica Estrada graduated, prosecutors suspended her and two more Historic Pact lawmakers face questions; on 26 November a Turkish court upheld the stripping of Ekrem İmamoğlu's degree, ending his chance to run for president; Indonesia withholds two vice-presidential contenders' health results, Tinubu's records are disputed and Peru's electoral board halted López Aliaga. The join is that the body issuing or judging a required document holds a veto on candidacy. Its case against says Colombia requires no degree for Congress and the cases may share only paper. Gibran's resignation over a certificate on 12 November sits in the leaders' children thread. No narrative carried it on 28 November.",
+      "direction": ""
+    },
+    {
+      "key": "fuel-secured-after-climate-talks",
+      "label": "Governments securing their own fuel as climate talks fail",
+      "status": "live",
+      "since": "20261110T001511",
+      "lastSeen": "20261128T000158",
+      "narratives": [
+        {
+          "stamp": "20261110T001511",
+          "id": "gas-sought-in-the-hottest-years"
+        },
+        {
+          "stamp": "20261128T000158",
+          "id": "fuel-first-after-talks-collapse"
+        }
+      ],
+      "text": "Begun on 10 November with a narrative the Chronicle had not given a thread: as the last four years were confirmed the hottest, governments sought new gas and LNG while the climate summit planned electrification. After fifteen editions without a narrative it was resumed on 28 November, marked plausible: the BBC and RNZ reported the climate talks' collapse and Handelsblatt global temperature above two degrees for a week, while Australia's parliament passed a domestic gas reservation scheme, Argentine firms and provinces sought to slow old oilfield decline, Colombia's tax law was forecast to raise electric car prices by 14% and Indonesia answered the OECD on its energy subsidies. The join is each government putting its own fuel and budget first. Its case against says none was decided in response to the summit. COP31's failure on 22 November sits in the consensus forums thread.",
+      "direction": "It has moved from governments seeking gas while the summit planned electrification to governments reserving their own supply after the talks failed, with the cost of switching left to buyers and donors."
+    },
+    {
+      "key": "controlled-diseases-return",
+      "label": "Old diseases returning where routine control stopped",
+      "status": "live",
+      "since": "20261128T000158",
+      "lastSeen": "20261128T000158",
+      "narratives": [
+        {
+          "stamp": "20261128T000158",
+          "id": "controlled-diseases-return"
+        }
+      ],
+      "text": "Begun on 28 November with a narrative marked plausible, built from a subject the site's notebook had kept for some days before any narrative, so the story is older than its first narrative; its claim counts the fortnight from 17 November. The US and Mexico have been reported losing measles elimination, Congo's Ebola outbreak has passed 12,000 cases while UN peacekeepers rescue Ebola teams from fighting in Ituri, Gaza's doctors warn of a meningitis wave, experts urge African governments to fund HIV treatment for 20 million people themselves and Israel recorded its 122nd rabies case of the year; Uganda began Africa's first mRNA vaccine trial against the Bundibugyo strain of Ebola. The join is control that rested on routine work, interrupted by war, withdrawn aid or refusal. Its case against says the diseases share nothing biologically and tuberculosis and cholera are absent from the sample.",
       "direction": ""
     }
   ],
@@ -852,9 +857,14 @@
       "held": "On 24 November the US-Iran war was reported as a pause, with Washington pressing Iran through sanctions rather than strikes and pump prices falling.",
       "undone": "On 27 November Iranian drones were reported killing two Italian technicians in Kuwait, which Iran denies, the Houthis struck Saudi Arabia's Jazan refinery and Iraq closed its crossings with Iran. The truce is now reported as covering some of the shooting while blockades and attacks on Gulf states go on, so the pause is not carried as the state of the war around the Gulf.",
       "stamp": "20261127T003426"
+    },
+    {
+      "held": "The thread on blockades left in place by truces was kept apart from the Iran war thread because its join reached Gaza and the Baltic.",
+      "undone": "On 28 November its continuation named neither Gaza nor the Baltic and read the US blockade of Iran beside US pressure on Iraq, Venezuela and Lukoil as Washington deciding who sells oil. The thread now covers ground the Iran war thread held, so the reason given for keeping them apart no longer holds.",
+      "stamp": "20261128T000158"
     }
   ],
-  "caseAgainst": "This Chronicle rests on the editions since 26 October, with none stamped 28 October, 9 November, 15 and 16 November or 23 November, drawn from whichever publishers the collection reads and capped in how many headlines each may supply. Today the brief produced little continuity: none of the three narratives continues an earlier one, two were built from the notebook, and the threads live on 26 November had no narrative, which may say more about what the writer chose than about the world. Giving the blockade narrative its own thread rather than the Iran thread was my judgment; it could as well have gone the other way, and that choice alone turned the Iran thread silent. The withdrawal of the 24 November pause reading rests on an attack Iran denies and a siege framing that the narrative's own case against calls a Saudi outlet's opinion, in a collection it describes as heavy with Gulf and Arabic outlets; the Chronicle has now moved between war and pause on single editions five times since 7 November. The fires narrative may only reflect that donations are reported and insurance payouts are not, and the credentials narrative's own case against says its cases share little but paper, with Colombia requiring no degree for Congress. No expectation was settled against today's headlines, so nothing in the ledger tests today's readings yet.",
-  "line": "By 27 November 2026 drones had killed two Italian technicians in Kuwait, and a Turkish court had ended Ekrem İmamoğlu's bid for president over his annulled degree.",
-  "revision": "Three threads were begun: blockades left in place by truces, given its own thread rather than revived in the Iran thread, and two built from the notebook, on deaths paid by donors and on degrees deciding candidacy. The Iran war, Europe security and health payments threads fell silent, the 24 November reading of the Iran war as a pause was withdrawn and its direction rewritten, and the standing was rewritten."
+  "caseAgainst": "This Chronicle rests on the editions since 26 October, with none stamped 28 October, 9 November, 15 and 16 November or 23 November, drawn from whichever publishers the collection reads and capped in how many headlines each may supply. Today three of four narratives reach back to earlier ones, two by resuming after gaps, one of fifteen editions, so much of the continuity here is produced by a brief that asks the writer to find it, and the fuel narrative's own case against says none of its events answered the summit. The blockades thread now carries the Iran war's events while the Iran thread is kept silent and apart; that division is my judgment, kept from earlier versions, and merging them would read the past week differently. Its newest turn rests on one Reuters account of US pressure on OPEC members that neither government has confirmed, and the one expectation kept today, Iraq's pipeline to Turkey, turns on disputes between Baghdad, Erbil and Ankara as much as on Hormuz. The diseases thread may be joined only by the season and by which outbreaks get covered, and the spying thread's newest narrative is marked tentative with no contractor named in the Air Force breach and 1Password tied to no military.",
+  "line": "On 28 November 2026 US forces disabled a ship trying to leave Iran under blockade, and Iraq restarted its oil pipeline to Turkey at 300,000 barrels a day.",
+  "revision": "Two threads were begun: one on old diseases returning, built from the notebook, and one on governments securing their own fuel, which takes up the unthreaded 10 November gas narrative; the spying thread was revived after two editions. The trade deals and civilian places threads fell silent, the blockades thread's label and direction were rewritten and its reason for standing apart from the Iran thread withdrawn, and the standing was rewritten."
 }
